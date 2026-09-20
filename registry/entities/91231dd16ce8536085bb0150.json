@@ -2,7 +2,7 @@
   "id": "entity:91231dd16ce8536085bb0150",
   "entity_type": "PLUGIN",
   "name": "google-cloud-well-architected",
-  "description": "Google Cloud Well-Architected Framework guidance across all six pillars.",
+  "description": "Google Cloud Well-Architected Framework guidance across all six pillars. (Codex plugin manifest). (Codex plugin manifest).",
   "source": {
     "repository_id": "repository:1342794906",
     "repository_name": "jamesrwatsonx-creator/Google-skills",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/cloud/google-cloud-well-architected/.codex-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "google-cloud-well-architected"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/plugins/cloud/google-cloud-well-architected/.codex-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:google-skills-google-cloud-core-and-infrastructure"
+  ],
+  "studios": [
+    "studio:deployment-ci"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Codex plugin support (skills also usable individually)"
+    ],
+    "overlap": "",
+    "bundles_skills": []
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

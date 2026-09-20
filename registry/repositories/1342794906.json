@@ -22,22 +22,38 @@
   "inspected_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
   "current_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
   "inspection_date": "2026-09-20T05:33:22.031649+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:google-skills-gemini-enterprise-agent-platform",
+    "capability:google-skills-gke",
+    "capability:google-skills-google-ads-and-analytics",
+    "capability:google-skills-google-cloud-core-and-infrastructure",
+    "capability:google-skills-google-cloud-data",
+    "capability:google-skills-google-cloud-observability",
+    "capability:google-skills-google-cloud-security-operations",
+    "capability:google-skills-google-cloud-solution-guides",
+    "capability:google-skills-google-cloud-well-architected"
+  ],
+  "studios": [
+    "studio:deployment-ci"
+  ],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 169,
-      "catalogued": 169,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "catalogued": 112,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "112 canonical skills retained; 57 byte-identical plugin-bundled copies removed as duplicates"
     },
     "MCP_SERVER": {
       "detected": 0,
@@ -60,8 +76,9 @@
     "PLUGIN": {
       "detected": 12,
       "catalogued": 12,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "12 host manifests retained (6 plugins x Claude Code and Codex)"
     },
     "AGENT": {
       "detected": 0,
@@ -143,9 +160,10 @@
     },
     "PACKAGE": {
       "detected": 2,
-      "catalogued": 2,
+      "catalogued": 0,
       "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "reviewed": true,
+      "lean_review_note": "Removed sample-app package.json assets inside a skill"
     },
     "MODEL": {
       "detected": 0,
@@ -245,8 +263,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -272,7 +290,33 @@
   },
   "tree_files": 829,
   "files_read": 805,
-  "entity_count": 183,
+  "entity_count": 124,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:34:38.321413+00:00",
+    "completed_at": "2026-09-20T09:34:38.321413+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 124,
+    "removed_entity_ids": [],
+    "confirmed_capabilities": [
+      "capability:google-skills-gemini-enterprise-agent-platform",
+      "capability:google-skills-gke",
+      "capability:google-skills-google-ads-and-analytics",
+      "capability:google-skills-google-cloud-core-and-infrastructure",
+      "capability:google-skills-google-cloud-data",
+      "capability:google-skills-google-cloud-observability",
+      "capability:google-skills-google-cloud-security-operations",
+      "capability:google-skills-google-cloud-solution-guides",
+      "capability:google-skills-google-cloud-well-architected"
+    ],
+    "implementation_details_not_catalogued": [
+      "skill assets, references and bundled helper scripts",
+      "plugin marketplace manifests",
+      "README and CONTRIBUTING"
+    ],
+    "scoped_deep_review": "Skills are markdown guidance; 19 skills bundle 67 helper scripts. Static scan found no rm -rf, curl|sh or sudo; subprocess use in 8 files, one `gcloud ... delete` in agent-platform-deploy/scripts/config_gcloud_cli.sh and one eval/exec in developer-device-platform-basics/scripts/demo_adb_forwarder.py. IAM, auth and ads-audience skills are flagged in metadata."
+  }
 }

@@ -7,20 +7,20 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **9,307** (net of lean-review exclusions and additions)
-- Verified entities: **6,110**
-- Candidate entities: **3,197**
+- Active entities: **9,248** (net of lean-review exclusions and additions)
+- Verified entities: **6,234**
+- Candidate entities: **3,014**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
-| `SKILL` | 3,591 |
+| `SKILL` | 3,534 |
 | `WORKFLOW` | 2,246 |
 | `AGENT` | 1,610 |
 | `UI_COMPONENT` | 852 |
 | `API` | 402 |
-| `PACKAGE` | 207 |
+| `PACKAGE` | 205 |
 | `TOOL` | 158 |
 | `CLI` | 96 |
 | `DESIGN_REFERENCE` | 74 |
@@ -146,9 +146,13 @@ Retained 3 entities: the already-VERIFIED `SKILL` (unchanged), the `PLUGIN` mani
 
 Retained 134 entities: `MCP_SERVER` `github-mcp-server`, 109 `TOOL` (parsed from `mcp.Tool{...}` definitions in `pkg/github/*.go`, each with description, toolset, `ReadOnlyHint` and required token scopes; grouped under 20 per-toolset capabilities), 2 `CLI` (`github-mcp-server`, `mcpcurl`), 3 `LIBRARY` (`inventory`, `scopes`, `oauth`), 2 `PACKAGE` (Go module, `@github/mcp-server-ui`), 9 of 13 `WORKFLOW`, 5 `UI_COMPONENT` (`MarkdownEditor` plus four MCP App UIs), 1 `AGENT`, 2 `PROMPT`. Removed 6 (4 workflows, `AppProvider`, `FeedbackFooter`). The declaration scan had missed the server and all tools. Scoped deep review: 52 of 109 tools are write-capable and act with the caller's GitHub credentials (PAT or OAuth); mitigations are `--read-only`, `--toolsets`, `--exclude-tools`; no token persistence found in `internal/oauth`; the server and repository are `SECURITY REVIEW REQUIRED` pending a deliberate scope choice. Script: `scripts/review_github_mcp_server_semantics.py` (needs `GH_TARBALL`). Re-run note: `lean_review_lib.write_capabilities` now drops stale providers, and review scripts must skip existing entities already in `review.out`.
 
-## Exact resume point: Google-skills
+## Completed: Google-skills lean semantic review (`1af77752950126ae12dec176a0a3b27a16b7f5f7`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/Google-skills` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `1af77752950126ae12dec176a0a3b27a16b7f5f7`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 124 entities: 112 canonical `SKILL` (under `skills/<area>/`, grouped under 9 product-area capabilities) and 12 `PLUGIN` manifests (6 plugins x Claude Code and Codex, each with `CONTAINS_SKILL` edges to its canonical skills). Removed 59: 57 byte-identical skill copies bundled inside `plugins/cloud/*/skills` (blob SHAs verified equal to the canonical skill) and 2 sample-app `package.json` asset packages. Scoped review of bundled scripts (19 skills, 67 files): no `rm -rf`, `curl|sh` or `sudo`; `subprocess` in 8 files, one `gcloud ... delete` in `agent-platform-deploy/scripts/config_gcloud_cli.sh`, one `eval/exec` in `developer-device-platform-basics/scripts/demo_adb_forwarder.py`; IAM/auth/ads-audience skills carry a `sensitivity` flag. Script: `scripts/review_google_skills_semantics.py` (needs `GS_TARBALL`). Re-run note: rerunning a script after it dropped entities loses `removed_entity_ids`; restore it from `git status` if needed.
+
+## Exact resume point: hermes-agent
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/hermes-agent` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `261a4efb90d7dbe4e71786861858f721b4ab730c`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

@@ -2,7 +2,7 @@
   "id": "entity:784a98dbdb467ca00d1ae8fd",
   "entity_type": "PLUGIN",
   "name": "google-cloud-run",
-  "description": "Cloud Run guidance for coding agents: services, jobs, and worker pools.",
+  "description": "Cloud Run guidance for coding agents: services, jobs, and worker pools. (Claude Code plugin manifest). (Claude Code plugin manifest).",
   "source": {
     "repository_id": "repository:1342794906",
     "repository_name": "jamesrwatsonx-creator/Google-skills",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/cloud/google-cloud-run/.claude-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "google-cloud-run"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/plugins/cloud/google-cloud-run/.claude-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:google-skills-google-cloud-core-and-infrastructure"
+  ],
+  "studios": [
+    "studio:deployment-ci"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Claude Code plugin support (skills also usable individually)"
+    ],
+    "overlap": "",
+    "bundles_skills": []
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

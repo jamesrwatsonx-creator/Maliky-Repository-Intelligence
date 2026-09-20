@@ -16,25 +16,38 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "skills/cloud/agent-platform-eval-flywheel/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "agent-platform-eval-flywheel"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/agent-platform-eval-flywheel/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:01",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:google-skills-gemini-enterprise-agent-platform"
+  ],
+  "studios": [
+    "studio:deployment-ci"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Agent host that loads SKILL.md skills",
+      "Google Cloud project and credentials (skill bundles helper scripts)"
+    ],
+    "overlap": "",
+    "bundled_scripts": 7
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE EXISTING SKILL",
   "contribution_role": "SKILL"
 }
