@@ -1,0 +1,59 @@
+{
+  "id": "entity:1ce188c745a55a64e427fb68",
+  "entity_type": "AGENT",
+  "name": "create_sentiment_analyst",
+  "description": "Grounded sentiment analyst: pre-fetches Yahoo Finance news, StockTwits messages and Reddit posts into the prompt (no tool calling) so the report is grounded rather than recalled.",
+  "source": {
+    "repository_id": "repository:1247317639",
+    "repository_name": "jamesrwatsonx-creator/TradingAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/TradingAgents",
+    "upstream_url": "https://github.com/TauricResearch/TradingAgents",
+    "source_path": "tradingagents/agents/analysts/sentiment_analyst.py",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "inspection_date": "2026-09-20T09:02:43.246569+00:00",
+    "blob_sha": "e1e4ee4f41fa71ac74dcc46181fca5bbdec02ed2",
+    "line": 38
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/analysts/sentiment_analyst.py#L38"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:03",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:grounded-social-sentiment-analysis-agent"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Python >=3.10",
+      "langgraph",
+      "langchain-core",
+      "LLM provider API key",
+      "TradingAgentsGraph state and tool nodes"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

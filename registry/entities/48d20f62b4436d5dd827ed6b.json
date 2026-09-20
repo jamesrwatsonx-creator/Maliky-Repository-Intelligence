@@ -1,0 +1,56 @@
+{
+  "id": "entity:48d20f62b4436d5dd827ed6b",
+  "entity_type": "CONNECTOR",
+  "name": "stocktwits",
+  "description": "StockTwits public symbol-stream fetcher: no key, returns formatted per-ticker retail messages with user-labelled bullish/bearish tags; degrades to a placeholder on failure.",
+  "source": {
+    "repository_id": "repository:1247317639",
+    "repository_name": "jamesrwatsonx-creator/TradingAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/TradingAgents",
+    "upstream_url": "https://github.com/TauricResearch/TradingAgents",
+    "source_path": "tradingagents/dataflows/stocktwits.py",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "inspection_date": "2026-09-20T09:02:43.277603+00:00",
+    "blob_sha": "a1b2992babbaa45267dd7b93d2533d9c4e7840bc",
+    "line": 30
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/dataflows/stocktwits.py#L30"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:10",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:social-ticker-discussion-retrieval"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "requests",
+      "public unauthenticated endpoint (rate and terms limits)"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "COMPONENT"
+}

@@ -7,27 +7,31 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **6,958** (Voicebox lean census excluded 52; codegraph review added 10 unlisted MCP server/tool entities)
-- Verified entities: **27**
-- Candidate entities: **6,931**
+- Active entities: **6,986** (Voicebox lean census excluded 52; codegraph and TradingAgents reviews added entities the declaration scan missed)
+- Verified entities: **57**
+- Candidate entities: **6,929**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,469 |
-| `AGENT` | 1,597 |
+| `AGENT` | 1,609 |
 | `UI_COMPONENT` | 946 |
 | `API` | 404 |
 | `PACKAGE` | 209 |
 | `CLI` | 94 |
 | `WORKFLOW` | 84 |
 | `DESIGN_REFERENCE` | 74 |
-| `TOOL` | 39 |
+| `TOOL` | 48 |
 | `PLUGIN` | 29 |
 | `MCP_SERVER` | 11 |
 | `SERVICE` | 1 |
 | `DOCUMENTATION_ASSET` | 1 |
+| `CONNECTOR` | 4 |
+| `AGENT_FRAMEWORK` | 1 |
+| `MODEL_ADAPTER` | 1 |
+| `COMPONENT` | 1 |
 
 `system/inspection-state.json` currently records:
 
@@ -108,9 +112,13 @@ All entities in these types passed the lean test. Descriptions and valid capabil
 
 Retained 15 entities: 1 `MCP_SERVER` (`codegraph`), 9 `TOOL` (`codegraph_search/context/callers/callees/impact/node/explore/status/files`), 1 `CLI`, 1 `PACKAGE`, 2 `SKILL` (`add-lang`, `agent-eval`), 1 `WORKFLOW` (`Release`). The MCP server and its nine tools were missed by the declaration scan and were added from `src/mcp/*` (blob SHAs verified against `system/evidence/1247306274.json`). 13 capabilities were registered; the repository record is `USE DIRECTLY` with `next_phase: CAPABILITY_ANALYSIS`. Language extractors, framework resolvers, db/graph/search/sync internals and tests are implementation details. The source cache was absent, so the nine pinned files reviewed were fetched read-only via `gh api` at the pinned commit. Script: `scripts/review_codegraph_semantics.py`.
 
-## Exact resume point: TradingAgents
+## Completed: TradingAgents lean semantic review (`61522e103e61601c553b4544abcd53fa7ebf9f1d`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/TradingAgents` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `61522e103e61601c553b4544abcd53fa7ebf9f1d`). It is financial (trading), so it triggers scoped deep review under `rules/semantic-review.md`. Use `python scripts/build_semantic_review_packet.py` if a cache exists; otherwise read exact pinned files with `gh api` and follow the `scripts/review_codegraph_semantics.py` pattern.
+Retained 30 entities: 1 `AGENT_FRAMEWORK` (`TradingAgentsGraph`), 12 `AGENT` (4 analysts, bull/bear researchers, research manager, trader, 3 risk debaters, portfolio manager), 9 `TOOL` (LangChain data tools), 4 `CONNECTOR` (yfinance, Alpha Vantage, StockTwits, Reddit), 1 `MODEL_ADAPTER` (`create_llm_client`), 1 `COMPONENT` (`TradingMemoryLog`), `CLI`, `PACKAGE`. `create_social_media_analyst` is a deprecated alias and was excluded. 16 capabilities were registered. Scoped deep review (financial): no order placement, broker/exchange client, wallet or private-key code exists; output is an advisory five-tier rating, and the README says research use only. Residual risks: LLM keys via env vars, unauthenticated Reddit/StockTwits endpoints, non-deterministic LLM output. Relationships include ALTERNATIVE_TO AutoHedge/Vibe-Trading/AI-Trader/FinMem and COMPLEMENTS freqtrade/ccxt/hummingbot (all unreviewed peers). Script: `scripts/review_tradingagents_semantics.py`.
+
+## Exact resume point: uAgents
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/uAgents` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `9f6a18bd1e8356be834d6d6e78533c47c609e8d1`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_codegraph_semantics.py` / `scripts/review_tradingagents_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

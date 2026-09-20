@@ -1,0 +1,64 @@
+{
+  "id": "entity:bbe482c87b8a99b383c5f6cb",
+  "entity_type": "AGENT_FRAMEWORK",
+  "name": "TradingAgentsGraph",
+  "description": "LangGraph pipeline mirroring a trading firm: analyst team, bull/bear research debate, research manager, trader, three-way risk debate and portfolio manager; propagate(ticker, date) returns a five-tier advisory rating. Includes SQLite checkpoint resume, a reflection step and a persistent decision log. It never places orders.",
+  "source": {
+    "repository_id": "repository:1247317639",
+    "repository_name": "jamesrwatsonx-creator/TradingAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/TradingAgents",
+    "upstream_url": "https://github.com/TauricResearch/TradingAgents",
+    "source_path": "tradingagents/graph/trading_graph.py",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "inspection_date": "2026-09-20T09:02:43.239471+00:00",
+    "blob_sha": "e3d1f125b0dc545114d82ce693dfb11396c72fdc",
+    "line": 50
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/graph/trading_graph.py#L50"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/main.py#L13"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:03",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:multi-agent-trading-decision-pipeline"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.10",
+      "langgraph",
+      "langchain-core",
+      "LLM provider API key",
+      "yfinance or Alpha Vantage data",
+      "optional SQLite checkpoints"
+    ],
+    "overlap": "ALTERNATIVE_TO AutoHedge, Vibe-Trading, AI-Trader and FinMem-LLM-StockTrading (unreviewed); COMPLEMENTS execution engines (freqtrade, ccxt, hummingbot) that it does not replace"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "CORE"
+}

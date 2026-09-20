@@ -22,16 +22,42 @@
   "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
   "current_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
   "inspection_date": "2026-09-20T05:32:28.501770+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
-  "ideas": [],
+  "capabilities": [
+    "capability:bull-bear-investment-debate",
+    "capability:company-fundamentals-retrieval",
+    "capability:financial-news-analysis-agent",
+    "capability:financial-news-and-insider-retrieval",
+    "capability:fundamental-company-analysis-agent",
+    "capability:grounded-social-sentiment-analysis-agent",
+    "capability:multi-agent-trading-decision-pipeline",
+    "capability:multi-perspective-risk-debate",
+    "capability:multi-provider-llm-client-factory",
+    "capability:multi-vendor-market-data-routing",
+    "capability:portfolio-rating-decision",
+    "capability:social-ticker-discussion-retrieval",
+    "capability:stock-price-and-indicator-retrieval",
+    "capability:technical-market-analysis-agent",
+    "capability:trade-proposal-generation",
+    "capability:trading-decision-memory-and-reflection"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE AS LIBRARY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -52,10 +78,11 @@
       "reviewed": false
     },
     "TOOL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 9,
+      "catalogued": 9,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Nine LangChain data tools retained"
     },
     "PLUGIN": {
       "detected": 0,
@@ -64,16 +91,18 @@
       "reviewed": false
     },
     "AGENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 12,
+      "catalogued": 12,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Twelve role agents retained; create_social_media_analyst is a deprecated alias of create_sentiment_analyst and is not catalogued"
     },
     "AGENT_FRAMEWORK": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "TradingAgentsGraph read from source; not found by declaration scan"
     },
     "WORKFLOW": {
       "detected": 0,
@@ -82,10 +111,11 @@
       "reviewed": false
     },
     "COMPONENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "TradingMemoryLog read from source"
     },
     "UI_COMPONENT": {
       "detected": 0,
@@ -144,8 +174,9 @@
     "PACKAGE": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "MODEL": {
       "detected": 0,
@@ -154,10 +185,11 @@
       "reviewed": false
     },
     "MODEL_ADAPTER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "LLM client factory read from source"
     },
     "DATASET": {
       "detected": 0,
@@ -178,10 +210,11 @@
       "reviewed": false
     },
     "CONNECTOR": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 4,
+      "catalogued": 4,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Vendor/data connectors retained"
     },
     "INTEGRATION": {
       "detected": 0,
@@ -198,8 +231,9 @@
     "CLI": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "APP": {
       "detected": 0,
@@ -245,8 +279,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -271,7 +305,72 @@
   },
   "tree_files": 116,
   "files_read": 96,
-  "entity_count": 2,
+  "entity_count": 30,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:02:43.429205+00:00",
+    "completed_at": "2026-09-20T09:02:43.429205+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 30,
+    "confirmed_entity_ids": [
+      "entity:bbe482c87b8a99b383c5f6cb",
+      "entity:9870e355ed8bf322ed39b5e5",
+      "entity:9c06e6fe6a56cb2e641fc6a1",
+      "entity:3c5cc0d1f52d56e25d27eeee",
+      "entity:1ce188c745a55a64e427fb68",
+      "entity:95834619a701c8d3acddc444",
+      "entity:31fbbccef6a7fa25f6f897bc",
+      "entity:9d0013d904c1993d7c7f4616",
+      "entity:10652925cfc4a1801e93f81d",
+      "entity:e077455cf8f4661eb28bc9b0",
+      "entity:3a0c8b416ac421ff984533cf",
+      "entity:6b807937912a3f3ee95fff21",
+      "entity:9d0b34be91d83fbcb21d1544",
+      "entity:3851010a339785fa5c05fd5e",
+      "entity:c8b5e0d0830a4a85b909b661",
+      "entity:aa253e1e5ac696586f781dfa",
+      "entity:7e6c062831e633b3d253e95a",
+      "entity:906d22611d0dc2d0ec628d0b",
+      "entity:f5838f78371e39a3530b54be",
+      "entity:09b1f293d5a585bce191f778",
+      "entity:e6370dea6b6ecc4c2dc74538",
+      "entity:2e7b593b42cf25f117b80327",
+      "entity:b05bcb414921c95a80f2f6c6",
+      "entity:d66d5fbf502ea55eacd77f52",
+      "entity:48d20f62b4436d5dd827ed6b",
+      "entity:091bc5572f4e5c87bc4f1b4f",
+      "entity:3668ff1cff56a90c9fc71fda",
+      "entity:08dc5124767bf380b019a70f",
+      "entity:2315aadec62a2080b769c25a",
+      "entity:d01f04cb9ac154d7768018d7"
+    ],
+    "confirmed_capabilities": [
+      "capability:bull-bear-investment-debate",
+      "capability:company-fundamentals-retrieval",
+      "capability:financial-news-analysis-agent",
+      "capability:financial-news-and-insider-retrieval",
+      "capability:fundamental-company-analysis-agent",
+      "capability:grounded-social-sentiment-analysis-agent",
+      "capability:multi-agent-trading-decision-pipeline",
+      "capability:multi-perspective-risk-debate",
+      "capability:multi-provider-llm-client-factory",
+      "capability:multi-vendor-market-data-routing",
+      "capability:portfolio-rating-decision",
+      "capability:social-ticker-discussion-retrieval",
+      "capability:stock-price-and-indicator-retrieval",
+      "capability:technical-market-analysis-agent",
+      "capability:trade-proposal-generation",
+      "capability:trading-decision-memory-and-reflection"
+    ],
+    "scoped_deep_review": "Financial domain: searched pinned source for order placement, broker/exchange clients, wallets and private-key handling; none found. Output is an advisory five-tier rating; README states research use only, not financial advice. Remaining risk: LLM API keys read from env vars, unauthenticated Reddit/StockTwits endpoints, non-deterministic outputs.",
+    "implementation_details_not_catalogued": [
+      "graph setup, conditional logic, propagation, signal processing, reflection and checkpointer internals",
+      "dataflows utilities, config and per-endpoint Alpha Vantage modules",
+      "agent state, schemas, rating parser and structured-output helpers",
+      "tests, docker-compose and scripts/smoke_structured_output.py"
+    ]
+  }
 }

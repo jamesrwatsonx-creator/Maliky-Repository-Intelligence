@@ -1,0 +1,50 @@
+{
+  "id": "entity:3668ff1cff56a90c9fc71fda",
+  "entity_type": "MODEL_ADAPTER",
+  "name": "create_llm_client",
+  "description": "Lazy-importing factory returning a BaseLLMClient for OpenAI-compatible providers, Anthropic, Google or Azure OpenAI; used for the deep-thinking and quick-thinking model roles.",
+  "source": {
+    "repository_id": "repository:1247317639",
+    "repository_name": "jamesrwatsonx-creator/TradingAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/TradingAgents",
+    "upstream_url": "https://github.com/TauricResearch/TradingAgents",
+    "source_path": "tradingagents/llm_clients/factory.py",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "inspection_date": "2026-09-20T09:02:43.281616+00:00",
+    "blob_sha": "9bf1d9fbadb41a49c22ec6e4cbae0ade3b1a2453",
+    "line": 15
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/llm_clients/factory.py#L15"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:llm-projects",
+    "category:ai-orchestration"
+  ],
+  "operational_category": "operational:15",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:multi-provider-llm-client-factory"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "langchain provider packages",
+      "provider API key env vars"
+    ],
+    "overlap": "Complements any OpenRouter-style router in this registry"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

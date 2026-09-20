@@ -2,7 +2,7 @@
   "id": "entity:d01f04cb9ac154d7768018d7",
   "entity_type": "PACKAGE",
   "name": "tradingagents",
-  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "description": "PyPI-style package tradingagents 0.2.5 (Apache-2.0) bundling the graph, agents, dataflows and LLM clients plus the cli package.",
   "source": {
     "repository_id": "repository:1247317639",
     "repository_name": "jamesrwatsonx-creator/TradingAgents",
@@ -16,25 +16,45 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "pyproject.toml"
-    },
-    {
-      "type": "manifest",
-      "value": "tradingagents"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/pyproject.toml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
-  "ideas": [],
-  "metadata": {},
+  "capabilities": [
+    "capability:multi-agent-trading-decision-pipeline"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.10",
+      "langgraph",
+      "langchain-core",
+      "LLM provider API key",
+      "pandas",
+      "yfinance"
+    ],
+    "overlap": "Same distribution as the tradingagents CLI entity; not a separate product"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
 }

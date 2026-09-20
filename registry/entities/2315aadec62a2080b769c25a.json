@@ -2,7 +2,7 @@
   "id": "entity:2315aadec62a2080b769c25a",
   "entity_type": "CLI",
   "name": "tradingagents",
-  "description": "cli.main:app",
+  "description": "`tradingagents` Typer/Rich CLI (cli.main:app): interactive provider, model, ticker and analyst selection, live progress, saved reports; prompts for and exports the chosen LLM provider API key into the process environment.",
   "source": {
     "repository_id": "repository:1247317639",
     "repository_name": "jamesrwatsonx-creator/TradingAgents",
@@ -16,25 +16,46 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "pyproject.toml"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/pyproject.toml#L1"
     },
     {
-      "type": "manifest",
-      "value": "tradingagents"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/cli/utils.py#L477"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
-  "ideas": [],
-  "metadata": {},
+  "capabilities": [
+    "capability:multi-agent-trading-decision-pipeline"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.10",
+      "typer, rich, questionary",
+      "LLM provider API key"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "CORE"
 }

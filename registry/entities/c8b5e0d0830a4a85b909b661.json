@@ -1,0 +1,57 @@
+{
+  "id": "entity:c8b5e0d0830a4a85b909b661",
+  "entity_type": "TOOL",
+  "name": "get_indicators",
+  "description": "Technical indicator values for a symbol, routed to the configured vendor. Reads market data only.",
+  "source": {
+    "repository_id": "repository:1247317639",
+    "repository_name": "jamesrwatsonx-creator/TradingAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/TradingAgents",
+    "upstream_url": "https://github.com/TauricResearch/TradingAgents",
+    "source_path": "tradingagents/agents/utils/technical_indicators_tools.py",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "inspection_date": "2026-09-20T09:02:43.262092+00:00",
+    "blob_sha": "a3dda5a510346e64ba78484706603fe592952658",
+    "line": 6
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/utils/technical_indicators_tools.py#L6"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:llm-projects",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:10",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:stock-price-and-indicator-retrieval"
+  ],
+  "studios": [
+    "studio:trading-studio"
+  ],
+  "ideas": [
+    "idea:trading-studio"
+  ],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "langchain-core @tool",
+      "dataflows route_to_vendor",
+      "yfinance or Alpha Vantage"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "COMPONENT"
+}
