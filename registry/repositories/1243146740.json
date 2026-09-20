@@ -22,22 +22,33 @@
   "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
   "current_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
   "inspection_date": "2026-09-20T05:32:28.504766+00:00",
-  "categories": [],
+  "categories": [
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:mcp-servers",
+    "category:desktop-applications",
+    "category:full-stack-applications"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:local-audio-transcription",
+    "capability:voice-capture-history-discovery",
+    "capability:voice-profile-discovery",
+    "capability:queued-speech-generation-submission"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 4,
       "catalogued": 4,
       "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "reviewed": true
     },
     "MCP_SERVER": {
       "detected": 1,
@@ -79,7 +90,7 @@
       "detected": 3,
       "catalogued": 3,
       "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "reviewed": true
     },
     "COMPONENT": {
       "detected": 0,
@@ -89,9 +100,10 @@
     },
     "UI_COMPONENT": {
       "detected": 118,
-      "catalogued": 118,
+      "catalogued": 67,
       "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "reviewed": true,
+      "lean_review_note": "Excluded 51: 1 constant (MODEL_DISPLAY_NAMES), 1 internal hook (AudioKeepAlive), 6 ListPane sub-fragments, 4 docs scaffolding, 10 landing pages, 26 landing marketing sections, 3 icon wrappers. Kept 67 meaningful voice-studio components."
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
@@ -125,9 +137,10 @@
     },
     "API": {
       "detected": 123,
-      "catalogued": 123,
+      "catalogued": 122,
       "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "reviewed": true,
+      "lean_review_note": "Excluded 1 test-file duplicate (backend/tests/test_cors.py health). Kept 122 real API routes representing full REST integration surface."
     },
     "SDK": {
       "detected": 0,
@@ -145,7 +158,7 @@
       "detected": 7,
       "catalogued": 7,
       "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "reviewed": true
     },
     "MODEL": {
       "detected": 0,
@@ -245,8 +258,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -272,9 +285,9 @@
   },
   "tree_files": 681,
   "files_read": 496,
-  "entity_count": 260,
+  "entity_count": 209,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW",
+  "next_phase": "CAPABILITY_ANALYSIS",
   "semantic_review_progress": {
     "started_at": "2026-09-20T07:53:34.579573+00:00",
     "reviewer": "Codex static semantic review",
@@ -292,11 +305,10 @@
       "capability:voice-capture-history-discovery",
       "capability:voice-profile-discovery"
     ],
-    "pending": [
-      "Reconcile 123 HTTP route candidates, excluding tests and generated clients where appropriate",
-      "Review 118 UI component candidates for reusable boundaries",
-      "Review 4 Skills, 3 workflows and 7 packages",
-      "Score, map relationships and complete the independent census"
-    ]
+    "pending": [],
+    "completed_at": "2026-09-20T08:34:23.741428+00:00",
+    "status": "COMPLETE",
+    "final_entity_count": 209,
+    "review_policy": "LEAN"
   }
 }

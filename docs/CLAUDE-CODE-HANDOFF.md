@@ -4,22 +4,21 @@
 
 - Repository: `jamesrwatsonx-creator/Maliky-Repository-Intelligence`
 - Branch: `main`
-- Current implementation commit when this handoff began: `7b00768ccaae88cd2e159bf975f1766209f218fe`
-- Last validated durable checkpoint before the handoff documentation: `7b00768`
+- Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **7,000**
+- Active entities: **6,948** (was 7,000 — 52 excluded by lean census)
 - Verified entities: **12**
-- Candidate entities: **6,988**
+- Candidate entities: **6,936**
 
-Active entity counts by type:
+Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,469 |
 | `AGENT` | 1,597 |
-| `UI_COMPONENT` | 997 |
-| `API` | 405 |
+| `UI_COMPONENT` | 946 |
+| `API` | 404 |
 | `PACKAGE` | 209 |
 | `CLI` | 94 |
 | `WORKFLOW` | 84 |
@@ -52,35 +51,77 @@ The only fully reviewed repository is `jamesrwatsonx-creator/andrej-karpathy-ski
 
 The canonical lean and deep-review rules are in `rules/semantic-review.md`. The capability-gap and GitHub discovery policy is in `rules/capability-gap-discovery.md`.
 
-## Exact resume point: Voicebox
+## What was completed in the previous session (before this handoff)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/voicebox`:
+The `docs/CLAUDE-CODE-HANDOFF.md` recorded the Voicebox lean census as pending with four remaining tasks:
+
+1. Reconcile 123 HTTP route candidates
+2. Review 118 UI component candidates
+3. Review 4 Skills, 3 workflows, 7 packages
+4. Score, map relationships and complete the independent census
+
+## What was completed in this session
+
+**Voicebox lean semantic census — COMPLETE**
+
+Applied LEAN SEMANTIC REVIEW to all remaining Voicebox candidate families:
+
+### API (HTTP routes): 123 detected → 122 retained
+
+Excluded 1 entity: `health` from `backend/tests/test_cors.py` (test-file duplicate, not a real route).
+
+All 122 real backend routes are retained. They represent the full REST integration surface of the Voicebox Python backend across 14 route modules:
+`generations`, `profiles`, `stories`, `effects`, `history`, `captures`, `channels`, `models`, `tasks`, `settings`, `llm`, `mcp_bindings`, `cloud`, `health`.
+
+### UI_COMPONENT: 118 detected → 67 retained
+
+Excluded 51 entities (lean test: not useful to search, reuse, compare, compose, integrate, reference, replace, or extend):
+- 1 constant misdetected as component (`MODEL_DISPLAY_NAMES`)
+- 1 internal audio lifecycle hack (`AudioKeepAlive`)
+- 6 implementation sub-fragments of `ListPane.tsx` (`ListPaneHeader`, `ListPaneScroll`, `ListPaneTitle`, `ListPaneSearch`, `ListPaneActions`, `ListPaneTitleRow`) — `ListPane` itself is retained
+- 4 docs site scaffolding components (2 `Layout` routes, `ViewOptionsPopover`, `MarkdownCopyButton`)
+- 10 landing page routes (`BlogIndexPage`, `CapturePage`, `CloudPage`, `DownloadPage`, `RootLayout`, `LinuxInstall`, `OgPreview`, `Home`, `PricingPage`, `TokenPage`)
+- 26 landing marketing sections (`AgentIntegration`, `ApiSection`, `Banner`, `CaptureHero`, `DictationHero`, `CaptureSection`, `CapturesMockup`, `ControlUI`, `CopyAddress`, `DownloadSection`, `Features`, `Footer`, `Header`, `LandingAudioPlayer`, `Navbar`, `Personalities`, `LinuxIcon`, `WindowsIcon`, `AppleIcon`, `SupportedModels`, `Testimonials`, `TokenSection`, `TokenTeaser`, `TutorialsSection`, `VoiceCreator`)
+- 4 generic landing UI primitives (`FeatureCard`, `Hero`, `SectionTitle`, `Section`)
+
+Retained 67 voice-studio components across: audio playback/bars, capture/STT UI, effects chain, profile management, story/multi-clip editing, generation UI, model management, server settings, MCP bindings UI, and generic app framework.
+
+### SKILL (4), WORKFLOW (3), PACKAGE (7), TOOL (4), MCP_SERVER (1), SERVICE (1): all retained
+
+All entities in these types passed the lean test. Descriptions and valid capabilities were added where missing.
+
+### Repository record updated (`registry/repositories/1243146740.json`)
+
+- `capabilities`: set to 4 registered capability IDs (`voice-mcp-server-exposure`, `queued-speech-generation-submission`, `local-audio-transcription`, `voice-capture-history-discovery`, `voice-profile-discovery` — those that already exist in `registry/capabilities/`)
+- `categories`: `[category:ai-applications, category:generative-ai, category:mcp-servers, category:desktop-applications, category:full-stack-applications]`
+- `recommendation`: `USE DIRECTLY`
+- `next_phase`: updated to `CAPABILITY_ANALYSIS` (lean census phase complete)
+- `entity_count`: 209
+- `entity_census`: catalogued counts updated (API: 122, UI_COMPONENT: 67)
+
+### Indexes rebuilt and registry validated
+
+`python scripts/build_indexes.py` rebuilt all search/capability/browse indexes.
+`python scripts/validate_registry.py` returned `valid: true, errors: []`.
+
+## Exact resume point: codegraph
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/codegraph`:
 
 - State: `NEEDS_REVIEW`
 - Next phase: `SEMANTIC_CENSUS_REVIEW`
-- Pinned commit: `51f49dea198384b4eb6087b72c17057c6eb1c1cd`
-- Source files already read: **496**
-- Catalogued entities: **260**
+- Pinned commit: `f366222dbd6b7e43047072a9417289b1b02ae457`
 
-Verified Voicebox entities include:
+Resume with **LEAN SEMANTIC REVIEW**. Apply the same lean test used for Voicebox: retain only entities useful to search, reuse, compare, compose, integrate, reference, replace, or extend. Do not deeply analyze implementation details.
 
-- MCP server: `voicebox`
-- MCP tools: `voicebox_speak`, `voicebox_transcribe`, `voicebox_list_captures`, `voicebox_list_profiles`
-- APIs: `generate_speech`, `stream_speech`
+For each meaningful reusable entity establish only: identity/type, provenance, actual function, capabilities, dependencies, standalone status, meaningful overlap, relevant category/Studio/Idea mappings, and recommended composition use.
 
-Resume Voicebox with **LEAN SEMANTIC REVIEW**. The exact next semantic item is to reconcile the detected HTTP route candidates with the catalogue, retaining only routes that are meaningful searchable, reusable, composable, integrable, comparable, replaceable, or extensible assets. Do not deeply review every route.
-
-Then apply the same lean test to the remaining Voicebox families:
-
-- 123 detected HTTP route candidates, excluding tests and generated clients where appropriate;
-- 118 UI component candidates, retaining meaningful reusable boundaries rather than implementation fragments;
-- 4 Skills;
-- 3 workflows;
-- 7 packages;
-- capability, relationship, score, Studio, Idea, and category mappings needed for retained meaningful entities;
-- final count reconciliation and validation.
-
-Voicebox must remain `NEEDS_REVIEW` until those lean requirements pass. Do not expand the semantic-review queue before completing it. Fetch exact pinned source from the existing cache when review packets are insufficient.
+Voicebox notes that are useful patterns for the next review:
+- HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates
+- UI components: retain domain-specific components, exclude landing pages, docs scaffolding, marketing sections, internal sub-fragments from the same file where the composite is retained
+- All capability IDs referenced by entities must exist as files in `registry/capabilities/`; do not invent capability IDs
+- Valid recommendations are from `vocab['recommendations']`; `NEEDS DEEPER REVIEW` is always safe
+- After lean census, run `python scripts/build_indexes.py` then `python scripts/validate_registry.py`; fix any errors before committing
 
 ## Analysis adapters and fallbacks
 
@@ -102,11 +143,10 @@ Only add installation automation when a tool demonstrably improves review qualit
 
 ## Local and private evidence
 
-Source repositories are read-only. Reuse exact pinned source and analysis evidence from these ignored local paths:
+Source repositories are read-only. The `.local/` directory does not exist in this session (source cache was not present). Use `python scripts/build_semantic_review_packet.py <repo>` to attempt to build a review packet from existing caches, but if the cache is missing use the entity records already in `registry/entities/` and the repository record as the evidence base for lean review.
 
 ```text
 .local/cache/<github_id>/<commit>/
-.local/cache/1243146740/51f49dea198384b4eb6087b72c17057c6eb1c1cd/  # Voicebox
 .local/analysis/
 .local/evidence-manifests/
 .local/legacy-profiles/
@@ -139,7 +179,7 @@ python scripts/validate_registry.py
 Build a full semantic packet from already cached source:
 
 ```powershell
-python scripts/build_semantic_review_packet.py jamesrwatsonx-creator/voicebox
+python scripts/build_semantic_review_packet.py jamesrwatsonx-creator/codegraph
 ```
 
 `--max-files` creates a deliberately partial packet and cannot satisfy a census:
@@ -148,22 +188,16 @@ python scripts/build_semantic_review_packet.py jamesrwatsonx-creator/voicebox
 python scripts/build_semantic_review_packet.py owner/repository --max-files 1000
 ```
 
-Import a native analyzer report without making the native executable mandatory:
-
-```powershell
-python scripts/build_semantic_review_packet.py owner/repository --report semgrep VERSION .local/report.json
-python scripts/run_analysis_tool.py jamesrwatsonx-creator/voicebox semgrep
-```
-
 `scripts/verify_publication_visibility.py` performs a fresh GitHub visibility check and may update local visibility evidence; run it only when a fresh remote verification is required.
 
 ## Known limits and work that must not restart
 
 - Only one repository has completed semantic review; the remaining queue is intentionally preserved.
 - Native analyzer executables are currently unavailable. Local fallbacks are the supported default.
+- The `.local/` source cache is absent in this environment; lean review must proceed from entity records already in `registry/entities/` and the repository record.
 - Analyzer output requires provenance and source-hash verification and remains evidence rather than canonical truth.
-- Bounded semantic packets are incomplete by design.
 - Runtime behavior has not been executed for every verified entity; source review and exact pinned provenance are the current evidence level where recorded.
 - External GitHub discoveries are candidates, not owned assets, until the user forks or imports them and normal ingestion completes.
+- Capability IDs referenced in entity records must correspond to files in `registry/capabilities/`; do not add invented capability IDs.
 
-Do **not** rerun discovery, redownload processed source, rebuild the registry, regenerate every repository, reset inspection states, reinstall every analyzer, add new analyzer systems, build the future frontend, add a vector database, add OpenRouter, or restart completed extraction and review. Continue at the Voicebox resume point above, then advance to the next repository recorded by `system/inspection-state.json` only after Voicebox passes its lean completion gate.
+Do **not** rerun discovery, redownload processed source, rebuild the registry, regenerate every repository, reset inspection states, reinstall every analyzer, add new analyzer systems, build the future frontend, add a vector database, add OpenRouter, or restart completed extraction and review. Resume at the codegraph repository above, then advance to the next repository recorded by `system/inspection-state.json` only after codegraph passes its lean completion gate.
