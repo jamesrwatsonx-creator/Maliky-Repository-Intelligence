@@ -2,7 +2,7 @@
   "id": "entity:76382732914b73e58611b9e8",
   "entity_type": "SKILL",
   "name": "browser-harness",
-  "description": "Always use browser-harness for any web interaction: automation, scraping, testing, or site/app work.",
+  "description": "Root agent skill (SKILL.md): tells any coding agent to use browser-harness for all web interaction, with usage, local-Chrome connection, design constraints and gotchas; domain skills load only when BH_DOMAIN_SKILLS=1.",
   "source": {
     "repository_id": "repository:1249678565",
     "repository_name": "jamesrwatsonx-creator/browser-harness",
@@ -16,25 +16,35 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "browser-harness"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:01",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:automation-scripting",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:05",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:browser-control-agent-skill"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "browser-harness CLI install"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

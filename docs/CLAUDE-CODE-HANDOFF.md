@@ -7,15 +7,15 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **6,998** (net of lean-review exclusions and additions)
-- Verified entities: **81**
-- Candidate entities: **6,917**
+- Active entities: **7,126** (net of lean-review exclusions and additions)
+- Verified entities: **214**
+- Candidate entities: **6,912**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
-| `SKILL` | 3,469 |
+| `SKILL` | 3,591 |
 | `AGENT` | 1,610 |
 | `UI_COMPONENT` | 946 |
 | `API` | 402 |
@@ -26,15 +26,17 @@ Active entity counts by type (after this session's Voicebox lean census):
 | `TOOL` | 48 |
 | `PLUGIN` | 29 |
 | `MCP_SERVER` | 11 |
-| `COMPONENT` | 6 |
+| `COMPONENT` | 9 |
 | `INTEGRATION` | 6 |
 | `CONNECTOR` | 4 |
 | `AGENT_FRAMEWORK` | 2 |
 | `SDK` | 2 |
+| `SERVICE` | 2 |
 | `DOCUMENTATION_ASSET` | 1 |
 | `INFRASTRUCTURE_MODULE` | 1 |
+| `LIBRARY` | 1 |
 | `MODEL_ADAPTER` | 1 |
-| `SERVICE` | 1 |
+| `TEMPLATE` | 1 |
 
 `system/inspection-state.json` currently records:
 
@@ -123,9 +125,13 @@ Retained 30 entities: 1 `AGENT_FRAMEWORK` (`TradingAgentsGraph`), 12 `AGENT` (4 
 
 Retained 24 entities: `AGENT_FRAMEWORK` `Agent`, `AGENT` `ChatAgent`, 5 `COMPONENT` (`Bureau`, `Protocol`, `Dialogue`, `QuotaProtocol`, `ChitChatDialogue`), 6 `INTEGRATION` (MCP, A2A single/multi/inbound, LangChain, CrewAI adapters), 2 `SDK` (Agentverse A2A and LangGraph), 1 `INFRASTRUCTURE_MODULE` (Helm chart), 4 `PACKAGE`, 2 `CLI`, 2 `WORKFLOW` (CI, release). Removed 2 test-example `API` entities and 2 boilerplate workflows. 16 capabilities registered. Scoped deep review (keys/wallet): `get_or_create_private_keys` (`python/src/uagents/storage/__init__.py:130-150`) returns one wallet key but persists a different one, stores keys as plaintext `private_keys.json` in the cwd, and `Agent` defaults to `network="mainnet"`; the framework and repository are therefore `SECURITY REVIEW REQUIRED` (use the `seed` argument or an external key store for funded agents). Script: `scripts/review_uagents_semantics.py`.
 
-## Exact resume point: browser-harness
+## Completed: browser-harness lean semantic review (`41108b8676d4bdb58b26ab3b079c0b7b0f8f3926`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/browser-harness` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `41108b8676d4bdb58b26ab3b079c0b7b0f8f3926`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 133 entities (5 existing + 128 added): 123 `SKILL` (root skill, 104 domain-skill playbooks, 18 interaction-skill playbooks; each per-site file is its own searchable skill, description derived from its title and first paragraph; folder READMEs and companion `.py` scripts folded in), `CLI`, `PACKAGE`, `PLUGIN`, `WORKFLOW` (release), `LIBRARY` (`helpers`), `SERVICE` (`daemon`), 3 `COMPONENT` (`recorder`, `video`, `browser_use_cloud_auth`), `TEMPLATE` (`agent_helpers`). 13 capabilities registered; playbooks group under three capabilities (scraping, automation, interaction techniques). Scoped deep review: **telemetry is opt-out** and `run.py:251` sends the stdin script (up to 20,000 chars), stdout tail, steps and errors to PostHog EU, so the CLI, package and repository are `SECURITY REVIEW REQUIRED` until telemetry is disabled (`browser-harness telemetry disable` or `BH_TELEMETRY=0`). `profile-sync` and `cookies` skills are `SECURITY REVIEW REQUIRED` (real cookies to a cloud browser); account-acting and checkout skills carry a `sensitivity` metadata flag (checkout skills stop before purchase). Overlap: ALTERNATIVE_TO playwright-mcp, chrome-devtools-mcp, stagehand, browser-use, agent-browser (all unreviewed). Script: `scripts/review_browser_harness_semantics.py` (needs `BH_SOURCE_DIR` with the pinned files; blob SHAs are verified).
+
+## Exact resume point: babysitter
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/babysitter` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `d97a2e46a84cbc3ca4589050a9bddbcbf792a785`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

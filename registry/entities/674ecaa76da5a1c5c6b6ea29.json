@@ -2,7 +2,7 @@
   "id": "entity:674ecaa76da5a1c5c6b6ea29",
   "entity_type": "WORKFLOW",
   "name": "release",
-  "description": "",
+  "description": "Release workflow for the browser-harness package.",
   "source": {
     "repository_id": "repository:1249678565",
     "repository_name": "jamesrwatsonx-creator/browser-harness",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/release.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "release"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/.github/workflows/release.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:python-package-release-workflow"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions",
+      "PyPI credentials"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

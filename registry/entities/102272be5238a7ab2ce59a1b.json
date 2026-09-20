@@ -1,0 +1,51 @@
+{
+  "id": "entity:102272be5238a7ab2ce59a1b",
+  "entity_type": "COMPONENT",
+  "name": "browser_use_cloud_auth",
+  "description": "Browser Use Cloud login for the CLI: OAuth PKCE with a loopback callback, device flow or API key on stdin; stores the credential in a private (chmod 600) JSON file.",
+  "source": {
+    "repository_id": "repository:1249678565",
+    "repository_name": "jamesrwatsonx-creator/browser-harness",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/browser-harness",
+    "upstream_url": "https://github.com/browser-use/browser-harness",
+    "source_path": "src/browser_harness/auth.py",
+    "inspected_commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
+    "inspection_date": "2026-09-20T09:12:50.238323+00:00",
+    "blob_sha": "9e310d8a4779b3cf3e925682fbe5f0ce463c3a80",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/src/browser_harness/auth.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:automation-scripting",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:browser-use-cloud-oauth-login"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Browser Use Cloud account",
+      "python stdlib http.server"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

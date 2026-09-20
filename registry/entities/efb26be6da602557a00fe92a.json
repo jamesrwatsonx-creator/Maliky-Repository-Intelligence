@@ -2,7 +2,7 @@
   "id": "entity:efb26be6da602557a00fe92a",
   "entity_type": "PACKAGE",
   "name": "browser-harness",
-  "description": "The simplest, thinnest, and most powerful harness to control your real browser with your agent.",
+  "description": "PyPI-style package browser-harness 0.1.9 (MIT): helpers, daemon, recorder, video, cloud auth and telemetry; depends on cdp-use, fetch-use, pillow and websockets.",
   "source": {
     "repository_id": "repository:1249678565",
     "repository_name": "jamesrwatsonx-creator/browser-harness",
@@ -16,25 +16,40 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "pyproject.toml"
-    },
-    {
-      "type": "manifest",
-      "value": "browser-harness"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/pyproject.toml#L7"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:automation-scripting",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:05",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:browser-cdp-control-via-python-helpers"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.11",
+      "cdp-use==1.4.5",
+      "websockets==15.0.1",
+      "pillow",
+      "fetch-use"
+    ],
+    "overlap": "Same distribution as the browser-harness CLI entity",
+    "deep_review_finding": "Telemetry is opt-out (enabled by default): run.py:251 sends the script read from stdin (up to 20,000 chars), the stdout tail, traced helper steps and error text to PostHog EU (telemetry.py capture_cli_event, POSTHOG_HOST eu.i.posthog.com) with an install id; the forbidden-key filter applies only to the generic capture() path. Because the tool drives the user's real logged-in browser and scripts routinely print page content, disable it with `browser-harness telemetry disable` or BH_TELEMETRY=0 before use."
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "CORE"
 }

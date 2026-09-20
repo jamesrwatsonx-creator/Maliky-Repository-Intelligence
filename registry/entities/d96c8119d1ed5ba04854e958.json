@@ -1,0 +1,54 @@
+{
+  "id": "entity:d96c8119d1ed5ba04854e958",
+  "entity_type": "SKILL",
+  "name": "aa/checkout",
+  "description": "Domain skill: American Airlines — booking checkout (aa.com). End-to-end guest checkout for a one-way revenue fare, through to the credit-card entry form. No antibot / CAPTCHA encountered on a clean, stock-Chrome CDP connection.",
+  "source": {
+    "repository_id": "repository:1249678565",
+    "repository_name": "jamesrwatsonx-creator/browser-harness",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/browser-harness",
+    "upstream_url": "https://github.com/browser-use/browser-harness",
+    "source_path": "agent-workspace/domain-skills/aa/checkout.md",
+    "inspected_commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
+    "inspection_date": "2026-09-20T09:12:50.248337+00:00",
+    "blob_sha": "d135f05b818cafcd2abf33a7c33a40f1c037c3ae",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/aa/checkout.md#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:automation-scripting",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:05",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:site-specific-web-automation-playbooks"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "browser-harness CLI",
+      "BH_DOMAIN_SKILLS=1"
+    ],
+    "overlap": "",
+    "playbook_group": "automation",
+    "sensitivity": "drives a checkout to the card-entry form; source stops before purchase",
+    "guard": "Run only with an explicitly user-authorised session"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE EXISTING SKILL",
+  "contribution_role": "SKILL"
+}

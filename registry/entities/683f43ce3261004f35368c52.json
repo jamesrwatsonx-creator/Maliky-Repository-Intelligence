@@ -2,7 +2,7 @@
   "id": "entity:683f43ce3261004f35368c52",
   "entity_type": "PLUGIN",
   "name": "browser-harness",
-  "description": "Direct browser control via CDP. Drives the user's real Chrome (or a Browser Use cloud browser) with coordinate clicks, screenshots, and Python helpers — no selector hunting. Requires the one-time `browser-harness` CLI install (see the skill's references/install.md).",
+  "description": "Claude Code plugin manifest exposing the browser-harness skill; requires the one-time CLI install.",
   "source": {
     "repository_id": "repository:1249678565",
     "repository_name": "jamesrwatsonx-creator/browser-harness",
@@ -16,25 +16,35 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "browser-harness"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/.claude-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:automation-scripting",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:05",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:browser-control-agent-skill"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "browser-harness CLI install"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }
