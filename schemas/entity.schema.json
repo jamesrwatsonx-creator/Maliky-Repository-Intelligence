@@ -55,7 +55,12 @@
         "TEMPLATE",
         "REFERENCE_IMPLEMENTATION",
         "DOCUMENTATION_ASSET",
-        "OTHER"
+        "OTHER",
+        "WEBSITE",
+        "WEBSITE_REFERENCE",
+        "DESIGN_REFERENCE",
+        "SCREEN_REFERENCE",
+        "UI_PATTERN"
       ]
     },
     "name": {
@@ -114,6 +119,66 @@
     },
     "scores": {
       "type": "object"
+    },
+    "visual_style": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "layout": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "visual_features": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "technologies": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "visual_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "field",
+          "value",
+          "source_path",
+          "basis"
+        ],
+        "properties": {
+          "basis": {
+            "enum": [
+              "source-description",
+              "rendered-observation"
+            ]
+          }
+        }
+      }
     }
   }
 }

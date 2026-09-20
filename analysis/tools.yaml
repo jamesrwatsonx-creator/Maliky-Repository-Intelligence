@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "tools": [
+    {
+      "id": "analyzer:aider",
+      "source_repository": "jamesrwatsonx-creator/aider",
+      "inspected_commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+      "upstream": "Aider-AI/aider",
+      "license": "Apache-2.0",
+      "integration_mode": "ADAPT ALGORITHM",
+      "role": "repository symbol/reference ranking",
+      "runtime": "Python; upstream tree-sitter/networkx omitted",
+      "useful_module": "aider/repomap.py",
+      "decision": "Independent reference-count ranking; not Aider PageRank. No chat/edit/LLM execution.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "816c876cb67021fa9f8d37267c8e57923eabdb07"
+        },
+        {
+          "path": "aider/repomap.py",
+          "blob_sha": "541bba6ef4a5385b8cf032201ec6e3f3e32a6ea6"
+        },
+        {
+          "path": "pyproject.toml",
+          "blob_sha": "653fc2175129b0298c6fc9d46a1279b66ba36aa1"
+        },
+        {
+          "path": "LICENSE.txt",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Local reference-ranking map",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:continue",
+      "source_repository": "jamesrwatsonx-creator/continue",
+      "inspected_commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+      "upstream": "continuedev/continue",
+      "license": "Apache-2.0",
+      "integration_mode": "ADAPT ALGORITHM",
+      "role": "content-addressed incremental indexing",
+      "runtime": "Python stdlib; no Continue service",
+      "useful_module": "core/indexing/refreshIndex.ts",
+      "decision": "Reuse path/blob/algorithm-version artifacts; always rebind evidence to the inspected commit. No embedding backend.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "66477d92b4cdb8772a74e28852cef31cd37019e4"
+        },
+        {
+          "path": "core/indexing/refreshIndex.ts",
+          "blob_sha": "42c4f0c8d21d869f42141ef7459e503c92438899"
+        },
+        {
+          "path": "core/indexing/CodebaseIndexer.ts",
+          "blob_sha": "c37992f98cd708e462ea3973727b212765d02254"
+        },
+        {
+          "path": "core/indexing/types.ts",
+          "blob_sha": "bc4183aeae7eef9d39401297bf57a817bccf70f2"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "c25dc1768217ba50d454fcc06290d66886512872"
+        },
+        {
+          "path": "package.json",
+          "blob_sha": "e23a05fc2e37d23f44d56ce4e9565aa9d2602387"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Content/path/blob/version cache",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:semgrep",
+      "source_repository": "jamesrwatsonx-creator/semgrep",
+      "inspected_commit": "0516c0f23a3dceac5c8f5ff3fecd402af4450182",
+      "upstream": "semgrep/semgrep",
+      "license": "LGPL-2.1",
+      "integration_mode": "SUBPROCESS ADAPTER",
+      "role": "structural candidate detection",
+      "runtime": "Separately installed Semgrep CLI",
+      "useful_module": "cli/src/semgrep/commands/scan.py",
+      "decision": "JSON importer plus local rules and controlled static CLI runner. Rules remain candidates. CLI not installed on validation host.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "b3173abf26abb2f850807731959989b25eb8f8ea"
+        },
+        {
+          "path": "cli/src/semgrep/commands/scan.py",
+          "blob_sha": "3c36f0273923ca5e782c90dfc91f0e040c476f03"
+        },
+        {
+          "path": "cli/src/semgrep/formatter/json.py",
+          "blob_sha": "d86a8929c7137b8cdf91c9af7e2c836e2132d127"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "8000a6faacf471c537530805ab29523c7732e11a"
+        },
+        {
+          "path": "cli/pyproject.toml",
+          "blob_sha": "ec8c5df96901a6d2961d63097617b2c8fd9d6ae0"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Existing static candidate detector",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:scancode-toolkit",
+      "source_repository": "jamesrwatsonx-creator/scancode-toolkit",
+      "inspected_commit": "5e8448ecf2397c6eb7e7eb50326c8c880d9b598b",
+      "upstream": "aboutcode-org/scancode-toolkit",
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "integration_mode": "SUBPROCESS ADAPTER",
+      "role": "license and package evidence",
+      "runtime": "Separately installed ScanCode CLI and native dependencies",
+      "useful_module": "src/scancode/cli.py",
+      "decision": "Native JSON importer. Code Apache-2.0, data CC-BY-4.0, bundled third-party licenses vary. Never infer legal clearance.",
+      "inspected_files": [
+        {
+          "path": "src/scancode/cli.py",
+          "blob_sha": "afec99bef28d51b7d3c3e3a5ab3af1ff68ef5a05"
+        },
+        {
+          "path": "src/formattedcode/output_json.py",
+          "blob_sha": "d3ce570b83d6496f02b104b03d9a7309caf99a80"
+        },
+        {
+          "path": "NOTICE",
+          "blob_sha": "616bdfd6ff600965b7f456b0c2b8c353757fa8a6"
+        },
+        {
+          "path": "README.rst",
+          "blob_sha": "c35b142d8a2ae4020cf318754ee7c467573634b7"
+        },
+        {
+          "path": "apache-2.0.LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        },
+        {
+          "path": "cc-by-4.0.LICENSE",
+          "blob_sha": "0fb847eb09afc05734c2f1aa34bc3ebd995a072a"
+        },
+        {
+          "path": "pyproject-scancode-toolkit.toml",
+          "blob_sha": "29f8157b8dc802921a79b1563219827c4d5678c4"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Manifest/SPDX evidence; preserve prior license evidence",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:linguist",
+      "source_repository": "jamesrwatsonx-creator/linguist",
+      "inspected_commit": "ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae",
+      "upstream": "github-linguist/linguist",
+      "license": "MIT",
+      "integration_mode": "ADAPT ALGORITHM",
+      "role": "language and generated/vendor classification",
+      "runtime": "Python stdlib fallback; Ruby/Rugged needed for native Linguist",
+      "useful_module": "lib/linguist/blob_helper.rb",
+      "decision": "Conservative extension/header flags plus native JSON importer. Generated/vendor files remain visible. Not complete Linguist parity.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "dc8ac5dc584ac30f29e8cdfca5a1d93b16e4e22f"
+        },
+        {
+          "path": "lib/linguist/blob_helper.rb",
+          "blob_sha": "5332a884e65ed2263522e121523986bdad9560fb"
+        },
+        {
+          "path": "lib/linguist/repository.rb",
+          "blob_sha": "9b4fa0ba48a90263ee00ea7f6b46b89797d4bfc2"
+        },
+        {
+          "path": "bin/github-linguist",
+          "blob_sha": "3b3d58497d4da1632cde406b7c56f5e3b82a49eb"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "acc8e6f251b65ba4ec1fbe79d5334cb06fc3334c"
+        },
+        {
+          "path": "github-linguist.gemspec",
+          "blob_sha": "ecc7fde3cb7a0b574407054c8f0c33127e6cb323"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Extension/header classification; retain all files",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:repomix",
+      "source_repository": "jamesrwatsonx-creator/repomix",
+      "inspected_commit": "f444a651f7cd1ce17aa290b5c0df9bc730f350ab",
+      "upstream": "yamadashy/repomix",
+      "license": "MIT",
+      "integration_mode": "ADAPT ALGORITHM",
+      "role": "bounded semantic review context",
+      "runtime": "Python stdlib fallback; native Repomix requires Node >=22",
+      "useful_module": "src/core/file/fileProcess.ts",
+      "decision": "Bounded evidence packets plus XML importer; exact source remains canonical. No remote URL/package execution.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "01c1c80d933353c6df5a0638ad4664a79ee27114"
+        },
+        {
+          "path": "src/core/file/fileProcess.ts",
+          "blob_sha": "aa5b4d625b38c422336ad0f5d913085175d3999b"
+        },
+        {
+          "path": "src/core/output/outputGenerate.ts",
+          "blob_sha": "ba52cd1098ed71fcf09b8d9b05866c62a0a74119"
+        },
+        {
+          "path": "src/config/configSchema.ts",
+          "blob_sha": "b6e4b8698d7e24f7c84413ed60264d83631083bf"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "cc6cde3b20418ea0c9f503be0ab2e301bb02d6db"
+        },
+        {
+          "path": "package.json",
+          "blob_sha": "57ec292aa963addfafd97f6cc21c95de279d622f"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Bounded local semantic packets",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:codeql",
+      "source_repository": "jamesrwatsonx-creator/codeql",
+      "inspected_commit": "e7bc1c6fb69fab063bb862a57336c69dc33723d0",
+      "upstream": "github/codeql",
+      "license": "MIT",
+      "integration_mode": "REFERENCE IMPLEMENTATION ONLY",
+      "role": "security/dataflow evidence",
+      "runtime": "Separately distributed CodeQL CLI, databases, query packs",
+      "useful_module": "python/ql/src/codeql-suites/python-security-and-quality.qls",
+      "decision": "Selective SARIF importer only. This fork is queries/libraries, not CLI. No auto-build or target execution; binary license/eligibility must be checked before use.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "99433b8ca49feeec60735de6eab15bd4c22bd50f"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "d7e60ca2fa32f4463c43b49713cd3d2bc2ddf379"
+        },
+        {
+          "path": "python/ql/src/codeql-suites/python-security-and-quality.qls",
+          "blob_sha": "557ca61f2b1ab2f3962e68a603cbabd0e6105091"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Preserve existing security evidence; no substitute dataflow analysis",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:repoagent",
+      "source_repository": "jamesrwatsonx-creator/RepoAgent",
+      "inspected_commit": "825d988127d7bfd757237d9c4e8678d9104030f0",
+      "upstream": "OpenBMB/RepoAgent",
+      "license": "Apache-2.0",
+      "integration_mode": "ADAPT ALGORITHM",
+      "role": "Python AST declarations and syntactic call references",
+      "runtime": "Python stdlib; no LLM/documentation service",
+      "useful_module": "repo_agent/file_handler.py",
+      "decision": "Independent AST visitor; Python only, names may be ambiguous. No generated descriptions, source writes or automatic documentation.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "61ed3d483ad9d1f59388e3753ea6a9bda7e8478d"
+        },
+        {
+          "path": "repo_agent/file_handler.py",
+          "blob_sha": "4fef1272fead927bc67c7c8ab7cbf7335201a30e"
+        },
+        {
+          "path": "repo_agent/doc_meta_info.py",
+          "blob_sha": "f4de713e95af3ff3e7e73b38c78892bea9e57387"
+        },
+        {
+          "path": "repo_agent/runner.py",
+          "blob_sha": "4b34085d7bc6bfb1dfd83789ccd2a1399fcc97d1"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        },
+        {
+          "path": "pyproject.toml",
+          "blob_sha": "d6dd37f52a6ff296b236c56ba1a7b0eb1e8d29e4"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Local Python AST definitions/call references",
+      "installation_required": false
+    },
+    {
+      "id": "analyzer:syft",
+      "source_repository": "jamesrwatsonx-creator/syft",
+      "inspected_commit": "b49f0172f636fca01282eb12a411de6b0e26e633",
+      "upstream": "anchore/syft",
+      "license": "Apache-2.0",
+      "integration_mode": "SUBPROCESS ADAPTER",
+      "role": "SBOM package inventory",
+      "runtime": "Separately installed Syft Go executable",
+      "useful_module": "syft/format/syftjson/model/document.go",
+      "decision": "Native Syft JSON importer; optional CLI. No container pulling; normalize package identity without treating every package as a direct dependency.",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "d864e142875ca81737d5c94027bce41b838bead4"
+        },
+        {
+          "path": "syft/sbom/sbom.go",
+          "blob_sha": "58e56fc0c31dacd9a7099ccd11e069853176913d"
+        },
+        {
+          "path": "syft/format/syftjson/model/document.go",
+          "blob_sha": "e733978d50c4a86e222ea5d14f5425366a60b1f1"
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        },
+        {
+          "path": "go.mod",
+          "blob_sha": "8c49b84ffa6e795daadd69b10c3b2e821ca21e63"
+        }
+      ],
+      "inspection_scope": "Selected architecture modules and license/manifests, not full repository census",
+      "native_runtime_validated": false,
+      "available": false,
+      "unavailable": true,
+      "fallback_available": true,
+      "availability_scope": "native executable on PATH; not runtime certification",
+      "fallback": "Manifest dependency evidence; no full SBOM claim",
+      "installation_required": false
+    }
+  ]
+}

@@ -16,7 +16,7 @@ def read(path, default=None):
     return json.loads(p.read_text(encoding='utf-8-sig')) if p.exists() else default
 def write(path, data):
     p=ROOT/path; p.parent.mkdir(parents=True,exist_ok=True)
-    with tempfile.NamedTemporaryFile('w',encoding='utf-8',dir=p.parent,suffix='.tmp',delete=False) as f:
+    with tempfile.NamedTemporaryFile('w',encoding='utf-8',newline='\n',dir=p.parent,suffix='.tmp',delete=False) as f:
         json.dump(data,f,indent=2,ensure_ascii=False); f.write('\n'); name=f.name
     for attempt in range(8):
         try:
@@ -375,20 +375,37 @@ def build():
     cap_map={c['id']:c for c in caps}
     for e in active:
         synonyms=' '.join(' '.join(cap_map[c].get('aliases',[])) for c in e['capabilities'] if c in cap_map)
-        docs.append({'id':e['id'],'entity_type':e['entity_type'],'name':e['name'],'text':' '.join([e['name'],e['description'],e['source']['source_path'],synonyms]),'repository':e['source']['repository_name'],'url':e['source']['repository_url']+'/blob/'+e['source']['inspected_commit']+'/'+e['source']['source_path'],'state':e['review_status'],'capabilities':e['capabilities'],'source_path':e['source']['source_path'],'inspected_commit':e['source']['inspected_commit']})
+        visual={k:e.get(k,[]) for k in ('visual_style','layout','visual_features','technologies','best_for')}
+        docs.append({'id':e['id'],'entity_type':e['entity_type'],'name':e['name'],'text':' '.join([e['name'],e['description'],e['source']['source_path'],synonyms]+[' '.join(v) for v in visual.values()]),'repository':e['source']['repository_name'],'url':e['source']['repository_url']+'/blob/'+e['source']['inspected_commit']+'/'+e['source']['source_path'],'state':e['review_status'],'capabilities':e['capabilities'],'source_path':e['source']['source_path'],'inspected_commit':e['source']['inspected_commit'],**visual})
     for c in caps: docs.append({'id':c['id'],'entity_type':'CAPABILITY','name':c['name'],'text':' '.join([c['name']]+c.get('aliases',[])),'state':c['status'],'capabilities':[c['id']]})
     p=ROOT/'search/search-index.jsonl'; p.parent.mkdir(exist_ok=True); p.write_text(''.join(json.dumps(d,ensure_ascii=False)+'\n' for d in docs),encoding='utf-8')
     write('MASTER-INVENTORY.json',[{k:r[k] for k in ['id','full_name','url','affiliation','state','inspected_commit','capabilities']} for r in repos])
     nodes=[{'id':d['id'],'type':d['entity_type'],'name':d['name']} for d in docs]
     for kind in ('ideas','studios','compositions'): nodes.extend({'id':x['id'],'type':kind.upper(),'name':x['name']} for x in records(kind))
     write('CAPABILITY-GRAPH.json',{'nodes':nodes,'edges':edges+generated_edges})
-    dimensions=['entity_type','repository','state','capabilities']
+    dimensions=['entity_type','repository','state','capabilities','visual_style','layout','visual_features','technologies','best_for']
     for dim in dimensions:
         index=collections.defaultdict(list)
         for d in docs:
             values=d.get(dim,[]); values=values if isinstance(values,list) else [values]
             for value in values: index[value].append(d['id'])
         write('registry/indexes/'+dim+'.json',dict(index))
+    # Human browsing uses links to existing canonical files, never duplicate records.
+    folders={'SKILL':'skills','MCP_SERVER':'mcps','AGENT':'agents','TOOL':'tools','API':'apis','UI_COMPONENT':'ui-components','WEBSITE':'websites','WEBSITE_REFERENCE':'website-references','DESIGN_REFERENCE':'design-references','SCREEN_REFERENCE':'screen-references','UI_PATTERN':'ui-patterns','DESIGN_SYSTEM':'design-systems','TEMPLATE':'templates'}
+    entity_files={read(p.relative_to(ROOT))['id']:p.name for p in (ROOT/'registry/entities').glob('*.json')}
+    for kind,folder in folders.items():
+        matching=sorted((e for e in active if e['entity_type']==kind),key=lambda e:(e['name'].lower(),e['id']))
+        dest=ROOT/'registry/entities'/folder; dest.mkdir(exist_ok=True)
+        lines=['# '+kind.replace('_',' ').title(),'',f'{len(matching)} individually addressable records. Each link opens the canonical record.','']
+        pages=[matching[i:i+250] for i in range(0,len(matching),250)]
+        for number,page in enumerate(pages,1):
+            filename=f'page-{number:04d}.md'; lines.append(f'- [Records {(number-1)*250+1}–{(number-1)*250+len(page)}]({filename})')
+            body=['# '+kind.replace('_',' ').title()+f' — page {number}','','[All pages](README.md)','']
+            for e in page:
+                label=e['name'].replace('[','\\[').replace(']','\\]').replace('\n',' ')
+                body.append(f"- [{label}](../{entity_files[e['id']]}) — {e['source']['repository_name']} — {e['review_status']}")
+            (dest/filename).write_text('\n'.join(body)+'\n',encoding='utf-8')
+        (dest/'README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     for dim in ('categories','studios','ideas','contribution_role','recommendation','tier','operational_category'):
         index=collections.defaultdict(list)
         for d in repos+active:

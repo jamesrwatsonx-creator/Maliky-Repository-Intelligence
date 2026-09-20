@@ -1,0 +1,28 @@
+rules:
+  - id: maliky-mcp-tool
+    languages: [python]
+    severity: INFO
+    message: MCP tool decorator candidate; verify receiver and reuse boundary.
+    metadata:
+      entity_type: TOOL
+    pattern: |
+      @$SERVER.tool(...)
+      def $NAME(...):
+        ...
+  - id: maliky-fastapi-route
+    languages: [python]
+    severity: INFO
+    message: GET route candidate; verify FastAPI/Flask receiver and runtime behavior.
+    metadata:
+      entity_type: API
+    pattern: |
+      @$APP.get(...)
+      def $NAME(...):
+        ...
+  - id: maliky-fastmcp-server
+    languages: [python]
+    severity: INFO
+    message: FastMCP constructor candidate; verify import and exposure.
+    metadata:
+      entity_type: MCP_SERVER
+    pattern: $NAME = FastMCP(...)

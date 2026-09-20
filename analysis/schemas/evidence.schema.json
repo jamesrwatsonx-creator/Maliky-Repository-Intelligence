@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "evidence_id",
+    "source_tool",
+    "source_tool_version",
+    "repository",
+    "finding",
+    "evidence",
+    "created_at",
+    "review_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^evidence:[0-9a-f]{64}$"
+    },
+    "source_tool": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_tool_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repository": {
+      "type": "object",
+      "required": [
+        "id",
+        "owner",
+        "name",
+        "commit",
+        "visibility"
+      ],
+      "properties": {
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "visibility": {
+          "enum": [
+            "public",
+            "private"
+          ]
+        }
+      }
+    },
+    "finding": {
+      "$ref": "finding.schema.json"
+    },
+    "review_status": {
+      "const": "UNREVIEWED"
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "raw_reference"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

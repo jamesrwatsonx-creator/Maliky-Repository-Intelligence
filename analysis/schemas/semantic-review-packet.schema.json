@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "repository",
+    "coverage",
+    "counts",
+    "existing_entities",
+    "entity_candidates",
+    "dependency_evidence",
+    "license_evidence",
+    "security_evidence",
+    "unresolved_census_items",
+    "semantic_questions",
+    "omitted",
+    "full_evidence_reference"
+  ],
+  "properties": {
+    "review_status": {
+      "const": "UNREVIEWED"
+    },
+    "repository": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "commit"
+      ],
+      "properties": {
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      }
+    }
+  }
+}
