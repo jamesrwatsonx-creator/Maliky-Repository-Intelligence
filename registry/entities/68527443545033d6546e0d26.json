@@ -1,0 +1,40 @@
+{
+  "id": "entity:68527443545033d6546e0d26",
+  "entity_type": "API",
+  "name": "auto_describe_profile",
+  "description": "Generate a description for the named profile via the auxiliary\nLLM (``auxiliary.profile_describer``). Persists with\n``description_auto: true`` so the dashboard can surface a \"review\"\nbadge.\n\nMaps 1:1 to ``hermes profile describe <name> --auto``. Non-OK\noutcomes are NOT HTTP errors — the UI renders the reason inline\n(e.g. \"no auxiliary client configured\") so the operator can fix\nconfig and retry without a page reload.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/kanban/dashboard/plugin_api.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:29.033846+00:00",
+    "blob_sha": "ade9fa140e707fd7c7444adee3d826ec4c6b0923",
+    "line": 2692
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "plugins/kanban/dashboard/plugin_api.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "auto_describe_profile"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

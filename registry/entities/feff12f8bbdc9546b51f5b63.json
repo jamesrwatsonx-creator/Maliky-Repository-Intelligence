@@ -1,0 +1,40 @@
+{
+  "id": "entity:feff12f8bbdc9546b51f5b63",
+  "entity_type": "API",
+  "name": "select_toolset_provider",
+  "description": "Persist a provider selection for a toolset (no key prompting).\n\nDelegates to ``apply_provider_selection`` — the shared, non-interactive\ncore extracted from the CLI configurator — so the GUI and ``hermes tools``\nwrite identical config keys (``web.backend``, ``tts.provider``, etc.).\nAPI keys and post-setup flows are handled by separate endpoints. Returns\n400 for unknown toolset or provider names.\n\nFor the ``web`` toolset only, an optional ``capability`` ('search' |\n'extract') scopes the selection to ``web.search_backend`` /\n``web.extract_backend`` — the same per-capability overrides the runtime\ndispatchers (``tools.web_tools._get_search_backend`` /\n``_get_extract_backend``) resolve first. The provider must actually\nsupport the requested capability (a search-only backend can't be the\nextract backend). Omitting ``capability`` keeps the legacy whole-provider\nbehavior (writes ``web.backend``).\n\nManaged Nous rows (``managed_nous_feature``) additionally report the\nPortal entitlement state: the CLI flow gates these selections on\n``ensure_nous_portal_access`` (inline login), but the GUI has no inline\nprompt, so selecting one while logged out / unentitled used to write the\nconfig keys and then never activate (``_is_provider_active`` requires\n``managed_by_nous``). The response now carries an additive\n``needs_nous_auth: true`` + ``feature`` so the client can drive the\nexisting Nous Portal OAuth flow (``POST /api/providers/oauth/nous/start``)\nand refetch.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/tools.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.805597+00:00",
+    "blob_sha": "58c9caeba2cd6b11351c89389ec3ae15795c9798",
+    "line": 462
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/tools.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "select_toolset_provider"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

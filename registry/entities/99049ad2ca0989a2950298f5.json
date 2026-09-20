@@ -1,0 +1,40 @@
+{
+  "id": "entity:99049ad2ca0989a2950298f5",
+  "entity_type": "API",
+  "name": "get_toolset_config",
+  "description": "Return the provider matrix + key status for a toolset's config panel.\n\nSurfaces the same provider rows the CLI ``hermes tools`` picker shows\n(via ``_visible_providers``), each with its ``env_vars`` annotated with\ncurrent ``is_set`` state so the GUI can render provider selection + key\nentry. Toolsets without a ``TOOL_CATEGORIES`` entry return an empty\nprovider list and ``has_category: false``. Returns 400 for unknown keys.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/tools.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.794048+00:00",
+    "blob_sha": "58c9caeba2cd6b11351c89389ec3ae15795c9798",
+    "line": 229
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/tools.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "get_toolset_config"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

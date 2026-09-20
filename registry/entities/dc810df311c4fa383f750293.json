@@ -1,0 +1,40 @@
+{
+  "id": "entity:dc810df311c4fa383f750293",
+  "entity_type": "API",
+  "name": "replace_mcp_servers",
+  "description": "Replace the entire ``mcp_servers`` map (the GUI mcp.json editor's save).\n\nThe generic ``/api/config`` endpoint deep-merges maps, so it can never\ndelete a server key, drop an ``enabled: false`` flag, or remove a nested\nfield — edits looked saved but the stale entry survived on disk.  This\nendpoint sets the whole map so removals actually persist.  Storage stays\nthe config.yaml ``mcp_servers`` key the CLI/TUI already read.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/mcp.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.606620+00:00",
+    "blob_sha": "1dd5875a5887e7fc8f86fb7d5450c46d9dc1a89e",
+    "line": 121
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/mcp.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "replace_mcp_servers"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

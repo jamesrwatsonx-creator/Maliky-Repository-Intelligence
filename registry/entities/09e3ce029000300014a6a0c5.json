@@ -1,0 +1,40 @@
+{
+  "id": "entity:09e3ce029000300014a6a0c5",
+  "entity_type": "API",
+  "name": "get_cron_delivery_targets",
+  "description": "Delivery targets the cron dropdown should offer.\n\nAlways includes the implicit ``local`` option. Beyond that, the list is\nderived dynamically from the configured gateway platforms via\n``cron.scheduler.cron_delivery_targets()`` — no hardcoded platform list. A\nconfigured platform that hasn't set its cron home channel is still returned\nwith ``home_target_set: false`` so the UI can surface it as \"configure a\nhome channel first\" rather than hiding it.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/cron.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.445590+00:00",
+    "blob_sha": "c540c77e170038e1a21ebc4145248db5c4011b5b",
+    "line": 84
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/cron.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "get_cron_delivery_targets"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

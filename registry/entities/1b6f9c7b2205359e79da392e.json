@@ -1,0 +1,40 @@
+{
+  "id": "entity:1b6f9c7b2205359e79da392e",
+  "entity_type": "API",
+  "name": "cancel_oauth_session",
+  "description": "Cancel a pending OAuth session. Token-protected.\n\nMarks the session dict ``cancelled`` before popping it so any\nbackground worker still holding a reference to that same dict (e.g.\nthe Codex device-code poller) observes the cancellation and stops\npolling/exchanging/saving instead of completing the login after the\nuser believed it was aborted.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_server.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:27.598595+00:00",
+    "blob_sha": "a7dd5fe4b0ca7cfe6b22fb6e6b965fd2063d8f92",
+    "line": 11869
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "cancel_oauth_session"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

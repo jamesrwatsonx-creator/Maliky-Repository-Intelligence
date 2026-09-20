@@ -1,0 +1,31 @@
+{
+  "id": "composition:queued-voice-api",
+  "name": "Queued voice API submission and scheduling",
+  "requirements": [
+    "capability:queued-speech-generation-submission",
+    "capability:serial-speech-job-scheduling"
+  ],
+  "entities": [
+    "entity:8c7a5db9184fd8e9e60a1c6d",
+    "entity:05f2a90fe7df047b1509d509"
+  ],
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/services/task_queue.py#L24"
+    }
+  ],
+  "status": "STATIC_REVIEWED",
+  "integration_gaps": [
+    "Voice profile provisioning",
+    "Inference engine/model installation",
+    "Backend authentication review",
+    "Database lifecycle and deployment",
+    "Runtime and load testing"
+  ],
+  "notes": "A reusable subsystem recipe, not a complete Voice Middleware product or proof of production readiness."
+}

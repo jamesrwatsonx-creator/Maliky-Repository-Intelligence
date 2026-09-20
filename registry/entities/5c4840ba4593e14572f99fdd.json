@@ -1,0 +1,40 @@
+{
+  "id": "entity:5c4840ba4593e14572f99fdd",
+  "entity_type": "API",
+  "name": "download_managed_file",
+  "description": "Stream a managed file as an attachment download.\n\nRemote clients (desktop app, browser dashboard) open agent-written files\nthat live on *this* gateway's disk, not theirs. Auth-gated like every other\nmanaged-files route — ``auth_middleware`` additionally accepts the session\ntoken as a ``?token=`` query param here so a shell/browser-opened download\n(which can't set the session header) still authenticates. See ``/api/pty``\nfor the same query-token precedent. Chromium identifies ``<audio>`` and\n``<video>`` subresource requests through ``Sec-Fetch-Dest``; serve those\ninline for compatibility with Desktop builds that still use this route as\ntheir player source, while preserving attachment semantics for ordinary\nlink/document requests.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_server.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:27.124928+00:00",
+    "blob_sha": "a7dd5fe4b0ca7cfe6b22fb6e6b965fd2063d8f92",
+    "line": 2659
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "download_managed_file"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

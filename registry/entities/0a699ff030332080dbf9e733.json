@@ -1,0 +1,40 @@
+{
+  "id": "entity:0a699ff030332080dbf9e733",
+  "entity_type": "API",
+  "name": "serve_plugin_asset",
+  "description": "Serve static assets from a dashboard plugin directory.\n\nOnly serves files from the plugin's ``dashboard/`` subdirectory.\nPath traversal is blocked by checking ``resolve().is_relative_to()``.\n\nRestricted to a browser-fetchable suffix allowlist (JS/CSS/JSON/HTML/\nSVG/PNG/JPG/WOFF). The dashboard loads plugin JS via ``<script src>``\nand CSS via ``<link href>``, neither of which can attach a custom\nauth header — so this route stays unauthenticated to keep the SPA\nworking. But user-installed plugins ship a ``plugin_api.py``\nbackend module that the browser never fetches; it's only imported\nby :func:`_mount_plugin_api_routes` at startup. Without a suffix\nallowlist, anyone on the loopback port can curl the ``.py`` source\nof a private third-party plugin. Reject everything outside the\nbrowser-asset set.\n\nUser plugins must be in plugins.enabled before their assets are\nserved. (#46435, GHSA-mcfc-hp25-cjv7)",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_server.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:27.818080+00:00",
+    "blob_sha": "a7dd5fe4b0ca7cfe6b22fb6e6b965fd2063d8f92",
+    "line": 18508
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "serve_plugin_asset"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "entity:d8bedc156880b12cf1741fa0",
+  "entity_type": "API",
+  "name": "save_toolset_env",
+  "description": "Persist API keys for a toolset's provider env vars.\n\nWrites each ``key: value`` to ``~/.hermes/.env`` via ``save_env_value`` —\nthe same store ``hermes tools`` writes when it prompts for keys. Keys are\nvalidated against the env-var allowlist for the toolset's category (the\nunion of every visible provider's ``env_vars``), so the GUI can't write an\narbitrary env var through this endpoint. A blank value is treated as\n\"leave unchanged\" and skipped. Returns the saved/skipped key lists and the\nrefreshed ``is_set`` status. Returns 400 for unknown toolset or env keys.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/tools.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.809641+00:00",
+    "blob_sha": "58c9caeba2cd6b11351c89389ec3ae15795c9798",
+    "line": 604
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/tools.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "save_toolset_env"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

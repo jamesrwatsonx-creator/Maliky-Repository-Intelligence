@@ -1,0 +1,40 @@
+{
+  "id": "entity:2af5cd02e8e98902214dc38e",
+  "entity_type": "API",
+  "name": "auth_password_login",
+  "description": "Authenticate a username/password against a password provider.\n\nMirrors the cookie-minting tail of ``/auth/callback`` but skips the\nPKCE/state/code machinery (those are OAuth-only). On success sets the\nsession cookies and returns JSON ``{\"ok\": true, \"next\": <path>}`` —\nthe credential form POSTs via fetch and navigates client-side, so a\n302 (which fetch follows opaquely) is the wrong shape here.\n\nRFC 8252 native-app branch: when ``/auth/native/authorize`` sent this\nbrowser to ``/login`` (password provider), the PKCE cookie carries the\nopaque ``broker=`` handle. Mirroring the ``/auth/callback`` native\nbranch, success then mints a one-time loopback code instead of a\nbrowser session: ``next`` is the desktop's loopback redirect_uri\n(validated at authorize time) carrying ``code`` + ``state``, and NO\nsession cookies are set — the desktop redeems the code at\n``/auth/native/token`` for bearer tokens it stores itself.\n\nFailure modes, all deliberately generic so the endpoint can't be used\nas a username oracle or a provider-enumeration oracle:\n  * unknown provider / provider lacks password support → 404\n  * bad credentials → 401 (\"Invalid credentials\")\n  * backing store unreachable → 503\n  * too many attempts from this IP → 429",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/dashboard_auth/routes.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:24.269989+00:00",
+    "blob_sha": "91bcec3e8473a8673053991ab1961564d8164544",
+    "line": 698
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/dashboard_auth/routes.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "auth_password_login"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "entity:6a62598da74c00e2d628d613",
+  "entity_type": "API",
+  "name": "upload_task_attachment",
+  "description": "Store an uploaded file for a task and record its metadata.\n\nThe blob lands under ``attachments_root(board)/<task_id>/`` with a\nsanitised, collision-resolved name. The worker reads it via the\nabsolute path surfaced in ``build_worker_context``.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/kanban/dashboard/plugin_api.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:28.912566+00:00",
+    "blob_sha": "ade9fa140e707fd7c7444adee3d826ec4c6b0923",
+    "line": 715
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "plugins/kanban/dashboard/plugin_api.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "upload_task_attachment"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "entity:1ee57ab3453e45e65ec48efb",
+  "entity_type": "API",
+  "name": "stream_managed_file",
+  "description": "Stream managed audio/video inline with HTTP Range support.\n\nElectron's Chromium media pipeline may reject an attachment response used\nas an ``<audio>`` or ``<video>`` source. This route shares the download\nendpoint's authentication, size cap, sensitive-file guard, MIME detection,\nand Starlette ``FileResponse`` range handling, but explicitly marks the\nresponse inline so metadata loading, playback, and seeking work remotely.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_server.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:27.128964+00:00",
+    "blob_sha": "a7dd5fe4b0ca7cfe6b22fb6e6b965fd2063d8f92",
+    "line": 2685
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "stream_managed_file"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

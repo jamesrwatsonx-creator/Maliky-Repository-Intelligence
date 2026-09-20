@@ -16,36 +16,499 @@
     "language": null,
     "license": null,
     "archived": false,
-    "pushed_at": "2026-04-20T10:05:04Z"
+    "pushed_at": "2026-04-20T10:05:04Z",
+    "license_declared": "MIT",
+    "license_file_present": false,
+    "security_review_scope": "Static prompt and manifest review only",
+    "runtime_tested": false,
+    "dependency_profile": "Host coding agent; no runtime dependency manifest",
+    "fork_lineage": "Fork of multica-ai/andrej-karpathy-skills; divergence not established"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
-  "categories": [],
-  "operational_category": "operational:25",
+  "state": "COMPLETE",
+  "inspected_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+  "current_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+  "inspection_date": "2026-09-20T05:32:59.261740+00:00",
+  "categories": [
+    "category:skills",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [],
-  "studios": [],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "scores": {},
-  "tier": null,
-  "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "entity_census": {},
+  "scores": {
+    "Capability Value": {
+      "value": 7,
+      "reason": "The skill explicitly structures assumptions, edit scope and testable acceptance criteria; usefulness depends on the host model.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Code Quality": {
+      "value": 7,
+      "reason": "No executable application code. Prompt structure is clear; EXAMPLES.md contains an incomplete tie-breaker assertion, limiting teaching precision.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Reusability": {
+      "value": 9,
+      "reason": "The same compact instructions are available as a skill, root prompt and Cursor rule, with a one-skill plugin wrapper.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Production Readiness": {
+      "value": 4,
+      "reason": "The nine-file tree has no behavioral evaluation suite or runtime integration tests. Treat this as reviewed guidance, not validated model behavior.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Maintenance Health": {
+      "value": 5,
+      "reason": "The pinned latest commit is dated 2026-04-20 and synchronizes the Chinese README; the snapshot gives no stronger recent maintenance evidence.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Future Relevance": {
+      "value": 7,
+      "reason": "Assumption management, scoped changes and explicit verification remain broadly applicable to coding-agent tasks; this is a reasoned assessment of the prompt content.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Strategic Value": {
+      "value": 7,
+      "reason": "Fits Agent Studio as a small reusable instruction asset with no need to install an application repository.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Documentation Quality": {
+      "value": 8,
+      "reason": "English and Chinese READMEs, a Cursor integration guide and worked examples cover use and tradeoffs; example-test limitations are recorded.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Security Posture": {
+      "value": 6,
+      "reason": "The inspected tree contains text and manifests, without executable services or dependency installers. The host agent still controls real actions and requires its own safeguards.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    },
+    "Integration Ease": {
+      "value": 9,
+      "reason": "The plugin references one local skill path; CURSOR.md documents copying one rule or prompt. Host compatibility is not runtime-tested.",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+        },
+        {
+          "type": "source_path",
+          "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+        }
+      ]
+    }
+  },
+  "tier": "B",
+  "tier_reason": "A small, readily reusable coding-guidance asset, with strategic fit for Agent Studio but no behavioral benchmarks and a missing standalone license file. Tier is a qualitative judgment, not a score average.",
+  "recommendation": "LICENSE REVIEW REQUIRED",
+  "entity_census": {
+    "SKILL": {
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "MCP_SERVER": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "MCP_CLIENT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "TOOL": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "PLUGIN": {
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "AGENT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "AGENT_FRAMEWORK": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "WORKFLOW": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "COMPONENT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "UI_COMPONENT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "MOBILE_COMPONENT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "DESIGN_SYSTEM": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "PROMPT": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "PROMPT_LIBRARY": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "SERVICE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "API": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "SDK": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "LIBRARY": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "PACKAGE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "MODEL": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "MODEL_ADAPTER": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "DATASET": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "BENCHMARK": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "DATABASE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "CONNECTOR": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "INTEGRATION": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "AUTOMATION": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "CLI": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "APP": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "INFRASTRUCTURE_MODULE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "TEMPLATE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "REFERENCE_IMPLEMENTATION": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "DOCUMENTATION_ASSET": {
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    },
+    "OTHER": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "independent_full_tree_semantic_review",
+      "reviewed": true
+    }
+  },
   "deep_review": {
-    "completed": false,
-    "reviewer": null,
-    "evidence": []
+    "completed": true,
+    "reviewer": "Codex static source review",
+    "reviewed_at": "2026-09-20T05:43:27.440695+00:00",
+    "scope": "All nine files at the pinned commit",
+    "evidence": [
+      {
+        "type": "source_path",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+      },
+      {
+        "type": "source_path",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_path",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/EXAMPLES.md"
+      },
+      {
+        "type": "source_path",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/CURSOR.md"
+      }
+    ],
+    "census_reasoning": "One canonical guideline skill, one plugin wrapper and one independently reusable worked-example document. CLAUDE.md and the Cursor rule are equivalent delivery variants on the skill record. Marketplace and translated/readme/setup documentation describe those same assets; no independent MCP, service, model, SDK or executable agent is present.",
+    "known_limits": [
+      "Behavioral effectiveness not tested",
+      "Standalone license file absent despite MIT declarations",
+      "Fork divergence not compared against upstream HEAD",
+      "Example snippets are teaching references and not production implementations"
+    ]
   },
   "phases": {
-    "structure": false,
-    "entity_extraction": false,
-    "capability_analysis": false,
-    "deep_review": false,
-    "validation": false
+    "structure": true,
+    "entity_extraction": true,
+    "capability_analysis": true,
+    "deep_review": true,
+    "validation": true
   },
-  "visibility_verified_at": "2026-09-20T05:30:06.606109+00:00",
+  "visibility_verified_at": "2026-09-20T05:40:00.805549+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -65,5 +528,10 @@
     "tree_complete": true,
     "verified_source_files": 8,
     "unverified_source_files": 0
-  }
+  },
+  "tree_files": 9,
+  "files_read": 9,
+  "entity_count": 3,
+  "unread_source_files": 0,
+  "next_phase": "CHECK_FOR_NEW_COMMIT"
 }

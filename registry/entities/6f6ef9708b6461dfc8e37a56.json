@@ -1,0 +1,40 @@
+{
+  "id": "entity:6f6ef9708b6461dfc8e37a56",
+  "entity_type": "API",
+  "name": "capture_readiness_endpoint",
+  "description": "Whether the STT and LLM models the user has selected are downloaded.\n\nThe frontend gates the global hotkey on this — pressing the chord with\na missing model would otherwise produce a stuck \"transcribing\" pill that\nwaits forever for a download to finish. Checks on-disk cache, not RAM\nload, so the answer survives backend restarts.",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/routes/captures.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T05:35:29.245035+00:00",
+    "blob_sha": "40a5adc12b322b1c916cc06df085bb6dfeb93bdf",
+    "line": 158
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "backend/routes/captures.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "capture_readiness_endpoint"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "entity:7dbe355b96e62a02eecdef92",
+  "entity_type": "API",
+  "name": "toggle_toolset",
+  "description": "Enable/disable a configurable toolset for its configuration platform.\n\nMost toolsets persist to ``platform_toolsets.cli``. Platform-restricted\ntoolsets instead target their supported platform (for example, Discord's\nnative toolsets persist to ``platform_toolsets.discord``). The shared\n``_save_platform_tools`` helper keeps the GUI and CLI in lockstep. Scoped\nto ``body.profile`` when provided. Returns 400 for unknown toolset keys.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/tools.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.790047+00:00",
+    "blob_sha": "58c9caeba2cd6b11351c89389ec3ae15795c9798",
+    "line": 124
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/tools.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "toggle_toolset"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

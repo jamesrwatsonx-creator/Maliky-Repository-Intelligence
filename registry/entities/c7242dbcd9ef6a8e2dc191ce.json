@@ -1,0 +1,40 @@
+{
+  "id": "entity:c7242dbcd9ef6a8e2dc191ce",
+  "entity_type": "API",
+  "name": "install_mcp_catalog_entry",
+  "description": "Install a catalog MCP into config.yaml.\n\nFor HTTP/stdio entries with required env vars, those are written to .env\nvia the standard env path so the agent can read them at session start.\nEntries that need a git bootstrap (``needs_install``) are installed via\nthe CLI action path because the clone can take time.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/mcp.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.643042+00:00",
+    "blob_sha": "1dd5875a5887e7fc8f86fb7d5450c46d9dc1a89e",
+    "line": 491
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/mcp.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "install_mcp_catalog_entry"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

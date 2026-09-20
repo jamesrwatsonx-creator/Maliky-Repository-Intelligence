@@ -1,6 +1,6 @@
 """Read-only source ingestion and conservative capability registry operations."""
 from __future__ import annotations
-import argparse, ast, base64, collections, concurrent.futures, hashlib, json, os, pathlib, re, subprocess, sys, tempfile, time
+import argparse, ast, base64, collections, concurrent.futures, hashlib, json, os, pathlib, re, subprocess, sys, tempfile, time, tarfile, urllib.request
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -16,9 +16,14 @@ def read(path, default=None):
     return json.loads(p.read_text(encoding='utf-8-sig')) if p.exists() else default
 def write(path, data):
     p=ROOT/path; p.parent.mkdir(parents=True,exist_ok=True)
-    with tempfile.NamedTemporaryFile('w',encoding='utf-8',dir=p.parent,delete=False) as f:
+    with tempfile.NamedTemporaryFile('w',encoding='utf-8',dir=p.parent,suffix='.tmp',delete=False) as f:
         json.dump(data,f,indent=2,ensure_ascii=False); f.write('\n'); name=f.name
-    os.replace(name,p)
+    for attempt in range(8):
+        try:
+            os.replace(name,p); break
+        except PermissionError:
+            if attempt==7: raise
+            time.sleep(0.05*(attempt+1))
 def records(kind):
     return [json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'registry'/kind).glob('*.json'))]
 def gh(endpoint):
@@ -126,16 +131,21 @@ def get_tree(repo, commit):
     if tree and not tree.get('truncated',True): return tree
     tree=gh(f'repos/{repo["full_name"]}/git/trees/{commit}?recursive=1')
     if tree.get('truncated'):
-        # Complete large trees using nonrecursive subtree traversal, preserving paths.
-        root=gh(f'repos/{repo["full_name"]}/git/trees/{commit}')
-        todo=[('',root)]; entries=[]
-        while todo:
-            prefix, node=todo.pop()
-            if node.get('truncated'): raise RuntimeError('Nonrecursive tree unexpectedly truncated')
-            for entry in node['tree']:
-                e=dict(entry); e['path']=prefix+entry['path']; entries.append(e)
-                if e['type']=='tree': todo.append((e['path']+'/',gh(f'repos/{repo["full_name"]}/git/trees/{e["sha"]}')))
-        tree={'sha':root['sha'],'tree':entries,'truncated':False,'expanded_subtrees':True}
+        # Read trees from an isolated bare, blob-filtered fetch. No checkout or source execution.
+        bare=ROOT/'.local/git-trees'/str(repo['github_id']); bare.parent.mkdir(parents=True,exist_ok=True)
+        def git(*args):
+            p=subprocess.run(['git',*args],capture_output=True,timeout=180)
+            if p.returncode: raise RuntimeError(p.stderr.decode(errors='replace')[:500])
+            return p.stdout
+        if not bare.exists(): git('init','--bare',str(bare))
+        git('-C',str(bare),'-c','remote.origin.promisor=true','fetch','--depth=1','--filter=blob:none',repo['url']+'.git',commit)
+        raw=git('-C',str(bare),'ls-tree','-r','-z',commit); entries=[]
+        for item in raw.split(b'\0'):
+            if not item: continue
+            header,path=item.split(b'\t',1); mode,kind,digest=header.decode().split()
+            entries.append({'path':path.decode('utf-8'),'mode':mode,'type':kind,'sha':digest})
+        root_sha=git('-C',str(bare),'rev-parse',commit+'^{tree}').decode().strip()
+        tree={'sha':root_sha,'tree':entries,'truncated':False,'method':'bare_filtered_git_tree'}
     if any(not safe_path(x['path']) for x in tree['tree']): raise RuntimeError('Unsafe source path')
     write(dest/'tree.json',tree); return tree
 
@@ -158,6 +168,15 @@ def frontmatter(text):
     for m in re.finditer(r'^([\w-]+):\s*(.*?)\s*$',text[3:end],re.M):
         val=m[2].strip().strip('\"\'')
         if val not in ('>','|','>-','|-'): result[m[1]]=val
+    lines=text[3:end].splitlines()
+    for i,line in enumerate(lines):
+        match=re.match(r'^([\w-]+):\s*[>|][-+]?\s*$',line)
+        if not match: continue
+        block=[]
+        for follow in lines[i+1:]:
+            if follow and not follow[0].isspace(): break
+            block.append(follow.strip())
+        result[match[1]]=' '.join(block).strip()
     return result
 
 def detect(path,text):
@@ -206,6 +225,9 @@ def detect(path,text):
         if name.endswith(('.tsx','.jsx')):
             for m in re.finditer(r'export\s+(?:default\s+)?(?:function|class|const)\s+([A-Z][A-Za-z0-9_]*)',text):
                 if re.search(r'<[A-Za-z]',text): add('UI_COMPONENT',m[1],'Exported JSX component candidate',text[:m.start()].count('\n')+1)
+    if name.endswith('.go') and ('mcp-go' in text or 'modelcontextprotocol' in text):
+        for m in re.finditer(r'\bmcp\.NewTool\(\s*"([^\"]+)"',text): add('TOOL',m[1],'Explicit Go MCP tool declaration',text[:m.start()].count('\n')+1)
+        for m in re.finditer(r'\bserver\.NewMCPServer\(\s*"([^\"]+)"',text): add('MCP_SERVER',m[1],'Go MCP server constructor',text[:m.start()].count('\n')+1)
     return list({(f['type'],f['symbol']):f for f in found}.values())
 
 def entity_record(repo,commit,entry,found):
@@ -220,10 +242,44 @@ def priority(entry):
     if name.lower().startswith('readme'): return 2
     if p.startswith('.github/workflows/'): return 3
     if pathlib.PurePosixPath(p).suffix in SOURCE_EXTENSIONS: return 4
-    if pathlib.PurePosixPath(p).suffix in ('.md','.json','.yaml','.yml','.toml'): return 5
+    if pathlib.PurePosixPath(p).suffix in ('.md','.mdc','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
     return 6
 
-def ingest(full_name, offline=False,max_files=None,structure_only=False):
+def persist_evidence(path,evidence):
+    """Keep complete raw path manifests locally; publish compact, reconstructible coverage."""
+    full=evidence.get('tree_entries',[])
+    write(pathlib.Path('.local/evidence-manifests')/(pathlib.Path(path).name),evidence)
+    result=dict(evidence); read_paths={x['path'] for x in evidence.get('files_read',[])}
+    result['tree_manifest_sha256']=hashlib.sha256(json.dumps(full,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    result['tree_entries']=[x for x in full if x['path'] in read_paths]
+    result['tree_entries_scope']='Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit'
+    result['top_level_path_counts']=dict(collections.Counter(x['path'].split('/')[0] if '/' in x['path'] else '(root files)' for x in full))
+    for key in ['unread_source_paths','excluded_nontext_paths']:
+        paths=evidence.get(key,[]); result[key+'_count']=len(paths); result[key]=paths[:100]; result[key+'_truncated']=len(paths)>100
+    write(path,result)
+
+def cache_snapshot(repo,commit,entries):
+    """Stream a public commit archive into content-addressed cache, never extract or run it."""
+    wanted={e['path']:e for e in entries if priority(e)<6}
+    existing=ROOT/cache_path(repo,commit)/'blobs'; existing.mkdir(parents=True,exist_ok=True)
+    if all((existing/e['sha']).exists() for e in wanted.values()): return
+    url=f'https://codeload.github.com/{repo["full_name"]}/tar.gz/{commit}'
+    with urllib.request.urlopen(url,timeout=60) as response, tarfile.open(fileobj=response,mode='r|gz') as archive:
+        for member in archive:
+            if not member.isfile(): continue
+            parts=member.name.split('/',1)
+            if len(parts)!=2 or not safe_path(parts[1]): continue
+            entry=wanted.get(parts[1])
+            if not entry or (existing/entry['sha']).exists(): continue
+            # Oversized text remains explicitly unread, available via individual blob ingestion.
+            if member.size>10*1024*1024: continue
+            stream=archive.extractfile(member)
+            if stream is None: continue
+            data=stream.read()
+            if git_blob(data)!=entry['sha']: raise RuntimeError('Archive blob differs from pinned tree')
+            (existing/entry['sha']).write_bytes(data)
+
+def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot=False):
     matches=[r for r in records('repositories') if r['full_name']==full_name]
     if not matches: raise ValueError('Repository not in verified public owned inventory; run discovery')
     r=matches[0]
@@ -235,9 +291,12 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False):
             meta=gh(f'repos/{full_name}')
             if not public_repo(meta): raise RuntimeError('Source no longer verified public and owned; publication blocked')
             r['visibility_verified_at']=now(); r['upstream_url']=(meta.get('parent') or {}).get('html_url')
-            if meta['size']==0:
-                r['state']='NEEDS_REVIEW'; r['empty_repository']=True; r['next_phase']='CONFIRM_EMPTY_REPOSITORY'; write(repo_file(r),r); return {'repo':full_name,'state':r['state'],'empty':True}
-            head=gh(f'repos/{full_name}/commits/{meta["default_branch"]}')
+            try:
+                head=gh(f'repos/{full_name}/commits/{meta["default_branch"]}')
+            except RuntimeError as exc:
+                if 'HTTP 409' in str(exc) or 'Git Repository is empty' in str(exc):
+                    r['state']='NEEDS_REVIEW'; r['empty_repository']=True; r['empty_confirmed_at']=now(); r['next_phase']='EMPTY_REPOSITORY_DISPOSITION'; write(repo_file(r),r); return {'repo':full_name,'state':r['state'],'empty':True}
+                raise
             commit=head['sha']; write(cache_path(r,commit)/'commit.json',head)
         r['current_commit']=commit
         if r.get('inspected_commit')!=commit and r.get('inspected_commit'):
@@ -250,6 +309,7 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False):
         tree=read(cache_path(r,commit)/'tree.json') if offline else get_tree(r,commit)
         if not tree: raise RuntimeError('No tree cache available')
         entries=[e for e in tree['tree'] if e['type']=='blob' and e.get('mode')!='120000']
+        if snapshot and not offline and not structure_only: cache_snapshot(r,commit,entries)
         r['inspected_commit']=commit; r['inspection_date']=r.get('inspection_date') or now()
         r['phases']['structure']=not tree.get('truncated',True)
         r['tree_files']=len(entries); r['state']='STRUCTURE_COMPLETE' if r['phases']['structure'] else 'PARTIAL'
@@ -272,6 +332,9 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False):
                             if old['source']['blob_sha']==ent['source']['blob_sha']:
                                 # Preserve annotations when implementation has not changed.
                                 for key in ['review_status','categories','operational_category','secondary_operational_categories','capabilities','studios','ideas','metadata','scores','tier','tier_reason','recommendation','contribution_role']: ent[key]=old[key]
+                                if old['source']['inspected_commit']!=commit and ent['review_status']=='VERIFIED':
+                                    ent['review_status']='STALE'
+                                    ent['metadata']={**ent['metadata'],'prior_review_commit':old['source']['inspected_commit'],'revalidation_reason':'File unchanged but repository revision changed; verify surrounding dependencies before reuse.'}
                             else:
                                 write(pathlib.Path('.local/entity-history')/ent['id'].split(':')[1]/(old['source']['inspected_commit']+'.json'),old)
                         write(f,ent)
@@ -290,7 +353,7 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False):
         r['next_phase']='ENTITY_EXTRACTION' if unread else 'SEMANTIC_CENSUS_REVIEW'
         if processed: r['state']='PARTIAL' if unread or skill_detected!=counts['SKILL'] else 'NEEDS_REVIEW'
         r.pop('last_error',None)
-        write(ep,{'repository_id':r['id'],'inspected_commit':commit,'tree_complete':r['phases']['structure'],'tree_files':len(entries),'tree_entries':[{'path':e['path'],'sha':e['sha']} for e in entries],'files_read':list(processed.values()),'unread_source_paths':unread,'excluded_nontext_paths':[e['path'] for e in entries if priority(e)==6],'errors':errors,'census_review_required':True,'detector_version':1})
+        persist_evidence(ep,{'repository_id':r['id'],'inspected_commit':commit,'tree_complete':r['phases']['structure'],'tree_files':len(entries),'tree_entries':[{'path':e['path'],'sha':e['sha']} for e in entries],'files_read':list(processed.values()),'unread_source_paths':unread,'excluded_nontext_paths':[e['path'] for e in entries if priority(e)==6],'errors':errors,'census_review_required':True,'detector_version':1})
         write(repo_file(r),r)
         return {'repo':full_name,'state':r['state'],'files_read':len(processed),'entities':len(ents),'unread':len(unread)}
     except Exception as exc:
@@ -336,7 +399,12 @@ def build():
             if d.get('metadata',{}).get(dim): index[d['metadata'][dim]].append(d['id'])
         write('registry/indexes/'+dim+'.json',dict(index))
     queue=[{'repository_id':r['id'],'repository':r['full_name'],'state':r['state'],'next_phase':r.get('next_phase','STRUCTURE'),'inspected_commit':r['inspected_commit']} for r in repos if r['state']!='COMPLETE']
+    phase_priority={'SEMANTIC_CENSUS_REVIEW':0,'ENTITY_EXTRACTION':1,'STRUCTURE':2,'EMPTY_REPOSITORY_DISPOSITION':3}
+    queue.sort(key=lambda item:(item['repository']==SELF,phase_priority.get(item['next_phase'],2),item['repository_id']))
     stats={'generated_at':now(),'public_repository_records':len(repos),'active_entity_records':len(active),'historical_entity_records':len(entities)-len(active),'entity_types':dict(collections.Counter(e['entity_type'] for e in active)),'repositories_by_state':dict(collections.Counter(r['state'] for r in repos)),'complete_trees':sum(r['phases']['structure'] for r in repos),'verified_source_files_read':sum(r.get('files_read',0) for r in repos),'verified_capabilities':sum(c['status']=='VERIFIED' for c in caps),'search_documents':len(docs),'pending_repositories':len(queue),'completion_policy':'Structural readiness is separate from semantic coverage. No candidate is automatically COMPLETE.'}
+    stats['verified_entity_records']=sum(e['review_status']=='VERIFIED' for e in active)
+    stats['candidate_entity_records']=sum(e['review_status']=='NEEDS_REVIEW' for e in active)
+    stats['confirmed_empty_repositories']=sum(bool(r.get('empty_confirmed_at')) for r in repos)
     write('system/statistics.json',stats); write('system/inspection-state.json',{'generated_at':now(),'queue':queue,'next':queue[0] if queue else None})
     return stats
 
@@ -363,29 +431,70 @@ def compose(requirements):
     verified_caps={c['id'] for c in records('capabilities') if c['status']=='VERIFIED'}
     active_commits={r['id']:r['inspected_commit'] for r in records('repositories')}
     pool=[e for e in records('entities') if e['review_status']=='VERIFIED' and e['source']['inspected_commit']==active_commits.get(e['source']['repository_id'])]
-    selected=[]
+    priority_types={'SKILL':1,'MCP_SERVER':2,'TOOL':2,'PLUGIN':2,'SERVICE':3,'COMPONENT':4,'UI_COMPONENT':4,'MOBILE_COMPONENT':4,'SDK':5,'API':5,'REFERENCE_IMPLEMENTATION':6}
+    def preference(e): return (0 if e.get('metadata',{}).get('shared_maliky') else priority_types.get(e['entity_type'],7),e['id'])
+    pool.sort(key=preference)
+    selected=[]; method='Deterministic greedy cover with capability-first tie-breaks; optimality not guaranteed'
+    viable=[e for e in pool if wanted & set(e['capabilities']) & verified_caps]
+    # Exact minimum-cardinality cover for modest requirement sets; no entity extraction cap.
+    if len(wanted)<=16 and len(viable)<=60:
+        order=sorted(wanted); masks=[sum(1<<i for i,c in enumerate(order) if c in e['capabilities'] and c in verified_caps) for e in viable]
+        states={0:()}
+        for i,mask in enumerate(masks):
+            for before,choice in list(states.items()):
+                after=before|mask; candidate=choice+(i,)
+                if after not in states or (len(candidate),candidate)<(len(states[after]),states[after]): states[after]=candidate
+        best=max(states,key=lambda mask:(mask.bit_count(),-len(states[mask])))
+        selected=[viable[i] for i in states[best]]
+        remaining-=set().union(*(set(e['capabilities']) & verified_caps for e in selected)) if selected else set()
+        method='Exact minimum provider count for maximal established coverage; capability-first tie-breaks'
     while remaining:
         choices=[(len(remaining & set(e['capabilities']) & verified_caps),e) for e in pool if e not in selected]
-        choices.sort(key=lambda x:(-x[0],x[1]['id']))
+        choices.sort(key=lambda x:(-x[0],preference(x[1])))
         if not choices or choices[0][0]==0: break
         best=choices[0][1]; selected.append(best); remaining-=set(best['capabilities']) & verified_caps
-    return {'requirements':sorted(wanted),'selected':[{'id':e['id'],'name':e['name'],'source':e['source'],'role':e['contribution_role'],'supplies':sorted(wanted & set(e['capabilities']))} for e in selected],'alternatives':[e['id'] for e in pool if e not in selected and wanted & set(e['capabilities'])],'missing_capabilities':sorted(remaining),'method':'Deterministic greedy cover; not a mathematical optimality guarantee','empty_requirements':not bool(wanted),'caveat':'Missing means not established by reviewed evidence. Dependencies and compatibility need review.'}
+    selected_ids={e['id'] for e in selected}; dependencies=[edge for edge in records('relationships') if edge['type'] in ('DEPENDS_ON','REQUIRES') and edge['from'] in selected_ids]
+    return {'requirements':sorted(wanted),'selected':[{'id':e['id'],'name':e['name'],'source':e['source'],'role':e['contribution_role'],'supplies':sorted(wanted & set(e['capabilities']))} for e in selected],'dependencies':dependencies,'alternatives':[e['id'] for e in pool if e not in selected and wanted & set(e['capabilities'])],'missing_capabilities':sorted(remaining),'method':method,'empty_requirements':not bool(wanted),'caveat':'Missing means not established by reviewed evidence. Dependency closure, runtime compatibility and production readiness require separate review.'}
 
 def validate():
     errors=[]; vocab=read('registry/taxonomy/vocabulary.json'); repos=records('repositories'); entities=records('entities')
     caps=records('capabilities'); studios=records('studios'); ideas=records('ideas'); compositions=records('compositions'); relationships=records('relationships')
+    def schema_check(value,schema,path):
+        expected=schema.get('type')
+        types={'object':dict,'array':list,'string':str,'number':(int,float),'integer':int,'boolean':bool}
+        if expected in types and not isinstance(value,types[expected]): errors.append(path+': wrong type'); return
+        if 'enum' in schema and value not in schema['enum']: errors.append(path+': invalid enum')
+        if isinstance(value,dict):
+            for key in schema.get('required',[]):
+                if key not in value: errors.append(path+': required '+key)
+            for key,sub in schema.get('properties',{}).items():
+                if key in value: schema_check(value[key],sub,path+'.'+key)
+        if isinstance(value,str):
+            if len(value)<schema.get('minLength',0) or ('pattern' in schema and not re.search(schema['pattern'],value)): errors.append(path+': invalid string')
+        if isinstance(value,list):
+            if len(value)<schema.get('minItems',0): errors.append(path+': too few items')
+            if schema.get('uniqueItems') and len({json.dumps(v,sort_keys=True) for v in value})!=len(value): errors.append(path+': duplicate items')
+            if 'items' in schema:
+                for index,item in enumerate(value): schema_check(item,schema['items'],path+'.'+str(index))
+    for kind,items in [('repository',repos),('entity',entities),('capability',caps),('studio',studios),('idea',ideas),('composition',compositions),('relationship',relationships)]:
+        schema=read('schemas/'+kind+'.schema.json',{})
+        for index,item in enumerate(items): schema_check(item,schema,kind+':'+str(index))
+    if errors:
+        report={'validated_at':now(),'valid':False,'errors':errors,'stage':'schema'}; write('system/validation-report.json',report); return report
     all_records=repos+entities+caps+studios+ideas+compositions+relationships
     ids=[r.get('id') for r in all_records]; by_id={r.get('id'):r for r in all_records}
     if len(ids)!=len(set(ids)): errors.append('Duplicate canonical IDs')
     category_ids={c['id'] for c in read('registry/taxonomy/categories.json')}; op_ids={c['id'] for c in read('registry/taxonomy/operational.json')}
     cap_ids={c['id'] for c in caps}; studio_ids={c['id'] for c in studios}; idea_ids={c['id'] for c in ideas}
     manifest=read('system/discovery-manifest.json',{}); allowed={r['id'] for r in manifest.get('repositories',[])}
+    evidence_by_repo={r['id']:read('system/evidence/'+str(r['github_id'])+'.json',{}) for r in repos}
+    source_paths_by_repo={rid:{p['path']:p['blob_sha'] for p in ev.get('files_read',[])} for rid,ev in evidence_by_repo.items()}
     for r in repos:
         prefix=r['id']
         if r['id'] not in allowed or r['visibility']!='public' or r['owner']!=OWNER: errors.append(prefix+': not verified public owned')
         if r['state'] not in vocab['inspection_states']: errors.append(prefix+': invalid state')
         if r.get('inspected_commit') and not SHA.fullmatch(r['inspected_commit']): errors.append(prefix+': invalid commit')
-        evidence=read('system/evidence/'+str(r['github_id'])+'.json',{})
+        evidence=evidence_by_repo[r['id']]
         current_ents=[e for e in entities if e['source']['repository_id']==r['id'] and e['source']['inspected_commit']==r['inspected_commit']]
         counts=collections.Counter(e['entity_type'] for e in current_ents)
         for kind,census in r.get('entity_census',{}).items():
@@ -405,7 +514,7 @@ def validate():
         if not safe_path(s.get('source_path','')) or not SHA.fullmatch(s.get('inspected_commit','')): errors.append(e['id']+': invalid path/commit')
         if s['repository_name']!=repo['full_name'] or s['repository_url']!=repo['url']: errors.append(e['id']+': repository provenance mismatch')
         if s['inspected_commit']==repo['inspected_commit']:
-            ev=read('system/evidence/'+str(repo['github_id'])+'.json',{}); paths={p['path']:p['blob_sha'] for p in ev.get('files_read',[])}
+            paths=source_paths_by_repo[repo['id']]
             if paths.get(s['source_path'])!=s['blob_sha']: errors.append(e['id']+': unverified source evidence')
         if not e.get('evidence'): errors.append(e['id']+': missing evidence')
     for r in repos+entities:
@@ -444,19 +553,24 @@ def validate():
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('command',choices=['discover','recover','ingest','batch','build','validate','status','query','compose']); parser.add_argument('value',nargs='?'); parser.add_argument('--input'); parser.add_argument('--offline',action='store_true'); parser.add_argument('--all-accessible',action='store_true'); parser.add_argument('--max-files',type=int); parser.add_argument('--structure-only',action='store_true'); parser.add_argument('--workers',type=int,default=4); parser.add_argument('--limit',type=int,default=20); parser.add_argument('--kind'); parser.add_argument('--verified',action='store_true')
+    parser.add_argument('--snapshot',action='store_true',help='Cache eligible text from a streamed public commit archive')
     a=parser.parse_args()
-    if a.command=='discover': discover(a.input)
+    if a.command=='discover':
+        if a.value and a.value!=OWNER: parser.error('This registry is scoped to '+OWNER)
+        discover(a.input)
     elif a.command=='recover': recover(a.value)
     elif a.command=='ingest':
-        result=ingest(a.value,a.offline,a.max_files,a.structure_only); build(); print(json.dumps(result)); return 1 if 'error' in result else 0
+        result=ingest(a.value,a.offline,a.max_files,a.structure_only,a.snapshot); build(); print(json.dumps(result)); return 1 if 'error' in result else 0
     elif a.command=='batch':
         targets=[r['full_name'] for r in records('repositories') if r['full_name']!=SELF and (not a.offline or r.get('legacy_cache'))]
         if a.value: targets=targets[:int(a.value)]
         errors=0
         with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
-            jobs=[pool.submit(ingest,name,a.offline,a.max_files,a.structure_only) for name in targets]
+            jobs=[pool.submit(ingest,name,a.offline,a.max_files,a.structure_only,a.snapshot) for name in targets]
             for i,f in enumerate(concurrent.futures.as_completed(jobs),1):
-                result=f.result(); errors+='error' in result
+                try: result=f.result()
+                except Exception as exc: result={'error':str(exc)[:300]}
+                errors+='error' in result
                 print(json.dumps({'completed':i,'total':len(jobs),**result}),flush=True)
         build(); return bool(errors)
     elif a.command=='build': print(json.dumps(build()))

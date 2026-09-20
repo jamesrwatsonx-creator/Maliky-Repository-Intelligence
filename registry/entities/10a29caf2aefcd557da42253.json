@@ -1,0 +1,57 @@
+{
+  "id": "entity:10a29caf2aefcd557da42253",
+  "entity_type": "API",
+  "name": "stream_speech",
+  "description": "Generates and buffers complete WAV audio, then delivers it using an HTTP StreamingResponse. It is chunked response delivery, not streaming model inference. Requires a compatible profile, cached model and TTS backend.",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/routes/generations.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T05:35:29.376355+00:00",
+    "blob_sha": "fbbeece6768d94d37adc602d6db6bf8fd28fbd01",
+    "line": 319
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "backend/routes/generations.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "stream_speech"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L319"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:backend-services"
+  ],
+  "operational_category": "operational:07",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:generated-wav-response-delivery"
+  ],
+  "studios": [
+    "studio:voice-studio",
+    "studio:voice-communications"
+  ],
+  "ideas": [],
+  "metadata": {
+    "review_method": "Static source review",
+    "reviewed_at": "2026-09-20T05:40:46.506802+00:00",
+    "runtime_tested": false,
+    "limitations": "Describes the inspected implementation or prompt contract; performance, security and production readiness are not established."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
+}

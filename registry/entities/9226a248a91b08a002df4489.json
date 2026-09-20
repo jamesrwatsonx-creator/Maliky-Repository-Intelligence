@@ -1,0 +1,40 @@
+{
+  "id": "entity:9226a248a91b08a002df4489",
+  "entity_type": "TOOL",
+  "name": "messages_send",
+  "description": "Send a message to a platform conversation.\n\nThe target format is \"platform:chat_id\" — same format used by the\nchannels_list tool. You can also use human-friendly channel names\nthat will be resolved automatically.\n\nExamples:\n    target=\"telegram:6308981865\"\n    target=\"discord:#general\"\n    target=\"slack:#engineering\"\n\nArgs:\n    target: Platform target in \"platform:identifier\" format\n    message: The message text to send",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "mcp_serve.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:28.104218+00:00",
+    "blob_sha": "a81bda733b03cb167e5b97092c01d0b97526bfb2",
+    "line": 897
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "mcp_serve.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "messages_send"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

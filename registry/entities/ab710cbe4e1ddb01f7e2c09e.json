@@ -1,0 +1,40 @@
+{
+  "id": "entity:ab710cbe4e1ddb01f7e2c09e",
+  "entity_type": "API",
+  "name": "auth_native_token",
+  "description": "Exchange a loopback gateway code + PKCE verifier for bearer tokens.\n\nThe desktop POSTs this from its loopback listener after catching the\n``?code=`` redirect. We verify ``SHA256(code_verifier) == code_challenge``\n(the challenge captured at ``/auth/native/authorize``), consume the code\n(single use), and return the upstream tokens **in the JSON body** — the\ndesktop stores them in the OS keychain and authenticates with\n``Authorization: Bearer`` thereafter. No cookie is set on this response.\n\nFailure modes (all deliberately generic — the code is consumed on every\npath so there is no verifier oracle and no replay):\n  * unknown / expired / already-redeemed code, or PKCE mismatch → 400",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/dashboard_auth/routes.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:24.287000+00:00",
+    "blob_sha": "91bcec3e8473a8673053991ab1961564d8164544",
+    "line": 975
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/dashboard_auth/routes.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "auth_native_token"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

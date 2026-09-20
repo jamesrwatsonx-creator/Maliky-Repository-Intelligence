@@ -1,0 +1,63 @@
+{
+  "id": "entity:8c7a5db9184fd8e9e60a1c6d",
+  "entity_type": "API",
+  "name": "generate_speech",
+  "description": "POST /generate validates a voice profile and engine, creates a generation record and enqueues run_generation. It returns the generation record; synthesis is performed asynchronously.",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/routes/generations.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T05:35:29.361381+00:00",
+    "blob_sha": "fbbeece6768d94d37adc602d6db6bf8fd28fbd01",
+    "line": 57
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "backend/routes/generations.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "generate_speech"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:backend-services"
+  ],
+  "operational_category": "operational:07",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:queued-speech-generation-submission"
+  ],
+  "studios": [
+    "studio:voice-studio",
+    "studio:voice-communications"
+  ],
+  "ideas": [],
+  "metadata": {
+    "review_method": "Static source review",
+    "reviewed_at": "2026-09-20T05:40:44.701659+00:00",
+    "runtime_tested": false,
+    "limitations": "Describes the inspected implementation or prompt contract; performance, security and production readiness are not established.",
+    "integration_requirements": [
+      "Running Voicebox backend",
+      "Compatible voice profile",
+      "Installed inference engine and cached model",
+      "Database and initialized generation queue"
+    ]
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
+}

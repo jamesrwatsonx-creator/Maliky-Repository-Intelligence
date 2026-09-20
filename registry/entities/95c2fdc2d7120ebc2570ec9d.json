@@ -1,0 +1,40 @@
+{
+  "id": "entity:95c2fdc2d7120ebc2570ec9d",
+  "entity_type": "TOOL",
+  "name": "voicebox_speak",
+  "description": "Speak ``text`` in a voice profile.\n\n``profile`` accepts a voice profile name (e.g. \"Morgan\") or id. If\nomitted, the server looks up the per-client binding for the calling\nMCP client, then falls back to the global default voice.\n\n``personality`` only matters for profiles that have a personality\nprompt — when true, the text is first rewritten in character by the\nLLM before TTS. When omitted, the per-client binding's\n``default_personality`` flag decides; when that is unset, the\ndefault is plain TTS.\n\n``model_size`` selects a model variant for engines that ship more\nthan one — ``qwen`` and ``qwen_custom_voice`` accept \"1.7B\" (default)\nor \"0.6B\"; ``tada`` accepts \"1B\" or \"3B\". Other engines ignore it.\nOmit to use the engine default. Requesting a smaller variant (e.g.\n\"0.6B\") is faster and avoids reloading a heavier model between calls.",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/mcp_server/tools.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T05:35:29.161466+00:00",
+    "blob_sha": "093e57ae33254cf6127a6d119856871b2eaf23e9",
+    "line": 46
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "backend/mcp_server/tools.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "voicebox_speak"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

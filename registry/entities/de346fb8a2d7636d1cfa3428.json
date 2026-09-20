@@ -1,0 +1,40 @@
+{
+  "id": "entity:de346fb8a2d7636d1cfa3428",
+  "entity_type": "API",
+  "name": "api_auth_ws_ticket",
+  "description": "Mint a short-lived single-use ticket for the authenticated session.\n\nBrowsers cannot set ``Authorization`` on a WebSocket upgrade, so in\ngated mode the SPA POSTs this endpoint to get a ``?ticket=`` value to\nappend to ``/api/pty``, ``/api/console``, ``/api/ws``, ``/api/pub``, or\n``/api/events``.\n\nThe ticket has a 30-second TTL and is single-use. Calling this endpoint\nmultiple times in quick succession (e.g. one ticket per WS) is the\nexpected pattern.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/dashboard_auth/routes.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:24.282009+00:00",
+    "blob_sha": "91bcec3e8473a8673053991ab1961564d8164544",
+    "line": 933
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/dashboard_auth/routes.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "api_auth_ws_ticket"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

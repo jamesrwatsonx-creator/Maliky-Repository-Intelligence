@@ -1,0 +1,40 @@
+{
+  "id": "entity:0bdce72e2e64e152e5a4cb80",
+  "entity_type": "API",
+  "name": "auth_native_refresh",
+  "description": "Rotate a native-app session using the desktop-held refresh token.\n\nThe desktop owns its refresh token (OS keychain) rather than a cookie, so\nit rotates here instead of relying on the gate's transparent cookie\nrotation. Mirrors the middleware's ``_attempt_refresh`` provider stacking:\ntries each session provider until one rotates the token, returning the new\naccess/refresh pair **in the JSON body**.\n\nFailure modes:\n  * every provider rejects the RT (dead/expired/reuse-detected) → 401\n    ``session_expired`` so the desktop starts a fresh native login;\n  * a provider's IDP is unreachable and none rotated → 503.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/dashboard_auth/routes.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:24.291950+00:00",
+    "blob_sha": "91bcec3e8473a8673053991ab1961564d8164544",
+    "line": 1028
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/dashboard_auth/routes.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "auth_native_refresh"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

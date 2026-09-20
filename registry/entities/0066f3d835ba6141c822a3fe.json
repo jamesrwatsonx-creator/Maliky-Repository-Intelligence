@@ -1,0 +1,40 @@
+{
+  "id": "entity:0066f3d835ba6141c822a3fe",
+  "entity_type": "API",
+  "name": "cancel_mcp_oauth_flow",
+  "description": "Cancel an in-flight MCP OAuth flow (the desktop's inline-card/pill\ncancel). mark_error unblocks both worker waits, so the worker exits and\nfrees the per-server \"already in progress\" slot — without this, a renderer\nthat stops polling leaves the flow squatting until its 300s callback\ntimeout and every retry 409s. Idempotent: an already-settled flow is left\nas-is (approved stays approved).",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_routers/mcp.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:26.625065+00:00",
+    "blob_sha": "1dd5875a5887e7fc8f86fb7d5450c46d9dc1a89e",
+    "line": 319
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_routers/mcp.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "cancel_mcp_oauth_flow"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

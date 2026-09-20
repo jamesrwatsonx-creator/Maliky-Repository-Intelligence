@@ -12,6 +12,11 @@ class DetectionTests(unittest.TestCase):
         self.assertEqual({x['type'] for x in m.detect('server.py',text)},{'MCP_SERVER','TOOL','API'})
     def test_readme_mentions_are_not_entities(self):
         self.assertEqual(m.detect('README.md','This is a powerful MCP server with 25 skills.'),[])
+    def test_multiline_skill_description(self):
+        found=m.detect('SKILL.md','---\nname: editor\ndescription: |\n  Rewrite text.\n  Keep facts intact.\nlicense: MIT\n---\n')[0]
+        self.assertEqual(found['description'],'Rewrite text. Keep facts intact.')
+    def test_go_tool_declaration(self):
+        self.assertEqual(m.detect('tools.go','import "github.com/mark3labs/mcp-go/mcp"\nfunc x() { mcp.NewTool("search_code") }')[0]['symbol'],'search_code')
     def test_stable_entity_identity(self):
         repo={'id':'repository:1','full_name':'owner/repo','url':'https://github.com/owner/repo'}
         entry={'path':'a/SKILL.md','sha':'a'*40}; f={'type':'SKILL','symbol':'test','description':'','line':1}
@@ -32,6 +37,7 @@ class RegistryIntegrityTests(unittest.TestCase):
         for kind in ['repositories','entities','capabilities','studios','ideas','compositions','relationships']: (m.ROOT/'registry'/kind).mkdir(parents=True)
         for path in ['registry/taxonomy/vocabulary.json','registry/taxonomy/categories.json','registry/taxonomy/operational.json']:
             m.write(path,json.loads((self.original/path).read_text()))
+        for path in (self.original/'schemas').glob('*.json'): m.write('schemas/'+path.name,json.loads(path.read_text()))
     def tearDown(self): m.ROOT=self.original; self.temp.cleanup()
     def repo(self):
         r=m.blank_repo({'id':1,'name':'test','full_name':m.OWNER+'/test','html_url':'https://github.com/'+m.OWNER+'/test','owner':{'login':m.OWNER},'fork':False,'default_branch':'main','private':False,'archived':False,'pushed_at':'2026-01-01'})
@@ -39,6 +45,9 @@ class RegistryIntegrityTests(unittest.TestCase):
     def test_false_complete_is_rejected(self):
         r=self.repo(); r['state']='COMPLETE'; m.write(m.repo_file(r),r)
         self.assertFalse(m.validate()['valid'])
+    def test_missing_provenance_schema_is_rejected(self):
+        self.repo(); m.write('registry/entities/bad.json',{'id':'entity:'+'b'*24,'entity_type':'SKILL','name':'Bad'})
+        report=m.validate(); self.assertFalse(report['valid']); self.assertEqual(report['stage'],'schema')
     def test_census_mismatch_rejected(self):
         r=self.repo(); r['entity_census']={'SKILL':{'detected':25,'catalogued':5,'reviewed':False}}; m.write(m.repo_file(r),r)
         self.assertTrue(any('census count mismatch' in s for s in m.validate()['errors']))
@@ -53,6 +62,21 @@ class RegistryIntegrityTests(unittest.TestCase):
         e['review_status']='VERIFIED'; m.write('registry/entities/test.json',e)
         self.assertEqual(len(m.compose(['cap:test'])['selected']),1)
         self.assertEqual(m.compose(['cap:missing'])['missing_capabilities'],['cap:missing'])
+    def test_composition_finds_smallest_cover(self):
+        repo=self.repo(); repo['inspected_commit']='a'*40; m.write(m.repo_file(repo),repo)
+        for i in range(6): m.write('registry/capabilities/'+str(i)+'.json',{'id':'c:'+str(i),'status':'VERIFIED'})
+        # Greedy would choose broad first, requiring three providers; exact cover needs two.
+        for name,coverage in [('broad',[0,1,2,3]),('left',[0,1,4]),('right',[2,3,5])]:
+            e=m.entity_record(repo,'a'*40,{'path':name+'/SKILL.md','sha':'b'*40},{'type':'SKILL','symbol':name,'description':'','line':1})
+            e['capabilities']=['c:'+str(i) for i in coverage]; e['review_status']='VERIFIED'; m.write('registry/entities/'+name+'.json',e)
+        result=m.compose(['c:'+str(i) for i in range(6)])
+        self.assertEqual({e['name'] for e in result['selected']},{'left','right'}); self.assertEqual(result['missing_capabilities'],[])
+    def test_changed_head_preserves_old_entity_and_excludes_it_from_search(self):
+        repo=self.repo(); repo['inspected_commit']='b'*40; m.write(m.repo_file(repo),repo)
+        old=m.entity_record(repo,'a'*40,{'path':'SKILL.md','sha':'c'*40},{'type':'SKILL','symbol':'old','description':'','line':1})
+        m.write('registry/entities/old.json',old); stats=m.build()
+        self.assertEqual(stats['historical_entity_records'],1); self.assertEqual(stats['active_entity_records'],0)
+        self.assertTrue((m.ROOT/'registry/entities/old.json').exists())
     def test_offline_resume_does_not_repeat_reads(self):
         r=self.repo(); commit='a'*40; text=b'---\nname: test\ndescription: Does a task\n---\n'; blob=m.git_blob(text)
         r['legacy_cache']={'commit':commit}; m.write(m.repo_file(r),r)

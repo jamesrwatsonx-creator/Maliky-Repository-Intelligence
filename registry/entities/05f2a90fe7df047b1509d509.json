@@ -1,0 +1,56 @@
+{
+  "id": "entity:05f2a90fe7df047b1509d509",
+  "entity_type": "SERVICE",
+  "name": "serial_generation_queue",
+  "description": "Serial asyncio generation queue; init_queue creates its worker, enqueue_generation adds jobs, and cancel_generation handles queued and running tasks. Requires startup initialization and database-backed failure reporting.",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/services/task_queue.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T05:40:46.531443+00:00",
+    "blob_sha": "3ec4237730933b2db2d74a0c80e56fb7e4bccac2",
+    "line": 24
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "backend/services/task_queue.py"
+    },
+    {
+      "type": "manifest",
+      "value": "serial_generation_queue"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/services/task_queue.py#L24"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:backend-services",
+    "category:message-event-systems"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:serial-speech-job-scheduling"
+  ],
+  "studios": [
+    "studio:voice-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "review_method": "Static source review",
+    "reviewed_at": "2026-09-20T05:40:46.531443+00:00",
+    "runtime_tested": false,
+    "limitations": "Describes the inspected implementation or prompt contract; performance, security and production readiness are not established."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

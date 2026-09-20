@@ -1,0 +1,40 @@
+{
+  "id": "entity:8ea4cc022ef78e8c7af70fed",
+  "entity_type": "TOOL",
+  "name": "events_poll",
+  "description": "Poll for new conversation events since a cursor position.\n\nReturns events that have occurred since the given cursor. Use the\nreturned next_cursor value for subsequent polls.\n\nEvent types: message, approval_requested, approval_resolved\n\nArgs:\n    after_cursor: Return events after this cursor (0 for all)\n    session_key: Optional filter to one conversation\n    limit: Maximum events to return (default 20)",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "mcp_serve.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:28.099229+00:00",
+    "blob_sha": "a81bda733b03cb167e5b97092c01d0b97526bfb2",
+    "line": 834
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "mcp_serve.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "events_poll"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

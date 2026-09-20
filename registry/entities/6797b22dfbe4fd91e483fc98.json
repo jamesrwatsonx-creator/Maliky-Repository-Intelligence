@@ -1,0 +1,40 @@
+{
+  "id": "entity:6797b22dfbe4fd91e483fc98",
+  "entity_type": "API",
+  "name": "gateway_drain",
+  "description": "Begin or cancel an external (NAS-driven) gateway drain.\n\nAuthenticated by the non-interactive token-auth seam: the\n``dashboard_auth/drain`` plugin registers this exact path as a token route\nand verifies the ``Authorization`` bearer secret. If that plugin isn't\nactive (no ``HERMES_DASHBOARD_DRAIN_SECRET``), the route is NOT a token\nroute, so on a gated bind the cookie gate handles it (a browser session can\nstill drive it from the dashboard) and on a loopback bind the legacy\nsession-token gate applies — either way it is never unauthenticated on a\nnetwork-exposed bind.\n\nBody: ``{\"action\": \"drain\"}`` (begin) or ``{\"action\": \"cancel\"}`` (cancel).\nBegin writes the ``.drain_request.json`` marker the gateway's\n``_drain_control_watcher`` observes (flip to ``draining`` + refuse new\nturns); cancel removes it (revert to ``running`` + re-accept). Idempotent\non both sides. This endpoint only writes/removes the marker — the gateway\nprocess owns the actual state transition (there is no HTTP control channel\ninto the running gateway; the marker IS the channel, decisions.md Q-B).\n\nThe force-override (D6: \"unless a user commands it\") is NOT here — an\nimmediate, drain-skipping action maps onto the existing\n``POST /api/gateway/restart`` force path, which supersedes a drain.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "hermes_cli/web_server.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:27.296059+00:00",
+    "blob_sha": "a7dd5fe4b0ca7cfe6b22fb6e6b965fd2063d8f92",
+    "line": 4726
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "hermes_cli/web_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "gateway_drain"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

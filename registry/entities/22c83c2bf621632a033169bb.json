@@ -1,0 +1,40 @@
+{
+  "id": "entity:22c83c2bf621632a033169bb",
+  "entity_type": "API",
+  "name": "get_task_log",
+  "description": "Return the worker's stdout/stderr log.\n\n``tail`` caps the response size (bytes) so the dashboard drawer\ndoesn't paginate megabytes into the browser. Returns 404 if the task\nhas never spawned. The on-disk log is rotated at 2 MiB per\n``_rotate_worker_log`` — a single ``.log.1`` is kept, no further\ngenerations, so disk usage per task is bounded at ~4 MiB.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/kanban/dashboard/plugin_api.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:28.992876+00:00",
+    "blob_sha": "ade9fa140e707fd7c7444adee3d826ec4c6b0923",
+    "line": 2242
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "plugins/kanban/dashboard/plugin_api.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "get_task_log"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "entity:35fb49e2fd570c3c3766f38a",
+  "entity_type": "API",
+  "name": "specify_task_endpoint",
+  "description": "Flesh out a triage-column task via the auxiliary LLM and promote\nit to ``todo``. Maps 1:1 to ``hermes kanban specify <task_id>``.\n\nReturns the outcome shape used by the CLI: ``{ok, task_id, reason,\nnew_title}``. A non-OK outcome is NOT an HTTP error — the UI renders\nthe reason inline (e.g. \"no auxiliary client configured\") so the\noperator knows what to fix, and retries without a page reload.\n\nThis endpoint runs in FastAPI's threadpool (sync ``def``) because\nthe underlying LLM call can take tens of seconds to minutes on\nreasoning models, which would block the event loop if we used\n``async def`` without an explicit ``run_in_executor``.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/kanban/dashboard/plugin_api.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T05:37:28.963113+00:00",
+    "blob_sha": "ade9fa140e707fd7c7444adee3d826ec4c6b0923",
+    "line": 1801
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "plugins/kanban/dashboard/plugin_api.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "specify_task_endpoint"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [],
+  "studios": [],
+  "ideas": [],
+  "metadata": {},
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}
