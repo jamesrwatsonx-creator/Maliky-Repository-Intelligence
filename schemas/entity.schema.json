@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maliky canonical entity",
+  "type": "object",
+  "required": [
+    "id",
+    "entity_type",
+    "name",
+    "source",
+    "evidence",
+    "review_status",
+    "categories",
+    "capabilities",
+    "metadata",
+    "scores"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^entity:[0-9a-f]{24}$"
+    },
+    "entity_type": {
+      "enum": [
+        "REPOSITORY",
+        "SKILL",
+        "MCP_SERVER",
+        "MCP_CLIENT",
+        "TOOL",
+        "PLUGIN",
+        "AGENT",
+        "AGENT_FRAMEWORK",
+        "WORKFLOW",
+        "COMPONENT",
+        "UI_COMPONENT",
+        "MOBILE_COMPONENT",
+        "DESIGN_SYSTEM",
+        "PROMPT",
+        "PROMPT_LIBRARY",
+        "SERVICE",
+        "API",
+        "SDK",
+        "LIBRARY",
+        "PACKAGE",
+        "MODEL",
+        "MODEL_ADAPTER",
+        "DATASET",
+        "BENCHMARK",
+        "DATABASE",
+        "CONNECTOR",
+        "INTEGRATION",
+        "AUTOMATION",
+        "CLI",
+        "APP",
+        "INFRASTRUCTURE_MODULE",
+        "TEMPLATE",
+        "REFERENCE_IMPLEMENTATION",
+        "DOCUMENTATION_ASSET",
+        "OTHER"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "repository_id",
+        "repository_name",
+        "repository_url",
+        "upstream_url",
+        "source_path",
+        "inspected_commit",
+        "inspection_date",
+        "blob_sha"
+      ],
+      "properties": {
+        "inspected_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "blob_sha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "source_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1
+    },
+    "review_status": {
+      "enum": [
+        "NEEDS_REVIEW",
+        "VERIFIED",
+        "REJECTED",
+        "STALE"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "uniqueItems": true
+    },
+    "capabilities": {
+      "type": "array",
+      "uniqueItems": true
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "scores": {
+      "type": "object"
+    }
+  }
+}
