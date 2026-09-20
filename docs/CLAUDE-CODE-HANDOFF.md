@@ -168,9 +168,17 @@ Model-card repository with no code: 1 `MODEL` entity (`Kimi K3`, from `README.md
 
 All 74 source-backed `DESIGN_REFERENCE` entities (one per `design-md/<brand>/DESIGN.md`) were retained and completed with the lean fields: capability `brand-design-system-reference-for-agents`, standalone `YES`, category `design-systems`, Studio `design-studio`, recommendation `REFERENCE ONLY`, and a `use_restriction` note (analyses inspired by third-party brands; do not reproduce trademarks, logos or brand identity). Existing per-entity visual metadata was preserved. Script: `scripts/review_awesome_design_md_semantics.py`. This was the last repository in the `SEMANTIC_CENSUS_REVIEW` queue.
 
-## Exact resume point: odoo
+## Exact resume point: semantic-census queue is empty; choose the next phase
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/odoo` (`PARTIAL`, `ENTITY_EXTRACTION`, pinned `90f6c79fc2b21bb66f5064f39ae158dfa705686f`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Every repository that had reached `SEMANTIC_CENSUS_REVIEW` now has a lean review recorded (Voicebox, codegraph, TradingAgents, uAgents, browser-harness, babysitter, pm-skills, humanizer, github-mcp-server, Google-skills, hermes-agent, ECC, Kimi-K3, awesome-design-md, plus earlier karpathy-skills). These repositories sit at `NEEDS_REVIEW` with `next_phase: CAPABILITY_ANALYSIS` (the same end state Voicebox was left in); no repository was marked `COMPLETE`, because completion also requires justified scores and tier, which have not been assigned.
+
+What remains in `system/inspection-state.json`:
+
+- **399 repositories at `PARTIAL` or `STRUCTURE_COMPLETE`** with `next_phase: ENTITY_EXTRACTION` (about 1.05 million tree files in total; the largest are `kotlin` 111k, `odoo` 47k, `printing-press-library` 43k, `crewAI` 27k, `medusa` 24k, `n8n` 21k, `supabase` 17k). 52 have 50 or fewer files and 141 have 300 or fewer. The queue's next item is `odoo` (`PARTIAL`). Entity extraction (`python scripts/ingest_repository.py <owner/repo>`) needs a priority decision before it is run at this scale.
+- **7 empty repositories** at `EMPTY_REPOSITORY_DISPOSITION` (`GHL`, `Dog-walk`, `vibe-coding-UX-pilot`, `Swerve`, `Trader-James`, `Build-with-Hermes-repo`, `Go-native.`): confirmed to contain no files; what to do with them (keep as placeholders for a Studio or Idea, or ignore) is an owner decision.
+- **1 repository at `DISCOVERED`** needing structure ingestion.
+
+Working method used for the semantic reviews (use it for any new repository): download the pinned tarball once with `gh api repos/<owner>/<repo>/tarball/<commit> > file.tar.gz` into a scratch directory, verify every file you use against the blob SHA in `system/evidence/<github_id>.json`, write `scripts/review_<repo>_semantics.py` on top of `scripts/lean_review_lib.py` (`LeanReview`), then run `python scripts/build_indexes.py`, `python scripts/validate_registry.py`, `python -m unittest discover -s tests` and `python scripts/publication_guard.py`. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates
