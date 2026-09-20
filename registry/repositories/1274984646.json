@@ -22,22 +22,40 @@
   "inspected_commit": "18468a95b427e70e258b51389796367c6f684e7d",
   "current_commit": "18468a95b427e70e258b51389796367c6f684e7d",
   "inspection_date": "2026-09-20T05:32:46.735301+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills",
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:ai-built-software-shipping-guidance",
+    "capability:ci-test-and-release-pipeline",
+    "capability:claude-plugin-marketplace-validation",
+    "capability:go-to-market-planning",
+    "capability:pm-productivity-toolkit",
+    "capability:product-data-analysis",
+    "capability:product-discovery-and-experimentation",
+    "capability:product-execution-documents",
+    "capability:product-market-research",
+    "capability:product-marketing-and-growth-ideation",
+    "capability:product-strategy-frameworks"
+  ],
+  "studios": [
+    "studio:idea-studio"
+  ],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 68,
       "catalogued": 68,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "All 68 skills retained"
     },
     "MCP_SERVER": {
       "detected": 0,
@@ -52,16 +70,18 @@
       "reviewed": false
     },
     "TOOL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Marketplace validator added from validate_plugins.py"
     },
     "PLUGIN": {
       "detected": 9,
       "catalogued": 9,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "All 9 plugins retained"
     },
     "AGENT": {
       "detected": 0,
@@ -76,10 +96,11 @@
       "reviewed": false
     },
     "WORKFLOW": {
-      "detected": 2,
-      "catalogued": 2,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 44,
+      "catalogued": 44,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "2 CI workflows retained plus 42 slash commands added from the commands folders"
     },
     "COMPONENT": {
       "detected": 0,
@@ -245,8 +266,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -271,7 +292,32 @@
   },
   "tree_files": 147,
   "files_read": 139,
-  "entity_count": 79,
+  "entity_count": 122,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:23:31.715616+00:00",
+    "completed_at": "2026-09-20T09:23:31.715616+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 122,
+    "removed_entity_ids": [],
+    "confirmed_capabilities": [
+      "capability:ai-built-software-shipping-guidance",
+      "capability:ci-test-and-release-pipeline",
+      "capability:claude-plugin-marketplace-validation",
+      "capability:go-to-market-planning",
+      "capability:pm-productivity-toolkit",
+      "capability:product-data-analysis",
+      "capability:product-discovery-and-experimentation",
+      "capability:product-execution-documents",
+      "capability:product-market-research",
+      "capability:product-marketing-and-growth-ideation",
+      "capability:product-strategy-frameworks"
+    ],
+    "implementation_details_not_catalogued": [
+      "README, docs images, CHANGELOG, marketplace.json index and tests are implementation details"
+    ]
+  }
 }

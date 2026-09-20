@@ -2,7 +2,7 @@
   "id": "entity:85aaeb97fae9d9238eefe35a",
   "entity_type": "WORKFLOW",
   "name": "Tag and release from CHANGELOG",
-  "description": "",
+  "description": "Tag and release from CHANGELOG GitHub Actions workflow validating or releasing the marketplace.",
   "source": {
     "repository_id": "repository:1274984646",
     "repository_name": "jamesrwatsonx-creator/pm-skills",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/tag-on-merge.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "Tag and release from CHANGELOG"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/.github/workflows/tag-on-merge.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }
