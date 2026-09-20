@@ -22,16 +22,22 @@
   "inspected_commit": "8147538b4226ae41e2487a9179e3bcc1f68e8554",
   "current_commit": "8147538b4226ae41e2487a9179e3bcc1f68e8554",
   "inspection_date": "2026-09-20T05:35:45.195373+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:design-systems"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:brand-design-system-reference-for-agents"
+  ],
+  "studios": [
+    "studio:design-studio"
+  ],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,8 +258,9 @@
     "DESIGN_REFERENCE": {
       "detected": 74,
       "catalogued": 74,
-      "detection_scope": "source DESIGN.md documents",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "All 74 retained; each per-brand DESIGN.md is independently useful as a design reference"
     },
     "SCREEN_REFERENCE": {
       "detected": 0,
@@ -275,8 +282,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -285,5 +292,20 @@
   "files_read": 76,
   "entity_count": 74,
   "unread_source_files": 76,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:55:53.064601+00:00",
+    "completed_at": "2026-09-20T09:55:53.064601+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 74,
+    "removed_entity_ids": [],
+    "confirmed_capabilities": [
+      "capability:brand-design-system-reference-for-agents"
+    ],
+    "implementation_details_not_catalogued": [
+      "README, LICENSE and non-DESIGN.md assets"
+    ]
+  }
 }

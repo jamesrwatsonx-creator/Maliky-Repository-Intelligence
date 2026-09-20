@@ -8,8 +8,8 @@
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
 - Active entities: **8,268** (net of lean-review exclusions and additions)
-- Verified entities: **7,718**
-- Candidate entities: **550**
+- Verified entities: **7,792**
+- Candidate entities: **476**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
@@ -164,9 +164,13 @@ Retained 549 entities (1,234 before; 852 removed as duplicates or fragments): 28
 
 Model-card repository with no code: 1 `MODEL` entity (`Kimi K3`, from `README.md`): open-weight native multimodal agentic MoE, 2.8T total / 104B activated parameters, 1M-token context, native MXFP4 quantization, always-on thinking with `reasoning_effort`, OpenAI/Anthropic-compatible hosted API, recommended engines vLLM, SGLang and TokenSpeed. Recommendation is `LICENSE REVIEW REQUIRED`: the model and repository use the custom Kimi K3 License (repository license is NOASSERTION) and its terms were not read. Script: `scripts/review_kimi_k3_semantics.py`.
 
-## Exact resume point: awesome-design-md
+## Completed: awesome-design-md lean semantic review (`8147538b4226ae41e2487a9179e3bcc1f68e8554`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/awesome-design-md` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `8147538b4226ae41e2487a9179e3bcc1f68e8554`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+All 74 source-backed `DESIGN_REFERENCE` entities (one per `design-md/<brand>/DESIGN.md`) were retained and completed with the lean fields: capability `brand-design-system-reference-for-agents`, standalone `YES`, category `design-systems`, Studio `design-studio`, recommendation `REFERENCE ONLY`, and a `use_restriction` note (analyses inspired by third-party brands; do not reproduce trademarks, logos or brand identity). Existing per-entity visual metadata was preserved. Script: `scripts/review_awesome_design_md_semantics.py`. This was the last repository in the `SEMANTIC_CENSUS_REVIEW` queue.
+
+## Exact resume point: odoo
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/odoo` (`PARTIAL`, `ENTITY_EXTRACTION`, pinned `90f6c79fc2b21bb66f5064f39ae158dfa705686f`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates
