@@ -2,7 +2,7 @@
   "id": "entity:bbb85a8a6a6fcfdb7284535f",
   "entity_type": "API",
   "name": "switch_board",
-  "description": "Persist ``slug`` as the active board for subsequent CLI / slash calls.\n\nDashboard users pick boards via a client-side ``localStorage`` — this\nendpoint is for ``/kanban boards switch`` parity so gateway slash\ncommands and the CLI share the same current-board pointer.",
+  "description": "POST /boards/{slug}/switch - Persist ``slug`` as the active board for subsequent CLI / slash calls.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/kanban/dashboard/plugin_api.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "switch_board"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2589"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-plugins-kanban-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /boards/{slug}/switch"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

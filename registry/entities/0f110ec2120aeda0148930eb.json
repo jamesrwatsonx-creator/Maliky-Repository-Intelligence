@@ -2,7 +2,7 @@
   "id": "entity:0f110ec2120aeda0148930eb",
   "entity_type": "API",
   "name": "get_active_profile_endpoint",
-  "description": "Return the sticky active profile and the profile this dashboard\nprocess is currently running as.\n\n``active`` is the sticky default written by ``hermes profile use`` —\nthe profile new CLI invocations pick up. ``current`` is the profile\nthe running dashboard/gateway is scoped to (derived from HERMES_HOME).",
+  "description": "GET /api/profiles/active - Return the sticky active profile and the profile this dashboard process is currently running as.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/profiles.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "get_active_profile_endpoint"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/profiles.py#L902"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-profiles-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /api/profiles/active"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

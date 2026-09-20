@@ -2,7 +2,7 @@
   "id": "entity:68527443545033d6546e0d26",
   "entity_type": "API",
   "name": "auto_describe_profile",
-  "description": "Generate a description for the named profile via the auxiliary\nLLM (``auxiliary.profile_describer``). Persists with\n``description_auto: true`` so the dashboard can surface a \"review\"\nbadge.\n\nMaps 1:1 to ``hermes profile describe <name> --auto``. Non-OK\noutcomes are NOT HTTP errors — the UI renders the reason inline\n(e.g. \"no auxiliary client configured\") so the operator can fix\nconfig and retry without a page reload.",
+  "description": "POST /profiles/{profile_name}/describe-auto - Generate a description for the named profile via the auxiliary LLM (``auxiliary.profile_describer``).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/kanban/dashboard/plugin_api.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "auto_describe_profile"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2692"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-plugins-kanban-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /profiles/{profile_name}/describe-auto"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

@@ -73,8 +73,18 @@ class LeanReview:
             if record: r.write(file,{**record,'providers':providers,'aliases':aliases})
             else: r.write(file,{'id':'capability:'+cap,'name':info['name'],'aliases':aliases or [info['name'].lower()],'status':'VERIFIED','verification_scope':'Static source contract; runtime not tested','providers':providers,'evidence':[{'type':'source_review','value':self.url(info['path'])}]})
 
+    def prune_orphan_capabilities(self):
+        """Drop capability providers whose entity no longer lists the capability; delete capabilities left without providers."""
+        import pathlib
+        for file in sorted((r.ROOT/'registry/capabilities').glob('*.json')):
+            record=r.read('registry/capabilities/'+file.name)
+            kept=[x for x in record['providers'] if 'capability:'+file.name[:-5] in (r.read('registry/entities/'+x.split(':')[1]+'.json') or {}).get('capabilities',[])]
+            if kept==record['providers']: continue
+            if kept: r.write('registry/capabilities/'+file.name,{**record,'providers':kept})
+            else: file.unlink()
+
     def finalize(self,categories,studios,recommendation,operational,notes,deep_review='',details=(),ideas=()):
-        self.write_capabilities()
+        self.write_capabilities();self.prune_orphan_capabilities()
         by_kind={}
         for e in self.out.values(): by_kind[e['entity_type']]=by_kind.get(e['entity_type'],0)+1
         repo=self.repo

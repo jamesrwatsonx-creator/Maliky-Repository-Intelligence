@@ -2,7 +2,7 @@
   "id": "entity:ab710cbe4e1ddb01f7e2c09e",
   "entity_type": "API",
   "name": "auth_native_token",
-  "description": "Exchange a loopback gateway code + PKCE verifier for bearer tokens.\n\nThe desktop POSTs this from its loopback listener after catching the\n``?code=`` redirect. We verify ``SHA256(code_verifier) == code_challenge``\n(the challenge captured at ``/auth/native/authorize``), consume the code\n(single use), and return the upstream tokens **in the JSON body** — the\ndesktop stores them in the OS keychain and authenticates with\n``Authorization: Bearer`` thereafter. No cookie is set on this response.\n\nFailure modes (all deliberately generic — the code is consumed on every\npath so there is no verifier oracle and no replay):\n  * unknown / expired / already-redeemed code, or PKCE mismatch → 400",
+  "description": "POST /auth/native/token - Exchange a loopback gateway code + PKCE verifier for bearer tokens.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/dashboard_auth/routes.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "auth_native_token"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/dashboard_auth/routes.py#L975"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-auth-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /auth/native/token"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

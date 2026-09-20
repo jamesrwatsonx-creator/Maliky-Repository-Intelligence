@@ -1,0 +1,52 @@
+{
+  "id": "entity:8ce988edff127d1736b4c94a",
+  "entity_type": "TOOL",
+  "name": "focus_pane",
+  "description": "Reveal and focus a pane in the Hermes desktop app when the user asks to see it — e.g. \"show me the terminal\", \"open the file browser\", \"show the diff\". Panes: chat (the conversation), files (project file browser), terminal (embedded shell), review (git diff), sessions (the session list). To show a U",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "tools/focus_pane_tool.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T09:46:44.309250+00:00",
+    "blob_sha": "e15431281b33defdebb8a36ce3b06518b3e36564",
+    "line": 58
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/focus_pane_tool.py#L58"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:03",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-desktop-ui-tools"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Hermes tool registry"
+    ],
+    "overlap": "",
+    "toolset": "desktop_ui"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "COMPONENT"
+}

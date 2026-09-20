@@ -2,7 +2,7 @@
   "id": "entity:65fd0180ec35fdaa557c81e9",
   "entity_type": "API",
   "name": "list_mcp_catalog",
-  "description": "Browse the Nous-approved MCP catalog (the optional-mcps/ manifests).\n\nEach entry reports whether it's already installed and enabled so the UI\ncan show install / enabled state inline.  This is the same catalog\n`hermes mcp catalog` / `hermes mcp install` read.  ``profile`` scopes\nthe installed/enabled annotations (the catalog itself is repo-shipped\nand identical for every profile).",
+  "description": "GET /api/mcp/catalog - Browse the Nous-approved MCP catalog (the optional-mcps/ manifests).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/mcp.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "list_mcp_catalog"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L404"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-mcp-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /api/mcp/catalog"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

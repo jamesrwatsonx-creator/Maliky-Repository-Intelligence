@@ -1,0 +1,53 @@
+{
+  "id": "entity:a904a1048d3017e4668954a6",
+  "entity_type": "INTEGRATION",
+  "name": "sms-platform",
+  "description": "SMS gateway adapter for Hermes Agent via Twilio. Sends and receives SMS through the Twilio REST API + inbound webhook, relaying texts between phone numbers and the Hermes agent. Markdown is stripped to plain text.",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/platforms/sms/plugin.yaml",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T09:46:44.996929+00:00",
+    "blob_sha": "222106b6dd8c0a6d1d051ecc78ba8c4934cbd973",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/sms/plugin.yaml#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-platforms-plugins"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Hermes plugin loader"
+    ],
+    "overlap": "",
+    "plugin_group": "platforms",
+    "plugin_kind": "platform"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

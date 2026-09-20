@@ -2,7 +2,7 @@
   "id": "entity:f1f826347de0a756880c2efe",
   "entity_type": "API",
   "name": "inspect_run_endpoint",
-  "description": "Live PID stats for a run's worker process via psutil.\n\nIf the run has already ended, or has no recorded ``worker_pid``,\nreturns ``{alive: false}`` with a human-readable ``reason``.\n\nWhen the process is live, returns CPU, memory, thread count, fd count,\nstatus, create_time, and cmdline.  ``access_denied`` is set when the\nOS refuses inspection rather than raising a 500.\n\npsutil availability: if psutil is not installed the endpoint still\nworks but ``alive`` is always returned as ``false`` with\n``reason=\"psutil not available\"``.",
+  "description": "GET /runs/{run_id}/inspect - Live PID stats for a run's worker process via psutil.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/kanban/dashboard/plugin_api.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "inspect_run_endpoint"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L1635"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-plugins-kanban-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /runs/{run_id}/inspect"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

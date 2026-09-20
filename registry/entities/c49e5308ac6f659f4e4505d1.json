@@ -2,7 +2,7 @@
   "id": "entity:c49e5308ac6f659f4e4505d1",
   "entity_type": "API",
   "name": "select_toolset_model",
-  "description": "Persist a backend model selection (``image_gen.model`` / ``video_gen.model``).\n\nValidates the model against the resolved backend's catalog — the same\nwrite the CLI's post-selection model picker performs. Returns 400 for\ntoolsets without model catalogs or unknown model ids.",
+  "description": "PUT /api/tools/toolsets/{name}/model - Persist a backend model selection (``image_gen.model`` / ``video_gen.model``).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/tools.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "select_toolset_model"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L411"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-tools-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "PUT /api/tools/toolsets/{name}/model"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

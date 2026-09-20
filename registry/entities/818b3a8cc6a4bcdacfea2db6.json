@@ -2,7 +2,7 @@
   "id": "entity:818b3a8cc6a4bcdacfea2db6",
   "entity_type": "UI_COMPONENT",
   "name": "LiveTodoPanel",
-  "description": "Exported JSX component candidate",
+  "description": "Hermes terminal UI (Ink) React component Live Todo Panel (streamingAssistant.tsx).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "ui-tui/src/components/streamingAssistant.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "LiveTodoPanel"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/ui-tui/src/components/streamingAssistant.tsx#L104"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-ui-components-hermes-terminal-ui"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Hermes gateway API"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

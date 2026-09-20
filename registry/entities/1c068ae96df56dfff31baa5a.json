@@ -2,7 +2,7 @@
   "id": "entity:1c068ae96df56dfff31baa5a",
   "entity_type": "UI_COMPONENT",
   "name": "ModelPickerOverlay",
-  "description": "Exported JSX component candidate",
+  "description": "Hermes desktop app React component Model Picker Overlay (model-picker-overlay.tsx).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "apps/desktop/src/app/model-picker-overlay.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "ModelPickerOverlay"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/model-picker-overlay.tsx#L23"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-ui-components-hermes-desktop-app"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Hermes gateway API"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

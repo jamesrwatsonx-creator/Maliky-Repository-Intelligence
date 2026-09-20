@@ -2,7 +2,7 @@
   "id": "entity:0ca032087e16f05e1af19410",
   "entity_type": "API",
   "name": "auth_native_authorize",
-  "description": "Begin an RFC 8252 native-app login for the desktop app.\n\nThe desktop opens THIS url in the system browser with its own PKCE\n``code_challenge`` (S256), a loopback ``redirect_uri``, and a CSRF\n``state``. We stash a pending broker authorization, then hand off to the\nEXISTING upstream PKCE round trip (``provider.start_login`` → IDP →\n``/auth/callback``), carrying the broker_state in the same PKCE cookie the\ncookie flow uses. On the callback we mint a loopback code (see\n``auth_callback``); no browser session cookie is ever set for the desktop.\n\nPassword providers have no upstream IDP round trip to broker, but the\nnative flow is still exactly what they want: it moves sign-in out of the\ndesktop's embedded webview (where OS password managers cannot autofill)\ninto the SYSTEM browser (where they can). For a ``supports_password``\nprovider we redirect to the interactive ``/login`` form instead of an\nIDP, carrying the broker_state in the PKCE cookie; a successful\n``/auth/password-login`` then completes the pending authorization and\nbounces the browser to the loopback redirect (see that route).",
+  "description": "GET /auth/native/authorize - Begin an RFC 8252 native-app login for the desktop app.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/dashboard_auth/routes.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "auth_native_authorize"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/dashboard_auth/routes.py#L290"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-auth-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /auth/native/authorize"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

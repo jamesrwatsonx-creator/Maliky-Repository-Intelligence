@@ -1,0 +1,53 @@
+{
+  "id": "entity:602dd7411c55798f867fd5f9",
+  "entity_type": "PLUGIN",
+  "name": "chronos",
+  "description": "Chronos — NAS-mediated managed cron provider for scale-to-zero hosted agents. Delegates the \"wake me at time T\" trigger to Nous infrastructure so an idle gateway can scale to zero and still fire cron jobs. The agent computes each job's next",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/cron_providers/chronos/plugin.yaml",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T09:46:44.589561+00:00",
+    "blob_sha": "aad48b35655c4141b2426f173807c1a493fd51d2",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/cron_providers/chronos/plugin.yaml#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-cron-providers-plugins"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Hermes plugin loader"
+    ],
+    "overlap": "",
+    "plugin_group": "cron_providers",
+    "plugin_kind": "cron_providers"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

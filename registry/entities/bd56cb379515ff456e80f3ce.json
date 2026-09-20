@@ -1,0 +1,53 @@
+{
+  "id": "entity:bd56cb379515ff456e80f3ce",
+  "entity_type": "INTEGRATION",
+  "name": "homeassistant-platform",
+  "description": "Home Assistant gateway adapter for Hermes Agent. Subscribes to HA's WebSocket event bus and forwards state-change events (with per-entity cooldowns and domain/entity filtering) to the agent. Outbound messages are delivered as HA persistent ",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "plugins/platforms/homeassistant/plugin.yaml",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T09:46:44.941537+00:00",
+    "blob_sha": "b772d860040282a05955cd8be64ef117884e8c09",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/homeassistant/plugin.yaml#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-platforms-plugins"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Hermes plugin loader"
+    ],
+    "overlap": "",
+    "plugin_group": "platforms",
+    "plugin_kind": "platform"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "entity:4fbc07b2fcda14cb82a3fd48",
+  "entity_type": "TOOL",
+  "name": "read_terminal",
+  "description": "Read what's currently shown in the in-app terminal pane of the Hermes desktop GUI (the embedded shell beside this chat). Call with no arguments to get the visible screen plus the total line count (`total_lines`). To page through scrollback, pass `start_line` (0 = oldest line) and `count`; valid line",
+  "source": {
+    "repository_id": "repository:1342840956",
+    "repository_name": "jamesrwatsonx-creator/hermes-agent",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/hermes-agent",
+    "upstream_url": "https://github.com/NousResearch/hermes-agent",
+    "source_path": "tools/read_terminal_tool.py",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "inspection_date": "2026-09-20T09:46:44.431130+00:00",
+    "blob_sha": "5cd977c0eaf7433e77ca32243848e7f0c87f2025",
+    "line": 77
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/read_terminal_tool.py#L77"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:03",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-desktop-ui-tools"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Hermes tool registry"
+    ],
+    "overlap": "",
+    "toolset": "desktop_ui",
+    "sensitivity": "executes code, changes files or accounts, or drives a browser; gated by the approval system and terminal backend choice"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "COMPONENT"
+}

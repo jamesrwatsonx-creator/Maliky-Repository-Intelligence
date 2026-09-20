@@ -2,7 +2,7 @@
   "id": "entity:ee6d2c696a22a38deaeb0ceb",
   "entity_type": "API",
   "name": "create_skill",
-  "description": "Create a new custom skill (SKILL.md) from the dashboard editor.\n\nCalls the same validated write path as the agent's ``skill_manage``\ntool (frontmatter validation, name/category validation, size limit,\noptional security scan) — but bypasses the agent write-approval gate:\na write from the authenticated dashboard IS the user acting directly.",
+  "description": "POST /api/skills - Create a new custom skill (SKILL.md) from the dashboard editor.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/skills.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "create_skill"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/skills.py#L507"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-skills-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /api/skills"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

@@ -2,7 +2,7 @@
   "id": "entity:ed21264b9114087febdc6b39",
   "entity_type": "API",
   "name": "cron_fire_webhook",
-  "description": "Chronos managed-cron fire webhook (NAS -> agent) — gateway forwarder.\n\nAuthenticated by a short-lived NAS-minted JWT (verified by the pluggable\nChronos fire-verifier), NOT the dashboard session cookie — so this path is\nin ``PUBLIC_API_PATHS`` to bypass the dashboard auth gate, and the JWT is\nthe real gate.\n\nThe dashboard is only the PUBLIC DOOR here (on hosted deployments the Fly\nproxy exposes exactly one port, the dashboard's). Cron execution belongs\nto the GATEWAY process, which owns the live platform adapters — required\nfor relay-fronted logical platforms (their only sender is the live relay\nadapter) and E2EE rooms, neither of which the dashboard's standalone send\npath can serve. So after verifying the JWT this handler FORWARDS the fire\nto the gateway api_server's own ``/api/cron/fire`` on loopback and passes\nthe gateway's response through (the gateway re-verifies the JWT — defense\nin depth, no new trust link).\n\nGateway unreachable (scale-to-zero wake still booting, restart window,\napi_server disabled) → 503, so NAS retries per the Chronos contract\n(non-2xx = retryable). The store CAS claim de-dupes the eventual double\nfire. Deliberately NO local-execution fallback: delivering from the wrong\nprocess is worse than a delayed retry.",
+  "description": "POST /api/cron/fire - Chronos managed-cron fire webhook (NAS -> agent) — gateway forwarder.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/cron.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "cron_fire_webhook"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/cron.py#L137"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-cron-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /api/cron/fire"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

@@ -2,7 +2,7 @@
   "id": "entity:b860dd2fd0251a1a39b354a9",
   "entity_type": "API",
   "name": "remove_credential_pool_entry",
-  "description": "Remove a pool entry.  ``index`` is 1-based (matches the list response).\n\nRemoval must be sticky (#55217): ``load_pool()`` re-seeds entries from\ntheir backing source (.env var, OAuth singleton file, custom-provider\nconfig) on every call, so deleting only the pool row silently reverts on\nthe next dashboard refresh.  We dispatch through the same RemovalStep\nregistry the CLI ``hermes auth remove`` uses: each source cleans up its\nexternal state and suppresses ``(provider, source)`` so the seeders skip\nit.  Manual entries have no registered step — nothing external to clean,\nno suppression needed (they aren't re-seeded).",
+  "description": "DELETE /api/credentials/pool/{provider}/{index} - Remove a pool entry.  ``index`` is 1-based (matches the list response).",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_server.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "remove_credential_pool_entry"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L13910"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-core-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "DELETE /api/credentials/pool/{provider}/{index}"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

@@ -2,7 +2,7 @@
   "id": "entity:7dbe355b96e62a02eecdef92",
   "entity_type": "API",
   "name": "toggle_toolset",
-  "description": "Enable/disable a configurable toolset for its configuration platform.\n\nMost toolsets persist to ``platform_toolsets.cli``. Platform-restricted\ntoolsets instead target their supported platform (for example, Discord's\nnative toolsets persist to ``platform_toolsets.discord``). The shared\n``_save_platform_tools`` helper keeps the GUI and CLI in lockstep. Scoped\nto ``body.profile`` when provided. Returns 400 for unknown toolset keys.",
+  "description": "PUT /api/tools/toolsets/{name} - Enable/disable a configurable toolset for its configuration platform.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_routers/tools.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "toggle_toolset"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L124"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-tools-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "PUT /api/tools/toolsets/{name}"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

@@ -2,7 +2,7 @@
   "id": "entity:d833f12b7f3ce3e3b59dce9b",
   "entity_type": "API",
   "name": "list_oauth_providers",
-  "description": "Enumerate every OAuth-capable LLM provider with current status.\n\nResponse shape (per provider):\n    id              stable identifier (used in DELETE path)\n    name            human label\n    flow            \"pkce\" | \"device_code\" | \"external\"\n    cli_command     fallback CLI command for users to run manually\n    disconnect_command  shell command that clears an external provider's\n                        creds (run in the embedded terminal), else null\n    docs_url        external docs/portal link for the \"Learn more\" link\n    status:\n      logged_in        bool — currently has usable creds\n      source           short slug (\"hermes_pkce\", \"claude_code\", ...)\n      source_label     human-readable origin (file path, env var name)\n      token_preview    last N chars of the token, never the full token\n      expires_at       ISO timestamp string or null\n      has_refresh_token bool\n\nMembership is derived from the unified provider_catalog() so this stays in\nsync with the `hermes model` picker; _OAUTH_OVERRIDES supplies per-provider\nflow/status/cli metadata.",
+  "description": "GET /api/providers/oauth - Enumerate every OAuth-capable LLM provider with current status.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_server.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "list_oauth_providers"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L10773"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-core-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /api/providers/oauth"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

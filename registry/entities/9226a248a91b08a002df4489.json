@@ -2,7 +2,7 @@
   "id": "entity:9226a248a91b08a002df4489",
   "entity_type": "TOOL",
   "name": "messages_send",
-  "description": "Send a message to a platform conversation.\n\nThe target format is \"platform:chat_id\" — same format used by the\nchannels_list tool. You can also use human-friendly channel names\nthat will be resolved automatically.\n\nExamples:\n    target=\"telegram:6308981865\"\n    target=\"discord:#general\"\n    target=\"slack:#engineering\"\n\nArgs:\n    target: Platform target in \"platform:identifier\" format\n    message: The message text to send",
+  "description": "Send a message to a platform conversation.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "mcp_serve.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "messages_send"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/mcp_serve.py#L897"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-messaging-mcp-tools"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-mcp-serve",
+      "running Hermes gateway"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

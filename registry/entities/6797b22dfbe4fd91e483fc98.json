@@ -2,7 +2,7 @@
   "id": "entity:6797b22dfbe4fd91e483fc98",
   "entity_type": "API",
   "name": "gateway_drain",
-  "description": "Begin or cancel an external (NAS-driven) gateway drain.\n\nAuthenticated by the non-interactive token-auth seam: the\n``dashboard_auth/drain`` plugin registers this exact path as a token route\nand verifies the ``Authorization`` bearer secret. If that plugin isn't\nactive (no ``HERMES_DASHBOARD_DRAIN_SECRET``), the route is NOT a token\nroute, so on a gated bind the cookie gate handles it (a browser session can\nstill drive it from the dashboard) and on a loopback bind the legacy\nsession-token gate applies — either way it is never unauthenticated on a\nnetwork-exposed bind.\n\nBody: ``{\"action\": \"drain\"}`` (begin) or ``{\"action\": \"cancel\"}`` (cancel).\nBegin writes the ``.drain_request.json`` marker the gateway's\n``_drain_control_watcher`` observes (flip to ``draining`` + refuse new\nturns); cancel removes it (revert to ``running`` + re-accept). Idempotent\non both sides. This endpoint only writes/removes the marker — the gateway\nprocess owns the actual state transition (there is no HTTP control channel\ninto the running gateway; the marker IS the channel, decisions.md Q-B).\n\nThe force-override (D6: \"unless a user commands it\") is NOT here — an\nimmediate, drain-skipping action maps onto the existing\n``POST /api/gateway/restart`` force path, which supersedes a drain.",
+  "description": "POST /api/gateway/drain - Begin or cancel an external (NAS-driven) gateway drain.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_server.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "gateway_drain"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4726"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-core-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /api/gateway/drain"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

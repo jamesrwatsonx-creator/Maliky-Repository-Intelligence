@@ -2,7 +2,7 @@
   "id": "entity:e1368ecf5a9340623c9d0744",
   "entity_type": "TOOL",
   "name": "channels_list",
-  "description": "List available messaging channels and targets across platforms.\n\nReturns channels that you can send messages to. The target strings\nreturned here can be used directly with the messages_send tool.\n\nArgs:\n    platform: Filter by platform name (telegram, discord, slack, etc.)",
+  "description": "List available messaging channels and targets across platforms.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "mcp_serve.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "channels_list"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/mcp_serve.py#L933"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-messaging-mcp-tools"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-mcp-serve",
+      "running Hermes gateway"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

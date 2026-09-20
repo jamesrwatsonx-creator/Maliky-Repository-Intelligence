@@ -2,7 +2,7 @@
   "id": "entity:2af5cd02e8e98902214dc38e",
   "entity_type": "API",
   "name": "auth_password_login",
-  "description": "Authenticate a username/password against a password provider.\n\nMirrors the cookie-minting tail of ``/auth/callback`` but skips the\nPKCE/state/code machinery (those are OAuth-only). On success sets the\nsession cookies and returns JSON ``{\"ok\": true, \"next\": <path>}`` —\nthe credential form POSTs via fetch and navigates client-side, so a\n302 (which fetch follows opaquely) is the wrong shape here.\n\nRFC 8252 native-app branch: when ``/auth/native/authorize`` sent this\nbrowser to ``/login`` (password provider), the PKCE cookie carries the\nopaque ``broker=`` handle. Mirroring the ``/auth/callback`` native\nbranch, success then mints a one-time loopback code instead of a\nbrowser session: ``next`` is the desktop's loopback redirect_uri\n(validated at authorize time) carrying ``code`` + ``state``, and NO\nsession cookies are set — the desktop redeems the code at\n``/auth/native/token`` for bearer tokens it stores itself.\n\nFailure modes, all deliberately generic so the endpoint can't be used\nas a username oracle or a provider-enumeration oracle:\n  * unknown provider / provider lacks password support → 404\n  * bad credentials → 401 (\"Invalid credentials\")\n  * backing store unreachable → 503\n  * too many attempts from this IP → 429",
+  "description": "POST /auth/password-login - Authenticate a username/password against a password provider.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/dashboard_auth/routes.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "auth_password_login"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/dashboard_auth/routes.py#L698"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-auth-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "POST /auth/password-login"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }

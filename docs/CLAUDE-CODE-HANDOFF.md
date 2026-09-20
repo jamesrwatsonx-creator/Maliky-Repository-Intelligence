@@ -7,37 +7,37 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **9,248** (net of lean-review exclusions and additions)
-- Verified entities: **6,234**
-- Candidate entities: **3,014**
+- Active entities: **8,952** (net of lean-review exclusions and additions)
+- Verified entities: **7,168**
+- Candidate entities: **1,784**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,534 |
-| `WORKFLOW` | 2,246 |
+| `WORKFLOW` | 2,230 |
 | `AGENT` | 1,610 |
-| `UI_COMPONENT` | 852 |
-| `API` | 402 |
-| `PACKAGE` | 205 |
-| `TOOL` | 158 |
+| `API` | 395 |
+| `UI_COMPONENT` | 369 |
+| `TOOL` | 250 |
+| `PACKAGE` | 201 |
 | `CLI` | 96 |
 | `DESIGN_REFERENCE` | 74 |
-| `PLUGIN` | 29 |
-| `COMPONENT` | 9 |
-| `MCP_SERVER` | 7 |
-| `INTEGRATION` | 6 |
+| `PLUGIN` | 72 |
+| `MODEL_ADAPTER` | 38 |
+| `INTEGRATION` | 36 |
+| `COMPONENT` | 16 |
+| `MCP_SERVER` | 5 |
+| `SERVICE` | 5 |
 | `CONNECTOR` | 4 |
 | `LIBRARY` | 4 |
-| `AGENT_FRAMEWORK` | 2 |
+| `TEMPLATE` | 4 |
+| `AGENT_FRAMEWORK` | 3 |
 | `PROMPT` | 2 |
 | `SDK` | 2 |
-| `SERVICE` | 2 |
 | `DOCUMENTATION_ASSET` | 1 |
 | `INFRASTRUCTURE_MODULE` | 1 |
-| `MODEL_ADAPTER` | 1 |
-| `TEMPLATE` | 1 |
 
 `system/inspection-state.json` currently records:
 
@@ -150,9 +150,13 @@ Retained 134 entities: `MCP_SERVER` `github-mcp-server`, 109 `TOOL` (parsed from
 
 Retained 124 entities: 112 canonical `SKILL` (under `skills/<area>/`, grouped under 9 product-area capabilities) and 12 `PLUGIN` manifests (6 plugins x Claude Code and Codex, each with `CONTAINS_SKILL` edges to its canonical skills). Removed 59: 57 byte-identical skill copies bundled inside `plugins/cloud/*/skills` (blob SHAs verified equal to the canonical skill) and 2 sample-app `package.json` asset packages. Scoped review of bundled scripts (19 skills, 67 files): no `rm -rf`, `curl|sh` or `sudo`; `subprocess` in 8 files, one `gcloud ... delete` in `agent-platform-deploy/scripts/config_gcloud_cli.sh`, one `eval/exec` in `developer-device-platform-basics/scripts/demo_adb_forwarder.py`; IAM/auth/ads-audience skills carry a `sensitivity` flag. Script: `scripts/review_google_skills_semantics.py` (needs `GS_TARBALL`). Re-run note: rerunning a script after it dropped entities loses `removed_entity_ids`; restore it from `git status` if needed.
 
-## Exact resume point: hermes-agent
+## Completed: hermes-agent lean semantic review (`261a4efb90d7dbe4e71786861858f721b4ab730c`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/hermes-agent` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `261a4efb90d7dbe4e71786861858f721b4ab730c`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Core Hermes infrastructure, so scoped deep review was applied. Retained 934 entities (1,230 before; 513 removed): 1 `AGENT_FRAMEWORK` (`AIAgent`), 3 `SERVICE`, 7 `COMPONENT` (context compressor, credential pool, dangerous-command approval, tool registry, provider base, batch runner, cron scheduler), 1 `MCP_SERVER` (`hermes-mcp-serve`, with 10 `TOOL`), 92 registered agent `TOOL`s parsed from `registry.register(...)` (missed by the declaration scan; 41 carry a sensitivity flag), 43 `PLUGIN`, 37 `MODEL_ADAPTER` (model-provider plugins), 30 `INTEGRATION` (messaging platform plugins and built-in gateway adapters), 3 `TEMPLATE` (FastMCP templates, previously misdetected as MCP servers), 200 `SKILL` (bundled and optional, grouped by category with sensitivity flags for finance, payments, blockchain, security, health, email and social-media), 273 `API` routes (method and path in descriptions; test-file handlers removed), 208 `UI_COMPONENT` (feature-level components; constants, primitives, skeletons, providers and Ink internals removed), 14 of 30 `WORKFLOW`, 9 `PACKAGE`, 3 `CLI`. 109 capabilities registered. The `tui_gateway` service was not catalogued (no docstring; purpose unverified). Scoped deep review (from `SECURITY.md` and named modules): single-tenant trust model, OS-level isolation is the only boundary against an adversarial LLM, and the default terminal backend runs commands on the host; `tools/approval.py` gates dangerous commands (YOLO mode read once at import from `HERMES_YOLO_MODE`); the credential pool persists only whitelisted provider sources and strips borrowed secrets before disk writes; gateway inbound authorization is per user and DM policy. Script: `scripts/review_hermes_agent_semantics.py` (needs `HERMES_TARBALL`). Library change: `LeanReview.finalize` now prunes orphan capability providers; after re-running a script that drops entities, restore `removed_entity_ids` from `git status` deletions.
+
+## Exact resume point: ECC
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/ECC` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `d8409a4b0813771235555e32e3d8046a73988bfa`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

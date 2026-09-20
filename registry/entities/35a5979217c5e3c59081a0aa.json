@@ -2,7 +2,7 @@
   "id": "entity:35a5979217c5e3c59081a0aa",
   "entity_type": "TOOL",
   "name": "permissions_list_open",
-  "description": "List pending approval requests observed during this bridge session.\n\nReturns exec and plugin approval requests that the bridge has seen\nsince it started. Approvals are live-session only — older approvals\nfrom before the bridge connected are not included.",
+  "description": "List pending approval requests observed during this bridge session.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "mcp_serve.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "permissions_list_open"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/mcp_serve.py#L987"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-messaging-mcp-tools"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-mcp-serve",
+      "running Hermes gateway"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

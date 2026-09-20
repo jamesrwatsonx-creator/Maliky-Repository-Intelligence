@@ -2,7 +2,7 @@
   "id": "entity:0a699ff030332080dbf9e733",
   "entity_type": "API",
   "name": "serve_plugin_asset",
-  "description": "Serve static assets from a dashboard plugin directory.\n\nOnly serves files from the plugin's ``dashboard/`` subdirectory.\nPath traversal is blocked by checking ``resolve().is_relative_to()``.\n\nRestricted to a browser-fetchable suffix allowlist (JS/CSS/JSON/HTML/\nSVG/PNG/JPG/WOFF). The dashboard loads plugin JS via ``<script src>``\nand CSS via ``<link href>``, neither of which can attach a custom\nauth header — so this route stays unauthenticated to keep the SPA\nworking. But user-installed plugins ship a ``plugin_api.py``\nbackend module that the browser never fetches; it's only imported\nby :func:`_mount_plugin_api_routes` at startup. Without a suffix\nallowlist, anyone on the loopback port can curl the ``.py`` source\nof a private third-party plugin. Reject everything outside the\nbrowser-asset set.\n\nUser plugins must be in plugins.enabled before their assets are\nserved. (#46435, GHSA-mcfc-hp25-cjv7)",
+  "description": "GET /dashboard-plugins/{plugin_name}/{file_path:path} - Serve static assets from a dashboard plugin directory.",
   "source": {
     "repository_id": "repository:1342840956",
     "repository_name": "jamesrwatsonx-creator/hermes-agent",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "hermes_cli/web_server.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "serve_plugin_asset"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18508"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:hermes-dashboard-dashboard-core-api"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "hermes-dashboard-web-server"
+    ],
+    "overlap": "",
+    "route": "GET /dashboard-plugins/{plugin_name}/{file_path:path}"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
 }
