@@ -7,34 +7,35 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **8,952** (net of lean-review exclusions and additions)
-- Verified entities: **7,168**
-- Candidate entities: **1,784**
+- Active entities: **8,267** (net of lean-review exclusions and additions)
+- Verified entities: **7,717**
+- Candidate entities: **550**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
-| `SKILL` | 3,534 |
-| `WORKFLOW` | 2,230 |
-| `AGENT` | 1,610 |
+| `SKILL` | 2,924 |
+| `WORKFLOW` | 2,320 |
+| `AGENT` | 1,376 |
 | `API` | 395 |
-| `UI_COMPONENT` | 369 |
+| `UI_COMPONENT` | 366 |
 | `TOOL` | 250 |
 | `PACKAGE` | 201 |
 | `CLI` | 96 |
+| `PLUGIN` | 75 |
 | `DESIGN_REFERENCE` | 74 |
-| `PLUGIN` | 72 |
+| `INTEGRATION` | 71 |
 | `MODEL_ADAPTER` | 38 |
-| `INTEGRATION` | 36 |
+| `PROMPT_LIBRARY` | 22 |
 | `COMPONENT` | 16 |
+| `TEMPLATE` | 13 |
 | `MCP_SERVER` | 5 |
+| `PROMPT` | 5 |
 | `SERVICE` | 5 |
 | `CONNECTOR` | 4 |
 | `LIBRARY` | 4 |
-| `TEMPLATE` | 4 |
 | `AGENT_FRAMEWORK` | 3 |
-| `PROMPT` | 2 |
 | `SDK` | 2 |
 | `DOCUMENTATION_ASSET` | 1 |
 | `INFRASTRUCTURE_MODULE` | 1 |
@@ -154,9 +155,13 @@ Retained 124 entities: 112 canonical `SKILL` (under `skills/<area>/`, grouped un
 
 Core Hermes infrastructure, so scoped deep review was applied. Retained 934 entities (1,230 before; 513 removed): 1 `AGENT_FRAMEWORK` (`AIAgent`), 3 `SERVICE`, 7 `COMPONENT` (context compressor, credential pool, dangerous-command approval, tool registry, provider base, batch runner, cron scheduler), 1 `MCP_SERVER` (`hermes-mcp-serve`, with 10 `TOOL`), 92 registered agent `TOOL`s parsed from `registry.register(...)` (missed by the declaration scan; 41 carry a sensitivity flag), 43 `PLUGIN`, 37 `MODEL_ADAPTER` (model-provider plugins), 30 `INTEGRATION` (messaging platform plugins and built-in gateway adapters), 3 `TEMPLATE` (FastMCP templates, previously misdetected as MCP servers), 200 `SKILL` (bundled and optional, grouped by category with sensitivity flags for finance, payments, blockchain, security, health, email and social-media), 273 `API` routes (method and path in descriptions; test-file handlers removed), 208 `UI_COMPONENT` (feature-level components; constants, primitives, skeletons, providers and Ink internals removed), 14 of 30 `WORKFLOW`, 9 `PACKAGE`, 3 `CLI`. 109 capabilities registered. The `tui_gateway` service was not catalogued (no docstring; purpose unverified). Scoped deep review (from `SECURITY.md` and named modules): single-tenant trust model, OS-level isolation is the only boundary against an adversarial LLM, and the default terminal backend runs commands on the host; `tools/approval.py` gates dangerous commands (YOLO mode read once at import from `HERMES_YOLO_MODE`); the credential pool persists only whitelisted provider sources and strips borrowed secrets before disk writes; gateway inbound authorization is per user and DM policy. Script: `scripts/review_hermes_agent_semantics.py` (needs `HERMES_TARBALL`). Library change: `LeanReview.finalize` now prunes orphan capability providers; after re-running a script that drops entities, restore `removed_entity_ids` from `git status` deletions.
 
-## Exact resume point: ECC
+## Completed: ECC lean semantic review (`ECC` fork of affaan-m/ECC)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/ECC` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `d8409a4b0813771235555e32e3d8046a73988bfa`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 549 entities (1,234 before; 852 removed as duplicates or fragments): 288 unique `SKILL` and 73 unique `AGENT` (the previous 898 skills and 307 agents were mostly harness copies under `.agents`, `.kiro`, `.cursor` and locale translations under `docs/<locale>`; one canonical entity is kept per name, preferring `skills/` and `agents/`, with `translations` and `harness_variants` recorded in metadata), 101 `WORKFLOW` (94 slash commands added from `commands/` plus 7 CI workflows), 22 `PROMPT_LIBRARY` (one rule pack per `rules/<language>`), 9 `TEMPLATE` (CLAUDE.md project templates), 3 `PROMPT` (context presets), 6 `PLUGIN` (plugin manifests and hook packs), 35 `INTEGRATION` (recommended MCP server configs), 5 `PACKAGE`, 7 `CLI`. 26 capabilities registered. Scoped deep review: `hooks/hooks.json` registers hooks on 7 agent events that each run inline `node -e` commands spawning local scripts, so installed hooks execute code automatically (hook packs are `SECURITY REVIEW REQUIRED`); MCP configs use placeholder credentials only; 25 skills carry a sensitivity flag (payments, finance, health, accounts, security); the `ecc-install` script and rule installers were not audited line by line. Script: `scripts/review_ecc_semantics.py` (needs `ECC_TARBALL`).
+
+## Exact resume point: Kimi-K3
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/Kimi-K3` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `3cb39dfd32e51c3328e2e4b4af21341247d06c43`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

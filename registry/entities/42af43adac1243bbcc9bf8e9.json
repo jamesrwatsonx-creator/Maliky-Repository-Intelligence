@@ -1,0 +1,53 @@
+{
+  "id": "entity:42af43adac1243bbcc9bf8e9",
+  "entity_type": "PLUGIN",
+  "name": "ecc-hooks",
+  "description": "Claude Code hooks pack: registers PreToolUse, PreCompact, SessionStart, PostToolUse, PostToolUseFailure, Stop and SessionEnd hooks that run local scripts.",
+  "source": {
+    "repository_id": "repository:1342891630",
+    "repository_name": "jamesrwatsonx-creator/ECC",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/ECC",
+    "upstream_url": "https://github.com/affaan-m/ECC",
+    "source_path": "hooks/hooks.json",
+    "inspected_commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+    "inspection_date": "2026-09-20T09:51:31.418353+00:00",
+    "blob_sha": "35d79fd5a8b616c2f09e21e9d833f43caf87cfd0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/hooks/hooks.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:ecc-agent-hooks"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Claude Code or Codex hook support",
+      "node"
+    ],
+    "overlap": "",
+    "deep_review_finding": "hooks/hooks.json registers hooks on PreToolUse (8), PreCompact (1), SessionStart (2), PostToolUse (2), PostToolUseFailure (2), Stop (7) and SessionEnd (1); each runs an inline `node -e` command that resolves and runs local scripts (some via spawnSync) on every matching agent event, so installed hooks execute code on the operator's machine automatically. Recommended MCP server configs use placeholder credentials (YOUR_*_HERE) and no real secrets were found in mcp-configs/mcp-servers.json. The ecc-install script and rule installers were not audited line by line."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "MODULE"
+}

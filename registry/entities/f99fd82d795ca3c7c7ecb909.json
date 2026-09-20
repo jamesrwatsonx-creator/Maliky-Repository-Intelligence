@@ -2,7 +2,7 @@
   "id": "entity:f99fd82d795ca3c7c7ecb909",
   "entity_type": "CLI",
   "name": "ecc-control-pane",
-  "description": "Harness-native agent operating system for Codex, OpenCode, Cursor, Gemini, Claude Code, and terminal workflows - skills, hooks, rules, MCP conventions, and operator control-plane patterns",
+  "description": "`ecc-control-pane` command (scripts/control-pane.js) of the ecc-universal npm package.",
   "source": {
     "repository_id": "repository:1342891630",
     "repository_name": "jamesrwatsonx-creator/ECC",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "ecc-control-pane"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:ai-agents"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:ecc-agent-operating-system"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Node >=18"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

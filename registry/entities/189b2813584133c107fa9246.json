@@ -2,7 +2,7 @@
   "id": "entity:189b2813584133c107fa9246",
   "entity_type": "WORKFLOW",
   "name": "Supply-Chain Watch",
-  "description": "",
+  "description": "Supply-Chain Watch GitHub Actions workflow.",
   "source": {
     "repository_id": "repository:1342891630",
     "repository_name": "jamesrwatsonx-creator/ECC",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/supply-chain-watch.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "Supply-Chain Watch"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.github/workflows/supply-chain-watch.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

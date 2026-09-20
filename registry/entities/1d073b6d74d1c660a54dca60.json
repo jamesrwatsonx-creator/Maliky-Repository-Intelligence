@@ -1,0 +1,55 @@
+{
+  "id": "entity:1d073b6d74d1c660a54dca60",
+  "entity_type": "INTEGRATION",
+  "name": "mcp-config-evalview",
+  "description": "Recommended MCP server config \"evalview\": AI agent regression testing — snapshot behavior, detect regressions in tool calls and output quality. 8 tools: create_test, run_snapshot, run_check, list_tests, validate_skill, generate_skill_tests, run_skill_test, generate_visual_report. API key optional — deterministic checks (tool diff, output hash) work without it. Install: pip install \"evalview>=0.5,<1\"",
+  "source": {
+    "repository_id": "repository:1342891630",
+    "repository_name": "jamesrwatsonx-creator/ECC",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/ECC",
+    "upstream_url": "https://github.com/affaan-m/ECC",
+    "source_path": "mcp-configs/mcp-servers.json",
+    "inspected_commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+    "inspection_date": "2026-09-20T09:51:31.458516+00:00",
+    "blob_sha": "49d91d6b9ce29b5d56bdfe95fa4b4c5e6fa05832",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:recommended-mcp-server-configs"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "MCP client",
+      "env: OPENAI_API_KEY"
+    ],
+    "overlap": "",
+    "launch": "python3 -m evalview mcp",
+    "required_env": [
+      "OPENAI_API_KEY"
+    ]
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE ONLY",
+  "contribution_role": "COMPONENT"
+}
