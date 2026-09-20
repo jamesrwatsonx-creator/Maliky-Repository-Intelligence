@@ -14,8 +14,8 @@ The intelligence repository alone receives commits.
 Search JSONL, inventory, graph and thirteen dimension indexes are derived views.
 Capabilities have aliases and explicit provider IDs. Reviewed entities can be
 selected by the idea composer; candidates cannot silently become recommendations.
-The composer uses deterministic greedy coverage and reports alternatives and gaps.
-It does not claim globally optimal selection or runtime compatibility.
+The composer uses exact minimum provider count for up to 16 requirements and 60 viable providers, with an explicitly disclosed greedy fallback, and reports alternatives and gaps.
+It does not claim runtime compatibility or optimal dependency closure.
 
 ## Trust and privacy
 

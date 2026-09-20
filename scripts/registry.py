@@ -179,9 +179,11 @@ def frontmatter(text):
         result[match[1]]=' '.join(block).strip()
     return result
 
-def detect(path,text):
+def detect(path,text,diagnostics=None):
     """Explicit declarations only. All results remain semantic review candidates."""
     found=[]; name=pathlib.PurePosixPath(path).name
+    def parse_error(exc):
+        if diagnostics is not None: diagnostics.append({'path':path,'stage':'parse','error':str(exc)[:250]})
     def add(kind,symbol,description='',line=1):
         found.append({'type':kind,'symbol':symbol,'description':description[:1500],'line':line})
     if name.lower()=='skill.md':
@@ -191,20 +193,20 @@ def detect(path,text):
             m=json.loads(text)
             if m.get('name'): add('PACKAGE',m['name'],m.get('description',''))
             for bin_name in (m.get('bin',{}) if isinstance(m.get('bin'),dict) else {m.get('name','cli'):m['bin']} if m.get('bin') else {}): add('CLI',bin_name,m.get('description',''))
-        except (ValueError,TypeError): pass
+        except (ValueError,TypeError) as exc: parse_error(exc)
     if name=='pyproject.toml':
         import tomllib
         try:
             m=tomllib.loads(text); project=m.get('project') or m.get('tool',{}).get('poetry',{})
             if project.get('name'): add('PACKAGE',project['name'],project.get('description',''))
             for cmd in project.get('scripts',{}): add('CLI',cmd,project['scripts'][cmd])
-        except ValueError: pass
+        except ValueError as exc: parse_error(exc)
     if name.endswith(('.yaml','.yml')) and path.startswith('.github/workflows/'):
         m=re.search(r'^name:\s*[\"\']?(.+?)\s*$',text,re.M); add('WORKFLOW',m[1].strip('\"\'') if m else name)
     if name=='plugin.json' and ('.claude-plugin/' in path or '.codex-plugin/' in path):
         try:
             m=json.loads(text); add('PLUGIN',m.get('name',path),m.get('description',''))
-        except ValueError: pass
+        except ValueError as exc: parse_error(exc)
     if name.endswith('.md') and name.lower() not in ('readme.md','skill.md','agents.md'):
         fm=frontmatter(text)
         if fm.get('name') and fm.get('description') and ('agents/' in path or any(k in fm for k in ('tools','model','color'))): add('AGENT',fm['name'],fm['description'])
@@ -218,7 +220,7 @@ def detect(path,text):
                     if any(re.match(r'(?:app|router)\.(?:get|post|put|patch|delete)\(',d) for d in decorators): add('API',node.name,ast.get_docstring(node) or '',node.lineno)
                 if isinstance(node,ast.Call) and isinstance(node.func,ast.Name) and node.func.id in ('FastMCP','Server') and node.args and isinstance(node.args[0],ast.Constant) and isinstance(node.args[0].value,str):
                     if node.func.id=='FastMCP' or 'mcp.server' in text: add('MCP_SERVER',node.args[0].value,'MCP server constructor',node.lineno)
-        except SyntaxError: pass
+        except SyntaxError as exc: parse_error(exc)
     if name.endswith(('.ts','.js','.mjs','.tsx','.jsx')):
         for m in re.finditer(r'\b(?:server|mcp)\.(?:registerTool|tool)\(\s*[\"\']([^\"\']+)[\"\']',text): add('TOOL',m[1],'Explicit MCP tool registration',text[:m.start()].count('\n')+1)
         for m in re.finditer(r'new\s+McpServer\s*\(\s*\{\s*name\s*:\s*[\"\']([^\"\']+)',text): add('MCP_SERVER',m[1],'MCP server constructor',text[:m.start()].count('\n')+1)
@@ -325,7 +327,8 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
                 try:
                     text=source_text(r,commit,e,offline)
                     if text is None: continue
-                    found=detect(e['path'],text)
+                    diagnostics=[]; found=detect(e['path'],text,diagnostics)
+                    errors=[error for error in errors if error['path']!=e['path']]+diagnostics
                     for candidate in found:
                         ent=entity_record(r,commit,e,candidate); f='registry/entities/'+ent['id'].split(':')[1]+'.json'; old=read(f)
                         if old:
@@ -554,6 +557,7 @@ def validate():
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('command',choices=['discover','recover','ingest','batch','build','validate','status','query','compose']); parser.add_argument('value',nargs='?'); parser.add_argument('--input'); parser.add_argument('--offline',action='store_true'); parser.add_argument('--all-accessible',action='store_true'); parser.add_argument('--max-files',type=int); parser.add_argument('--structure-only',action='store_true'); parser.add_argument('--workers',type=int,default=4); parser.add_argument('--limit',type=int,default=20); parser.add_argument('--kind'); parser.add_argument('--verified',action='store_true')
     parser.add_argument('--snapshot',action='store_true',help='Cache eligible text from a streamed public commit archive')
+    parser.add_argument('--capability',action='append',help='Capability requirement for composition; repeat for multiple requirements')
     a=parser.parse_args()
     if a.command=='discover':
         if a.value and a.value!=OWNER: parser.error('This registry is scoped to '+OWNER)
@@ -578,7 +582,9 @@ def main():
         report=validate(); print(json.dumps(report)); return 0 if report['valid'] else 1
     elif a.command=='status': print(json.dumps(read('system/statistics.json'),indent=2))
     elif a.command=='query': print(json.dumps(query(a.value,a.limit,a.kind,a.verified),indent=2,ensure_ascii=False))
-    elif a.command=='compose': print(json.dumps(compose(a.value),indent=2))
+    elif a.command=='compose':
+        if not a.value and not a.capability: parser.error('Supply an idea ID or one or more --capability requirements')
+        print(json.dumps(compose(a.capability or a.value),indent=2))
     return 0
 
 if __name__=='__main__': sys.exit(main())

@@ -20,3 +20,9 @@ Capabilities must also be VERIFIED. It separates selected providers, alternative
 and missing evidence. Dependencies and compatibility require explicit review.
 The normalized JSONL index can support a future OpenRouter interface without
 scanning source records at query time. No hosted AI credentials are needed today.
+
+Compose explicit requirements without defining an Idea first:
+
+```sh
+python scripts/compose_idea.py --capability capability:queued-speech-generation-submission --capability capability:serial-speech-job-scheduling
+```

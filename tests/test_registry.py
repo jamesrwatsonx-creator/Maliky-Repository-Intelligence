@@ -1,6 +1,7 @@
 import copy,hashlib,importlib.util,json,pathlib,sys,tempfile,unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
 import registry as m
+from unittest import mock
 
 class DetectionTests(unittest.TestCase):
     def test_all_skills_are_detected(self):
@@ -15,6 +16,9 @@ class DetectionTests(unittest.TestCase):
     def test_multiline_skill_description(self):
         found=m.detect('SKILL.md','---\nname: editor\ndescription: |\n  Rewrite text.\n  Keep facts intact.\nlicense: MIT\n---\n')[0]
         self.assertEqual(found['description'],'Rewrite text. Keep facts intact.')
+    def test_parse_failure_is_recorded(self):
+        diagnostics=[]; self.assertEqual(m.detect('package.json','{ broken json',diagnostics),[])
+        self.assertEqual(diagnostics[0]['path'],'package.json'); self.assertEqual(diagnostics[0]['stage'],'parse')
     def test_go_tool_declaration(self):
         self.assertEqual(m.detect('tools.go','import "github.com/mark3labs/mcp-go/mcp"\nfunc x() { mcp.NewTool("search_code") }')[0]['symbol'],'search_code')
     def test_stable_entity_identity(self):
@@ -77,6 +81,17 @@ class RegistryIntegrityTests(unittest.TestCase):
         m.write('registry/entities/old.json',old); stats=m.build()
         self.assertEqual(stats['historical_entity_records'],1); self.assertEqual(stats['active_entity_records'],0)
         self.assertTrue((m.ROOT/'registry/entities/old.json').exists())
+    def test_unchanged_blob_at_new_commit_requires_revalidation(self):
+        repo=self.repo(); repo['inspected_commit']='a'*40; m.write(m.repo_file(repo),repo)
+        text=b'---\nname: test\ndescription: task\n---\n'; blob=m.git_blob(text)
+        old=m.entity_record(repo,'a'*40,{'path':'SKILL.md','sha':blob},{'type':'SKILL','symbol':'test','description':'task','line':1}); old['review_status']='VERIFIED'
+        m.write('registry/entities/'+old['id'].split(':')[1]+'.json',old)
+        cp=m.cache_path(repo,'b'*40); m.write(cp/'tree.json',{'tree':[{'path':'SKILL.md','type':'blob','sha':blob}],'truncated':False})
+        f=m.ROOT/cp/'blobs'/blob; f.parent.mkdir(); f.write_bytes(text)
+        metadata={'private':False,'owner':{'login':m.OWNER},'default_branch':'main'}
+        with mock.patch.object(m,'gh',side_effect=[metadata,{'sha':'b'*40}]): result=m.ingest(repo['full_name'])
+        self.assertNotIn('error',result)
+        updated=m.records('entities')[0]; self.assertEqual(updated['review_status'],'STALE'); self.assertEqual(updated['metadata']['prior_review_commit'],'a'*40)
     def test_offline_resume_does_not_repeat_reads(self):
         r=self.repo(); commit='a'*40; text=b'---\nname: test\ndescription: Does a task\n---\n'; blob=m.git_blob(text)
         r['legacy_cache']={'commit':commit}; m.write(m.repo_file(r),r)

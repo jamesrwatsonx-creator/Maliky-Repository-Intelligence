@@ -2968,5 +2968,17 @@
       "affiliation": "FORKED_UNDER_USER_ACCOUNT"
     }
   ],
-  "private_policy": "Aggregate counts only; identifiers and evidence excluded from public files"
+  "private_policy": "Aggregate counts only; identifiers and evidence excluded from public files",
+  "source_evidence": {
+    "method": "gh api --paginate --slurp user/repos",
+    "page_sizes": [
+      100,
+      100,
+      100,
+      100,
+      34
+    ],
+    "pagination_exhausted": true,
+    "credential_scope": "Authenticated account; inaccessible repositories cannot be counted"
+  }
 }

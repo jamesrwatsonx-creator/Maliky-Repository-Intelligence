@@ -36,3 +36,9 @@ Unresolved census discrepancies must remain PARTIAL or NEEDS_REVIEW.
 
 Checkpoint with explicit paths, validate and push ordinary fast-forward commits.
 Run the publication guard before staging. Never stage .local/, secrets or snapshots.
+
+Use `--snapshot` to stream a public commit archive into the local content-addressed
+cache. No archive member is extracted as an executable path. Files above 10 MB
+are left to individual blob ingestion. Truncated GitHub trees use a bare filtered
+Git fetch at the exact commit. Raw manifests stay local; public previews carry
+explicit full counts and a tree-manifest hash.

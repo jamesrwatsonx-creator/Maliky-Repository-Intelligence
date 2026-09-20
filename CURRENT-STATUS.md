@@ -1,7 +1,12 @@
-# Current status
+# Current verified status
 
-The original README is preserved as requested; its historical coverage and example
-commands describe a previous uncommitted run. Use [recovery report](docs/RECOVERY.md),
-[live statistics](system/statistics.json), [validation](system/validation-report.json)
-and [ingestion guide](docs/INGESTION.md) for the verified implementation and counts.
-Structural pipeline readiness and semantic inventory completion are separate gates.
+Recovery and a searchable, resumable registry are checkpointed. Full semantic
+review remains partial. Read the [checkpoint report](docs/LATEST-CHECKPOINT.md).
+
+434 owned repositories: 422 public, 12 private. Public registry: 6,925 entity
+records, 25,225 verified source files processed, six reviewed atomic capabilities.
+Only one repository has passed the full static-review and census gate.
+
+The original README is retained unchanged and describes historical uncommitted
+coverage. Current counts are in [statistics](system/statistics.json); remaining
+work is in [inspection-state](system/inspection-state.json).
