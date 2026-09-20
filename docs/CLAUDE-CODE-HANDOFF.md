@@ -7,8 +7,8 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **8,267** (net of lean-review exclusions and additions)
-- Verified entities: **7,717**
+- Active entities: **8,268** (net of lean-review exclusions and additions)
+- Verified entities: **7,718**
 - Candidate entities: **550**
 
 Active entity counts by type (after this session's Voicebox lean census):
@@ -39,6 +39,7 @@ Active entity counts by type (after this session's Voicebox lean census):
 | `SDK` | 2 |
 | `DOCUMENTATION_ASSET` | 1 |
 | `INFRASTRUCTURE_MODULE` | 1 |
+| `MODEL` | 1 |
 
 `system/inspection-state.json` currently records:
 
@@ -159,9 +160,13 @@ Core Hermes infrastructure, so scoped deep review was applied. Retained 934 enti
 
 Retained 549 entities (1,234 before; 852 removed as duplicates or fragments): 288 unique `SKILL` and 73 unique `AGENT` (the previous 898 skills and 307 agents were mostly harness copies under `.agents`, `.kiro`, `.cursor` and locale translations under `docs/<locale>`; one canonical entity is kept per name, preferring `skills/` and `agents/`, with `translations` and `harness_variants` recorded in metadata), 101 `WORKFLOW` (94 slash commands added from `commands/` plus 7 CI workflows), 22 `PROMPT_LIBRARY` (one rule pack per `rules/<language>`), 9 `TEMPLATE` (CLAUDE.md project templates), 3 `PROMPT` (context presets), 6 `PLUGIN` (plugin manifests and hook packs), 35 `INTEGRATION` (recommended MCP server configs), 5 `PACKAGE`, 7 `CLI`. 26 capabilities registered. Scoped deep review: `hooks/hooks.json` registers hooks on 7 agent events that each run inline `node -e` commands spawning local scripts, so installed hooks execute code automatically (hook packs are `SECURITY REVIEW REQUIRED`); MCP configs use placeholder credentials only; 25 skills carry a sensitivity flag (payments, finance, health, accounts, security); the `ecc-install` script and rule installers were not audited line by line. Script: `scripts/review_ecc_semantics.py` (needs `ECC_TARBALL`).
 
-## Exact resume point: Kimi-K3
+## Completed: Kimi-K3 lean semantic review (`3cb39dfd32e51c3328e2e4b4af21341247d06c43`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/Kimi-K3` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `3cb39dfd32e51c3328e2e4b4af21341247d06c43`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Model-card repository with no code: 1 `MODEL` entity (`Kimi K3`, from `README.md`): open-weight native multimodal agentic MoE, 2.8T total / 104B activated parameters, 1M-token context, native MXFP4 quantization, always-on thinking with `reasoning_effort`, OpenAI/Anthropic-compatible hosted API, recommended engines vLLM, SGLang and TokenSpeed. Recommendation is `LICENSE REVIEW REQUIRED`: the model and repository use the custom Kimi K3 License (repository license is NOASSERTION) and its terms were not read. Script: `scripts/review_kimi_k3_semantics.py`.
+
+## Exact resume point: awesome-design-md
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/awesome-design-md` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `8147538b4226ae41e2487a9179e3bcc1f68e8554`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

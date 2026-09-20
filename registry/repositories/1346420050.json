@@ -22,16 +22,22 @@
   "inspected_commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
   "current_commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
   "inspection_date": "2026-09-20T05:34:04.712408+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:machine-learning-models",
+    "category:llm-projects",
+    "category:generative-ai"
+  ],
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:open-weight-multimodal-agentic-llm"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "LICENSE REVIEW REQUIRED",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -148,10 +154,11 @@
       "reviewed": false
     },
     "MODEL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Model card only; one MODEL entity"
     },
     "MODEL_ADAPTER": {
       "detected": 0,
@@ -245,8 +252,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -269,7 +276,23 @@
   },
   "tree_files": 4,
   "files_read": 1,
-  "entity_count": 0,
+  "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:53:36.873159+00:00",
+    "completed_at": "2026-09-20T09:53:36.873159+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 1,
+    "removed_entity_ids": [],
+    "confirmed_capabilities": [
+      "capability:open-weight-multimodal-agentic-llm"
+    ],
+    "implementation_details_not_catalogued": [
+      "Benchmark tables, tech report PDF and logo assets",
+      "LICENSE terms were not read (file not in the read set); custom license requires review before commercial use"
+    ]
+  }
 }
