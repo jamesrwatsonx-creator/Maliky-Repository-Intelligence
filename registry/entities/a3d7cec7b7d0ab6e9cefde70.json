@@ -2,7 +2,7 @@
   "id": "entity:a3d7cec7b7d0ab6e9cefde70",
   "entity_type": "WORKFLOW",
   "name": "Check package",
-  "description": "",
+  "description": "GitHub Actions check: validates package files with scripts/validate-package.py, checks skill discovery with the skills CLI and validates the Claude marketplace with `claude plugin validate`.",
   "source": {
     "repository_id": "repository:1315201193",
     "repository_name": "jamesrwatsonx-creator/humanizer",
@@ -16,25 +16,35 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/validate.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "Check package"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/humanizer/blob/e2e92e7b4b8229253ed5c8e81dc65463fdeddda5/.github/workflows/validate.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions",
+      "Node 22",
+      "Python 3.12"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

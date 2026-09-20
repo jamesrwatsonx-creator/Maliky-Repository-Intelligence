@@ -22,22 +22,29 @@
   "inspected_commit": "e2e92e7b4b8229253ed5c8e81dc65463fdeddda5",
   "current_commit": "e2e92e7b4b8229253ed5c8e81dc65463fdeddda5",
   "inspection_date": "2026-09-20T05:32:58.587621+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline",
+    "capability:prompt-guided-prose-style-revision",
+    "capability:writing-sample-style-matching"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Already VERIFIED; retained unchanged"
     },
     "MCP_SERVER": {
       "detected": 0,
@@ -60,8 +67,9 @@
     "PLUGIN": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained"
     },
     "AGENT": {
       "detected": 0,
@@ -78,8 +86,9 @@
     "WORKFLOW": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained as CI reference"
     },
     "COMPONENT": {
       "detected": 0,
@@ -245,8 +254,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -272,5 +281,23 @@
   "files_read": 9,
   "entity_count": 3,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:25:13.177474+00:00",
+    "completed_at": "2026-09-20T09:25:13.177474+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 3,
+    "removed_entity_ids": [],
+    "confirmed_capabilities": [
+      "capability:ci-test-and-release-pipeline",
+      "capability:prompt-guided-prose-style-revision",
+      "capability:writing-sample-style-matching"
+    ],
+    "implementation_details_not_catalogued": [
+      "scripts/validate-package.py and agents/openai.yaml are packaging details of this single skill",
+      "README, AGENTS.md and marketplace.json"
+    ]
+  }
 }

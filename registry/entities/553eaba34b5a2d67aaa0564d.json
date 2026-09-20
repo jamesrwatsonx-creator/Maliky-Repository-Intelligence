@@ -2,7 +2,7 @@
   "id": "entity:553eaba34b5a2d67aaa0564d",
   "entity_type": "PLUGIN",
   "name": "humanizer",
-  "description": "Rewrite AI-sounding text so it reads naturally without changing what it says.",
+  "description": "Claude Code plugin manifest (humanizer 2.11.2, MIT) exposing the humanizer skill from the repository root.",
   "source": {
     "repository_id": "repository:1315201193",
     "repository_name": "jamesrwatsonx-creator/humanizer",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "humanizer"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/humanizer/blob/e2e92e7b4b8229253ed5c8e81dc65463fdeddda5/.claude-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:prompt-guided-prose-style-revision"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Claude Code plugin support (the skill also works on its own)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

@@ -8,8 +8,8 @@
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
 - Active entities: **9,191** (net of lean-review exclusions and additions)
-- Verified entities: **5,974**
-- Candidate entities: **3,217**
+- Verified entities: **5,976**
+- Candidate entities: **3,215**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
@@ -137,9 +137,13 @@ Retained 5,638 entities: 2,099 `SKILL`, 1,289 `AGENT`, 2,134 `WORKFLOW`, 76 `UI_
 
 Retained 122 entities: 68 `SKILL`, 9 `PLUGIN`, 44 `WORKFLOW` (42 slash commands added from the `commands/` folders plus 2 CI workflows), 1 `TOOL` (`validate_plugins.py`, a plugin-collection validator added from source). 11 capabilities registered, one per PM plugin domain plus the validator. No deep-review triggers (prompt/markdown content only). Shared helper: `scripts/lean_review_lib.py` (`LeanReview`) now underlies new review scripts; script: `scripts/review_pm_skills_semantics.py` (needs `PM_TARBALL`).
 
-## Exact resume point: humanizer
+## Completed: humanizer lean semantic review (`e2e92e7b4b8229253ed5c8e81dc65463fdeddda5`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/humanizer` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `e2e92e7b4b8229253ed5c8e81dc65463fdeddda5`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 3 entities: the already-VERIFIED `SKILL` (unchanged), the `PLUGIN` manifest, and the `Check package` `WORKFLOW` (CI reference). `scripts/validate-package.py` and `agents/openai.yaml` are packaging details of this single skill and were not catalogued. 3 capabilities on the repository (two pre-existing writing capabilities plus the shared CI capability). Script: `scripts/review_humanizer_semantics.py`.
+
+## Exact resume point: github-mcp-server
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/github-mcp-server` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `eb088dfe9d854dab6453a8d4ae5871a5ced20974`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates
