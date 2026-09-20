@@ -40,10 +40,10 @@
       "reviewed": false
     },
     "MCP_SERVER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review of FastMCP named constructor and mount",
+      "reviewed": true
     },
     "MCP_CLIENT": {
       "detected": 0,
@@ -54,8 +54,8 @@
     "TOOL": {
       "detected": 4,
       "catalogued": 4,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review of four FastMCP decorators",
+      "reviewed": true
     },
     "PLUGIN": {
       "detected": 0,
@@ -121,7 +121,7 @@
       "detected": 1,
       "catalogued": 1,
       "detection_scope": "source_review",
-      "reviewed": false
+      "reviewed": true
     },
     "API": {
       "detected": 123,
@@ -274,5 +274,29 @@
   "files_read": 496,
   "entity_count": 260,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "SEMANTIC_CENSUS_REVIEW",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T07:53:34.579573+00:00",
+    "reviewer": "Codex static semantic review",
+    "confirmed_entity_ids": [
+      "entity:03bd9ce12c4cd92cf1cd3cc3",
+      "entity:95c2fdc2d7120ebc2570ec9d",
+      "entity:03ffb3a6344436e67bfc446e",
+      "entity:07904c7644cf7fa4925a3a39",
+      "entity:6a886dfc53403ec892a5a5d2"
+    ],
+    "confirmed_capabilities": [
+      "capability:voice-mcp-server-exposure",
+      "capability:queued-speech-generation-submission",
+      "capability:local-audio-transcription",
+      "capability:voice-capture-history-discovery",
+      "capability:voice-profile-discovery"
+    ],
+    "pending": [
+      "Reconcile 123 HTTP route candidates, excluding tests and generated clients where appropriate",
+      "Review 118 UI component candidates for reusable boundaries",
+      "Review 4 Skills, 3 workflows and 7 packages",
+      "Score, map relationships and complete the independent census"
+    ]
+  }
 }

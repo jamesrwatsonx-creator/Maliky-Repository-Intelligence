@@ -14,6 +14,7 @@ From the repository root:
 
 ```
 python scripts/build_semantic_review_packet.py jamesrwatsonx-creator/voicebox
+python scripts/build_semantic_review_packet.py owner/repository --max-files 1000
 python scripts/run_analysis_tool.py jamesrwatsonx-creator/voicebox semgrep
 python scripts/build_semantic_review_packet.py owner/repo --report semgrep VERSION .local/report.json
 ```
@@ -21,7 +22,9 @@ python scripts/build_semantic_review_packet.py owner/repo --report semgrep VERSI
 All evidence, raw native reports, reusable file artifacts and packets are written
 only below ignored `.local/analysis/`. Private inputs are supported by the Python
 API but never registered publicly. The public CLI selects existing registry repos.
-No command redownloads already inspected source. Missing cache entries and parser
+No command redownloads already inspected source. `--max-files` creates a bounded
+representative packet, reports exactly how many eligible files were not selected,
+and cannot satisfy a complete semantic census. Missing cache entries and parser
 failures are explicit coverage gaps. Source bytes are verified against Git blobs.
 
 Native report import requires an envelope with `repository_id`, exact `commit`

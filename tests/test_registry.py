@@ -11,6 +11,8 @@ class DetectionTests(unittest.TestCase):
     def test_mcp_and_api_declarations(self):
         text='from mcp.server.fastmcp import FastMCP\nmcp=FastMCP("Example")\n@mcp.tool()\ndef search(query: str):\n    """Search documents."""\n    return query\n@app.get("/health")\ndef health(): return True\n'
         self.assertEqual({x['type'] for x in m.detect('server.py',text)},{'MCP_SERVER','TOOL','API'})
+    def test_named_fastmcp_constructor(self):
+        self.assertEqual(m.detect('server.py','from fastmcp import FastMCP\nserver=FastMCP(name="voicebox")')[0]['symbol'],'voicebox')
     def test_readme_mentions_are_not_entities(self):
         self.assertEqual(m.detect('README.md','This is a powerful MCP server with 25 skills.'),[])
     def test_multiline_skill_description(self):

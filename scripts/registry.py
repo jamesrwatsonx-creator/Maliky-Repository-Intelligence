@@ -218,8 +218,10 @@ def detect(path,text,diagnostics=None):
                     decorators=[ast.unparse(x) for x in node.decorator_list]
                     if any(re.search(r'(?:mcp|server)\.tool\(',d) for d in decorators): add('TOOL',node.name,ast.get_docstring(node) or '',node.lineno)
                     if any(re.match(r'(?:app|router)\.(?:get|post|put|patch|delete)\(',d) for d in decorators): add('API',node.name,ast.get_docstring(node) or '',node.lineno)
-                if isinstance(node,ast.Call) and isinstance(node.func,ast.Name) and node.func.id in ('FastMCP','Server') and node.args and isinstance(node.args[0],ast.Constant) and isinstance(node.args[0].value,str):
-                    if node.func.id=='FastMCP' or 'mcp.server' in text: add('MCP_SERVER',node.args[0].value,'MCP server constructor',node.lineno)
+                if isinstance(node,ast.Call) and isinstance(node.func,ast.Name) and node.func.id in ('FastMCP','Server'):
+                    server_name=next((arg.value for arg in node.args[:1] if isinstance(arg,ast.Constant) and isinstance(arg.value,str)),None)
+                    server_name=server_name or next((arg.value.value for arg in node.keywords if arg.arg=='name' and isinstance(arg.value,ast.Constant) and isinstance(arg.value.value,str)),None)
+                    if server_name and (node.func.id=='FastMCP' or 'mcp.server' in text): add('MCP_SERVER',server_name,'MCP server constructor',node.lineno)
         except SyntaxError as exc: parse_error(exc)
     if name.endswith(('.ts','.js','.mjs','.tsx','.jsx')):
         for m in re.finditer(r'\b(?:server|mcp)\.(?:registerTool|tool)\(\s*[\"\']([^\"\']+)[\"\']',text): add('TOOL',m[1],'Explicit MCP tool registration',text[:m.start()].count('\n')+1)

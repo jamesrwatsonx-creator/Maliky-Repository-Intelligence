@@ -1,0 +1,44 @@
+{
+  "id": "entity:03bd9ce12c4cd92cf1cd3cc3",
+  "entity_type": "MCP_SERVER",
+  "name": "voicebox",
+  "description": "FastMCP server mounted at the Voicebox /mcp endpoint",
+  "source": {
+    "repository_id": "repository:1243146740",
+    "repository_name": "jamesrwatsonx-creator/voicebox",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/voicebox",
+    "upstream_url": "https://github.com/jamiepine/voicebox",
+    "source_path": "backend/mcp_server/server.py",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "inspection_date": "2026-09-20T07:53:31.229546+00:00",
+    "blob_sha": "3a408df9d178854812bff1d6c8b3e7e790084176",
+    "line": 25
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/mcp_server/server.py#L25"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/mcp_server/server.py#L58"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:voice-mcp-server-exposure"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified constructor and mount path; runtime connection was not tested"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE AS SERVICE",
+  "contribution_role": "SERVICE"
+}

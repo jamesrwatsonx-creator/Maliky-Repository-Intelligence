@@ -31,6 +31,10 @@ def analyze_file(path, text, detector):
     if p.suffix == '.py':
         try:
             tree=ast.parse(text)
+            # Keep call evidence bounded and honest. A generic Python call has no
+            # reliable target without import/type/dataflow resolution. We record
+            # only simple calls to a definition in the same source file.
+            local_definitions={node.name for node in ast.walk(tree) if isinstance(node,(ast.FunctionDef,ast.AsyncFunctionDef,ast.ClassDef))}
             class Visitor(ast.NodeVisitor):
                 def __init__(self): self.scope=[]
                 def definition(self,node):
@@ -39,8 +43,8 @@ def analyze_file(path, text, detector):
                     self.scope.append(node.name); self.generic_visit(node); self.scope.pop()
                 visit_FunctionDef=definition; visit_AsyncFunctionDef=definition; visit_ClassDef=definition
                 def visit_Call(self,node):
-                    target=ast.unparse(node.func)
-                    add('relationship','Syntactic call reference, not resolved runtime dispatch',symbol='.'.join(self.scope),target=target,relation='CALL_CANDIDATE',line_start=node.lineno,confidence=0.4)
+                    if isinstance(node.func,ast.Name) and node.func.id in local_definitions:
+                        add('relationship','Same-file Python call reference; dynamic dispatch is not resolved',symbol='.'.join(self.scope),target=node.func.id,relation='CALL_CANDIDATE',line_start=node.lineno,confidence=0.6)
                     self.generic_visit(node)
                 def visit_ImportFrom(self,node):
                     add('relationship','Python import reference',target='.'*node.level+(node.module or ''),relation='IMPORTS',line_start=node.lineno)
@@ -76,6 +80,17 @@ def analyze_file(path, text, detector):
             add('license','License/notice document exists; absence of detected expression is not absence of license',expression='UNREVIEWED',line_start=1)
     except (ValueError,TypeError,AttributeError) as ex: errors.append({'path':path,'stage':'manifest','error':str(ex)[:250]})
     return {'facts':facts,'errors':errors}
+
+def classify_only(path, text, reason):
+    """Preserve an oversized source file in coverage without parsing it."""
+    p=PurePosixPath(path)
+    generated=bool(re.search(r'(?i)(@generated|automatically generated|do not edit)',text[:2000])) or p.name.endswith(('.min.js','.min.css'))
+    vendored=bool(set(p.parts)&{'vendor','vendors','third_party','node_modules'})
+    return {'facts':[{'type':'file_classification','path':path,
+                      'description':'Static parsing skipped: '+reason,
+                      'language':LANGUAGES.get(p.suffix,'unknown'),'generated':generated,'vendored':vendored,
+                      'documentation':p.suffix in ('.md','.rst'),'data_file':p.suffix in ('.json','.csv','.tsv'),
+                      'static_analysis_skipped':True}], 'errors':[]}
 
 def repository_map(evidence):
     """Aider-inspired reference ranking, deliberately simpler than its PageRank."""

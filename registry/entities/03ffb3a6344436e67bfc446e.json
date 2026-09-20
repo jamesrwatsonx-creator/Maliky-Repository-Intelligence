@@ -16,25 +16,25 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "backend/mcp_server/tools.py"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "voicebox_transcribe"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/mcp_server/tools.py#L123"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:local-audio-transcription"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified FastMCP tool decorator and source contract; runtime behavior not tested"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

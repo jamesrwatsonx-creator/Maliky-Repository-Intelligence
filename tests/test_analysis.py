@@ -16,6 +16,11 @@ class ContractTests(unittest.TestCase):
             state=statuses();self.assertEqual(len(state),9)
             for item in state.values():
                 self.assertFalse(item['available']);self.assertTrue(item['unavailable']);self.assertTrue(item['fallback_available']);self.assertTrue(item['integration_mode']);self.assertFalse(item['installation_required'])
+    def test_tool_registry_publishes_every_availability_field(self):
+        tools=r.read('analysis/tools.yaml')['tools'];self.assertEqual(len(tools),9)
+        for item in tools:
+            for field in ('available','unavailable','fallback_available','integration_mode'):
+                self.assertIn(field,item)
     def test_evidence_stable_and_commit_sensitive(self):
         f={'type':'symbol','path':'a.py','symbol':'x','line_start':1}
         a=c.evidence(REPO,'test','1',f,'blob:abc');b=c.evidence(REPO,'test','1',f,'blob:abc')
@@ -60,9 +65,17 @@ class AdapterTests(unittest.TestCase):
         with mock.patch('subprocess.run',side_effect=AssertionError('execution')):
             result=analyze_file('app.py','import os\ndef f():\n    os.system("do-not-run")\n',r.detect)
         self.assertTrue(any(f['type']=='relationship' for f in result['facts']))
+    def test_call_evidence_is_limited_to_same_file_definitions(self):
+        result=analyze_file('app.py','def local(): pass\ndef f():\n    local()\n    external()\n    module.dynamic()\n',r.detect)
+        calls=[f for f in result['facts'] if f['type']=='relationship' and f.get('relation')=='CALL_CANDIDATE']
+        self.assertEqual([f['target'] for f in calls],['local'])
     def test_generated_vendor_flags_do_not_drop_candidates(self):
         result=analyze_file('vendor/tool.py','# automatically generated\n@mcp.tool()\ndef search(): pass\n',r.detect)
         self.assertTrue(any(f['type']=='entity_candidate' for f in result['facts']))
+    def test_large_files_remain_covered_without_static_parsing(self):
+        from analysis.local import classify_only
+        result=classify_only('generated.ts','// automatically generated\n'+'x'*2_000_000,'file exceeds limit')
+        self.assertTrue(result['facts'][0]['static_analysis_skipped']);self.assertTrue(result['facts'][0]['generated'])
     def test_visual_examples_are_individual_candidates(self):
         facts=[analyze_file(f'examples/{i}/DESIGN.md',f'# Design {i}',r.detect)['facts'] for i in range(200)]
         self.assertEqual(sum(f['type']=='entity_candidate' for fs in facts for f in fs),200)
@@ -87,6 +100,10 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(all(e['repository']['commit']=='b'*40 for e in third['evidence']))
         self.assertFalse(any(e['finding']['path']=='package.json' for e in third['evidence']))
         self.assertTrue((r.ROOT/'.local/analysis/normalized/1'/('a'*40)/'evidence.json').exists())
+    def test_bounded_run_discloses_omitted_files(self):
+        result,_=analyze(self.repo,max_files=1)
+        self.assertEqual(result['coverage']['eligible_tree_files'],2);self.assertEqual(result['coverage']['selected_tree_files'],1)
+        self.assertEqual(result['coverage']['not_selected_for_this_run'],1)
     def test_algorithm_change_invalidates_cache(self):
         analyze(self.repo);(r.ROOT/'scripts/registry.py').write_text('detector-version-2')
         result,_=analyze(self.repo);self.assertEqual(result['cache']['computed'],2)
