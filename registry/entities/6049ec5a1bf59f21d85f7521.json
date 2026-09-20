@@ -1,0 +1,52 @@
+{
+  "id": "entity:6049ec5a1bf59f21d85f7521",
+  "entity_type": "LIBRARY",
+  "name": "oauth",
+  "description": "Package oauth implements the user-facing OAuth 2.1 login flows the stdio server uses to obtain a GitHub token without a pre-provisioned Personal Access Token.  It supports both GitHub OAuth Apps and GitHub Apps (user-to-server). The only practical difference is that GitHub App user tokens expire and carry a refresh token; this package always returns a refreshing [golang.org/x/oauth2.TokenSource] so callers never have to special-case the app type.  The package depends only on golang.org/x/oauth2 and the standard library. MCP concerns (sessions, elicitation) are abstracted behind the [Prompter] interface so the flows can be tested without a live client.",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "internal/oauth/oauth.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:19.624464+00:00",
+    "blob_sha": "dbf79f9975cd588ea9ed13cf84586eec4da56373",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/internal/oauth/oauth.go#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:oauth-browser-and-device-login-flow"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Go",
+      "github-mcp-server module"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

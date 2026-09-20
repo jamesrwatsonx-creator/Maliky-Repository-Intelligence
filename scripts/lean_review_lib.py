@@ -68,7 +68,8 @@ class LeanReview:
     def write_capabilities(self):
         for cap,info in self.caps.items():
             file='registry/capabilities/'+cap+'.json';record=r.read(file)
-            providers=sorted(set(info['providers'])|set(record['providers'] if record else []));aliases=sorted(info['aliases']|set(record['aliases'] if record else []))
+            kept=[x for x in (record['providers'] if record else []) if 'capability:'+cap in (r.read('registry/entities/'+x.split(':')[1]+'.json') or {}).get('capabilities',[])]  # drop stale providers on re-runs
+            providers=sorted(set(info['providers'])|set(kept));aliases=sorted(info['aliases']|set(record['aliases'] if record else []))
             if record: r.write(file,{**record,'providers':providers,'aliases':aliases})
             else: r.write(file,{'id':'capability:'+cap,'name':info['name'],'aliases':aliases or [info['name'].lower()],'status':'VERIFIED','verification_scope':'Static source contract; runtime not tested','providers':providers,'evidence':[{'type':'source_review','value':self.url(info['path'])}]})
 

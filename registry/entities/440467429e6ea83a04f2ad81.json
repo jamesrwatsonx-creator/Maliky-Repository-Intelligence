@@ -2,7 +2,7 @@
   "id": "entity:440467429e6ea83a04f2ad81",
   "entity_type": "WORKFLOW",
   "name": "golangci-lint",
-  "description": "",
+  "description": "golangci-lint workflow.",
   "source": {
     "repository_id": "repository:1315201777",
     "repository_name": "jamesrwatsonx-creator/github-mcp-server",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/lint.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "golangci-lint"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/workflows/lint.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

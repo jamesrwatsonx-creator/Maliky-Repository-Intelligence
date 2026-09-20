@@ -7,34 +7,35 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **9,191** (net of lean-review exclusions and additions)
-- Verified entities: **5,976**
-- Candidate entities: **3,215**
+- Active entities: **9,307** (net of lean-review exclusions and additions)
+- Verified entities: **6,110**
+- Candidate entities: **3,197**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,591 |
-| `WORKFLOW` | 2,250 |
+| `WORKFLOW` | 2,246 |
 | `AGENT` | 1,610 |
-| `UI_COMPONENT` | 850 |
+| `UI_COMPONENT` | 852 |
 | `API` | 402 |
-| `PACKAGE` | 206 |
-| `CLI` | 94 |
+| `PACKAGE` | 207 |
+| `TOOL` | 158 |
+| `CLI` | 96 |
 | `DESIGN_REFERENCE` | 74 |
-| `TOOL` | 49 |
 | `PLUGIN` | 29 |
 | `COMPONENT` | 9 |
+| `MCP_SERVER` | 7 |
 | `INTEGRATION` | 6 |
-| `MCP_SERVER` | 6 |
 | `CONNECTOR` | 4 |
+| `LIBRARY` | 4 |
 | `AGENT_FRAMEWORK` | 2 |
+| `PROMPT` | 2 |
 | `SDK` | 2 |
 | `SERVICE` | 2 |
 | `DOCUMENTATION_ASSET` | 1 |
 | `INFRASTRUCTURE_MODULE` | 1 |
-| `LIBRARY` | 1 |
 | `MODEL_ADAPTER` | 1 |
 | `TEMPLATE` | 1 |
 
@@ -141,9 +142,13 @@ Retained 122 entities: 68 `SKILL`, 9 `PLUGIN`, 44 `WORKFLOW` (42 slash commands 
 
 Retained 3 entities: the already-VERIFIED `SKILL` (unchanged), the `PLUGIN` manifest, and the `Check package` `WORKFLOW` (CI reference). `scripts/validate-package.py` and `agents/openai.yaml` are packaging details of this single skill and were not catalogued. 3 capabilities on the repository (two pre-existing writing capabilities plus the shared CI capability). Script: `scripts/review_humanizer_semantics.py`.
 
-## Exact resume point: github-mcp-server
+## Completed: github-mcp-server lean semantic review (`eb088dfe9d854dab6453a8d4ae5871a5ced20974`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/github-mcp-server` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `eb088dfe9d854dab6453a8d4ae5871a5ced20974`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 134 entities: `MCP_SERVER` `github-mcp-server`, 109 `TOOL` (parsed from `mcp.Tool{...}` definitions in `pkg/github/*.go`, each with description, toolset, `ReadOnlyHint` and required token scopes; grouped under 20 per-toolset capabilities), 2 `CLI` (`github-mcp-server`, `mcpcurl`), 3 `LIBRARY` (`inventory`, `scopes`, `oauth`), 2 `PACKAGE` (Go module, `@github/mcp-server-ui`), 9 of 13 `WORKFLOW`, 5 `UI_COMPONENT` (`MarkdownEditor` plus four MCP App UIs), 1 `AGENT`, 2 `PROMPT`. Removed 6 (4 workflows, `AppProvider`, `FeedbackFooter`). The declaration scan had missed the server and all tools. Scoped deep review: 52 of 109 tools are write-capable and act with the caller's GitHub credentials (PAT or OAuth); mitigations are `--read-only`, `--toolsets`, `--exclude-tools`; no token persistence found in `internal/oauth`; the server and repository are `SECURITY REVIEW REQUIRED` pending a deliberate scope choice. Script: `scripts/review_github_mcp_server_semantics.py` (needs `GH_TARBALL`). Re-run note: `lean_review_lib.write_capabilities` now drops stale providers, and review scripts must skip existing entities already in `review.out`.
+
+## Exact resume point: Google-skills
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/Google-skills` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `1af77752950126ae12dec176a0a3b27a16b7f5f7`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

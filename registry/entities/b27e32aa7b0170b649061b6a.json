@@ -1,0 +1,59 @@
+{
+  "id": "entity:b27e32aa7b0170b649061b6a",
+  "entity_type": "TOOL",
+  "name": "mark_all_notifications_read",
+  "description": "Mark all notifications as read",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "pkg/github/notifications.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:19.212299+00:00",
+    "blob_sha": "618cbdef59bf4f112b46ff91869bf58a841ffaf1",
+    "line": 245
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/notifications.go#L245"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:github-notifications-mcp-tools"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "github-mcp-server",
+      "GitHub API access with scopes: Notifications"
+    ],
+    "overlap": "",
+    "read_only": false,
+    "toolset": "notifications",
+    "required_scopes": [
+      "Notifications"
+    ],
+    "write_capable": true,
+    "deep_review_finding": "Can mutate GitHub state; enable only with --read-only off and a scoped token."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
+}

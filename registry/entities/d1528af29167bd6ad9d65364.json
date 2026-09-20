@@ -1,0 +1,57 @@
+{
+  "id": "entity:d1528af29167bd6ad9d65364",
+  "entity_type": "TOOL",
+  "name": "list_dependabot_alerts",
+  "description": "List dependabot alerts in a GitHub repository.",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "pkg/github/dependabot.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:18.967454+00:00",
+    "blob_sha": "f56a33134aabab8e4a5da8465f6e25c4a901d9a1",
+    "line": 133
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/dependabot.go#L133"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:github-dependabot-mcp-tools"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "github-mcp-server",
+      "GitHub API access with scopes: SecurityEvents"
+    ],
+    "overlap": "",
+    "read_only": true,
+    "toolset": "dependabot",
+    "required_scopes": [
+      "SecurityEvents"
+    ]
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
+}

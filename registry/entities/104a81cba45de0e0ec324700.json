@@ -1,0 +1,52 @@
+{
+  "id": "entity:104a81cba45de0e0ec324700",
+  "entity_type": "LIBRARY",
+  "name": "scopes",
+  "description": "Mapping between GitHub token scopes and tool requirements.",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "pkg/scopes/scopes.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:19.620942+00:00",
+    "blob_sha": "cb1b7681a72c62e80921d5e70f831030efbf7c9d",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/scopes/scopes.go#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:github-token-scope-mapping"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Go",
+      "github-mcp-server module"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

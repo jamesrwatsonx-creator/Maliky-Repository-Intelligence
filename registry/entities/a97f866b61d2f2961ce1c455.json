@@ -1,0 +1,52 @@
+{
+  "id": "entity:a97f866b61d2f2961ce1c455",
+  "entity_type": "CLI",
+  "name": "mcpcurl",
+  "description": "mcpcurl: A CLI tool that dynamically builds commands based on schemas retrieved from MCP servers that can",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "cmd/mcpcurl/main.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:19.614762+00:00",
+    "blob_sha": "f40e8425306828e6c259b1051d23edcf974a6e03",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/cmd/mcpcurl/main.go#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:mcp-server-command-line-client"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Go",
+      "a running MCP server"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

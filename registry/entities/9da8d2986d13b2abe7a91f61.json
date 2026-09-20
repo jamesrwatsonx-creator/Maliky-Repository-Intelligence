@@ -1,0 +1,57 @@
+{
+  "id": "entity:9da8d2986d13b2abe7a91f61",
+  "entity_type": "TOOL",
+  "name": "get_file_blame",
+  "description": "Get git blame information for a file, showing the commit that last modified each line. Ranges share commit metadata via the top-level 'commits' map keyed by SHA. Use 'start_line'/'end_line' to restrict the result to a window of the file, and 'perPage'/'after' to cursor-page through returned ranges. Matching ranges are capped at 1000; when the cap is hit 'truncated' is set to true and 'total_ranges' reports the pre-cap match count.",
+  "source": {
+    "repository_id": "repository:1315201777",
+    "repository_name": "jamesrwatsonx-creator/github-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+    "upstream_url": "https://github.com/github/github-mcp-server",
+    "source_path": "pkg/github/repositories.go",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "inspection_date": "2026-09-20T09:30:19.521277+00:00",
+    "blob_sha": "aa236cd53ac9b8a06c9e4f296aac72b603ccab0b",
+    "line": 2567
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/repositories.go#L2567"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:github-repos-mcp-tools"
+  ],
+  "studios": [
+    "studio:integrations-api-infrastructure"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "github-mcp-server",
+      "GitHub API access with scopes: Repo"
+    ],
+    "overlap": "",
+    "read_only": true,
+    "toolset": "repos",
+    "required_scopes": [
+      "Repo"
+    ]
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
+}

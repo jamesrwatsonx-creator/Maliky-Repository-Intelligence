@@ -2,7 +2,7 @@
   "id": "entity:6993e14fd8cc810a16202e19",
   "entity_type": "UI_COMPONENT",
   "name": "MarkdownEditor",
-  "description": "Exported JSX component candidate",
+  "description": "Markdown editor React component used by the write-issue and write-PR apps.",
   "source": {
     "repository_id": "repository:1315201777",
     "repository_name": "jamesrwatsonx-creator/github-mcp-server",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "ui/src/components/MarkdownEditor.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "MarkdownEditor"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/src/components/MarkdownEditor.tsx#L78"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:mcp-app-ui-for-github-tools"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Primer React"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }
