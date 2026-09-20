@@ -407,7 +407,7 @@ def build():
                 label=e['name'].replace('[','\\[').replace(']','\\]').replace('\n',' ')
                 body.append(f"- [{label}](../{entity_files[e['id']]}) — {e['source']['repository_name']} — {e['review_status']}")
             (dest/filename).write_text('\n'.join(body)+'\n',encoding='utf-8')
-        (dest/'README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+        (dest/'README.md').write_text('\n'.join(lines).rstrip()+'\n',encoding='utf-8')
     for dim in ('categories','studios','ideas','contribution_role','recommendation','tier','operational_category'):
         index=collections.defaultdict(list)
         for d in repos+active:
