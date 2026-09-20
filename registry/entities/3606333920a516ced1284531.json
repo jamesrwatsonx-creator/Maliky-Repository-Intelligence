@@ -1,0 +1,51 @@
+{
+  "id": "entity:3606333920a516ced1284531",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/devops-sre-platform/monitoring-setup",
+  "description": "Monitoring and Observability Setup - Comprehensive process for implementing production-grade monitoring and observability infrastructure including metrics collection (Prometheus), visualization (Grafana), log aggregation (Loki/ELK), distributed tracing (Jaeger/Tempo), alerting, dashboards, and incident response. Covers the three pillars of observability with SLO-based monitoring and operational ru",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/devops-sre-platform/monitoring-setup.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:40.408902+00:00",
+    "blob_sha": "2107c9abe4f431b112b78bf1d825e518b886ec19",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/monitoring-setup.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-devops-sre-platform-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, monitoringScope: string, platforms?: array, targetCoverage?: number }",
+    "outputs": "{ success: boolean, observabilityScore: number, dashboards: array, alerts: array, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

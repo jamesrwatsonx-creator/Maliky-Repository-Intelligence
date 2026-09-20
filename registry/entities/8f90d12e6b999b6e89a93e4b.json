@@ -1,0 +1,51 @@
+{
+  "id": "entity:8f90d12e6b999b6e89a93e4b",
+  "entity_type": "WORKFLOW",
+  "name": "methodologies/gastown/gastown-patrol",
+  "description": "Gas Town Patrol - Continuous monitoring using Deacon/Witness patterns for health checks, stuck agent detection, and recovery",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/methodologies/gastown/gastown-patrol.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.262266+00:00",
+    "blob_sha": "8d35fe0aa0645656901bc4429b49d0469b570a05",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gastown/gastown-patrol.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-gastown-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ townId?: string, patrolInterval?: number, maxCycles?: number, recoveryMode?: string }",
+    "outputs": "{ success: boolean, patrolCycles: number, issues: array, recoveries: array, report: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

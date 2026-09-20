@@ -2,7 +2,7 @@
   "id": "entity:f6f9b95acc03001b415e1a4b",
   "entity_type": "UI_COMPONENT",
   "name": "SkillCard",
-  "description": "Exported JSX component candidate",
+  "description": "Process catalog React component SkillCard (SkillCard.tsx).",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/catalog/src/components/catalog/EntityCard/SkillCard.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "SkillCard"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/EntityCard/SkillCard.tsx#L25"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:process-library-catalog-ui-components"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Next.js app context"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

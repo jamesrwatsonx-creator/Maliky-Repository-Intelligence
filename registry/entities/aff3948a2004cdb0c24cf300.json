@@ -1,0 +1,51 @@
+{
+  "id": "entity:aff3948a2004cdb0c24cf300",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/technical-documentation/docs-pr-workflow",
+  "description": "Automated workflow for reviewing documentation pull requests with style validation, automated checks, and approval gates",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/technical-documentation/docs-pr-workflow.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.698208+00:00",
+    "blob_sha": "7180619612bbee6f268774aa2485da1b4b2c813e",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/docs-pr-workflow.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-technical-documentation-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ prNumber: number, repository: string, branch: string, targetQuality: number, autoApprove: boolean }",
+    "outputs": "{ success: boolean, approved: boolean, quality: number, checks: object, artifacts: string[] }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

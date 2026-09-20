@@ -1,0 +1,51 @@
+{
+  "id": "entity:eda386b69103950835ae295f",
+  "entity_type": "WORKFLOW",
+  "name": "social-sciences/research-pre-registration",
+  "description": "Pre-register hypotheses, analysis plans, and study designs on Open Science Framework or discipline-specific registries to enhance transparency and reproducibility",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/social-sciences-humanities/social-sciences/research-pre-registration.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.262025+00:00",
+    "blob_sha": "2083e657e8db053a2baac9ebb058dfadc683ab82",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/research-pre-registration.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-social-sciences-humanities-social-sciences-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ studyDesign: object, hypotheses: array, analysisPlan: object, outputDir: string }",
+    "outputs": "{ success: boolean, preregistration: object, registrationDocument: string, qualityScore: number, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

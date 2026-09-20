@@ -1,0 +1,51 @@
+{
+  "id": "entity:c44bd71489bf5a12fbba4d70",
+  "entity_type": "WORKFLOW",
+  "name": "methodologies/maestro/maestro-orchestrator",
+  "description": "Maestro App Factory - Full lifecycle orchestrator: PM interview, architect spec, story dispatch, parallel coder cycles, review, merge",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/methodologies/maestro/maestro-orchestrator.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.359356+00:00",
+    "blob_sha": "d80481a344479303dd7a19ed71789d5acb94bb63",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-orchestrator.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-maestro-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ goal: string, specFile?: string, projectRoot?: string, coderCount?: number, qualityThreshold?: number, mode?: string, maintenanceFrequency?: number }",
+    "outputs": "{ success: boolean, specification: object, stories: array, implementations: array, mergeResults: array, knowledgeGraph: object, metrics: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

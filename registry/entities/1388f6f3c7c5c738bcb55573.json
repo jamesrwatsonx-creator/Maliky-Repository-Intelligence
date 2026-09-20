@@ -1,0 +1,51 @@
+{
+  "id": "entity:1388f6f3c7c5c738bcb55573",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/nanotechnology/surface-functionalization",
+  "description": "Nanomaterial Surface Functionalization Pipeline - Orchestrate surface modification workflows including ligand exchange, bioconjugation, polymer coating, and targeting molecule attachment with validation of surface chemistry, colloidal stability, and functional group quantification.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/nanotechnology/surface-functionalization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:43.136246+00:00",
+    "blob_sha": "2620d856493565e8600baec0836f273ab6b972ed",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/surface-functionalization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-nanotechnology-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ nanomaterial: object, targetFunctionality: string, functionalizationType: string, applicationRequirements?: object }",
+    "outputs": "{ success: boolean, functionalizedProduct: object, surfaceCharacterization: object, stabilityMetrics: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

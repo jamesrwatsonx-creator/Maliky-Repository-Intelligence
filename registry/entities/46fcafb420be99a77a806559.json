@@ -2,7 +2,7 @@
   "id": "entity:46fcafb420be99a77a806559",
   "entity_type": "SKILL",
   "name": "library/methodologies/ccpm/skills/parallel-orchestration",
-  "description": "",
+  "description": "# Parallel Orchestration Coordinate multiple specialized agents across parallel work streams with quality gates and conflict resolution. ## Agents - Database Engineer - `database-engineer`",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "library/methodologies/ccpm/skills/parallel-orchestration/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "library/methodologies/ccpm/skills/parallel-orchestration"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ccpm/skills/parallel-orchestration/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-ccpm-skills"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Agent host that loads SKILL.md skills (optional babysitter runtime)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE EXISTING SKILL",
   "contribution_role": "SKILL"
 }

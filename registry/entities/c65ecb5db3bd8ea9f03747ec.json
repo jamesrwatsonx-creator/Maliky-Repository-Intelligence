@@ -1,0 +1,51 @@
+{
+  "id": "entity:c65ecb5db3bd8ea9f03747ec",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/automotive-engineering/suspension-system-development",
+  "description": "Suspension System Development - Design, tune, and validate suspension systems for target ride comfort, handling balance, and durability requirements.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/automotive-engineering/suspension-system-development.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.135014+00:00",
+    "blob_sha": "3191d4ca8f6b786ea4ff77ab585ef11755d2a51f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/suspension-system-development.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-automotive-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ vehicleProgram: string, vehicleClass: string, performanceTargets?: object, suspensionType?: string }",
+    "outputs": "{ success: boolean, suspensionDesign: object, kcData: object, tuningSpecifications: object, validationReports: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

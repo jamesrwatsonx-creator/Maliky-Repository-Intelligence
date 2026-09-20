@@ -1,0 +1,51 @@
+{
+  "id": "entity:3df6f0b8a8695132eb440aa7",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/nanotechnology/directed-self-assembly",
+  "description": "Directed Self-Assembly Process Development - Develop directed self-assembly workflows using block copolymers or nanoparticle templates including substrate preparation, annealing optimization, defect reduction strategies, pattern transfer, and alignment verification with quality gates for feature uniformity.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/nanotechnology/directed-self-assembly.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:43.073044+00:00",
+    "blob_sha": "b0282f60222d73d81c8f34d1a0030a137cfadaa0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/directed-self-assembly.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-nanotechnology-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ dsaSystem: string, targetPattern: object, substrateGuide: object, defectTarget?: number }",
+    "outputs": "{ success: boolean, processRecipe: object, patternQuality: object, defectAnalysis: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

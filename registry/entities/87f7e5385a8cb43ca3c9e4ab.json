@@ -1,0 +1,51 @@
+{
+  "id": "entity:87f7e5385a8cb43ca3c9e4ab",
+  "entity_type": "WORKFLOW",
+  "name": "methodologies/maestro/maestro-development",
+  "description": "Maestro Development - Feature development cycle: story planning, parallel implementation, testing, architect review, merge",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/methodologies/maestro/maestro-development.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.345355+00:00",
+    "blob_sha": "70ba1c539d9f2c87f0994aa50e1db08c73f9b495",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-development.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-maestro-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ stories: array, techSpec: object, projectRoot?: string, coderCount?: number, qualityThreshold?: number, knowledgeGraph?: object }",
+    "outputs": "{ success: boolean, completedStories: array, mergeResults: array, testCoverage: object, knowledgeGraph: object, metrics: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:cf0a3abf05c59b4e657fe347",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/technical-documentation/docs-as-code-pipeline",
+  "description": "Docs-as-Code CI/CD Pipeline Setup - Implement comprehensive documentation-as-code workflow with version control, automated builds, testing (link checking, linting, spell checking), continuous deployment, and quality gates for modern technical documentation management aligned with software development best practices.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/technical-documentation/docs-as-code-pipeline.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.689206+00:00",
+    "blob_sha": "4ad705f1d75146448feee8532f8807d632703c0b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/docs-as-code-pipeline.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-technical-documentation-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectPath: string, repositoryUrl: string, docsPath?: string, platform?: string, generator?: string, deploymentTarget?: string }",
+    "outputs": "{ success: boolean, pipelineConfig: object, qualityScore: number, deploymentUrl: string, artifacts: string[] }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

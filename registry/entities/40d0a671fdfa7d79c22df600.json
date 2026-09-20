@@ -1,0 +1,51 @@
+{
+  "id": "entity:40d0a671fdfa7d79c22df600",
+  "entity_type": "WORKFLOW",
+  "name": "security-compliance/penetration-testing",
+  "description": "Penetration Testing Program - Comprehensive ethical hacking and security assessment framework following OWASP Testing Guide and PTES (Penetration Testing Execution Standard) methodologies. Covers scoping, reconnaissance, vulnerability assessment, exploitation, post-exploitation, reporting, and remediation validation with structured testing phases for web applications, networks, APIs, mobile apps, ",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-compliance/penetration-testing.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.465125+00:00",
+    "blob_sha": "59cea94ed369b3d79ece61bb530ae5678d3006b0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/penetration-testing.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-compliance-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, targetScope: object, testingType: string, methodology: string, complianceRequirements?: array, retestAfterRemediation?: boolean }",
+    "outputs": "{ success: boolean, securityPosture: string, vulnerabilities: array, exploitedVulnerabilities: array, remediationPlan: object, complianceStatus: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

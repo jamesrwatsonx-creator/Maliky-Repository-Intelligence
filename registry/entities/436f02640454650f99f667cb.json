@@ -1,0 +1,51 @@
+{
+  "id": "entity:436f02640454650f99f667cb",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/ai-agents-conversational/long-term-memory-management",
+  "description": "Long-Term Memory and User Profile Management - Process for building persistent memory systems that track user preferences, historical interactions, learned facts, and personalization across sessions.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/ai-agents-conversational/long-term-memory-management.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.626282+00:00",
+    "blob_sha": "c1cbce9e465136765e56618a738b7ef620cc4f7a",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/long-term-memory-management.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-ai-agents-conversational-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ systemName?: string, userAttributes?: array, factTypes?: array, outputDir?: string }",
+    "outputs": "{ success: boolean, userProfileSystem: object, factExtraction: object, crossSessionPersistence: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

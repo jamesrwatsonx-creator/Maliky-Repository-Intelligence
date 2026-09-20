@@ -2,7 +2,7 @@
   "id": "entity:a2fcd47153070c425058031d",
   "entity_type": "UI_COMPONENT",
   "name": "SkillDetail",
-  "description": "Exported JSX component candidate",
+  "description": "Process catalog React component SkillDetail (SkillDetail.tsx).",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/catalog/src/components/catalog/DetailView/SkillDetail.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "SkillDetail"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/DetailView/SkillDetail.tsx#L22"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:process-library-catalog-ui-components"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Next.js app context"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

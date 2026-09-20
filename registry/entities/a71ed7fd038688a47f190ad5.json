@@ -2,7 +2,7 @@
   "id": "entity:a71ed7fd038688a47f190ad5",
   "entity_type": "CLI",
   "name": "babysitter-gemini",
-  "description": "Babysitter plugin for Gemini CLI — event-sourced orchestration with AfterAgent continuation hooks, session binding, and human-in-the-loop approval gates",
+  "description": "babysitter-gemini command-line entry: Babysitter plugin for Gemini CLI — event-sourced orchestration with AfterAgent continuation hooks, session binding, and human-in-the-loop approval gates",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/babysitter-gemini/package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "babysitter-gemini"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-gemini/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows",
+    "category:ai-orchestration"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:babysitter-harness-plugin-installation"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Node >=20",
+      "babysitter SDK"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

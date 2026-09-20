@@ -1,0 +1,51 @@
+{
+  "id": "entity:d494f4ecdcac31260e152f4f",
+  "entity_type": "WORKFLOW",
+  "name": "venture-capital/quarterly-portfolio-reporting",
+  "description": "Systematic collection and analysis of portfolio company KPIs, financial performance, and milestone progress with standardized dashboards and LP reporting",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/venture-capital/quarterly-portfolio-reporting.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.928460+00:00",
+    "blob_sha": "d6ef1f57743dbf66b9932b8db083eef3788792df",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/quarterly-portfolio-reporting.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-venture-capital-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ fundName: string, portfolioCompanies: array, reportingPeriod: string, lpRequirements: object }",
+    "outputs": "{ success: boolean, portfolioMetrics: object, companyReports: array, lpReport: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

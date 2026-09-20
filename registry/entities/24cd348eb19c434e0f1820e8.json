@@ -1,0 +1,51 @@
+{
+  "id": "entity:24cd348eb19c434e0f1820e8",
+  "entity_type": "WORKFLOW",
+  "name": "product-management/user-story-mapping",
+  "description": "User Story Mapping process with user activity identification, task breakdown, story creation, prioritization, and release planning for product development",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/product-management/user-story-mapping.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.113277+00:00",
+    "blob_sha": "e251dc12e1a7c0f7826d617021db48fc20e43e18",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/user-story-mapping.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-product-management-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ productName: string, productGoal: string, userPersonas: array, existingBacklog: array, outputDir: string, releaseCount: number, teamCapacity: number }",
+    "outputs": "{ success: boolean, userActivities: array, userTasks: array, userStories: array, releaseMap: object, prioritizedBacklog: array, artifacts: array, metadata: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:84625ef7fcb25dd22a8f00d6",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/operations/fmea-facilitation",
+  "description": "FMEA Facilitation Process - Facilitate Failure Mode and Effects Analysis for products and processes, prioritize risks, and implement controls for proactive quality and reliability improvement.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/operations/fmea-facilitation.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.483163+00:00",
+    "blob_sha": "c64bffee90c095606cbd5d1cdccb852e459f8a4e",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/fmea-facilitation.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-operations-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ fmeaType: string, scope: string, teamMembers?: array, rpnThreshold?: number }",
+    "outputs": "{ success: boolean, fmeaResults: object, highRiskItems: array, actions: array, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

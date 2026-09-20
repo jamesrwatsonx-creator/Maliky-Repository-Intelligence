@@ -1,0 +1,51 @@
+{
+  "id": "entity:da395de73a7fbff406a260de",
+  "entity_type": "WORKFLOW",
+  "name": "domains/science/scientific-discovery/analogical-cross-domain-transfer",
+  "description": "Apply solutions from analogous problems in other domains - Guides practitioners through systematic analogical reasoning to identify solutions from other fields and adapt them to the target problem.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/scientific-discovery/analogical-cross-domain-transfer.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:43.310634+00:00",
+    "blob_sha": "f8e9be4acd382d053e4ac7966ac6afc645c54a31",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/analogical-cross-domain-transfer.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-scientific-discovery-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ problem: string, sourceDomains?: array, targetDomain: string, constraints?: array }",
+    "outputs": "{ success: boolean, analogies: array, transferredSolutions: array, adaptedConcepts: array, evaluation: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

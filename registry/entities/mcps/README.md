@@ -1,5 +1,5 @@
 # Mcp Server
 
-11 individually addressable records. Each link opens the canonical record.
+6 individually addressable records. Each link opens the canonical record.
 
-- [Records 1–11](page-0001.md)
+- [Records 1–6](page-0001.md)

@@ -1,0 +1,51 @@
+{
+  "id": "entity:b528c8a9cd2488fcf100d59c",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/logistics/distribution-network-optimization",
+  "description": "Strategic network modeling and analysis to optimize facility locations, capacity allocation, and inventory positioning across the distribution network.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/logistics/distribution-network-optimization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.345716+00:00",
+    "blob_sha": "3aeb4512c9c2dd18b80d087d94cb91be6847960f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/logistics/distribution-network-optimization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-logistics-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ facilities: array, demandPoints: array, products: array, costData: object, constraints?: object }",
+    "outputs": "{ success: boolean, networkDesign: object, facilityRecommendations: array, costAnalysis: object, implementationPlan: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

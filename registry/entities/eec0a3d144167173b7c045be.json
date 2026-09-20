@@ -1,0 +1,51 @@
+{
+  "id": "entity:eec0a3d144167173b7c045be",
+  "entity_type": "WORKFLOW",
+  "name": "software-architecture/quality-attributes-workshop",
+  "description": "Facilitated workshop for identifying, prioritizing, and specifying quality attributes (non-functional requirements) with scenario-based elicitation, stakeholder-driven prioritization, and architecture implications mapping",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/software-architecture/quality-attributes-workshop.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.649970+00:00",
+    "blob_sha": "72feaf69d8270a597309937dbb9e594458d6b5e4",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/quality-attributes-workshop.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-software-architecture-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ systemName: string, businessContext: object, stakeholders: array, constraints: object, existingRequirements: array }",
+    "outputs": "{ success: boolean, qualityAttributes: array, scenarios: array, prioritizedScenarios: array, architectureImplications: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:00dcc0920de1c41c96eefce9",
+  "entity_type": "WORKFLOW",
+  "name": "domains/science/industrial-engineering/capacity-planning",
+  "description": "Capacity Planning Analysis - Analyze production capacity against demand forecasts to identify constraints, plan capacity adjustments, and support strategic planning decisions.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/industrial-engineering/capacity-planning.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.733361+00:00",
+    "blob_sha": "b0457e55c9da57f09a486aa7c6ebdae0d5714a9c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/capacity-planning.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-industrial-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ demandForecast: string, resourceData?: object, planningHorizon?: number }",
+    "outputs": "{ success: boolean, capacityGaps: array, recommendations: array, capacityPlan: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

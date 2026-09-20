@@ -1,0 +1,51 @@
+{
+  "id": "entity:7a959848f823732670872880",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/embedded-systems/device-driver-development",
+  "description": "Device Driver Development Workflow - Systematic process for developing kernel-space and user-space device drivers, including register mapping, interrupt handling, DMA configuration, and API design for hardware abstraction.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/embedded-systems/device-driver-development.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.304925+00:00",
+    "blob_sha": "b1e94aad4ea70c0f4aadc5b5851234304965bd64",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/device-driver-development.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-embedded-systems-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ driverName: string, peripheralType: string, targetMcu?: string, interfaceType?: string, dmaSupport?: boolean, outputDir?: string }",
+    "outputs": "{ success: boolean, driverFiles: array, apiDocumentation: object, testSuite: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

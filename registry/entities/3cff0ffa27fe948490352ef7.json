@@ -1,0 +1,51 @@
+{
+  "id": "entity:3cff0ffa27fe948490352ef7",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/public-relations/government-affairs-communications",
+  "description": "Manage communications with government officials, regulators, and policy makers, track legislative developments, and coordinate advocacy messaging",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/public-relations/government-affairs-communications.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.612660+00:00",
+    "blob_sha": "eadfe8739d7756d32de1a578bbc02a09ae121015",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/public-relations/government-affairs-communications.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-public-relations-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ organization: object, policyPriorities: object[], regulatoryLandscape: object, governmentContacts: object[] }",
+    "outputs": "{ success: boolean, gaStrategy: object, advocacyPlan: object, stakeholderEngagement: object, quality: number }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

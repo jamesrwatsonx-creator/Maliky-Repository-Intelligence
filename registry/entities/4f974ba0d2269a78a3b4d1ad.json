@@ -1,0 +1,51 @@
+{
+  "id": "entity:4f974ba0d2269a78a3b4d1ad",
+  "entity_type": "WORKFLOW",
+  "name": "generic-feature",
+  "description": "Standard feature implementation template with built-in TypeScript gate, conditional permission audit, and browser verification. Replaces all feature processes that touch dashboard/card components without permission checks. Structure: 7 phases Phase 1: Analyze codebase and produce typed implementation plan Phase 2: Breakpoint — human reviews plan before implementation Phase 3: Implement the feature",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/contrib/rogelsm/generic-feature.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:38.936218+00:00",
+    "blob_sha": "5b98a9be19f104b1bb71c3c7b98a46be7a4c149b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/contrib/rogelsm/generic-feature.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-contrib-rogelsm-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "*   projectDir {string} - Absolute path to the project directory",
+    "outputs": "*   plan: { plan, filesToModify[], touchesAuthGatedComponents }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

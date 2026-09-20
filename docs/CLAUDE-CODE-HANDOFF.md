@@ -7,27 +7,27 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **7,126** (net of lean-review exclusions and additions)
-- Verified entities: **214**
-- Candidate entities: **6,912**
+- Active entities: **9,148** (net of lean-review exclusions and additions)
+- Verified entities: **5,852**
+- Candidate entities: **3,296**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,591 |
+| `WORKFLOW` | 2,208 |
 | `AGENT` | 1,610 |
-| `UI_COMPONENT` | 946 |
+| `UI_COMPONENT` | 850 |
 | `API` | 402 |
-| `PACKAGE` | 209 |
+| `PACKAGE` | 206 |
 | `CLI` | 94 |
-| `WORKFLOW` | 82 |
 | `DESIGN_REFERENCE` | 74 |
 | `TOOL` | 48 |
 | `PLUGIN` | 29 |
-| `MCP_SERVER` | 11 |
 | `COMPONENT` | 9 |
 | `INTEGRATION` | 6 |
+| `MCP_SERVER` | 6 |
 | `CONNECTOR` | 4 |
 | `AGENT_FRAMEWORK` | 2 |
 | `SDK` | 2 |
@@ -129,9 +129,13 @@ Retained 24 entities: `AGENT_FRAMEWORK` `Agent`, `AGENT` `ChatAgent`, 5 `COMPONE
 
 Retained 133 entities (5 existing + 128 added): 123 `SKILL` (root skill, 104 domain-skill playbooks, 18 interaction-skill playbooks; each per-site file is its own searchable skill, description derived from its title and first paragraph; folder READMEs and companion `.py` scripts folded in), `CLI`, `PACKAGE`, `PLUGIN`, `WORKFLOW` (release), `LIBRARY` (`helpers`), `SERVICE` (`daemon`), 3 `COMPONENT` (`recorder`, `video`, `browser_use_cloud_auth`), `TEMPLATE` (`agent_helpers`). 13 capabilities registered; playbooks group under three capabilities (scraping, automation, interaction techniques). Scoped deep review: **telemetry is opt-out** and `run.py:251` sends the stdin script (up to 20,000 chars), stdout tail, steps and errors to PostHog EU, so the CLI, package and repository are `SECURITY REVIEW REQUIRED` until telemetry is disabled (`browser-harness telemetry disable` or `BH_TELEMETRY=0`). `profile-sync` and `cookies` skills are `SECURITY REVIEW REQUIRED` (real cookies to a cloud browser); account-acting and checkout skills carry a `sensitivity` metadata flag (checkout skills stop before purchase). Overlap: ALTERNATIVE_TO playwright-mcp, chrome-devtools-mcp, stagehand, browser-use, agent-browser (all unreviewed). Script: `scripts/review_browser_harness_semantics.py` (needs `BH_SOURCE_DIR` with the pinned files; blob SHAs are verified).
 
-## Exact resume point: babysitter
+## Completed: babysitter lean semantic review (`d97a2e46a84cbc3ca4589050a9bddbcbf792a785`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/babysitter` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `d97a2e46a84cbc3ca4589050a9bddbcbf792a785`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 5,638 entities: 2,099 `SKILL`, 1,289 `AGENT`, 2,134 `WORKFLOW`, 76 `UI_COMPONENT`, 15 `TOOL`, 1 `MCP_SERVER`, 11 `PACKAGE`, 11 `CLI`, 2 `PLUGIN`. The declaration scan had missed the library's process definitions, so 2,131 JS files with an `@process` header (each with `@description`, `@inputs`, `@outputs`) were added as `WORKFLOW` entities (12 shared/helper JS files skipped); 3 CI workflows were kept. Bulk skills, agents and processes are grouped under 330 per-specialization capabilities (`babysitter-library-<area>-skills|agents|processes`). Removed 109 entities: 5 test-file MCP misdetections, 5 generic CI workflows, 80 UI route/layout/primitive/fragment/video components, and monorepo root, video and example packages. Scoped deep review: `run_create`/`run_iterate` load a process `entrypoint` with a dynamic `import()` (`packages/sdk/src/runtime/orchestrateIteration.ts`), so a connected MCP client can execute local JavaScript; the MCP server and those two tools are `SECURITY REVIEW REQUIRED`. Security-research and cryptography areas carry a `sensitivity` metadata flag. Script: `scripts/review_babysitter_semantics.py` (needs `BS_TARBALL`, the pinned tarball from `gh api repos/<repo>/tarball/<commit>`; blob SHAs are verified). Library skill/agent descriptions come from their frontmatter as previously extracted; they were not individually re-read.
+
+## Exact resume point: pm-skills
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/pm-skills` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `18468a95b427e70e258b51389796367c6f684e7d`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

@@ -2,7 +2,7 @@
   "id": "entity:219db3e7c37d8892501e1411",
   "entity_type": "UI_COMPONENT",
   "name": "NotificationPanel",
-  "description": "Exported JSX component candidate",
+  "description": "Observer dashboard React component NotificationPanel (notification-panel.tsx).",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/observer-dashboard/src/components/notifications/notification-panel.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "NotificationPanel"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/notifications/notification-panel.tsx#L29"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:run-observability-ui-components"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Next.js app context"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

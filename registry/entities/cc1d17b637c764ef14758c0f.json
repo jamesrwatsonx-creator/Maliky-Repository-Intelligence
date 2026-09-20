@@ -1,0 +1,51 @@
+{
+  "id": "entity:cc1d17b637c764ef14758c0f",
+  "entity_type": "WORKFLOW",
+  "name": "product-management/product-vision-strategy",
+  "description": "Product Vision and Strategy Development process with vision statement crafting, strategic pillars definition, 3-year roadmap planning, target segment identification, competitive moat analysis, and success criteria establishment",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/product-management/product-vision-strategy.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.093314+00:00",
+    "blob_sha": "59f0eb8326e9b9cbf62a57a2788e6711f9f70b7f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/product-vision-strategy.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-product-management-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ productName: string, industry: string, currentState: object, stakeholders: array, outputDir: string, timeHorizon: number, marketContext: object, existingVision: string }",
+    "outputs": "{ success: boolean, visionStatement: string, strategicPillars: array, roadmap: object, targetSegments: array, competitiveMoats: array, successCriteria: array, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:bf77a2ea638597c329db8f0a",
+  "entity_type": "WORKFLOW",
+  "name": "assimilation/harness/antigravity",
+  "description": "Orchestrate babysitter SDK integration into Google Antigravity. Antigravity is an agent-first IDE that uses skills (SKILL.md with scripts/ and references/), workflows for command entry points, rules for behavior enforcement, and MCP for tool access. Model-agnostic (Gemini, Claude, GPT). No shell hooks -- uses workflow-driven orchestration with explicit user-yield and resume discipline.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/meta/assimilation/harness/antigravity.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.648607+00:00",
+    "blob_sha": "1f4b0465c29dda6744ee600be4846501b9caf151",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/meta/assimilation/harness/antigravity.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-meta-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectDir: string, targetQuality: number, maxIterations: number }",
+    "outputs": "{ success: boolean, integrationFiles: string[], finalQuality: number, iterations: number }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

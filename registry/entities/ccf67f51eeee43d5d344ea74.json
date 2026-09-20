@@ -1,0 +1,51 @@
+{
+  "id": "entity:ccf67f51eeee43d5d344ea74",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/electrical-engineering/renewable-integration",
+  "description": "Renewable Energy Integration Study - Guide the technical analysis for integrating renewable energy sources (solar, wind) into power systems. Addresses interconnection requirements, grid impact, and stability concerns.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/electrical-engineering/renewable-integration.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.638382+00:00",
+    "blob_sha": "4e7867945cd586871a44450a95a60d9bed53eaf3",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/electrical-engineering/renewable-integration.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-electrical-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, renewableType: string, capacity: string, interconnectionPoint: object, gridData?: object }",
+    "outputs": "{ success: boolean, impactAssessment: object, interconnectionRequirements: object, stabilityAnalysis: object, complianceStatus: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -2,7 +2,7 @@
   "id": "entity:b5e6df8c61e918b357cd6406",
   "entity_type": "PACKAGE",
   "name": "process-library-catalog",
-  "description": "",
+  "description": "process-library-catalog npm package in packages/catalog.",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/catalog/package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "process-library-catalog"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows",
+    "category:ai-orchestration"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:process-library-catalog-browser"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Node >=20",
+      "babysitter SDK"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "CORE"
 }

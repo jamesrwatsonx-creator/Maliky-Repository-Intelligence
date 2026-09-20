@@ -1,0 +1,51 @@
+{
+  "id": "entity:df9c9b7419d3aeaf27348e7e",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/product-management/beta-program",
+  "description": "Beta Program Planning and Execution - Comprehensive process for planning, launching, and managing structured beta programs to validate features with real customers before full launch. Covers participant recruitment, program setup, feedback collection, usage monitoring, iteration cycles, and launch readiness assessment.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/product-management/beta-program.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.054489+00:00",
+    "blob_sha": "2de25c9c4d49bd25585ce7d03637c0694640cbed",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/beta-program.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-product-management-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ featureName: string, betaObjectives: array, targetParticipants: number, duration: number }",
+    "outputs": "{ success: boolean, participantCount: number, feedbackSummary: object, launchReady: boolean, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

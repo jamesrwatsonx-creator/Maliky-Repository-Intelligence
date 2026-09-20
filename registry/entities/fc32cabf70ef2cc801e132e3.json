@@ -2,7 +2,7 @@
   "id": "entity:fc32cabf70ef2cc801e132e3",
   "entity_type": "TOOL",
   "name": "session_init",
-  "description": "Explicit MCP tool registration",
+  "description": "Initialize a new session state for orchestration.",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/sdk/src/mcp/tools/sessions.ts"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "session_init"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/sessions.ts#L18"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:babysitter-session-management"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "babysitter MCP server",
+      "run directory and journal"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

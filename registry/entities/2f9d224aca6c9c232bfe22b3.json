@@ -1,0 +1,51 @@
+{
+  "id": "entity:2f9d224aca6c9c232bfe22b3",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-compliance/soc2-compliance",
+  "description": "SOC 2 Compliance Preparation Process - Comprehensive SOC 2 audit readiness process covering Trust Services Criteria (TSC) assessment, control implementation, evidence collection, audit preparation, Type I and Type II reporting, control testing, and continuous compliance monitoring. Implements AICPA SOC 2 framework across Security, Availability, Processing Integrity, Confidentiality, and Privacy cr",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-compliance/soc2-compliance.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.481364+00:00",
+    "blob_sha": "ffcf845d7f4f86df8b3d3ee9840af350678de72a",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/soc2-compliance.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-compliance-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ organization: string, reportType: string, trustServiceCategories?: string[], auditTimeline?: string }",
+    "outputs": "{ success: boolean, complianceScore: number, controls: object[], gaps: object[], readinessLevel: string, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

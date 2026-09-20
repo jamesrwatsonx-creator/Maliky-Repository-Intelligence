@@ -2,7 +2,7 @@
   "id": "entity:2a969b79bc4486575ab9de85",
   "entity_type": "UI_COMPONENT",
   "name": "MarkdownRenderer",
-  "description": "Exported JSX component candidate",
+  "description": "Process catalog React component MarkdownRenderer (MarkdownRenderer.tsx).",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,34 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/catalog/src/components/markdown/MarkdownRenderer.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "MarkdownRenderer"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/markdown/MarkdownRenderer.tsx#L89"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:process-library-catalog-ui-components"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "React",
+      "Next.js app context"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "contribution_role": "COMPONENT"
 }

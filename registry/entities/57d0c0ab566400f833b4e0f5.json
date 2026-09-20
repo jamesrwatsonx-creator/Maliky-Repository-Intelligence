@@ -1,0 +1,51 @@
+{
+  "id": "entity:57d0c0ab566400f833b4e0f5",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/mathematics/model-formulation-workflow",
+  "description": "Systematic workflow for developing mathematical models from real-world systems. Includes dimensional analysis, assumption documentation, and derivation of governing equations.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/mathematics/model-formulation-workflow.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.956816+00:00",
+    "blob_sha": "ddb65bf2b3e0186daf8a17ce6531df316d7178d5",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/model-formulation-workflow.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-mathematics-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ systemDescription: string, modelingGoal?: string, knownPhysics?: array, observations?: object }",
+    "outputs": "{ success: boolean, mathematicalModel: object, assumptions: array, governingEquations: array, validation: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

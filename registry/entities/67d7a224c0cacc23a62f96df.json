@@ -1,0 +1,51 @@
+{
+  "id": "entity:67d7a224c0cacc23a62f96df",
+  "entity_type": "WORKFLOW",
+  "name": "software-architecture/refactoring-plan",
+  "description": "Systematic refactoring plan creation process with technical debt identification, prioritization, test safety net creation, and actionable implementation roadmap",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/software-architecture/refactoring-plan.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.653532+00:00",
+    "blob_sha": "537a6bd1ec972cc82446e7b014b17af31aff73d5",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/refactoring-plan.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-software-architecture-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ codebasePath: string, projectName: string, technicalDebtSources: array, targetQualityScore: number, refactoringBudget: object, constraints: object }",
+    "outputs": "{ success: boolean, refactoringPlan: string, technicalDebtInventory: object, prioritizedBacklog: array, testCoverage: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

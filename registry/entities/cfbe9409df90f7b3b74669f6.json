@@ -1,0 +1,51 @@
+{
+  "id": "entity:cfbe9409df90f7b3b74669f6",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/embedded-systems/functional-safety-certification",
+  "description": "Functional Safety Certification - Preparing embedded systems for safety certifications like IEC 61508, ISO 26262 (automotive), DO-178C (aerospace), and IEC 62304 (medical), including hazard analysis, safety requirements, and documentation.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/embedded-systems/functional-safety-certification.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.327958+00:00",
+    "blob_sha": "a7a835e7160b07e4c3098e0c72880760390a9b60",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/functional-safety-certification.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-embedded-systems-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, safetyStandard: string, targetSil?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, safetyCase: object, hazardAnalysis: object, certificationStatus: string, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:8c2705a8cdafaa0c93bac152",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/embedded-systems/hw-sw-interface-specification",
+  "description": "Hardware-Software Interface Specification - Creating detailed interface specifications between hardware and software including register maps, memory-mapped I/O, pin assignments, timing requirements, and electrical characteristics.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/embedded-systems/hw-sw-interface-specification.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.340500+00:00",
+    "blob_sha": "80f0a4c23f50b64c2637300ca6e03b1c0f28198c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/hw-sw-interface-specification.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-embedded-systems-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, targetMcu: string, peripherals?: array, documentFormat?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, interfaceSpec: object, registerMaps: array, pinAssignments: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

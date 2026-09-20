@@ -1,0 +1,52 @@
+{
+  "id": "entity:6a1aba062f8b53cac63f7c3a",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-research/purple-team-exercise",
+  "description": "Collaborative security exercise combining red team attack simulation with blue team defensive operations. Focuses on improving detection capabilities, validating security controls, and building organizational security maturity through iterative testing.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-research/purple-team-exercise.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.543386+00:00",
+    "blob_sha": "4ad22eaef77a3086822280474edadf5c078991c1",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/purple-team-exercise.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-research-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, scope: object, attackScenarios: array }",
+    "outputs": "{ success: boolean, detectionResults: object, controlGaps: array, purpleTeamReport: object, artifacts: array }",
+    "sensitivity": "dual-use security research content"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

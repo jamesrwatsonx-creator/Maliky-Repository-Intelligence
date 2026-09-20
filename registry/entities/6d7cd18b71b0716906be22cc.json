@@ -1,0 +1,51 @@
+{
+  "id": "entity:6d7cd18b71b0716906be22cc",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/aerospace-engineering/orbital-debris-assessment",
+  "description": "Process for assessing and mitigating orbital debris risks including collision probability analysis and debris mitigation planning.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/aerospace-engineering/orbital-debris-assessment.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.014848+00:00",
+    "blob_sha": "12fc11829ddfdbdd96f4c7cdbb967fc9834cdc3f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/aerospace-engineering/orbital-debris-assessment.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-aerospace-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, orbitDefinition: object, spacecraftConfig: object, missionDuration?: number }",
+    "outputs": "{ success: boolean, collisionRisk: object, mitigationPlan: object, complianceStatus: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

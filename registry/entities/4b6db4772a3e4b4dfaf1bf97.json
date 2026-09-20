@@ -1,0 +1,51 @@
+{
+  "id": "entity:4b6db4772a3e4b4dfaf1bf97",
+  "entity_type": "WORKFLOW",
+  "name": "methodologies/rpikit/rpikit-brainstorm",
+  "description": "RPIKit Brainstorming Phase - Clarifies vague requirements through exploratory questioning before research begins. Used when \"what to build\" is unclear.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/methodologies/rpikit/rpikit-brainstorm.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.421054+00:00",
+    "blob_sha": "fe2f54a27cb731d98448866e93947647c365e350",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/rpikit-brainstorm.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-rpikit-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ topic: string, constraints?: object, priorDiscussions?: array }",
+    "outputs": "{ success: boolean, clarifiedRequirements: array, exploredOptions: array, recommendation: string, readyForResearch: boolean }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

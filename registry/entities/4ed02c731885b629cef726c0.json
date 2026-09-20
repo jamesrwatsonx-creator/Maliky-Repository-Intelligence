@@ -1,0 +1,51 @@
+{
+  "id": "entity:4ed02c731885b629cef726c0",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/gpu-programming/gpu-image-video-processing",
+  "description": "GPU-Accelerated Image and Video Processing - Workflow for implementing GPU-accelerated image and video processing pipelines for real-time applications.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/gpu-programming/gpu-image-video-processing.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.586027+00:00",
+    "blob_sha": "7c43684821bf627414af150e9ad7a39b58db2b37",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/gpu-image-video-processing.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-gpu-programming-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, operations: array, realTime?: boolean, videoCodec?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, processingPipeline: object, kernelLibrary: array, performanceMetrics: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

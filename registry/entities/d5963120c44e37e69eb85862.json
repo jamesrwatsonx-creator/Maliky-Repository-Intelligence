@@ -2,7 +2,7 @@
   "id": "entity:d5963120c44e37e69eb85862",
   "entity_type": "SKILL",
   "name": "library/methodologies/bmad-method/skills/prd-creation",
-  "description": "",
+  "description": "# PRD Creation Create Product Requirements Documents through structured discovery using Jobs-to-be-Done framework. ## Agent John (Product Manager) - `bmad-pm-john`",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "library/methodologies/bmad-method/skills/prd-creation/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "library/methodologies/bmad-method/skills/prd-creation"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/skills/prd-creation/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-bmad-method-skills"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Agent host that loads SKILL.md skills (optional babysitter runtime)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE EXISTING SKILL",
   "contribution_role": "SKILL"
 }

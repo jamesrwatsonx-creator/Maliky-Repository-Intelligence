@@ -1,0 +1,51 @@
+{
+  "id": "entity:ad55a4a7ed1d96ac859ba208",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/biomedical-engineering/dfma-medical-device",
+  "description": "Design for Manufacturing and Assembly (DFMA) - Optimize medical device designs for efficient, consistent, and reliable manufacturing while maintaining quality and regulatory compliance.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/biomedical-engineering/dfma-medical-device.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.254265+00:00",
+    "blob_sha": "29e0402f8022ede93d81dd83ccae6146dc6a3bb4",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/dfma-medical-device.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-biomedical-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ deviceName: string, designOutputs: object[], manufacturingProcesses: string[], qualityRequirements: object }",
+    "outputs": "{ success: boolean, dfmaAnalysis: object, manufacturingSpecifications: object, supplierRequirements: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

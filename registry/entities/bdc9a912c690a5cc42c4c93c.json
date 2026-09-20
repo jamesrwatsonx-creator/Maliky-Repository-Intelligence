@@ -1,0 +1,51 @@
+{
+  "id": "entity:bdc9a912c690a5cc42c4c93c",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/electrical-engineering/bms-design",
+  "description": "Battery Management System Design - Guide the design of BMS for lithium-ion and other battery chemistries. Covers cell monitoring, balancing, state estimation (SOC/SOH), thermal management, and safety protection.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/electrical-engineering/bms-design.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.570295+00:00",
+    "blob_sha": "398d1a327c4aaae4c96215e85d7107dcbd11d31f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/electrical-engineering/bms-design.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-electrical-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ bmsName: string, batteryConfig: object, requirements: object, chemistry?: string }",
+    "outputs": "{ success: boolean, hardware: object, firmware: object, protection: object, validation: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

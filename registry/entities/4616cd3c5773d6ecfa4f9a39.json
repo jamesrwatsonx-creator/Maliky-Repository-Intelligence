@@ -1,0 +1,51 @@
+{
+  "id": "entity:4616cd3c5773d6ecfa4f9a39",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/qa-testing-automation/contract-testing",
+  "description": "Contract Testing Implementation - Consumer-driven contract testing to enable independent service deployment while maintaining integration confidence between microservices. Implements Pact-based contract testing with provider verification, contract broker setup, and CI/CD integration for both consumer and provider sides.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/qa-testing-automation/contract-testing.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.221958+00:00",
+    "blob_sha": "d2f2a7f85e27662b9b1ea07fa1578d6108f7f8dd",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/contract-testing.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-qa-testing-automation-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, services: array, contractTool?: string, brokerUrl?: string, architecture?: string }",
+    "outputs": "{ success: boolean, contractsCreated: number, providerVerificationsPassing: boolean, brokerSetup: boolean, cicdIntegrated: boolean }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

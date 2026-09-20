@@ -1,0 +1,52 @@
+{
+  "id": "entity:816f656f31a7789fbcf4c48d",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-research/hardware-security-research",
+  "description": "Security research for hardware systems including side-channel attacks, fault injection, hardware debugging, and physical security assessment of embedded systems, secure elements, and cryptographic implementations.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-research/hardware-security-research.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.524124+00:00",
+    "blob_sha": "930b009b3fc791c2a8e41432fcd66feeef73e48f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/hardware-security-research.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-research-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, targetDevice: object, analysisType?: string }",
+    "outputs": "{ success: boolean, vulnerabilities: array, hardwareReport: object, artifacts: array }",
+    "sensitivity": "dual-use security research content"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:e8f08cb0d0ea9a2e9d6d1245",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-compliance/disaster-recovery-testing",
+  "description": "Disaster Recovery Testing - Comprehensive framework for planning, executing, and validating disaster recovery procedures to ensure business continuity. Includes DR plan review, test scenario development, execution of failover/failback procedures, recovery time objective (RTO) and recovery point objective (RPO) validation, stakeholder communication, post-test analysis, and continuous improvement of",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-compliance/disaster-recovery-testing.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.438076+00:00",
+    "blob_sha": "beffc57aabb68e5865485426f4d1d3ea43451141",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/disaster-recovery-testing.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-compliance-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ organizationName: string, drScope?: array, testType?: string, rtoTarget?: number, rpoTarget?: number, criticalSystems?: array }",
+    "outputs": "{ success: boolean, testScore: number, drReadinessScore: number, rtoAchieved: number, rpoAchieved: number, findings: array, recommendations: array, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

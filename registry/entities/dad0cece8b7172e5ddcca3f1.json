@@ -2,7 +2,7 @@
   "id": "entity:dad0cece8b7172e5ddcca3f1",
   "entity_type": "SKILL",
   "name": "library/methodologies/planning-with-files/skills/error-logging",
-  "description": "",
+  "description": "# Error Logging Log all errors with full context, detect patterns, and suggest approach mutations to avoid repeated failures. ## Agent Error Analyst - `pwf-error-analyst`",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "library/methodologies/planning-with-files/skills/error-logging/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "library/methodologies/planning-with-files/skills/error-logging"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/planning-with-files/skills/error-logging/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-planning-with-files-skills"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Agent host that loads SKILL.md skills (optional babysitter runtime)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE EXISTING SKILL",
   "contribution_role": "SKILL"
 }

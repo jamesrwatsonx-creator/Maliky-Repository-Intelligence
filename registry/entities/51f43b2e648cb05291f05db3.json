@@ -1,0 +1,51 @@
+{
+  "id": "entity:51f43b2e648cb05291f05db3",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/biomedical-engineering/fea-medical-devices",
+  "description": "Finite Element Analysis for Medical Devices - Conduct FEA to evaluate structural performance, stress distribution, and fatigue life of medical devices, particularly implants and load-bearing devices.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/biomedical-engineering/fea-medical-devices.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.266266+00:00",
+    "blob_sha": "e59f018493f74671a670403aa4673fe9c532550a",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/fea-medical-devices.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-biomedical-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ deviceName: string, deviceType: string, loadingConditions: object, materialProperties: object }",
+    "outputs": "{ success: boolean, feaReports: object, validationDocumentation: object, designRecommendations: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

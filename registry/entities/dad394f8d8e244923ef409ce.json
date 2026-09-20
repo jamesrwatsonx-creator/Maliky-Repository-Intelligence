@@ -1,0 +1,51 @@
+{
+  "id": "entity:dad394f8d8e244923ef409ce",
+  "entity_type": "WORKFLOW",
+  "name": "assimilation/harness/pi",
+  "description": "Orchestrate babysitter SDK integration into Pi Coding Agent (pi CLI). Pi is the upstream Pi Coding Agent with CLI command `pi`. It shares the adapter codebase with oh-my-pi but has its own CLI, env vars (PI_SESSION_ID, PI_PLUGIN_ROOT), discovery entry, invoker entry, plugin structure, and distribution. Uses a loop-driver mechanism (agent_end + followUp) and in-process event handling rather than sh",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/meta/assimilation/harness/pi.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.691266+00:00",
+    "blob_sha": "e197a26f35cbd6c76e365bafd8353346aa3bb2cc",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/meta/assimilation/harness/pi.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-meta-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectDir: string, targetQuality: number, maxIterations: number }",
+    "outputs": "{ success: boolean, integrationFiles: string[], finalQuality: number, iterations: number }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:8ad07736892fc6cf617b174b",
+  "entity_type": "WORKFLOW",
+  "name": "humanities/sociolinguistic-survey",
+  "description": "Design and conduct sociolinguistic research examining language variation, attitudes, and use in social context with appropriate sampling strategies",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/social-sciences-humanities/humanities/sociolinguistic-survey.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.120143+00:00",
+    "blob_sha": "18435a1912a900c588d1aa1acd00952238c31035",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/sociolinguistic-survey.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-social-sciences-humanities-humanities-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ researchQuestion: string, population: object, variablesOfInterest: array, methodology: string }",
+    "outputs": "{ success: boolean, surveyDesign: object, samplingPlan: object, dataAnalysis: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

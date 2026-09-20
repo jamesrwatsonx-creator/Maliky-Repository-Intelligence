@@ -2,7 +2,7 @@
   "id": "entity:5a9cbd6725da27cdba0cef10",
   "entity_type": "CLI",
   "name": "babysitter-github",
-  "description": "Babysitter orchestration plugin for GitHub Copilot CLI with lifecycle hooks and SDK-managed process-library bootstrapping",
+  "description": "babysitter-github command-line entry: Babysitter orchestration plugin for GitHub Copilot CLI with lifecycle hooks and SDK-managed process-library bootstrapping",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "plugins/babysitter-github/package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "babysitter-github"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-github/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows",
+    "category:ai-orchestration"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:babysitter-harness-plugin-installation"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Node >=20",
+      "babysitter SDK"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

@@ -1,0 +1,51 @@
+{
+  "id": "entity:950f161650211d1f1145a565",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/project-management/benefits-realization",
+  "description": "Benefits Realization Management - Define benefit metrics, create realization plan, track benefits delivery, and ensure intended business outcomes are achieved from project and program investments.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/project-management/benefits-realization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.523480+00:00",
+    "blob_sha": "d1a4561e0d169ce27b2755f311ce11f6b98bedb6",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/benefits-realization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-project-management-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ programName: string, expectedBenefits: array, investmentAmount: number, stakeholders: array, timeline: object }",
+    "outputs": "{ success: boolean, benefitsFramework: object, realizationPlan: object, trackingMetrics: object, recommendations: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

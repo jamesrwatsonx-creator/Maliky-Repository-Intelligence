@@ -1,0 +1,51 @@
+{
+  "id": "entity:213129df7dc31dd992727127",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/network-programming/tcp-socket-server",
+  "description": "TCP Socket Server Implementation - Design and implement a high-performance TCP server with proper connection handling, error management, I/O model selection (blocking, non-blocking, epoll/kqueue), and graceful shutdown. Covers socket creation, binding, listening, accept handling, read/write operations with buffering, and monitoring.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/network-programming/tcp-socket-server.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.950773+00:00",
+    "blob_sha": "efe0923271745ba46461c25ef308900da42ca0a4",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/tcp-socket-server.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-network-programming-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, language: string, ioModel?: string, maxConnections?: number, requirements?: object }",
+    "outputs": "{ success: boolean, serverConfig: object, implementation: object, testResults: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

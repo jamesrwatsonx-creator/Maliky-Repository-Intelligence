@@ -1,0 +1,51 @@
+{
+  "id": "entity:fc0270839747fc4444a6b901",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-compliance/business-continuity",
+  "description": "Business Continuity Planning - Comprehensive framework for ensuring organizational resilience through business impact analysis, risk assessment, recovery strategy development, disaster recovery planning, crisis management, continuity plan documentation, testing and validation, and ongoing maintenance to minimize disruption and ensure rapid recovery from disruptive events.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-compliance/business-continuity.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.422980+00:00",
+    "blob_sha": "a589a7290221e545c1ca2e6a15cb5cb7f65ba291",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/business-continuity.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-compliance-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ organizationName?: string, businessUnits?: array, criticalSystems?: array, rpo?: string, rto?: string, complianceRequirements?: array, scope?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, bcpId: string, businessImpactAnalysis: object, riskAssessment: object, recoveryStrategies: object, disasterRecovery: object, crisisManagement: object, bcpDocument: object, testResults?: object, metrics: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

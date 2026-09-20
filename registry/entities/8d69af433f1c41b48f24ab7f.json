@@ -1,0 +1,51 @@
+{
+  "id": "entity:8d69af433f1c41b48f24ab7f",
+  "entity_type": "WORKFLOW",
+  "name": "triage",
+  "description": "Lightweight triage process to classify incoming issues before routing to a specialized process (generic-bugfix, infra-diagnostic, generic-feature, etc.). Structure: 2 phases Phase 1: Health check (dev environment reachability) Phase 2: Categorize (agent classifies the issue and recommends a process) @inputs port {number} - Port the dev server listens on (default: 3010) projectDir {string} - Absolu",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/contrib/rogelsm/triage.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:38.947403+00:00",
+    "blob_sha": "26d7727354499c09f0c652a9c880e19395457876",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/contrib/rogelsm/triage.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-contrib-rogelsm-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "*   port {number} - Port the dev server listens on (default: 3010)",
+    "outputs": "*   healthCheck: pass/fail from the server reachable gate"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -2,7 +2,7 @@
   "id": "entity:18fd1469addc61fd7543f7f8",
   "entity_type": "MCP_SERVER",
   "name": "babysitter",
-  "description": "MCP server constructor",
+  "description": "babysitter MCP server (McpServer, stdio via babysitter-mcp-server): 15 tools for creating and iterating runs, posting task results, managing sessions and discovering skills/agents/processes.",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,40 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/sdk/src/mcp/server.ts"
-    },
-    {
-      "type": "manifest",
-      "value": "babysitter"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/server.ts#L11"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:babysitter-mcp-server-exposure"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "@modelcontextprotocol/sdk",
+      "zod",
+      "babysitter SDK runtime",
+      "process library"
+    ],
+    "overlap": "",
+    "deep_review_finding": "run_create/run_iterate take a process `entrypoint` (\"path/to/file.js#export\") that the SDK loads with a dynamic import() (packages/sdk/src/runtime/orchestrateIteration.ts), so any agent connected to the babysitter MCP server can make it execute local JavaScript. Use only with a trusted process library and a trusted MCP client."
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "SERVICE"
 }

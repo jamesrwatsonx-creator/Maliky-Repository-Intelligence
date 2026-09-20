@@ -1,0 +1,51 @@
+{
+  "id": "entity:2941d3d99705ccd4959b5652",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/devops-sre-platform/iac-implementation",
+  "description": "Infrastructure as Code (IaC) Implementation - Complete end-to-end IaC development process for DevOps/SRE/Platform teams including planning, design, implementation, testing, validation, and deployment with quality gates and iterative refinement.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/devops-sre-platform/iac-implementation.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:40.387148+00:00",
+    "blob_sha": "8f46dfec3f6683678d5cd0de4c5d51191f696e13",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/iac-implementation.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-devops-sre-platform-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, cloudProvider?: string, iacTool?: string, requirements?: object, targetQuality?: number }",
+    "outputs": "{ success: boolean, qualityScore: number, artifacts: array, iacFiles: array, deploymentReady: boolean }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

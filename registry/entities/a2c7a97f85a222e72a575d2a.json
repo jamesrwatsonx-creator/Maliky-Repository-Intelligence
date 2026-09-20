@@ -1,0 +1,51 @@
+{
+  "id": "entity:a2c7a97f85a222e72a575d2a",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/science/electrical-engineering/digital-filter-design",
+  "description": "Digital Filter Design - Guide the design of digital filters including FIR, IIR, and adaptive filters. Covers specification, design methods, stability analysis, and implementation considerations.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/science/electrical-engineering/digital-filter-design.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:42.580250+00:00",
+    "blob_sha": "c9eb75af4e9ddf2853089dd037a7787d7f9a29a2",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/electrical-engineering/digital-filter-design.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-science-electrical-engineering-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ filterName: string, filterType: string, specifications: object, implementationTarget?: string }",
+    "outputs": "{ success: boolean, filterDesign: object, coefficients: object, analysis: object, implementation: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

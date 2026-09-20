@@ -1,0 +1,51 @@
+{
+  "id": "entity:b62ee23fa3eb3186aa5f968a",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/entrepreneurship/due-diligence-preparation",
+  "description": "Due Diligence Preparation Process - Systematic process to prepare all materials and documentation required for investor due diligence.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/entrepreneurship/due-diligence-preparation.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:40.897439+00:00",
+    "blob_sha": "00abc8f9483e16ae6cea0868442141b0b82c9568",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/entrepreneurship/due-diligence-preparation.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-entrepreneurship-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ companyName: string, fundingStage: string, corporateStructure: object, financials: object, team: array, customers?: array }",
+    "outputs": "{ success: boolean, dataRoom: object, checklist: array, managementPresentation: object, riskMitigation: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

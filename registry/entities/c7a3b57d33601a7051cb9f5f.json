@@ -1,0 +1,51 @@
+{
+  "id": "entity:c7a3b57d33601a7051cb9f5f",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/domains/business/logistics/route-optimization",
+  "description": "AI-driven route planning and optimization to minimize transportation costs, reduce delivery times, and maximize vehicle utilization through dynamic routing algorithms.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/domains/business/logistics/route-optimization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:41.379404+00:00",
+    "blob_sha": "3a5ffefd2ee4dc38c9c640cfa75786e08600426a",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/logistics/route-optimization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-domains-business-logistics-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ deliveryPoints: array, vehicleFleet: array, constraints?: object, timeWindows?: array, priorityOrders?: array, trafficData?: object }",
+    "outputs": "{ success: boolean, optimizedRoutes: array, totalDistance: number, totalTime: number, costSavings: object, vehicleUtilization: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

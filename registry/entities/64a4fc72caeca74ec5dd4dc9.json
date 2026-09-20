@@ -1,0 +1,51 @@
+{
+  "id": "entity:64a4fc72caeca74ec5dd4dc9",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/data-engineering-analytics/incremental-model",
+  "description": "Incremental Model Setup - Design and implement incremental models for efficient large-scale data processing, covering incremental strategies (append-only, merge, delete+insert), unique keys, partitioning, clustering, backfill strategies, and performance optimization for data warehouse workloads.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/data-engineering-analytics/incremental-model.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:40.185366+00:00",
+    "blob_sha": "4e576bcb825f5b6f4c075a0c4bd0d6af809c6939",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-engineering-analytics/incremental-model.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-data-engineering-analytics-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, dataWarehouse: string, modelName: string, sourceModel?: string, incrementalStrategy?: string, updateFrequency?: string, dataVolume?: string }",
+    "outputs": "{ success: boolean, modelConfiguration: object, incrementalStrategy: object, partitionConfig: object, backfillPlan: object, performance: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

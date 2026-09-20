@@ -1,0 +1,51 @@
+{
+  "id": "entity:e81cba3f69c3959761df985e",
+  "entity_type": "WORKFLOW",
+  "name": "methodologies/cc10x/cc10x-review",
+  "description": "CC10X REVIEW Workflow - Multi-dimensional code analysis with confidence-gated reporting (>=80%), covering security, quality, performance, and maintainability",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/methodologies/cc10x/cc10x-review.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:39.075680+00:00",
+    "blob_sha": "e90a7aad00b55f93c9da31967b2c5ac0da60f91b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/cc10x-review.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-cc10x-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ request: string, projectRoot?: string, targetFiles?: array, memory?: object, confidenceThreshold?: number }",
+    "outputs": "{ success: boolean, dimensions: object, issues: array, overallScore: number, routerContract: object }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

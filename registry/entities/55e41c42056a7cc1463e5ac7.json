@@ -1,0 +1,51 @@
+{
+  "id": "entity:55e41c42056a7cc1463e5ac7",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/programming-languages/bytecode-vm-implementation",
+  "description": "Bytecode VM Implementation - Process for implementing a bytecode virtual machine. Covers instruction set design, stack or register architecture, and execution optimization.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/programming-languages/bytecode-vm-implementation.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.120449+00:00",
+    "blob_sha": "41ba0a48d78308adf885e17a6629290d2325ceff",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/programming-languages/bytecode-vm-implementation.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-programming-languages-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ languageName: string, vmArchitecture?: string, implementationLanguage?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, bytecodeSpec: object, compiler: object, vm: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

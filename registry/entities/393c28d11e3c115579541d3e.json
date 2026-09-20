@@ -1,0 +1,51 @@
+{
+  "id": "entity:393c28d11e3c115579541d3e",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/gpu-programming/atomic-operations-synchronization",
+  "description": "Atomic Operations and Synchronization Patterns - Process for correctly and efficiently using atomic operations and synchronization primitives in GPU kernels.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/gpu-programming/atomic-operations-synchronization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.538150+00:00",
+    "blob_sha": "e6d12e20aa2501e012a181b52954a13883ec0cd0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/atomic-operations-synchronization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-gpu-programming-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, synchronizationNeeds: array, atomicOperations?: array, lockFree?: boolean, outputDir?: string }",
+    "outputs": "{ success: boolean, synchronizationDesign: object, atomicImplementations: array, performanceAnalysis: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "entity:eda07ef43cfe0270db5fb25c",
+  "entity_type": "WORKFLOW",
+  "name": "technical-documentation/how-to-guides",
+  "description": "Task-oriented how-to guide development process with task analysis, goal-oriented content structure, step-by-step instructions, validation, and usability testing",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/technical-documentation/how-to-guides.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.709226+00:00",
+    "blob_sha": "0ff8d9b0326a0455f367dae2f5ab3e7b47b6729c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/how-to-guides.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-technical-documentation-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ guideTopic: string, targetAudience: object, userTasks: array, prerequisites: array, tools: array, constraints: object }",
+    "outputs": "{ success: boolean, guideDocument: string, qualityScore: number, usabilityTestResults: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

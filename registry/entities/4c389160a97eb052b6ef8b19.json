@@ -2,7 +2,7 @@
   "id": "entity:4c389160a97eb052b6ef8b19",
   "entity_type": "SKILL",
   "name": "library/methodologies/ccpm/skills/task-decomposition",
-  "description": "",
+  "description": "# Task Decomposition Break epics into parallelizable tasks with acceptance criteria, effort estimates, and dependency graphs. ## Agent Task Analyst - `task-analyst`",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "library/methodologies/ccpm/skills/task-decomposition/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "library/methodologies/ccpm/skills/task-decomposition"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ccpm/skills/task-decomposition/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:babysitter-library-methodologies-ccpm-skills"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Agent host that loads SKILL.md skills (optional babysitter runtime)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE EXISTING SKILL",
   "contribution_role": "SKILL"
 }

@@ -1,0 +1,51 @@
+{
+  "id": "entity:ac9647f8b5a319e2e96904b5",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/gpu-programming/ml-inference-optimization",
+  "description": "Machine Learning Inference Optimization - Workflow for optimizing GPU-accelerated ML model inference for production deployment, covering quantization, batching, and kernel fusion.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/gpu-programming/ml-inference-optimization.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:44.606164+00:00",
+    "blob_sha": "01a4371d644916ca6a32889d64b733429c239ccc",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/ml-inference-optimization.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-gpu-programming-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ modelName: string, framework: string, targetLatency?: number, quantization?: string, outputDir?: string }",
+    "outputs": "{ success: boolean, optimizedModel: object, performanceMetrics: object, deploymentConfig: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

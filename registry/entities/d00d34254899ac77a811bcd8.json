@@ -2,7 +2,7 @@
   "id": "entity:d00d34254899ac77a811bcd8",
   "entity_type": "CLI",
   "name": "babysitter-observer-dashboard",
-  "description": "Real-time observability dashboard for babysitter orchestration runs",
+  "description": "babysitter-observer-dashboard command-line entry: Real-time observability dashboard for babysitter orchestration runs",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/observer-dashboard/package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "babysitter-observer-dashboard"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows",
+    "category:ai-orchestration"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:run-observability-dashboard"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Node >=20",
+      "babysitter SDK"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "CORE"
 }

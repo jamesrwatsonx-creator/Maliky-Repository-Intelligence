@@ -1,0 +1,51 @@
+{
+  "id": "entity:e0742eed830defcbffc6f7fb",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/code-migration-modernization/code-refactoring",
+  "description": "Code Refactoring - Systematic process for restructuring existing code without changing external behavior, improving readability, reducing complexity, and applying modern patterns while maintaining comprehensive test coverage.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/code-migration-modernization/code-refactoring.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:40.005942+00:00",
+    "blob_sha": "db81434d54afe350ad65d6671afcf568e05bf695",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/code-refactoring.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-code-migration-modernization-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, codebasePath?: string, refactoringGoals?: array, qualityTargets?: object }",
+    "outputs": "{ success: boolean, analysisReport: object, refactoringPlan: object, changesApplied: array, qualityMetrics: object, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

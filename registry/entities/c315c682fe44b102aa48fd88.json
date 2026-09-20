@@ -2,7 +2,7 @@
   "id": "entity:c315c682fe44b102aa48fd88",
   "entity_type": "TOOL",
   "name": "skill_discover",
-  "description": "Explicit MCP tool registration",
+  "description": "Discover available skills, agents, and process definitions.",
   "source": {
     "repository_id": "repository:1254783144",
     "repository_name": "jamesrwatsonx-creator/babysitter",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "packages/sdk/src/mcp/tools/discovery.ts"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "skill_discover"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/discovery.ts#L11"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:babysitter-discovery-and-health"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "babysitter MCP server",
+      "run directory and journal"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
 }

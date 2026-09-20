@@ -1,0 +1,51 @@
+{
+  "id": "entity:1679c8dd938dd942d2a4fea1",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/performance-optimization/performance-slo-definition",
+  "description": "Performance SLO Definition - Define Service Level Objectives for performance metrics including latency SLOs (p50, p95, p99), throughput SLOs, error rate thresholds, SLO monitoring dashboards, and alerting.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/performance-optimization/performance-slo-definition.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.042101+00:00",
+    "blob_sha": "d86e66c62a4670a16b4d5b1b37d4c167fa3c7fb0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/performance-optimization/performance-slo-definition.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-performance-optimization-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, services: array, targetLatencyP95?: number, targetLatencyP99?: number }",
+    "outputs": "{ success: boolean, slos: array, dashboards: array, alerts: array, artifacts: array }"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}

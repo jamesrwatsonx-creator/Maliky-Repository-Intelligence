@@ -1,0 +1,52 @@
+{
+  "id": "entity:cef4c712b90386539f5672dd",
+  "entity_type": "WORKFLOW",
+  "name": "specializations/security-research/cloud-security-research",
+  "description": "Security research for cloud infrastructure and services covering AWS, Azure, GCP misconfigurations, IAM analysis, serverless security, and container security using cloud-native security tools and frameworks.",
+  "source": {
+    "repository_id": "repository:1254783144",
+    "repository_name": "jamesrwatsonx-creator/babysitter",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/babysitter",
+    "upstream_url": "https://github.com/a5c-ai/babysitter",
+    "source_path": "library/specializations/security-research/cloud-security-research.js",
+    "inspected_commit": "d97a2e46a84cbc3ca4589050a9bddbcbf792a785",
+    "inspection_date": "2026-09-20T09:19:45.506372+00:00",
+    "blob_sha": "0d0e843132df620e23e38e27947ab563edb145a6",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/cloud-security-research.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:agent-workflows"
+  ],
+  "operational_category": "operational:20",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:babysitter-library-security-research-processes"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "@a5c-ai/babysitter-sdk runtime",
+      "agent/skill tasks the process dispatches"
+    ],
+    "overlap": "",
+    "inputs": "{ projectName: string, cloudProvider: string, targetScope: object }",
+    "outputs": "{ success: boolean, vulnerabilities: array, cloudSecurityReport: object, artifacts: array }",
+    "sensitivity": "dual-use security research content"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
+}
