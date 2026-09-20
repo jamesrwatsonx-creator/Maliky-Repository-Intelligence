@@ -1,0 +1,53 @@
+{
+  "id": "entity:fe98cdd647baf1de2ba3d933",
+  "entity_type": "COMPONENT",
+  "name": "QuotaProtocol",
+  "description": "Experimental Protocol that rate-limits message handlers per sender using agent storage and applies allow/block access-control lists.",
+  "source": {
+    "repository_id": "repository:1247318224",
+    "repository_name": "jamesrwatsonx-creator/uAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/uAgents",
+    "upstream_url": "https://github.com/fetchai/uAgents",
+    "source_path": "python/src/uagents/experimental/quota/__init__.py",
+    "inspected_commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
+    "inspection_date": "2026-09-20T09:07:56.644029+00:00",
+    "blob_sha": "97e69a05584992b394da6dce0ab7da91b14596ce",
+    "line": 106
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/experimental/quota/__init__.py#L106"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:agent-message-rate-limiting-and-acl"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "Python >=3.10",
+      "pydantic",
+      "uvicorn"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT COMPONENTS",
+  "contribution_role": "MODULE"
+}

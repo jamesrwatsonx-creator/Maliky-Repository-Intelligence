@@ -2,7 +2,7 @@
   "id": "entity:3c8807e99c052bd411b05dc3",
   "entity_type": "CLI",
   "name": "langgraph-av",
-  "description": "uagents_core.agentverse.sdk.langchain.__main__:main",
+  "description": "`langgraph-av`: launches a LangGraph app as an Agentverse agent via the AgentverseLangGraphApplication SDK.",
   "source": {
     "repository_id": "repository:1247318224",
     "repository_name": "jamesrwatsonx-creator/uAgents",
@@ -16,25 +16,37 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "python/uagents-core/pyproject.toml"
-    },
-    {
-      "type": "manifest",
-      "value": "langgraph-av"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-core/pyproject.toml#L49"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:langgraph-agent-agentverse-hosting"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "uagents-core[langgraph extras]",
+      "langgraph-cli"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

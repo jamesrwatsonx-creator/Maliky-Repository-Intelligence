@@ -2,7 +2,7 @@
   "id": "entity:e6a21695d636bd6ad3af1605",
   "entity_type": "CLI",
   "name": "av",
-  "description": "uagents_core.agentverse.cli.__main__:main",
+  "description": "`av` (uagents_core.agentverse.cli): inspect and troubleshoot Agentverse agents (Almanac registration, search record, endpoint connectivity, profile).",
   "source": {
     "repository_id": "repository:1247318224",
     "repository_name": "jamesrwatsonx-creator/uAgents",
@@ -16,25 +16,38 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "python/uagents-core/pyproject.toml"
-    },
-    {
-      "type": "manifest",
-      "value": "av"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-core/pyproject.toml#L48"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:agentverse-agent-lifecycle-cli"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Python >=3.10",
+      "uagents-core",
+      "Agentverse API access"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

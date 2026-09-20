@@ -7,31 +7,34 @@
 - Last validated durable checkpoint before this handoff: `e4c43e1` (previous session)
 - Public repositories inventoried: **422**
 - Processed and verified source files: **25,301**
-- Active entities: **6,986** (Voicebox lean census excluded 52; codegraph and TradingAgents reviews added entities the declaration scan missed)
-- Verified entities: **57**
-- Candidate entities: **6,929**
+- Active entities: **6,998** (net of lean-review exclusions and additions)
+- Verified entities: **81**
+- Candidate entities: **6,917**
 
 Active entity counts by type (after this session's Voicebox lean census):
 
 | Type | Count |
 |---|---:|
 | `SKILL` | 3,469 |
-| `AGENT` | 1,609 |
+| `AGENT` | 1,610 |
 | `UI_COMPONENT` | 946 |
-| `API` | 404 |
+| `API` | 402 |
 | `PACKAGE` | 209 |
 | `CLI` | 94 |
-| `WORKFLOW` | 84 |
+| `WORKFLOW` | 82 |
 | `DESIGN_REFERENCE` | 74 |
 | `TOOL` | 48 |
 | `PLUGIN` | 29 |
 | `MCP_SERVER` | 11 |
-| `SERVICE` | 1 |
-| `DOCUMENTATION_ASSET` | 1 |
+| `COMPONENT` | 6 |
+| `INTEGRATION` | 6 |
 | `CONNECTOR` | 4 |
-| `AGENT_FRAMEWORK` | 1 |
+| `AGENT_FRAMEWORK` | 2 |
+| `SDK` | 2 |
+| `DOCUMENTATION_ASSET` | 1 |
+| `INFRASTRUCTURE_MODULE` | 1 |
 | `MODEL_ADAPTER` | 1 |
-| `COMPONENT` | 1 |
+| `SERVICE` | 1 |
 
 `system/inspection-state.json` currently records:
 
@@ -116,9 +119,13 @@ Retained 15 entities: 1 `MCP_SERVER` (`codegraph`), 9 `TOOL` (`codegraph_search/
 
 Retained 30 entities: 1 `AGENT_FRAMEWORK` (`TradingAgentsGraph`), 12 `AGENT` (4 analysts, bull/bear researchers, research manager, trader, 3 risk debaters, portfolio manager), 9 `TOOL` (LangChain data tools), 4 `CONNECTOR` (yfinance, Alpha Vantage, StockTwits, Reddit), 1 `MODEL_ADAPTER` (`create_llm_client`), 1 `COMPONENT` (`TradingMemoryLog`), `CLI`, `PACKAGE`. `create_social_media_analyst` is a deprecated alias and was excluded. 16 capabilities were registered. Scoped deep review (financial): no order placement, broker/exchange client, wallet or private-key code exists; output is an advisory five-tier rating, and the README says research use only. Residual risks: LLM keys via env vars, unauthenticated Reddit/StockTwits endpoints, non-deterministic LLM output. Relationships include ALTERNATIVE_TO AutoHedge/Vibe-Trading/AI-Trader/FinMem and COMPLEMENTS freqtrade/ccxt/hummingbot (all unreviewed peers). Script: `scripts/review_tradingagents_semantics.py`.
 
-## Exact resume point: uAgents
+## Completed: uAgents lean semantic review (`9f6a18bd1e8356be834d6d6e78533c47c609e8d1`)
 
-The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/uAgents` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `9f6a18bd1e8356be834d6d6e78533c47c609e8d1`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_codegraph_semantics.py` / `scripts/review_tradingagents_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
+Retained 24 entities: `AGENT_FRAMEWORK` `Agent`, `AGENT` `ChatAgent`, 5 `COMPONENT` (`Bureau`, `Protocol`, `Dialogue`, `QuotaProtocol`, `ChitChatDialogue`), 6 `INTEGRATION` (MCP, A2A single/multi/inbound, LangChain, CrewAI adapters), 2 `SDK` (Agentverse A2A and LangGraph), 1 `INFRASTRUCTURE_MODULE` (Helm chart), 4 `PACKAGE`, 2 `CLI`, 2 `WORKFLOW` (CI, release). Removed 2 test-example `API` entities and 2 boilerplate workflows. 16 capabilities registered. Scoped deep review (keys/wallet): `get_or_create_private_keys` (`python/src/uagents/storage/__init__.py:130-150`) returns one wallet key but persists a different one, stores keys as plaintext `private_keys.json` in the cwd, and `Agent` defaults to `network="mainnet"`; the framework and repository are therefore `SECURITY REVIEW REQUIRED` (use the `seed` argument or an external key store for funded agents). Script: `scripts/review_uagents_semantics.py`.
+
+## Exact resume point: browser-harness
+
+The next repository in `system/inspection-state.json` is `jamesrwatsonx-creator/browser-harness` (`NEEDS_REVIEW`, `SEMANTIC_CENSUS_REVIEW`, pinned `41108b8676d4bdb58b26ab3b079c0b7b0f8f3926`). The `.local/` cache is absent: read exact pinned files with `gh api -H "Accept: application/vnd.github.raw" "repos/<owner>/<repo>/contents/<path>?ref=<commit>"` (strip `` from path lists on Windows), follow the `scripts/review_*_semantics.py` pattern (set `PYTHONUTF8=1`), and check that new entity source paths exist in `files_read` with matching blob SHAs. Git needs a one-off identity: `git -c user.name=jamesrwatsonx-creator -c user.email=272351518+jamesrwatsonx-creator@users.noreply.github.com commit`.
 
 Voicebox notes that are useful patterns for the next reviews:
 - HTTP routes in a backend service: retain all real API routes, exclude test-file duplicates

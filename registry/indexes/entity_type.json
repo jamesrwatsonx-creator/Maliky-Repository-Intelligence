@@ -6301,6 +6301,7 @@
     "entity:d9e9c03918469d1df4c4f406",
     "entity:da02a3c6bceac966ceabef5d",
     "entity:da2d922ad3cfbb29de423929",
+    "entity:da799ff00e9ce5e86ec0ce33",
     "entity:dae28e4b77b89e25d2ad9fc9",
     "entity:db641a5c80084c02a5056436",
     "entity:db95f187ebfa9494943701cd",
@@ -6848,7 +6849,6 @@
     "entity:26c18a0bbf5e918da9de08ca",
     "entity:26d7f0891eedcebd54b5d7f9",
     "entity:27b1722226f99c7bf4b4f700",
-    "entity:28c5e46742f0bb0eaf5c5314",
     "entity:28ebfbf90b41261bfedc7437",
     "entity:2938b7905ba98d8c9732ab06",
     "entity:29fc62e9449463f834843551",
@@ -6962,7 +6962,6 @@
     "entity:744fdd3b1fbd2a508e7b5708",
     "entity:747084168917ce5b5542a12c",
     "entity:74abe1b9221d0a8fd705ae8a",
-    "entity:74bfefb229f63c82d1c107ad",
     "entity:7511a5d413e7f1bd3ab7bf3e",
     "entity:7593e467f3b012fb7c86f3ae",
     "entity:75d45cbfc84da51086d206c0",
@@ -7197,6 +7196,10 @@
     "entity:ff75b75f1d2272575c6b7c60",
     "entity:ffc333385568f22ab4ecd2d4"
   ],
+  "AGENT_FRAMEWORK": [
+    "entity:029bd5d426fa5f7b3d1fe47d",
+    "entity:bbe482c87b8a99b383c5f6cb"
+  ],
   "DESIGN_REFERENCE": [
     "entity:02a04c11d3047ba940b3b468",
     "entity:036e57dff48fc2a610569a38",
@@ -7350,7 +7353,6 @@
     "entity:2223b44103f34b411750203f",
     "entity:2226bb8805b114a53a974d94",
     "entity:2565f079f837b306a30e8165",
-    "entity:26aebac5381df48a27828af0",
     "entity:272ebe3029026c73091fb129",
     "entity:2b24ac71d85f8eadf7a4b8bd",
     "entity:2b2b5be5e202d3db4e4238a1",
@@ -7385,7 +7387,6 @@
     "entity:85aaeb97fae9d9238eefe35a",
     "entity:879f020e45e8d0fe4bd1d900",
     "entity:87a6212ac6bac6d8c3c22a94",
-    "entity:8a449ec91ceb0dd49fbbb93b",
     "entity:95f687fb2a13db1abd5a5dd0",
     "entity:95fe9b52e55f596dc7444f2f",
     "entity:98f96778e602c19eaa580820",
@@ -7426,7 +7427,12 @@
     "entity:05f2a90fe7df047b1509d509"
   ],
   "COMPONENT": [
-    "entity:08dc5124767bf380b019a70f"
+    "entity:08dc5124767bf380b019a70f",
+    "entity:52299a84a3f691a583de9b9e",
+    "entity:8007516187390d00ad869437",
+    "entity:89956ae2da2085703cc7be67",
+    "entity:8b135cabc03d16ea4be2c7d9",
+    "entity:fe98cdd647baf1de2ba3d933"
   ],
   "CONNECTOR": [
     "entity:091bc5572f4e5c87bc4f1b4f",
@@ -7440,11 +7446,30 @@
   "MODEL_ADAPTER": [
     "entity:3668ff1cff56a90c9fc71fda"
   ],
-  "AGENT_FRAMEWORK": [
-    "entity:bbe482c87b8a99b383c5f6cb"
+  "INTEGRATION": [
+    "entity:493783b38e2b768e931c101f",
+    "entity:57028028f013a2ae83e9a283",
+    "entity:635750ca5a05a16ed7ff142a",
+    "entity:648e965d8cd1982aced7781e",
+    "entity:bf9bd5755a937737c3efa63d",
+    "entity:e8ff4b07af103fe6fd435bed"
+  ],
+  "INFRASTRUCTURE_MODULE": [
+    "entity:829d452bc9c94a676d2928ed"
+  ],
+  "SDK": [
+    "entity:a46f8b554f6eb62a233e2ceb",
+    "entity:b810e0c69b8ce942359cee62"
   ],
   "CAPABILITY": [
+    "capability:a2a-inbound-agent-exposure",
+    "capability:a2a-outbound-agent-orchestration",
+    "capability:agent-message-rate-limiting-and-acl",
+    "capability:agentverse-agent-lifecycle-cli",
+    "capability:agentverse-mailbox-connectivity",
+    "capability:almanac-agent-registration",
     "capability:bull-bear-investment-debate",
+    "capability:ci-test-and-release-pipeline",
     "capability:code-call-graph-navigation",
     "capability:code-change-impact-analysis",
     "capability:code-index-status-and-file-structure",
@@ -7454,13 +7479,20 @@
     "capability:code-symbol-search",
     "capability:coding-task-acceptance-criteria-planning",
     "capability:company-fundamentals-retrieval",
+    "capability:crewai-agent-agentverse-registration",
     "capability:financial-news-analysis-agent",
     "capability:financial-news-and-insider-retrieval",
     "capability:fundamental-company-analysis-agent",
     "capability:generated-wav-response-delivery",
     "capability:grounded-social-sentiment-analysis-agent",
+    "capability:kubernetes-agent-deployment",
+    "capability:langchain-agent-agentverse-registration",
+    "capability:langgraph-agent-agentverse-hosting",
+    "capability:llm-tool-calling-chat-agent",
     "capability:local-audio-transcription",
     "capability:local-code-knowledge-graph-indexing",
+    "capability:mcp-server-to-agent-bridge",
+    "capability:multi-agent-bureau-hosting",
     "capability:multi-agent-mcp-config-installation",
     "capability:multi-agent-trading-decision-pipeline",
     "capability:multi-perspective-risk-debate",
@@ -7473,12 +7505,14 @@
     "capability:queued-speech-generation-submission",
     "capability:serial-speech-job-scheduling",
     "capability:social-ticker-discussion-retrieval",
+    "capability:state-machine-agent-dialogue",
     "capability:stock-price-and-indicator-retrieval",
     "capability:task-context-code-retrieval",
     "capability:technical-market-analysis-agent",
     "capability:trade-proposal-generation",
     "capability:trading-decision-memory-and-reflection",
     "capability:tree-sitter-language-support-onboarding",
+    "capability:typed-agent-messaging-framework",
     "capability:voice-capture-history-discovery",
     "capability:voice-mcp-server-exposure",
     "capability:voice-profile-discovery",

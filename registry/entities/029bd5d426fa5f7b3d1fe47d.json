@@ -1,0 +1,59 @@
+{
+  "id": "entity:029bd5d426fa5f7b3d1fe47d",
+  "entity_type": "AGENT_FRAMEWORK",
+  "name": "Agent",
+  "description": "Core uAgents Agent: typed message handlers and intervals, protocols, key-value storage, identity and ledger wallet, Almanac registration, Agentverse mailbox and an HTTP endpoint. Defaults to mainnet.",
+  "source": {
+    "repository_id": "repository:1247318224",
+    "repository_name": "jamesrwatsonx-creator/uAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/uAgents",
+    "upstream_url": "https://github.com/fetchai/uAgents",
+    "source_path": "python/src/uagents/agent.py",
+    "inspected_commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
+    "inspection_date": "2026-09-20T09:07:56.637027+00:00",
+    "blob_sha": "884f2042d1da17f1e1661d60d22bb7b658c96a22",
+    "line": 222
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/agent.py#L222"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:03",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:typed-agent-messaging-framework",
+    "capability:almanac-agent-registration",
+    "capability:agentverse-mailbox-connectivity"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.10",
+      "pydantic",
+      "uvicorn",
+      "cosmpy",
+      "uagents-core",
+      "Fetch.ai ledger/Almanac for registration"
+    ],
+    "overlap": "Alternative to other agent frameworks in this registry (LangGraph-style graphs, AutoGen-style chat); different model: addressable message-passing agents",
+    "deep_review_finding": "get_or_create_private_keys (python/src/uagents/storage/__init__.py:130) returns one freshly generated wallet key but persists a second, different PrivateKey().private_key (line 149), so name-only agents get a wallet on first run that is never saved; keys are stored as plaintext private_keys.json in the current working directory; Agent defaults to network=\"mainnet\". Use the seed argument or an external key store for any funded agent."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "CORE"
+}

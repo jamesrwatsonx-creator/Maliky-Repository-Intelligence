@@ -2,7 +2,7 @@
   "id": "entity:edc703ebeba20b231a0359ac",
   "entity_type": "PACKAGE",
   "name": "uagents-core",
-  "description": "Core components for agent based systems",
+  "description": "uagents-core 0.4.5: identity, envelopes, Agentverse SDKs and the av / langgraph-av CLIs.",
   "source": {
     "repository_id": "repository:1247318224",
     "repository_name": "jamesrwatsonx-creator/uAgents",
@@ -16,25 +16,38 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "python/uagents-core/pyproject.toml"
-    },
-    {
-      "type": "manifest",
-      "value": "uagents-core"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-core/pyproject.toml#L3"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:agentverse-agent-lifecycle-cli"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Python >=3.10",
+      "pydantic",
+      "httpx, starlette (extras)"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
 }

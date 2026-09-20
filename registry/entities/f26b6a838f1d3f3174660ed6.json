@@ -2,7 +2,7 @@
   "id": "entity:f26b6a838f1d3f3174660ed6",
   "entity_type": "WORKFLOW",
   "name": "CI",
-  "description": "",
+  "description": "CI workflow for the Python monorepo (tests, with a coverage-comment step).",
   "source": {
     "repository_id": "repository:1247318224",
     "repository_name": "jamesrwatsonx-creator/uAgents",
@@ -16,25 +16,33 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/ci-tests.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "CI"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/.github/workflows/ci-tests.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:ci-test-and-release-pipeline"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "GitHub Actions"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

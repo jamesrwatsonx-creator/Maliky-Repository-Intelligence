@@ -1,0 +1,56 @@
+{
+  "id": "entity:57028028f013a2ae83e9a283",
+  "entity_type": "INTEGRATION",
+  "name": "MCPServerAdapter",
+  "description": "Wraps a Model Context Protocol server as a uAgent so its tools can be reached by natural-language chat; routes tool selection through ASI1 (asi1_api_key, model).",
+  "source": {
+    "repository_id": "repository:1247318224",
+    "repository_name": "jamesrwatsonx-creator/uAgents",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/uAgents",
+    "upstream_url": "https://github.com/fetchai/uAgents",
+    "source_path": "python/uagents-adapter/src/uagents_adapter/mcp/adapter.py",
+    "inspected_commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
+    "inspection_date": "2026-09-20T09:07:56.646034+00:00",
+    "blob_sha": "6dade517a5af3636872f5328137df66aa61da8a9",
+    "line": 41
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-adapter/src/uagents_adapter/mcp/adapter.py#L41"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:mcp-servers"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:mcp-server-to-agent-bridge"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Python >=3.10",
+      "pydantic",
+      "uvicorn",
+      "MCP server instance",
+      "ASI1 API key (external LLM service)"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "MODULE"
+}

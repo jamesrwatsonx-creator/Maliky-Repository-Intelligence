@@ -22,16 +22,38 @@
   "inspected_commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
   "current_commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
   "inspection_date": "2026-09-20T05:32:29.482808+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:ai-agents",
+    "category:agent-frameworks"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:a2a-inbound-agent-exposure",
+    "capability:a2a-outbound-agent-orchestration",
+    "capability:agent-message-rate-limiting-and-acl",
+    "capability:agentverse-agent-lifecycle-cli",
+    "capability:agentverse-mailbox-connectivity",
+    "capability:almanac-agent-registration",
+    "capability:ci-test-and-release-pipeline",
+    "capability:crewai-agent-agentverse-registration",
+    "capability:kubernetes-agent-deployment",
+    "capability:langchain-agent-agentverse-registration",
+    "capability:langgraph-agent-agentverse-hosting",
+    "capability:llm-tool-calling-chat-agent",
+    "capability:mcp-server-to-agent-bridge",
+    "capability:multi-agent-bureau-hosting",
+    "capability:state-machine-agent-dialogue",
+    "capability:typed-agent-messaging-framework"
+  ],
+  "studios": [
+    "studio:agent-studio"
+  ],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "SECURITY REVIEW REQUIRED",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -64,28 +86,32 @@
       "reviewed": false
     },
     "AGENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "AGENT_FRAMEWORK": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Agent read from source; not found by declaration scan"
     },
     "WORKFLOW": {
       "detected": 4,
-      "catalogued": 4,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "catalogued": 2,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained CI and release; removed coverage-comment and PR-title-lint as generic boilerplate"
     },
     "COMPONENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 5,
+      "catalogued": 5,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Bureau, Protocol, Dialogue, QuotaProtocol, ChitChatDialogue retained"
     },
     "UI_COMPONENT": {
       "detected": 0,
@@ -125,15 +151,17 @@
     },
     "API": {
       "detected": 2,
-      "catalogued": 2,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Removed 2 API entities: both are handlers in a test example (python/tests/examples/40-external-agent), not part of the framework surface"
     },
     "SDK": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 2,
+      "catalogued": 2,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Two Agentverse SDK entry points retained"
     },
     "LIBRARY": {
       "detected": 0,
@@ -144,8 +172,9 @@
     "PACKAGE": {
       "detected": 4,
       "catalogued": 4,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "MODEL": {
       "detected": 0,
@@ -184,10 +213,11 @@
       "reviewed": false
     },
     "INTEGRATION": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 6,
+      "catalogued": 6,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Six adapters retained"
     },
     "AUTOMATION": {
       "detected": 0,
@@ -198,8 +228,9 @@
     "CLI": {
       "detected": 2,
       "catalogued": 2,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "APP": {
       "detected": 0,
@@ -208,10 +239,11 @@
       "reviewed": false
     },
     "INFRASTRUCTURE_MODULE": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Helm chart retained"
     },
     "TEMPLATE": {
       "detected": 0,
@@ -245,8 +277,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -270,7 +302,71 @@
   },
   "tree_files": 216,
   "files_read": 197,
-  "entity_count": 12,
+  "entity_count": 24,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T09:07:56.727358+00:00",
+    "completed_at": "2026-09-20T09:07:56.727358+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 24,
+    "confirmed_entity_ids": [
+      "entity:029bd5d426fa5f7b3d1fe47d",
+      "entity:52299a84a3f691a583de9b9e",
+      "entity:89956ae2da2085703cc7be67",
+      "entity:8007516187390d00ad869437",
+      "entity:fe98cdd647baf1de2ba3d933",
+      "entity:da799ff00e9ce5e86ec0ce33",
+      "entity:57028028f013a2ae83e9a283",
+      "entity:635750ca5a05a16ed7ff142a",
+      "entity:493783b38e2b768e931c101f",
+      "entity:648e965d8cd1982aced7781e",
+      "entity:bf9bd5755a937737c3efa63d",
+      "entity:e8ff4b07af103fe6fd435bed",
+      "entity:b810e0c69b8ce942359cee62",
+      "entity:a46f8b554f6eb62a233e2ceb",
+      "entity:8b135cabc03d16ea4be2c7d9",
+      "entity:829d452bc9c94a676d2928ed",
+      "entity:1c4cc8e43c7d6fc8a26662c7",
+      "entity:edc703ebeba20b231a0359ac",
+      "entity:c0c4d83e3b9e237322d8135a",
+      "entity:3396832fef23eafa06e06302",
+      "entity:e6a21695d636bd6ad3af1605",
+      "entity:3c8807e99c052bd411b05dc3",
+      "entity:f26b6a838f1d3f3174660ed6",
+      "entity:f2086e5c7abc25328cf3e38f"
+    ],
+    "removed_entity_ids": [
+      "entity:26aebac5381df48a27828af0",
+      "entity:8a449ec91ceb0dd49fbbb93b",
+      "entity:28c5e46742f0bb0eaf5c5314",
+      "entity:74bfefb229f63c82d1c107ad"
+    ],
+    "confirmed_capabilities": [
+      "capability:a2a-inbound-agent-exposure",
+      "capability:a2a-outbound-agent-orchestration",
+      "capability:agent-message-rate-limiting-and-acl",
+      "capability:agentverse-agent-lifecycle-cli",
+      "capability:agentverse-mailbox-connectivity",
+      "capability:almanac-agent-registration",
+      "capability:ci-test-and-release-pipeline",
+      "capability:crewai-agent-agentverse-registration",
+      "capability:kubernetes-agent-deployment",
+      "capability:langchain-agent-agentverse-registration",
+      "capability:langgraph-agent-agentverse-hosting",
+      "capability:llm-tool-calling-chat-agent",
+      "capability:mcp-server-to-agent-bridge",
+      "capability:multi-agent-bureau-hosting",
+      "capability:state-machine-agent-dialogue",
+      "capability:typed-agent-messaging-framework"
+    ],
+    "scoped_deep_review": "Key and wallet handling reviewed. get_or_create_private_keys (python/src/uagents/storage/__init__.py:130) returns one freshly generated wallet key but persists a second, different PrivateKey().private_key (line 149), so name-only agents get a wallet on first run that is never saved; keys are stored as plaintext private_keys.json in the current working directory; Agent defaults to network=\"mainnet\". Use the seed argument or an external key store for any funded agent.",
+    "implementation_details_not_catalogued": [
+      "python/src/uagents internals: context, dispatch, resolver, registration policies, network/Almanac contract, asgi, storage, setup, crypto",
+      "experimental mobility and search modules",
+      "python/docs API markdown, python/tests, scripts (do_release, upgrade, generate_api_docs), hello-agent example and issue/PR templates"
+    ]
+  }
 }
