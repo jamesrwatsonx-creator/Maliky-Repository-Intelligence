@@ -2,7 +2,7 @@
   "id": "entity:f76098a7a354d9ddae17fa7e",
   "entity_type": "PACKAGE",
   "name": "@colbymchenry/codegraph",
-  "description": "Supercharge Claude Code with semantic code intelligence. 94% fewer tool calls • 77% faster exploration • 100% local.",
+  "description": "npm package @colbymchenry/codegraph 0.9.4 (MIT): thin installer plus dist library entry (main/types) for the graph, extraction, resolution, sync and MCP modules.",
   "source": {
     "repository_id": "repository:1247306274",
     "repository_name": "jamesrwatsonx-creator/codegraph",
@@ -16,25 +16,45 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "package.json"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L2"
     },
     {
-      "type": "manifest",
-      "value": "@colbymchenry/codegraph"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L44"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:knowledge-graphs"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:local-code-knowledge-graph-indexing"
+  ],
+  "studios": [
+    "studio:agent-studio",
+    "studio:hermes-app-builder-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified package manifest; library API surface not enumerated",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Node >=20 <25",
+      "web-tree-sitter",
+      "tree-sitter-wasms",
+      "commander"
+    ],
+    "overlap": "Same distribution as the codegraph CLI entity; not a separate product"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
 }

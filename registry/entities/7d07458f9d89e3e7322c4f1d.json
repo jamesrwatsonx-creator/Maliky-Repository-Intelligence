@@ -2,7 +2,7 @@
   "id": "entity:7d07458f9d89e3e7322c4f1d",
   "entity_type": "SKILL",
   "name": "add-lang",
-  "description": "Add tree-sitter language support to codegraph end-to-end — wire the grammar + extractor, write tests, then benchmark extraction quality and retrieval value on 3 popular real-world repos. Use when the user runs /add-lang <language> or asks to add/support a new language (e.g. Lua, Elixir, Zig, OCaml) in codegraph.",
+  "description": "Claude Code skill (/add-lang) that wires a new tree-sitter language into codegraph: grammar health check, extractor and tests, then benchmarks on three real repos and updates README/CHANGELOG without committing.",
   "source": {
     "repository_id": "repository:1247306274",
     "repository_name": "jamesrwatsonx-creator/codegraph",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude/skills/add-lang/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "add-lang"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/.claude/skills/add-lang/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:01",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:tree-sitter-language-support-onboarding"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified SKILL.md frontmatter and workflow; not executed",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "codegraph repo root and scripts/add-lang",
+      "node, git, gh",
+      "logged-in claude CLI"
+    ],
+    "overlap": "Complements babysitter Tree-sitter skill (jamesrwatsonx-creator/babysitter); codegraph-specific"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "SKILL"
 }

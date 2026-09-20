@@ -2,7 +2,7 @@
   "id": "entity:3812e9a783f7cd9b83f9119f",
   "entity_type": "WORKFLOW",
   "name": "Release",
-  "description": "",
+  "description": "Manually triggered GitHub Actions release: builds per-platform self-contained bundles, checksums, creates a GitHub Release from CHANGELOG notes, publishes the npm shim and platform packages, and verifies them on the registry.",
   "source": {
     "repository_id": "repository:1247306274",
     "repository_name": "jamesrwatsonx-creator/codegraph",
@@ -16,25 +16,36 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".github/workflows/release.yml"
-    },
-    {
-      "type": "manifest",
-      "value": "Release"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/.github/workflows/release.yml#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ci-cd",
+    "category:devops"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:multi-platform-release-publishing"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified workflow header and steps; not executed",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "package.json and CHANGELOG.md conventions",
+      "scripts/build-bundle.sh, scripts/pack-npm.sh",
+      "NPM_TOKEN secret"
+    ],
+    "overlap": ""
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE ONLY",
   "contribution_role": "COMPONENT"
 }

@@ -2,7 +2,7 @@
   "id": "entity:d3f96f08df7aec75369cfa49",
   "entity_type": "CLI",
   "name": "codegraph",
-  "description": "Supercharge Claude Code with semantic code intelligence. 94% fewer tool calls • 77% faster exploration • 100% local.",
+  "description": "`codegraph` command: init/index/sync/status/query/files/context/callers/callees/impact/affected/serve --mcp/install/uninstall. Builds a local tree-sitter to SQLite code knowledge graph and installs MCP config and instructions into Claude Code, Cursor, Codex CLI, opencode and Hermes Agent.",
   "source": {
     "repository_id": "repository:1247306274",
     "repository_name": "jamesrwatsonx-creator/codegraph",
@@ -16,25 +16,50 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "package.json"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L7"
     },
     {
-      "type": "manifest",
-      "value": "codegraph"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/README.md#L344"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/src/installer/targets/registry.ts#L17"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:knowledge-graphs"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:local-code-knowledge-graph-indexing",
+    "capability:multi-agent-mcp-config-installation"
+  ],
+  "studios": [
+    "studio:agent-studio",
+    "studio:hermes-app-builder-studio"
+  ],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified package bin entry and README command surface; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "YES",
+    "dependencies": [
+      "Node >=20 <25 (or bundled runtime)",
+      "web-tree-sitter",
+      "tree-sitter-wasms",
+      "SQLite"
+    ],
+    "overlap": "ALTERNATIVE_TO codebase-memory-mcp fork in this registry; installer writes agent config files and git hooks (review before running globally)"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "CORE"
 }

@@ -1,0 +1,60 @@
+{
+  "id": "entity:17d4e61b2376745ff562a90a",
+  "entity_type": "MCP_SERVER",
+  "name": "codegraph",
+  "description": "Local stdio MCP server named codegraph (started with `codegraph serve --mcp`) exposing nine code-graph tools over a per-project SQLite index; resolves the project root from client roots/list with cwd fallback.",
+  "source": {
+    "repository_id": "repository:1247306274",
+    "repository_name": "jamesrwatsonx-creator/codegraph",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/codegraph",
+    "upstream_url": "https://github.com/colbymchenry/codegraph",
+    "source_path": "src/mcp/index.ts",
+    "inspected_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
+    "inspection_date": "2026-09-20T08:57:10.189547+00:00",
+    "blob_sha": "8d0e35d7997beb309604fd6564c02ba06937bb31",
+    "line": 49
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/src/mcp/index.ts#L49"
+    },
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/src/mcp/tools.ts#L305"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:knowledge-graphs"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:code-intelligence-mcp-server-exposure"
+  ],
+  "studios": [
+    "studio:agent-studio",
+    "studio:hermes-app-builder-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified server info and tool registry in source; runtime connection not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Node >=20 or bundled runtime",
+      ".codegraph/ index created by `codegraph init --index`",
+      "web-tree-sitter grammars",
+      "SQLite"
+    ],
+    "overlap": "ALTERNATIVE_TO jamesrwatsonx-creator/vibe-studio-seperate-idea-with-orca-codebase-memory-mcp (codebase-memory-mcp); COMPLEMENTS TencentDB-Agent-Memory knowledge MCP (different data: code graph vs memory)"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
+}

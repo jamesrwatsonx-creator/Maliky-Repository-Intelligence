@@ -1,5 +1,5 @@
 # Tool
 
-30 individually addressable records. Each link opens the canonical record.
+39 individually addressable records. Each link opens the canonical record.
 
-- [Records 1–30](page-0001.md)
+- [Records 1–39](page-0001.md)

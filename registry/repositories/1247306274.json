@@ -22,28 +22,51 @@
   "inspected_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
   "current_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
   "inspection_date": "2026-09-20T05:32:28.517772+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:knowledge-graphs"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
-  "capabilities": [],
-  "studios": [],
+  "capabilities": [
+    "capability:code-call-graph-navigation",
+    "capability:code-change-impact-analysis",
+    "capability:code-index-status-and-file-structure",
+    "capability:code-intelligence-mcp-server-exposure",
+    "capability:code-retrieval-agent-benchmarking",
+    "capability:code-symbol-detail-lookup",
+    "capability:code-symbol-search",
+    "capability:local-code-knowledge-graph-indexing",
+    "capability:multi-agent-mcp-config-installation",
+    "capability:multi-platform-release-publishing",
+    "capability:multi-symbol-code-exploration",
+    "capability:task-context-code-retrieval",
+    "capability:tree-sitter-language-support-onboarding"
+  ],
+  "studios": [
+    "studio:agent-studio",
+    "studio:hermes-app-builder-studio"
+  ],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
       "catalogued": 2,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "MCP_SERVER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Read from src/mcp/index.ts; not found by declaration scan"
     },
     "MCP_CLIENT": {
       "detected": 0,
@@ -52,10 +75,11 @@
       "reviewed": false
     },
     "TOOL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 9,
+      "catalogued": 9,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Nine MCP tool definitions read from src/mcp/tools.ts"
     },
     "PLUGIN": {
       "detected": 0,
@@ -78,8 +102,9 @@
     "WORKFLOW": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "COMPONENT": {
       "detected": 0,
@@ -144,8 +169,9 @@
     "PACKAGE": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "MODEL": {
       "detected": 0,
@@ -198,8 +224,9 @@
     "CLI": {
       "detected": 1,
       "catalogued": 1,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Retained by lean test"
     },
     "APP": {
       "detected": 0,
@@ -245,8 +272,8 @@
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
+    "entity_extraction": true,
+    "capability_analysis": true,
     "deep_review": false,
     "validation": false
   },
@@ -272,7 +299,52 @@
   },
   "tree_files": 176,
   "files_read": 167,
-  "entity_count": 5,
+  "entity_count": 15,
   "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW"
+  "next_phase": "CAPABILITY_ANALYSIS",
+  "semantic_review_progress": {
+    "started_at": "2026-09-20T08:57:10.737112+00:00",
+    "completed_at": "2026-09-20T08:57:10.737112+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Claude Code lean static review",
+    "final_entity_count": 15,
+    "confirmed_entity_ids": [
+      "entity:17d4e61b2376745ff562a90a",
+      "entity:7a61394cddf0bec8d61c33e0",
+      "entity:b569cea3aa66d04da5fa88e0",
+      "entity:0ff7c6787a2e8a934f4904aa",
+      "entity:8b1cf0a073cb8bf10570e802",
+      "entity:76c3037efc79200af7b60ae5",
+      "entity:3134c78c54c9ba96e58cf6f0",
+      "entity:ebbaee5df982330b533fd5d0",
+      "entity:461f63493754c23f782a74ec",
+      "entity:90a34b3e236aa5b15e05f8ab",
+      "entity:d3f96f08df7aec75369cfa49",
+      "entity:f76098a7a354d9ddae17fa7e",
+      "entity:7d07458f9d89e3e7322c4f1d",
+      "entity:d6f5e6fdebfde0ae05c57cd7",
+      "entity:3812e9a783f7cd9b83f9119f"
+    ],
+    "confirmed_capabilities": [
+      "capability:code-call-graph-navigation",
+      "capability:code-change-impact-analysis",
+      "capability:code-index-status-and-file-structure",
+      "capability:code-intelligence-mcp-server-exposure",
+      "capability:code-retrieval-agent-benchmarking",
+      "capability:code-symbol-detail-lookup",
+      "capability:code-symbol-search",
+      "capability:local-code-knowledge-graph-indexing",
+      "capability:multi-agent-mcp-config-installation",
+      "capability:multi-platform-release-publishing",
+      "capability:multi-symbol-code-exploration",
+      "capability:task-context-code-retrieval",
+      "capability:tree-sitter-language-support-onboarding"
+    ],
+    "implementation_details_not_catalogued": [
+      "src/extraction/languages/* language extractors and src/resolution/frameworks/* framework resolvers (internal to the indexer)",
+      "src/db, src/graph, src/search, src/sync, src/context, src/ui internals",
+      "__tests__ and scripts/*"
+    ]
+  }
 }

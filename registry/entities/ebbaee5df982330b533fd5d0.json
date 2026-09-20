@@ -1,0 +1,54 @@
+{
+  "id": "entity:ebbaee5df982330b533fd5d0",
+  "entity_type": "TOOL",
+  "name": "codegraph_explore",
+  "description": "Returns source for several related symbols grouped by file plus a relationship map in one capped call (default 12 files).",
+  "source": {
+    "repository_id": "repository:1247306274",
+    "repository_name": "jamesrwatsonx-creator/codegraph",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/codegraph",
+    "upstream_url": "https://github.com/colbymchenry/codegraph",
+    "source_path": "src/mcp/tools.ts",
+    "inspected_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
+    "inspection_date": "2026-09-20T08:57:10.189547+00:00",
+    "blob_sha": "16df373d3cf98d46fb0e764770a6428fc2631da7",
+    "line": 435
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/src/mcp/tools.ts#L435"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:knowledge-graphs"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:multi-symbol-code-exploration"
+  ],
+  "studios": [
+    "studio:agent-studio",
+    "studio:hermes-app-builder-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified MCP tool definition (name, description, input schema); runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "NO",
+    "dependencies": [
+      "codegraph MCP server",
+      "initialized .codegraph/ index"
+    ],
+    "overlap": ""
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA MCP",
+  "contribution_role": "SERVICE"
+}
