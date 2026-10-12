@@ -1,5 +1,15 @@
 # Current status
 
+## Verified interruption checkpoint — 2026-10-12
+
+The latest completed recovery checkpoint before this work was `6297ad83e03872490c8440aa87b4c9e5e10178af` on `recovery/v1-rebuild`. An authenticated discovery refresh then completed and found 579 accessible repositories: 566 public and 13 private. The private identities and raw inventory remain under ignored `.local/`; the public manifest contains aggregate private counts only.
+
+The refresh's bounded intake phase was stopped after `aider` completed its static source pass and while `continue` was being inspected. `aider` is pinned at `5dc9490bb35f9729ef2c95d00a19ccd30c26339c` with 12 unreviewed candidate assets. `continue` remains `DISCOVERED`; 38 unreviewed candidate entity files from `5522c6f44ca0ac3528b37244818fbfa39b5af470` are preserved but are not active in the search/catalog index because the repository inspection record and evidence manifest were not completed before interruption. No further repository pass was started.
+
+The recovered public catalog reflects the current discovery and active registry: 566 repository records and 8,856 active assets, organized into 16 browse-by-type sections and 42 populated purpose sections across 389 Markdown browse pages. The current catalog readiness milestone is distinct from the historical semantic `COMPLETE` inspection state; no repository was mass-promoted.
+
+Registry validation, catalog validation (4,832 local links), publication guard (13 private identifiers checked), and all 48 unit tests passed before checkpointing. See [the interruption handoff](docs/RECOVERY-HANDOFF-2026-10-12.md) for the exact resume pointer and remaining consistency notes.
+
 ## Recovery checkpoint
 
 On 2026-10-12, workspace maintenance removed the checkout that contained the

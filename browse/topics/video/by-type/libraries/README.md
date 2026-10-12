@@ -1,0 +1,24 @@
+# Video · Libraries & Packages
+
+Libraries & Packages tagged under Video.
+
+**8 entries** · Alphabetical · 1 page.
+
+[Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
+
+- [@remotion/skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00c2457cc237c1d8c2adc98e.json) — Description not available in current evidence.<br>
+  Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · [package.json](https://github.com/jamesrwatsonx-creator/skills-video/blob/0e444efe46a8eb606acefd54d70ae64e8f908e36/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
+- [agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae70c9a6c870d7f7837db307d.json) — Source-declared package `agent-starter-react`.<br>
+  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [package.json](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb26be6da602557a00fe92a.json) — PyPI-style package browser-harness 0.1.9 (MIT): helpers, daemon, recorder, video, cloud auth and telemetry; depends on cdp-use, fetch-use, pillow and websockets.<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [graphifyy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6957869ae390372d9262c05.json) — AI coding assistant skill (Claude Code, CodeBuddy, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, Aider, OpenClaw, Factory Droid, Trae, Hermes, Kiro, Pi, Devin CLI, Google Antigravity) - turn any folder of code, docs,…<br>
+  Source: [jamesrwatsonx-creator/graphify](https://github.com/jamesrwatsonx-creator/graphify) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/graphify/blob/b2cd36267456c166788c95be6e68574064a92a42/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [openmontage-remotion-composer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A01a1732a4b95200181c182fd.json) — Remotion composition renderer for OpenMontage animated explainer videos<br>
+  Source: [jamesrwatsonx-creator/OpenMontage](https://github.com/jamesrwatsonx-creator/OpenMontage) · [remotion-composer/package.json](https://github.com/jamesrwatsonx-creator/OpenMontage/blob/cd9f3c1f03368be87b140af494914b8ee4e3c7a4/remotion-composer/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [video-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A30d4de7192f98c2875527549.json) — Conversation-driven video editor skill for Claude Code<br>
+  Source: [jamesrwatsonx-creator/video-use](https://github.com/jamesrwatsonx-creator/video-use) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [wan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2476d7b15498c88680b7d3cf.json) — Wan: Open and Advanced Large-Scale Video Generative Models<br>
+  Source: [jamesrwatsonx-creator/Wan2.1](https://github.com/jamesrwatsonx-creator/Wan2.1) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/Wan2.1/blob/9737cba9c1c3c4d04b33fcad41c111989865d315/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [yt-dlp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A71ef905b03cb5e5c46d9860d.json) — A feature-rich command-line audio/video downloader<br>
+  Source: [jamesrwatsonx-creator/yt-dlp](https://github.com/jamesrwatsonx-creator/yt-dlp) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/yt-dlp/blob/81ecd58b1394793e6da9998cc19fdb45657f1685/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE

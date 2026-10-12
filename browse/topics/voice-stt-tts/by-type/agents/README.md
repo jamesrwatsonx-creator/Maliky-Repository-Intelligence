@@ -1,0 +1,16 @@
+# Voice, STT & TTS · Agents & Frameworks
+
+Agents & Frameworks tagged under Voice, STT & TTS.
+
+**4 entries** · Alphabetical · 1 page.
+
+[Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
+
+- [documentary-linguist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3228372161482b07ee694d.json) — Conduct language documentation and linguistic analysis including phonetic transcription, grammatical analysis, language endangerment, corpus development, and elicitation methods<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [persona-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad48c4d59640762b0f6778b1b.json) — Creates chatbot personas and brand voice guidelines<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/persona-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/persona-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [persona-designer-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14109309f9cafc6cc15537e6.json) — Artist persona designer agent for creating comprehensive musical artist identities including backstory, artistic voice, visual aesthetic, discography arc, and character traits<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/music-album-creation/agents/persona-designer-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/music-album-creation/agents/persona-designer-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [voice-ai-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A574b72f2c0339fbccc9d3722.json) — Integrates ASR/TTS for voice-enabled agents<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents

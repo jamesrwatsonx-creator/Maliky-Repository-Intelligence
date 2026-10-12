@@ -1,0 +1,30 @@
+# Websites · UI Components — page 3
+
+309 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+
+[Category home](README.md) · [All browse sections](../../../../README.md) · [All repositories](../../../../repositories/README.md)
+
+- [VoiceMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6c7cb6f861bcdd4779cfaf65.json) — Hermes desktop app React component Voice Menu (voice-menu.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/composer/voice-menu.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/composer/voice-menu.tsx#L49) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WebhooksPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A81a64ea112fe5caf6e43c48e.json) — Hermes web dashboard React component Webhooks Page (WebhooksPage.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/pages/WebhooksPage.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/pages/WebhooksPage.tsx#L59) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WebhooksView](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7c7f24702bd2b38aa52e0064.json) — Hermes desktop app React component Webhooks View (index.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/webhooks/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/webhooks/index.tsx#L80) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WorkspaceContextMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A689b6b0c3efdab4e377fbb42.json) — Hermes desktop app React component Workspace Context Menu (workspace-header.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/sidebar/projects/workspace-header.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/sidebar/projects/workspace-header.tsx#L136) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WorkspaceMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4c9123124665c0eee1f64969.json) — Hermes desktop app React component Workspace Menu (workspace-header.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/sidebar/projects/workspace-header.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/sidebar/projects/workspace-header.tsx#L115) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WorkspaceTabMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A46e7fe83cf64e7c00b9fd34c.json) — Hermes desktop app React component Workspace Tab Menu (session-tile.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/session-tile.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/session-tile.tsx#L555) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [WorktreeDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A079a6da78c5014c50f62ae86.json) — Hermes desktop app React component Worktree Dialog (worktree-dialog.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/sidebar/projects/worktree-dialog.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/sidebar/projects/worktree-dialog.tsx#L67) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [YouTubeEmbedRenderer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5f3edb4b73d573107c3a4470.json) — Hermes desktop app React component You Tube Embed Renderer (youtube-embed.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/assistant-ui/embeds/youtube-embed.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/assistant-ui/embeds/youtube-embed.tsx#L29) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [ZoneEditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2bff906931976b4c9c6d1568.json) — Hermes desktop app React component Zone Editor (zone-editor.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/pane-shell/tree/zone-editor.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/pane-shell/tree/zone-editor.tsx#L91) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+
+## Pages
+
+- [Page 1](README.md)
+- [Page 2](page-2.md)
+- **[Page 3](page-3.md)**

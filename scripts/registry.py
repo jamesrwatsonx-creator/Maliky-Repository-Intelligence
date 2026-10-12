@@ -2,6 +2,7 @@
 from __future__ import annotations
 import argparse, ast, base64, collections, concurrent.futures, hashlib, json, os, pathlib, re, shutil, subprocess, sys, tempfile, time, tarfile, urllib.error, urllib.request
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OWNER = 'jamesrwatsonx-creator'
@@ -124,6 +125,7 @@ def discover(input_path=None):
         write(repo_file(r),r)
     stats={'accessible':len(raw),'owned':len(owned),'forks_owned':sum(r['fork'] for r in owned),'public_owned':len(public),'private_owned':sum(r['private'] for r in owned),'other_accessible':len(raw)-len(owned),'private_other_access':sum(r['private'] for r in raw if r['owner']['login']!=OWNER)}
     write('system/discovery-manifest.json',{'schema_version':1,'discovered_at':now(),'scope':'Authenticated GitHub account accessibility; ownership filtered exactly; pagination exhausted','target_owner':OWNER,'counts':stats,'repositories':[{'id':'repository:'+str(r['id']),'github_id':r['id'],'full_name':r['full_name'],'visibility':'public','affiliation':'FORKED_UNDER_USER_ACCOUNT' if r['fork'] else 'OWNED'} for r in public],'private_policy':'Aggregate counts only; identifiers and evidence excluded from public files'})
+    write('system/publication-visibility.json',{'verified_at':now(),'valid':True,'public_repository_records_checked':len(public),'scope':'Same fresh authenticated paginated owner inventory used by discovery; public repository identities verified; private identifiers remain local','public_repository_ids':sorted(r['id'] for r in public)})
     print(json.dumps(stats))
 
 def recover(legacy_root):
@@ -554,7 +556,13 @@ def compose(requirements):
         if not choices or choices[0][0]==0: break
         best=choices[0][1]; selected.append(best); remaining-=set(best['capabilities']) & verified_caps
     selected_ids={e['id'] for e in selected}; dependencies=[edge for edge in records('relationships') if edge['type'] in ('DEPENDS_ON','REQUIRES') and edge['from'] in selected_ids]
-    return {'requirements':sorted(wanted),'selected':[{'id':e['id'],'name':e['name'],'source':e['source'],'role':e['contribution_role'],'supplies':sorted(wanted & set(e['capabilities']))} for e in selected],'dependencies':dependencies,'alternatives':[e['id'] for e in pool if e not in selected and wanted & set(e['capabilities'])],'missing_capabilities':sorted(remaining),'method':method,'empty_requirements':not bool(wanted),'caveat':'Missing means not established by reviewed evidence. Dependency closure, runtime compatibility and production readiness require separate review.'}
+    selected_records=[]
+    for e in selected:
+        source=e['source']; path=quote(source['source_path'],safe='/!$&\'()*+,;=:@-._~')
+        source_url=source['repository_url']+'/blob/'+source['inspected_commit']+'/'+path
+        if source.get('line'): source_url+='#L'+str(source['line'])
+        selected_records.append({'id':e['id'],'name':e['name'],'source':{**source,'source_url':source_url},'role':e['contribution_role'],'supplies':sorted(wanted & set(e['capabilities']))})
+    return {'requirements':sorted(wanted),'selected':selected_records,'dependencies':dependencies,'alternatives':[e['id'] for e in pool if e not in selected and wanted & set(e['capabilities'])],'missing_capabilities':sorted(remaining),'method':method,'empty_requirements':not bool(wanted),'caveat':'Missing means not established by reviewed evidence. Dependency closure, runtime compatibility and production readiness require separate review.'}
 
 def validate():
     errors=[]; vocab=read('registry/taxonomy/vocabulary.json'); repos=records('repositories'); entities=records('entities')

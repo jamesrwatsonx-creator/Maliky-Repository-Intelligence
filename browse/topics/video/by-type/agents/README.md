@@ -1,0 +1,16 @@
+# Video · Agents & Frameworks
+
+Agents & Frameworks tagged under Video.
+
+**4 entries** · Alphabetical · 1 page.
+
+[Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
+
+- [e2e-runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae60d6a3bfdf8b8312c7f9eea.json) — End-to-end testing specialist using Vercel Agent Browser (preferred) with Playwright fallback. Use PROACTIVELY for generating, maintaining, and running E2E tests. Manages test journeys, quarantines flaky tests, uploads…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/e2e-runner.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/e2e-runner.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [marketing-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af84e818f6b36988c7b3f1214.json) — Marketing strategist and copywriter for campaign planning, audience research, positioning, copy creation, and content review. Covers landing pages, email sequences, social posts, ad copy, short-form video scripts, and…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/marketing-agent.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/marketing-agent.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [realtime-processing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a4f5cf0e7540105cd90e87c.json) — Agent specializing in GPU real-time image and video processing pipelines. Expert in real-time constraint design, image processing kernel optimization, NVENC/NVDEC video codec integration, frame processing pipelines,…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/agents/realtime-processing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/agents/realtime-processing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [visual-director-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acb76dd648e2e176b39afded3.json) — Expert visual director agent for shot design, storyboard prompts, and video generation optimization<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/film-tv-production/agents/visual-director-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/film-tv-production/agents/visual-director-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
