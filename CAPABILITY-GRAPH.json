@@ -4196,6 +4196,11 @@
       "name": "defuddle"
     },
     {
+      "id": "entity:0d2096406320ac03bd4d5477",
+      "type": "WORKFLOW",
+      "name": "Welcome Contributors"
+    },
+    {
       "id": "entity:0d309c57938ecb10da6fa3f1",
       "type": "WORKFLOW",
       "name": "methodologies/everything-claude-code/ecc-security-pipeline"
@@ -30161,6 +30166,11 @@
       "name": "CaptureInlinePlayer"
     },
     {
+      "id": "entity:acf2d4cbdd4a9280692d13bd",
+      "type": "WORKFLOW",
+      "name": "Weekly Update Release"
+    },
+    {
       "id": "entity:acf6c15b3df41309ea37ba03",
       "type": "SKILL",
       "name": "tech-writing-lint"
@@ -32586,6 +32596,11 @@
       "name": "library/methodologies/automaker/skills/feature-intake"
     },
     {
+      "id": "entity:bcf90c02e174b553900bdb98",
+      "type": "API",
+      "name": "generate"
+    },
+    {
       "id": "entity:bd004341ce76c300c37f88b1",
       "type": "SKILL",
       "name": "BackstopJS Visual Testing"
@@ -34789,6 +34804,11 @@
       "id": "entity:c911eb68864bf837e0ec9bc6",
       "type": "AGENT",
       "name": "qt-cpp-specialist"
+    },
+    {
+      "id": "entity:c917b0b634f3398b637aa35a",
+      "type": "SKILL",
+      "name": "manim-video"
     },
     {
       "id": "entity:c917b8ab1fd95de91a32d9ee",
@@ -42691,6 +42711,11 @@
       "name": "MS-021:"
     },
     {
+      "id": "entity:fa389833bea79bcd1d9fb2d9",
+      "type": "API",
+      "name": "health"
+    },
+    {
       "id": "entity:fa47720d0f531aceb55fd877",
       "type": "WORKFLOW",
       "name": "specializations/domains/business/decision-intelligence/customer-segmentation-analysis"
@@ -45596,6 +45621,26 @@
       "name": "Validate Finn-loop"
     },
     {
+      "id": "capability:free-ai-bible-api-generate",
+      "type": "CAPABILITY",
+      "name": "generate"
+    },
+    {
+      "id": "capability:free-ai-bible-api-health",
+      "type": "CAPABILITY",
+      "name": "health"
+    },
+    {
+      "id": "capability:free-ai-bible-workflow-weekly-update-release",
+      "type": "CAPABILITY",
+      "name": "Weekly Update Release"
+    },
+    {
+      "id": "capability:free-ai-bible-workflow-welcome-contributors",
+      "type": "CAPABILITY",
+      "name": "Welcome Contributors"
+    },
+    {
       "id": "capability:fundamental-company-analysis-agent",
       "type": "CAPABILITY",
       "name": "Fundamental company analysis agent"
@@ -46629,6 +46674,21 @@
       "id": "capability:typed-agent-messaging-framework",
       "type": "CAPABILITY",
       "name": "Typed agent messaging framework"
+    },
+    {
+      "id": "capability:video-use-package-video-use",
+      "type": "CAPABILITY",
+      "name": "video-use"
+    },
+    {
+      "id": "capability:video-use-skill-manim-video",
+      "type": "CAPABILITY",
+      "name": "manim-video"
+    },
+    {
+      "id": "capability:video-use-skill-video-use",
+      "type": "CAPABILITY",
+      "name": "video-use"
     },
     {
       "id": "capability:voice-capture-history-discovery",
@@ -55986,6 +56046,22 @@
         {
           "type": "manifest",
           "value": "defuddle"
+        }
+      ]
+    },
+    {
+      "id": "contains:entity:0d2096406320ac03bd4d5477",
+      "type": "CONTAINS",
+      "from": "repository:1342409878",
+      "to": "entity:0d2096406320ac03bd4d5477",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".github/workflows/pr-welcome.yml"
+        },
+        {
+          "type": "manifest",
+          "value": "Welcome Contributors"
         }
       ]
     },
@@ -119622,6 +119698,22 @@
       ]
     },
     {
+      "id": "contains:entity:acf2d4cbdd4a9280692d13bd",
+      "type": "CONTAINS",
+      "from": "repository:1342409878",
+      "to": "entity:acf2d4cbdd4a9280692d13bd",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".github/workflows/weekly-update.yml"
+        },
+        {
+          "type": "manifest",
+          "value": "Weekly Update Release"
+        }
+      ]
+    },
+    {
       "id": "contains:entity:acf6c15b3df41309ea37ba03",
       "type": "CONTAINS",
       "from": "repository:1254783144",
@@ -125558,6 +125650,22 @@
       ]
     },
     {
+      "id": "contains:entity:bcf90c02e174b553900bdb98",
+      "type": "CONTAINS",
+      "from": "repository:1342409878",
+      "to": "entity:bcf90c02e174b553900bdb98",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "templates/image-gen-api/app.py"
+        },
+        {
+          "type": "exported_symbol",
+          "value": "generate"
+        }
+      ]
+    },
+    {
       "id": "contains:entity:bd004341ce76c300c37f88b1",
       "type": "CONTAINS",
       "from": "repository:1254783144",
@@ -130958,6 +131066,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/qt-cpp-specialist/AGENT.md#L1"
+        }
+      ]
+    },
+    {
+      "id": "contains:entity:c917b0b634f3398b637aa35a",
+      "type": "CONTAINS",
+      "from": "repository:1306109917",
+      "to": "entity:c917b0b634f3398b637aa35a",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "skills/manim-video/SKILL.md"
+        },
+        {
+          "type": "manifest",
+          "value": "manim-video"
         }
       ]
     },
@@ -150330,6 +150454,22 @@
       ]
     },
     {
+      "id": "contains:entity:fa389833bea79bcd1d9fb2d9",
+      "type": "CONTAINS",
+      "from": "repository:1342409878",
+      "to": "entity:fa389833bea79bcd1d9fb2d9",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "templates/image-gen-api/app.py"
+        },
+        {
+          "type": "exported_symbol",
+          "value": "health"
+        }
+      ]
+    },
+    {
       "id": "contains:entity:fa47720d0f531aceb55fd877",
       "type": "CONTAINS",
       "from": "repository:1254783144",
@@ -157358,6 +157498,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/agents/gsd-integration-checker/AGENT.md#L1"
+        }
+      ]
+    },
+    {
+      "id": "entity:0d2096406320ac03bd4d5477:provides:capability:free-ai-bible-workflow-welcome-contributors",
+      "type": "PROVIDES",
+      "from": "entity:0d2096406320ac03bd4d5477",
+      "to": "capability:free-ai-bible-workflow-welcome-contributors",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".github/workflows/pr-welcome.yml"
+        },
+        {
+          "type": "manifest",
+          "value": "Welcome Contributors"
         }
       ]
     },
@@ -166698,6 +166854,22 @@
       ]
     },
     {
+      "id": "entity:276be27d4779df0bfc28039b:provides:capability:video-use-skill-video-use",
+      "type": "PROVIDES",
+      "from": "entity:276be27d4779df0bfc28039b",
+      "to": "capability:video-use-skill-video-use",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "SKILL.md"
+        },
+        {
+          "type": "manifest",
+          "value": "video-use"
+        }
+      ]
+    },
+    {
       "id": "entity:278b31cb7d1cd4c492aa8a8a:provides:capability:product-execution-documents",
       "type": "PROVIDES",
       "from": "entity:278b31cb7d1cd4c492aa8a8a",
@@ -169746,6 +169918,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/fuzzing-campaign.js#L1"
+        }
+      ]
+    },
+    {
+      "id": "entity:30d4de7192f98c2875527549:provides:capability:video-use-package-video-use",
+      "type": "PROVIDES",
+      "from": "entity:30d4de7192f98c2875527549",
+      "to": "capability:video-use-package-video-use",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "pyproject.toml"
+        },
+        {
+          "type": "manifest",
+          "value": "video-use"
         }
       ]
     },
@@ -216250,6 +216438,22 @@
       ]
     },
     {
+      "id": "entity:acf2d4cbdd4a9280692d13bd:provides:capability:free-ai-bible-workflow-weekly-update-release",
+      "type": "PROVIDES",
+      "from": "entity:acf2d4cbdd4a9280692d13bd",
+      "to": "capability:free-ai-bible-workflow-weekly-update-release",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".github/workflows/weekly-update.yml"
+        },
+        {
+          "type": "manifest",
+          "value": "Weekly Update Release"
+        }
+      ]
+    },
+    {
       "id": "entity:acf6c15b3df41309ea37ba03:provides:capability:babysitter-library-technical-documentation-skills",
       "type": "PROVIDES",
       "from": "entity:acf6c15b3df41309ea37ba03",
@@ -221770,6 +221974,22 @@
       ]
     },
     {
+      "id": "entity:bcf90c02e174b553900bdb98:provides:capability:free-ai-bible-api-generate",
+      "type": "PROVIDES",
+      "from": "entity:bcf90c02e174b553900bdb98",
+      "to": "capability:free-ai-bible-api-generate",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "templates/image-gen-api/app.py"
+        },
+        {
+          "type": "exported_symbol",
+          "value": "generate"
+        }
+      ]
+    },
+    {
       "id": "entity:bd004341ce76c300c37f88b1:provides:capability:babysitter-library-qa-testing-automation-skills",
       "type": "PROVIDES",
       "from": "entity:bd004341ce76c300c37f88b1",
@@ -226738,6 +226958,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/qt-cpp-specialist/AGENT.md#L1"
+        }
+      ]
+    },
+    {
+      "id": "entity:c917b0b634f3398b637aa35a:provides:capability:video-use-skill-manim-video",
+      "type": "PROVIDES",
+      "from": "entity:c917b0b634f3398b637aa35a",
+      "to": "capability:video-use-skill-manim-video",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "skills/manim-video/SKILL.md"
+        },
+        {
+          "type": "manifest",
+          "value": "manim-video"
         }
       ]
     },
@@ -244670,6 +244906,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/materials-science/materials-selection.js#L1"
+        }
+      ]
+    },
+    {
+      "id": "entity:fa389833bea79bcd1d9fb2d9:provides:capability:free-ai-bible-api-health",
+      "type": "PROVIDES",
+      "from": "entity:fa389833bea79bcd1d9fb2d9",
+      "to": "capability:free-ai-bible-api-health",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": "templates/image-gen-api/app.py"
+        },
+        {
+          "type": "exported_symbol",
+          "value": "health"
         }
       ]
     },
