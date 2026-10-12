@@ -46,8 +46,12 @@ def plan(requirements, limit=5):
         capability_ids.update(exact)
         mapped.append({'requirement': requirement, 'verified_recommendations': verified, 'discovery_candidates': candidates, 'exact_capability_ids': exact, 'gap': 'NO_EXACT_VERIFIED_CAPABILITY' if not exact else None})
     composition = r.compose(sorted(capability_ids))
+    composition_gaps = set(composition.get('missing_capabilities', []))
+    missing = [x['requirement'] for x in mapped
+               if x['gap'] or composition_gaps.intersection(x['exact_capability_ids'])]
     return {'requirements': mapped, 'composition': composition,
-            'missing_components': [x['requirement'] for x in mapped if x['gap']],
+            'missing_components': missing,
+            'unprovided_capabilities': sorted(composition_gaps),
             'mvp_plan': [
                 'Confirm one customer workflow and acceptance criteria for each requirement.',
                 'Inspect linked verified recommendations; confirm licenses, dependencies and runtime compatibility.',

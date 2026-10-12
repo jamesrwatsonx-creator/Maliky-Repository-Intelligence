@@ -49,5 +49,13 @@ class AgentCatalogTests(unittest.TestCase):
         self.assertTrue(result['composition']['selected'])
         self.assertTrue(result['composition']['selected'][0]['source']['source_path'])
 
+    def test_composition_gaps_are_reported_as_missing_requirements(self):
+        cap = next(x for x in r.records('capabilities') if x['status'] == 'VERIFIED' and x.get('providers'))
+        blocked = {'requirements': [cap['id']], 'selected': [], 'missing_capabilities': [cap['id']]}
+        with patch.object(r, 'compose', return_value=blocked):
+            result = c.plan([cap['name']], limit=1)
+        self.assertEqual(result['missing_components'], [cap['name']])
+        self.assertEqual(result['unprovided_capabilities'], [cap['id']])
+
 
 if __name__ == '__main__': unittest.main()
