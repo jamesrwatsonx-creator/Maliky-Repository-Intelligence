@@ -136,5 +136,24 @@ class RegistryIntegrityTests(unittest.TestCase):
         first=m.ingest(r['full_name'],offline=True); second=m.ingest(r['full_name'],offline=True)
         self.assertEqual(first['files_read'],1); self.assertEqual(second['files_read'],1); self.assertEqual(len(m.records('entities')),1)
         self.assertTrue(m.validate()['valid'])
+    def test_complete_repository_with_unread_source_resumes_coverage(self):
+        repo=self.repo(); commit='a'*40; text=b'---\nname: resumed\ndescription: Resumed skill\n---\n'; blob=m.git_blob(text)
+        repo['inspected_commit']=commit; repo['state']='COMPLETE'; repo['phases'].update({'structure':True,'entity_extraction':True,'capability_analysis':True,'validation':True})
+        m.write(m.repo_file(repo),repo)
+        cp=m.cache_path(repo,commit); m.write(cp/'tree.json',{'tree':[{'path':'SKILL.md','type':'blob','sha':blob}],'truncated':False})
+        path=m.ROOT/cp/'blobs'/blob; path.parent.mkdir(); path.write_bytes(text)
+        m.write('system/evidence/1.json',{'inspected_commit':commit,'files_read':[],'unread_source_paths':['SKILL.md'],'errors':[]})
+        result=m.ingest(repo['full_name'],offline=True)
+        self.assertEqual(result['files_read'],1); self.assertEqual(result['unread'],0)
+        self.assertEqual(m.records('entities')[0]['name'],'resumed')
+    def test_orphan_capability_providers_are_pruned(self):
+        repo=self.repo(); repo['inspected_commit']='a'*40; m.write(m.repo_file(repo),repo)
+        entity=m.entity_record(repo,'a'*40,{'path':'SKILL.md','sha':'b'*40},{'type':'SKILL','symbol':'test','description':'','line':1})
+        entity['capabilities']=['capability:kept']; m.write('registry/entities/test.json',entity)
+        for name in ('kept','stale'):
+            m.write('registry/capabilities/'+name+'.json',{'id':'capability:'+name,'name':name,'aliases':[name],'status':'VERIFIED','providers':[entity['id']],'evidence':[{'type':'manifest','value':'x'}]})
+        result=m.prune_orphan_capabilities()
+        self.assertEqual(result,{'updated':0,'removed':1})
+        self.assertIsNotNone(m.read('registry/capabilities/kept.json')); self.assertIsNone(m.read('registry/capabilities/stale.json'))
 
 if __name__=='__main__': unittest.main()

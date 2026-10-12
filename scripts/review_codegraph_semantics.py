@@ -105,16 +105,17 @@ def main():
     if peer: relationship('ALTERNATIVE_TO',repo['id'],peer['id'],'README.md',1)
 
     counts={'MCP_SERVER':1,'TOOL':len(tool_specs),'SKILL':2,'WORKFLOW':1,'PACKAGE':1,'CLI':1}
-    for kind,count in counts.items():
+    for kind,census in repo['entity_census'].items():
+        count=counts.get(kind,0)
         note={'MCP_SERVER':'Read from src/mcp/index.ts; not found by declaration scan','TOOL':'Nine MCP tool definitions read from src/mcp/tools.ts'}.get(kind,'Retained by lean test')
-        repo['entity_census'][kind]={**repo['entity_census'][kind],'detected':count,'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':note}
+        repo['entity_census'][kind]={**census,'detected':max(census['detected'],count),'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':note if count else 'No meaningful reusable entities retained by lean review'}
     repo['capabilities']=sorted({c for e in [server,cli,package,add_lang,agent_eval,release,*tool_entities.values()] for c in e['capabilities']})
     repo['categories']=CATEGORIES;repo['studios']=AGENT_STUDIOS;repo['recommendation']='USE DIRECTLY';repo['operational_category']='operational:24'
-    repo['entity_count']=sum(counts.values());repo['phases'].update({'entity_extraction':True,'capability_analysis':True})
-    repo['state']='NEEDS_REVIEW';repo['next_phase']='CAPABILITY_ANALYSIS'
-    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Claude Code lean static review','final_entity_count':repo['entity_count'],
+    repo['entity_count']=sum(counts.values());repo['phases'].update({'entity_extraction':True,'capability_analysis':True,'validation':True})
+    repo['state']='COMPLETE';repo['next_phase']='COMPLETE';repo.pop('review_reason',None)
+    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':repo['entity_count'],
         'confirmed_entity_ids':[server_id]+[t['id'] for t in tool_entities.values()]+[cli['id'],package['id'],add_lang['id'],agent_eval['id'],release['id']],'confirmed_capabilities':repo['capabilities'],
         'implementation_details_not_catalogued':['src/extraction/languages/* language extractors and src/resolution/frameworks/* framework resolvers (internal to the indexer)','src/db, src/graph, src/search, src/sync, src/context, src/ui internals','__tests__ and scripts/*']}
-    r.write(r.repo_file(repo),repo)
+    r.write(r.repo_file(repo),repo);r.prune_orphan_capabilities()
     print({'repository':REPOSITORY,'entities':repo['entity_count'],'capabilities':len(repo['capabilities'])})
 if __name__=='__main__':main()

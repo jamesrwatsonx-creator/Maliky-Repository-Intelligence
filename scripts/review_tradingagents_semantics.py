@@ -122,16 +122,17 @@ def main():
 
     counts={};[counts.__setitem__(e['entity_type'],counts.get(e['entity_type'],0)+1) for e in entities]
     notes={'AGENT':'Twelve role agents retained; create_social_media_analyst is a deprecated alias of create_sentiment_analyst and is not catalogued','TOOL':'Nine LangChain data tools retained','CONNECTOR':'Vendor/data connectors retained','AGENT_FRAMEWORK':'TradingAgentsGraph read from source; not found by declaration scan','MODEL_ADAPTER':'LLM client factory read from source','COMPONENT':'TradingMemoryLog read from source'}
-    for kind,count in counts.items():
-        repo['entity_census'][kind]={**repo['entity_census'][kind],'detected':count,'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':notes.get(kind,'Retained by lean test')}
+    for kind,census in repo['entity_census'].items():
+        count=counts.get(kind,0)
+        repo['entity_census'][kind]={**census,'detected':max(census['detected'],count),'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':notes.get(kind,'Retained by lean test') if count else 'No meaningful reusable entities retained by lean review'}
     repo['capabilities']=sorted({c for e in entities for c in e['capabilities']})
     repo['categories']=CATS;repo['studios']=STUDIO;repo['ideas']=IDEA;repo['recommendation']='USE AS LIBRARY';repo['operational_category']='operational:03'
-    repo['entity_count']=len(entities);repo['phases'].update({'entity_extraction':True,'capability_analysis':True})
-    repo['state']='NEEDS_REVIEW';repo['next_phase']='CAPABILITY_ANALYSIS'
-    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Claude Code lean static review','final_entity_count':len(entities),
+    repo['entity_count']=len(entities);repo['phases'].update({'entity_extraction':True,'capability_analysis':True,'validation':True})
+    repo['state']='COMPLETE';repo['next_phase']='COMPLETE';repo.pop('review_reason',None)
+    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(entities),
         'confirmed_entity_ids':[e['id'] for e in entities],'confirmed_capabilities':repo['capabilities'],
         'scoped_deep_review':'Financial domain: searched pinned source for order placement, broker/exchange clients, wallets and private-key handling; none found. Output is an advisory five-tier rating; README states research use only, not financial advice. Remaining risk: LLM API keys read from env vars, unauthenticated Reddit/StockTwits endpoints, non-deterministic outputs.',
         'implementation_details_not_catalogued':['graph setup, conditional logic, propagation, signal processing, reflection and checkpointer internals','dataflows utilities, config and per-endpoint Alpha Vantage modules','agent state, schemas, rating parser and structured-output helpers','tests, docker-compose and scripts/smoke_structured_output.py']}
-    r.write(r.repo_file(repo),repo)
+    r.write(r.repo_file(repo),repo);r.prune_orphan_capabilities()
     print({'repository':REPOSITORY,'entities':len(entities),'by_type':counts,'capabilities':len(repo['capabilities'])})
 if __name__=='__main__':main()

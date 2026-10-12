@@ -95,13 +95,7 @@ class LeanReview:
 
     def prune_orphan_capabilities(self):
         """Drop capability providers whose entity no longer lists the capability; delete capabilities left without providers."""
-        import pathlib
-        for file in sorted((r.ROOT/'registry/capabilities').glob('*.json')):
-            record=r.read('registry/capabilities/'+file.name)
-            kept=[x for x in record['providers'] if 'capability:'+file.name[:-5] in (r.read('registry/entities/'+x.split(':')[1]+'.json') or {}).get('capabilities',[])]
-            if kept==record['providers']: continue
-            if kept: r.write('registry/capabilities/'+file.name,{**record,'providers':kept})
-            else: file.unlink()
+        r.prune_orphan_capabilities()
 
     def finalize(self,categories,studios,recommendation,operational,notes,deep_review='',details=(),ideas=(),blocker=''):
         self.write_capabilities();self.prune_orphan_capabilities()

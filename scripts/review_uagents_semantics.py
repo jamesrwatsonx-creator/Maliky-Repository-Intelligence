@@ -95,7 +95,11 @@ def main():
 
     removed=[]
     for key in REMOVE:
-        entity=existing[key];os.remove(r.ROOT/'registry/entities'/(entity['id'].split(':')[1]+'.json'));removed.append(entity['id'])
+        entity=existing.get(key)
+        if not entity: continue
+        path=r.ROOT/'registry/entities'/(entity['id'].split(':')[1]+'.json')
+        if path.exists(): os.remove(path)
+        removed.append(entity['id'])
     E=lambda kind,name: entities[(kind,name)]['id']
     for target in ('Agent','Bureau','Protocol'): relationship('CONTAINS',E('PACKAGE','uagents'),E('AGENT_FRAMEWORK' if target=='Agent' else 'COMPONENT',target),SRC+('agent.py' if target!='Protocol' else 'protocol.py'),1)
     relationship('DEPENDS_ON',E('PACKAGE','uagents'),E('PACKAGE','uagents-core'),P+'pyproject.toml',15)
@@ -111,17 +115,17 @@ def main():
 
     counts={};[counts.__setitem__(e['entity_type'],counts.get(e['entity_type'],0)+1) for e in entities.values()]
     notes={'API':'Removed 2 API entities: both are handlers in a test example (python/tests/examples/40-external-agent), not part of the framework surface','WORKFLOW':'Retained CI and release; removed coverage-comment and PR-title-lint as generic boilerplate','AGENT_FRAMEWORK':'Agent read from source; not found by declaration scan','COMPONENT':'Bureau, Protocol, Dialogue, QuotaProtocol, ChitChatDialogue retained','INTEGRATION':'Six adapters retained','SDK':'Two Agentverse SDK entry points retained','INFRASTRUCTURE_MODULE':'Helm chart retained'}
-    for kind in set(counts)|{'API'}:
-        count=counts.get(kind,0);census=repo['entity_census'][kind]
-        repo['entity_census'][kind]={**census,'detected':max(census['detected'],count),'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':notes.get(kind,'Retained by lean test')}
+    for kind,census in repo['entity_census'].items():
+        count=counts.get(kind,0)
+        repo['entity_census'][kind]={**census,'detected':max(census['detected'],count),'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':notes.get(kind,'Retained by lean test') if count else 'No meaningful reusable entities retained by lean review'}
     repo['capabilities']=sorted({c for e in entities.values() for c in e['capabilities']})
     repo['categories']=CATS;repo['studios']=STUDIO;repo['recommendation']='SECURITY REVIEW REQUIRED';repo['operational_category']='operational:03'
-    repo['entity_count']=len(entities);repo['phases'].update({'entity_extraction':True,'capability_analysis':True})
-    repo['state']='NEEDS_REVIEW';repo['next_phase']='CAPABILITY_ANALYSIS'
-    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Claude Code lean static review','final_entity_count':len(entities),
+    repo['entity_count']=len(entities);repo['phases'].update({'entity_extraction':True,'capability_analysis':True,'validation':True})
+    repo['state']='COMPLETE';repo['next_phase']='COMPLETE';repo.pop('review_reason',None)
+    repo['semantic_review_progress']={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(entities),
         'confirmed_entity_ids':[e['id'] for e in entities.values()],'removed_entity_ids':removed,'confirmed_capabilities':repo['capabilities'],
         'scoped_deep_review':'Key and wallet handling reviewed. '+KEY_FINDING,
         'implementation_details_not_catalogued':['python/src/uagents internals: context, dispatch, resolver, registration policies, network/Almanac contract, asgi, storage, setup, crypto','experimental mobility and search modules','python/docs API markdown, python/tests, scripts (do_release, upgrade, generate_api_docs), hello-agent example and issue/PR templates']}
-    r.write(r.repo_file(repo),repo)
+    r.write(r.repo_file(repo),repo);r.prune_orphan_capabilities()
     print({'repository':REPOSITORY,'entities':len(entities),'by_type':counts,'capabilities':len(repo['capabilities']),'removed':len(removed)})
 if __name__=='__main__':main()

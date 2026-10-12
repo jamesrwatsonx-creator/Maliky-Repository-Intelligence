@@ -26,6 +26,19 @@ def write(path, data):
             time.sleep(0.05*(attempt+1))
 def records(kind):
     return [json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'registry'/kind).glob('*.json'))]
+def prune_orphan_capabilities():
+    """Remove stale provider links left when semantic review replaces candidates."""
+    entities={entity['id']:entity for entity in records('entities')}
+    changed=0;removed=0
+    for path in sorted((ROOT/'registry/capabilities').glob('*.json')):
+        record=json.loads(path.read_text(encoding='utf-8'))
+        kept=[provider for provider in record['providers'] if record['id'] in entities.get(provider,{}).get('capabilities',[])]
+        if kept==record['providers']: continue
+        if kept:
+            write(path.relative_to(ROOT),{**record,'providers':kept});changed+=1
+        else:
+            path.unlink();removed+=1
+    return {'updated':changed,'removed':removed}
 def gh(endpoint):
     """Read GitHub metadata without requiring the optional gh executable."""
     # Literal argument list; credentials are supplied by gh's configured store.
