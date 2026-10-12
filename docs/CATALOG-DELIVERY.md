@@ -45,6 +45,6 @@ python -m unittest discover -s tests
 python scripts/publication_guard.py
 ```
 
-Latest completed checks: registry valid (11,256 canonical records); catalog valid (566 repositories, 8,856 active assets, 16 types, 42 topics, 23 populated canonical areas); all 54 tests pass; publication guard passes for all 13 private identities. The generated lightweight browser is at [`docs/catalog/index.html`](catalog/index.html); GitHub Pages account settings are not changed automatically.
+Latest completed checks: registry valid (11,256 canonical records); catalog valid (566 repositories, 8,856 active assets, 16 types, 42 topics, 23 populated canonical areas); all 55 tests pass; publication guard passes for all 13 private identities. The generated lightweight browser is at [`docs/catalog/index.html`](catalog/index.html); GitHub Pages account settings are not changed automatically.
 
 The source-review queue and historical semantic `COMPLETE` state remain separate from Catalog V1 readiness. Universal deep review, exhaustive scoring, security review, relationship mapping, a hosted website and an agent plugin are future work.
