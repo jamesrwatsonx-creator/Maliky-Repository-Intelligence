@@ -281,7 +281,9 @@ def priority(entry):
     p=entry['path']; name=pathlib.PurePosixPath(p).name
     if name.lower()=='skill.md': return 0
     if name in ('package.json','pyproject.toml','plugin.json','Cargo.toml','go.mod','mcp.json'): return 1
-    if name.lower().startswith('readme'): return 2
+    # Localized README documents are evidence, but binary hero assets such as
+    # readme-hero.webp must remain in the explicitly excluded non-text set.
+    if name.lower().startswith('readme') and pathlib.PurePosixPath(p).suffix.lower() in ('','.md','.mdx','.rst','.txt'): return 2
     if p.startswith('.github/workflows/'): return 3
     if pathlib.PurePosixPath(p).suffix in SOURCE_EXTENSIONS: return 4
     if pathlib.PurePosixPath(p).suffix in ('.md','.mdc','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
@@ -369,7 +371,11 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         previous=read(ep,{})
         previous=previous if previous.get('inspected_commit')==commit else {}
         processed={e['path']:e for e in previous.get('files_read',[])}
-        errors=previous.get('errors',[]); count=0
+        eligible_paths={e['path'] for e in entries if priority(e)<6}
+        # A detector update may reclassify a previously attempted binary file
+        # as non-text.  Do not preserve obsolete decode failures for paths that
+        # are no longer eligible source evidence.
+        errors=[error for error in previous.get('errors',[]) if error.get('path') in eligible_paths]; count=0
         if not structure_only:
             for e in sorted(entries,key=lambda e:(priority(e),e['path'])):
                 if priority(e)==6 or e['path'] in processed: continue
@@ -399,7 +405,7 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         skill_detected=sum(pathlib.PurePosixPath(e['path']).name.lower()=='skill.md' for e in entries)
         all_types=read('registry/taxonomy/vocabulary.json')['entity_types']
         r['entity_census']={kind:{'detected':skill_detected if kind=='SKILL' else counts[kind],'catalogued':counts[kind],'detection_scope':'complete_tree_paths' if kind=='SKILL' else 'read_source_declarations','reviewed':False} for kind in all_types if kind!='REPOSITORY'}
-        eligible=[e['path'] for e in entries if priority(e)<6]
+        eligible=sorted(eligible_paths)
         unread=[p for p in eligible if p not in processed]
         r['files_read']=len(processed); r['entity_count']=len(ents); r['unread_source_files']=len(unread)
         r['phases']['entity_extraction']=False # Only a reviewed census may finish this phase.

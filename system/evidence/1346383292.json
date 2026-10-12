@@ -5,8 +5,392 @@
   "tree_files": 98,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "aa4c3084927af513046779215f66b022e7602af0"
+    },
+    {
       "path": "README.md",
       "sha": "c40cffc573580ebc3d071b96f23bd286a2c08a96"
+    },
+    {
+      "path": "hooks/dangerous-patterns.txt",
+      "sha": "02e930aaf9879b879475baff5142f78e2df52f2a"
+    },
+    {
+      "path": "hooks/deny-dangerous.sh",
+      "sha": "6d3ab1a4e3ea8e12c8a5a932b5aa25ae58d951b5"
+    },
+    {
+      "path": "hooks/test-guard.sh",
+      "sha": "841c513c03ec298368319d8bc90cc20a9ebf4700"
+    },
+    {
+      "path": "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+      "sha": "894973c34c0e52f1a149a449a5b8a4f2be9f2047"
+    },
+    {
+      "path": "skills/agent-orchestration/bb-plugins/SKILL.md",
+      "sha": "dfba55b33503e69af1b58a4df4e6de0786909084"
+    },
+    {
+      "path": "skills/agent-orchestration/bb-subagents/SKILL.md",
+      "sha": "769422639b1938d48714904fb356ea361b1875c0"
+    },
+    {
+      "path": "skills/agent-orchestration/cmux/SKILL.md",
+      "sha": "870a249418c3f7e3efbd399e482d1f476448d5b0"
+    },
+    {
+      "path": "skills/agent-orchestration/codex-subagent/SKILL.md",
+      "sha": "f96aa919d9b20b0646b373a35fe52b4fe2ec1eb7"
+    },
+    {
+      "path": "skills/agent-orchestration/codex-subagent/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/SKILL.md",
+      "sha": "39f78db913546a6f77e4cd5eac4d4701942dd2b5"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/agents/openai.yaml",
+      "sha": "77a853393ec5316d8df08261aa9f598e4db8f6cf"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/batch-launches.md",
+      "sha": "e80c4ef54cce9a23e790952802003b4d6640f52a"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/corral-design1.md",
+      "sha": "ddb323f96a0959a1e8be4019eea428448fe307f1"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/pi-agent.md",
+      "sha": "b98cfbcc52fcad51f09a3efb47aac4ebd08cbcb5"
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/scripts/corral_agents.py",
+      "sha": "ab322b8e36e239699316165ea8b8b86a262be7a8"
+    },
+    {
+      "path": "skills/agent-orchestration/fable-review/SKILL.md",
+      "sha": "ad2c55b2d267885d00f745b68d6ea2accc8acb15"
+    },
+    {
+      "path": "skills/agent-orchestration/fable-safe-prompt/SKILL.md",
+      "sha": "70aab185c867e02d5906e6f1a65f1452b57e5192"
+    },
+    {
+      "path": "skills/agent-orchestration/fable-safe-prompt/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/agent-orchestration/git-worktree/SKILL.md",
+      "sha": "b8e4f1a367e67c9a0fd0d8f4d7d9521e2a13e6ba"
+    },
+    {
+      "path": "skills/agent-orchestration/git-worktree/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/agent-orchestration/goal-loop/SKILL.md",
+      "sha": "90bcadd0a78cbffd0a81c1811dea04081e3c0bab"
+    },
+    {
+      "path": "skills/agent-orchestration/gpt-review/SKILL.md",
+      "sha": "2916de7ff5cae14341270dcaddfb888612440f35"
+    },
+    {
+      "path": "skills/agent-orchestration/handoff/SKILL.md",
+      "sha": "79a5a972385c1fa8480f98e6152ee9d08a28fe65"
+    },
+    {
+      "path": "skills/agent-orchestration/handoff/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/agent-orchestration/herdr/SKILL.md",
+      "sha": "55472db1a8b78c8a08aca55395fe998624e97e80"
+    },
+    {
+      "path": "skills/agent-orchestration/launch-subagent/SKILL.md",
+      "sha": "49d50f550c837254d53a25634c0ed9fd4daa88e9"
+    },
+    {
+      "path": "skills/agent-orchestration/render-images-in-cursor/SKILL.md",
+      "sha": "00f3901c7724bc38dd3d7f54bcfe6949a0c14f01"
+    },
+    {
+      "path": "skills/agent-orchestration/run-deep-swe/SKILL.md",
+      "sha": "d3f8d04b494a826f3d33020529960425ad9a5e8b"
+    },
+    {
+      "path": "skills/agent-orchestration/run-deep-swe/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/agent-orchestration/total-review/SKILL.md",
+      "sha": "bdafaabcc422c4a31b0a8c096347da97014be38a"
+    },
+    {
+      "path": "skills/ops-and-setup/agentic-productivity-setup/SKILL.md",
+      "sha": "bb9c4c3728ba8a7198963a70b6c10226481670b5"
+    },
+    {
+      "path": "skills/ops-and-setup/agentic-productivity-setup/agents/openai.yaml",
+      "sha": "e269dbb9e530e6574a8d41a7fbb0f4d484f07bee"
+    },
+    {
+      "path": "skills/ops-and-setup/anti-sleep/SKILL.md",
+      "sha": "dbf7abcec8e5f76ea24463911fff7136c5f14a30"
+    },
+    {
+      "path": "skills/ops-and-setup/anti-sleep/scripts/anti-sleep.sh",
+      "sha": "9a2f44408c858cd0335cb0886bd0a7beca15dbdf"
+    },
+    {
+      "path": "skills/ops-and-setup/create-readonly-db-role/SKILL.md",
+      "sha": "9abd54c4bf8852bf75906393394be1cbd9edf7a6"
+    },
+    {
+      "path": "skills/ops-and-setup/github-outside-sandbox/SKILL.md",
+      "sha": "4556906c440addbb95d205e9a66bf07ae68d6f5c"
+    },
+    {
+      "path": "skills/ops-and-setup/github-outside-sandbox/agents/openai.yaml",
+      "sha": "3ad7cbf6f413e2f6259cb1d8651702679778ac79"
+    },
+    {
+      "path": "skills/ops-and-setup/global-agent-guardrails/SKILL.md",
+      "sha": "a99e37295d6ce0d89cec6fa12e9ad47c00c670ac"
+    },
+    {
+      "path": "skills/ops-and-setup/google-safe-browsing/SKILL.md",
+      "sha": "27da3460d91bd2ab25f3283c28c9f60430949d36"
+    },
+    {
+      "path": "skills/ops-and-setup/macbook-metrics-setup/SKILL.md",
+      "sha": "791eeff1bbba9fdecf2a5a482bdec48258b45921"
+    },
+    {
+      "path": "skills/ops-and-setup/nuke-cursor-app/SKILL.md",
+      "sha": "659a9152f90042fefbcda12f1c5273ab2f75bd10"
+    },
+    {
+      "path": "skills/ops-and-setup/nuke-cursor-app/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/ops-and-setup/pi-custom-model/SKILL.md",
+      "sha": "8ab69a6cd8b9eeb1d573af8b5079706970c3e2e5"
+    },
+    {
+      "path": "skills/ops-and-setup/pi-custom-model/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/ops-and-setup/risky-changes/SKILL.md",
+      "sha": "5faab6c56e6bd2c75bae575a13e1fd2502c62faf"
+    },
+    {
+      "path": "skills/ops-and-setup/setup-help/SKILL.md",
+      "sha": "fd88fab1de0765c66361c11931d1f48ff818e4b8"
+    },
+    {
+      "path": "skills/ops-and-setup/setup-help/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/research-and-web/browser-harness/SKILL.md",
+      "sha": "fd30fbc67783fd7f3733e52efc9840fe76f56cc7"
+    },
+    {
+      "path": "skills/research-and-web/browser-harness/references/install.md",
+      "sha": "82e76a6cb4d950169029a221d44ffb42946bad09"
+    },
+    {
+      "path": "skills/research-and-web/deep-research/SKILL.md",
+      "sha": "a0610152f3c076a25b3d73bff180260d7694d277"
+    },
+    {
+      "path": "skills/research-and-web/deep-research/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/MANIFEST.txt",
+      "sha": "1fa724a58c75b02251551eaa5d72c2fb87273928"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/SKILL.md",
+      "sha": "d1ed7c828f1276c6343c1aa1351a1fc98eb096be"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/VERSION.txt",
+      "sha": "f826f7e7ceb13064d98b8e4171bfbb691fe79fca"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/browse-web.md",
+      "sha": "9f594c513776538a4d661cabe32b799824d066a3"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/deep-research.md",
+      "sha": "75779145bb750006517ba0f72ad3fdb30873d41b"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/generate-image.md",
+      "sha": "559b8edecd47af05a98c3f11d208a407e6de7d32"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/manage-agent-state.md",
+      "sha": "c131e044241a7ad7c76d48b016554e1934369b89"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/scraping.md",
+      "sha": "759a749c79fc353b9749a424ce43d0ea066b0885"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/send-email.md",
+      "sha": "b0aa79a0db0897bf614b56de054fa7a6b4821ba2"
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/seo.md",
+      "sha": "76ef4c2087c1fc7e5690d475d9dd732212cf6555"
+    },
+    {
+      "path": "skills/research-and-web/fireflies-transcript/SKILL.md",
+      "sha": "629a99344bf39d372408172dde9c8064323fe907"
+    },
+    {
+      "path": "skills/research-and-web/online-shopping/SKILL.md",
+      "sha": "7c0f34158d554211afe616a89e59abd1f90eeb1f"
+    },
+    {
+      "path": "skills/research-and-web/pi-web-search/SKILL.md",
+      "sha": "2ef6db505bc2d48e2052574b78619b9d5bb81de3"
+    },
+    {
+      "path": "skills/research-and-web/research-prompt/SKILL.md",
+      "sha": "afe18e0a576344c04473561357a7f2c04d9d5f39"
+    },
+    {
+      "path": "skills/research-and-web/twitter-alpha/SKILL.md",
+      "sha": "b6bf9b16e2d1dbb70300a2cba627ee8c64097982"
+    },
+    {
+      "path": "skills/research-and-web/youtube-transcript/SKILL.md",
+      "sha": "2d631a9bfa1766d582d129b4bdf8c9fbadabb8c8"
+    },
+    {
+      "path": "skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md",
+      "sha": "cd3d0b491639b1edd5544f9644bfa2c4f0f793b5"
+    },
+    {
+      "path": "skills/skill-authoring/effective-agent-skills/SKILL.md",
+      "sha": "cbd6634fcd974a75dde3681b98c2bdaa7e413a71"
+    },
+    {
+      "path": "skills/skill-authoring/folder-specific-claude-and-agents-md/SKILL.md",
+      "sha": "59ba56b7bf01b9cde8fdb27309b7a23ce7d4ce21"
+    },
+    {
+      "path": "skills/skill-authoring/push-skill-to-github/SKILL.md",
+      "sha": "909646c0692afe9c6b50eda5cce40d4369420d40"
+    },
+    {
+      "path": "skills/thinking-and-docs/ask-then-build/SKILL.md",
+      "sha": "0300b2a78d9dec8de69dc4cb93d85318bd60e598"
+    },
+    {
+      "path": "skills/thinking-and-docs/before-building/SKILL.md",
+      "sha": "28ca024e7ca68f161875f7548660ccfff6860172"
+    },
+    {
+      "path": "skills/thinking-and-docs/before-building/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/brain-to-docs/SKILL.md",
+      "sha": "e786420af86b63a45881111caecf876f759fd1ef"
+    },
+    {
+      "path": "skills/thinking-and-docs/decisions/SKILL.md",
+      "sha": "9553582d22c628e96b7a7197ce597b8a59f376ab"
+    },
+    {
+      "path": "skills/thinking-and-docs/decisions/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/level-up/SKILL.md",
+      "sha": "4719f3142c99c2f97be91cd476b4d3663882f1a4"
+    },
+    {
+      "path": "skills/thinking-and-docs/level-up/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/next-decision/SKILL.md",
+      "sha": "ace0abe2c81e04da265aa20fc65ff1cf031e6e96"
+    },
+    {
+      "path": "skills/thinking-and-docs/prompt-me/SKILL.md",
+      "sha": "d657acf7337f72e53a04513d50e6e8dbc54f23c1"
+    },
+    {
+      "path": "skills/thinking-and-docs/read-all-adrs/SKILL.md",
+      "sha": "018fa638d4d4d1b5444b32b701b20f288d809282"
+    },
+    {
+      "path": "skills/thinking-and-docs/read-all-adrs/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/remind/SKILL.md",
+      "sha": "1ff9689e8ae82fa1dc2382a43f58fb1be99e6e4f"
+    },
+    {
+      "path": "skills/thinking-and-docs/remind/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/short/SKILL.md",
+      "sha": "f1c9f163d7d575b3e4fa3df9adba4dc29bc17573"
+    },
+    {
+      "path": "skills/thinking-and-docs/short/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/stop-overthinking/SKILL.md",
+      "sha": "b7be3125fa434b6a761c581859827a6557b4c8b9"
+    },
+    {
+      "path": "skills/thinking-and-docs/stop-overthinking/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/GLOSSARY-FORMAT.md",
+      "sha": "9cae84c44c8eb5d27b8695d4ef29a2893dc4900c"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/LEARNING-RECORD-FORMAT.md",
+      "sha": "2faa7c98fabcdff48eb6bd07e4847d48a6b8d4e1"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/MISSION-FORMAT.md",
+      "sha": "5dac184a319308e2ec0c18c16d6b8d52b9be2748"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/RESOURCES-FORMAT.md",
+      "sha": "c94aac6a2634cc229fe0b777fc5cc7da3a28c3d2"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/SKILL.md",
+      "sha": "4007a2b24d89340943d30f1d14eedfd2bd79238c"
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/agents/openai.yaml",
+      "sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7"
     }
   ],
   "files_read": [
@@ -14,108 +398,491 @@
       "path": "README.md",
       "blob_sha": "c40cffc573580ebc3d071b96f23bd286a2c08a96",
       "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+      "blob_sha": "894973c34c0e52f1a149a449a5b8a4f2be9f2047",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/bb-plugins/SKILL.md",
+      "blob_sha": "dfba55b33503e69af1b58a4df4e6de0786909084",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/bb-subagents/SKILL.md",
+      "blob_sha": "769422639b1938d48714904fb356ea361b1875c0",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/cmux/SKILL.md",
+      "blob_sha": "870a249418c3f7e3efbd399e482d1f476448d5b0",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/codex-subagent/SKILL.md",
+      "blob_sha": "f96aa919d9b20b0646b373a35fe52b4fe2ec1eb7",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/SKILL.md",
+      "blob_sha": "39f78db913546a6f77e4cd5eac4d4701942dd2b5",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/fable-review/SKILL.md",
+      "blob_sha": "ad2c55b2d267885d00f745b68d6ea2accc8acb15",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/fable-safe-prompt/SKILL.md",
+      "blob_sha": "70aab185c867e02d5906e6f1a65f1452b57e5192",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/git-worktree/SKILL.md",
+      "blob_sha": "b8e4f1a367e67c9a0fd0d8f4d7d9521e2a13e6ba",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/goal-loop/SKILL.md",
+      "blob_sha": "90bcadd0a78cbffd0a81c1811dea04081e3c0bab",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/gpt-review/SKILL.md",
+      "blob_sha": "2916de7ff5cae14341270dcaddfb888612440f35",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/handoff/SKILL.md",
+      "blob_sha": "79a5a972385c1fa8480f98e6152ee9d08a28fe65",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/herdr/SKILL.md",
+      "blob_sha": "55472db1a8b78c8a08aca55395fe998624e97e80",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/launch-subagent/SKILL.md",
+      "blob_sha": "49d50f550c837254d53a25634c0ed9fd4daa88e9",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/render-images-in-cursor/SKILL.md",
+      "blob_sha": "00f3901c7724bc38dd3d7f54bcfe6949a0c14f01",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/run-deep-swe/SKILL.md",
+      "blob_sha": "d3f8d04b494a826f3d33020529960425ad9a5e8b",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/agent-orchestration/total-review/SKILL.md",
+      "blob_sha": "bdafaabcc422c4a31b0a8c096347da97014be38a",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/agentic-productivity-setup/SKILL.md",
+      "blob_sha": "bb9c4c3728ba8a7198963a70b6c10226481670b5",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/anti-sleep/SKILL.md",
+      "blob_sha": "dbf7abcec8e5f76ea24463911fff7136c5f14a30",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/create-readonly-db-role/SKILL.md",
+      "blob_sha": "9abd54c4bf8852bf75906393394be1cbd9edf7a6",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/github-outside-sandbox/SKILL.md",
+      "blob_sha": "4556906c440addbb95d205e9a66bf07ae68d6f5c",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/global-agent-guardrails/SKILL.md",
+      "blob_sha": "a99e37295d6ce0d89cec6fa12e9ad47c00c670ac",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/google-safe-browsing/SKILL.md",
+      "blob_sha": "27da3460d91bd2ab25f3283c28c9f60430949d36",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/macbook-metrics-setup/SKILL.md",
+      "blob_sha": "791eeff1bbba9fdecf2a5a482bdec48258b45921",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/nuke-cursor-app/SKILL.md",
+      "blob_sha": "659a9152f90042fefbcda12f1c5273ab2f75bd10",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/pi-custom-model/SKILL.md",
+      "blob_sha": "8ab69a6cd8b9eeb1d573af8b5079706970c3e2e5",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/risky-changes/SKILL.md",
+      "blob_sha": "5faab6c56e6bd2c75bae575a13e1fd2502c62faf",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/ops-and-setup/setup-help/SKILL.md",
+      "blob_sha": "fd88fab1de0765c66361c11931d1f48ff818e4b8",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/browser-harness/SKILL.md",
+      "blob_sha": "fd30fbc67783fd7f3733e52efc9840fe76f56cc7",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/deep-research/SKILL.md",
+      "blob_sha": "a0610152f3c076a25b3d73bff180260d7694d277",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/deepapi/SKILL.md",
+      "blob_sha": "d1ed7c828f1276c6343c1aa1351a1fc98eb096be",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/fireflies-transcript/SKILL.md",
+      "blob_sha": "629a99344bf39d372408172dde9c8064323fe907",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/online-shopping/SKILL.md",
+      "blob_sha": "7c0f34158d554211afe616a89e59abd1f90eeb1f",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/pi-web-search/SKILL.md",
+      "blob_sha": "2ef6db505bc2d48e2052574b78619b9d5bb81de3",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/research-prompt/SKILL.md",
+      "blob_sha": "afe18e0a576344c04473561357a7f2c04d9d5f39",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/twitter-alpha/SKILL.md",
+      "blob_sha": "b6bf9b16e2d1dbb70300a2cba627ee8c64097982",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/research-and-web/youtube-transcript/SKILL.md",
+      "blob_sha": "2d631a9bfa1766d582d129b4bdf8c9fbadabb8c8",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md",
+      "blob_sha": "cd3d0b491639b1edd5544f9644bfa2c4f0f793b5",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/skill-authoring/effective-agent-skills/SKILL.md",
+      "blob_sha": "cbd6634fcd974a75dde3681b98c2bdaa7e413a71",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/skill-authoring/folder-specific-claude-and-agents-md/SKILL.md",
+      "blob_sha": "59ba56b7bf01b9cde8fdb27309b7a23ce7d4ce21",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/skill-authoring/push-skill-to-github/SKILL.md",
+      "blob_sha": "909646c0692afe9c6b50eda5cce40d4369420d40",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/ask-then-build/SKILL.md",
+      "blob_sha": "0300b2a78d9dec8de69dc4cb93d85318bd60e598",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/before-building/SKILL.md",
+      "blob_sha": "28ca024e7ca68f161875f7548660ccfff6860172",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/brain-to-docs/SKILL.md",
+      "blob_sha": "e786420af86b63a45881111caecf876f759fd1ef",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/decisions/SKILL.md",
+      "blob_sha": "9553582d22c628e96b7a7197ce597b8a59f376ab",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/level-up/SKILL.md",
+      "blob_sha": "4719f3142c99c2f97be91cd476b4d3663882f1a4",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/next-decision/SKILL.md",
+      "blob_sha": "ace0abe2c81e04da265aa20fc65ff1cf031e6e96",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/prompt-me/SKILL.md",
+      "blob_sha": "d657acf7337f72e53a04513d50e6e8dbc54f23c1",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/read-all-adrs/SKILL.md",
+      "blob_sha": "018fa638d4d4d1b5444b32b701b20f288d809282",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/remind/SKILL.md",
+      "blob_sha": "1ff9689e8ae82fa1dc2382a43f58fb1be99e6e4f",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/short/SKILL.md",
+      "blob_sha": "f1c9f163d7d575b3e4fa3df9adba4dc29bc17573",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/stop-overthinking/SKILL.md",
+      "blob_sha": "b7be3125fa434b6a761c581859827a6557b4c8b9",
+      "entities_detected": 1
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/SKILL.md",
+      "blob_sha": "4007a2b24d89340943d30f1d14eedfd2bd79238c",
+      "entities_detected": 1
+    },
+    {
+      "path": "hooks/deny-dangerous.sh",
+      "blob_sha": "6d3ab1a4e3ea8e12c8a5a932b5aa25ae58d951b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "hooks/test-guard.sh",
+      "blob_sha": "841c513c03ec298368319d8bc90cc20a9ebf4700",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/scripts/corral_agents.py",
+      "blob_sha": "ab322b8e36e239699316165ea8b8b86a262be7a8",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/anti-sleep/scripts/anti-sleep.sh",
+      "blob_sha": "9a2f44408c858cd0335cb0886bd0a7beca15dbdf",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "aa4c3084927af513046779215f66b022e7602af0",
+      "entities_detected": 0
+    },
+    {
+      "path": "hooks/dangerous-patterns.txt",
+      "blob_sha": "02e930aaf9879b879475baff5142f78e2df52f2a",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/codex-subagent/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/agents/openai.yaml",
+      "blob_sha": "77a853393ec5316d8df08261aa9f598e4db8f6cf",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/batch-launches.md",
+      "blob_sha": "e80c4ef54cce9a23e790952802003b4d6640f52a",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/corral-design1.md",
+      "blob_sha": "ddb323f96a0959a1e8be4019eea428448fe307f1",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/corral-launch-agents/references/pi-agent.md",
+      "blob_sha": "b98cfbcc52fcad51f09a3efb47aac4ebd08cbcb5",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/fable-safe-prompt/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/git-worktree/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/handoff/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/agent-orchestration/run-deep-swe/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/agentic-productivity-setup/agents/openai.yaml",
+      "blob_sha": "e269dbb9e530e6574a8d41a7fbb0f4d484f07bee",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/github-outside-sandbox/agents/openai.yaml",
+      "blob_sha": "3ad7cbf6f413e2f6259cb1d8651702679778ac79",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/nuke-cursor-app/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/pi-custom-model/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/ops-and-setup/setup-help/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/browser-harness/references/install.md",
+      "blob_sha": "82e76a6cb4d950169029a221d44ffb42946bad09",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deep-research/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/MANIFEST.txt",
+      "blob_sha": "1fa724a58c75b02251551eaa5d72c2fb87273928",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/VERSION.txt",
+      "blob_sha": "f826f7e7ceb13064d98b8e4171bfbb691fe79fca",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/browse-web.md",
+      "blob_sha": "9f594c513776538a4d661cabe32b799824d066a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/deep-research.md",
+      "blob_sha": "75779145bb750006517ba0f72ad3fdb30873d41b",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/generate-image.md",
+      "blob_sha": "559b8edecd47af05a98c3f11d208a407e6de7d32",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/manage-agent-state.md",
+      "blob_sha": "c131e044241a7ad7c76d48b016554e1934369b89",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/scraping.md",
+      "blob_sha": "759a749c79fc353b9749a424ce43d0ea066b0885",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/send-email.md",
+      "blob_sha": "b0aa79a0db0897bf614b56de054fa7a6b4821ba2",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/research-and-web/deepapi/references/seo.md",
+      "blob_sha": "76ef4c2087c1fc7e5690d475d9dd732212cf6555",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/before-building/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/decisions/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/level-up/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/read-all-adrs/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/remind/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/short/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/stop-overthinking/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/GLOSSARY-FORMAT.md",
+      "blob_sha": "9cae84c44c8eb5d27b8695d4ef29a2893dc4900c",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/LEARNING-RECORD-FORMAT.md",
+      "blob_sha": "2faa7c98fabcdff48eb6bd07e4847d48a6b8d4e1",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/MISSION-FORMAT.md",
+      "blob_sha": "5dac184a319308e2ec0c18c16d6b8d52b9be2748",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/RESOURCES-FORMAT.md",
+      "blob_sha": "c94aac6a2634cc229fe0b777fc5cc7da3a28c3d2",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/thinking-and-docs/teach/agents/openai.yaml",
+      "blob_sha": "5b1f887a9138416870f64ba2fe21602e4a59cfa7",
+      "entities_detected": 0
     }
   ],
-  "unread_source_paths": [
-    "hooks/deny-dangerous.sh",
-    "hooks/test-guard.sh",
-    "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
-    "skills/agent-orchestration/bb-plugins/SKILL.md",
-    "skills/agent-orchestration/bb-subagents/SKILL.md",
-    "skills/agent-orchestration/cmux/SKILL.md",
-    "skills/agent-orchestration/codex-subagent/SKILL.md",
-    "skills/agent-orchestration/codex-subagent/agents/openai.yaml",
-    "skills/agent-orchestration/corral-launch-agents/SKILL.md",
-    "skills/agent-orchestration/corral-launch-agents/agents/openai.yaml",
-    "skills/agent-orchestration/corral-launch-agents/references/batch-launches.md",
-    "skills/agent-orchestration/corral-launch-agents/references/corral-design1.md",
-    "skills/agent-orchestration/corral-launch-agents/references/pi-agent.md",
-    "skills/agent-orchestration/corral-launch-agents/scripts/corral_agents.py",
-    "skills/agent-orchestration/fable-review/SKILL.md",
-    "skills/agent-orchestration/fable-safe-prompt/SKILL.md",
-    "skills/agent-orchestration/fable-safe-prompt/agents/openai.yaml",
-    "skills/agent-orchestration/git-worktree/SKILL.md",
-    "skills/agent-orchestration/git-worktree/agents/openai.yaml",
-    "skills/agent-orchestration/goal-loop/SKILL.md",
-    "skills/agent-orchestration/gpt-review/SKILL.md",
-    "skills/agent-orchestration/handoff/SKILL.md",
-    "skills/agent-orchestration/handoff/agents/openai.yaml",
-    "skills/agent-orchestration/herdr/SKILL.md",
-    "skills/agent-orchestration/launch-subagent/SKILL.md",
-    "skills/agent-orchestration/render-images-in-cursor/SKILL.md",
-    "skills/agent-orchestration/run-deep-swe/SKILL.md",
-    "skills/agent-orchestration/run-deep-swe/agents/openai.yaml",
-    "skills/agent-orchestration/total-review/SKILL.md",
-    "skills/ops-and-setup/agentic-productivity-setup/SKILL.md",
-    "skills/ops-and-setup/agentic-productivity-setup/agents/openai.yaml",
-    "skills/ops-and-setup/anti-sleep/SKILL.md",
-    "skills/ops-and-setup/anti-sleep/scripts/anti-sleep.sh",
-    "skills/ops-and-setup/create-readonly-db-role/SKILL.md",
-    "skills/ops-and-setup/github-outside-sandbox/SKILL.md",
-    "skills/ops-and-setup/github-outside-sandbox/agents/openai.yaml",
-    "skills/ops-and-setup/global-agent-guardrails/SKILL.md",
-    "skills/ops-and-setup/google-safe-browsing/SKILL.md",
-    "skills/ops-and-setup/macbook-metrics-setup/SKILL.md",
-    "skills/ops-and-setup/nuke-cursor-app/SKILL.md",
-    "skills/ops-and-setup/nuke-cursor-app/agents/openai.yaml",
-    "skills/ops-and-setup/pi-custom-model/SKILL.md",
-    "skills/ops-and-setup/pi-custom-model/agents/openai.yaml",
-    "skills/ops-and-setup/risky-changes/SKILL.md",
-    "skills/ops-and-setup/setup-help/SKILL.md",
-    "skills/ops-and-setup/setup-help/agents/openai.yaml",
-    "skills/research-and-web/browser-harness/SKILL.md",
-    "skills/research-and-web/browser-harness/references/install.md",
-    "skills/research-and-web/deep-research/SKILL.md",
-    "skills/research-and-web/deep-research/agents/openai.yaml",
-    "skills/research-and-web/deepapi/SKILL.md",
-    "skills/research-and-web/deepapi/references/browse-web.md",
-    "skills/research-and-web/deepapi/references/deep-research.md",
-    "skills/research-and-web/deepapi/references/generate-image.md",
-    "skills/research-and-web/deepapi/references/manage-agent-state.md",
-    "skills/research-and-web/deepapi/references/scraping.md",
-    "skills/research-and-web/deepapi/references/send-email.md",
-    "skills/research-and-web/deepapi/references/seo.md",
-    "skills/research-and-web/fireflies-transcript/SKILL.md",
-    "skills/research-and-web/online-shopping/SKILL.md",
-    "skills/research-and-web/pi-web-search/SKILL.md",
-    "skills/research-and-web/research-prompt/SKILL.md",
-    "skills/research-and-web/twitter-alpha/SKILL.md",
-    "skills/research-and-web/youtube-transcript/SKILL.md",
-    "skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md",
-    "skills/skill-authoring/effective-agent-skills/SKILL.md",
-    "skills/skill-authoring/folder-specific-claude-and-agents-md/SKILL.md",
-    "skills/skill-authoring/push-skill-to-github/SKILL.md",
-    "skills/thinking-and-docs/ask-then-build/SKILL.md",
-    "skills/thinking-and-docs/before-building/SKILL.md",
-    "skills/thinking-and-docs/before-building/agents/openai.yaml",
-    "skills/thinking-and-docs/brain-to-docs/SKILL.md",
-    "skills/thinking-and-docs/decisions/SKILL.md",
-    "skills/thinking-and-docs/decisions/agents/openai.yaml",
-    "skills/thinking-and-docs/level-up/SKILL.md",
-    "skills/thinking-and-docs/level-up/agents/openai.yaml",
-    "skills/thinking-and-docs/next-decision/SKILL.md",
-    "skills/thinking-and-docs/prompt-me/SKILL.md",
-    "skills/thinking-and-docs/read-all-adrs/SKILL.md",
-    "skills/thinking-and-docs/read-all-adrs/agents/openai.yaml",
-    "skills/thinking-and-docs/remind/SKILL.md",
-    "skills/thinking-and-docs/remind/agents/openai.yaml",
-    "skills/thinking-and-docs/short/SKILL.md",
-    "skills/thinking-and-docs/short/agents/openai.yaml",
-    "skills/thinking-and-docs/stop-overthinking/SKILL.md",
-    "skills/thinking-and-docs/stop-overthinking/agents/openai.yaml",
-    "skills/thinking-and-docs/teach/GLOSSARY-FORMAT.md",
-    "skills/thinking-and-docs/teach/LEARNING-RECORD-FORMAT.md",
-    "skills/thinking-and-docs/teach/MISSION-FORMAT.md",
-    "skills/thinking-and-docs/teach/RESOURCES-FORMAT.md",
-    "skills/thinking-and-docs/teach/SKILL.md",
-    "skills/thinking-and-docs/teach/agents/openai.yaml"
-  ],
+  "unread_source_paths": [],
   "excluded_nontext_paths": [
-    ".gitignore",
-    "LICENSE",
-    "hooks/dangerous-patterns.txt",
-    "skills/research-and-web/deepapi/MANIFEST.txt",
-    "skills/research-and-web/deepapi/VERSION.txt"
+    ".gitignore"
   ],
   "errors": [],
   "census_review_required": true,
@@ -127,8 +894,8 @@
     "hooks": 3,
     "skills": 92
   },
-  "unread_source_paths_count": 92,
+  "unread_source_paths_count": 0,
   "unread_source_paths_truncated": false,
-  "excluded_nontext_paths_count": 5,
+  "excluded_nontext_paths_count": 1,
   "excluded_nontext_paths_truncated": false
 }

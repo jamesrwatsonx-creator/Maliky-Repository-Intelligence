@@ -16,6 +16,9 @@ class DetectionTests(unittest.TestCase):
         self.assertEqual(m.detect('server.py','from fastmcp import FastMCP\nserver=FastMCP(name="voicebox")')[0]['symbol'],'voicebox')
     def test_readme_mentions_are_not_entities(self):
         self.assertEqual(m.detect('README.md','This is a powerful MCP server with 25 skills.'),[])
+    def test_readme_named_binary_asset_is_excluded(self):
+        self.assertEqual(m.priority({'path':'.github/assets/readme-hero-dark.webp'}),6)
+        self.assertEqual(m.priority({'path':'docs/README.fr.md'}),2)
     def test_multiline_skill_description(self):
         found=m.detect('SKILL.md','---\nname: editor\ndescription: |\n  Rewrite text.\n  Keep facts intact.\nlicense: MIT\n---\n')[0]
         self.assertEqual(found['description'],'Rewrite text. Keep facts intact.')
@@ -67,6 +70,21 @@ class RegistryIntegrityTests(unittest.TestCase):
         self.assertEqual(result['review_required'],'zero_static_entities')
         self.assertEqual(updated['state'],'NEEDS_REVIEW')
         self.assertEqual(updated['next_phase'],'SEMANTIC_CENSUS_REVIEW')
+    def test_nonzero_static_entities_remain_semantic_candidates(self):
+        r=self.repo(); r['inspected_commit']='a'*40; r['unread_source_files']=0
+        r['entity_census']={'SKILL':{'detected':1,'catalogued':1,'reviewed':False}}
+        m.write(m.repo_file(r),r)
+        entity=m.entity_record(r,'a'*40,{'path':'SKILL.md','sha':'b'*40},{'type':'SKILL','symbol':'test','description':'Does work','line':1})
+        m.write('registry/entities/'+entity['id'].split(':')[1]+'.json',entity)
+        m.write('system/evidence/1.json',{'inspected_commit':'a'*40,'tree_complete':True,
+                'files_read':[{'path':'SKILL.md','blob_sha':'b'*40}],'unread_source_paths':[],'errors':[]})
+        result=promotion.promote(r)
+        updated=m.read(m.repo_file(r)); reviewed=m.records('entities')[0]
+        self.assertEqual(result['review_required'],'semantic')
+        self.assertEqual(updated['state'],'NEEDS_REVIEW')
+        self.assertEqual(updated['next_phase'],'CAPABILITY_ANALYSIS')
+        self.assertEqual(reviewed['review_status'],'NEEDS_REVIEW')
+        self.assertFalse(updated['entity_census']['SKILL']['reviewed'])
     def test_missing_provenance_schema_is_rejected(self):
         self.repo(); m.write('registry/entities/bad.json',{'id':'entity:'+'b'*24,'entity_type':'SKILL','name':'Bad'})
         report=m.validate(); self.assertFalse(report['valid']); self.assertEqual(report['stage'],'schema')

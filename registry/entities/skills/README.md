@@ -1,6 +1,6 @@
 # Skill
 
-3036 individually addressable records. Each link opens the canonical record.
+3155 individually addressable records. Each link opens the canonical record.
 
 - [Records 1–250](page-0001.md)
 - [Records 251–500](page-0002.md)
@@ -14,4 +14,4 @@
 - [Records 2251–2500](page-0010.md)
 - [Records 2501–2750](page-0011.md)
 - [Records 2751–3000](page-0012.md)
-- [Records 3001–3036](page-0013.md)
+- [Records 3001–3155](page-0013.md)

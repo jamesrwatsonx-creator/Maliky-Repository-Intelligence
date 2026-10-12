@@ -1,7 +1,8 @@
-"""Deterministic lean promotion for fully extracted public repositories.
+"""Prepare pinned source declarations as semantic-review candidates.
 
-It promotes only entities whose pinned source declaration is already represented
-in canonical evidence.  It intentionally makes no unverified product claims.
+Static declarations are useful evidence, but repository policy forbids treating
+their detection as automatic semantic completion.  This stage adds conservative
+candidate metadata and then leaves the repository in the lean review queue.
 """
 from __future__ import annotations
 
@@ -48,6 +49,7 @@ def promote(repo, dry_run=False):
     if repo.get('unread_source_files', 0):
         return {'repository':repo['full_name'],'skipped':'source coverage incomplete'}
     evidence = r.read('system/evidence/'+str(repo['github_id'])+'.json', {})
+    unresolved_errors = [error for error in evidence.get('errors', []) if not error.get('review_resolution')]
     known = {f['path']: f['blob_sha'] for f in evidence.get('files_read', [])}
     entities = [e for e in r.records('entities') if e['source']['repository_id']==repo['id'] and e['source']['inspected_commit']==repo['inspected_commit']]
     # A complete read with no declaration candidates is not evidence that the
@@ -94,17 +96,18 @@ def promote(repo, dry_run=False):
         recommendation = RECOMMENDATION.get(entity['entity_type'], 'REFERENCE')
         entity.update({
             'description':description,
-            'review_status':'VERIFIED',
+            'review_status':'NEEDS_REVIEW',
             'categories':sorted(set(entity.get('categories',[])+[category])),
             'capabilities':sorted(set(entity.get('capabilities',[])+[cap_id])),
-            'recommendation':recommendation,
+            'recommendation':'NEEDS DEEPER REVIEW',
             'metadata':{**entity.get('metadata',{}), 'review_policy':'LEAN',
                         'standalone':'PARTIAL',
-                        'semantic_review':'Deterministic source-declaration promotion; runtime not tested.'},
+                        'semantic_review':'Static source-declaration candidate; semantic review pending.',
+                        'candidate_recommendation':recommendation},
         })
         capability = r.read('registry/capabilities/'+slug+'.json') or {
             'id':cap_id, 'name':entity['name'], 'aliases':[entity['name'].lower()],
-            'status':'VERIFIED', 'verification_scope':'Pinned source declaration; runtime not tested',
+            'status':'CANDIDATE', 'verification_scope':'Pinned source declaration; semantic review pending',
             'providers':[], 'evidence':entity['evidence'],
         }
         capability['providers']=sorted(set(capability.get('providers',[])+[entity['id']]))
@@ -120,20 +123,26 @@ def promote(repo, dry_run=False):
         counts=collections.Counter(e['entity_type'] for e in entities)
         for kind, census in list(repo.setdefault('entity_census',{}).items()):
             count=counts[kind]
-            repo['entity_census'][kind]={**census,'detected':max(census.get('detected',0),count),'catalogued':count,'reviewed':True,'detection_scope':'pinned source declarations'}
+            repo['entity_census'][kind]={**census,'detected':max(census.get('detected',0),count),'catalogued':count,'reviewed':False,'detection_scope':'pinned source declarations; semantic review pending'}
         for kind, count in counts.items():
             if kind not in repo['entity_census']:
-                repo['entity_census'][kind]={'detected':count,'catalogued':count,'reviewed':True,'detection_scope':'pinned source declarations'}
-        repo.update({'state':'COMPLETE','next_phase':'COMPLETE',
+                repo['entity_census'][kind]={'detected':count,'catalogued':count,'reviewed':False,'detection_scope':'pinned source declarations; semantic review pending'}
+        reason = 'source_parse_errors' if unresolved_errors else 'static_candidates_require_semantic_review'
+        next_phase = 'SOURCE_EVIDENCE_REVIEW' if unresolved_errors else 'CAPABILITY_ANALYSIS'
+        repo.update({'state':'NEEDS_REVIEW','next_phase':next_phase,
                      'capabilities':sorted({c for e in entities for c in (r.read('registry/entities/'+e['id'].split(':',1)[1]+'.json') or e).get('capabilities',[])}),
-                     'recommendation':'USE DIRECTLY',
-                     'semantic_review_progress':{'status':'COMPLETE','review_policy':'LEAN','reviewer':'deterministic source-declaration promotion','completed_at':r.now()},
+                     'recommendation':'NEEDS DEEPER REVIEW',
+                     'review_reason':'Static declarations were prepared as candidates; lean semantic review is still required.',
+                     'semantic_review_progress':{'status':'PENDING','review_policy':'LEAN','reason':reason,
+                                                 'candidate_entity_count':len(entities),
+                                                 'source_errors':unresolved_errors},
         })
-        repo.setdefault('phases',{}).update({'structure':True,'entity_extraction':True,'capability_analysis':True,'validation':True})
+        repo.setdefault('phases',{}).update({'structure':True,'entity_extraction':False,'capability_analysis':False,'validation':False})
         repo.setdefault('deep_review',{}).setdefault('completed',False)
     if not dry_run:
         r.write(r.repo_file(repo),repo)
-    return {'repository':repo['full_name'],'promoted':promoted,'deferred':len(deferred),'state':repo['state']}
+    return {'repository':repo['full_name'],'candidates_prepared':promoted,'deferred':len(deferred),'state':repo['state'],
+            'review_required':'semantic' if not deferred else 'source_evidence'}
 
 
 def main():
