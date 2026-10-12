@@ -28,7 +28,7 @@
       "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57"
     }
   ],
-  "review_status": "VERIFIED",
+  "review_status": "NEEDS_REVIEW",
   "categories": [
     "category:apis",
     "category:backend-services"
@@ -36,7 +36,8 @@
   "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:queued-speech-generation-submission"
+    "capability:queued-speech-generation-submission",
+    "capability:voicebox-api-generate-speech"
   ],
   "studios": [
     "studio:voice-studio",
@@ -53,11 +54,15 @@
       "Compatible voice profile",
       "Installed inference engine and cached model",
       "Database and initialized generation queue"
-    ]
+    ],
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Static source-declaration candidate; semantic review pending.",
+    "candidate_recommendation": "INTEGRATE VIA API"
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "INTEGRATE VIA API",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "contribution_role": "SERVICE"
 }

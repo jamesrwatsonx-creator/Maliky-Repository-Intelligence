@@ -16,5 +16,5 @@ def main():
                   'Comparable to other frontier open-weight models; Kimi Code CLI is the recommended agent framework',['category:machine-learning-models','category:llm-projects','category:generative-ai'],
                   extra={'license':'Kimi K3 License (custom terms; not reviewed here)','reasoning_effort':['low','high','max'],'recommended_inference':['vLLM','SGLang','TokenSpeed'],'weights_location':'https://huggingface.co/moonshotai/Kimi-K3'})
     print(review.finalize(['category:machine-learning-models','category:llm-projects','category:generative-ai'],[],'LICENSE REVIEW REQUIRED','operational:15',
-        {'MODEL':'Model card only; one MODEL entity'},details=['Benchmark tables, tech report PDF and logo assets','LICENSE terms were not read (file not in the read set); custom license requires review before commercial use']))
+        {'MODEL':'Model card only; one MODEL entity'},details=['Benchmark tables, tech report PDF and logo assets','LICENSE terms were not read (file not in the read set); custom license requires review before commercial use'],blocker='LICENSE_REVIEW'))
 if __name__=='__main__':main()

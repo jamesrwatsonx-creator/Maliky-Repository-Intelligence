@@ -356,10 +356,19 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         if r.get('inspected_commit')!=commit and r.get('inspected_commit'):
             archive_record(r); r['previous_inspected_commit']=r['inspected_commit']; r['phases']={k:False for k in r['phases']}; r['deep_review']={'completed':False,'reviewer':None,'evidence':[]}
             r['inspection_date']=now()
-        if r['state']=='COMPLETE' and r.get('inspected_commit')==commit:
+        existing_evidence=read('system/evidence/'+str(r['github_id'])+'.json',{})
+        source_coverage_pending=bool(existing_evidence.get('unread_source_paths') or existing_evidence.get('errors'))
+        if r['state']=='COMPLETE' and r.get('inspected_commit')==commit and not source_coverage_pending:
             write(repo_file(r),r); return {'repo':full_name,'skipped':'COMPLETE at current commit'}
-        if r.get('inspected_commit')==commit and ((structure_only and r['phases']['structure']) or r['phases']['entity_extraction']):
-            write(repo_file(r),r); return {'repo':full_name,'skipped':'Requested phase already complete at inspected commit','next_phase':r.get('next_phase')}
+        if r.get('inspected_commit')==commit and ((structure_only and r['phases']['structure']) or (r['phases']['entity_extraction'] and not source_coverage_pending)):
+            # A semantic review may need the local, content-addressed snapshot
+            # even when extraction for this commit was completed earlier.
+            if snapshot and not offline:
+                cached_tree=read(cache_path(r,commit)/'tree.json')
+                tree=cached_tree or get_tree(r,commit)
+                entries=[e for e in tree['tree'] if e['type']=='blob' and e.get('mode')!='120000']
+                cache_snapshot(r,commit,entries)
+            write(repo_file(r),r); return {'repo':full_name,'skipped':'Requested phase already complete at inspected commit','next_phase':r.get('next_phase'),'snapshot_refreshed':bool(snapshot and not offline)}
         tree=read(cache_path(r,commit)/'tree.json') if offline else get_tree(r,commit)
         if not tree: raise RuntimeError('No tree cache available')
         entries=[e for e in tree['tree'] if e['type']=='blob' and e.get('mode')!='120000']

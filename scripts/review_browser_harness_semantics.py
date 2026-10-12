@@ -47,7 +47,7 @@ def describe(text,fallback):
 def main():
     repo=next(x for x in r.records('repositories') if x['full_name']==REPOSITORY)
     if repo['inspected_commit']!=COMMIT: raise ValueError('browser-harness commit changed; preserve this review and queue a new revision')
-    source_dir=pathlib.Path(os.environ['BH_SOURCE_DIR'])
+    source_dir=pathlib.Path(os.environ['BH_SOURCE_DIR']) if os.environ.get('BH_SOURCE_DIR') else None
     evidence=r.read('system/evidence/'+str(repo['github_id'])+'.json')
     verified={p['path']:p['blob_sha'] for p in evidence['files_read']}
     tree={e['path']:e for e in evidence['tree_entries']}
@@ -55,7 +55,9 @@ def main():
         if verified.get(path)!=tree[path]['sha']: raise ValueError('Verified evidence missing for '+path)
         return tree[path]
     def text(path):
-        data=(source_dir/path).read_bytes()
+        source=(source_dir/path) if source_dir else r.ROOT/r.cache_path(repo,COMMIT)/'blobs'/tree[path]['sha']
+        if not source.exists(): raise ValueError('Pinned snapshot is incomplete; refresh with --snapshot: '+path)
+        data=source.read_bytes()
         if r.git_blob(data)!=tree[path]['sha']: raise ValueError('Fetched file does not match pinned blob: '+path)
         return data.decode('utf-8')
     existing={(e['entity_type'],e['name']):e for e in r.records('entities') if e['source']['repository_id']==repo['id'] and e['source']['inspected_commit']==COMMIT}

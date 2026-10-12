@@ -58,7 +58,9 @@ def main():
     from registry import records
     repo=next(x for x in records('repositories') if x['full_name']=='jamesrwatsonx-creator/ECC')
     review=LeanReview('jamesrwatsonx-creator/ECC',repo['inspected_commit'])
-    review.load_tarball(os.environ['ECC_TARBALL'],wanted=lambda n:not n.startswith(('docs/','tests/')))
+    wanted=lambda n:not n.startswith(('docs/','tests/'))
+    if os.environ.get('ECC_TARBALL'): review.load_tarball(os.environ['ECC_TARBALL'],wanted=wanted)
+    else: review.load_snapshot(wanted=wanted)
     # ---- skills and agents: one canonical entity per name
     for kind,groups,noun,cap_prefix in (('SKILL',SKILL_GROUPS,'skills','ecc-skills-'),('AGENT',None,'agents','ecc-agents-')):
         by=collections.defaultdict(list)

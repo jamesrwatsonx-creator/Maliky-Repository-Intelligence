@@ -73,14 +73,24 @@ def main():
     empty_skills={e['source']['source_path'] for e in existing if e['entity_type']=='SKILL' and not e['description']}
     wanted=lambda n:(n.startswith('library/') and n.endswith('.js') and '/skills/' not in n and '/agents/' not in n) or n.endswith('package.json') or n.startswith('packages/sdk/src/mcp/tools/') or n in empty_skills
     files={}
-    with tarfile.open(os.environ['BS_TARBALL']) as archive:
-        for member in archive:
-            if not member.isfile(): continue
-            name=member.name.split('/',1)[1]
-            if wanted(name) and name in tree:
-                data=archive.extractfile(member).read()
-                if r.git_blob(data)!=tree[name]['sha']: raise ValueError('Tarball file does not match pinned blob: '+name)
-                files[name]=data.decode('utf-8','replace')
+    if os.environ.get('BS_TARBALL'):
+        with tarfile.open(os.environ['BS_TARBALL']) as archive:
+            for member in archive:
+                if not member.isfile(): continue
+                name=member.name.split('/',1)[1]
+                if wanted(name) and name in tree:
+                    data=archive.extractfile(member).read()
+                    if r.git_blob(data)!=tree[name]['sha']: raise ValueError('Tarball file does not match pinned blob: '+name)
+                    files[name]=data.decode('utf-8','replace')
+    else:
+        blob_dir=r.ROOT/r.cache_path(repo,COMMIT)/'blobs'
+        for name,item in tree.items():
+            if not wanted(name): continue
+            blob=blob_dir/item['sha']
+            if not blob.exists(): raise ValueError('Pinned snapshot is incomplete; refresh with --snapshot: '+name)
+            data=blob.read_bytes()
+            if r.git_blob(data)!=item['sha']: raise ValueError('Cached file does not match pinned blob: '+name)
+            files[name]=data.decode('utf-8','replace')
     caps={};out={};removed=[];providers_by_cap=caps
     def add_cap(cap,name,aliases,entity_id,path):
         info=caps.setdefault(cap,{'name':name,'aliases':set(),'providers':[],'path':path});info['aliases'].update(aliases);info['providers'].append(entity_id)

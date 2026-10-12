@@ -43,9 +43,12 @@ def main():
     census=repo['entity_census'];census['MCP_SERVER']={'detected':1,'catalogued':1,'detection_scope':'semantic source review of FastMCP named constructor and mount','reviewed':True}
     census['TOOL']={**census['TOOL'],'reviewed':True,'detection_scope':'semantic source review of four FastMCP decorators'}
     census['SERVICE']={**census['SERVICE'],'reviewed':True}
-    repo['semantic_review_progress']={'started_at':r.now(),'reviewer':'Codex static semantic review','confirmed_entity_ids':[server['id']]+[entities[name]['id'] for name in expected],
+    active=[e for e in r.records('entities') if e['source']['repository_id']==repo['id'] and e['source']['inspected_commit']==commit]
+    repo['capabilities']=sorted({cap for entity in active for cap in entity.get('capabilities',[])})
+    repo['entity_count']=len(active)
+    repo['semantic_review_progress']={'started_at':r.now(),'reviewer':'Automated lean static review','confirmed_entity_ids':[server['id']]+[entities[name]['id'] for name in expected],
                                       'confirmed_capabilities':['capability:voice-mcp-server-exposure','capability:queued-speech-generation-submission','capability:local-audio-transcription','capability:voice-capture-history-discovery','capability:voice-profile-discovery'],
-                                      'pending':['Reconcile 123 HTTP route candidates, excluding tests and generated clients where appropriate','Review 118 UI component candidates for reusable boundaries','Review 4 Skills, 3 workflows and 7 packages','Score, map relationships and complete the independent census']}
+                                      'pending':['Reconcile 123 HTTP route candidates, excluding tests and generated clients where appropriate','Review 118 UI component candidates for reusable boundaries','Review 4 Skills, 3 workflows and 7 packages','Map relationships and complete the independent census']}
     repo['state']='NEEDS_REVIEW';repo['next_phase']='SEMANTIC_CENSUS_REVIEW';repo['phases']['entity_extraction']=False;repo['phases']['capability_analysis']=False;repo['phases']['deep_review']=False;repo['phases']['validation']=False
     r.write(r.repo_file(repo),repo)
     lines=['# Voicebox semantic review checkpoint','',f'Pinned commit: `{commit}`. Static source review only; no target code was executed.','',

@@ -10,7 +10,10 @@ from lean_review_lib import LeanReview
 def main():
     review=LeanReview('jamesrwatsonx-creator/humanizer','e2e92e7b4b8229253ed5c8e81dc65463fdeddda5')
     skill=review.find('SKILL','humanizer')[0]
-    review.out[skill['id']]=skill
+    review.finish(skill,skill['description'],[
+        ('prompt-guided-prose-style-revision','Prompt-guided prose style revision',['humanize prose','AI-style prose cleanup']),
+        ('writing-sample-style-matching','Writing-sample style matching',['match a supplied writing sample'])],
+        'USE DIRECTLY','operational:01','SKILL','PARTIAL',['Agent host that loads SKILL.md skills'],categories=['category:marketing-communications','category:skills'],studios=['studio:office-docs'])
     plugin=review.find('PLUGIN','humanizer')[0]
     review.finish(plugin,'Claude Code plugin manifest (humanizer 2.11.2, MIT) exposing the humanizer skill from the repository root.',[('prompt-guided-prose-style-revision','Prompt-guided prose style revision',[])],'USE DIRECTLY','operational:01','MODULE','YES',['Claude Code plugin support (the skill also works on its own)'],categories=['category:skills'])
     workflow=review.find('WORKFLOW','Check package')[0]

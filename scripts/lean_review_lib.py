@@ -22,7 +22,10 @@ class LeanReview:
         self.base='https://github.com/'+full_name+'/blob/'+commit+'/'
         self.existing=[e for e in r.records('entities') if e['source']['repository_id']==self.repo['id'] and e['source']['inspected_commit']==commit]
         self.files={};self.caps={};self.out={};self.removed=[];self.edges=[];self.seen_sha={}
-        if tarball_env: self.load_tarball(os.environ[tarball_env])
+        if tarball_env:
+            tarball=os.environ.get(tarball_env)
+            if tarball: self.load_tarball(tarball)
+            else: self.load_snapshot()
 
     def url(self,path,line=1): return self.base+path+'#L'+str(line)
     def entry(self,path):
@@ -37,6 +40,23 @@ class LeanReview:
                     data=archive.extractfile(member).read()
                     if r.git_blob(data)!=self.tree[name]['sha']: raise ValueError('Tarball file does not match pinned blob: '+name)
                     self.files[name]=data.decode('utf-8','replace')
+    def load_snapshot(self,wanted=lambda name:True):
+        """Load the pinned, content-addressed source snapshot without executing it."""
+        blob_dir=r.ROOT/r.cache_path(self.repo,self.commit)/'blobs'
+        missing=[]
+        for name,entry in self.tree.items():
+            # Public evidence manifests intentionally retain only path+SHA for
+            # files read.  A missing type therefore denotes a verified blob,
+            # while an explicit non-blob tree entry remains excluded.
+            if entry.get('type','blob')!='blob' or not wanted(name): continue
+            path=blob_dir/entry['sha']
+            if not path.exists():
+                missing.append(name);continue
+            data=path.read_bytes()
+            if r.git_blob(data)!=entry['sha']: raise ValueError('Cached file does not match pinned blob: '+name)
+            self.files[name]=data.decode('utf-8','replace')
+        if missing:
+            raise ValueError('Pinned snapshot is incomplete (%d missing files); refresh with --snapshot: %s'%(len(missing),', '.join(missing[:5])))
     def make(self,kind,symbol,path,line=1):
         return r.entity_record(self.repo,self.commit,self.entry(path),{'type':kind,'symbol':symbol,'description':'','line':line})
     def find(self,kind,name=None,path=None):
@@ -83,7 +103,7 @@ class LeanReview:
             if kept: r.write('registry/capabilities/'+file.name,{**record,'providers':kept})
             else: file.unlink()
 
-    def finalize(self,categories,studios,recommendation,operational,notes,deep_review='',details=(),ideas=()):
+    def finalize(self,categories,studios,recommendation,operational,notes,deep_review='',details=(),ideas=(),blocker=''):
         self.write_capabilities();self.prune_orphan_capabilities()
         by_kind={}
         for e in self.out.values(): by_kind[e['entity_type']]=by_kind.get(e['entity_type'],0)+1
@@ -99,10 +119,15 @@ class LeanReview:
         repo['capabilities']=sorted({c for e in self.out.values() for c in e['capabilities']})
         repo['categories']=list(categories);repo['studios']=list(studios);repo['ideas']=list(ideas);repo['recommendation']=recommendation;repo['operational_category']=operational
         repo['entity_count']=len(self.out);repo['phases'].update({'entity_extraction':True,'capability_analysis':True})
-        repo['state']='NEEDS_REVIEW';repo['next_phase']='CAPABILITY_ANALYSIS'
+        if blocker:
+            repo['state']='NEEDS_REVIEW';repo['next_phase']=blocker;repo['phases']['validation']=False
+            repo['review_reason']=blocker
+        else:
+            repo['state']='COMPLETE';repo['next_phase']='COMPLETE';repo['phases']['validation']=True
+            repo.pop('review_reason',None)
         progress={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(self.out),'removed_entity_ids':self.removed,
                   'confirmed_capabilities':repo['capabilities'],'implementation_details_not_catalogued':list(details)}
         if deep_review: progress['scoped_deep_review']=deep_review
         repo['semantic_review_progress']=progress
         r.write(r.repo_file(repo),repo)
-        return {'repository':self.full_name,'entities':len(self.out),'by_type':by_kind,'removed':len(self.removed),'capabilities':len(repo['capabilities'])}
+        return {'repository':self.full_name,'entities':len(self.out),'by_type':by_kind,'removed':len(self.removed),'capabilities':len(repo['capabilities']),'state':repo['state']}

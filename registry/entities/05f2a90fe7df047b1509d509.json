@@ -28,7 +28,7 @@
       "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/services/task_queue.py#L24"
     }
   ],
-  "review_status": "VERIFIED",
+  "review_status": "NEEDS_REVIEW",
   "categories": [
     "category:backend-services",
     "category:message-event-systems"
@@ -36,7 +36,8 @@
   "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:serial-speech-job-scheduling"
+    "capability:serial-speech-job-scheduling",
+    "capability:voicebox-service-serial-generation-queue"
   ],
   "studios": [
     "studio:voice-studio"
@@ -46,11 +47,15 @@
     "review_method": "Static source review",
     "reviewed_at": "2026-09-20T05:40:46.531443+00:00",
     "runtime_tested": false,
-    "limitations": "Describes the inspected implementation or prompt contract; performance, security and production readiness are not established."
+    "limitations": "Describes the inspected implementation or prompt contract; performance, security and production readiness are not established.",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Static source-declaration candidate; semantic review pending.",
+    "candidate_recommendation": "INTEGRATE AS SERVICE"
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "EXTRACT COMPONENTS",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "contribution_role": "MODULE"
 }

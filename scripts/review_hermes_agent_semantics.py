@@ -80,7 +80,9 @@ def humanize(name): return re.sub(r'(?<=[a-z0-9])(?=[A-Z])',' ',name).replace('_
 def main():
     review=LeanReview('jamesrwatsonx-creator/hermes-agent','261a4efb90d7dbe4e71786861858f721b4ab730c')
     import os
-    review.load_tarball(os.environ['HERMES_TARBALL'],wanted=lambda n:not n.startswith(SKIP_PREFIXES) or n.startswith(('plugins/',)))
+    wanted=lambda n:not n.startswith(SKIP_PREFIXES) or n.startswith(('plugins/',))
+    if os.environ.get('HERMES_TARBALL'): review.load_tarball(os.environ['HERMES_TARBALL'],wanted=wanted)
+    else: review.load_snapshot(wanted=wanted)
     seen=set()
     # ---- core components
     core={}
