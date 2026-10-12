@@ -1,5 +1,12 @@
 # Claude Code Handoff
 
+> **Recovery supersession — 2026-10-12:** The local V1 history newer than
+> `0728b37b50addec86aa1919467c971799bad8a49` was lost during workspace
+> maintenance and could not be recovered from accessible Git objects or archives.
+> Read `CURRENT-STATUS.md` and `docs/RECOVERY-2026-10-12.md` before relying on
+> historical counts below. The active branch is `recovery/v1-rebuild`; regenerate
+> canonical machine state from pinned source evidence, never from these counts.
+
 ## Durable state
 
 - Repository: `jamesrwatsonx-creator/Maliky-Repository-Intelligence`

@@ -44,6 +44,27 @@ def public_repo(meta):
 def blank_repo(meta):
     return {'id':'repository:'+str(meta['id']),'github_id':meta['id'],'entity_type':'REPOSITORY','name':meta['name'],'full_name':meta['full_name'],'url':meta['html_url'],'owner':OWNER,'visibility':'public','affiliation':'FORKED_UNDER_USER_ACCOUNT' if meta['fork'] else 'OWNED','fork':meta['fork'],'default_branch':meta['default_branch'],'upstream_url':meta.get('parent',{}).get('html_url'),'description':meta.get('description') or '', 'metadata':{'language':meta.get('language'),'license':(meta.get('license') or {}).get('spdx_id'),'archived':meta['archived'],'pushed_at':meta['pushed_at']},'state':'DISCOVERED','inspected_commit':None,'current_commit':None,'inspection_date':None,'categories':[],'operational_category':'operational:25','secondary_operational_categories':[],'capabilities':[],'studios':[],'ideas':[],'scores':{},'tier':None,'tier_reason':None,'recommendation':'NEEDS DEEPER REVIEW','entity_census':{},'deep_review':{'completed':False,'reviewer':None,'evidence':[]},'phases':{'structure':False,'entity_extraction':False,'capability_analysis':False,'deep_review':False,'validation':False}}
 
+def intake_record(full_name):
+    """Register one owned public repository without re-running global discovery."""
+    meta=gh('repos/'+full_name)
+    if meta.get('owner',{}).get('login') != OWNER:
+        raise RuntimeError('Repository is not owned by configured account')
+    if meta.get('private') or meta.get('visibility','public') != 'public':
+        # Public state deliberately contains no private identity or metadata.
+        write('.local/intake-private.json', {'received_at':now(),'identity':full_name,'github_id':meta.get('id'),'status':'PRIVATE_OR_RESTRICTED'})
+        return None
+    repo=read(repo_file({'github_id':meta['id']})) or blank_repo(meta)
+    fresh=blank_repo(meta)
+    for key in ('name','full_name','url','owner','visibility','affiliation','fork','default_branch','description','metadata','upstream_url'):
+        repo[key]=fresh[key]
+    repo['visibility_verified_at']=now()
+    write(repo_file(repo),repo)
+    manifest=read('system/discovery-manifest.json',{})
+    public=[x for x in manifest.get('repositories',[]) if x.get('id')!=repo['id']]
+    public.append({'id':repo['id'],'github_id':repo['github_id'],'full_name':repo['full_name'],'visibility':'public','affiliation':repo['affiliation']})
+    write('system/discovery-manifest.json',{**manifest,'repositories':sorted(public,key=lambda x:x['id']),'intake_updated_at':now(),'private_policy':'Aggregate counts only; identifiers and evidence excluded from public files'})
+    return repo
+
 def discover(input_path=None):
     if input_path:
         pages=json.loads(pathlib.Path(input_path).read_text(encoding='utf-8-sig'))
@@ -292,7 +313,16 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
             commit=r.get('inspected_commit') or r.get('legacy_cache',{}).get('commit')
             if not commit: raise RuntimeError('No pinned cache available')
         else:
-            meta=gh(f'repos/{full_name}')
+            try:
+                meta=gh(f'repos/{full_name}')
+            except RuntimeError:
+                # A pinned cache is valid evidence when live GitHub metadata is
+                # throttled/unavailable.  Preserve that distinction on the repo.
+                if r.get('inspected_commit') and read(cache_path(r,r['inspected_commit'])/'tree.json'):
+                    r.setdefault('metadata',{})['live_metadata']='UNAVAILABLE_USING_PINNED_CACHE'
+                    write(repo_file(r),r)
+                    return ingest(full_name,offline=True,max_files=max_files,structure_only=structure_only,snapshot=snapshot)
+                raise
             if not public_repo(meta): raise RuntimeError('Source no longer verified public and owned; publication blocked')
             r['visibility_verified_at']=now(); r['upstream_url']=(meta.get('parent') or {}).get('html_url')
             try:
@@ -302,6 +332,7 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
                     r['state']='NEEDS_REVIEW'; r['empty_repository']=True; r['empty_confirmed_at']=now(); r['next_phase']='EMPTY_REPOSITORY_DISPOSITION'; write(repo_file(r),r); return {'repo':full_name,'state':r['state'],'empty':True}
                 raise
             commit=head['sha']; write(cache_path(r,commit)/'commit.json',head)
+            r.setdefault('metadata',{})['live_metadata']='FRESH'
         r['current_commit']=commit
         if r.get('inspected_commit')!=commit and r.get('inspected_commit'):
             archive_record(r); r['previous_inspected_commit']=r['inspected_commit']; r['phases']={k:False for k in r['phases']}; r['deep_review']={'completed':False,'reviewer':None,'evidence':[]}
@@ -421,12 +452,14 @@ def build():
             if d.get('metadata',{}).get(dim): index[d['metadata'][dim]].append(d['id'])
         write('registry/indexes/'+dim+'.json',dict(index))
     queue=[{'repository_id':r['id'],'repository':r['full_name'],'state':r['state'],'next_phase':r.get('next_phase','STRUCTURE'),'inspected_commit':r['inspected_commit']} for r in repos if r['state']!='COMPLETE']
-    phase_priority={'SEMANTIC_CENSUS_REVIEW':0,'ENTITY_EXTRACTION':1,'STRUCTURE':2,'EMPTY_REPOSITORY_DISPOSITION':3}
+    phase_priority={'CAPABILITY_ANALYSIS':0,'SEMANTIC_CENSUS_REVIEW':0,'ENTITY_EXTRACTION':1,'STRUCTURE':2,'EMPTY_REPOSITORY_DISPOSITION':3}
     queue.sort(key=lambda item:(item['repository']==SELF,phase_priority.get(item['next_phase'],2),item['repository_id']))
-    stats={'generated_at':now(),'public_repository_records':len(repos),'active_entity_records':len(active),'historical_entity_records':len(entities)-len(active),'entity_types':dict(collections.Counter(e['entity_type'] for e in active)),'repositories_by_state':dict(collections.Counter(r['state'] for r in repos)),'complete_trees':sum(r['phases']['structure'] for r in repos),'verified_source_files_read':sum(r.get('files_read',0) for r in repos),'verified_capabilities':sum(c['status']=='VERIFIED' for c in caps),'search_documents':len(docs),'pending_repositories':len(queue),'completion_policy':'Structural readiness is separate from semantic coverage. No candidate is automatically COMPLETE.'}
+    decisions=read('system/decision-records.json',[]) or []
+    stats={'generated_at':now(),'public_repository_records':len(repos),'active_entity_records':len(active),'historical_entity_records':len(entities)-len(active),'entity_types':dict(collections.Counter(e['entity_type'] for e in active)),'repositories_by_state':dict(collections.Counter(r['state'] for r in repos)),'complete_trees':sum(r['phases']['structure'] for r in repos),'verified_source_files_read':sum(r.get('files_read',0) for r in repos),'verified_capabilities':sum(c['status']=='VERIFIED' for c in caps),'search_documents':len(docs),'pending_repositories':len(queue),'completion_policy':'V1 uses lean semantic completion; scores and universal deep review are not completion gates. Source evidence remains canonical.'}
     stats['verified_entity_records']=sum(e['review_status']=='VERIFIED' for e in active)
     stats['candidate_entity_records']=sum(e['review_status']=='NEEDS_REVIEW' for e in active)
     stats['confirmed_empty_repositories']=sum(bool(r.get('empty_confirmed_at')) for r in repos)
+    stats['decision_records']=dict(collections.Counter(d.get('status','UNKNOWN') for d in decisions))
     write('system/statistics.json',stats); write('system/inspection-state.json',{'generated_at':now(),'queue':queue,'next':queue[0] if queue else None})
     return stats
 
@@ -523,10 +556,10 @@ def validate():
             if census['catalogued']!=counts[kind]: errors.append(prefix+': census count mismatch '+kind)
             if census['detected']<census['catalogued']: errors.append(prefix+': detection count below catalogued '+kind)
         if r['state']=='COMPLETE':
-            if not all(r['phases'].values()) or not r['deep_review']['completed'] or not r['deep_review'].get('reviewer') or not r['deep_review'].get('evidence'): errors.append(prefix+': completion lacks reviewed phases')
-            if not r.get('entity_census') or any(c['detected']!=c['catalogued'] or not c['reviewed'] for c in r['entity_census'].values()): errors.append(prefix+': unreconciled census')
+            required_phases=('structure','entity_extraction','capability_analysis','validation')
+            if any(not r.get('phases',{}).get(phase) for phase in required_phases): errors.append(prefix+': completion lacks required lean phases')
+            if not r.get('entity_census') or any(c['detected']<c['catalogued'] or not c['reviewed'] for c in r['entity_census'].values()): errors.append(prefix+': unreconciled lean census')
             if evidence.get('unread_source_paths') or evidence.get('errors') or not evidence.get('tree_complete'): errors.append(prefix+': incomplete source coverage')
-            if set(r['scores'])!=set(vocab['score_dimensions']) or not r.get('tier_reason'): errors.append(prefix+': completion lacks justified scores/tier')
             if any(e['review_status']!='VERIFIED' for e in current_ents): errors.append(prefix+': unreviewed entities')
     for e in entities:
         s=e.get('source',{}); repo=by_id.get(s.get('repository_id'))

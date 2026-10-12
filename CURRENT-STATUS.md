@@ -1,24 +1,22 @@
-# Current verified status
+# Current status
 
-Lean semantic review has now been recorded for every repository that had reached the semantic
-census queue: Voicebox, codegraph, TradingAgents, uAgents, browser-harness, babysitter, pm-skills,
-humanizer, github-mcp-server, Google-skills, hermes-agent, ECC, Kimi-K3 and awesome-design-md,
-in addition to karpathy-skills. Each is left at `NEEDS_REVIEW` with `next_phase: CAPABILITY_ANALYSIS`;
-only karpathy-skills is `COMPLETE`. The declaration scan had missed real assets in several of them
-(MCP servers and tools, registered agent tools, process workflows, slash commands, plugin
-ecosystems); they were added from pinned source, and duplicates and implementation fragments were
-removed. Security-relevant findings are recorded per repository under
-`semantic_review_progress.scoped_deep_review`.
+## Recovery checkpoint
 
-434 owned repositories: 422 public, 12 private. Public registry: 8,268 active entity records
-(7,792 verified), 578 verified capabilities, 9,268 search documents, 25,301 verified source files
-processed.
+On 2026-10-12, workspace maintenance removed the checkout that contained the
+locally validated V1 history through `e57ed8e1c812890ca8437d9628b6997dda3865e8`
+and a later uncommitted batch. Exact object recovery was attempted before any
+rebuild. No matching object, descendant, reflog, worktree, alternate object
+database, bundle, archive or canonical-state snapshot was found.
 
-Still pending: 399 repositories awaiting entity extraction (`PARTIAL` or `STRUCTURE_COMPLETE`),
-7 confirmed-empty repositories awaiting a disposition decision, and 1 repository awaiting
-structure ingestion. See [the handoff](docs/CLAUDE-CODE-HANDOFF.md) for the exact resume point and
-working method.
+The current working branch is `recovery/v1-rebuild`, rooted at published remote
+commit `0728b37b50addec86aa1919467c971799bad8a49`. It is a reconstruction base,
+not evidence that the lost local state was recovered. The prior workspace copy
+is retained only as an obsolete source of scripts and deterministic evidence.
+The surviving private `.local/` area is not copied, published or overwritten.
 
-The original README is retained unchanged and describes historical uncommitted
-coverage. Current counts are in [statistics](system/statistics.json); remaining
-work is in [inspection-state](system/inspection-state.json).
+## Next safe action
+
+The recovery pipeline must be validated and checkpointed before inventory work.
+Then use `python scripts/run_bulk_intake.py --all --resume --limit 25 --priority
+--snapshot` in small validated batches. Do not recreate state from historical
+counts or resume extraction until the recovery branch has a durable checkpoint.

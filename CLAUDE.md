@@ -5,6 +5,8 @@
 This repository is the canonical intelligence system for meaningful reusable assets across the user's repositories. It must answer what the user owns, where each asset lives, what it does, which capabilities and dependencies it has, whether it runs independently, what overlaps with it, how it maps to Studios, Ideas, and categories, which owned assets can compose a requested app or workflow, which capabilities are missing, and what targeted GitHub search could fill those gaps.
 
 Before continuing any work, read [`docs/CLAUDE-CODE-HANDOFF.md`](docs/CLAUDE-CODE-HANDOFF.md).
+For any newly introduced repository or fork, immediately follow
+[`rules/new-repository-intake.md`](rules/new-repository-intake.md).
 
 ## Preserve the canonical architecture
 

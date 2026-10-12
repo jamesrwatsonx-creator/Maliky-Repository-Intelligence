@@ -9,9 +9,14 @@ One canonical entity per repository/path/type/symbol; categories reference IDs.
 Generated indexes are disposable views; registry records are authoritative.
 Resume the first incomplete phase at the pinned inspected commit. A changed HEAD
 preserves earlier evidence and queues a new revision; never erase it.
-COMPLETE requires full tree, reconciled independently reviewed census, verified
-provenance, capabilities, all ten justified scores, tier rationale and deep review.
+V1 COMPLETE requires a full tree, reconciled lean semantic census, verified
+provenance, meaningful capabilities and current generated indexes. The ten legacy
+scores, tier rationale and universal deep review are not V1 completion gates.
+Deep review is scoped and required only for a recorded risk or ambiguity trigger;
+see rules/semantic-review.md.
 Static detection is candidate evidence, never automatic semantic completion.
 Run python scripts/validate_registry.py and python -m unittest discover -s tests.
 Run python scripts/build_indexes.py after canonical edits, then validate again.
 Checkpoint logical batches and push without force; do not reset, clean or delete.
+When a valid repository identity is introduced with language such as "forked",
+"add", "intake" or "process", follow rules/new-repository-intake.md immediately.
