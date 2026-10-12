@@ -1,6 +1,7 @@
 import copy,hashlib,importlib.util,json,pathlib,sys,tempfile,unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
 import registry as m
+import review_extracted_batch as promotion
 from unittest import mock
 
 class DetectionTests(unittest.TestCase):
@@ -51,6 +52,21 @@ class RegistryIntegrityTests(unittest.TestCase):
     def test_false_complete_is_rejected(self):
         r=self.repo(); r['state']='COMPLETE'; m.write(m.repo_file(r),r)
         self.assertFalse(m.validate()['valid'])
+    def test_zero_entity_complete_requires_semantic_disposition(self):
+        r=self.repo(); r['state']='COMPLETE'; r['inspected_commit']='a'*40
+        r['phases'].update({'structure':True,'entity_extraction':True,'capability_analysis':True,'validation':True})
+        r['entity_census']={'SKILL':{'detected':0,'catalogued':0,'reviewed':True}}
+        m.write(m.repo_file(r),r)
+        m.write('system/evidence/1.json',{'inspected_commit':'a'*40,'tree_complete':True,'files_read':[],'unread_source_paths':[],'errors':[]})
+        self.assertTrue(any('zero-entity completion' in error for error in m.validate()['errors']))
+    def test_zero_static_entities_are_queued_for_semantic_review(self):
+        r=self.repo(); r['inspected_commit']='a'*40; r['unread_source_files']=0
+        m.write(m.repo_file(r),r)
+        result=promotion.promote(r)
+        updated=m.read(m.repo_file(r))
+        self.assertEqual(result['review_required'],'zero_static_entities')
+        self.assertEqual(updated['state'],'NEEDS_REVIEW')
+        self.assertEqual(updated['next_phase'],'SEMANTIC_CENSUS_REVIEW')
     def test_missing_provenance_schema_is_rejected(self):
         self.repo(); m.write('registry/entities/bad.json',{'id':'entity:'+'b'*24,'entity_type':'SKILL','name':'Bad'})
         report=m.validate(); self.assertFalse(report['valid']); self.assertEqual(report['stage'],'schema')

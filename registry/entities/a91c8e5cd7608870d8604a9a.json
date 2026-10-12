@@ -1,0 +1,48 @@
+{
+  "id": "entity:a91c8e5cd7608870d8604a9a",
+  "entity_type": "SKILL",
+  "name": "fable-safe-prompt",
+  "description": "Rewrite a user's prompt to reduce the chance it trips Claude Fable 5's server-side safety classifiers (cyber/bio guardrails that force-route to Opus 4.8 or return stop_reason \"refusal\"). Use when the user hands you a prompt that touches cybersecurity, auth, exploits, malware, pentesting, or other dual-use topics and asks to make it \"Fable-safe\", \"guardrail-safe\", \"won't get flagged/refused/downgraded\", or to rewrite it so Fable 5 won't block it.",
+  "source": {
+    "repository_id": "repository:1291129235",
+    "repository_name": "jamesrwatsonx-creator/skills-fable",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/skills-fable",
+    "upstream_url": "https://github.com/davidondrej/skills",
+    "source_path": "skills/agent-orchestration/fable-safe-prompt/SKILL.md",
+    "inspected_commit": "42dfc3dbe4ca43ef021e79abcc7d258698f2be33",
+    "inspection_date": "2026-10-12T17:09:32.262501+00:00",
+    "blob_sha": "70aab185c867e02d5906e6f1a65f1452b57e5192",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "skills/agent-orchestration/fable-safe-prompt/SKILL.md"
+    },
+    {
+      "type": "manifest",
+      "value": "fable-safe-prompt"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:skills-fable-skill-fable-safe-prompt"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Deterministic source-declaration promotion; runtime not tested."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "SKILL"
+}

@@ -92,7 +92,10 @@ class LeanReview:
             census=repo['entity_census'].get(kind,{'detected':0,'catalogued':0,'detection_scope':'semantic source review','reviewed':False})
             repo['entity_census'][kind]={**census,'detected':max(census['detected'],count),'catalogued':count,'reviewed':True,'detection_scope':'semantic source review','lean_review_note':notes.get(kind,'Retained by lean test')}
         for kind,census in repo['entity_census'].items():
-            if kind not in by_kind and census['catalogued']: repo['entity_census'][kind]={**census,'catalogued':0,'reviewed':True,'lean_review_note':notes.get(kind,'All candidates removed by lean test')}
+            if kind not in by_kind:
+                repo['entity_census'][kind]={**census,'catalogued':0,'reviewed':True,
+                    'detection_scope':'semantic source review',
+                    'lean_review_note':notes.get(kind,'No meaningful reusable entities retained by lean review')}
         repo['capabilities']=sorted({c for e in self.out.values() for c in e['capabilities']})
         repo['categories']=list(categories);repo['studios']=list(studios);repo['ideas']=list(ideas);repo['recommendation']=recommendation;repo['operational_category']=operational
         repo['entity_count']=len(self.out);repo['phases'].update({'entity_extraction':True,'capability_analysis':True})

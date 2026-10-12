@@ -50,6 +50,32 @@ def promote(repo, dry_run=False):
     evidence = r.read('system/evidence/'+str(repo['github_id'])+'.json', {})
     known = {f['path']: f['blob_sha'] for f in evidence.get('files_read', [])}
     entities = [e for e in r.records('entities') if e['source']['repository_id']==repo['id'] and e['source']['inspected_commit']==repo['inspected_commit']]
+    # A complete read with no declaration candidates is not evidence that the
+    # repository has no reusable assets. Model cards, reference collections,
+    # architecture templates and similar repositories routinely require a
+    # semantic entity to be added from source review. Keep them in the review
+    # queue until that explicit disposition exists.
+    if not entities:
+        repo.update({
+            'state':'NEEDS_REVIEW',
+            'next_phase':'SEMANTIC_CENSUS_REVIEW',
+            'recommendation':'NEEDS DEEPER REVIEW',
+            'review_reason':'No static entity declarations were detected; semantic zero-entity disposition required.',
+            'semantic_review_progress':{
+                'status':'PENDING',
+                'reason':'zero_static_entities',
+                'review_policy':'LEAN',
+            },
+        })
+        repo.setdefault('phases',{}).update({
+            'entity_extraction':False,
+            'capability_analysis':False,
+            'validation':False,
+        })
+        if not dry_run:
+            r.write(r.repo_file(repo),repo)
+        return {'repository':repo['full_name'],'promoted':0,'deferred':0,
+                'state':repo['state'],'review_required':'zero_static_entities'}
     engine = DecisionEngine()
     engine.decide(repo['id'], 'ENTITY_TYPE', ['KEEP','ESCALATE_FOR_REVIEW'],
                   {'commit':repo['inspected_commit'],'entities':len(entities)})

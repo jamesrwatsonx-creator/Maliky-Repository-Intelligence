@@ -1,0 +1,56 @@
+{
+  "id": "entity:9c0dbaab4cdfcef1b6b38765",
+  "entity_type": "COMPONENT",
+  "name": "HunyuanVideoPipeline",
+  "description": "Diffusers-style HunyuanVideo inference pipeline that encodes prompts, denoises video latents and decodes generated frames.",
+  "source": {
+    "repository_id": "repository:1247324543",
+    "repository_name": "jamesrwatsonx-creator/HunyuanVideo",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/HunyuanVideo",
+    "upstream_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "source_path": "hyvideo/diffusion/pipelines/pipeline_hunyuan_video.py",
+    "inspected_commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
+    "inspection_date": "2026-10-12T17:13:45.926535+00:00",
+    "blob_sha": "c1293161e13a47ae7dcedfef2c55e3baefc655f4",
+    "line": 144
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/hyvideo/diffusion/pipelines/pipeline_hunyuan_video.py#L144"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:creative-tools"
+  ],
+  "operational_category": "operational:09",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:video-diffusion-inference-pipeline"
+  ],
+  "studios": [
+    "studio:video-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "HunyuanVideo transformer weights",
+      "text encoders and tokenizers",
+      "causal 3D VAE",
+      "scheduler",
+      "PyTorch/CUDA"
+    ],
+    "overlap": "Complements the HunyuanVideo model and its command-line sampler."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "LICENSE REVIEW REQUIRED",
+  "contribution_role": "MODULE"
+}

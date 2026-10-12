@@ -1,0 +1,56 @@
+{
+  "id": "entity:9a83cf579278ea18a8191234",
+  "entity_type": "COMPONENT",
+  "name": "LongCatVideoAvatarPipeline",
+  "description": "Avatar inference pipeline combining text, reference imagery and one or more audio streams for lip-synchronized character video generation and continuation.",
+  "source": {
+    "repository_id": "repository:1342414484",
+    "repository_name": "jamesrwatsonx-creator/LongCat-Video",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/LongCat-Video",
+    "upstream_url": "https://github.com/meituan-longcat/LongCat-Video",
+    "source_path": "longcat_video/pipeline_longcat_video_avatar.py",
+    "inspected_commit": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
+    "inspection_date": "2026-10-12T17:13:50.592459+00:00",
+    "blob_sha": "5caf1c5a092c7f6a890310b0224d8d506ed2d2e8",
+    "line": 105
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/longcat_video/pipeline_longcat_video_avatar.py#L105"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:creative-tools"
+  ],
+  "operational_category": "operational:09",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:audio-conditioned-video-inference-pipeline"
+  ],
+  "studios": [
+    "studio:video-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "LongCatVideoAvatarTransformer3DModel",
+      "audio encoder",
+      "AutoencoderKLWan",
+      "scheduler",
+      "PyTorch/CUDA"
+    ],
+    "overlap": "Primary integration surface for LongCat avatar variants."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT",
+  "contribution_role": "MODULE"
+}

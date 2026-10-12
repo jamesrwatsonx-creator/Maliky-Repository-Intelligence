@@ -578,6 +578,10 @@ def validate():
             if not r.get('entity_census') or any(c['detected']<c['catalogued'] or not c['reviewed'] for c in r['entity_census'].values()): errors.append(prefix+': unreconciled lean census')
             if evidence.get('unread_source_paths') or evidence.get('errors') or not evidence.get('tree_complete'): errors.append(prefix+': incomplete source coverage')
             if any(e['review_status']!='VERIFIED' for e in current_ents): errors.append(prefix+': unreviewed entities')
+            if not current_ents:
+                disposition=r.get('zero_entity_disposition',{})
+                if not disposition.get('rationale') or not disposition.get('evidence'):
+                    errors.append(prefix+': zero-entity completion lacks explicit semantic disposition')
     for e in entities:
         s=e.get('source',{}); repo=by_id.get(s.get('repository_id'))
         if not repo or repo not in repos: errors.append(e['id']+': missing repository'); continue

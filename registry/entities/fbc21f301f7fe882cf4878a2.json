@@ -1,0 +1,59 @@
+{
+  "id": "entity:fbc21f301f7fe882cf4878a2",
+  "entity_type": "MODEL",
+  "name": "HunyuanVideo",
+  "description": "Tencent HunyuanVideo 13B text-to-video diffusion transformer with dual-stream then single-stream multimodal fusion, an MLLM text encoder and high-resolution video generation.",
+  "source": {
+    "repository_id": "repository:1247324543",
+    "repository_name": "jamesrwatsonx-creator/HunyuanVideo",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/HunyuanVideo",
+    "upstream_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "source_path": "hyvideo/modules/models.py",
+    "inspected_commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
+    "inspection_date": "2026-10-12T17:13:45.921503+00:00",
+    "blob_sha": "646a42d03a35300cf3b3d57aa17b72278f20b3f2",
+    "line": 396
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/hyvideo/modules/models.py#L396"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:creative-tools"
+  ],
+  "operational_category": "operational:09",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:text-to-video-generation",
+    "capability:video-diffusion-transformer-inference"
+  ],
+  "studios": [
+    "studio:video-studio"
+  ],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Tencent Hunyuan community-licensed model weights",
+      "PyTorch and CUDA",
+      "45-60 GB minimum GPU memory at documented resolutions",
+      "external Hunyuan text encoders"
+    ],
+    "overlap": "Alternative to other owned text-to-video foundation models; newer upstream HunyuanVideo 1.5 is referenced but not contained here.",
+    "parameters": "over 13B",
+    "license": "Tencent Hunyuan Community License",
+    "runtime_evidence": "Source and model card reviewed; weights and runtime not tested"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "LICENSE REVIEW REQUIRED",
+  "contribution_role": "CORE"
+}
