@@ -1,28 +1,22 @@
-# Practical searchable V1 scope
+# Practical V1 catalog scope and completion
 
-The owner's 2026-10-12 instruction narrows delivery to a useful capability catalog.
-Preserve extraction, registry IDs, checkpoints and provenance. Discovery completeness
-and source-inspection completeness are separate dimensions. Do not mark unreviewed
-repositories or assets VERIFIED to satisfy catalog coverage.
+Catalog V1 is a lightweight, evidence-aware view over the existing Maliky registry. It prioritizes public inventory coverage, basic descriptions, searchable internal assets, provenance, browse navigation and a read-only agent workflow. It does not require exhaustive source review or change the meaning of historical inspection states.
 
-Remaining delivery tasks:
+## Delivered
 
-1. Reconcile fresh owned inventory with existing records, including recent forks.
-2. Make every public repository discoverable with description, categories and links;
-   retain all extracted internal assets and their review status. Keep private identities
-   and evidence outside the public checkout in ignored, access-controlled storage.
-3. Expose capability/purpose, repository and category search and the existing composer
-   through a minimal documented read-only JSON CLI usable by Hermes.
-4. Test requirements-to-owned-recommendations, source links, gaps and an MVP plan.
-5. Validate canonical references, indexes, privacy and tests; checkpoint this branch
-   with a verified remote SHA. Do not modify main.
+- Authenticated inventory: 579 accessible repositories (566 public, 13 private); all 566 public repositories have canonical records and GitHub links.
+- 8,856 active searchable assets remain individually represented. VERIFIED, CANDIDATE and historical records remain distinct and preserve canonical IDs and provenance.
+- 16 asset-type sections, 42 populated purpose sections, 23 populated views over the established 25-area taxonomy, and 393 generated Markdown browse pages.
+- Deterministic local JSON search, topic/type filtering, repository/category queries, read-only agent search, existing capability composition and requirements-to-MVP planning.
+- Incremental refresh instructions, registry/catalog validation and private-publication checks.
+- 19 repositories explicitly need better purpose descriptions because available evidence is insufficient; their records remain linked and discoverable without fabricated claims.
 
-Advanced scoring, exhaustive semantic/security reviews, extensive relationship mapping
-and a polished dashboard remain deferred. The old source-inspection COMPLETE gate is
-preserved for source audit status; it is not the catalog delivery gate. Metadata-only
-classification and lexical recommendations explicitly remain discovery evidence.
+See [`CATALOG-DELIVERY.md`](CATALOG-DELIVERY.md) for current checks and exact usage examples, [`CATALOG-REFRESH.md`](CATALOG-REFRESH.md) for incremental updates, and [`AGENT-CATALOG.md`](AGENT-CATALOG.md) for the read-only interface.
 
-The CLI defaults to public records. Explicit `search --private-local` permits authorized
-local access to ignored private README metadata. Existing private extracted catalogs are
-not available in a fresh public clone and remain in their separately controlled environment.
-No claim of private implementation verification or durable private catalog migration is made.
+## Preserved distinctions and privacy
+
+Do not mark unreviewed repositories or assets VERIFIED to satisfy catalog coverage. Metadata-only classification and lexical search results are leads, not source verification. `NEEDS DESCRIPTION` is separate from historical `COMPLETE` inspection status. Private names, source code and evidence stay outside public artifacts; publication guard validation is required before publishing.
+
+## Deferred by design
+
+Universal deep review, exhaustive quality/security scoring, extensive relationship mapping, a hosted search service, dashboard polish and a dedicated agent plugin remain future work. Catalog ownership does not mean an asset is installed, compatible, secure, licensed for every use, or production-ready.
