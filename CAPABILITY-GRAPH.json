@@ -42971,6 +42971,11 @@
       "name": "get_portal_status"
     },
     {
+      "id": "entity:fcca2e87381cf071bd3c6660",
+      "type": "SKILL",
+      "name": "gauntlet-loop"
+    },
+    {
       "id": "entity:fcd09a66f2c7e9e7b53dc913",
       "type": "AGENT",
       "name": "release-manager"
@@ -45374,6 +45379,11 @@
       "id": "capability:fundamental-company-analysis-agent",
       "type": "CAPABILITY",
       "name": "Fundamental company analysis agent"
+    },
+    {
+      "id": "capability:gauntlet-loop-skill-gauntlet-loop",
+      "type": "CAPABILITY",
+      "name": "gauntlet-loop"
     },
     {
       "id": "capability:generated-wav-response-delivery",
@@ -150549,6 +150559,22 @@
       ]
     },
     {
+      "id": "contains:entity:fcca2e87381cf071bd3c6660",
+      "type": "CONTAINS",
+      "from": "repository:1331324299",
+      "to": "entity:fcca2e87381cf071bd3c6660",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".claude/skills/gauntlet-loop/SKILL.md"
+        },
+        {
+          "type": "manifest",
+          "value": "gauntlet-loop"
+        }
+      ]
+    },
+    {
       "id": "contains:entity:fcd09a66f2c7e9e7b53dc913",
       "type": "CONTAINS",
       "from": "repository:1254783144",
@@ -244217,6 +244243,22 @@
         {
           "type": "source_review",
           "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4222"
+        }
+      ]
+    },
+    {
+      "id": "entity:fcca2e87381cf071bd3c6660:provides:capability:gauntlet-loop-skill-gauntlet-loop",
+      "type": "PROVIDES",
+      "from": "entity:fcca2e87381cf071bd3c6660",
+      "to": "capability:gauntlet-loop-skill-gauntlet-loop",
+      "evidence": [
+        {
+          "type": "source_path",
+          "value": ".claude/skills/gauntlet-loop/SKILL.md"
+        },
+        {
+          "type": "manifest",
+          "value": "gauntlet-loop"
         }
       ]
     },

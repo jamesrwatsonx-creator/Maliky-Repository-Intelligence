@@ -14,9 +14,17 @@ not evidence that the lost local state was recovered. The prior workspace copy
 is retained only as an obsolete source of scripts and deterministic evidence.
 The surviving private `.local/` area is not copied, published or overwritten.
 
+## Reconstructed first batch
+
+The recovered pipeline completed its first deterministic live-source batch:
+`jamesrwatsonx-creator/gauntlet-loop` reached `COMPLETE` from a pinned public
+revision. Its entity, capability, search document, source evidence, and a
+deferred decision record were rebuilt and passed validation. This confirms the
+rebuild can now proceed in small checkpointed batches.
+
 ## Next safe action
 
-The recovery pipeline must be validated and checkpointed before inventory work.
-Then use `python scripts/run_bulk_intake.py --all --resume --limit 25 --priority
+Use `python scripts/run_bulk_intake.py --all --resume --limit 25 --priority
 --snapshot` in small validated batches. Do not recreate state from historical
-counts or resume extraction until the recovery branch has a durable checkpoint.
+counts. After every validated logical checkpoint, run
+`python scripts/create_checkpoint_bundle.py` when push is unavailable.

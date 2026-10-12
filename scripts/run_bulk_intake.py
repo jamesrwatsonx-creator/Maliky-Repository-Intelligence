@@ -40,7 +40,8 @@ def main():
     for repo in targets:
         result=r.ingest(repo['full_name'],snapshot=args.snapshot)
         current=next(x for x in r.records('repositories') if x['id']==repo['id'])
-        if not result.get('error') and not current.get('unread_source_files',0) and current['state']!='NEEDS_REVIEW':
+        temporary_handoff=current.get('next_phase') in ('SEMANTIC_CENSUS_REVIEW','ENTITY_EXTRACTION','CAPABILITY_ANALYSIS')
+        if not result.get('error') and not current.get('unread_source_files',0) and temporary_handoff:
             result['promotion']=promote(current)
         output.append(result)
     stats=r.build(); validation=r.validate()

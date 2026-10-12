@@ -1,6 +1,6 @@
 """Read-only source ingestion and conservative capability registry operations."""
 from __future__ import annotations
-import argparse, ast, base64, collections, concurrent.futures, hashlib, json, os, pathlib, re, subprocess, sys, tempfile, time, tarfile, urllib.request
+import argparse, ast, base64, collections, concurrent.futures, hashlib, json, os, pathlib, re, shutil, subprocess, sys, tempfile, time, tarfile, urllib.error, urllib.request
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -27,11 +27,28 @@ def write(path, data):
 def records(kind):
     return [json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'registry'/kind).glob('*.json'))]
 def gh(endpoint):
-    # Literal argument list; credentials are supplied by gh's configured credential store.
+    """Read GitHub metadata without requiring the optional gh executable."""
+    # Literal argument list; credentials are supplied by gh's configured store.
+    if shutil.which('gh'):
+        for attempt in range(3):
+            p=subprocess.run(['gh','api','--method','GET',endpoint],capture_output=True,text=True,encoding='utf-8',errors='replace')
+            if p.returncode==0: return json.loads(p.stdout)
+            if attempt==2: break
+            time.sleep(attempt+1)
+    url='https://api.github.com/'+endpoint.lstrip('/')
+    headers={'Accept':'application/vnd.github+json','User-Agent':'maliky-repository-intelligence'}
+    token=os.getenv('GH_TOKEN') or os.getenv('GITHUB_TOKEN')
+    if token: headers['Authorization']='Bearer '+token
     for attempt in range(3):
-        p=subprocess.run(['gh','api','--method','GET',endpoint],capture_output=True,text=True,encoding='utf-8',errors='replace')
-        if p.returncode==0: return json.loads(p.stdout)
-        if attempt==2: raise RuntimeError(p.stderr.strip()[:600])
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=45) as response:
+                return json.loads(response.read().decode('utf-8'))
+        except urllib.error.HTTPError as exc:
+            body=exc.read().decode('utf-8','replace')[:400]
+            message=f'GitHub REST HTTP {exc.code}: {body}'
+        except OSError as exc:
+            message=f'GitHub REST unavailable: {exc}'
+        if attempt==2: raise RuntimeError(message)
         time.sleep(attempt+1)
 def git_blob(data): return hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
 def repo_file(repo): return 'registry/repositories/'+str(repo['github_id'])+'.json'
