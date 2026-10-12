@@ -412,7 +412,9 @@ def generate(catalog):
         newest = repos[:10]
     home.extend(item_line(x, ".") for x in newest)
     home += ["", "## About the Catalog", "", f"{len(repos):,} public repositories · {len(assets):,} active searchable assets · {len(catalog['capabilities']):,} registered capabilities · {len(topic_links):,} populated purpose sections.", "", "Evidence status and historical semantic-review states remain visible. Generated pages are navigation views; the canonical source records are in `registry/`.", ""]
-    write_text("README.md", "\n".join(home))
+    # Keep the root README human-maintained. It carries the project mission and
+    # permanent navigation links; the generated, count-bearing browse homepage
+    # below is the canonical automatically refreshed directory.
 
     browse = ["# Browse the Maliky Catalog", "", f"{len(assets):,} individually searchable assets across {len(type_links)} populated asset types, {len(topic_links)} populated topics and {len(category_links)} active canonical taxonomy areas.", "", "## By Asset Type", ""]
     browse += [f"- {md_link(name, f'types/{s}/README.md')} ({count:,})" for s, name, count in type_links]
