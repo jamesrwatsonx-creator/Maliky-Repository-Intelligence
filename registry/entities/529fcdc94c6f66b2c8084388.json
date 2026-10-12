@@ -2,7 +2,7 @@
   "id": "entity:529fcdc94c6f66b2c8084388",
   "entity_type": "PACKAGE",
   "name": "letta-mobile",
-  "description": "",
+  "description": "Expo/React Native reference application package for the Letta Agent SDK, targeting iOS, Android and Expo Go.",
   "source": {
     "repository_id": "repository:1344556929",
     "repository_name": "jamesrwatsonx-creator/agent-sdk-mobile-app",
@@ -16,25 +16,41 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "package.json"
-    },
-    {
-      "type": "manifest",
-      "value": "letta-mobile"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/package.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mobile-applications",
+    "category:ai-applications",
+    "category:sdks-client-libraries",
+    "category:frontend-applications",
+    "category:reference-implementations"
+  ],
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:letta-agent-sdk-mobile-reference-app"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "FULL",
+    "dependencies": [
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "@letta-ai/letta-agent-sdk 0.7.x"
+    ],
+    "overlap": "Repository application shell containing the reusable SDK and UI components represented separately.",
+    "license": "Apache-2.0"
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "REFERENCE",
+  "contribution_role": "CORE"
 }

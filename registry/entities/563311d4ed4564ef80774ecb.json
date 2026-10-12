@@ -1,0 +1,55 @@
+{
+  "id": "entity:563311d4ed4564ef80774ecb",
+  "entity_type": "TOOL",
+  "name": "usergroups_update",
+  "description": "Update Slack user-group name, handle, description or default channels.",
+  "source": {
+    "repository_id": "repository:1315202127",
+    "repository_name": "jamesrwatsonx-creator/slack-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/slack-mcp-server",
+    "upstream_url": "https://github.com/korotovsky/slack-mcp-server",
+    "source_path": "pkg/server/server.go",
+    "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
+    "inspection_date": "2026-10-12T17:30:35.491969+00:00",
+    "blob_sha": "d11ab8464303eb39c558086296b13e10c4af10d7",
+    "line": 43
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L43"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:business-applications",
+    "category:productivity",
+    "category:iam"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:slack-usergroup-update"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "FULL",
+    "dependencies": [
+      "Slack MCP server",
+      "credential with matching Slack access"
+    ],
+    "overlap": "One independently invocable MCP tool provided by the server.",
+    "mutating": true,
+    "mcp_tool_name": "usergroups_update"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "COMPONENT"
+}

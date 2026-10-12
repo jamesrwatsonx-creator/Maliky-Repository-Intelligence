@@ -1,0 +1,55 @@
+{
+  "id": "entity:9265207d72de7abb4a6155df",
+  "entity_type": "TOOL",
+  "name": "saved_clear_completed",
+  "description": "Bulk-clear completed items from Slack Save for Later.",
+  "source": {
+    "repository_id": "repository:1315202127",
+    "repository_name": "jamesrwatsonx-creator/slack-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/slack-mcp-server",
+    "upstream_url": "https://github.com/korotovsky/slack-mcp-server",
+    "source_path": "pkg/server/server.go",
+    "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
+    "inspection_date": "2026-10-12T17:30:35.523031+00:00",
+    "blob_sha": "d11ab8464303eb39c558086296b13e10c4af10d7",
+    "line": 48
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L48"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:business-applications",
+    "category:productivity",
+    "category:iam"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:slack-clear-completed-saved-items"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "FULL",
+    "dependencies": [
+      "Slack MCP server",
+      "credential with matching Slack access"
+    ],
+    "overlap": "One independently invocable MCP tool provided by the server.",
+    "mutating": true,
+    "mcp_tool_name": "saved_clear_completed"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "COMPONENT"
+}

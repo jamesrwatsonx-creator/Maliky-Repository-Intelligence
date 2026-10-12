@@ -1,0 +1,48 @@
+{
+  "id": "entity:18dcb0614c98f256e2eb21a9",
+  "entity_type": "SKILL",
+  "name": "social-fetch",
+  "description": "When you or another skill needs to fetch the content of a social media post by URL — tweet, X thread, LinkedIn post, Instagram post, TikTok video, Bluesky post, Reddit thread, Mastodon status, Threads post, Hacker News thread. Returns normalized structured data (author, posted_at, text, engagement counts, media URLs, replies if requested) regardless of platform. Tries strategies in order: direct API (Bluesky, Mastodon, HN, Reddit), agent-browser with modal dismissal (LinkedIn, X preview), Wayback Machine (older posts), paid APIs (ScrapeCreators / Apify — only if env keys present). Triggers on \\\"/social-fetch <url>,\\\" \\\"fetch this tweet,\\\" \\\"fetch this post,\\\" \\\"what does this LinkedIn say,\\\" \\\"read this thread,\\\" \\\"pull this post.\\\" Used by deep-research (citing specific posts), jab-hook (inspiration account analysis), business-brainstorm (competitor / operator commentary).",
+  "source": {
+    "repository_id": "repository:1321531791",
+    "repository_name": "jamesrwatsonx-creator/makerskills",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/makerskills",
+    "upstream_url": "https://github.com/coreyhaines31/makerskills",
+    "source_path": "skills/social-fetch/SKILL.md",
+    "inspected_commit": "17218de201e94f7aebe8b0ddfb507175caf37343",
+    "inspection_date": "2026-10-12T17:20:25.016894+00:00",
+    "blob_sha": "594050ee0c88c160e24e9b57a79ff6917f914808",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "skills/social-fetch/SKILL.md"
+    },
+    {
+      "type": "manifest",
+      "value": "social-fetch"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:makerskills-skill-social-fetch"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Deterministic source-declaration promotion; runtime not tested."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "SKILL"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "entity:bdb73d84b4eb42247a2f7db7",
+  "entity_type": "MODEL_ADAPTER",
+  "name": "Anthropic Mobile VLM Adapter",
+  "description": "Android client for Anthropic multimodal messages used to reason over screenshots.",
+  "source": {
+    "repository_id": "repository:1344553112",
+    "repository_name": "jamesrwatsonx-creator/MobileAgent-Android",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/MobileAgent-Android",
+    "upstream_url": "https://github.com/GiggleWang/MobileAgent-Android",
+    "source_path": "app/src/main/java/com/mobileagent/app/api/AnthropicClient.kt",
+    "inspected_commit": "31e3662d4bec9d8101997a2bd6f63a2c6d04e153",
+    "inspection_date": "2026-10-12T17:30:13.864107+00:00",
+    "blob_sha": "33297a3a8a5fe7b46e7c2363a290ebd45c5692b3",
+    "line": 15
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/api/AnthropicClient.kt#L15"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mobile-applications",
+    "category:ai-agents",
+    "category:agent-frameworks",
+    "category:accessibility",
+    "category:privacy"
+  ],
+  "operational_category": "operational:15",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:anthropic-mobile-vlm-client"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Anthropic API endpoint",
+      "API key",
+      "vision-capable Claude model"
+    ],
+    "overlap": "Alternative VLM backends implementing the same mobile prediction interface.",
+    "sensitive_input": "device screenshots"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "COMPONENT"
+}

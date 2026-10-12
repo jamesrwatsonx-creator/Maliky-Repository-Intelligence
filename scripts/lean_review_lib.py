@@ -100,7 +100,7 @@ class LeanReview:
         repo['categories']=list(categories);repo['studios']=list(studios);repo['ideas']=list(ideas);repo['recommendation']=recommendation;repo['operational_category']=operational
         repo['entity_count']=len(self.out);repo['phases'].update({'entity_extraction':True,'capability_analysis':True})
         repo['state']='NEEDS_REVIEW';repo['next_phase']='CAPABILITY_ANALYSIS'
-        progress={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Claude Code lean static review','final_entity_count':len(self.out),'removed_entity_ids':self.removed,
+        progress={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(self.out),'removed_entity_ids':self.removed,
                   'confirmed_capabilities':repo['capabilities'],'implementation_details_not_catalogued':list(details)}
         if deep_review: progress['scoped_deep_review']=deep_review
         repo['semantic_review_progress']=progress

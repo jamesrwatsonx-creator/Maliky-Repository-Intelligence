@@ -1,0 +1,48 @@
+{
+  "id": "entity:4bad46d7ceb214f033f10095",
+  "entity_type": "SKILL",
+  "name": "paste",
+  "description": "When you want to clean and reformat content (usually from your terminal) for pasting into Slack, Notion, Twitter/X, LinkedIn, email, GitHub, or plain text. Strips ANSI codes, box-drawing chars, terminal prompt artifacts, and applies destination-specific formatting. Default input is the clipboard (read via `pbpaste`); default output is both the clipboard (`pbcopy`) and a chat preview. Triggers on \"/paste\", \"/paste [destination]\", \"clean this for X,\" \"format for slack/notion/twitter/linkedin/email/github,\" \"render as markdown,\" \"paste-ready,\" \"strip formatting,\" \"make this copy-pastable.\" Default destination is plain. Also scans for secrets (API keys, tokens, .env values) and warns before copying anything sensitive.",
+  "source": {
+    "repository_id": "repository:1321531791",
+    "repository_name": "jamesrwatsonx-creator/makerskills",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/makerskills",
+    "upstream_url": "https://github.com/coreyhaines31/makerskills",
+    "source_path": "skills/paste/SKILL.md",
+    "inspected_commit": "17218de201e94f7aebe8b0ddfb507175caf37343",
+    "inspection_date": "2026-10-12T17:20:24.991836+00:00",
+    "blob_sha": "1dd9134da502c5127498c9bd97d6e3f91d186be0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "skills/paste/SKILL.md"
+    },
+    {
+      "type": "manifest",
+      "value": "paste"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:makerskills-skill-paste"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Deterministic source-declaration promotion; runtime not tested."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "SKILL"
+}

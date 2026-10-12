@@ -1,0 +1,55 @@
+{
+  "id": "entity:371388305be49d6493327a23",
+  "entity_type": "TOOL",
+  "name": "reactions_add",
+  "description": "Add an emoji reaction to a Slack message.",
+  "source": {
+    "repository_id": "repository:1315202127",
+    "repository_name": "jamesrwatsonx-creator/slack-mcp-server",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/slack-mcp-server",
+    "upstream_url": "https://github.com/korotovsky/slack-mcp-server",
+    "source_path": "pkg/server/server.go",
+    "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
+    "inspection_date": "2026-10-12T17:30:35.390320+00:00",
+    "blob_sha": "d11ab8464303eb39c558086296b13e10c4af10d7",
+    "line": 30
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L30"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:business-applications",
+    "category:productivity",
+    "category:iam"
+  ],
+  "operational_category": "operational:02",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:slack-add-reaction"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "FULL",
+    "dependencies": [
+      "Slack MCP server",
+      "credential with matching Slack access"
+    ],
+    "overlap": "One independently invocable MCP tool provided by the server.",
+    "mutating": true,
+    "mcp_tool_name": "reactions_add"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "COMPONENT"
+}

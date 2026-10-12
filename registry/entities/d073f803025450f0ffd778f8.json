@@ -1,0 +1,55 @@
+{
+  "id": "entity:d073f803025450f0ffd778f8",
+  "entity_type": "MODEL",
+  "name": "Tacotron Voice Synthesizer",
+  "description": "Tacotron sequence-to-sequence synthesizer that generates mel spectrograms conditioned on text and a speaker embedding.",
+  "source": {
+    "repository_id": "repository:1247326357",
+    "repository_name": "jamesrwatsonx-creator/Real-Time-Voice-Cloning",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning",
+    "upstream_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+    "source_path": "synthesizer/models/tacotron.py",
+    "inspected_commit": "890f3a03187195b9829db2079b75c2ba2ab0405c",
+    "inspection_date": "2026-10-12T17:30:27.953378+00:00",
+    "blob_sha": "769f7f98b79100ff587af3609010dd55e3b2a146",
+    "line": 328
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning/blob/890f3a03187195b9829db2079b75c2ba2ab0405c/synthesizer/models/tacotron.py#L328"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:creative-tools",
+    "category:research-projects",
+    "category:privacy"
+  ],
+  "operational_category": "operational:07",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:speaker-conditioned-tacotron-synthesis"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "PyTorch",
+      "Tacotron checkpoint",
+      "speaker embedding"
+    ],
+    "overlap": "One stage of the SV2TTS voice-cloning pipeline.",
+    "identity_sensitivity": "voice biometric and synthesized identity"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "MODULE"
+}

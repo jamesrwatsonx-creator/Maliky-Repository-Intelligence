@@ -1,0 +1,53 @@
+{
+  "id": "entity:ea21cf0cb9029848effef082",
+  "entity_type": "COMPONENT",
+  "name": "Face Analysis and Mapping",
+  "description": "Face detection, landmark completion, cached analysis and source-to-target face mapping used by still-image and streaming replacement paths.",
+  "source": {
+    "repository_id": "repository:1247323657",
+    "repository_name": "jamesrwatsonx-creator/Deep-Live-Cam",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam",
+    "upstream_url": "https://github.com/hacksider/Deep-Live-Cam",
+    "source_path": "modules/face_analyser.py",
+    "inspected_commit": "aa6f2cbade35a0a55502b87b18697b020c49b5f3",
+    "inspection_date": "2026-10-12T17:30:04.535825+00:00",
+    "blob_sha": "ba3f0e51521b7216b553d5a1a99c2724ea6ba82e",
+    "line": 22
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/modules/face_analyser.py#L22"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:generative-ai",
+    "category:ai-applications",
+    "category:creative-tools",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:face-detection-landmark-mapping"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "InsightFace FaceAnalysis",
+      "OpenCV",
+      "configured execution provider"
+    ],
+    "overlap": "Complements the face swapper and exposes independently useful analysis and mapping logic."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "MODULE"
+}

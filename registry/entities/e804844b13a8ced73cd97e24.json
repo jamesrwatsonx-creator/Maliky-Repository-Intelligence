@@ -2,7 +2,7 @@
   "id": "entity:e804844b13a8ced73cd97e24",
   "entity_type": "UI_COMPONENT",
   "name": "DiffBlock",
-  "description": "Exported JSX component candidate",
+  "description": "React Native unified-diff renderer for agent tool output.",
   "source": {
     "repository_id": "repository:1344556929",
     "repository_name": "jamesrwatsonx-creator/agent-sdk-mobile-app",
@@ -16,25 +16,39 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "src/components/chat/DiffBlock.tsx"
-    },
-    {
-      "type": "exported_symbol",
-      "value": "DiffBlock"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/components/chat/DiffBlock.tsx#L9"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
-  "categories": [],
-  "operational_category": "operational:25",
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:mobile-applications",
+    "category:ai-applications",
+    "category:sdks-client-libraries",
+    "category:frontend-applications",
+    "category:reference-implementations"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:react-native-unified-diff-ui"
+  ],
   "studios": [],
   "ideas": [],
-  "metadata": {},
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "React Native",
+      "Expo Router",
+      "Bloop design tokens and agent domain model"
+    ],
+    "overlap": "Domain-specific reference component; generic layout and primitive components are not separately catalogued."
+  },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "contribution_role": "COMPONENT"
 }

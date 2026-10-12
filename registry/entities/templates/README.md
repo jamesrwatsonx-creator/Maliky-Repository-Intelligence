@@ -1,5 +1,5 @@
 # Template
 
-13 individually addressable records. Each link opens the canonical record.
+14 individually addressable records. Each link opens the canonical record.
 
-- [Records 1–13](page-0001.md)
+- [Records 1–14](page-0001.md)

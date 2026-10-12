@@ -16,241 +16,358 @@
     "language": null,
     "license": "MIT",
     "archived": false,
-    "pushed_at": "2026-07-16T17:14:22Z"
+    "pushed_at": "2026-07-16T17:14:22Z",
+    "live_metadata": "FRESH"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
   "current_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
   "inspection_date": "2026-09-20T05:32:58.901871+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:business-applications",
+    "category:productivity",
+    "category:iam"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:cross-platform-slack-mcp-package",
+    "capability:slack-add-reaction",
+    "capability:slack-attachment-retrieval",
+    "capability:slack-channel-listing",
+    "capability:slack-clear-completed-saved-items",
+    "capability:slack-conversation-history",
+    "capability:slack-join-channel",
+    "capability:slack-leave-channel",
+    "capability:slack-mark-conversation-read",
+    "capability:slack-mcp-command-line-launcher",
+    "capability:slack-member-channel-listing",
+    "capability:slack-message-search",
+    "capability:slack-model-context-protocol-server",
+    "capability:slack-remove-reaction",
+    "capability:slack-saved-item-listing",
+    "capability:slack-saved-item-update",
+    "capability:slack-self-usergroup-membership",
+    "capability:slack-send-message",
+    "capability:slack-thread-replies",
+    "capability:slack-unread-conversations",
+    "capability:slack-user-search",
+    "capability:slack-usergroup-creation",
+    "capability:slack-usergroup-listing",
+    "capability:slack-usergroup-members-replacement",
+    "capability:slack-usergroup-update"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "SECURITY REVIEW REQUIRED",
   "entity_census": {
     "SKILL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "MCP_SERVER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 2,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Production Slack MCP server retained; test server removed."
     },
     "MCP_CLIENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "TOOL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 22,
+      "catalogued": 22,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Twenty-two explicitly registered production tools retained; test tool removed."
     },
     "PLUGIN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "AGENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "AGENT_FRAMEWORK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "WORKFLOW": {
-      "detected": 0,
+      "detected": 5,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Repository testing/release CI is not catalogued as a standalone capability."
     },
     "COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "UI_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "DESIGN_SYSTEM": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "PROMPT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "PROMPT_LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "SERVICE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "API": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "SDK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "PACKAGE": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 7,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "One cross-platform wrapper retained; six architecture packages recorded as variants."
     },
     "MODEL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "MODEL_ADAPTER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "DATASET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "BENCHMARK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "DATABASE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "CONNECTOR": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "INTEGRATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "AUTOMATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "CLI": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "npm launcher retained."
     },
     "APP": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "INFRASTRUCTURE_MODULE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "TEMPLATE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "REFERENCE_IMPLEMENTATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "DOCUMENTATION_ASSET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     },
     "OTHER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
+    },
+    "WEBSITE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
+    },
+    "WEBSITE_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
+    },
+    "DESIGN_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
+    },
+    "SCREEN_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
+    },
+    "UI_PATTERN": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "No meaningful reusable entities retained by lean review"
     }
   },
   "deep_review": {
-    "completed": false,
-    "reviewer": null,
-    "evidence": []
+    "completed": true,
+    "reviewer": "Automated scoped static review",
+    "evidence": [
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L27"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L97"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/docs/01-authentication-setup.md#L1"
+      }
+    ],
+    "conclusion": "Inventory is complete. Deployment requires least-privilege Slack credentials, explicit enabled-tool policy, protected browser-session tokens and confirmation/audit controls for mutating operations; no Slack call was executed.",
+    "runtime_tested": false
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
-    "deep_review": false,
-    "validation": false
+    "entity_extraction": true,
+    "capability_analysis": true,
+    "deep_review": true,
+    "validation": true
   },
-  "visibility_verified_at": "2026-09-20T05:34:48.949614+00:00",
+  "visibility_verified_at": "2026-10-12T17:20:31.701197+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -270,8 +387,65 @@
     "unverified_source_files": 0
   },
   "tree_files": 80,
-  "files_read": 5,
-  "entity_count": 0,
-  "unread_source_files": 64,
-  "next_phase": "ENTITY_EXTRACTION"
+  "files_read": 72,
+  "entity_count": 25,
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "semantic_review_progress": {
+    "started_at": "2026-10-12T17:30:39.650144+00:00",
+    "completed_at": "2026-10-12T17:30:39.650144+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Automated lean static review",
+    "final_entity_count": 25,
+    "removed_entity_ids": [
+      "entity:2d05802e71a12cbdece94aa6",
+      "entity:2fd53203d07bd89da3f9b4e9",
+      "entity:3e1704bd208735e9c0ba6335",
+      "entity:73847985fa17cf1909bc9d3c",
+      "entity:7f67301b32568ec64906eda9",
+      "entity:8090513826e3b23445a0c4f1",
+      "entity:89620f29af8113f84e4e87c7",
+      "entity:a9dbc4010029f6342356a763",
+      "entity:bd7564dfd3e21dd17d0b25b0",
+      "entity:c626a3d2b26d05f04a3dd3b3",
+      "entity:cb88509dc882691424dae4e6",
+      "entity:d7e1abb7b8052100b9333e95",
+      "entity:e984fa7fe5add0857ce7b3ab"
+    ],
+    "confirmed_capabilities": [
+      "capability:cross-platform-slack-mcp-package",
+      "capability:slack-add-reaction",
+      "capability:slack-attachment-retrieval",
+      "capability:slack-channel-listing",
+      "capability:slack-clear-completed-saved-items",
+      "capability:slack-conversation-history",
+      "capability:slack-join-channel",
+      "capability:slack-leave-channel",
+      "capability:slack-mark-conversation-read",
+      "capability:slack-mcp-command-line-launcher",
+      "capability:slack-member-channel-listing",
+      "capability:slack-message-search",
+      "capability:slack-model-context-protocol-server",
+      "capability:slack-remove-reaction",
+      "capability:slack-saved-item-listing",
+      "capability:slack-saved-item-update",
+      "capability:slack-self-usergroup-membership",
+      "capability:slack-send-message",
+      "capability:slack-thread-replies",
+      "capability:slack-unread-conversations",
+      "capability:slack-user-search",
+      "capability:slack-usergroup-creation",
+      "capability:slack-usergroup-listing",
+      "capability:slack-usergroup-members-replacement",
+      "capability:slack-usergroup-update"
+    ],
+    "implementation_details_not_catalogued": [
+      "test MCP server/tool",
+      "architecture-specific npm packages",
+      "project CI workflows",
+      "provider internals"
+    ],
+    "scoped_deep_review": "Authentication and mutation trigger reviewed narrowly. Read access follows the supplied Slack identity; browser-session-only saved-item tools require xoxc/xoxd credentials; message, reaction and attachment tools are opt-in when no explicit tool allowlist is supplied, while several membership/read-state tools are mutating. MCP annotations label read-only and destructive operations, but deployment must still constrain credentials and enabled tools."
+  }
 }
