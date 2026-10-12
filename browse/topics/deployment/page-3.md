@@ -1,9 +1,13 @@
 # Deployment — page 3
 
-318 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+320 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [subgraph-indexing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1d711d5ee68b3d4b35adcf1c.json) — Subgraph development for The Graph protocol. Includes manifest configuration, GraphQL schema design, AssemblyScript handlers, entity relationships, and deployment to hosted and decentralized networks.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/skills/subgraph-indexing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/skills/subgraph-indexing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [Supply-Chain Watch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A189b2813584133c107fa9246.json) — Supply-Chain Watch GitHub Actions workflow.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [.github/workflows/supply-chain-watch.yml](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.github/workflows/supply-chain-watch.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [swagger-ui-deployer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af55005348953d3ac2b4e0f32.json) — Deploy interactive API documentation using Swagger UI with custom branding<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/swagger-ui-deployer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/swagger-ui-deployer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [swarm-orchestration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A658307fbf572478deae939c6.json) — Multi-agent swarm formation and coordinated execution with topology-aware agent deployment, consensus protocols, and anti-drift enforcement.<br>

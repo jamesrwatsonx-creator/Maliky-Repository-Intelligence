@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 9
 
-3,027 catalog entries · Sorted alphabetically by name · Page 9 of 21.
+3,028 catalog entries · Sorted alphabetically by name · Page 9 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [methodologies/claudekit/claudekit-spec-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7cb55debd60251c4b46f9388.json) — ClaudeKit Spec Workflow - Full specification lifecycle: create specifications from codebase research, then execute via 6-phase iterative implementation (implement, test, review, improve, commit, track)<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-spec-workflow.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-spec-workflow.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/cleanroom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9e22372962565cf397290f57.json) — Cleanroom Software Engineering - Formal methods with statistical usage testing for certifiable reliability<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cleanroom/cleanroom.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cleanroom/cleanroom.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/cog-second-brain/cog-intelligence-cycle](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad96eb0ecbad6ed155d814d90.json) — COG Second Brain - Intelligence cycle: daily brief, team brief, comprehensive analysis<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/phase-transition-investigation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/phase-transition-investigation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [philosophy/applied-ethics-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f601b763f765fb916779af2.json) — Analyze practical moral problems using multiple ethical frameworks (deontological, consequentialist, virtue ethics), identify stakeholders, and develop reasoned ethical recommendations<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/applied-ethics-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/applied-ethics-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [philosophy/argument-reconstruction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A71c366d83302b32d988d4a3e.json) — Extract arguments from texts, identify premises and conclusions, map argument structure using Toulmin model or standard form, and assess logical validity and soundness<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/argument-reconstruction.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/argument-reconstruction.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

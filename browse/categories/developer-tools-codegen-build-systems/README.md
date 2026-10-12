@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**51 entries** · Alphabetical · 1 page.
+**59 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -80,10 +80,26 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [package.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [go-sdk-tool-migrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa2bb029ca9bd790af062cac4.json) — Agent specializing in migrating MCP tools from mark3labs/mcp-go to modelcontextprotocol/go-sdk<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [.github/agents/go-sdk-tool-migrator.md](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/agents/go-sdk-tool-migrator.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661247.json) — This repository contains the tools and resources for working with ERC-4337 Account Abstraction smart contracts. This includes the code for the singleton `EntryPoint` contract that is deployed by our team on most…<br>
+  Source: [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/account-abstraction) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342954494.json) — Clone any website with one command using AI coding agents<br>
-  Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Templates/boilerplates, Developer tools
-- [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247306274.json) — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local<br>
-  Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · REPOSITORY · COMPLETE · PINNED_SOURCE · MCP servers, Developer tools, Knowledge graphs
+  Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
+- [jamesrwatsonx-creator/awesome-git-addons](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388337378.json) — :sunglasses: A curated list of add-ons that extend/enhance the git CLI.<br>
+  Source: [jamesrwatsonx-creator/awesome-git-addons](https://github.com/jamesrwatsonx-creator/awesome-git-addons) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/claude-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388240850.json) — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through…<br>
+  Source: [jamesrwatsonx-creator/claude-code](https://github.com/jamesrwatsonx-creator/claude-code) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/claude-code-templates](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406877411.json) — CLI tool for configuring and monitoring Claude Code<br>
+  Source: [jamesrwatsonx-creator/claude-code-templates](https://github.com/jamesrwatsonx-creator/claude-code-templates) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247306274.json) — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent â€” fewer tokens, fewer tool calls, 100% local<br>
+  Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI evaluation, AI memory
+- [jamesrwatsonx-creator/NKVPhonePicker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398378320.json) — An UITextField subclass to simplify country code's picking. Swift 5.0<br>
+  Source: [jamesrwatsonx-creator/NKVPhonePicker](https://github.com/jamesrwatsonx-creator/NKVPhonePicker) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/scancode-toolkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377988955.json) — :mag: ScanCode detects licenses, copyrights, dependencies by "scanning code" ... to discover and inventory open source and third-party packages used in your code. Sponsored by NLnet, the Google Summer of Code, Azure…<br>
+  Source: [jamesrwatsonx-creator/scancode-toolkit](https://github.com/jamesrwatsonx-creator/scancode-toolkit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/semgrep](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377988596.json) — Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.<br>
+  Source: [jamesrwatsonx-creator/semgrep](https://github.com/jamesrwatsonx-creator/semgrep) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/syft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377990802.json) — CLI tool and library for generating a Software Bill of Materials from container images and filesystems<br>
+  Source: [jamesrwatsonx-creator/syft](https://github.com/jamesrwatsonx-creator/syft) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [langgraph-av](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c8807e99c052bd411b05dc3.json) — `langgraph-av`: launches a LangGraph app as an Agentverse agent via the AgentverseLangGraphApplication SDK.<br>
   Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/uagents-core/pyproject.toml](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-core/pyproject.toml#L1) · CLI · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [llm-select](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aab534f7e8eaab308bc718382.json) — llm.cli.selector:main<br>

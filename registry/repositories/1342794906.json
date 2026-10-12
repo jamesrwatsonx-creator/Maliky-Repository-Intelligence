@@ -23,11 +23,15 @@
   "current_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
   "inspection_date": "2026-09-20T05:33:22.031649+00:00",
   "categories": [
-    "category:skills",
-    "category:cloud-infrastructure"
+    "category:ai-agents",
+    "category:cloud-infrastructure",
+    "category:skills"
   ],
   "operational_category": "operational:14",
-  "secondary_operational_categories": [],
+  "secondary_operational_categories": [
+    "operational:01",
+    "operational:03"
+  ],
   "capabilities": [
     "capability:google-skills-gemini-enterprise-agent-platform",
     "capability:google-skills-gke",
@@ -299,7 +303,7 @@
     "deep_review": false,
     "validation": true
   },
-  "visibility_verified_at": "2026-10-12T18:54:35.861026+00:00",
+  "visibility_verified_at": "2026-10-12T19:04:27.159684+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -349,5 +353,15 @@
       "README and CONTRIBUTING"
     ],
     "scoped_deep_review": "Skills are markdown guidance; 19 skills bundle 67 helper scripts. Static scan found no rm -rf, curl|sh or sudo; subprocess use in 8 files, one `gcloud ... delete` in agent-platform-deploy/scripts/config_gcloud_cli.sh and one eval/exec in developer-device-platform-basics/scripts/demo_adb_forwarder.py. IAM, auth and ads-audience skills are flagged in metadata."
+  },
+  "catalog_metadata": {
+    "status": "DISCOVERABLE",
+    "classification": "LIGHTWEIGHT_METADATA",
+    "source_links": [
+      "https://github.com/jamesrwatsonx-creator/Google-skills",
+      "https://github.com/jamesrwatsonx-creator/Google-skills"
+    ],
+    "updated_at": "2026-10-12T19:04:27.159688+00:00",
+    "purpose_established": true
   }
 }

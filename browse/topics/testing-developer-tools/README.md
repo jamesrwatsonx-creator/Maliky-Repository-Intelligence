@@ -2,7 +2,7 @@
 
 Testing, evaluation, QA and tools that improve software development.
 
-**1,071 entries** · Alphabetical · 8 pages.
+**1,194 entries** · Alphabetical · 8 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

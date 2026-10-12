@@ -1,9 +1,15 @@
 # Frontend / UI / Components — page 3
 
-311 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+314 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [UrlDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4db87473b85609aa4848d45.json) — Hermes desktop app React component Url Dialog (url-dialog.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/composer/url-dialog.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/composer/url-dialog.tsx#L18) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [UserBubble](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A497b9b8e3a763fea21b316a9.json) — User-message transcript row with attachment and queued-state rendering.<br>
+  Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [src/components/chat/TranscriptRows.tsx](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/components/chat/TranscriptRows.tsx#L30) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
+- [UserEditComposer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e629f64da44c234539b0d4b.json) — Hermes desktop app React component User Edit Composer (user-edit-composer.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/assistant-ui/thread/user-edit-composer.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/assistant-ui/thread/user-edit-composer.tsx#L86) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [UserMessage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9cbf2033a26875b23990feab.json) — Hermes desktop app React component User Message (user-message.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/assistant-ui/thread/user-message.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/assistant-ui/thread/user-message.tsx#L263) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [VirtualizedRunList](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c0a80410ff74991fb92c970.json) — Observer dashboard React component VirtualizedRunList (virtualized-run-list.tsx).<br>

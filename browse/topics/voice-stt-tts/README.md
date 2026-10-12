@@ -2,7 +2,7 @@
 
 Speech interfaces, transcription, speech generation and voice agents.
 
-**332 entries**
+**333 entries**
 
 ## Browse within this topic
 
@@ -12,7 +12,7 @@ Speech interfaces, transcription, speech generation and voice agents.
 - [MCP Servers](by-type/mcps/README.md) (1)
 - [Models & Model Adapters](by-type/models/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (6)
-- [Repositories](by-type/repositories/README.md) (37)
+- [Repositories](by-type/repositories/README.md) (38)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (19)
 - [Tools](by-type/tools/README.md) (6)

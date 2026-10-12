@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**116 entries** · Alphabetical · 1 page.
+**117 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -195,7 +195,9 @@ Canonical operational taxonomy view generated from registry assignments.
 - [Installer tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0de3b47ca71a7410fe718c99.json) — Installer test workflow.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [.github/workflows/installer-tests.yml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/.github/workflows/installer-tests.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342794906.json) — Agent Skills for Google products and technologies<br>
-  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Cloud infrastructure
+  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Cloud infrastructure, Skills
+- [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660641.json) — Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software.<br>
+  Source: [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/hardhat) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DevOps
 - [JS Tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A04d400c1a82cc595b4568004.json) — JavaScript test workflow.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [.github/workflows/js-tests.yml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/.github/workflows/js-tests.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [Lint (ruff + ty)](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A10dcd27932a59d89ee1132ec.json) — Python lint and type-check workflow (ruff and ty).<br>

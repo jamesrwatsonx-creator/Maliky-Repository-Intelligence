@@ -23,11 +23,11 @@
   "current_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
   "inspection_date": "2026-09-20T05:32:58.901871+00:00",
   "categories": [
-    "category:mcp-servers",
-    "category:developer-tools",
     "category:business-applications",
-    "category:productivity",
-    "category:iam"
+    "category:developer-tools",
+    "category:iam",
+    "category:mcp-servers",
+    "category:productivity"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [],
@@ -366,7 +366,7 @@
     "deep_review": true,
     "validation": true
   },
-  "visibility_verified_at": "2026-10-12T18:54:36.543050+00:00",
+  "visibility_verified_at": "2026-10-12T19:04:27.290395+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -446,5 +446,15 @@
       "provider internals"
     ],
     "scoped_deep_review": "Authentication and mutation trigger reviewed narrowly. Read access follows the supplied Slack identity; browser-session-only saved-item tools require xoxc/xoxd credentials; message, reaction and attachment tools are opt-in when no explicit tool allowlist is supplied, while several membership/read-state tools are mutating. MCP annotations label read-only and destructive operations, but deployment must still constrain credentials and enabled tools."
+  },
+  "catalog_metadata": {
+    "status": "DISCOVERABLE",
+    "classification": "LIGHTWEIGHT_METADATA",
+    "source_links": [
+      "https://github.com/jamesrwatsonx-creator/slack-mcp-server",
+      "https://github.com/jamesrwatsonx-creator/slack-mcp-server"
+    ],
+    "updated_at": "2026-10-12T19:04:27.290400+00:00",
+    "purpose_established": true
   }
 }

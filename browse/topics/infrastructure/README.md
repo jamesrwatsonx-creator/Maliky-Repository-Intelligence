@@ -2,7 +2,7 @@
 
 Cloud, infrastructure, containers, CI and platform operations.
 
-**424 entries** · Alphabetical · 3 pages.
+**432 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

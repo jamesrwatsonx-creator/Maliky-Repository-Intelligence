@@ -2,7 +2,7 @@
 
 Browser control, computer use, testing and web interaction.
 
-**94 entries** · Alphabetical · 1 page.
+**98 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -115,21 +115,29 @@ Browser control, computer use, testing and web interaction.
 - [interaction/viewport](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab828c360950dae9a0c38d7b6.json) — Interaction skill: Viewport. Cover how viewport size changes affect layout, coordinate clicks, and any workflow that depends on stable geometry.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [interaction-skills/viewport.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/interaction-skills/viewport.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1249678565.json) — Browser Harness \\| Self-healing harness that enables LLMs to complete any task.<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Automation/scripting, CI/CD
+- [jamesrwatsonx-creator/Browser-OpenManus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408217762.json) — No fortress, purely open ground. OpenManus is Coming.<br>
+  Source: [jamesrwatsonx-creator/Browser-OpenManus](https://github.com/jamesrwatsonx-creator/Browser-OpenManus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408211482.json) — Vane is an AI-powered answering engine.<br>
+  Source: [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Browser-Vane) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404534.json) — Run a high-fidelity browser-based web archiving crawler in a single Docker container<br>
+  Source: [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/browsertrix-crawler) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, DevOps
 - [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358723223.json) — Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.<br>
-  Source: [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/camofox-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/camofox-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
 - [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1355166703.json) — Chrome DevTools for coding agents<br>
-  Source: [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/chrome-devtools-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/chrome-devtools-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, MCP servers
 - [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372823236.json) — Browser automation CLI for AI agents<br>
-  Source: [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Agent frameworks
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
 - [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344501968.json) — Playwright MCP server<br>
-  Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Libraries/packages
 - [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344512192.json) — The SDK For Browser Agents<br>
-  Source: [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/stagehand) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/stagehand) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, APIs, Developer tools
+- [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389397829.json) — Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML<br>
+  Source: [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/trafilatura) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342864146.json) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.<br>
-  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, CLI tools
 - [library/methodologies/automaker/skills/test-automation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A81fc883ecee2efbf285d7971.json) — # Test Automation Execute Vitest and Playwright test suites with result collection and failure analysis. ## Agent Test Runner - `automaker-test-runner`<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/automaker/skills/test-automation/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/automaker/skills/test-automation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [linkedin/invitation-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe9e249c8bcb39337900a319.json) — Domain skill: LinkedIn — Invitation Manager. Accept or ignore pending connection invitations in bulk from<br>

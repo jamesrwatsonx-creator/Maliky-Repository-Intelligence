@@ -1,9 +1,11 @@
 # Security & Identity — page 4
 
-494 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+495 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/web-development/content-security-policy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ec077f61ca5726907c6610c.json) — Content Security Policy - Process for implementing comprehensive CSP headers for XSS prevention and security hardening.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/content-security-policy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/content-security-policy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/web-development/jwt-authentication](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac18dda0ab213fc7c88ff4feb.json) — JWT Authentication Implementation - Process for implementing secure JWT-based authentication with access tokens, refresh tokens, token rotation, and secure storage patterns.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/jwt-authentication.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/jwt-authentication.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/web-development/mern-stack-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A573451dce2ad1a655688c1fb.json) — MERN Stack Application Development - Complete full-stack development process using MongoDB, Express.js, React, and Node.js with RESTful API design, authentication, state management, and deployment.<br>

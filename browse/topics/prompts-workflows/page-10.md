@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 10
 
-3,027 catalog entries · Sorted alphabetically by name · Page 10 of 21.
+3,028 catalog entries · Sorted alphabetically by name · Page 10 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [philosophy/argument-reconstruction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A71c366d83302b32d988d4a3e.json) — Extract arguments from texts, identify premises and conclusions, map argument structure using Toulmin model or standard form, and assess logical validity and soundness<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/argument-reconstruction.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/argument-reconstruction.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [philosophy/bioethics-deliberation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A638ab4a7cf98a1365935f181.json) — Conduct structured ethical deliberation for healthcare decisions, research protocols, and clinical cases using bioethical principles and case-based reasoning<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/bioethics-deliberation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/bioethics-deliberation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [philosophy/canonical-contextual-reading](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3d0836421ddfbe63485efd2a.json) — Interpret texts within their canonical, historical, and cultural contexts, attending to genre, authorial intent, and reception history<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Android-motion-haze) · [.github/workflows/release.yml](https://github.com/jamesrwatsonx-creator/Android-motion-haze/blob/d0e7c97fac6623b194a2ec61d8c23526865ca175/.github/workflows/release.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [Research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d2a7fc0b1a8c0c79b31b609.json) — Manage research data throughout its lifecycle for reproducibility and sharing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/research-data-management.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/research-data-management.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [research-ops](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3c78a12cb0ab350837dbe24.json) — Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/research-ops/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/research-ops/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

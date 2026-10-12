@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**48 entries** · Alphabetical · 1 page.
+**54 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -46,8 +46,20 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/gmi/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/gmi/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [huggingface-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1bddc4719b271106717cd6a9.json) — HuggingFace Inference Providers<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/huggingface/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/huggingface/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408214904.json) — > A curated list of projects, tools, models, UIs, and resources for ACE-Step — the open-source music generation foundation model by ACE Studio and StepFun.<br>
+  Source: [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/awesome-ace-step) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391518849.json) — The most complete gallery of what people build with Jev, TypeSafe's System One model: 3,400+ projects, demos, and write-ups by scenario, each with its original link, image, and description.<br>
+  Source: [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/awesome-jev) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace.<br>
+  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346420050.json) — Open Frontier Intelligence<br>
-  Source: [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Kimi-K3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Machine-learning models, LLM projects, Generative AI
+  Source: [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Kimi-K3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects, Machine-learning models
+- [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389177687.json) — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI,…<br>
+  Source: [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/litellm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, LLM projects
+- [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398895167.json) — Integrate cutting-edge LLM technology quickly and easily into your apps<br>
+  Source: [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/semantic-kernel) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389175966.json) — A programmable Mixture-of-Models router for heterogeneous LLM inference<br>
+  Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [kilocode-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa396efe49e989d94618ad043.json) — Kilo Code<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/kilocode/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/kilocode/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Kimi K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97b483644f21053549ec9480.json) — Moonshot AI Kimi K3: open-weight native multimodal (text, image, video) agentic mixture-of-experts model, 2.8T total and 104B activated parameters, 93 layers, 16 of 896 experts active, 1M-token context, native MXFP4…<br>

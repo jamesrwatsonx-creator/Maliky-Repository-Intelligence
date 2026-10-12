@@ -1,9 +1,15 @@
 # Websites — page 3
 
-353 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+356 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [SkillsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A50e646de48327d852c159e18.json) — Hermes web dashboard React component Skills Page (SkillsPage.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/pages/SkillsPage.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/pages/SkillsPage.tsx#L128) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [SkillsView](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b967a2daae751c33aba182d.json) — Hermes desktop app React component Skills View (index.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/skills/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/skills/index.tsx#L205) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [SlashPopover](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A08ebd3575ad8289f4fc45094.json) — Hermes web dashboard React component Slash Popover (SlashPopover.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/SlashPopover.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/SlashPopover.tsx#L47) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [SocialEmbedRenderer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeaf2c7057471d5c79174bb73.json) — Hermes desktop app React component Social Embed Renderer (social-embed.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/assistant-ui/embeds/social-embed.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/assistant-ui/embeds/social-embed.tsx#L85) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [SortDropdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23e9cb201582faa9508ad8f9.json) — Process catalog React component SortDropdown (SortDropdown.tsx).<br>

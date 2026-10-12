@@ -1,9 +1,11 @@
 # Voice, STT & TTS — page 3
 
-332 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+333 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [unload_model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adce08c972425dc19a89c1c0e.json) — Unload the default Qwen TTS model to free memory.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L64) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [unload_model_by_name](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad34780524d40263b48023f5d.json) — Unload a specific model from memory without deleting it from disk.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L76) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [update_capture_settings_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ff64cdb4af7ae3dbc21be44.json) — Update capture (STT) settings.<br>

@@ -2,7 +2,7 @@
 
 Animation libraries, motion systems and interaction effects.
 
-**165 entries**
+**168 entries**
 
 ## Browse within this topic
 
@@ -10,7 +10,7 @@ Animation libraries, motion systems and interaction effects.
 - [Libraries & Packages](by-type/libraries/README.md) (6)
 - [Plugins](by-type/plugins/README.md) (1)
 - [Other Assets](by-type/other-assets/README.md) (75)
-- [Repositories](by-type/repositories/README.md) (17)
+- [Repositories](by-type/repositories/README.md) (20)
 - [Services & Integrations](by-type/services/README.md) (1)
 - [Skills](by-type/skills/README.md) (42)
 - [Workflows](by-type/workflows/README.md) (18) · Alphabetical · 2 pages.
@@ -154,39 +154,45 @@ Animation libraries, motion systems and interaction effects.
 - [inventory-demand-planning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A140511b2b2334120b8a65e95.json) — Codified expertise for demand forecasting, safety stock optimization, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 15+ years experience managing…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/inventory-demand-planning/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/inventory-demand-planning/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396969985.json) — :books: Android 所有动画系列详尽教程。 Explain all animations in Android.<br>
-  Source: [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Android-Animation-Set) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Android-Animation-Set) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Mobile applications
 - [jamesrwatsonx-creator/Android-SpinKit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346662287.json) — Android loading animations<br>
-  Source: [jamesrwatsonx-creator/Android-SpinKit](https://github.com/jamesrwatsonx-creator/Android-SpinKit) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Android-SpinKit](https://github.com/jamesrwatsonx-creator/Android-SpinKit) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396968858.json) — Android UI libraries, components and animations by @ramotion<br>
-  Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
+  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.<br>
-  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems
+  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Design systems, Developer tools
 - [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342385313.json) — ⚡️ A collection of Jetpack Compose animations for the best practices. Tweak literals at the top of any file, save, and watch the motion morph in real-time.<br>
-  Source: [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/compose-android--animations) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/compose-android--animations) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342985014.json) — Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression,…<br>
-  Source: [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/drawio-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/drawio-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Creative tools, Skills
 - [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315198427.json) — Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.<br>
-  Source: [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/gsap-skills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
-- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace — 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
-  Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/gsap-skills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Creative tools, Developer tools
+- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace â€” 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
+  Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools
 - [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340230037.json) — Render After Effects animations natively on Android and iOS, Web, and React Native<br>
-  Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346669105.json) — Lottie wrapper for React Native.<br>
-  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376782785.json) — Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/<br>
-  Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Lottie-Windows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376783553.json) — Lottie-Windows is a library (and related tools) for rendering Lottie animations on Windows 10 and Windows 11.<br>
-  Source: [jamesrwatsonx-creator/Lottie-Windows](https://github.com/jamesrwatsonx-creator/Lottie-Windows) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Lottie-Windows](https://github.com/jamesrwatsonx-creator/Lottie-Windows) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/MaterialViewPager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398406328.json) — A Material Design ViewPager easy to use library<br>
+  Source: [jamesrwatsonx-creator/MaterialViewPager](https://github.com/jamesrwatsonx-creator/MaterialViewPager) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/ng-lottie](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376780916.json) — Render After Effects animations on Angular based on lottie-web<br>
-  Source: [jamesrwatsonx-creator/ng-lottie](https://github.com/jamesrwatsonx-creator/ng-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/ng-lottie](https://github.com/jamesrwatsonx-creator/ng-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
-  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376780291.json) — Render After Effects animations on React based on lottie-web<br>
-  Source: [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/react-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/react-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
-  Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [jamesrwatsonx-creator/Vibe-atudio-transitions.dev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1367463845.json) — Collection of the most essential transitions for web apps, skill for agents and Refine tool for agents<br>
-  Source: [jamesrwatsonx-creator/Vibe-atudio-transitions.dev](https://github.com/jamesrwatsonx-creator/Vibe-atudio-transitions.dev) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Vibe-atudio-transitions.dev](https://github.com/jamesrwatsonx-creator/Vibe-atudio-transitions.dev) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Skills
+- [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388969986.json) — open-source canvas for thoughtful software design<br>
+  Source: [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/whiteboard) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jira-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c512b1397c132d56f5f1fa2.json) — Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST calls.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/jira-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/jira-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [langgraph-routing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad98a3472d290edbeda394cfa.json) — Conditional edge routing and state-based transitions for LangGraph workflows<br>
@@ -311,12 +317,6 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/hifi-prototyping.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/hifi-prototyping.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Stripi-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9086bffe39a50b4b77cbe939.json) — An inspired interpretation of Stripi's design language — a financial-infrastructure brand built on a deep navy ink, an electric indigo primary, and a recurring atmospheric gradient mesh that occupies the upper third of…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/stripe/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/stripe/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [Supabaze-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac43b97d2f7d742645c3d01ba.json) — An inspired interpretation of Supabaze's design language — an open-source database platform built on a clean white-and-near-black system with a single signature emerald-green CTA, a custom humanist sans display tier,…<br>
-  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/supabase/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/supabase/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [Superhumon-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A813515926f99595055a6cb93.json) — An inspired interpretation of Superhumon's design language — a fast-email productivity brand split between an editorial dark hero (deep indigo navy with violet-sky atmospheric backdrop and a portrait subject) and a…<br>
-  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/superhuman/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/superhuman/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [thermal-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A50598b1825c0ac8bf0853777.json) — Skill for thermal characterization workflows including DSC, TGA, DTA, TMA, and DMA for phase transitions, decomposition, and viscoelastic property analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/materials-science/skills/thermal-analysis/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/materials-science/skills/thermal-analysis/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

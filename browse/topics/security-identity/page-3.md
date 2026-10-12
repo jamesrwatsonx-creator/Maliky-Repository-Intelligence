@@ -1,9 +1,11 @@
 # Security & Identity — page 3
 
-494 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+495 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [scientific-discovery/assurance-safety-case-reasoning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad6a359c0ae1805ad831d1355.json) — Structured arguments for system safety/security using Goal Structuring Notation and similar frameworks<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/assurance-safety-case-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/assurance-safety-case-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Scorecard supply-chain security](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa9b2072e9196910088915e06.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/AI-For-Beginners](https://github.com/jamesrwatsonx-creator/AI-For-Beginners) · [.github/workflows/scorecard.yml](https://github.com/jamesrwatsonx-creator/AI-For-Beginners/blob/33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b/.github/workflows/scorecard.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [secops-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14f0ad2a99c77a14243f7266.json) — Senior DevSecOps Engineer specializing in security operations and compliance<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/security-architecture-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/security-architecture-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/technical-documentation/api-reference-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A774bfe929b1d0b5ae6f01a88.json) — API Reference Documentation with Code Examples - Comprehensive process for creating complete API reference documentation with multi-language code examples, authentication flows, error handling, rate limits, SDK…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/api-reference-docs.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/api-reference-docs.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/web-development/content-security-policy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ec077f61ca5726907c6610c.json) — Content Security Policy - Process for implementing comprehensive CSP headers for XSS prevention and security hardening.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/content-security-policy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/content-security-policy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

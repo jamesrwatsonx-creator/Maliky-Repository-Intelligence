@@ -2,7 +2,7 @@
 
 Deployment workflows, hosting, packaging and release automation.
 
-**318 entries** · Alphabetical · 3 pages.
+**320 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

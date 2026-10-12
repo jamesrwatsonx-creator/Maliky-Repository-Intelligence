@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 19
 
-3,027 catalog entries · Sorted alphabetically by name · Page 19 of 21.
+3,028 catalog entries · Sorted alphabetically by name · Page 19 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/security-compliance/gdpr-compliance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A076d8b55d1a77df728395779.json) — GDPR Compliance Assessment Process - Comprehensive evaluation of General Data Protection Regulation compliance covering data mapping, legal basis determination, consent management, Data Protection Impact Assessment…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/gdpr-compliance.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/gdpr-compliance.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/security-compliance/iac-security-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A77797fd565a2f428beab6c95.json) — Infrastructure as Code Security Review - Comprehensive security analysis of IaC configurations including Terraform/CloudFormation scanning, policy as code validation (OPA, Sentinel), misconfiguration detection,…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/iac-security-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/iac-security-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/security-compliance/iam-access-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49a05033f8a9038d7b3af8db.json) — Access Control and IAM Review - Comprehensive identity and access management security assessment covering RBAC/ABAC implementation, least privilege enforcement, access reviews and certification, privileged account…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/spectroscopy-measurement-campaign.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/spectroscopy-measurement-campaign.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [spotify](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad23d10c193f70fb4345feadb.json) — Native Spotify integration — 7 tools (playback, devices, queue, search, playlists, albums, library) using Spotify Web API + PKCE OAuth. Auth via `hermes auth spotify`. Tools gate on `providers.spotify` in…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/spotify/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/spotify/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [spotify/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A75341b87cb96f0b2f6c6ed0e.json) — Domain skill: Spotify — Data Extraction. Field-tested against open.spotify.com on 2026-04-18.<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/spotify/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/spotify/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 

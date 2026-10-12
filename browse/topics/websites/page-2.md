@@ -1,13 +1,19 @@
 # Websites — page 2
 
-353 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+356 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — ðŸš€ðŸ¤– Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
+  Source: [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Voice-website.crawl4ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI, LLM projects
+- [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342370171.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · AI agents, APIs, Generative AI
+- [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372784354.json) — Independent technology for modern publishing, memberships, subscriptions and newsletters.<br>
+  Source: [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
 - [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347784650.json) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.<br>
-  Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
 - [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391792.json) — Community-maintained dataset of 700+ websites for finding accounts by username — powers OSINT and digital footprint tools.<br>
-  Source: [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/WhatsMyName) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/WhatsMyName) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [JsonDocumentEditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5ef95f5add83922005cb6a2c.json) — Hermes desktop app React component Json Document Editor (json-document-editor.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/chat/json-document-editor.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/chat/json-document-editor.tsx#L33) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [JsonTree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa697afe0cc4b18f017bdd0b4.json) — Observer dashboard React component JsonTree (index.tsx).<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/catalog/DetailView/SkillDetail.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/DetailView/SkillDetail.tsx#L22) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [SkillEditorDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abe44823f4879e7aeca77c3e9.json) — Hermes web dashboard React component Skill Editor Dialog (SkillEditorDialog.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/SkillEditorDialog.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/SkillEditorDialog.tsx#L48) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SkillsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A50e646de48327d852c159e18.json) — Hermes web dashboard React component Skills Page (SkillsPage.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/pages/SkillsPage.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/pages/SkillsPage.tsx#L128) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SkillsView](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b967a2daae751c33aba182d.json) — Hermes desktop app React component Skills View (index.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/skills/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/skills/index.tsx#L205) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SlashPopover](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A08ebd3575ad8289f4fc45094.json) — Hermes web dashboard React component Slash Popover (SlashPopover.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/SlashPopover.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/SlashPopover.tsx#L47) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

@@ -23,8 +23,12 @@
   "current_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
   "inspection_date": "2026-09-20T05:32:58.877910+00:00",
   "categories": [
+    "category:ai-agents",
+    "category:ci-cd",
+    "category:developer-tools",
     "category:mcp-servers",
-    "category:developer-tools"
+    "category:prompt-libraries",
+    "category:web-applications"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [],
@@ -320,7 +324,7 @@
     "deep_review": false,
     "validation": true
   },
-  "visibility_verified_at": "2026-10-12T18:54:35.827733+00:00",
+  "visibility_verified_at": "2026-10-12T19:04:27.154025+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -397,5 +401,15 @@
       "tests and e2e"
     ],
     "scoped_deep_review": "The server acts with the caller's GitHub credentials (PAT via GITHUB_PERSONAL_ACCESS_TOKEN, or OAuth); 52 of 109 tools lack a ReadOnlyHint and can mutate GitHub state (repositories, issues, pull requests, gists, workflows and more). Narrow exposure with --read-only, --toolsets and --exclude-tools (cmd/github-mcp-server/main.go); HTTP mode adds token, PAT-scope and scope-challenge middleware (pkg/http/middleware). No token persistence to disk was found in internal/oauth (no file-write calls)."
+  },
+  "catalog_metadata": {
+    "status": "DISCOVERABLE",
+    "classification": "LIGHTWEIGHT_METADATA",
+    "source_links": [
+      "https://github.com/jamesrwatsonx-creator/github-mcp-server",
+      "https://github.com/jamesrwatsonx-creator/github-mcp-server"
+    ],
+    "updated_at": "2026-10-12T19:04:27.154030+00:00",
+    "purpose_established": true
   }
 }

@@ -2,14 +2,20 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**9 entries** · Alphabetical · 1 page.
+**12 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
 - [generate_speech](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c7a5db9184fd8e9e60a1c6d.json) — POST /generate validates a voice profile and engine, creates a generation record and enqueues run_generation. It returns the generation record; synthesis is performed asynchronously.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/generations.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs, Backend services
+- [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388097197.json) — ⚡ Insanely fast AI voice assistant with <500ms response times<br>
+  Source: [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/fast-voice-assistant) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
+- [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
+  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247326357.json) — Clone a voice in 5 seconds to generate arbitrary speech in real-time<br>
-  Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
+  Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Machine-learning models
+- [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388239705.json) — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.<br>
+  Source: [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/voice-website-WeKnora) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Frontend applications
 - [real-time-voice-cloning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1185c8e3bda34a32fa7fbb8c.json) — Python package for the three-stage SV2TTS voice-cloning research implementation and its inference interfaces.<br>
   Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning/blob/890f3a03187195b9829db2079b75c2ba2ab0405c/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
 - [Speaker Encoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A84a85ef009b58c2f5d10cee8.json) — GE2E-style recurrent speaker encoder that converts a short reference utterance into a normalized voice embedding.<br>

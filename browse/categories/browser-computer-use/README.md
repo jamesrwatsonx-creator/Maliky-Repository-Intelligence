@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**54 entries** · Alphabetical · 1 page.
+**58 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -85,7 +85,15 @@ Canonical operational taxonomy view generated from registry assignments.
 - [interaction/viewport](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab828c360950dae9a0c38d7b6.json) — Interaction skill: Viewport. Cover how viewport size changes affect layout, coordinate clicks, and any workflow that depends on stable geometry.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [interaction-skills/viewport.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/interaction-skills/viewport.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1249678565.json) — Browser Harness \\| Self-healing harness that enables LLMs to complete any task.<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Automation/scripting, CI/CD
+- [jamesrwatsonx-creator/Browser-OpenManus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408217762.json) — No fortress, purely open ground. OpenManus is Coming.<br>
+  Source: [jamesrwatsonx-creator/Browser-OpenManus](https://github.com/jamesrwatsonx-creator/Browser-OpenManus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408211482.json) — Vane is an AI-powered answering engine.<br>
+  Source: [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Browser-Vane) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
+- [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404534.json) — Run a high-fidelity browser-based web archiving crawler in a single Docker container<br>
+  Source: [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/browsertrix-crawler) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, DevOps
+- [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389397829.json) — Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML<br>
+  Source: [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/trafilatura) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [linkedin/invitation-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe9e249c8bcb39337900a319.json) — Domain skill: LinkedIn — Invitation Manager. Accept or ignore pending connection invitations in bulk from<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/linkedin/invitation-manager.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/linkedin/invitation-manager.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [manus/tasks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4645e64aaa1118ed4c3d1fcc.json) — Domain skill: Manus — Submitting Tasks, Awaiting Completion, Sharing Results. Manus (manus.im) is a general-purpose agent that runs long-form tasks in a cloud sandbox. The web UI is a Next.js SPA; the runtime API is a…<br>

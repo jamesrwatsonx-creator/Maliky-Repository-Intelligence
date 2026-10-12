@@ -68,7 +68,8 @@ def main(argv=None):
     parser.add_argument("--limit", type=int, default=20)
     args = parser.parse_args(argv)
     results = search_catalog(args.query, args.asset_type, args.topic, args.repository, args.status, args.kind, args.limit)
-    print(json.dumps(results, ensure_ascii=False, indent=2))
+    # Escaping non-ASCII keeps the JSON CLI reliable in Windows legacy consoles.
+    print(json.dumps(results, ensure_ascii=True, indent=2))
     return 0
 
 

@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**151 entries** · Alphabetical · 2 pages.
+**155 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -117,43 +117,51 @@ Models, local inference, adapters and model routing.
 - [ito-inference](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7539e05e553bd11ca63bd8ff.json) — Inspect the availability of model serving on a completed Itô compute booking and, when the canonical backend becomes available, hand off an explicitly confirmed serving manifest. Use after ito-compute has booked GPU…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/ito-inference/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/ito-inference/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [jamesrwatsonx-creator/airllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342770543.json) — AirLLM 70B inference with single 4GB GPU<br>
-  Source: [jamesrwatsonx-creator/airllm](https://github.com/jamesrwatsonx-creator/airllm) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/airllm](https://github.com/jamesrwatsonx-creator/airllm) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, LLM projects
+- [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408214904.json) — > A curated list of projects, tools, models, UIs, and resources for ACE-Step — the open-source music generation foundation model by ACE Studio and StepFun.<br>
+  Source: [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/awesome-ace-step) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391518849.json) — The most complete gallery of what people build with Jev, TypeSafe's System One model: 3,400+ projects, demos, and write-ups by scenario, each with its original link, image, and description.<br>
+  Source: [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/awesome-jev) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace.<br>
+  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372815756.json) — FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.<br>
-  Source: [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/FinGPT) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/FinGPT) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342410842.json) — A list of free LLM inference resources accessible via API.<br>
-  Source: [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/free-llm-api-resources) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/free-llm-api-resources) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, LLM projects
 - [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343007565.json) — lightweight, standalone C++ inference engine for Google's Gemma models.<br>
-  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350954158.json) — Fully automatic censorship removal for language models<br>
-  Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247324543.json) — HunyuanVideo: A Systematic Framework For Large Video Generation Model<br>
-  Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
+  Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Creative tools, Generative AI, LLM projects
 - [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346420050.json) — Open Frontier Intelligence<br>
-  Source: [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Kimi-K3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Machine-learning models, LLM projects, Generative AI
+  Source: [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Kimi-K3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects, Machine-learning models
 - [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389177687.json) — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI,…<br>
-  Source: [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/litellm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/litellm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, LLM projects
 - [jamesrwatsonx-creator/LongCat-Video](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342414484.json) — Catalog evidence identifies 8 reusable assets across component, model, model adapter; examples include LongCat Video Prompt Enhancer, LongCat-Video-Avatar, LongCat Block-Sparse Video Attention.<br>
-  Source: [jamesrwatsonx-creator/LongCat-Video](https://github.com/jamesrwatsonx-creator/LongCat-Video) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
+  Source: [jamesrwatsonx-creator/LongCat-Video](https://github.com/jamesrwatsonx-creator/LongCat-Video) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Machine-learning models
 - [jamesrwatsonx-creator/LTX-2](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1357829023.json) — Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.<br>
-  Source: [jamesrwatsonx-creator/LTX-2](https://github.com/jamesrwatsonx-creator/LTX-2) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/LTX-2](https://github.com/jamesrwatsonx-creator/LTX-2) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, LLM projects
 - [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344553112.json) — An Android-native autonomous agent that uses vision-language models to see and operate your phone — no PC or ADB required. Inspired by X-PLUG/MobileAgent.<br>
-  Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
+  Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · REPOSITORY · COMPLETE · PINNED_SOURCE · Accessibility, Agent frameworks, AI agents
 - [jamesrwatsonx-creator/ncnn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247339221.json) — ncnn is a high-performance neural network inference framework optimized for the mobile platform<br>
-  Source: [jamesrwatsonx-creator/ncnn](https://github.com/jamesrwatsonx-creator/ncnn) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/ncnn](https://github.com/jamesrwatsonx-creator/ncnn) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects, Mobile applications
 - [jamesrwatsonx-creator/ollama](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344551318.json) — Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.<br>
-  Source: [jamesrwatsonx-creator/ollama](https://github.com/jamesrwatsonx-creator/ollama) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/ollama](https://github.com/jamesrwatsonx-creator/ollama) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247345831.json) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...)<br>
-  Source: [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/open-webui) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/open-webui) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs
 - [jamesrwatsonx-creator/Qwen3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343002966.json) — Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.<br>
-  Source: [jamesrwatsonx-creator/Qwen3](https://github.com/jamesrwatsonx-creator/Qwen3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Qwen3](https://github.com/jamesrwatsonx-creator/Qwen3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, LLM projects
 - [jamesrwatsonx-creator/Qwen3-VL](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344549536.json) — Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.<br>
-  Source: [jamesrwatsonx-creator/Qwen3-VL](https://github.com/jamesrwatsonx-creator/Qwen3-VL) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/Qwen3-VL](https://github.com/jamesrwatsonx-creator/Qwen3-VL) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages, LLM projects
 - [jamesrwatsonx-creator/repomix](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377989611.json) — 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT,…<br>
-  Source: [jamesrwatsonx-creator/repomix](https://github.com/jamesrwatsonx-creator/repomix) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/repomix](https://github.com/jamesrwatsonx-creator/repomix) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398895167.json) — Integrate cutting-edge LLM technology quickly and easily into your apps<br>
+  Source: [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/semantic-kernel) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389175966.json) — A programmable Mixture-of-Models router for heterogeneous LLM inference<br>
-  Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY
+  Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344534994.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>
-  Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · REPOSITORY · PARTIAL · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory, LLM projects
 - [kilocode-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa396efe49e989d94618ad043.json) — Kilo Code<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/kilocode/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/kilocode/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Kimi K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97b483644f21053549ec9480.json) — Moonshot AI Kimi K3: open-weight native multimodal (text, image, video) agentic mixture-of-experts model, 2.8T total and 104B activated parameters, 93 layers, 16 of 896 experts active, 1M-token context, native MXFP4…<br>
@@ -298,14 +306,6 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb48477052a11cacd9e4639.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>
   Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
-- [WaveRNN Vocoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af23a1dc32ea9c6a9582089e5.json) — WaveRNN neural vocoder that converts generated mel spectrograms into audio waveforms.<br>
-  Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · [vocoder/models/fatchord_version.py](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning/blob/890f3a03187195b9829db2079b75c2ba2ab0405c/vocoder/models/fatchord_version.py#L88) · MODEL · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
-- [xai-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7169ec26d095a10616af9921.json) — xAI Grok (Responses API)<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/xai/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/xai/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [xiaomi-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad69a356bac835535b018c0fb.json) — Xiaomi MiMo<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/xiaomi/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/xiaomi/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [zai-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3c20e1e04b2c1ad76eeb8bb.json) — Z.AI / GLM<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/zai/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/zai/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

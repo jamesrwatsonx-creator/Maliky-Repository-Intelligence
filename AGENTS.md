@@ -1,5 +1,9 @@
 # Repository operating rules
 
+Current delivery scope: docs/V1-CATALOG-SCOPE.md records the owner's narrowed
+2026-10-12 V1 catalog requirements. Repository discoverability is independent of
+the source-inspection COMPLETE gate below. Preserve verified/candidate distinctions.
+
 Read docs/MASTER-SPECIFICATION.md and system/inspection-state.json before work.
 Source repositories are read-only. Never execute inspected source code.
 Only this intelligence repository may receive commits. Preserve prior records and caches.

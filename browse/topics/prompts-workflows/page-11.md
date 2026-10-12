@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 11
 
-3,027 catalog entries · Sorted alphabetically by name · Page 11 of 21.
+3,028 catalog entries · Sorted alphabetically by name · Page 11 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [research-ops](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3c78a12cb0ab350837dbe24.json) — Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/research-ops/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/research-ops/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [research-prompt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0cc442c8f701dfa05ea786f5.json) — Write a single-paragraph Deep Research prompt to hand to a human researcher (or a deep-research AI). Use when the user wants a research brief, a "deep research prompt", a one-paragraph task for a researcher, or asks…<br>
   Source: [jamesrwatsonx-creator/skills-fable](https://github.com/jamesrwatsonx-creator/skills-fable) · [skills/research-and-web/research-prompt/SKILL.md](https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/research-and-web/research-prompt/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [research-prompt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae0880dc05d67898713d648ba.json) — Write a single-paragraph Deep Research prompt to hand to a human researcher (or a deep-research AI). Use when the user wants a research brief, a "deep research prompt", a one-paragraph task for a researcher, or asks…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/academic-manuscript-preparation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/academic-manuscript-preparation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [social-sciences/cost-benefit-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A031a316694302d5d15fd13a7.json) — Perform economic evaluation of policies and programs including monetization of outcomes, discounting, sensitivity analysis, and distributional impact assessment<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/cost-benefit-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/cost-benefit-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [social-sciences/cross-cultural-measurement-adaptation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7a90a8ba7fb9efbba77460f.json) — Adapt and validate instruments for cross-cultural use including translation, back-translation, cognitive interviewing, and measurement invariance testing<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/cross-cultural-measurement-adaptation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/cross-cultural-measurement-adaptation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

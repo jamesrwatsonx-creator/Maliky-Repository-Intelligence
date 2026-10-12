@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**311 entries** · Alphabetical · 3 pages.
+**314 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -232,6 +232,12 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/HermesConsoleModal.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/HermesConsoleModal.tsx#L101) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [IssueWriteApp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A202da9668165d221252f2b9b.json) — MCP App UI (Primer React) for the issue write flow of github-mcp-server, rendered by MCP Apps-capable clients.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [ui/src/apps/issue-write/App.tsx](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/src/apps/issue-write/App.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
+- [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398506493.json) — A curated list of awesome LLM frameworks, libraries and software.<br>
+  Source: [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Front-end-UI-awesome-llm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, LLM projects
+- [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408213976.json) — Easy to use AI music generation UI for local models with QoL features<br>
+  Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
+- [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
+  Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [JsonDocumentEditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5ef95f5add83922005cb6a2c.json) — Hermes desktop app React component Json Document Editor (json-document-editor.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/chat/json-document-editor.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/chat/json-document-editor.tsx#L33) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [JsonTree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa697afe0cc4b18f017bdd0b4.json) — Observer dashboard React component JsonTree (index.tsx).<br>
@@ -300,12 +306,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [ui-tui/src/components/modelPicker.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/ui-tui/src/components/modelPicker.tsx#L35) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [ModelPickerDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcc2e5c5460f9986de2fc076.json) — Hermes web dashboard React component Model Picker Dialog (ModelPickerDialog.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/ModelPickerDialog.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/ModelPickerDialog.tsx#L93) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ModelPickerDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acaf8960cc5467b281acb5a2e.json) — Hermes desktop app React component Model Picker Dialog (model-picker.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/model-picker.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/model-picker.tsx#L40) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ModelPickerOverlay](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c068ae96df56dfff31baa5a.json) — Hermes desktop app React component Model Picker Overlay (model-picker-overlay.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/model-picker-overlay.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/model-picker-overlay.tsx#L23) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ModelSettings](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae7d10a8c164a6d7eb0c0306d.json) — Hermes desktop app React component Model Settings (model-settings.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/settings/model-settings.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/settings/model-settings.tsx#L189) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

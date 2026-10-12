@@ -1,16 +1,13 @@
 {
   "schema_version": 1,
-  "discovered_at": "2026-10-12T18:54:36.837713+00:00",
-  "scope": "Authenticated GitHub account accessibility; ownership filtered exactly; pagination exhausted",
+  "discovered_at": "2026-10-12T19:04:27.349146+00:00",
+  "scope": "Fresh paginated public owner REST inventory reconciled with authenticated connector owner inventory; public pagination exhausted",
   "target_owner": "jamesrwatsonx-creator",
   "counts": {
-    "accessible": 579,
     "owned": 579,
-    "forks_owned": 546,
     "public_owned": 566,
     "private_owned": 13,
-    "other_accessible": 0,
-    "private_other_access": 0
+    "forks_public_owned": 546
   },
   "repositories": [
     {
@@ -3976,5 +3973,17 @@
       "affiliation": "FORKED_UNDER_USER_ACCOUNT"
     }
   ],
-  "private_policy": "Aggregate counts only; identifiers and evidence excluded from public files"
+  "private_policy": "Aggregate counts only; identifiers and evidence excluded from public files",
+  "source_evidence": {
+    "method": "gh api --paginate --slurp user/repos",
+    "page_sizes": [
+      100,
+      100,
+      100,
+      100,
+      34
+    ],
+    "pagination_exhausted": true,
+    "credential_scope": "Authenticated account; inaccessible repositories cannot be counted"
+  }
 }

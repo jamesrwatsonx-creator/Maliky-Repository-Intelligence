@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 20
 
-3,027 catalog entries · Sorted alphabetically by name · Page 20 of 21.
+3,028 catalog entries · Sorted alphabetically by name · Page 20 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [spotify/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A75341b87cb96f0b2f6c6ed0e.json) — Domain skill: Spotify — Data Extraction. Field-tested against open.spotify.com on 2026-04-18.<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/spotify/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/spotify/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [sprint-plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3feb47ed8d9a3f339b3f2288.json) — Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope…<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-execution/skills/sprint-plan/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/sprint-plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [sql-queries](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2039cc08cc33848143eb1108.json) — Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/wehotel/hotels.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/wehotel/hotels.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [Welcome Contributors](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0d2096406320ac03bd4d5477.json) — Source-declared workflow `Welcome Contributors`.<br>
   Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · [.github/workflows/pr-welcome.yml](https://github.com/jamesrwatsonx-creator/free-ai-bible/blob/89a63fec7bffd4286893d8c7c5c948c86bf5152f/.github/workflows/pr-welcome.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [welding-procedure-qualification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A530c7d3e04eb267a2f74aaaa.json) — Welding procedure specification (WPS) development and qualification per AWS/ASME standards<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mechanical-engineering/welding-procedure-qualification.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mechanical-engineering/welding-procedure-qualification.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

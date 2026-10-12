@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**5 entries** · Alphabetical · 1 page.
+**6 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -12,6 +12,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [agent/credential_pool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/agent/credential_pool.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [dangerous-command-approval](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A677b14145e69c897c344284c.json) — Dangerous-command detection, per-session approval state, CLI and gateway prompting, optional auxiliary-LLM smart approval and a persistent allowlist.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/approval.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/approval.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [jamesrwatsonx-creator/codeql](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377990295.json) — CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security<br>
+  Source: [jamesrwatsonx-creator/codeql](https://github.com/jamesrwatsonx-creator/codeql) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Application security, Developer tools
 - [oauth](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6049ec5a1bf59f21d85f7521.json) — Package oauth implements the user-facing OAuth 2.1 login flows the stdio server uses to obtain a GitHub token without a pre-provisioned Personal Access Token. It supports both GitHub OAuth Apps and GitHub Apps…<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [internal/oauth/oauth.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/internal/oauth/oauth.go#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [QuotaProtocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe98cdd647baf1de2ba3d933.json) — Experimental Protocol that rate-limits message handlers per sender using agent storage and applies allow/block access-control lists.<br>
