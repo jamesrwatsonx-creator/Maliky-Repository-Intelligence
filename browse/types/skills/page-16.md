@@ -1,9 +1,13 @@
 # Skills — page 16
 
-3,155 catalog entries · Sorted alphabetically by name · Page 16 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 16 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [pymc-bayesian-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4962acce65dcfee786819cd8.json) — PyMC probabilistic programming skill for hierarchical Bayesian models in physics data analysis<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [pymc-probabilistic-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34c56eea507bb8b0396773d5.json) — PyMC for flexible Bayesian modeling<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/skills/pymc-probabilistic-programming/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/skills/pymc-probabilistic-programming/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pymeasure-automation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A281a2a2481bfe2eec8bf1173.json) — PyMeasure laboratory automation skill for instrument control and automated measurement sequences<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/skills/pymeasure-automation/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/skills/pymeasure-automation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pymol-visualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A876a6f58e88f1839f61c97d8.json) — PyMOL molecular visualization skill for structure rendering and analysis<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/resource-scheduler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/resource-scheduler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [responsive-image](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ba742136b8bb5705770567f.json) — Generate responsive image sets with srcset, WebP/AVIF conversion, and art direction<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/skills/responsive-image/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/skills/responsive-image/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [rest-api-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acff55e8e9e750fca4df660a8.json) — RESTful API design principles, versioning, pagination, HATEOAS, and documentation.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/rest-api-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/rest-api-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [rest-countries/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A126cbab094342dc8d2341dae.json) — Domain skill: REST Countries — Scraping & Data Extraction. Use the ?fields= query param to limit response size — essential when fetching all 250.<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/rest-countries/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/rest-countries/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 

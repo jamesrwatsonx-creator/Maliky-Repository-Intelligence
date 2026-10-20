@@ -1,6 +1,6 @@
 # AI Agents — page 3
 
-2,770 catalog entries · Sorted alphabetically by name · Page 3 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 3 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -268,6 +268,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/agents/cloud-security-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/agents/cloud-security-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [cloud-solutions-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa8e990ef87f10a2b050f1617.json) — Expert in AWS, Azure, GCP cloud services, cloud-native patterns, and multi-region architecture<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/agents/cloud-solutions-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/agents/cloud-solutions-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [cn-check](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A957b98528bab2f7ddb25955e.json) — Install and run the Continue CLI (`cn`) to execute AI agent checks on local code changes. Use when asked to "run checks", "lint with AI", "review my changes with cn", or set up Continue CI locally.<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [skills/cn-check/SKILL.md](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/skills/cn-check/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE
 - [code-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7f3ac37488321e46cebbd808.json) — Designs feature architectures by analyzing existing codebase patterns and conventions, then providing implementation blueprints with concrete files, interfaces, data flow, and build order.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/code-architect.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/code-architect.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [code-explorer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae42268c489ac8feab2d5ace1.json) — Deeply analyzes existing codebase features by tracing execution paths, mapping architecture layers, and documenting dependencies to inform new development.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/code-translation-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/code-translation-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [codebase-onboarding](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6ff0c02f7127a998e5fcd8c7.json) — Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new project or setting up Claude Code for the…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/codebase-onboarding/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/codebase-onboarding/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad3f96f08df7aec75369cfa49.json) — `codegraph` command: init/index/sync/status/query/files/context/callers/callees/impact/affected/serve --mcp/install/uninstall. Builds a local tree-sitter to SQLite code knowledge graph and installs MCP config and…<br>
-  Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · [package.json](https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Knowledge graphs
 
 ## Pages
 

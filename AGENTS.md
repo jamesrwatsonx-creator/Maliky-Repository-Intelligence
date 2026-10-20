@@ -1,5 +1,9 @@
 # Repository operating rules
 
+Read `docs/CODEX-RESUME.md` first when it exists, then verify its summary
+against `system/inspection-state.json` before continuing. Regenerate the resume
+file from canonical state after every validated logical checkpoint.
+
 Current delivery scope: docs/V1-CATALOG-SCOPE.md records the owner's narrowed
 2026-10-12 V1 catalog requirements. Repository discoverability is independent of
 the source-inspection COMPLETE gate below. Preserve verified/candidate distinctions.

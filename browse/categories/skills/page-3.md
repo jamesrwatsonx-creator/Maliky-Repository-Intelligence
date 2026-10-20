@@ -1,6 +1,6 @@
 # Skills — page 3
 
-2,986 catalog entries · Sorted alphabetically by name · Page 3 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 3 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -272,6 +272,8 @@
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/agent-orchestration/cmux/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/agent-orchestration/cmux/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [cmux](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7d15ca2e8689cafd7c37ed1b.json) — MUST be read ANY time you interact with cmux in ANY way — listing/inspecting/creating/closing cmux workspaces, panes, or surfaces; reading or capturing pane/screen output; sending input or keys to a pane/surface;…<br>
   Source: [jamesrwatsonx-creator/skills-fable](https://github.com/jamesrwatsonx-creator/skills-fable) · [skills/agent-orchestration/cmux/SKILL.md](https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/agent-orchestration/cmux/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [cn-check](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A957b98528bab2f7ddb25955e.json) — Install and run the Continue CLI (`cn`) to execute AI agent checks on local code changes. Use when asked to "run checks", "lint with AI", "review my changes with cn", or set up Continue CI locally.<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [skills/cn-check/SKILL.md](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/skills/cn-check/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE
 - [cnc-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f8e4d2a0a20755e81fc1eb1.json) — Expert skill for CNC programming and toolpath optimization using CAM software<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mechanical-engineering/skills/cnc-programming/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mechanical-engineering/skills/cnc-programming/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [cobra-scaffolder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A63ae70d64612ac5311feb2c8.json) — Generate Cobra/Viper-based Go CLI applications with persistent flags, subcommands, and configuration management. Creates production-ready Go CLI with modern patterns.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/skills/code-sample-validator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/skills/code-sample-validator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [code-signing-setup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A696e4bee836e3dab00ecb908.json) — Configure code signing for macOS and Windows binaries with notarization.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/code-signing-setup/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/code-signing-setup/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [code-smell-detector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86e2c3c13b2bf8e99990b0f0.json) — Automated detection of code smells and anti-patterns to identify refactoring opportunities<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/skills/code-smell-detector/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/skills/code-smell-detector/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

@@ -1,9 +1,15 @@
 # APIs & SDKs — page 4
 
-1,324 catalog entries · Sorted alphabetically by name · Page 4 of 9.
+1,328 catalog entries · Sorted alphabetically by name · Page 4 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae081b7bcf57382f820192480.json) — Get a voice profile by ID.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L110) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [get_profile_avatar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A856712b7e77779fa6c2da9cc.json) — Get avatar image for a profile.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L250) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [get_profile_channels](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12aa3a3a3e59b8b621cfb342.json) — Get list of channel IDs assigned to a profile.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L311) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_desktop_overlay](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A874b0c4dfc9ec76f5c3ff6cb.json) — GET /api/profiles/{name}/desktop-overlay - The desktop appearance/interface overlay bundled with an imported profile (``desktop.json`` at the profile root<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/profiles.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/profiles.py#L1252) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_profile_samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aab472b44c10f034dcf53deb2.json) — Get all samples for a profile.<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247322268.json) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.<br>
   Source: [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/ComfyUI) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, LLM projects
-- [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376793544.json) — KMP/CMP GraphQL based conference project with Jetpack Compose Android, Compose for Wear, and Compose Multiplatform Desktop, Web and iOS clients along with GraphQL backend.<br>
-  Source: [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Confetti) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Mobile applications
-- [jamesrwatsonx-creator/cryptocurrency.cv](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396777641.json) — Free crypto news API - real-time aggregator for Bitcoin, Ethereum, DeFi, Solana & altcoins. No API key required. RSS/Atom feeds, JSON REST API, historical archive with market context, embeddable widgets, ChatGPT…<br>
-  Source: [jamesrwatsonx-creator/cryptocurrency.cv](https://github.com/jamesrwatsonx-creator/cryptocurrency.cv) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory, APIs, Commerce/e-commerce
-- [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.<br>
-  Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Developer tools
 
 ## Pages
 

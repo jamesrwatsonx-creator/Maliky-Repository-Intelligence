@@ -1,9 +1,11 @@
 # AI Agents — page 6
 
-2,770 catalog entries · Sorted alphabetically by name · Page 6 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 6 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [django-verification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae54e0c8c9b23c56381922324.json) — Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/django-verification/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/django-verification/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [dmux-workflows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A385d0ad39264aee61b2bfc17.json) — Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/dmux-workflows/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/dmux-workflows/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [do-178c-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A27d89be28f6624c994290e49.json) — Expert in airborne software certification per DO-178C and DO-278A<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/rpikit/agents/file-finder/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/agents/file-finder/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [finance-billing-ops](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05d0f532899986ac9956bcce.json) — Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/finance-billing-ops/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/finance-billing-ops/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [financial-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e04dcc8c005ecab8c6fb426.json) — Financial due diligence lead agent specializing in financial model review, quality of earnings, and working capital analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/agents/financial-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/agents/financial-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

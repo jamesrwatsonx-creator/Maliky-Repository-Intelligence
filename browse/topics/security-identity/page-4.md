@@ -1,9 +1,11 @@
 # Security & Identity — page 4
 
-495 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+496 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/technical-documentation/api-reference-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A774bfe929b1d0b5ae6f01a88.json) — API Reference Documentation with Code Examples - Comprehensive process for creating complete API reference documentation with multi-language code examples, authentication flows, error handling, rate limits, SDK…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/api-reference-docs.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/api-reference-docs.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/web-development/content-security-policy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ec077f61ca5726907c6610c.json) — Content Security Policy - Process for implementing comprehensive CSP headers for XSS prevention and security hardening.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/content-security-policy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/content-security-policy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/web-development/jwt-authentication](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac18dda0ab213fc7c88ff4feb.json) — JWT Authentication Implementation - Process for implementing secure JWT-based authentication with access tokens, refresh tokens, token rotation, and secure storage patterns.<br>

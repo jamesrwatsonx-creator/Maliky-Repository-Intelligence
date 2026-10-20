@@ -1,9 +1,11 @@
 # AI Agents — page 18
 
-2,770 catalog entries · Sorted alphabetically by name · Page 18 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 18 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [test_messaging_platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1476fb6b333497a5b37d3a3a.json) — POST /api/messaging/platforms/{platform_id}/test - handler test_messaging_platform<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L10280) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [tester](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6641ad05bd17c28bfc7f88d.json) — Test creation and execution worker agent. Writes comprehensive test suites, validates coverage, and performs regression testing.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/agents/tester/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/agents/tester/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [testing-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1aa653f5aa6fa34019712375.json) — Test coverage and quality assessment agent evaluating test adequacy, edge cases, isolation, flakiness, and integration coverage.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/agents/vv-test-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/agents/vv-test-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [walmart/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc6d0bfb1d76532508aaa1df.json) — Domain skill: Walmart — Product Search & Data Extraction. Field-tested against walmart.com on 2026-04-18 using httpget (no browser required).<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/walmart/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/walmart/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [war-game-facilitator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ead974c57a460af069c45f5.json) — Agent specialized in competitive war gaming, red team exercises, and strategic response simulation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/agents/war-game-facilitator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/agents/war-game-facilitator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

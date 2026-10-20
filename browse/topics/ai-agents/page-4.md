@@ -1,9 +1,11 @@
 # AI Agents — page 4
 
-2,770 catalog entries · Sorted alphabetically by name · Page 4 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 4 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad3f96f08df7aec75369cfa49.json) — `codegraph` command: init/index/sync/status/query/files/context/callers/callees/impact/affected/serve --mcp/install/uninstall. Builds a local tree-sitter to SQLite code knowledge graph and installs MCP config and…<br>
+  Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · [package.json](https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Knowledge graphs
 - [codehealth-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8eeb1c991b1aa2fae631faa2.json) — Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, gate commits and PRs. Use when reviewing code quality, refactoring, checking if AI changes degraded a file,…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/codehealth-mcp/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/codehealth-mcp/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [coder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab2f0ef25a5c8b22cd25c725b.json) — Code implementation and modification worker agent. Executes coding tasks, applies transforms, and produces tested code artifacts.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/crosspost/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/crosspost/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [crossref/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A44690d44ed211aa2edc87296.json) — Domain skill: CrossRef — Scraping & Data Extraction. Standard offset pagination (start=) caps at a few thousand results. Use cursor for full sweeps.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/crossref/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/crossref/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [crypto-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab79368f385c0f730c0aa6d57.json) — Senior Cryptographic Engineer specializing in secure implementation of cryptographic primitives for blockchain applications. Expert in ECDSA, BLS, Schnorr signatures, key derivation, threshold cryptography, and…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/agents/crypto-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/agents/crypto-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

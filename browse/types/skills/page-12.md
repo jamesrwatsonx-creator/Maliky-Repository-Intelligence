@@ -1,9 +1,13 @@
 # Skills — page 12
 
-3,155 catalog entries · Sorted alphabetically by name · Page 12 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 12 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [log-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ada128a72bc9a74a86a331a2a.json) — Structured log analysis and aggregation expertise for observability and troubleshooting<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/skills/log-analysis/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/skills/log-analysis/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [log-schema-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac43c618417dcdd3b5e04bb77.json) — Generate structured logging schemas with correlation ID patterns and ELK/Splunk integration<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/log-schema-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/log-schema-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [logging-migrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A799b0f1b4f3c73910a1059b9.json) — Migrate logging infrastructure with format standardization, structured logging, and aggregation setup<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/skills/logging-migrator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/skills/logging-migrator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [logistics-exception-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5b76bb38147d99943be89c5f.json) — Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Includes escalation protocols,…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/skills/mobile-security/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/skills/mobile-security/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [mock-spec-extractor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad563edcc94a0a50491086073.json) — Extracts design specifications from mock images including colors, typography, spacing, and component details<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/skills/mock-spec-extractor/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/skills/mock-spec-extractor/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [modal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2aff79a89d7e13fe57a1c6b1.json) — Serverless GPU cloud for ML jobs and model APIs.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/mlops/modal/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/mlops/modal/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A72c844c204be76f155d91d4d.json) — Inspect or change Babysitter model-routing policy by phase.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-codex/skills/model/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-codex/skills/model/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

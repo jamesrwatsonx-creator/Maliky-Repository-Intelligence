@@ -1,9 +1,11 @@
 # AI Agents — page 5
 
-2,770 catalog entries · Sorted alphabetically by name · Page 5 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 5 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [crypto-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab79368f385c0f730c0aa6d57.json) — Senior Cryptographic Engineer specializing in secure implementation of cryptographic primitives for blockchain applications. Expert in ECDSA, BLS, Schnorr signatures, key derivation, threshold cryptography, and…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/agents/crypto-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/agents/crypto-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [crystallography-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab672669c3a4adc5780203881.json) — Agent specialized in crystallographic analysis of nanomaterials using XRD, SAXS/WAXS, and electron diffraction<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/agents/crystallography-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/agents/crystallography-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [csharp-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5e49299936ff7819c23f0b46.json) — Expert C# code reviewer specializing in .NET conventions, async patterns, security, nullable reference types, and performance. Use for all C# code changes. MUST BE USED for C# projects.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/django-security/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/django-security/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [django-tdd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab95d903b9a72c80c263c8f93.json) — Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs. Use when writing Django or DRF tests with pytest-django, or driving a Django…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/django-tdd/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/django-tdd/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [django-verification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae54e0c8c9b23c56381922324.json) — Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/django-verification/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/django-verification/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

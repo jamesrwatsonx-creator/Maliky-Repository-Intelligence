@@ -1,9 +1,13 @@
 # Skills — page 7
 
-3,155 catalog entries · Sorted alphabetically by name · Page 7 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 7 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [environmental-fate-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90e5f8d750b94bf59b06de50.json) — Environmental nanosafety skill for modeling nanomaterial environmental fate and transport<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/environmental-fate-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/environmental-fate-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [environmental-impact-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abd8a689d07ee483d2726d219.json) — Environmental impact assessment skill for NEPA, wetlands, and endangered species screening<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/skills/environmental-impact-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/skills/environmental-impact-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [environmental-testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac534ec0b58d18e5f9a225f28.json) — Skill for environmental test campaign planning and execution<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/aerospace-engineering/skills/environmental-testing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/aerospace-engineering/skills/environmental-testing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [epic-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A72eff5dffd4b9b68585f1a28.json) — Epic Online Services skill for launcher integration.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/fsm/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/fsm/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [fsm-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab532e0f089b476160cab66e3.json) — Specialized skill for finite state machine design and optimization in FPGAs<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/fpga-programming/skills/fsm-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/fpga-programming/skills/fsm-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [ftir-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7cc968664a6aa370f45dd86.json) — Fourier Transform Infrared spectroscopy skill for molecular identification and surface functional group analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/ftir-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/ftir-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [fusion-gene-detector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeaf9743d2d4aa97919000f07.json) — Gene fusion detection skill for oncology applications with multiple caller integration<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/skills/fusion-gene-detector/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/skills/fusion-gene-detector/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

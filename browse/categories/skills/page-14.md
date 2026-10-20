@@ -1,9 +1,13 @@
 # Skills — page 14
 
-2,986 catalog entries · Sorted alphabetically by name · Page 14 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 14 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85d19a75af2e8713935e6c60.json) — Plan a babysitter run. use this command to plan a complex workflow, without actually running it.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-omp/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-omp/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98244e5976396d76c3cab847.json) — Plan a babysitter run. use this command to plan a complex workflow, without actually running it.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-opencode/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-opencode/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad200a0acffc3cd127a07c9da.json) — Write a markdown plan to .hermes/plans/; no execution.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/software-development/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/software-development/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [plan-canvas](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79247b0fcb4d2767c74833a6.json) — Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/skills/prosthetics-design-optimizer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/skills/prosthetics-design-optimizer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [protobuf-grpc-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab8316827dbd945398da76684.json) — Protocol Buffers and gRPC service definition with backward compatibility checks<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/protobuf-grpc-designer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/protobuf-grpc-designer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [protocol-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa53967daa8c147a0a299f0dd.json) — Serial protocol analysis and debugging for common embedded interfaces (I2C, SPI, UART)<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/protocol-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/protocol-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [protocol-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8160abf7d5e3c3435c673e91.json) — Skill for building standardized research protocols<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/skills/protocol-builder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/skills/protocol-builder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

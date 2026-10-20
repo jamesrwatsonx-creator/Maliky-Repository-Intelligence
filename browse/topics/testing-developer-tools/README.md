@@ -2,7 +2,7 @@
 
 Testing, evaluation, QA and tools that improve software development.
 
-**1,194 entries** · Alphabetical · 8 pages.
+**1,206 entries** · Alphabetical · 9 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -12,6 +12,8 @@ Testing, evaluation, QA and tools that improve software development.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/react-test.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/react-test.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [@colbymchenry/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af76098a7a354d9ddae17fa7e.json) — npm package @colbymchenry/codegraph 0.9.4 (MIT): thin installer plus dist library entry (main/types) for the graph, extraction, resolution, sync and MCP modules.<br>
   Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · [package.json](https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Knowledge graphs
+- [@continuedev/terminal-security](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0d942814149c01d4e618069d.json) — Terminal command security evaluation for Continue<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [packages/terminal-security/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/packages/terminal-security/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [@github/mcp-server-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2dd97220c7f71e005b9af7b7.json) — @github/mcp-server-ui: MCP App UIs for github-mcp-server built with Primer React and Vite.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [ui/package.json](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [@wasp.sh/wasp-app-runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A80db29daa2ed40b68b3fbadb.json) — CLI tool for running Wasp applications for e2e testing<br>
@@ -182,6 +184,8 @@ Testing, evaluation, QA and tools that improve software development.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/flux3_video_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/flux3_video_tool.py#L1217) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [bias-fairness-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac34a5f3918878223afc82687.json) — Audits for bias and implements fairness testing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/bias-fairness-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/bias-fairness-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f2d635894c059615869d179.json) — Description not available in current evidence.<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [biocompatibility-evaluator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9fa9a6fbb79d00d777cfcfbb.json) — Agent specialized in biological evaluation planning and biocompatibility assessment<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/agents/biocompatibility-evaluator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/agents/biocompatibility-evaluator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [bioinformatics-qa-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa3a7df33cd20e3da98b4793e.json) — Agent specialized in quality assurance for bioinformatics analyses and clinical validation<br>
@@ -302,10 +306,6 @@ Testing, evaluation, QA and tools that improve software development.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/close_preview_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/close_preview_tool.py#L56) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [close_terminal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c8152fd36f7df0117572330.json) — Close the read-only terminal tab for one of your background processes in the Hermes desktop GUI (the tabs mirroring terminal(background=true) runs). This does NOT kill the process — it only drops the tab/view; the…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/close_terminal_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/close_terminal_tool.py#L54) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [cloud-logging-query-generation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Accff4c5eec0b2b8f91e2bcbd.json) — Generates Logging Query Language (LQL) queries for Google Cloud Logging from natural language. Use this skill when you need to query log data or when you are debugging issues. You can filter log data by Google Cloud…<br>
-  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/cloud-logging-query-generation/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/cloud-logging-query-generation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
-- [cloud-security-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A078bb048f0be86383777e1a9.json) — Multi-cloud security research and penetration testing specialist. Expert in AWS, Azure, and GCP security assessments, IAM analysis, cloud misconfigurations, container security, and serverless security.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/agents/cloud-security-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/agents/cloud-security-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 
@@ -317,3 +317,4 @@ Testing, evaluation, QA and tools that improve software development.
 - [Page 6](page-6.md)
 - [Page 7](page-7.md)
 - [Page 8](page-8.md)
+- [Page 9](page-9.md)

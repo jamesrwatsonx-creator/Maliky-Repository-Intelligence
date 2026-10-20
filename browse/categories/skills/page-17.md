@@ -1,9 +1,13 @@
 # Skills — page 17
 
-2,986 catalog entries · Sorted alphabetically by name · Page 17 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 17 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [seo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4c06638f6a5cf6151d950a76.json) — Technical SEO, structured data, sitemaps, and meta tags.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/seo/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/seo/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [seo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98480b880001eae7adefc258.json) — Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/seo/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/seo/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [seo-tools](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6d5b244c1c6a03dd8c8efb84.json) — Integration with major SEO platforms and tools<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/marketing/skills/seo-tools/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/marketing/skills/seo-tools/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [separation-sequence-synthesizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A87f2b54b2e614c92968d3a7a.json) — Separation train synthesis skill for optimal sequencing and technology selection<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/skills/stencil-convolution/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/skills/stencil-convolution/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [sterilization-validation-planner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7b5daf1a7b09df91b512d145.json) — Sterilization process validation planning skill for EO, radiation, and steam sterilization<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/skills/sterilization-validation-planner/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/skills/sterilization-validation-planner/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [stim-simulator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9735f1a2d8e04939383b31c3.json) — Clifford circuit simulation skill using Stim for error correction studies<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [STIX/TAXII Intelligence Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ec8f0bdc24210338b7a2412.json) — STIX/TAXII threat intelligence format and sharing<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/stix-taxii/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/stix-taxii/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

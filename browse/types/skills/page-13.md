@@ -1,9 +1,13 @@
 # Skills — page 13
 
-3,155 catalog entries · Sorted alphabetically by name · Page 13 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 13 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [modal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2aff79a89d7e13fe57a1c6b1.json) — Serverless GPU cloud for ML jobs and model APIs.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/mlops/modal/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/mlops/modal/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A72c844c204be76f155d91d4d.json) — Inspect or change Babysitter model-routing policy by phase.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-codex/skills/model/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-codex/skills/model/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [model-card-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4a87cd7c306d9dee946dc7a0.json) — Model documentation skill for generating model cards following Google's model card framework.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/skills/model-card-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/skills/model-card-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [model-checker-interface](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c4593b08e89962da1d25610.json) — Interface with multiple model checking tools for formal verification<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/communication/one-three-one-rule/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/communication/one-three-one-rule/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [online-shopping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A15bb1ab1647ae4062c9d4ca4.json) — Research any online purchase with DeepAPI — fair-price checks, best deals, where to buy, shop trust. Load whenever the user is shopping or buying anything online: mentions buying a product, comparing prices, "is this a…<br>
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/research-and-web/online-shopping/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/research-and-web/online-shopping/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
-- [open-library/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c92aa806d50dff73a929d82.json) — Domain skill: Open Library — Book Data Extraction. The search API is your entry point for everything. It returns work-level records (all editions grouped). To get edition details, follow the key to the Works or Books…<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/open-library/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/open-library/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [openalex/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A409415bba57939ceb660c8af.json) — Domain skill: OpenAlex — Scraping & Data Extraction. Always include mailto= to stay in the polite pool. Always parse with json.loads().<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/openalex/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/openalex/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 

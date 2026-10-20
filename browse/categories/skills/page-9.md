@@ -1,9 +1,13 @@
 # Skills — page 9
 
-2,986 catalog entries · Sorted alphabetically by name · Page 9 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 9 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [help](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8fad72dfd70994f11f995fdb.json) — help and documentation for babysitter command usage, processes, skills, agents, and methodologies. use this command to understand how to use babysitter effectively.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-opencode/skills/help/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-opencode/skills/help/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [help](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9037eeb1be2dab832e62d3d9.json) — help and documentation for babysitter command usage, processes, skills, agents, and methodologies. use this command to understand how to use babysitter effectively.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-pi/skills/help/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-pi/skills/help/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [help](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe3412346497497be655c006.json) — help and documentation for babysitter command usage, processes, skills, agents, and methodologies. use this command to understand how to use babysitter effectively.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-codex/skills/help/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-codex/skills/help/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [help-text-formatter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1af55eca596930001eb27140.json) — Generate formatted help text with examples, descriptions, sections, and consistent styling for CLI applications.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/scroll-world](https://github.com/jamesrwatsonx-creator/scroll-world) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Skills
 - [jamesrwatsonx-creator/security-audit-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034834.json) — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings<br>
   Source: [jamesrwatsonx-creator/security-audit-skill](https://github.com/jamesrwatsonx-creator/security-audit-skill) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Application security, Developer tools
-- [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034245.json) — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.<br>
-  Source: [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/universal-modder) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, Generative AI, MCP servers
-- [jamesrwatsonx-creator/user-research-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378075610.json) — Cookiy AI Skill for AI agents (Claude, Codex, Cursor, OpenClaw) — end-to-end user research: AI interviews, synthetic users, quant surveys, participant recruitment.<br>
-  Source: [jamesrwatsonx-creator/user-research-skill](https://github.com/jamesrwatsonx-creator/user-research-skill) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Research projects, Skills
 
 ## Pages
 

@@ -1,9 +1,13 @@
 # Skills — page 12
 
-2,986 catalog entries · Sorted alphabetically by name · Page 12 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 12 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [mitiq-error-mitigator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb0784f6b906c8eca5511d71.json) — Error mitigation skill using Mitiq for NISQ device noise reduction<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/mitiq-error-mitigator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/mitiq-error-mitigator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [MITRE ATT&CK Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A84fb71cb95c14ed915fea421.json) — MITRE ATT&CK framework mapping and analysis<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/mitre-attack/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/mitre-attack/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [mixed-integer-optimization](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a0192b839e720b70b9dfd0f.json) — Mixed-integer linear and nonlinear programming<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/skills/mixed-integer-optimization/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/skills/mixed-integer-optimization/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [mixed-methods-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00ce59bd590b1e77e93c744a.json) — Design and execute convergent, explanatory sequential, and exploratory sequential mixed methods research designs<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/product-management/skills/okr-planning/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/skills/okr-planning/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [okr-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af42776c39dba3e028d856827.json) — Manage OKRs and goal setting with alignment and tracking capabilities<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/human-resources/skills/okr-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/human-resources/skills/okr-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [okr-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A294cf37238b6fa38c8698321.json) — OKR methodology expertise including objective setting, key results definition, quarterly cadences, and alignment cascading<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-strategy-advanced/skills/okr-skill/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-strategy-advanced/skills/okr-skill/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [omh-autopilot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A166f071e8bf4636f4c718e40.json) — pipeline: interview→plan→execute→QA→verify (idea→code)<br>
-  Source: [jamesrwatsonx-creator/oh-my-hermes](https://github.com/jamesrwatsonx-creator/oh-my-hermes) · [plugins/omh/skills/omh-autopilot/SKILL.md](https://github.com/jamesrwatsonx-creator/oh-my-hermes/blob/2a98d38b43010a438b316fb48dbe68a3c8ee8fed/plugins/omh/skills/omh-autopilot/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 
 ## Pages
 

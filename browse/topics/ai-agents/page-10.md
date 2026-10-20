@@ -1,9 +1,11 @@
 # AI Agents — page 10
 
-2,770 catalog entries · Sorted alphabetically by name · Page 10 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 10 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342801670.json) — Claude Code plugin that delegates reviews, rescue tasks, and session transfer to the Grok Build CLI<br>
+  Source: [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/grok-build-plugin-cc) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Libraries/packages
 - [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315198427.json) — Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.<br>
   Source: [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/gsap-skills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Creative tools, Developer tools
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/logistics/agents/labor-planning-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/logistics/agents/labor-planning-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [langchain-chains](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aebde11632dbff195e8332193.json) — LangChain chain composition including SequentialChain, RouterChain, and LCEL patterns<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langchain-chains/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langchain-chains/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [langchain-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8f618704adeba9652067ef59.json) — LangChain memory integration including ConversationBufferMemory, ConversationSummaryMemory, and vector-based memory<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langchain-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langchain-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

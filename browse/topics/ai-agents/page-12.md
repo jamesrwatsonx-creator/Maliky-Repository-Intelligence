@@ -1,9 +1,11 @@
 # AI Agents — page 12
 
-2,770 catalog entries · Sorted alphabetically by name · Page 12 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 12 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [mcp-config-devfleet](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7e98032cd9950d7bfac9de8.json) — Recommended MCP server config "devfleet": Multi-agent orchestration — dispatch parallel Claude Code agents in isolated worktrees. Plan projects, auto-chain missions, read structured reports. Repo:…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-evalview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1d073b6d74d1c660a54dca60.json) — Recommended MCP server config "evalview": AI agent regression testing — snapshot behavior, detect regressions in tool calls and output quality. 8 tools: create_test, run_snapshot, run_check, list_tests, validate_skill,…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-omega-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab4b70d5c068e7f4c9f73f1ce.json) — Recommended MCP server config "omega-memory": Persistent agent memory with semantic search, multi-agent coordination, and knowledge graphs — run via uvx (richer than the basic memory store)<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/observability-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/observability-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [observability-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A623ff9cdcf213717a4975470.json) — Metrics, logs, and traces expert for full-stack observability. Expert in Prometheus ecosystem, Grafana stack, OpenTelemetry instrumentation, distributed tracing, alert design, and observability-driven development.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/agents/observability-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/agents/observability-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [observability-migration-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2837394ec61e62c64d1ab26.json) — Migrate observability stack with logging, metrics, tracing, and dashboard migration<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/observability-migration-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/observability-migration-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # AI Agents — page 15
 
-2,770 catalog entries · Sorted alphabetically by name · Page 15 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 15 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [refactor-cleaner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1d1e3e0d7d1afa7f1930ff39.json) — Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/refactor-cleaner.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/refactor-cleaner.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [refactor-cleaner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aec611b7a74c3649473e57854.json) — Code cleanup and refactoring agent that addresses review findings while maintaining test coverage and applying clean code patterns.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/agents/refactor-cleaner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/agents/refactor-cleaner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [refactoring-coach](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1431543ca21ff657384a47c1.json) — Expert in Fowler refactoring patterns, code smell identification, test-driven refactoring, and metrics improvement<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/agents/security-reviewer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/agents/security-reviewer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-scan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aac76c08b3fa770ea233aeb0d.json) — Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/security-scan/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/security-scan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [security-testing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3bccadc249a8f3a8e4ed2bed.json) — Specialized agent with deep application security testing knowledge. Expert in OWASP Top 10, SAST/DAST implementation, penetration testing automation, dependency scanning, security regression testing, and compliance…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/agents/security-testing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/agents/security-testing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

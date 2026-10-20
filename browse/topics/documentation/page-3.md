@@ -1,9 +1,11 @@
 # Documentation & References — page 3
 
-409 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+410 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/domains/business/operations/quality-audit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3ec1d89364f6a7dc74deda67.json) — Quality Audit Management Process - Plan, conduct, and follow up on internal quality audits with findings documentation and corrective action tracking for continuous quality improvement.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/quality-audit.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/quality-audit.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/operations/standard-work](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae450239e44dac21175e6c18b.json) — Standard Work Documentation Process - Document, implement, and maintain standardized work procedures with time observations, work sequence, and standard WIP for consistent, efficient operations.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/standard-work.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/standard-work.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/supply-chain/supplier-onboarding](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d5fc896fe3b168b2b1c29e4.json) — Supplier Onboarding and Qualification - Execute supplier onboarding process including documentation collection, capability assessment, compliance verification, and system setup.<br>

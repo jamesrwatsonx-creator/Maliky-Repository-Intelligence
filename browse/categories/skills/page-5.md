@@ -1,9 +1,11 @@
 # Skills — page 5
 
-2,986 catalog entries · Sorted alphabetically by name · Page 5 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 5 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [create-prd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab29e8c7096f0bbf4aede2ff1.json) — Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product…<br>
+  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-execution/skills/create-prd/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/create-prd/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [create-readonly-db-role](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae57ebd4c4a679d667e1610dd.json) — Provision a hardened SELECT-only Postgres role so AI agents can safely read a production database. Works on Supabase and any Postgres. Use when the user wants agents to query prod data, says "read-only role", "safe…<br>
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/ops-and-setup/create-readonly-db-role/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/ops-and-setup/create-readonly-db-role/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [creative-ideation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae5be34b2b34b3f520fae26a1.json) — Generate ideas via named methods from creative practice.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/skills/diagram-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/skills/diagram-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [dialogue-ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af51084ed76d0f243d28d1559.json) — Dialogue system skill for branching conversations and response generation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/dialogue-ai/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/dialogue-ai/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [dialogue-crafting](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aecdf48281fb5266f664aaca7.json) — Create character-specific dialogue with distinct voices, subtext, and naturalistic speech patterns<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/film-tv-production/skills/dialogue-crafting/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/film-tv-production/skills/dialogue-crafting/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

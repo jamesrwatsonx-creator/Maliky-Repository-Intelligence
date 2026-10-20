@@ -1,9 +1,11 @@
 # AI Agents — page 16
 
-2,770 catalog entries · Sorted alphabetically by name · Page 16 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 16 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [security-testing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3bccadc249a8f3a8e4ed2bed.json) — Specialized agent with deep application security testing knowledge. Expert in OWASP Top 10, SAST/DAST implementation, penetration testing automation, dependency scanning, security regression testing, and compliance…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/agents/security-testing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/agents/security-testing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-testing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A981c60600210d27af01bcdfe.json) — Expert agent for protocol fuzzing, vulnerability discovery, and security testing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/security-testing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/security-testing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-vulnerability-assessor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae996cbe0fd3e08439df83279.json) — Security-focused assessment for migrations with vulnerability prioritization and remediation planning<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/springboot-tdd/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/springboot-tdd/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [springboot-verification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Affc1ea8d115b03e871ed2e9a.json) — Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/springboot-verification/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/springboot-verification/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [sre-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05974665ff442cd8875e5992.json) — Agent embodying SRE principles and practices from the Google SRE book. Expert in SLO/SLI definition, error budget management, incident management, capacity planning, toil reduction, and reliability patterns.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/agents/sre-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/agents/sre-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

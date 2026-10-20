@@ -1,9 +1,11 @@
 # AI Agents — page 7
 
-2,770 catalog entries · Sorted alphabetically by name · Page 7 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 7 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [financial-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e04dcc8c005ecab8c6fb426.json) — Financial due diligence lead agent specializing in financial model review, quality of earnings, and working capital analysis<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/agents/financial-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/agents/financial-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [financial-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A204d198aa75de0e2069c06d7.json) — Financial analyst with investment analysis and business case expertise for financial modeling<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/agents/financial-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/agents/financial-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [financial-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5956d2340247da3ff73a568c.json) — Agent specialized in building complex financial models including DCF, LBO, and merger models<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/utils/core_stock_tools.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/utils/core_stock_tools.py#L7) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [get_system_stats](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0ce6809acac62adccbbe8d0c.json) — GET /api/system/stats - Host + process system stats for the System page.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4013) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_task](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A89ba9958b01b9af6a384486b.json) — GET /tasks/{task_id} - handler get_task<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L520) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

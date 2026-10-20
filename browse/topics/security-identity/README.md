@@ -2,7 +2,7 @@
 
 Authentication, authorization, identity and security tooling.
 
-**495 entries** · Alphabetical · 4 pages.
+**496 entries** · Alphabetical · 4 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -30,6 +30,8 @@ Authentication, authorization, identity and security tooling.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/vue-review.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/vue-review.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [1password](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcc4ae0410637747757a6961.json) — Set up op CLI, sign in, and read or inject secrets.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/security/1password/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/security/1password/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [@continuedev/terminal-security](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0d942814149c01d4e618069d.json) — Terminal command security evaluation for Continue<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [packages/terminal-security/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/packages/terminal-security/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A029bd5d426fa5f7b3d1fe47d.json) — Core uAgents Agent: typed message handlers and intervals, protocols, key-value storage, identity and ledger wallet, Almanac registration, Agentverse mailbox and an HTTP endpoint. Defaults to mainnet.<br>
   Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/src/uagents/agent.py](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/agent.py#L222) · AGENT_FRAMEWORK · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [agent-platform-troubleshooting](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3bd858c9f810fabd50219d9a.json) — Troubleshoots Google Cloud Gemini Enterprise Agent Platform issues (Agent Gateway, Registry, Identity, Policies, Model Armor, Identity-Aware Proxy (IAP)). Use when agent requests fail with 403 (especially unauthorized…<br>
@@ -304,8 +306,6 @@ Authentication, authorization, identity and security tooling.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/github-ops/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/github-ops/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [github-outside-sandbox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A311f991eaa1640b77af75e2d.json) — Run Git and GitHub CLI commands through the host context when sandboxing blocks Keychain authentication, network access, or .git writes. Use for gh auth, repository or PR operations, and git index.lock or permission…<br>
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/ops-and-setup/github-outside-sandbox/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/ops-and-setup/github-outside-sandbox/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
-- [gke-basics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37e35bdcc3f9f0c76ecab0c5.json) — Manages core GKE cluster provisioning, credentials, Autopilot vs Standard selection, and workload deployment. Use when creating GKE clusters, fetching kubectl credentials, configuring Workload Identity, or deciding…<br>
-  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/gke-basics/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/gke-basics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 
 ## Pages
 

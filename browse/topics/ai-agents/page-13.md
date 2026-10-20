@@ -1,9 +1,11 @@
 # AI Agents — page 13
 
-2,770 catalog entries · Sorted alphabetically by name · Page 13 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 13 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [observability-migration-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2837394ec61e62c64d1ab26.json) — Migrate observability stack with logging, metrics, tracing, and dashboard migration<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/observability-migration-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/observability-migration-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [observer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af8f1facf47e61278ff74c221.json) — Background agent that analyzes session observations to detect patterns and create instincts. Uses Haiku for cost-efficiency. v2.1 adds project-scoped instincts.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/continuous-learning-v2/agents/observer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/continuous-learning-v2/agents/observer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [obsidian-copilot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A60f813235f9321d133e20187.json) — Run AI agents such as Claude Code, Codex, and OpenCode inside your vault. Turn your second brain into a smart assistant that gets knowledge work done.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/metaswarm/agents/pr-shepherd/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/metaswarm/agents/pr-shepherd/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [pr-test-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7a42047151362ab002d89e01.json) — Review pull request test coverage quality and completeness, with emphasis on behavioral coverage and real bug prevention.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/pr-test-analyzer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/pr-test-analyzer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [prediction-market-oracle-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A68551814c0b63ff4432a76f2.json) — Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and…<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/prediction-market-oracle-research/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/prediction-market-oracle-research/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

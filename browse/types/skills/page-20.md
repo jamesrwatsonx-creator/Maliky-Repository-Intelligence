@@ -1,9 +1,13 @@
 # Skills — page 20
 
-3,155 catalog entries · Sorted alphabetically by name · Page 20 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 20 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [throughput-accountant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aad4261462cdbec69e9b99b29.json) — TOC financial metrics skill for throughput, inventory, and operating expense analysis with decision support<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [tiktok/upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A529fd256c1305c45bd498462.json) — Domain skill: TikTok Studio — Upload Video. URL: https://www.tiktok.com/tiktokstudio/upload?from=upload&lang=en (always append &lang=en)<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/tiktok/upload.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/tiktok/upload.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [tile-based](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c7ae1b5dbf948db57f43474.json) — Tile-based level design skill for autotiling.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/tile-based/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/tile-based/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [time-series-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9c1fd1474f3cbee24b399606.json) — Skill for time series analysis and forecasting<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/skills/vehicle-dynamics-sim/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/skills/vehicle-dynamics-sim/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vehicle-physics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6fefe61bc05027ace6ee1ed5.json) — Vehicle simulation skill for wheel colliders, suspension, and aerodynamics.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/vehicle-physics/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/vehicle-physics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [vehicle-routing-solver](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A874f36101d227e5f485c06fe.json) — Vehicle routing problem solver for logistics optimization with time windows, capacity constraints, and multiple depots.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/skills/vehicle-routing-solver/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/skills/vehicle-routing-solver/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [vendor-risk-monitor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a4590ab5c8cc36398fd1913.json) — Continuous vendor security monitoring for security ratings, breach notifications, and risk change detection<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/vendor-risk-monitor/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/vendor-risk-monitor/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

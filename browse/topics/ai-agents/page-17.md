@@ -1,9 +1,11 @@
 # AI Agents — page 17
 
-2,770 catalog entries · Sorted alphabetically by name · Page 17 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 17 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [sre-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05974665ff442cd8875e5992.json) — Agent embodying SRE principles and practices from the Google SRE book. Expert in SLO/SLI definition, error budget management, incident management, capacity planning, toil reduction, and reliability patterns.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/agents/sre-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/agents/sre-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [sre-reliability-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A62d35c9eb78ad73b59a694d6.json) — Expert in SLI/SLO/SLA design, error budget management, incident response, and capacity planning<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/agents/sre-reliability-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/agents/sre-reliability-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [stackoverflow/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad5c53ecd68a3b2c6457ef4c5.json) — Domain skill: Stack Overflow — Scraping & Data Extraction. The API is unauthenticated-friendly but strictly quota-capped per IP per day:<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mechanical-engineering/agents/test-validation-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mechanical-engineering/agents/test-validation-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [test_mcp_server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6436a84cd2ce8ef82bfdcd5f.json) — POST /api/mcp/servers/{name}/test - Connect to the server, list its tools, disconnect. Returns tool list.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L159) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [test_messaging_platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1476fb6b333497a5b37d3a3a.json) — POST /api/messaging/platforms/{platform_id}/test - handler test_messaging_platform<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L10280) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

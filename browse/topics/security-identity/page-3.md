@@ -1,9 +1,11 @@
 # Security & Identity — page 3
 
-495 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+496 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [sast-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adf70d1d734f53cebbe1c5268.json) — Static Application Security Testing orchestration and analysis. Execute Semgrep, Bandit, ESLint security plugins, CodeQL, and other SAST tools. Parse, prioritize, and deduplicate findings across multiple tools with…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/sast-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/sast-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [scientific-discovery/assurance-safety-case-reasoning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad6a359c0ae1805ad831d1355.json) — Structured arguments for system safety/security using Goal Structuring Notation and similar frameworks<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/assurance-safety-case-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/assurance-safety-case-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Scorecard supply-chain security](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa9b2072e9196910088915e06.json) — Description not available in current evidence.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/iac-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/iac-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/software-architecture/security-architecture-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A894529e93d5ab5bd47904488.json) — Security-focused architecture review including threat modeling, security pattern validation, and vulnerability assessment<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/security-architecture-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/security-architecture-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/technical-documentation/api-reference-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A774bfe929b1d0b5ae6f01a88.json) — API Reference Documentation with Code Examples - Comprehensive process for creating complete API reference documentation with multi-language code examples, authentication flows, error handling, rate limits, SDK…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/api-reference-docs.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/api-reference-docs.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

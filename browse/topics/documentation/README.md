@@ -2,7 +2,7 @@
 
 Technical documentation, guides and reference material.
 
-**409 entries** · Alphabetical · 3 pages.
+**410 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -202,6 +202,8 @@ Technical documentation, guides and reference material.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/agents/docs-qa-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/agents/docs-qa-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [docs-site-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af2d29c11b2dbc14e1c57dcf5.json) — Generate documentation sites using Docusaurus, MkDocs, or VuePress<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/docs-site-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/docs-site-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [docs-style](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc22060154f052b2f82c14cf.json) — Style guidelines for writing and updating documentation. Use when writing new docs, updating existing docs, or reviewing docs for quality.<br>
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [.claude/skills/docs-style/SKILL.md](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/.claude/skills/docs-style/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE
 - [documentary-linguist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3228372161482b07ee694d.json) — Conduct language documentation and linguistic analysis including phonetic transcription, grammatical analysis, language endangerment, corpus development, and elicitation methods<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [documentation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad73a135da73c210c6915e779.json) — Description not available in current evidence.<br>
@@ -304,8 +306,6 @@ Technical documentation, guides and reference material.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/skills/homologation-docs/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/skills/homologation-docs/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [HP-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0e916a338731f4208a33549c.json) — An inspired interpretation of HP's design language — a white-paper enterprise-consumer system anchored by HP Electric Blue (`#024ad8`) as the lone signal CTA, near-black ink (`#1a1a1a`) for headlines, geometric…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/hp/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/hp/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [hr-investigation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A382d88380c15583f230798de.json) — Support workplace investigation processes with documentation and methodology guidance<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/human-resources/skills/hr-investigation/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/human-resources/skills/hr-investigation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

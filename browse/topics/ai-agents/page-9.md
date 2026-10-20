@@ -1,9 +1,11 @@
 # AI Agents — page 9
 
-2,770 catalog entries · Sorted alphabetically by name · Page 9 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 9 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [HRI Interface Designer Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aea6555469742ab348f2908c3.json) — Expert in human-robot interaction interface design and implementation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/hri-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/hri-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [hubspot/private-app-webhooks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac0b75474dcd56f7fe9dbd749.json) — Domain skill: HubSpot — editing a Private App's webhook subscriptions. For adding or removing property-change subscriptions on a Private App (the v3 webhook surface). Assumes the app already exists.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/hubspot/private-app-webhooks.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/hubspot/private-app-webhooks.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [huggingface-classifier](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17175607dda9c3e781a23564.json) — Hugging Face transformer model fine-tuning and inference for intent classification<br>
@@ -261,7 +263,7 @@
 - [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358721084.json) — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.<br>
   Source: [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/context-mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Developer tools
 - [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377987832.json) — open-source coding agent<br>
-  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Developer tools
+  Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Developer tools
 - [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343178366.json) — A creative writing multi-agent solution to help users write articles.<br>
   Source: [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/creative-writer) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/crewAI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346374481.json) — Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Cloud infrastructure, Skills
 - [jamesrwatsonx-creator/grok-build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1341937624.json) — SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.<br>
   Source: [jamesrwatsonx-creator/grok-build](https://github.com/jamesrwatsonx-creator/grok-build) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Developer tools
-- [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342801670.json) — Claude Code plugin that delegates reviews, rescue tasks, and session transfer to the Grok Build CLI<br>
-  Source: [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/grok-build-plugin-cc) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Libraries/packages
 
 ## Pages
 

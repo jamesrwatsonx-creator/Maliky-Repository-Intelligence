@@ -1,9 +1,11 @@
 # Security & Identity — page 2
 
-495 catalog entries · Sorted alphabetically by name · Page 2 of 4.
+496 catalog entries · Sorted alphabetically by name · Page 2 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [gke-basics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37e35bdcc3f9f0c76ecab0c5.json) — Manages core GKE cluster provisioning, credentials, Autopilot vs Standard selection, and workload deployment. Use when creating GKE clusters, fetching kubectl credentials, configuring Workload Identity, or deciding…<br>
+  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/gke-basics/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/gke-basics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [gke-manifest-generation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af7e8702864f821fce32b397d.json) — Generates and updates secure, production-ready Kubernetes YAML manifests optimized for GKE Autopilot and GKE Standard clusters. Use when creating or modifying GKE deployment manifests, configuring container security…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/gke-manifest-generation/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/gke-manifest-generation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [gke-platform-security](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab912f6cfb492403beded81d3.json) — Plans, configures, and hardens platform-level Google Kubernetes Engine (GKE) cluster security. Covers cluster add-ons (Secret Manager enablement), RBAC hardening (disabling insecure bindings, audit tools), Binary…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L14069) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [safety-guard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af70fd23e2710996490af575f.json) — Use this skill to prevent destructive operations when working on production systems or running agents autonomously.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/safety-guard/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/safety-guard/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [sast-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adf70d1d734f53cebbe1c5268.json) — Static Application Security Testing orchestration and analysis. Execute Semgrep, Bandit, ESLint security plugins, CodeQL, and other SAST tools. Parse, prioritize, and deduplicate findings across multiple tools with…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/sast-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/sast-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

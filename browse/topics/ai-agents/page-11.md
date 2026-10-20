@@ -1,9 +1,11 @@
 # AI Agents — page 11
 
-2,770 catalog entries · Sorted alphabetically by name · Page 11 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 11 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [langchain-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8f618704adeba9652067ef59.json) — LangChain memory integration including ConversationBufferMemory, ConversationSummaryMemory, and vector-based memory<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langchain-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langchain-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [langchain-react-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaa2613e4026dfa4bf25ca7b3.json) — LangChain ReAct agent implementation with tool binding for reasoning and action loops<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langchain-react-agent/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langchain-react-agent/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [langchain-retriever](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8994216dd1d01deaee596863.json) — LangChain retriever implementation with various retrieval strategies for RAG applications<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/mc-generator-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/mc-generator-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [mcda-facilitator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3addfa6bcb8efbe6bb62eec7.json) — Agent specialized in multi-criteria decision analysis methodology selection, execution, and interpretation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/agents/mcda-facilitator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/agents/mcda-facilitator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [mcp-config-devfleet](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7e98032cd9950d7bfac9de8.json) — Recommended MCP server config "devfleet": Multi-agent orchestration — dispatch parallel Claude Code agents in isolated worktrees. Plan projects, auto-chain missions, read structured reports. Repo:…<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 
 ## Pages
 

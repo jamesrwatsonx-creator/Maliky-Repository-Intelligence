@@ -1,9 +1,11 @@
 # AI Agents — page 8
 
-2,770 catalog entries · Sorted alphabetically by name · Page 8 of 19.
+2,771 catalog entries · Sorted alphabetically by name · Page 8 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_task](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A89ba9958b01b9af6a384486b.json) — GET /tasks/{task_id} - handler get_task<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L520) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_task_log](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A22c83c2bf621632a033169bb.json) — GET /tasks/{task_id}/log - Return the worker's stdout/stderr log.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2242) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_telegram_onboarding_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c0a01caf364adf50664d4cd.json) — GET /api/messaging/telegram/onboarding/{pairing_id} - handler get_telegram_onboarding_status<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/hpc-workflow-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/hpc-workflow-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [hr-business-partner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad706e4204dbae034bd2dd33a.json) — Strategic HR business partner for employee lifecycle management<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/human-resources/agents/hr-business-partner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/human-resources/agents/hr-business-partner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [HRI Interface Designer Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aea6555469742ab348f2908c3.json) — Expert in human-robot interaction interface design and implementation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/hri-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/hri-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

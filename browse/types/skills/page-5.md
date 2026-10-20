@@ -1,9 +1,11 @@
 # Skills — page 5
 
-3,155 catalog entries · Sorted alphabetically by name · Page 5 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 5 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [council-multi-model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A70ad6da4977697769b61cfc7.json) — Add one optional external Codex critique after the existing council has produced a decision draft. Use when an ambiguous, high-consequence decision would benefit from a separate model invocation's attempt to break the…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/council-multi-model/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/council-multi-model/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [counterexample-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A73a6c8468dc0f0b855a571dc.json) — Automated search for counterexamples to mathematical conjectures<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/skills/counterexample-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/skills/counterexample-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [counterexample-guided-refinement](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dd529a680a4296e507679d3.json) — Implement CEGAR for synthesis and verification workflows<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/skills/deseq2-differential-expression/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/skills/deseq2-differential-expression/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [design-fmea-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9520556f2c2c6efff6bfe058.json) — Design Failure Mode and Effects Analysis (DFMEA) skill for systematic design risk identification<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/skills/design-fmea-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/skills/design-fmea-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49d8240478a0879445e41d6f.json) — Author/validate/export Google's DESIGN.md token spec files.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/creative/design-md/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/creative/design-md/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

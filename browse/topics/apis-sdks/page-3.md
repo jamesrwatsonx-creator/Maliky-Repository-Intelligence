@@ -1,9 +1,15 @@
 # APIs & SDKs — page 3
 
-1,324 catalog entries · Sorted alphabetically by name · Page 3 of 9.
+1,328 catalog entries · Sorted alphabetically by name · Page 3 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [django-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17b8009f29b854b19e61679b.json) — Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps. Use when building or reviewing Django apps, DRF APIs, ORM queries, or caching.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/django-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/django-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [docs-lookup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A043c96a7b8d8562878e2bcae.json) — When the user asks how to use a library, framework, or API or needs up-to-date code examples, use Context7 MCP to fetch current documentation and return answers with examples. Invoke for docs/API/setup questions.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/docs-lookup.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/docs-lookup.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [documentation-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A20cdb6f2c5283614b046479d.json) — Generate documentation for migrated systems including API docs, architecture docs, and runbooks<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/skills/documentation-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/skills/documentation-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [documentation-lookup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6bfb7be8123f71ebf6f706c6.json) — Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/documentation-lookup/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/documentation-lookup/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [docusaurus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7853570f9dd508f9fbfd9633.json) — Deep integration with Docusaurus for documentation site development. Configure projects, manage sidebars, versioning, i18n, develop plugins, and optimize builds for React-based documentation.<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18362) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_portal_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afcbd0767931f8956d31ac143.json) — GET /api/portal - handler get_portal_status<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4222) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae081b7bcf57382f820192480.json) — Get a voice profile by ID.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L110) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [get_profile_avatar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A856712b7e77779fa6c2da9cc.json) — Get avatar image for a profile.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L250) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [get_profile_channels](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12aa3a3a3e59b8b621cfb342.json) — Get list of channel IDs assigned to a profile.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L311) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 
 ## Pages
 

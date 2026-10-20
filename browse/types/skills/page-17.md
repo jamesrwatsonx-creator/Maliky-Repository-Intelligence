@@ -1,9 +1,13 @@
 # Skills — page 17
 
-3,155 catalog entries · Sorted alphabetically by name · Page 17 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 17 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [rest-api-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acff55e8e9e750fca4df660a8.json) — RESTful API design principles, versioning, pagination, HATEOAS, and documentation.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/rest-api-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/rest-api-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [rest-countries/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A126cbab094342dc8d2341dae.json) — Domain skill: REST Countries — Scraping & Data Extraction. Use the ?fields= query param to limit response size — essential when fetching all 250.<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/rest-countries/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/rest-countries/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [rest-graphql-debug](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fb9799b93e777c53f50b848.json) — Debug REST/GraphQL APIs: status codes, auth, schemas, repro.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/software-development/rest-graphql-debug/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/software-development/rest-graphql-debug/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3ece6a28ba9d77181aacfa.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gastown/skills/session-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gastown/skills/session-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [session-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa905119a8bac105fecd0dc22.json) — Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/session-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/session-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [setfit-few-shot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A084fc5a613f937c3167d2820.json) — SetFit few-shot learning for efficient intent classification with minimal data<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/setfit-few-shot/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/setfit-few-shot/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [settlement-calculator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad9298bbd538e61775aa98ee5.json) — Foundation settlement calculation skill for immediate, consolidation, and secondary compression<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/skills/settlement-calculator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/skills/settlement-calculator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

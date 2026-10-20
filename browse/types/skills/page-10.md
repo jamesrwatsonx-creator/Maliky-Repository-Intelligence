@@ -1,9 +1,13 @@
 # Skills — page 10
 
-3,155 catalog entries · Sorted alphabetically by name · Page 10 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 10 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [hubspot/private-app-webhooks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac0b75474dcd56f7fe9dbd749.json) — Domain skill: HubSpot — editing a Private App's webhook subscriptions. For adding or removing property-change subscriptions on a Private App (the v3 webhook surface). Assumes the app already exists.<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/hubspot/private-app-webhooks.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/hubspot/private-app-webhooks.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [huggingface-classifier](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17175607dda9c3e781a23564.json) — Hugging Face transformer model fine-tuning and inference for intent classification<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/huggingface-classifier/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/huggingface-classifier/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [huggingface-hub](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4bda76711068b5c4c65ca983.json) — HuggingFace hf CLI: search/download/upload models, datasets.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/mlops/huggingface-hub/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/mlops/huggingface-hub/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [huggingface-tokenizers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab569a949d000927e520084f9.json) — Fast BPE/WordPiece tokenization and custom vocab training.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/jwt-handler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/jwt-handler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [k1-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A259ffc5b80421967c556dae8.json) — Generates K-1 schedules for partner distributions with tax allocations<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/skills/k1-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/skills/k1-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [k6 Performance Testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A829fbfd27decfc9b7bc560b5.json) — k6 load testing expertise for performance validation and analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/skills/k6-performance/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/skills/k6-performance/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [k8s-validator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00e7ae4382a4003e9a022876.json) — Validate Kubernetes manifests for security, best practices, and resource limits<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/k8s-validator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/k8s-validator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

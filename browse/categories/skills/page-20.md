@@ -1,9 +1,13 @@
 # Skills — page 20
 
-2,986 catalog entries · Sorted alphabetically by name · Page 20 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 20 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [verification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa1f12621faf7bbaa07404af5.json) — Verification-before-completion discipline ensuring all success criteria are met, tests pass, and reviews complete before declaring work done.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/rpikit/skills/verification/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/skills/verification/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [verification-before-completion](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4cf4d7635efd1d904c91d53a.json) — Evidence requirement enforcement ensuring all claims are backed by logs, test results, or exit codes. Zero = success, non-zero = failure. No guessing allowed.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/verification-before-completion/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/verification-before-completion/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [verification-before-completion](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A931d6a3ff781c14b02f53e93.json) — Use when about to claim work is complete, fixed, or passing, before committing or creating PRs. Evidence before assertions.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/superpowers/skills/verification-before-completion/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/superpowers/skills/verification-before-completion/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [verification-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97816b7e233174b5894a3fe6.json) — A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete.<br>

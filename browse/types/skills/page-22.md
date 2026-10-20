@@ -1,9 +1,13 @@
 # Skills — page 22
 
-3,155 catalog entries · Sorted alphabetically by name · Page 22 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 22 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [zephyr-rtos](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab2609359e5e3c5f10ef84eec.json) — Specialized skill for Zephyr RTOS development and configuration<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/zephyr-rtos/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/zephyr-rtos/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [zillow/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37ebb0b3c15f3ca9d34b3c7a.json) — Domain skill: Zillow — Scraping & Data Extraction. Field-tested against www.zillow.com on 2026-04-18 using httpget (no browser).<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/zillow/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/zillow/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [zk-circuits](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0829f06b3f2f9ee957575160.json) — Zero-knowledge circuit development using Circom and Noir languages. Supports constraint optimization, ZK-friendly cryptographic primitives, proof generation (Groth16, PLONK), and Merkle tree implementations.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/skills/zk-circuits/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/skills/zk-circuits/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [zod](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17b54902806fbf20b069a325.json) — Zod schema validation and type inference.<br>

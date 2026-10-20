@@ -1,9 +1,13 @@
 # Skills — page 10
 
-2,986 catalog entries · Sorted alphabetically by name · Page 10 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 10 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034245.json) — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.<br>
+  Source: [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/universal-modder) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, Generative AI, MCP servers
+- [jamesrwatsonx-creator/user-research-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378075610.json) — Cookiy AI Skill for AI agents (Claude, Codex, Cursor, OpenClaw) — end-to-end user research: AI interviews, synthetic users, quant surveys, participant recruitment.<br>
+  Source: [jamesrwatsonx-creator/user-research-skill](https://github.com/jamesrwatsonx-creator/user-research-skill) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Research projects, Skills
 - [jamesrwatsonx-creator/video-shotcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378079817.json) — AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template<br>
   Source: [jamesrwatsonx-creator/video-shotcraft](https://github.com/jamesrwatsonx-creator/video-shotcraft) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools, Skills
 - [jamesrwatsonx-creator/visual-explainer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1387973857.json) — Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/line-ending-normalizer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/line-ending-normalizer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [linear-program-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98269420bb06b4d65e4a63c4.json) — Mathematical programming skill for formulating and solving linear programming models for resource allocation, production planning, and capacity optimization.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/skills/linear-program-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/skills/linear-program-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [linear-programming-solver](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A280314adda7c00bfdaed86f3.json) — Linear programming skill for resource allocation, scheduling, and optimization problems<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/skills/linear-programming-solver/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/skills/linear-programming-solver/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [linearizability-checker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefc0baacc9c9c219bfb2fe6c.json) — Check linearizability of concurrent data structure implementations<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/linearizability-checker/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/linearizability-checker/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

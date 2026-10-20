@@ -1,9 +1,13 @@
 # Skills — page 15
 
-3,155 catalog entries · Sorted alphabetically by name · Page 15 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 15 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [planning-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab62b2b5f5d668811d2fdb453.json) — Structured planning methodology with research, brainstorming, phased plan creation, risk assessment, and plan-to-build continuity.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/planning-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/planning-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [plantuml-renderer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adb677f8235a16337906ed7f8.json) — Render PlantUML diagrams to various image formats with theme and styling support<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/plantuml-renderer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/plantuml-renderer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [plasma-etch-controller](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aae0b0034591b1c9636b118fd.json) — Plasma etching skill for anisotropic nanostructure patterning with selectivity and profile control<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/plasma-etch-controller/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/plasma-etch-controller/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [player-retention](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4131e94a7720a1df41bdb900.json) — Retention skill for daily rewards.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/pyinstaller-config/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/pyinstaller-config/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pymatching-decoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A95d26084778d5c993e140c63.json) — Minimum-weight perfect matching decoder skill for surface code error correction<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/pymatching-decoder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/pymatching-decoder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [pymc-bayesian-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4962acce65dcfee786819cd8.json) — PyMC probabilistic programming skill for hierarchical Bayesian models in physics data analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [pymc-probabilistic-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34c56eea507bb8b0396773d5.json) — PyMC for flexible Bayesian modeling<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/skills/pymc-probabilistic-programming/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/skills/pymc-probabilistic-programming/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

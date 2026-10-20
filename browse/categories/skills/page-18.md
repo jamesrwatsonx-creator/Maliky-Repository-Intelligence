@@ -1,9 +1,13 @@
 # Skills — page 18
 
-2,986 catalog entries · Sorted alphabetically by name · Page 18 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 18 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [stim-simulator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9735f1a2d8e04939383b31c3.json) — Clifford circuit simulation skill using Stim for error correction studies<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [STIX/TAXII Intelligence Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ec8f0bdc24210338b7a2412.json) — STIX/TAXII threat intelligence format and sharing<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/stix-taxii/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/stix-taxii/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stm-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae17c3f875f7b3a431f76ff71.json) — Scanning Tunneling Microscopy skill for atomic-resolution imaging and local density of states measurements<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stm32-hal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c77c981b0572f66230a107e.json) — STMicroelectronics STM32 HAL and Low-Level driver expertise<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/tile-based/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/tile-based/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [time-series-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9c1fd1474f3cbee24b399606.json) — Skill for time series analysis and forecasting<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [time-series-forecaster](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A44c6466a401c8378815abf81.json) — Time series forecasting skill for business metric prediction and demand planning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [time-study-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49dd6effadc46f7a846e9031.json) — Time study analysis skill with stopwatch methods, performance rating, and standard time calculation.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/skills/time-study-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/skills/time-study-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

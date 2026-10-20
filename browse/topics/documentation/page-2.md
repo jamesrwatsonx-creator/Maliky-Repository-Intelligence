@@ -1,9 +1,11 @@
 # Documentation & References — page 2
 
-409 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+410 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [hr-investigation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A382d88380c15583f230798de.json) — Support workplace investigation processes with documentation and methodology guidance<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/human-resources/skills/hr-investigation/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/human-resources/skills/hr-investigation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [humanities/language-documentation-project](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A576320ea3faa492ed2765b96.json) — Conduct comprehensive endangered language documentation including phonological, morphological, and syntactic analysis with community collaboration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/language-documentation-project.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/language-documentation-project.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [humanities/visual-ethnography-documentation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8276787b8e5e965cbf7800c5.json) — Create photographic, video, and audio documentation of cultural practices, rituals, and daily life with appropriate community permissions and metadata standards<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/dmaic-project.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/dmaic-project.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/operations/iso-9001-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af7cbc1efce0e2c290c021605.json) — ISO 9001 Implementation Process - Implement ISO 9001:2015 Quality Management System requirements including documentation, processes, and internal audits for organizational quality excellence.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/iso-9001-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/iso-9001-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/domains/business/operations/quality-audit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3ec1d89364f6a7dc74deda67.json) — Quality Audit Management Process - Plan, conduct, and follow up on internal quality audits with findings documentation and corrective action tracking for continuous quality improvement.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/quality-audit.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/quality-audit.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

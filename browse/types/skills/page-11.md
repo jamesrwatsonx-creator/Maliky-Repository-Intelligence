@@ -1,9 +1,13 @@
 # Skills — page 11
 
-3,155 catalog entries · Sorted alphabetically by name · Page 11 of 22.
+3,157 catalog entries · Sorted alphabetically by name · Page 11 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [k6 Performance Testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A829fbfd27decfc9b7bc560b5.json) — k6 load testing expertise for performance validation and analysis<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/skills/k6-performance/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/skills/k6-performance/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [k8s-validator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00e7ae4382a4003e9a022876.json) — Validate Kubernetes manifests for security, best practices, and resource limits<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/k8s-validator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/k8s-validator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [Kafka Topic Designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A62055b003d71ebc1645bad2f.json) — Designs and optimizes Apache Kafka topics and configurations<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-engineering-analytics/skills/kafka-topic-designer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-engineering-analytics/skills/kafka-topic-designer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [kaizen-event-facilitator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3f032d69c65ab5fef29c6127.json) — Kaizen event facilitation skill for rapid improvement workshops and action planning.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/localization/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/localization/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [lod](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aabd6869233f28923f5e9a104.json) — Level of Detail skill for mesh simplification and HLOD generation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/lod/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/lod/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [log-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ada128a72bc9a74a86a331a2a.json) — Structured log analysis and aggregation expertise for observability and troubleshooting<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/skills/log-analysis/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/skills/log-analysis/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [log-schema-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac43c618417dcdd3b5e04bb77.json) — Generate structured logging schemas with correlation ID patterns and ELK/Splunk integration<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/log-schema-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/log-schema-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

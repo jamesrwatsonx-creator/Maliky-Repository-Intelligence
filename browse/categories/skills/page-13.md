@@ -1,9 +1,13 @@
 # Skills — page 13
 
-2,986 catalog entries · Sorted alphabetically by name · Page 13 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 13 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [okr-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A294cf37238b6fa38c8698321.json) — OKR methodology expertise including objective setting, key results definition, quarterly cadences, and alignment cascading<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-strategy-advanced/skills/okr-skill/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-strategy-advanced/skills/okr-skill/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [omh-autopilot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A166f071e8bf4636f4c718e40.json) — pipeline: interview→plan→execute→QA→verify (idea→code)<br>
+  Source: [jamesrwatsonx-creator/oh-my-hermes](https://github.com/jamesrwatsonx-creator/oh-my-hermes) · [plugins/omh/skills/omh-autopilot/SKILL.md](https://github.com/jamesrwatsonx-creator/oh-my-hermes/blob/2a98d38b43010a438b316fb48dbe68a3c8ee8fed/plugins/omh/skills/omh-autopilot/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [omh-deep-interview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12c8f2331604de8dc8ba3a57.json) — Socratic reqs interview; clarify vague/ambiguous goals<br>
   Source: [jamesrwatsonx-creator/oh-my-hermes](https://github.com/jamesrwatsonx-creator/oh-my-hermes) · [plugins/omh/skills/omh-deep-interview/SKILL.md](https://github.com/jamesrwatsonx-creator/oh-my-hermes/blob/2a98d38b43010a438b316fb48dbe68a3c8ee8fed/plugins/omh/skills/omh-deep-interview/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [omh-deep-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad7d35cad66875c2f23391d1e.json) — parallel web research; subagents→synthesis→cite-verify<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-codex/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-codex/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8196efd799d21ef76865226b.json) — Plan a babysitter run. use this command to plan a complex workflow, without actually running it.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-cursor/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-cursor/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85d19a75af2e8713935e6c60.json) — Plan a babysitter run. use this command to plan a complex workflow, without actually running it.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-omp/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-omp/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98244e5976396d76c3cab847.json) — Plan a babysitter run. use this command to plan a complex workflow, without actually running it.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-opencode/skills/plan/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-opencode/skills/plan/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

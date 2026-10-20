@@ -1,9 +1,11 @@
 # Skills — page 4
 
-2,986 catalog entries · Sorted alphabetically by name · Page 4 of 20.
+2,988 catalog entries · Sorted alphabetically by name · Page 4 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [code-smell-detector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86e2c3c13b2bf8e99990b0f0.json) — Automated detection of code smells and anti-patterns to identify refactoring opportunities<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/skills/code-smell-detector/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/skills/code-smell-detector/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [code-template-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e25a4a63ab4186de3241af1.json) — Manage and generate competitive programming templates<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/algorithms-optimization/skills/code-template-manager/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/algorithms-optimization/skills/code-template-manager/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [code-tour](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1457daaeed9529044d4698fb.json) — Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and structured "explain how this…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/skills/crash-simulation/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/skills/crash-simulation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [crayon-competitive](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A974793c2ea56099951a555c9.json) — Crayon competitive intelligence platform for market monitoring<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/skills/crayon-competitive/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/skills/crayon-competitive/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [create-prd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab29e8c7096f0bbf4aede2ff1.json) — Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product…<br>
-  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-execution/skills/create-prd/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/create-prd/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 
 ## Pages
 

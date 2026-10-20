@@ -1,21 +1,21 @@
 # Browse the Maliky Catalog
 
-8,856 individually searchable assets across 16 populated asset types, 42 populated topics and 23 active canonical taxonomy areas.
+8,894 individually searchable assets across 16 populated asset types, 42 populated topics and 23 active canonical taxonomy areas.
 
 ## By Asset Type
 
-- [Skills](types/skills/README.md) (3,155)
+- [Skills](types/skills/README.md) (3,157)
 - [MCP Servers](types/mcps/README.md) (8)
 - [Plugins](types/plugins/README.md) (89)
 - [Agents & Frameworks](types/agents/README.md) (1,391)
-- [Tools](types/tools/README.md) (379)
+- [Tools](types/tools/README.md) (388)
 - [APIs](types/apis/README.md) (429)
 - [SDKs](types/sdks/README.md) (2)
 - [UI Components](types/ui-components/README.md) (557)
 - [Workflows](types/workflows/README.md) (2,372)
 - [Templates](types/templates/README.md) (14)
 - [Models & Model Adapters](types/models/README.md) (51)
-- [Libraries & Packages](types/libraries/README.md) (221)
+- [Libraries & Packages](types/libraries/README.md) (248)
 - [Services & Integrations](types/services/README.md) (82)
 - [Prompts](types/prompts/README.md) (27)
 - [Other Assets](types/other-assets/README.md) (79)
@@ -39,7 +39,7 @@
 - [Animation & Motion](topics/animation-motion/README.md) (168)
 - [3D & XR](topics/3d-xr/README.md) (63)
 - [Mobile References](topics/mobile-references/README.md) (30)
-- [AI Agents](topics/ai-agents/README.md) (2,770)
+- [AI Agents](topics/ai-agents/README.md) (2,771)
 - [Agent Frameworks](topics/agent-frameworks/README.md) (2,009)
 - [Memory & Context](topics/memory/README.md) (222)
 - [Models & Local LLMs](topics/models-local-llms/README.md) (155)
@@ -54,21 +54,21 @@
 - [Video](topics/video/README.md) (175)
 - [Realtime](topics/realtime/README.md) (471)
 - [Backend](topics/backend/README.md) (568)
-- [APIs & SDKs](topics/apis-sdks/README.md) (1,324)
+- [APIs & SDKs](topics/apis-sdks/README.md) (1,328)
 - [Databases & ETL](topics/databases-etl/README.md) (156)
-- [Security & Identity](topics/security-identity/README.md) (495)
+- [Security & Identity](topics/security-identity/README.md) (496)
 - [Infrastructure](topics/infrastructure/README.md) (432)
 - [Deployment](topics/deployment/README.md) (320)
-- [Testing & Developer Tools](topics/testing-developer-tools/README.md) (1,194)
+- [Testing & Developer Tools](topics/testing-developer-tools/README.md) (1,206)
 - [Business, CRM & Marketing](topics/business-crm-marketing/README.md) (1,313)
 - [Finance, Blockchain & Crypto](topics/finance-blockchain-crypto/README.md) (241)
 - [Productivity & Automation](topics/productivity-automation/README.md) (2,622)
-- [Documentation & References](topics/documentation/README.md) (409)
+- [Documentation & References](topics/documentation/README.md) (410)
 - [Experimental](topics/experimental/README.md) (118)
 
 ## Canonical 25-Area Taxonomy
 
-- [Skills](categories/skills/README.md) (2,986)
+- [Skills](categories/skills/README.md) (2,988)
 - [Tools / MCPs / Plugins](categories/tools-mcps-plugins/README.md) (227)
 - [AI Agents / Agent Frameworks](categories/ai-agents-agent-frameworks/README.md) (1,521)
 - [Memory / Context / Knowledge](categories/memory-context-knowledge/README.md) (7)
@@ -90,6 +90,6 @@
 - [Payments / Blockchain / Wallets](categories/payments-blockchain-wallets/README.md) (2)
 - [Testing / Evaluation / QA](categories/testing-evaluation-qa/README.md) (3)
 - [Developer Tools / Codegen / Build Systems](categories/developer-tools-codegen-build-systems/README.md) (59)
-- [General / Other](categories/general-other/README.md) (1,154)
+- [General / Other](categories/general-other/README.md) (1,190)
 
 [All 566 repositories](repositories/README.md) · [Search](../docs/catalog/index.html) · [Machine-readable export](../docs/catalog/catalog.json)
