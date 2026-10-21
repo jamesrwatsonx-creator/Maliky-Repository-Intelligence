@@ -1,0 +1,55 @@
+{
+  "id": "entity:e01b2b237fe67b6ff14aa3a1",
+  "entity_type": "UI_COMPONENT",
+  "name": "CheckboxGroup",
+  "description": "Themed checkbox group with root/item APIs, group context, labels and checked indicators using an internal roving-focus primitive.",
+  "source": {
+    "repository_id": "repository:1427687237",
+    "repository_name": "jamesrwatsonx-creator/Radix-themes",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/Radix-themes",
+    "upstream_url": "https://github.com/radix-ui/themes",
+    "source_path": "packages/radix-ui-themes/src/components/checkbox-group.tsx",
+    "inspected_commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+    "inspection_date": "2026-10-21T23:43:17.918447+00:00",
+    "blob_sha": "8714e075dd2fe21b72a757facccd0033f650bf35",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/checkbox-group.tsx#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:design-systems",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:17",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:react-grouped-checkbox-selection"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "React and React DOM",
+      "@radix-ui/themes styles and Theme context",
+      "radix-ui primitives",
+      "classnames"
+    ],
+    "overlap": "A public Radix Themes module. Multipart Root/Trigger/Content APIs are one collaborating reusable boundary. Raw Radix primitives supply behavior; this package adds theme integration, styled APIs and responsive props. Prefer the package boundary over copying files with unresolved internal imports.",
+    "language": "TypeScript and React",
+    "license": "MIT",
+    "runtime_tested": false
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "COMPONENT"
+}

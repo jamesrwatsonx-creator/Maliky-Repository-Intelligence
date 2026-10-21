@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/shadcn-calendar-heatmap",
+    "commit": "759856717f149bbf95d4e1e4b2712b64a0006e7b",
+    "categories": ["category:frontend-applications", "category:data-visualization"],
+    "operational": "operational:16",
+    "recommendation": "EXTRACT",
+    "coverage_note": "Full tree contains one copyable calendar heatmap plus demo/documentation and stock shadcn primitives. Static scanning missed CalendarHeatmap because it is exported at the end of its source. Retain that component and the reusable copy-control variants. Merge the LLM copy-label variant into the general clipboard control; framework layout, header/footer, icon registry, example-code showcase and private demo package do not add independent capability boundaries.",
+    "source_review": ["README.md", "package.json", "components/ui/calendar-heatmap.tsx", "components/copy-button.tsx", "app/(components)/copy-llms-button.tsx", "app/(components)/example-code.tsx"],
+    "entity_defaults": {"standalone": "PARTIAL", "recommendation": "EXTRACT", "role": "COMPONENT", "dependencies": ["React", "Tailwind CSS", "Local cn utility and styled button primitives"], "overlap": "Copyable components following shadcn conventions; adapt local import aliases. Clipboard controls overlap standard shadcn documentation patterns rather than representing a new clipboard API."},
+    "entities": [
+      {"type": "UI_COMPONENT", "name": "CalendarHeatmap", "path": "components/ui/calendar-heatmap.tsx", "description": "React calendar heatmap rendering multiple months with caller-supplied date groups or automatically bucketed weighted dates and configurable Tailwind intensity classes through react-day-picker.", "dependencies": ["React", "react-day-picker 8", "lucide-react", "Tailwind CSS", "Local cn and buttonVariants helpers"], "metadata": {"source_limits": "Weighted input is sorted in place. Empty weighted input and zero color variants are not guarded; validate inputs before integration.", "runtime_tested": false}, "capabilities": [["react-calendar-heatmap", "React calendar heatmap", ["GitHub contribution calendar", "weighted date intensity calendar", "shadcn calendar heatmap"]]]},
+      {"type": "UI_COMPONENT", "name": "CopyButton", "path": "components/copy-button.tsx", "description": "Reusable clipboard button with copy/check icons and temporary copied feedback for a supplied text value.", "metadata": {"merged_variants": ["app/(components)/copy-llms-button.tsx"], "source_limits": "Requires secure browser clipboard access; handle permission/write failures when adapting."}, "capabilities": [["react-clipboard-copy-button", "React clipboard copy button", ["copy text with feedback", "copy llms.txt control"]]]},
+      {"type": "UI_COMPONENT", "name": "CopyWithClassNames", "path": "components/copy-button.tsx", "description": "Clipboard dropdown offering separate actions to copy a component source value or its styling class names.", "dependencies": ["React", "Radix dropdown menu", "Radix icons", "Local styled button/dropdown primitives", "Secure browser clipboard context"], "capabilities": [["react-component-style-copy-menu", "React component and style copy menu", ["copy component or classname"]]]},
+      {"type": "UI_COMPONENT", "name": "CopyNpmCommandButton", "path": "components/copy-button.tsx", "description": "Clipboard dropdown offering npm, yarn, pnpm and bun command variants with copied-state feedback.", "dependencies": ["React", "Radix dropdown menu", "Local styled button/dropdown primitives", "Secure browser clipboard context"], "capabilities": [["package-manager-command-copy-menu", "Package manager command copy menu", ["npm yarn pnpm bun clipboard commands"]]]}
+    ],
+    "exclude": [
+      {"id": "entity:1734b04674fc238a9c614b67", "reason": "Private demo application package is the host of the independently retained copyable calendar component."},
+      {"id": "entity:1b0c3ab8fb851117bff09ebc", "reason": "Project-branded demo header is presentation scaffolding."},
+      {"id": "entity:50cd728f198a3f3e74ca73ab", "reason": "Copy llms.txt is a label-specific variant of the retained generic clipboard control; source path is preserved in merged_variants."},
+      {"id": "entity:7e7415c3819f6f205b8237e8", "reason": "Hardcoded documentation example display, covered by the retained heatmap component and its README examples."},
+      {"id": "entity:b364ea518578e6a6d9ddb50e", "reason": "Project-branded demo footer is presentation scaffolding."},
+      {"id": "entity:b585435180f4992f3356ad09", "reason": "Framework layout is application glue."},
+      {"id": "entity:ddab52dbfe019125a0209b34", "reason": "Static demo icon registry is ordinary implementation detail."}
+    ],
+    "implementation_details": ["Stock shadcn button/dropdown/select/notification dependencies", "Demo page, example variants and hardcoded showcase source", "Ordinary class-name, type, icon and framework plumbing"]
+  }
+]

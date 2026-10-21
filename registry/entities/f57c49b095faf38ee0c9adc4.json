@@ -1,0 +1,49 @@
+{
+  "id": "entity:f57c49b095faf38ee0c9adc4",
+  "entity_type": "TOOL",
+  "name": "scan_skill",
+  "description": "Scan an AI agent skill for security risks before installing it.\n\nUse this before installing or loading any skill or MCP server to decide\nwhether it is safe. ``target`` accepts a Git URL, file URL, ``.zip``,\n``.md`` file, or local directory.\n\nReturns a verdict with ``risk_score`` (0-100), ``severity``,\n``recommendation``, ``safe_to_install``, and ``findings``. The\n``llm_used`` / ``scan_mode`` fields report whether the semantic LLM pass\nactually ran, so a low score from a static-only scan is not mistaken for\na clean full scan.",
+  "source": {
+    "repository_id": "repository:1274983287",
+    "repository_name": "jamesrwatsonx-creator/SkillSpector",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/SkillSpector",
+    "upstream_url": "https://github.com/NVIDIA/SkillSpector",
+    "source_path": "src/skillspector/mcp_server.py",
+    "inspected_commit": "698e2bf29c7d32aa8211ada677382460c01900d7",
+    "inspection_date": "2026-10-21T23:39:40.458045+00:00",
+    "blob_sha": "ef2dd351b82d4dcda358154b3323ab67f05f9de5",
+    "line": 196
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "src/skillspector/mcp_server.py"
+    },
+    {
+      "type": "exported_symbol",
+      "value": "scan_skill"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:25",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:skillspector-tool-scan-skill"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Static source-declaration candidate; semantic review pending.",
+    "candidate_recommendation": "USE DIRECTLY"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "COMPONENT"
+}

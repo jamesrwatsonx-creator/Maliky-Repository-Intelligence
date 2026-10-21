@@ -1,0 +1,54 @@
+{
+  "id": "entity:adca8d92578967452fa859b6",
+  "entity_type": "API",
+  "name": "Bludit content HTTP API",
+  "description": "Token-gated HTTP interface for reading pages, tags and categories and for administrator-authorized page, category, user, settings, image and file operations.",
+  "source": {
+    "repository_id": "repository:1418692689",
+    "repository_name": "jamesrwatsonx-creator/bludit",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bludit",
+    "upstream_url": "https://github.com/bludit/bludit",
+    "source_path": "bl-plugins/api/plugin.php",
+    "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
+    "inspection_date": "2026-10-21T23:37:46.208765+00:00",
+    "blob_sha": "0975ed92071454b4c492d247f00175b771564f91",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/api/plugin.php#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:media-publishing"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bludit-content-http-api"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bludit 4.0 plugin/theme lifecycle",
+      "PHP 8+",
+      "Bludit JSON stores and global runtime objects"
+    ],
+    "overlap": "Independent Bludit extension or subsystem; compose with the CMS host rather than treating internal lifecycle methods as separate assets.",
+    "language": "PHP",
+    "license": "MIT",
+    "deployment_warning": "API token grants read access; write access additionally requires an enabled administrator authentication token. Configure allowed origins and protect both credentials."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "INTEGRATE VIA API",
+  "contribution_role": "SERVICE"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "entity:ec4740b5a9bab11b0d793d3b",
+  "entity_type": "UI_COMPONENT",
+  "name": "CopyNpmCommandButton",
+  "description": "Clipboard dropdown offering npm, yarn, pnpm and bun command variants with copied-state feedback.",
+  "source": {
+    "repository_id": "repository:1427704462",
+    "repository_name": "jamesrwatsonx-creator/shadcn-calendar-heatmap",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap",
+    "upstream_url": "https://github.com/gurbaaz27/shadcn-calendar-heatmap",
+    "source_path": "components/copy-button.tsx",
+    "inspected_commit": "759856717f149bbf95d4e1e4b2712b64a0006e7b",
+    "inspection_date": "2026-10-21T23:15:58.333654+00:00",
+    "blob_sha": "78d0165db4ff0f4a8f018782712aac7a3d19424e",
+    "line": 129
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap/blob/759856717f149bbf95d4e1e4b2712b64a0006e7b/components/copy-button.tsx#L129"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:frontend-applications",
+    "category:data-visualization"
+  ],
+  "operational_category": "operational:16",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:package-manager-command-copy-menu"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "React",
+      "Radix dropdown menu",
+      "Local styled button/dropdown primitives",
+      "Secure browser clipboard context"
+    ],
+    "overlap": "Copyable components following shadcn conventions; adapt local import aliases. Clipboard controls overlap standard shadcn documentation patterns rather than representing a new clipboard API.",
+    "language": null,
+    "license": "MIT"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT",
+  "contribution_role": "COMPONENT"
+}

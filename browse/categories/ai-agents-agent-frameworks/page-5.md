@@ -199,9 +199,9 @@
 - [jamesrwatsonx-creator/Data.awesome-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398832772.json) — A curated list of awesome AI Agent frameworks, libraries and software.<br>
   Source: [jamesrwatsonx-creator/Data.awesome-agent](https://github.com/jamesrwatsonx-creator/Data.awesome-agent) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, AI memory, Application security
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI memory, Application security
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
 - [jamesrwatsonx-creator/laptop-pet-Octop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388252508.json) — A smarter, self-hosted AI assistant — multi-user, multi-agent.<br>
   Source: [jamesrwatsonx-creator/laptop-pet-Octop](https://github.com/jamesrwatsonx-creator/laptop-pet-Octop) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents
 - [jamesrwatsonx-creator/rea](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875893.json) — Reverse engineer anything with agents, from app behavior down to native binaries.<br>

@@ -11,280 +11,613 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/bludit/bludit",
-  "description": "Simple, Fast, Secure, Flat-File CMS",
+  "description": "PHP flat-file CMS with JSON-backed content, administrative editing, HTTP content API, independently installable publishing plugins and three website themes.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
-    "pushed_at": "2026-10-07T18:14:46Z",
-    "live_metadata": "FRESH"
+    "pushed_at": "2026-10-07T18:14:46Z"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
   "current_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
   "inspection_date": "2026-10-20T23:52:20.176337+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:media-publishing",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
-  "capabilities": [],
+  "capabilities": [
+    "capability:bludit-blog-theme",
+    "capability:bludit-content-http-api",
+    "capability:bludit-csrf-and-login-throttling",
+    "capability:bludit-local-content-search",
+    "capability:bludit-local-visit-analytics",
+    "capability:bludit-remote-content-replacement",
+    "capability:bludit-session-authentication",
+    "capability:bludit-theme-configuration",
+    "capability:bludit-update-notifications",
+    "capability:bludit-website-theme",
+    "capability:cms-about-sidebar",
+    "capability:cms-canonical-url-metadata",
+    "capability:cms-category-navigation",
+    "capability:cms-custom-field-templating",
+    "capability:cms-custom-html-insertion",
+    "capability:cms-hierarchical-page-navigation",
+    "capability:cms-link-list-widget",
+    "capability:cms-maintenance-mode",
+    "capability:cms-markdown-preview-editing",
+    "capability:cms-open-graph-metadata",
+    "capability:cms-robots-directives",
+    "capability:cms-rss-feed-generation",
+    "capability:cms-static-page-navigation",
+    "capability:cms-tag-navigation",
+    "capability:cms-twitter-card-metadata",
+    "capability:cms-visitor-counter-widget",
+    "capability:cms-wysiwyg-html-editing",
+    "capability:cms-xml-sitemap-generation",
+    "capability:disqus-cms-comments",
+    "capability:flat-file-website-publishing",
+    "capability:php-flat-file-json-storage"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "complete_tree_paths",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "MCP_SERVER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "MCP_CLIENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "TOOL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "PLUGIN": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 25,
+      "catalogued": 25,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "AGENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "AGENT_FRAMEWORK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "WORKFLOW": {
-      "detected": 0,
+      "detected": 1,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "COMPONENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 2,
+      "catalogued": 2,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "UI_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "DESIGN_SYSTEM": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "PROMPT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "PROMPT_LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "SERVICE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "API": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "SDK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "LIBRARY": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "PACKAGE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "MODEL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "MODEL_ADAPTER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "DATASET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "BENCHMARK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "DATABASE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "CONNECTOR": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "INTEGRATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "AUTOMATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "CLI": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "APP": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "INFRASTRUCTURE_MODULE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "TEMPLATE": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detected": 3,
+      "catalogued": 3,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "REFERENCE_IMPLEMENTATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "DOCUMENTATION_ASSET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "OTHER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "WEBSITE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "WEBSITE_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "DESIGN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "SCREEN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     },
     "UI_PATTERN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently."
     }
   },
   "deep_review": {
-    "completed": false,
-    "reviewer": null,
-    "evidence": []
+    "completed": true,
+    "required": false,
+    "reviewer": "Source-reviewed cohort decision",
+    "conclusion": "Catalog review resolves the sensitive surfaces without claiming production safety. Login regenerates sessions but the user store uses salted SHA-1; retain authentication as a reference and require adaptive password hashing for reuse. API reads require the plugin token and writes require an enabled administrator token; configure CORS and protect credentials. Remote Content directly extracts an archive then deletes page/upload directories: retained with AVOID FOR PRODUCTION and a backup/trusted-archive warning. Visit analytics stores unsalted hashed IPs, requiring privacy controls. Administrator HTML injection executes browser code by design. Bundled TinyMCE explicitly declares GPL-2.0-or-later, distinct from the MIT CMS, with DOMPurify notices retained. Runtime behavior was not tested.",
+    "evidence": [
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-kernel/login.class.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-kernel/users.class.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-kernel/security.class.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-kernel/boot/admin.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/api/plugin.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/remote-content/plugin.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/visits-stats/plugin.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/html-code/plugin.php#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/tinymce/tinymce/license.md#L1"
+      }
+    ],
+    "runtime_tested": false
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
-    "deep_review": false,
-    "validation": false
+    "entity_extraction": true,
+    "capability_analysis": true,
+    "deep_review": true,
+    "validation": true
   },
-  "visibility_verified_at": "2026-10-20T23:52:18.992365+00:00",
+  "visibility_verified_at": "2026-10-21T23:09:24.730497+00:00",
   "tree_files": 771,
-  "files_read": 0,
-  "entity_count": 0,
-  "unread_source_files": 680,
-  "next_phase": "ENTITY_EXTRACTION"
+  "files_read": 680,
+  "entity_count": 33,
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "semantic_review_progress": {
+    "started_at": "2026-10-21T23:37:49.103700+00:00",
+    "completed_at": "2026-10-21T23:37:49.103700+00:00",
+    "status": "COMPLETE",
+    "review_policy": "LEAN",
+    "reviewer": "Source-reviewed cohort decision",
+    "final_entity_count": 33,
+    "removed_entity_ids": [
+      "entity:3d2bf972efdc07042bf46e91"
+    ],
+    "confirmed_capabilities": [
+      "capability:bludit-blog-theme",
+      "capability:bludit-content-http-api",
+      "capability:bludit-csrf-and-login-throttling",
+      "capability:bludit-local-content-search",
+      "capability:bludit-local-visit-analytics",
+      "capability:bludit-remote-content-replacement",
+      "capability:bludit-session-authentication",
+      "capability:bludit-theme-configuration",
+      "capability:bludit-update-notifications",
+      "capability:bludit-website-theme",
+      "capability:cms-about-sidebar",
+      "capability:cms-canonical-url-metadata",
+      "capability:cms-category-navigation",
+      "capability:cms-custom-field-templating",
+      "capability:cms-custom-html-insertion",
+      "capability:cms-hierarchical-page-navigation",
+      "capability:cms-link-list-widget",
+      "capability:cms-maintenance-mode",
+      "capability:cms-markdown-preview-editing",
+      "capability:cms-open-graph-metadata",
+      "capability:cms-robots-directives",
+      "capability:cms-rss-feed-generation",
+      "capability:cms-static-page-navigation",
+      "capability:cms-tag-navigation",
+      "capability:cms-twitter-card-metadata",
+      "capability:cms-visitor-counter-widget",
+      "capability:cms-wysiwyg-html-editing",
+      "capability:cms-xml-sitemap-generation",
+      "capability:disqus-cms-comments",
+      "capability:flat-file-website-publishing",
+      "capability:php-flat-file-json-storage"
+    ],
+    "implementation_details_not_catalogued": [
+      "Localized plugin/theme strings and README translations",
+      "Individual admin controllers/views and ordinary helpers",
+      "Bundled editor implementation internals represented as dependencies of their integration plugins",
+      "Static assets and issue-housekeeping workflow"
+    ],
+    "coverage_note": "Full pinned tree and 680 text-file extraction reconciled. Reviewed the CMS entry/boot architecture, core JSON store and authentication/security surfaces; plugin manifests, English feature descriptions and PHP hook declarations identify all 26 bundled plugins, including the HTTP API boundary; three theme entry points identify independent theme templates. Localized text, vendored editor internals, admin CRUD screens, helpers, assets and issue housekeeping are not independent assets. The API is represented once as API rather than duplicated as a generic plugin. Core security/storage subsystems are retained as extraction references because their contracts can be compared independently.",
+    "source_review": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "48a0b33b22262dc195bb7697600af9a39476fae2"
+      },
+      {
+        "path": "README.md",
+        "blob_sha": "eef493fdd21f6fa5b8ab03b52931519893f48fc0"
+      },
+      {
+        "path": "bl-kernel/abstract/dbjson.class.php",
+        "blob_sha": "edccde0f63db20d8067c2ea7fee0c2fc2a8ba734"
+      },
+      {
+        "path": "bl-kernel/boot/admin.php",
+        "blob_sha": "ce575d97c20ec098572e1c8a8770d3ff8594d819"
+      },
+      {
+        "path": "bl-kernel/boot/init.php",
+        "blob_sha": "e9735f4f518a06f92d369f94f6dc1539048dac77"
+      },
+      {
+        "path": "bl-kernel/login.class.php",
+        "blob_sha": "75ad0ed0298b90cdffc683b0d261f6f18e67ea4b"
+      },
+      {
+        "path": "bl-kernel/security.class.php",
+        "blob_sha": "1bc06d74d03e249b3e45546a8d554c02693052a1"
+      },
+      {
+        "path": "bl-kernel/users.class.php",
+        "blob_sha": "caa109e21ffa69a2bbacaa1a3a2901e37f07f5c8"
+      },
+      {
+        "path": "bl-plugins/about/plugin.php",
+        "blob_sha": "7d787b080f95f2f3562ef9e213f8175cb11990c5"
+      },
+      {
+        "path": "bl-plugins/alternative/plugin.php",
+        "blob_sha": "3a6abf80e279c8d129a3f5d63d2b43bb157b93f0"
+      },
+      {
+        "path": "bl-plugins/api/plugin.php",
+        "blob_sha": "0975ed92071454b4c492d247f00175b771564f91"
+      },
+      {
+        "path": "bl-plugins/canonical/plugin.php",
+        "blob_sha": "cd21c252ec81ff39398e3034c6be483e213e27b7"
+      },
+      {
+        "path": "bl-plugins/categories/plugin.php",
+        "blob_sha": "cbeec4858f2a090abe4412bb903749edfd6ea86c"
+      },
+      {
+        "path": "bl-plugins/custom-fields-parser/plugin.php",
+        "blob_sha": "2c8fbfda019b154d0b40a4218df2aa53f8a883c9"
+      },
+      {
+        "path": "bl-plugins/disqus/plugin.php",
+        "blob_sha": "00b5c9f0103900e998bb6416239f1f1b5dad9134"
+      },
+      {
+        "path": "bl-plugins/hit-counter/plugin.php",
+        "blob_sha": "6aa3cba4b4235c41c09a60e7a3f7fed17c0459ae"
+      },
+      {
+        "path": "bl-plugins/html-code/plugin.php",
+        "blob_sha": "b476f04e773afc14ca60a2ec39ffb4c0e16055b0"
+      },
+      {
+        "path": "bl-plugins/links/plugin.php",
+        "blob_sha": "a214467ec9474700c99d994d03c1c635ee83f5df"
+      },
+      {
+        "path": "bl-plugins/maintenance-mode/plugin.php",
+        "blob_sha": "d51a693025e1c2b72225e60af5fa9c01948ae219"
+      },
+      {
+        "path": "bl-plugins/navigation/plugin.php",
+        "blob_sha": "b749361bf45362b73f9c36720b8ef094284a66e1"
+      },
+      {
+        "path": "bl-plugins/opengraph/plugin.php",
+        "blob_sha": "093f80c0d400887f89c870e929ce1531583c15c8"
+      },
+      {
+        "path": "bl-plugins/remote-content/plugin.php",
+        "blob_sha": "ad7900a2ad9d76e846a070418d1f6f11619b066f"
+      },
+      {
+        "path": "bl-plugins/robots/plugin.php",
+        "blob_sha": "3f6c14ed308411f03d8425dd6bfaa7a296ebac7a"
+      },
+      {
+        "path": "bl-plugins/rss/plugin.php",
+        "blob_sha": "7ca447578705a683b243cebb0eb50791e46234a0"
+      },
+      {
+        "path": "bl-plugins/search/plugin.php",
+        "blob_sha": "5411af17ae1a86c375ac080a3b19c2c4e343c121"
+      },
+      {
+        "path": "bl-plugins/sitemap/plugin.php",
+        "blob_sha": "9ba4bbd65bd43852b61e90d5ad44b00750fc7215"
+      },
+      {
+        "path": "bl-plugins/static-pages/plugin.php",
+        "blob_sha": "5745f0aad72b41130734664c74d6faa3059d2bac"
+      },
+      {
+        "path": "bl-plugins/suneditor/plugin.php",
+        "blob_sha": "f46a67204080cf92be3afff4e0adcddf12a1975a"
+      },
+      {
+        "path": "bl-plugins/tags/plugin.php",
+        "blob_sha": "25d9f02768712e6a5b398bc51beedd49ebb9f9fb"
+      },
+      {
+        "path": "bl-plugins/tinymce/metadata.json",
+        "blob_sha": "dc18a3c4fc5879192ce0c8b8103c931cdf120a18"
+      },
+      {
+        "path": "bl-plugins/tinymce/plugin.php",
+        "blob_sha": "71ddcd9e7bb5868c6f220304d241afa85d8d23a9"
+      },
+      {
+        "path": "bl-plugins/tinymce/tinymce/license.md",
+        "blob_sha": "70454a6387194ce998007d30822c96e5206d1994"
+      },
+      {
+        "path": "bl-plugins/tuieditor/plugin.php",
+        "blob_sha": "3da9adc488516756abe8f2012a0bb80bdbc2f572"
+      },
+      {
+        "path": "bl-plugins/twitter-cards/plugin.php",
+        "blob_sha": "26fecb87f016cc400a16106ff5eaf1db50b12c97"
+      },
+      {
+        "path": "bl-plugins/version/plugin.php",
+        "blob_sha": "80b01515d63297ca517cf5835a981899bfa3da69"
+      },
+      {
+        "path": "bl-plugins/visits-stats/plugin.php",
+        "blob_sha": "88498b15692c3d68528ceb8b00007843e2e373e5"
+      },
+      {
+        "path": "bl-themes/alternative/index.php",
+        "blob_sha": "bb1321eeef9c8e5831ba72dbcbac9e59a4d46117"
+      },
+      {
+        "path": "bl-themes/blogx/index.php",
+        "blob_sha": "1bc3e0f9dff1567a2f4f75da7196c4489d2dd2fc"
+      },
+      {
+        "path": "bl-themes/flavor/index.php",
+        "blob_sha": "143b28720793321d6dfac17f766dbe9c243e3a2a"
+      },
+      {
+        "path": "index.php",
+        "blob_sha": "184a34a8c67b49a023df8c5f177fc1786883bbeb"
+      }
+    ],
+    "excluded_candidates": [
+      {
+        "id": "entity:3d2bf972efdc07042bf46e91",
+        "reason": "Generic stale-issue housekeeping is repository maintenance noise, not a reusable publishing capability."
+      }
+    ]
+  }
 }

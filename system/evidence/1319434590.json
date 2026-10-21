@@ -5,8 +5,48 @@
   "tree_files": 424,
   "tree_entries": [
     {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "97dee78ee14af352cf1969467e5945ea52f0e65f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "8eb09c5e25329432b495d985c9e34883ce571ac9"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "f96968c31335acb1800807981137259334f5a500"
+    },
+    {
       "path": "AGENTS.md",
       "sha": "6ed7b5f908a358429139c726790c22aa27b70e09"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "96522ca2ce4c1b65da237830a8ea3460557b4472"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "3154fed6a7cde0f2b87992715fa351413af452b5"
+    },
+    {
+      "path": "Dockerfile",
+      "sha": "ffacba0855cb9875639704639a9a973516dde2a4"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "253d8e06a78491099f4547ed67ee175578bdda19"
+    },
+    {
+      "path": "META.json",
+      "sha": "3f20daa36a33334c7ae2117bb70a4b85c2ce3511"
+    },
+    {
+      "path": "Makefile",
+      "sha": "32d30e9f8bf97d67d1ce1e6c11e35575999ebec7"
+    },
+    {
+      "path": "NOTICE",
+      "sha": "f21ec57e7b38f57fdf46138ae182a72eac8f2fad"
     },
     {
       "path": "README.md",
@@ -17,20 +57,1312 @@
       "sha": "c62805af4ed09a7f7bed40157b5b732689b8d2e7"
     },
     {
+      "path": "SECURITY.md",
+      "sha": "a4c26d031502b02bc742bd752f99e0ddd8940d16"
+    },
+    {
       "path": "docker-compose.yml",
       "sha": "8609f3d2b8e9021ec01dcbf83c2c6c32f119388c"
+    },
+    {
+      "path": "docker/init/01-create-extensions-and-schedule.sql",
+      "sha": "2b3c038871d708c612dd63528629495bd50eaf72"
+    },
+    {
+      "path": "docs/_meta.js",
+      "sha": "aad1447787583516ab8b1741e7374cdb1b64be52"
+    },
+    {
+      "path": "docs/contributor_guide/_meta.js",
+      "sha": "cd40340ebda9b3a49ebc67b3387f89927027d34f"
+    },
+    {
+      "path": "docs/cspell.json",
+      "sha": "008b83f4ec146a32a8a7e115f95235fb5c7dc7cc"
+    },
+    {
+      "path": "docs/package-lock.json",
+      "sha": "2c74db33f3d86bf6a5087cd3b4df70ba390a9c8f"
     },
     {
       "path": "docs/package.json",
       "sha": "01a064f6ee734e89dcd66d2c44d9a465b978f255"
     },
     {
+      "path": "docs/scripts/check-mdx.mjs",
+      "sha": "9ebdd4d48b4ce3121ae4d0332be24d1c2cfb2039"
+    },
+    {
+      "path": "docs/scripts/check-rendered-mdx.mjs",
+      "sha": "c25124089a68e9c23af7187988bbf5e3c7b3f51a"
+    },
+    {
+      "path": "docs/user_guide/_meta.js",
+      "sha": "9cb410256f552be1b699ded0bc1ef8b93e1fe86b"
+    },
+    {
+      "path": "graph/.cargo/config.toml",
+      "sha": "13c456b5dd31f198c6f4597c003d52eed16c98ab"
+    },
+    {
       "path": "graph/Cargo.toml",
       "sha": "f6e2f8b80b61f31a0f89741a8118a84046d8b984"
     },
     {
+      "path": "graph/benches/README.md",
+      "sha": "fe6f1748df603b9b8ca51e84969e0fdbcf89e20f"
+    },
+    {
+      "path": "graph/benches/bfs_bench.rs",
+      "sha": "d207edd4dcfb51ba2d0aa8163eff9ee6488d74bb"
+    },
+    {
+      "path": "graph/benches/graph_gen.rs",
+      "sha": "4fa55a13fe7ada8a8096aae931ea9910ffc7afa7"
+    },
+    {
+      "path": "graph/deny.toml",
+      "sha": "1fc1d2ddf106cf61d1f0f2c6b0d85cbad2a71947"
+    },
+    {
+      "path": "graph/fuzz/Cargo.toml",
+      "sha": "f308e54bc9415c7eaed14c74bb41d21242f9af5e"
+    },
+    {
+      "path": "graph/fuzz/build.sh",
+      "sha": "3ec159a8020df40ede02dd8cd6d64caac48ecb22"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/cypher_parser.rs",
+      "sha": "1e0b5fff629cd9896dbe3559f686927d4a48dcb6"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/gql_parser.rs",
+      "sha": "2bacc09e0ac9fb5f9257b2efebc91570a8d0c2f3"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_graph_file.rs",
+      "sha": "b38b689fbd551129e2cf64db31bc036f153d74d0"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_projection_manifest.rs",
+      "sha": "d88ee7846cc28c5fc4be0015219b1eabd004f3d9"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_projection_segment.rs",
+      "sha": "fedf75d1db049d55d26b8e0bdbb42f1f32f02ae1"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/node_ref_string.rs",
+      "sha": "b0c11faebb079761db71d0784704e132d11f0d35"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/structured_filter.rs",
+      "sha": "b17123355c924f5f5f8b27e754dd297609c0a7ec"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/sync_properties.rs",
+      "sha": "2c39de05ff93a36d1d4a54772bca2c269b1da7cd"
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/traverse_options.rs",
+      "sha": "f8b96f52bd6986e0f3293c8b411d5fc24e370199"
+    },
+    {
+      "path": "graph/fuzz/postgres_stubs.rs",
+      "sha": "cd10b4a6c51d05999d7babd34f7334645f76a9ed"
+    },
+    {
+      "path": "graph/fuzz/run_projection_seed_corpora.sh",
+      "sha": "1cf15ece8fb98189dca02e0ea0b1b3605c067637"
+    },
+    {
+      "path": "graph/proptest-regressions/lib.txt",
+      "sha": "78fee00deffe2f9d4ca852336fa4da63016ba128"
+    },
+    {
+      "path": "graph/proptest-regressions/projection/layered.txt",
+      "sha": "80ba705edcbbe78356166752ead354a650bd36f0"
+    },
+    {
+      "path": "graph/rust-toolchain.toml",
+      "sha": "4f0430eac96d545bcfaa0df23ce475faf4aee96a"
+    },
+    {
+      "path": "graph/sql/bootstrap.sql",
+      "sha": "1cf980a0ea88d688b54571ed5fefc22bd28253bf"
+    },
+    {
+      "path": "graph/src/acl.rs",
+      "sha": "ec479843f96f863bd31cf5068fe1a56b0ec009d7"
+    },
+    {
+      "path": "graph/src/api_types.rs",
+      "sha": "a63f9fbde9fb26d04d604701f799fc0f9ece13f3"
+    },
+    {
+      "path": "graph/src/bfs.rs",
+      "sha": "ff64defffe0716d9fe12b1ca98daa090bedb40f6"
+    },
+    {
+      "path": "graph/src/build_runs.rs",
+      "sha": "ded747977d83e86d2764652749f6c41710bffdea"
+    },
+    {
+      "path": "graph/src/build_snapshot.rs",
+      "sha": "e0170909a274dd6825c01727fa410b4275486a1a"
+    },
+    {
+      "path": "graph/src/build_spool.rs",
+      "sha": "3898184cdceab7f550d8f2f78939017f22fe5c86"
+    },
+    {
+      "path": "graph/src/builder.rs",
+      "sha": "24f4d73808686ed038a4c61237b5015b691f2956"
+    },
+    {
+      "path": "graph/src/catalog.rs",
+      "sha": "97e8cf697e6a9c21de02eceee8b77ed8e1cc2dc7"
+    },
+    {
+      "path": "graph/src/catalog/graphs.rs",
+      "sha": "346807e94e1c7522b75e8884f313f1c6d20c5b2f"
+    },
+    {
+      "path": "graph/src/catalog/read.rs",
+      "sha": "97043cb8bed6cbe5de3b793d613178d3d2094fae"
+    },
+    {
+      "path": "graph/src/catalog/validate.rs",
+      "sha": "fae491c282c3cc5bc37101529223277732206ff8"
+    },
+    {
+      "path": "graph/src/catalog/write.rs",
+      "sha": "d31c06cc680e94339c2e07c9e22ab92d87b2a2af"
+    },
+    {
+      "path": "graph/src/config.rs",
+      "sha": "f805bf6cd1373bd467299f1e20eac5e00840752b"
+    },
+    {
+      "path": "graph/src/connected_components.rs",
+      "sha": "63128342420a9376d304340633770e4fb6b34c29"
+    },
+    {
+      "path": "graph/src/cypher/ast.rs",
+      "sha": "5e0d49d8e14c0be9837f9db70abf2176bbf42a55"
+    },
+    {
+      "path": "graph/src/cypher/lexer.rs",
+      "sha": "2310c817f632cde58fb4b87f54ec598614290ee5"
+    },
+    {
+      "path": "graph/src/cypher/lower.rs",
+      "sha": "c55722cdf30dba8b7e792ca6c01d25a7a20f3118"
+    },
+    {
+      "path": "graph/src/cypher/mod.rs",
+      "sha": "6cffc8b4ae4a7c685e9d997a4f9cdcc07c798409"
+    },
+    {
+      "path": "graph/src/cypher/parser.rs",
+      "sha": "5ae8d071c947a0f0a53c420b331f4a6b54a9a240"
+    },
+    {
+      "path": "graph/src/cypher/semantics.rs",
+      "sha": "0e7cb81d2fb89200f7e370b35ec38b369af4bc43"
+    },
+    {
+      "path": "graph/src/discover.rs",
+      "sha": "91e83d4b625a747c2a9196e7dbed0c8691ff54d9"
+    },
+    {
+      "path": "graph/src/edge_store.rs",
+      "sha": "4e36e182766169cc511004d9fbdf08997108cb77"
+    },
+    {
+      "path": "graph/src/engine.rs",
+      "sha": "356c6aaccf4d54062c52b55405de456f71fe404d"
+    },
+    {
+      "path": "graph/src/filter_index.rs",
+      "sha": "23d9e7dcd5e1a784889941b7baee1cf75da0537c"
+    },
+    {
+      "path": "graph/src/gql/ast.rs",
+      "sha": "8d49a9b6b20151bb278929c8704606b97e04a0ff"
+    },
+    {
+      "path": "graph/src/gql/errors.rs",
+      "sha": "ed493447ac4d7f03490b38511d8a09e97f78e94e"
+    },
+    {
+      "path": "graph/src/gql/lexer.rs",
+      "sha": "69ae9be6ede88a57f6032117932caee42c8a628d"
+    },
+    {
+      "path": "graph/src/gql/mod.rs",
+      "sha": "106830a3c11579794e87cb96d5f13a0be4f441c3"
+    },
+    {
+      "path": "graph/src/gql/parser.rs",
+      "sha": "ebad7b9d3bce803939942a12be96049d55cc15e4"
+    },
+    {
+      "path": "graph/src/graph_policy.rs",
+      "sha": "e7bea36a72dc7c26d28b8559585d5606cafb0d7b"
+    },
+    {
+      "path": "graph/src/lib.rs",
+      "sha": "706bbc4de013d0a000f586b5464fbef90cb666e9"
+    },
+    {
+      "path": "graph/src/mapped_bytes.rs",
+      "sha": "9011023d7c0b562c0d2092eae32988426fc9c3c6"
+    },
+    {
+      "path": "graph/src/node_store.rs",
+      "sha": "002922b69e1e5322384f6dc8e0f275018f261919"
+    },
+    {
+      "path": "graph/src/path_finder.rs",
+      "sha": "2296f19169a8c4f4a49609a7c347367329a0ddc8"
+    },
+    {
+      "path": "graph/src/persisted_build.rs",
+      "sha": "56a31f3679aa53f89e8944acd13a198d3e9c7a8f"
+    },
+    {
+      "path": "graph/src/persisted_build_pipeline.rs",
+      "sha": "570e7a98f3b40d3fac714213b04fb2aba1fbce48"
+    },
+    {
+      "path": "graph/src/persisted_build_scanner.rs",
+      "sha": "5b7283a12cfa604d9e2911c46c70758a166cd8b2"
+    },
+    {
+      "path": "graph/src/persisted_edge_scanner.rs",
+      "sha": "71442b63d875ebcbd5f9f5c08eb686530085e0ea"
+    },
+    {
+      "path": "graph/src/persistence.rs",
+      "sha": "dd714b9c753c7081eb33b025b9c3b2ea04177b3a"
+    },
+    {
+      "path": "graph/src/pg_test.rs",
+      "sha": "d79235ec067f44bb67d66aa2264ee976fde4220c"
+    },
+    {
+      "path": "graph/src/pg_tests/README.md",
+      "sha": "352838b1b389ee53e118b5f62331ee6cd581ea0e"
+    },
+    {
+      "path": "graph/src/pg_tests/common.rs",
+      "sha": "ab318af4714a06648cbe92948b60c24d2edc4e39"
+    },
+    {
+      "path": "graph/src/pg_tests/components_jobs.rs",
+      "sha": "c34875a6aadea6280aca99dc358f686570be13b5"
+    },
+    {
+      "path": "graph/src/pg_tests/cypher.rs",
+      "sha": "771bea37964c3e8abd62497b7d57732f449ac100"
+    },
+    {
+      "path": "graph/src/pg_tests/discovery.rs",
+      "sha": "43200d8866cc5da3f1bdeedbebfd5d356aae6492"
+    },
+    {
+      "path": "graph/src/pg_tests/filters.rs",
+      "sha": "22d671f3f6e712d9437e7551aae1ef7c233c4eb4"
+    },
+    {
+      "path": "graph/src/pg_tests/gql.rs",
+      "sha": "e3141183c420082873ac0e2ae3312fe2e46984e3"
+    },
+    {
+      "path": "graph/src/pg_tests/maintenance_admin.rs",
+      "sha": "42e054df32061a456ee04a6b8ac8213a9b3761b8"
+    },
+    {
+      "path": "graph/src/pg_tests/named_graphs.rs",
+      "sha": "57258775378cf60e77204b2ccce219eea6ad2c01"
+    },
+    {
+      "path": "graph/src/pg_tests/registration_search.rs",
+      "sha": "99878c777a6f6206764255d44d4761fe523cc47c"
+    },
+    {
+      "path": "graph/src/pg_tests/sync_config_build.rs",
+      "sha": "3b0af804e8ae5630c7117cf1f8eef27adc9326ed"
+    },
+    {
+      "path": "graph/src/pg_tests/synthetic_release.rs",
+      "sha": "11cc17f1774665ce169888ac95768ec79b40b122"
+    },
+    {
+      "path": "graph/src/pg_tests/traversal_api.rs",
+      "sha": "b90da5bc85afd6239b0b40e4064467ac19ea33ec"
+    },
+    {
+      "path": "graph/src/pg_tests/traversal_paths.rs",
+      "sha": "5d9f0aebe29213902d6d9f30f2b6ec2a921891da"
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_relationship_api.rs",
+      "sha": "c83c3fb657fb482d8fd478a9d3e6ec7e204fd1b1"
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_search_api.rs",
+      "sha": "a550a946d74f07f786a39b6599e90b7a0f13607f"
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_validation.rs",
+      "sha": "9891f6d7225e6c950e4e4f0acbc140ebf9dab8b5"
+    },
+    {
+      "path": "graph/src/projection/chunk.rs",
+      "sha": "c8d517861c4c6ee026b807cb4715c70a8eec42a4"
+    },
+    {
+      "path": "graph/src/projection/compact.rs",
+      "sha": "cc7816a8a695636aa655d5da82d6b4f590468c73"
+    },
+    {
+      "path": "graph/src/projection/gc.rs",
+      "sha": "33d422a05d9b58a3b537f0b36672d51d9f59bade"
+    },
+    {
+      "path": "graph/src/projection/identity.rs",
+      "sha": "f3f42739294ebb5717e05f30a276341a936990e4"
+    },
+    {
+      "path": "graph/src/projection/ingest.rs",
+      "sha": "356e6751dc7e5a4cc3092633ca9a04df22998434"
+    },
+    {
+      "path": "graph/src/projection/layered.rs",
+      "sha": "136d1123cb2a0b7d6946ef0322735f7e338c6ad7"
+    },
+    {
+      "path": "graph/src/projection/manifest.rs",
+      "sha": "b0b119eab596cd511231aeb978b0e12ddfef2c73"
+    },
+    {
+      "path": "graph/src/projection/mod.rs",
+      "sha": "cf244455460a463b6c41a2f2697c027476527d50"
+    },
+    {
+      "path": "graph/src/projection/neighbors.rs",
+      "sha": "51be23befdfbacbd4405cfa6e9cf75b544f011c1"
+    },
+    {
+      "path": "graph/src/projection/normalize.rs",
+      "sha": "b9afeac36d42daf1627380a359c54cd305837271"
+    },
+    {
+      "path": "graph/src/projection/recovery.rs",
+      "sha": "81b1052520ea348d936ca7574217c85dcbdb464e"
+    },
+    {
+      "path": "graph/src/projection/segment.rs",
+      "sha": "31dfd3cfba6b3ecbf942d0ecff791a7e1405bf6a"
+    },
+    {
+      "path": "graph/src/projection/status.rs",
+      "sha": "bc3655fb13519c291bc109aa72eac8eba97e4e73"
+    },
+    {
+      "path": "graph/src/projection/test_contracts.rs",
+      "sha": "cda0891eab3ab79739e88deeb0f4ea9b96f549a0"
+    },
+    {
+      "path": "graph/src/projection/test_fixtures.rs",
+      "sha": "b2f55745b4c0259ce735d18264d98a2b9bc65a79"
+    },
+    {
+      "path": "graph/src/projection/tx_delta.rs",
+      "sha": "b0cbf1913ae80566aa9c1bb245543eceb8874a67"
+    },
+    {
+      "path": "graph/src/query/catalog_snapshot.rs",
+      "sha": "d08c2a75955f5f6325e4d5511227e6fb3dec2044"
+    },
+    {
+      "path": "graph/src/query/execute.rs",
+      "sha": "c94b5a0e0d183d6b4b8c2b8698ec8c14cd881966"
+    },
+    {
+      "path": "graph/src/query/explain.rs",
+      "sha": "6c29e0c0598f88958e87f6b0913b41ce4216a08f"
+    },
+    {
+      "path": "graph/src/query/logical_plan.rs",
+      "sha": "cfba9eacf64255a10072f14883ddce09a97eb1c7"
+    },
+    {
+      "path": "graph/src/query/lower.rs",
+      "sha": "3087aa4e07c540be75a8d4b6027c6320f2870842"
+    },
+    {
+      "path": "graph/src/query/mod.rs",
+      "sha": "262a7c180657d0002228543d56fee0c286f31ae9"
+    },
+    {
+      "path": "graph/src/query/physical_plan.rs",
+      "sha": "2b855d5230c7f85c2d5df6ba91c903f280c289a3"
+    },
+    {
+      "path": "graph/src/query/semantics.rs",
+      "sha": "3fe2d9e99c99c9a6a6b53cba68ae9f7b0c558b74"
+    },
+    {
+      "path": "graph/src/query/sqlpgq_adapter.rs",
+      "sha": "5f91805d7d918a538e3a1ae56a9dfdf35054c7dc"
+    },
+    {
+      "path": "graph/src/query/tests.rs",
+      "sha": "a58a26be3b0f0c39c67f499632d828f9f968b335"
+    },
+    {
+      "path": "graph/src/query/value.rs",
+      "sha": "890ac446a93a7c705ea69b4f257a042960936f6d"
+    },
+    {
+      "path": "graph/src/quote.rs",
+      "sha": "4b9243e1567d7b0a9816102fb4c093c982611003"
+    },
+    {
+      "path": "graph/src/relationship_identity_store.rs",
+      "sha": "386d831d2906184644aa0535ddcb6dd11ff359cf"
+    },
+    {
+      "path": "graph/src/resolution_index.rs",
+      "sha": "dfc7bffeb39c3719ee765a1a2633a88e0bd32678"
+    },
+    {
+      "path": "graph/src/resource.rs",
+      "sha": "9517b7e8ed62f3deb3d487841205233bf7c7a48f"
+    },
+    {
+      "path": "graph/src/runtime_state.rs",
+      "sha": "997cb63f213564399852f126f4ac93ea8306a58e"
+    },
+    {
+      "path": "graph/src/safety.rs",
+      "sha": "df3aa398f20cce5eaeb05f34f468893ee9b8d828"
+    },
+    {
+      "path": "graph/src/sql_aggregation.rs",
+      "sha": "b6e4fdf91297904ccc26ddb6466bdd4ba5d9ff2f"
+    },
+    {
+      "path": "graph/src/sql_build.rs",
+      "sha": "9b0ef0ee10ad1ea346e73b732a4655b2765c3734"
+    },
+    {
+      "path": "graph/src/sql_facade/admin.rs",
+      "sha": "6ee661f4a2b242448164ec3f596cf4c36054c1e2"
+    },
+    {
+      "path": "graph/src/sql_facade/components.rs",
+      "sha": "73980064a097d78b58f17b2874ed8bf22f5a0ceb"
+    },
+    {
+      "path": "graph/src/sql_facade/cypher.rs",
+      "sha": "ae43839bc6c3d175a5f995f9865c5f192e954d86"
+    },
+    {
+      "path": "graph/src/sql_facade/discovery.rs",
+      "sha": "b34a7622fedccb11c4333f5632d008ba91972391"
+    },
+    {
+      "path": "graph/src/sql_facade/gql.rs",
+      "sha": "623079e44cfa4d7a44d2726de749525807a52d66"
+    },
+    {
+      "path": "graph/src/sql_facade/mod.rs",
+      "sha": "03eb97becdee7c86cbd75de6c78815d3aa34d15b"
+    },
+    {
+      "path": "graph/src/sql_facade/pgq.rs",
+      "sha": "7880de143e534e4be54aadbf943303b80b8c7389"
+    },
+    {
+      "path": "graph/src/sql_facade/runtime.rs",
+      "sha": "1fad8c73362e390755adac863d45cbe85ddb09fa"
+    },
+    {
+      "path": "graph/src/sql_facade/search.rs",
+      "sha": "1e6b9e541d8bb206163332a1fd34ef5102f5752d"
+    },
+    {
+      "path": "graph/src/sql_facade/traversal.rs",
+      "sha": "5559daf9e82a0431e5e0daa786d28a050bf4aa06"
+    },
+    {
+      "path": "graph/src/sql_facade/workflow.rs",
+      "sha": "b3d0cbc79910b2ffc33e7ef2f19761ac425a8a5a"
+    },
+    {
+      "path": "graph/src/sql_filters.rs",
+      "sha": "fb02c88abb4cb0b5fedb50aecb0bdd6253477e99"
+    },
+    {
+      "path": "graph/src/sql_hydration.rs",
+      "sha": "4905ab3dfcb81d81938d46fe7a51a365652c6135"
+    },
+    {
+      "path": "graph/src/sql_jobs.rs",
+      "sha": "90f5e91de2de6d422d88b2d0abb44adcbcb07698"
+    },
+    {
+      "path": "graph/src/sql_search.rs",
+      "sha": "321b8ed5f284302c74a733dc7da3a58dd066ec82"
+    },
+    {
+      "path": "graph/src/sql_sync.rs",
+      "sha": "8becdfcd1ac3f3f212d166bc454d8157de417ef6"
+    },
+    {
+      "path": "graph/src/sql_traversal.rs",
+      "sha": "bd66d0077db22a66bbbbc9d095f966e61392e3aa"
+    },
+    {
+      "path": "graph/src/sync.rs",
+      "sha": "67d2a7f14e06bc4c459b5fb1ef5a9f4b4f1ff16d"
+    },
+    {
+      "path": "graph/src/tenant_store.rs",
+      "sha": "2430ecf0b841ecee3d235c86f822a4fcc6f707b9"
+    },
+    {
+      "path": "graph/src/types.rs",
+      "sha": "f6dc0521428a211b1bb75c14cd6744e17196782d"
+    },
+    {
+      "path": "graph/tests/README.md",
+      "sha": "d115e4a1798d7ee9853a2ec090174e686df6a177"
+    },
+    {
+      "path": "graph/tests/heavy/Dockerfile.alpha-transition",
+      "sha": "60af11e2c47841560be1b9055416cc8a4863cabe"
+    },
+    {
+      "path": "graph/tests/heavy/Dockerfile.pg-matrix",
+      "sha": "e8b889fa27f9c1744ac1e8bd805ee174c941e7fe"
+    },
+    {
+      "path": "graph/tests/heavy/README.md",
+      "sha": "4beccf1cd4b714ccaeed030e46284337dfa9ac8b"
+    },
+    {
+      "path": "graph/tests/heavy/alpha_to_v1_fixture.sh",
+      "sha": "eecc9009c30b654a625f7e0a51742ef98e3cf657"
+    },
+    {
+      "path": "graph/tests/heavy/background_job_lock_regression.sh",
+      "sha": "ff46dfee845d13aa4ecaed030e0e43b68813543f"
+    },
+    {
+      "path": "graph/tests/heavy/backup_restore_validate.sh",
+      "sha": "e461107f26acd4e4f240c0b23ff28b51bb4f4224"
+    },
+    {
+      "path": "graph/tests/heavy/build_lock_regression.sh",
+      "sha": "08b3090b64ea18d0336e0bead569be78d763c3ef"
+    },
+    {
+      "path": "graph/tests/heavy/build_memory_stress.sh",
+      "sha": "3cf32bc7eda8fbdfbdd2063d84de7d95e0ef71f5"
+    },
+    {
+      "path": "graph/tests/heavy/concurrency_stress.sh",
+      "sha": "315da7073eb3a1f94d68e2d55b1d870596768c3f"
+    },
+    {
+      "path": "graph/tests/heavy/crash_recovery.sh",
+      "sha": "0ea9b0650b18f7d659cbdde1baad3a80611c5397"
+    },
+    {
+      "path": "graph/tests/heavy/cross_backend_durable_projection.sh",
+      "sha": "7512303f9f5889d86cda2a0277b1d58557b4fcd7"
+    },
+    {
+      "path": "graph/tests/heavy/docker_smoke.sh",
+      "sha": "f12f6d54bcd8f53b4dcac34f75b4ab24e42eda05"
+    },
+    {
+      "path": "graph/tests/heavy/fresh_install_smoke.sh",
+      "sha": "395e8f63be72119ba52f6e3d210694eef2a595ed"
+    },
+    {
+      "path": "graph/tests/heavy/function_metadata_audit.sh",
+      "sha": "d640e70d059b4c2882ef2663823772d0612124dc"
+    },
+    {
+      "path": "graph/tests/heavy/gql_create_tx_lifecycle.sh",
+      "sha": "7435f09ad83107706bb028891150d175abfe9538"
+    },
+    {
+      "path": "graph/tests/heavy/gql_delete_tx_lifecycle.sh",
+      "sha": "f5175e9a218e88eb5c6a776c9e843f251fcb72a9"
+    },
+    {
+      "path": "graph/tests/heavy/gql_isolation_fixture.sql",
+      "sha": "bd78a4030d0592847e1feed35f4d5ea93a823464"
+    },
+    {
+      "path": "graph/tests/heavy/gql_isolation_matrix.sh",
+      "sha": "84b056d2ca9c02e5e64aae736fc03a03713731bf"
+    },
+    {
+      "path": "graph/tests/heavy/gql_merge_race.sh",
+      "sha": "e91e947ea29bd80b17edcd1675907da1bf5012a2"
+    },
+    {
+      "path": "graph/tests/heavy/gql_relationship_race.sh",
+      "sha": "ac3f15d88002d88bc7c589da0d423e3c4860d8b4"
+    },
+    {
+      "path": "graph/tests/heavy/gql_set_tx_lifecycle.sh",
+      "sha": "4b6166cdf89df1fa2837362164dcf01ecb920bf0"
+    },
+    {
+      "path": "graph/tests/heavy/gql_write_recheck_race.sh",
+      "sha": "0c120abd24f8152e152a5f1e427cf99825f440f3"
+    },
+    {
+      "path": "graph/tests/heavy/measure_build_rss.sh",
+      "sha": "6ac1371ce9ece81193dc20bc17bd88f20a354fb8"
+    },
+    {
+      "path": "graph/tests/heavy/measure_mmap_pss.sh",
+      "sha": "6e1a8b8a8f53b15671ac254a6c33f13c8eb0222e"
+    },
+    {
+      "path": "graph/tests/heavy/measure_runtime_resources.sh",
+      "sha": "78395caea43ef9352045416269de82f066d17b16"
+    },
+    {
+      "path": "graph/tests/heavy/named_graphs_heavy_gate.sh",
+      "sha": "a4eea26bf87f7eada6a7dc56b2fb7d29b85e114e"
+    },
+    {
+      "path": "graph/tests/heavy/package_install_matrix.sh",
+      "sha": "e0bd07d961d86d89369f68f2aaa2e4a2f2fdd176"
+    },
+    {
+      "path": "graph/tests/heavy/package_validate.sh",
+      "sha": "d7baca70ceabcd54e13293d241e5ba583233ada2"
+    },
+    {
+      "path": "graph/tests/heavy/pg_upgrade_validate.sh",
+      "sha": "d1a306e36e2217c4512f1a0057330dee0d78453d"
+    },
+    {
+      "path": "graph/tests/heavy/pgbench_sync.sql",
+      "sha": "beea5168f02514bc911c413c725fe4d13c53bb38"
+    },
+    {
+      "path": "graph/tests/heavy/playground_release_gate.py",
+      "sha": "9479cc15c0fbc6b1d484f7fbf60b257cb1f5cbf0"
+    },
+    {
+      "path": "graph/tests/heavy/playground_release_gate.sh",
+      "sha": "a085f4673d92b268aa6a33501bac7b421278df27"
+    },
+    {
+      "path": "graph/tests/heavy/postgres_process_sanitizer.sql",
+      "sha": "e689c9eec0adb0aff7d4a5c152c1b51bf49060ab"
+    },
+    {
+      "path": "graph/tests/heavy/projection_recovery_gate.sh",
+      "sha": "ad7fda75e6f9fe9f9b8070cb2d970de54e648952"
+    },
+    {
+      "path": "graph/tests/heavy/read_latency_under_sync.sh",
+      "sha": "d04dfc59e2d2b6d585a40789cec4fcb54c3d866f"
+    },
+    {
+      "path": "graph/tests/heavy/relation_identity_concurrent_ddl.sh",
+      "sha": "b6288e3e499c0aa954afafa386b707e04202c6b5"
+    },
+    {
+      "path": "graph/tests/heavy/run_crash_matrix.sh",
+      "sha": "9bfaea1acda12490ee2a426ca13c275bc499e75f"
+    },
+    {
+      "path": "graph/tests/heavy/run_durable_projection_matrix.sh",
+      "sha": "69d5789c5b367412033d461d5e47476428359bf3"
+    },
+    {
+      "path": "graph/tests/heavy/run_gql_write_matrix.sh",
+      "sha": "11abdc241a5a8e4342d4401d2af6a0be740aed36"
+    },
+    {
+      "path": "graph/tests/heavy/run_memory_sanitizers.sh",
+      "sha": "178c8ce50083f2ee8f0b077059c0b1d6742d9e95"
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_matrix.sh",
+      "sha": "eb989138a5250ed355c3ebdb0492d713bbce14c2"
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_matrix_docker.sh",
+      "sha": "969cab39d74d04f0a87d90668d90418cac497c7a"
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_upgrade_matrix.sh",
+      "sha": "2950f831c6e5e7b65dcc97c3671a0a798f6b43f4"
+    },
+    {
+      "path": "graph/tests/heavy/run_pgbench_sync.sh",
+      "sha": "fe3a274e36eb9bc06352703f78027b13e3e8bb42"
+    },
+    {
+      "path": "graph/tests/heavy/run_postgres_process_sanitizer.sh",
+      "sha": "69acd48dffacbb2c226bf3b29dca8eaa873b1849"
+    },
+    {
+      "path": "graph/tests/heavy/run_release_gate.sh",
+      "sha": "43d17aa3b86cfd33230f32b0a42eae407fb642b0"
+    },
+    {
+      "path": "graph/tests/heavy/run_sqlstate_acl_boundary.sh",
+      "sha": "b3fae6aef7a11172d7a4bfe53191043cf544702a"
+    },
+    {
+      "path": "graph/tests/heavy/run_synthetic_release_evidence.sh",
+      "sha": "80a757643645f1c895a50ef05fd09865cde4e640"
+    },
+    {
+      "path": "graph/tests/heavy/source_archive_smoke.sh",
+      "sha": "26a75de83e17d773117a9ff6e17e179a2c5a2574"
+    },
+    {
+      "path": "graph/tests/heavy/sqlstate_acl_boundary.sql",
+      "sha": "6492304d093bd0e6f45fb99196a40c4745f8fcde"
+    },
+    {
+      "path": "graph/tests/heavy/synthetic_release_smoke.sh",
+      "sha": "2199ef748343ffef4e78c5437b1cfbc8fd43c8ca"
+    },
+    {
+      "path": "graph/tests/heavy/tx_delta_crash_recovery.sh",
+      "sha": "8b963c017877ae3a4300592d70bed0c2b7327b1e"
+    },
+    {
+      "path": "graph/tests/heavy/tx_delta_lifecycle.sh",
+      "sha": "f2dbce29db7c8aa47604deb647e646448847ac28"
+    },
+    {
+      "path": "graph/tests/pg_regress/README.md",
+      "sha": "5a54953e2bbc900dda65fe61b96ef95eabc4043a"
+    },
+    {
+      "path": "graph/tests/pg_regress/sql/setup.sql",
+      "sha": "59d7e0603d20ab0caf72e2c0c8b691f287a60d57"
+    },
+    {
+      "path": "release/cast-allowlist.json",
+      "sha": "c640931593ef1be18ecd47e1d1436116a1314024"
+    },
+    {
+      "path": "release/contract-changes.json",
+      "sha": "e2a121d25201830cbce65ac232206c485d5e0426"
+    },
+    {
+      "path": "release/examples.json",
+      "sha": "d36b7f2b583b0103e28a2b168f7c5c17c9387194"
+    },
+    {
+      "path": "release/fixtures/README.md",
+      "sha": "998e31549b6e3af60f6115e8a2d291dedfd5e3ca"
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/metadata.json",
+      "sha": "ff07e0c901250c2a580054717e671a85c7ec47fe"
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/register.sql",
+      "sha": "6e89d09780e3b3e8a039cefe0a381b8bb3fc88cf"
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/source.sql",
+      "sha": "6b168c63eaeea6b9a453039e57e5aa7eda518f5a"
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/verify.sql",
+      "sha": "f59b9acb6a4e0e399aa0fd382a2118d899f65fef"
+    },
+    {
+      "path": "release/gates.json",
+      "sha": "d037bc534ec199a32f2d1f103e0425afbc01d8c7"
+    },
+    {
+      "path": "release/maturity.json",
+      "sha": "92a2c09c8688206b21fad776e7adaa1e331f5626"
+    },
+    {
+      "path": "release/scripts.json",
+      "sha": "84ac917eae745ef3d0c9c5c8f41b9d4c33fd5c4d"
+    },
+    {
+      "path": "release/unsafe-allowlist.json",
+      "sha": "c6b0ba167738b2a52189da011e60178e1fb521e6"
+    },
+    {
+      "path": "release/v1-contract.json",
+      "sha": "0008459d609bca336a9b4d0028869273d148be96"
+    },
+    {
+      "path": "release/v1-gql-profile.json",
+      "sha": "9ac24238d6e30dfed85189ea05e0343964cf0ab5"
+    },
+    {
+      "path": "release/v1-gql-unsupported.json",
+      "sha": "bd08c601afcec56596189da05c3bb1bd31cd8019"
+    },
+    {
+      "path": "release/v1-schema.sql",
+      "sha": "3048ff3fafc0fc5d0127e98ce8f133bdf69ac191"
+    },
+    {
+      "path": "release/v1-sql-profile.json",
+      "sha": "d2cfa938f039a0fef66162372288b5735754a640"
+    },
+    {
+      "path": "sandbox/benchmark/requirements.txt",
+      "sha": "bd4d91e80aea8640bf93c9976916232c8a052cbc"
+    },
+    {
+      "path": "sandbox/cleanup.sh",
+      "sha": "2f454cc52da28b4d6b3bc36949974529cfd64abc"
+    },
+    {
+      "path": "sandbox/common/docker.sh",
+      "sha": "ce85528537c6b0a13d09b23063d9b60b8b1b1d31"
+    },
+    {
+      "path": "sandbox/common/run_benchmarks.py",
+      "sha": "4121b2ab6d1ce7c961910300773da6b09e080bce"
+    },
+    {
+      "path": "sandbox/playground/app.py",
+      "sha": "7e640d37f5c134ab92e6f3c6dc3b460d084477e9"
+    },
+    {
+      "path": "sandbox/playground/bootstrap.py",
+      "sha": "b1b586e6142d4e39d8a1ac9fc85245c1f51a69e0"
+    },
+    {
+      "path": "sandbox/playground/catalog.py",
+      "sha": "f2be24802c2664dabee502eb43820af01fa13f42"
+    },
+    {
+      "path": "sandbox/playground/client.py",
+      "sha": "ff5742fd8aa661e31b92cdf106f4a736fa9afa49"
+    },
+    {
+      "path": "sandbox/playground/config.py",
+      "sha": "d2c3b390858814bb9199546d4c1b8178af30ef9f"
+    },
+    {
+      "path": "sandbox/playground/execution.py",
+      "sha": "a39d8980cf2919ec66b1929c652fd75da1e828a3"
+    },
+    {
+      "path": "sandbox/playground/queries.py",
+      "sha": "1a657265551fc338e74d977d16d71d88ff58fd70"
+    },
+    {
+      "path": "sandbox/playground/requirements.txt",
+      "sha": "d7814569d74f813a034455b2211cb6f2e4575442"
+    },
+    {
+      "path": "sandbox/playground/results.py",
+      "sha": "1f5f3d90123f375d08e71e04d4d30619eb0439fa"
+    },
+    {
+      "path": "sandbox/playground/test_catalog.py",
+      "sha": "64641dbfcdb625a628adbfe73279f48a779562e6"
+    },
+    {
+      "path": "sandbox/playground/test_cleanup.py",
+      "sha": "74fe24668fc94471a8bfd18bf9fa148f48944691"
+    },
+    {
       "path": "sandbox/readme.md",
       "sha": "60acf0a0b99b70e8abf9098c8e12aca9b9a10475"
+    },
+    {
+      "path": "sandbox/run_benchmarks.sh",
+      "sha": "265bcf541dc7e77480428c6a83240c7adfc63dc7"
+    },
+    {
+      "path": "sandbox/start_playground.sh",
+      "sha": "65e721498cd7f94749ea49df0e4145efd3254bb1"
+    },
+    {
+      "path": "scripts/build_docker_pggraph_package.sh",
+      "sha": "1ca1fd9fa4c909269bc2ec26a04dad6118441be8"
+    },
+    {
+      "path": "scripts/build_pgxn_dist.sh",
+      "sha": "886911dfbb9c93c0ca8292d2c935572a0d442532"
+    },
+    {
+      "path": "scripts/check_cast_allowlist.py",
+      "sha": "1c62ef4525702911924bbbb1231e5b5a2c0dcb61"
+    },
+    {
+      "path": "scripts/check_dependency_updates.py",
+      "sha": "cec75a70ebd3d1e0771d88f2e59bb288d860d2d8"
+    },
+    {
+      "path": "scripts/check_doc_references.py",
+      "sha": "67ab03288ff55ba5c458281a131cde9c3f17d20e"
+    },
+    {
+      "path": "scripts/check_docs_drift.sh",
+      "sha": "66c0120eb75fceaf18929698d0392c5649a53ece"
+    },
+    {
+      "path": "scripts/check_external_links.py",
+      "sha": "daacd796423eebeb7cc20e5c527fb12fdb84d75f"
+    },
+    {
+      "path": "scripts/check_fixture_integrity.py",
+      "sha": "7eb7dcbde4d1f93b5c0e3d71f9293cc8554249de"
+    },
+    {
+      "path": "scripts/check_public_docs.py",
+      "sha": "6aaa26a8264bcf8c2a969da2cd4d345d4f689b3c"
+    },
+    {
+      "path": "scripts/check_release_contract.py",
+      "sha": "7b8baf88f762f135988d0d62c8cd06d311744017"
+    },
+    {
+      "path": "scripts/check_rust_doc_map_drift.py",
+      "sha": "4da6a04134ea5bf069dda1bffc34d804e1e0a8f6"
+    },
+    {
+      "path": "scripts/check_script_inventory.py",
+      "sha": "542ecbc8f8d6d75ed00e0b19fd69878c5af3ae95"
+    },
+    {
+      "path": "scripts/check_secrets.sh",
+      "sha": "feeb2398b7205bf25090cfb3cfbfcacae8cce335"
+    },
+    {
+      "path": "scripts/check_sql_api_drift.py",
+      "sha": "c8119a23215b5b8ebe01cdfa2b3aefc8cbaf0dd9"
+    },
+    {
+      "path": "scripts/check_unsafe_allowlist.py",
+      "sha": "42b922877212db6580998ff45495e84eb9ba542d"
+    },
+    {
+      "path": "scripts/clean_generated_artifacts.sh",
+      "sha": "b8fd6c969a5633b1c5fe96c801d24fb9d7a30dde"
+    },
+    {
+      "path": "scripts/copy_pggraph_package_to_docker_postgres.sh",
+      "sha": "7fe5da52fffec05476dc90f640dde09603f3e505"
+    },
+    {
+      "path": "scripts/inspect_pggraph_artifact.py",
+      "sha": "655df7f47cc2421227533f96ba0d86ee4aee6eed"
+    },
+    {
+      "path": "scripts/install_into_docker_postgres.sh",
+      "sha": "4b29013eb5c0b00b916e20246325da551f2c86fb"
+    },
+    {
+      "path": "scripts/lib/pggraph-common.sh",
+      "sha": "a9e5ebfcac5efe7f80136f463680a4a7834b137f"
+    },
+    {
+      "path": "scripts/prepare_release_bundle.py",
+      "sha": "f2bc288f6044562216d40cf176c5e4c37747f381"
+    },
+    {
+      "path": "scripts/quickstart.sh",
+      "sha": "3acbf09af4ca3511aca1a76d6165963c730dd172"
+    },
+    {
+      "path": "scripts/run_release.py",
+      "sha": "836be0347b5454099f853dfdb642a8136eecf300"
+    },
+    {
+      "path": "scripts/scripts.md",
+      "sha": "268bb22f746adafa9b47f8d07b35aba04cd632ca"
+    },
+    {
+      "path": "scripts/test_release_bundle.py",
+      "sha": "a0e21af9d60f398820133b4c43973a9961dd716e"
+    },
+    {
+      "path": "scripts/test_release_validation.py",
+      "sha": "e587893bb90c1a54338587ed44e5e7893dd9eb1d"
+    },
+    {
+      "path": "scripts/test_run_release.py",
+      "sha": "2d5c7983de77b788810933e007a649f1611365f1"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "sha": "f78473333b3752f7ad7138b0457bde1338b5cd79"
+    },
+    {
+      "path": "scripts/verify_release_bundle.py",
+      "sha": "65ae63f83b15cc210eb448416abd5fbfb77ff7fd"
+    },
+    {
+      "path": "scripts/verify_release_evidence.py",
+      "sha": "6f5b7b147e8b9a2f04b239e63d70f80c9c7a45fd"
+    },
+    {
+      "path": "scripts/with_disposable_postgres.sh",
+      "sha": "f25f01ad9d5efb7342adfb4efae69001a9e5e1eb"
+    },
+    {
+      "path": "secondary-todo-and-review/00-overview.md",
+      "sha": "dde61fe5d2cec708828e33bf2aae893cf268c92d"
+    },
+    {
+      "path": "secondary-todo-and-review/01-sync-architecture-review.md",
+      "sha": "de775cfb504c1e6b3815637ce593d39c6a41c4d0"
+    },
+    {
+      "path": "secondary-todo-and-review/02-dual-mode-design-proposal.md",
+      "sha": "86a23cc58b35e09942297d747db723ae0decaa92"
+    },
+    {
+      "path": "secondary-todo-and-review/03-implementation-review-findings.md",
+      "sha": "7847ae4a6ba71b39283c368d00366e556c3e9511"
+    },
+    {
+      "path": "secondary-todo-and-review/04-docs-and-todo-audit.md",
+      "sha": "c7f3616310a994916531b4e9a402817297809dd4"
+    },
+    {
+      "path": "secondary-todo-and-review/05-suggested-todos.md",
+      "sha": "b28df28c7c71adbb4621dc5c1bb06157b179f8bb"
+    },
+    {
+      "path": "secondary-todo-and-review/06-path-to-full-graph-engine.md",
+      "sha": "e3c0ab8ad9f80f448866f3a6e38d56bafccbcc5d"
+    },
+    {
+      "path": "secondary-todo-and-review/07-completed-plan-build-sequence.md",
+      "sha": "39a58999c4f40f1776b575c72ace60a6f9f25d57"
+    },
+    {
+      "path": "secondary-todo-and-review/08-plan-delta-for-graph-engine-strategy.md",
+      "sha": "1c116b0409f846ec283cae06e2c590158d4b9491"
+    },
+    {
+      "path": "secondary-todo-and-review/09-revised-build-sequence.md",
+      "sha": "b539353885a4dfb2187b2a42768ccda59a90374b"
+    },
+    {
+      "path": "secondary-todo-and-review/10-reconciliation-with-dev-1.0.md",
+      "sha": "0f754e5e64cf65da7489a27332389223513f518f"
+    },
+    {
+      "path": "todo/full-graph-engine/00-codebase-review.md",
+      "sha": "0f2be965e8cb3dbaf81ffb86155121fad0ae973f"
+    },
+    {
+      "path": "todo/full-graph-engine/01-memory-governance.md",
+      "sha": "0984fd6bf361953351c7aeb264bfaf67edace48c"
+    },
+    {
+      "path": "todo/full-graph-engine/02-gql-conformance.md",
+      "sha": "ef4b3bfaab68f148cfd66a1f57c066673c2dbbeb"
+    },
+    {
+      "path": "todo/full-graph-engine/03-planner-runtime.md",
+      "sha": "3579afd0f9d1555d2315dfb548fa24437e5908ac"
+    },
+    {
+      "path": "todo/full-graph-engine/04-projection-storage-sync.md",
+      "sha": "cf8518fb11b451a0d2f598aa0a112b3434accaf9"
+    },
+    {
+      "path": "todo/full-graph-engine/05-refactor-plan.md",
+      "sha": "6a6c8e7a3e8dc11a539965fb5f260f764037cbc4"
+    },
+    {
+      "path": "todo/full-graph-engine/06-quality-performance-operations.md",
+      "sha": "ce9be5dff714065b56f01388b6860a5a2876f556"
+    },
+    {
+      "path": "todo/full-graph-engine/07-build-order.md",
+      "sha": "7e532b44845b4ac6c7f46022e9683710fa235013"
+    },
+    {
+      "path": "todo/full-graph-engine/08-postgresql-19-property-graphs.md",
+      "sha": "60b6d651f1d133533d8fb0602180d873369e26d0"
+    },
+    {
+      "path": "todo/full-graph-engine/09-public-backlog-closure.md",
+      "sha": "2accb3ef32bdf634f141cd74ef46bee6a6d667cc"
+    },
+    {
+      "path": "todo/full-graph-engine/10-rust-type-safety-pgrx-boundaries.md",
+      "sha": "0dcd910abb32a632ac8af17eac419bd1cd2a5402"
+    },
+    {
+      "path": "todo/full-graph-engine/11-schema-flexible-dynamic-graphs.md",
+      "sha": "3a3de4ecc51f21e3086bf5e465bccef1d799181d"
+    },
+    {
+      "path": "todo/full-graph-engine/12-sync-log-retention-plan.md",
+      "sha": "044e20eceec19e6aad843bea755f767a8c375803"
+    },
+    {
+      "path": "todo/full-graph-engine/README.md",
+      "sha": "591f4bef4e7bf7beecfb955d0ca8c44fa58feca8"
+    },
+    {
+      "path": "todo/full-graph-engine/progress.md",
+      "sha": "e5a40f67d84cc1a15933751902fa5fde971518f6"
+    },
+    {
+      "path": "todo/measurements/2026-07-14-durable-projection-matrix.md",
+      "sha": "d81b81269e01d9857f4e60a198250c3d64b9e153"
+    },
+    {
+      "path": "todo/measurements/2026-07-14-pg14-18-matrix.md",
+      "sha": "af3f39a495ecf1ba8ea49acac6ace8fb7b4fcb43"
+    },
+    {
+      "path": "todo/measurements/2026-07-14-postgres-process-sanitizer.md",
+      "sha": "ebf455f38166098f3cda032691afb01cfaa8ad3d"
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2a-resource-policy.md",
+      "sha": "abe3c969ff7a012a5ae85f51f6bde00fbfd14658"
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2b-live-build-budget.md",
+      "sha": "647d104ccc6bb2e447cafeb2bf3805552e31024d"
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2c-runtime-resource-breakers.md",
+      "sha": "9ccaa3c469e0205135578a6ca5067e47664a088b"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r2d-generation-publication-baseline.md",
+      "sha": "4c2bd6871707f9d7035e582d11cb841d6d94b7b4"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3a-source-boundary.md",
+      "sha": "55b16cc9cbad78d7f8d8dbc349116e8854f65bf4"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3b-governed-runs.md",
+      "sha": "532296902fa3872f322ec1848ab8b722315a6a9e"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3c-artifact-v5.md",
+      "sha": "142523ff53049af921f48875d671bf5a65b5c464"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3c-artifact-v6.md",
+      "sha": "acd074491f36b7585371d6eb1d12c52871bea491"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3d-direct-persisted-build.md",
+      "sha": "4693445ebd4f4aad26b19667b59bc893da669e84"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r4-pr-evidence.json",
+      "sha": "be1aac9d8858f40ca8ccef768c024d49d00e95ef"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r4-release-risk-refactor.md",
+      "sha": "ed6df525146fb666e585c231a09a25eabae184c2"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r5-supported-profile.md",
+      "sha": "49ddadf1979e9f81f568fb63dd83da1289248ca1"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r6-documentation-packaging.md",
+      "sha": "360e25aa0d5de640c64414d585db0b537ef77534"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r6-pr-evidence.json",
+      "sha": "b9a6ea767fb56fd096ce865e31234abe9b4f8455"
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r7-release-ready.md",
+      "sha": "7cb317484a96355699d56fb1bff8022362e57b54"
+    },
+    {
+      "path": "todo/out-of-core-build-plan.md",
+      "sha": "73744f997c68edb9657026d0be18b1ed04e5f7c9"
+    },
+    {
+      "path": "todo/progress.md",
+      "sha": "5ac5c0fb6dfcc7998702d5122ccd032c0836e5de"
+    },
+    {
+      "path": "todo/v1-release/01-compatibility-and-lifecycle.md",
+      "sha": "e7516439404b03e88823f3722c8071b5d6e35c77"
+    },
+    {
+      "path": "todo/v1-release/02-production-readiness.md",
+      "sha": "d4611e09d86b60adb970aaf9d3a9edec646d722e"
+    },
+    {
+      "path": "todo/v1-release/03-documentation-and-api.md",
+      "sha": "2f791ab883093bf6cf43cf2a340525dcd5876ada"
+    },
+    {
+      "path": "todo/v1-release/04-playground-and-scripts.md",
+      "sha": "d04cd321e1d018dc76c4f7da3ab68eb5ac87e959"
+    },
+    {
+      "path": "todo/v1-release/05-release-candidate-checklist.md",
+      "sha": "0975a074626539a95573243f3fe90249b5b7a0d4"
+    },
+    {
+      "path": "todo/v1-release/README.md",
+      "sha": "89373ea87d038bebc8d56948ad6515683402d5d4"
+    },
+    {
+      "path": "todo/v1-release/ki-020-owning-mapped-layout-plan.md",
+      "sha": "41a11a79185d96d33876bfe0d4ccc666a10e397f"
+    },
+    {
+      "path": "todo/v1-release/ki-023-definer-search-path-plan.md",
+      "sha": "49c034efe97cc70fc0a67d66f9e72818ff14b213"
+    },
+    {
+      "path": "todo/v1-release/ki-026-durable-node-plan.md",
+      "sha": "9f1dff55d3e21f7cf1976067187d95ca245af435"
+    },
+    {
+      "path": "todo/v1-release/ki-027-persisted-rebuild-plan.md",
+      "sha": "d3e56949917540c2a4207777776cbd6894854403"
+    },
+    {
+      "path": "todo/v1-release/qa-01-write-correctness-matrix-plan.md",
+      "sha": "354b27a11e6f104017b76785c56815a96306ca0a"
+    },
+    {
+      "path": "todo/v1-release/r2-resource-containment-plan.md",
+      "sha": "395eacea1d791a2e8142b630d558e51a92ad0e04"
+    },
+    {
+      "path": "todo/v1-release/r3-bounded-storage-execution-plan.md",
+      "sha": "82de98bdc259a76672c07559041667e30def212f"
     }
   ],
   "files_read": [
@@ -68,122 +1400,1681 @@
       "path": "docker-compose.yml",
       "blob_sha": "8609f3d2b8e9021ec01dcbf83c2c6c32f119388c",
       "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/Cargo.toml",
+      "blob_sha": "f308e54bc9415c7eaed14c74bb41d21242f9af5e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/benches/README.md",
+      "blob_sha": "fe6f1748df603b9b8ca51e84969e0fdbcf89e20f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/README.md",
+      "blob_sha": "352838b1b389ee53e118b5f62331ee6cd581ea0e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/README.md",
+      "blob_sha": "d115e4a1798d7ee9853a2ec090174e686df6a177",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/README.md",
+      "blob_sha": "4beccf1cd4b714ccaeed030e46284337dfa9ac8b",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/pg_regress/README.md",
+      "blob_sha": "5a54953e2bbc900dda65fe61b96ef95eabc4043a",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/fixtures/README.md",
+      "blob_sha": "998e31549b6e3af60f6115e8a2d291dedfd5e3ca",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/README.md",
+      "blob_sha": "591f4bef4e7bf7beecfb955d0ca8c44fa58feca8",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/README.md",
+      "blob_sha": "89373ea87d038bebc8d56948ad6515683402d5d4",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "blob_sha": "f96968c31335acb1800807981137259334f5a500",
+      "entities_detected": 1
+    },
+    {
+      "path": "docs/_meta.js",
+      "blob_sha": "aad1447787583516ab8b1741e7374cdb1b64be52",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/contributor_guide/_meta.js",
+      "blob_sha": "cd40340ebda9b3a49ebc67b3387f89927027d34f",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/scripts/check-mdx.mjs",
+      "blob_sha": "9ebdd4d48b4ce3121ae4d0332be24d1c2cfb2039",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/scripts/check-rendered-mdx.mjs",
+      "blob_sha": "c25124089a68e9c23af7187988bbf5e3c7b3f51a",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/user_guide/_meta.js",
+      "blob_sha": "9cb410256f552be1b699ded0bc1ef8b93e1fe86b",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/benches/bfs_bench.rs",
+      "blob_sha": "d207edd4dcfb51ba2d0aa8163eff9ee6488d74bb",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/benches/graph_gen.rs",
+      "blob_sha": "4fa55a13fe7ada8a8096aae931ea9910ffc7afa7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/build.sh",
+      "blob_sha": "3ec159a8020df40ede02dd8cd6d64caac48ecb22",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/cypher_parser.rs",
+      "blob_sha": "1e0b5fff629cd9896dbe3559f686927d4a48dcb6",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/gql_parser.rs",
+      "blob_sha": "2bacc09e0ac9fb5f9257b2efebc91570a8d0c2f3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_graph_file.rs",
+      "blob_sha": "b38b689fbd551129e2cf64db31bc036f153d74d0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_projection_manifest.rs",
+      "blob_sha": "d88ee7846cc28c5fc4be0015219b1eabd004f3d9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/load_projection_segment.rs",
+      "blob_sha": "fedf75d1db049d55d26b8e0bdbb42f1f32f02ae1",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/node_ref_string.rs",
+      "blob_sha": "b0c11faebb079761db71d0784704e132d11f0d35",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/structured_filter.rs",
+      "blob_sha": "b17123355c924f5f5f8b27e754dd297609c0a7ec",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/sync_properties.rs",
+      "blob_sha": "2c39de05ff93a36d1d4a54772bca2c269b1da7cd",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/fuzz_targets/traverse_options.rs",
+      "blob_sha": "f8b96f52bd6986e0f3293c8b411d5fc24e370199",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/postgres_stubs.rs",
+      "blob_sha": "cd10b4a6c51d05999d7babd34f7334645f76a9ed",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/fuzz/run_projection_seed_corpora.sh",
+      "blob_sha": "1cf15ece8fb98189dca02e0ea0b1b3605c067637",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/acl.rs",
+      "blob_sha": "ec479843f96f863bd31cf5068fe1a56b0ec009d7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/api_types.rs",
+      "blob_sha": "a63f9fbde9fb26d04d604701f799fc0f9ece13f3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/bfs.rs",
+      "blob_sha": "ff64defffe0716d9fe12b1ca98daa090bedb40f6",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/build_runs.rs",
+      "blob_sha": "ded747977d83e86d2764652749f6c41710bffdea",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/build_snapshot.rs",
+      "blob_sha": "e0170909a274dd6825c01727fa410b4275486a1a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/build_spool.rs",
+      "blob_sha": "3898184cdceab7f550d8f2f78939017f22fe5c86",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/builder.rs",
+      "blob_sha": "24f4d73808686ed038a4c61237b5015b691f2956",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/catalog.rs",
+      "blob_sha": "97e8cf697e6a9c21de02eceee8b77ed8e1cc2dc7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/catalog/graphs.rs",
+      "blob_sha": "346807e94e1c7522b75e8884f313f1c6d20c5b2f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/catalog/read.rs",
+      "blob_sha": "97043cb8bed6cbe5de3b793d613178d3d2094fae",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/catalog/validate.rs",
+      "blob_sha": "fae491c282c3cc5bc37101529223277732206ff8",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/catalog/write.rs",
+      "blob_sha": "d31c06cc680e94339c2e07c9e22ab92d87b2a2af",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/config.rs",
+      "blob_sha": "f805bf6cd1373bd467299f1e20eac5e00840752b",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/connected_components.rs",
+      "blob_sha": "63128342420a9376d304340633770e4fb6b34c29",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/ast.rs",
+      "blob_sha": "5e0d49d8e14c0be9837f9db70abf2176bbf42a55",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/lexer.rs",
+      "blob_sha": "2310c817f632cde58fb4b87f54ec598614290ee5",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/lower.rs",
+      "blob_sha": "c55722cdf30dba8b7e792ca6c01d25a7a20f3118",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/mod.rs",
+      "blob_sha": "6cffc8b4ae4a7c685e9d997a4f9cdcc07c798409",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/parser.rs",
+      "blob_sha": "5ae8d071c947a0f0a53c420b331f4a6b54a9a240",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/cypher/semantics.rs",
+      "blob_sha": "0e7cb81d2fb89200f7e370b35ec38b369af4bc43",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/discover.rs",
+      "blob_sha": "91e83d4b625a747c2a9196e7dbed0c8691ff54d9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/edge_store.rs",
+      "blob_sha": "4e36e182766169cc511004d9fbdf08997108cb77",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/engine.rs",
+      "blob_sha": "356c6aaccf4d54062c52b55405de456f71fe404d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/filter_index.rs",
+      "blob_sha": "23d9e7dcd5e1a784889941b7baee1cf75da0537c",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/gql/ast.rs",
+      "blob_sha": "8d49a9b6b20151bb278929c8704606b97e04a0ff",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/gql/errors.rs",
+      "blob_sha": "ed493447ac4d7f03490b38511d8a09e97f78e94e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/gql/lexer.rs",
+      "blob_sha": "69ae9be6ede88a57f6032117932caee42c8a628d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/gql/mod.rs",
+      "blob_sha": "106830a3c11579794e87cb96d5f13a0be4f441c3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/gql/parser.rs",
+      "blob_sha": "ebad7b9d3bce803939942a12be96049d55cc15e4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/graph_policy.rs",
+      "blob_sha": "e7bea36a72dc7c26d28b8559585d5606cafb0d7b",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/lib.rs",
+      "blob_sha": "706bbc4de013d0a000f586b5464fbef90cb666e9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/mapped_bytes.rs",
+      "blob_sha": "9011023d7c0b562c0d2092eae32988426fc9c3c6",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/node_store.rs",
+      "blob_sha": "002922b69e1e5322384f6dc8e0f275018f261919",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/path_finder.rs",
+      "blob_sha": "2296f19169a8c4f4a49609a7c347367329a0ddc8",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/persisted_build.rs",
+      "blob_sha": "56a31f3679aa53f89e8944acd13a198d3e9c7a8f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/persisted_build_pipeline.rs",
+      "blob_sha": "570e7a98f3b40d3fac714213b04fb2aba1fbce48",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/persisted_build_scanner.rs",
+      "blob_sha": "5b7283a12cfa604d9e2911c46c70758a166cd8b2",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/persisted_edge_scanner.rs",
+      "blob_sha": "71442b63d875ebcbd5f9f5c08eb686530085e0ea",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/persistence.rs",
+      "blob_sha": "dd714b9c753c7081eb33b025b9c3b2ea04177b3a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_test.rs",
+      "blob_sha": "d79235ec067f44bb67d66aa2264ee976fde4220c",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/common.rs",
+      "blob_sha": "ab318af4714a06648cbe92948b60c24d2edc4e39",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/components_jobs.rs",
+      "blob_sha": "c34875a6aadea6280aca99dc358f686570be13b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/cypher.rs",
+      "blob_sha": "771bea37964c3e8abd62497b7d57732f449ac100",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/discovery.rs",
+      "blob_sha": "43200d8866cc5da3f1bdeedbebfd5d356aae6492",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/filters.rs",
+      "blob_sha": "22d671f3f6e712d9437e7551aae1ef7c233c4eb4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/gql.rs",
+      "blob_sha": "e3141183c420082873ac0e2ae3312fe2e46984e3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/maintenance_admin.rs",
+      "blob_sha": "42e054df32061a456ee04a6b8ac8213a9b3761b8",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/named_graphs.rs",
+      "blob_sha": "57258775378cf60e77204b2ccce219eea6ad2c01",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/registration_search.rs",
+      "blob_sha": "99878c777a6f6206764255d44d4761fe523cc47c",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/sync_config_build.rs",
+      "blob_sha": "3b0af804e8ae5630c7117cf1f8eef27adc9326ed",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/synthetic_release.rs",
+      "blob_sha": "11cc17f1774665ce169888ac95768ec79b40b122",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/traversal_api.rs",
+      "blob_sha": "b90da5bc85afd6239b0b40e4064467ac19ea33ec",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/traversal_paths.rs",
+      "blob_sha": "5d9f0aebe29213902d6d9f30f2b6ec2a921891da",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_relationship_api.rs",
+      "blob_sha": "c83c3fb657fb482d8fd478a9d3e6ec7e204fd1b1",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_search_api.rs",
+      "blob_sha": "a550a946d74f07f786a39b6599e90b7a0f13607f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/pg_tests/workflow_validation.rs",
+      "blob_sha": "9891f6d7225e6c950e4e4f0acbc140ebf9dab8b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/chunk.rs",
+      "blob_sha": "c8d517861c4c6ee026b807cb4715c70a8eec42a4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/compact.rs",
+      "blob_sha": "cc7816a8a695636aa655d5da82d6b4f590468c73",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/gc.rs",
+      "blob_sha": "33d422a05d9b58a3b537f0b36672d51d9f59bade",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/identity.rs",
+      "blob_sha": "f3f42739294ebb5717e05f30a276341a936990e4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/ingest.rs",
+      "blob_sha": "356e6751dc7e5a4cc3092633ca9a04df22998434",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/layered.rs",
+      "blob_sha": "136d1123cb2a0b7d6946ef0322735f7e338c6ad7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/manifest.rs",
+      "blob_sha": "b0b119eab596cd511231aeb978b0e12ddfef2c73",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/mod.rs",
+      "blob_sha": "cf244455460a463b6c41a2f2697c027476527d50",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/neighbors.rs",
+      "blob_sha": "51be23befdfbacbd4405cfa6e9cf75b544f011c1",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/normalize.rs",
+      "blob_sha": "b9afeac36d42daf1627380a359c54cd305837271",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/recovery.rs",
+      "blob_sha": "81b1052520ea348d936ca7574217c85dcbdb464e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/segment.rs",
+      "blob_sha": "31dfd3cfba6b3ecbf942d0ecff791a7e1405bf6a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/status.rs",
+      "blob_sha": "bc3655fb13519c291bc109aa72eac8eba97e4e73",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/test_contracts.rs",
+      "blob_sha": "cda0891eab3ab79739e88deeb0f4ea9b96f549a0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/test_fixtures.rs",
+      "blob_sha": "b2f55745b4c0259ce735d18264d98a2b9bc65a79",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/projection/tx_delta.rs",
+      "blob_sha": "b0cbf1913ae80566aa9c1bb245543eceb8874a67",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/catalog_snapshot.rs",
+      "blob_sha": "d08c2a75955f5f6325e4d5511227e6fb3dec2044",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/execute.rs",
+      "blob_sha": "c94b5a0e0d183d6b4b8c2b8698ec8c14cd881966",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/explain.rs",
+      "blob_sha": "6c29e0c0598f88958e87f6b0913b41ce4216a08f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/logical_plan.rs",
+      "blob_sha": "cfba9eacf64255a10072f14883ddce09a97eb1c7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/lower.rs",
+      "blob_sha": "3087aa4e07c540be75a8d4b6027c6320f2870842",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/mod.rs",
+      "blob_sha": "262a7c180657d0002228543d56fee0c286f31ae9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/physical_plan.rs",
+      "blob_sha": "2b855d5230c7f85c2d5df6ba91c903f280c289a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/semantics.rs",
+      "blob_sha": "3fe2d9e99c99c9a6a6b53cba68ae9f7b0c558b74",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/sqlpgq_adapter.rs",
+      "blob_sha": "5f91805d7d918a538e3a1ae56a9dfdf35054c7dc",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/tests.rs",
+      "blob_sha": "a58a26be3b0f0c39c67f499632d828f9f968b335",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/query/value.rs",
+      "blob_sha": "890ac446a93a7c705ea69b4f257a042960936f6d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/quote.rs",
+      "blob_sha": "4b9243e1567d7b0a9816102fb4c093c982611003",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/relationship_identity_store.rs",
+      "blob_sha": "386d831d2906184644aa0535ddcb6dd11ff359cf",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/resolution_index.rs",
+      "blob_sha": "dfc7bffeb39c3719ee765a1a2633a88e0bd32678",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/resource.rs",
+      "blob_sha": "9517b7e8ed62f3deb3d487841205233bf7c7a48f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/runtime_state.rs",
+      "blob_sha": "997cb63f213564399852f126f4ac93ea8306a58e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/safety.rs",
+      "blob_sha": "df3aa398f20cce5eaeb05f34f468893ee9b8d828",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_aggregation.rs",
+      "blob_sha": "b6e4fdf91297904ccc26ddb6466bdd4ba5d9ff2f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_build.rs",
+      "blob_sha": "9b0ef0ee10ad1ea346e73b732a4655b2765c3734",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/admin.rs",
+      "blob_sha": "6ee661f4a2b242448164ec3f596cf4c36054c1e2",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/components.rs",
+      "blob_sha": "73980064a097d78b58f17b2874ed8bf22f5a0ceb",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/cypher.rs",
+      "blob_sha": "ae43839bc6c3d175a5f995f9865c5f192e954d86",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/discovery.rs",
+      "blob_sha": "b34a7622fedccb11c4333f5632d008ba91972391",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/gql.rs",
+      "blob_sha": "623079e44cfa4d7a44d2726de749525807a52d66",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/mod.rs",
+      "blob_sha": "03eb97becdee7c86cbd75de6c78815d3aa34d15b",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/pgq.rs",
+      "blob_sha": "7880de143e534e4be54aadbf943303b80b8c7389",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/runtime.rs",
+      "blob_sha": "1fad8c73362e390755adac863d45cbe85ddb09fa",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/search.rs",
+      "blob_sha": "1e6b9e541d8bb206163332a1fd34ef5102f5752d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/traversal.rs",
+      "blob_sha": "5559daf9e82a0431e5e0daa786d28a050bf4aa06",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_facade/workflow.rs",
+      "blob_sha": "b3d0cbc79910b2ffc33e7ef2f19761ac425a8a5a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_filters.rs",
+      "blob_sha": "fb02c88abb4cb0b5fedb50aecb0bdd6253477e99",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_hydration.rs",
+      "blob_sha": "4905ab3dfcb81d81938d46fe7a51a365652c6135",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_jobs.rs",
+      "blob_sha": "90f5e91de2de6d422d88b2d0abb44adcbcb07698",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_search.rs",
+      "blob_sha": "321b8ed5f284302c74a733dc7da3a58dd066ec82",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_sync.rs",
+      "blob_sha": "8becdfcd1ac3f3f212d166bc454d8157de417ef6",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sql_traversal.rs",
+      "blob_sha": "bd66d0077db22a66bbbbc9d095f966e61392e3aa",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/sync.rs",
+      "blob_sha": "67d2a7f14e06bc4c459b5fb1ef5a9f4b4f1ff16d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/tenant_store.rs",
+      "blob_sha": "2430ecf0b841ecee3d235c86f822a4fcc6f707b9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/src/types.rs",
+      "blob_sha": "f6dc0521428a211b1bb75c14cd6744e17196782d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/alpha_to_v1_fixture.sh",
+      "blob_sha": "eecc9009c30b654a625f7e0a51742ef98e3cf657",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/background_job_lock_regression.sh",
+      "blob_sha": "ff46dfee845d13aa4ecaed030e0e43b68813543f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/backup_restore_validate.sh",
+      "blob_sha": "e461107f26acd4e4f240c0b23ff28b51bb4f4224",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/build_lock_regression.sh",
+      "blob_sha": "08b3090b64ea18d0336e0bead569be78d763c3ef",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/build_memory_stress.sh",
+      "blob_sha": "3cf32bc7eda8fbdfbdd2063d84de7d95e0ef71f5",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/concurrency_stress.sh",
+      "blob_sha": "315da7073eb3a1f94d68e2d55b1d870596768c3f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/crash_recovery.sh",
+      "blob_sha": "0ea9b0650b18f7d659cbdde1baad3a80611c5397",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/cross_backend_durable_projection.sh",
+      "blob_sha": "7512303f9f5889d86cda2a0277b1d58557b4fcd7",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/docker_smoke.sh",
+      "blob_sha": "f12f6d54bcd8f53b4dcac34f75b4ab24e42eda05",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/fresh_install_smoke.sh",
+      "blob_sha": "395e8f63be72119ba52f6e3d210694eef2a595ed",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/function_metadata_audit.sh",
+      "blob_sha": "d640e70d059b4c2882ef2663823772d0612124dc",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_create_tx_lifecycle.sh",
+      "blob_sha": "7435f09ad83107706bb028891150d175abfe9538",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_delete_tx_lifecycle.sh",
+      "blob_sha": "f5175e9a218e88eb5c6a776c9e843f251fcb72a9",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_isolation_matrix.sh",
+      "blob_sha": "84b056d2ca9c02e5e64aae736fc03a03713731bf",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_merge_race.sh",
+      "blob_sha": "e91e947ea29bd80b17edcd1675907da1bf5012a2",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_relationship_race.sh",
+      "blob_sha": "ac3f15d88002d88bc7c589da0d423e3c4860d8b4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_set_tx_lifecycle.sh",
+      "blob_sha": "4b6166cdf89df1fa2837362164dcf01ecb920bf0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_write_recheck_race.sh",
+      "blob_sha": "0c120abd24f8152e152a5f1e427cf99825f440f3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/measure_build_rss.sh",
+      "blob_sha": "6ac1371ce9ece81193dc20bc17bd88f20a354fb8",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/measure_mmap_pss.sh",
+      "blob_sha": "6e1a8b8a8f53b15671ac254a6c33f13c8eb0222e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/measure_runtime_resources.sh",
+      "blob_sha": "78395caea43ef9352045416269de82f066d17b16",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/named_graphs_heavy_gate.sh",
+      "blob_sha": "a4eea26bf87f7eada6a7dc56b2fb7d29b85e114e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/package_install_matrix.sh",
+      "blob_sha": "e0bd07d961d86d89369f68f2aaa2e4a2f2fdd176",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/package_validate.sh",
+      "blob_sha": "d7baca70ceabcd54e13293d241e5ba583233ada2",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/pg_upgrade_validate.sh",
+      "blob_sha": "d1a306e36e2217c4512f1a0057330dee0d78453d",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/playground_release_gate.py",
+      "blob_sha": "9479cc15c0fbc6b1d484f7fbf60b257cb1f5cbf0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/playground_release_gate.sh",
+      "blob_sha": "a085f4673d92b268aa6a33501bac7b421278df27",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/projection_recovery_gate.sh",
+      "blob_sha": "ad7fda75e6f9fe9f9b8070cb2d970de54e648952",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/read_latency_under_sync.sh",
+      "blob_sha": "d04dfc59e2d2b6d585a40789cec4fcb54c3d866f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/relation_identity_concurrent_ddl.sh",
+      "blob_sha": "b6288e3e499c0aa954afafa386b707e04202c6b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_crash_matrix.sh",
+      "blob_sha": "9bfaea1acda12490ee2a426ca13c275bc499e75f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_durable_projection_matrix.sh",
+      "blob_sha": "69d5789c5b367412033d461d5e47476428359bf3",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_gql_write_matrix.sh",
+      "blob_sha": "11abdc241a5a8e4342d4401d2af6a0be740aed36",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_memory_sanitizers.sh",
+      "blob_sha": "178c8ce50083f2ee8f0b077059c0b1d6742d9e95",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_matrix.sh",
+      "blob_sha": "eb989138a5250ed355c3ebdb0492d713bbce14c2",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_matrix_docker.sh",
+      "blob_sha": "969cab39d74d04f0a87d90668d90418cac497c7a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_pg_upgrade_matrix.sh",
+      "blob_sha": "2950f831c6e5e7b65dcc97c3671a0a798f6b43f4",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_pgbench_sync.sh",
+      "blob_sha": "fe3a274e36eb9bc06352703f78027b13e3e8bb42",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_postgres_process_sanitizer.sh",
+      "blob_sha": "69acd48dffacbb2c226bf3b29dca8eaa873b1849",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_release_gate.sh",
+      "blob_sha": "43d17aa3b86cfd33230f32b0a42eae407fb642b0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_sqlstate_acl_boundary.sh",
+      "blob_sha": "b3fae6aef7a11172d7a4bfe53191043cf544702a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/run_synthetic_release_evidence.sh",
+      "blob_sha": "80a757643645f1c895a50ef05fd09865cde4e640",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/source_archive_smoke.sh",
+      "blob_sha": "26a75de83e17d773117a9ff6e17e179a2c5a2574",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/synthetic_release_smoke.sh",
+      "blob_sha": "2199ef748343ffef4e78c5437b1cfbc8fd43c8ca",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/tx_delta_crash_recovery.sh",
+      "blob_sha": "8b963c017877ae3a4300592d70bed0c2b7327b1e",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/tx_delta_lifecycle.sh",
+      "blob_sha": "f2dbce29db7c8aa47604deb647e646448847ac28",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/cleanup.sh",
+      "blob_sha": "2f454cc52da28b4d6b3bc36949974529cfd64abc",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/common/docker.sh",
+      "blob_sha": "ce85528537c6b0a13d09b23063d9b60b8b1b1d31",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/common/run_benchmarks.py",
+      "blob_sha": "4121b2ab6d1ce7c961910300773da6b09e080bce",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/app.py",
+      "blob_sha": "7e640d37f5c134ab92e6f3c6dc3b460d084477e9",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/bootstrap.py",
+      "blob_sha": "b1b586e6142d4e39d8a1ac9fc85245c1f51a69e0",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/catalog.py",
+      "blob_sha": "f2be24802c2664dabee502eb43820af01fa13f42",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/client.py",
+      "blob_sha": "ff5742fd8aa661e31b92cdf106f4a736fa9afa49",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/config.py",
+      "blob_sha": "d2c3b390858814bb9199546d4c1b8178af30ef9f",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/execution.py",
+      "blob_sha": "a39d8980cf2919ec66b1929c652fd75da1e828a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/queries.py",
+      "blob_sha": "1a657265551fc338e74d977d16d71d88ff58fd70",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/results.py",
+      "blob_sha": "1f5f3d90123f375d08e71e04d4d30619eb0439fa",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/test_catalog.py",
+      "blob_sha": "64641dbfcdb625a628adbfe73279f48a779562e6",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/test_cleanup.py",
+      "blob_sha": "74fe24668fc94471a8bfd18bf9fa148f48944691",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/run_benchmarks.sh",
+      "blob_sha": "265bcf541dc7e77480428c6a83240c7adfc63dc7",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/start_playground.sh",
+      "blob_sha": "65e721498cd7f94749ea49df0e4145efd3254bb1",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/build_docker_pggraph_package.sh",
+      "blob_sha": "1ca1fd9fa4c909269bc2ec26a04dad6118441be8",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/build_pgxn_dist.sh",
+      "blob_sha": "886911dfbb9c93c0ca8292d2c935572a0d442532",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_cast_allowlist.py",
+      "blob_sha": "1c62ef4525702911924bbbb1231e5b5a2c0dcb61",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_dependency_updates.py",
+      "blob_sha": "cec75a70ebd3d1e0771d88f2e59bb288d860d2d8",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_doc_references.py",
+      "blob_sha": "67ab03288ff55ba5c458281a131cde9c3f17d20e",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_docs_drift.sh",
+      "blob_sha": "66c0120eb75fceaf18929698d0392c5649a53ece",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_external_links.py",
+      "blob_sha": "daacd796423eebeb7cc20e5c527fb12fdb84d75f",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_fixture_integrity.py",
+      "blob_sha": "7eb7dcbde4d1f93b5c0e3d71f9293cc8554249de",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_public_docs.py",
+      "blob_sha": "6aaa26a8264bcf8c2a969da2cd4d345d4f689b3c",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_release_contract.py",
+      "blob_sha": "7b8baf88f762f135988d0d62c8cd06d311744017",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_rust_doc_map_drift.py",
+      "blob_sha": "4da6a04134ea5bf069dda1bffc34d804e1e0a8f6",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_script_inventory.py",
+      "blob_sha": "542ecbc8f8d6d75ed00e0b19fd69878c5af3ae95",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_secrets.sh",
+      "blob_sha": "feeb2398b7205bf25090cfb3cfbfcacae8cce335",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_sql_api_drift.py",
+      "blob_sha": "c8119a23215b5b8ebe01cdfa2b3aefc8cbaf0dd9",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check_unsafe_allowlist.py",
+      "blob_sha": "42b922877212db6580998ff45495e84eb9ba542d",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/clean_generated_artifacts.sh",
+      "blob_sha": "b8fd6c969a5633b1c5fe96c801d24fb9d7a30dde",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/copy_pggraph_package_to_docker_postgres.sh",
+      "blob_sha": "7fe5da52fffec05476dc90f640dde09603f3e505",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/inspect_pggraph_artifact.py",
+      "blob_sha": "655df7f47cc2421227533f96ba0d86ee4aee6eed",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/install_into_docker_postgres.sh",
+      "blob_sha": "4b29013eb5c0b00b916e20246325da551f2c86fb",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/lib/pggraph-common.sh",
+      "blob_sha": "a9e5ebfcac5efe7f80136f463680a4a7834b137f",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/prepare_release_bundle.py",
+      "blob_sha": "f2bc288f6044562216d40cf176c5e4c37747f381",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/quickstart.sh",
+      "blob_sha": "3acbf09af4ca3511aca1a76d6165963c730dd172",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/run_release.py",
+      "blob_sha": "836be0347b5454099f853dfdb642a8136eecf300",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/test_release_bundle.py",
+      "blob_sha": "a0e21af9d60f398820133b4c43973a9961dd716e",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/test_release_validation.py",
+      "blob_sha": "e587893bb90c1a54338587ed44e5e7893dd9eb1d",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/test_run_release.py",
+      "blob_sha": "2d5c7983de77b788810933e007a649f1611365f1",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "blob_sha": "f78473333b3752f7ad7138b0457bde1338b5cd79",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/verify_release_bundle.py",
+      "blob_sha": "65ae63f83b15cc210eb448416abd5fbfb77ff7fd",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/verify_release_evidence.py",
+      "blob_sha": "6f5b7b147e8b9a2f04b239e63d70f80c9c7a45fd",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/with_disposable_postgres.sh",
+      "blob_sha": "f25f01ad9d5efb7342adfb4efae69001a9e5e1eb",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "blob_sha": "97dee78ee14af352cf1969467e5945ea52f0e65f",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "blob_sha": "8eb09c5e25329432b495d985c9e34883ce571ac9",
+      "entities_detected": 0
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "blob_sha": "96522ca2ce4c1b65da237830a8ea3460557b4472",
+      "entities_detected": 0
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "blob_sha": "3154fed6a7cde0f2b87992715fa351413af452b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "Dockerfile",
+      "blob_sha": "ffacba0855cb9875639704639a9a973516dde2a4",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "253d8e06a78491099f4547ed67ee175578bdda19",
+      "entities_detected": 0
+    },
+    {
+      "path": "META.json",
+      "blob_sha": "3f20daa36a33334c7ae2117bb70a4b85c2ce3511",
+      "entities_detected": 0
+    },
+    {
+      "path": "Makefile",
+      "blob_sha": "32d30e9f8bf97d67d1ce1e6c11e35575999ebec7",
+      "entities_detected": 0
+    },
+    {
+      "path": "NOTICE",
+      "blob_sha": "f21ec57e7b38f57fdf46138ae182a72eac8f2fad",
+      "entities_detected": 0
+    },
+    {
+      "path": "SECURITY.md",
+      "blob_sha": "a4c26d031502b02bc742bd752f99e0ddd8940d16",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/init/01-create-extensions-and-schedule.sql",
+      "blob_sha": "2b3c038871d708c612dd63528629495bd50eaf72",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/cspell.json",
+      "blob_sha": "008b83f4ec146a32a8a7e115f95235fb5c7dc7cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/package-lock.json",
+      "blob_sha": "2c74db33f3d86bf6a5087cd3b4df70ba390a9c8f",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/.cargo/config.toml",
+      "blob_sha": "13c456b5dd31f198c6f4597c003d52eed16c98ab",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/deny.toml",
+      "blob_sha": "1fc1d2ddf106cf61d1f0f2c6b0d85cbad2a71947",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/proptest-regressions/lib.txt",
+      "blob_sha": "78fee00deffe2f9d4ca852336fa4da63016ba128",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/proptest-regressions/projection/layered.txt",
+      "blob_sha": "80ba705edcbbe78356166752ead354a650bd36f0",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/rust-toolchain.toml",
+      "blob_sha": "4f0430eac96d545bcfaa0df23ce475faf4aee96a",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/sql/bootstrap.sql",
+      "blob_sha": "1cf980a0ea88d688b54571ed5fefc22bd28253bf",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/Dockerfile.alpha-transition",
+      "blob_sha": "60af11e2c47841560be1b9055416cc8a4863cabe",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/Dockerfile.pg-matrix",
+      "blob_sha": "e8b889fa27f9c1744ac1e8bd805ee174c941e7fe",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/gql_isolation_fixture.sql",
+      "blob_sha": "bd78a4030d0592847e1feed35f4d5ea93a823464",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/pgbench_sync.sql",
+      "blob_sha": "beea5168f02514bc911c413c725fe4d13c53bb38",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/postgres_process_sanitizer.sql",
+      "blob_sha": "e689c9eec0adb0aff7d4a5c152c1b51bf49060ab",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/heavy/sqlstate_acl_boundary.sql",
+      "blob_sha": "6492304d093bd0e6f45fb99196a40c4745f8fcde",
+      "entities_detected": 0
+    },
+    {
+      "path": "graph/tests/pg_regress/sql/setup.sql",
+      "blob_sha": "59d7e0603d20ab0caf72e2c0c8b691f287a60d57",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/cast-allowlist.json",
+      "blob_sha": "c640931593ef1be18ecd47e1d1436116a1314024",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/contract-changes.json",
+      "blob_sha": "e2a121d25201830cbce65ac232206c485d5e0426",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/examples.json",
+      "blob_sha": "d36b7f2b583b0103e28a2b168f7c5c17c9387194",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/metadata.json",
+      "blob_sha": "ff07e0c901250c2a580054717e671a85c7ec47fe",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/register.sql",
+      "blob_sha": "6e89d09780e3b3e8a039cefe0a381b8bb3fc88cf",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/source.sql",
+      "blob_sha": "6b168c63eaeea6b9a453039e57e5aa7eda518f5a",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/fixtures/alpha-to-v1.0/verify.sql",
+      "blob_sha": "f59b9acb6a4e0e399aa0fd382a2118d899f65fef",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/gates.json",
+      "blob_sha": "d037bc534ec199a32f2d1f103e0425afbc01d8c7",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/maturity.json",
+      "blob_sha": "92a2c09c8688206b21fad776e7adaa1e331f5626",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/scripts.json",
+      "blob_sha": "84ac917eae745ef3d0c9c5c8f41b9d4c33fd5c4d",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/unsafe-allowlist.json",
+      "blob_sha": "c6b0ba167738b2a52189da011e60178e1fb521e6",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/v1-contract.json",
+      "blob_sha": "0008459d609bca336a9b4d0028869273d148be96",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/v1-gql-profile.json",
+      "blob_sha": "9ac24238d6e30dfed85189ea05e0343964cf0ab5",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/v1-gql-unsupported.json",
+      "blob_sha": "bd08c601afcec56596189da05c3bb1bd31cd8019",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/v1-schema.sql",
+      "blob_sha": "3048ff3fafc0fc5d0127e98ce8f133bdf69ac191",
+      "entities_detected": 0
+    },
+    {
+      "path": "release/v1-sql-profile.json",
+      "blob_sha": "d2cfa938f039a0fef66162372288b5735754a640",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/benchmark/requirements.txt",
+      "blob_sha": "bd4d91e80aea8640bf93c9976916232c8a052cbc",
+      "entities_detected": 0
+    },
+    {
+      "path": "sandbox/playground/requirements.txt",
+      "blob_sha": "d7814569d74f813a034455b2211cb6f2e4575442",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/scripts.md",
+      "blob_sha": "268bb22f746adafa9b47f8d07b35aba04cd632ca",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/00-overview.md",
+      "blob_sha": "dde61fe5d2cec708828e33bf2aae893cf268c92d",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/01-sync-architecture-review.md",
+      "blob_sha": "de775cfb504c1e6b3815637ce593d39c6a41c4d0",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/02-dual-mode-design-proposal.md",
+      "blob_sha": "86a23cc58b35e09942297d747db723ae0decaa92",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/03-implementation-review-findings.md",
+      "blob_sha": "7847ae4a6ba71b39283c368d00366e556c3e9511",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/04-docs-and-todo-audit.md",
+      "blob_sha": "c7f3616310a994916531b4e9a402817297809dd4",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/05-suggested-todos.md",
+      "blob_sha": "b28df28c7c71adbb4621dc5c1bb06157b179f8bb",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/06-path-to-full-graph-engine.md",
+      "blob_sha": "e3c0ab8ad9f80f448866f3a6e38d56bafccbcc5d",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/07-completed-plan-build-sequence.md",
+      "blob_sha": "39a58999c4f40f1776b575c72ace60a6f9f25d57",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/08-plan-delta-for-graph-engine-strategy.md",
+      "blob_sha": "1c116b0409f846ec283cae06e2c590158d4b9491",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/09-revised-build-sequence.md",
+      "blob_sha": "b539353885a4dfb2187b2a42768ccda59a90374b",
+      "entities_detected": 0
+    },
+    {
+      "path": "secondary-todo-and-review/10-reconciliation-with-dev-1.0.md",
+      "blob_sha": "0f754e5e64cf65da7489a27332389223513f518f",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/00-codebase-review.md",
+      "blob_sha": "0f2be965e8cb3dbaf81ffb86155121fad0ae973f",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/01-memory-governance.md",
+      "blob_sha": "0984fd6bf361953351c7aeb264bfaf67edace48c",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/02-gql-conformance.md",
+      "blob_sha": "ef4b3bfaab68f148cfd66a1f57c066673c2dbbeb",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/03-planner-runtime.md",
+      "blob_sha": "3579afd0f9d1555d2315dfb548fa24437e5908ac",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/04-projection-storage-sync.md",
+      "blob_sha": "cf8518fb11b451a0d2f598aa0a112b3434accaf9",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/05-refactor-plan.md",
+      "blob_sha": "6a6c8e7a3e8dc11a539965fb5f260f764037cbc4",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/06-quality-performance-operations.md",
+      "blob_sha": "ce9be5dff714065b56f01388b6860a5a2876f556",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/07-build-order.md",
+      "blob_sha": "7e532b44845b4ac6c7f46022e9683710fa235013",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/08-postgresql-19-property-graphs.md",
+      "blob_sha": "60b6d651f1d133533d8fb0602180d873369e26d0",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/09-public-backlog-closure.md",
+      "blob_sha": "2accb3ef32bdf634f141cd74ef46bee6a6d667cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/10-rust-type-safety-pgrx-boundaries.md",
+      "blob_sha": "0dcd910abb32a632ac8af17eac419bd1cd2a5402",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/11-schema-flexible-dynamic-graphs.md",
+      "blob_sha": "3a3de4ecc51f21e3086bf5e465bccef1d799181d",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/12-sync-log-retention-plan.md",
+      "blob_sha": "044e20eceec19e6aad843bea755f767a8c375803",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/full-graph-engine/progress.md",
+      "blob_sha": "e5a40f67d84cc1a15933751902fa5fde971518f6",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-14-durable-projection-matrix.md",
+      "blob_sha": "d81b81269e01d9857f4e60a198250c3d64b9e153",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-14-pg14-18-matrix.md",
+      "blob_sha": "af3f39a495ecf1ba8ea49acac6ace8fb7b4fcb43",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-14-postgres-process-sanitizer.md",
+      "blob_sha": "ebf455f38166098f3cda032691afb01cfaa8ad3d",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2a-resource-policy.md",
+      "blob_sha": "abe3c969ff7a012a5ae85f51f6bde00fbfd14658",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2b-live-build-budget.md",
+      "blob_sha": "647d104ccc6bb2e447cafeb2bf3805552e31024d",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-15-r2c-runtime-resource-breakers.md",
+      "blob_sha": "9ccaa3c469e0205135578a6ca5067e47664a088b",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r2d-generation-publication-baseline.md",
+      "blob_sha": "4c2bd6871707f9d7035e582d11cb841d6d94b7b4",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3a-source-boundary.md",
+      "blob_sha": "55b16cc9cbad78d7f8d8dbc349116e8854f65bf4",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3b-governed-runs.md",
+      "blob_sha": "532296902fa3872f322ec1848ab8b722315a6a9e",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3c-artifact-v5.md",
+      "blob_sha": "142523ff53049af921f48875d671bf5a65b5c464",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3c-artifact-v6.md",
+      "blob_sha": "acd074491f36b7585371d6eb1d12c52871bea491",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r3d-direct-persisted-build.md",
+      "blob_sha": "4693445ebd4f4aad26b19667b59bc893da669e84",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r4-pr-evidence.json",
+      "blob_sha": "be1aac9d8858f40ca8ccef768c024d49d00e95ef",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r4-release-risk-refactor.md",
+      "blob_sha": "ed6df525146fb666e585c231a09a25eabae184c2",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r5-supported-profile.md",
+      "blob_sha": "49ddadf1979e9f81f568fb63dd83da1289248ca1",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r6-documentation-packaging.md",
+      "blob_sha": "360e25aa0d5de640c64414d585db0b537ef77534",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r6-pr-evidence.json",
+      "blob_sha": "b9a6ea767fb56fd096ce865e31234abe9b4f8455",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/measurements/2026-07-16-r7-release-ready.md",
+      "blob_sha": "7cb317484a96355699d56fb1bff8022362e57b54",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/out-of-core-build-plan.md",
+      "blob_sha": "73744f997c68edb9657026d0be18b1ed04e5f7c9",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/progress.md",
+      "blob_sha": "5ac5c0fb6dfcc7998702d5122ccd032c0836e5de",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/01-compatibility-and-lifecycle.md",
+      "blob_sha": "e7516439404b03e88823f3722c8071b5d6e35c77",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/02-production-readiness.md",
+      "blob_sha": "d4611e09d86b60adb970aaf9d3a9edec646d722e",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/03-documentation-and-api.md",
+      "blob_sha": "2f791ab883093bf6cf43cf2a340525dcd5876ada",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/04-playground-and-scripts.md",
+      "blob_sha": "d04cd321e1d018dc76c4f7da3ab68eb5ac87e959",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/05-release-candidate-checklist.md",
+      "blob_sha": "0975a074626539a95573243f3fe90249b5b7a0d4",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/ki-020-owning-mapped-layout-plan.md",
+      "blob_sha": "41a11a79185d96d33876bfe0d4ccc666a10e397f",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/ki-023-definer-search-path-plan.md",
+      "blob_sha": "49c034efe97cc70fc0a67d66f9e72818ff14b213",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/ki-026-durable-node-plan.md",
+      "blob_sha": "9f1dff55d3e21f7cf1976067187d95ca245af435",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/ki-027-persisted-rebuild-plan.md",
+      "blob_sha": "d3e56949917540c2a4207777776cbd6894854403",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/qa-01-write-correctness-matrix-plan.md",
+      "blob_sha": "354b27a11e6f104017b76785c56815a96306ca0a",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/r2-resource-containment-plan.md",
+      "blob_sha": "395eacea1d791a2e8142b630d558e51a92ad0e04",
+      "entities_detected": 0
+    },
+    {
+      "path": "todo/v1-release/r3-bounded-storage-execution-plan.md",
+      "blob_sha": "82de98bdc259a76672c07559041667e30def212f",
+      "entities_detected": 0
     }
   ],
-  "unread_source_paths": [
-    ".github/ISSUE_TEMPLATE/bug_report.md",
-    ".github/ISSUE_TEMPLATE/feature_request.md",
-    ".github/workflows/release.yml",
-    "CODE_OF_CONDUCT.md",
-    "CONTRIBUTING.md",
-    "META.json",
-    "SECURITY.md",
-    "docs/_meta.js",
-    "docs/contributor_guide/_meta.js",
-    "docs/cspell.json",
-    "docs/package-lock.json",
-    "docs/scripts/check-mdx.mjs",
-    "docs/scripts/check-rendered-mdx.mjs",
-    "docs/user_guide/_meta.js",
-    "graph/.cargo/config.toml",
-    "graph/benches/README.md",
-    "graph/benches/bfs_bench.rs",
-    "graph/benches/graph_gen.rs",
-    "graph/deny.toml",
-    "graph/fuzz/Cargo.toml",
-    "graph/fuzz/build.sh",
-    "graph/fuzz/fuzz_targets/cypher_parser.rs",
-    "graph/fuzz/fuzz_targets/gql_parser.rs",
-    "graph/fuzz/fuzz_targets/load_graph_file.rs",
-    "graph/fuzz/fuzz_targets/load_projection_manifest.rs",
-    "graph/fuzz/fuzz_targets/load_projection_segment.rs",
-    "graph/fuzz/fuzz_targets/node_ref_string.rs",
-    "graph/fuzz/fuzz_targets/structured_filter.rs",
-    "graph/fuzz/fuzz_targets/sync_properties.rs",
-    "graph/fuzz/fuzz_targets/traverse_options.rs",
-    "graph/fuzz/postgres_stubs.rs",
-    "graph/fuzz/run_projection_seed_corpora.sh",
-    "graph/rust-toolchain.toml",
-    "graph/src/acl.rs",
-    "graph/src/api_types.rs",
-    "graph/src/bfs.rs",
-    "graph/src/build_runs.rs",
-    "graph/src/build_snapshot.rs",
-    "graph/src/build_spool.rs",
-    "graph/src/builder.rs",
-    "graph/src/catalog.rs",
-    "graph/src/catalog/graphs.rs",
-    "graph/src/catalog/read.rs",
-    "graph/src/catalog/validate.rs",
-    "graph/src/catalog/write.rs",
-    "graph/src/config.rs",
-    "graph/src/connected_components.rs",
-    "graph/src/cypher/ast.rs",
-    "graph/src/cypher/lexer.rs",
-    "graph/src/cypher/lower.rs",
-    "graph/src/cypher/mod.rs",
-    "graph/src/cypher/parser.rs",
-    "graph/src/cypher/semantics.rs",
-    "graph/src/discover.rs",
-    "graph/src/edge_store.rs",
-    "graph/src/engine.rs",
-    "graph/src/filter_index.rs",
-    "graph/src/gql/ast.rs",
-    "graph/src/gql/errors.rs",
-    "graph/src/gql/lexer.rs",
-    "graph/src/gql/mod.rs",
-    "graph/src/gql/parser.rs",
-    "graph/src/graph_policy.rs",
-    "graph/src/lib.rs",
-    "graph/src/mapped_bytes.rs",
-    "graph/src/node_store.rs",
-    "graph/src/path_finder.rs",
-    "graph/src/persisted_build.rs",
-    "graph/src/persisted_build_pipeline.rs",
-    "graph/src/persisted_build_scanner.rs",
-    "graph/src/persisted_edge_scanner.rs",
-    "graph/src/persistence.rs",
-    "graph/src/pg_test.rs",
-    "graph/src/pg_tests/README.md",
-    "graph/src/pg_tests/common.rs",
-    "graph/src/pg_tests/components_jobs.rs",
-    "graph/src/pg_tests/cypher.rs",
-    "graph/src/pg_tests/discovery.rs",
-    "graph/src/pg_tests/filters.rs",
-    "graph/src/pg_tests/gql.rs",
-    "graph/src/pg_tests/maintenance_admin.rs",
-    "graph/src/pg_tests/named_graphs.rs",
-    "graph/src/pg_tests/registration_search.rs",
-    "graph/src/pg_tests/sync_config_build.rs",
-    "graph/src/pg_tests/synthetic_release.rs",
-    "graph/src/pg_tests/traversal_api.rs",
-    "graph/src/pg_tests/traversal_paths.rs",
-    "graph/src/pg_tests/workflow_relationship_api.rs",
-    "graph/src/pg_tests/workflow_search_api.rs",
-    "graph/src/pg_tests/workflow_validation.rs",
-    "graph/src/projection/chunk.rs",
-    "graph/src/projection/compact.rs",
-    "graph/src/projection/gc.rs",
-    "graph/src/projection/identity.rs",
-    "graph/src/projection/ingest.rs",
-    "graph/src/projection/layered.rs",
-    "graph/src/projection/manifest.rs",
-    "graph/src/projection/mod.rs",
-    "graph/src/projection/neighbors.rs",
-    "graph/src/projection/normalize.rs"
-  ],
+  "unread_source_paths": [],
   "excluded_nontext_paths": [
     ".dockerignore",
     ".envrc",
     ".gitignore",
-    "Dockerfile",
-    "LICENSE",
-    "Makefile",
-    "NOTICE",
     "assets/evokoa-logo.svg",
     "assets/favicon.svg",
     "assets/pggraph-banner.png",
-    "docker/init/01-create-extensions-and-schedule.sql",
     "docs/contributor_guide/architecture-tradeoffs.mdx",
     "docs/contributor_guide/architecture.mdx",
     "docs/contributor_guide/benchmarking.mdx",
@@ -257,26 +3148,16 @@
     "graph/fuzz/corpus/sync_properties/basic",
     "graph/fuzz/corpus/traverse_options/basic",
     "graph/graph.control",
-    "graph/proptest-regressions/lib.txt",
-    "graph/proptest-regressions/projection/layered.txt",
-    "graph/sql/bootstrap.sql",
-    "graph/tests/heavy/Dockerfile.alpha-transition",
-    "graph/tests/heavy/Dockerfile.pg-matrix",
-    "graph/tests/heavy/gql_isolation_fixture.sql",
-    "graph/tests/heavy/pgbench_sync.sql",
-    "graph/tests/heavy/postgres_process_sanitizer.sql",
     "graph/tests/heavy/postgres_process_valgrind.supp",
-    "graph/tests/heavy/sqlstate_acl_boundary.sql",
     "graph/tests/pg_regress/expected/setup.out",
-    "graph/tests/pg_regress/sql/setup.sql",
     "release/evidence/.gitignore",
     "release/fixtures/alpha-to-v1.0/SHA256SUMS",
-    "release/fixtures/alpha-to-v1.0/register.sql",
-    "release/fixtures/alpha-to-v1.0/source.sql"
+    "release/ssh-allowed-signers"
   ],
+  "detected_binary_paths": [],
   "errors": [],
   "census_review_required": true,
-  "detector_version": 1,
+  "detector_version": 2,
   "tree_manifest_sha256": "20f961ddc7d0ea91fcad89906c000ce6a5015592fde844b9a2c5f8a5502a42d7",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -292,8 +3173,10 @@
     "secondary-todo-and-review": 11,
     "todo": 48
   },
-  "unread_source_paths_count": 312,
-  "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 105,
-  "excluded_nontext_paths_truncated": true
+  "unread_source_paths_count": 0,
+  "unread_source_paths_truncated": false,
+  "excluded_nontext_paths_count": 84,
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths_truncated": false
 }

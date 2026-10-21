@@ -2,7 +2,7 @@
 
 Other Assets tagged under Voice, STT & TTS.
 
-**6 entries** · Alphabetical · 1 page.
+**7 entries** · Alphabetical · 1 page.
 
 [Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -10,6 +10,8 @@ Other Assets tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/clickhouse/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/clickhouse/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [ElevenLabs-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7df8159f586c8fa3e4668e95.json) — A voice-AI brand whose marketing surfaces read like a quietly editorial print magazine. The base canvas is off-white (`#f5f5f5`) holding warm near-black ink (`#292524`); the brand voltage is photographic, not chromatic…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/elevenlabs/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/elevenlabs/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
+- [LiveKit application template registry](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3573f805cb099fa66557579c.json) — Structured registry of LiveKit voice-agent and application starter templates, including source URLs, frontend/backend requirements, configurable inputs and deprecated aliases for CLI and sandbox discovery.<br>
+  Source: [jamesrwatsonx-creator/LiveKit-index](https://github.com/jamesrwatsonx-creator/LiveKit-index) · [templates.yaml](https://github.com/jamesrwatsonx-creator/LiveKit-index/blob/9adf0144a2a501934df3e2be1a5067092be65b74/templates.yaml#L1) · DATASET · VERIFIED · PINNED_SOURCE · Documentation, Templates/boilerplates
 - [Meta-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8be9f45eec63a3ccc1af516b.json) — Meta's design system spans hardware commerce (Quest VR, Ray-Ban Meta AI glasses) and brand surfaces with a confident product-merchandising voice. The system pairs a stark white canvas with full-bleed photographic…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/meta/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/meta/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Miro-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e5dc778227cc20d2d3f8798.json) — Miro presents itself as the AI-powered visual workspace through a confident, almost playful brand voice — anchored by its signature canary yellow ({colors.brand-yellow}) wordmark over white canvas, broken open by…<br>

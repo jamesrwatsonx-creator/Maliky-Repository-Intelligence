@@ -2,7 +2,7 @@
 
 Prompt libraries, agent workflows and reusable procedures.
 
-**3,045 entries** · Alphabetical · 21 pages.
+**3,201 entries** · Alphabetical · 22 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -304,8 +304,8 @@ Prompt libraries, agent workflows and reusable procedures.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
 - [@promptfoo/code-scan-action](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8667bb1eae7d1b76fbb8d25f.json) — GitHub Action for scanning PRs with promptfoo code-scan<br>
   Source: [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/promptfoo) · [code-scan-action/package.json](https://github.com/jamesrwatsonx-creator/promptfoo/blob/1205a2a2be77beb8505731515d0af1ee893cacb0/code-scan-action/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
-- [aa/checkout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad96c8119d1ed5ba04854e958.json) — Domain skill: American Airlines — booking checkout (aa.com). End-to-end guest checkout for a one-way revenue fare, through to the credit-card entry form. No antibot / CAPTCHA encountered on a clean, stock-Chrome CDP…<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/aa/checkout.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/aa/checkout.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [_evaluations.yaml](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afa19a3d8127a7927fc66aea3.json) — Source-declared workflow `_evaluations.yaml`.<br>
+  Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · [.github/workflows/_evaluations.yaml](https://github.com/jamesrwatsonx-creator/apify-mcp-server/blob/91ee491b7337575f8ba747ad7b39d64815659d4c/.github/workflows/_evaluations.yaml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 
 ## Pages
 
@@ -330,3 +330,4 @@ Prompt libraries, agent workflows and reusable procedures.
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
+- [Page 22](page-22.md)

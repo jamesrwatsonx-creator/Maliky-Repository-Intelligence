@@ -1,9 +1,11 @@
 # AI Agents — page 2
 
-2,914 catalog entries · Sorted alphabetically by name · Page 2 of 20.
+2,934 catalog entries · Sorted alphabetically by name · Page 2 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [agent-platform-alert-configuration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05226606223b4872673c262f.json) — Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics, generating output as Terraform (.tf) configuration files. Use when analyzing, writing, or deploying alerting policies to…<br>
+  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/agent-platform-alert-configuration/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/agent-platform-alert-configuration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [agent-self-evaluation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A01efe4bc2f95b7de8f4c4246.json) — Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/agent-self-evaluation/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/agent-self-evaluation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [agent-self-scheduling](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A67245d834c0816a2dbced837.json) — Make an AI agent run on a schedule, loop, or interval — cron, heartbeats, recurring autonomous checks. Use for "run every N minutes", "schedule a task", "run on a loop", "heartbeat". Covers external clocks (Claude…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/database/application_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/database/application_types.py#L1) · DATABASE · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [Baserow Email Compiler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A89416b58988f73c5bfb459c4.json) — Node.js build tool that compiles MJML and Eta email sources into Django templates, with one-shot and watch modes.<br>
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/email_compiler/package.json](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/email_compiler/package.json#L1) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
-- [Baserow Enterprise RBAC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5c38a8cb6b5618e676fdd0d.json) — Scoped roles and role assignments that grant operation sets to users or other subjects across workspaces and resources.<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [enterprise/backend/src/baserow_enterprise/role/models.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/enterprise/backend/src/baserow_enterprise/role/models.py#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 
 ## Pages
 

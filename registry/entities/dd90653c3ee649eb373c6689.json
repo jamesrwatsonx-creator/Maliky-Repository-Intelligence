@@ -1,0 +1,55 @@
+{
+  "id": "entity:dd90653c3ee649eb373c6689",
+  "entity_type": "LIBRARY",
+  "name": "useVapi",
+  "description": "React hook for starting and stopping Vapi calls and observing call status, speech activity, volume, completed messages and partial transcripts, with event-listener cleanup.",
+  "source": {
+    "repository_id": "repository:1427685858",
+    "repository_name": "jamesrwatsonx-creator/vapi-client-javascript-next",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next",
+    "upstream_url": "https://github.com/VapiAI/example-client-javascript-next",
+    "source_path": "hooks/useVapi.ts",
+    "inspected_commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
+    "inspection_date": "2026-10-21T23:36:34.217747+00:00",
+    "blob_sha": "292a9b4f836c0bcc1e2115c18126677571676f32",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/hooks/useVapi.ts#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications",
+    "category:frontend-applications",
+    "category:reference-implementations"
+  ],
+  "operational_category": "operational:07",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:vapi-react-call-lifecycle"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Next.js 14",
+      "React 18",
+      "@vapi-ai/web",
+      "Configured Vapi public token and remote voice service"
+    ],
+    "overlap": "Reference integration of the externally provided Vapi SDK. Components share the demo singleton and show-data model; adapt those dependencies before extraction.",
+    "language": null,
+    "license": "MIT"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "EXTRACT",
+  "contribution_role": "COMPONENT"
+}

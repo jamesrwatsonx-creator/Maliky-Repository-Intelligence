@@ -1,0 +1,51 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/LiveKit-index",
+    "commit": "9adf0144a2a501934df3e2be1a5067092be65b74",
+    "categories": ["category:documentation", "category:templates-boilerplates"],
+    "operational": "operational:07",
+    "recommendation": "REFERENCE",
+    "coverage_note": "Full six-file tree: the four text files are README, license, template registry and shared Taskfile. The external template repositories are links, not implementations owned inside this container. Deprecated aliases in the YAML are not independent assets. Retain the structured index and reusable bootstrap task definitions.",
+    "source_review": ["README.md", "templates.yaml", "taskfile.yaml", "LICENSE"],
+    "entity_defaults": {"standalone": "PARTIAL", "recommendation": "REFERENCE", "role": "REFERENCE", "dependencies": ["LiveKit CLI", "LiveKit platform", "External template repositories"], "overlap": "Complements owned LiveKit SDKs and agent implementations; index entries reference external source rather than shipping those implementations."},
+    "entities": [
+      {"type": "DATASET", "name": "LiveKit application template registry", "path": "templates.yaml", "description": "Structured registry of LiveKit voice-agent and application starter templates, including source URLs, frontend/backend requirements, configurable inputs and deprecated aliases for CLI and sandbox discovery.", "capabilities": [["livekit-template-discovery", "LiveKit application template discovery", ["LiveKit starter index", "voice agent template selection"]]]},
+      {"type": "TEMPLATE", "name": "LiveKit shared template bootstrap tasks", "path": "taskfile.yaml", "description": "Reusable Taskfile definitions for installing and running Python voice agents with uv or pip and Node frontends with pnpm, plus setup and LiveKit cloud deployment instructions.", "dependencies": ["Task runner", "Python uv or pip, or Node.js pnpm", "A compatible LiveKit template providing src/agent.py or package scripts"], "capabilities": [["livekit-template-bootstrap-tasks", "LiveKit template bootstrap tasks", ["LiveKit project setup", "voice agent template development"]]]}
+    ],
+    "implementation_details": ["Logos and license boilerplate", "External template descriptions and deprecated registry aliases are part of the DATASET, not independently verified external implementations"]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/vapi-client-javascript-next",
+    "commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
+    "description": "Next.js reference application connecting Vapi voice calls to a Broadway show recommendation and simulated ticket-confirmation interface.",
+    "categories": ["category:web-applications", "category:frontend-applications", "category:reference-implementations"],
+    "operational": "operational:07",
+    "recommendation": "REFERENCE",
+    "coverage_note": "Reviewed the full 27-text-file application tree. The repository is a Next.js demo using the external @vapi-ai/web SDK, not a reusable implementation of that SDK. Retained the application package, lifecycle hook, assistant configuration, domain UI components and webhook boundary. Framework shell pages, stock button, utility/type/config files and static show data are implementation details. Booking is simulated by UI state; no payment or ticket-provider execution exists.",
+    "source_review": ["package.json", "hooks/useVapi.ts", "lib/vapi.sdk.ts", "assistants/assistant.ts", "pages/api/webhook.ts", "components/app/assistant.tsx", "components/app/assistantButton.tsx", "components/app/display.tsx", "components/app/shows.tsx", "components/app/ticket.tsx"],
+    "entity_defaults": {"standalone": "PARTIAL", "recommendation": "REFERENCE", "role": "COMPONENT", "dependencies": ["Next.js 14", "React 18", "@vapi-ai/web", "Configured Vapi public token and remote voice service"], "overlap": "Reference integration of the externally provided Vapi SDK. Components share the demo singleton and show-data model; adapt those dependencies before extraction."},
+    "entities": [
+      {"type": "PACKAGE", "name": "satisfi-broadway-poc-next", "path": "package.json", "description": "Next.js reference application combining browser voice calls, assistant function messages and a Broadway show-selection interface; ticket booking is a simulated presentation workflow.", "role": "REFERENCE", "capabilities": [["voice-guided-show-selection-reference", "Voice-guided show selection reference", ["Vapi Next.js example", "Broadway voice assistant demo"]]]},
+      {"type": "LIBRARY", "name": "useVapi", "path": "hooks/useVapi.ts", "description": "React hook for starting and stopping Vapi calls and observing call status, speech activity, volume, completed messages and partial transcripts, with event-listener cleanup.", "recommendation": "EXTRACT", "capabilities": [["vapi-react-call-lifecycle", "Vapi React call lifecycle observation", ["Vapi call hook", "voice session status and transcripts"]]]},
+      {"type": "AGENT", "name": "Paula Broadway assistant configuration", "path": "assistants/assistant.ts", "description": "Vapi assistant configuration defining a Broadway recommendation prompt, show-suggestion and ticket-confirmation function schemas, an OpenAI model, ElevenLabs voice and a configurable webhook URL. It supplies conversation behavior and schemas, not real ticket fulfillment.", "metadata": {"runtime_tested": false, "deployment_warning": "Replace the historical ngrok fallback and model/voice configuration; restrict access and validate server messages before production."}, "capabilities": [["voice-show-assistant-configuration", "Voice show assistant configuration", ["Paula Broadway", "Vapi assistant function schemas"]]]},
+      {"type": "UI_COMPONENT", "name": "Assistant", "path": "components/app/assistant.tsx", "description": "Voice-assistant UI composition combining the call-lifecycle hook, conversation-driven display and microphone call control.", "capabilities": [["vapi-assistant-ui-composition", "Vapi assistant UI composition", ["voice assistant panel"]]]},
+      {"type": "UI_COMPONENT", "name": "AssistantButton", "path": "components/app/assistantButton.tsx", "description": "Microphone call control displaying inactive, loading and active states with microphone, spinner or stop icons and a volume-reactive glow.", "recommendation": "EXTRACT", "capabilities": [["voice-call-state-button", "Voice call state button", ["microphone status button", "audio-reactive call button"]]]},
+      {"type": "UI_COMPONENT", "name": "Display", "path": "components/app/display.tsx", "description": "Vapi function-message listener that switches between suggested shows, confirmation details and simulated ticket display, and sends the available show titles back to the assistant.", "capabilities": [["voice-function-driven-display", "Voice function-driven display", ["assistant tool-call UI routing"]]]},
+      {"type": "UI_COMPONENT", "name": "ShowsComponent", "path": "components/app/shows.tsx", "description": "Show recommendation cards displaying poster, title, theatre and price from the assistant-selected show list.", "capabilities": [["show-recommendation-cards", "Show recommendation cards", ["event listing cards"]]]},
+      {"type": "UI_COMPONENT", "name": "Ticket", "path": "components/app/ticket.tsx", "description": "Show-details confirmation card that sends user approval into a Vapi conversation and displays simulated booking success without performing a reservation or payment.", "metadata": {"deployment_warning": "Success is a demo UI state, not evidence that any ticket has been booked."}, "capabilities": [["voice-ticket-confirmation-ui", "Voice ticket confirmation UI", ["event booking confirmation reference"]]]},
+      {"type": "API", "name": "Vapi demo function webhook", "path": "pages/api/webhook.ts", "description": "Next.js POST webhook returning demo responses to Vapi function-call messages, including instructions to inspect show suggestions and echoed function parameters.", "recommendation": "REFERENCE", "metadata": {"deployment_warning": "No request authentication or schema validation; logs incoming messages. Add verification, validation and redaction before exposing real user traffic."}, "capabilities": [["vapi-function-webhook-reference", "Vapi function webhook reference", ["Vapi Next.js webhook"]]]}
+    ],
+    "exclude": [
+      {"id": "entity:29cd6b3dd5d2125ef970d76e", "reason": "Home page is application-specific composition of the retained Assistant, not another reusable UI capability."},
+      {"id": "entity:95214969b55156c86f98e059", "reason": "Next.js application shell is framework glue."},
+      {"id": "entity:ae728b4d680f54636a2dc74e", "reason": "Next.js HTML document shell is framework glue."}
+    ],
+    "relationships": [
+      {"type": "DEPENDS_ON", "from_name": "Assistant", "to_name": "useVapi", "path": "components/app/assistant.tsx"},
+      {"type": "DEPENDS_ON", "from_name": "Display", "to_name": "Ticket", "path": "components/app/display.tsx"},
+      {"type": "DEPENDS_ON", "from_name": "useVapi", "to_name": "Paula Broadway assistant configuration", "path": "hooks/useVapi.ts"}
+    ],
+    "scoped_review": {"triggers": ["sensitive conversation data", "webhook authorization", "apparent ticket booking"], "paths": ["pages/api/webhook.ts", "hooks/useVapi.ts", "assistants/assistant.ts", "components/app/ticket.tsx"], "conclusion": "Static review establishes a voice demo rather than a payment or booking engine. Browser and webhook paths log conversation payloads, and the webhook lacks authorization and input validation. Retain as a reference with explicit deployment warnings; add verification, redaction, real fulfillment and failure handling before production. No source code was executed."},
+    "implementation_details": ["Framework pages and document/app shells", "Stock styled button and class-name utility", "Fixture shows, environment wiring and message types"]
+  }
+]

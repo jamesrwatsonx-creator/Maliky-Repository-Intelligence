@@ -1,9 +1,17 @@
 # Repositories — page 5
 
-710 catalog entries · Sorted alphabetically by name · Page 5 of 5.
+717 catalog entries · Sorted alphabetically by name · Page 5 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399047793.json) — :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the…<br>
+  Source: [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/software-scanning-posthog) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Developer tools
+- [jamesrwatsonx-creator/spicedb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348825697.json) — Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data<br>
+  Source: [jamesrwatsonx-creator/spicedb](https://github.com/jamesrwatsonx-creator/spicedb) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404140.json) — SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.<br>
+  Source: [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/spiderfoot) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
+- [jamesrwatsonx-creator/spire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348829100.json) — The SPIFFE Runtime Environment<br>
+  Source: [jamesrwatsonx-creator/spire](https://github.com/jamesrwatsonx-creator/spire) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391184.json) — Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends<br>
   Source: [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/splink) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344512192.json) — The SDK For Browser Agents<br>
@@ -17,7 +25,7 @@
 - [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
   Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1314942199.json) — An agentic skills framework & software development methodology that works.<br>
-  Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · PARTIAL · PINNED_SOURCE · Skills
+  Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.<br>
   Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, Libraries/packages
 - [jamesrwatsonx-creator/Swerve](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359546446.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
@@ -31,7 +39,7 @@
 - [jamesrwatsonx-creator/syft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377990802.json) — CLI tool and library for generating a Software Bill of Materials from container images and filesystems<br>
   Source: [jamesrwatsonx-creator/syft](https://github.com/jamesrwatsonx-creator/syft) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/system_prompts_leaks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274986786.json) — Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok,…<br>
-  Source: [jamesrwatsonx-creator/system_prompts_leaks](https://github.com/jamesrwatsonx-creator/system_prompts_leaks) · REPOSITORY · PARTIAL · PINNED_SOURCE · Design systems, Developer tools
+  Source: [jamesrwatsonx-creator/system_prompts_leaks](https://github.com/jamesrwatsonx-creator/system_prompts_leaks) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Design systems, Developer tools
 - [jamesrwatsonx-creator/t3code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342847162.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
   Source: [jamesrwatsonx-creator/t3code](https://github.com/jamesrwatsonx-creator/t3code) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · AI agents, Developer tools, Mobile applications
 - [jamesrwatsonx-creator/tailscale](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348823351.json) — The easiest, most secure way to use WireGuard and 2FA.<br>
@@ -82,6 +90,8 @@
   Source: [jamesrwatsonx-creator/user-research-skill](https://github.com/jamesrwatsonx-creator/user-research-skill) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Research projects, Skills
 - [jamesrwatsonx-creator/v2](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396764902.json) — Minimalist and opinionated feed reader<br>
   Source: [jamesrwatsonx-creator/v2](https://github.com/jamesrwatsonx-creator/v2) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427685858.json) — Next.js reference application connecting Vapi voice calls to a Broadway show recommendation and simulated ticket-confirmation interface.<br>
+  Source: [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Frontend applications, Reference implementations
 - [jamesrwatsonx-creator/vectorbt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366366120.json) — The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.<br>
   Source: [jamesrwatsonx-creator/vectorbt](https://github.com/jamesrwatsonx-creator/vectorbt) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/vectorcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426108817.json) — VectorCraft: An open-source, vector art tool written by scratch in pure Rust<br>
@@ -194,6 +204,10 @@
   Source: [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/whiteboard) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
   Source: [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/widgets---web3-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428166841.json) — Javascript toolkit to interact with the World ID protocol. Building the Identity SDK.<br>
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+- [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428170367.json) — Open Iris Recognition Inference System (IRIS)<br>
+  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342848580.json) — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface<br>
   Source: [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/worldmonitor) · REPOSITORY · PARTIAL · PINNED_SOURCE · DevOps, Research projects
 - [jamesrwatsonx-creator/x402](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366366621.json) — A payments protocol for the internet. Built on HTTP.<br>
@@ -205,7 +219,7 @@
 - [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389400368.json) — Yelp Fusion API<br>
   Source: [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/yelp-fusion) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1335507455.json) — Download market data from Yahoo! Finance's API<br>
-  Source: [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/yfinance) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs
+  Source: [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/yfinance) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [jamesrwatsonx-creator/yopass-presence-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418873844.json) — Secure sharing of secrets, passwords and files<br>
   Source: [jamesrwatsonx-creator/yopass-presence-](https://github.com/jamesrwatsonx-creator/yopass-presence-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/your_spotify-workout-app-music-curator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418872346.json) — Self hosted Spotify tracking dashboard<br>

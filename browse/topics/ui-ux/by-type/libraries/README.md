@@ -2,7 +2,7 @@
 
 Libraries & Packages tagged under UI/UX.
 
-**32 entries** · Alphabetical · 1 page.
+**34 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -14,6 +14,10 @@ Libraries & Packages tagged under UI/UX.
   Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · [package.json](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template/blob/92872bc40ced2c5edb4d5dc9fd3970d40c77f4ca/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, Templates/boilerplates, Developer tools
 - [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
   Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
+- [Radix responsive prop engine](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A699b70b5159edf3960754faa.json) — Prop-definition engine applying defaults and enum validation, extracting theme props from DOM attributes and generating responsive classes and CSS custom properties through shared helper contracts.<br>
+  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/helpers/extract-props.ts](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/helpers/extract-props.ts#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
+- [Radix Themes control icons](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4e1aa033008bd35b8aa9bdba.json) — Public SVG control glyph bundle exposing ChevronDownIcon, ThickCheckIcon, ThickChevronRightIcon and ThickDividerHorizontalIcon for themed controls.<br>
+  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/icons.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/icons.tsx#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [Utopia Balancer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aef181d3d4e2e5e06902feb58.json) — Choice-balancing algorithms for random, round-robin and weighted selection.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/balancer/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/balancer/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Bus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4b822805e96a8f4e26cf2d62.json) — Synchronous in-process event bus with typed events and registered listeners.<br>

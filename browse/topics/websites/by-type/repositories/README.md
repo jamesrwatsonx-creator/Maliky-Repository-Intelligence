@@ -2,18 +2,20 @@
 
 Repositories tagged under Websites.
 
-**34 entries** · Alphabetical · 1 page.
+**37 entries** · Alphabetical · 1 page.
 
 [Back to Websites](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
 - [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342954494.json) — Clone any website with one command using AI coding agents<br>
   Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
 - [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools…<br>
-  Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
+  Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
 - [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
 - [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
+- [jamesrwatsonx-creator/bludit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418692689.json) — PHP flat-file CMS with JSON-backed content, administrative editing, HTTP content API, independently installable publishing plugins and three website themes.<br>
+  Source: [jamesrwatsonx-creator/bludit](https://github.com/jamesrwatsonx-creator/bludit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Media/publishing, Plugins/extensions
 - [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344452693.json) — 🌐 Make websites accessible for AI agents. Automate tasks online with ease.<br>
   Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/cc-switch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426078677.json) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io<br>
@@ -36,6 +38,8 @@ Repositories tagged under Websites.
   Source: [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/google-maps-scraper) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Research projects
 - [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418843708.json) — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.<br>
   Source: [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/homepage) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace — 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
+  Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Creative tools
 - [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424224768.json) — A UI framework that provides websites with the minimal CSS and JS needed to get started with building a modern responsive beautiful website<br>
   Source: [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/infima) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/maigret](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391872831.json) — 🕵️‍♂️ Collect a dossier on a person by username from 6K websites<br>
@@ -52,6 +56,8 @@ Repositories tagged under Websites.
   Source: [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/pomerado) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/reclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354335305.json) — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.<br>
   Source: [jamesrwatsonx-creator/reclip](https://github.com/jamesrwatsonx-creator/reclip) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Frontend applications
+- [jamesrwatsonx-creator/shadcn-calendar-heatmap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427704462.json) — Modern alternative to primitive react heatmaps.<br>
+  Source: [jamesrwatsonx-creator/shadcn-calendar-heatmap](https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Data visualization
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
   Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [jamesrwatsonx-creator/social-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391869786.json) — API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites<br>

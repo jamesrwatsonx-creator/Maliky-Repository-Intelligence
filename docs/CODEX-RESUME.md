@@ -5,51 +5,51 @@
 ## Durable checkpoint
 
 - Canonical branch: `recovery/v1-rebuild`
-- Local HEAD at generation: `6d57c514eb7102087b7276aedb98807aee6e34ed`
-- Latest known pushed SHA: `6d57c514eb7102087b7276aedb98807aee6e34ed`
-- Generated at: `2026-10-21T01:05:27.869694+00:00`
-- Checkpoint state: Validated Bitcart source-evidence reconciliation and semantic census pending commit and push
+- Local HEAD at generation: `a5ebaaa128473dc6830223aa5289d615cb3c5dea`
+- Latest known pushed SHA: `a5ebaaa128473dc6830223aa5289d615cb3c5dea`
+- Generated at: `2026-10-21T23:45:42.937922+00:00`
+- Checkpoint state: Validated live discovery, nine semantic completions and 30 pinned source passes; checkpoint pending commit and push
 
 ## Live discovery summary
 
-- Accessible repositories: 723
-- Public repositories: 710
+- Accessible repositories: 730
+- Public repositories: 717
 - Private repositories: 13
-- Discovery manifest public records: 710
-- Repositories discovered in the latest refresh: 144
-- Latest refresh repositories semantically complete: 8
+- Discovery manifest public records: 717
+- Repositories discovered in the latest refresh: 7
+- Latest refresh repositories semantically complete: 0
 
 ## Resume pointer
 
-- Last repository fully completed: jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-
-- Repository currently being processed: jamesrwatsonx-creator/bludit
-- Pinned commit: `7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8`
-- Current phase: `ENTITY_EXTRACTION`
-- Exact next action: Run the existing entity extraction pipeline for Bludit at pinned commit 7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8, review extracted candidates against source evidence, then complete its lean semantic census.
+- Last repository fully completed: jamesrwatsonx-creator/shadcn-calendar-heatmap
+- Repository currently being processed: jamesrwatsonx-creator/world-idkit-js
+- Pinned commit: `bd8ea11510afacf5c9b16220c97765a68e6fa57b`
+- Current phase: `CAPABILITY_ANALYSIS`
+- Exact next action: Complete the source-reviewed IDKit SDK/subpath/widget/hook census at pinned commit bd8ea11510afacf5c9b16220c97765a68e6fa57b using the generic cohort plan entrypoint, then review world-open-iris and Freebuff before continuing the lean semantic queue.
 - Next repositories in canonical queue:
-  - `jamesrwatsonx-creator/better-design-shadcn` — `ENTITY_EXTRACTION`
-  - `jamesrwatsonx-creator/canvas-ui` — `ENTITY_EXTRACTION`
-  - `jamesrwatsonx-creator/cursify-animated-cursors-` — `ENTITY_EXTRACTION`
-  - `jamesrwatsonx-creator/btcpayserver` — `ENTITY_EXTRACTION`
-  - `jamesrwatsonx-creator/chitchatter-telegram-DMs-group-chat-` — `ENTITY_EXTRACTION`
+  - `jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-` — `CAPABILITY_ANALYSIS`
+  - `jamesrwatsonx-creator/world-open-iris` — `CAPABILITY_ANALYSIS`
+  - `jamesrwatsonx-creator/voicebox` — `SEMANTIC_CENSUS_REVIEW`
+  - `jamesrwatsonx-creator/Wan2.1` — `CAPABILITY_ANALYSIS`
+  - `jamesrwatsonx-creator/geo-seo-claude` — `CAPABILITY_ANALYSIS`
 
 ## Canonical counts
 
-- Repository states: COMPLETE=25, DISCOVERED=143, NEEDS_REVIEW=74, PARTIAL=164, STRUCTURE_COMPLETE=304
-- Active entity records: 9188
-- Verified entity records: 8188
-- Candidate entity records: 1000
+- Repository states: COMPLETE=34, DISCOVERED=143, NEEDS_REVIEW=102, PARTIAL=135, STRUCTURE_COMPLETE=303
+- Active entity records: 9872
+- Verified entity records: 8298
+- Candidate entity records: 1574
 - Historical entity records: 0
-- Capability records: 1691
-- Search documents: 11589
-- JEV decision records: DEFERRED=83
+- Capability records: 2330
+- Search documents: 12919
+- JEV decision records: DEFERRED=115
 - Outstanding explicit deep review items: 0
 
 ## Validation
 
-- Registry validation: PASS (2026-10-21T01:04:19.456634+00:00)
-- Catalog validation: PASS: 710 repositories, 9,188 assets, 1,691 capabilities, 426 markdown files, 5,283 local links
-- Unit tests: PASS: 55 unit tests
+- Registry validation: PASS (2026-10-21T23:44:43.689058+00:00)
+- Catalog validation: PASS: 717 repositories, 9872 assets, 2330 capabilities, 443 markdown files, 5579 links
+- Unit tests: PASS: 62 tests
 - Publication guard: PASS
 
 ## Blockers

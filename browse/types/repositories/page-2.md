@@ -1,6 +1,6 @@
 # Repositories — page 2
 
-710 catalog entries · Sorted alphabetically by name · Page 2 of 5.
+717 catalog entries · Sorted alphabetically by name · Page 2 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -43,13 +43,13 @@
 - [jamesrwatsonx-creator/CoreShop-e-commerce-tools](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418737904.json) — CoreShop - Pimcore enhanced eCommerce<br>
   Source: [jamesrwatsonx-creator/CoreShop-e-commerce-tools](https://github.com/jamesrwatsonx-creator/CoreShop-e-commerce-tools) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/cosign](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348830267.json) — Code signing and transparency for containers and binaries<br>
-  Source: [jamesrwatsonx-creator/cosign](https://github.com/jamesrwatsonx-creator/cosign) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools
+  Source: [jamesrwatsonx-creator/cosign](https://github.com/jamesrwatsonx-creator/cosign) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Developer tools
 - [jamesrwatsonx-creator/cosmos](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342967666.json) — NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.<br>
   Source: [jamesrwatsonx-creator/cosmos](https://github.com/jamesrwatsonx-creator/cosmos) · REPOSITORY · PARTIAL · PINNED_SOURCE · DevOps
 - [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426096953.json) — Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from…<br>
   Source: [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/crawlee) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343178366.json) — A creative writing multi-agent solution to help users write articles.<br>
-  Source: [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/creative-writer) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
+  Source: [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/creative-writer) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/crewAI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346374481.json) — Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.<br>
   Source: [jamesrwatsonx-creator/crewAI](https://github.com/jamesrwatsonx-creator/crewAI) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Research projects
 - [jamesrwatsonx-creator/crm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426118840.json) — Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.<br>
@@ -109,7 +109,7 @@
 - [jamesrwatsonx-creator/dexpaprika-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427668753.json) — DexPaprika MCP server for real-time crypto token data, DEX trading activity, and DeFi analytics across multiple blockchains.<br>
   Source: [jamesrwatsonx-creator/dexpaprika-mcp](https://github.com/jamesrwatsonx-creator/dexpaprika-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/diagram-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331408082.json) — 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.<br>
-  Source: [jamesrwatsonx-creator/diagram-design](https://github.com/jamesrwatsonx-creator/diagram-design) · REPOSITORY · PARTIAL · PINNED_SOURCE · Design systems, Developer tools
+  Source: [jamesrwatsonx-creator/diagram-design](https://github.com/jamesrwatsonx-creator/diagram-design) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Design systems, Developer tools
 - [jamesrwatsonx-creator/diaspora---decentralized-social-network](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418756359.json) — A privacy-aware, distributed, open source social network.<br>
   Source: [jamesrwatsonx-creator/diaspora---decentralized-social-network](https://github.com/jamesrwatsonx-creator/diaspora---decentralized-social-network) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/DirectoryLister---maliky-repository-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418759789.json) — 📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.<br>
@@ -143,7 +143,7 @@
 - [jamesrwatsonx-creator/easyappointments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418774616.json) — :date: Easy!Appointments - Self Hosted Appointment Scheduler<br>
   Source: [jamesrwatsonx-creator/easyappointments](https://github.com/jamesrwatsonx-creator/easyappointments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, AI memory, Application security
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI memory, Application security
 - [jamesrwatsonx-creator/editly](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426076385.json) — Slick, declarative command line video editing & API<br>
   Source: [jamesrwatsonx-creator/editly](https://github.com/jamesrwatsonx-creator/editly) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/eip-7702-proxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661511.json) — A lightweight ERC-1967 proxy for EOA upgrades to `CoinbaseSmartWallet`<br>
@@ -219,7 +219,7 @@
 - [jamesrwatsonx-creator/fluidd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418828017.json) — Fluidd, the klipper UI.<br>
   Source: [jamesrwatsonx-creator/fluidd](https://github.com/jamesrwatsonx-creator/fluidd) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342813104.json) — Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp<br>
-  Source: [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/FluidVoice) · REPOSITORY · PARTIAL · PINNED_SOURCE · Generative AI, LLM projects
+  Source: [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/FluidVoice) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects
 - [jamesrwatsonx-creator/flutter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340232507.json) — Flutter makes it easy and fast to build beautiful apps for mobile and beyond<br>
   Source: [jamesrwatsonx-creator/flutter](https://github.com/jamesrwatsonx-creator/flutter) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965909.json) — A curated collection of 200+ Flutter open source projects to help developers learn and practice Flutter development.<br>
@@ -243,11 +243,13 @@
 - [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342409878.json) — 🧠 The Ultimate Directory of Free AI APIs & Tools for Developers 2026 — Free LLM APIs, Image Generation, Model Hosting, Local AI. No credit card. No paywall. 700+ resources.<br>
   Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, APIs, LLM projects
 - [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1305185750.json) — Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)<br>
-  Source: [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/free-claude-code) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Generative AI
+  Source: [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/free-claude-code) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Developer tools, Generative AI
 - [jamesrwatsonx-creator/free-for-dev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342404478.json) — A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev<br>
   Source: [jamesrwatsonx-creator/free-for-dev](https://github.com/jamesrwatsonx-creator/free-for-dev) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342410842.json) — A list of free LLM inference resources accessible via API.<br>
   Source: [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/free-llm-api-resources) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, LLM projects
+- [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427688443.json) — The free coding agent<br>
+  Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/freellmapi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1349915148.json) — 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal…<br>
   Source: [jamesrwatsonx-creator/freellmapi](https://github.com/jamesrwatsonx-creator/freellmapi) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/freqtrade](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350119232.json) — Free, open source crypto trading bot<br>
@@ -271,9 +273,9 @@
 - [jamesrwatsonx-creator/gbrain](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342868363.json) — Garry's Opinionated OpenClaw/Hermes Agent Brain<br>
   Source: [jamesrwatsonx-creator/gbrain](https://github.com/jamesrwatsonx-creator/gbrain) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/gemma](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343007137.json) — Gemma open-weight LLM library, from Google DeepMind<br>
-  Source: [jamesrwatsonx-creator/gemma](https://github.com/jamesrwatsonx-creator/gemma) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
+  Source: [jamesrwatsonx-creator/gemma](https://github.com/jamesrwatsonx-creator/gemma) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343007565.json) — lightweight, standalone C++ inference engine for Google's Gemma models.<br>
-  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
+  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/genea-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419816515.json) — Visually build and edit family trees online. Genea is a completely serverless solution for consuming and authoring GEDCOM genealogy data.<br>
   Source: [jamesrwatsonx-creator/genea-app](https://github.com/jamesrwatsonx-creator/genea-app) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/genealogy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419817498.json) — Genealogy is a free and open-source family tree PHP application to record family members and their relationships, build with LARAVEL 13.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/Go-native.](https://github.com/jamesrwatsonx-creator/Go-native.) · REPOSITORY · NEEDS_REVIEW · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · APIs
 - [jamesrwatsonx-creator/goclaw](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1329039265.json) — GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety.<br>
   Source: [jamesrwatsonx-creator/goclaw](https://github.com/jamesrwatsonx-creator/goclaw) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Application security, DevOps
-- [jamesrwatsonx-creator/godot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343013288.json) — Godot Engine – Multi-platform 2D and 3D game engine<br>
-  Source: [jamesrwatsonx-creator/godot](https://github.com/jamesrwatsonx-creator/godot) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 
 ## Pages
 

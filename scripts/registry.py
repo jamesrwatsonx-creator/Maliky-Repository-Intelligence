@@ -282,6 +282,15 @@ def detect(path,text,diagnostics=None):
         if name.endswith(('.tsx','.jsx')):
             for m in re.finditer(r'export\s+(?:default\s+)?(?:function|class|const)\s+([A-Z][A-Za-z0-9_]*)',text):
                 if re.search(r'<[A-Za-z]',text): add('UI_COMPONENT',m[1],'Exported JSX component candidate',text[:m.start()].count('\n')+1)
+            # React libraries often define forwardRef components first and
+            # export them in a final list. Keep type-only/re-export lists out.
+            if re.search(r'<[A-Za-z]',text):
+                local_names=set(re.findall(r'\b(?:function|class|const)\s+([A-Z][A-Za-z0-9_]*)',text))
+                for block in re.finditer(r'\bexport\s*\{([^}]+)\}(?!\s*from\b)',text):
+                    for item in block[1].split(','):
+                        match=re.fullmatch(r'\s*([A-Z][A-Za-z0-9_]*)(?:\s+as\s+([A-Z][A-Za-z0-9_]*))?\s*',item)
+                        if match and match[1] in local_names:
+                            add('UI_COMPONENT',match[2] or match[1],'Locally defined JSX export candidate',text[:block.start()].count('\n')+1)
     if name.endswith('.go') and ('mcp-go' in text or 'modelcontextprotocol' in text):
         for m in re.finditer(r'\bmcp\.NewTool\(\s*"([^\"]+)"',text): add('TOOL',m[1],'Explicit Go MCP tool declaration',text[:m.start()].count('\n')+1)
         for m in re.finditer(r'\bserver\.NewMCPServer\(\s*"([^\"]+)"',text): add('MCP_SERVER',m[1],'Go MCP server constructor',text[:m.start()].count('\n')+1)

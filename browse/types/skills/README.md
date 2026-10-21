@@ -2,7 +2,7 @@
 
 Individually searchable skills from the public owned catalog.
 
-**3,178 entries** · Alphabetical · 22 pages.
+**3,293 entries** · Alphabetical · 22 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -220,6 +220,8 @@ Individually searchable skills from the public owned catalog.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/android-clean-architecture/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/android-clean-architecture/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [android-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7385d632a8cac59538655198.json) — Create production-quality Android applications following Google's official architecture guidance and NowInAndroid best practices. Use when building Android apps with Kotlin, Jetpack Compose, MVVM architecture, Hilt…<br>
   Source: [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/claude-android-skill) · [SKILL.md](https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [android-maps-compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0839d3b575821becacf37738.json) — Guide for integrating the android-maps-compose library into an Android application. Use when users ask to add Google Maps Compose to their Android app or set up Maps in Compose.<br>
+  Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · [.gemini/skills/android-maps-compose/SKILL.md](https://github.com/jamesrwatsonx-creator/android-maps-compose/blob/7dec2b7a38260821970160373836bed126458d80/.gemini/skills/android-maps-compose/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [angular-developer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A148ca48c68a5db7a33f1ebc3.json) — Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection,…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/angular-developer/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/angular-developer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [angular-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adeb4593e6869cbdb2eb857cd.json) — Angular development patterns including modules, components, services, dependency injection, signals, and enterprise architecture.<br>
@@ -304,8 +306,6 @@ Individually searchable skills from the public owned catalog.
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/archive-org/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/archive-org/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [argparse-scaffolder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aed03b21f5b935ce7c3c491a1.json) — Generate argparse-based Python CLI applications with subparsers, type converters, and standard library patterns. Creates lightweight Python CLIs without external dependencies.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/argparse-scaffolder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/argparse-scaffolder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [argument-mapping-reconstruction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A40eb6a33ff380b18aa2da128.json) — Extract arguments from complex texts, identify premises, conclusions, and implicit assumptions, and create visual argument maps using Toulmin model or standard form<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/skills/argument-mapping-reconstruction/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/skills/argument-mapping-reconstruction/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

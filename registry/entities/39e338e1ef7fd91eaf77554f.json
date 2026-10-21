@@ -1,0 +1,55 @@
+{
+  "id": "entity:39e338e1ef7fd91eaf77554f",
+  "entity_type": "UI_COMPONENT",
+  "name": "TabNav",
+  "description": "Themed tab-shaped link navigation built from Radix navigation-menu root/list/item/link primitives.",
+  "source": {
+    "repository_id": "repository:1427687237",
+    "repository_name": "jamesrwatsonx-creator/Radix-themes",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/Radix-themes",
+    "upstream_url": "https://github.com/radix-ui/themes",
+    "source_path": "packages/radix-ui-themes/src/components/tab-nav.tsx",
+    "inspected_commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+    "inspection_date": "2026-10-21T23:43:17.919454+00:00",
+    "blob_sha": "4556487c7b7d2615bca0a0814185961c999ce6b3",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/tab-nav.tsx#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:design-systems",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:17",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:react-tab-link-navigation"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "React and React DOM",
+      "@radix-ui/themes styles and Theme context",
+      "radix-ui primitives",
+      "classnames"
+    ],
+    "overlap": "A public Radix Themes module. Multipart Root/Trigger/Content APIs are one collaborating reusable boundary. Raw Radix primitives supply behavior; this package adds theme integration, styled APIs and responsive props. Prefer the package boundary over copying files with unresolved internal imports.",
+    "language": "TypeScript and React",
+    "license": "MIT",
+    "runtime_tested": false
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "COMPONENT"
+}

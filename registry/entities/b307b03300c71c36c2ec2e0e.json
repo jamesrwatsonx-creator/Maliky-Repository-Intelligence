@@ -1,0 +1,49 @@
+{
+  "id": "entity:b307b03300c71c36c2ec2e0e",
+  "entity_type": "SKILL",
+  "name": "cavecrew",
+  "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subagent output is caveman-compressed so the tool-result injected back into main context is ~60% smaller — main context lasts longer across long sessions. Trigger: \"delegate to subagent\", \"use cavecrew\", \"spawn investigator/builder/reviewer\", \"save context\", \"compressed agent output\".",
+  "source": {
+    "repository_id": "repository:1314943639",
+    "repository_name": "jamesrwatsonx-creator/caveman",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/caveman",
+    "upstream_url": "https://github.com/JuliusBrussee/caveman",
+    "source_path": "skills/cavecrew/SKILL.md",
+    "inspected_commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
+    "inspection_date": "2026-10-21T23:37:52.889267+00:00",
+    "blob_sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_path",
+      "value": "skills/cavecrew/SKILL.md"
+    },
+    {
+      "type": "manifest",
+      "value": "cavecrew"
+    }
+  ],
+  "review_status": "NEEDS_REVIEW",
+  "categories": [
+    "category:skills"
+  ],
+  "operational_category": "operational:01",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:caveman-skill-cavecrew"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "semantic_review": "Static source-declaration candidate; semantic review pending.",
+    "candidate_recommendation": "USE DIRECTLY"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "NEEDS DEEPER REVIEW",
+  "contribution_role": "SKILL"
+}

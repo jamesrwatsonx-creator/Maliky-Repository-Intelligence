@@ -2,7 +2,7 @@
 
 APIs tagged under Voice, STT & TTS.
 
-**125 entries** · Alphabetical · 1 page.
+**126 entries** · Alphabetical · 1 page.
 
 [Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -254,5 +254,7 @@ APIs tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L229) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [upsert_mcp_binding](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac746a3f7857acf1ed40e8e2f.json) — Create-or-update a binding. Matches by client_id.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/mcp_bindings.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/mcp_bindings.py#L41) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [Vapi demo function webhook](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa35a704e87bd1e05379ccb27.json) — Next.js POST webhook returning demo responses to Vapi function-call messages, including instructions to inspect show suggestions and echoed function parameters.<br>
+  Source: [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next) · [pages/api/webhook.ts](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/pages/api/webhook.ts#L1) · API · VERIFIED · PINNED_SOURCE · Web applications, Frontend applications, Reference implementations
 - [watchdog_disable](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3ffc7b9a014c719340d3bb18.json) — Disable the parent process watchdog so the server keeps running.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/health.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/health.py#L48) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs

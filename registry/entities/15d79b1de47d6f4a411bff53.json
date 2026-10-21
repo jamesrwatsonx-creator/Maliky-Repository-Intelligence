@@ -1,0 +1,55 @@
+{
+  "id": "entity:15d79b1de47d6f4a411bff53",
+  "entity_type": "PLUGIN",
+  "name": "Bludit TinyMCE integration",
+  "description": "Integrates the bundled TinyMCE HTML editor with CMS toolbars, context menus, code-sample language choices and media insertion hooks.",
+  "source": {
+    "repository_id": "repository:1418692689",
+    "repository_name": "jamesrwatsonx-creator/bludit",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bludit",
+    "upstream_url": "https://github.com/bludit/bludit",
+    "source_path": "bl-plugins/tinymce/plugin.php",
+    "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
+    "inspection_date": "2026-10-21T23:37:46.208765+00:00",
+    "blob_sha": "71ddcd9e7bb5868c6f220304d241afa85d8d23a9",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-plugins/tinymce/plugin.php#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:web-applications",
+    "category:media-publishing",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:cms-wysiwyg-html-editing"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bludit 4.0 plugin/theme lifecycle",
+      "PHP 8+",
+      "Bludit JSON stores and global runtime objects"
+    ],
+    "overlap": "Independent Bludit extension or subsystem; compose with the CMS host rather than treating internal lifecycle methods as separate assets.",
+    "language": "PHP and JavaScript",
+    "license": "Bundled TinyMCE: GPL-2.0-or-later per its pinned license.md; bundled DOMPurify retains Apache-2.0/MPL-2.0 notices",
+    "deployment_warning": "Root CMS MIT metadata does not replace the bundled editor's license obligations."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "MODULE"
+}

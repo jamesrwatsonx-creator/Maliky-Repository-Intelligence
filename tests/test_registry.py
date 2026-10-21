@@ -32,6 +32,10 @@ class DetectionTests(unittest.TestCase):
         entry={'path':'a/SKILL.md','sha':'a'*40}; f={'type':'SKILL','symbol':'test','description':'','line':1}
         self.assertEqual(m.entity_record(repo,'a'*40,entry,f)['id'],m.entity_record(repo,'b'*40,entry,f)['id'])
         self.assertNotEqual(m.entity_record(repo,'a'*40,entry,f)['id'],m.entity_record(repo,'a'*40,{**entry,'path':'b/SKILL.md'},f)['id'])
+    def test_local_jsx_export_lists_detect_forward_ref_and_aliases(self):
+        text='const Button=React.forwardRef((props,ref)=><button ref={ref} {...props}/>); export { Button }; export type { ButtonProps }; export { Missing } from "./other";'
+        self.assertEqual([x['symbol'] for x in m.detect('button.tsx',text)],['Button'])
+        self.assertEqual(m.detect('button.tsx',text.replace('export { Button }','export { Button as PrimaryButton }'))[0]['symbol'],'PrimaryButton')
     def test_paths_and_blob_hash(self):
         self.assertFalse(m.safe_path('../escape')); self.assertFalse(m.safe_path('/root')); self.assertFalse(m.safe_path('a\\b'))
         self.assertTrue(m.safe_path('skills/x/SKILL.md'))
@@ -155,5 +159,69 @@ class RegistryIntegrityTests(unittest.TestCase):
         result=m.prune_orphan_capabilities()
         self.assertEqual(result,{'updated':0,'removed':1})
         self.assertIsNotNone(m.read('registry/capabilities/kept.json')); self.assertIsNone(m.read('registry/capabilities/stale.json'))
+
+    def review_fixture(self):
+        repo=self.repo(); commit='a'*40
+        text=b'---\nname: editing\ndescription: Rewrite prose while preserving facts.\n---\nReview the text and correct awkward sentences.\n'
+        blob=m.git_blob(text); repo['inspected_commit']=commit; m.write(m.repo_file(repo),repo)
+        cp=m.cache_path(repo,commit)
+        m.write(cp/'tree.json',{'tree':[{'path':'SKILL.md','type':'blob','sha':blob}],'truncated':False})
+        source=m.ROOT/cp/'blobs'/blob; source.parent.mkdir(); source.write_bytes(text)
+        m.ingest(repo['full_name'],offline=True)
+        item={'type':'SKILL','name':'editing','path':'SKILL.md',
+              'description':'Rewrite prose while preserving facts.',
+              'capabilities':[['prose-editing','Prose editing',['rewrite prose']]],
+              'standalone':'YES','dependencies':['Instruction-following agent'],
+              'overlap':'A prompt-based editing workflow, independently reusable from its host repository.',
+              'recommendation':'USE DIRECTLY'}
+        plan={'repository':repo['full_name'],'commit':commit,'entities':[item],
+              'coverage_note':'Full tree has one skill; body confirms the editing workflow.',
+              'source_review':['SKILL.md'],'categories':['category:skills'],
+              'operational':'operational:01','recommendation':'USE DIRECTLY'}
+        return repo,plan,source
+
+    def test_explicit_review_plan_completes_pinned_census(self):
+        repo,plan,_=self.review_fixture()
+        result=promotion.apply_review_plan(plan)
+        self.assertEqual(result['state'],'COMPLETE')
+        self.assertEqual(m.records('entities')[0]['review_status'],'VERIFIED')
+        self.assertEqual(m.read(m.repo_file(repo))['semantic_review_progress']['reviewer'],'Source-reviewed cohort decision')
+        m.build(); self.assertTrue(m.validate()['valid'])
+
+    def test_review_plan_cannot_omit_candidates(self):
+        _,plan,_=self.review_fixture(); plan['entities']=[]
+        with self.assertRaisesRegex(ValueError,'omits existing candidates'):
+            promotion.apply_review_plan(plan)
+        self.assertEqual(m.records('entities')[0]['review_status'],'NEEDS_REVIEW')
+
+    def test_review_plan_rejects_corrupted_cached_source_before_writes(self):
+        _,plan,source=self.review_fixture(); source.write_bytes(b'changed')
+        with self.assertRaisesRegex(RuntimeError,'blob hash mismatch'):
+            promotion.apply_review_plan(plan)
+        self.assertEqual(m.records('entities')[0]['review_status'],'NEEDS_REVIEW')
+
+    def test_completed_review_reconciliation_only_fills_zero_families(self):
+        repo,plan,_=self.review_fixture(); promotion.apply_review_plan(plan)
+        repo=m.read(m.repo_file(repo)); repo['state']='NEEDS_REVIEW'; repo['next_phase']='CAPABILITY_ANALYSIS'
+        repo['entity_census']['API']={'detected':0,'catalogued':0,'reviewed':False}
+        repo['semantic_review_progress']['scoped_deep_review']='Instruction-only workflow; no executable runtime included.'
+        result=promotion.reconcile_completed_review(repo)
+        self.assertEqual(result['state'],'COMPLETE')
+        self.assertTrue(m.read(m.repo_file(repo))['entity_census']['API']['reviewed'])
+        repo['state']='NEEDS_REVIEW'; repo['next_phase']='CAPABILITY_ANALYSIS'
+        repo['entity_census']['SKILL']['reviewed']=False
+        self.assertIsNone(promotion.reconcile_completed_review(repo))
+
+    def test_explicit_plan_replay_keeps_canonical_identity(self):
+        _,plan,_=self.review_fixture()
+        promotion.apply_review_plan(plan); promotion.apply_review_plan(plan)
+        self.assertEqual(len(m.records('entities')),1)
+        self.assertEqual(len(m.records('capabilities')),1)
+
+    def test_concise_review_capability_has_stable_identity(self):
+        _,plan,_=self.review_fixture(); item=plan['entities'][0]
+        item.pop('capabilities'); item['capability']='Prose editing'
+        promotion.apply_review_plan(plan)
+        self.assertEqual(m.records('entities')[0]['capabilities'],['capability:prose-editing'])
 
 if __name__=='__main__': unittest.main()

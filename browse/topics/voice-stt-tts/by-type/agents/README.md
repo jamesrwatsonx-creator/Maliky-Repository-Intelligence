@@ -2,12 +2,14 @@
 
 Agents & Frameworks tagged under Voice, STT & TTS.
 
-**4 entries** · Alphabetical · 1 page.
+**5 entries** · Alphabetical · 1 page.
 
 [Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
 - [documentary-linguist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3228372161482b07ee694d.json) — Conduct language documentation and linguistic analysis including phonetic transcription, grammatical analysis, language endangerment, corpus development, and elicitation methods<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/agents/documentary-linguist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [Paula Broadway assistant configuration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad157fa85920e9696b5478e1a.json) — Vapi assistant configuration defining a Broadway recommendation prompt, show-suggestion and ticket-confirmation function schemas, an OpenAI model, ElevenLabs voice and a configurable webhook URL. It supplies…<br>
+  Source: [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next) · [assistants/assistant.ts](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/assistants/assistant.ts#L1) · AGENT · VERIFIED · PINNED_SOURCE · Web applications, Frontend applications, Reference implementations
 - [persona-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad48c4d59640762b0f6778b1b.json) — Creates chatbot personas and brand voice guidelines<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/persona-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/persona-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [persona-designer-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14109309f9cafc6cc15537e6.json) — Artist persona designer agent for creating comprehensive musical artist identities including backstory, artistic voice, visual aesthetic, discography arc, and character traits<br>

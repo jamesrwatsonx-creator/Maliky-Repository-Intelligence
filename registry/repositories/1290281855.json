@@ -18,7 +18,7 @@
     "archived": false,
     "pushed_at": "2026-07-05T14:05:20Z"
   },
-  "state": "PARTIAL",
+  "state": "NEEDS_REVIEW",
   "inspected_commit": "e1b6a66a4e69d51e811e135376815fc361a8d295",
   "current_commit": "e1b6a66a4e69d51e811e135376815fc361a8d295",
   "inspection_date": "2026-09-20T05:32:50.917794+00:00",
@@ -32,7 +32,58 @@
     "operational:03",
     "operational:24"
   ],
-  "capabilities": [],
+  "capabilities": [
+    "capability:loop-engineering-agent-loop-verifier",
+    "capability:loop-engineering-cli-goal-audit",
+    "capability:loop-engineering-cli-loop-audit",
+    "capability:loop-engineering-cli-loop-context",
+    "capability:loop-engineering-cli-loop-cost",
+    "capability:loop-engineering-cli-loop-init",
+    "capability:loop-engineering-cli-loop-mcp-server",
+    "capability:loop-engineering-cli-loop-sync",
+    "capability:loop-engineering-mcp-server-loop-engineering",
+    "capability:loop-engineering-package-cobusgreyling-goal-audit",
+    "capability:loop-engineering-package-cobusgreyling-loop-audit",
+    "capability:loop-engineering-package-cobusgreyling-loop-context",
+    "capability:loop-engineering-package-cobusgreyling-loop-cost",
+    "capability:loop-engineering-package-cobusgreyling-loop-init",
+    "capability:loop-engineering-package-cobusgreyling-loop-mcp-server",
+    "capability:loop-engineering-package-cobusgreyling-loop-sync",
+    "capability:loop-engineering-package-fixture",
+    "capability:loop-engineering-package-loop-engineering",
+    "capability:loop-engineering-skill-changelog-scan",
+    "capability:loop-engineering-skill-ci-triage",
+    "capability:loop-engineering-skill-dependency-triage",
+    "capability:loop-engineering-skill-draft-release-notes",
+    "capability:loop-engineering-skill-goal-verifier",
+    "capability:loop-engineering-skill-issue-triage",
+    "capability:loop-engineering-skill-loop-budget",
+    "capability:loop-engineering-skill-loop-triage",
+    "capability:loop-engineering-skill-loop-verifier",
+    "capability:loop-engineering-skill-minimal-fix",
+    "capability:loop-engineering-skill-post-merge-scan",
+    "capability:loop-engineering-skill-pr-review-triage",
+    "capability:loop-engineering-tool-loop-estimate-cost",
+    "capability:loop-engineering-tool-loop-get-pattern",
+    "capability:loop-engineering-tool-loop-get-skill",
+    "capability:loop-engineering-tool-loop-get-state",
+    "capability:loop-engineering-tool-loop-list-patterns",
+    "capability:loop-engineering-tool-loop-list-skills",
+    "capability:loop-engineering-tool-loop-list-state-files",
+    "capability:loop-engineering-tool-loop-recommend-pattern",
+    "capability:loop-engineering-workflow-changelog-drafter-dogfood",
+    "capability:loop-engineering-workflow-daily-triage-dogfood",
+    "capability:loop-engineering-workflow-loop-readiness-audit-dogfood",
+    "capability:loop-engineering-workflow-publish-goal-audit-bootstrap",
+    "capability:loop-engineering-workflow-release-goal-audit",
+    "capability:loop-engineering-workflow-release-loop-audit",
+    "capability:loop-engineering-workflow-release-loop-context",
+    "capability:loop-engineering-workflow-release-loop-cost",
+    "capability:loop-engineering-workflow-release-loop-init",
+    "capability:loop-engineering-workflow-release-loop-sync",
+    "capability:loop-engineering-workflow-validate-patterns-registry",
+    "capability:loop-engineering-workflow-welcome-contributors"
+  ],
   "studios": [],
   "ideas": [],
   "scores": {},
@@ -42,206 +93,236 @@
   "entity_census": {
     "SKILL": {
       "detected": 38,
-      "catalogued": 0,
-      "detection_scope": "complete_tree_paths",
+      "catalogued": 38,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "MCP_SERVER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 2,
+      "catalogued": 2,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "MCP_CLIENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "TOOL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 16,
+      "catalogued": 16,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "PLUGIN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "AGENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 6,
+      "catalogued": 6,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "AGENT_FRAMEWORK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "WORKFLOW": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 12,
+      "catalogued": 12,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "UI_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "DESIGN_SYSTEM": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "PROMPT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "PROMPT_LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "SERVICE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "API": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "SDK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "PACKAGE": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 9,
+      "catalogued": 9,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "MODEL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "MODEL_ADAPTER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "DATASET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "BENCHMARK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "DATABASE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "CONNECTOR": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "INTEGRATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "AUTOMATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "CLI": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detected": 7,
+      "catalogued": 7,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "APP": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "INFRASTRUCTURE_MODULE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "TEMPLATE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "REFERENCE_IMPLEMENTATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "DOCUMENTATION_ASSET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     },
     "OTHER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "read_source_declarations",
+      "detection_scope": "pinned source declarations; semantic review pending",
+      "reviewed": false
+    },
+    "WEBSITE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "pinned source declarations; semantic review pending",
+      "reviewed": false
+    },
+    "WEBSITE_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "pinned source declarations; semantic review pending",
+      "reviewed": false
+    },
+    "DESIGN_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "pinned source declarations; semantic review pending",
+      "reviewed": false
+    },
+    "SCREEN_REFERENCE": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "pinned source declarations; semantic review pending",
+      "reviewed": false
+    },
+    "UI_PATTERN": {
+      "detected": 0,
+      "catalogued": 0,
+      "detection_scope": "pinned source declarations; semantic review pending",
       "reviewed": false
     }
   },
@@ -257,7 +338,7 @@
     "deep_review": false,
     "validation": false
   },
-  "visibility_verified_at": "2026-10-20T23:51:45.085472+00:00",
+  "visibility_verified_at": "2026-10-21T23:09:25.793434+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -278,10 +359,10 @@
     "unverified_source_files": 4
   },
   "tree_files": 408,
-  "files_read": 3,
-  "entity_count": 0,
-  "unread_source_files": 348,
-  "next_phase": "ENTITY_EXTRACTION",
+  "files_read": 352,
+  "entity_count": 90,
+  "unread_source_files": 0,
+  "next_phase": "CAPABILITY_ANALYSIS",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -291,5 +372,13 @@
     ],
     "updated_at": "2026-10-12T19:04:27.205432+00:00",
     "purpose_established": true
+  },
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
+  "semantic_review_progress": {
+    "status": "PENDING",
+    "review_policy": "LEAN",
+    "reason": "static_candidates_require_semantic_review",
+    "candidate_entity_count": 90,
+    "source_errors": []
   }
 }

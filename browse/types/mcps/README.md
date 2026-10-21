@@ -2,7 +2,7 @@
 
 Individually searchable mcp servers from the public owned catalog.
 
-**10 entries** · Alphabetical · 1 page.
+**14 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -18,6 +18,14 @@ Individually searchable mcp servers from the public owned catalog.
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [internal/ghmcp/server.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/internal/ghmcp/server.go#L135) · MCP_SERVER · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [hermes-mcp-serve](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4b34893ac4f0ce288fd34e80.json) — Hermes MCP server: exposes messaging conversations as MCP tools (conversations, messages, events, attachments and approval responses).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [mcp_serve.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/mcp_serve.py#L1) · MCP_SERVER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [loop-engineering](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A238de32f73e1bd457f543644.json) — MCP server constructor<br>
+  Source: [jamesrwatsonx-creator/loop-engineering](https://github.com/jamesrwatsonx-creator/loop-engineering) · [tools/mcp-server/src/index.ts](https://github.com/jamesrwatsonx-creator/loop-engineering/blob/e1b6a66a4e69d51e811e135376815fc361a8d295/tools/mcp-server/src/index.ts#L21) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
+- [loop-engineering](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad0a1c5b0a6327fac33178bf9.json) — MCP server constructor<br>
+  Source: [jamesrwatsonx-creator/loop-engineering](https://github.com/jamesrwatsonx-creator/loop-engineering) · [tools/mcp-server/dist/index.js](https://github.com/jamesrwatsonx-creator/loop-engineering/blob/e1b6a66a4e69d51e811e135376815fc361a8d295/tools/mcp-server/dist/index.js#L6) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
+- [mapping-contract-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6180744107c4269cbedc605f.json) — MCP server constructor<br>
+  Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [common/src/mcp/__tests__/call-mcp-tool-resources.test.ts](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/common/src/mcp/__tests__/call-mcp-tool-resources.test.ts#L22) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
+- [mapping-contract-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A815df59887a347e31e9554b0.json) — MCP server constructor<br>
+  Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [common/src/mcp/__tests__/mapping-contract-server.ts](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/common/src/mcp/__tests__/mapping-contract-server.ts#L5) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
 - [markitdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e2101be69d33c5bd611edb6.json) — MCP server constructor<br>
   Source: [jamesrwatsonx-creator/markitdown](https://github.com/jamesrwatsonx-creator/markitdown) · [packages/markitdown-mcp/src/markitdown_mcp/__main__.py](https://github.com/jamesrwatsonx-creator/markitdown/blob/9dc0d6579b8739c9d0671ff205e071e3053c7df1/packages/markitdown-mcp/src/markitdown_mcp/__main__.py#L17) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
 - [ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3d8a0e81eff3fda8b2f64bb.json) — MCP server constructor<br>

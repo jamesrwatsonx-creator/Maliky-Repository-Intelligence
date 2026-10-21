@@ -2,7 +2,7 @@
 
 iOS apps, Swift components and Apple platform tooling.
 
-**75 entries** · Alphabetical · 1 page.
+**78 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -12,6 +12,10 @@ iOS apps, Swift components and Apple platform tooling.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/skills/appium-mobile/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/skills/appium-mobile/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [aso-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A480aa4d226c75ecc6ce3f87a.json) — Agent specialized in App Store Optimization (ASO), including keyword research, metadata optimization, screenshot strategy, A/B testing, review management, and conversion rate optimization for iOS App Store and Google…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/agents/aso-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/agents/aso-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [Build iOS Fabric Example](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A38e7a31d1087c6f3ad183da1.json) — Source-declared workflow `Build iOS Fabric Example`.<br>
+  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · [.github/workflows/ios-fabric-build.yml](https://github.com/jamesrwatsonx-creator/lottie-react-native/blob/2d60a7b0b6782d1f606991654880b993566dba6d/.github/workflows/ios-fabric-build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
+- [Build iOS v8 Example](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa7ecb5d9a7492dd0b749b539.json) — Source-declared workflow `Build iOS v8 Example`.<br>
+  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · [.github/workflows/ios-v8-build.yml](https://github.com/jamesrwatsonx-creator/lottie-react-native/blob/2d60a7b0b6782d1f606991654880b993566dba6d/.github/workflows/ios-v8-build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [cisco-ios-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab0356f67984a477376f6ec25.json) — Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when reading, writing, or reviewing Cisco IOS /…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/cisco-ios-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/cisco-ios-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [deep-linking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A74c7f0acc504b1c5081529d9.json) — Universal links and deep linking skill for implementing iOS Universal Links, Android App Links, custom URL schemes, and deferred deep linking across mobile platforms.<br>
@@ -70,6 +74,8 @@ iOS apps, Swift components and Apple platform tooling.
   Source: [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Flutter-Awesome-Projects) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340230037.json) — Render After Effects animations natively on Android and iOS, Web, and React Native<br>
   Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346669105.json) — Lottie wrapper for React Native.<br>
+  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376782785.json) — Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/<br>
   Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388271305.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>

@@ -1,9 +1,13 @@
 # Repositories — page 4
 
-710 catalog entries · Sorted alphabetically by name · Page 4 of 5.
+717 catalog entries · Sorted alphabetically by name · Page 4 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/n8n](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1275677238.json) — Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.<br>
+  Source: [jamesrwatsonx-creator/n8n](https://github.com/jamesrwatsonx-creator/n8n) · REPOSITORY · PARTIAL · PINNED_SOURCE · Automation/scripting, Developer tools
+- [jamesrwatsonx-creator/nats-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348828347.json) — High-Performance server for NATS.io, the cloud and edge native messaging system.<br>
+  Source: [jamesrwatsonx-creator/nats-server](https://github.com/jamesrwatsonx-creator/nats-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/nautilus_trader](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366361178.json) — Production-grade Rust-native trading engine with deterministic event-driven architecture<br>
   Source: [jamesrwatsonx-creator/nautilus_trader](https://github.com/jamesrwatsonx-creator/nautilus_trader) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/ncnn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247339221.json) — ncnn is a high-performance neural network inference framework optimized for the mobile platform<br>
@@ -125,7 +129,7 @@
 - [jamesrwatsonx-creator/pgContext](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1319436169.json) — A full AI search engine, built into Postgres.<br>
   Source: [jamesrwatsonx-creator/pgContext](https://github.com/jamesrwatsonx-creator/pgContext) · REPOSITORY · PARTIAL · PINNED_SOURCE · Research projects
 - [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1319434590.json) — Open-source graph database superpowers for your existing Postgres data.<br>
-  Source: [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/pgGraph) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+  Source: [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/pgGraph) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344550925.json) — Open-source vector similarity search for Postgres<br>
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
 - [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418655545.json) — let your agent control your phone<br>
@@ -188,6 +192,8 @@
   Source: [jamesrwatsonx-creator/Qwen3-VL](https://github.com/jamesrwatsonx-creator/Qwen3-VL) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages, LLM projects
 - [jamesrwatsonx-creator/QwenPaw](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343004169.json) — Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.<br>
   Source: [jamesrwatsonx-creator/QwenPaw](https://github.com/jamesrwatsonx-creator/QwenPaw) · REPOSITORY · PARTIAL · PINNED_SOURCE · DevOps
+- [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427687237.json) — Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.<br>
+  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Frontend applications
 - [jamesrwatsonx-creator/ragflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346377461.json) — RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs<br>
   Source: [jamesrwatsonx-creator/ragflow](https://github.com/jamesrwatsonx-creator/ragflow) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, AI memory
 - [jamesrwatsonx-creator/rea](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875893.json) — Reverse engineer anything with agents, from app behavior down to native binaries.<br>
@@ -258,6 +264,8 @@
   Source: [jamesrwatsonx-creator/server-password-manager-](https://github.com/jamesrwatsonx-creator/server-password-manager-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/shad-components-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344491794.json) — A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.<br>
   Source: [jamesrwatsonx-creator/shad-components-ui](https://github.com/jamesrwatsonx-creator/shad-components-ui) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Frontend applications
+- [jamesrwatsonx-creator/shadcn-calendar-heatmap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427704462.json) — Modern alternative to primitive react heatmaps.<br>
+  Source: [jamesrwatsonx-creator/shadcn-calendar-heatmap](https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Data visualization
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
   Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [jamesrwatsonx-creator/sherlock](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391873567.json) — Hunt down social media accounts by username across social networks<br>
@@ -265,7 +273,7 @@
 - [jamesrwatsonx-creator/shutter-encoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426076174.json) — A professional video compression tool accessible to all, mostly based on FFmpeg.<br>
   Source: [jamesrwatsonx-creator/shutter-encoder](https://github.com/jamesrwatsonx-creator/shutter-encoder) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Sigstore-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348829957.json) — Sigstore documentation<br>
-  Source: [jamesrwatsonx-creator/Sigstore-docs](https://github.com/jamesrwatsonx-creator/Sigstore-docs) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+  Source: [jamesrwatsonx-creator/Sigstore-docs](https://github.com/jamesrwatsonx-creator/Sigstore-docs) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/skiko](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376794291.json) — Kotlin Multiplatform bindings to Skia<br>
   Source: [jamesrwatsonx-creator/skiko](https://github.com/jamesrwatsonx-creator/skiko) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346394986.json) — Let Skills Evolve Collectively with Agentic Evolver<br>
@@ -279,9 +287,9 @@
 - [jamesrwatsonx-creator/skills-learning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274982865.json) — Skills for Real Engineers. Straight from my .claude directory.<br>
   Source: [jamesrwatsonx-creator/skills-learning](https://github.com/jamesrwatsonx-creator/skills-learning) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Libraries/packages, Plugins/extensions
 - [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315019444.json) — Agent Skills<br>
-  Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Creative tools, Skills
+  Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Creative tools, Skills
 - [jamesrwatsonx-creator/SkillSpector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274983287.json) — Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.<br>
-  Source: [jamesrwatsonx-creator/SkillSpector](https://github.com/jamesrwatsonx-creator/SkillSpector) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Application security, Skills
+  Source: [jamesrwatsonx-creator/SkillSpector](https://github.com/jamesrwatsonx-creator/SkillSpector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Application security, Skills
 - [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315202127.json) — The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Developer tools, IAM
 - [jamesrwatsonx-creator/smart-wallet](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661102.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
@@ -296,14 +304,6 @@
   Source: [jamesrwatsonx-creator/socialscan](https://github.com/jamesrwatsonx-creator/socialscan) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/socid-extractor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391867840.json) — ⛏️ The extraction engine behind Maigret: turn any profile URL into a structured OSINT record across 150+ sites<br>
   Source: [jamesrwatsonx-creator/socid-extractor](https://github.com/jamesrwatsonx-creator/socid-extractor) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399047793.json) — :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the…<br>
-  Source: [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/software-scanning-posthog) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Developer tools
-- [jamesrwatsonx-creator/spicedb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348825697.json) — Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data<br>
-  Source: [jamesrwatsonx-creator/spicedb](https://github.com/jamesrwatsonx-creator/spicedb) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404140.json) — SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.<br>
-  Source: [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/spiderfoot) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
-- [jamesrwatsonx-creator/spire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348829100.json) — The SPIFFE Runtime Environment<br>
-  Source: [jamesrwatsonx-creator/spire](https://github.com/jamesrwatsonx-creator/spire) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 
 ## Pages
 

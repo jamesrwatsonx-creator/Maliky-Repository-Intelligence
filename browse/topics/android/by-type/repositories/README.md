@@ -2,7 +2,7 @@
 
 Repositories tagged under Android.
 
-**49 entries** · Alphabetical · 1 page.
+**51 entries** · Alphabetical · 1 page.
 
 [Back to Android](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -13,15 +13,15 @@ Repositories tagged under Android.
 - [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396969985.json) — :books: Android 所有动画系列详尽教程。 Explain all animations in Android.<br>
   Source: [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Android-Animation-Set) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Mobile applications
 - [jamesrwatsonx-creator/Android-camera-samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399712.json) — Multiple samples showing the best practices in camera APIs on Android.<br>
-  Source: [jamesrwatsonx-creator/Android-camera-samples](https://github.com/jamesrwatsonx-creator/Android-camera-samples) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
+  Source: [jamesrwatsonx-creator/Android-camera-samples](https://github.com/jamesrwatsonx-creator/Android-camera-samples) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Android-identity-samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342401035.json) — Multiple samples showing the best practices in identity on Android.<br>
-  Source: [jamesrwatsonx-creator/Android-identity-samples](https://github.com/jamesrwatsonx-creator/Android-identity-samples) · REPOSITORY · PARTIAL · PINNED_SOURCE · Application security, Mobile applications
+  Source: [jamesrwatsonx-creator/Android-identity-samples](https://github.com/jamesrwatsonx-creator/Android-identity-samples) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Application security, Mobile applications
 - [jamesrwatsonx-creator/Android-images.-fresco](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350934348.json) — An Android library for managing images and the memory they use.<br>
   Source: [jamesrwatsonx-creator/Android-images.-fresco](https://github.com/jamesrwatsonx-creator/Android-images.-fresco) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI memory, Mobile applications
 - [jamesrwatsonx-creator/android-livestream](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350928690.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
   Source: [jamesrwatsonx-creator/android-livestream](https://github.com/jamesrwatsonx-creator/android-livestream) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · Mobile applications
 - [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399982.json) — Jetpack Compose composables for the Maps SDK for Android<br>
-  Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, Mobile applications
+  Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · APIs, Mobile applications
 - [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399357.json) — Jetpack Media3 support libraries for media use cases, including ExoPlayer, an extensible media player for Android<br>
   Source: [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Android-media) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools, Mobile applications
 - [jamesrwatsonx-creator/Android-mlkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342400346.json) — A collection of sample apps to demonstrate how to use Google's ML Kit APIs on Android and iOS<br>
@@ -74,6 +74,8 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/Firebase-quickstart-android](https://github.com/jamesrwatsonx-creator/Firebase-quickstart-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965909.json) — A curated collection of 200+ Flutter open source projects to help developers learn and practice Flutter development.<br>
   Source: [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Flutter-Awesome-Projects) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343179881.json) — Visualize your year in travel using your Google Location History (Timeline) data<br>
+  Source: [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/google-timeline-visualizer) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350918326.json) — googleads-mobile-android<br>
   Source: [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/googleads-mobile-android-examples) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/jetpack-compose-awesome](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398832432.json) — 📝 A curated list of awesome Jetpack Compose libraries, projects, articles and resources<br>
@@ -82,6 +84,8 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/Kotlin-coil](https://github.com/jamesrwatsonx-creator/Kotlin-coil) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340230037.json) — Render After Effects animations natively on Android and iOS, Web, and React Native<br>
   Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346669105.json) — Lottie wrapper for React Native.<br>
+  Source: [jamesrwatsonx-creator/lottie-react-native](https://github.com/jamesrwatsonx-creator/lottie-react-native) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376782785.json) — Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/<br>
   Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/material-components-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376787481.json) — [MAINTENANCE MODE] Modular and customizable Material Design UI components for Android<br>

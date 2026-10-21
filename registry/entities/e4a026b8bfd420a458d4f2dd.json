@@ -1,0 +1,54 @@
+{
+  "id": "entity:e4a026b8bfd420a458d4f2dd",
+  "entity_type": "COMPONENT",
+  "name": "Bludit session authentication",
+  "description": "CMS login subsystem coordinating user/password checks, regenerated PHP sessions, user-agent fingerprints and remembered-login tokens with the Bludit user store.",
+  "source": {
+    "repository_id": "repository:1418692689",
+    "repository_name": "jamesrwatsonx-creator/bludit",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bludit",
+    "upstream_url": "https://github.com/bludit/bludit",
+    "source_path": "bl-kernel/login.class.php",
+    "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
+    "inspection_date": "2026-10-21T23:37:46.208765+00:00",
+    "blob_sha": "75ad0ed0298b90cdffc683b0d261f6f18e67ea4b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/bl-kernel/login.class.php#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:iam",
+    "category:application-security"
+  ],
+  "operational_category": "operational:12",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bludit-session-authentication"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bludit 4.0 plugin/theme lifecycle",
+      "PHP 8+",
+      "Bludit JSON stores and global runtime objects"
+    ],
+    "overlap": "Independent Bludit extension or subsystem; compose with the CMS host rather than treating internal lifecycle methods as separate assets.",
+    "language": "PHP",
+    "license": "MIT",
+    "deployment_warning": "User store hashes passwords with salted SHA-1; replace with a password-specific adaptive hash before treating this as a modern authentication foundation."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "MODULE"
+}

@@ -2,7 +2,7 @@
 
 Agents, agent tools and reusable agent capabilities.
 
-**2,914 entries** · Alphabetical · 20 pages.
+**2,934 entries** · Alphabetical · 20 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -196,6 +196,8 @@ Agents, agent tools and reusable agent capabilities.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/vue-review.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/vue-review.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [3d-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1acb6a3b0ebf886592d6670d.json) — 3D modeler agent for asset creation and topology.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/3d-modeler/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/3d-modeler/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [@cobusgreyling/loop-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abca845cb3dd8013b3091509b.json) — MCP server for loop-engineering — exposes patterns, skills, state, and audit tools as runtime-queryable resources for AI agents<br>
+  Source: [jamesrwatsonx-creator/loop-engineering](https://github.com/jamesrwatsonx-creator/loop-engineering) · [tools/mcp-server/package.json](https://github.com/jamesrwatsonx-creator/loop-engineering/blob/e1b6a66a4e69d51e811e135376815fc361a8d295/tools/mcp-server/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [@dietrichgebert/ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1df05629fd66b6d33e42c3bc.json) — Lazy senior dev mode for AI agents. The best code is the code you never wrote.<br>
   Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · [package.json](https://github.com/jamesrwatsonx-creator/ponytail/blob/2ed6c52c9d7e5e56942508591085fd45dea277d3/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [@hermes-agent/photon-sidecar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6af98b9cfa8664259b17e9a1.json) — Spectrum-ts bridge for the Hermes Agent Photon platform plugin.<br>
@@ -304,8 +306,6 @@ Agents, agent tools and reusable agent capabilities.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/agent-introspection-debugging/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/agent-introspection-debugging/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [agent-payment-x402](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6182f5f9f607c461865f9355.json) — Add x402 payment execution to AI agents with per-task budgets, spending controls, and non-custodial wallets. Supports Base through agentwallet-sdk and X Layer through OKX Payments / OKX Agent Payments Protocol. Use…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/agent-payment-x402/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/agent-payment-x402/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [agent-platform-alert-configuration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05226606223b4872673c262f.json) — Configures best-practice alerting policies for AI agents using OpenTelemetry (OTel) metrics, generating output as Terraform (.tf) configuration files. Use when analyzing, writing, or deploying alerting policies to…<br>
-  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/agent-platform-alert-configuration/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/agent-platform-alert-configuration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 
 ## Pages
 

@@ -2,7 +2,7 @@
 
 Repositories tagged under Voice, STT & TTS.
 
-**44 entries** · Alphabetical · 1 page.
+**46 entries** · Alphabetical · 1 page.
 
 [Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -15,15 +15,15 @@ Repositories tagged under Voice, STT & TTS.
 - [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388097197.json) — ⚡ Insanely fast AI voice assistant with <500ms response times<br>
   Source: [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/fast-voice-assistant) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342813104.json) — Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp<br>
-  Source: [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/FluidVoice) · REPOSITORY · PARTIAL · PINNED_SOURCE · Generative AI, LLM projects
+  Source: [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/FluidVoice) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects
 - [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1305185750.json) — Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)<br>
-  Source: [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/free-claude-code) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Generative AI
+  Source: [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/free-claude-code) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Developer tools, Generative AI
 - [jamesrwatsonx-creator/FunClip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426075298.json) — FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.<br>
   Source: [jamesrwatsonx-creator/FunClip](https://github.com/jamesrwatsonx-creator/FunClip) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372823236.json) — Browser automation CLI for AI agents<br>
   Source: [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
 - [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399051706.json) — Autumn is an open-source pricing & billing platform<br>
   Source: [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/invoice-autumn) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399060123.json) — Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬<br>
@@ -46,6 +46,8 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/live-Kit-agents](https://github.com/jamesrwatsonx-creator/live-Kit-agents) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Generative AI
 - [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344492471.json) — A complete voice AI frontend app for LiveKit Agents with Next.js<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, Creative tools
+- [jamesrwatsonx-creator/LiveKit-index](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427685265.json) — An index of LiveKit application templates<br>
+  Source: [jamesrwatsonx-creator/LiveKit-index](https://github.com/jamesrwatsonx-creator/LiveKit-index) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Templates/boilerplates
 - [jamesrwatsonx-creator/LocalAI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247348584.json) — LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.<br>
   Source: [jamesrwatsonx-creator/LocalAI](https://github.com/jamesrwatsonx-creator/LocalAI) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools, Generative AI, LLM projects
 - [jamesrwatsonx-creator/Open-zero-1--for-my-voice-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366278681.json) — Hundreds of models & providers. One command to find what runs on your hardware.<br>
@@ -64,6 +66,8 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Machine-learning models
 - [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.<br>
   Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, Libraries/packages
+- [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427685858.json) — Next.js reference application connecting Vapi voice calls to a Broadway show recommendation and simulated ticket-confirmation interface.<br>
+  Source: [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Frontend applications, Reference implementations
 - [jamesrwatsonx-creator/Voice-a](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366381627.json) — Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.<br>
   Source: [jamesrwatsonx-creator/Voice-a](https://github.com/jamesrwatsonx-creator/Voice-a) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI memory, DevOps, Generative AI
 - [jamesrwatsonx-creator/voice-agent-livekit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359930213.json) — End-to-end realtime stack for connecting humans and AI<br>

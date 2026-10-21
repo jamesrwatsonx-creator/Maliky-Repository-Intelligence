@@ -2,7 +2,7 @@
 
 Skills tagged under Android.
 
-**21 entries** · Alphabetical · 1 page.
+**22 entries** · Alphabetical · 1 page.
 
 [Back to Android](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -12,6 +12,8 @@ Skills tagged under Android.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/android-clean-architecture/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/android-clean-architecture/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [android-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7385d632a8cac59538655198.json) — Create production-quality Android applications following Google's official architecture guidance and NowInAndroid best practices. Use when building Android apps with Kotlin, Jetpack Compose, MVVM architecture, Hilt…<br>
   Source: [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/claude-android-skill) · [SKILL.md](https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [android-maps-compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0839d3b575821becacf37738.json) — Guide for integrating the android-maps-compose library into an Android application. Use when users ask to add Google Maps Compose to their Android app or set up Maps in Compose.<br>
+  Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · [.gemini/skills/android-maps-compose/SKILL.md](https://github.com/jamesrwatsonx-creator/android-maps-compose/blob/7dec2b7a38260821970160373836bed126458d80/.gemini/skills/android-maps-compose/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [Appium Mobile Testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6f2d25f9ec318052d8a5acb1.json) — Appium mobile testing framework for iOS and Android automation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/skills/appium-mobile/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/skills/appium-mobile/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [compose-multiplatform-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A74f70d59e50d43b559ee5fc2.json) — Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI. Use when building Compose or Jetpack Compose UI, state, navigation, or…<br>

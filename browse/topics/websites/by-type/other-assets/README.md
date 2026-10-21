@@ -2,7 +2,7 @@
 
 Other Assets tagged under Websites.
 
-**10 entries** · Alphabetical · 1 page.
+**11 entries** · Alphabetical · 1 page.
 
 [Back to Websites](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -12,6 +12,8 @@ Other Assets tagged under Websites.
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [chart/README.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/chart/README.md#L1) · INFRASTRUCTURE_MODULE · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [BentoPDF Web Application](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6598fa1c9f63281b2fdf883a.json) — Self-hostable privacy-first browser application providing a large collection of client-side PDF editing, conversion, organization, extraction, optimization and security tools.<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [package.json](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/package.json#L1) · APP · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
+- [Bludit flat-file publishing CMS](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab42f22234d38507516f645d9.json) — Self-hosted PHP website and blog publishing application with JSON-backed content, Markdown/HTML pages, an admin area and a plugin/theme lifecycle; no external database server is required.<br>
+  Source: [jamesrwatsonx-creator/bludit](https://github.com/jamesrwatsonx-creator/bludit) · [index.php](https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/index.php#L1) · APP · VERIFIED · PINNED_SOURCE · Web applications, Media/publishing, Plugins/extensions
 - [Dell 1996 Inspired](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1367d88dcadf16f9ed480443.json) — An inspired interpretation of Dell.com's 1996 design language — a catalog-era enterprise web design built around a literal black page frame, vivid flat color-block "ribbon cards" tinted in sage, salmon, periwinkle,…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/dell-1996/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/dell-1996/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Design System Inspired by Kraken](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6f5f963fd5f8be885d6e6b47.json) — Kraken's website is a clean, trustworthy crypto exchange that uses purple as its commanding brand color. The design operates on white backgrounds with Kraken Purple (`#7132f5`, `#5741d8`, `#5b1ecf`) creating a…<br>

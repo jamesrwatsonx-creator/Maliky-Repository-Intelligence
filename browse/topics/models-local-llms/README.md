@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**160 entries** · Alphabetical · 2 pages.
+**161 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -135,7 +135,7 @@ Models, local inference, adapters and model routing.
 - [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342410842.json) — A list of free LLM inference resources accessible via API.<br>
   Source: [jamesrwatsonx-creator/free-llm-api-resources](https://github.com/jamesrwatsonx-creator/free-llm-api-resources) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, LLM projects
 - [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343007565.json) — lightweight, standalone C++ inference engine for Google's Gemma models.<br>
-  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
+  Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350954158.json) — Fully automatic censorship removal for language models<br>
   Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247324543.json) — HunyuanVideo: A Systematic Framework For Large Video Generation Model<br>
@@ -170,6 +170,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344534994.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>
   Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory, LLM projects
+- [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428170367.json) — Open Iris Recognition Inference System (IRIS)<br>
+  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [kilocode-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa396efe49e989d94618ad043.json) — Kilo Code<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/kilocode/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/kilocode/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Kimi K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97b483644f21053549ec9480.json) — Moonshot AI Kimi K3: open-weight native multimodal (text, image, video) agentic mixture-of-experts model, 2.8T total and 104B activated parameters, 93 layers, 16 of 896 experts active, 1M-token context, native MXFP4…<br>
@@ -304,8 +306,6 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/type-inference-engine/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/type-inference-engine/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [type-system-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6b7e91f8e78d305d89509de.json) — Expert in type theory and type system implementation with deep knowledge of inference algorithms, subtyping, variance, and type error diagnosis.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/programming-languages/agents/type-system-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/programming-languages/agents/type-system-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [typing-rule-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A186395288482d096a868769b.json) — Generate and format typing rules in inference rule notation for type system design<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

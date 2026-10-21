@@ -1,0 +1,55 @@
+{
+  "id": "entity:76e2c64b3aa42f811cdf6c8b",
+  "entity_type": "PLUGIN",
+  "name": "Radix PostCSS breakpoints",
+  "description": "PostCSS transform expanding custom @breakpoints blocks into configured media rules and breakpoint-prefixed responsive class selectors.",
+  "source": {
+    "repository_id": "repository:1427687237",
+    "repository_name": "jamesrwatsonx-creator/Radix-themes",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/Radix-themes",
+    "upstream_url": "https://github.com/radix-ui/themes",
+    "source_path": "packages/radix-ui-themes/postcss-breakpoints.js",
+    "inspected_commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+    "inspection_date": "2026-10-21T23:43:17.919454+00:00",
+    "blob_sha": "8729bb642777b833efbe7e5a362d5b9a3d945a65",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/postcss-breakpoints.js#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:design-systems",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:17",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:postcss-responsive-breakpoint-expansion"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "PostCSS",
+      "Radix breakpoint CSS definitions and rt-r class naming"
+    ],
+    "overlap": "A public Radix Themes module. Multipart Root/Trigger/Content APIs are one collaborating reusable boundary. Raw Radix primitives supply behavior; this package adds theme integration, styled APIs and responsive props. Prefer the package boundary over copying files with unresolved internal imports.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "distribution_variants": [
+      "packages/radix-ui-themes/postcss-breakpoints.cjs"
+    ]
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "COMPONENT"
+}

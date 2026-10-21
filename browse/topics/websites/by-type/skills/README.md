@@ -2,7 +2,7 @@
 
 Skills tagged under Websites.
 
-**9 entries** · Alphabetical · 1 page.
+**10 entries** · Alphabetical · 1 page.
 
 [Back to Websites](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -22,5 +22,7 @@ Skills tagged under Websites.
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/ads/ima-dai-sdk/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/ads/ima-dai-sdk/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [ima-sdk-client-side](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d45c4f1e4d1737f78ad955e.json) — Supports Interactive Media Ads (IMA) SDK. Use this skill for client-side ad insertion when you are requesting video ads for websites, apps, TVs or other platforms using VAST or VMAP. Do not use for Dynamic Ad Insertion…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/ads/ima-sdk-client-side/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/ads/ima-sdk-client-side/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
+- [website-to-hyperframes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12708f55fc912ce198231d28.json) — Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says "capture this site", "turn this into a video", "make a promo from my site", (3) the user…<br>
+  Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · [.claude/skills/website-to-hyperframes/SKILL.md](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit/blob/a89e704ffbad02ac71170755526e05432598be59/.claude/skills/website-to-hyperframes/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [x/posting](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab99941b9362c81e3fce1390c.json) — Domain skill: X (Twitter) — Posting & Auth. Navigate to https://x.com/i/flow/login (not https://x.com/) to get the full sign-in modal. The homepage may render a truncated version of the auth buttons.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/x/posting.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/x/posting.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents

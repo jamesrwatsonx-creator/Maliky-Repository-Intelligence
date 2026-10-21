@@ -23,7 +23,7 @@ def main():
     added = [x for x in after if x["id"] not in before]
     inspected = []
     for repo in sorted(added, key=lambda x: x["github_id"]):
-        result = r.ingest(repo["full_name"], max_files=args.max_files)
+        result = r.ingest(repo["full_name"], max_files=args.max_files, snapshot=True)
         inspected.append(result)
     statistics = r.build()
     registry_report = r.validate()

@@ -6,8 +6,8 @@ Libraries & Packages tagged under Video.
 
 [Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
-- [@remotion/skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00c2457cc237c1d8c2adc98e.json) — Description not available in current evidence.<br>
-  Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · [package.json](https://github.com/jamesrwatsonx-creator/skills-video/blob/0e444efe46a8eb606acefd54d70ae64e8f908e36/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
+- [@remotion/skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00c2457cc237c1d8c2adc98e.json) — Source-declared package `@remotion/skills`.<br>
+  Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · [package.json](https://github.com/jamesrwatsonx-creator/skills-video/blob/0e444efe46a8eb606acefd54d70ae64e8f908e36/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae70c9a6c870d7f7837db307d.json) — Source-declared package `agent-starter-react`.<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [package.json](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
