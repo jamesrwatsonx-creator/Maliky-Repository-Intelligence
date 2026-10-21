@@ -1,14 +1,14 @@
 # Verified recovery Git bundle
 
-Exact local checkpoint: `13e7ef9c9ae159353bbc7729e0059fa541344458`
+Exact validated checkpoint: `f103f0b801af24988dae4c7a45af2b1b3e0f6740`
 
-Prerequisite remote recovery commit: `a5ebaaa128473dc6830223aa5289d615cb3c5dea`
+Prerequisite durable recovery commit: `a5ebaaa128473dc6830223aa5289d615cb3c5dea`
 
-SHA-256: `dafc41e9dd5a6f5e77d16c1172fa83244e55c4af5a949507152b4fcca30c2a7f`
+SHA-256: `c8499f65e8001142513282fdc85b96278c440e0465e308a6510d9d10fa74a5f6`
 
-This backup branch is not a registry and must not be merged into main. It preserves exact local history while shell Git cannot push and the connector cannot upload the oversized generated catalog blob.
+This is a Git-history backup branch, not a registry or a branch to merge into main. It preserves the local recovery commits while shell push is unauthenticated and a 16 MiB connector limit blocks the generated catalog blob.
 
-Restore in a clone containing the prerequisite:
+Restore from a clone containing the prerequisite (preserve any dirty work first):
 
 ```sh
 git fetch origin checkpoints/v1-rebuild
