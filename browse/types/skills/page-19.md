@@ -1,9 +1,11 @@
 # Skills — page 19
 
-3,157 catalog entries · Sorted alphabetically by name · Page 19 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 19 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [STIX/TAXII Intelligence Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ec8f0bdc24210338b7a2412.json) — STIX/TAXII threat intelligence format and sharing<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/stix-taxii/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/stix-taxii/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stm-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae17c3f875f7b3a431f76ff71.json) — Scanning Tunneling Microscopy skill for atomic-resolution imaging and local density of states measurements<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stm32-hal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c77c981b0572f66230a107e.json) — STMicroelectronics STM32 HAL and Low-Level driver expertise<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/skills/thought-experiment-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/skills/thought-experiment-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [threat-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4db25ef6c934cef46c7ea4b0.json) — Generate threat models using STRIDE, PASTA, or VAST methodologies<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/skills/threat-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/skills/threat-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [three-statement-model-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A87e14cd5b7637d90c0f7eb92.json) — Integrated three-statement financial model builder linking income statement, balance sheet, and cash flow statement with circular reference handling<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

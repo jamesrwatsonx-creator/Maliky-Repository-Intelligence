@@ -1,13 +1,9 @@
 # General / Other — page 4
 
-1,334 catalog entries · Sorted alphabetically by name · Page 4 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 4 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/autoscraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426100025.json) — A Smart, Automatic, Fast and Lightweight Web Scraper for Python<br>
-  Source: [jamesrwatsonx-creator/autoscraper](https://github.com/jamesrwatsonx-creator/autoscraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418880407.json) — A collection of permissive license open source things that help build Chat apps with React.<br>
-  Source: [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/awesome-chat-react) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/awesome-claude-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350955203.json) — A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows<br>
   Source: [jamesrwatsonx-creator/awesome-claude-skills](https://github.com/jamesrwatsonx-creator/awesome-claude-skills) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Skills
 - [jamesrwatsonx-creator/awesome-computer-vision](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419848130.json) — A curated list of awesome computer vision resources<br>
@@ -304,6 +300,10 @@
   Source: [jamesrwatsonx-creator/Firebase-ktor](https://github.com/jamesrwatsonx-creator/Firebase-ktor) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Firebase-quickstart-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342400660.json) — Firebase Quickstart Samples for Android<br>
   Source: [jamesrwatsonx-creator/Firebase-quickstart-android](https://github.com/jamesrwatsonx-creator/Firebase-quickstart-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
+- [jamesrwatsonx-creator/firecracker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344546123.json) — Secure and fast microVMs for serverless computing.<br>
+  Source: [jamesrwatsonx-creator/firecracker](https://github.com/jamesrwatsonx-creator/firecracker) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1275677656.json) — The API to search, scrape, and interact with the web at scale. 🔥<br>
+  Source: [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/firecrawl) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, Research projects
 
 ## Pages
 

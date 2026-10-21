@@ -67,15 +67,36 @@ def main() -> int:
     entities = records("entities")
     capabilities = records("capabilities")
     by_name = {repo["full_name"]: repo for repo in repositories}
+    by_id = {repo["id"]: repo for repo in repositories}
 
     complete = [repo for repo in repositories if repo.get("state") == "COMPLETE"]
     last_complete = max(complete, key=lambda repo: repo.get("inspection_date") or "", default=None)
 
+    refresh_ids = refresh.get("new_repository_ids", [])
+    refresh_pending = [
+        by_id[repo_id]
+        for repo_id in refresh_ids
+        if repo_id in by_id and by_id[repo_id].get("state") != "COMPLETE"
+    ]
     current = by_name.get(args.current_repository) if args.current_repository else None
+    if current is None and refresh_pending:
+        current = refresh_pending[0]
     if current is None and inspection.get("next"):
         current = by_name.get(inspection["next"].get("repository"))
 
     queue = inspection.get("queue", [])
+    if refresh_pending:
+        prioritized = [
+            {
+                "repository": repo["full_name"],
+                "next_phase": repo.get("next_phase", "STRUCTURE"),
+            }
+            for repo in refresh_pending
+        ]
+        prioritized_names = {item["repository"] for item in prioritized}
+        queue = prioritized + [
+            item for item in queue if item["repository"] not in prioritized_names
+        ]
     next_queue = [item for item in queue if not current or item["repository"] != current["full_name"]][:5]
     added = refresh.get("added")
     if added is None:
@@ -117,6 +138,7 @@ def main() -> int:
         f"- Private repositories: {counts.get('private_owned', 'unknown')}",
         f"- Discovery manifest public records: {len(manifest.get('repositories', []))}",
         f"- Repositories discovered in the latest refresh: {added}",
+        f"- Latest refresh repositories semantically complete: {refresh.get('semantic_intake_complete', 0)}",
         "",
         "## Resume pointer",
         "",

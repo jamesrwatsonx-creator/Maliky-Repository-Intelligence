@@ -1,0 +1,57 @@
+{
+  "id": "entity:0b70f9682f2bfaefe35a29f7",
+  "entity_type": "PLUGIN",
+  "name": "1time Chrome Extension",
+  "description": "Chrome extension that encrypts selected page text locally and copies a one-time link while keeping the decryption key in the URL fragment.",
+  "source": {
+    "repository_id": "repository:1418668015",
+    "repository_name": "jamesrwatsonx-creator/1time.io",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/1time.io",
+    "upstream_url": "https://github.com/shingrus/1time.io",
+    "source_path": "extension/package.json",
+    "inspected_commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
+    "inspection_date": "2026-10-21T00:16:51.205855+00:00",
+    "blob_sha": "197f1f14edf4c538ef04278147c0ffcb5c3cccae",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/extension/package.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:application-security",
+    "category:backend-services",
+    "category:cli-tools",
+    "category:plugins-extensions",
+    "category:privacy",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:13",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:browser-selected-text-secret-sharing"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Chromium extension APIs",
+      "1time-compatible service endpoint",
+      "host permission for the selected endpoint"
+    ],
+    "overlap": "Uses extension-owned clipboard and session storage surfaces and supports self-hosted service origins.",
+    "sensitive_data": true,
+    "encryption_claim": "AES-256-GCM client-side"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "INTEGRATION"
+}

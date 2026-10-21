@@ -1,9 +1,11 @@
 # Skills — page 22
 
-3,157 catalog entries · Sorted alphabetically by name · Page 22 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 22 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [zep-memory-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8998072f042acd6a831be9cf.json) — Zep memory server integration for long-term conversation memory and user profiling<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/zep-memory-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/zep-memory-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [zephyr-rtos](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab2609359e5e3c5f10ef84eec.json) — Specialized skill for Zephyr RTOS development and configuration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/zephyr-rtos/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/zephyr-rtos/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [zillow/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37ebb0b3c15f3ca9d34b3c7a.json) — Domain skill: Zillow — Scraping & Data Extraction. Field-tested against www.zillow.com on 2026-04-18 using httpget (no browser).<br>

@@ -1,6 +1,6 @@
 # Agent Frameworks — page 7
 
-2,009 catalog entries · Sorted alphabetically by name · Page 7 of 14.
+2,012 catalog entries · Sorted alphabetically by name · Page 7 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -140,6 +140,8 @@
   Source: [jamesrwatsonx-creator/rea](https://github.com/jamesrwatsonx-creator/rea) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents
 - [jamesrwatsonx-creator/RepoAgent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377990573.json) — An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly.<br>
   Source: [jamesrwatsonx-creator/RepoAgent](https://github.com/jamesrwatsonx-creator/RepoAgent) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, LLM projects
+- [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247317639.json) — TradingAgents: Multi-Agents LLM Financial Trading Framework<br>
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, AI memory
 - [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247318224.json) — A fast and lightweight framework for creating decentralized agents with ease.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L14245) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [list_kanban_projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A138578c4205b18b7f6114355.json) — GET /projects - List first-class Hermes projects for board scoping.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2435) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [list_managed_files](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6f98d33f3db90a4989a5d2ed.json) — GET /api/files - handler list_managed_files<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L2555) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

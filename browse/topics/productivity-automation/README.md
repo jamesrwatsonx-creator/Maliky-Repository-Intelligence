@@ -2,7 +2,7 @@
 
 Productivity tools, office workflows and task automation.
 
-**2,625 entries** · Alphabetical · 18 pages.
+**2,632 entries** · Alphabetical · 18 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -206,6 +206,8 @@ Productivity tools, office workflows and task automation.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/update-docs.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/update-docs.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [/vue-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8796e035e01ed9b47fac8680.json) — Comprehensive Vue.js code review for Composition API correctness, reactivity, composable patterns, template security, accessibility, and Vue-specific performance. Invokes the vue-reviewer agent (and typescript-reviewer…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/vue-review.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/vue-review.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [1time Zapier Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afdc17d372bd14d21c3831368.json) — Zapier Platform integration that packages the shared 1time protocol for creating encrypted one-time secret links in automation workflows.<br>
+  Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · [zap/package.json](https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/zap/package.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · Application security, Backend services, CLI tools
 - [@a5c-ai/babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A109e6e1fb5859061b1c8abe9.json) — @a5c-ai/babysitter npm package: Metapackage for installing all babysitter npm packages<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/babysitter/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/babysitter/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
 - [@a5c-ai/babysitter-codex](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A541af9a1aada5ecab0217b3b.json) — @a5c-ai/babysitter-codex npm package: Babysitter Codex skill bundle and integration package for OpenAI Codex CLI with SDK-managed process-library bootstrapping, 15 orchestration modes, and BOM-safe SKILL installation<br>
@@ -304,8 +306,6 @@ Productivity tools, office workflows and task automation.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/marketing-campaign.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/marketing-campaign.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [arts-culture/performance-production](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae7dfe5c6ffa92ea93719b1cf.json) — End-to-end workflow for producing concerts, theatrical productions, and live events including pre-production planning, creative development, rehearsal management, technical production, and closing procedures<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/performance-production.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/performance-production.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [arts-culture/preventive-conservation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abd93c3fc7ef58e164d26d4ec.json) — Systematic approach to collection preservation including environmental monitoring, integrated pest management, storage protocols, and emergency preparedness following AIC standards<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/preventive-conservation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/preventive-conservation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

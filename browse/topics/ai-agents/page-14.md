@@ -1,9 +1,11 @@
 # AI Agents — page 14
 
-2,779 catalog entries · Sorted alphabetically by name · Page 14 of 19.
+2,782 catalog entries · Sorted alphabetically by name · Page 14 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [post_plugin_visibility](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97bdab8396ad18d7ad92ab4c.json) — POST /api/dashboard/plugins/{name:path}/visibility - Toggle a plugin's sidebar visibility (persists to config.yaml dashboard.hidden_pl<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18480) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [postgres-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53feae4e7f94698c4af75058.json) — PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS policies, or when a query is too slow.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/postgres-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/postgres-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [power-optimization-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A155742a9d47ca5d5e49ddfe3.json) — Expert in ultra-low-power embedded system design. Specializes in sleep mode optimization, power state machines, battery life estimation, and power measurement techniques for battery-powered devices.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/hermes-achievements/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/hermes-achievements/dashboard/plugin_api.py#L1048) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [reclaim_task_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc8dd4217755b96a67ae3141.json) — POST /tasks/{task_id}/reclaim - Release an active worker claim on a running task.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L1763) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [recorder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b51cb2771459d9d193bc55a.json) — Session recorder: one screenshot plus one JSONL trace line per traced action into a recordings folder, toggled with start_recording/stop_recording; failures never break the run.<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [src/browser_harness/recorder.py](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/src/browser_harness/recorder.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 

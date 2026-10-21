@@ -2,7 +2,7 @@
 
 Libraries & Packages tagged under Video.
 
-**8 entries** · Alphabetical · 1 page.
+**9 entries** · Alphabetical · 1 page.
 
 [Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -10,6 +10,8 @@ Libraries & Packages tagged under Video.
   Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · [package.json](https://github.com/jamesrwatsonx-creator/skills-video/blob/0e444efe46a8eb606acefd54d70ae64e8f908e36/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae70c9a6c870d7f7837db307d.json) — Source-declared package `agent-starter-react`.<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [package.json](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb26be6da602557a00fe92a.json) — PyPI-style package browser-harness 0.1.9 (MIT): helpers, daemon, recorder, video, cloud auth and telemetry; depends on cdp-use, fetch-use, pillow and websockets.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [graphifyy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6957869ae390372d9262c05.json) — AI coding assistant skill (Claude Code, CodeBuddy, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, Aider, OpenClaw, Factory Droid, Trae, Hermes, Kiro, Pi, Devin CLI, Google Antigravity) - turn any folder of code, docs,…<br>

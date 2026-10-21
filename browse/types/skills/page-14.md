@@ -1,6 +1,6 @@
 # Skills — page 14
 
-3,157 catalog entries · Sorted alphabetically by name · Page 14 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 14 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -230,6 +230,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/phishing-simulation-skill/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/phishing-simulation-skill/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [phoenix-arize-setup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8bbd691040471bb17503e48e.json) — Arize Phoenix observability platform setup for LLM debugging and evaluation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/phoenix-arize-setup/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/phoenix-arize-setup/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af8e10182520ca2b138d6ff67.json) — Agent skill documenting a consistent screen, OCR, tap, typing, navigation, scrolling, application and multi-device control workflow.<br>
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · [SKILL.md](https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [photon](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acbea257d65489cfa27e5852e.json) — Photon PUN/Fusion skill for rooms and real-time communication.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/photon/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/photon/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [phylogenetics-tree-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb3e89ae825a23d0fb38912e.json) — Phylogenetic analysis skill for constructing evolutionary trees and assessing relationships<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/rpikit/skills/plan-writing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/skills/plan-writing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [plankton-code-quality](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab15199d1a76176bf71a83743.json) — Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks. Use when setting up write-time formatting, linting, or auto-fix hooks on file edits.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/plankton-code-quality/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/plankton-code-quality/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [planning-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A68e7861d1a7bf6bff64d7fe9.json) — Design technical architecture, select technology stack, and define implementation strategy from specifications and constitution constraints.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/spec-kit/skills/planning-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/spec-kit/skills/planning-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

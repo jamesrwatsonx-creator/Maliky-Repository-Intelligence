@@ -1,9 +1,11 @@
 # Productivity & Automation — page 4
 
-2,625 catalog entries · Sorted alphabetically by name · Page 4 of 18.
+2,632 catalog entries · Sorted alphabetically by name · Page 4 of 18.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [data-science-ml/data-collection-validation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A36a9ab13d5722aa4dd18c06a.json) — Orchestrate data ingestion from multiple sources with validation, quality checks, and versioning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/data-collection-validation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/data-collection-validation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [data-science-ml/eda-pipeline](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aba322ed01eb3780dd312797e.json) — Automated Exploratory Data Analysis (EDA) pipeline with quality gates<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/eda-pipeline.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/eda-pipeline.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [data-science-ml/feature-engineering](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5f3616c655382b38f220c654.json) — Feature engineering design and implementation with quality gates and validation<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/lateral-thinking-idea-generation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/lateral-thinking-idea-generation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/literature-review-synthesis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A59b566e2f0ee15f4a0b894c9.json) — Systematically search, evaluate, and synthesize existing research - Guides researchers through comprehensive literature review following PRISMA guidelines, including search strategy, screening, quality assessment, and…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/literature-review-synthesis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/literature-review-synthesis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [domains/science/scientific-discovery/mechanism-discovery-protocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4aad6e8cdbe2ae448aaae4f7.json) — Mechanism Discovery Protocol: Map network -> Metaphoric simulation -> Degenerate mining -> Constraint sculpting<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/mechanism-discovery-protocol.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/mechanism-discovery-protocol.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

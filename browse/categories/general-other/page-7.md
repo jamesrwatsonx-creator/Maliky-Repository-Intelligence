@@ -1,17 +1,9 @@
 # General / Other — page 7
 
-1,334 catalog entries · Sorted alphabetically by name · Page 7 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 7 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372772625.json) — The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.<br>
-  Source: [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/supabase) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
-- [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
-  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1314942199.json) — An agentic skills framework & software development methodology that works.<br>
-  Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · PARTIAL · PINNED_SOURCE · Skills
-- [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.<br>
-  Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, Libraries/packages
 - [jamesrwatsonx-creator/Swerve](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359546446.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
   Source: [jamesrwatsonx-creator/Swerve](https://github.com/jamesrwatsonx-creator/Swerve) · REPOSITORY · NEEDS_REVIEW · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · APIs
 - [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254778868.json) — A curated directory of open-source AI agent skills for Swift and Apple platform development.<br>
@@ -304,6 +296,14 @@
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/ui/MetricCard.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/ui/MetricCard.tsx#L13) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [migrate-sqlite-to-tcvdb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A223590317bb0ce4312785b5a.json) — Four-layer local memory system plugin for OpenClaw — auto-captures, structures, and profiles conversational knowledge using local LLM + SQLite vector search (L0→L1→L2→L3 pipeline)<br>
   Source: [jamesrwatsonx-creator/TencentDB-Agent-Memory](https://github.com/jamesrwatsonx-creator/TencentDB-Agent-Memory) · [MemoryCore/package.json](https://github.com/jamesrwatsonx-creator/TencentDB-Agent-Memory/blob/97f94654280b2932c35ba4806a491999ed244cc9/MemoryCore/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [migrate_models](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f65a7284b57cd8954a7bd5e.json) — Move all downloaded models to a new directory with byte-level progress via SSE.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L122) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [minions](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A253497d5d489c3df2a6d2ca5.json) — Mission Control for Hermes Agent — a Kanban board for autonomous agent tasks<br>
+  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [package.json](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
+- [minionsai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a9c146c2d1640aff2d7f8ac.json) — Mission Control for Hermes Agent — a Kanban board for autonomous agent tasks<br>
+  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [package.json](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [ModelManagement](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1264dc6c3ec36dc2edb7c101.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerSettings/ModelManagement.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerSettings/ModelManagement.tsx#L128) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 
 ## Pages
 

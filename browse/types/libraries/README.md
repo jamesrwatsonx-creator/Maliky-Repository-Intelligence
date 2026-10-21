@@ -2,7 +2,7 @@
 
 Individually searchable libraries & packages from the public owned catalog.
 
-**248 entries** · Alphabetical · 2 pages.
+**250 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -146,6 +146,8 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/anything-llm) · [collector/package.json](https://github.com/jamesrwatsonx-creator/anything-llm/blob/72aabbd15481ae405434efd4c83d46026eef1173/collector/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [anything-llm-frontend](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A800da0d4cf6f2fc78cf89187.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/anything-llm) · [frontend/package.json](https://github.com/jamesrwatsonx-creator/anything-llm/blob/72aabbd15481ae405434efd4c83d46026eef1173/frontend/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
+- [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [appium-monorepo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac441a2eb7f4311c2ea6f1e36.json) — Automation for Apps.<br>
   Source: [jamesrwatsonx-creator/appium](https://github.com/jamesrwatsonx-creator/appium) · [package.json](https://github.com/jamesrwatsonx-creator/appium/blob/3999208fc0b77db8ff82bb7bd514369c5a48e381/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [argent-workspace](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Accb95347cbedb143d9dacd4e.json) — Description not available in current evidence.<br>
@@ -304,8 +306,6 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [package.json](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [jarvis-mission-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2511b1c4df0f73d609f312a.json) — JARVIS Mission Control — agent task management system with CLI<br>
   Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
-- [jarvis-mission-control-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa336af5797f189a2436ec025.json) — Backend server for JARVIS Mission Control - handles data persistence, real-time updates, and OpenClaw agent integration<br>
-  Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [server/package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/server/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # Productivity & Automation — page 3
 
-2,625 catalog entries · Sorted alphabetically by name · Page 3 of 18.
+2,632 catalog entries · Sorted alphabetically by name · Page 3 of 18.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [chemical-engineering/crystallization-process-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac28443ab9fd279b5ebe6a435.json) — Design crystallization and precipitation systems for product purification and solid-liquid separation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/crystallization-process-design.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/crystallization-process-design.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [chemical-engineering/distillation-column-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A92612bfea11e9e6cf80cc540.json) — Design distillation systems including column sizing, tray/packing selection, and optimization for energy efficiency<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/distillation-column-design.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/distillation-column-design.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [chemical-engineering/energy-efficiency-optimization](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af7f86d745b21724bd2738372.json) — Analyze and optimize process energy consumption, implement energy management systems, and evaluate renewable integration<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-engineering-analytics/obt-creation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-engineering-analytics/obt-creation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [data-governance-officer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d40a40bf3fbf37da153bb29.json) — Agent specialized in genomic data governance, privacy protection, and regulatory compliance<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/agents/data-governance-officer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/agents/data-governance-officer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [data-science-ml/data-collection-validation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A36a9ab13d5722aa4dd18c06a.json) — Orchestrate data ingestion from multiple sources with validation, quality checks, and versioning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/data-collection-validation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/data-collection-validation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

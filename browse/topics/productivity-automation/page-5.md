@@ -1,9 +1,11 @@
 # Productivity & Automation — page 5
 
-2,625 catalog entries · Sorted alphabetically by name · Page 5 of 18.
+2,632 catalog entries · Sorted alphabetically by name · Page 5 of 18.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [domains/science/scientific-discovery/mechanism-discovery-protocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4aad6e8cdbe2ae448aaae4f7.json) — Mechanism Discovery Protocol: Map network -> Metaphoric simulation -> Degenerate mining -> Constraint sculpting<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/mechanism-discovery-protocol.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/mechanism-discovery-protocol.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/metaphor-based-reasoning-formalized](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7b75471e4f8a29e8c743f25e.json) — Metaphor-Based Reasoning Formalized: Explicitly map problems into metaphor domain<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/metaphor-based-reasoning-formalized.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/metaphor-based-reasoning-formalized.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/metaphoric-world-simulation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee798708bb1ad35f8903a224.json) — Metaphoric World Simulation: Build full "toy universe" from a metaphor, simulate it<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/skills-learning](https://github.com/jamesrwatsonx-creator/skills-learning) · [skills/productivity/handoff/SKILL.md](https://github.com/jamesrwatsonx-creator/skills-learning/blob/6654f6b60cd9d5be8b54c6fafe44346dabeb3b76/skills/productivity/handoff/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [Hardware](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0df5e490929187971d045f75.json) — Systematically characterize quantum hardware noise including gate errors, readout errors, crosstalk, and decoherence rates using randomized benchmarking and tomography techniques.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/hardware-noise-characterization.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/hardware-noise-characterization.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [Hardware](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae0f9d8674b8651edc12be6a1.json) — Configure and optimize quantum circuits for specific hardware backends including qubit mapping, routing, and native gate transpilation.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/hardware-backend-configuration.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/hardware-backend-configuration.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

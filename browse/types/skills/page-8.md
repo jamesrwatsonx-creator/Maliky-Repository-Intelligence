@@ -1,6 +1,6 @@
 # Skills — page 8
 
-3,157 catalog entries · Sorted alphabetically by name · Page 8 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 8 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

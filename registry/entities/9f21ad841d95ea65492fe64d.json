@@ -1,0 +1,57 @@
+{
+  "id": "entity:9f21ad841d95ea65492fe64d",
+  "entity_type": "TOOL",
+  "name": "phone_exec",
+  "description": "Hermes tool that runs model-supplied Python in a fresh child interpreter with phone helpers pre-imported and returns bounded output and screenshots.",
+  "source": {
+    "repository_id": "repository:1418655545",
+    "repository_name": "jamesrwatsonx-creator/phone-harness",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/phone-harness",
+    "upstream_url": "https://github.com/ShawnPana/phone-harness",
+    "source_path": "integrations/hermes/__init__.py",
+    "inspected_commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
+    "inspection_date": "2026-10-21T00:16:43.034117+00:00",
+    "blob_sha": "dc0cbb9467044704b0782984c466e6c0c3a01ccb",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/integrations/hermes/__init__.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:automation-scripting",
+    "category:cli-tools",
+    "category:developer-tools",
+    "category:mobile-applications",
+    "category:plugins-extensions",
+    "category:skills"
+  ],
+  "operational_category": "operational:06",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:hermes-phone-script-execution"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Phone Harness Hermes plugin",
+      "phone-harness",
+      "user-approved device access"
+    ],
+    "overlap": "The plugin asks before calls by default; classifier-only auto-run is opt-in and explicitly described as bypassable.",
+    "arbitrary_code_execution": true,
+    "privileged_device_access": true
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "TOOL"
+}

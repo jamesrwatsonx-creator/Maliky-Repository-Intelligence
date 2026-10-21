@@ -1,9 +1,11 @@
 # Skills — page 20
 
-3,157 catalog entries · Sorted alphabetically by name · Page 20 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 20 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [three-statement-model-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A87e14cd5b7637d90c0f7eb92.json) — Integrated three-statement financial model builder linking income statement, balance sheet, and cash flow statement with circular reference handling<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [throughput-accountant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aad4261462cdbec69e9b99b29.json) — TOC financial metrics skill for throughput, inventory, and operating expense analysis with decision support<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [tiktok/upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A529fd256c1305c45bd498462.json) — Domain skill: TikTok Studio — Upload Video. URL: https://www.tiktok.com/tiktokstudio/upload?from=upload&lang=en (always append &lang=en)<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/skills/vector-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/skills/vector-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vehicle-dynamics-sim](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab31f77b1fa46ed7cb5b8e043.json) — Deep integration with vehicle dynamics simulation tools for handling, ride, and stability analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/skills/vehicle-dynamics-sim/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/skills/vehicle-dynamics-sim/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [vehicle-physics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6fefe61bc05027ace6ee1ed5.json) — Vehicle simulation skill for wheel colliders, suspension, and aerodynamics.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/vehicle-physics/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/vehicle-physics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # Agent Frameworks — page 11
 
-2,009 catalog entries · Sorted alphabetically by name · Page 11 of 14.
+2,012 catalog entries · Sorted alphabetically by name · Page 11 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8f2df62f68049d199d7c257a.json) — Explores codebase, analyzes existing patterns, maps dependencies, and identifies risk areas before planning begins.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/metaswarm/agents/researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/metaswarm/agents/researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [reset_memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa9d35dcfc1cf75d816448a88.json) — POST /api/memory/reset - handler reset_memory<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L14022) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [reset_state](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A26c18a0bbf5e918da9de08ca.json) — POST /reset-state - handler reset_state<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/agents/single-cell-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/agents/single-cell-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [SingleA2AAdapter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A635750ca5a05a16ed7ff142a.json) — Bridges one A2A agent into the uAgent chat protocol.<br>
   Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/uagents-adapter/src/uagents_adapter/a2a_outbound/adapter.py](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/uagents-adapter/src/uagents_adapter/a2a_outbound/adapter.py#L97) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [six-sigma-black-belt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2413381a16d478ae6ac3a112.json) — Agent specialized in leading Six Sigma DMAIC projects with statistical analysis and team coaching<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/agents/six-sigma-black-belt/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/agents/six-sigma-black-belt/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,0 +1,56 @@
+{
+  "id": "entity:c3cc04767dcd4592407240eb",
+  "entity_type": "CLI",
+  "name": "1time",
+  "description": "Node.js command-line client that encrypts text or files locally, creates self-destructing links, and decrypts one-time links for terminal workflows.",
+  "source": {
+    "repository_id": "repository:1418668015",
+    "repository_name": "jamesrwatsonx-creator/1time.io",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/1time.io",
+    "upstream_url": "https://github.com/shingrus/1time.io",
+    "source_path": "cli/package.json",
+    "inspected_commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
+    "inspection_date": "2026-10-21T00:12:46.476776+00:00",
+    "blob_sha": "edb56ad438c49fc5b7a9294db78fda6ddca79873",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/cli/package.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:application-security",
+    "category:backend-services",
+    "category:cli-tools",
+    "category:plugins-extensions",
+    "category:privacy",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:13",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:encrypted-one-time-secret-cli"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Node.js 20+",
+      "1time-compatible service endpoint"
+    ],
+    "overlap": "Published as @1time/cli; the duplicate package declaration is folded into this executable surface.",
+    "distribution_package": "@1time/cli",
+    "sensitive_data": true
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "INTERFACE"
+}

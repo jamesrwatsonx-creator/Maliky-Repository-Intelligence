@@ -1,9 +1,19 @@
 # Backend — page 4
 
-570 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+575 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [run_import_upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7ec615be86e114eb6082a6c9.json) — POST /api/ops/import-upload - handler run_import_upload<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L14167) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [run_prompt_size](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A81afdc6ffe07eb14ca0112e1.json) — POST /api/ops/prompt-size - handler run_prompt_size<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4281) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [run_security_audit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85c22e4209960444039324c6.json) — POST /api/ops/security-audit - handler run_security_audit<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L14069) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [run_toolset_post_setup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2938b7905ba98d8c9732ab06.json) — POST /api/tools/toolsets/{name}/post-setup - Spawn a provider's post-setup install hook as a background action.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L663) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [save_toolset_env](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8bedc156880b12cf1741fa0.json) — PUT /api/tools/toolsets/{name}/env - Persist API keys for a toolset's provider env vars.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L604) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [scan_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab195d92043c49907b71c90dd.json) — GET /scan-status - handler scan_status<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/hermes-achievements/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/hermes-achievements/dashboard/plugin_api.py#L1043) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [scopes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A104a81cba45de0e0ec324700.json) — Mapping between GitHub token scopes and tool requirements.<br>

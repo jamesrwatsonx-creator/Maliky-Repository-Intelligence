@@ -1,13 +1,9 @@
 # General / Other — page 6
 
-1,334 catalog entries · Sorted alphabetically by name · Page 6 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 6 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/makerskills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321531791.json) — AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.<br>
-  Source: [jamesrwatsonx-creator/makerskills](https://github.com/jamesrwatsonx-creator/makerskills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Plugins/extensions
-- [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366376995.json) — Open source Loom alternative. Beautiful, shareable screen recordings.<br>
-  Source: [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Marketing-Cap-Loom-style-app) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Business applications
 - [jamesrwatsonx-creator/markitdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342863088.json) — Python tool for converting files and office documents to Markdown.<br>
   Source: [jamesrwatsonx-creator/markitdown](https://github.com/jamesrwatsonx-creator/markitdown) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Developer tools
 - [jamesrwatsonx-creator/material-components](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376788330.json) — Documentation and policies for Material Components (all platforms)<br>
@@ -166,8 +162,6 @@
   Source: [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/pgGraph) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344550925.json) — Open-source vector similarity search for Postgres<br>
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
-- [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418655545.json) — let your agent control your phone<br>
-  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398377814.json) — A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.<br>
   Source: [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/PhoneNumberKit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407868392.json) — An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/StoryToolkitAI](https://github.com/jamesrwatsonx-creator/StoryToolkitAI) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/strapi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372827056.json) — 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.<br>
   Source: [jamesrwatsonx-creator/strapi](https://github.com/jamesrwatsonx-creator/strapi) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Developer tools
+- [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372772625.json) — The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.<br>
+  Source: [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/supabase) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
+- [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1314942199.json) — An agentic skills framework & software development methodology that works.<br>
+  Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · PARTIAL · PINNED_SOURCE · Skills
+- [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.<br>
+  Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, Libraries/packages
 
 ## Pages
 

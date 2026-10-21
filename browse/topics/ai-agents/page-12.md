@@ -1,9 +1,11 @@
 # AI Agents — page 12
 
-2,779 catalog entries · Sorted alphabetically by name · Page 12 of 19.
+2,782 catalog entries · Sorted alphabetically by name · Page 12 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [mathematics-writer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abea2505c4fcde0685b01d6f0.json) — Agent specialized in mathematical writing and exposition<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mathematics/agents/mathematics-writer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mathematics/agents/mathematics-writer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [matrix-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5d10f0ed8d18ce296d87be29.json) — Matrix gateway adapter for Hermes Agent. Connects to a Matrix homeserver via mautrix (with optional E2EE) and relays messages between Matrix rooms/DMs and the Hermes agent. Supports threads, HTML/markdown rendering,…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/matrix/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/matrix/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [mattermost-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6ebcbe5556c677ddb756c15a.json) — Mattermost gateway adapter for Hermes Agent. Connects to a self-hosted or cloud Mattermost instance via the v4 REST API + WebSocket event stream and relays messages between Mattermost channels/DMs and the Hermes agent.…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/novita/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/novita/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [ntfy-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa527e7d8d22e513a49502a5f.json) — ntfy push-notification gateway adapter for Hermes Agent. Subscribes to a topic on ntfy.sh or any self-hosted ntfy server via HTTP streaming, and publishes replies via HTTP POST. Lightweight — no external SDK, only…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/ntfy/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/ntfy/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [nuclear-physicist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c95182d2a316c63f8c5880b.json) — Agent specialized in nuclear physics, nuclear structure, and nuclear reactions<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/nuclear-physicist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/nuclear-physicist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,13 +1,9 @@
 # General / Other — page 5
 
-1,334 catalog entries · Sorted alphabetically by name · Page 5 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 5 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/firecracker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344546123.json) — Secure and fast microVMs for serverless computing.<br>
-  Source: [jamesrwatsonx-creator/firecracker](https://github.com/jamesrwatsonx-creator/firecracker) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1275677656.json) — The API to search, scrape, and interact with the web at scale. 🔥<br>
-  Source: [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/firecrawl) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, Research projects
 - [jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418813128.json) — Simple forum software for building great communities.<br>
   Source: [jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit](https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419861136.json) — Flax Engine – multi-platform 3D game engine<br>
@@ -304,6 +300,10 @@
   Source: [jamesrwatsonx-creator/maigret](https://github.com/jamesrwatsonx-creator/maigret) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/make-interfaces-feel-better](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346400405.json) — An agent skill that helps make your interface feel better.<br>
   Source: [jamesrwatsonx-creator/make-interfaces-feel-better](https://github.com/jamesrwatsonx-creator/make-interfaces-feel-better) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Skills
+- [jamesrwatsonx-creator/makerskills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321531791.json) — AI agent skills for the personal operator's craft — decisions, research, second-brain, content rotation, scenario modeling, and meta-skills to author more. Works with Claude Code, Codex, Cursor.<br>
+  Source: [jamesrwatsonx-creator/makerskills](https://github.com/jamesrwatsonx-creator/makerskills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Plugins/extensions
+- [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366376995.json) — Open source Loom alternative. Beautiful, shareable screen recordings.<br>
+  Source: [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Marketing-Cap-Loom-style-app) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Business applications
 
 ## Pages
 

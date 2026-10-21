@@ -1,9 +1,13 @@
 # UI/UX — page 2
 
-715 catalog entries · Sorted alphabetically by name · Page 2 of 5.
+721 catalog entries · Sorted alphabetically by name · Page 2 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ConfirmHost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A651d9f8ef671d7bba7d7a623.json) — Hermes desktop app React component Confirm Host (confirm-host.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/confirm-host.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/confirm-host.tsx#L9) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [ConnectionBanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f7eff1ddccf4097691559f6.json) — Reconnect and connection-state banner for remote agent sessions.<br>
+  Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [src/components/chat/Banner.tsx](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/components/chat/Banner.tsx#L38) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
 - [ConnectionForm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00f00e2cb9a63277ec79141c.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerSettings/ConnectionForm.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerSettings/ConnectionForm.tsx#L31) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ConnectionsRegistrySection](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9122918b68f057bb14e0c1cb.json) — Hermes desktop app React component Connections Registry Section (connections-registry.tsx).<br>
@@ -292,18 +296,14 @@
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [ui/src/apps/issue-write/App.tsx](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/src/apps/issue-write/App.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344556929.json) — Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI applications, APIs
+- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388276242.json) — Complete mobile app ideation, interview prep, and UI design system - combines app concept validation, mobile standards expertise, and image generation with mobile specs<br>
   Source: [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/app-idea-and-mobile-ui) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398400036.json) — A curated list of awesome Android UI/UX libraries<br>
   Source: [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/awesome-android-ui) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
   Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
-- [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.<br>
-  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Design systems, Developer tools
-- [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254783144.json) — Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
-- [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — 🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…)…<br>
-  Source: [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/better-design-shadcn) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 
 ## Pages
 

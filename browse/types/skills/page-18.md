@@ -1,9 +1,11 @@
 # Skills — page 18
 
-3,157 catalog entries · Sorted alphabetically by name · Page 18 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 18 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [session-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa905119a8bac105fecd0dc22.json) — Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/session-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/session-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [setfit-few-shot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A084fc5a613f937c3167d2820.json) — SetFit few-shot learning for efficient intent classification with minimal data<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/setfit-few-shot/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/setfit-few-shot/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [settlement-calculator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad9298bbd538e61775aa98ee5.json) — Foundation settlement calculation skill for immediate, consolidation, and secondary compression<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/biomedical-engineering/skills/sterilization-validation-planner/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/biomedical-engineering/skills/sterilization-validation-planner/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stim-simulator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9735f1a2d8e04939383b31c3.json) — Clifford circuit simulation skill using Stim for error correction studies<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/stim-simulator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [STIX/TAXII Intelligence Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ec8f0bdc24210338b7a2412.json) — STIX/TAXII threat intelligence format and sharing<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/stix-taxii/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/stix-taxii/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

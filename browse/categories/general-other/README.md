@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**1,334 entries** · Alphabetical · 9 pages.
+**1,330 entries** · Alphabetical · 9 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

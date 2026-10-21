@@ -2,10 +2,14 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**25 entries** · Alphabetical · 1 page.
+**28 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
+- [apaxy-configure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af33d978d34ba706417c9eeae.json) — Shell configurator that installs Apaxy into an Apache web root and applies path, gallery, header, footer and logging settings.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [apaxy-configure.sh](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/apaxy-configure.sh#L1) · CLI · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [Deep-Live-Cam](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4db00ba8de4a3f3ecabd82dc.json) — Desktop application and live-camera pipeline for applying a source identity to detected faces in images, prerecorded video and real-time camera streams.<br>
   Source: [jamesrwatsonx-creator/Deep-Live-Cam](https://github.com/jamesrwatsonx-creator/Deep-Live-Cam) · [modules/core.py](https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/modules/core.py#L205) · APP · VERIFIED · PINNED_SOURCE · Generative AI, AI applications, Creative tools
 - [Deep-Live-Cam launcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A80aa716351c22bd534a456f3.json) — Cross-platform launcher that prepares local runtime library paths and delegates to the application's command-line/UI orchestration.<br>
@@ -28,6 +32,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
   Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
+- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/autoclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378149136.json) — AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具<br>
   Source: [jamesrwatsonx-creator/autoclip](https://github.com/jamesrwatsonx-creator/autoclip) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools
 - [jamesrwatsonx-creator/awesome-typesafe-jev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391518171.json) — Curated list of projects built on TypeSafe's Jev model, read before listed. With media and our own measurements. Not affiliated with TypeSafe AI.<br>

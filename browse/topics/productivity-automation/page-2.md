@@ -1,9 +1,11 @@
 # Productivity & Automation — page 2
 
-2,625 catalog entries · Sorted alphabetically by name · Page 2 of 18.
+2,632 catalog entries · Sorted alphabetically by name · Page 2 of 18.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [arts-culture/preventive-conservation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abd93c3fc7ef58e164d26d4ec.json) — Systematic approach to collection preservation including environmental monitoring, integrated pest management, storage protocols, and emergency preparedness following AIC standards<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/preventive-conservation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/preventive-conservation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [arts-culture/stage-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad6fd1583ca9bbf4df632dad7.json) — Protocol for coordinating rehearsals and performances including scheduling, communication, prompt book management, show calling, and production documentation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/stage-management.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/stage-management.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [arts-culture/strategic-planning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f8e501b00b72710dc9895cc.json) — Framework for developing organizational vision, mission, goals, and implementation strategies for cultural institutions using balanced scorecard and cultural vitality approaches<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/consequence-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/consequence-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [chemical-engineering/control-strategy-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c4fc96909810c0d48c5fa39.json) — Design process control strategies including control loops, cascade controls, and ratio controls for unit operations<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/control-strategy-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/control-strategy-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [chemical-engineering/crystallization-process-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac28443ab9fd279b5ebe6a435.json) — Design crystallization and precipitation systems for product purification and solid-liquid separation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/crystallization-process-design.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/crystallization-process-design.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

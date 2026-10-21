@@ -1,6 +1,6 @@
 # AI Agents — page 10
 
-2,779 catalog entries · Sorted alphabetically by name · Page 10 of 19.
+2,782 catalog entries · Sorted alphabetically by name · Page 10 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -162,6 +162,8 @@
   Source: [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/software-scanning-posthog) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Developer tools
 - [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344512192.json) — The SDK For Browser Agents<br>
   Source: [jamesrwatsonx-creator/stagehand](https://github.com/jamesrwatsonx-creator/stagehand) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, APIs, Developer tools
+- [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1314942199.json) — An agentic skills framework & software development methodology that works.<br>
   Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · PARTIAL · PINNED_SOURCE · Skills
 - [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254778868.json) — A curated directory of open-source AI agent skills for Swift and Apple platform development.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/kotlin-ktor-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/kotlin-ktor-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [kotlin-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34f499cdd5b2af573b297732.json) — Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders. Use when writing or reviewing Kotlin code…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/kotlin-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/kotlin-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [kotlin-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1800f1bccae9cdffe17a89a9.json) — Kotlin and Android/KMP code reviewer. Reviews Kotlin code for idiomatic patterns, coroutine safety, Compose best practices, clean architecture violations, and common Android pitfalls.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/kotlin-reviewer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/kotlin-reviewer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

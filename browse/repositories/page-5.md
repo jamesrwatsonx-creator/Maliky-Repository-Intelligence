@@ -15,7 +15,7 @@
 - [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372772625.json) — The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.<br>
   Source: [jamesrwatsonx-creator/supabase](https://github.com/jamesrwatsonx-creator/supabase) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
-  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1314942199.json) — An agentic skills framework & software development methodology that works.<br>
   Source: [jamesrwatsonx-creator/superpowers](https://github.com/jamesrwatsonx-creator/superpowers) · REPOSITORY · PARTIAL · PINNED_SOURCE · Skills
 - [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.<br>

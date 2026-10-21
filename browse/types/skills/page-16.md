@@ -1,9 +1,11 @@
 # Skills — page 16
 
-3,157 catalog entries · Sorted alphabetically by name · Page 16 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 16 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [pymatching-decoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A95d26084778d5c993e140c63.json) — Minimum-weight perfect matching decoder skill for surface code error correction<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/skills/pymatching-decoder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/skills/pymatching-decoder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pymc-bayesian-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4962acce65dcfee786819cd8.json) — PyMC probabilistic programming skill for hierarchical Bayesian models in physics data analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/skills/pymc-bayesian-modeler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pymc-probabilistic-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34c56eea507bb8b0396773d5.json) — PyMC for flexible Bayesian modeling<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/skills/resource-leveling/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/skills/resource-leveling/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [resource-scheduler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e17e89fb6836da6b6f4728c.json) — Resource scheduling and assignment optimization skill for personnel and equipment allocation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/resource-scheduler/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/resource-scheduler/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [responsive-image](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ba742136b8bb5705770567f.json) — Generate responsive image sets with srcset, WebP/AVIF conversion, and art direction<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/skills/responsive-image/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/skills/responsive-image/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

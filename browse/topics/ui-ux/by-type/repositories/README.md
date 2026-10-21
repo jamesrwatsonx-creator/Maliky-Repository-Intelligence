@@ -2,12 +2,14 @@
 
 Repositories tagged under UI/UX.
 
-**35 entries** · Alphabetical · 1 page.
+**37 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
 - [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344556929.json) — Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI applications, APIs
+- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388276242.json) — Complete mobile app ideation, interview prep, and UI design system - combines app concept validation, mobile standards expertise, and image generation with mobile specs<br>
   Source: [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/app-idea-and-mobile-ui) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398400036.json) — A curated list of awesome Android UI/UX libraries<br>
@@ -62,6 +64,8 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
   Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
+- [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418660400.json) — AI Product Design Agent - Open Source<br>
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [jamesrwatsonx-creator/system_prompts_leaks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274986786.json) — Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok,…<br>
   Source: [jamesrwatsonx-creator/system_prompts_leaks](https://github.com/jamesrwatsonx-creator/system_prompts_leaks) · REPOSITORY · PARTIAL · PINNED_SOURCE · Design systems, Developer tools
 - [jamesrwatsonx-creator/vibe-studio-skills-claude-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1305185007.json) — Public repository for Agent Skills<br>

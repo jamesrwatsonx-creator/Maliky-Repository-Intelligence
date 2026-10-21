@@ -2,17 +2,18 @@
 
 Reusable interface components, patterns, screens and UX resources.
 
-**715 entries**
+**721 entries**
 
 ## Browse within this topic
 
-- [Agents & Frameworks](by-type/agents/README.md) (12)
-- [Libraries & Packages](by-type/libraries/README.md) (3)
+- [Agents & Frameworks](by-type/agents/README.md) (13)
+- [Libraries & Packages](by-type/libraries/README.md) (4)
+- [Plugins](by-type/plugins/README.md) (1)
 - [Other Assets](by-type/other-assets/README.md) (75)
-- [Repositories](by-type/repositories/README.md) (35)
+- [Repositories](by-type/repositories/README.md) (37)
 - [Services & Integrations](by-type/services/README.md) (1)
 - [Skills](by-type/skills/README.md) (15)
-- [Tools](by-type/tools/README.md) (2)
+- [Tools](by-type/tools/README.md) (3)
 - [UI Components](by-type/ui-components/README.md) (557)
 - [Workflows](by-type/workflows/README.md) (15) · Alphabetical · 5 pages.
 
@@ -108,6 +109,10 @@ Reusable interface components, patterns, screens and UX resources.
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/controller/ScreenCaptureManager.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/controller/ScreenCaptureManager.kt#L18) · MOBILE_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
 - [Android UI Element Detector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A22d9e25035e7b3892ffbbd70.json) — Traverses the accessibility tree, indexes interactive elements and annotates screenshots with target boxes.<br>
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/controller/UiElementDetector.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/controller/UiElementDetector.kt#L17) · MOBILE_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
+- [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
+- [apaxy-configure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af33d978d34ba706417c9eeae.json) — Shell configurator that installs Apaxy into an Apache web root and applies path, gallery, header, footer and logging settings.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [apaxy-configure.sh](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/apaxy-configure.sh#L1) · CLI · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [ApiKeyForm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7cb8f87b7ff0a45b61e3fc2a.json) — Hermes desktop app React component Api Key Form (index.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/onboarding/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/onboarding/index.tsx#L540) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [App](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0cf1e878a0e191477602b29f.json) — Exported JSX component candidate<br>
@@ -314,10 +319,6 @@ Reusable interface components, patterns, screens and UX resources.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/settings/config-settings.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/settings/config-settings.tsx#L51) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [ConfirmDialog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac720b3ee3b5cac5932ad9491.json) — Hermes web dashboard React component Confirm Dialog (ConfirmDialog.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/ConfirmDialog.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/ConfirmDialog.tsx#L19) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ConfirmHost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A651d9f8ef671d7bba7d7a623.json) — Hermes desktop app React component Confirm Host (confirm-host.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/confirm-host.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/confirm-host.tsx#L9) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ConnectionBanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f7eff1ddccf4097691559f6.json) — Reconnect and connection-state banner for remote agent sessions.<br>
-  Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [src/components/chat/Banner.tsx](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/components/chat/Banner.tsx#L38) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
 
 ## Pages
 

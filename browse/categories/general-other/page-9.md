@@ -1,17 +1,9 @@
 # General / Other — page 9
 
-1,334 catalog entries · Sorted alphabetically by name · Page 9 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 9 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A053c04ea84cb2fdfa4bad892.json) — The open agent skills ecosystem<br>
-  Source: [jamesrwatsonx-creator/skills-finds](https://github.com/jamesrwatsonx-creator/skills-finds) · [package.json](https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
-- [skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7c3af45e3e576d96d874c848.json) — The open agent skills ecosystem<br>
-  Source: [jamesrwatsonx-creator/skills-finds](https://github.com/jamesrwatsonx-creator/skills-finds) · [package.json](https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
-- [skills-tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2b50d39ba9f2d2dc451cfdaf.json) — Source-declared workflow `skills-tests`.<br>
-  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · [.github/workflows/skills-tests.yml](https://github.com/jamesrwatsonx-creator/Webwright/blob/bc26750af3ad166d982f23d101ef8971a3a2fce5/.github/workflows/skills-tests.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [SkillsChamber](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae48f3c6e783cddc78c1122b1.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/skills/SkillsChamber.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/skills/SkillsChamber.tsx#L24) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [SkillsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A13c4132c6147f953fdc67e82.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/SkillsPage.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/SkillsPage.tsx#L811) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [SkillsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2632844149cac88d048bc28.json) — Exported JSX component candidate<br>

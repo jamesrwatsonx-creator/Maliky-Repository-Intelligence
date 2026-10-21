@@ -2,7 +2,7 @@
 
 Individually searchable skills from the public owned catalog.
 
-**3,157 entries** · Alphabetical · 22 pages.
+**3,158 entries** · Alphabetical · 22 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

@@ -1,9 +1,17 @@
 # Tools — page 3
 
-388 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+392 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [sample_video.py](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aec14a2029b53cccf68fc8f15.json) — Command-line entry point for loading HunyuanVideo checkpoints and generating video samples from text prompts.<br>
+  Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · [sample_video.py](https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/sample_video.py#L12) · CLI · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
+- [sana-run](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac8ab7dd27d94ce348fa326b3.json) — sana.cli.run:main<br>
+  Source: [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Sana) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/Sana/blob/51baa3c99acd1632ca8c4b2e45e893e8be08a819/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [sana-upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abc711931f8aa17976f60d071.json) — sana.cli.upload2hf:main<br>
+  Source: [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Sana) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/Sana/blob/51baa3c99acd1632ca8c4b2e45e893e8be08a819/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [saved_clear_completed](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9265207d72de7abb4a6155df.json) — Bulk-clear completed items from Slack Save for Later.<br>
+  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L48) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [saved_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e1b54bc1c36c72495f5891a.json) — List messages in the authenticated user's Save for Later panel.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L46) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [saved_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af249cd7e90ab81c57311fc28.json) — Update completion and due-date state for a Slack saved item.<br>

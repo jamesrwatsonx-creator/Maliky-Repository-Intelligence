@@ -1,9 +1,13 @@
 # Prompts & Workflows — page 7
 
-3,030 catalog entries · Sorted alphabetically by name · Page 7 of 21.
+3,034 catalog entries · Sorted alphabetically by name · Page 7 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [gsd/audit-milestone](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0b082fcf45f14a4e39041cb4.json) — GSD milestone audit - verify milestone definition-of-done<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/audit-milestone.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/audit-milestone.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [gsd/complete-milestone](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Affe064eee26be79863efc13b.json) — Milestone lifecycle completion: verify audit, archive, evolve PROJECT.md, tag release, cleanup<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/complete-milestone.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/complete-milestone.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [gsd/debug](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8994a54d05de61124e830d48.json) — Systematic debugging using scientific method with persistent debug sessions. Phase 0: Root-cause diagnosis with git diff analysis, 2+ evidence signals, no code changes.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/debug.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/debug.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [gsd/discuss-phase](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A22bd1f0f7e6ffee5a9885b30.json) — GSD phase discussion - capture implementation preferences before planning<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/OpenCut) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Frontend applications, Libraries/packages
 - [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344550925.json) — Open-source vector similarity search for Postgres<br>
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
-- [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344501968.json) — Playwright MCP server<br>
-  Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Libraries/packages
-- [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274984646.json) — PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.<br>
-  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, CI/CD, Developer tools
 
 ## Pages
 

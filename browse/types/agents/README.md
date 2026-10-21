@@ -2,7 +2,7 @@
 
 Individually searchable agents & frameworks from the public owned catalog.
 
-**1,391 entries** · Alphabetical · 10 pages.
+**1,392 entries** · Alphabetical · 10 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

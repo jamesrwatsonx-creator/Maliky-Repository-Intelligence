@@ -2,7 +2,7 @@
 
 iOS apps, Swift components and Apple platform tooling.
 
-**74 entries** · Alphabetical · 1 page.
+**75 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -118,6 +118,8 @@ iOS apps, Swift components and Apple platform tooling.
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [src/lib/letta/mockSession.ts](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/lib/letta/mockSession.ts#L1) · REFERENCE_IMPLEMENTATION · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
 - [network-config-validation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A919893348ed568d68fc6893a.json) — Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/network-config-validation/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/network-config-validation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fb80b111730bbc2de14f7df.json) — Python device-automation runtime exposing one API for local iPhone Mirroring, Android over adb, hosted Android and remote iPhone control.<br>
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [push-notifications](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb4c2847de3655d16736c18c.json) — Multi-platform push notification skill for implementing APNs (iOS), FCM (Android), and cross-platform notification systems with rich media, deep linking, and background processing capabilities.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/skills/push-notifications/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/skills/push-notifications/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [Secure Connection Profile Store](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A19f1db369fc6f046752b0bce.json) — Cloud and self-hosted server profile persistence that keeps access, refresh, API and capability tokens in Expo SecureStore.<br>

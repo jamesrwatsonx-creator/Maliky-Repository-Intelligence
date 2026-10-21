@@ -2,10 +2,14 @@
 
 Individually searchable services & integrations from the public owned catalog.
 
-**82 entries** · Alphabetical · 1 page.
+**84 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [1time Secret Sharing Service](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A466b244dd260e54b22446130.json) — Self-hostable Go, Redis and file-storage service for bounded-view ciphertext and encrypted-file payloads used by browser, CLI and integration clients.<br>
+  Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · [backend/main.go](https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/backend/main.go#L1) · SERVICE · VERIFIED · PINNED_SOURCE · Application security, Backend services, CLI tools
+- [1time Zapier Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afdc17d372bd14d21c3831368.json) — Zapier Platform integration that packages the shared 1time protocol for creating encrypted one-time secret links in automation workflows.<br>
+  Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · [zap/package.json](https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/zap/package.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · Application security, Backend services, CLI tools
 - [a2a-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4df74a6ce52f2af6a6c76e75.json) — A2A (Agent-to-Agent) protocol v1.0 support for Hermes Agent — both directions of the open Linux Foundation standard for inter-agent communication.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/a2a/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/a2a/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [A2ARegisterTool](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A648e965d8cd1982aced7781e.json) — Registers a uAgent, by address, as an A2A HTTP endpoint (agent card and skills) so A2A clients can reach it.<br>

@@ -1,6 +1,6 @@
 # General / Other — page 3
 
-1,334 catalog entries · Sorted alphabetically by name · Page 3 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 3 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -214,8 +214,6 @@
   Source: [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/-email-agentic-inbox) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/.Android.compose-samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342383080.json) — Official Jetpack Compose samples.<br>
   Source: [jamesrwatsonx-creator/.Android.compose-samples](https://github.com/jamesrwatsonx-creator/.Android.compose-samples) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
-- [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418668015.json) — Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.<br>
-  Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/3D-lingbot-map](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342961011.json) — A feed-forward 3D foundation model for reconstructing scenes from streaming data<br>
   Source: [jamesrwatsonx-creator/3D-lingbot-map](https://github.com/jamesrwatsonx-creator/3D-lingbot-map) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
 - [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418887038.json) — Extensible API Gateway written in Go. Load custom plugins to extend functionality.<br>
@@ -274,8 +272,6 @@
   Source: [jamesrwatsonx-creator/AnyPS5](https://github.com/jamesrwatsonx-creator/AnyPS5) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346378051.json) — Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience<br>
   Source: [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/anything-llm) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, LLM projects, Research projects
-- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
-  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools…<br>
   Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
 - [jamesrwatsonx-creator/AppFlowy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342807795.json) — Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.<br>
@@ -304,6 +300,10 @@
   Source: [jamesrwatsonx-creator/AutoHedge](https://github.com/jamesrwatsonx-creator/AutoHedge) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Research projects
 - [jamesrwatsonx-creator/automatisch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342778704.json) — The open source Zapier alternative. Build workflow automation without spending time and money.<br>
   Source: [jamesrwatsonx-creator/automatisch](https://github.com/jamesrwatsonx-creator/automatisch) · REPOSITORY · PARTIAL · PINNED_SOURCE · Automation/scripting
+- [jamesrwatsonx-creator/autoscraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426100025.json) — A Smart, Automatic, Fast and Lightweight Web Scraper for Python<br>
+  Source: [jamesrwatsonx-creator/autoscraper](https://github.com/jamesrwatsonx-creator/autoscraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418880407.json) — A collection of permissive license open source things that help build Chat apps with React.<br>
+  Source: [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/awesome-chat-react) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 
 ## Pages
 

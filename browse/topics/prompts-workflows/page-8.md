@@ -1,9 +1,13 @@
 # Prompts & Workflows — page 8
 
-3,030 catalog entries · Sorted alphabetically by name · Page 8 of 21.
+3,034 catalog entries · Sorted alphabetically by name · Page 8 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344501968.json) — Playwright MCP server<br>
+  Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Libraries/packages
+- [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274984646.json) — PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.<br>
+  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, CI/CD, Developer tools
 - [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342961720.json) — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.<br>
   Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, Developer tools
 - [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ccpm/ccpm-task-decomposition.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ccpm/ccpm-task-decomposition.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/ccpm/ccpm-tracking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8a63185e1362742a3741695d.json) — CCPM Progress Tracking - Standup reports, blocked task management, status dashboard, completion verification<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ccpm/ccpm-tracking.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ccpm/ccpm-tracking.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/claudekit/claudekit-code-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa5f849d0c7923be52d39966c.json) — ClaudeKit Code Review - 6-agent parallel code review with architecture, security, performance, testing, quality, and documentation analysis. Each agent scores independently and results are aggregated into a weighted…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-code-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-code-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/claudekit/claudekit-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A09e44be079487474bac42049.json) — ClaudeKit Orchestrator - Main entry point that sets up the safety pipeline (hooks, file-guard), executes slash commands, dispatches code review or spec workflows, and manages checkpoints with session-scoped hook control<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

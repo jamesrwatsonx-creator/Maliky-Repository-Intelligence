@@ -1,9 +1,11 @@
 # Skills — page 17
 
-3,157 catalog entries · Sorted alphabetically by name · Page 17 of 22.
+3,158 catalog entries · Sorted alphabetically by name · Page 17 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [responsive-image](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ba742136b8bb5705770567f.json) — Generate responsive image sets with srcset, WebP/AVIF conversion, and art direction<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/skills/responsive-image/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/skills/responsive-image/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [rest-api-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acff55e8e9e750fca4df660a8.json) — RESTful API design principles, versioning, pagination, HATEOAS, and documentation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/rest-api-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/rest-api-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [rest-countries/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A126cbab094342dc8d2341dae.json) — Domain skill: REST Countries — Scraping & Data Extraction. Use the ?fields= query param to limit response size — essential when fetching all 250.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/productivity/session-librarian/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/productivity/session-librarian/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [session-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f83c22fc6c324553e6a4938.json) — Manage agent sessions including initialization, handoffs, revival (seance), and persistent identity for Polecats and Crew agents.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gastown/skills/session-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gastown/skills/session-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [session-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa905119a8bac105fecd0dc22.json) — Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/session-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/session-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

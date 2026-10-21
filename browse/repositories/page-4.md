@@ -129,7 +129,7 @@
 - [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344550925.json) — Open-source vector similarity search for Postgres<br>
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
 - [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418655545.json) — let your agent control your phone<br>
-  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · REPOSITORY · COMPLETE · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398377814.json) — A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.<br>
   Source: [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/PhoneNumberKit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407868392.json) — An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust<br>

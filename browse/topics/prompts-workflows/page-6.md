@@ -1,9 +1,13 @@
 # Prompts & Workflows — page 6
 
-3,030 catalog entries · Sorted alphabetically by name · Page 6 of 21.
+3,034 catalog entries · Sorted alphabetically by name · Page 6 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ebay/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa45d2683fb081d69bbb20059.json) — Domain skill: eBay — Scraping & Data Extraction. Field-tested against ebay.com on 2026-04-18 using uv run python with httpget.<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/ebay/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/ebay/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [ecc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2197ad1e3c1f35daf7b49a02.json) — Harness-native ECC workflows for Codex: shared skills, production-ready MCP configs, and selective-install-aligned conventions for TDD, security scanning, code review, and autonomous development.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [plugins/ecc/.codex-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/plugins/ecc/.codex-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [ecc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3eb205d7c38de35a3b861281.json) — Harness-native ECC plugin for engineering teams - 68 agents, 286 skills, 94 legacy command shims, reusable hooks, rules, MCP conventions, and operator workflows for Claude Code plus adjacent agent harnesses<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [ecc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83fe274d398b49e760cbc6a9.json) — Harness-native ECC workflows for Codex: shared skills, production-ready MCP configs, and selective-install-aligned conventions for TDD, security scanning, code review, and autonomous development.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-go-to-market/skills/growth-loops/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-go-to-market/skills/growth-loops/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [gsd/add-tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3f3942e7b98a992091d3e9ce.json) — Generate unit and E2E tests from UAT criteria for a completed phase<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/add-tests.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/add-tests.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [gsd/audit-milestone](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0b082fcf45f14a4e39041cb4.json) — GSD milestone audit - verify milestone definition-of-done<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/audit-milestone.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/audit-milestone.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [gsd/complete-milestone](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Affe064eee26be79863efc13b.json) — Milestone lifecycle completion: verify audit, archive, evolve PROJECT.md, tag release, cleanup<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/complete-milestone.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/complete-milestone.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

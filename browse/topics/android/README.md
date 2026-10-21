@@ -2,12 +2,12 @@
 
 Android apps, libraries, skills and platform tooling.
 
-**117 entries**
+**118 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (13)
-- [Libraries & Packages](by-type/libraries/README.md) (1)
+- [Libraries & Packages](by-type/libraries/README.md) (2)
 - [Models & Model Adapters](by-type/models/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (1)
 - [Repositories](by-type/repositories/README.md) (49)
@@ -218,6 +218,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/agent/Notetaker.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/agent/Notetaker.kt#L3) · AGENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
 - [OpenAI-Compatible Mobile VLM Adapter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A42e547b5eaf9cbc5e3b4a62a.json) — Android client for OpenAI-compatible multimodal chat endpoints used to reason over screenshots.<br>
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/api/OpenAiCompatibleClient.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/api/OpenAiCompatibleClient.kt#L14) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
+- [phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fb80b111730bbc2de14f7df.json) — Python device-automation runtime exposing one API for local iPhone Mirroring, Android over adb, hosted Android and remote iPhone control.<br>
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [push-notifications](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb4c2847de3655d16736c18c.json) — Multi-platform push notification skill for implementing APNs (iOS), FCM (Android), and cross-platform notification systems with rich media, deep linking, and background processing capabilities.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/skills/push-notifications/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/skills/push-notifications/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [release.yml](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af03430bd7e0c151f74186ca8.json) — Description not available in current evidence.<br>

@@ -1,9 +1,11 @@
 # Libraries & Packages — page 2
 
-248 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+250 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jarvis-mission-control-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa336af5797f189a2436ec025.json) — Backend server for JARVIS Mission Control - handles data persistence, real-time updates, and OpenClaw agent integration<br>
+  Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [server/package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/server/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [letta-mobile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A529fcdc94c6f66b2c8084388.json) — Expo/React Native reference application package for the Letta Agent SDK, targeting iOS, Android and Expo Go.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [package.json](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
 - [lingbot-map](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af93184d895e534c58a31ae17.json) — LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction<br>
@@ -78,6 +80,8 @@
   Source: [jamesrwatsonx-creator/paperclip](https://github.com/jamesrwatsonx-creator/paperclip) · [cli/package.json](https://github.com/jamesrwatsonx-creator/paperclip/blob/3ff636bc4852dfc07fcab8ccfdb0b4fd22c1548c/cli/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [pggraph-docs-validation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17c30adc28b7a49befa0ed90.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/pgGraph) · [docs/package.json](https://github.com/jamesrwatsonx-creator/pgGraph/blob/6fd7da97a8e1ec93309cfafcb61582755487f4c3/docs/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
+- [phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fb80b111730bbc2de14f7df.json) — Python device-automation runtime exposing one API for local iPhone Mirroring, Android over adb, hosted Android and remote iPhone control.<br>
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [ponytail-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7ecfa9cee9eaf55044261dcc.json) — MCP server that serves Ponytail's lazy-senior-dev instructions as a prompt and a tool.<br>
   Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · [ponytail-mcp/package.json](https://github.com/jamesrwatsonx-creator/ponytail/blob/2ed6c52c9d7e5e56942508591085fd45dea277d3/ponytail-mcp/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [ponytail-pi-extension-dev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00513d2a736866cb11e7fe09.json) — Source-declared package `ponytail-pi-extension-dev`.<br>

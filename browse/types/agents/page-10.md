@@ -1,9 +1,11 @@
 # Agents & Frameworks — page 10
 
-1,391 catalog entries · Sorted alphabetically by name · Page 10 of 10.
+1,392 catalog entries · Sorted alphabetically by name · Page 10 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [vehicle-systems-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae61df45438a87f256d7fd549.json) — Senior architect for vehicle system architecture and integration decisions<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [verification-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3b2631aef69738c8e873ab3c.json) — Senior verification engineer with UVM and formal verification expertise for FPGA designs<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/fpga-programming/agents/verification-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/fpga-programming/agents/verification-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [verifier](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af769050ca6578c69dfa7c6c9.json) — Validates that implementation steps meet their verification criteria and all success criteria are satisfied.<br>

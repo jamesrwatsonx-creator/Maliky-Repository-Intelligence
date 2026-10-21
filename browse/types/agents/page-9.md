@@ -1,6 +1,6 @@
 # Agents & Frameworks — page 9
 
-1,391 catalog entries · Sorted alphabetically by name · Page 9 of 10.
+1,392 catalog entries · Sorted alphabetically by name · Page 9 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -10,6 +10,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/aerospace-engineering/agents/structures-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/aerospace-engineering/agents/structures-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [succession-advisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A26e6235ec391bdbb23e8e1e6.json) — Expert in succession planning and leadership pipeline development<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/human-resources/agents/succession-advisor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/human-resources/agents/succession-advisor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [SuperDesign Custom Design Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8341ed635b35934aa039a663.json) — Model-provider-backed design agent with workspace read, write, edit, search, listing, theme and shell tools for producing and revising interface artifacts.<br>
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · [src/services/customAgentService.ts](https://github.com/jamesrwatsonx-creator/superdesign-Front-end/blob/49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19/src/services/customAgentService.ts#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [supplier-development-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5061dc1ff831ae383cd534bc.json) — Agent specialized in supplier capability development and improvement programs<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supplier-development-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supplier-development-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [supplier-onboarding-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3b442727aa8f4d80776892ef.json) — Agent specialized in supplier onboarding, qualification, and system setup<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/vector-db-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/vector-db-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [vehicle-dynamics-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad987b182c1e26e50be781973.json) — Expert in vehicle dynamics tuning and chassis development<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [vehicle-systems-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae61df45438a87f256d7fd549.json) — Senior architect for vehicle system architecture and integration decisions<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

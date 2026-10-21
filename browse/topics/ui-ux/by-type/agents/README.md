@@ -2,7 +2,7 @@
 
 Agents & Frameworks tagged under UI/UX.
 
-**12 entries** · Alphabetical · 1 page.
+**13 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -26,6 +26,8 @@ Agents & Frameworks tagged under UI/UX.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/agents/mobile-ux-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/agents/mobile-ux-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [performance-auditor-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9e37586a2012fcf5a27bb43c.json) — Analyze UI/UX performance metrics including Core Web Vitals<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/performance-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/performance-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [SuperDesign Custom Design Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8341ed635b35934aa039a663.json) — Model-provider-backed design agent with workspace read, write, edit, search, listing, theme and shell tools for producing and revising interface artifacts.<br>
+  Source: [jamesrwatsonx-creator/superdesign-Front-end](https://github.com/jamesrwatsonx-creator/superdesign-Front-end) · [src/services/customAgentService.ts](https://github.com/jamesrwatsonx-creator/superdesign-Front-end/blob/49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19/src/services/customAgentService.ts#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Creative tools, Design systems
 - [tui-component-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90ed1a34709717001ed2bd36.json) — Expert in terminal UI component design, layout systems, and interactive element patterns.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/agents/tui-component-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/agents/tui-component-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [typography-system-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5baedcd74d65c95f0a569d5e.json) — Design and validate typography systems for design systems<br>

@@ -2,7 +2,7 @@
 
 Repositories tagged under Video.
 
-**52 entries** · Alphabetical · 1 page.
+**53 entries** · Alphabetical · 1 page.
 
 [Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -14,6 +14,8 @@ Repositories tagged under Video.
   Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
   Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
+- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074222.json) — Effort free video editing!<br>
   Source: [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/auto-editor) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/autoclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378149136.json) — AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具<br>

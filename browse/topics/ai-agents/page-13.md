@@ -1,9 +1,11 @@
 # AI Agents — page 13
 
-2,779 catalog entries · Sorted alphabetically by name · Page 13 of 19.
+2,782 catalog entries · Sorted alphabetically by name · Page 13 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [nuclear-physicist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c95182d2a316c63f8c5880b.json) — Agent specialized in nuclear physics, nuclear structure, and nuclear reactions<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/nuclear-physicist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/nuclear-physicist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [number-theory-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A947664d63c1feef4906b7e33.json) — Expert in number theory and mathematical algorithms<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/algorithms-optimization/agents/number-theory-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/algorithms-optimization/agents/number-theory-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [numerical-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f74561e1cb96bf1d45f646d.json) — Agent specialized in numerical analysis and scientific computing<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18373) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [post_agent_plugin_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A666ca35d467ca603d2f7ba7d.json) — POST /api/dashboard/agent-plugins/{name:path}/update - handler post_agent_plugin_update<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18429) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [post_plugin_visibility](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97bdab8396ad18d7ad92ab4c.json) — POST /api/dashboard/plugins/{name:path}/visibility - Toggle a plugin's sidebar visibility (persists to config.yaml dashboard.hidden_pl<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18480) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

@@ -1,17 +1,9 @@
 # General / Other — page 8
 
-1,334 catalog entries · Sorted alphabetically by name · Page 8 of 9.
+1,330 catalog entries · Sorted alphabetically by name · Page 8 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [migrate_models](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f65a7284b57cd8954a7bd5e.json) — Move all downloaded models to a new directory with byte-level progress via SSE.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L122) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [minions](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A253497d5d489c3df2a6d2ca5.json) — Mission Control for Hermes Agent — a Kanban board for autonomous agent tasks<br>
-  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [package.json](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
-- [minionsai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a9c146c2d1640aff2d7f8ac.json) — Mission Control for Hermes Agent — a Kanban board for autonomous agent tasks<br>
-  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [package.json](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
-- [ModelManagement](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1264dc6c3ec36dc2edb7c101.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerSettings/ModelManagement.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerSettings/ModelManagement.tsx#L128) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ModelPicker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A88d790ccbfba7fa700ab6436.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/InputToolbar.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/InputToolbar.tsx#L558) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ModelProgress](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58e4797e60f34bca24985c65.json) — Exported JSX component candidate<br>
@@ -304,6 +296,14 @@
   Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [skillclaw-evolve-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aabeba8d3027c97c63b74f1ab.json) — evolve_server.__main__:main<br>
   Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
+- [skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A053c04ea84cb2fdfa4bad892.json) — The open agent skills ecosystem<br>
+  Source: [jamesrwatsonx-creator/skills-finds](https://github.com/jamesrwatsonx-creator/skills-finds) · [package.json](https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7c3af45e3e576d96d874c848.json) — The open agent skills ecosystem<br>
+  Source: [jamesrwatsonx-creator/skills-finds](https://github.com/jamesrwatsonx-creator/skills-finds) · [package.json](https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
+- [skills-tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2b50d39ba9f2d2dc451cfdaf.json) — Source-declared workflow `skills-tests`.<br>
+  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · [.github/workflows/skills-tests.yml](https://github.com/jamesrwatsonx-creator/Webwright/blob/bc26750af3ad166d982f23d101ef8971a3a2fce5/.github/workflows/skills-tests.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
+- [SkillsChamber](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae48f3c6e783cddc78c1122b1.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/skills/SkillsChamber.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/skills/SkillsChamber.tsx#L24) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 
 ## Pages
 

@@ -3,54 +3,407 @@
   "inspected_commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
   "tree_complete": true,
   "tree_files": 46,
-  "tree_entries": [],
-  "files_read": [],
-  "unread_source_paths": [
-    ".github/FUNDING.yml",
-    ".github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml",
-    ".github/workflows/publish.yml",
-    "LICENSE",
-    "README.md",
-    "SKILL.md",
-    "agent-workspace/agent_helpers.py",
-    "install.md",
-    "integrations/hermes/README.md",
-    "integrations/hermes/__init__.py",
-    "integrations/hermes/plugin.yaml",
-    "onboarding.md",
-    "pyproject.toml",
-    "src/phone_harness/__init__.py",
-    "src/phone_harness/admin.py",
-    "src/phone_harness/android.py",
-    "src/phone_harness/background.py",
-    "src/phone_harness/cloud.py",
-    "src/phone_harness/config.py",
-    "src/phone_harness/helpers.py",
-    "src/phone_harness/ios.py",
-    "src/phone_harness/mirror.py",
-    "src/phone_harness/ocr.py",
-    "src/phone_harness/remote.py",
-    "src/phone_harness/run.py",
-    "src/phone_harness/telemetry.py",
-    "src/phone_harness/term.py",
-    "src/phone_harness/transport.py",
-    "src/phone_harness/update.py",
-    "src/phone_harness/workspace.py",
-    "tests/conftest.py",
-    "tests/support/browser_recorder.py",
-    "tests/support/sitecustomize.py",
-    "tests/test_android.py",
-    "tests/test_backend_contract.py",
-    "tests/test_cli.py",
-    "tests/test_cloud.py",
-    "tests/test_hermes_plugin.py",
-    "tests/test_ios_session.py",
-    "tests/test_remote.py",
-    "tests/test_skill.py",
-    "tests/test_update.py",
-    "tests/test_workspace.py"
+  "tree_entries": [
+    {
+      "path": ".github/FUNDING.yml",
+      "sha": "ed25cb648d9938318fb43c83359be11baded97c5"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "9fd2af9cdbe3e652b843a629a0d0c8a18d1ebafb"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "27c90b250a5428ede375ac73d90f1c5ffe9a91bb"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "68e91a8d16b9b1b43bea382c46376a10515bdd23"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "4eb6ede56ee2d34e9be743aff48f35477c28bad0"
+    },
+    {
+      "path": "README.md",
+      "sha": "c40595784da3a28ecb8d190728d6fe2e93bceaa5"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "686db853580ac3766a5d0beedd4070a4016aa90e"
+    },
+    {
+      "path": "agent-workspace/agent_helpers.py",
+      "sha": "9c896f43c0a9e57465f80a285609ed11c85d30a8"
+    },
+    {
+      "path": "install.md",
+      "sha": "db8a39b412395e1d2698dcace9e06f870bbc5260"
+    },
+    {
+      "path": "integrations/hermes/README.md",
+      "sha": "e7c12dc9e02b8bdc3fb11d95f03e01014448ae23"
+    },
+    {
+      "path": "integrations/hermes/__init__.py",
+      "sha": "dc0cbb9467044704b0782984c466e6c0c3a01ccb"
+    },
+    {
+      "path": "integrations/hermes/plugin.yaml",
+      "sha": "cb59613ad88e5bec353df505dd0c26056f1d79f9"
+    },
+    {
+      "path": "onboarding.md",
+      "sha": "a45e49460a1e786d5a32ae553c1e826adcf3ba22"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "32a69273317d5eedd4311526009399c86fece336"
+    },
+    {
+      "path": "src/phone_harness/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/phone_harness/admin.py",
+      "sha": "890b762a426ead5313db419f28689f7a051b8f6d"
+    },
+    {
+      "path": "src/phone_harness/android.py",
+      "sha": "d7d0506723811d455d065089bd25124628905278"
+    },
+    {
+      "path": "src/phone_harness/background.py",
+      "sha": "8cc8677283b3569ee5a76340ea96427003398a25"
+    },
+    {
+      "path": "src/phone_harness/cloud.py",
+      "sha": "23e22aa3534708dc2bc40ae4eb8dd6bcbc96f8ae"
+    },
+    {
+      "path": "src/phone_harness/config.py",
+      "sha": "e52ed1ff6fd5efc71b9b350e5cbb3bcd221e0b57"
+    },
+    {
+      "path": "src/phone_harness/helpers.py",
+      "sha": "891a716ad5782061da4e86a2062bd51db779bbb6"
+    },
+    {
+      "path": "src/phone_harness/ios.py",
+      "sha": "41a1b581eada2e3df3be58f6c61efe6a5eadac79"
+    },
+    {
+      "path": "src/phone_harness/mirror.py",
+      "sha": "8a47451159605b8542d417009b8fffd99695d86c"
+    },
+    {
+      "path": "src/phone_harness/ocr.py",
+      "sha": "6b5f9eeaf03b256341d8acd59c5d02cd927035b4"
+    },
+    {
+      "path": "src/phone_harness/remote.py",
+      "sha": "168c9348a63a7a76838c6514fe465ee6d831a3c7"
+    },
+    {
+      "path": "src/phone_harness/run.py",
+      "sha": "c4b063d082d9f844e2823cf272989c9399231690"
+    },
+    {
+      "path": "src/phone_harness/telemetry.py",
+      "sha": "876146f58c105019a7814c420d14354b1eab7149"
+    },
+    {
+      "path": "src/phone_harness/term.py",
+      "sha": "60559bc86d33d03c6e7cd4d9d4ba4fb9fa209cc8"
+    },
+    {
+      "path": "src/phone_harness/transport.py",
+      "sha": "1cd61db78d2bd821e7619587198ec849196fe5f4"
+    },
+    {
+      "path": "src/phone_harness/update.py",
+      "sha": "b77581eb67650f546bcc6e2a1d3c19bd5249d6cf"
+    },
+    {
+      "path": "src/phone_harness/workspace.py",
+      "sha": "b13031a0947282be54a0fe7a1ab705e380092978"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha": "13951aabcfc082893ee5859043d46bce25afa09e"
+    },
+    {
+      "path": "tests/support/browser_recorder.py",
+      "sha": "906fdb4816446e6b2eca6a279b5e2f0a9d94f6e7"
+    },
+    {
+      "path": "tests/support/sitecustomize.py",
+      "sha": "6d7fe303957d9f5eb05fa23e0e91f87fd2a01fb6"
+    },
+    {
+      "path": "tests/test_android.py",
+      "sha": "cf5376e9dd246442b8bb32ba051e1014625ce19f"
+    },
+    {
+      "path": "tests/test_backend_contract.py",
+      "sha": "a7e8b4241fbd3e754113d893c1bc87b4603f8d95"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha": "583d98bbca071b1e7e4cc6b0734beb7b4057297e"
+    },
+    {
+      "path": "tests/test_cloud.py",
+      "sha": "3cac95310cdc0e80a2a8a856e4cf07955a77c5d6"
+    },
+    {
+      "path": "tests/test_hermes_plugin.py",
+      "sha": "952e3df97d914094937467822e09c6f3f2dd5398"
+    },
+    {
+      "path": "tests/test_ios_session.py",
+      "sha": "86b7eca010a6a08a46a94c2d8c13146f70330dba"
+    },
+    {
+      "path": "tests/test_remote.py",
+      "sha": "5c861545f9038814a50c569ad73e364341111d0e"
+    },
+    {
+      "path": "tests/test_skill.py",
+      "sha": "df5b47e80d97d5f3d3a10dc0142c4b220664db8a"
+    },
+    {
+      "path": "tests/test_update.py",
+      "sha": "b1ff835aa9f5890f6199fabd38c8dea68e095cef"
+    },
+    {
+      "path": "tests/test_workspace.py",
+      "sha": "be6fd3f56ca0c45dab1c345f717a414204b204f3"
+    }
   ],
+  "files_read": [
+    {
+      "path": "SKILL.md",
+      "blob_sha": "686db853580ac3766a5d0beedd4070a4016aa90e",
+      "entities_detected": 1
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "32a69273317d5eedd4311526009399c86fece336",
+      "entities_detected": 2
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "c40595784da3a28ecb8d190728d6fe2e93bceaa5",
+      "entities_detected": 0
+    },
+    {
+      "path": "integrations/hermes/README.md",
+      "blob_sha": "e7c12dc9e02b8bdc3fb11d95f03e01014448ae23",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "27c90b250a5428ede375ac73d90f1c5ffe9a91bb",
+      "entities_detected": 1
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "blob_sha": "68e91a8d16b9b1b43bea382c46376a10515bdd23",
+      "entities_detected": 1
+    },
+    {
+      "path": "agent-workspace/agent_helpers.py",
+      "blob_sha": "9c896f43c0a9e57465f80a285609ed11c85d30a8",
+      "entities_detected": 0
+    },
+    {
+      "path": "integrations/hermes/__init__.py",
+      "blob_sha": "dc0cbb9467044704b0782984c466e6c0c3a01ccb",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/__init__.py",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/admin.py",
+      "blob_sha": "890b762a426ead5313db419f28689f7a051b8f6d",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/android.py",
+      "blob_sha": "d7d0506723811d455d065089bd25124628905278",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/background.py",
+      "blob_sha": "8cc8677283b3569ee5a76340ea96427003398a25",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/cloud.py",
+      "blob_sha": "23e22aa3534708dc2bc40ae4eb8dd6bcbc96f8ae",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/config.py",
+      "blob_sha": "e52ed1ff6fd5efc71b9b350e5cbb3bcd221e0b57",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/helpers.py",
+      "blob_sha": "891a716ad5782061da4e86a2062bd51db779bbb6",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/ios.py",
+      "blob_sha": "41a1b581eada2e3df3be58f6c61efe6a5eadac79",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/mirror.py",
+      "blob_sha": "8a47451159605b8542d417009b8fffd99695d86c",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/ocr.py",
+      "blob_sha": "6b5f9eeaf03b256341d8acd59c5d02cd927035b4",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/remote.py",
+      "blob_sha": "168c9348a63a7a76838c6514fe465ee6d831a3c7",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/run.py",
+      "blob_sha": "c4b063d082d9f844e2823cf272989c9399231690",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/telemetry.py",
+      "blob_sha": "876146f58c105019a7814c420d14354b1eab7149",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/term.py",
+      "blob_sha": "60559bc86d33d03c6e7cd4d9d4ba4fb9fa209cc8",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/transport.py",
+      "blob_sha": "1cd61db78d2bd821e7619587198ec849196fe5f4",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/update.py",
+      "blob_sha": "b77581eb67650f546bcc6e2a1d3c19bd5249d6cf",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/phone_harness/workspace.py",
+      "blob_sha": "b13031a0947282be54a0fe7a1ab705e380092978",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/conftest.py",
+      "blob_sha": "13951aabcfc082893ee5859043d46bce25afa09e",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/support/browser_recorder.py",
+      "blob_sha": "906fdb4816446e6b2eca6a279b5e2f0a9d94f6e7",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/support/sitecustomize.py",
+      "blob_sha": "6d7fe303957d9f5eb05fa23e0e91f87fd2a01fb6",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_android.py",
+      "blob_sha": "cf5376e9dd246442b8bb32ba051e1014625ce19f",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_backend_contract.py",
+      "blob_sha": "a7e8b4241fbd3e754113d893c1bc87b4603f8d95",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_cli.py",
+      "blob_sha": "583d98bbca071b1e7e4cc6b0734beb7b4057297e",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_cloud.py",
+      "blob_sha": "3cac95310cdc0e80a2a8a856e4cf07955a77c5d6",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_hermes_plugin.py",
+      "blob_sha": "952e3df97d914094937467822e09c6f3f2dd5398",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_ios_session.py",
+      "blob_sha": "86b7eca010a6a08a46a94c2d8c13146f70330dba",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_remote.py",
+      "blob_sha": "5c861545f9038814a50c569ad73e364341111d0e",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_skill.py",
+      "blob_sha": "df5b47e80d97d5f3d3a10dc0142c4b220664db8a",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_update.py",
+      "blob_sha": "b1ff835aa9f5890f6199fabd38c8dea68e095cef",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/test_workspace.py",
+      "blob_sha": "be6fd3f56ca0c45dab1c345f717a414204b204f3",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "blob_sha": "ed25cb648d9938318fb43c83359be11baded97c5",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "blob_sha": "9fd2af9cdbe3e652b843a629a0d0c8a18d1ebafb",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "4eb6ede56ee2d34e9be743aff48f35477c28bad0",
+      "entities_detected": 0
+    },
+    {
+      "path": "install.md",
+      "blob_sha": "db8a39b412395e1d2698dcace9e06f870bbc5260",
+      "entities_detected": 0
+    },
+    {
+      "path": "integrations/hermes/plugin.yaml",
+      "blob_sha": "cb59613ad88e5bec353df505dd0c26056f1d79f9",
+      "entities_detected": 0
+    },
+    {
+      "path": "onboarding.md",
+      "blob_sha": "a45e49460a1e786d5a32ae553c1e826adcf3ba22",
+      "entities_detected": 0
+    }
+  ],
+  "unread_source_paths": [],
   "excluded_nontext_paths": [
     ".gitignore",
     "phone-harness"
@@ -68,7 +421,7 @@
     "src": 17,
     "tests": 13
   },
-  "unread_source_paths_count": 44,
+  "unread_source_paths_count": 0,
   "unread_source_paths_truncated": false,
   "excluded_nontext_paths_count": 2,
   "excluded_nontext_paths_truncated": false

@@ -2,20 +2,20 @@
 
 Video creation, editing, generation, playback and media processing.
 
-**186 entries**
+**189 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (4)
 - [APIs](by-type/apis/README.md) (3)
-- [Libraries & Packages](by-type/libraries/README.md) (8)
+- [Libraries & Packages](by-type/libraries/README.md) (9)
 - [Models & Model Adapters](by-type/models/README.md) (7)
 - [Plugins](by-type/plugins/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (3)
-- [Repositories](by-type/repositories/README.md) (52)
+- [Repositories](by-type/repositories/README.md) (53)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (43)
-- [Tools](by-type/tools/README.md) (12)
+- [Tools](by-type/tools/README.md) (13)
 - [UI Components](by-type/ui-components/README.md) (38)
 - [Workflows](by-type/workflows/README.md) (11) · Alphabetical · 2 pages.
 
@@ -67,6 +67,10 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/agent-track-control.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/agent-track-control.tsx#L237) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [AgentTrackToggle](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa747543fb47a141f80190649.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/agent-track-toggle.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/agent-track-toggle.tsx#L118) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [apaxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1670a2f79182ccd76256b1eb.json) — Customizable Apache mod_autoindex theme with CSS, JavaScript filtering, media-type icons, optional gallery behavior and prepared HTTP configuration.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [package.json](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
+- [apaxy-configure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af33d978d34ba706417c9eeae.json) — Shell configurator that installs Apaxy into an Apache web root and applies path, gallery, header, footer and logging settings.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [apaxy-configure.sh](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/apaxy-configure.sh#L1) · CLI · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [App](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8b3f38abd0b5d398b028cd05.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/app/app.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/app/app.tsx#L29) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [archive-org/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0bcd428cb595356140f59760.json) — Domain skill: Internet Archive / Wayback Machine — Scraping & Data Extraction. For item metadata (books, video, audio, software), go straight to:<br>
@@ -159,6 +163,8 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
   Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
+- [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418675554.json) — a simple, customisable theme for your apache directory listing<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074222.json) — Effort free video editing!<br>
   Source: [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/auto-editor) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/autoclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378149136.json) — AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具<br>
@@ -315,12 +321,6 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/makerskills](https://github.com/jamesrwatsonx-creator/makerskills) · [skills/social-fetch/SKILL.md](https://github.com/jamesrwatsonx-creator/makerskills/blob/17218de201e94f7aebe8b0ddfb507175caf37343/skills/social-fetch/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [Spacex-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A873dfc9879a5c63a1b120018.json) — An inspired interpretation of Spasex's design language — a mission-oriented aerospace brand built on pure black canvas, full-bleed photographic and video heroes of rockets and Mars landscapes, and uppercase D-DIN…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/spacex/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/spacex/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [specializations/ai-agents-conversational/multi-modal-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab10ff4d17bb7bd1e6456f528.json) — Multi-Modal Agent Development - Process for building agents that can process and generate multiple modalities including text, images, audio, and video with unified reasoning capabilities.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/multi-modal-agent.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/multi-modal-agent.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/game-development/cutscene-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa5bdbfc41aa3da06d4dfde60.json) — Cutscene Implementation Process - Create and integrate cinematics including in-engine cutscenes, pre-rendered videos, camera systems, sequencer tools, and interactive narrative sequences.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/cutscene-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/cutscene-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/gpu-programming/gpu-image-video-processing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ed02c731885b629cef726c0.json) — GPU-Accelerated Image and Video Processing - Workflow for implementing GPU-accelerated image and video processing pipelines for real-time applications.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/gpu-image-video-processing.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/gpu-image-video-processing.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

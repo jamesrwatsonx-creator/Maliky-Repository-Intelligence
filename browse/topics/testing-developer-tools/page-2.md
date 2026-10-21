@@ -1,9 +1,13 @@
 # Testing & Developer Tools — page 2
 
-1,206 catalog entries · Sorted alphabetically by name · Page 2 of 9.
+1,217 catalog entries · Sorted alphabetically by name · Page 2 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [close_preview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0756316be6e4d63bbc457460.json) — Close the preview pane beside the chat in the Hermes desktop app, or one tab inside it. Use this when the user asks to close, hide, or dismiss the preview — e.g. "close the preview pane", "close cnn.com", "hide the…<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/close_preview_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/close_preview_tool.py#L56) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [close_terminal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c8152fd36f7df0117572330.json) — Close the read-only terminal tab for one of your background processes in the Hermes desktop GUI (the tabs mirroring terminal(background=true) runs). This does NOT kill the process — it only drops the tab/view; the…<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/close_terminal_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/close_terminal_tool.py#L54) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [cloud-logging-query-generation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Accff4c5eec0b2b8f91e2bcbd.json) — Generates Logging Query Language (LQL) queries for Google Cloud Logging from natural language. Use this skill when you need to query log data or when you are debugging issues. You can filter log data by Google Cloud…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/cloud-logging-query-generation/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/cloud-logging-query-generation/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [cloud-security-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A078bb048f0be86383777e1a9.json) — Multi-cloud security research and penetration testing specialist. Expert in AWS, Azure, and GCP security assessments, IAM analysis, cloud misconfigurations, container security, and serverless security.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/swift/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/swift/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
 - [ecc-rules-typescript](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0a00abfd2d4ca5c25f250f33.json) — ECC typescript rule pack (TypeScript/JavaScript Coding Style and hooks, patterns, security, testing); extends the common rules.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/typescript/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/typescript/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
-- [ecc-rules-vue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83f01b1149551fa3cad44dd5.json) — ECC vue rule pack (Vue Coding Style and hooks, patterns, security, testing); extends the common rules.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/vue/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/vue/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
-- [ecc-rules-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae42eb0d63c0a5f954e91c7e0.json) — ECC web rule pack (Web Coding Style and design-quality, hooks, patterns, performance, security, testing); extends the common rules.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/web/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/web/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
 
 ## Pages
 

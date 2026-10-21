@@ -2,10 +2,12 @@
 
 Tools tagged under Video.
 
-**12 entries** · Alphabetical · 1 page.
+**13 entries** · Alphabetical · 1 page.
 
 [Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
+- [apaxy-configure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af33d978d34ba706417c9eeae.json) — Shell configurator that installs Apaxy into an Apache web root and applies path, gallery, header, footer and logging settings.<br>
+  Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · [apaxy-configure.sh](https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/apaxy-configure.sh#L1) · CLI · VERIFIED · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [bfl_flux3_get_result](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afffed8a6e71fa90241f2c891.json) — Poll a FLUX 3 video job by the job id a generate tool returned. Generation takes minutes and a long Generating phase is normal. This call waits for you while the job runs, so it may run for several minutes; if it…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/flux3_video_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/flux3_video_tool.py#L1228) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [bfl_flux3_image_to_video](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae31b029b8a11cb2e8a570058.json) — Exactly one opening-frame image: a local file path or a URL (PNG/JPEG/WebP, up to 10MB).<br>

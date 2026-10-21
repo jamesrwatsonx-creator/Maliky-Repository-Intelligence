@@ -2,7 +2,7 @@
 
 Image understanding, computer vision, document vision and OCR.
 
-**89 entries** · Alphabetical · 1 page.
+**90 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -118,6 +118,8 @@ Image understanding, computer vision, document vision and OCR.
   Source: [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/whisper) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/whisper/blob/5f86d1d86363843179951550570367b37c5d6f78/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [perception-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3bdad7d022bd7b21965495d9.json) — Expert in robot perception including SLAM, object detection, point cloud processing, sensor fusion, camera calibration, and deep learning for perception. Specializes in visual SLAM, LiDAR processing, and multi-sensor…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/perception-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/perception-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af8e10182520ca2b138d6ff67.json) — Agent skill documenting a consistent screen, OCR, tap, typing, navigation, scrolling, application and multi-device control workflow.<br>
+  Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · [SKILL.md](https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Automation/scripting, CLI tools, Developer tools
 - [pm-product-strategy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17e132cf2eb6845fad2771f6.json) — Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-strategy/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [Product Strategist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A32e9558571ef70c3d2a34a6c.json) — Senior product strategist for vision, positioning, and strategic decisions<br>

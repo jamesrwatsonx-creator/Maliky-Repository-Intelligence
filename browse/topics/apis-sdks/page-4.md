@@ -1,9 +1,13 @@
 # APIs & SDKs — page 4
 
-1,340 catalog entries · Sorted alphabetically by name · Page 4 of 9.
+1,346 catalog entries · Sorted alphabetically by name · Page 4 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_plugins_hub](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add74af89b642ab8f1c62ff16.json) — GET /api/dashboard/plugins/hub - Unified agent plugins + dashboard extension metadata (session protected).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18362) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [get_portal_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afcbd0767931f8956d31ac143.json) — GET /api/portal - handler get_portal_status<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4222) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae081b7bcf57382f820192480.json) — Get a voice profile by ID.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L110) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_avatar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A856712b7e77779fa6c2da9cc.json) — Get avatar image for a profile.<br>
@@ -282,6 +286,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/fpga-programming/skills/ip-core-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/fpga-programming/skills/ip-core-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [irc-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A92d443469a13c2dc83d3413e.json) — IRC gateway adapter for Hermes Agent. Connects to an IRC server and relays messages between an IRC channel (or DMs) and the Hermes agent. No external dependencies — uses Python's stdlib asyncio for the IRC protocol.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/irc/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/irc/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418668015.json) — Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.<br>
+  Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · REPOSITORY · COMPLETE · PINNED_SOURCE · Application security, Backend services, CLI tools
 - [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418887038.json) — Extensible API Gateway written in Go. Load custom plugins to extend functionality.<br>
   Source: [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/aastro-api) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344556929.json) — Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
 - [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416107.json) — Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes<br>
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, APIs, Developer tools
-- [jamesrwatsonx-creator/ccxt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366359219.json) — A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust<br>
-  Source: [jamesrwatsonx-creator/ccxt](https://github.com/jamesrwatsonx-creator/ccxt) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Commerce/e-commerce
-- [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372508526.json) — Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code…<br>
-  Source: [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Chat-interface-LibreChat) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs, Developer tools
-- [jamesrwatsonx-creator/cli-printing-press](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271469885.json) — Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.<br>
-  Source: [jamesrwatsonx-creator/cli-printing-press](https://github.com/jamesrwatsonx-creator/cli-printing-press) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

@@ -1,9 +1,13 @@
 # Testing & Developer Tools — page 3
 
-1,206 catalog entries · Sorted alphabetically by name · Page 3 of 9.
+1,217 catalog entries · Sorted alphabetically by name · Page 3 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ecc-rules-vue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83f01b1149551fa3cad44dd5.json) — ECC vue rule pack (Vue Coding Style and hooks, patterns, security, testing); extends the common rules.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/vue/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/vue/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
+- [ecc-rules-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae42eb0d63c0a5f954e91c7e0.json) — ECC web rule pack (Web Coding Style and design-quality, hooks, patterns, performance, security, testing); extends the common rules.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [rules/web/coding-style.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/rules/web/coding-style.md#L1) · PROMPT_LIBRARY · VERIFIED · PINNED_SOURCE · Skills, Prompt libraries
 - [ecc-tui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3668bc26cd104ba50530bf37.json) — ECC 2.0 - agentic IDE control plane with TUI dashboard (Rust crate, ratatui).<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [ecc2/Cargo.toml](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/ecc2/Cargo.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [ecc-universal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83053348d98c5b3eaf0cf22b.json) — `ecc-universal` command (scripts/ecc.js) of the ecc-universal npm package.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/andrej-karpathy-skills](https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, LLM projects, Plugins/extensions
 - [jamesrwatsonx-creator/Anthropic-Cybersecurity-Skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342979293.json) — 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code,…<br>
   Source: [jamesrwatsonx-creator/Anthropic-Cybersecurity-Skills](https://github.com/jamesrwatsonx-creator/Anthropic-Cybersecurity-Skills) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Application security, Developer tools
-- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
-  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
-- [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372752337.json) — 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...<br>
-  Source: [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/ArchiveBox) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Developer tools
 
 ## Pages
 
