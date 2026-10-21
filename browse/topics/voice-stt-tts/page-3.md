@@ -1,9 +1,19 @@
 # Voice, STT & TTS — page 3
 
-333 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+338 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [trigger_model_download](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af0287958acc99d205f336c06.json) — Trigger download of a specific model.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L391) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [trim_story_item](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5909a408c019590ab8c45c50.json) — Trim a story item.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/stories.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/stories.py#L141) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [tts-onnx](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e70253efdddd265f99a27e0.json) — TTS ONNX Inference<br>
+  Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · [py/pyproject.toml](https://github.com/jamesrwatsonx-creator/supertonic/blob/7e2804f96016a7028cb1ed627353c61c1e9dd281/py/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [tts-onnx-nodejs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa5110f606c63ba2ba1f8be45.json) — TTS inference using ONNX Runtime for Node.js<br>
+  Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · [nodejs/package.json](https://github.com/jamesrwatsonx-creator/supertonic/blob/7e2804f96016a7028cb1ed627353c61c1e9dd281/nodejs/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [tts-onnx-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa6ce3a35fb22a91f7d9d2664.json) — TTS inference using ONNX Runtime for Web Browser<br>
+  Source: [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/supertonic) · [web/package.json](https://github.com/jamesrwatsonx-creator/supertonic/blob/7e2804f96016a7028cb1ed627353c61c1e9dd281/web/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [unload_model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adce08c972425dc19a89c1c0e.json) — Unload the default Qwen TTS model to free memory.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L64) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [unload_model_by_name](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad34780524d40263b48023f5d.json) — Unload a specific model from memory without deleting it from disk.<br>

@@ -1,6 +1,6 @@
 # AI Agents — page 7
 
-2,771 catalog entries · Sorted alphabetically by name · Page 7 of 19.
+2,779 catalog entries · Sorted alphabetically by name · Page 7 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

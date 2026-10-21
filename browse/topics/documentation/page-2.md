@@ -1,6 +1,6 @@
 # Documentation & References — page 2
 
-410 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+412 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -42,6 +42,10 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
 - [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372773914.json) — Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors<br>
   Source: [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/context7) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Developer tools
+- [jamesrwatsonx-creator/docsearch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424226596.json) — :blue_book: The easiest way to add search to your documentation.<br>
+  Source: [jamesrwatsonx-creator/docsearch](https://github.com/jamesrwatsonx-creator/docsearch) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/docusaurus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424226008.json) — Easy to maintain open source documentation websites.<br>
+  Source: [jamesrwatsonx-creator/docusaurus](https://github.com/jamesrwatsonx-creator/docusaurus) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, AI memory, Application security
 - [jamesrwatsonx-creator/material-components](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376788330.json) — Documentation and policies for Material Components (all platforms)<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/legal/ediscovery-management.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/legal/ediscovery-management.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/legal/gdpr-compliance-program](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A375e4b429cfed9c6f2163424.json) — GDPR Compliance Program - Implement comprehensive GDPR compliance including lawful basis documentation, DPIA, cross-border transfers, and DPA liaison.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/legal/gdpr-compliance-program.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/legal/gdpr-compliance-program.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/domains/business/operations/dmaic-project](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb48786f77b77e32b1fad6ca.json) — DMAIC Project Execution Process - Execute Define-Measure-Analyze-Improve-Control methodology for process improvement projects with tollgate reviews and documentation following Six Sigma principles.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/dmaic-project.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/dmaic-project.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/domains/business/operations/iso-9001-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af7cbc1efce0e2c290c021605.json) — ISO 9001 Implementation Process - Implement ISO 9001:2015 Quality Management System requirements including documentation, processes, and internal audits for organizational quality excellence.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/iso-9001-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/iso-9001-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

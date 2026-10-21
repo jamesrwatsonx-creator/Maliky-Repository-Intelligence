@@ -1,9 +1,13 @@
 # Prompts & Workflows — page 20
 
-3,028 catalog entries · Sorted alphabetically by name · Page 20 of 21.
+3,030 catalog entries · Sorted alphabetically by name · Page 20 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Spectroscopy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A679e519444dc14de82001ccf.json) — Perform comprehensive spectroscopic measurements to probe material properties<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/spectroscopy-measurement-campaign.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/spectroscopy-measurement-campaign.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [spotify](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad23d10c193f70fb4345feadb.json) — Native Spotify integration — 7 tools (playback, devices, queue, search, playlists, albums, library) using Spotify Web API + PKCE OAuth. Auth via `hermes auth spotify`. Tools gate on `providers.spotify` in…<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/spotify/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/spotify/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [spotify/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A75341b87cb96f0b2f6c6ed0e.json) — Domain skill: Spotify — Data Extraction. Field-tested against open.spotify.com on 2026-04-18.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/spotify/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/spotify/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [sprint-plan](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3feb47ed8d9a3f339b3f2288.json) — Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/web/xai/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/web/xai/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Weekly Update Release](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aacf2d4cbdd4a9280692d13bd.json) — Source-declared workflow `Weekly Update Release`.<br>
   Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · [.github/workflows/weekly-update.yml](https://github.com/jamesrwatsonx-creator/free-ai-bible/blob/89a63fec7bffd4286893d8c7c5c948c86bf5152f/.github/workflows/weekly-update.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [wehotel/hotels](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acd1c03351170dbd7c2a4551b.json) — Domain skill: Jinjiang WeHotel (`bestwehotel.com`) — Hotel Scraping. Field-tested 2026-04-29 against www.bestwehotel.com PC web. The official<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/wehotel/hotels.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/wehotel/hotels.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [Welcome Contributors](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0d2096406320ac03bd4d5477.json) — Source-declared workflow `Welcome Contributors`.<br>
-  Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · [.github/workflows/pr-welcome.yml](https://github.com/jamesrwatsonx-creator/free-ai-bible/blob/89a63fec7bffd4286893d8c7c5c948c86bf5152f/.github/workflows/pr-welcome.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

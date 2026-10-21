@@ -2,7 +2,7 @@
 
 Three-dimensional graphics, rendering, augmented and virtual reality.
 
-**63 entries** · Alphabetical · 1 page.
+**67 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -40,12 +40,18 @@ Three-dimensional graphics, rendering, augmented and virtual reality.
   Source: [jamesrwatsonx-creator/blender-mcp](https://github.com/jamesrwatsonx-creator/blender-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · LLM projects, MCP servers
 - [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1249678565.json) — Browser Harness \\| Self-healing harness that enables LLMs to complete any task.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Automation/scripting, CI/CD
+- [jamesrwatsonx-creator/canvas-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418696830.json) — A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.<br>
+  Source: [jamesrwatsonx-creator/canvas-ui](https://github.com/jamesrwatsonx-creator/canvas-ui) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Claude-of-Duty](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1332608873.json) — A Call of Duty-quality FPS in Three.js, built from a single prompt.<br>
   Source: [jamesrwatsonx-creator/Claude-of-Duty](https://github.com/jamesrwatsonx-creator/Claude-of-Duty) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Claw3D](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345878408.json) — Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications.<br>
   Source: [jamesrwatsonx-creator/Claw3D](https://github.com/jamesrwatsonx-creator/Claw3D) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/cvat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247338243.json) — Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image,…<br>
   Source: [jamesrwatsonx-creator/cvat](https://github.com/jamesrwatsonx-creator/cvat) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools, Developer tools
+- [jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419861136.json) — Flax Engine – multi-platform 3D game engine<br>
+  Source: [jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation](https://github.com/jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/folded-paper-engine-3D-gen-game-creator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419863467.json) — A custom Blender-to-Godot addon that makes level and gameplay creation as easy as a few clicks!<br>
+  Source: [jamesrwatsonx-creator/folded-paper-engine-3D-gen-game-creator](https://github.com/jamesrwatsonx-creator/folded-paper-engine-3D-gen-game-creator) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/godot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343013288.json) — Godot Engine – Multi-platform 2D and 3D game engine<br>
   Source: [jamesrwatsonx-creator/godot](https://github.com/jamesrwatsonx-creator/godot) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/gods-eye-view](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350951473.json) — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.<br>
@@ -56,6 +62,8 @@ Three-dimensional graphics, rendering, augmented and virtual reality.
   Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Creative tools, Generative AI, LLM projects
 - [jamesrwatsonx-creator/Lottie-Windows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376783553.json) — Lottie-Windows is a library (and related tools) for rendering Lottie animations on Windows 10 and Windows 11.<br>
   Source: [jamesrwatsonx-creator/Lottie-Windows](https://github.com/jamesrwatsonx-creator/Lottie-Windows) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/nerfstudio-3D-VR](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419961104.json) — A collaboration friendly studio for NeRFs<br>
+  Source: [jamesrwatsonx-creator/nerfstudio-3D-VR](https://github.com/jamesrwatsonx-creator/nerfstudio-3D-VR) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/obsidian-galaxy-graph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350151122.json) — An immersive, translucent 3D galaxy graph for Obsidian<br>
   Source: [jamesrwatsonx-creator/obsidian-galaxy-graph](https://github.com/jamesrwatsonx-creator/obsidian-galaxy-graph) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/scroll-world](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1378078582.json) — A skill that turn any brand into a scrollable 3D world landing page<br>

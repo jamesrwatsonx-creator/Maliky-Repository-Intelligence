@@ -2,7 +2,7 @@
 
 Repositories tagged under Android.
 
-**48 entries** · Alphabetical · 1 page.
+**49 entries** · Alphabetical · 1 page.
 
 [Back to Android](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -64,8 +64,8 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/bubbles-for-android](https://github.com/jamesrwatsonx-creator/bubbles-for-android) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254781027.json) — Claude Code skill for building modern Android apps following best practices.<br>
   Source: [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/claude-android-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Developer tools, Mobile applications, Skills
-- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — This plugin handles the setup required for Expo projects to use the LiveKit React Native SDK.<br>
-  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · APIs, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342385313.json) — ⚡️ A collection of Jetpack Compose animations for the best practices. Tweak literals at the top of any file, save, and watch the motion morph in real-time.<br>
   Source: [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/compose-android--animations) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376793544.json) — KMP/CMP GraphQL based conference project with Jetpack Compose Android, Compose for Wear, and Compose Multiplatform Desktop, Web and iOS clients along with GraphQL backend.<br>
@@ -86,8 +86,8 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/material-components-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376787481.json) — [MAINTENANCE MODE] Modular and customizable Material Design UI components for Android<br>
   Source: [jamesrwatsonx-creator/material-components-android](https://github.com/jamesrwatsonx-creator/material-components-android) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Design systems, Frontend applications, Mobile applications
-- [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388271305.json) — A ready-to-use mobile app submission starter project for preparing app listings, privacy review, release checklists, and launch readiness across Apple App Store and Google Play.<br>
-  Source: [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Mobile-app-store-submission) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388271305.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Mobile-app-store-submission) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · Mobile applications
 - [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389377078.json) — Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)<br>
   Source: [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/mobile-mcp) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344553112.json) — An Android-native autonomous agent that uses vision-language models to see and operate your phone — no PC or ADB required. Inspired by X-PLUG/MobileAgent.<br>
@@ -96,9 +96,11 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/nowinandroid](https://github.com/jamesrwatsonx-creator/nowinandroid) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399091669.json) — Useful tool to track location or mobile number<br>
   Source: [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/presence-phone-number-GhostTrack) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
-- [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945131.json) — A basic example to get LiveKit up and running on Expo.<br>
-  Source: [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/react-native-expo-quickstart) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945131.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/react-native-expo-quickstart) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377176183.json) — Expert design & marketing knowledge for AI agents — an MCP server for web, iOS, Android & macOS design: UI, UX, SEO, GEO, copywriting, roadmaps & real-world patterns.<br>
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
+- [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426098185.json) — Display and control your Android device<br>
+  Source: [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/scrcpy) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398401393.json) — An Android library that help you to build app with swipe back gesture.<br>
   Source: [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/SwipeBackLayout) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications

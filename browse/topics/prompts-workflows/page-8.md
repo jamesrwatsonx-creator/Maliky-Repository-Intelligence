@@ -1,10 +1,14 @@
 # Prompts & Workflows — page 8
 
-3,028 catalog entries · Sorted alphabetically by name · Page 8 of 21.
+3,030 catalog entries · Sorted alphabetically by name · Page 8 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1338470310.json) — f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source â€” self-host for your organization with complete privacy.<br>
+- [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342961720.json) — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.<br>
+  Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, Developer tools
+- [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD…<br>
+  Source: [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/promptfoo) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, DevOps
+- [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1338470310.json) — f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.<br>
   Source: [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/prompts.chat) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Qwen3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343002966.json) — Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.<br>
   Source: [jamesrwatsonx-creator/Qwen3](https://github.com/jamesrwatsonx-creator/Qwen3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, LLM projects
@@ -26,7 +30,7 @@
   Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
 - [jamesrwatsonx-creator/useful-ai-prompts](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254782339.json) — A curated collection of useful AI prompts for various tasks and use cases<br>
   Source: [jamesrwatsonx-creator/useful-ai-prompts](https://github.com/jamesrwatsonx-creator/useful-ai-prompts) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/vibe-coding-with-base44](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416491.json) — A beginner-friendly guide to building and launching apps with Base44â€”using plain-English prompts, practical examples, and zero coding experience.<br>
+- [jamesrwatsonx-creator/vibe-coding-with-base44](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416491.json) — A beginner-friendly guide to building and launching apps with Base44—using plain-English prompts, practical examples, and zero coding experience.<br>
   Source: [jamesrwatsonx-creator/vibe-coding-with-base44](https://github.com/jamesrwatsonx-creator/vibe-coding-with-base44) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Developer tools
 - [jamesrwatsonx-creator/Vibe-studio-aidlc-workflows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372821933.json) — AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents<br>
   Source: [jamesrwatsonx-creator/Vibe-studio-aidlc-workflows](https://github.com/jamesrwatsonx-creator/Vibe-studio-aidlc-workflows) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
@@ -36,7 +40,7 @@
   Source: [jamesrwatsonx-creator/Voice-a](https://github.com/jamesrwatsonx-creator/Voice-a) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI memory, DevOps, Generative AI
 - [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1243146740.json) — The open-source AI voice studio. Clone, dictate, create.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI applications, APIs
-- [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321427863.json) — ðŸ¤– WebMCP<br>
+- [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321427863.json) — 🤖 WebMCP<br>
   Source: [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/webmcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342864146.json) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.<br>
   Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, CLI tools
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-code-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-code-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/claudekit/claudekit-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A09e44be079487474bac42049.json) — ClaudeKit Orchestrator - Main entry point that sets up the safety pipeline (hooks, file-guard), executes slash commands, dispatches code review or spec workflows, and manages checkpoints with session-scoped hook control<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/claudekit/claudekit-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab9c61dec76f3fe88765d9968.json) — ClaudeKit Research - Parallel research agent orchestration dispatching 5-10 specialized agents for comprehensive multi-source research, achieving up to 90% faster results through concurrent execution<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-research.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-research.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/claudekit/claudekit-safety-pipeline](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A033e0654c76d8ac0e7095464.json) — ClaudeKit Safety Pipeline - Hook-driven safety system implementing file-guard (195+ patterns, 12 categories), PostToolUse quality checks (typecheck, lint, test), checkpoint management, and session-scoped hook profiling…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/claudekit/claudekit-safety-pipeline.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/claudekit/claudekit-safety-pipeline.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

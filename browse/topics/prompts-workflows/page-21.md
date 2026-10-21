@@ -1,9 +1,13 @@
 # Prompts & Workflows — page 21
 
-3,028 catalog entries · Sorted alphabetically by name · Page 21 of 21.
+3,030 catalog entries · Sorted alphabetically by name · Page 21 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [wehotel/hotels](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acd1c03351170dbd7c2a4551b.json) — Domain skill: Jinjiang WeHotel (`bestwehotel.com`) — Hotel Scraping. Field-tested 2026-04-29 against www.bestwehotel.com PC web. The official<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/wehotel/hotels.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/wehotel/hotels.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [Welcome Contributors](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0d2096406320ac03bd4d5477.json) — Source-declared workflow `Welcome Contributors`.<br>
+  Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · [.github/workflows/pr-welcome.yml](https://github.com/jamesrwatsonx-creator/free-ai-bible/blob/89a63fec7bffd4286893d8c7c5c948c86bf5152f/.github/workflows/pr-welcome.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [welding-procedure-qualification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A530c7d3e04eb267a2f74aaaa.json) — Welding procedure specification (WPS) development and qualification per AWS/ASME standards<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mechanical-engineering/welding-procedure-qualification.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mechanical-engineering/welding-procedure-qualification.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [wellfound/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f2a6a8949e6d1dd69693655.json) — Domain skill: Wellfound (AngelList) — Startup Jobs & Company Profiles. Field-tested against wellfound.com on 2026-04-18.<br>

@@ -2,7 +2,7 @@
 
 Search, retrieval, indexing and discovery capabilities.
 
-**635 entries** · Alphabetical · 5 pages.
+**643 entries** · Alphabetical · 5 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

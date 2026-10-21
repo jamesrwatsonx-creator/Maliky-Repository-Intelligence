@@ -2,7 +2,7 @@
 
 Browser control, computer use, testing and web interaction.
 
-**98 entries** · Alphabetical · 1 page.
+**99 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -126,6 +126,8 @@ Browser control, computer use, testing and web interaction.
   Source: [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/camofox-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
 - [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1355166703.json) — Chrome DevTools for coding agents<br>
   Source: [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/chrome-devtools-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, MCP servers
+- [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426096953.json) — Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from…<br>
+  Source: [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/crawlee) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372823236.json) — Browser automation CLI for AI agents<br>
   Source: [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>

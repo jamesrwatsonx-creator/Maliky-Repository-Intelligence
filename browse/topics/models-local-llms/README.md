@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**155 entries** · Alphabetical · 2 pages.
+**156 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -118,8 +118,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/ito-inference/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/ito-inference/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [jamesrwatsonx-creator/airllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342770543.json) — AirLLM 70B inference with single 4GB GPU<br>
   Source: [jamesrwatsonx-creator/airllm](https://github.com/jamesrwatsonx-creator/airllm) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, LLM projects
-- [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408214904.json) — > A curated list of projects, tools, models, UIs, and resources for ACE-Step — the open-source music generation foundation model by ACE Studio and StepFun.<br>
-  Source: [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/awesome-ace-step) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408214904.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/awesome-ace-step) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · LLM projects
 - [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391518849.json) — The most complete gallery of what people build with Jev, TypeSafe's System One model: 3,400+ projects, demos, and write-ups by scenario, each with its original link, image, and description.<br>
   Source: [jamesrwatsonx-creator/awesome-jev](https://github.com/jamesrwatsonx-creator/awesome-jev) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace.<br>
@@ -134,6 +134,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247324543.json) — HunyuanVideo: A Systematic Framework For Large Video Generation Model<br>
   Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Creative tools, Generative AI, LLM projects
+- [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418866871.json) — Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude,…<br>
+  Source: [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/khoj-agent-and-agent-memory-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346420050.json) — Open Frontier Intelligence<br>
   Source: [jamesrwatsonx-creator/Kimi-K3](https://github.com/jamesrwatsonx-creator/Kimi-K3) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects, Machine-learning models
 - [jamesrwatsonx-creator/litellm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389177687.json) — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI,…<br>
@@ -304,8 +306,6 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/vertex/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/vertex/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98660e41e5051dafc79216c3.json) — vllm.entrypoints.cli.main:main<br>
   Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
-- [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb48477052a11cacd9e4639.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>
-  Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 
 ## Pages
 

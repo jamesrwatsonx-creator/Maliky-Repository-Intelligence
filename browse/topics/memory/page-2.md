@@ -1,9 +1,13 @@
 # Memory & Context — page 2
 
-222 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+224 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [openviking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7dcb96d64b4a26d30380ef3e.json) — OpenViking context database — session-managed memory with automatic extraction, tiered retrieval, and filesystem-style knowledge browsing.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/memory/openviking/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/memory/openviking/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [oral-historian](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaf6e9c30655a8a7e0da23849.json) — Collect and preserve personal testimonies with professional standards including interview technique, memory studies, trauma-informed practice, audio preservation, and community protocols<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/agents/oral-historian/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/agents/oral-historian/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [pandas-dataframe-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aadd1454f76fe39412abb8903.json) — Automated DataFrame analysis skill for statistical summaries, missing value detection, data type inference, and memory optimization recommendations.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/skills/pandas-dataframe-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/skills/pandas-dataframe-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [peft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afc188daf8a67a17a8b405ab6.json) — Fine-tune large LLMs with LoRA on limited GPU memory.<br>

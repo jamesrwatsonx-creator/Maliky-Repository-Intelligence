@@ -2,13 +2,13 @@
 
 Website projects, templates, components and references.
 
-**356 entries**
+**367 entries**
 
 ## Browse within this topic
 
 - [Libraries & Packages](by-type/libraries/README.md) (7)
 - [Other Assets](by-type/other-assets/README.md) (7)
-- [Repositories](by-type/repositories/README.md) (22)
+- [Repositories](by-type/repositories/README.md) (33)
 - [Skills](by-type/skills/README.md) (9)
 - [Templates](by-type/templates/README.md) (1)
 - [UI Components](by-type/ui-components/README.md) (309)
@@ -286,36 +286,36 @@ Website projects, templates, components and references.
   Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
 - [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools…<br>
   Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
+- [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344452693.json) — 🌐 Make websites accessible for AI agents. Automate tasks online with ease.<br>
   Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
+- [jamesrwatsonx-creator/cc-switch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426078677.json) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io<br>
+  Source: [jamesrwatsonx-creator/cc-switch](https://github.com/jamesrwatsonx-creator/cc-switch) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/core-website-builder-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418721169.json) — 🧿 Bolt core<br>
+  Source: [jamesrwatsonx-creator/core-website-builder-](https://github.com/jamesrwatsonx-creator/core-website-builder-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426096953.json) — Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from…<br>
+  Source: [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/crawlee) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/docusaurus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424226008.json) — Easy to maintain open source documentation websites.<br>
+  Source: [jamesrwatsonx-creator/docusaurus](https://github.com/jamesrwatsonx-creator/docusaurus) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418820883.json) — Fast cross-platform video and audio downloader and media viewer with flexible format and quality options. Supports 1,000+ websites including YouTube, Instagram, TikTok, Twitch, Facebook, Reddit, and more, with…<br>
+  Source: [jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long](https://github.com/jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/espocrm-hermes-website-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418802929.json) — EspoCRM – Open Source CRM Application<br>
+  Source: [jamesrwatsonx-creator/espocrm-hermes-website-builder](https://github.com/jamesrwatsonx-creator/espocrm-hermes-website-builder) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398506493.json) — A curated list of awesome LLM frameworks, libraries and software.<br>
   Source: [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Front-end-UI-awesome-llm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, LLM projects
-- [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254406677.json) — GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website â€” citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If…<br>
+- [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254406677.json) — GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If…<br>
   Source: [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/geo-seo-claude) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
 - [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389399774.json) — scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place<br>
   Source: [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/google-maps-scraper) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Research projects
+- [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418843708.json) — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.<br>
+  Source: [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/homepage) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424224768.json) — A UI framework that provides websites with the minimal CSS and JS needed to get started with building a modern responsive beautiful website<br>
+  Source: [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/infima) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/maigret](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391872831.json) — 🕵️‍♂️ Collect a dossier on a person by username from 6K websites<br>
   Source: [jamesrwatsonx-creator/maigret](https://github.com/jamesrwatsonx-creator/maigret) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408213976.json) — Easy to use AI music generation UI for local models with QoL features<br>
   Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
-- [jamesrwatsonx-creator/New-website-DeskcommCRM](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1369076091.json) — Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.<br>
-  Source: [jamesrwatsonx-creator/New-website-DeskcommCRM](https://github.com/jamesrwatsonx-creator/New-website-DeskcommCRM) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Business applications, Frontend applications
-- [jamesrwatsonx-creator/newspaper4k](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396765859.json) — 📰 Newspaper4k a fork of the beloved Newspaper3k. Extraction of articles, titles, and metadata from news websites.<br>
-  Source: [jamesrwatsonx-creator/newspaper4k](https://github.com/jamesrwatsonx-creator/newspaper4k) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/reclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354335305.json) — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.<br>
-  Source: [jamesrwatsonx-creator/reclip](https://github.com/jamesrwatsonx-creator/reclip) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Frontend applications
-- [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
-  Source: [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/shadcn-ui-animated-tabs) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
-- [jamesrwatsonx-creator/social-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391869786.json) — API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites<br>
-  Source: [jamesrwatsonx-creator/social-analyzer](https://github.com/jamesrwatsonx-creator/social-analyzer) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Creative tools, Developer tools
-- [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398515783.json) — Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation<br>
-  Source: [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Business applications, Creative tools
-- [jamesrwatsonx-creator/Voice-website-idea-changedetection.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372745999.json) — Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or…<br>
-  Source: [jamesrwatsonx-creator/Voice-website-idea-changedetection.io](https://github.com/jamesrwatsonx-creator/Voice-website-idea-changedetection.io) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI
-- [jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1367264171.json) — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.<br>
-  Source: [jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot](https://github.com/jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
-- [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388239705.json) — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.<br>
-  Source: [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/voice-website-WeKnora) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Frontend applications
 
 ## Pages
 

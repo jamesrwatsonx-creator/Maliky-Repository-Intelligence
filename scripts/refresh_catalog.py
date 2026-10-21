@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import sys
 
@@ -28,7 +29,22 @@ def main():
     registry_report = r.validate()
     build_catalog()
     catalog_report = validate_catalog()
-    report = {"new_repositories": [x["full_name"] for x in added], "new_repository_source_passes": inspected, "statistics": statistics, "registry_validation": {"valid": registry_report["valid"], "errors": registry_report.get("errors", [])[:20]}, "catalog_validation": catalog_report}
+    report = {
+        "refreshed_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "baseline_public_repositories": len(before),
+        "public_repositories": len(after),
+        "added": len(added),
+        "new_repository_ids": [x["id"] for x in added],
+        "new_repositories": [x["full_name"] for x in added],
+        "new_repository_source_passes": inspected,
+        "statistics": statistics,
+        "registry_validation": {
+            "valid": registry_report["valid"],
+            "errors": registry_report.get("errors", [])[:20],
+        },
+        "catalog_validation": catalog_report,
+    }
+    r.write("system/catalog-refresh-report.json", report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0 if registry_report["valid"] and catalog_report["valid"] else 1
 

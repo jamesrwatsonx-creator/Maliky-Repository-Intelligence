@@ -1,6 +1,6 @@
 # Backend — page 3
 
-568 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+570 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -56,12 +56,16 @@
   Source: [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Confetti) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Mobile applications
 - [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.<br>
   Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Developer tools
+- [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419819004.json) — A RESTful web API for Gramps - backend of Gramps Web<br>
+  Source: [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/gramps-web-api-genealogy-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407940804.json) — Core IDKit SDK. World ID SDK for Relying Parties.<br>
   Source: [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/idkit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/Mastodon.py](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389402790.json) — Python wrapper for the Mastodon ( https://github.com/mastodon/mastodon/ ) API.<br>
   Source: [jamesrwatsonx-creator/Mastodon.py](https://github.com/jamesrwatsonx-creator/Mastodon.py) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/praw](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389401353.json) — PRAW, an acronym for "Python Reddit API Wrapper", is a python package that allows for simple access to Reddit's API.<br>
   Source: [jamesrwatsonx-creator/praw](https://github.com/jamesrwatsonx-creator/praw) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
+- [jamesrwatsonx-creator/server-password-manager-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418884579.json) — Bitwarden infrastructure/backend (API, database, Docker, etc).<br>
+  Source: [jamesrwatsonx-creator/server-password-manager-](https://github.com/jamesrwatsonx-creator/server-password-manager-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391184.json) — Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends<br>
   Source: [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/splink) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/TikTok-Api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389401988.json) — The Unofficial TikTok API Wrapper In Python<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L663) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [save_toolset_env](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8bedc156880b12cf1741fa0.json) — PUT /api/tools/toolsets/{name}/env - Persist API keys for a toolset's provider env vars.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L604) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [scan_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab195d92043c49907b71c90dd.json) — GET /scan-status - handler scan_status<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/hermes-achievements/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/hermes-achievements/dashboard/plugin_api.py#L1043) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [scopes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A104a81cba45de0e0ec324700.json) — Mapping between GitHub token scopes and tool requirements.<br>
-  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/scopes/scopes.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/scopes/scopes.go#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 
 ## Pages
 

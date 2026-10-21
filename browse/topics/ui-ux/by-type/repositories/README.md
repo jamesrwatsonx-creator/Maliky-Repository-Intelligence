@@ -2,7 +2,7 @@
 
 Repositories tagged under UI/UX.
 
-**32 entries** · Alphabetical · 1 page.
+**35 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -18,6 +18,8 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Design systems, Developer tools
 - [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254783144.json) — Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
+- [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — 🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…)…<br>
+  Source: [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/better-design-shadcn) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1249678565.json) — Browser Harness \\| Self-healing harness that enables LLMs to complete any task.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Automation/scripting, CI/CD
 - [jamesrwatsonx-creator/compose-multiplatform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376790173.json) — Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.<br>
@@ -54,6 +56,8 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/penpot) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Design systems
 - [jamesrwatsonx-creator/Qwen3-TTS](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343005554.json) — Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.<br>
   Source: [jamesrwatsonx-creator/Qwen3-TTS](https://github.com/jamesrwatsonx-creator/Qwen3-TTS) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Design systems, Generative AI
+- [jamesrwatsonx-creator/restreamer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418881945.json) — The Restreamer is a complete streaming server solution for self-hosting. It has a visually appealing user interface and no ongoing license costs. Upload your live stream to YouTube, Twitch, Facebook, Vimeo, or other…<br>
+  Source: [jamesrwatsonx-creator/restreamer](https://github.com/jamesrwatsonx-creator/restreamer) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377176183.json) — Expert design & marketing knowledge for AI agents — an MCP server for web, iOS, Android & macOS design: UI, UX, SEO, GEO, copywriting, roadmaps & real-world patterns.<br>
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>
@@ -70,3 +74,5 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
 - [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388969986.json) — open-source canvas for thoughtful software design<br>
   Source: [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/whiteboard) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
+- [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
+  Source: [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/widgets---web3-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE

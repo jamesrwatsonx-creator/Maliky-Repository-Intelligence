@@ -1,6 +1,6 @@
 # APIs & SDKs — page 4
 
-1,328 catalog entries · Sorted alphabetically by name · Page 4 of 9.
+1,340 catalog entries · Sorted alphabetically by name · Page 4 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -282,8 +282,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/fpga-programming/skills/ip-core-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/fpga-programming/skills/ip-core-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [irc-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A92d443469a13c2dc83d3413e.json) — IRC gateway adapter for Hermes Agent. Connects to an IRC server and relays messages between an IRC channel (or DMs) and the Hermes agent. No external dependencies — uses Python's stdlib asyncio for the IRC protocol.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/irc/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/irc/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418887038.json) — Extensible API Gateway written in Go. Load custom plugins to extend functionality.<br>
+  Source: [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/aastro-api) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344556929.json) — Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI applications, APIs
+- [jamesrwatsonx-creator/ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424306030.json) — The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents<br>
+  Source: [jamesrwatsonx-creator/ai](https://github.com/jamesrwatsonx-creator/ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399982.json) — Jetpack Compose composables for the Maps SDK for Android<br>
   Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, Mobile applications
 - [jamesrwatsonx-creator/API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396769359.json) — Documentation and Samples for the Official HN API<br>
@@ -298,12 +302,8 @@
   Source: [jamesrwatsonx-creator/ccxt](https://github.com/jamesrwatsonx-creator/ccxt) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Commerce/e-commerce
 - [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372508526.json) — Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code…<br>
   Source: [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Chat-interface-LibreChat) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs, Developer tools
-- [jamesrwatsonx-creator/cli-printing-press](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271469885.json) — Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI â€” designed for AI agents first, with SQLite sync, offline search, and compound insight commands.<br>
+- [jamesrwatsonx-creator/cli-printing-press](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271469885.json) — Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.<br>
   Source: [jamesrwatsonx-creator/cli-printing-press](https://github.com/jamesrwatsonx-creator/cli-printing-press) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, APIs, Application security
-- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — This plugin handles the setup required for Expo projects to use the LiveKit React Native SDK.<br>
-  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Frontend applications, Mobile applications
-- [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247322268.json) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.<br>
-  Source: [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/ComfyUI) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs, LLM projects
 
 ## Pages
 

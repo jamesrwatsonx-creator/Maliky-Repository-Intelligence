@@ -2,7 +2,7 @@
 
 Research tools, web scraping, crawlers and data collection.
 
-**134 entries** · Alphabetical · 1 page.
+**137 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -138,7 +138,9 @@ Research tools, web scraping, crawlers and data collection.
   Source: [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/camofox-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
 - [jamesrwatsonx-creator/composio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1413471383.json) — Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.<br>
   Source: [jamesrwatsonx-creator/composio](https://github.com/jamesrwatsonx-creator/composio) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Application security
-- [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254406677.json) — GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website â€” citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If…<br>
+- [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426096953.json) — Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from…<br>
+  Source: [jamesrwatsonx-creator/crawlee](https://github.com/jamesrwatsonx-creator/crawlee) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254406677.json) — GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If…<br>
   Source: [jamesrwatsonx-creator/geo-seo-claude](https://github.com/jamesrwatsonx-creator/geo-seo-claude) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
 - [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389399774.json) — scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place<br>
   Source: [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/google-maps-scraper) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Research projects
@@ -148,13 +150,17 @@ Research tools, web scraping, crawlers and data collection.
   Source: [jamesrwatsonx-creator/lingolens](https://github.com/jamesrwatsonx-creator/lingolens) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
 - [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389377078.json) — Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)<br>
   Source: [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/mobile-mcp) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory, Automation/scripting, Developer tools
+- [jamesrwatsonx-creator/Scrapling](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426097819.json) — 🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks:…<br>
+  Source: [jamesrwatsonx-creator/Scrapling](https://github.com/jamesrwatsonx-creator/Scrapling) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/scrapy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426097515.json) — Scrapy, a fast high-level web crawling & scraping framework for Python.<br>
+  Source: [jamesrwatsonx-creator/scrapy](https://github.com/jamesrwatsonx-creator/scrapy) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/snscrape](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404988.json) — A social networking service scraper in Python<br>
   Source: [jamesrwatsonx-creator/snscrape](https://github.com/jamesrwatsonx-creator/snscrape) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
 - [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404140.json) — SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.<br>
   Source: [jamesrwatsonx-creator/spiderfoot](https://github.com/jamesrwatsonx-creator/spiderfoot) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
 - [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389397829.json) — Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML<br>
   Source: [jamesrwatsonx-creator/trafilatura](https://github.com/jamesrwatsonx-creator/trafilatura) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
-- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — ðŸš€ðŸ¤– Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
+- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
   Source: [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Voice-website.crawl4ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI, LLM projects
 - [job-boards/indeed-glassdoor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A496c1bd50d2f9efcd9b83aca.json) — Domain skill: Job Boards — Indeed, Glassdoor, Stepstone. Covers: indeed.com, glassdoor.com, stepstone.de<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/job-boards/indeed-glassdoor.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/job-boards/indeed-glassdoor.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents

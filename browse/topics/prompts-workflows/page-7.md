@@ -1,6 +1,6 @@
 # Prompts & Workflows — page 7
 
-3,028 catalog entries · Sorted alphabetically by name · Page 7 of 21.
+3,030 catalog entries · Sorted alphabetically by name · Page 7 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -230,6 +230,8 @@
   Source: [jamesrwatsonx-creator/awesome-gpt-image-2](https://github.com/jamesrwatsonx-creator/awesome-gpt-image-2) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Developer tools
 - [jamesrwatsonx-creator/awesome-n8n-templates](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350160968.json) — 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG chatbots, email automation, social media, DevOps, and…<br>
   Source: [jamesrwatsonx-creator/awesome-n8n-templates](https://github.com/jamesrwatsonx-creator/awesome-n8n-templates) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Automation/scripting
+- [jamesrwatsonx-creator/awesome-opus5-5-videos](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426100543.json) — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.<br>
+  Source: [jamesrwatsonx-creator/awesome-opus5-5-videos](https://github.com/jamesrwatsonx-creator/awesome-opus5-5-videos) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254783144.json) — Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
 - [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416107.json) — Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes<br>
@@ -242,7 +244,7 @@
   Source: [jamesrwatsonx-creator/claude-code](https://github.com/jamesrwatsonx-creator/claude-code) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/Claude-of-Duty](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1332608873.json) — A Call of Duty-quality FPS in Three.js, built from a single prompt.<br>
   Source: [jamesrwatsonx-creator/Claude-of-Duty](https://github.com/jamesrwatsonx-creator/Claude-of-Duty) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247306274.json) — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent â€” fewer tokens, fewer tool calls, 100% local<br>
+- [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247306274.json) — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local<br>
   Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI evaluation, AI memory
 - [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348977014.json) — A local-first, settings-driven business intelligence dashboard.<br>
   Source: [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/control-center) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Business applications, Frontend applications
@@ -258,9 +260,9 @@
   Source: [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/drawio-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Creative tools, Skills
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, AI memory, Application security
-- [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406872705.json) — Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.<br>
-  Source: [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/financial-services) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Research projects, Skills
-- [jamesrwatsonx-creator/Finn-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1310362198.json) — The Finn-loop: a 3-skill AI software factory for Claude Code â€” spec, build, review. Humans merge.<br>
+- [jamesrwatsonx-creator/figcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426106979.json) — FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust<br>
+  Source: [jamesrwatsonx-creator/figcraft](https://github.com/jamesrwatsonx-creator/figcraft) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/Finn-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1310362198.json) — The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review. Humans merge.<br>
   Source: [jamesrwatsonx-creator/Finn-loop](https://github.com/jamesrwatsonx-creator/Finn-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Developer tools, Skills
 - [jamesrwatsonx-creator/Fooocus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247321485.json) — Focus on prompting and generating<br>
   Source: [jamesrwatsonx-creator/Fooocus](https://github.com/jamesrwatsonx-creator/Fooocus) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
@@ -276,6 +278,8 @@
   Source: [jamesrwatsonx-creator/humanizer](https://github.com/jamesrwatsonx-creator/humanizer) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, CI/CD, Marketing/communications
 - [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1334697613.json) — The James Watson Gauntlet Loop is a recursive multi-agent framework forcing AI systems to challenge assumptions, evidence, beliefs, and more. Built to move beyond linear prompting toward self-correcting agentic…<br>
   Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Research projects
+- [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426111770.json) — Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini,…<br>
+  Source: [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/jev-guard) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342397694.json) — Celebrate more with this lightweight confetti particle system 🎊<br>
   Source: [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Konfetti) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [jamesrwatsonx-creator/langflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346376406.json) — Langflow is a powerful tool for building and deploying AI-powered agents and workflows.<br>
@@ -298,12 +302,8 @@
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
 - [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344501968.json) — Playwright MCP server<br>
   Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Libraries/packages
-- [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274984646.json) — PM Skills Marketplace: 100+ agentic skills, commands, and plugins â€” from discovery to strategy, execution, launch, and growth.<br>
+- [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274984646.json) — PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, CI/CD, Developer tools
-- [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342961720.json) — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.<br>
-  Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, Developer tools
-- [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD…<br>
-  Source: [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/promptfoo) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, DevOps
 
 ## Pages
 

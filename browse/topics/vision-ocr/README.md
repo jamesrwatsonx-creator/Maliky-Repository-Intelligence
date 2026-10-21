@@ -2,7 +2,7 @@
 
 Image understanding, computer vision, document vision and OCR.
 
-**87 entries** · Alphabetical · 1 page.
+**89 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -70,10 +70,14 @@ Image understanding, computer vision, document vision and OCR.
   Source: [jamesrwatsonx-creator/humanizer](https://github.com/jamesrwatsonx-creator/humanizer) · [SKILL.md](https://github.com/jamesrwatsonx-creator/humanizer/blob/e2e92e7b4b8229253ed5c8e81dc65463fdeddda5/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Marketing/communications, Skills
 - [humanizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A553eaba34b5a2d67aaa0564d.json) — Claude Code plugin manifest (humanizer 2.11.2, MIT) exposing the humanizer skill from the repository root.<br>
   Source: [jamesrwatsonx-creator/humanizer](https://github.com/jamesrwatsonx-creator/humanizer) · [.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/humanizer/blob/e2e92e7b4b8229253ed5c8e81dc65463fdeddda5/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills
+- [jamesrwatsonx-creator/awesome-computer-vision](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419848130.json) — A curated list of awesome computer vision resources<br>
+  Source: [jamesrwatsonx-creator/awesome-computer-vision](https://github.com/jamesrwatsonx-creator/awesome-computer-vision) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/cvat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247338243.json) — Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image,…<br>
   Source: [jamesrwatsonx-creator/cvat](https://github.com/jamesrwatsonx-creator/cvat) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools, Developer tools
 - [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342985014.json) — Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression,…<br>
   Source: [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/drawio-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Creative tools, Skills
+- [jamesrwatsonx-creator/frigate---camera-monitoring](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419796280.json) — NVR with realtime local object detection for IP cameras<br>
+  Source: [jamesrwatsonx-creator/frigate---camera-monitoring](https://github.com/jamesrwatsonx-creator/frigate---camera-monitoring) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/gvision](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389396472.json) — GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily.<br>
   Source: [jamesrwatsonx-creator/gvision](https://github.com/jamesrwatsonx-creator/gvision) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Research projects
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>

@@ -1,9 +1,17 @@
 # Web Apps — page 5
 
-648 catalog entries · Sorted alphabetically by name · Page 5 of 5.
+652 catalog entries · Sorted alphabetically by name · Page 5 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ThemeProvider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5926bb19ac1736916779dc0d.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/app/theme-provider.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/app/theme-provider.tsx#L6) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ThemeSelect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A787e722fe4915a371babfaa1.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/ThemeSelect.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/ThemeSelect.tsx#L11) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ThemeSwitcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A27be043e23369039e8828cf3.json) — Hermes web dashboard React component Theme Switcher (ThemeSwitcher.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/ThemeSwitcher.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/ThemeSwitcher.tsx#L27) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [ThemeToggle](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae124f9eb9da87666bbe76e93.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/app/theme-toggle.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/app/theme-toggle.tsx#L11) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ThinkingRow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acce7cf17d72270ce82dce6d4.json) — Live thinking indicator used while an agent turn is reasoning.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · [src/components/chat/TranscriptRows.tsx](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/src/components/chat/TranscriptRows.tsx#L80) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI applications, SDKs/client libraries
 - [Thread](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aef6c203ea1d3f1cbcaf7119e.json) — Hermes desktop app React component Thread (index.tsx).<br>

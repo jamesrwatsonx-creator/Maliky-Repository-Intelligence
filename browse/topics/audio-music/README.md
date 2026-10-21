@@ -2,7 +2,7 @@
 
 Audio processing, music generation, playback and sound tools.
 
-**126 entries** · Alphabetical · 1 page.
+**128 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -114,8 +114,8 @@ Audio processing, music generation, playback and sound tools.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/visual-ethnography-documentation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/visual-ethnography-documentation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [import_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A01dd1de9169bf7b0ec5b40d0.json) — Register an external audio file as a generation row. Designed for the story timeline so users can drop in music or other non-TTS audio. The row points at a singleton "Imported Audio" profile so the existing…<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/generations.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L418) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408214904.json) — > A curated list of projects, tools, models, UIs, and resources for ACE-Step — the open-source music generation foundation model by ACE Studio and StepFun.<br>
-  Source: [jamesrwatsonx-creator/awesome-ace-step](https://github.com/jamesrwatsonx-creator/awesome-ace-step) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418820883.json) — Fast cross-platform video and audio downloader and media viewer with flexible format and quality options. Supports 1,000+ websites including YouTube, Instagram, TikTok, Twitch, Facebook, Reddit, and more, with…<br>
+  Source: [jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long](https://github.com/jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388097197.json) — ⚡ Insanely fast AI voice assistant with <500ms response times<br>
   Source: [jamesrwatsonx-creator/fast-voice-assistant](https://github.com/jamesrwatsonx-creator/fast-voice-assistant) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344492471.json) — A complete voice AI frontend app for LiveKit Agents with Next.js<br>
@@ -128,6 +128,8 @@ Audio processing, music generation, playback and sound tools.
   Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
   Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
+- [jamesrwatsonx-creator/python-audio-separator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074846.json) — Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)<br>
+  Source: [jamesrwatsonx-creator/python-audio-separator](https://github.com/jamesrwatsonx-creator/python-audio-separator) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247326357.json) — Clone a voice in 5 seconds to generate arbitrary speech in real-time<br>
   Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Machine-learning models
 - [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034245.json) — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.<br>
@@ -140,6 +142,8 @@ Audio processing, music generation, playback and sound tools.
   Source: [jamesrwatsonx-creator/wavesurfer.js](https://github.com/jamesrwatsonx-creator/wavesurfer.js) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
 - [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347784650.json) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.<br>
   Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
+- [jamesrwatsonx-creator/your_spotify-workout-app-music-curator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418872346.json) — Self hosted Spotify tracking dashboard<br>
+  Source: [jamesrwatsonx-creator/your_spotify-workout-app-music-curator](https://github.com/jamesrwatsonx-creator/your_spotify-workout-app-music-curator) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/yt-dlp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1275675388.json) — A feature-rich command-line audio/video downloader<br>
   Source: [jamesrwatsonx-creator/yt-dlp](https://github.com/jamesrwatsonx-creator/yt-dlp) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools, Generative AI
 - [list_captures_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f06bc270dd6f9f5c2e87043.json) — List all audio captures with optional filters.<br>

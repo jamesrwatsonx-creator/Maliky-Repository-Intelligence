@@ -2,7 +2,7 @@
 
 iOS apps, Swift components and Apple platform tooling.
 
-**73 entries** · Alphabetical · 1 page.
+**74 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -62,8 +62,8 @@ iOS apps, Swift components and Apple platform tooling.
   Source: [jamesrwatsonx-creator/blurr](https://github.com/jamesrwatsonx-creator/blurr) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [jamesrwatsonx-creator/bubbles-for-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398404716.json) — Bubbles for Android is an Android library to provide chat heads capabilities on your apps. With a fast way to integrate with your development.<br>
   Source: [jamesrwatsonx-creator/bubbles-for-android](https://github.com/jamesrwatsonx-creator/bubbles-for-android) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
-- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — This plugin handles the setup required for Expo projects to use the LiveKit React Native SDK.<br>
-  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · APIs, Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376793544.json) — KMP/CMP GraphQL based conference project with Jetpack Compose Android, Compose for Wear, and Compose Multiplatform Desktop, Web and iOS clients along with GraphQL backend.<br>
   Source: [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Confetti) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Mobile applications
 - [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965909.json) — A curated collection of 200+ Flutter open source projects to help developers learn and practice Flutter development.<br>
@@ -72,16 +72,18 @@ iOS apps, Swift components and Apple platform tooling.
   Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376782785.json) — Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/<br>
   Source: [jamesrwatsonx-creator/lottie-web](https://github.com/jamesrwatsonx-creator/lottie-web) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Mobile applications
-- [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388271305.json) — A ready-to-use mobile app submission starter project for preparing app listings, privacy review, release checklists, and launch readiness across Apple App Store and Google Play.<br>
-  Source: [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Mobile-app-store-submission) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388271305.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/Mobile-app-store-submission](https://github.com/jamesrwatsonx-creator/Mobile-app-store-submission) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · Mobile applications
 - [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389377078.json) — Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)<br>
   Source: [jamesrwatsonx-creator/mobile-mcp](https://github.com/jamesrwatsonx-creator/mobile-mcp) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399091669.json) — Useful tool to track location or mobile number<br>
   Source: [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/presence-phone-number-GhostTrack) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
-- [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945131.json) — A basic example to get LiveKit up and running on Expo.<br>
-  Source: [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/react-native-expo-quickstart) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945131.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/react-native-expo-quickstart) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377176183.json) — Expert design & marketing knowledge for AI agents — an MCP server for web, iOS, Android & macOS design: UI, UX, SEO, GEO, copywriting, roadmaps & real-world patterns.<br>
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
+- [jamesrwatsonx-creator/SwiftUI-Agent-Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1423750122.json) — SwiftUI agent skill for Claude Code, Codex, and other AI tools.<br>
+  Source: [jamesrwatsonx-creator/SwiftUI-Agent-Skill](https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398401393.json) — An Android library that help you to build app with swipe back gesture.<br>
   Source: [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/SwipeBackLayout) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [Letta ChatSession Adapter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa76f61f17ec4738f752b1221.json) — Portable session adapter covering resume, streaming reduction, approvals, abort, queued follow-ups and server-authoritative reconciliation.<br>

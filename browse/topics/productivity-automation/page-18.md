@@ -1,9 +1,15 @@
 # Productivity & Automation — page 18
 
-2,622 catalog entries · Sorted alphabetically by name · Page 18 of 18.
+2,625 catalog entries · Sorted alphabetically by name · Page 18 of 18.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [usergroups_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A336970d1180a61c3b797a288.json) — List Slack user groups and optional membership/default-channel details.<br>
+  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L40) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
+- [usergroups_me](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0e256c07eac1ed775fb5922b.json) — Add or remove the authenticated user from a Slack user group.<br>
+  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L41) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
+- [usergroups_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A563311d4ed4564ef80774ecb.json) — Update Slack user-group name, handle, description or default channels.<br>
+  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L43) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [usergroups_users_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7f1f920066be0a4726f0af49.json) — Replace the complete member list of a Slack user group.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L44) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [users_search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab3e3e591d08950d033acb562.json) — Search Slack users visible to the authenticated identity.<br>

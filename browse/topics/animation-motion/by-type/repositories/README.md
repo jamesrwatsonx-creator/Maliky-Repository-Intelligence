@@ -2,7 +2,7 @@
 
 Repositories tagged under Animation & Motion.
 
-**20 entries** · Alphabetical · 1 page.
+**22 entries** · Alphabetical · 1 page.
 
 [Back to Animation Motion](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -18,11 +18,13 @@ Repositories tagged under Animation & Motion.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Design systems, Developer tools
 - [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342385313.json) — ⚡️ A collection of Jetpack Compose animations for the best practices. Tweak literals at the top of any file, save, and watch the motion morph in real-time.<br>
   Source: [jamesrwatsonx-creator/compose-android--animations](https://github.com/jamesrwatsonx-creator/compose-android--animations) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Mobile applications
+- [jamesrwatsonx-creator/cursify-animated-cursors-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418707853.json) — Cursor Animation Library for React & Next.js<br>
+  Source: [jamesrwatsonx-creator/cursify-animated-cursors-](https://github.com/jamesrwatsonx-creator/cursify-animated-cursors-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342985014.json) — Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression,…<br>
   Source: [jamesrwatsonx-creator/drawio-skill](https://github.com/jamesrwatsonx-creator/drawio-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Creative tools, Skills
 - [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315198427.json) — Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.<br>
   Source: [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/gsap-skills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Creative tools, Developer tools
-- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace â€” 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
+- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace — 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
   Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools
 - [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340230037.json) — Render After Effects animations natively on Android and iOS, Web, and React Native<br>
   Source: [jamesrwatsonx-creator/lottie-android](https://github.com/jamesrwatsonx-creator/lottie-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Frontend applications, Mobile applications
@@ -38,6 +40,8 @@ Repositories tagged under Animation & Motion.
   Source: [jamesrwatsonx-creator/ng-lottie](https://github.com/jamesrwatsonx-creator/ng-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
   Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
+- [jamesrwatsonx-creator/PySceneDetect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426073935.json) — :movie_camera: Python and OpenCV-based scene cut/transition detection program & library.<br>
+  Source: [jamesrwatsonx-creator/PySceneDetect](https://github.com/jamesrwatsonx-creator/PySceneDetect) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376780291.json) — Render After Effects animations on React based on lottie-web<br>
   Source: [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/react-lottie) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
 - [jamesrwatsonx-creator/shadcn-ui-animated-tabs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414875223.json) — Shadcn Animated Tabs is an open-source project that demonstrates how to add animations to the default Shadcn tab component.<br>

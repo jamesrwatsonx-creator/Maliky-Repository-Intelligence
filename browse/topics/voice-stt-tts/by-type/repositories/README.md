@@ -2,7 +2,7 @@
 
 Repositories tagged under Voice, STT & TTS.
 
-**38 entries** · Alphabetical · 1 page.
+**43 entries** · Alphabetical · 1 page.
 
 [Back to Voice Stt Tts](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -16,6 +16,8 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/FluidVoice](https://github.com/jamesrwatsonx-creator/FluidVoice) · REPOSITORY · PARTIAL · PINNED_SOURCE · Generative AI, LLM projects
 - [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1305185750.json) — Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)<br>
   Source: [jamesrwatsonx-creator/free-claude-code](https://github.com/jamesrwatsonx-creator/free-claude-code) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Generative AI
+- [jamesrwatsonx-creator/FunClip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426075298.json) — FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.<br>
+  Source: [jamesrwatsonx-creator/FunClip](https://github.com/jamesrwatsonx-creator/FunClip) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372823236.json) — Browser automation CLI for AI agents<br>
   Source: [jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser](https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
@@ -32,6 +34,10 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/invoice-typebot.io](https://github.com/jamesrwatsonx-creator/invoice-typebot.io) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/invoiceninja](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399044832.json) — A source-available invoice, quote, project and time-tracking app built with Laravel<br>
   Source: [jamesrwatsonx-creator/invoiceninja](https://github.com/jamesrwatsonx-creator/invoiceninja) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/InvoicePlane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418858974.json) — A self-hosted open source application for managing your invoices, clients and payments.<br>
+  Source: [jamesrwatsonx-creator/InvoicePlane](https://github.com/jamesrwatsonx-creator/InvoicePlane) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/InvoiceShelf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418859526.json) — Open Source Invoicing Solution for Individuals & Businesses<br>
+  Source: [jamesrwatsonx-creator/InvoiceShelf](https://github.com/jamesrwatsonx-creator/InvoiceShelf) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/Jarvis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342771445.json) — Build your own JARVIS: An AI voice interface that enables you to talk with an AI model, creating a conversational experience. It offers a modern alternative to traditional virtual assistants. Highly customizable,…<br>
   Source: [jamesrwatsonx-creator/Jarvis](https://github.com/jamesrwatsonx-creator/Jarvis) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Generative AI, LLM projects
 - [jamesrwatsonx-creator/live-Kit-agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344504166.json) — A framework for building realtime voice AI agents 🤖🎙️📹<br>
@@ -46,6 +52,8 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/OpenCreator](https://github.com/jamesrwatsonx-creator/OpenCreator) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Generative AI
 - [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1356023487.json) — Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.<br>
   Source: [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/openwhispr) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
+- [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419961535.json) — Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.<br>
+  Source: [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/pipecat-voice) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
   Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/Qwen3-TTS](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343005554.json) — Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.<br>
@@ -58,7 +66,7 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/Voice-a](https://github.com/jamesrwatsonx-creator/Voice-a) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI memory, DevOps, Generative AI
 - [jamesrwatsonx-creator/voice-agent-livekit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359930213.json) — End-to-end realtime stack for connecting humans and AI<br>
   Source: [jamesrwatsonx-creator/voice-agent-livekit](https://github.com/jamesrwatsonx-creator/voice-agent-livekit) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Generative AI
-- [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1293437424.json) — Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu â€” one CLI, zero API fees.<br>
+- [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1293437424.json) — Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.<br>
   Source: [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs, Developer tools
 - [jamesrwatsonx-creator/Voice-mode-3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366383041.json) — Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan.<br>
   Source: [jamesrwatsonx-creator/Voice-mode-3](https://github.com/jamesrwatsonx-creator/Voice-mode-3) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, DevOps, Generative AI
@@ -72,7 +80,7 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot](https://github.com/jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
 - [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388239705.json) — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.<br>
   Source: [jamesrwatsonx-creator/voice-website-WeKnora](https://github.com/jamesrwatsonx-creator/voice-website-WeKnora) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Frontend applications
-- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — ðŸš€ðŸ¤– Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
+- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
   Source: [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Voice-website.crawl4ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI, LLM projects
 - [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342370171.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
   Source: [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · AI agents, APIs, Generative AI
@@ -82,3 +90,5 @@ Repositories tagged under Voice, STT & TTS.
   Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
 - [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344510642.json) — Robust Speech Recognition via Large-Scale Weak Supervision<br>
   Source: [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/whisper) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Generative AI
+- [jamesrwatsonx-creator/whisperX](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426084650.json) — WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)<br>
+  Source: [jamesrwatsonx-creator/whisperX](https://github.com/jamesrwatsonx-creator/whisperX) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
