@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**227 entries** · Alphabetical · 2 pages.
+**228 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -30,6 +30,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/issues_granular.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/issues_granular.go#L1022) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [andrej-karpathy-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa968118ed8a5f6e2bb3ecf95.json) — Claude plugin wrapper exposing the single karpathy-guidelines skill; marketplace.json indexes the same plugin.<br>
   Source: [jamesrwatsonx-creator/andrej-karpathy-skills](https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills) · [.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Plugins/extensions
+- [Appwrite MCP Server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1543f2484636496ecea845e5.json) — OAuth-enabled hosted MCP endpoint for operating live Appwrite projects, with a separately documented local server path for self-hosted deployments.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md#L180) · MCP_SERVER · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [assign_copilot_to_issue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abc9e03a386f4ef7fd12e60e5.json) — Assign Copilot to issue<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/copilot.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/copilot.go#L167) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [assign_copilot_to_issue_with_intent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a74ba26deb62cce3e09b453.json) — Assign Copilot to issue with intent<br>
@@ -303,8 +305,6 @@ Canonical operational taxonomy view generated from registry assignments.
 - [mcp-config-parallel-search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca88b7aced8ae2f96357f1e0.json) — Recommended MCP server config "parallel-search": Parallel Web Search — LLM-optimized web_search and web_fetch tools that take an objective + queries and return citation-backed excerpts in a single call (replaces…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-playwright](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A91b49188d1a9dcc4e63048b8.json) — Recommended MCP server config "playwright": Browser automation and testing via Playwright<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
-- [mcp-config-railway](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05e8a2239aa2d0f020f8c18f.json) — Recommended MCP server config "railway": Railway deployments<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 
 ## Pages

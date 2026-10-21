@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**156 entries** · Alphabetical · 2 pages.
+**158 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -28,6 +28,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/api/AnthropicClient.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/api/AnthropicClient.kt#L15) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
 - [anthropic-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d716b3b3cc428ea01a754f7.json) — Anthropic (Claude)<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/anthropic/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/anthropic/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Appwrite Sites](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c911e461e55f2df8a1c9e7e.json) — Git-connected static, client-rendered and server-rendered site deployment with preview builds.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [src/Appwrite/Platform/Modules/Sites/Module.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/src/Appwrite/Platform/Modules/Sites/Module.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [arcee-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05783c6e6a1e6e5e3444f49f.json) — Arcee AI<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/arcee/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/arcee/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [azure-foundry-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac67988ea452a545429631876.json) — Microsoft Foundry<br>
@@ -302,10 +304,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [upstage-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49199cc4dd873ee5ae5fdcef.json) — Upstage (Solar API)<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/upstage/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/upstage/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [vertex-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fa60f8ad05300f4eedad70f.json) — Google Vertex AI (Gemini via OpenAI-compatible endpoint, OAuth2)<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/vertex/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/vertex/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98660e41e5051dafc79216c3.json) — vllm.entrypoints.cli.main:main<br>
-  Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [Utopia Agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9492632a5bdf7bf291c80122.json) — PHP agent library with multi-provider model adapters, conversations, attachments and streaming output.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/agents/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/agents/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

@@ -23,10 +23,12 @@ def analyze(repo, imports=(), max_files=None):
     entries={x['path']:x for x in tree['tree'] if x['type']=='blob'}
     if max_files is not None and max_files < 1: raise ValueError('max_files must be positive')
     all_evidence=[]; errors=[]; missing=[]; static_skipped=[]; reused=0; computed=0; source_bytes=0; sources={}
+    evidence_manifest=r.read(pathlib.Path('.local/evidence-manifests')/(str(repo['github_id'])+'.json'),{})
+    detected_binary=set(evidence_manifest.get('detected_binary_paths',[]))
     # Include algorithm and existing detector content in cache identity.
     fingerprint=digest({'version':VERSION,'local':pathlib.Path(__file__).with_name('local.py').read_text(encoding='utf-8'),
                         'detector':(r.ROOT/'scripts/registry.py').read_text(encoding='utf-8')})
-    eligible=[item for item in sorted(entries.items(),key=lambda item:(r.priority(item[1]),item[0])) if r.priority(item[1])<=5]
+    eligible=[item for item in sorted(entries.items(),key=lambda item:(r.priority(item[1]),item[0])) if r.priority(item[1])<=5 and item[0] not in detected_binary]
     selected=eligible if max_files is None else eligible[:max_files]
     for path,entry in selected:
         source_path(path)
@@ -77,7 +79,7 @@ def analyze(repo, imports=(), max_files=None):
     all_evidence=list({e['evidence_id']:e for e in all_evidence}.values())
     result={'schema_version':'1.0','repository':{'id':repo['id'],'name':repo['full_name'],'commit':commit},
             'evidence':all_evidence,'repository_map':repository_map(all_evidence),'dependencies':merge_dependencies(all_evidence),
-            'adapter_status':adapter_status,'coverage':{'tree_complete':not tree.get('truncated',True),'tree_files':len(entries),'eligible_tree_files':len(eligible),'selected_tree_files':len(selected),'not_selected_for_this_run':len(eligible)-len(selected),'cached_text_files':len(sources),'missing':missing,'errors':errors,'static_analysis_skipped':static_skipped,'source_bytes':source_bytes},
+            'adapter_status':adapter_status,'coverage':{'tree_complete':not tree.get('truncated',True),'tree_files':len(entries),'eligible_tree_files':len(eligible),'detected_binary_files':len(detected_binary),'selected_tree_files':len(selected),'not_selected_for_this_run':len(eligible)-len(selected),'cached_text_files':len(sources),'missing':missing,'errors':errors,'static_analysis_skipped':static_skipped,'source_bytes':source_bytes},
             'cache':{'reused':reused,'computed':computed,'algorithm':fingerprint},'elapsed_seconds':round(time.monotonic()-start,3)}
     output=local_output(r.ROOT/'.local/analysis/normalized'/str(repo['github_id'])/commit/'evidence.json')
     r.write(output,result)

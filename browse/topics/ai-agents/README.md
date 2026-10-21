@@ -2,7 +2,7 @@
 
 Agents, agent tools and reusable agent capabilities.
 
-**2,782 entries** · Alphabetical · 19 pages.
+**2,854 entries** · Alphabetical · 20 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -328,3 +328,4 @@ Agents, agent tools and reusable agent capabilities.
 - [Page 17](page-17.md)
 - [Page 18](page-18.md)
 - [Page 19](page-19.md)
+- [Page 20](page-20.md)

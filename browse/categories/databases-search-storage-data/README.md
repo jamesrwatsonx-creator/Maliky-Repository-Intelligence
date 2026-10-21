@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**5 entries** · Alphabetical · 1 page.
+**9 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -14,5 +14,13 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · [backend/main.go](https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/backend/main.go#L1) · SERVICE · VERIFIED · PINNED_SOURCE · Application security, Backend services, CLI tools
 - [1time Zapier Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afdc17d372bd14d21c3831368.json) — Zapier Platform integration that packages the shared 1time protocol for creating encrypted one-time secret links in automation workflows.<br>
   Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · [zap/package.json](https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/zap/package.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · Application security, Backend services, CLI tools
+- [Appwrite Auth](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A262f8c12ea9d8711b65a3e08.json) — User authentication with email, SMS, OAuth, anonymous sessions, magic URLs, MFA and account lifecycle APIs.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [src/Appwrite/Platform/Modules/Account/Module.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/src/Appwrite/Platform/Modules/Account/Module.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Appwrite Firewall](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5df49fd5628b1555ecd5b513.json) — Project traffic routing and edge-control surface used with abuse limits and network protection policies.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [src/Appwrite/Platform/Modules/Proxy/Module.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/src/Appwrite/Platform/Modules/Proxy/Module.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418668015.json) — Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.<br>
   Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · REPOSITORY · COMPLETE · PINNED_SOURCE · Application security, Backend services, CLI tools
+- [Utopia Abuse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad74f8ecf6a6af7ae04a6695d.json) — Application usage-limit and time-window abuse-control primitives.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/abuse/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/abuse/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Utopia Auth](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A601a7ebd5c0e24d848a840e3.json) — Authentication and authorization primitives for password hashing, proofs, OAuth2, OpenID Connect and signed token verification.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/auth/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/auth/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security

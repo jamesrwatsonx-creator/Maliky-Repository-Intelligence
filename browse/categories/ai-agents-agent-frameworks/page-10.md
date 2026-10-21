@@ -1,6 +1,6 @@
 # AI Agents / Agent Frameworks — page 10
 
-1,524 catalog entries · Sorted alphabetically by name · Page 10 of 11.
+1,525 catalog entries · Sorted alphabetically by name · Page 10 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -216,6 +216,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/user-research-synthesizer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/user-research-synthesizer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [user-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A28e2a1ba473400b7a73d2d6f.json) — Agent specialized in qualitative and quantitative user research methodologies. Expert in user interview design, JTBD and switch interviews, usability testing, survey design, research synthesis, and persona development.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/product-management/agents/user-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/agents/user-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [Utopia Agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9492632a5bdf7bf291c80122.json) — PHP agent library with multi-provider model adapters, conversations, attachments and streaming output.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/agents/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/agents/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [valuation-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7fdff7d87d495c09a6ae5028.json) — Agent specialized in company valuation using DCF, comparable company, and precedent transaction methodologies<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/agents/valuation-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/agents/valuation-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [valuation-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8b0354a0fb0c849ed9b9cca8.json) — Valuation lead agent specializing in VC method, DCF, and comparables analysis<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/rpikit/agents/web-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/agents/web-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [web3-frontend](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5b9b555ec5bbd2d4d13a148.json) — Expert in building Web3 dApp frontends with excellent UX using wagmi, viem, and modern React patterns. Specializes in wallet integration, transaction management, and multi-chain support.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/agents/web3-frontend/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/agents/web3-frontend/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [web_extract](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A371e87ef0e6bdaa35db2ac22.json) — Extract content from web page URLs. Returns clean page content in markdown/text (no LLM summarization — fast). Also works with PDF URLs (arxiv papers, documents) — pass the PDF link directly. Pages within the char…<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/web_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/web_tools.py#L1586) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

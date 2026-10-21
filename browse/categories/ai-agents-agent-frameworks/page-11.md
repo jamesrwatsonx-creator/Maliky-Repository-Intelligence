@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 11
 
-1,524 catalog entries · Sorted alphabetically by name · Page 11 of 11.
+1,525 catalog entries · Sorted alphabetically by name · Page 11 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [web_extract](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A371e87ef0e6bdaa35db2ac22.json) — Extract content from web page URLs. Returns clean page content in markdown/text (no LLM summarization — fast). Also works with PDF URLs (arxiv papers, documents) — pass the PDF link directly. Pages within the char…<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/web_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/web_tools.py#L1586) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [web_search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5928cddc1501672087e8326.json) — Search the web for information. Returns up to 5 results by default with titles, URLs, and descriptions. The query is passed through to the configured backend, so operators such as site:domain, filetype:pdf,…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/web_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/web_tools.py#L1575) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [welding-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adfe676b7cb3aba5291848e59.json) — Expert in welding processes, procedure qualification, and code compliance<br>

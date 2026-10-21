@@ -1,9 +1,11 @@
 # Tools — page 2
 
-392 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+393 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_cashflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A906d22611d0dc2d0ec628d0b.json) — Cash flow statements for a ticker. Reads market data only.<br>
+  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/utils/fundamental_data_tools.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/utils/fundamental_data_tools.py#L43) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [get_code_quality_finding](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca6396509f62b9d3515be066.json) — Get details of a specific code quality finding in a GitHub repository.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/code_quality.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/code_quality.go#L23) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [get_code_scanning_alert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c935973e6f0c343d4633b0f.json) — Get details of a specific code scanning alert in a GitHub repository.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/tools/runs.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/runs.ts#L176) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
 - [run_rebuild_state](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad67cdf7014a1bbba2185202f.json) — Rebuild the state cache for a run from its journal.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/tools/runs.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/runs.ts#L276) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
-- [run_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d2514f6d24c65db0d440830.json) — Get the current status and metadata of a run.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/tools/runs.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/runs.ts#L140) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
 
 ## Pages
 

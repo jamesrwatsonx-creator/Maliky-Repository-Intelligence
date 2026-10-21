@@ -1,0 +1,59 @@
+{
+  "id": "entity:12e200d756c3aee3469ac6e2",
+  "entity_type": "SERVICE",
+  "name": "Appwrite Worker Runtime",
+  "description": "Queue-driven background runtime that dispatches registered Appwrite jobs across build, execution, messaging, migration, webhook and maintenance workers.",
+  "source": {
+    "repository_id": "repository:1418677528",
+    "repository_name": "jamesrwatsonx-creator/appwrite-supabase-per-agent-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-",
+    "upstream_url": "https://github.com/appwrite/appwrite",
+    "source_path": "app/worker.php",
+    "inspected_commit": "61833ff0f9dd5985f580b230244749247b170a6f",
+    "inspection_date": "2026-10-21T00:32:04.503280+00:00",
+    "blob_sha": "649b63ed3b2938c9c72f45e29d8b279331c8bab3",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/app/worker.php#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:cloud-infrastructure",
+    "category:developer-tools",
+    "category:full-stack-applications",
+    "category:libraries-packages",
+    "category:mcp-servers",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:14",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:appwrite-background-worker-runtime"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Appwrite service registry",
+      "Redis-backed queue",
+      "worker-specific credentials and backing services"
+    ],
+    "overlap": "Shared asynchronous execution surface for multiple product modules."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "SERVICE"
+}

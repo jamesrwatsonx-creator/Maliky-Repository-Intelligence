@@ -2,12 +2,16 @@
 
 Individually searchable mcp servers from the public owned catalog.
 
-**8 entries** · Alphabetical · 1 page.
+**10 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Appwrite MCP Server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1543f2484636496ecea845e5.json) — OAuth-enabled hosted MCP endpoint for operating live Appwrite projects, with a separately documented local server path for self-hosted deployments.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md#L180) · MCP_SERVER · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A18fd1469addc61fd7543f7f8.json) — babysitter MCP server (McpServer, stdio via babysitter-mcp-server): 15 tools for creating and iterating runs, posting task results, managing sessions and discovering skills/agents/processes.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/server.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/server.ts#L11) · MCP_SERVER · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
+- [Baserow MCP](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad11d221b3c9d7c9c7d398c47.json) — MCP server constructor<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/core/mcp/__init__.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/core/mcp/__init__.py#L45) · MCP_SERVER · NEEDS_REVIEW · PINNED_SOURCE · MCP servers
 - [codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17d4e61b2376745ff562a90a.json) — Local stdio MCP server named codegraph (started with `codegraph serve --mcp`) exposing nine code-graph tools over a per-project SQLite index; resolves the project root from client roots/list with cwd fallback.<br>
   Source: [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/codegraph) · [src/mcp/index.ts](https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/src/mcp/index.ts#L49) · MCP_SERVER · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Knowledge graphs
 - [github-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab7c7e4762dcd5cba227ab3ea.json) — GitHub's official MCP server (Go): 109 tools across GitHub toolsets over stdio or HTTP, with toolset selection, read-only mode, lockdown mode, tool exclusion, insiders features and OAuth or PAT authentication.<br>

@@ -1,6 +1,6 @@
 # Memory & Context — page 2
 
-224 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+225 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -144,6 +144,8 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4194) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [update_memory_provider_config](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af45c87dc07c6139079f5e5dd.json) — PUT /api/memory/providers/{name}/config - handler update_memory_provider_config<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L6802) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Utopia Span](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5b447a85864fedfba000d0d3.json) — Memory-safe span tracing with automatic Swoole coroutine storage.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/span/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/span/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [vector-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac6a74a6ea33bfeac3f9d69e9.json) — HNSW vector search for pattern similarity retrieval and knowledge graph maintenance with PageRank scoring, community detection, and 3-tier memory management.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/skills/vector-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/skills/vector-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb48477052a11cacd9e4639.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>

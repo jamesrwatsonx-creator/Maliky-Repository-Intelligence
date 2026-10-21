@@ -1,9 +1,11 @@
 # Tools — page 3
 
-392 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+393 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [run_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d2514f6d24c65db0d440830.json) — Get the current status and metadata of a run.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/tools/runs.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/runs.ts#L140) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
 - [sample_video.py](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aec14a2029b53cccf68fc8f15.json) — Command-line entry point for loading HunyuanVideo checkpoints and generating video samples from text prompts.<br>
   Source: [jamesrwatsonx-creator/HunyuanVideo](https://github.com/jamesrwatsonx-creator/HunyuanVideo) · [sample_video.py](https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/sample_video.py#L12) · CLI · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
 - [sana-run](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac8ab7dd27d94ce348fa326b3.json) — sana.cli.run:main<br>

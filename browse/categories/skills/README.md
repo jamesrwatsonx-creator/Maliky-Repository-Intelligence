@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**2,988 entries** · Alphabetical · 20 pages.
+**3,008 entries** · Alphabetical · 21 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -150,6 +150,10 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/skills/ada-compliance-checker/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/skills/ada-compliance-checker/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [adaptive-music](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A76b7498690fa23eac8157d52.json) — Adaptive music skill for horizontal/vertical resequencing and stingers.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/adaptive-music/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/adaptive-music/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [Add Or Update Builder Element Type](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6e842094d85d695dab3787a5.json) — Add or update a Baserow Application Builder element type across backend models, backend ElementType registration, frontend element registry/components/forms/icons/translations, migrations, and targeted tests. Use when…<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.agents/skills/add-update-builder-element-type/SKILL.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/add-update-builder-element-type/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [add-config-env-var](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5941f01fead41d97a292a676.json) — Add a Baserow configuration environment variable for the backend, frontend, or both, and propagate it through settings, Nuxt runtime config, Docker Compose, documentation, consumers, and tests as applicable. Use when…<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.agents/skills/add-config-env-var/SKILL.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/add-config-env-var/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [add-tts-engine](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2cc0d29b9f59ccbc12745158.json) — Use this skill to add a new TTS engine to Voicebox. It walks through dependency research, backend implementation, frontend wiring, PyInstaller bundling, and frozen-build testing. Always start with Phase 0 (dependency…<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [.agents/skills/add-tts-engine/SKILL.md](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/.agents/skills/add-tts-engine/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [additive-manufacturing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A97c98f23f4c5b174c0401427.json) — Skill for additive manufacturing process selection, design optimization, and build preparation<br>
@@ -302,10 +306,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/api-design/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/api-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [api-diff-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac3795db03f6c45a60bfb38ba.json) — Compare API specifications to detect breaking changes. Compare OpenAPI spec versions, categorize changes by severity, generate migration guides, and block breaking changes in CI.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/api-diff-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/api-diff-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [api-gateway-configurator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A603b96ec7a8f26f14ad4e203.json) — Configure API gateways for SDK traffic management<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/api-gateway-configurator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/api-gateway-configurator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [api-inventory-scanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e92e7d2ea1b93a5ed97daee.json) — Discover and document existing API endpoints from code, logs, and traffic analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/skills/api-inventory-scanner/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/skills/api-inventory-scanner/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -329,3 +329,4 @@ Canonical operational taxonomy view generated from registry assignments.
 - [Page 18](page-18.md)
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
+- [Page 21](page-21.md)

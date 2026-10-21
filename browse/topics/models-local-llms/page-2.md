@@ -1,9 +1,13 @@
 # Models & Local LLMs — page 2
 
-156 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+158 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [vertex-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fa60f8ad05300f4eedad70f.json) — Google Vertex AI (Gemini via OpenAI-compatible endpoint, OAuth2)<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/vertex/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/vertex/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A98660e41e5051dafc79216c3.json) — vllm.entrypoints.cli.main:main<br>
+  Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb48477052a11cacd9e4639.json) — A high-throughput and memory-efficient inference and serving engine for LLMs<br>
   Source: [jamesrwatsonx-creator/vllm](https://github.com/jamesrwatsonx-creator/vllm) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/vllm/blob/702e1d718646b5290f17533c04932d58bf03dad6/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [WaveRNN Vocoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af23a1dc32ea9c6a9582089e5.json) — WaveRNN neural vocoder that converts generated mel spectrograms into audio waveforms.<br>

@@ -313,7 +313,7 @@ def persist_evidence(path,evidence):
     result['tree_entries']=[x for x in full if x['path'] in read_paths]
     result['tree_entries_scope']='Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit'
     result['top_level_path_counts']=dict(collections.Counter(x['path'].split('/')[0] if '/' in x['path'] else '(root files)' for x in full))
-    for key in ['unread_source_paths','excluded_nontext_paths']:
+    for key in ['unread_source_paths','excluded_nontext_paths','detected_binary_paths']:
         paths=evidence.get(key,[]); result[key+'_count']=len(paths); result[key]=paths[:100]; result[key+'_truncated']=len(paths)>100
     write(path,result)
 
@@ -393,16 +393,24 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         r['tree_files']=len(entries); r['state']='STRUCTURE_COMPLETE' if r['phases']['structure'] else 'PARTIAL'
         ep='system/evidence/'+str(r['github_id'])+'.json'
         previous=read(ep,{})
+        local_previous=read(pathlib.Path('.local/evidence-manifests')/pathlib.Path(ep).name,{})
+        if local_previous.get('inspected_commit')==commit:
+            previous=local_previous
         previous=previous if previous.get('inspected_commit')==commit else {}
         processed={e['path']:e for e in previous.get('files_read',[])}
         eligible_paths={e['path'] for e in entries if priority(e)<6}
+        # Some binary media formats use source-code suffixes (notably MPEG-TS
+        # segments named *.ts). Preserve content-based exclusions separately
+        # from the extension-based priority classifier.
+        detected_binary_paths=set(previous.get('detected_binary_paths',[])) & eligible_paths
+        eligible_paths-=detected_binary_paths
         # A detector update may reclassify a previously attempted binary file
         # as non-text.  Do not preserve obsolete decode failures for paths that
         # are no longer eligible source evidence.
         errors=[error for error in previous.get('errors',[]) if error.get('path') in eligible_paths]; count=0
         if not structure_only:
             for e in sorted(entries,key=lambda e:(priority(e),e['path'])):
-                if priority(e)==6 or e['path'] in processed: continue
+                if priority(e)==6 or e['path'] in processed or e['path'] in detected_binary_paths: continue
                 if max_files is not None and count>=max_files: break
                 try:
                     text=source_text(r,commit,e,offline)
@@ -422,7 +430,10 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
                                 write(pathlib.Path('.local/entity-history')/ent['id'].split(':')[1]/(old['source']['inspected_commit']+'.json'),old)
                         write(f,ent)
                     processed[e['path']]={'path':e['path'],'blob_sha':e['sha'],'entities_detected':len(found)}; count+=1
-                except (UnicodeDecodeError,ValueError,RuntimeError) as exc:
+                except UnicodeDecodeError:
+                    detected_binary_paths.add(e['path']); eligible_paths.discard(e['path'])
+                    errors=[er for er in errors if er['path']!=e['path']]
+                except (ValueError,RuntimeError) as exc:
                     errors=[er for er in errors if er['path']!=e['path']]+[{'path':e['path'],'error':str(exc)[:250]}]
         ents=[e for e in records('entities') if e['source']['repository_id']==r['id'] and e['source']['inspected_commit']==commit]
         counts=collections.Counter(e['entity_type'] for e in ents)
@@ -436,7 +447,8 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         r['next_phase']='ENTITY_EXTRACTION' if unread else 'SEMANTIC_CENSUS_REVIEW'
         if processed: r['state']='PARTIAL' if unread or skill_detected!=counts['SKILL'] else 'NEEDS_REVIEW'
         r.pop('last_error',None)
-        persist_evidence(ep,{'repository_id':r['id'],'inspected_commit':commit,'tree_complete':r['phases']['structure'],'tree_files':len(entries),'tree_entries':[{'path':e['path'],'sha':e['sha']} for e in entries],'files_read':list(processed.values()),'unread_source_paths':unread,'excluded_nontext_paths':[e['path'] for e in entries if priority(e)==6],'errors':errors,'census_review_required':True,'detector_version':1})
+        extension_nontext={e['path'] for e in entries if priority(e)==6}
+        persist_evidence(ep,{'repository_id':r['id'],'inspected_commit':commit,'tree_complete':r['phases']['structure'],'tree_files':len(entries),'tree_entries':[{'path':e['path'],'sha':e['sha']} for e in entries],'files_read':list(processed.values()),'unread_source_paths':unread,'excluded_nontext_paths':sorted(extension_nontext|detected_binary_paths),'detected_binary_paths':sorted(detected_binary_paths),'errors':errors,'census_review_required':True,'detector_version':2})
         write(repo_file(r),r)
         return {'repo':full_name,'state':r['state'],'files_read':len(processed),'entities':len(ents),'unread':len(unread)}
     except Exception as exc:

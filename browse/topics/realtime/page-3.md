@@ -1,9 +1,13 @@
 # Realtime — page 3
 
-477 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+483 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [mcp-transport-websocket-setup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab98c4ad4e3d46ce41f0f822a.json) — Configure WebSocket transport for bidirectional MCP communication with connection management and reconnection handling.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/mcp-transport-websocket-setup/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/mcp-transport-websocket-setup/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [mcp_oauth_callback](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d7a70b6583277acb0e49dc2.json) — GET /api/mcp/oauth/callback/{server_name:path} - handler mcp_oauth_callback<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L336) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [mcp_oauth_flow_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A32eed38641af0ee092851f7a.json) — GET /api/mcp/oauth/flows/{flow_id} - handler mcp_oauth_flow_status<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L307) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [memory_oauth_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae9cc00f63debbcd839a95637.json) — GET /{provider}/oauth/status - Poll a provider's OAuth flow: idle \\| pending \\| connected \\| error.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5025) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [trigger_cron_job](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a728d478aa6da6c4aaa95f7.json) — POST /api/cron/jobs/{job_id}/trigger - handler trigger_cron_job<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/cron.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/cron.py#L127) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [unreal-metasounds](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A22045856b6797cba059d200a.json) — Unreal Engine MetaSounds skill for procedural audio, real-time synthesis, and advanced audio graphs.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/unreal-metasounds/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/unreal-metasounds/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [unsubscribe_home](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9b25f90d3d3a90ccf30fc2ce.json) — DELETE /tasks/{task_id}/home-subscribe/{platform} - Remove any notify subscription on *task_id* that matches *platform*'s home.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2176) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

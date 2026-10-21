@@ -2,7 +2,7 @@
 
 Repositories tagged under UI/UX.
 
-**37 entries** · Alphabetical · 1 page.
+**38 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -12,6 +12,8 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/apaxy-browse](https://github.com/jamesrwatsonx-creator/apaxy-browse) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Templates/boilerplates, Web applications
 - [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388276242.json) — Complete mobile app ideation, interview prep, and UI design system - combines app concept validation, mobile standards expertise, and image generation with mobile specs<br>
   Source: [jamesrwatsonx-creator/app-idea-and-mobile-ui](https://github.com/jamesrwatsonx-creator/app-idea-and-mobile-ui) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems, Frontend applications, Mobile applications
+- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
 - [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398400036.json) — A curated list of awesome Android UI/UX libraries<br>
   Source: [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/awesome-android-ui) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, Mobile applications
 - [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>

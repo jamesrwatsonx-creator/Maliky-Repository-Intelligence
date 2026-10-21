@@ -1,0 +1,16 @@
+# Websites · Services & Integrations
+
+Services & Integrations tagged under Websites.
+
+**4 entries** · Alphabetical · 1 page.
+
+[Back to Websites](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
+
+- [Appwrite Functions](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6342d9b7e4d50dec0d271cd9.json) — Event-driven serverless function deployment and execution across isolated language runtimes.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [src/Appwrite/Platform/Modules/Functions/Module.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/src/Appwrite/Platform/Modules/Functions/Module.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Appwrite Messaging](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7923b3d9bc41c273f2aaaa88.json) — Unified email, SMS and push notification service with provider, topic, subscriber and delivery management.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [src/Appwrite/Platform/Modules/Messaging/Module.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/src/Appwrite/Platform/Modules/Messaging/Module.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Appwrite Platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dde585831589e61b00d59d0.json) — Self-hostable backend platform combining authentication, databases, storage, functions, sites, messaging, realtime APIs and an agent-facing managed-cloud workflow.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Appwrite Realtime](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d1c5b7d0fca3bea78bed03f.json) — Authenticated WebSocket event subscriptions with presence, channel authorization and project resource updates.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [app/realtime.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/app/realtime.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security

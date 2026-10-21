@@ -2,7 +2,7 @@
 
 Individually searchable workflows from the public owned catalog.
 
-**2,372 entries** · Alphabetical · 16 pages.
+**2,394 entries** · Alphabetical · 16 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

@@ -1,9 +1,11 @@
 # Agent Frameworks — page 14
 
-2,012 catalog entries · Sorted alphabetically by name · Page 14 of 14.
+2,013 catalog entries · Sorted alphabetically by name · Page 14 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [visual-qa-scorer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A57975a82c1a7dd709a9d58bf.json) — Multi-dimensional visual quality scorer for pixel-perfect UI implementation verification<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/visual-qa-scorer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/visual-qa-scorer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [visual-regression](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add3b6a568b9476a487badfb5.json) — Expert in visual regression testing setup, baseline management, and review.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/visual-regression/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/visual-regression/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [visualization-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A062e60913ae40b5cd8e824bd.json) — Agent specialized in scientific data visualization<br>

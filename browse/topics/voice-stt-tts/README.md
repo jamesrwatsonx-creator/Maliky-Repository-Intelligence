@@ -2,19 +2,19 @@
 
 Speech interfaces, transcription, speech generation and voice agents.
 
-**338 entries**
+**348 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (4)
-- [APIs](by-type/apis/README.md) (123)
+- [APIs](by-type/apis/README.md) (130)
 - [Libraries & Packages](by-type/libraries/README.md) (14)
 - [MCP Servers](by-type/mcps/README.md) (1)
 - [Models & Model Adapters](by-type/models/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (6)
-- [Repositories](by-type/repositories/README.md) (43)
+- [Repositories](by-type/repositories/README.md) (44)
 - [Services & Integrations](by-type/services/README.md) (2)
-- [Skills](by-type/skills/README.md) (19)
+- [Skills](by-type/skills/README.md) (21)
 - [Tools](by-type/tools/README.md) (6)
 - [UI Components](by-type/ui-components/README.md) (100)
 - [Workflows](by-type/workflows/README.md) (17) · Alphabetical · 3 pages.
@@ -231,6 +231,8 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L135) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_generation_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afcb7c806c48e1939d8980946.json) — Export only the audio file from a generation.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L166) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [export_invoices](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A93df4cfffa701f138d54de7b.json) — Source-declared api `export_invoices`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L20) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7da78bae3d350d9addbc249a.json) — Export a voice profile as a ZIP archive.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L282) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_story_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a7c6fcd2f46452b628ef820.json) — Export story as single mixed audio file.<br>
@@ -289,6 +291,8 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L227) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_models_cache_dir](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6e2dd8533b1d6d46249df304.json) — Get the path to the HuggingFace model cache directory.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L114) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [get_or_create_invoice_by_order_id](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83e6ac52929e0ea9b196574b.json) — Source-declared api `get_or_create_invoice_by_order_id`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L45) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae081b7bcf57382f820192480.json) — Get a voice profile by ID.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L110) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_avatar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A856712b7e77779fa6c2da9cc.json) — Get avatar image for a profile.<br>
@@ -297,6 +301,8 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L311) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aab472b44c10f034dcf53deb2.json) — Get all samples for a profile.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L195) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [get_refund](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c71564e19e806f2b334d49a.json) — Source-declared api `get_refund`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L91) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_rocm_download_progress](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abdc08fb51cda24f8cc3066c7.json) — Get ROCm backend download progress via Server-Sent Events.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/rocm.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/rocm.py#L63) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_rocm_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac0a5efcfab10b56cff4ce013.json) — Get ROCm backend download/availability status.<br>
@@ -315,12 +321,6 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/GpuPage.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/GpuPage.tsx#L112) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7d1c628d2828854399bcf2cd.json) — Health check endpoint.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/health.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/health.py#L57) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [HermesVoiceOrb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac50c7a4317904ff747ee5f7b.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/hermes/HermesVoiceOrb.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/hermes/HermesVoiceOrb.tsx#L13) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [HistoryTable](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A67bfcb560ec9d59de4ba54a5.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/History/HistoryTable.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/History/HistoryTable.tsx#L61) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [humanities/phonetic-phonological-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23424451d1d70ec5fdb725d2.json) — Analyze sound systems using IPA transcription, acoustic analysis, and phonological rule formulation for language description<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/phonetic-phonological-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/phonetic-phonological-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

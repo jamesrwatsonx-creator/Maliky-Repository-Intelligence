@@ -2,7 +2,7 @@
 
 Individually searchable tools from the public owned catalog.
 
-**392 entries** · Alphabetical · 3 pages.
+**393 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -78,6 +78,8 @@ Individually searchable tools from the public owned catalog.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-opencode/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-opencode/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
 - [babysitter-pi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acd9a51d5ff379a92a45d7cbe.json) — babysitter-pi command-line entry: Babysitter package for Pi Coding Agent<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-pi/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-pi/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
+- [baserow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9077aa4d0c955126734fc43c.json) — baserow.manage:main<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/pyproject.toml](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
 - [bfl_flux3_get_result](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afffed8a6e71fa90241f2c891.json) — Poll a FLUX 3 video job by the job id a generate tool returned. Generation takes minutes and a long Generating phase is normal. This call waits for you while the job runs, so it may run for several minutes; if it…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/flux3_video_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/flux3_video_tool.py#L1228) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [bfl_flux3_image_to_video](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae31b029b8a11cb2e8a570058.json) — Exactly one opening-frame image: a local file path or a URL (PNG/JPEG/WebP, up to 10MB).<br>
@@ -304,8 +306,6 @@ Individually searchable tools from the public owned catalog.
   Source: [jamesrwatsonx-creator/gbrain](https://github.com/jamesrwatsonx-creator/gbrain) · [package.json](https://github.com/jamesrwatsonx-creator/gbrain/blob/01aab110d0090eb38f706b6af84351b433a17597/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [get_balance_sheet](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e6c062831e633b3d253e95a.json) — Balance sheet statements for a ticker. Reads market data only.<br>
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/utils/fundamental_data_tools.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/utils/fundamental_data_tools.py#L24) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
-- [get_cashflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A906d22611d0dc2d0ec628d0b.json) — Cash flow statements for a ticker. Reads market data only.<br>
-  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/utils/fundamental_data_tools.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/utils/fundamental_data_tools.py#L43) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 
 ## Pages
 

@@ -2,7 +2,7 @@
 
 Realtime messaging, streaming, collaboration and low-latency systems.
 
-**477 entries** · Alphabetical · 4 pages.
+**483 entries** · Alphabetical · 4 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -66,6 +66,10 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L9689) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [approve_pairing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af5ee53aa6cf2280c74083432.json) — POST /api/pairing/approve - handler approve_pairing<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L13559) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Appwrite Platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dde585831589e61b00d59d0.json) — Self-hostable backend platform combining authentication, databases, storage, functions, sites, messaging, realtime APIs and an agent-facing managed-cloud workflow.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Appwrite Realtime](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d1c5b7d0fca3bea78bed03f.json) — Authenticated WebSocket event subscriptions with presence, channel authorization and project resource updates.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [app/realtime.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/app/realtime.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [asyncapi-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A31ed819dd77a87eac8594595.json) — AsyncAPI specification handling for event-driven API documentation. Parse, validate, and generate documentation for message-based APIs including Kafka, MQTT, WebSocket, and AMQP systems.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/technical-documentation/skills/asyncapi-docs/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/technical-documentation/skills/asyncapi-docs/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [audio-dsp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6cbae7e52aab7fa1ad1e5a7e.json) — Audio DSP skill for filters and real-time processing.<br>
@@ -302,10 +306,6 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5148) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_env_vars](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5d7945773f8b0b87ca0993e8.json) — GET /api/env - handler get_env_vars<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L7840) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab74777d239b58a0e6159dbd1.json) — GET /api/health - Lightweight process liveness for desktop/backend readiness probes.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L3454) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_home_channels](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A802e1fa44c504dac01b7324a.json) — GET /home-channels - List every platform with a home channel, plus whether *task_id* (if given) is currently subscribed to that home.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2107) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 
