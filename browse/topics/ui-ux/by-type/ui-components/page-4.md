@@ -1,6 +1,6 @@
 # UI/UX · UI Components — page 4
 
-564 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+563 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -216,8 +216,6 @@
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/app/welcome-view.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/app/welcome-view.tsx#L26) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [WorkflowCard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A63920e6800ee849a49225af4.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/maat/WorkflowCard.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/maat/WorkflowCard.tsx#L6) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [WorkflowDisabledNotificationType](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A61e285a75b43e76e47b5531a.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [web-frontend/modules/automation/notificationTypes.jsx](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/web-frontend/modules/automation/notificationTypes.jsx#L5) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [WorkflowTrigger](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6403fe3f90b246e86c93474.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/maat/WorkflowTrigger.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/maat/WorkflowTrigger.tsx#L3) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [WorkspaceContextMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A689b6b0c3efdab4e377fbb42.json) — Hermes desktop app React component Workspace Context Menu (workspace-header.tsx).<br>

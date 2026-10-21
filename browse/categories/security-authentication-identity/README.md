@@ -2,10 +2,12 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**6 entries** · Alphabetical · 1 page.
+**7 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Baserow Platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A463a797284f6c695d31b244f.json) — Self-hostable no-code platform for databases, applications, automations, dashboards and AI-assisted agents, exposed through web, API and integration surfaces.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [README.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/README.md#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [browser_use_cloud_auth](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A102272be5238a7ab2ce59a1b.json) — Browser Use Cloud login for the CLI: OAuth PKCE with a loopback callback, device flow or API key on stdin; stores the credential in a private (chmod 600) JSON file.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [src/browser_harness/auth.py](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/src/browser_harness/auth.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [credential-pool](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3fa54c96200e76370a08a87b.json) — Persistent multi-credential pool for same-provider failover; borrowed secrets are stripped before disk writes (agent/credential_persistence.py).<br>

@@ -2,7 +2,7 @@
 
 Individually searchable agents & frameworks from the public owned catalog.
 
-**1,392 entries** · Alphabetical · 10 pages.
+**1,394 entries** · Alphabetical · 10 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -184,6 +184,8 @@ Individually searchable agents & frameworks from the public owned catalog.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/backend-developer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/backend-developer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [balance-tester](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4033b6a0fbdd6fed608df174.json) — Balance tester agent for metrics and tuning.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/balance-tester/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/balance-tester/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [Baserow Workspace Agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A341153d97f8b16245b48da81.json) — Permission-aware framework for creating, assigning roles to, extending, updating and deleting workspace agents.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/core/agents/service.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/core/agents/service.py#L1) · AGENT_FRAMEWORK · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [battery-systems-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A319ea94d525836b7ec4f9f6e.json) — Expert in automotive battery system design and validation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [battlecard-creator-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add43256297eeb14a4c083edf.json) — Competitive battle card generation and updates specialist<br>
@@ -304,8 +306,6 @@ Individually searchable agents & frameworks from the public owned catalog.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/agents/change-control-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/agents/change-control-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [change-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A15ed0d3be83dc6fd3a702c60.json) — Prosci-certified change management practitioner for organizational transformation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/agents/change-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/agents/change-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [chaos-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7b5a179136080dc5dc77a6be.json) — Expert in chaos experiment design, failure injection strategies, blast radius control, and game day planning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/agents/chaos-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/agents/chaos-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

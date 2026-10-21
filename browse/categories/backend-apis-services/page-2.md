@@ -1,9 +1,11 @@
 # Backend / APIs / Services — page 2
 
-369 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+370 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_profile_desktop_overlay](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A874b0c4dfc9ec76f5c3ff6cb.json) — GET /api/profiles/{name}/desktop-overlay - The desktop appearance/interface overlay bundled with an imported profile (``desktop.json`` at the profile root<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/profiles.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/profiles.py#L1252) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_profile_setup_command](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc246ea2a32b9bebbeef7111.json) — GET /api/profiles/{name}/setup-command - handler get_profile_setup_command<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/profiles.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/profiles.py#L943) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_profile_soul](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae4cd51c9eec5016c4c093b3f.json) — GET /api/profiles/{name}/soul - handler get_profile_soul<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L604) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [scan_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab195d92043c49907b71c90dd.json) — GET /scan-status - handler scan_status<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/hermes-achievements/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/hermes-achievements/dashboard/plugin_api.py#L1043) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [scopes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A104a81cba45de0e0ec324700.json) — Mapping between GitHub token scopes and tool requirements.<br>
-  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/scopes/scopes.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/scopes/scopes.go#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 
 ## Pages
 

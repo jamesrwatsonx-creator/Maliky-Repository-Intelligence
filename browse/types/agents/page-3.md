@@ -1,9 +1,11 @@
 # Agents & Frameworks — page 3
 
-1,392 catalog entries · Sorted alphabetically by name · Page 3 of 10.
+1,394 catalog entries · Sorted alphabetically by name · Page 3 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [customer-health-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ea54ac91c57176815e776b1.json) — Customer health monitoring and intervention specialist<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/agents/customer-health-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/agents/customer-health-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [cutover-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa6dda11291cbe48339d4a402.json) — Coordinate production cutover activities with planning, stakeholder coordination, and go/no-go decisions<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/cutover-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/cutover-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [cybersecurity-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae44f9bb9d4f72efdb56f5298.json) — Automotive cybersecurity specialist per ISO/SAE 21434<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/agents/exit-planner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/agents/exit-planner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [expansion-hunter-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3fd9e939538ed7faee9bd40b.json) — Upsell and cross-sell opportunity identification specialist<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/agents/expansion-hunter-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/agents/expansion-hunter-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [experiment-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0abf98428b3da8fc990bb97c.json) — Agent specialized in physics experiment design, apparatus specification, and systematic planning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/experiment-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/experiment-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

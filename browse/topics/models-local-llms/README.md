@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**158 entries** · Alphabetical · 2 pages.
+**159 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -34,6 +34,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/arcee/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/arcee/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [azure-foundry-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac67988ea452a545429631876.json) — Microsoft Foundry<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/azure-foundry/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/azure-foundry/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Baserow Helm Chart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8e67953a8b5ab1996c64f83c.json) — Production-oriented Helm chart for Baserow services with optional Redis, PostgreSQL, MinIO, Caddy ingress and embeddings dependencies.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [deploy/helm/baserow/Chart.yaml](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/deploy/helm/baserow/Chart.yaml#L1) · INFRASTRUCTURE_MODULE · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [bayesian-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A66f816b4c2efcd40e06f325d.json) — Agent specialized in Bayesian inference, belief updating, and probabilistic reasoning<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/agents/bayesian-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/agents/bayesian-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [bayesian-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac135dbe42c65ebf9b584a0e3.json) — Agent specialized in Bayesian analysis and inference<br>
@@ -304,8 +306,6 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/typing-rule-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [upstage-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49199cc4dd873ee5ae5fdcef.json) — Upstage (Solar API)<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/upstage/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/upstage/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [Utopia Agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9492632a5bdf7bf291c80122.json) — PHP agent library with multi-provider model adapters, conversations, attachments and streaming output.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/agents/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/agents/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

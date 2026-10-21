@@ -2,7 +2,7 @@
 
 Testing, evaluation, QA and tools that improve software development.
 
-**1,290 entries** · Alphabetical · 9 pages.
+**1,309 entries** · Alphabetical · 9 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -198,8 +198,10 @@ Testing, evaluation, QA and tools that improve software development.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-pi/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-pi/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
 - [BackstopJS Visual Testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abd004341ce76c300c37f88b1.json) — BackstopJS visual regression testing for self-hosted visual comparison<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/skills/backstopjs-visual/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/skills/backstopjs-visual/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [baserow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9077aa4d0c955126734fc43c.json) — baserow.manage:main<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/pyproject.toml](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
+- [Baserow Email Compiler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A89416b58988f73c5bfb459c4.json) — Node.js build tool that compiles MJML and Eta email sources into Django templates, with one-shot and watch modes.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/email_compiler/package.json](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/email_compiler/package.json#L1) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow QuickJS Code Runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aea933a73b0b454efba5f4fd8.json) — Wasmtime-hosted QuickJS runner with time, memory, fuel and output limits for user-supplied JavaScript in workflow contexts.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [enterprise/backend/src/baserow_enterprise/code_runner/code_runner_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/enterprise/backend/src/baserow_enterprise/code_runner/code_runner_types.py#L1) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [batch-runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adcf16abc8fcebd297e450e89.json) — Batch agent runner: parallel processing of dataset prompts with checkpoint/resume, trajectory saving and aggregated tool-usage statistics.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [batch_runner.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/batch_runner.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [bats-test-scaffolder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb7ff4210f82f6928c08af59.json) — Generate BATS test structure and fixtures for shell script testing with setup/teardown, assertions, and mocking.<br>
@@ -304,8 +306,6 @@ Testing, evaluation, QA and tools that improve software development.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/cash-flow-forecaster/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/cash-flow-forecaster/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [catalyst-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A73c312bea1500cf9fbd845d9.json) — Catalyst performance analysis skill for activity testing, deactivation modeling, and optimization<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/skills/catalyst-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/skills/catalyst-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [caveman](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7afcf5f850d0db32344b0a40.json) — Caveman installer — detects your AI coding agents and installs caveman for each one.<br>
-  Source: [jamesrwatsonx-creator/caveman](https://github.com/jamesrwatsonx-creator/caveman) · [package.json](https://github.com/jamesrwatsonx-creator/caveman/blob/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 
 ## Pages
 

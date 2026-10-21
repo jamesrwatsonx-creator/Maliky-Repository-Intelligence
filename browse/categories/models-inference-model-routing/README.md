@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**55 entries** · Alphabetical · 1 page.
+**56 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -24,6 +24,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/arcee/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/arcee/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [azure-foundry-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac67988ea452a545429631876.json) — Microsoft Foundry<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/azure-foundry/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/azure-foundry/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Baserow Helm Chart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8e67953a8b5ab1996c64f83c.json) — Production-oriented Helm chart for Baserow services with optional Redis, PostgreSQL, MinIO, Caddy ingress and embeddings dependencies.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [deploy/helm/baserow/Chart.yaml](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/deploy/helm/baserow/Chart.yaml#L1) · INFRASTRUCTURE_MODULE · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [bedrock-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2332f739e405132c590241e0.json) — AWS Bedrock<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/bedrock/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/bedrock/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [commandcode-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5e04fdebedb55bc35666b966.json) — CommandCode — unified multi-model API (OpenAI chat completions + Anthropic Messages)<br>

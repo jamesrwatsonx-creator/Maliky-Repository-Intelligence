@@ -1,9 +1,13 @@
 # APIs — page 2
 
-552 catalog entries · Sorted alphabetically by name · Page 2 of 4.
+554 catalog entries · Sorted alphabetically by name · Page 2 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [generate_deployment](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaf33582757af2b64b132c3ed.json) — Source-declared api `generate_deployment`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/configurator.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/configurator.py#L17) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [generate_speech](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c7a5db9184fd8e9e60a1c6d.json) — POST /generate validates a voice profile and engine, creates a generation record and enqueues run_generation. It returns the generation record; synthesis is performed asynchronously.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/generations.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs, Backend services
 - [get_action_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa2f48195e96951d8fda5da34.json) — GET /api/actions/{name}/status - Tail an action log and report whether the process is still running.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5490) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_active_profile_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0f110ec2120aeda0148930eb.json) — GET /api/profiles/active - Return the sticky active profile and the profile this dashboard process is currently running as.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L133) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_stage_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acbdd699438311d5712cd4f0b.json) — POST /api/git/review/stage - handler git_stage_route<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L143) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [git_status_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A51f79f046f5b148882004811.json) — GET /api/git/status - handler git_status_route<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L34) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [git_unstage_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac4f4f19bb1a481e0489f0c40.json) — POST /api/git/review/unstage - handler git_unstage_route<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L148) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

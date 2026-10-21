@@ -2,12 +2,14 @@
 
 Other Assets tagged under Video.
 
-**4 entries** · Alphabetical · 1 page.
+**5 entries** · Alphabetical · 1 page.
 
 [Back to Video](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
 - [Appwrite Console](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9ba846a7616d7cf76c9c0177.json) — Bun, TanStack Start and React application serving Appwrite's signed-in console and, in cloud profile, its website, docs, blog and changelog.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/README.md#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Baserow Application Builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3956daad1031990d7a4f0e98.json) — Responsive no-code application and portal builder with pages, elements, themes, data sources, user sources, integrations and workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/builder/application_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/builder/application_types.py#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [Deep-Live-Cam](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4db00ba8de4a3f3ecabd82dc.json) — Desktop application and live-camera pipeline for applying a source identity to detected faces in images, prerecorded video and real-time camera streams.<br>
   Source: [jamesrwatsonx-creator/Deep-Live-Cam](https://github.com/jamesrwatsonx-creator/Deep-Live-Cam) · [modules/core.py](https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/modules/core.py#L205) · APP · VERIFIED · PINNED_SOURCE · Generative AI, AI applications, Creative tools
 - [Design System Inspired by Runway](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0951f6dfcb261f69b1bd7584.json) — Runway's interface is a cinematic reel brought to life as a website — a dark, editorial, film-production-grade design where full-bleed photography and video ARE the primary UI elements. This is not a typical tech…<br>

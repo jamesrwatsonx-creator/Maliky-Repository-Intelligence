@@ -1,9 +1,11 @@
 # Video — page 2
 
-196 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+197 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ReactShaderToy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afdc07f3f7a4eeea69c40e382.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/react-shader-toy.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/react-shader-toy.tsx#L442) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [realtime-processing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a4f5cf0e7540105cd90e87c.json) — Agent specializing in GPU real-time image and video processing pipelines. Expert in real-time constraint design, image processing kernel optimization, NVENC/NVDEC video codec integration, frame processing pipelines,…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/agents/realtime-processing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/agents/realtime-processing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [remotion-video-creation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A160dc7e559bfe41cd13f90fa.json) — Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations,…<br>

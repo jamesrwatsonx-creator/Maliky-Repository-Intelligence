@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 4
 
-1,525 catalog entries · Sorted alphabetically by name · Page 4 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 4 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ecc-universal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A150ba4f74e478192fd59801f.json) — Harness-native agent operating system for Codex, OpenCode, Cursor, Gemini, Claude Code, and terminal workflows - skills, hooks, rules, MCP conventions, and operator control-plane patterns<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [package.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [ecc-universal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A92aedca36f8c773a1eb886c4.json) — ECC plugin for OpenCode - agents, commands, hooks, and skills<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [.opencode/package.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.opencode/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [economic-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afa5405e405d8411c081f3479.json) — Agent specialized in macroeconomic analysis, forecasting, and business impact assessment<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/agents/gsd-integration-checker/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/agents/gsd-integration-checker/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [gsd-phase-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A242417c56d9291fd95d375e2.json) — Researches how to implement a phase before planning begins. Specialized research agent with domain awareness that produces structured RESEARCH.md covering approach options, library evaluation, risk assessment, and…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/agents/gsd-phase-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/agents/gsd-phase-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [gsd-plan-checker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac8d9ed3e0c3667123fb49dd8.json) — Verifies plans will achieve phase goal before execution begins. Dedicated checker separate from planner to prevent self-review bias. Uses goal-backward analysis to ensure plan coverage is complete.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gsd/agents/gsd-plan-checker/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gsd/agents/gsd-plan-checker/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

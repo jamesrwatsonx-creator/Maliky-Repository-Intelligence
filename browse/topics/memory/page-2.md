@@ -1,9 +1,13 @@
 # Memory & Context — page 2
 
-225 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+227 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [nuke-cursor-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5ac7ecdcbf6a5ba09f607b3.json) — End-to-end Cursor IDE restart on the user''s MacBook: snapshot metrics, kill ALL Cursor processes, relaunch Cursor, report before/after memory. Recovers from the known renderer memory leak that makes Cursor lag.…<br>
+  Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/ops-and-setup/nuke-cursor-app/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/ops-and-setup/nuke-cursor-app/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [nvenc-nvdec](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abb0ac6b99b46b713cdd074d7.json) — NVIDIA hardware video encoding/decoding integration. Configure NVENC encoding parameters, set up NVDEC decoding pipelines, handle codec configurations, integrate with CUDA for pre/post processing, and manage video…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/skills/nvenc-nvdec/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/skills/nvenc-nvdec/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [openviking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7dcb96d64b4a26d30380ef3e.json) — OpenViking context database — session-managed memory with automatic extraction, tiered retrieval, and filesystem-style knowledge browsing.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/memory/openviking/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/memory/openviking/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [oral-historian](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaf6e9c30655a8a7e0da23849.json) — Collect and preserve personal testimonies with professional standards including interview technique, memory studies, trauma-informed practice, audio preservation, and community protocols<br>

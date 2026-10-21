@@ -2,7 +2,7 @@
 
 UI Components tagged under UI/UX.
 
-**564 entries** · Alphabetical · 4 pages.
+**563 entries** · Alphabetical · 4 pages.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 

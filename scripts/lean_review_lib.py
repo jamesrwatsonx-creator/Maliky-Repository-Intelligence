@@ -119,7 +119,8 @@ class LeanReview:
         else:
             repo['state']='COMPLETE';repo['next_phase']='COMPLETE';repo['phases']['validation']=True
             repo.pop('review_reason',None)
-        progress={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(self.out),'removed_entity_ids':self.removed,
+        prior_removed=repo.get('semantic_review_progress',{}).get('removed_entity_ids',[])
+        progress={'started_at':r.now(),'completed_at':r.now(),'status':'COMPLETE','review_policy':'LEAN','reviewer':'Automated lean static review','final_entity_count':len(self.out),'removed_entity_ids':sorted(set(prior_removed)|set(self.removed)),
                   'confirmed_capabilities':repo['capabilities'],'implementation_details_not_catalogued':list(details)}
         if deep_review: progress['scoped_deep_review']=deep_review
         repo['semantic_review_progress']=progress

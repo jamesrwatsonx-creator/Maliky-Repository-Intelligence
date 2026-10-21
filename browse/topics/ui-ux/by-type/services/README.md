@@ -2,7 +2,7 @@
 
 Services & Integrations tagged under UI/UX.
 
-**5 entries** · Alphabetical · 1 page.
+**8 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -14,5 +14,11 @@ Services & Integrations tagged under UI/UX.
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Appwrite Realtime](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d1c5b7d0fca3bea78bed03f.json) — Authenticated WebSocket event subscriptions with presence, channel authorization and project resource updates.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [app/realtime.php](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/app/realtime.php#L1) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Baserow AI Provider Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3048d9243a3db56dd9f58d13.json) — Configurable AI-provider integration used by AI fields, agent actions, formula suggestions and the assistant.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/ai/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/ai/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow Slack Bot Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A478d052caa5744d4cea77289.json) — Slack bot credential and service integration for workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/slack/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/slack/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow SMTP Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6701c7d6debf71fe4104331.json) — SMTP credential and service integration for sending email from product workflows.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/core/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/core/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [mcp-config-magic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A247cf265f07f37c7a484205e.json) — Recommended MCP server config "magic": Magic UI components<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers

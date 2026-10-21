@@ -2,7 +2,7 @@
 
 Video creation, editing, generation, playback and media processing.
 
-**196 entries**
+**197 entries**
 
 ## Browse within this topic
 
@@ -11,7 +11,7 @@ Video creation, editing, generation, playback and media processing.
 - [Libraries & Packages](by-type/libraries/README.md) (9)
 - [Models & Model Adapters](by-type/models/README.md) (7)
 - [Plugins](by-type/plugins/README.md) (3)
-- [Other Assets](by-type/other-assets/README.md) (4)
+- [Other Assets](by-type/other-assets/README.md) (5)
 - [Repositories](by-type/repositories/README.md) (53)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (43)
@@ -85,6 +85,8 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/creative/ascii-video/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/creative/ascii-video/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [AudioVisualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A54d19b9008fcb0bdbea50d3a.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/blocks/agent-session-view-01/components/audio-visualizer.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/blocks/agent-session-view-01/components/audio-visualizer.tsx#L34) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [Baserow Application Builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3956daad1031990d7a4f0e98.json) — Responsive no-code application and portal builder with pages, elements, themes, data sources, user sources, integrations and workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/builder/application_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/builder/application_types.py#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [bfl_flux3_get_result](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afffed8a6e71fa90241f2c891.json) — Poll a FLUX 3 video job by the job id a generate tool returned. Generation takes minutes and a long Generating phase is normal. This call waits for you while the job runs, so it may run for several minutes; if it…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/flux3_video_tool.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/flux3_video_tool.py#L1228) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [bfl_flux3_image_to_video](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae31b029b8a11cb2e8a570058.json) — Exactly one opening-frame image: a local file path or a URL (PNG/JPEG/WebP, up to 10MB).<br>
@@ -319,8 +321,6 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/OpenMontage](https://github.com/jamesrwatsonx-creator/OpenMontage) · [remotion-composer/package.json](https://github.com/jamesrwatsonx-creator/OpenMontage/blob/cd9f3c1f03368be87b140af494914b8ee4e3c7a4/remotion-composer/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [ProjectCliShell](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6b4abbf6fb5e3ca215faa8dc.json) — Project-scoped browser terminal shell with session layout and command interaction surfaces.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/src/components/global/cli-shell/ProjectCliShell.tsx](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/src/components/global/cli-shell/ProjectCliShell.tsx#L50) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [ReactShaderToy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afdc07f3f7a4eeea69c40e382.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/react-shader-toy.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/react-shader-toy.tsx#L442) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 
 ## Pages
 

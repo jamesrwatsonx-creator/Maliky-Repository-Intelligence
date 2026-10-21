@@ -1,9 +1,15 @@
 # Realtime — page 4
 
-483 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+486 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [toggle_toolset](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7dbe355b96e62a02eecdef92.json) — PUT /api/tools/toolsets/{name} - Enable/disable a configurable toolset for its configuration platform.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L124) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [transcribe_audio_upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac075a046145c78dc215ac88b.json) — POST /api/audio/transcribe - handler transcribe_audio_upload<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5025) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [trigger_cron_job](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a728d478aa6da6c4aaa95f7.json) — POST /api/cron/jobs/{job_id}/trigger - handler trigger_cron_job<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/cron.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/cron.py#L127) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [unreal-metasounds](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A22045856b6797cba059d200a.json) — Unreal Engine MetaSounds skill for procedural audio, real-time synthesis, and advanced audio graphs.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/unreal-metasounds/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/unreal-metasounds/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [unsubscribe_home](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9b25f90d3d3a90ccf30fc2ce.json) — DELETE /tasks/{task_id}/home-subscribe/{platform} - Remove any notify subscription on *task_id* that matches *platform*'s home.<br>

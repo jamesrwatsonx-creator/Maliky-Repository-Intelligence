@@ -1,9 +1,13 @@
 # AI Agents / Agent Frameworks — page 7
 
-1,525 catalog entries · Sorted alphabetically by name · Page 7 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 7 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [network-testing-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A41fb7edc00c3c923d5b5c56d.json) — Expert agent for network testing, benchmarking, and quality validation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/network-testing-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/network-testing-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [network-troubleshooter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6ca49d798c768e368949dacd.json) — Diagnoses network connectivity, routing, DNS, interface, and policy symptoms with a read-only OSI-layer workflow and evidence-backed root cause summary.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/network-troubleshooter.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/network-troubleshooter.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [nextjs-developer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab47ee1df77c38d9ef9199bbd.json) — Expert Next.js developer for full-stack development, RSC patterns, and Vercel deployment.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/nextjs-developer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/nextjs-developer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [ngs-experiment-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A96d1fc75200f397be8ee0425.json) — Agent specialized in NGS experimental design including library preparation, sequencing depth, and coverage optimization<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/protocol-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/protocol-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [prototype-testing-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14194b6c512073e213494fcc.json) — Facilitate and analyze prototype usability testing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/prototype-testing/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/prototype-testing/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [proxy-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A61f0709826ed7e9f273797f5.json) — Expert agent for proxy servers, tunneling protocols, and traffic interception<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/proxy-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/proxy-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [publication-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34dd33716639682ea159a015.json) — Agent specialized in scientific publication, documentation, and communication<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/publication-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/publication-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

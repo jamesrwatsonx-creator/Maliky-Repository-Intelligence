@@ -1,9 +1,13 @@
 # AI Agents / Agent Frameworks — page 11
 
-1,525 catalog entries · Sorted alphabetically by name · Page 11 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 11 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [web-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A623fab28ee6b1bd261be8aaf.json) — Gathers external context from documentation, APIs, and web resources when codebase exploration encounters unknowns.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/rpikit/agents/web-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/rpikit/agents/web-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [web3-frontend](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5b9b555ec5bbd2d4d13a148.json) — Expert in building Web3 dApp frontends with excellent UX using wagmi, viem, and modern React patterns. Specializes in wallet integration, transaction management, and multi-chain support.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/agents/web3-frontend/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/agents/web3-frontend/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [web_extract](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A371e87ef0e6bdaa35db2ac22.json) — Extract content from web page URLs. Returns clean page content in markdown/text (no LLM summarization — fast). Also works with PDF URLs (arxiv papers, documents) — pass the PDF link directly. Pages within the char…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/web_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/web_tools.py#L1586) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [web_search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5928cddc1501672087e8326.json) — Search the web for information. Returns up to 5 results by default with titles, URLs, and descriptions. The query is passed through to the configured backend, so operators such as site:domain, filetype:pdf,…<br>

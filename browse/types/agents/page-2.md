@@ -1,9 +1,11 @@
 # Agents & Frameworks — page 2
 
-1,392 catalog entries · Sorted alphabetically by name · Page 2 of 10.
+1,394 catalog entries · Sorted alphabetically by name · Page 2 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [chaos-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7b5a179136080dc5dc77a6be.json) — Expert in chaos experiment design, failure injection strategies, blast radius control, and game day planning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/agents/chaos-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/agents/chaos-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [character-artist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3b9b2d1ae73a4c215fe2dc1d.json) — Character artist agent for character modeling and texturing.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/character-artist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/character-artist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [character-designer-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad5e3d08bdfc96aae904c8f5d.json) — Expert character designer agent for creating comprehensive character profiles, psychology, arcs, and visual design<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/product-management/agents/customer-success-pm/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/agents/customer-success-pm/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [customer-dev-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12fad2d7d99c57e4d6742695.json) — Customer development methodology expert for early stage validation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/entrepreneurship/agents/customer-dev-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/entrepreneurship/agents/customer-dev-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [customer-health-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ea54ac91c57176815e776b1.json) — Customer health monitoring and intervention specialist<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/agents/customer-health-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/agents/customer-health-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -2,7 +2,7 @@
 
 Technical documentation, guides and reference material.
 
-**414 entries** · Alphabetical · 3 pages.
+**415 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -10,8 +10,8 @@ Technical documentation, guides and reference material.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [commands/update-docs.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/commands/update-docs.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [actionable-error-formatter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A642ede24fe4ee1994e83f5b4.json) — Format errors with actionable fix suggestions and documentation links<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/actionable-error-formatter/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/actionable-error-formatter/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [add-config-env-var](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5941f01fead41d97a292a676.json) — Add a Baserow configuration environment variable for the backend, frontend, or both, and propagate it through settings, Nuxt runtime config, Docker Compose, documentation, consumers, and tests as applicable. Use when…<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.agents/skills/add-config-env-var/SKILL.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/add-config-env-var/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [add-config-env-var](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5941f01fead41d97a292a676.json) — Add or review a Baserow environment-backed setting across backend, frontend, deployment, documentation, consumers and tests.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.agents/skills/add-config-env-var/SKILL.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/add-config-env-var/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [adr-author](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A28a5708b25a75dd9c6a70334.json) — Expert in ADR methodology (Nygard, MADR), decision documentation, context capture, and consequence analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/software-architecture/agents/adr-author/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/software-architecture/agents/adr-author/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [AgentsScreen](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85d68bad7c96de9f8c264a78.json) — Mobile agent directory with search, creation, pagination and agent selection.<br>

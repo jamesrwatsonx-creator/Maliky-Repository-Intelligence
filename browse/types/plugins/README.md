@@ -2,7 +2,7 @@
 
 Individually searchable plugins from the public owned catalog.
 
-**92 entries** · Alphabetical · 1 page.
+**93 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -14,6 +14,8 @@ Individually searchable plugins from the public owned catalog.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-codex/.codex-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-codex/.codex-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
 - [babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adbb3179d7b41300342944037.json) — babysitter plugin manifest in plugins/babysitter.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
+- [Baserow Plugin Framework](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A13edd4b670c886b1f52eb293.json) — Experimental self-hosted extension framework for adding field, view, filter, sort, formula, page, component and third-party integration behavior to Baserow.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/plugins/introduction.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/plugins/introduction.md#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [basic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A847a6f2b75e17053c67ef32c.json) — Dashboard auth provider — username/password (no OAuth IDP). A self-hosted 'just put a password on my dashboard' provider. Activates when dashboard.basic_auth.username plus a password (or password_hash) are configured…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/dashboard_auth/basic/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/dashboard_auth/basic/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [browser-browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4c32fd48fb11bc37ad7cee21.json) — Browser Use (https://browser-use.com) cloud browser backend. Supports both direct BROWSER_USE_API_KEY and the managed Nous tool gateway. Also powers the 'Nous Subscription' UX flow that bills usage to a Nous…<br>

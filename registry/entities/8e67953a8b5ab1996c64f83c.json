@@ -1,0 +1,64 @@
+{
+  "id": "entity:8e67953a8b5ab1996c64f83c",
+  "entity_type": "INFRASTRUCTURE_MODULE",
+  "name": "Baserow Helm Chart",
+  "description": "Production-oriented Helm chart for Baserow services with optional Redis, PostgreSQL, MinIO, Caddy ingress and embeddings dependencies.",
+  "source": {
+    "repository_id": "repository:1418683509",
+    "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-",
+    "upstream_url": "https://github.com/baserow/baserow",
+    "source_path": "deploy/helm/baserow/Chart.yaml",
+    "inspected_commit": "0b1e7ee8255039e11257fd1d5a2dd56f25722105",
+    "inspection_date": "2026-10-21T00:45:56.113213+00:00",
+    "blob_sha": "52c69536323ae05c0035df7a87adf664e7ede556",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/deploy/helm/baserow/Chart.yaml#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
+    "category:skills"
+  ],
+  "operational_category": "operational:15",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:baserow-helm-chart"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Kubernetes",
+      "Helm 3",
+      "DNS and TLS configuration",
+      "deployment secrets"
+    ],
+    "overlap": "Deployment packaging for the Baserow platform."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "DEPLOYMENT"
+}

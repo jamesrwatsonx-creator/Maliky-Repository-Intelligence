@@ -1,9 +1,13 @@
 # AI Agents / Agent Frameworks — page 9
 
-1,525 catalog entries · Sorted alphabetically by name · Page 9 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 9 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [security-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab44e5606b86d976b4a8733c7.json) — Expert in security vulnerability scanning, OWASP compliance, and penetration testing.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/security-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/security-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [security-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac2fe8b5f7029b90a073b234b.json) — Conducts threat modeling and OWASP Top 10 analysis during the design review gate.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/metaswarm/agents/security-design/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/metaswarm/agents/security-design/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-hardening](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab1655f787b33aaed914c1165.json) — Expert in security headers, CSP configuration, and infrastructure hardening.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/security-hardening/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/security-hardening/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-requirements-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa67045bc811c405dfa6cf184.json) — Security requirements analysis and derivation agent<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/entrepreneurship/agents/talent-acquisition/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/entrepreneurship/agents/talent-acquisition/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [task-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ca28ca73d59c40d2da19d7a.json) — Decomposes technical plans into actionable development tasks with dependency graphs, effort estimates, and parallelization opportunities.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/spec-kit/agents/task-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/spec-kit/agents/task-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [tauri-rust-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acc5b2e173fa45c7d703a0832.json) — Expert in Tauri framework, Rust backend development, and secure desktop app architecture<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/agents/tauri-rust-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/tauri-rust-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [tax-compliance-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee9c0a323ebf3c0fb2118f0c.json) — Agent specialized in tax return preparation, filing coordination, and deadline management<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/agents/tax-compliance-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/agents/tax-compliance-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

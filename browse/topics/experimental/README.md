@@ -2,7 +2,7 @@
 
 Experimental projects and emerging technology explorations.
 
-**118 entries** · Alphabetical · 1 page.
+**119 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -28,6 +28,8 @@ Experimental projects and emerging technology explorations.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/marketing/agents/ab-testing-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/marketing/agents/ab-testing-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [analyze-feature-requests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A65910b81db08e0589f33afb8.json) — Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-discovery/skills/analyze-feature-requests/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/analyze-feature-requests/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
+- [Baserow Plugin Framework](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A13edd4b670c886b1f52eb293.json) — Experimental self-hosted extension framework for adding field, view, filter, sort, formula, page, component and third-party integration behavior to Baserow.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/plugins/introduction.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/plugins/introduction.md#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [benchmark-suite-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af52a029436d4441a02cb4a6c.json) — Manage benchmarks for algorithm engineering experiments and evaluations<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/benchmark-suite-manager/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/benchmark-suite-manager/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [bioinformatics-project-planner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2120fe1e8aae05c75564faa1.json) — Agent specialized in bioinformatics project scoping, experimental design consultation, and analysis strategy planning<br>

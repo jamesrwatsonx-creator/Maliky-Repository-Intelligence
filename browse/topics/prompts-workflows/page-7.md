@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 7
 
-3,064 catalog entries · Sorted alphabetically by name · Page 7 of 21.
+3,059 catalog entries · Sorted alphabetically by name · Page 7 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [gmail/compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a670e34a0c95d89f671be2a.json) — Domain skill: Gmail — Compose and send. URL: https://mail.google.com<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/gmail/compose.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/gmail/compose.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [godot-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6a549b18a62825827ca2382.json) — Godot Engine integration skill for GDScript/C# development, scene composition, node management, and editor automation. Enables LLMs to interact with Godot Editor through MCP servers for asset manipulation, script…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/godot-development/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/godot-development/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [golangci-lint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A440467429e6ea83a04f2ad81.json) — golangci-lint workflow.<br>
@@ -266,8 +268,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, AI orchestration
 - [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416107.json) — Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes<br>
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, APIs, Developer tools
-- [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418683509.json) — Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418688735.json) — Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more<br>

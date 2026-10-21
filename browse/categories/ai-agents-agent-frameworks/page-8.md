@@ -1,9 +1,13 @@
 # AI Agents / Agent Frameworks — page 8
 
-1,525 catalog entries · Sorted alphabetically by name · Page 8 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 8 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [proxy-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A61f0709826ed7e9f273797f5.json) — Expert agent for proxy servers, tunneling protocols, and traffic interception<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/proxy-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/proxy-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [publication-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34dd33716639682ea159a015.json) — Agent specialized in scientific publication, documentation, and communication<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/publication-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/publication-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [Purple Team Coordinator Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A46db51b63b3b7ef4d2c85756.json) — Purple team exercise coordination and detection validation specialist<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/agents/purple-team-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/agents/purple-team-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [python-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05a99e31eb880fab7ffa212c.json) — Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/metaswarm/agents/security-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/metaswarm/agents/security-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [security-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c22a0733d3e6f1d3dff7afa.json) — Vulnerability detection and hardening worker agent. Performs security audits, STRIDE threat modeling, and compliance verification.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/agents/security-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/agents/security-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [security-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab44e5606b86d976b4a8733c7.json) — Expert in security vulnerability scanning, OWASP compliance, and penetration testing.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/security-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/security-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [security-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac2fe8b5f7029b90a073b234b.json) — Conducts threat modeling and OWASP Top 10 analysis during the design review gate.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/metaswarm/agents/security-design/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/metaswarm/agents/security-design/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

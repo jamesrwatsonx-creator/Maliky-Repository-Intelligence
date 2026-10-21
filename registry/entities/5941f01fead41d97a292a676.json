@@ -2,7 +2,7 @@
   "id": "entity:5941f01fead41d97a292a676",
   "entity_type": "SKILL",
   "name": "add-config-env-var",
-  "description": "Add a Baserow configuration environment variable for the backend, frontend, or both, and propagate it through settings, Nuxt runtime config, Docker Compose, documentation, consumers, and tests as applicable. Use when adding or reviewing any env-backed configuration value, including requests that reference `INTEGRATION_LOCAL_BASEROW_PAGE_SIZE_LIMIT` as a pattern.",
+  "description": "Add or review a Baserow environment-backed setting across backend, frontend, deployment, documentation, consumers and tests.",
   "source": {
     "repository_id": "repository:1418683509",
     "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
@@ -16,34 +16,47 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".agents/skills/add-config-env-var/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "add-config-env-var"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/add-config-env-var/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
     "category:skills"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:baserow-like-airtable-skill-add-config-env-var"
+    "capability:baserow-config-variable-skill"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending.",
-    "candidate_recommendation": "USE DIRECTLY"
+    "dependencies": [
+      "Baserow source tree",
+      "repository-specific architecture and commands"
+    ],
+    "overlap": "Directly usable in Baserow and adaptable as a reference for similar monorepos."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

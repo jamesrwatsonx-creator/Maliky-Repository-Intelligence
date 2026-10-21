@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**35 entries** · Alphabetical · 1 page.
+**36 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -16,6 +16,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/src/components/global/api-explorer/ApiExplorer.tsx](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/src/components/global/api-explorer/ApiExplorer.tsx#L348) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Appwrite Console](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9ba846a7616d7cf76c9c0177.json) — Bun, TanStack Start and React application serving Appwrite's signed-in console and, in cloud profile, its website, docs, blog and changelog.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/README.md#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Baserow Application Builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3956daad1031990d7a4f0e98.json) — Responsive no-code application and portal builder with pages, elements, themes, data sources, user sources, integrations and workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/builder/application_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/builder/application_types.py#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [CodeEditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A058aad053aee637150ca2545.json) — Reusable Monaco-based code editor wrapper for console forms and source editing.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/src/components/global/shared/CodeEditor.tsx](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/src/components/global/shared/CodeEditor.tsx#L83) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [CommandCenter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8057b92ab6fdb145f8d55c61.json) — Keyboard-driven console command center for navigation, support and project actions.<br>

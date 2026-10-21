@@ -1,9 +1,11 @@
 # Agent Frameworks — page 5
 
-2,013 catalog entries · Sorted alphabetically by name · Page 5 of 14.
+2,016 catalog entries · Sorted alphabetically by name · Page 5 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [enable_webhooks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad97efb0d9e1b6b6dd954f58d.json) — POST /api/webhooks/enable - handler enable_webhooks<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L13660) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [energy-efficiency-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A24f3e611fa569ed846c639db.json) — Agent specialized in process energy optimization and utility system efficiency<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/agents/energy-efficiency-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/agents/energy-efficiency-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [engine-tools-developer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8eda0137a4cce5048bc5b9a4.json) — Engine tools agent for editor extensions and workflow automation.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4103) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_dashboard_font](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abd4fc7743c8c8172511d45c5.json) — GET /api/dashboard/font - Return the active font override (``"theme"`` = use the theme's font).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L17882) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_dashboard_plugins](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85a1b6590f1318a9208d1a32.json) — GET /api/dashboard/plugins - Return discovered dashboard plugins (excludes user-hidden and non-enabled ones).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18100) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

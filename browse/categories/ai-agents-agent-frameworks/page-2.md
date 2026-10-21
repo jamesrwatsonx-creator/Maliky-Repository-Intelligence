@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 2
 
-1,525 catalog entries · Sorted alphabetically by name · Page 2 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 2 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [build-resolver](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af39de9519de2ed28ff77a371.json) — Build error resolution agent that analyzes compilation, type, runtime, dependency, and configuration errors with systematic debugging.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/agents/build-resolver/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/agents/build-resolver/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [building-code-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A628fb5e5b4a8c95c6e725479.json) — Agent specialized in building code interpretation and compliance<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/agents/building-code-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/agents/building-code-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [bundle-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A30d887ee658ac791041bdbc1.json) — Expert in bundle analysis, dependency audit, and size optimization.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/researchers/bear_researcher.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/researchers/bear_researcher.py#L4) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [create_bull_researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A95834619a701c8d3acddc444.json) — Bull-case researcher: argues for investing in the debate over the analyst reports.<br>
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/researchers/bull_researcher.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/researchers/bull_researcher.py#L4) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
-- [create_conservative_debator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a0c8b416ac421ff984533cf.json) — Conservative risk debater: argues for capital preservation on the trade proposal.<br>
-  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/risk_mgmt/conservative_debator.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/risk_mgmt/conservative_debator.py#L4) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 
 ## Pages
 

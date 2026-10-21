@@ -1,9 +1,17 @@
 # Websites — page 2
 
-414 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+418 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools…<br>
+  Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
+- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
+- [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+- [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344452693.json) — 🌐 Make websites accessible for AI agents. Automate tasks online with ease.<br>
+  Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/cc-switch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426078677.json) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io<br>
   Source: [jamesrwatsonx-creator/cc-switch](https://github.com/jamesrwatsonx-creator/cc-switch) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/core-website-builder-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418721169.json) — 🧿 Bolt core<br>
@@ -296,14 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/dashboard/run-filter-bar.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/dashboard/run-filter-bar.tsx#L23) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [RunList](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adefddb58a120487f266e8a74.json) — Observer dashboard React component RunList (run-list.tsx).<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/dashboard/run-list.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/dashboard/run-list.tsx#L15) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ScoreBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abf7b527a63bccc46cccb117d.json) — Observer dashboard React component ScoreBar (smart-summary.tsx).<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/details/json-tree/smart-summary.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/details/json-tree/smart-summary.tsx#L101) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SearchBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4995b2d3c42a78404088f38b.json) — Process catalog React component SearchBar (SearchBar.tsx).<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/catalog/SearchBar.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/SearchBar.tsx#L45) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SearchFilter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A285d342759719cb2df624963.json) — Observer dashboard React component SearchFilter (search-filter.tsx).<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/dashboard/search-filter.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/dashboard/search-filter.tsx#L23) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SearchInput](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53de02a78d895a9e5ae0e444.json) — Process catalog React component SearchInput (SearchInput.tsx).<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/common/SearchInput.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/common/SearchInput.tsx#L65) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

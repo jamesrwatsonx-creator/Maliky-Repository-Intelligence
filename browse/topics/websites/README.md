@@ -2,15 +2,15 @@
 
 Website projects, templates, components and references.
 
-**414 entries**
+**418 entries**
 
 ## Browse within this topic
 
-- [APIs](by-type/apis/README.md) (2)
+- [APIs](by-type/apis/README.md) (4)
 - [Libraries & Packages](by-type/libraries/README.md) (36)
 - [Other Assets](by-type/other-assets/README.md) (8)
 - [Repositories](by-type/repositories/README.md) (34)
-- [Services & Integrations](by-type/services/README.md) (4)
+- [Services & Integrations](by-type/services/README.md) (6)
 - [Skills](by-type/skills/README.md) (9)
 - [Templates](by-type/templates/README.md) (1)
 - [UI Components](by-type/ui-components/README.md) (309)
@@ -88,6 +88,14 @@ Website projects, templates, components and references.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/dashboard/BarChart.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/dashboard/BarChart.tsx#L83) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [BaseBranchPicker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c7d43644ef0a4d3a559f248.json) — Hermes desktop app React component Base Branch Picker (base-branch-picker.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/sidebar/projects/base-branch-picker.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/sidebar/projects/base-branch-picker.tsx#L18) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [Baserow REST API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A580cada755ba48d009793644.json) — Token-authenticated HTTP API and generated OpenAPI surface for Baserow workspace and database operations.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/rest-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/rest-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow Slack Bot Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A478d052caa5744d4cea77289.json) — Slack bot credential and service integration for workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/slack/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/slack/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow SMTP Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6701c7d6debf71fe4104331.json) — SMTP credential and service integration for sending email from product workflows.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/core/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/core/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow WebSocket API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afd2d1bec0d5b96c53ba60866.json) — Authenticated WebSocket subscription API for workspace, table, row, view, field and collaboration events.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/web-socket-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/web-socket-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [bento-pdf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f22ce9d3889afe53d6cebd3.json) — Source-declared package `bento-pdf`.<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [package.json](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [BillingBanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A71b3e3c51eaed8ca01d20abf.json) — Hermes desktop app React component Billing Banner (billing-banner.tsx).<br>
@@ -310,14 +318,6 @@ Website projects, templates, components and references.
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [ui/src/apps/issue-write/App.tsx](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/src/apps/issue-write/App.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342954494.json) — Clone any website with one command using AI coding agents<br>
   Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Frontend applications
-- [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools…<br>
-  Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Creative tools
-- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
-- [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
-- [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344452693.json) — 🌐 Make websites accessible for AI agents. Automate tasks online with ease.<br>
-  Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
 
 ## Pages
 

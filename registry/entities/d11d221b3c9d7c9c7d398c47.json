@@ -2,7 +2,7 @@
   "id": "entity:d11d221b3c9d7c9c7d398c47",
   "entity_type": "MCP_SERVER",
   "name": "Baserow MCP",
-  "description": "MCP server constructor",
+  "description": "Workspace-scoped MCP server over SSE that validates endpoint keys and exposes registered Baserow database tools under current user permissions.",
   "source": {
     "repository_id": "repository:1418683509",
     "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
@@ -16,34 +16,51 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "backend/src/baserow/core/mcp/__init__.py"
-    },
-    {
-      "type": "manifest",
-      "value": "Baserow MCP"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/core/mcp/__init__.py#L45"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:mcp-servers"
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
+    "category:skills"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:baserow-like-airtable-mcp-server-baserow-mcp"
+    "capability:baserow-database-mcp-server"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending.",
-    "candidate_recommendation": "USE DIRECTLY"
+    "dependencies": [
+      "Baserow backend",
+      "valid MCP endpoint key",
+      "workspace membership and permissions"
+    ],
+    "overlap": "MCP interface to the database capabilities and tools represented below.",
+    "transport": "SSE",
+    "resources": false,
+    "prompts": false
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "SERVICE"
 }

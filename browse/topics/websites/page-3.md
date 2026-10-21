@@ -1,9 +1,17 @@
 # Websites — page 3
 
-414 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+418 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ScoreBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abf7b527a63bccc46cccb117d.json) — Observer dashboard React component ScoreBar (smart-summary.tsx).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/details/json-tree/smart-summary.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/details/json-tree/smart-summary.tsx#L101) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [SearchBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4995b2d3c42a78404088f38b.json) — Process catalog React component SearchBar (SearchBar.tsx).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/catalog/SearchBar.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/SearchBar.tsx#L45) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [SearchFilter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A285d342759719cb2df624963.json) — Observer dashboard React component SearchFilter (search-filter.tsx).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/dashboard/search-filter.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/dashboard/search-filter.tsx#L23) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [SearchInput](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53de02a78d895a9e5ae0e444.json) — Process catalog React component SearchInput (SearchInput.tsx).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/common/SearchInput.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/common/SearchInput.tsx#L65) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [Section](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90ec755258727c6298600f15.json) — Hermes desktop app React component Section (ui.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/plugins/kanban/ui.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/plugins/kanban/ui.tsx#L234) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [SendDiagnosticsHost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A402d038e4f39dc2df9a07299.json) — Hermes desktop app React component Send Diagnostics Host (send-diagnostics-dialog.tsx).<br>

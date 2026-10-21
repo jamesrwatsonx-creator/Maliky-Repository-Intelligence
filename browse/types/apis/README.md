@@ -2,7 +2,7 @@
 
 Individually searchable apis from the public owned catalog.
 
-**552 entries** · Alphabetical · 4 pages.
+**554 entries** · Alphabetical · 4 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -66,6 +66,10 @@ Individually searchable apis from the public owned catalog.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/dashboard_auth/routes.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/dashboard_auth/routes.py#L698) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [auto_describe_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A68527443545033d6546e0d26.json) — POST /profiles/{profile_name}/describe-auto - Generate a description for the named profile via the auxiliary LLM (``auxiliary.profile_describer``).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2692) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Baserow REST API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A580cada755ba48d009793644.json) — Token-authenticated HTTP API and generated OpenAPI surface for Baserow workspace and database operations.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/rest-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/rest-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow WebSocket API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afd2d1bec0d5b96c53ba60866.json) — Authenticated WebSocket subscription API for workspace, table, row, view, field and collaboration events.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/web-socket-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/web-socket-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [batch_action](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A35120442bc99efad68c0f005.json) — Source-declared api `batch_action`.<br>
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/token.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/token.py#L119) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [bulk_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00e2b41d3bc92ca6e4d326e8.json) — POST /tasks/bulk - Apply the same patch to every id in ``payload.ids``.<br>
@@ -302,10 +306,6 @@ Individually searchable apis from the public owned catalog.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4726) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [generate](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcf90c02e174b553900bdb98.json) — Source-declared api `generate`.<br>
   Source: [jamesrwatsonx-creator/free-ai-bible](https://github.com/jamesrwatsonx-creator/free-ai-bible) · [templates/image-gen-api/app.py](https://github.com/jamesrwatsonx-creator/free-ai-bible/blob/89a63fec7bffd4286893d8c7c5c948c86bf5152f/templates/image-gen-api/app.py#L44) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [generate_deployment](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaf33582757af2b64b132c3ed.json) — Source-declared api `generate_deployment`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/configurator.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/configurator.py#L17) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [generate_speech](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c7a5db9184fd8e9e60a1c6d.json) — POST /generate validates a voice profile and engine, creates a generation record and enqueues run_generation. It returns the generation record; synthesis is performed asynchronously.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/generations.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/generations.py#L57) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs, Backend services
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 3
 
-1,525 catalog entries · Sorted alphabetically by name · Page 3 of 11.
+1,527 catalog entries · Sorted alphabetically by name · Page 3 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [create_conservative_debator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a0c8b416ac421ff984533cf.json) — Conservative risk debater: argues for capital preservation on the trade proposal.<br>
+  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/risk_mgmt/conservative_debator.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/risk_mgmt/conservative_debator.py#L4) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [create_fundamentals_analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9c06e6fe6a56cb2e641fc6a1.json) — Fundamentals analyst node: reads company fundamentals, balance sheet, cash flow and income statement through tools and writes a fundamentals report.<br>
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/agents/analysts/fundamentals_analyst.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/agents/analysts/fundamentals_analyst.py#L14) · AGENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [create_market_analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9870e355ed8bf322ed39b5e5.json) — Market (technical) analyst node: pulls price history and technical indicators through tools and writes a market report.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [ecc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83fe274d398b49e760cbc6a9.json) — Harness-native ECC workflows for Codex: shared skills, production-ready MCP configs, and selective-install-aligned conventions for TDD, security scanning, code review, and autonomous development.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [.codex-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/.codex-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [ecc-universal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A150ba4f74e478192fd59801f.json) — Harness-native agent operating system for Codex, OpenCode, Cursor, Gemini, Claude Code, and terminal workflows - skills, hooks, rules, MCP conventions, and operator control-plane patterns<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [package.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

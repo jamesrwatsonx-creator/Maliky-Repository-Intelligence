@@ -2,7 +2,7 @@
   "id": "entity:97ea3f3a288e0b241701a56d",
   "entity_type": "SKILL",
   "name": "runtime-formulas",
-  "description": "Explain, debug, or extend Baserow runtime formulas, including FormulaField/JSONFormulaField storage, FormulaSerializerField validation, runtime formula functions, backend and frontend data providers, formula context dispatch data, import/export path rewriting, and tests.",
+  "description": "Explain, debug or extend runtime formula storage, validation, data providers, context dispatch and import/export.",
   "source": {
     "repository_id": "repository:1418683509",
     "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
@@ -16,34 +16,47 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".agents/skills/runtime-formulas/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "runtime-formulas"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/runtime-formulas/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
     "category:skills"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:baserow-like-airtable-skill-runtime-formulas"
+    "capability:baserow-runtime-formulas-skill"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending.",
-    "candidate_recommendation": "USE DIRECTLY"
+    "dependencies": [
+      "Baserow source tree",
+      "repository-specific architecture and commands"
+    ],
+    "overlap": "Directly usable in Baserow and adaptable as a reference for similar monorepos."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

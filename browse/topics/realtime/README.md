@@ -2,7 +2,7 @@
 
 Realtime messaging, streaming, collaboration and low-latency systems.
 
-**483 entries** · Alphabetical · 4 pages.
+**486 entries** · Alphabetical · 4 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -94,6 +94,10 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2692) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [babysitter-observer-dashboard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad00d34254899ac77a811bcd8.json) — babysitter-observer-dashboard command-line entry: Real-time observability dashboard for babysitter orchestration runs<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/package.json](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/package.json#L1) · CLI · VERIFIED · PINNED_SOURCE · Agent workflows, AI orchestration
+- [Baserow Dashboard Builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9dc1ca41276b78abc44dda20.json) — Dashboard application surface for composing summary, chart and pie-chart widgets over Baserow data sources.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/dashboard/application_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/dashboard/application_types.py#L1) · APP · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow WebSocket API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afd2d1bec0d5b96c53ba60866.json) — Authenticated WebSocket subscription API for workspace, table, row, view, field and collaboration events.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/web-socket-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/web-socket-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [bigquery-ai-ml](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A55b2ac1a669db1789cf4a0ad.json) — Leverages BigQuery's built-in machine learning and GenAI capabilities for advanced data analytics. Use when you need to write SQL queries that perform time-series forecasting, predict values, detect outliers or…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/bigquery-ai-ml/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/bigquery-ai-ml/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [bigquery-basics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5beba29fc499852dbab334c7.json) — Manages datasets, tables, and jobs in BigQuery. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources (datasets, tables, views), or perform basic data ingestion and analysis.<br>
@@ -302,10 +306,6 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L6861) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_egress_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af333048c525bb9c547cf3dc1.json) — GET /api/egress/status - Dashboard/Desktop-readable egress proxy status and remediation text.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L6876) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_elevenlabs_voices](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1610bd17949b049c13cf2c47.json) — GET /api/audio/elevenlabs/voices - Return ElevenLabs voices when an API key is configured.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5148) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_env_vars](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5d7945773f8b0b87ca0993e8.json) — GET /api/env - handler get_env_vars<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L7840) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

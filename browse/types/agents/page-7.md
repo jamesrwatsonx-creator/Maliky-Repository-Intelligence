@@ -1,9 +1,13 @@
 # Agents & Frameworks — page 7
 
-1,392 catalog entries · Sorted alphabetically by name · Page 7 of 10.
+1,394 catalog entries · Sorted alphabetically by name · Page 7 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [planner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab6ee7819acb7a366503927a0.json) — Research-first implementation planner that investigates existing solutions, brainstorms alternatives, creates phased plans with risk assessment and TDD strategy.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/agents/planner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/agents/planner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [plasma-physicist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3e5b0e431f403728e123e12.json) — Agent specialized in plasma physics, fusion energy, and plasma diagnostics<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/plasma-physicist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/plasma-physicist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [platform-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8daba47306d80c8746d1811a.json) — Designs SDK platform infrastructure and architecture<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/agents/platform-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/agents/platform-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [platform-convention-advisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0ab01ab122360d0fe367d680.json) — Advises on platform-specific UI conventions (Windows Fluent, macOS HIG, GNOME/KDE)<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/agents/rigor-assessor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/agents/rigor-assessor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [risk-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A164850f56495e7e3b6d030b8.json) — Agent specialized in risk identification, quantification, and mitigation planning<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/agents/risk-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/agents/risk-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [risk-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A32ada4f7243929cd560f0757.json) — Risk analyst for project and change initiative risk assessment and management<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/agents/risk-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/agents/risk-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [risk-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3f6e3125248a7b2b3026230b.json) — Agent specialized in quantitative risk assessment and consequence modeling<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/agents/risk-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/agents/risk-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

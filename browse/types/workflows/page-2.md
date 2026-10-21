@@ -1,6 +1,6 @@
 # Workflows — page 2
 
-2,394 catalog entries · Sorted alphabetically by name · Page 2 of 16.
+2,386 catalog entries · Sorted alphabetically by name · Page 2 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -102,8 +102,6 @@
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [.github/workflows/build-and-publish.yml](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/.github/workflows/build-and-publish.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build and Test Go Project](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab0f251cdce2570a26e5e685e.json) — Go build and test workflow.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [.github/workflows/go.yml](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/workflows/go.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
-- [Build Backend CI Image](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1ac251d179371e4915f8d868.json) — Source-declared workflow `Build Backend CI Image`.<br>
-  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.github/workflows/build-backend-ci-image.yml](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.github/workflows/build-backend-ci-image.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build server application](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4cb3db602ec0e79f8dbc624.json) — Source-declared workflow `Build server application`.<br>
   Source: [jamesrwatsonx-creator/AttestationServer](https://github.com/jamesrwatsonx-creator/AttestationServer) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/AttestationServer/blob/fc8843d716e773c7daccdf19a940fb997d605f3f/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build Skills Index](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae0134f976432ae3797af660c.json) — Builds the skills index.<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/loopy](https://github.com/jamesrwatsonx-creator/loopy) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/loopy/blob/75966cbd572a4185064971c9fe5e9c52e8f8456d/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3f237cc25183a60931a8a993.json) — CI GitHub Actions workflow for the monorepo.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/.github/workflows/ci.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
+- [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58a18a53ed5044d93623a098.json) — Source-declared workflow `CI`.<br>
+  Source: [jamesrwatsonx-creator/book-to-skill](https://github.com/jamesrwatsonx-creator/book-to-skill) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/book-to-skill/blob/3a97a7115ab3c82edf47f315b544fbcefdd8559c/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

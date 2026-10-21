@@ -1,9 +1,13 @@
 # Agents & Frameworks — page 6
 
-1,392 catalog entries · Sorted alphabetically by name · Page 6 of 10.
+1,394 catalog entries · Sorted alphabetically by name · Page 6 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [memory-curator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abf0f6231985478346087585c.json) — Captures observations, decisions, and discoveries into persistent memory. Extracts reusable skills from session learnings. Manages cross-session knowledge retrieval.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/pilot-shell/agents/memory-curator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/pilot-shell/agents/memory-curator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [meta-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A47980b196c28f11e72ccb231.json) — Agent specialized in meta-analysis methodology<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/agents/meta-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/agents/meta-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [metagenomics-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7bf32aa5458f85bb3eecefe.json) — Agent specialized in shotgun metagenomic analysis and functional profiling<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/agents/metagenomics-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/agents/metagenomics-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [metaphysics-epistemology-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e6b214dbaf9635121d34fc7.json) — Investigates questions of being, knowledge, and reality through conceptual analysis<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/agents/planner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/agents/planner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [planner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9ec1a102022cd74406109ac9.json) — Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/planner.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/planner.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [planner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab6ee7819acb7a366503927a0.json) — Research-first implementation planner that investigates existing solutions, brainstorms alternatives, creates phased plans with risk assessment and TDD strategy.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/agents/planner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/agents/planner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [plasma-physicist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af3e5b0e431f403728e123e12.json) — Agent specialized in plasma physics, fusion energy, and plasma diagnostics<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/plasma-physicist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/plasma-physicist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

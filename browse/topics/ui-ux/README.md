@@ -2,20 +2,20 @@
 
 Reusable interface components, patterns, screens and UX resources.
 
-**763 entries**
+**767 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (13)
-- [APIs](by-type/apis/README.md) (2)
+- [APIs](by-type/apis/README.md) (4)
 - [Libraries & Packages](by-type/libraries/README.md) (32)
 - [Plugins](by-type/plugins/README.md) (1)
 - [Other Assets](by-type/other-assets/README.md) (75)
 - [Repositories](by-type/repositories/README.md) (38)
-- [Services & Integrations](by-type/services/README.md) (5)
+- [Services & Integrations](by-type/services/README.md) (8)
 - [Skills](by-type/skills/README.md) (15)
 - [Tools](by-type/tools/README.md) (3)
-- [UI Components](by-type/ui-components/README.md) (564)
+- [UI Components](by-type/ui-components/README.md) (563)
 - [Workflows](by-type/workflows/README.md) (15) · Alphabetical · 6 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
@@ -196,6 +196,16 @@ Reusable interface components, patterns, screens and UX resources.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/dashboard/BarChart.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/dashboard/BarChart.tsx#L83) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [BaseBranchPicker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c7d43644ef0a4d3a559f248.json) — Hermes desktop app React component Base Branch Picker (base-branch-picker.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/sidebar/projects/base-branch-picker.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/sidebar/projects/base-branch-picker.tsx#L18) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [Baserow AI Provider Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3048d9243a3db56dd9f58d13.json) — Configurable AI-provider integration used by AI fields, agent actions, formula suggestions and the assistant.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/ai/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/ai/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow REST API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A580cada755ba48d009793644.json) — Token-authenticated HTTP API and generated OpenAPI surface for Baserow workspace and database operations.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/rest-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/rest-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow Slack Bot Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A478d052caa5744d4cea77289.json) — Slack bot credential and service integration for workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/slack/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/slack/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow SMTP Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6701c7d6debf71fe4104331.json) — SMTP credential and service integration for sending email from product workflows.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/core/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/core/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow WebSocket API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afd2d1bec0d5b96c53ba60866.json) — Authenticated WebSocket subscription API for workspace, table, row, view, field and collaboration events.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/web-socket-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/web-socket-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [batch-runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adcf16abc8fcebd297e450e89.json) — Batch agent runner: parallel processing of dataset prompts with checkpoint/resume, trajectory saving and aggregated tool-usage statistics.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [batch_runner.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/batch_runner.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [BillingBanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A71b3e3c51eaed8ca01d20abf.json) — Hermes desktop app React component Billing Banner (billing-banner.tsx).<br>
@@ -310,16 +320,6 @@ Reusable interface components, patterns, screens and UX resources.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/cohere/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/cohere/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Coinbase-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab5f86fa561bfa735347cb43f.json) — An institutional-grade crypto exchange whose marketing surfaces read like a quietly-confident financial-services brand. The base canvas is pure white; Coinbase Blue (`#0052ff`) is the single brand voltage, used…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/coinbase/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/coinbase/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
-- [Column](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8ed83581d66ac796fc37b86f.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/Column.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/Column.tsx#L19) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [ColumnActionsMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb359a15e168da9af54603f8.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/ColumnActionsMenu.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/ColumnActionsMenu.tsx#L14) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [CommandCenter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8057b92ab6fdb145f8d55c61.json) — Keyboard-driven console command center for navigation, support and project actions.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [apps/console/src/components/global/shared/CommandCenter.tsx](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/apps/console/src/components/global/shared/CommandCenter.tsx#L317) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [CommandCenterView](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaa5219b4b536add8488afb91.json) — Hermes desktop app React component Command Center View (index.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/command-center/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/command-center/index.tsx#L135) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [CommandPalette](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aed1c4d7bf7156cf2fb817321.json) — Hermes desktop app React component Command Palette (index.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/command-palette/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/command-palette/index.tsx#L514) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

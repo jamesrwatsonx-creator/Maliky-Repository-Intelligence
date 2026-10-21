@@ -1,9 +1,11 @@
 # Documentation & References — page 3
 
-414 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+415 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/domains/business/legal/data-mapping-inventory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fdcfeb9feece323caf3c6db.json) — Data Mapping and Inventory - Establish data processing activity mapping, data flow documentation, and records of processing activities (ROPA).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/legal/data-mapping-inventory.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/legal/data-mapping-inventory.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/legal/ediscovery-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Affcdcbed13fc7ae0cef34548.json) — E-Discovery Management - Implement e-discovery workflow covering data collection, processing, review, production, and defensibility documentation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/legal/ediscovery-management.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/legal/ediscovery-management.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/legal/gdpr-compliance-program](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A375e4b429cfed9c6f2163424.json) — GDPR Compliance Program - Implement comprehensive GDPR compliance including lawful basis documentation, DPIA, cross-border transfers, and DPA liaison.<br>

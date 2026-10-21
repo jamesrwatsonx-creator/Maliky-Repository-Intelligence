@@ -1,9 +1,11 @@
 # Agent Frameworks — page 2
 
-2,013 catalog entries · Sorted alphabetically by name · Page 2 of 14.
+2,016 catalog entries · Sorted alphabetically by name · Page 2 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [battery-systems-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A319ea94d525836b7ec4f9f6e.json) — Expert in automotive battery system design and validation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [battlecard-creator-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add43256297eeb14a4c083edf.json) — Competitive battle card generation and updates specialist<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/agents/battlecard-creator-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/agents/battlecard-creator-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [bayesian-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A66f816b4c2efcd40e06f325d.json) — Agent specialized in Bayesian inference, belief updating, and probabilistic reasoning<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/agents/comp-designer-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/agents/comp-designer-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [comparative-religion-scholar-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac143842cd24cbd9c10141177.json) — Analyzes similarities and differences among world religious traditions<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/agents/comparative-religion-scholar-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/agents/comparative-religion-scholar-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [compatibility-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6d86cd8dea1e58ab49d219b4.json) — Reviews changes for backward compatibility violations. Audits API changes against compatibility policy, identifies subtle breaking changes, suggests backward-compatible alternatives, and approves/rejects changes with…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/agents/compatibility-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/agents/compatibility-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # Agent Frameworks — page 3
 
-2,013 catalog entries · Sorted alphabetically by name · Page 3 of 14.
+2,016 catalog entries · Sorted alphabetically by name · Page 3 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [compatibility-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6d86cd8dea1e58ab49d219b4.json) — Reviews changes for backward compatibility violations. Audits API changes against compatibility policy, identifies subtle breaking changes, suggests backward-compatible alternatives, and approves/rejects changes with…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/agents/compatibility-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/agents/compatibility-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [compatibility-tester](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A47351cf00332794eefababf6.json) — Compatibility tester agent for platform testing.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/compatibility-tester/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/compatibility-tester/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [compensation-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7fb7872d9046340aa546f28f.json) — Analytical specialist in compensation data and market pricing<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/data-integrity-validator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/data-integrity-validator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [data-pm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A772342199479d20354f42d95.json) — Agent specialized in metrics, analytics, and experimentation for product management. Expert in product metrics definition, funnel analysis, cohort retention analysis, A/B test design, and growth metrics strategies.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/product-management/agents/data-pm/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/product-management/agents/data-pm/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [data-quality-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa35c41bb4243f84327563e97.json) — Autonomous agent specialized in data quality management, monitoring, anomaly detection, and remediation planning for data engineering workflows.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-engineering-analytics/agents/data-quality-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-engineering-analytics/agents/data-quality-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

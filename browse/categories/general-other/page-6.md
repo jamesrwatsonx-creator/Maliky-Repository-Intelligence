@@ -1,41 +1,9 @@
 # General / Other — page 6
 
-1,486 catalog entries · Sorted alphabetically by name · Page 6 of 10.
+1,465 catalog entries · Sorted alphabetically by name · Page 6 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343179881.json) — Visualize your year in travel using your Google Location History (Timeline) data<br>
-  Source: [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/google-timeline-visualizer) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350918326.json) — googleads-mobile-android<br>
-  Source: [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/googleads-mobile-android-examples) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Mobile applications
-- [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419819004.json) — A RESTful web API for Gramps - backend of Gramps Web<br>
-  Source: [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/gramps-web-api-genealogy-) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/Graphene-infrastructure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348832094.json) — Shared server infrastructure<br>
-  Source: [jamesrwatsonx-creator/Graphene-infrastructure](https://github.com/jamesrwatsonx-creator/Graphene-infrastructure) · REPOSITORY · PARTIAL · PINNED_SOURCE · DevOps
-- [jamesrwatsonx-creator/graphify](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315199419.json) — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge…<br>
-  Source: [jamesrwatsonx-creator/graphify](https://github.com/jamesrwatsonx-creator/graphify) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory, Developer tools, Skills
-- [jamesrwatsonx-creator/graphrag](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247319446.json) — A modular graph-based Retrieval-Augmented Generation (RAG) system<br>
-  Source: [jamesrwatsonx-creator/graphrag](https://github.com/jamesrwatsonx-creator/graphrag) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory
-- [jamesrwatsonx-creator/Grok-bot-alternative](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342905868.json) — Open-source Grok Bot alternative. Choose your own model and sandbox.<br>
-  Source: [jamesrwatsonx-creator/Grok-bot-alternative](https://github.com/jamesrwatsonx-creator/Grok-bot-alternative) · REPOSITORY · PARTIAL · PINNED_SOURCE · LLM projects
-- [jamesrwatsonx-creator/grok-build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1341937624.json) — SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.<br>
-  Source: [jamesrwatsonx-creator/grok-build](https://github.com/jamesrwatsonx-creator/grok-build) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Developer tools
-- [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342801670.json) — Claude Code plugin that delegates reviews, rescue tasks, and session transfer to the Grok Build CLI<br>
-  Source: [jamesrwatsonx-creator/grok-build-plugin-cc](https://github.com/jamesrwatsonx-creator/grok-build-plugin-cc) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Libraries/packages
-- [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315198427.json) — Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.<br>
-  Source: [jamesrwatsonx-creator/gsap-skills](https://github.com/jamesrwatsonx-creator/gsap-skills) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Creative tools, Developer tools
-- [jamesrwatsonx-creator/gstack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348986825.json) — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA<br>
-  Source: [jamesrwatsonx-creator/gstack](https://github.com/jamesrwatsonx-creator/gstack) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools
-- [jamesrwatsonx-creator/habitat-local-community-hub](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418830198.json) — Habitat is a free and open source self-hosted social platform for local communities<br>
-  Source: [jamesrwatsonx-creator/habitat-local-community-hub](https://github.com/jamesrwatsonx-creator/habitat-local-community-hub) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/hallmark](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344221400.json) — Anti-AI-slop design skill for Claude Code, Cursor, and Codex.<br>
-  Source: [jamesrwatsonx-creator/hallmark](https://github.com/jamesrwatsonx-creator/hallmark) · REPOSITORY · PARTIAL · PINNED_SOURCE · Design systems, Developer tools, Skills
-- [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1269741392.json) — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.<br>
-  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory, LLM projects, MCP servers
-- [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348824000.json) — An open source, self-hosted implementation of the Tailscale control server<br>
-  Source: [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/headscale) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350954158.json) — Fully automatic censorship removal for language models<br>
-  Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350027872.json) — Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.<br>
   Source: [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/Hermes3D](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345873494.json) — Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.<br>
@@ -304,6 +272,38 @@
   Source: [jamesrwatsonx-creator/open-notebook](https://github.com/jamesrwatsonx-creator/open-notebook) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/open-seo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342855337.json) — Open source alternative to Semrush and Ahrefs<br>
   Source: [jamesrwatsonx-creator/open-seo](https://github.com/jamesrwatsonx-creator/open-seo) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247345831.json) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...)<br>
+  Source: [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/open-webui) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs
+- [jamesrwatsonx-creator/Open-zero-1--for-my-voice-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366278681.json) — Hundreds of models & providers. One command to find what runs on your hardware.<br>
+  Source: [jamesrwatsonx-creator/Open-zero-1--for-my-voice-app](https://github.com/jamesrwatsonx-creator/Open-zero-1--for-my-voice-app) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
+- [jamesrwatsonx-creator/openbao](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348826799.json) — OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.<br>
+  Source: [jamesrwatsonx-creator/openbao](https://github.com/jamesrwatsonx-creator/openbao) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/OpenBB](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366358234.json) — Open Data Platform for analysts, quants and AI agents.<br>
+  Source: [jamesrwatsonx-creator/OpenBB](https://github.com/jamesrwatsonx-creator/OpenBB) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/openclaude](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354333172.json) — runs anywhere. uses anything<br>
+  Source: [jamesrwatsonx-creator/openclaude](https://github.com/jamesrwatsonx-creator/openclaude) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/OpenCreator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377658876.json) — Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, translations, and edits with Agents in one place.<br>
+  Source: [jamesrwatsonx-creator/OpenCreator](https://github.com/jamesrwatsonx-creator/OpenCreator) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Generative AI
+- [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274982458.json) — The open-source CapCut alternative<br>
+  Source: [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/OpenCut) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Frontend applications, Libraries/packages
+- [jamesrwatsonx-creator/opencv](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247335123.json) — Open Source Computer Vision Library<br>
+  Source: [jamesrwatsonx-creator/opencv](https://github.com/jamesrwatsonx-creator/opencv) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/openfga](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348824717.json) — A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar<br>
+  Source: [jamesrwatsonx-creator/openfga](https://github.com/jamesrwatsonx-creator/openfga) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/openGym](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1413615912.json) — Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your…<br>
+  Source: [jamesrwatsonx-creator/openGym](https://github.com/jamesrwatsonx-creator/openGym) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419960856.json) — Open-Source Generative UI Framework<br>
+  Source: [jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites](https://github.com/jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/openinterpreter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372776151.json) — A coding agent for open models like Kimi K3 and GLM 5.3<br>
+  Source: [jamesrwatsonx-creator/openinterpreter](https://github.com/jamesrwatsonx-creator/openinterpreter) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
+- [jamesrwatsonx-creator/OpenMAIC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1351897764.json) — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click<br>
+  Source: [jamesrwatsonx-creator/OpenMAIC](https://github.com/jamesrwatsonx-creator/OpenMAIC) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/OpenMontage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1293436526.json) — World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.<br>
+  Source: [jamesrwatsonx-creator/OpenMontage](https://github.com/jamesrwatsonx-creator/OpenMontage) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Creative tools, Developer tools
+- [jamesrwatsonx-creator/openship](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342855671.json) — Self-hosted deployment platform<br>
+  Source: [jamesrwatsonx-creator/openship](https://github.com/jamesrwatsonx-creator/openship) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/opensource.guide](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345880010.json) — 📚 Community guides for open source creators<br>
+  Source: [jamesrwatsonx-creator/opensource.guide](https://github.com/jamesrwatsonx-creator/opensource.guide) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 
 ## Pages
 

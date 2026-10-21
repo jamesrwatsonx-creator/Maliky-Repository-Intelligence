@@ -2,7 +2,7 @@
 
 Frameworks and orchestration systems for building agents.
 
-**2,013 entries** · Alphabetical · 14 pages.
+**2,016 entries** · Alphabetical · 14 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -300,12 +300,12 @@ Frameworks and orchestration systems for building agents.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/backend-developer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/backend-developer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [balance-tester](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4033b6a0fbdd6fed608df174.json) — Balance tester agent for metrics and tuning.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/balance-tester/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/balance-tester/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [Baserow Workspace Agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A341153d97f8b16245b48da81.json) — Permission-aware framework for creating, assigning roles to, extending, updating and deleting workspace agents.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/core/agents/service.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/core/agents/service.py#L1) · AGENT_FRAMEWORK · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [basic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A847a6f2b75e17053c67ef32c.json) — Dashboard auth provider — username/password (no OAuth IDP). A self-hosted 'just put a password on my dashboard' provider. Activates when dashboard.basic_auth.username plus a password (or password_hash) are configured…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/dashboard_auth/basic/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/dashboard_auth/basic/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [batch-runner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adcf16abc8fcebd297e450e89.json) — Batch agent runner: parallel processing of dataset prompts with checkpoint/resume, trajectory saving and aggregated tool-usage statistics.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [batch_runner.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/batch_runner.py#L1) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [battery-systems-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A319ea94d525836b7ec4f9f6e.json) — Expert in automotive battery system design and validation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/battery-systems-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,9 +1,13 @@
 # APIs — page 4
 
-552 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+554 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [set_default_version](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23b9c8fd673cb623a8dae331.json) — Set a specific version as the default for a generation.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/effects.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/effects.py#L226) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [set_env_var](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86f75699e510f4bdeaced68a.json) — PUT /api/env - handler set_env_var<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L7909) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [set_mcp_server_enabled](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abde8c1a6375354823abb8c56.json) — PUT /api/mcp/servers/{name}/enabled - Enable or disable an MCP server (takes effect on next session/gateway).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L378) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [set_memory_provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaba81c65ac3ae034afb0deff.json) — PUT /api/memory/provider - handler set_memory_provider<br>

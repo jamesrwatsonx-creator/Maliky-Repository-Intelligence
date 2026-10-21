@@ -1,9 +1,11 @@
 # Backend / APIs / Services — page 3
 
-369 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+370 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [scopes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A104a81cba45de0e0ec324700.json) — Mapping between GitHub token scopes and tool requirements.<br>
+  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/scopes/scopes.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/scopes/scopes.go#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [select_terminal_backend](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae46c8ca317610f284ae74569.json) — PUT /api/tools/terminal/backend - Persist ``terminal.backend`` in config.yaml.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L749) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [select_toolset_model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac49e5308ac6f659f4e4505d1.json) — PUT /api/tools/toolsets/{name}/model - Persist a backend model selection (``image_gen.model`` / ``video_gen.model``).<br>

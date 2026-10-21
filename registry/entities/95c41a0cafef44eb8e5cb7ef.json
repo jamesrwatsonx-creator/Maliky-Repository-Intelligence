@@ -2,7 +2,7 @@
   "id": "entity:95c41a0cafef44eb8e5cb7ef",
   "entity_type": "SKILL",
   "name": "Create In-App Notification",
-  "description": "Create or update a Baserow in-app notification for an event. Use when adding a backend `NotificationType`, wiring frontend notification rendering and routing, defining the notification target, or preventing duplicate notifications for the same event object.",
+  "description": "Create or update backend notification types and corresponding frontend rendering, routing and deduplication.",
   "source": {
     "repository_id": "repository:1418683509",
     "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
@@ -16,34 +16,47 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".agents/skills/create-in-app-notification/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "Create In-App Notification"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/create-in-app-notification/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
     "category:skills"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:baserow-like-airtable-skill-create-in-app-notification"
+    "capability:baserow-notification-skill"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending.",
-    "candidate_recommendation": "USE DIRECTLY"
+    "dependencies": [
+      "Baserow source tree",
+      "repository-specific architecture and commands"
+    ],
+    "overlap": "Directly usable in Baserow and adaptable as a reference for similar monorepos."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

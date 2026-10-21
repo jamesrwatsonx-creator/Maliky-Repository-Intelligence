@@ -2,7 +2,7 @@
   "id": "entity:bdd3c3367122290b2e839348",
   "entity_type": "SKILL",
   "name": "core-graph",
-  "description": "Use this skill when working on code involving Element/Page relationships in the Application Builder (contrib/builder) or AutomationNode/AutomationWorkflow relationships in the Automation Builder (contrib/automation). This includes bugs, new features, or refactoring involving node/element placement, element place_in_container, container elements, parent/child/sibling traversal, node edges, or next/previous navigation between points.",
+  "description": "Work with reusable graph relationships used by Application Builder elements and Automation nodes.",
   "source": {
     "repository_id": "repository:1418683509",
     "repository_name": "jamesrwatsonx-creator/baserow-like-airtable-",
@@ -16,34 +16,47 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".agents/skills/core-graph/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "core-graph"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/core-graph/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
+    "category:ai-agents",
+    "category:ai-applications",
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:cloud-infrastructure",
+    "category:data-engineering",
+    "category:data-visualization",
+    "category:databases",
+    "category:full-stack-applications",
+    "category:iam",
+    "category:kubernetes-orchestration",
+    "category:mcp-servers",
+    "category:plugins-extensions",
     "category:skills"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:baserow-like-airtable-skill-core-graph"
+    "capability:baserow-core-graph-skill"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending.",
-    "candidate_recommendation": "USE DIRECTLY"
+    "dependencies": [
+      "Baserow source tree",
+      "repository-specific architecture and commands"
+    ],
+    "overlap": "Directly usable in Baserow and adaptable as a reference for similar monorepos."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

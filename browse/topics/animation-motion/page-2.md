@@ -1,9 +1,11 @@
 # Animation & Motion — page 2
 
-170 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+171 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/ux-ui-design/design-handoff](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab289dc8ebc97d16f8b3cfa99.json) — Design Handoff to Development - Comprehensive process for handing off design work to development teams with design annotation, developer documentation, asset export, component specifications, interaction specs, design…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/design-handoff.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/design-handoff.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/ux-ui-design/hifi-prototyping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca834249f2f782ef5372ee27.json) — Hi-Fi Prototyping and Interaction Design - Comprehensive high-fidelity prototyping workflow implementing design tool setup, interaction design patterns, microinteractions, animations, transitions, user testing…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/hifi-prototyping.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/hifi-prototyping.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Stripi-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9086bffe39a50b4b77cbe939.json) — An inspired interpretation of Stripi's design language — a financial-infrastructure brand built on a deep navy ink, an electric indigo primary, and a recurring atmospheric gradient mesh that occupies the upper third of…<br>

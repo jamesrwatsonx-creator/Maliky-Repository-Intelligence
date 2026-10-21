@@ -2,7 +2,7 @@
 
 Animation libraries, motion systems and interaction effects.
 
-**170 entries**
+**171 entries**
 
 ## Browse within this topic
 
@@ -11,7 +11,7 @@ Animation libraries, motion systems and interaction effects.
 - [Plugins](by-type/plugins/README.md) (1)
 - [Other Assets](by-type/other-assets/README.md) (75)
 - [Repositories](by-type/repositories/README.md) (22)
-- [Services & Integrations](by-type/services/README.md) (1)
+- [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (42)
 - [Workflows](by-type/workflows/README.md) (18) · Alphabetical · 2 pages.
 
@@ -39,6 +39,8 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/animator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/animator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [Apple-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adbcca52b8aaa637d51cc6ba9.json) — A photography-first interface that turns marketing into a museum gallery. Edge-to-edge product tiles alternate light and dark canvases, framed by SF Pro Display headlines with negative letter-spacing and a single…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/apple/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/apple/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
+- [Baserow AI Provider Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3048d9243a3db56dd9f58d13.json) — Configurable AI-provider integration used by AI fields, agent actions, formula suggestions and the assistant.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/ai/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/ai/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [Binance-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A59255c38d0ed03019b21776f.json) — A confident financial-platform interface anchored on a deep near-black canvas, where Binance's iconic yellow (#FCD535) carries every primary CTA, brand accent, and value-claim moment. Type runs Binance's custom…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/binance/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/binance/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [blender-motion-state-inspection](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6f926ab127e784e4950e2516.json) — Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.<br>
@@ -315,8 +317,6 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/mobile-animation-design.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/mobile-animation-design.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/network-programming/protocol-state-machine](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A67153252649117ede47a4642.json) — Protocol State Machine Implementation - Build a formal state machine for protocol connection lifecycle management with state handlers, transitions, timeout management, error states, and visualization.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/protocol-state-machine.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/protocol-state-machine.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/ux-ui-design/design-handoff](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab289dc8ebc97d16f8b3cfa99.json) — Design Handoff to Development - Comprehensive process for handing off design work to development teams with design annotation, developer documentation, asset export, component specifications, interaction specs, design…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/design-handoff.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/design-handoff.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

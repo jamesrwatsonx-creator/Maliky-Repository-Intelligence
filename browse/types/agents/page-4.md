@@ -1,9 +1,11 @@
 # Agents & Frameworks — page 4
 
-1,392 catalog entries · Sorted alphabetically by name · Page 4 of 10.
+1,394 catalog entries · Sorted alphabetically by name · Page 4 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [experiment-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0abf98428b3da8fc990bb97c.json) — Agent specialized in physics experiment design, apparatus specification, and systematic planning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/experiment-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/experiment-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [experiment-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8c2e59f080aac192a16497b1.json) — Agent specialized in designing rigorous experiments<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/agents/experiment-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/agents/experiment-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [experiment-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac4baf621244f85033424491b.json) — Agent specialized in experiment design, hypothesis formulation, and statistical testing plans.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/agents/incident-commander/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/agents/incident-commander/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [incident-responder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae27513b70c358d4bc40c4ec7.json) — Agent specialized in ML incident response, diagnosis, and remediation coordination.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/agents/incident-responder/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/agents/incident-responder/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [incident-response](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af80194271b87158f39041330.json) — Smart contract incident response and exploit mitigation specialist. Expert in real-time exploit detection, emergency response procedures, white-hat rescue operations, fund recovery, post-mortem analysis, and crisis…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/agents/incident-response/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/agents/incident-response/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

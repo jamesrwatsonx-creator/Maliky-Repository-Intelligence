@@ -1,9 +1,11 @@
 # Prompts & Workflows — page 6
 
-3,064 catalog entries · Sorted alphabetically by name · Page 6 of 21.
+3,059 catalog entries · Sorted alphabetically by name · Page 6 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [domains/science/scientific-discovery/system-archetype-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3cbe6b856d35a810f117968c.json) — Identify common system patterns to diagnose systemic issues - Guides practitioners through recognizing and applying system archetypes to understand recurring patterns of behavior in complex systems.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/system-archetype-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/system-archetype-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/system-dynamics-modeling](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7512945f64261f8f6b1e6465.json) — Build stock-and-flow models to simulate system behavior - Guides practitioners through creating quantitative system dynamics models using stocks, flows, and feedback structures.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/system-dynamics-modeling.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/system-dynamics-modeling.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/tool-as-lens](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8c4a22729ca8ab63aa38b98.json) — Tool as Lens: Treat each instrument or method as a lens revealing and hiding aspects<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/gke-backup-dr/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/gke-backup-dr/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [glassdoor/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A408980c5c7b7bee47aedc9f3.json) — Domain skill: Glassdoor — Company Data, Reviews, Jobs & Salaries. Field-tested against glassdoor.com on 2026-04-18.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/glassdoor/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/glassdoor/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [gmail/compose](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a670e34a0c95d89f671be2a.json) — Domain skill: Gmail — Compose and send. URL: https://mail.google.com<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/gmail/compose.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/gmail/compose.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 
