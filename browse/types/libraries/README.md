@@ -2,7 +2,7 @@
 
 Individually searchable libraries & packages from the public owned catalog.
 
-**299 entries** · Alphabetical · 2 pages.
+**298 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -156,8 +156,6 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/open-seo](https://github.com/jamesrwatsonx-creator/open-seo) · [badseo/package.json](https://github.com/jamesrwatsonx-creator/open-seo/blob/cd6a782092556d6f7a0e3ab1cdb66a4dada30e28/badseo/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab9fc02aa0b8598a480379417.json) — Universal drop-in replacement for Base44 with zero code changes required. Migrate any Base44 app to Supabase with 100% API compatibility.<br>
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [package.json](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
-- [bento-pdf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f22ce9d3889afe53d6cebd3.json) — Source-declared package `bento-pdf`.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [package.json](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86b1175a8035bb26e7b90d37.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [bitcart-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb360f0c0454eff3321d00dd.json) — Bitcart Merchants API<br>
@@ -306,6 +304,8 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/inventory/registry.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/inventory/registry.go#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [InvokeAI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1774a3906711b419db6eaa4f.json) — A full-featured AI-assisted image generation environment designed for creatives and enthusiasts.<br>
   Source: [jamesrwatsonx-creator/InvokeAI](https://github.com/jamesrwatsonx-creator/InvokeAI) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/InvokeAI/blob/b4224d97fdb16d4124d49da725e5979f2c3be576/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [james-ai-operator-dashboard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa28a68c3fe2bc52a1478eb03.json) — Source-declared package `james-ai-operator-dashboard`.<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [package.json](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 
 ## Pages
 

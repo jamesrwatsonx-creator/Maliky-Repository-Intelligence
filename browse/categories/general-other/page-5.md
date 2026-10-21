@@ -1,21 +1,9 @@
 # General / Other — page 5
 
-1,465 catalog entries · Sorted alphabetically by name · Page 5 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 5 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/Computer-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342817553.json) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.<br>
-  Source: [jamesrwatsonx-creator/Computer-use](https://github.com/jamesrwatsonx-creator/Computer-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools
-- [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376793544.json) — KMP/CMP GraphQL based conference project with Jetpack Compose Android, Compose for Wear, and Compose Multiplatform Desktop, Web and iOS clients along with GraphQL backend.<br>
-  Source: [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Confetti) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Mobile applications
-- [jamesrwatsonx-creator/contao](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418735057.json) — Contao Open Source CMS<br>
-  Source: [jamesrwatsonx-creator/contao](https://github.com/jamesrwatsonx-creator/contao) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358721084.json) — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.<br>
-  Source: [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/context-mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Developer tools
-- [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372773914.json) — Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors<br>
-  Source: [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/context7) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Developer tools
-- [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348977014.json) — A local-first, settings-driven business intelligence dashboard.<br>
-  Source: [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/control-center) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Business applications, Frontend applications
 - [jamesrwatsonx-creator/coolify](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372781046.json) — An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.<br>
   Source: [jamesrwatsonx-creator/coolify](https://github.com/jamesrwatsonx-creator/coolify) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DevOps
 - [jamesrwatsonx-creator/core-website-builder-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418721169.json) — 🧿 Bolt core<br>
@@ -304,6 +292,18 @@
   Source: [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/headscale) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350954158.json) — Fully automatic censorship removal for language models<br>
   Source: [jamesrwatsonx-creator/heretic](https://github.com/jamesrwatsonx-creator/heretic) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350027872.json) — Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.<br>
+  Source: [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/Hermes3D](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345873494.json) — Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.<br>
+  Source: [jamesrwatsonx-creator/Hermes3D](https://github.com/jamesrwatsonx-creator/Hermes3D) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/hister-communiy-business-network](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418841218.json) — Your own search engine<br>
+  Source: [jamesrwatsonx-creator/hister-communiy-business-network](https://github.com/jamesrwatsonx-creator/hister-communiy-business-network) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/holehe](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391870507.json) — holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.<br>
+  Source: [jamesrwatsonx-creator/holehe](https://github.com/jamesrwatsonx-creator/holehe) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418843708.json) — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.<br>
+  Source: [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/homepage) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377933459.json) — Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia<br>
+  Source: [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/hoppscotch) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Developer tools
 
 ## Pages
 

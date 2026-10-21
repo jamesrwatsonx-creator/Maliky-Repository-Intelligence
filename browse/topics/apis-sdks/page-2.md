@@ -1,6 +1,6 @@
 # APIs & SDKs — page 2
 
-1,500 catalog entries · Sorted alphabetically by name · Page 2 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 2 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -16,6 +16,8 @@
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/token.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/token.py#L119) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [behavior-trees](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1efeaf8f834644375029eb78.json) — Behavior tree design and implementation skill for game AI. Enables creation of behavior tree structures, custom nodes, decorators, composites, and integration with game engines for NPC and enemy AI systems.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/behavior-trees/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/behavior-trees/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [BentoPDF Helm Chart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23b84a1fd6e440ef973eac46.json) — Helm deployment package for serving BentoPDF's static frontend from a single NGINX container through a Service, Ingress or Gateway API route.<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [chart/README.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/chart/README.md#L1) · INFRASTRUCTURE_MODULE · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [bigquery-ai-ml](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A55b2ac1a669db1789cf4a0ad.json) — Leverages BigQuery's built-in machine learning and GenAI capabilities for advanced data analytics. Use when you need to write SQL queries that perform time-series forecasting, predict values, detect outliers or…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/bigquery-ai-ml/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/bigquery-ai-ml/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [bigquery-basics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5beba29fc499852dbab334c7.json) — Manages datasets, tables, and jobs in BigQuery. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources (datasets, tables, views), or perform basic data ingestion and analysis.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/debugger-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/debugger-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [decompose_task_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90125a24792e0c257168d555.json) — POST /tasks/{task_id}/decompose - Fan a triage-column task out into a graph of child tasks via the auxiliary LLM, routed to specialist profiles by description. Maps 1:1 to<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2728) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [deep-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A38e05b14019537522f60a15d.json) — Run a deep, source-backed research query via DeepAPI (go to deepapi.co to get an API key) POST /v1/research/deep. Builds a rigorous one-paragraph research prompt (per research-prompt rules), fires it, and saves a cited…<br>
-  Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/research-and-web/deep-research/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/research-and-web/deep-research/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

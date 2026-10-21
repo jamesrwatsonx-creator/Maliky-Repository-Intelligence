@@ -1,9 +1,11 @@
 # Finance, Blockchain & Crypto — page 2
 
-373 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+374 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [get_token_count](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adbbb10a3d227dbc7f391d44d.json) — Source-declared api `get_token_count`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/token.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/token.py#L97) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_tokens](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A526163eac0234aa8a57e8f90.json) — Source-declared api `get_tokens`.<br>
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/cryptos.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/cryptos.py#L67) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_tokens](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e666621ea14ab4ca1435d76.json) — Source-declared api `get_tokens`.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/validator-node-operation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/validator-node-operation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/cryptography-blockchain/yield-aggregator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac4efc13234e17da7e9bb7b16.json) — Yield Aggregator Development - Development of automated yield optimization protocols that allocate capital across DeFi strategies to maximize returns.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/yield-aggregator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/yield-aggregator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/cryptography-blockchain/zk-circuit-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcb0d6664d83689c4ee74e93.json) — ZK Circuit Development (Circom/Noir) - Development of zero-knowledge circuits using Circom or Noir for privacy-preserving proofs and verifiable computation.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/zk-circuit-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/zk-circuit-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

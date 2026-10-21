@@ -1,9 +1,11 @@
 # APIs & SDKs — page 7
 
-1,500 catalog entries · Sorted alphabetically by name · Page 7 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 7 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [methodologies/cc10x/cc10x-build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae15b5cb869ec965bd39ad763.json) — CC10X BUILD Workflow - TDD-enforced feature development with parallel code review, silent failure hunting, and integration verification<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/cc10x-build.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/cc10x-build.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/extreme-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A24c6c49df749407e50d34f3e.json) — Extreme Programming (XP) - Agile engineering practices with frequent releases, TDD, pair programming, and continuous integration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/extreme-programming/xp-process.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/extreme-programming/xp-process.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/gastown/gastown-merge-queue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A24425adac481f41f0458198b.json) — Gas Town Refinery Merge Queue - Collect, detect conflicts, resolve, merge, and verify integration of agent work<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L8390) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [remove_mcp_server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23ced2c6c4a7a69a3e6b99dc.json) — DELETE /api/mcp/servers/{name} - handler remove_mcp_server<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L144) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [remove_story_item](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a6fead66a9f7b28070ceb7c.json) — Remove a story item from a story.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/stories.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/stories.py#L86) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

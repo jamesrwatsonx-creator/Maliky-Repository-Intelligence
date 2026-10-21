@@ -1,9 +1,11 @@
 # APIs & SDKs — page 8
 
-1,500 catalog entries · Sorted alphabetically by name · Page 8 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 8 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [remove_story_item](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a6fead66a9f7b28070ceb7c.json) — Remove a story item from a story.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/stories.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/stories.py#L86) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [rename_board](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7891647f681af9543fbe1952.json) — PATCH /boards/{slug} - Update a board's display metadata + default project directory (slug is immutable — create a new one to rename the directory).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2539) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [rename_profile_endpoint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9816be6b2bffa588bd8abe4f.json) — PATCH /api/profiles/{name} - handler rename_profile_endpoint<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/incremental-feature-e2e-gate.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/incremental-feature-e2e-gate.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/desktop-development/macos-features](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3627fe51f6b324829cf4285a.json) — macOS-Specific Feature Implementation - Implement macOS-specific features including Touch Bar, dock integration, Handoff/Continuity, Spotlight integration, and Mac App Store preparation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/macos-features.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/macos-features.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/desktop-development/system-services-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A817facb64779f48b35eab406.json) — System Services Integration - Integrate with OS-level services including clipboard, global shortcuts, power management, screen capture, and system information APIs.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/system-services-integration.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/system-services-integration.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - **[Page 8](page-8.md)**
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

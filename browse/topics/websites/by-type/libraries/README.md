@@ -2,7 +2,7 @@
 
 Libraries & Packages tagged under Websites.
 
-**36 entries** · Alphabetical · 1 page.
+**35 entries** · Alphabetical · 1 page.
 
 [Back to Websites](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -12,8 +12,6 @@ Libraries & Packages tagged under Websites.
   Source: [jamesrwatsonx-creator/ai-website-cloner-template](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template) · [package.json](https://github.com/jamesrwatsonx-creator/ai-website-cloner-template/blob/92872bc40ced2c5edb4d5dc9fd3970d40c77f4ca/package.json#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, Templates/boilerplates, Developer tools
 - [badseo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9d99ec24eb0f61ed41de23b0.json) — badseo.dev — a deliberately broken website full of SEO mistakes, used as e2e test fixtures for the OpenSEO site audit.<br>
   Source: [jamesrwatsonx-creator/open-seo](https://github.com/jamesrwatsonx-creator/open-seo) · [badseo/package.json](https://github.com/jamesrwatsonx-creator/open-seo/blob/cd6a782092556d6f7a0e3ab1cdb66a4dada30e28/badseo/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
-- [bento-pdf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f22ce9d3889afe53d6cebd3.json) — Source-declared package `bento-pdf`.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [package.json](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8217f6fc278a359f4f1c489.json) — Make websites accessible for AI agents<br>
   Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/browser-use/blob/85ddbfedf609166b2d2c76c3d80506649fee82a9/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [defuddle](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A074284b0d2f03b360bb52750.json) — Description not available in current evidence.<br>

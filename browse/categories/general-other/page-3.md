@@ -1,19 +1,9 @@
 # General / Other — page 3
 
-1,465 catalog entries · Sorted alphabetically by name · Page 3 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 3 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [EffectsDetail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb746ef379da3b83701733f.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/EffectsTab/EffectsDetail.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/EffectsTab/EffectsDetail.tsx#L28) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [EffectsList](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5bb0c0feb12a91d4020e1d9c.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/EffectsTab/EffectsList.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/EffectsTab/EffectsList.tsx#L18) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [EffectsTab](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7f480a01c5f831b4c6d0426e.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/EffectsTab/EffectsTab.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/EffectsTab/EffectsTab.tsx#L4) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [EmptyState](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8d2cb5e32ea07df36a17434.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/ui/EmptyState.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/ui/EmptyState.tsx#L8) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [EngineModelSelector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6153d32878a0f42b30945b04.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/Generation/EngineModelSelector.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/Generation/EngineModelSelector.tsx#L116) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [EntityInspector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae3503fba85c1557217a59c94.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/entities/EntityInspector.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/entities/EntityInspector.tsx#L26) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [evolve_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A02dc4cb196567abd6b0759de.json) — Source-declared api `evolve_status`.<br>
@@ -304,6 +294,16 @@
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/files.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/files.py#L43) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [Header](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa61f08f166bea63f0fb2cef3.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/Header.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/Header.tsx#L69) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [HeaderProvider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83dee35b6dc424818bc8c850.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/Header.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/Header.tsx#L25) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [headroom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae76f40d2b96b1b46b31c2192.json) — headroom.cli:main<br>
+  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [headroom-ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af26f1a0cee0958f99cada24f.json) — The Context Optimization Layer for LLM Applications - Cut costs by 50-90%<br>
+  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [headroom-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb3bc89044a5cc59da5f024b.json) — Description not available in current evidence.<br>
+  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [docs/package.json](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/docs/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
+- [health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A66d047f2a5bbfaf1572e672c.json) — Source-declared api `health`.<br>
+  Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [evolve_server/engines/agent.py](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/evolve_server/engines/agent.py#L521) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 
 ## Pages
 

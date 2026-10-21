@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**1,465 entries** · Alphabetical · 10 pages.
+**1,453 entries** · Alphabetical · 10 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -238,8 +238,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [package.json](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [batch_action](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A35120442bc99efad68c0f005.json) — Source-declared api `batch_action`.<br>
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/token.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/token.py#L119) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [bento-pdf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1f22ce9d3889afe53d6cebd3.json) — Source-declared package `bento-pdf`.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [package.json](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f2d635894c059615869d179.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86b1175a8035bb26e7b90d37.json) — Description not available in current evidence.<br>
@@ -280,8 +278,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/pgvector/blob/e48241b4dcc045b18902914f668d03d1d399dfbe/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adf9d8658cd4894d582879f10.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Android-motion-haze) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/Android-motion-haze/blob/d0e7c97fac6623b194a2ec61d8c23526865ca175/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
-- [Build and Push Docker Images (Default + Simple Mode)](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A06761704f22d447a2e903036.json) — Source-declared workflow `Build and Push Docker Images (Default + Simple Mode)`.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [.github/workflows/build-and-publish.yml](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/.github/workflows/build-and-publish.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build server application](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4cb3db602ec0e79f8dbc624.json) — Source-declared workflow `Build server application`.<br>
   Source: [jamesrwatsonx-creator/AttestationServer](https://github.com/jamesrwatsonx-creator/AttestationServer) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/AttestationServer/blob/fc8843d716e773c7daccdf19a940fb997d605f3f/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Build Windows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afa8d14eebf0147bf1c45f3d7.json) — Windows-specific Tauri desktop build workflow: compiles the Voicebox desktop app for Windows using Tauri's cross-compilation toolchain.<br>
@@ -306,6 +302,10 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/CapturesPage.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/CapturesPage.tsx#L123) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [CapturesTab](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae1f79b2068bc997d73fd15af.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/CapturesTab/CapturesTab.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/CapturesTab/CapturesTab.tsx#L134) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [categories](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A80e00ebc36fdb49c3f4ed7b5.json) — Source-declared api `categories`.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/products.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/products.py#L24) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
+- [caveman](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7afcf5f850d0db32344b0a40.json) — Caveman installer — detects your AI coding agents and installs caveman for each one.<br>
+  Source: [jamesrwatsonx-creator/caveman](https://github.com/jamesrwatsonx-creator/caveman) · [package.json](https://github.com/jamesrwatsonx-creator/caveman/blob/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 
 ## Pages
 

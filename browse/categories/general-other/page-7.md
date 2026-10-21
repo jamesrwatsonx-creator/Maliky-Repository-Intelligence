@@ -1,21 +1,9 @@
 # General / Other — page 7
 
-1,465 catalog entries · Sorted alphabetically by name · Page 7 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 7 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/OpenViking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340244771.json) — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.<br>
-  Source: [jamesrwatsonx-creator/OpenViking](https://github.com/jamesrwatsonx-creator/OpenViking) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, AI memory, Skills
-- [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1356023487.json) — Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.<br>
-  Source: [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/openwhispr) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
-- [jamesrwatsonx-creator/openwork](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342764304.json) — The open-source alternative to Claude Cowork (powered by opencode)<br>
-  Source: [jamesrwatsonx-creator/openwork](https://github.com/jamesrwatsonx-creator/openwork) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/openzeppelin-contracts](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660407.json) — OpenZeppelin Contracts is a library for secure smart contract development.<br>
-  Source: [jamesrwatsonx-creator/openzeppelin-contracts](https://github.com/jamesrwatsonx-creator/openzeppelin-contracts) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372835970.json) — Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics<br>
-  Source: [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs
-- [jamesrwatsonx-creator/ox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359928451.json) — Ox — the open coding agent. Terminal AI pair-programmer powered by ox-alpha via OpenRouter. No account, no key, no limits.<br>
-  Source: [jamesrwatsonx-creator/ox](https://github.com/jamesrwatsonx-creator/ox) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
 - [jamesrwatsonx-creator/PaddleOCR](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389393132.json) — Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.<br>
   Source: [jamesrwatsonx-creator/PaddleOCR](https://github.com/jamesrwatsonx-creator/PaddleOCR) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/paperclip](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342839076.json) — The open-source app everyone uses to manage agents at work<br>
@@ -304,6 +292,18 @@
   Source: [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/wasp) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Frontend applications
 - [jamesrwatsonx-creator/wavesurfer.js](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350167344.json) — Audio waveform player<br>
   Source: [jamesrwatsonx-creator/wavesurfer.js](https://github.com/jamesrwatsonx-creator/wavesurfer.js) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
+- [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321427863.json) — 🤖 WebMCP<br>
+  Source: [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/webmcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
+- [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372784354.json) — Independent technology for modern publishing, memberships, subscriptions and newsletters.<br>
+  Source: [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
+- [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347784650.json) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.<br>
+  Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
+- [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342864146.json) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.<br>
+  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, CLI tools
+- [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391792.json) — Community-maintained dataset of 700+ websites for finding accounts by username — powers OSINT and digital footprint tools.<br>
+  Source: [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/WhatsMyName) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344510642.json) — Robust Speech Recognition via Large-Scale Weak Supervision<br>
+  Source: [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/whisper) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Generative AI
 
 ## Pages
 

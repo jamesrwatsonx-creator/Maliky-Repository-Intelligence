@@ -1,9 +1,11 @@
 # Finance, Blockchain & Crypto — page 3
 
-373 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+374 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/cryptography-blockchain/zk-circuit-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcb0d6664d83689c4ee74e93.json) — ZK Circuit Development (Circom/Noir) - Development of zero-knowledge circuits using Circom or Noir for privacy-preserving proofs and verifiable computation.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/zk-circuit-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/zk-circuit-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/cryptography-blockchain/zk-rollup-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c7d2d7b73ad3b9bb53153df.json) — ZK-Rollup Development - Development of zero-knowledge rollup solutions for Ethereum scalability with state compression, data availability, and validity proofs.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cryptography-blockchain/zk-rollup-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cryptography-blockchain/zk-rollup-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/cryptography-blockchain/zk-snark-application](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A55b667a48c25a761735bb297.json) — ZK-SNARK Application Development - Development of ZK-SNARK-based applications with trusted setup ceremonies, proof generation, and on-chain verification.<br>

@@ -1,19 +1,9 @@
 # General / Other — page 4
 
-1,465 catalog entries · Sorted alphabetically by name · Page 4 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 4 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [HeaderProvider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83dee35b6dc424818bc8c850.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/minions](https://github.com/jamesrwatsonx-creator/minions) · [client/src/components/Header.tsx](https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/client/src/components/Header.tsx#L25) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [headroom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae76f40d2b96b1b46b31c2192.json) — headroom.cli:main<br>
-  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
-- [headroom-ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af26f1a0cee0958f99cada24f.json) — The Context Optimization Layer for LLM Applications - Cut costs by 50-90%<br>
-  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
-- [headroom-docs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb3bc89044a5cc59da5f024b.json) — Description not available in current evidence.<br>
-  Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · [docs/package.json](https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/docs/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
-- [health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A66d047f2a5bbfaf1572e672c.json) — Source-declared api `health`.<br>
-  Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [evolve_server/engines/agent.py](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/evolve_server/engines/agent.py#L521) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7d1c628d2828854399bcf2cd.json) — Health check endpoint.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/health.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/health.py#L57) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [health](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9b096afd23d5a95b81de4d40.json) — Source-declared api `health`.<br>
@@ -202,8 +192,6 @@
   Source: [jamesrwatsonx-creator/awesome-web3-data](https://github.com/jamesrwatsonx-creator/awesome-web3-data) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331416107.json) — Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes<br>
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, APIs, Developer tools
-- [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — 🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…)…<br>
   Source: [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/better-design-shadcn) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/billion-context](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1423751807.json) — A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of…<br>
@@ -304,6 +292,18 @@
   Source: [jamesrwatsonx-creator/compose-multiplatform](https://github.com/jamesrwatsonx-creator/compose-multiplatform) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
 - [jamesrwatsonx-creator/computer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342792167.json) — Give your agent a computer 👾<br>
   Source: [jamesrwatsonx-creator/computer](https://github.com/jamesrwatsonx-creator/computer) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/Computer-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342817553.json) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.<br>
+  Source: [jamesrwatsonx-creator/Computer-use](https://github.com/jamesrwatsonx-creator/Computer-use) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools
+- [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376793544.json) — KMP/CMP GraphQL based conference project with Jetpack Compose Android, Compose for Wear, and Compose Multiplatform Desktop, Web and iOS clients along with GraphQL backend.<br>
+  Source: [jamesrwatsonx-creator/Confetti](https://github.com/jamesrwatsonx-creator/Confetti) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Mobile applications
+- [jamesrwatsonx-creator/contao](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418735057.json) — Contao Open Source CMS<br>
+  Source: [jamesrwatsonx-creator/contao](https://github.com/jamesrwatsonx-creator/contao) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358721084.json) — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.<br>
+  Source: [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/context-mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Developer tools
+- [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372773914.json) — Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors<br>
+  Source: [jamesrwatsonx-creator/context7](https://github.com/jamesrwatsonx-creator/context7) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Developer tools
+- [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348977014.json) — A local-first, settings-driven business intelligence dashboard.<br>
+  Source: [jamesrwatsonx-creator/control-center](https://github.com/jamesrwatsonx-creator/control-center) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Business applications, Frontend applications
 
 ## Pages
 

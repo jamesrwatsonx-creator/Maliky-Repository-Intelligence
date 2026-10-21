@@ -1,0 +1,58 @@
+{
+  "id": "entity:23b84a1fd6e440ef973eac46",
+  "entity_type": "INFRASTRUCTURE_MODULE",
+  "name": "BentoPDF Helm Chart",
+  "description": "Helm deployment package for serving BentoPDF's static frontend from a single NGINX container through a Service, Ingress or Gateway API route.",
+  "source": {
+    "repository_id": "repository:1418686375",
+    "repository_name": "jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-",
+    "upstream_url": "https://github.com/alam00000/bentopdf",
+    "source_path": "chart/README.md",
+    "inspected_commit": "872a32929e0ee90c67c104e661be31433ff7b4df",
+    "inspection_date": "2026-10-21T00:56:53.511557+00:00",
+    "blob_sha": "bc682c254641ce755a9a25af3810ae8513cd11b4",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/chart/README.md#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:application-security",
+    "category:creative-tools",
+    "category:full-stack-applications",
+    "category:kubernetes-orchestration",
+    "category:privacy",
+    "category:productivity",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:15",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bentopdf-helm-chart"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Kubernetes",
+      "Helm",
+      "BentoPDF container image",
+      "configured ingress or gateway"
+    ],
+    "overlap": "Deployment packaging for the browser application.",
+    "license": "AGPL-3.0-only or commercial license"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "DEPLOYMENT"
+}

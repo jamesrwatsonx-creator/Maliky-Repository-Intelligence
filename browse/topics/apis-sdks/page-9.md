@@ -1,9 +1,11 @@
 # APIs & SDKs — page 9
 
-1,500 catalog entries · Sorted alphabetically by name · Page 9 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 9 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/desktop-development/system-services-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A817facb64779f48b35eab406.json) — System Services Integration - Integrate with OS-level services including clipboard, global shortcuts, power management, screen capture, and system information APIs.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/system-services-integration.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/system-services-integration.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/desktop-development/system-tray-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9fca48806bb572c873348e08.json) — System Tray and Menu Bar Integration - Implement persistent system tray (Windows/Linux) or menu bar (macOS) presence; add context menus, notifications, show/hide functionality.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/system-tray-integration.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/system-tray-integration.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/desktop-development/windows-features](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A747728dcdd757433e5e3a5d7.json) — Windows-Specific Feature Implementation - Implement Windows-specific features including jump lists, thumbnail toolbars, taskbar progress, Windows Store integration, and registry operations.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [skillclaw/dashboard_server.py](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/skillclaw/dashboard_server.py#L667) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [systems-engineering-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa3af6e031a0dd56d82fe55f1.json) — Expert in aerospace systems engineering processes and integration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/aerospace-engineering/agents/systems-engineering-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/aerospace-engineering/agents/systems-engineering-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [tableau-analytics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae8700a6928962469204b3e1e.json) — Tableau dashboard and visualization integration for sales analytics<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/skills/tableau-analytics/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/skills/tableau-analytics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - **[Page 9](page-9.md)**
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

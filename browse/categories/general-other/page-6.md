@@ -1,21 +1,9 @@
 # General / Other — page 6
 
-1,465 catalog entries · Sorted alphabetically by name · Page 6 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 6 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350027872.json) — Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.<br>
-  Source: [jamesrwatsonx-creator/Hermes-Bot-Mode](https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents
-- [jamesrwatsonx-creator/Hermes3D](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345873494.json) — Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.<br>
-  Source: [jamesrwatsonx-creator/Hermes3D](https://github.com/jamesrwatsonx-creator/Hermes3D) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
-- [jamesrwatsonx-creator/hister-communiy-business-network](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418841218.json) — Your own search engine<br>
-  Source: [jamesrwatsonx-creator/hister-communiy-business-network](https://github.com/jamesrwatsonx-creator/hister-communiy-business-network) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/holehe](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391870507.json) — holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.<br>
-  Source: [jamesrwatsonx-creator/holehe](https://github.com/jamesrwatsonx-creator/holehe) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418843708.json) — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.<br>
-  Source: [jamesrwatsonx-creator/homepage](https://github.com/jamesrwatsonx-creator/homepage) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377933459.json) — Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia<br>
-  Source: [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/hoppscotch) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, Developer tools
 - [jamesrwatsonx-creator/huggingface.js](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346458581.json) — Use Hugging Face with JavaScript<br>
   Source: [jamesrwatsonx-creator/huggingface.js](https://github.com/jamesrwatsonx-creator/huggingface.js) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/huggingface_hub](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346458054.json) — The official CLI and Python client for the Hugging Face Hub.<br>
@@ -304,6 +292,18 @@
   Source: [jamesrwatsonx-creator/openship](https://github.com/jamesrwatsonx-creator/openship) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/opensource.guide](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1345880010.json) — 📚 Community guides for open source creators<br>
   Source: [jamesrwatsonx-creator/opensource.guide](https://github.com/jamesrwatsonx-creator/opensource.guide) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/OpenViking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340244771.json) — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.<br>
+  Source: [jamesrwatsonx-creator/OpenViking](https://github.com/jamesrwatsonx-creator/OpenViking) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, AI memory, Skills
+- [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1356023487.json) — Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.<br>
+  Source: [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/openwhispr) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Generative AI
+- [jamesrwatsonx-creator/openwork](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342764304.json) — The open-source alternative to Claude Cowork (powered by opencode)<br>
+  Source: [jamesrwatsonx-creator/openwork](https://github.com/jamesrwatsonx-creator/openwork) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/openzeppelin-contracts](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660407.json) — OpenZeppelin Contracts is a library for secure smart contract development.<br>
+  Source: [jamesrwatsonx-creator/openzeppelin-contracts](https://github.com/jamesrwatsonx-creator/openzeppelin-contracts) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372835970.json) — Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics<br>
+  Source: [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs
+- [jamesrwatsonx-creator/ox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359928451.json) — Ox — the open coding agent. Terminal AI pair-programmer powered by ox-alpha via OpenRouter. No account, no key, no limits.<br>
+  Source: [jamesrwatsonx-creator/ox](https://github.com/jamesrwatsonx-creator/ox) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools
 
 ## Pages
 

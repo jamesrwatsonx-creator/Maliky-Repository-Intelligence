@@ -1,17 +1,9 @@
 # Prompts & Workflows — page 8
 
-3,059 catalog entries · Sorted alphabetically by name · Page 8 of 21.
+3,050 catalog entries · Sorted alphabetically by name · Page 8 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1331324299.json) — Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins.<br>
-  Source: [jamesrwatsonx-creator/gauntlet-loop](https://github.com/jamesrwatsonx-creator/gauntlet-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Skills
-- [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315201777.json) — GitHub's official MCP Server<br>
-  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, CI/CD, Developer tools
-- [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342840956.json) — The agent that grows with you<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
-- [jamesrwatsonx-creator/humanizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315201193.json) — Agent skill that removes signs of AI-generated writing from text<br>
-  Source: [jamesrwatsonx-creator/humanizer](https://github.com/jamesrwatsonx-creator/humanizer) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, CI/CD, Marketing/communications
 - [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1334697613.json) — The James Watson Gauntlet Loop is a recursive multi-agent framework forcing AI systems to challenge assumptions, evidence, beliefs, and more. Built to move beyond linear prompting toward self-correcting agentic…<br>
   Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Research projects
 - [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426111770.json) — Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini,…<br>
@@ -304,6 +296,14 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-document-project.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-document-project.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/bmad-method/bmad-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A39625597c69e5e84c957ae05.json) — BMAD Implementation Phase - Sprint-based development with dev, QA, and SM agents<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/bmad-method/bmad-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7fe6a5c2f0a99e6560e92254.json) — BMAD Method - Full lifecycle AI-driven agile orchestrator with specialized agent personas<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/bmad-method/bmad-party-mode](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0aded7d158b512f216071385.json) — BMAD Party Mode - Multi-agent collaborative sessions for complex decisions<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-party-mode.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-party-mode.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/bmad-method/bmad-quick-flow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab9db802529edf26b22cfcdf2.json) — BMAD Quick Flow - Lean solo-developer workflow for rapid spec-to-implementation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-quick-flow.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-quick-flow.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/bottom-up](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abbf67a711615cb174d51901c.json) — Bottom-Up Development - Build foundational components first, compose upward<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bottom-up.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bottom-up.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # APIs & SDKs — page 6
 
-1,500 catalog entries · Sorted alphabetically by name · Page 6 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 6 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372725205.json) — Build product integrations with AI.<br>
+  Source: [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Useful-for-everything-nango) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Video-openshorts](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372506572.json) — Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing. Self-host free with Docker (MIT), or use the cloud with GPU speed from $12/mo. MCP…<br>
   Source: [jamesrwatsonx-creator/Video-openshorts](https://github.com/jamesrwatsonx-creator/Video-openshorts) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs, Creative tools
 - [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1293437424.json) — Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/meta-ai/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/meta-ai/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [meta/specialization-creation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c0e04c63348b2ea10a945ca.json) — Create a new specialization with all 7 phases in sequence - from research to integration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/meta/specialization-creation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/meta/specialization-creation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/cc10x/cc10x-build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae15b5cb869ec965bd39ad763.json) — CC10X BUILD Workflow - TDD-enforced feature development with parallel code review, silent failure hunting, and integration verification<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/cc10x-build.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/cc10x-build.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

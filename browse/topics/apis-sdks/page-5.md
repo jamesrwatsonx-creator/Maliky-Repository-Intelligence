@@ -1,9 +1,11 @@
 # APIs & SDKs — page 5
 
-1,500 catalog entries · Sorted alphabetically by name · Page 5 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 5 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [git_rev_parse_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A82def07188cf449aa4678ca1.json) — GET /api/git/review/rev-parse - handler git_rev_parse_route<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L128) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_revert_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a59d678e7a5b7c96aafae97.json) — POST /api/git/review/revert - handler git_revert_route<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L153) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_review_diff_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af7af6466b5d575f1af134b09.json) — GET /api/git/review/diff - handler git_review_diff_route<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/typescript-sdk](https://github.com/jamesrwatsonx-creator/typescript-sdk) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI memory, APIs, LLM projects
 - [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247318224.json) — A fast and lightweight framework for creating decentralized agents with ease.<br>
   Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, CI/CD
-- [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372725205.json) — Build product integrations with AI.<br>
-  Source: [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Useful-for-everything-nango) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
+- [Page 11](page-11.md)

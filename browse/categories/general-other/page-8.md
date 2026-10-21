@@ -1,21 +1,9 @@
 # General / Other — page 8
 
-1,465 catalog entries · Sorted alphabetically by name · Page 8 of 10.
+1,453 catalog entries · Sorted alphabetically by name · Page 8 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1321427863.json) — 🤖 WebMCP<br>
-  Source: [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/webmcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372784354.json) — Independent technology for modern publishing, memberships, subscriptions and newsletters.<br>
-  Source: [jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost](https://github.com/jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications
-- [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347784650.json) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.<br>
-  Source: [jamesrwatsonx-creator/WebsiteVoiceStudio](https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, Design systems, Generative AI
-- [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342864146.json) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.<br>
-  Source: [jamesrwatsonx-creator/Webwright](https://github.com/jamesrwatsonx-creator/Webwright) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, CLI tools
-- [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391792.json) — Community-maintained dataset of 700+ websites for finding accounts by username — powers OSINT and digital footprint tools.<br>
-  Source: [jamesrwatsonx-creator/WhatsMyName](https://github.com/jamesrwatsonx-creator/WhatsMyName) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344510642.json) — Robust Speech Recognition via Large-Scale Weak Supervision<br>
-  Source: [jamesrwatsonx-creator/whisper](https://github.com/jamesrwatsonx-creator/whisper) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Generative AI
 - [jamesrwatsonx-creator/whisperX](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426084650.json) — WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)<br>
   Source: [jamesrwatsonx-creator/whisperX](https://github.com/jamesrwatsonx-creator/whisperX) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
@@ -304,6 +292,18 @@
   Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/products.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/products.py#L86) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [ProfileCard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeca2f36872b08f4909872d46.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/VoiceProfiles/ProfileCard.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/VoiceProfiles/ProfileCard.tsx#L32) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ProfileForm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A04163b335421106bdb28103e.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/VoiceProfiles/ProfileForm.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/VoiceProfiles/ProfileForm.tsx#L132) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ProfileList](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4348b286f124a75a3419ef96.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/VoiceProfiles/ProfileList.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/VoiceProfiles/ProfileList.tsx#L14) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ProgressMeter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A95747d0048b86234a1e3ef43.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/ui/ProgressMeter.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/ui/ProgressMeter.tsx#L7) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ProjectsChamber](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe5a9ffd6e02c43e232b984e.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/projects/ProjectsChamber.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/projects/ProjectsChamber.tsx#L29) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ProjectsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae6f1aaa7dbce9ac321dfa863.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [app/projects/page.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/app/projects/page.tsx#L5) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [prompts.chat-v2](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6aa93e0543be4293ba4bda53.json) — Description not available in current evidence.<br>
+  Source: [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/prompts.chat) · [package.json](https://github.com/jamesrwatsonx-creator/prompts.chat/blob/d3e04f19d7b28c657c883637ebfca00a19df66eb/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 
 ## Pages
 

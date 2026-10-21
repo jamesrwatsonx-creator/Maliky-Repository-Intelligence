@@ -1,9 +1,11 @@
 # APIs & SDKs — page 10
 
-1,500 catalog entries · Sorted alphabetically by name · Page 10 of 10.
+1,501 catalog entries · Sorted alphabetically by name · Page 10 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [tableau-analytics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae8700a6928962469204b3e1e.json) — Tableau dashboard and visualization integration for sales analytics<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/skills/tableau-analytics/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/skills/tableau-analytics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [task_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3dcaefc3fd2eba1cd74ed25b.json) — List all tasks for a run, optionally showing only pending tasks.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/sdk/src/mcp/tools/tasks.ts](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/sdk/src/mcp/tools/tasks.ts#L169) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Agent workflows
 - [task_post](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A629c1c851e7b4a4c5ba88780.json) — Post a result for a pending task effect.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/youtube-skills](https://github.com/jamesrwatsonx-creator/youtube-skills) · [skills/youtube-api/SKILL.md](https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/skills/youtube-api/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Plugins/extensions, Media/publishing
 - [zep-memory-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8998072f042acd6a831be9cf.json) — Zep memory server integration for long-term conversation memory and user profiling<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/zep-memory-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/zep-memory-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [zustand](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A45c25efd6ed123d59d68f1c4.json) — Zustand state management patterns including store creation, middleware, persistence, slices, and DevTools integration.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/zustand/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/zustand/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -317,3 +317,4 @@
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - **[Page 10](page-10.md)**
+- [Page 11](page-11.md)
