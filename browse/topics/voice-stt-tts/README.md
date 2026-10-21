@@ -2,18 +2,18 @@
 
 Speech interfaces, transcription, speech generation and voice agents.
 
-**348 entries**
+**344 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (4)
-- [APIs](by-type/apis/README.md) (130)
+- [APIs](by-type/apis/README.md) (125)
 - [Libraries & Packages](by-type/libraries/README.md) (14)
 - [MCP Servers](by-type/mcps/README.md) (1)
 - [Models & Model Adapters](by-type/models/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (6)
 - [Repositories](by-type/repositories/README.md) (44)
-- [Services & Integrations](by-type/services/README.md) (2)
+- [Services & Integrations](by-type/services/README.md) (3)
 - [Skills](by-type/skills/README.md) (21)
 - [Tools](by-type/tools/README.md) (6)
 - [UI Components](by-type/ui-components/README.md) (100)
@@ -107,6 +107,12 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/agents-ui/blocks/agent-session-view-01/components/audio-visualizer.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/agents-ui/blocks/agent-session-view-01/components/audio-visualizer.tsx#L34) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [benchmark-methodology](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c3866107f3d1830cb794e8d.json) — Use after competitive-platform-analysis has produced a tiered competitor set. Scores each competitor across nine weighted dimensions (positioning, voice, visual craft, offer packaging, evidence, enterprise-readiness,…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/benchmark-methodology/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/benchmark-methodology/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [Bitcart Core](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee418fe87756738f4f79b722.json) — Self-hostable cryptocurrency payment-processing core combining a merchant API with wallet daemons for invoices, stores, products, payouts, refunds and operational management.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [README.md](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/README.md#L1) · SERVICE · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
+- [Bitcart Invoice and Refund API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac64910b7c169f5ac047edf4b.json) — Invoice creation, export, customer/payment-detail updates, refund creation and refund submission operations.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L1) · API · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
+- [Bitcart Merchants API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afee9b1ffecbbe9893dd57872.json) — FastAPI merchant and administration interface covering users, stores, products, invoices, wallets, payouts, notifications, plugins, tokens and server operations.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/__init__.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/__init__.py#L1) · API · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
 - [brand-discovery](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae0ba2d0162e093d339651022.json) — Use when a brand needs to discover or articulate its identity through structured multi-session interviews. Covers purpose, positioning, audience, personality, voice, narrative, and founder-brand tension across 8…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/brand-discovery/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/brand-discovery/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [brand-voice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5ff15997b9eadc5b99278137.json) — Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency…<br>
@@ -231,8 +237,6 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L135) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_generation_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afcb7c806c48e1939d8980946.json) — Export only the audio file from a generation.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L166) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [export_invoices](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A93df4cfffa701f138d54de7b.json) — Source-declared api `export_invoices`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L20) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7da78bae3d350d9addbc249a.json) — Export a voice profile as a ZIP archive.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L282) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_story_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a7c6fcd2f46452b628ef820.json) — Export story as single mixed audio file.<br>
@@ -291,8 +295,6 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L227) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_models_cache_dir](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6e2dd8533b1d6d46249df304.json) — Get the path to the HuggingFace model cache directory.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/models.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/models.py#L114) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [get_or_create_invoice_by_order_id](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83e6ac52929e0ea9b196574b.json) — Source-declared api `get_or_create_invoice_by_order_id`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L45) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae081b7bcf57382f820192480.json) — Get a voice profile by ID.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L110) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_avatar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A856712b7e77779fa6c2da9cc.json) — Get avatar image for a profile.<br>
@@ -301,8 +303,6 @@ Speech interfaces, transcription, speech generation and voice agents.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L311) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_profile_samples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aab472b44c10f034dcf53deb2.json) — Get all samples for a profile.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L195) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
-- [get_refund](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c71564e19e806f2b334d49a.json) — Source-declared api `get_refund`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/invoices.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/invoices.py#L91) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_rocm_download_progress](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abdc08fb51cda24f8cc3066c7.json) — Get ROCm backend download progress via Server-Sent Events.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/rocm.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/rocm.py#L63) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [get_rocm_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac0a5efcfab10b56cff4ce013.json) — Get ROCm backend download/availability status.<br>

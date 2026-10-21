@@ -2,7 +2,7 @@
 
 API surfaces, client SDKs and service integrations.
 
-**1,501 entries** · Alphabetical · 11 pages.
+**1,403 entries** · Alphabetical · 10 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -56,8 +56,6 @@ API surfaces, client SDKs and service integrations.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L1240) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [add_credential_pool_entry](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aed44720bbe6cbd0ccaf5ae9a.json) — POST /api/credentials/pool - handler add_credential_pool_entry<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L13858) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [add_license](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53984986bb687c3aac60a536.json) — Source-declared api `add_license`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/plugins.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/plugins.py#L80) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [add_link](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab04a85ba9ff1d51fd5b7bb51.json) — POST /links - handler add_link<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L1266) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [add_mcp_server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abaddf574b2630cef2ef0b7c7.json) — POST /api/mcp/servers - handler add_mcp_server<br>
@@ -306,6 +304,8 @@ API surfaces, client SDKs and service integrations.
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [enterprise/backend/src/baserow_enterprise/data_sync/data_sync_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/enterprise/backend/src/baserow_enterprise/data_sync/data_sync_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [Baserow REST API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A580cada755ba48d009793644.json) — Token-authenticated HTTP API and generated OpenAPI surface for Baserow workspace and database operations.<br>
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/apis/rest-api.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/apis/rest-api.md#L1) · API · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Baserow Slack Bot Integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A478d052caa5744d4cea77289.json) — Slack bot credential and service integration for workflow actions.<br>
+  Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/contrib/integrations/slack/integration_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/contrib/integrations/slack/integration_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 
 ## Pages
 
@@ -319,4 +319,3 @@ API surfaces, client SDKs and service integrations.
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
 - [Page 10](page-10.md)
-- [Page 11](page-11.md)

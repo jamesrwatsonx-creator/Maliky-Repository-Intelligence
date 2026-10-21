@@ -1,0 +1,61 @@
+{
+  "id": "entity:dc388f668f4bde9b2e1d9245",
+  "entity_type": "SERVICE",
+  "name": "Bitcart Coin Daemon Framework",
+  "description": "Authenticated aiohttp daemon framework with extended JSON-RPC 2.0 execution, WebSocket notifications, specifications and coin-specific configuration.",
+  "source": {
+    "repository_id": "repository:1418688735",
+    "repository_name": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "upstream_url": "https://github.com/bitcart/bitcart",
+    "source_path": "daemons/base.py",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "inspection_date": "2026-10-21T01:02:33.922076+00:00",
+    "blob_sha": "09154b81b6cf5bae18623afe033090c0620ddc6b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/daemons/base.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:blockchain-web3-security",
+    "category:commerce-e-commerce",
+    "category:distributed-systems",
+    "category:finance-accounting",
+    "category:message-event-systems",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:22",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bitcart-coin-daemon-framework"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "aiohttp",
+      "coin-specific wallet or RPC implementation",
+      "daemon authentication secret"
+    ],
+    "overlap": "Base implementation shared by the ready coin daemons.",
+    "license": "MIT",
+    "protocol": "extended JSON-RPC 2.0",
+    "websocket_notifications": true
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "FRAMEWORK"
+}

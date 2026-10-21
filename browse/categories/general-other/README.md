@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**1,453 entries** · Alphabetical · 10 pages.
+**1,326 entries** · Alphabetical · 9 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -116,8 +116,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/apify-mcp-server) · [package.json](https://github.com/jamesrwatsonx-creator/apify-mcp-server/blob/91ee491b7337575f8ba747ad7b39d64815659d4c/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [add-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8f8501bbdf352c434c0d99e5.json) — The open agent skills ecosystem<br>
   Source: [jamesrwatsonx-creator/skills-finds](https://github.com/jamesrwatsonx-creator/skills-finds) · [package.json](https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · CLI tools
-- [add_license](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53984986bb687c3aac60a536.json) — Source-declared api `add_license`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/plugins.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/plugins.py#L80) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [add_profile_sample](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aea1d8a90fe3706b26e72c4b7.json) — Add a sample to a voice profile.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/profiles.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/profiles.py#L154) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [add_story_item](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abfa4e51c7e5123e8700d3c2a.json) — Add a generation to a story.<br>
@@ -236,14 +234,10 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/open-seo](https://github.com/jamesrwatsonx-creator/open-seo) · [badseo/package.json](https://github.com/jamesrwatsonx-creator/open-seo/blob/cd6a782092556d6f7a0e3ab1cdb66a4dada30e28/badseo/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab9fc02aa0b8598a480379417.json) — Universal drop-in replacement for Base44 with zero code changes required. Migrate any Base44 app to Supabase with 100% API compatibility.<br>
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [package.json](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
-- [batch_action](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A35120442bc99efad68c0f005.json) — Source-declared api `batch_action`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/token.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/token.py#L119) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f2d635894c059615869d179.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86b1175a8035bb26e7b90d37.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
-- [bitcart-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb360f0c0454eff3321d00dd.json) — Bitcart Merchants API<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [blog-site](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9e22d9757f57114c6414a386.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/worldmonitor) · [blog-site/package.json](https://github.com/jamesrwatsonx-creator/worldmonitor/blob/902cd7a162f2bfb7da49c91554a19c08ee84d089/blog-site/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [Board](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4177c27b2f3f37471d34bb5.json) — Exported JSX component candidate<br>
@@ -302,10 +296,16 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/CapturesPage.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/CapturesPage.tsx#L123) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [CapturesTab](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae1f79b2068bc997d73fd15af.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/CapturesTab/CapturesTab.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/CapturesTab/CapturesTab.tsx#L134) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [categories](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A80e00ebc36fdb49c3f4ed7b5.json) — Source-declared api `categories`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/products.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/products.py#L24) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [caveman](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7afcf5f850d0db32344b0a40.json) — Caveman installer — detects your AI coding agents and installs caveman for each one.<br>
   Source: [jamesrwatsonx-creator/caveman](https://github.com/jamesrwatsonx-creator/caveman) · [package.json](https://github.com/jamesrwatsonx-creator/caveman/blob/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [caveman-installer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3ee812ec55e58c46041a026a.json) — Caveman installer — detects your AI coding agents and installs caveman for each one.<br>
+  Source: [jamesrwatsonx-creator/caveman](https://github.com/jamesrwatsonx-creator/caveman) · [package.json](https://github.com/jamesrwatsonx-creator/caveman/blob/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [ChamberPanel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fcd7f997f414a53ab53932b.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/ui/ChamberPanel.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/ui/ChamberPanel.tsx#L7) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [ChangelogPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adf4c0ff3092968fcbd1bc253.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/ChangelogPage.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/ChangelogPage.tsx#L214) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
+- [chat_completions](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A412b116fc03bb1519f8be6ab.json) — Source-declared api `chat_completions`.<br>
+  Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · [skillclaw/api_server.py](https://github.com/jamesrwatsonx-creator/SkillClaw/blob/3938f7537645c961d94498a0a79fc0a977019595/skillclaw/api_server.py#L1570) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 
 ## Pages
 
@@ -318,4 +318,3 @@ Canonical operational taxonomy view generated from registry assignments.
 - [Page 7](page-7.md)
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
-- [Page 10](page-10.md)

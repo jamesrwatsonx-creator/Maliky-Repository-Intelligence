@@ -1,6 +1,6 @@
 # Workflows — page 2
 
-2,376 catalog entries · Sorted alphabetically by name · Page 2 of 16.
+2,372 catalog entries · Sorted alphabetically by name · Page 2 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

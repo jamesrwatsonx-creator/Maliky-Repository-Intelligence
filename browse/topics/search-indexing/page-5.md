@@ -1,9 +1,13 @@
 # Search & Indexing — page 5
 
-675 catalog entries · Sorted alphabetically by name · Page 5 of 5.
+677 catalog entries · Sorted alphabetically by name · Page 5 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [survey-design-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8d8d2e2d00d244bda31b43be.json) — Design and analyze user surveys for UX research<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/survey-design/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/survey-design/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [survey-research-director](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a9dc8e0f377c3587b96a5a1.json) — Oversee survey design, sampling, administration, and quality control for population-based studies<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/agents/survey-research-director/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/agents/survey-research-director/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [SV2TTS demo_cli.py](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad36be8485e74c126bda211b0.json) — Command-line configuration and inference demonstration for loading SV2TTS checkpoints, cloning a reference voice and synthesizing arbitrary text.<br>
   Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · [demo_cli.py](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning/blob/890f3a03187195b9829db2079b75c2ba2ab0405c/demo_cli.py#L14) · CLI · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
 - [SV2TTS Voice Cloning Pipeline](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa1a82a6ca79ec7b75300ced7.json) — Three-stage inference composition that embeds a reference speaker, synthesizes text-conditioned spectrograms and vocodes them into speech.<br>

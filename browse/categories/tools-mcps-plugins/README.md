@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**245 entries** · Alphabetical · 2 pages.
+**246 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -48,6 +48,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [backend/src/baserow/core/mcp/__init__.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/backend/src/baserow/core/mcp/__init__.py#L45) · MCP_SERVER · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [Baserow Plugin Framework](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A13edd4b670c886b1f52eb293.json) — Experimental self-hosted extension framework for adding field, view, filter, sort, formula, page, component and third-party integration behavior to Baserow.<br>
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [docs/plugins/introduction.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/docs/plugins/introduction.md#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
+- [Bitcart Plugin System](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2611590bc62eb8c74d371c46.json) — Installable archive-based plugin system spanning backend, admin, store and deployment assets with hooks, filters, settings and license handling.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/services/plugin_manager.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/services/plugin_manager.py#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
 - [channels_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae1368ecf5a9340623c9d0744.json) — List available messaging channels and targets across platforms.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [mcp_serve.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/mcp_serve.py#L933) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers
 - [channels_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6ad035e0c352c04208ac825.json) — List Slack channels visible to the authenticated identity.<br>
@@ -303,8 +305,6 @@ Canonical operational taxonomy view generated from registry assignments.
 - [mcp-config-evalview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1d073b6d74d1c660a54dca60.json) — Recommended MCP server config "evalview": AI agent regression testing — snapshot behavior, detect regressions in tool calls and output quality. 8 tools: create_test, run_snapshot, run_check, list_tests, validate_skill,…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-exa-web-search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a9c5049eadc6223057b9816.json) — Recommended MCP server config "exa-web-search": Web search, research, and data ingestion via Exa API — prefer task-scoped use for broader research after GitHub search and primary docs<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
-- [mcp-config-fal-ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A462313cc1b53662151dfb808.json) — Recommended MCP server config "fal-ai": AI image/video/audio generation via fal.ai models<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 
 ## Pages

@@ -1,0 +1,58 @@
+{
+  "id": "entity:bb0486d4f85bb1b37267db47",
+  "entity_type": "API",
+  "name": "Bitcart Product API",
+  "description": "Store product catalog, image, category, price and CRUD operations.",
+  "source": {
+    "repository_id": "repository:1418688735",
+    "repository_name": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "upstream_url": "https://github.com/bitcart/bitcart",
+    "source_path": "api/views/products.py",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "inspection_date": "2026-10-21T01:02:33.895082+00:00",
+    "blob_sha": "6825b036194552f8ade6c7a447aea867cdb821c8",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/products.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:blockchain-web3-security",
+    "category:commerce-e-commerce",
+    "category:distributed-systems",
+    "category:finance-accounting",
+    "category:message-event-systems",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:16",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bitcart-product-api"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bitcart Merchants API",
+      "operation-specific authorization scope"
+    ],
+    "overlap": "Stable router-level API boundary; individual route functions are folded into this surface.",
+    "license": "MIT"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "INTERFACE"
+}

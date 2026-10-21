@@ -1,0 +1,58 @@
+{
+  "id": "entity:eda98eb66323c97920d9c9f6",
+  "entity_type": "API",
+  "name": "Bitcart Health API",
+  "description": "Service health and readiness checks.",
+  "source": {
+    "repository_id": "repository:1418688735",
+    "repository_name": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "upstream_url": "https://github.com/bitcart/bitcart",
+    "source_path": "api/views/health.py",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "inspection_date": "2026-10-21T01:02:33.874811+00:00",
+    "blob_sha": "cec1c1ade11b692b769d885a9df8059039e501a9",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/health.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:blockchain-web3-security",
+    "category:commerce-e-commerce",
+    "category:distributed-systems",
+    "category:finance-accounting",
+    "category:message-event-systems",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:16",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bitcart-health-api"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bitcart Merchants API",
+      "operation-specific authorization scope"
+    ],
+    "overlap": "Stable router-level API boundary; individual route functions are folded into this surface.",
+    "license": "MIT"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "INTERFACE"
+}

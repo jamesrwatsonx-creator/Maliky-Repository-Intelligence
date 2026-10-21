@@ -624,7 +624,8 @@ def validate():
             required_phases=('structure','entity_extraction','capability_analysis','validation')
             if any(not r.get('phases',{}).get(phase) for phase in required_phases): errors.append(prefix+': completion lacks required lean phases')
             if not r.get('entity_census') or any(c['detected']<c['catalogued'] or not c['reviewed'] for c in r['entity_census'].values()): errors.append(prefix+': unreconciled lean census')
-            if evidence.get('unread_source_paths') or evidence.get('errors') or not evidence.get('tree_complete'): errors.append(prefix+': incomplete source coverage')
+            unresolved_errors=[error for error in evidence.get('errors',[]) if not error.get('review_resolution')]
+            if evidence.get('unread_source_paths') or unresolved_errors or not evidence.get('tree_complete'): errors.append(prefix+': incomplete source coverage')
             if any(e['review_status']!='VERIFIED' for e in current_ents): errors.append(prefix+': unreviewed entities')
             if not current_ents:
                 disposition=r.get('zero_entity_disposition',{})

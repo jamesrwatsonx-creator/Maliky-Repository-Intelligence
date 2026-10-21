@@ -1,9 +1,13 @@
 # Search & Indexing — page 3
 
-675 catalog entries · Sorted alphabetically by name · Page 3 of 5.
+677 catalog entries · Sorted alphabetically by name · Page 3 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
+  Source: [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Voice-website.crawl4ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI, LLM projects
+- [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342370171.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · AI agents, APIs, Generative AI
 - [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342848580.json) — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface<br>
   Source: [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/worldmonitor) · REPOSITORY · PARTIAL · PINNED_SOURCE · DevOps, Research projects
 - [jamesrwatsonx-creator/xerj](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426072976.json) — XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG,…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/dataflows/reddit.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/dataflows/reddit.py#L59) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [reddit/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A47e360ec69e3c168028dfc99.json) — Domain skill: Reddit — Scraping & Post Extraction. Reddit's "new" web UI (reddit.com) is a Lit / web-components SPA built around custom elements (shreddit-post, shreddit-comment, faceplate-). This makes DOM extraction…<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/reddit/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/reddit/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [Remove Annotations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abc41efc252b1b7f278963163.json) — Strip comments, highlights, and links.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/remove-annotations.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/remove-annotations.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
-- [Remove Metadata](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee52744d72596264803ec3f6.json) — Strip hidden data from your PDF.<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/remove-metadata.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/remove-metadata.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 
 ## Pages
 

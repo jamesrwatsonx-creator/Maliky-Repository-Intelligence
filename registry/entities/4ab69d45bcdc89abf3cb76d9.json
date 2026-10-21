@@ -1,0 +1,58 @@
+{
+  "id": "entity:4ab69d45bcdc89abf3cb76d9",
+  "entity_type": "API",
+  "name": "Bitcart Cryptocurrency Metadata API",
+  "description": "Supported cryptocurrency, token, exchange-rate, explorer and RPC metadata operations.",
+  "source": {
+    "repository_id": "repository:1418688735",
+    "repository_name": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "upstream_url": "https://github.com/bitcart/bitcart",
+    "source_path": "api/views/cryptos.py",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "inspection_date": "2026-10-21T01:02:33.865265+00:00",
+    "blob_sha": "86e697bf21df2d103cbc64946e47e72d38498f5a",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/cryptos.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:blockchain-web3-security",
+    "category:commerce-e-commerce",
+    "category:distributed-systems",
+    "category:finance-accounting",
+    "category:message-event-systems",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:16",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bitcart-cryptocurrency-metadata-api"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bitcart Merchants API",
+      "operation-specific authorization scope"
+    ],
+    "overlap": "Stable router-level API boundary; individual route functions are folded into this surface.",
+    "license": "MIT"
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "INTERFACE"
+}

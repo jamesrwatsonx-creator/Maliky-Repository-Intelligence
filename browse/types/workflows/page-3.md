@@ -1,6 +1,6 @@
 # Workflows — page 3
 
-2,376 catalog entries · Sorted alphabetically by name · Page 3 of 16.
+2,372 catalog entries · Sorted alphabetically by name · Page 3 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -12,8 +12,6 @@
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad16a944308fe285458be07aa.json) — Source-declared workflow `CI`.<br>
   Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/playwright-mcp/blob/16cf228d7b02c07f800ec3423f471ec2a42d22a9/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad4ca9901b7993ce0be8697a2.json) — Source-declared workflow `CI`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeffaba523acff9768cfdf775.json) — Source-declared workflow `CI`.<br>
   Source: [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/webmcp) · [.github/workflows/auto-publish.yml](https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/.github/workflows/auto-publish.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af26b6a838f1d3f3174660ed6.json) — CI workflow for the Python monorepo (tests, with a coverage-comment step).<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/technical-seo-audit.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/technical-seo-audit.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [digital-marketing/video-content-production](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa89df6559977cfe4ad17b49e.json) — Process for planning, producing, and distributing video content across platforms including YouTube, social media, and website, from concept through post-production and publishing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/video-content-production.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/video-content-production.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [Docker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A48ebb2e564f6eea22e00ff25.json) — Docker image publish workflow.<br>
+  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [.github/workflows/docker-publish.yml](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/workflows/docker-publish.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 
 ## Pages
 

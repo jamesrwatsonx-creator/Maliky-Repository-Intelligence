@@ -1,15 +1,9 @@
 # Prompts & Workflows — page 8
 
-3,050 catalog entries · Sorted alphabetically by name · Page 8 of 21.
+3,045 catalog entries · Sorted alphabetically by name · Page 8 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1334697613.json) — The James Watson Gauntlet Loop is a recursive multi-agent framework forcing AI systems to challenge assumptions, evidence, beliefs, and more. Built to move beyond linear prompting toward self-correcting agentic…<br>
-  Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Research projects
-- [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426111770.json) — Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini,…<br>
-  Source: [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/jev-guard) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342397694.json) — Celebrate more with this lightweight confetti particle system 🎊<br>
-  Source: [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Konfetti) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [jamesrwatsonx-creator/langflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346376406.json) — Langflow is a powerful tool for building and deploying AI-powered agents and workflows.<br>
   Source: [jamesrwatsonx-creator/langflow](https://github.com/jamesrwatsonx-creator/langflow) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344492471.json) — A complete voice AI frontend app for LiveKit Agents with Next.js<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-quick-flow.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-quick-flow.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/bottom-up](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abbf67a711615cb174d51901c.json) — Bottom-Up Development - Build foundational components first, compose upward<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bottom-up.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bottom-up.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/build-realtime-remediation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac4fbdb98d18fe579aa391b8b.json) — Build Realtime Remediation - Monitor CI/build state and automatically remediate failures<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/build-realtime-remediation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/build-realtime-remediation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/cc10x/cc10x-build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae15b5cb869ec965bd39ad763.json) — CC10X BUILD Workflow - TDD-enforced feature development with parallel code review, silent failure hunting, and integration verification<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/cc10x-build.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/cc10x-build.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/cc10x/cc10x-debug](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a8925e79ccdae8d6f1d2dd5.json) — CC10X DEBUG Workflow - Log-first bug investigation with root cause analysis, targeted fix, code review, and evidence-backed verification. Phase 0: Root-cause diagnosis with git diff analysis, 2+ evidence signals, no…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/cc10x-debug.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/cc10x-debug.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

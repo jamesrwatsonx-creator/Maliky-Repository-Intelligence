@@ -1,11 +1,9 @@
 # Prompts & Workflows — page 6
 
-3,050 catalog entries · Sorted alphabetically by name · Page 6 of 21.
+3,045 catalog entries · Sorted alphabetically by name · Page 6 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [domains/science/scientific-discovery/triz-contradiction-resolution](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af67cdf908674eabefba746ff.json) — Apply TRIZ inventive principles and contradiction matrix - Guides practitioners through TRIZ (Theory of Inventive Problem Solving) methodology to identify and resolve technical and physical contradictions using the 40…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/triz-contradiction-resolution.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/triz-contradiction-resolution.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [draft-nda](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae3fef4e8f116611dd2e49fa1.json) — Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a…<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-toolkit/skills/draft-nda/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-toolkit/skills/draft-nda/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [drain](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acc1400f30f7225cb7faee22a.json) — Dashboard auth provider — non-interactive shared-bearer-secret for the gateway drain-control endpoint. The first consumer of the generic token-auth capability (supports_token/verify_token). nous-account-service…<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [.github/workflows/lint.yml](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/workflows/lint.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [goodreads/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac6033f4aa93edfd3f079bf3c.json) — Domain skill: Goodreads — Book Data Extraction. Field-tested against goodreads.com on 2026-04-18 via httpget (no browser required).<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/goodreads/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/goodreads/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
+- [google-cloud-solution-agentic-ai-data-science-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e3963588d88f69dba17661a.json) — Designs a tailored multi-product agentic data science architecture on Google Cloud that incorporates opinionated best practices. Use when architecting multi-product solutions for agent-based data analytics or ML…<br>
+  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 
 ## Pages
 

@@ -1,11 +1,9 @@
 # Workflows — page 4
 
-2,376 catalog entries · Sorted alphabetically by name · Page 4 of 16.
+2,372 catalog entries · Sorted alphabetically by name · Page 4 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [Docker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A48ebb2e564f6eea22e00ff25.json) — Docker image publish workflow.<br>
-  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [.github/workflows/docker-publish.yml](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/.github/workflows/docker-publish.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [Docker Build Test](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa756fb8d96f2a2ef60e5b57e.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/aider](https://github.com/jamesrwatsonx-creator/aider) · [.github/workflows/docker-build-test.yml](https://github.com/jamesrwatsonx-creator/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/.github/workflows/docker-build-test.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [Docker Build, Test, and Publish](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5cfdc3c6b61758d658226c66.json) — Docker image build, test and publish workflow.<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/education/lms-administration.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/education/lms-administration.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [education/peer-observation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A500c5436dff116f70b458b72.json) — Structured peer observation protocols with pre-observation conferences, classroom observations, and constructive feedback sessions<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/education/peer-observation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/education/peer-observation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [education/quality-matters-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9d8c9e921c1cc9b7bb593e4a.json) — Applying QM rubric standards to evaluate and improve online course design across eight general standards<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/education/quality-matters-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/education/quality-matters-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

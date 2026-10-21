@@ -1,9 +1,15 @@
 # Realtime — page 4
 
-486 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+489 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [test_mcp_server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6436a84cd2ce8ef82bfdcd5f.json) — POST /api/mcp/servers/{name}/test - Connect to the server, list its tools, disconnect. Returns tool list.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L159) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [test_messaging_platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1476fb6b333497a5b37d3a3a.json) — POST /api/messaging/platforms/{platform_id}/test - handler test_messaging_platform<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L10280) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [toggle_skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7593e467f3b012fb7c86f3ae.json) — PUT /api/skills/toggle - handler toggle_skill<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/skills.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/skills.py#L466) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [toggle_toolset](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7dbe355b96e62a02eecdef92.json) — PUT /api/tools/toolsets/{name} - Enable/disable a configurable toolset for its configuration platform.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L124) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [transcribe_audio_upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac075a046145c78dc215ac88b.json) — POST /api/audio/transcribe - handler transcribe_audio_upload<br>

@@ -1,6 +1,6 @@
 # Prompts & Workflows — page 3
 
-3,050 catalog entries · Sorted alphabetically by name · Page 3 of 21.
+3,045 catalog entries · Sorted alphabetically by name · Page 3 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -236,8 +236,6 @@
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad16a944308fe285458be07aa.json) — Source-declared workflow `CI`.<br>
   Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/playwright-mcp/blob/16cf228d7b02c07f800ec3423f471ec2a42d22a9/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad4ca9901b7993ce0be8697a2.json) — Source-declared workflow `CI`.<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [.github/workflows/ci.yml](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/.github/workflows/ci.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeffaba523acff9768cfdf775.json) — Source-declared workflow `CI`.<br>
   Source: [jamesrwatsonx-creator/webmcp](https://github.com/jamesrwatsonx-creator/webmcp) · [.github/workflows/auto-publish.yml](https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/.github/workflows/auto-publish.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af26b6a838f1d3f3174660ed6.json) — CI workflow for the Python monorepo (tests, with a coverage-comment step).<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/meta/harnesses/claude-code/plugin-creation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/meta/harnesses/claude-code/plugin-creation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [cleanup-runs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A83457528f40f826a3690cc54.json) — Scan .a5c/runs and .a5c/processes, aggregate insights from completed/failed runs, summarize to docs, then clean up old data.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/cradle/cleanup-runs.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/cradle/cleanup-runs.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [clear_cache](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae37e84c64dac8fd669809226.json) — Clear all voice prompt caches (memory and disk).<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/tasks.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/tasks.py#L33) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 
 ## Pages
 

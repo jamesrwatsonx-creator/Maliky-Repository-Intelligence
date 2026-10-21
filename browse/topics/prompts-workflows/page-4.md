@@ -1,11 +1,9 @@
 # Prompts & Workflows — page 4
 
-3,050 catalog entries · Sorted alphabetically by name · Page 4 of 21.
+3,045 catalog entries · Sorted alphabetically by name · Page 4 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [clear_cache](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae37e84c64dac8fd669809226.json) — Clear all voice prompt caches (memory and disk).<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/tasks.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/tasks.py#L33) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [cli-snapshot-tester](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0311df7263bee2625bb462ac.json) — Set up snapshot testing for CLI output with update workflows and diff reporting.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/cli-snapshot-tester/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/cli-snapshot-tester/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [cli-ux-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa7157fe83141f7d74ab4a5d8.json) — Expert in CLI user experience design, command naming conventions, and user workflow optimization. Provides guidance on creating intuitive, user-friendly command-line interfaces.<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/influencer-campaign.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/influencer-campaign.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [digital-marketing/influencer-relationship](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A960ae86fa015c50e6ed8a9c1.json) — Ongoing process for building and nurturing long-term relationships with influencers and brand ambassadors, ensuring sustained partnerships and authentic advocacy<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/influencer-relationship.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/influencer-relationship.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [digital-marketing/keyword-seo-strategy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A159bb8eb1ca816619a9adf03.json) — Process for conducting comprehensive keyword research and developing an SEO content strategy to capture organic search opportunities and build topical authority<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/keyword-seo-strategy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/keyword-seo-strategy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

@@ -1,11 +1,9 @@
 # Prompts & Workflows — page 5
 
-3,050 catalog entries · Sorted alphabetically by name · Page 5 of 21.
+3,045 catalog entries · Sorted alphabetically by name · Page 5 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [digital-marketing/keyword-seo-strategy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A159bb8eb1ca816619a9adf03.json) — Process for conducting comprehensive keyword research and developing an SEO content strategy to capture organic search opportunities and build topical authority<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/keyword-seo-strategy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/keyword-seo-strategy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [digital-marketing/landing-page-optimization](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12f0b5e17846f983c878bace.json) — Process for creating, testing, and optimizing landing pages to maximize conversion rates for paid campaigns and lead generation initiatives<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/digital-marketing/landing-page-optimization.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/digital-marketing/landing-page-optimization.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [digital-marketing/lead-scoring](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79c9baf0b69c90b0d17adac8.json) — Process for developing and implementing lead scoring models that qualify leads based on demographic fit and behavioral engagement, enabling sales prioritization<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/tool-as-lens.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/tool-as-lens.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/scientific-discovery/triangulation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A11ac6b65df847cfc47aeb357.json) — Triangulation: Use multiple independent methods to converge on a result<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/triangulation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/triangulation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [domains/science/scientific-discovery/triz-contradiction-resolution](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af67cdf908674eabefba746ff.json) — Apply TRIZ inventive principles and contradiction matrix - Guides practitioners through TRIZ (Theory of Inventive Problem Solving) methodology to identify and resolve technical and physical contradictions using the 40…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/triz-contradiction-resolution.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/triz-contradiction-resolution.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

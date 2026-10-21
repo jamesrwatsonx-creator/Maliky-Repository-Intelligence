@@ -1,0 +1,61 @@
+{
+  "id": "entity:dbf6f293957790fd488e25aa",
+  "entity_type": "SERVICE",
+  "name": "Bitcart Tron Daemon",
+  "description": "Tron account, token, transaction and payment daemon.",
+  "source": {
+    "repository_id": "repository:1418688735",
+    "repository_name": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+    "upstream_url": "https://github.com/bitcart/bitcart",
+    "source_path": "daemons/trx.py",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "inspection_date": "2026-10-21T01:02:33.947043+00:00",
+    "blob_sha": "995720e65a7bd82fcf3810b18f4363d9bb855e5e",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/daemons/trx.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:apis",
+    "category:application-security",
+    "category:backend-services",
+    "category:blockchain-web3-security",
+    "category:commerce-e-commerce",
+    "category:distributed-systems",
+    "category:finance-accounting",
+    "category:message-event-systems",
+    "category:plugins-extensions"
+  ],
+  "operational_category": "operational:22",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:bitcart-trx-payment-daemon"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Bitcart daemon framework",
+      "coin network provider or wallet library",
+      "wallet material and RPC credentials"
+    ],
+    "overlap": "Ready coin-specific implementation of the shared daemon protocol.",
+    "license": "MIT",
+    "currency_symbol": "TRX",
+    "wallet_or_private_key_access": true
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "SECURITY REVIEW REQUIRED",
+  "contribution_role": "SERVICE"
+}

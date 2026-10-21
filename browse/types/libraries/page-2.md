@@ -1,11 +1,9 @@
 # Libraries & Packages — page 2
 
-298 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+297 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jarvis-mission-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2511b1c4df0f73d609f312a.json) — JARVIS Mission Control — agent task management system with CLI<br>
-  Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [jarvis-mission-control-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa336af5797f189a2436ec025.json) — Backend server for JARVIS Mission Control - handles data persistence, real-time updates, and OpenClaw agent integration<br>
   Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [server/package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/server/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [letta-mobile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A529fcdc94c6f66b2c8084388.json) — Expo/React Native reference application package for the Letta Agent SDK, targeting iOS, Android and Expo Go.<br>

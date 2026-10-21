@@ -1,9 +1,13 @@
 # Search & Indexing — page 2
 
-675 catalog entries · Sorted alphabetically by name · Page 2 of 5.
+677 catalog entries · Sorted alphabetically by name · Page 2 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Encrypt PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae7b2a5060f3b30171e696f49.json) — Lock your PDF by adding a password.<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/protect-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/protect-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
+- [ethnographic-methods-advisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A85b437d3806b81a57f814973.json) — Support ethnographic research design and qualitative analysis including participant observation, interview design, field ethics, qualitative coding, and thick description<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/humanities/agents/ethnographic-methods-advisor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/humanities/agents/ethnographic-methods-advisor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [ethnographic-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3143990a8cf8ddae5472f348.json) — Conduct participant observation, fieldwork, immersion, and thick description documentation in diverse cultural settings<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/skills/ethnographic-research/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/skills/ethnographic-research/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [etsy/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A88dce6e361364b050c11a5b8.json) — Domain skill: Etsy — Scraping & Data Extraction. Field-tested against www.etsy.com on 2026-04-18 using httpget (no browser) and direct urllib probes.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs, Developer tools
 - [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398515783.json) — Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation<br>
   Source: [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Business applications, Creative tools
-- [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247320419.json) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN<br>
-  Source: [jamesrwatsonx-creator/Voice-website.crawl4ai](https://github.com/jamesrwatsonx-creator/Voice-website.crawl4ai) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Frontend applications, Generative AI, LLM projects
-- [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342370171.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
-  Source: [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · AI agents, APIs, Generative AI
 
 ## Pages
 

@@ -2,7 +2,7 @@
 
 Realtime messaging, streaming, collaboration and low-latency systems.
 
-**486 entries** · Alphabetical · 4 pages.
+**489 entries** · Alphabetical · 4 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -106,6 +106,10 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/bigquery-bigframes/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/bigquery-bigframes/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [bigtable-basics](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A026eddd704ed6d10565f790f.json) — Assists in provisioning instances/tables, designing performant schemas, and querying data in Bigtable. Use when designing Bigtable row keys, configuring column families, writing SQL queries or client library code…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/bigtable-basics/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/bigtable-basics/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
+- [Bitcart Coin Daemon Framework](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc388f668f4bde9b2e1d9245.json) — Authenticated aiohttp daemon framework with extended JSON-RPC 2.0 execution, WebSocket notifications, specifications and coin-specific configuration.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [daemons/base.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/daemons/base.py#L1) · SERVICE · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
+- [Bitcart WebSocket API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A980c49f3a27e8168cb96d9c8.json) — Authenticated realtime event subscription surface.<br>
+  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [api/views/websocket.py](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/api/views/websocket.py#L1) · API · VERIFIED · PINNED_SOURCE · APIs, Application security, Backend services
 - [browser-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aefb26be6da602557a00fe92a.json) — PyPI-style package browser-harness 0.1.9 (MIT): helpers, daemon, recorder, video, cloud auth and telemetry; depends on cdp-use, fetch-use, pillow and websockets.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/pyproject.toml#L1) · PACKAGE · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [bulk_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00e2b41d3bc92ca6e4d326e8.json) — POST /tasks/bulk - Apply the same patch to every id in ``payload.ids``.<br>
@@ -302,10 +306,6 @@ Realtime messaging, streaming, collaboration and low-latency systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18100) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [get_dashboard_themes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa49640364a45fa2af578e330.json) — GET /api/dashboard/themes - Return available themes and the currently active one.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L17819) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_defaults](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aff460339aac1743463449670.json) — GET /api/config/defaults - handler get_defaults<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L6861) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [get_egress_status](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af333048c525bb9c547cf3dc1.json) — GET /api/egress/status - Dashboard/Desktop-readable egress proxy status and remediation text.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L6876) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

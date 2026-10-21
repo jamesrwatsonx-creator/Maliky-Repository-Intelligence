@@ -2,7 +2,7 @@
 
 Individually searchable libraries & packages from the public owned catalog.
 
-**298 entries** · Alphabetical · 2 pages.
+**297 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -158,8 +158,6 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/base44-to-supabase-sdk](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk) · [package.json](https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [binary](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A86b1175a8035bb26e7b90d37.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/continue](https://github.com/jamesrwatsonx-creator/continue) · [binary/package.json](https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/binary/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
-- [bitcart-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb360f0c0454eff3321d00dd.json) — Bitcart Merchants API<br>
-  Source: [jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
 - [blog-site](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9e22d9757f57114c6414a386.json) — Description not available in current evidence.<br>
   Source: [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/worldmonitor) · [blog-site/package.json](https://github.com/jamesrwatsonx-creator/worldmonitor/blob/902cd7a162f2bfb7da49c91554a19c08ee84d089/blog-site/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 - [book-to-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab11c156926e4951c53ce7424.json) — Convert books and documents into structured, on-demand agent skills.<br>
@@ -306,6 +304,8 @@ Individually searchable libraries & packages from the public owned catalog.
   Source: [jamesrwatsonx-creator/InvokeAI](https://github.com/jamesrwatsonx-creator/InvokeAI) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/InvokeAI/blob/b4224d97fdb16d4124d49da725e5979f2c3be576/pyproject.toml#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 - [james-ai-operator-dashboard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa28a68c3fe2bc52a1478eb03.json) — Source-declared package `james-ai-operator-dashboard`.<br>
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [package.json](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE · Libraries/packages
+- [jarvis-mission-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2511b1c4df0f73d609f312a.json) — JARVIS Mission Control — agent task management system with CLI<br>
+  Source: [jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw) · [package.json](https://github.com/jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw/blob/1208038f5f981a86ce5ad5c3226a9213bf6b2564/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
 
 ## Pages
 
