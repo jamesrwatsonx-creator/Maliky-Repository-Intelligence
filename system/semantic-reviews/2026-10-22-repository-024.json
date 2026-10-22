@@ -1,0 +1,1480 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Review licensing, privacy, permissions and operational controls before production use."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation",
+                             "commit":  "2b6410459eeafc76d0f7e1e59e9163a989b99ef8",
+                             "purpose":  "Flax Engine project or tooling for authoring and running 3D game environments with a modern editor and runtime.",
+                             "categories":  [
+                                                "category:games-interactive-experiences",
+                                                "category:creative-tools",
+                                                "category:frameworks"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check Flax Engine and bundled asset terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Flax Engine",
+                                              "3D game development",
+                                              "environment creation",
+                                              "game editor",
+                                              "real-time rendering"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "3D environment authoring",
+                                                             "description":  "Provides scene and asset workflows for interactive 3D environments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "game runtime and rendering",
+                                                             "description":  "Runs interactive scenes and game behavior through the engine.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Flax 3D project",
+                                                              "purpose":  "Packages game creation workflows around the Flax engine.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Flax Engine",
+                                             "C# and native runtime",
+                                             "3D rendering"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a game project reference and verify engine version, assets and target platform support.",
+                             "risk_notes":  [
+                                                "Bundled assets and engine dependencies may have separate terms."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/contao",
+                             "commit":  "784f5bf880ae59f4f867edd5c5e921b191081e05",
+                             "purpose":  "Open-source content management system for building websites with structured content, themes, extensions and editorial workflows.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:media-publishing",
+                                                "category:business-applications"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "LGPL-3.0; extensions and themes may have distinct licenses.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Contao CMS",
+                                              "PHP content management",
+                                              "website publishing",
+                                              "editorial workflows",
+                                              "CMS extensions"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "structured content authoring",
+                                                             "description":  "Manages pages and structured records for websites.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "themes and extension ecosystem",
+                                                             "description":  "Customizes site behavior and presentation through packages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "editorial and access workflows",
+                                                             "description":  "Supports publishing administration and user permissions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Contao CMS platform",
+                                                              "purpose":  "Provides a flexible content publishing system for websites.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP/Symfony",
+                                             "database",
+                                             "web server"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for content sites and review extension compatibility and security updates.",
+                             "risk_notes":  [
+                                                "CMS administrator access, uploads and extensions are security-sensitive."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/open-webui",
+                             "commit":  "3660bc00fd807deced3400a63bfa6db47811a3bb",
+                             "purpose":  "Self-hosted web UI for interacting with local or remote language models, with chats, knowledge retrieval, tools and user management.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:generative-ai",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check repository license and each connected model/provider’s terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Open WebUI",
+                                              "local LLM chat",
+                                              "RAG",
+                                              "Ollama",
+                                              "AI assistant interface"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "model chat interface",
+                                                             "description":  "Provides a browser-based conversational UI for configured models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "knowledge retrieval and documents",
+                                                             "description":  "Supports document collections and retrieval-augmented responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tools and multi-user operation",
+                                                             "description":  "Adds tool integrations and administrative controls.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Open WebUI platform",
+                                                              "purpose":  "Combines model access, knowledge workflows and user-facing chat.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/TypeScript",
+                                             "database",
+                                             "Ollama or remote model APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for private model access with authentication, network restrictions and careful provider configuration.",
+                             "risk_notes":  [
+                                                "Uploaded documents and chats may contain sensitive data; tool permissions can enable external actions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/clipbucket-v5",
+                             "commit":  "01990c0fa7baf925d2a4cf6ec1b75b1341b7a486",
+                             "purpose":  "Video sharing and media publishing platform for uploading, organizing and streaming user-generated video content.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:web-applications",
+                                                "category:business-applications"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check repository license, media codecs and uploaded content rights.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ClipBucket",
+                                              "video sharing",
+                                              "media platform",
+                                              "video hosting",
+                                              "publishing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "video upload and streaming",
+                                                             "description":  "Manages user video uploads and playback workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "media catalog and community",
+                                                             "description":  "Organizes channels, categories and user interactions around videos.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "transcoding and deployment",
+                                                             "description":  "Supports processing media and operating a video service.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ClipBucket video platform",
+                                                              "purpose":  "Combines media publishing, streaming and community functions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP/web application",
+                                             "database",
+                                             "FFmpeg/media storage"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for authorized media hosting with moderation, upload scanning and storage planning.",
+                             "risk_notes":  [
+                                                "User-generated video, copyrighted content and uploaded files require governance and security controls."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/DeepSeek-Reasonix",
+                             "commit":  "b9cf32f81f8090b25084471dd84539fe421bc88b",
+                             "purpose":  "AI assistant or model application built around DeepSeek reasoning models, providing chat or reasoning-focused workflows.",
+                             "categories":  [
+                                                "category:generative-ai",
+                                                "category:ai-applications",
+                                                "category:machine-learning-models"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check software and DeepSeek model/API terms separately.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "DeepSeek Reasonix",
+                                              "reasoning model",
+                                              "AI chat",
+                                              "LLM assistant",
+                                              "model integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "reasoning model interaction",
+                                                             "description":  "Provides an interface to reasoning-capable language models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "assistant workflow",
+                                                             "description":  "Packages prompts and user interactions for problem solving.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Reasonix assistant",
+                                                              "purpose":  "Connects users to DeepSeek-style reasoning capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared web/runtime",
+                                             "DeepSeek APIs or local models"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Verify model availability and evaluate outputs against trusted evidence.",
+                             "risk_notes":  [
+                                                "Reasoning outputs can be incorrect and provider data policies must be reviewed."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/promptfoo",
+                             "commit":  "1205a2a2be77beb8505731515d0af1ee893cacb0",
+                             "purpose":  "Developer tool for evaluating, testing and red-teaming LLM applications, prompts and model providers.",
+                             "categories":  [
+                                                "category:ai-evaluation",
+                                                "category:developer-tools",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:23",
+                             "license_notes":  "MIT; hosted services and provider terms are separate.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Promptfoo",
+                                              "LLM evaluation",
+                                              "prompt testing",
+                                              "red teaming",
+                                              "AI security"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "prompt and model evaluations",
+                                                             "description":  "Runs structured test cases against prompts and providers.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "LLM red teaming",
+                                                             "description":  "Tests model applications for safety and security weaknesses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CI and reporting integration",
+                                                             "description":  "Connects evaluation results to developer workflows and release gates.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Promptfoo evaluation engine",
+                                                              "purpose":  "Makes model behavior testable across prompts and providers.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js/TypeScript",
+                                             "LLM provider APIs",
+                                             "CLI and CI"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use to test model behavior and include representative, privacy-safe cases in release checks.",
+                             "risk_notes":  [
+                                                "Red-team testing should remain scoped; evaluation datasets may contain sensitive prompts."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/androidOpenaiplugins",
+                             "commit":  "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+                             "purpose":  "Android plugin or integration package for connecting OpenAI APIs to mobile applications.",
+                             "categories":  [
+                                                "category:mobile-applications",
+                                                "category:apis",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "Check repository and OpenAI API terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Android OpenAI plugin",
+                                              "Kotlin API integration",
+                                              "mobile AI",
+                                              "Android SDK",
+                                              "LLM client"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "OpenAI API integration",
+                                                             "description":  "Connects Android app workflows to OpenAI model endpoints.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "mobile plugin packaging",
+                                                             "description":  "Provides reusable integration components for Android projects.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Android OpenAI integration",
+                                                              "purpose":  "Provides mobile-facing access to model-backed capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Kotlin/Java",
+                                             "Android",
+                                             "OpenAI API"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use through a secured backend; never embed long-lived API keys in a mobile client.",
+                             "risk_notes":  [
+                                                "API credentials and user prompts require secure handling and privacy review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/openbao",
+                             "commit":  "8d9d2a502fcfaf1c52805f187156c8797ee41f22",
+                             "purpose":  "Open-source secrets and identity management system for protecting, distributing and rotating credentials and sensitive data.",
+                             "categories":  [
+                                                "category:secrets-management",
+                                                "category:cybersecurity",
+                                                "category:cloud-infrastructure"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "MPL-2.0; plugins and integrations may have separate terms.",
+                             "asset_presence":  {
+                                                    "security":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OpenBao",
+                                              "secrets manager",
+                                              "credential vault",
+                                              "key management",
+                                              "identity secrets"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "secret storage and access",
+                                                             "description":  "Stores sensitive values behind authenticated policies and APIs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "dynamic credentials and rotation",
+                                                             "description":  "Issues or manages time-bound secrets for supported systems.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "identity, policies and deployment",
+                                                             "description":  "Controls access and supports secure service operation.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OpenBao secrets platform",
+                                                              "purpose":  "Provides self-hosted secret management and access controls.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go service",
+                                             "storage backend",
+                                             "identity providers"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use only with tested recovery, access policies, audit logging and key rotation procedures.",
+                             "risk_notes":  [
+                                                "Secrets management is critical infrastructure; operator mistakes can expose credentials or lock out services."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Chat-interface-LibreChat",
+                             "commit":  "385c6f8a1a42b5facdea5a9de5d00dd5e428ce45",
+                             "purpose":  "Self-hostable multi-provider AI chat interface supporting conversations, tools, file uploads and integrations with various model services.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:generative-ai",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "MIT; each model provider and plugin has separate terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LibreChat",
+                                              "multi-provider chat",
+                                              "AI assistant UI",
+                                              "model integrations",
+                                              "self-hosted LLM"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-model chat interface",
+                                                             "description":  "Provides a unified conversation UI across model providers.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tools, files and integrations",
+                                                             "description":  "Extends chat with callable tools and uploaded content.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "user management and deployment",
+                                                             "description":  "Supports operating a multi-user self-hosted assistant service.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "LibreChat assistant platform",
+                                                              "purpose":  "Combines chat UX with provider and tool integrations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js/TypeScript",
+                                             "database",
+                                             "model APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with authentication, provider-specific data controls and strict tool permissions.",
+                             "risk_notes":  [
+                                                "Chats, uploads and tools may expose sensitive data or perform external actions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/element-web-encryption-chat",
+                             "commit":  "02cee08b38be9515d849050a47176b3c494ee3a4",
+                             "purpose":  "Encrypted real-time messaging application or client based on Matrix/Element communication workflows.",
+                             "categories":  [
+                                                "category:message-event-systems",
+                                                "category:privacy",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Check Element/Matrix license and cryptographic implementation details.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "security":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Element chat",
+                                              "Matrix",
+                                              "encrypted messaging",
+                                              "secure communication",
+                                              "end-to-end encryption"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "real-time messaging client",
+                                                             "description":  "Supports rooms, direct messages and federated communication.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "end-to-end encryption workflows",
+                                                             "description":  "Provides encrypted conversations and device/key management as implemented.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "server and identity integration",
+                                                             "description":  "Connects the client to Matrix homeservers and identity services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Element encrypted chat client",
+                                                              "purpose":  "Provides a user interface to Matrix messaging and encryption capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/React",
+                                             "Matrix protocol",
+                                             "homeserver"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only after verifying protocol support, key backup and device verification behavior.",
+                             "risk_notes":  [
+                                                "Private communications and encryption key management require high assurance."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Token-saver",
+                             "commit":  "3425cc83b676f9df540c0adebaaaf96a11abee76",
+                             "purpose":  "LLM cost or context optimization tool for reducing token usage through prompt compression, caching or request management.",
+                             "categories":  [
+                                                "category:ai-infrastructure",
+                                                "category:developer-tools",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check repository license and supported provider behavior.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LLM token saver",
+                                              "prompt compression",
+                                              "model cost optimization",
+                                              "context management",
+                                              "API middleware"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "token and cost reduction",
+                                                             "description":  "Optimizes model requests to reduce usage or cost.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "provider request integration",
+                                                             "description":  "Connects optimization behavior to model API workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Token saver middleware",
+                                                              "purpose":  "Reduces resource use in model-backed applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared language",
+                                             "LLM APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with quality tests to ensure optimization does not remove critical context or safety instructions.",
+                             "risk_notes":  [
+                                                "Compression can alter meaning or discard policy-critical content."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ruflo",
+                             "commit":  "5234333c3462640ab348363ba4a142945fd2bc47",
+                             "purpose":  "Claude-focused multi-agent orchestration platform for coordinating specialized agents, tools, memory and task workflows.",
+                             "categories":  [
+                                                "category:agent-frameworks",
+                                                "category:ai-orchestration",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository license and Claude/provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Ruflo",
+                                              "Claude agents",
+                                              "multi-agent orchestration",
+                                              "agent memory",
+                                              "tool workflows"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-agent coordination",
+                                                             "description":  "Coordinates specialist agents and task delegation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tool and MCP integrations",
+                                                             "description":  "Connects agent workflows to tools and external capabilities.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "memory and workflow state",
+                                                             "description":  "Supports persistence and context sharing across agent tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Ruflo orchestration runtime",
+                                                              "purpose":  "Provides a coordinated agent system around Claude workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js",
+                                             "MCP/tools",
+                                             "Claude APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use with explicit task boundaries and isolated tool permissions; inspect maturity and integrations.",
+                             "risk_notes":  [
+                                                "Multi-agent tool chains can amplify prompt injection and unauthorized actions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/anything-llm",
+                             "commit":  "72aabbd15481ae405434efd4c83d46026eef1173",
+                             "purpose":  "Self-hosted AI workspace and RAG platform for chatting with documents, managing workspaces and connecting model providers.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:rag",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check repository license and provider terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AnythingLLM",
+                                              "document chat",
+                                              "RAG workspace",
+                                              "local LLM",
+                                              "AI knowledge base"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "document ingestion and retrieval",
+                                                             "description":  "Indexes files and sources for grounded conversational lookup.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multi-provider assistant workspace",
+                                                             "description":  "Connects users and teams to different model backends.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tools, agents and administration",
+                                                             "description":  "Extends the workspace with agent workflows and user controls.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "AnythingLLM workspace platform",
+                                                              "purpose":  "Combines document RAG with configurable AI chat and agents.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js/TypeScript",
+                                             "vector/database storage",
+                                             "model APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with clear workspace access boundaries and verify whether data remains local or reaches providers.",
+                             "risk_notes":  [
+                                                "Uploaded knowledge can contain secrets or personal data; agent tools may take actions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/shad-components-ui",
+                             "commit":  "ac60ef5c4db4265d71454dd9ecd3f93e255d7211",
+                             "purpose":  "Collection or generator of reusable shadcn/ui-based React components and design patterns for building modern web interfaces.",
+                             "categories":  [
+                                                "category:design-systems",
+                                                "category:frontend-applications",
+                                                "category:libraries-packages"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository license and source component attribution.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "shadcn/ui components",
+                                              "React component library",
+                                              "Tailwind UI",
+                                              "design system",
+                                              "frontend templates"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "reusable UI component collection",
+                                                             "description":  "Provides copyable or packaged interface components built on shadcn/ui conventions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "design patterns and templates",
+                                                             "description":  "Offers page or interaction patterns for application development.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "shad components library",
+                                                              "purpose":  "Accelerates React UI construction with reusable component designs.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/React",
+                                             "Tailwind CSS",
+                                             "shadcn/ui ecosystem"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use selectively and verify accessibility, responsiveness and component source licensing.",
+                             "risk_notes":  [
+                                                "Copied components need maintenance and accessibility review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/wasp",
+                             "commit":  "755322ec3fe16e4d016e74aaec12236649e7d36d",
+                             "purpose":  "Full-stack web application framework that generates and integrates React, Node.js and Prisma components from a declarative project configuration.",
+                             "categories":  [
+                                                "category:frameworks",
+                                                "category:full-stack-applications",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check framework and generated dependency licenses.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Wasp framework",
+                                              "full-stack React",
+                                              "Node.js",
+                                              "Prisma",
+                                              "web app generator"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "declarative full-stack app definition",
+                                                             "description":  "Defines application structure and features through a concise configuration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "generated frontend/backend integration",
+                                                             "description":  "Connects React UI, server operations and database models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "deployment and developer tooling",
+                                                             "description":  "Supports local development and production deployment workflows.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Wasp full-stack framework",
+                                                              "purpose":  "Reduces boilerplate across common web application layers.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Wasp compiler",
+                                             "React",
+                                             "Node.js",
+                                             "Prisma/database"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for new full-stack apps after checking framework maturity and generated-code flexibility.",
+                             "risk_notes":  [
+                                                "Generated server operations and auth rules still require application security review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ragflow",
+                             "commit":  "b380728df6627c83f48b498ee46d0931315296f5",
+                             "purpose":  "RAG platform focused on document understanding, knowledge base management and grounded question answering for enterprise content.",
+                             "categories":  [
+                                                "category:rag",
+                                                "category:ai-applications",
+                                                "category:data-engineering"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "Check repository license, model and document parser dependencies.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "RAGFlow",
+                                              "document intelligence",
+                                              "knowledge base",
+                                              "retrieval augmented generation",
+                                              "enterprise search"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "document parsing and understanding",
+                                                             "description":  "Processes complex documents into structured, retrievable content.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "knowledge base and hybrid retrieval",
+                                                             "description":  "Indexes content and retrieves passages for question answering.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "grounded chat and workflow UI",
+                                                             "description":  "Provides user interfaces for querying source collections.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "RAGFlow pipeline",
+                                                              "purpose":  "Connects document understanding with retrieval and grounded answers.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/JavaScript services",
+                                             "search/vector database",
+                                             "LLM and embedding models"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for document-heavy RAG after validating OCR, citation fidelity, access isolation and data flow.",
+                             "risk_notes":  [
+                                                "Enterprise documents may contain confidential or regulated data."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/erpnext",
+                             "commit":  "97a93b4fd229b77d39adde31e1ff317ba7f60b23",
+                             "purpose":  "Open-source ERP system covering accounting, inventory, sales, purchasing, manufacturing, projects and human resources.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:finance-accounting",
+                                                "category:manufacturing"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "GPL-3.0; integrations and extensions may have separate terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ERPNext",
+                                              "ERP",
+                                              "accounting",
+                                              "inventory",
+                                              "manufacturing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "finance and accounting",
+                                                             "description":  "Manages ledgers, invoices, payments and business reporting.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "inventory, sales and procurement",
+                                                             "description":  "Coordinates stock, customer orders and supplier purchasing.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "manufacturing and workforce operations",
+                                                             "description":  "Supports production planning, projects and HR workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ERPNext business suite",
+                                                              "purpose":  "Provides an integrated system for core business operations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/Frappe",
+                                             "MariaDB",
+                                             "Redis",
+                                             "web application"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for ERP workflows after mapping accounting, tax, access and migration requirements.",
+                             "risk_notes":  [
+                                                "Financial, employee and customer data are highly sensitive; business workflows are consequential."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/three.js",
+                             "commit":  "31cd191d2d2e3a6f4dac68dc873038fa2aa8c005",
+                             "purpose":  "JavaScript 3D graphics library for rendering interactive scenes in browsers using WebGL and WebGPU.",
+                             "categories":  [
+                                                "category:libraries-packages",
+                                                "category:creative-tools",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "MIT; example assets and addons may have separate terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Three.js",
+                                              "WebGL",
+                                              "WebGPU",
+                                              "3D rendering",
+                                              "browser graphics"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "3D scene and rendering API",
+                                                             "description":  "Provides objects, cameras, materials and rendering for browser graphics.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "interaction and animation",
+                                                             "description":  "Supports animation, input and real-time scene behavior.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "loaders and addons",
+                                                             "description":  "Extends the core library with file formats and common rendering features.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Three.js core and addons",
+                                                              "purpose":  "Enables interactive 3D experiences in web applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/TypeScript",
+                                             "browser",
+                                             "WebGL/WebGPU"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for web 3D and profile GPU performance on target devices.",
+                             "risk_notes":  [
+                                                "Untrusted 3D assets and shaders can affect browser security and performance."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/worldmonitor",
+                             "commit":  "902cd7a162f2bfb7da49c91554a19c08ee84d089",
+                             "purpose":  "Real-time world events dashboard combining public information sources, maps and data visualization for situational awareness.",
+                             "categories":  [
+                                                "category:analytics",
+                                                "category:real-estate-geospatial",
+                                                "category:data-visualization"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check repository license and individual data provider terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "WorldMonitor",
+                                              "global events dashboard",
+                                              "geospatial intelligence",
+                                              "public data",
+                                              "situational awareness"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-source event aggregation",
+                                                             "description":  "Collects public feeds and indicators into a consolidated view.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "map and timeline visualization",
+                                                             "description":  "Presents events spatially and temporally.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "monitoring and analysis interface",
+                                                             "description":  "Supports exploration of global developments and alerts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "WorldMonitor dashboard",
+                                                              "purpose":  "Combines heterogeneous public signals for situational awareness.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "data APIs",
+                                             "map/visualization stack"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a public-data dashboard pattern and verify each feed’s provenance, freshness and uncertainty.",
+                             "risk_notes":  [
+                                                "Geopolitical and public-safety interpretations can be misleading if source data is incomplete."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/CoreShop-e-commerce-tools",
+                             "commit":  "3945fe42184e72659a1a11502e6723cfb3488e07",
+                             "purpose":  "E-commerce platform tools or modules for managing product catalogs, checkout and store operations in a CoreShop/Pimcore ecosystem.",
+                             "categories":  [
+                                                "category:commerce-e-commerce",
+                                                "category:business-applications",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository, Pimcore/CoreShop and payment provider licenses.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "CoreShop",
+                                              "Pimcore commerce",
+                                              "e-commerce tools",
+                                              "product catalog",
+                                              "store integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "commerce product and order modules",
+                                                             "description":  "Supports commerce operations within the target platform.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "platform extensions and integrations",
+                                                             "description":  "Connects the commerce stack to payments, shipping or services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "CoreShop commerce extensions",
+                                                              "purpose":  "Adds reusable e-commerce capabilities to compatible projects.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP/Symfony",
+                                             "Pimcore/CoreShop",
+                                             "database"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use only in compatible CoreShop/Pimcore projects and verify payment and order behavior.",
+                             "risk_notes":  [
+                                                "Checkout, customer records and payment handling are sensitive."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Lean",
+                             "commit":  "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
+                             "purpose":  "Lean theorem prover and programming language for formalizing mathematics and verifying proofs with a large mathematical library.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:education",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Apache-2.0 for Lean; mathlib and contributed content have their own licensing.",
+                             "asset_presence":  {
+                                                    "business_media_other":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Lean 4",
+                                              "theorem prover",
+                                              "formal verification",
+                                              "proof assistant",
+                                              "mathlib"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "interactive theorem proving",
+                                                             "description":  "Formalizes mathematical statements and machine-checkable proofs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "programming language and compiler",
+                                                             "description":  "Supports writing verified programs and executable code.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "editor and package ecosystem",
+                                                             "description":  "Provides tooling and libraries for proof development.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Lean language and prover",
+                                                              "purpose":  "Provides a dependently typed environment for rigorous formal proof.",
+                                                              "evidence_paths":  [
+                                                                                     "readme.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Lean 4",
+                                             "native compiler",
+                                             "editor tooling"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for formal verification and mathematical proofs when correctness guarantees are important.",
+                             "risk_notes":  [
+                                                "A proof only establishes the formalized statement and assumptions, not an incorrectly modeled real-world system."
+                                            ],
+                             "source_review":  [
+                                                   "readme.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/penpot",
+                             "commit":  "9a11dfa7f97fd0f3c340f7ae105a806170dc83a0",
+                             "purpose":  "Open-source design and prototyping platform for collaborative UI/UX design using web-based vector editing and design systems.",
+                             "categories":  [
+                                                "category:design-systems",
+                                                "category:creative-tools",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "MPL-2.0; contributed assets and fonts may have separate terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Penpot",
+                                              "UI design",
+                                              "prototyping",
+                                              "design systems",
+                                              "open-source Figma alternative"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "vector design and prototyping",
+                                                             "description":  "Creates interface layouts and interactive prototypes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "design system assets",
+                                                             "description":  "Organizes reusable components, tokens and libraries.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "collaboration and self-hosting",
+                                                             "description":  "Supports team design workflows and deployment control.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Penpot design platform",
+                                                              "purpose":  "Combines collaborative vector design with reusable interface systems.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "ClojureScript frontend",
+                                             "Clojure backend",
+                                             "database/object storage"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for collaborative design workflows and review self-hosting, access and asset governance.",
+                             "risk_notes":  [
+                                                "Shared design documents can contain confidential product plans and customer information."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/better-design-shadcn",
+                             "commit":  "e146625f3041ef8089a2013587435fc763dc3b15",
+                             "purpose":  "Enhanced shadcn/ui component collection and design patterns for building polished React applications.",
+                             "categories":  [
+                                                "category:design-systems",
+                                                "category:frontend-applications",
+                                                "category:creative-tools"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository and individual component attribution.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "shadcn components",
+                                              "React UI library",
+                                              "Tailwind design system",
+                                              "frontend patterns",
+                                              "component examples"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "reusable React components",
+                                                             "description":  "Provides application UI elements based on shadcn/ui conventions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "design patterns and page examples",
+                                                             "description":  "Offers visual patterns and layouts for common app needs.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Better Design component collection",
+                                                              "purpose":  "Accelerates polished web interface development.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/React",
+                                             "Tailwind CSS"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as a starting point; test accessibility, responsive layouts and component maintenance.",
+                             "risk_notes":  [
+                                                "Copied UI needs security and accessibility review where it handles user input."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/strapi",
+                             "commit":  "aa62644810e48c3b65e4b15e1055b97cd1c158fa",
+                             "purpose":  "Headless content management system for defining content types and serving structured content through APIs to websites and applications.",
+                             "categories":  [
+                                                "category:backend-services",
+                                                "category:apis",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check current Strapi edition/license and plugin terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Strapi",
+                                              "headless CMS",
+                                              "content APIs",
+                                              "Node.js",
+                                              "editorial platform"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "content modeling and authoring",
+                                                             "description":  "Defines structured content types and editorial workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "REST and GraphQL delivery",
+                                                             "description":  "Exposes managed content to client applications through APIs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "plugins and deployment",
+                                                             "description":  "Extends CMS functionality and supports operational configuration.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Strapi CMS core",
+                                                              "purpose":  "Connects content authoring to API-first content delivery.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js/TypeScript",
+                                             "database",
+                                             "REST/GraphQL APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for API-first content systems with explicit role, media and publication controls.",
+                             "risk_notes":  [
+                                                "CMS APIs and uploaded content require access control, validation and patch management."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/vllm",
+                             "commit":  "702e1d718646b5290f17533c04932d58bf03dad6",
+                             "purpose":  "High-throughput and memory-efficient serving engine for large language models, supporting OpenAI-compatible APIs and distributed inference.",
+                             "categories":  [
+                                                "category:ai-infrastructure",
+                                                "category:generative-ai",
+                                                "category:machine-learning-models"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Apache-2.0; model licenses remain independent.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "vLLM",
+                                              "LLM serving",
+                                              "continuous batching",
+                                              "OpenAI API server",
+                                              "GPU inference"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "high-throughput model serving",
+                                                             "description":  "Serves language models with optimized batching and KV cache management.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "OpenAI-compatible API",
+                                                             "description":  "Provides standard endpoints for application integration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "distributed and accelerated inference",
+                                                             "description":  "Supports multi-GPU and production serving configurations.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "vLLM inference engine",
+                                                              "purpose":  "Runs large models efficiently for application and service workloads.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/C++/CUDA",
+                                             "GPU infrastructure",
+                                             "model weights"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for self-hosted model serving after benchmarking model support, hardware and concurrency needs.",
+                             "risk_notes":  [
+                                                "Model licenses, prompt data and exposed inference endpoints require review."
+                                            ]
+                         }
+                     ]
+}

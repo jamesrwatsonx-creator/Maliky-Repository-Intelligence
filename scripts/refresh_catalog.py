@@ -9,6 +9,7 @@ import sys
 import registry as r
 from build_catalog import main as build_catalog
 from validate_catalog import check as validate_catalog
+from review_extracted_batch import prepare_repository_summary
 
 
 def main():
@@ -23,7 +24,7 @@ def main():
     added = [x for x in after if x["id"] not in before]
     inspected = []
     for repo in sorted(added, key=lambda x: x["github_id"]):
-        result = r.ingest(repo["full_name"], max_files=args.max_files, snapshot=True)
+        result = prepare_repository_summary(repo, max_files=min(args.max_files, 12))
         inspected.append(result)
     statistics = r.build()
     registry_report = r.validate()

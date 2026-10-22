@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/melgarafael/DeskcommCRM",
-  "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+  "description": "CRM-oriented website or service for Deskcomm, combining customer management with business communications or lead workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-12T19:40:07Z",
-    "github_description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
+    "github_description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "53428145bbefae2406d10e5be29b134f170b5098",
   "current_commit": "53428145bbefae2406d10e5be29b134f170b5098",
   "inspection_date": "2026-09-20T05:36:21.153933+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:crm",
     "category:business-applications",
-    "category:frontend-applications",
-    "category:mcp-servers"
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [
     "operational:03",
     "operational:11",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 14,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.597115+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.751896+00:00",
   "tree_files": 4129,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3467,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3713,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.228123+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "CRM-oriented website or service for Deskcomm, combining customer management with business communications or lead workflows.",
+    "reuse_recommendation": "Inspect data model, messaging integrations and deployment before adapting for real customer records.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository and connected service terms.",
+    "runtime": [
+      "Web application",
+      "database",
+      "communication integrations"
+    ],
+    "keywords": [
+      "Deskcomm CRM",
+      "customer management",
+      "business communications",
+      "lead capture",
+      "CRM website"
+    ],
+    "risk_notes": [
+      "Customer communications and contact data require consent and privacy safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Deskcomm CRM experience",
+        "purpose": "Combines a public product site with CRM-oriented business workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:52.557681+00:00",
+    "inspected_commit": "53428145bbefae2406d10e5be29b134f170b5098",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "13c7b65078dcd9696661920999bddb60fc5f0a3a",
+        "value": "https://github.com/jamesrwatsonx-creator/New-website-DeskcommCRM/blob/53428145bbefae2406d10e5be29b134f170b5098/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "customer and lead management",
+        "description": "Organizes contact records and sales or service follow-up.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:customer-and-lead-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "business communication workflows",
+        "description": "Connects customer interactions with messaging or service operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-communication-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "public website and lead capture",
+        "description": "Presents the service and captures prospective customer interest.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:public-website-and-lead-capture",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

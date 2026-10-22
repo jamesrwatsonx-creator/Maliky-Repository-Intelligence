@@ -9,12 +9,52 @@
       "sha": "00357368c738f4c65d7dc488d5afcaeb9d33b2ee"
     },
     {
+      "path": "LICENSE",
+      "sha": "35e6c9da4c9916cec4f785e20fa63a7cd680cdaf"
+    },
+    {
       "path": "README.md",
       "sha": "0e3282792283d6a564fcf2d365fb863735f1f70a"
     },
     {
+      "path": "apps/api/package.json",
+      "sha": "e202e039ff7a9b52f43ef7703af4a37a9e8a6956"
+    },
+    {
+      "path": "apps/desktop/package.json",
+      "sha": "cb5903214b677f1dca86344ba47d4f791d8fd6e2"
+    },
+    {
+      "path": "apps/mobile/package.json",
+      "sha": "401aed0cef1be38b881b3f9a2a608d84baeb0bf8"
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha": "0984160df2bbe307279094317ea8b90511ca8623"
+    },
+    {
+      "path": "apps/worker/package.json",
+      "sha": "a73c25e0bfb6f948e944f594ccadc072470d94b5"
+    },
+    {
+      "path": "apps/www/package.json",
+      "sha": "a05b95b8d3760635817f59799d56a4868aac603f"
+    },
+    {
       "path": "package.json",
       "sha": "8ffbcedccda7152d3425594d786af9fd77769385"
+    },
+    {
+      "path": "packages/adapter-kit/package.json",
+      "sha": "24d136445fce5298bdfe3870c622bfcf6ef78b43"
+    },
+    {
+      "path": "packages/adapters/package.json",
+      "sha": "1cdd1f9e77b2dc6e44a62c44a0b9c51e8d01fb14"
+    },
+    {
+      "path": "packages/auth/package.json",
+      "sha": "9def0b2aa5bc8021251d1eccddea12e5571e1c93"
     }
   ],
   "files_read": [
@@ -31,6 +71,56 @@
     {
       "path": "AGENTS.md",
       "blob_sha": "00357368c738f4c65d7dc488d5afcaeb9d33b2ee",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "35e6c9da4c9916cec4f785e20fa63a7cd680cdaf",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/api/package.json",
+      "blob_sha": "e202e039ff7a9b52f43ef7703af4a37a9e8a6956",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/desktop/package.json",
+      "blob_sha": "cb5903214b677f1dca86344ba47d4f791d8fd6e2",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/mobile/package.json",
+      "blob_sha": "401aed0cef1be38b881b3f9a2a608d84baeb0bf8",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/web/package.json",
+      "blob_sha": "0984160df2bbe307279094317ea8b90511ca8623",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/worker/package.json",
+      "blob_sha": "a73c25e0bfb6f948e944f594ccadc072470d94b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/www/package.json",
+      "blob_sha": "a05b95b8d3760635817f59799d56a4868aac603f",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/adapter-kit/package.json",
+      "blob_sha": "24d136445fce5298bdfe3870c622bfcf6ef78b43",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/adapters/package.json",
+      "blob_sha": "1cdd1f9e77b2dc6e44a62c44a0b9c51e8d01fb14",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/auth/package.json",
+      "blob_sha": "9def0b2aa5bc8021251d1eccddea12e5571e1c93",
       "entities_detected": 0
     }
   ],
@@ -50,7 +140,6 @@
     "CONTRIBUTING.md",
     "SECURITY.md",
     "SETUP_PROMPT.md",
-    "apps/api/package.json",
     "apps/api/src/app.ts",
     "apps/api/src/artifacts.ts",
     "apps/api/src/env.test.ts",
@@ -70,7 +159,6 @@
     "apps/api/tsconfig.json",
     "apps/desktop/e2e/playwright.config.ts",
     "apps/desktop/e2e/smoke.spec.ts",
-    "apps/desktop/package.json",
     "apps/desktop/src/main.ts",
     "apps/desktop/src/preload.cjs",
     "apps/desktop/src/preload.test.ts",
@@ -128,13 +216,15 @@
     "apps/mobile/lib/voice.ts",
     "apps/mobile/metro-resolver.js",
     "apps/mobile/metro.config.js",
-    "apps/mobile/package.json",
     "apps/mobile/plugins/with-worklets-headers.js",
     "apps/mobile/tsconfig.json",
     "apps/web/e2e/approval-resume.spec.ts",
     "apps/web/e2e/auth-lifecycle.spec.ts",
     "apps/web/e2e/bot-crud.spec.ts",
-    "apps/web/e2e/bot-organization.spec.ts"
+    "apps/web/e2e/bot-organization.spec.ts",
+    "apps/web/e2e/golden.spec.ts",
+    "apps/web/e2e/helpers.ts",
+    "apps/web/e2e/model-settings.spec.ts"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -253,8 +343,12 @@
     "packages": 250,
     "scripts": 3
   },
-  "unread_source_paths_count": 424,
+  "unread_source_paths_count": 445,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 101,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

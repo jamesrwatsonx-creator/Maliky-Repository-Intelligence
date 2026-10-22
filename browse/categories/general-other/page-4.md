@@ -1,6 +1,6 @@
 # General / Other — page 4
 
-1,759 catalog entries · Sorted alphabetically by name · Page 4 of 12.
+1,247 catalog entries · Sorted alphabetically by name · Page 4 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -316,6 +316,3 @@
 - [Page 7](page-7.md)
 - [Page 8](page-8.md)
 - [Page 9](page-9.md)
-- [Page 10](page-10.md)
-- [Page 11](page-11.md)
-- [Page 12](page-12.md)

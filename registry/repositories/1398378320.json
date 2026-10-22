@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "An UITextField subclass to simplify country code's picking. Swift 5.0",
+  "upstream_url": "https://github.com/NikKovIos/NKVPhonePicker",
+  "description": "Android phone-number input component with country selection and dialing-code support.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2021-09-09T08:44:34Z",
-    "github_description": "An UITextField subclass to simplify country code's picking. Swift 5.0"
+    "github_description": "An UITextField subclass to simplify country code's picking. Swift 5.0",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "8e6d2a74217a2249e272d6a1f26d0e28a0f5cf9d",
+  "current_commit": "8e6d2a74217a2249e272d6a1f26d0e28a0f5cf9d",
+  "inspection_date": "2026-10-22T02:35:05.157855+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:mobile-applications",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:24",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.612765+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.773070+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.230378+00:00",
     "purpose_established": true
+  },
+  "tree_files": 318,
+  "files_read": 10,
+  "unread_source_files": 14,
+  "repository_intelligence": {
+    "purpose": "Android phone-number input component with country selection and dialing-code support.",
+    "reuse_recommendation": "Consider for phone forms after checking country data freshness and accessibility.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review license and phone-number metadata behavior before adoption.",
+    "runtime": [
+      "Java",
+      "Android"
+    ],
+    "keywords": [
+      "Android",
+      "phone picker",
+      "country code",
+      "mobile input component"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "NKVPhonePicker widget",
+        "purpose": "Combines country/dialing code selection with phone-number entry.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:51.341439+00:00",
+    "inspected_commit": "8e6d2a74217a2249e272d6a1f26d0e28a0f5cf9d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "724de49a0fd45c7f56ad98206630e4aa945588d1",
+        "value": "https://github.com/jamesrwatsonx-creator/NKVPhonePicker/blob/8e6d2a74217a2249e272d6a1f26d0e28a0f5cf9d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Country-aware phone input",
+        "description": "Provides an Android input interface for selecting countries and entering phone numbers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:country-aware-phone-input",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

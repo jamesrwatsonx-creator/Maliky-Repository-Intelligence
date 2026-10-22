@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/AgriciDaniel/claude-ads",
-  "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.",
+  "description": "Claude-first paid-media skills for analyzing authorized ad exports and supporting operations across multiple advertising platforms.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-13T20:22:29Z",
-    "github_description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes."
+    "github_description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "669c7608ecb50dd95c941a71fa3ca0a1c0e40512",
   "current_commit": "669c7608ecb50dd95c941a71fa3ca0a1c0e40512",
   "inspection_date": "2026-09-20T05:35:52.065471+00:00",
   "categories": [
-    "category:creative-tools",
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:marketing-communications",
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [
     "operational:09",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 34,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.400547+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.207892+00:00",
   "tree_files": 339,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 297,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 291,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.096000+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Claude-first paid-media skills for analyzing authorized ad exports and supporting operations across multiple advertising platforms.",
+    "reuse_recommendation": "Use only with authorized data and platform access; validate analysis and require approval before campaign changes.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository license; ad platform and data provider terms apply.",
+    "runtime": [
+      "Markdown skills",
+      "Claude Code",
+      "authorized platform exports"
+    ],
+    "keywords": [
+      "Claude Ads",
+      "paid media operations",
+      "ad analysis",
+      "campaign exports",
+      "agency marketing skills"
+    ],
+    "risk_notes": [
+      "Ad account data and budget changes are sensitive; restrict access and keep campaign writes behind approval."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Claude Ads skill collection",
+        "purpose": "Packages paid-media workflows and platform guidance for Claude agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:18.809030+00:00",
+    "inspected_commit": "669c7608ecb50dd95c941a71fa3ca0a1c0e40512",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "73fa9f837ba43c0f783b57e5cec6310bd554c0c9",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-ads/blob/669c7608ecb50dd95c941a71fa3ca0a1c0e40512/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "paid media analysis skills",
+        "description": "Guides analysis of campaign and performance data from authorized exports.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:paid-media-analysis-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "cross-platform advertising workflows",
+        "description": "Organizes paid-media operations across supported advertising channels.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:cross-platform-advertising-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "campaign reporting workflows",
+        "description": "Supports analysis and communication of performance insights.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:campaign-reporting-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

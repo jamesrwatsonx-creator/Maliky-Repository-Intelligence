@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/microsoft/qlib",
-  "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+  "description": "Quantitative investment research platform for data processing, model development, backtesting and evaluation of financial strategies.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-02T18:23:05Z",
-    "github_description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process."
+    "github_description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
   "current_commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
   "inspection_date": "2026-09-20T05:36:08.159653+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:research-projects"
+    "category:finance-accounting",
+    "category:data-science",
+    "category:machine-learning-models"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [
     "operational:03",
     "operational:20"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.946422+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.035983+00:00",
   "tree_files": 619,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 484,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 556,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.265626+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Quantitative investment research platform for data processing, model development, backtesting and evaluation of financial strategies.",
+    "reuse_recommendation": "Use for research and reproducible backtests, not as evidence of future returns or live suitability.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Apache-2.0; data and model sources retain their own terms.",
+    "runtime": [
+      "Python",
+      "machine-learning stack",
+      "market data sources"
+    ],
+    "keywords": [
+      "Qlib",
+      "quantitative finance",
+      "backtesting",
+      "financial ML",
+      "investment research"
+    ],
+    "risk_notes": [
+      "Financial decisions, data licensing and live trading require independent controls and review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Qlib research framework",
+        "purpose": "Connects market data, models and strategy evaluation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:21.201205+00:00",
+    "inspected_commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "42c446e69e5ead8cb6aae2df145d5d24e5d78632",
+        "value": "https://github.com/jamesrwatsonx-creator/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "financial data workflows",
+        "description": "Loads, processes and organizes market data for research.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-data-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "strategy modeling and backtesting",
+        "description": "Supports ML-based strategy experimentation and historical evaluation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:strategy-modeling-and-backtesting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "research benchmarks and tools",
+        "description": "Provides workflows and evaluation utilities for quantitative research.",
+        "scope": "REFERENCE",
+        "id": "cluster:research-benchmarks-and-tools",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

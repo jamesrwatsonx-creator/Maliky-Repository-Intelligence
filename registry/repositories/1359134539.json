@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/techjanitor/botmaker",
-  "description": "A Hermes Agent skill + SOUL for a bot whose only job is minting other specialist bots",
+  "description": "Hermes skill and profile templates for interviewing a user, drafting an agent SOUL, scaffolding a bot and recording human approval/certification steps.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-01T15:45:25Z",
-    "github_description": "A Hermes Agent skill + SOUL for a bot whose only job is minting other specialist bots"
+    "github_description": "A Hermes Agent skill + SOUL for a bot whose only job is minting other specialist bots",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "93eb3b6d3976b115a372598fa5c02c4f6ab63ed2",
   "current_commit": "93eb3b6d3976b115a372598fa5c02c4f6ab63ed2",
   "inspection_date": "2026-09-20T05:35:55.795049+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.495830+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.516931+00:00",
   "tree_files": 12,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 10,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,167 @@
     ],
     "updated_at": "2026-10-12T19:04:27.317033+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Hermes skill and profile templates for interviewing a user, drafting an agent SOUL, scaffolding a bot and recording human approval/certification steps.",
+    "reuse_recommendation": "Use as host-executed guidance after reviewing file writes, symlink behavior and vault/profile permissions; retain human approval as an actual enforced step.",
+    "inspection_scope": "Reviewed the Hermes skill, SOUL template and helper scripts. The workflow describes human approval and child-chat certification; this package is not a Hermes runtime fork and was not invoked.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skill",
+      "Python helper scripts",
+      "Hermes profile configuration"
+    ],
+    "keywords": [
+      "Hermes bot creation",
+      "agent SOUL",
+      "profile scaffolding",
+      "skill linking",
+      "drift check",
+      "human approval"
+    ],
+    "risk_notes": [
+      "Scaffolding may write profiles or link local skills; certification is described by instructions and is not enforced by this repository alone."
+    ],
+    "important_subsystems": [
+      {
+        "name": "botmaker skill",
+        "purpose": "Coordinates interview, draft, scaffold and review steps.",
+        "evidence_paths": [
+          "skills/autonomous-ai-agents/botmaker/SKILL.md"
+        ]
+      },
+      {
+        "name": "profile helpers",
+        "purpose": "Links skill trees and checks configuration drift.",
+        "evidence_paths": [
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "profile/SOUL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:27.785557+00:00",
+    "inspected_commit": "93eb3b6d3976b115a372598fa5c02c4f6ab63ed2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cd9efcca5360824c34b473b7960e278277888ed2",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "73bb1ed643c6468a1ab7dd5f076a5d8c5e6af100",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/autonomous-ai-agents/botmaker/SKILL.md",
+        "blob_sha": "217dd2f0b07be247673ea498f927d60b161404fd",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/skills/autonomous-ai-agents/botmaker/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+        "blob_sha": "35df928ae935efadff439f116c94d0db2b65f65e",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/skills/autonomous-ai-agents/botmaker/scripts/drift_check.py"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+        "blob_sha": "7373df3495f81e83d58853904d923f7d63776ad8",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py"
+      },
+      {
+        "type": "source_review",
+        "path": "profile/SOUL.md",
+        "blob_sha": "7195d7509122f7937ef6bb55a621b30dd620a06e",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-botmaker/blob/93eb3b6d3976b115a372598fa5c02c4f6ab63ed2/profile/SOUL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent design interview",
+        "description": "Guides an interview and translates requirements into a draft agent identity and operating instructions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-design-interview",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/autonomous-ai-agents/botmaker/SKILL.md",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "profile/SOUL.md"
+        ]
+      },
+      {
+        "name": "Hermes profile scaffolding",
+        "description": "Provides profile templates and helpers for assembling a new bot configuration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hermes-profile-scaffolding",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/autonomous-ai-agents/botmaker/SKILL.md",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "profile/SOUL.md"
+        ]
+      },
+      {
+        "name": "profile drift checks",
+        "description": "Compares profile files against expected linked skill structure.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:profile-drift-checks",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/autonomous-ai-agents/botmaker/SKILL.md",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "profile/SOUL.md"
+        ]
+      },
+      {
+        "name": "human approval workflow",
+        "description": "Documents review and certification checkpoints for a newly designed bot.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:human-approval-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/autonomous-ai-agents/botmaker/SKILL.md",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "profile/SOUL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

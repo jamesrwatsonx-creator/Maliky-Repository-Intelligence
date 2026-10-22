@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/facebook/fresco",
-  "description": "An Android library for managing images and the memory they use.",
+  "description": "Fresco Android image-loading library for displaying, caching and managing images efficiently in mobile applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-29T00:38:36Z",
-    "github_description": "An Android library for managing images and the memory they use."
+    "github_description": "An Android library for managing images and the memory they use.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "4fb7169b23fafb6e9ab5936ed7e7f3e8a4a385b1",
   "current_commit": "4fb7169b23fafb6e9ab5936ed7e7f3e8a4a385b1",
   "inspection_date": "2026-09-20T05:35:39.017460+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:mobile-applications"
+    "category:sdks-client-libraries",
+    "category:mobile-applications",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [
     "operational:04"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.014518+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.722976+00:00",
   "tree_files": 2950,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1407,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2452,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.052135+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Fresco Android image-loading library for displaying, caching and managing images efficiently in mobile applications.",
+    "reuse_recommendation": "Use where compatible with current Android requirements and compare maintenance status with newer alternatives.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "MIT; Android and image codec dependencies have separate terms.",
+    "runtime": [
+      "Java/Kotlin",
+      "Android"
+    ],
+    "keywords": [
+      "Fresco",
+      "Android image loader",
+      "image caching",
+      "Drawee UI",
+      "mobile media"
+    ],
+    "risk_notes": [
+      "Remote image sources and cache contents can expose sensitive media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fresco image pipeline",
+        "purpose": "Coordinates image requests, decoding, caching and UI rendering.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:17.769712+00:00",
+    "inspected_commit": "4fb7169b23fafb6e9ab5936ed7e7f3e8a4a385b1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "042c2a98a8fba4c90f83d04f45b79069d3fbc1d2",
+        "value": "https://github.com/jamesrwatsonx-creator/Android-images.-fresco/blob/4fb7169b23fafb6e9ab5936ed7e7f3e8a4a385b1/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "image loading and rendering",
+        "description": "Loads and displays local and remote images in Android apps.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:image-loading-and-rendering",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "memory and disk caching",
+        "description": "Manages image resources for performance and memory use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:memory-and-disk-caching",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Android UI integration",
+        "description": "Provides views and APIs for image presentation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:android-ui-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

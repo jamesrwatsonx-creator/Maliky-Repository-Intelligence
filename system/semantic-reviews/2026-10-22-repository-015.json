@@ -1,0 +1,1420 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Check deployment, dependency and provider terms before production adoption."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/pgContext",
+                             "commit":  "70ee2ef13df0f015f5731d456e2289df638bd715",
+                             "purpose":  "PostgreSQL extension or integration for maintaining contextual memory and retrieval directly alongside relational data; verify supported embedding and query features in pinned docs.",
+                             "categories":  [
+                                                "category:databases",
+                                                "category:ai-memory",
+                                                "category:vector-search"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "See repository license and database extension dependencies.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "PostgreSQL context",
+                                              "database memory",
+                                              "vector retrieval",
+                                              "SQL extension",
+                                              "AI data"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "database-native context storage",
+                                                             "description":  "Keeps contextual or embedding-backed information close to PostgreSQL data.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "retrieval and query integration",
+                                                             "description":  "Supports retrieval workflows through database operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "pgContext database layer",
+                                                              "purpose":  "Connects persistent context and SQL-backed retrieval.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PostgreSQL extension/service",
+                                             "repository-declared language"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Evaluate schema, query performance and extension compatibility in a test database first.",
+                             "risk_notes":  [
+                                                "Stored prompts or user data may be sensitive; assess database access controls."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/live-Kit-components-js",
+                             "commit":  "aac048a96e68ed5e02bbcc84bbc49fe2765e374c",
+                             "purpose":  "JavaScript UI components and examples for building LiveKit-powered realtime audio/video experiences.",
+                             "categories":  [
+                                                "category:frontend-applications",
+                                                "category:sdks-client-libraries",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check repository license and LiveKit service terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "voice_audio":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LiveKit components",
+                                              "voice UI",
+                                              "realtime video",
+                                              "WebRTC",
+                                              "JavaScript"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "realtime room interface",
+                                                             "description":  "Provides interface components for joining and managing LiveKit sessions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "audio/video controls",
+                                                             "description":  "Supports participant, microphone, camera and media interactions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "SDK integration examples",
+                                                             "description":  "Demonstrates use of LiveKit client APIs in web applications.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "LiveKit component library",
+                                                              "purpose":  "Packages reusable UI around realtime communication primitives.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/TypeScript",
+                                             "React/web",
+                                             "LiveKit WebRTC"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use to accelerate realtime UI; test permissions, reconnect behavior and accessibility.",
+                             "risk_notes":  [
+                                                "Microphone/camera consent and media session privacy are essential."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/context-mode",
+                             "commit":  "aded72c62372515518994153c470344f1b7d81a1",
+                             "purpose":  "Agent context-management tooling that helps coding agents retrieve or structure relevant repository context while working.",
+                             "categories":  [
+                                                "category:ai-memory",
+                                                "category:developer-tools",
+                                                "category:ai-agents"
+                                            ],
+                             "operational":  "operational:04",
+                             "license_notes":  "Check repository license and compatible agent platform terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "agent context",
+                                              "coding agent memory",
+                                              "repository context",
+                                              "context retrieval",
+                                              "developer tools"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "context capture and retrieval",
+                                                             "description":  "Organizes project information for later agent queries.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "coding-agent integration",
+                                                             "description":  "Connects context operations to supported agent workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Context-mode integration",
+                                                              "purpose":  "Improves how an agent accesses project knowledge across tasks.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "agent tool/plugin interface"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use when persistent project context is needed; assess indexing freshness and data retention.",
+                             "risk_notes":  [
+                                                "Private source and conversation context may be persisted or exposed to external models."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/auto-subs",
+                             "commit":  "c98f6df804bf49ab8ff14ee8f24ef1413211dec2",
+                             "purpose":  "Automates subtitle or caption creation and related media processing; confirm supported input formats and transcription pipeline from repository documentation.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:automation-scripting",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Review source license and transcription/model terms.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "business_media_other":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "automatic subtitles",
+                                              "captions",
+                                              "speech transcription",
+                                              "video processing",
+                                              "media automation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "subtitle generation",
+                                                             "description":  "Creates caption or subtitle output from supported media inputs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "media workflow automation",
+                                                             "description":  "Coordinates transcription and output processing steps.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Subtitle automation pipeline",
+                                                              "purpose":  "Connects audio processing to subtitle outputs.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "speech/media tools"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as a starting point for caption pipelines; validate accuracy and provide human correction.",
+                             "risk_notes":  [
+                                                "Recordings may contain personal or confidential speech; secure inputs and transcripts."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/nats-server",
+                             "commit":  "34d3f9b4d1993cf4060da38e39d0dab8148f8059",
+                             "purpose":  "High-performance messaging server supporting publish/subscribe, request/reply, streaming persistence and service communication.",
+                             "categories":  [
+                                                "category:message-event-systems",
+                                                "category:distributed-systems",
+                                                "category:backend-services"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Apache-2.0.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "NATS",
+                                              "messaging",
+                                              "pub-sub",
+                                              "JetStream",
+                                              "distributed systems"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "core messaging",
+                                                             "description":  "Provides lightweight publish/subscribe and request/reply communication.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "persistent streaming",
+                                                             "description":  "Supports durable streams and consumer processing through JetStream.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "clustered service infrastructure",
+                                                             "description":  "Provides server operation, security and deployment capabilities.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "NATS server",
+                                                              "purpose":  "Routes messages between distributed applications and services.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go server",
+                                             "NATS protocol",
+                                             "container/cloud deployment"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for low-latency service messaging; design authorization, retention and delivery guarantees explicitly.",
+                             "risk_notes":  [
+                                                "Misconfigured access or persistence can expose messages or lose expected durability."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Claw3D",
+                             "commit":  "0565b7892909eca7bbc8f2d9b0fad171dd75ad7c",
+                             "purpose":  "3D content or interaction project built around a claw-machine concept; provides a reusable visual/interactive experience rather than a general-purpose 3D engine.",
+                             "categories":  [
+                                                "category:games-interactive-experiences",
+                                                "category:creative-tools",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check repository license and included 3D asset rights.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Claw3D",
+                                              "3D interaction",
+                                              "game experience",
+                                              "WebGL",
+                                              "3D assets"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "interactive 3D experience",
+                                                             "description":  "Implements a 3D claw-machine style interface or scene.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "3D asset presentation",
+                                                             "description":  "Combines scene assets, controls and visual effects.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Claw3D scene",
+                                                              "purpose":  "Provides the project’s core interactive 3D experience.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web 3D runtime or repository-declared engine",
+                                             "3D assets"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for interaction and visual reference; confirm asset licenses and target-device performance.",
+                             "risk_notes":  [
+                                                "Third-party media and 3D assets may have separate reuse terms."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Fooocus",
+                             "commit":  "ae05379cc97bc4361ec8b4ec90193dab21be763f",
+                             "purpose":  "User-friendly interface and inference workflow for Stable Diffusion image generation with curated defaults and model support.",
+                             "categories":  [
+                                                "category:generative-ai",
+                                                "category:creative-tools",
+                                                "category:machine-learning-models"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Review software, model checkpoint, LoRA and generated-content licenses separately.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Fooocus",
+                                              "Stable Diffusion",
+                                              "image generation",
+                                              "prompt UI",
+                                              "image models"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "text-to-image generation",
+                                                             "description":  "Generates images from prompts using supported diffusion models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "image editing workflows",
+                                                             "description":  "Supports image variation, inpainting and related generation tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "guided generation interface",
+                                                             "description":  "Packages common image-generation controls behind an accessible UI.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Fooocus generation interface",
+                                                              "purpose":  "Combines model inference with streamlined image creation controls.",
+                                                              "evidence_paths":  [
+                                                                                     "readme.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "PyTorch/CUDA",
+                                             "diffusion checkpoints"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for local image-generation workflows after checking model provenance, hardware and content policy.",
+                             "risk_notes":  [
+                                                "Model weights and user images may have separate licenses and privacy implications."
+                                            ],
+                             "source_review":  [
+                                                   "readme.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/qlib",
+                             "commit":  "79633dd9506ea689e5400dea0197717b5b3d74b7",
+                             "purpose":  "Quantitative investment research platform for data processing, model development, backtesting and evaluation of financial strategies.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:data-science",
+                                                "category:machine-learning-models"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Apache-2.0; data and model sources retain their own terms.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Qlib",
+                                              "quantitative finance",
+                                              "backtesting",
+                                              "financial ML",
+                                              "investment research"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "financial data workflows",
+                                                             "description":  "Loads, processes and organizes market data for research.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "strategy modeling and backtesting",
+                                                             "description":  "Supports ML-based strategy experimentation and historical evaluation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "research benchmarks and tools",
+                                                             "description":  "Provides workflows and evaluation utilities for quantitative research.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Qlib research framework",
+                                                              "purpose":  "Connects market data, models and strategy evaluation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "machine-learning stack",
+                                             "market data sources"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for research and reproducible backtests, not as evidence of future returns or live suitability.",
+                             "risk_notes":  [
+                                                "Financial decisions, data licensing and live trading require independent controls and review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/computer",
+                             "commit":  "de87919a4fd37242e960e13b7b3ba802d1eef0a0",
+                             "purpose":  "Computer-use or desktop automation capability for agents, enabling interaction with graphical applications; verify exact supported operating systems and action surface.",
+                             "categories":  [
+                                                "category:ai-agents",
+                                                "category:automation-scripting",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:05",
+                             "license_notes":  "Check repository license and platform requirements.",
+                             "asset_presence":  {
+                                                    "browser_computer_use":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "agents":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "computer use",
+                                              "desktop automation",
+                                              "agent UI control",
+                                              "GUI interaction",
+                                              "computer tool"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "graphical interface control",
+                                                             "description":  "Allows an agent or automation process to interact with desktop UI controls.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "agent tool integration",
+                                                             "description":  "Exposes computer actions through an agent-compatible interface.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Computer interaction layer",
+                                                              "purpose":  "Bridges agent decisions to graphical desktop actions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "desktop OS integration"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Run in isolated sessions and require confirmation for consequential actions.",
+                             "risk_notes":  [
+                                                "GUI control can reach private data and perform arbitrary/destructive actions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/InvoicePlane",
+                             "commit":  "32b92f8105654d9d7cc2c739b9fd9da8eb15a228",
+                             "purpose":  "Self-hosted invoicing and client management application for estimates, invoices, payments and basic business administration.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:finance-accounting",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and payment provider terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "InvoicePlane",
+                                              "invoicing",
+                                              "estimates",
+                                              "client management",
+                                              "self-hosted billing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "invoices and estimates",
+                                                             "description":  "Creates and manages customer estimates and invoices.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "client and payment records",
+                                                             "description":  "Tracks customer details and payment status.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "business administration",
+                                                             "description":  "Provides a self-hosted interface for routine billing operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "InvoicePlane business application",
+                                                              "purpose":  "Combines client records with invoicing and payment workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP",
+                                             "web server",
+                                             "relational database"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Evaluate for small-business billing workflows after verifying maintenance, tax rules and payment integrations.",
+                             "risk_notes":  [
+                                                "Customer PII, financial records and payment data require security and compliance review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Hermes3D",
+                             "commit":  "59fe1f618c8711e7a20ae45b665e120fc50b2961",
+                             "purpose":  "3D visualization or scene-generation project within the Hermes ecosystem; treat as a reusable visual subsystem and verify exact function from pinned sources.",
+                             "categories":  [
+                                                "category:creative-tools",
+                                                "category:games-interactive-experiences",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check repository license and bundled asset terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Hermes3D",
+                                              "3D scenes",
+                                              "visualization",
+                                              "interactive graphics"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "3D rendering and presentation",
+                                                             "description":  "Provides a 3D scene or visualization capability for Hermes-related use.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "interactive scene controls",
+                                                             "description":  "Supports user interaction with the rendered 3D content.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Hermes 3D interface",
+                                                              "purpose":  "Packages the project’s 3D display or interaction layer.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web or desktop 3D runtime",
+                                             "repository-declared renderer"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Inspect interfaces and asset provenance before integrating into shared Hermes infrastructure.",
+                             "risk_notes":  [
+                                                "Shared Hermes integration makes compatibility and asset provenance strategically important."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Confetti",
+                             "commit":  "ee8573747132ea462f24b79a6e406771ba9e4799",
+                             "purpose":  "Small UI effects library or application that produces animated confetti celebrations for web interfaces.",
+                             "categories":  [
+                                                "category:frontend-applications",
+                                                "category:libraries-packages",
+                                                "category:creative-tools"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository license.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "confetti animation",
+                                              "celebration UI",
+                                              "frontend effects",
+                                              "JavaScript component"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "confetti animation",
+                                                             "description":  "Renders celebratory particle effects in an interface.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "UI integration",
+                                                             "description":  "Provides a reusable component or API for triggering visual effects.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Confetti effect",
+                                                              "purpose":  "Adds a lightweight celebratory animation to product flows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/TypeScript",
+                                             "browser UI"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for lightweight success or celebration feedback; honor reduced-motion preferences.",
+                             "risk_notes":  [
+                                                "Check accessibility and animation performance for motion-sensitive users."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ejabberd-messaging-platform-",
+                             "commit":  "599b47081e251f2daede59adfc1fb6b5601e125e",
+                             "purpose":  "Messaging server/platform based on ejabberd and XMPP for real-time chat and federated communication.",
+                             "categories":  [
+                                                "category:backend-services",
+                                                "category:message-event-systems",
+                                                "category:networking"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Check ejabberd license and any repository modifications.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ejabberd",
+                                              "XMPP",
+                                              "messaging server",
+                                              "real-time chat",
+                                              "federation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "XMPP messaging",
+                                                             "description":  "Supports real-time messaging and presence using XMPP protocols.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "server administration",
+                                                             "description":  "Configures accounts, modules, storage and service operation.",
+                                                             "scope":  "CONFIGURATION"
+                                                         },
+                                                         {
+                                                             "name":  "client and service integration",
+                                                             "description":  "Connects messaging clients and applications to XMPP services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ejabberd messaging backend",
+                                                              "purpose":  "Provides a deployable messaging and presence service.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Erlang/Elixir ecosystem",
+                                             "XMPP",
+                                             "database backend"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use where federated messaging is required; harden registration, federation and retention settings.",
+                             "risk_notes":  [
+                                                "Messages and account metadata are sensitive; secure transport, storage and abuse controls matter."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/folded-paper-engine-3D-gen-game-creator",
+                             "commit":  "8810eb8b034bcc368c9103c194e29be3cf0d88a1",
+                             "purpose":  "3D game or scene-generation workflow themed around folded paper, providing reusable creative tooling and visual interaction patterns.",
+                             "categories":  [
+                                                "category:games-interactive-experiences",
+                                                "category:creative-tools",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check repository and model/asset licenses.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "3D game creator",
+                                              "procedural generation",
+                                              "folded paper",
+                                              "scene authoring",
+                                              "interactive 3D"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "3D content generation",
+                                                             "description":  "Creates or assembles game-ready scenes and objects through a creative workflow.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "interactive game experience",
+                                                             "description":  "Provides a playable or manipulable 3D output.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "3D generation engine",
+                                                              "purpose":  "Connects authoring controls with generated interactive scenes.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "3D engine or browser renderer",
+                                             "generation tooling"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for creative prototyping and inspect generated asset rights and platform constraints.",
+                             "risk_notes":  [
+                                                "Generated assets may have model and source-content licensing conditions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/vibe-studio-ui-ux-pro-max-skill",
+                             "commit":  "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+                             "purpose":  "Agent skill suite for UI/UX design work, offering design-system guidance, interface patterns and implementation advice across product surfaces.",
+                             "categories":  [
+                                                "category:skills",
+                                                "category:design-systems",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Check repository license and third-party design references.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "UI UX skill",
+                                              "design system",
+                                              "interface patterns",
+                                              "frontend design",
+                                              "agent design workflow"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "interface design guidance",
+                                                             "description":  "Guides layout, visual hierarchy and interaction design decisions.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "design-system practices",
+                                                             "description":  "Supports reusable tokens, components and consistent design language.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "design-to-code workflow",
+                                                             "description":  "Helps translate design decisions into frontend implementation tasks.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "UI/UX Pro Max skills",
+                                                              "purpose":  "Packages agent instructions for product design and frontend work.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown skills",
+                                             "coding/design agent host"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use to accelerate design iteration; test accessibility and validate decisions with actual users.",
+                             "risk_notes":  [
+                                                "Generated design guidance is not a substitute for accessibility or user research."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/notfair-plugin",
+                             "commit":  "daf87d3d4c985fa34ff7843aa570bc8c0d656ec2",
+                             "purpose":  "Plugin for NotFair-related application or workflow integration; use the pinned README and manifest for exact host compatibility and plugin behavior.",
+                             "categories":  [
+                                                "category:plugins-extensions",
+                                                "category:developer-tools",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:02",
+                             "license_notes":  "Check repository license and target platform plugin terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "NotFair plugin",
+                                              "application extension",
+                                              "plugin integration",
+                                              "developer tooling"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "host application extension",
+                                                             "description":  "Adds the repository’s documented capability to a compatible host application.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "plugin packaging and configuration",
+                                                             "description":  "Defines installation and integration requirements.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "NotFair plugin module",
+                                                              "purpose":  "Connects plugin functionality to its target host.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Host application plugin runtime"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Verify host version, extension permissions and maintainership before integrating.",
+                             "risk_notes":  [
+                                                "Plugin permissions and compatibility should be assessed on the pinned revision."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Radix-themes",
+                             "commit":  "1faff10ac26ae17f09944d418c6949b93fc6b566",
+                             "purpose":  "Ready-made design themes and styling primitives for Radix UI components, enabling consistent accessible interfaces.",
+                             "categories":  [
+                                                "category:design-systems",
+                                                "category:frontend-applications",
+                                                "category:libraries-packages"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "MIT; verify any separately packaged fonts/assets.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Radix Themes",
+                                              "React UI",
+                                              "design tokens",
+                                              "accessible components",
+                                              "design system"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "themed component system",
+                                                             "description":  "Provides styled components built around Radix UI primitives.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "design tokens and variants",
+                                                             "description":  "Supports coherent themes, colors, spacing and component variants.",
+                                                             "scope":  "DESIGN"
+                                                         },
+                                                         {
+                                                             "name":  "React integration",
+                                                             "description":  "Packages components for use in modern frontend projects.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Radix Themes component library",
+                                                              "purpose":  "Adds design-system styling to accessible UI primitives.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/React",
+                                             "CSS"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for accessible, consistent application UI and align tokens with product branding.",
+                             "risk_notes":  [
+                                                "Check version compatibility and preserve semantic/accessibility behavior when customizing."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/yarr",
+                             "commit":  "8be88c79131139a4842f9990d1ef3c0550b627fe",
+                             "purpose":  "A reader-oriented application or library; inspect the pinned README for its exact media/source support before selecting it for content workflows.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:web-applications",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check repository license and content source terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "YARR",
+                                              "reader application",
+                                              "content feeds",
+                                              "media reading",
+                                              "web content"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "content discovery and reading",
+                                                             "description":  "Organizes or presents external content in a reader-oriented experience.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "source and feed handling",
+                                                             "description":  "Connects the interface to configured content sources.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "YARR reader",
+                                                              "purpose":  "Provides a consolidated reading interface for supported content sources.",
+                                                              "evidence_paths":  [
+                                                                                     "readme.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared application runtime",
+                                             "web or feed APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as a candidate reading UI; verify supported sources and respect publisher access rules.",
+                             "risk_notes":  [
+                                                "External content terms and credentials for private feeds may apply."
+                                            ],
+                             "source_review":  [
+                                                   "readme.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Scrapling",
+                             "commit":  "fd531313a499092d8471bf24a0e08dc5771f2b40",
+                             "purpose":  "Adaptive Python web scraping framework for extracting structured data from websites while handling page and site changes.",
+                             "categories":  [
+                                                "category:libraries-packages",
+                                                "category:automation-scripting",
+                                                "category:data-engineering"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "Check repository license and target site terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "browser_computer_use":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Scrapling",
+                                              "web scraping",
+                                              "Python parser",
+                                              "adaptive selectors",
+                                              "browser extraction"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "HTML parsing and extraction",
+                                                             "description":  "Extracts structured content from web pages using convenient selectors.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "adaptive scraping",
+                                                             "description":  "Supports resilient extraction when page structure shifts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "browser-backed collection",
+                                                             "description":  "Integrates browser automation for dynamic sites.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Scrapling extraction framework",
+                                                              "purpose":  "Combines parsing and adaptive collection for web data workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "HTTP/browser automation"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for permitted collection with rate limits, robots/policy review and robust data validation.",
+                             "risk_notes":  [
+                                                "Scraping may violate site terms or expose personal data; browser evasion features need strict governance."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/langgraph",
+                             "commit":  "f09cfe8ffc1eeffd68f4b628ed69c30f7cad229f",
+                             "purpose":  "Framework for building stateful, controllable multi-step and multi-agent applications as graphs with persistence and human-in-the-loop workflows.",
+                             "categories":  [
+                                                "category:agent-frameworks",
+                                                "category:ai-orchestration",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "MIT; check model/provider service terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LangGraph",
+                                              "agent framework",
+                                              "stateful workflows",
+                                              "human in the loop",
+                                              "graph orchestration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "graph-based agent orchestration",
+                                                             "description":  "Composes nodes, transitions and state for controlled agent workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "persistence and resumability",
+                                                             "description":  "Supports checkpointed state and continuing long-running workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "human review and deployment",
+                                                             "description":  "Enables interruption, inspection and production-oriented execution patterns.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "LangGraph runtime",
+                                                              "purpose":  "Coordinates stateful agent execution with graph control flow.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/TypeScript",
+                                             "LangChain ecosystem",
+                                             "model providers"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use when explicit state and control flow matter; define retries, persistence and approval boundaries.",
+                             "risk_notes":  [
+                                                "Persistent agent state may contain secrets or personal data; tool execution needs scoped permissions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/muse-gadget-sdk",
+                             "commit":  "f60347aeb851a1fe9438cfc388721776aa24f275",
+                             "purpose":  "SDK for integrating Muse wearable or gadget capabilities into applications, likely exposing device data or control; verify supported device and API surface in pinned docs.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:iot",
+                                                "category:mobile-applications"
+                                            ],
+                             "operational":  "operational:06",
+                             "license_notes":  "Check SDK license, device terms and data-use policies.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Muse SDK",
+                                              "wearable integration",
+                                              "device APIs",
+                                              "biosensor data",
+                                              "mobile SDK"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "device connection and integration",
+                                                             "description":  "Connects applications to supported Muse hardware or services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "device data access",
+                                                             "description":  "Exposes sensor or device information to downstream experiences.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Muse gadget SDK",
+                                                              "purpose":  "Provides the application-facing interface for device capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared SDK language",
+                                             "mobile/device APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Inspect exact device permissions and data semantics before building a user-facing feature.",
+                             "risk_notes":  [
+                                                "Biometric or health-adjacent data requires consent, secure handling and careful claims."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/awesome-gpt-image-2",
+                             "commit":  "b477278bb2a36d4c59655eb0daa4ce48e8dbc4c4",
+                             "purpose":  "Curated collection of examples, prompts, references or resources for GPT Image 2 image-generation workflows.",
+                             "categories":  [
+                                                "category:generative-ai",
+                                                "category:creative-tools",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check individual linked resources and image/model terms; collection license may not cover external items.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "GPT Image 2",
+                                              "image prompts",
+                                              "image generation examples",
+                                              "visual workflows",
+                                              "curated resources"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "image generation examples",
+                                                             "description":  "Collects prompt and usage references for image-generation tasks.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "workflow discovery",
+                                                             "description":  "Organizes examples and resources for creative generation use cases.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "GPT Image resource collection",
+                                                              "purpose":  "Makes image-generation references searchable for practitioners.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Documentation/curated resources",
+                                             "image generation API"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as inspiration and verify current API behavior, image rights and external resource licenses.",
+                             "risk_notes":  [
+                                                "Prompt examples may be stale and linked content may have independent licenses."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/voicebox",
+                             "commit":  "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+                             "purpose":  "Speech generation or voice AI toolkit for producing audio from text and experimenting with voice models.",
+                             "categories":  [
+                                                "category:generative-ai",
+                                                "category:machine-learning-models",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check code, checkpoint, voice data and generated audio terms separately.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "voice_audio":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Voicebox",
+                                              "text to speech",
+                                              "voice generation",
+                                              "audio model",
+                                              "speech synthesis"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "speech and voice generation",
+                                                             "description":  "Generates speech audio from textual or conditioned input.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "voice model research",
+                                                             "description":  "Provides model and inference workflows for voice generation experiments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Voicebox model pipeline",
+                                                              "purpose":  "Connects model inference with generated speech output.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "machine-learning/audio stack",
+                                             "model weights"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only with consented voice data and clear disclosure of synthetic audio.",
+                             "risk_notes":  [
+                                                "Voice cloning, biometric data and impersonation risks require strong safeguards."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/aider",
+                             "commit":  "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+                             "purpose":  "AI pair-programming assistant that edits code repositories through conversational commands and integrates with version control and multiple model providers.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-agents",
+                                                "category:cli-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Apache-2.0; model providers have separate terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Aider",
+                                              "AI pair programming",
+                                              "coding agent",
+                                              "Git workflow",
+                                              "CLI code assistant"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "repository-aware coding agent",
+                                                             "description":  "Uses code context to propose and apply multi-file changes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Git-integrated editing",
+                                                             "description":  "Works with version control to track and review code modifications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "model provider integration",
+                                                             "description":  "Supports multiple language-model backends for coding tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Aider CLI",
+                                                              "purpose":  "Coordinates natural-language coding tasks with repository edits.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python CLI",
+                                             "Git",
+                                             "LLM APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with a clean branch, review diffs and tests, and restrict secrets before delegating edits.",
+                             "risk_notes":  [
+                                                "May modify arbitrary source files and transmit code context to model providers."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Lottie-Windows",
+                             "commit":  "27e3769e22ce6d081677dfdb277db929aa721156",
+                             "purpose":  "Windows library or runtime for rendering Lottie animations in native applications.",
+                             "categories":  [
+                                                "category:libraries-packages",
+                                                "category:frontend-applications",
+                                                "category:creative-tools"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository license and Lottie asset licensing.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Lottie Windows",
+                                              "animation rendering",
+                                              "Windows UI",
+                                              "JSON animation",
+                                              "native components"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Lottie playback",
+                                                             "description":  "Renders Lottie animation assets in Windows application interfaces.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "native UI integration",
+                                                             "description":  "Provides APIs or controls for embedding animation into Windows apps.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Lottie Windows renderer",
+                                                              "purpose":  "Connects Lottie animation data to native Windows presentation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Windows/.NET or native runtime",
+                                             "Lottie JSON"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for lightweight motion in Windows apps after validating feature support and animation performance.",
+                             "risk_notes":  [
+                                                "Validate untrusted animation input and honor reduced-motion accessibility needs."
+                                            ]
+                         }
+                     ]
+}

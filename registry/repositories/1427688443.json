@@ -11,21 +11,28 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/CodebuffAI/freebuff",
-  "description": "The free coding agent",
+  "description": "Freebuff/Codebuff coding-agent monorepo with terminal CLI/UI, programmatic SDK, shared agent runtime/definitions, code mapping, model adapters and evaluation tools; README also links hosted products whose complete implementations are not established here.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-20T23:36:06Z",
     "live_metadata": "FRESH",
-    "github_description": "The free coding agent"
+    "github_description": "The free coding agent",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "aac5357ea3e677594f39ed62bfccd329bb9cdf40",
   "current_commit": "aac5357ea3e677594f39ed62bfccd329bb9cdf40",
   "inspection_date": "2026-10-21T23:12:05.360119+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:agent-frameworks",
+    "category:ai-agents",
+    "category:cli-tools",
+    "category:sdks-client-libraries",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:freebuff-vibe-coding-like-lovable-cli-cb",
@@ -206,7 +213,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT COMPONENTS",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -451,16 +458,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.914665+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.927960+00:00",
   "tree_files": 2158,
   "files_read": 2127,
   "entity_count": 176,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "semantic_review_progress": {
     "status": "PENDING",
@@ -468,5 +476,350 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 176,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Freebuff/Codebuff coding-agent monorepo with terminal CLI/UI, programmatic SDK, shared agent runtime/definitions, code mapping, model adapters and evaluation tools; README also links hosted products whose complete implementations are not established here.",
+    "reuse_recommendation": "Evaluate the CLI on trusted projects or extract SDK/code-map/adapter packages; inspect exact execution permissions and dependency closure only when selecting an integration.",
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "license_notes": "Root and SDK declare Apache-2.0; dependency and asset notices still apply.",
+    "runtime": [
+      "TypeScript",
+      "Bun",
+      "Node-compatible SDK",
+      "React terminal UI",
+      "Tree-sitter WASM"
+    ],
+    "keywords": [
+      "freebuff-vibe-coding-like-Lovable-",
+      "coding-agent runtime",
+      "terminal coding interface",
+      "coding-agent SDK",
+      "repository code mapping",
+      "model and MCP integration",
+      "agent evaluation tooling",
+      "hosted product references",
+      "TypeScript",
+      "Bun",
+      "Node-compatible SDK",
+      "React terminal UI",
+      "Tree-sitter WASM"
+    ],
+    "risk_notes": [
+      "Agent tools can read private project context, mutate files and execute commands. Model/MCP connections add credential and external-data boundaries; inspect permissions/routing for a selected build. Hosted-product availability, billing and runtime security were not tested. MCP servers declared only in test fixtures are not shipped server capabilities."
+    ],
+    "important_subsystems": [
+      {
+        "name": "coding-agent runtime",
+        "purpose": "Coordinate coding work through agent definitions, tool handling and shared run state.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "terminal coding interface",
+        "purpose": "Expose Codebuff/Freebuff command-line and terminal UI surfaces.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "coding-agent SDK",
+        "purpose": "Control programmatic runs, tool overrides and persisted/compacted run state.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:44:47.749021+00:00",
+    "inspected_commit": "aac5357ea3e677594f39ed62bfccd329bb9cdf40",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f88c5cb54cd4d1e2dfa401dde2f59d51fee7dee7",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "446a604f1bd40e5d75149f9300fe294400d11f3f",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "b5a49881c46b1b50998a04b3eda886399218a9f1",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "sdk/package.json",
+        "blob_sha": "3f0a99e97dc8644ed840ead3d5d629d94af6f5a5",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/sdk/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "sdk/src/index.ts",
+        "blob_sha": "b96e3e41142818014ef69719b16a20b37eb7bb4f",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/sdk/src/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "cli/package.json",
+        "blob_sha": "f873cd35aa8ca2551696d997e36491890e87ce2f",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/cli/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "agents/package.json",
+        "blob_sha": "1fa60e9a8a735111b22a93154bd78f7a1475a126",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/agents/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/agent-runtime/package.json",
+        "blob_sha": "e391f1cc9677add68c76d77fbde1e88071842140",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/packages/agent-runtime/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/code-map/package.json",
+        "blob_sha": "9476b022624dcef94e75ed448dda96a467285a98",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/packages/code-map/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/code-map/src/index.ts",
+        "blob_sha": "48a846cfa66a70514fdbd9e2ac2e4810bac7b031",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/packages/code-map/src/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/llm-providers/package.json",
+        "blob_sha": "26c78f390e022c8ddf9c34eafa09f0ce50eee6bf",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/packages/llm-providers/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "evals/package.json",
+        "blob_sha": "a835b7fb8912f76d3137b4d028f7e7095a4e3b85",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/evals/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "common/src/mcp/client.ts",
+        "blob_sha": "31b87bdc2ec6cb7955c3a36406c762796e2f1214",
+        "value": "https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/common/src/mcp/client.ts"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "coding-agent runtime",
+        "description": "Coordinate coding work through agent definitions, tool handling and shared run state.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:coding-agent-runtime",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "terminal coding interface",
+        "description": "Expose Codebuff/Freebuff command-line and terminal UI surfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:terminal-coding-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "coding-agent SDK",
+        "description": "Control programmatic runs, tool overrides and persisted/compacted run state.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:coding-agent-sdk",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "repository code mapping",
+        "description": "Extract language-aware repository context through Tree-sitter-backed parsing.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-code-mapping",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "model and MCP integration",
+        "description": "Connect model-provider adapters and external stdio/SSE/HTTP MCP tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-and-mcp-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "agent evaluation tooling",
+        "description": "Provide workspace evaluation harnesses for coding-agent behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-evaluation-tooling",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "hosted product references",
+        "description": "Link external desktop/web/cloud/chat products without assuming their complete service code is included.",
+        "scope": "REFERENCE",
+        "id": "cluster:hosted-product-references",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

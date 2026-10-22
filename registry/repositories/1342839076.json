@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/paperclipai/paperclip",
-  "description": "The open-source app everyone uses to manage agents at work",
+  "description": "Open-source lightweight clipboard manager or note capture utility; confirm platform and synchronization behavior in pinned project documentation.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T12:00:21Z",
-    "github_description": "The open-source app everyone uses to manage agents at work"
+    "github_description": "The open-source app everyone uses to manage agents at work",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3ff636bc4852dfc07fcab8ccfdb0b4fd22c1548c",
   "current_commit": "3ff636bc4852dfc07fcab8ccfdb0b4fd22c1548c",
   "inspection_date": "2026-09-20T05:33:24.209645+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:productivity",
+    "category:desktop-applications",
+    "category:general-other"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 52,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.817532+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.939096+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4861,
-  "files_read": 10,
+  "files_read": 17,
   "entity_count": 3,
-  "unread_source_files": 4425,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4674,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.253684+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source lightweight clipboard manager or note capture utility; confirm platform and synchronization behavior in pinned project documentation.",
+    "reuse_recommendation": "Use only with sensitive-content exclusions, secure local storage and user-controlled retention.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository license and platform packaging.",
+    "runtime": [
+      "Repository-declared desktop runtime"
+    ],
+    "keywords": [
+      "Paperclip",
+      "clipboard manager",
+      "desktop productivity",
+      "copy history",
+      "text capture"
+    ],
+    "risk_notes": [
+      "Clipboard history can capture passwords, tokens and private content."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Paperclip utility",
+        "purpose": "Improves access to captured clipboard content.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:56.350136+00:00",
+    "inspected_commit": "3ff636bc4852dfc07fcab8ccfdb0b4fd22c1548c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5f19d11df6b64fbe2c013b6269c3286593c8e300",
+        "value": "https://github.com/jamesrwatsonx-creator/paperclip/blob/3ff636bc4852dfc07fcab8ccfdb0b4fd22c1548c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "clipboard capture and history",
+        "description": "Stores or manages recently copied content for reuse.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:clipboard-capture-and-history",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "desktop quick access",
+        "description": "Provides an interface for searching and reusing clipboard items.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:desktop-quick-access",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

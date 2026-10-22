@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/moby/moby",
-  "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+  "description": "Open-source container engine and component ecosystem for building, distributing and running OCI containerized applications.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T22:28:30Z",
-    "github_description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+    "github_description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b985e2313a8676e18072b442911fc8f64f17d440",
   "current_commit": "b985e2313a8676e18072b442911fc8f64f17d440",
   "inspection_date": "2026-09-20T05:33:52.275762+00:00",
   "categories": [
-    "category:general-other"
+    "category:containers",
+    "category:cloud-infrastructure",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.538024+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.686887+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 13018,
-  "files_read": 9,
+  "files_read": 15,
   "entity_count": 0,
-  "unread_source_files": 11319,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 11853,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.221219+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source container engine and component ecosystem for building, distributing and running OCI containerized applications.",
+    "reuse_recommendation": "Use container components with hardened daemon access, image provenance and least privilege.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Apache-2.0; images and bundled software have their own licenses.",
+    "runtime": [
+      "Go",
+      "Linux/Windows",
+      "OCI/container tooling"
+    ],
+    "keywords": [
+      "Moby",
+      "container engine",
+      "Docker components",
+      "OCI images",
+      "container infrastructure"
+    ],
+    "risk_notes": [
+      "Container daemon access is privileged and images may contain untrusted software."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Moby container engine",
+        "purpose": "Provides foundational components for container-based application infrastructure.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:53.012161+00:00",
+    "inspected_commit": "b985e2313a8676e18072b442911fc8f64f17d440",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fae3ea838fb6d1034d0e6ebf3ee39491d1812438",
+        "value": "https://github.com/jamesrwatsonx-creator/moby/blob/b985e2313a8676e18072b442911fc8f64f17d440/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "container runtime and image management",
+        "description": "Builds and operates container images and workloads.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:container-runtime-and-image-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "container networking and storage",
+        "description": "Provides system components for container isolation and connectivity.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:container-networking-and-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "engine components and APIs",
+        "description": "Supplies modular building blocks for container platforms.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:engine-components-and-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

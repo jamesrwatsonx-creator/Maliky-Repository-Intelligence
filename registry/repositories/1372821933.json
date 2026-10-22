@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/awslabs/aidlc-workflows",
-  "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+  "description": "Agentic development lifecycle workflows for planning, specifying, building and validating software in Vibe Studio.",
   "metadata": {
     "language": null,
     "license": "MIT-0",
     "archived": false,
     "pushed_at": "2026-09-16T09:37:26Z",
-    "github_description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+    "github_description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "7998589725a932c43bb3bb870c665cc7c724d3df",
   "current_commit": "7998589725a932c43bb3bb870c665cc7c724d3df",
   "inspection_date": "2026-09-20T05:36:37.553000+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:developer-tools"
+    "category:agent-workflows",
+    "category:developer-tools",
+    "category:skills"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:20",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 14,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.489776+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.512920+00:00",
   "tree_files": 1266,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1208,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1210,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.316453+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agentic development lifecycle workflows for planning, specifying, building and validating software in Vibe Studio.",
+    "reuse_recommendation": "Use as a development process scaffold and adapt gates to repository risk and team practice.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository license and host compatibility.",
+    "runtime": [
+      "Markdown workflows/skills",
+      "Vibe Studio agent host"
+    ],
+    "keywords": [
+      "AI development lifecycle",
+      "AIDLC",
+      "Vibe Studio",
+      "software workflows",
+      "agent instructions"
+    ],
+    "risk_notes": [
+      "Agent-generated changes still require source review, tests and human approval."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AIDLC workflow set",
+        "purpose": "Provides repeatable agent instructions for end-to-end software development.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:18.656327+00:00",
+    "inspected_commit": "7998589725a932c43bb3bb870c665cc7c724d3df",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "be27134ae34eced673957bff6acd58708298ae87",
+        "value": "https://github.com/jamesrwatsonx-creator/Vibe-studio-aidlc-workflows/blob/7998589725a932c43bb3bb870c665cc7c724d3df/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "requirements and planning workflows",
+        "description": "Guides agents through problem framing, requirements and design decisions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:requirements-and-planning-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "implementation and validation workflows",
+        "description": "Coordinates coding tasks with verification and review stages.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:implementation-and-validation-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent lifecycle orchestration",
+        "description": "Packages reusable checkpoints for structured AI-assisted development.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-lifecycle-orchestration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

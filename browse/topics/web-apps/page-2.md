@@ -1,6 +1,6 @@
 # Web Apps — page 2
 
-1,175 catalog entries · Sorted alphabetically by name · Page 2 of 8.
+1,250 catalog entries · Sorted alphabetically by name · Page 2 of 9.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -315,3 +315,4 @@
 - [Page 6](page-6.md)
 - [Page 7](page-7.md)
 - [Page 8](page-8.md)
+- [Page 9](page-9.md)

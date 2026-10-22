@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/dubinc/dub",
-  "description": "The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.",
+  "description": "Affiliate link management or marketing platform for creating trackable links and organizing referral campaigns.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-22T04:15:32Z",
-    "github_description": "The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more."
+    "github_description": "The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "1de955f782a72e1eff7b201ae54a909d5ceb5722",
   "current_commit": "1de955f782a72e1eff7b201ae54a909d5ceb5722",
   "inspection_date": "2026-09-20T05:33:23.227855+00:00",
   "categories": [
-    "category:business-applications"
+    "category:marketing-communications",
+    "category:commerce-e-commerce",
+    "category:analytics"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.355551+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.467166+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4421,
-  "files_read": 3,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 4309,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4307,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.197618+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Affiliate link management or marketing platform for creating trackable links and organizing referral campaigns.",
+    "reuse_recommendation": "Use with disclosure, attribution and privacy-compliant tracking practices.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository license and affiliate network policies.",
+    "runtime": [
+      "Web application",
+      "database",
+      "affiliate APIs"
+    ],
+    "keywords": [
+      "affiliate links",
+      "referral tracking",
+      "campaign analytics",
+      "link management",
+      "marketing"
+    ],
+    "risk_notes": [
+      "Tracking identifiers and commercial claims require disclosure and privacy review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Affiliate link system",
+        "purpose": "Connects partner URLs with campaign tracking and reporting.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:54.178727+00:00",
+    "inspected_commit": "1de955f782a72e1eff7b201ae54a909d5ceb5722",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "977e1ccc0ae00e3d81d6dd2f8f41b35d703d6c9c",
+        "value": "https://github.com/jamesrwatsonx-creator/Link-affiliate/blob/1de955f782a72e1eff7b201ae54a909d5ceb5722/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "affiliate link generation and management",
+        "description": "Creates and organizes links associated with partner programs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:affiliate-link-generation-and-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "click and conversion tracking",
+        "description": "Measures engagement and referral outcomes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:click-and-conversion-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

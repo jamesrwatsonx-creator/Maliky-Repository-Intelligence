@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework.",
+  "upstream_url": "https://github.com/sopersone/cabbage-trading-machine",
+  "description": "Automated trading or market analysis system for executing strategies against financial data and connected venues.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-24T14:27:07Z",
-    "github_description": "Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework."
+    "github_description": "Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "530c2c68278addfe33e2c4b817eda5d72b6a661d",
+  "current_commit": "530c2c68278addfe33e2c4b817eda5d72b6a661d",
+  "inspection_date": "2026-10-22T02:24:57.975946+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:automation-scripting",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.354827+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.139315+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.089553+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1419,
+  "files_read": 10,
+  "unread_source_files": 1316,
+  "repository_intelligence": {
+    "purpose": "Automated trading or market analysis system for executing strategies against financial data and connected venues.",
+    "reuse_recommendation": "Restrict to research or paper trading until execution, risk limits and key custody are independently reviewed.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check code and exchange/data provider terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "market/exchange APIs"
+    ],
+    "keywords": [
+      "algorithmic trading",
+      "market strategy",
+      "trading automation",
+      "exchange integration",
+      "financial data"
+    ],
+    "risk_notes": [
+      "Live trading can cause financial loss; credentials and orders require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Trading engine",
+        "purpose": "Coordinates data, strategy decisions and potential market actions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:24.885880+00:00",
+    "inspected_commit": "530c2c68278addfe33e2c4b817eda5d72b6a661d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e6bbba8516baab2cee34b9953bb5270b3bf0ade1",
+        "value": "https://github.com/jamesrwatsonx-creator/cabbage-trading-machine/blob/530c2c68278addfe33e2c4b817eda5d72b6a661d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "market analysis and signals",
+        "description": "Processes financial data to produce trading decisions or indicators.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-analysis-and-signals",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "automated execution workflow",
+        "description": "Connects strategies to trading APIs or simulated environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:automated-execution-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

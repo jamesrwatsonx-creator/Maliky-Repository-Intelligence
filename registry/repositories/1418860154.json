@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/ioBroker/ioBroker",
-  "description": "Automate your life!",
+  "description": "Windows installer and setup distribution for ioBroker, a Node.js home-automation platform with adapters for connecting devices and services.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-13T10:21:38Z",
-    "github_description": "Automate your life!"
+    "github_description": "Automate your life!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9fbf5a1307fa1e0759402ea94f9c5b9db99996fc",
   "current_commit": "9fbf5a1307fa1e0759402ea94f9c5b9db99996fc",
   "inspection_date": "2026-10-20T23:56:15.101925+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:iot",
+    "category:automation-scripting",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,100 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.258486+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.360339+00:00",
   "tree_files": 82,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 47,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 35,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Windows installer and setup distribution for ioBroker, a Node.js home-automation platform with adapters for connecting devices and services.",
+    "reuse_recommendation": "Use as installation reference; isolate home-automation networks and review adapter privileges before connecting physical devices.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT for this repository; adapters and connected devices carry separate terms.",
+    "runtime": [
+      "JavaScript",
+      "Node.js",
+      "Windows installer",
+      "ioBroker adapters"
+    ],
+    "keywords": [
+      "ioBroker installer",
+      "home automation",
+      "IoT adapters",
+      "Windows setup",
+      "device integration"
+    ],
+    "risk_notes": [
+      "Home automation can control physical devices; network exposure and adapter permissions require deployment-specific review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Windows installation workflow",
+        "purpose": "Sets up the ioBroker runtime for home automation use.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:53.060971+00:00",
+    "inspected_commit": "9fbf5a1307fa1e0759402ea94f9c5b9db99996fc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "227781a64bf75ee51eb7eaa160a5c8211c890885",
+        "value": "https://github.com/jamesrwatsonx-creator/ioBroker/blob/9fbf5a1307fa1e0759402ea94f9c5b9db99996fc/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "home automation platform setup",
+        "description": "Installs or configures the ioBroker automation runtime on Windows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:home-automation-platform-setup",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "device and service adapter ecosystem",
+        "description": "Connects the platform to external home devices and services through adapters.",
+        "scope": "REFERENCE",
+        "id": "cluster:device-and-service-adapter-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/MacWarrior/clipbucket-v5",
-  "description": "Open source video hosting with PHP",
+  "description": "Video sharing and media publishing platform for uploading, organizing and streaming user-generated video content.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T07:43:06Z",
-    "github_description": "Open source video hosting with PHP"
+    "github_description": "Open source video hosting with PHP",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "01990c0fa7baf925d2a4cf6ec1b75b1341b7a486",
   "current_commit": "01990c0fa7baf925d2a4cf6ec1b75b1341b7a486",
   "inspection_date": "2026-10-20T23:53:01.357263+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:web-applications",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.447052+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.269970+00:00",
   "tree_files": 4981,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2937,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 4172,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Video sharing and media publishing platform for uploading, organizing and streaming user-generated video content.",
+    "reuse_recommendation": "Use for authorized media hosting with moderation, upload scanning and storage planning.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository license, media codecs and uploaded content rights.",
+    "runtime": [
+      "PHP/web application",
+      "database",
+      "FFmpeg/media storage"
+    ],
+    "keywords": [
+      "ClipBucket",
+      "video sharing",
+      "media platform",
+      "video hosting",
+      "publishing"
+    ],
+    "risk_notes": [
+      "User-generated video, copyrighted content and uploaded files require governance and security controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ClipBucket video platform",
+        "purpose": "Combines media publishing, streaming and community functions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:42.406079+00:00",
+    "inspected_commit": "01990c0fa7baf925d2a4cf6ec1b75b1341b7a486",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "955fe710e8a3a7752bda00682efd0fcff5116639",
+        "value": "https://github.com/jamesrwatsonx-creator/clipbucket-v5/blob/01990c0fa7baf925d2a4cf6ec1b75b1341b7a486/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video upload and streaming",
+        "description": "Manages user video uploads and playback workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-upload-and-streaming",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "media catalog and community",
+        "description": "Organizes channels, categories and user interactions around videos.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-catalog-and-community",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "transcoding and deployment",
+        "description": "Supports processing media and operating a video service.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:transcoding-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

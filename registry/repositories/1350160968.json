@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/enescingoz/awesome-n8n-templates",
-  "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+  "description": "Curated collection of n8n workflow templates for email, messaging, AI, social and business integrations.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-25T08:37:03Z",
-    "github_description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection."
+    "github_description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "728fd947598a020fe882e9f6b2cf5f84e15d2a6a",
   "current_commit": "728fd947598a020fe882e9f6b2cf5f84e15d2a6a",
   "inspection_date": "2026-09-20T05:35:33.478350+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory",
     "category:automation-scripting",
-    "category:creative-tools"
+    "category:research-projects",
+    "category:templates-boilerplates"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [
     "operational:03",
     "operational:04",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.190549+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.917147+00:00",
   "tree_files": 395,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 388,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 381,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.076323+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Curated collection of n8n workflow templates for email, messaging, AI, social and business integrations.",
+    "reuse_recommendation": "Inspect every credential, node and write action before importing a template into an n8n instance.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "Check repository license and each workflow's third-party nodes and services.",
+    "runtime": [
+      "n8n workflow JSON",
+      "external service nodes"
+    ],
+    "keywords": [
+      "n8n workflow templates",
+      "Gmail automation",
+      "OpenAI workflows",
+      "Slack integrations",
+      "business automation"
+    ],
+    "risk_notes": [
+      "Workflow imports can transmit data or perform writes; validate node provenance and credential scope."
+    ],
+    "important_subsystems": [
+      {
+        "name": "n8n workflow catalogue",
+        "purpose": "Organizes external workflow files for discovery and adaptation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:48.935750+00:00",
+    "inspected_commit": "728fd947598a020fe882e9f6b2cf5f84e15d2a6a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2eea55536d7574568faf126bdfe0221efbf118a4",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-n8n-templates/blob/728fd947598a020fe882e9f6b2cf5f84e15d2a6a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "EXTERNAL_REFERENCE",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "EXTERNAL_REFERENCE",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "workflow template discovery",
+        "description": "Indexes reusable n8n automation templates across common services.",
+        "scope": "REFERENCE",
+        "id": "cluster:workflow-template-discovery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI and business workflow patterns",
+        "description": "Provides examples connecting models, messaging and productivity platforms.",
+        "scope": "REFERENCE",
+        "id": "cluster:ai-and-business-workflow-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Infisical/infisical",
-  "description": "Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.",
+  "description": "Secrets management platform for securely storing, syncing and managing environment variables and credentials across teams and infrastructure.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T11:39:42Z",
-    "github_description": "Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents."
+    "github_description": "Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "0bc88e5ecc7e806aaeba5740bff3721220baf233",
   "current_commit": "0bc88e5ecc7e806aaeba5740bff3721220baf233",
   "inspection_date": "2026-10-20T23:55:54.851372+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:secrets-management",
+    "category:cybersecurity",
+    "category:devops"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.213591+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.305297+00:00",
   "tree_files": 15283,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 9459,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 12032,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Secrets management platform for securely storing, syncing and managing environment variables and credentials across teams and infrastructure.",
+    "reuse_recommendation": "Use with tested recovery, audit logging, least privilege and secret rotation.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check current edition and source-available licensing terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "database",
+      "cloud/self-hosted services"
+    ],
+    "keywords": [
+      "Infisical",
+      "secrets manager",
+      "environment variables",
+      "credential rotation",
+      "developer security"
+    ],
+    "risk_notes": [
+      "Compromise can expose broad credentials; secrets tooling is critical infrastructure."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Infisical secrets platform",
+        "purpose": "Centralizes secrets lifecycle and developer access workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:55.448037+00:00",
+    "inspected_commit": "0bc88e5ecc7e806aaeba5740bff3721220baf233",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c914e42b31248aaa806982733e4a9c13351b857f",
+        "value": "https://github.com/jamesrwatsonx-creator/infisical/blob/0bc88e5ecc7e806aaeba5740bff3721220baf233/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "secret storage and synchronization",
+        "description": "Stores and distributes secrets to applications and teams.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:secret-storage-and-synchronization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "identity and access policies",
+        "description": "Controls who can retrieve secrets and under what conditions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:identity-and-access-policies",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "rotation and infrastructure integrations",
+        "description": "Connects secrets to deployment workflows and rotation procedures.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:rotation-and-infrastructure-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

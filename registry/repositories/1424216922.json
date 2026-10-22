@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/facebookincubator/muse-gadget-sdk",
-  "description": "Open source SDK to build Muse gadgets",
+  "description": "SDK for integrating Muse wearable or gadget capabilities into applications, likely exposing device data or control; verify supported device and API surface in pinned docs.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-16T22:23:08Z",
-    "github_description": "Open source SDK to build Muse gadgets"
+    "github_description": "Open source SDK to build Muse gadgets",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f60347aeb851a1fe9438cfc388721776aa24f275",
   "current_commit": "f60347aeb851a1fe9438cfc388721776aa24f275",
   "inspection_date": "2026-10-20T23:58:32.354398+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iot",
+    "category:mobile-applications"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 43,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.560766+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.715901+00:00",
   "tree_files": 673,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 587,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 577,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "SDK for integrating Muse wearable or gadget capabilities into applications, likely exposing device data or control; verify supported device and API surface in pinned docs.",
+    "reuse_recommendation": "Inspect exact device permissions and data semantics before building a user-facing feature.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check SDK license, device terms and data-use policies.",
+    "runtime": [
+      "Repository-declared SDK language",
+      "mobile/device APIs"
+    ],
+    "keywords": [
+      "Muse SDK",
+      "wearable integration",
+      "device APIs",
+      "biosensor data",
+      "mobile SDK"
+    ],
+    "risk_notes": [
+      "Biometric or health-adjacent data requires consent, secure handling and careful claims."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Muse gadget SDK",
+        "purpose": "Provides the application-facing interface for device capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:25.235118+00:00",
+    "inspected_commit": "f60347aeb851a1fe9438cfc388721776aa24f275",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0bf95ef1680a6c5638c580fb0ffe6835bfdf8c81",
+        "value": "https://github.com/jamesrwatsonx-creator/muse-gadget-sdk/blob/f60347aeb851a1fe9438cfc388721776aa24f275/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "device connection and integration",
+        "description": "Connects applications to supported Muse hardware or services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:device-connection-and-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "device data access",
+        "description": "Exposes sensor or device information to downstream experiences.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:device-data-access",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

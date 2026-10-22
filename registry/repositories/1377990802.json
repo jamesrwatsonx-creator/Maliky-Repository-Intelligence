@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+  "upstream_url": "https://github.com/anchore/syft",
+  "description": "Software supply chain tool for generating software bills of materials from container images, filesystems and source projects.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-18T13:30:43Z",
-    "github_description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
+    "github_description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b49f0172f636fca01282eb12a411de6b0e26e633",
+  "current_commit": "b49f0172f636fca01282eb12a411de6b0e26e633",
+  "inspection_date": "2026-10-22T02:23:17.295892+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:cybersecurity",
+    "category:devops",
+    "category:compliance-governance"
   ],
-  "operational_category": "operational:24",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.343417+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.367304+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,101 @@
     ],
     "updated_at": "2026-10-12T19:04:27.299073+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2960,
+  "files_read": 10,
+  "unread_source_files": 2026,
+  "repository_intelligence": {
+    "purpose": "Software supply chain tool for generating software bills of materials from container images, filesystems and source projects.",
+    "reuse_recommendation": "Use in release pipelines and retain artifact provenance and scan configuration.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Apache-2.0; scanned packages retain their own licenses.",
+    "runtime": [
+      "Go CLI",
+      "containers and filesystems"
+    ],
+    "keywords": [
+      "Syft",
+      "SBOM",
+      "software inventory",
+      "container scanning",
+      "supply chain security"
+    ],
+    "risk_notes": [
+      "SBOMs may miss dynamically loaded or embedded components and are not security clearance by themselves."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Syft SBOM generator",
+        "purpose": "Creates software component inventories for downstream analysis.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:37.479174+00:00",
+    "inspected_commit": "b49f0172f636fca01282eb12a411de6b0e26e633",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d864e142875ca81737d5c94027bce41b838bead4",
+        "value": "https://github.com/jamesrwatsonx-creator/syft/blob/b49f0172f636fca01282eb12a411de6b0e26e633/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "component inventory generation",
+        "description": "Discovers packages and dependencies in software artifacts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:component-inventory-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SBOM format output",
+        "description": "Produces interoperable inventories for security and compliance workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:sbom-format-output",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CI and container integration",
+        "description": "Scans images and build artifacts in development pipelines.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:ci-and-container-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

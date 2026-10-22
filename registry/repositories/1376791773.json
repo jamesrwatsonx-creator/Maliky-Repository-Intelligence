@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/JetBrains/kotlin",
-  "description": "The Kotlin Programming Language. ",
+  "description": "Kotlin programming language and ecosystem repository, including compiler, standard library and multiplatform tooling.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-09-19T01:06:57Z",
-    "github_description": "The Kotlin Programming Language. "
+    "github_description": "The Kotlin Programming Language. ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "32e72c24aa3530144f50bfe781622bdc5fa4d4a7",
   "current_commit": "32e72c24aa3530144f50bfe781622bdc5fa4d4a7",
   "inspection_date": "2026-09-20T05:39:56.865556+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:developer-tools",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 6,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.317861+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.424863+00:00",
   "tree_files": 111000,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 103001,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 103226,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.191604+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Kotlin programming language and ecosystem repository, including compiler, standard library and multiplatform tooling.",
+    "reuse_recommendation": "Use for Kotlin development and consult target-specific platform support and release compatibility.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Apache-2.0; platform and compiler dependencies have separate terms.",
+    "runtime": [
+      "Kotlin compiler",
+      "JVM/Native/JS/Wasm targets"
+    ],
+    "keywords": [
+      "Kotlin",
+      "programming language",
+      "JVM",
+      "multiplatform",
+      "compiler"
+    ],
+    "risk_notes": [
+      "Compiler and language ecosystem compatibility varies by target and version."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Kotlin language ecosystem",
+        "purpose": "Enables concise, statically typed development across multiple platforms.",
+        "evidence_paths": [
+          "ReadMe.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:58.765481+00:00",
+    "inspected_commit": "32e72c24aa3530144f50bfe781622bdc5fa4d4a7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "ReadMe.md",
+        "blob_sha": "08f86e4a7362a568e7cddebbe86fdb88fe78ad57",
+        "value": "https://github.com/jamesrwatsonx-creator/kotlin/blob/32e72c24aa3530144f50bfe781622bdc5fa4d4a7/ReadMe.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Kotlin language and compiler",
+        "description": "Defines the language syntax, type system and compilation toolchain.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:kotlin-language-and-compiler",
+        "evidence_paths": [
+          "ReadMe.md"
+        ]
+      },
+      {
+        "name": "standard library and runtime",
+        "description": "Provides core APIs used by Kotlin applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:standard-library-and-runtime",
+        "evidence_paths": [
+          "ReadMe.md"
+        ]
+      },
+      {
+        "name": "multiplatform and IDE tooling",
+        "description": "Supports development across JVM, Android, native and web targets.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:multiplatform-and-ide-tooling",
+        "evidence_paths": [
+          "ReadMe.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

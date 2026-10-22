@@ -1,6 +1,6 @@
 # Productivity & Automation — page 2
 
-2,817 catalog entries · Sorted alphabetically by name · Page 2 of 19.
+2,904 catalog entries · Sorted alphabetically by name · Page 2 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -326,3 +326,4 @@
 - [Page 17](page-17.md)
 - [Page 18](page-18.md)
 - [Page 19](page-19.md)
+- [Page 20](page-20.md)

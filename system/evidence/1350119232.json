@@ -3,10 +3,103 @@
   "inspected_commit": "cadc05ebafc242d441798725fa8dcb926f650475",
   "tree_complete": true,
   "tree_files": 779,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/binance-lev-tier-update.yml",
+      "sha": "ed73925b7618361e51de1158db77db58d3490d6d"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "65357b9d25d0467a1383ef6c6800dbf0e9e869a4"
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha": "aad2acf6ed009e9628e117dddb126204aee96e0f"
+    },
+    {
+      "path": ".github/workflows/devcontainer-build.yml",
+      "sha": "4b024b05a03d095362448114b62e35cf0a95ea69"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc"
+    },
+    {
+      "path": "README.md",
+      "sha": "439f4c80034e9e644e71ba627debe911ae1a26a3"
+    },
+    {
+      "path": "freqtrade/main.py",
+      "sha": "884c41bbcf3e1c4fa52bc5f63e5ce30356962192"
+    },
+    {
+      "path": "ft_client/README.md",
+      "sha": "a1921aa244ef3dc5827fdfb1d03171bccd76c462"
+    },
+    {
+      "path": "ft_client/pyproject.toml",
+      "sha": "f41331b268ecc68eeba5c17806e184ad58374c22"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "2ea22aa35c8206701e718336666d1e1c14e18975"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "439f4c80034e9e644e71ba627debe911ae1a26a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "2ea22aa35c8206701e718336666d1e1c14e18975",
+      "entities_detected": 0
+    },
+    {
+      "path": "ft_client/pyproject.toml",
+      "blob_sha": "f41331b268ecc68eeba5c17806e184ad58374c22",
+      "entities_detected": 0
+    },
+    {
+      "path": "ft_client/README.md",
+      "blob_sha": "a1921aa244ef3dc5827fdfb1d03171bccd76c462",
+      "entities_detected": 0
+    },
+    {
+      "path": "freqtrade/main.py",
+      "blob_sha": "884c41bbcf3e1c4fa52bc5f63e5ce30356962192",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/binance-lev-tier-update.yml",
+      "blob_sha": "ed73925b7618361e51de1158db77db58d3490d6d",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "65357b9d25d0467a1383ef6c6800dbf0e9e869a4",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "blob_sha": "aad2acf6ed009e9628e117dddb126204aee96e0f",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/devcontainer-build.yml",
+      "blob_sha": "4b024b05a03d095362448114b62e35cf0a95ea69",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".devcontainer/devcontainer.json",
+    ".github/.devcontainer/Dockerfile",
     ".github/.devcontainer/devcontainer.json",
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -16,10 +109,6 @@
     ".github/PULL_REQUEST_TEMPLATE.md",
     ".github/actions/docker-tags/action.yml",
     ".github/dependabot.yml",
-    ".github/workflows/binance-lev-tier-update.yml",
-    ".github/workflows/ci.yml",
-    ".github/workflows/deploy-docs.yml",
-    ".github/workflows/devcontainer-build.yml",
     ".github/workflows/docker-build.yml",
     ".github/workflows/docker-update-readme.yml",
     ".github/workflows/packages-cleanup.yml",
@@ -30,7 +119,7 @@
     ".readthedocs.yml",
     ".vscode/extensions.json",
     "CONTRIBUTING.md",
-    "README.md",
+    "Dockerfile",
     "build_helpers/binance_update_lev_tiers.py",
     "build_helpers/create_command_partials.py",
     "build_helpers/extract_config_json_schema.py",
@@ -42,6 +131,12 @@
     "config_examples/config_full.example.json",
     "config_examples/config_kraken.example.json",
     "docker-compose.yml",
+    "docker/Dockerfile.armhf",
+    "docker/Dockerfile.custom",
+    "docker/Dockerfile.freqai",
+    "docker/Dockerfile.freqai_rl",
+    "docker/Dockerfile.jupyter",
+    "docker/Dockerfile.plot",
     "docker/docker-compose-freqai.yml",
     "docker/docker-compose-jupyter.yml",
     "docs/advanced-backtesting.md",
@@ -102,10 +197,7 @@
     "docs/freqai-parameter-table.md",
     "docs/freqai-reinforcement-learning.md",
     "docs/freqai-running.md",
-    "docs/freqai.md",
-    "docs/hyperopt.md",
-    "docs/includes/cors.md",
-    "docs/includes/exchange-features.md"
+    "docs/freqai.md"
   ],
   "excluded_nontext_paths": [
     ".coveragerc",
@@ -229,8 +321,12 @@
     "tests": 203,
     "user_data": 6
   },
-  "unread_source_paths_count": 634,
+  "unread_source_paths_count": 647,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 145,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

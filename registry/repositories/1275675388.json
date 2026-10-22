@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/yt-dlp/yt-dlp",
-  "description": "A feature-rich command-line audio/video downloader",
+  "description": "Command-line media downloader supporting video/audio extraction and format handling across many web platforms.",
   "metadata": {
     "language": "Python",
     "license": "Unlicense",
     "archived": false,
     "pushed_at": "2026-10-07T01:09:45Z",
-    "github_description": "A feature-rich command-line audio/video downloader"
+    "github_description": "A feature-rich command-line audio/video downloader",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "81ecd58b1394793e6da9998cc19fdb45657f1685",
   "current_commit": "81ecd58b1394793e6da9998cc19fdb45657f1685",
   "inspection_date": "2026-09-20T05:32:47.276411+00:00",
   "categories": [
-    "category:creative-tools",
-    "category:generative-ai"
+    "category:cli-tools",
+    "category:media-publishing",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:09"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.813619+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.851196+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -276,10 +279,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1239,
-  "files_read": 3,
+  "files_read": 10,
   "entity_count": 2,
-  "unread_source_files": 1177,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1194,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -289,5 +292,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.347344+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Command-line media downloader supporting video/audio extraction and format handling across many web platforms.",
+    "reuse_recommendation": "Use only for content you are authorized to access and preserve; review platform changes and safe output handling.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Unlicense; downloaded content and platform terms remain applicable.",
+    "runtime": [
+      "Python CLI",
+      "FFmpeg optional",
+      "network services"
+    ],
+    "keywords": [
+      "yt-dlp",
+      "video downloader",
+      "media extraction",
+      "audio conversion",
+      "CLI"
+    ],
+    "risk_notes": [
+      "Copyright, platform terms and untrusted media URLs can create legal and security risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "yt-dlp extraction engine",
+        "purpose": "Resolves source pages into media streams and local files.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:17.783949+00:00",
+    "inspected_commit": "81ecd58b1394793e6da9998cc19fdb45657f1685",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "989bdf0c75626873046d445a4fb35ac629e35dc9",
+        "value": "https://github.com/jamesrwatsonx-creator/yt-dlp/blob/81ecd58b1394793e6da9998cc19fdb45657f1685/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "platform media extraction",
+        "description": "Downloads supported video and audio from web sources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:platform-media-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "format selection and post-processing",
+        "description": "Handles output formats, metadata and media conversion workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:format-selection-and-post-processing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "automation and configuration",
+        "description": "Supports scripting, batch jobs and platform-specific options.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:automation-and-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,23 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/VapiAI/example-client-javascript-next",
-  "description": "Next.js reference application connecting Vapi voice calls to a Broadway show recommendation and simulated ticket-confirmation interface.",
+  "description": "Next.js example application demonstrating Vapi voice-agent integration through a browser client, assistant setup and UI components.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2024-05-10T05:08:16Z",
     "live_metadata": "FRESH",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
   "current_commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
   "inspection_date": "2026-10-21T23:09:37.687708+00:00",
   "categories": [
+    "category:templates-boilerplates",
     "category:web-applications",
-    "category:frontend-applications",
-    "category:reference-implementations"
+    "category:ai-applications"
   ],
   "operational_category": "operational:07",
   "secondary_operational_categories": [],
@@ -353,13 +354,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.460724+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.477895+00:00",
   "tree_files": 33,
   "files_read": 27,
   "entity_count": 9,
-  "unread_source_files": 0,
+  "unread_source_files": 1,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T23:36:43.973618+00:00",
@@ -446,5 +448,129 @@
         "reason": "Next.js HTML document shell is framework glue."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Next.js example application demonstrating Vapi voice-agent integration through a browser client, assistant setup and UI components.",
+    "reuse_recommendation": "Use as a UI integration reference; confirm whether API calls and session setup are demo-only and keep service credentials server-side.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Vapi web client"
+    ],
+    "keywords": [
+      "Vapi Next.js example",
+      "voice agent UI",
+      "assistant configuration",
+      "browser audio"
+    ],
+    "risk_notes": [
+      "Browser microphone capture and hosted voice processing require consent, credential review and service-cost controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "assistant configuration",
+        "purpose": "Defines example assistant setup for the demo.",
+        "evidence_paths": [
+          "assistants/assistant.ts"
+        ]
+      },
+      {
+        "name": "voice app interface",
+        "purpose": "Connects the example UI to browser client interactions.",
+        "evidence_paths": [
+          "components/app/assistant.tsx",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:17.472375+00:00",
+    "inspected_commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a75ac5248816faee3e4ae1bf1447898bdfe17450",
+        "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "fd926a0ecf6360b97e7cc30eabba913946eabe4a",
+        "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "199f1b771b2f628ffcdb4cdd15129ab368b6c399",
+        "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "assistants/assistant.ts",
+        "blob_sha": "ba29cc43b8da89ab5698130505293adaf4079e22",
+        "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/assistants/assistant.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "components/app/assistant.tsx",
+        "blob_sha": "753a9ed91ea8d318b8e7904ce6d981835b0431f7",
+        "value": "https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/components/app/assistant.tsx"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "voice assistant example app",
+        "description": "Demonstrates configuring and launching a Vapi-powered assistant in a Next.js application.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-assistant-example-app",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "assistants/assistant.ts",
+          "components/app/assistant.tsx"
+        ]
+      },
+      {
+        "name": "voice interaction UI",
+        "description": "Provides example React components for browser-based voice sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-interaction-ui",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "assistants/assistant.ts",
+          "components/app/assistant.tsx"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

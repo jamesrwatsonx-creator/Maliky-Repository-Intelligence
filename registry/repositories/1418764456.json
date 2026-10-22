@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/docker-mailserver/docker-mailserver",
-  "description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.",
+  "description": "Dockerized mail server stack combining SMTP, IMAP, spam filtering and account configuration for self-hosted email.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-13T16:37:47Z",
-    "github_description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container."
+    "github_description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f8907f13f2715ce55cb9671631d7f4bb607d3f2c",
   "current_commit": "f8907f13f2715ce55cb9671631d7f4bb607d3f2c",
   "inspection_date": "2026-10-20T23:53:55.906089+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:cloud-infrastructure",
+    "category:backend-services",
+    "category:backend-services"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.667920+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.540147+00:00",
   "tree_files": 428,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 177,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 167,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Dockerized mail server stack combining SMTP, IMAP, spam filtering and account configuration for self-hosted email.",
+    "reuse_recommendation": "Mail infrastructure requires expertise; review DNS, TLS, abuse prevention, backups and account security before production.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and bundled mail component terms.",
+    "runtime": [
+      "Docker",
+      "Postfix",
+      "Dovecot",
+      "Linux"
+    ],
+    "keywords": [
+      "Docker Mailserver",
+      "self-hosted email",
+      "SMTP IMAP",
+      "spam filtering",
+      "mail server container"
+    ],
+    "risk_notes": [
+      "Handles private email and internet-facing services; configuration errors can expose data or enable abuse."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Docker Mailserver",
+        "purpose": "Combines mail protocols and filtering into a self-hosted container service.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:51.445739+00:00",
+    "inspected_commit": "f8907f13f2715ce55cb9671631d7f4bb607d3f2c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "de837f0ab00e8d2eb961f0c9a1bbace3d8c9bba9",
+        "value": "https://github.com/jamesrwatsonx-creator/docker-mailserver/blob/f8907f13f2715ce55cb9671631d7f4bb607d3f2c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "containerized mail stack",
+        "description": "Packages core mail services in a Docker deployment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:containerized-mail-stack",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "mail account and filtering configuration",
+        "description": "Supports account setup and spam/security controls.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:mail-account-and-filtering-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted email operations",
+        "description": "Provides documentation and workflows for operating private email infrastructure.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:self-hosted-email-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

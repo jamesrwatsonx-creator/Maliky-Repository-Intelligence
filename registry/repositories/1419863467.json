@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/papercraftgames/folded-paper-engine",
-  "description": "A custom Blender-to-Godot addon that makes level and gameplay creation as easy as a few clicks!",
+  "description": "3D game or scene-generation workflow themed around folded paper, providing reusable creative tooling and visual interaction patterns.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-20T12:50:35Z",
-    "github_description": "A custom Blender-to-Godot addon that makes level and gameplay creation as easy as a few clicks!"
+    "github_description": "A custom Blender-to-Godot addon that makes level and gameplay creation as easy as a few clicks!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8810eb8b034bcc368c9103c194e29be3cf0d88a1",
   "current_commit": "8810eb8b034bcc368c9103c194e29be3cf0d88a1",
   "inspection_date": "2026-10-20T23:57:48.262559+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:games-interactive-experiences",
+    "category:creative-tools",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.869370+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.838844+00:00",
   "tree_files": 658,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 74,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 67,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "3D game or scene-generation workflow themed around folded paper, providing reusable creative tooling and visual interaction patterns.",
+    "reuse_recommendation": "Use for creative prototyping and inspect generated asset rights and platform constraints.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository and model/asset licenses.",
+    "runtime": [
+      "3D engine or browser renderer",
+      "generation tooling"
+    ],
+    "keywords": [
+      "3D game creator",
+      "procedural generation",
+      "folded paper",
+      "scene authoring",
+      "interactive 3D"
+    ],
+    "risk_notes": [
+      "Generated assets may have model and source-content licensing conditions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "3D generation engine",
+        "purpose": "Connects authoring controls with generated interactive scenes.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:23.260472+00:00",
+    "inspected_commit": "8810eb8b034bcc368c9103c194e29be3cf0d88a1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c0e45455306156d0f29205d95e0a6cd5508c1bde",
+        "value": "https://github.com/jamesrwatsonx-creator/folded-paper-engine-3D-gen-game-creator/blob/8810eb8b034bcc368c9103c194e29be3cf0d88a1/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "3D content generation",
+        "description": "Creates or assembles game-ready scenes and objects through a creative workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-content-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "interactive game experience",
+        "description": "Provides a playable or manipulable 3D output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-game-experience",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

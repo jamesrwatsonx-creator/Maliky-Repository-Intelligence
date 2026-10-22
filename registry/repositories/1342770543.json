@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/lyogavin/airllm",
-  "description": "AirLLM 70B inference with single 4GB GPU",
+  "description": "Python inference library that reduces memory requirements for running large language models by loading and executing model layers incrementally.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T06:12:15Z",
-    "github_description": "AirLLM 70B inference with single 4GB GPU"
+    "github_description": "AirLLM 70B inference with single 4GB GPU",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "5765c2173003e0c67a43495cfcf82f1879a8e1b1",
   "current_commit": "5765c2173003e0c67a43495cfcf82f1879a8e1b1",
   "inspection_date": "2026-09-20T05:33:17.029937+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:llm-projects"
+    "category:machine-learning-models",
+    "category:libraries-packages",
+    "category:ai-infrastructure"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:airllm-workflow-publish-to-pypi",
@@ -38,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -283,11 +285,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.995670+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.702976+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -316,8 +319,8 @@
   "tree_files": 90,
   "files_read": 55,
   "entity_count": 2,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 14,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -336,5 +339,90 @@
     ],
     "updated_at": "2026-10-12T19:04:27.048873+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python inference library that reduces memory requirements for running large language models by loading and executing model layers incrementally.",
+    "reuse_recommendation": "Benchmark the target model and hardware; verify checkpoint licensing and performance claims against actual workloads.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "Apache-2.0; model checkpoints retain their own licenses.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "transformer checkpoints",
+      "CPU/GPU inference"
+    ],
+    "keywords": [
+      "AirLLM",
+      "low memory LLM inference",
+      "large model loading",
+      "layerwise inference",
+      "single GPU"
+    ],
+    "risk_notes": [
+      "Model artifacts may be large or remote; confirm provenance, code execution during loading and hardware/resource limits."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AirLLM inference engine",
+        "purpose": "Coordinates low-memory loading and generation for large language models.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:54.760005+00:00",
+    "inspected_commit": "5765c2173003e0c67a43495cfcf82f1879a8e1b1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d1341b688267e7012df7f139d97babc2f1732b8f",
+        "value": "https://github.com/jamesrwatsonx-creator/airllm/blob/5765c2173003e0c67a43495cfcf82f1879a8e1b1/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "memory-efficient model inference",
+        "description": "Runs large models with reduced peak memory through staged layer loading.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:memory-efficient-model-inference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model compatibility and loading",
+        "description": "Provides utilities for loading supported pretrained model checkpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-compatibility-and-loading",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

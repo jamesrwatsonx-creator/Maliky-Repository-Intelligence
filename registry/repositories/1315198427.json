@@ -11,27 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/greensock/gsap-skills",
-  "description": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.",
+  "description": "Official GSAP agent skills that teach compatible coding agents to use GSAP timelines, ScrollTrigger and animation plugins correctly.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-21T23:47:09Z",
-    "github_description": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage."
+    "github_description": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
   "current_commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
   "inspection_date": "2026-09-20T05:32:57.362831+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:skills",
     "category:creative-tools",
-    "category:developer-tools",
-    "category:libraries-packages",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:09",
@@ -56,7 +54,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 8,
@@ -301,11 +299,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.061560+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.141113+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -326,8 +325,8 @@
   "tree_files": 42,
   "files_read": 34,
   "entity_count": 12,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 3,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -346,5 +345,136 @@
     ],
     "updated_at": "2026-10-12T19:04:27.165094+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Official GSAP agent skills that teach compatible coding agents to use GSAP timelines, ScrollTrigger and animation plugins correctly.",
+    "reuse_recommendation": "Install the skill for agent-assisted GSAP work and pair it with the installed GSAP version and current documentation.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skills",
+      "GSAP JavaScript animation library",
+      "React/Vue/Nuxt examples"
+    ],
+    "keywords": [
+      "GSAP skills",
+      "animation agent guidance",
+      "ScrollTrigger",
+      "motion design",
+      "timeline animation"
+    ],
+    "risk_notes": [
+      "Instructions can age as library APIs change; verify against the target GSAP release."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GSAP skill collection",
+        "purpose": "Packages framework-aware instructions for agent-assisted animation work.",
+        "evidence_paths": [
+          "README.md",
+          "examples/react/package.json",
+          "examples/vue/package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:19.600156+00:00",
+    "inspected_commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5b7def98e5c1ad79d49c01d133f9370ebd65a2c5",
+        "value": "https://github.com/jamesrwatsonx-creator/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "fa2fe218371ee47b741db9d0fa7cf17cddc03eb8",
+        "value": "https://github.com/jamesrwatsonx-creator/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "examples/nuxt/package.json",
+        "blob_sha": "bdeed7df9d9c5db450926c8672b8451df276794b",
+        "value": "https://github.com/jamesrwatsonx-creator/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/examples/nuxt/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "examples/react/package.json",
+        "blob_sha": "e15fbab5fd7090e729d7d1beb44556e249417b4d",
+        "value": "https://github.com/jamesrwatsonx-creator/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/examples/react/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "examples/vue/package.json",
+        "blob_sha": "1938025198d12e89921bca1e3c77ea5923e9e40d",
+        "value": "https://github.com/jamesrwatsonx-creator/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/examples/vue/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "GSAP API guidance",
+        "description": "Teaches agent hosts to construct animations using core GSAP APIs.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:gsap-api-guidance",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "examples/nuxt/package.json",
+          "examples/react/package.json",
+          "examples/vue/package.json"
+        ]
+      },
+      {
+        "name": "scroll and plugin workflows",
+        "description": "Covers ScrollTrigger and related animation plugin patterns.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:scroll-and-plugin-workflows",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "examples/nuxt/package.json",
+          "examples/react/package.json",
+          "examples/vue/package.json"
+        ]
+      },
+      {
+        "name": "framework examples",
+        "description": "Provides example projects for common JavaScript frameworks.",
+        "scope": "REFERENCE",
+        "id": "cluster:framework-examples",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "examples/nuxt/package.json",
+          "examples/react/package.json",
+          "examples/vue/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

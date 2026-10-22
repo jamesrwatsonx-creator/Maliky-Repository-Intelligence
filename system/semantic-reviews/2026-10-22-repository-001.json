@@ -1,0 +1,612 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/launch-your-agent",
+    "commit": "05e9627ddae296b85b3870287661cf2934e6c958",
+    "purpose": "Instruction and template kit for scoping, launching, evaluating and handing off agents on an external managed-agent platform; not a hosted agent-runtime implementation.",
+    "categories": [
+      "category:skills",
+      "category:agent-workflows",
+      "category:templates-boilerplates"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".claude/skills/launch-your-agent/SKILL.md",
+      ".claude/skills/wrap-up/SKILL.md",
+      ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+      ".claude/skills/launch-your-agent/references/overview-template.html",
+      ".claude/skills/launch-your-agent/references/mock-connectors.md",
+      "cma-primitives.md"
+    ],
+    "inspection_scope": "Complete 16-file tree: two independently invocable skills, a reusable overview page, build-sheet structure, visibly mocked connector contracts and a version-scoped platform reference. Duplicate UI examples and interview/example banks support these assets rather than implementing a hosted agent runtime. Repository-level completion only; detailed entities are preserved unchanged.",
+    "runtime": [
+      "Markdown skills",
+      "HTML/CSS",
+      "JSON templates",
+      "Claude Code or adapted agent host"
+    ],
+    "keywords": [
+      "managed agents",
+      "CMA",
+      "rubrics",
+      "scheduled deployment",
+      "connector mocks",
+      "build sheet",
+      "handoff"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "infrastructure_deployment": "EXTERNAL_REFERENCE"
+    },
+    "capability_clusters": [
+      {
+        "name": "managed-agent build workflow",
+        "description": "Scope a job, stage launch payloads and iterate against an outcome rubric.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "agent deployment planning",
+        "description": "Plan scheduled external-platform execution and permissions without implementing hosting.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "connector mock contracts",
+        "description": "Design visible outbox or interactive custom-tool mocks before real connector access.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "agent handoff templates",
+        "description": "Build-sheet and visual overview templates for status, ownership and next upgrades.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "managed-agent build workflow",
+        "purpose": "Scope a job, stage launch payloads and iterate against an outcome rubric.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "agent deployment planning",
+        "purpose": "Plan scheduled external-platform execution and permissions without implementing hosting.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "connector mock contracts",
+        "purpose": "Design visible outbox or interactive custom-tool mocks before real connector access.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use the skills with an authorized agent host; adapt the templates and verify current provider contracts before live deployment.",
+    "license_notes": "Apache-2.0; source-specific notices remain applicable.",
+    "risk_notes": [
+      "This tree contains instructions and templates, not a hosted runtime. The launch skill calls for owner credentials in local environment/vault storage rather than chat, exposes permission/network decisions and stages write connectors behind explicit configuration. Outbox mocks are not delivered messages; custom-tool mocks block pending a host response and are unsuitable for unattended scheduling. Live launch, spend, network policy and schedule mutations require operator authority in the executing environment. No credentials were supplied, no provider call was made and no deployment or inspected script was run during this census."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/loop-engineer-template",
+    "commit": "a2267355209713a2184eaeef3b276ec680219d2b",
+    "purpose": "Agent-development harness and durable workstream template combining local-stack setup, end-to-end verification, isolated change-to-PR orchestration and recurring-loop knowledge organization.",
+    "categories": [
+      "category:skills",
+      "category:agent-workflows",
+      "category:developer-tools"
+    ],
+    "operational": "operational:20",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "ARCHITECTURE.md",
+      ".claude/skills/dev-local-setup/SKILL.md",
+      ".claude/skills/e2e-setup/SKILL.md",
+      ".claude/skills/new-loop/SKILL.md",
+      ".claude/skills/pr/SKILL.md",
+      ".claude/skills/setup-codebase-harness/SKILL.md",
+      ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+      ".claude/workflows/ship-change.js"
+    ],
+    "inspection_scope": "Complete 18-file template tree separates five skills, one host-executed change workflow, a configurable tmux launcher and a durable loop-knowledge architecture reference. Empty domains/signals/docs substrate, log and images are packaging, not additional implementations. Repository-level completion only; detailed entities are preserved unchanged.",
+    "runtime": [
+      "Markdown skills",
+      "JavaScript workflow host",
+      "Bash",
+      "tmux",
+      "Git"
+    ],
+    "keywords": [
+      "harness engineering",
+      "worktree",
+      "end-to-end",
+      "verify before PR",
+      "dev-local",
+      "recurring loops"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "codebase harness setup",
+        "description": "Make a project legible, runnable and verifiable using focused setup skills.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "local development orchestration",
+        "description": "Customize the tmux multi-service launcher for a discovered project stack.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "verified change workflow",
+        "description": "Coordinate isolated-worktree implementation, review, tests and conditional PR creation.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "recurring workstream knowledge",
+        "description": "Organize domain charters, signals, reusable documents and durable run logs.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "codebase harness setup",
+        "purpose": "Make a project legible, runnable and verifiable using focused setup skills.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "local development orchestration",
+        "purpose": "Customize the tmux multi-service launcher for a discovered project stack.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "verified change workflow",
+        "purpose": "Coordinate isolated-worktree implementation, review, tests and conditional PR creation.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Reference and adapt the harness in a trusted project; review command/secret scope and obtain licensing permission before redistribution.",
+    "license_notes": "No license grant found; source-specific notices remain applicable.",
+    "risk_notes": [
+      "The workflow intentionally delegates command execution and writes to its host agents. It copies ignored environment files into a new worktree and may install dependencies, so worktree isolation does not isolate secrets or make untrusted projects safe to run. Setup and later phases interpolate repository/task strings into agent instructions, not a hardened execution sandbox. The launcher can terminate its session and optional infrastructure; customize and review all commands before running. Host permissions, actual verification results and safe target selection remain integration responsibilities. No source execution, dependency installation, PR creation or license permission was assumed during cataloguing; missing licensing is recorded with reference-only recommendations."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/obsidian-skills",
+    "commit": "a1dc48e68138490d522c04cbf5822214c6eb1202",
+    "purpose": "Agent skill bundle for authoring Obsidian Markdown, Bases and JSON Canvas files, operating a running vault through its CLI and extracting readable web content with external Defuddle.",
+    "categories": [
+      "category:skills",
+      "category:knowledge-bases",
+      "category:productivity"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".claude-plugin/plugin.json",
+      "skills/defuddle/SKILL.md",
+      "skills/json-canvas/SKILL.md",
+      "skills/obsidian-bases/SKILL.md",
+      "skills/obsidian-cli/SKILL.md",
+      "skills/obsidian-markdown/SKILL.md"
+    ],
+    "inspection_scope": "Five complete skills and their Claude plugin distribution are independent boundaries. Syntax references and examples support their respective skill rather than supplying Obsidian, Defuddle or a separate JSON Canvas runtime. Repository-level completion only; detailed entities are preserved unchanged.",
+    "runtime": [
+      "Markdown skills",
+      "Obsidian",
+      "Obsidian CLI",
+      "Defuddle CLI"
+    ],
+    "keywords": [
+      "Obsidian",
+      "vault",
+      "Bases",
+      "JSON Canvas",
+      "wikilinks",
+      "notes",
+      "Defuddle"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "PRESENT",
+      "data_database_search": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Obsidian note authoring",
+        "description": "Create vault notes with properties, wikilinks, embeds and callouts.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "vault structured views",
+        "description": "Author Bases filters/formulas and JSON Canvas node-edge documents.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "vault CLI operation",
+        "description": "Search and mutate notes and debug plugins through a running Obsidian instance.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "readable web extraction",
+        "description": "Use the external Defuddle CLI for clean Markdown and metadata.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Obsidian note authoring",
+        "purpose": "Create vault notes with properties, wikilinks, embeds and callouts.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault structured views",
+        "purpose": "Author Bases filters/formulas and JSON Canvas node-edge documents.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault CLI operation",
+        "purpose": "Search and mutate notes and debug plugins through a running Obsidian instance.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Load the bundle in a compatible agent host; select the correct vault and restrict write/evaluation permissions before use.",
+    "license_notes": "MIT; source-specific notices remain applicable.",
+    "risk_notes": [
+      "The CLI skill includes note creation/overwrite and in-app JavaScript evaluation, so it requires a trusted host and the intended vault scope; the default focused vault is not an authorization boundary. Defuddle fetches external content and can write output files. Retrieved text must remain untrusted data. This review establishes instruction contracts only: no vault, running app, network extraction or plugin code was executed."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/zapier-mcp",
+    "commit": "5360f152b96735712e5f925ad728732cb86888df",
+    "purpose": "Multi-client plugin and instruction distributions for Zapier's hosted MCP service, with onboarding, role-based action discovery, status auditing and confirmation-aware SaaS action guidance; no hosted server implementation is present.",
+    "categories": [
+      "category:skills",
+      "category:plugins-extensions",
+      "category:mcp-clients-sdks",
+      "category:automation-scripting"
+    ],
+    "operational": "operational:02",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "plugins/zapier/.claude-plugin/plugin.json",
+      "plugins/zapier/.codex-plugin/plugin.json",
+      "plugins/zapier/.cursor-plugin/plugin.json",
+      "plugins/zapier/.github/plugin/plugin.json",
+      "gemini-extension.json",
+      "zapier-power/POWER.md",
+      "plugins/zapier/.mcp.json",
+      "plugins/zapier/agents/zapier-mcp.agent.md",
+      "plugins/zapier/rules/zapier-lifecycle.mdc",
+      "plugins/zapier/skills/zapier-demo/SKILL.md",
+      "plugins/zapier/skills/zapier-explore/SKILL.md",
+      "plugins/zapier/skills/zapier-onboard/SKILL.md",
+      "plugins/zapier/skills/zapier-status/SKILL.md"
+    ],
+    "inspection_scope": "Complete 29-file tree: four skills, a specialist agent, client distribution manifests, shared remote MCP connector configuration and an always-applied lifecycle rule. Claude/Codex/Cursor/GitHub/Gemini/Kiro packaging and steering variants wrap the same hosted service and role contracts; do not invent local MCP server/tool implementations for its external app catalogue. Repository-level completion only; detailed entities are preserved unchanged.",
+    "runtime": [
+      "Markdown skills/agent rules",
+      "JSON MCP/client manifests",
+      "Remote HTTP MCP service"
+    ],
+    "keywords": [
+      "Zapier",
+      "MCP client",
+      "OAuth",
+      "SaaS actions",
+      "workflow automation",
+      "confirmation",
+      "connector"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "hosted MCP connection",
+        "description": "Configure an authenticated client connection to the external Zapier MCP service.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "SaaS action guidance",
+        "description": "Guide read/write app actions with explicit shown-payload write confirmation.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "connector onboarding",
+        "description": "Discover and enable a focused app/action toolkit with a read-only first demonstration.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "MCP setup auditing",
+        "description": "Inventory tools and diagnose authentication, availability and redundant-action issues.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "hosted MCP connection",
+        "purpose": "Configure an authenticated client connection to the external Zapier MCP service.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "SaaS action guidance",
+        "purpose": "Guide read/write app actions with explicit shown-payload write confirmation.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "connector onboarding",
+        "purpose": "Discover and enable a focused app/action toolkit with a read-only first demonstration.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Install the appropriate client package and authenticate only the required actions; host instructions do not replace server authorization.",
+    "license_notes": "MIT; source-specific notices remain applicable.",
+    "risk_notes": [
+      "Remote OAuth and user-enabled actions determine real access; no server authorization implementation is present to audit here. The agent/rule explicitly require a user-approved shown payload for writes and prohibit third-party content from granting approval. These are instruction contracts, not server-enforced access controls. The explore skill's assumption of broad app support must be checked against actual configured actions. Credentials, MCP transport, app reads/writes and client reloads were not exercised during this static census."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/make-interfaces-feel-better",
+    "commit": "5a4076ac611d6610b9cb4d67f5275cb4f869411b",
+    "purpose": "Design-engineering skill and reference patterns for polishing interface motion, optical alignment, surfaces, typography, icons and interaction states within an existing styling system.",
+    "categories": [
+      "category:skills",
+      "category:design-systems",
+      "category:frontend-applications",
+      "category:accessibility"
+    ],
+    "operational": "operational:16",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "skills/make-interfaces-feel-better/SKILL.md",
+      "skills/make-interfaces-feel-better/animations.md",
+      "skills/make-interfaces-feel-better/icons.md",
+      "skills/make-interfaces-feel-better/performance.md",
+      "skills/make-interfaces-feel-better/surfaces.md",
+      "skills/make-interfaces-feel-better/typography.md"
+    ],
+    "inspection_scope": "One interface-review skill and five independently useful design/code-reference guides. Agent packaging and repository instructions are not new design systems, component libraries or runtime frameworks; examples are extracted reference patterns. Repository-level completion only; detailed entities are preserved unchanged.",
+    "runtime": [
+      "Markdown skill/reference",
+      "CSS",
+      "Tailwind examples",
+      "Motion examples"
+    ],
+    "keywords": [
+      "UI polish",
+      "micro-interactions",
+      "interruptible animation",
+      "typography",
+      "icons",
+      "hit targets",
+      "optical alignment"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interface polish review",
+        "description": "Review visible interaction states and express fixes in the existing styling stack.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "interface motion patterns",
+        "description": "Reference interruptible transitions, staggered entrances and restrained feedback.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "visual detail patterns",
+        "description": "Apply surface geometry, typography, icon-weight and hit-area guidance.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "interface polish review",
+        "purpose": "Review visible interaction states and express fixes in the existing styling stack.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/make-interfaces-feel-better/SKILL.md",
+          "skills/make-interfaces-feel-better/animations.md",
+          "skills/make-interfaces-feel-better/icons.md",
+          "skills/make-interfaces-feel-better/performance.md",
+          "skills/make-interfaces-feel-better/surfaces.md",
+          "skills/make-interfaces-feel-better/typography.md"
+        ]
+      },
+      {
+        "name": "interface motion patterns",
+        "purpose": "Reference interruptible transitions, staggered entrances and restrained feedback.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/make-interfaces-feel-better/SKILL.md",
+          "skills/make-interfaces-feel-better/animations.md",
+          "skills/make-interfaces-feel-better/icons.md",
+          "skills/make-interfaces-feel-better/performance.md",
+          "skills/make-interfaces-feel-better/surfaces.md",
+          "skills/make-interfaces-feel-better/typography.md"
+        ]
+      },
+      {
+        "name": "visual detail patterns",
+        "purpose": "Apply surface geometry, typography, icon-weight and hit-area guidance.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/make-interfaces-feel-better/SKILL.md",
+          "skills/make-interfaces-feel-better/animations.md",
+          "skills/make-interfaces-feel-better/icons.md",
+          "skills/make-interfaces-feel-better/performance.md",
+          "skills/make-interfaces-feel-better/surfaces.md",
+          "skills/make-interfaces-feel-better/typography.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use the review skill or extract relevant examples into existing components; test behavior and accessibility in the target browser.",
+    "license_notes": "MIT; source-specific notices remain applicable.",
+    "risk_notes": [
+      "Static source review only; target rendering and runtime behavior were not tested."
+    ]
+  }
+]

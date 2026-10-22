@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/trycua/cua",
-  "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+  "description": "Full computer-use control layer for agents, enabling visual observation and desktop input across applications and workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-24T02:49:37Z",
-    "github_description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+    "github_description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "737dc2a069528abadee67526d138a907e1c52061",
   "current_commit": "737dc2a069528abadee67526d138a907e1c52061",
   "inspection_date": "2026-09-20T05:33:47.702666+00:00",
   "categories": [
+    "category:ai-agents",
+    "category:automation-scripting",
     "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.577619+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.411037+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4256,
-  "files_read": 5,
+  "files_read": 12,
   "entity_count": 1,
-  "unread_source_files": 3060,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3457,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.116784+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Full computer-use control layer for agents, enabling visual observation and desktop input across applications and workflows.",
+    "reuse_recommendation": "Operate in a dedicated sandbox with explicit user confirmation for sensitive or irreversible actions.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository and operating system integration requirements.",
+    "runtime": [
+      "Repository-declared runtime",
+      "native OS APIs",
+      "agent/model APIs"
+    ],
+    "keywords": [
+      "computer control agent",
+      "GUI automation",
+      "desktop tool",
+      "visual agent",
+      "mouse keyboard control"
+    ],
+    "risk_notes": [
+      "Full desktop access can expose secrets, private data and destructive controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Full computer control runtime",
+        "purpose": "Provides an agent interface to desktop applications and controls.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:53.144873+00:00",
+    "inspected_commit": "737dc2a069528abadee67526d138a907e1c52061",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "673be50619d485df6b83e11ee39884474c44c786",
+        "value": "https://github.com/jamesrwatsonx-creator/cua-full-computer-control/blob/737dc2a069528abadee67526d138a907e1c52061/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "desktop observation and control",
+        "description": "Captures screen state and issues input actions to the operating system.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:desktop-observation-and-control",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent integration and task loops",
+        "description": "Connects computer actions to model-driven planning and execution.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-integration-and-task-loops",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

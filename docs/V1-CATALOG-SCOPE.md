@@ -1,5 +1,40 @@
 # Practical V1 catalog scope and completion
 
+## Current owner directive — 2026-10-21
+
+This directive supersedes the earlier exhaustive semantic-completion standard.
+The primary unit is **repository + capability clusters**. Existing detailed
+entities remain preserved and searchable as bonus intelligence.
+
+For each repository, inspect bounded pinned evidence (README, package/skill/plugin
+manifests, tree structure and strategically relevant source as needed). Record what
+it actually does, primary/secondary capability areas, important top-level reusable
+subsystems, major asset-family observations, runtime/language, upstream/revision/blob
+provenance, license/risk notes, concise reuse guidance and useful search keywords.
+Distinguish implementations from instructions, configuration, design-only material
+and external references. NOT_OBSERVED means absent from bounded review, not a proof
+of absence from every source file.
+
+Practical completion is recorded as `completion_scope: REPOSITORY_CLUSTERS_V1`
+and `repository_intelligence.status: COMPLETE`. It does not promote existing
+candidate entities, erase detailed review state, claim production readiness, or
+require exhaustive source reads and asset census reconciliation. A freshly
+confirmed empty repository can be dispositioned without inventing a commit or
+software capability. About 3–15 clusters suits ordinary repositories; avoid padding
+single-purpose projects and do not invent clusters for empty repositories.
+
+App Ideation searches/ranks repository summaries first. Deeply inspect the strongest
+selected candidates only when a build needs exact components, APIs, Skills or MCPs.
+An uninspected exact component is an on-demand inspection task, not a proven missing
+capability. Risk notes guide that review; catalog completion is not deployment approval.
+
+Use the existing `run_bulk_intake.py --repository-summaries` evidence preparation
+and `review_extracted_batch.py --repository-plan` review application entrypoints.
+Canonical source and review data stay in the existing registry/evidence architecture;
+raw compact source packets remain ignored under `.local/analysis/repository-packets/`.
+
+## Historical delivery scope
+
 Catalog V1 is a lightweight, evidence-aware view over the existing Maliky registry. It prioritizes public inventory coverage, basic descriptions, searchable internal assets, provenance, browse navigation and a read-only agent workflow. It does not require exhaustive source review or change the meaning of historical inspection states.
 
 ## Delivered

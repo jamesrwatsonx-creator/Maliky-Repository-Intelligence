@@ -11,14 +11,15 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/gurbaaz27/shadcn-calendar-heatmap",
-  "description": "Modern alternative to primitive react heatmaps.",
+  "description": "Reusable React calendar heatmap component package for displaying activity or time-series intensity in a shadcn/ui-style application.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-06T07:36:20Z",
     "live_metadata": "FRESH",
-    "github_description": "Modern alternative to primitive react heatmaps."
+    "github_description": "Modern alternative to primitive react heatmaps.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "759856717f149bbf95d4e1e4b2712b64a0006e7b",
@@ -26,7 +27,8 @@
   "inspection_date": "2026-10-21T23:15:54.313329+00:00",
   "categories": [
     "category:frontend-applications",
-    "category:data-visualization"
+    "category:design-systems",
+    "category:libraries-packages"
   ],
   "operational_category": "operational:16",
   "secondary_operational_categories": [],
@@ -41,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "EXTRACT",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -327,13 +329,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.154507+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.211164+00:00",
   "tree_files": 37,
   "files_read": 29,
   "entity_count": 4,
-  "unread_source_files": 0,
+  "unread_source_files": 1,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T23:41:04.145826+00:00",
@@ -419,5 +422,116 @@
         "reason": "Static demo icon registry is ordinary implementation detail."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Reusable React calendar heatmap component package for displaying activity or time-series intensity in a shadcn/ui-style application.",
+    "reuse_recommendation": "Use directly after checking date/timezone handling, accessibility and peer dependency versions.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "shadcn/ui conventions"
+    ],
+    "keywords": [
+      "React calendar heatmap",
+      "activity grid",
+      "shadcn component",
+      "time series visualization",
+      "contribution calendar"
+    ],
+    "risk_notes": [
+      "Validate data semantics and keyboard/screen-reader behavior for the target application."
+    ],
+    "important_subsystems": [
+      {
+        "name": "calendar heatmap UI",
+        "purpose": "Provides the reusable date/value visualization component.",
+        "evidence_paths": [
+          "README.md",
+          "app/(components)/example-code.tsx",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:18.831072+00:00",
+    "inspected_commit": "759856717f149bbf95d4e1e4b2712b64a0006e7b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fa00b8dd7406490768dc8e34f86d751ca5b43b4a",
+        "value": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap/blob/759856717f149bbf95d4e1e4b2712b64a0006e7b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "2d3aa88bb540677a58819364c5c2b8e86db6effa",
+        "value": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap/blob/759856717f149bbf95d4e1e4b2712b64a0006e7b/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "dc3aefb13b2290ce42a79ad750ec43808bd06c0c",
+        "value": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap/blob/759856717f149bbf95d4e1e4b2712b64a0006e7b/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "app/(components)/example-code.tsx",
+        "blob_sha": "66784e36407f692fcbf710c6294d033f8bf9f4a0",
+        "value": "https://github.com/jamesrwatsonx-creator/shadcn-calendar-heatmap/blob/759856717f149bbf95d4e1e4b2712b64a0006e7b/app/(components)/example-code.tsx"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "calendar heatmap component",
+        "description": "Renders date-based values as an interactive intensity grid.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:calendar-heatmap-component",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "app/(components)/example-code.tsx"
+        ]
+      },
+      {
+        "name": "shadcn integration example",
+        "description": "Documents copying and adapting the component within a shadcn-style app.",
+        "scope": "REFERENCE",
+        "id": "cluster:shadcn-integration-example",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "app/(components)/example-code.tsx"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

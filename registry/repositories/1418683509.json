@@ -11,35 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/baserow/baserow",
-  "description": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+  "description": "No-code database and collaborative workspace modeled on spreadsheet-like tables, views and relational records.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T09:41:04Z",
-    "github_description": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
+    "github_description": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "0b1e7ee8255039e11257fd1d5a2dd56f25722105",
   "current_commit": "0b1e7ee8255039e11257fd1d5a2dd56f25722105",
   "inspection_date": "2026-10-20T23:52:08.872416+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-applications",
-    "category:automation-scripting",
-    "category:business-applications",
-    "category:cloud-infrastructure",
-    "category:data-engineering",
-    "category:data-visualization",
     "category:databases",
-    "category:full-stack-applications",
-    "category:iam",
-    "category:kubernetes-orchestration",
-    "category:mcp-servers",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:productivity",
+    "category:web-applications"
   ],
-  "operational_category": "operational:11",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:baserow-ai-provider-integration",
@@ -107,7 +97,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 16,
@@ -412,13 +402,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.281657+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.025231+00:00",
   "tree_files": 10647,
   "files_read": 9252,
   "entity_count": 59,
-  "unread_source_files": 0,
+  "unread_source_files": 501,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:45:58.808827+00:00",
@@ -516,5 +507,98 @@
       "route, serializer, model and provider implementation classes represented by their product boundary"
     ],
     "scoped_deep_review": "Authentication, authorization, secrets, sensitive-data, arbitrary-execution and license triggers were reviewed narrowly. The platform exposes token, WebSocket and MCP endpoints; stores external-provider credentials; imports and synchronizes external data; supports trusted full-access plugins; and includes a bounded Wasmtime/QuickJS runner. Premium and enterprise directories have subscription-bound licenses."
+  },
+  "repository_intelligence": {
+    "purpose": "No-code database and collaborative workspace modeled on spreadsheet-like tables, views and relational records.",
+    "reuse_recommendation": "Use for lightweight operational data and verify permissions, export and relationship limits.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check repository license and hosted service terms.",
+    "runtime": [
+      "Web application",
+      "database",
+      "API integrations"
+    ],
+    "keywords": [
+      "Baserow alternative",
+      "Airtable-like database",
+      "no-code tables",
+      "collaborative data",
+      "workspace"
+    ],
+    "risk_notes": [
+      "Business records may contain personal or confidential information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "No-code data workspace",
+        "purpose": "Combines flexible records with an approachable collaborative interface.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:55.615596+00:00",
+    "inspected_commit": "0b1e7ee8255039e11257fd1d5a2dd56f25722105",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8a783230616208130f2d8777f741479ff1be0ac3",
+        "value": "https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual database and table editing",
+        "description": "Lets users model and edit structured records through spreadsheet-like views.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-database-and-table-editing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "views and collaboration",
+        "description": "Organizes records for teams and different workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:views-and-collaboration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "API and automation integrations",
+        "description": "Connects records to external applications and workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:api-and-automation-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

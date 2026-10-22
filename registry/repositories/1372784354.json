@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/TryGhost/Ghost",
-  "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+  "description": "Website and newsletter publishing integration combining GoHighLevel marketing workflows with Ghost content publishing.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-16T08:23:56Z",
-    "github_description": "Independent technology for modern publishing, memberships, subscriptions and newsletters."
+    "github_description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "0b8de14cb7c3f6647ac217f4b1afa4b6d02406b0",
   "current_commit": "0b8de14cb7c3f6647ac217f4b1afa4b6d02406b0",
   "inspection_date": "2026-09-20T05:36:32.940218+00:00",
   "categories": [
-    "category:frontend-applications"
+    "category:marketing-communications",
+    "category:media-publishing",
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 19,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.709755+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.721112+00:00",
   "tree_files": 9311,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 7777,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 8001,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.340430+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Website and newsletter publishing integration combining GoHighLevel marketing workflows with Ghost content publishing.",
+    "reuse_recommendation": "Use with test accounts and verify subscriber consent, sync direction and duplicate handling.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check repository and Ghost/GoHighLevel API terms.",
+    "runtime": [
+      "Web application",
+      "Ghost and GoHighLevel APIs"
+    ],
+    "keywords": [
+      "Ghost newsletter",
+      "GoHighLevel",
+      "website publishing",
+      "marketing automation",
+      "content integration"
+    ],
+    "risk_notes": [
+      "Subscriber data and outbound marketing require privacy and consent controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GHL/Ghost publishing integration",
+        "purpose": "Bridges publishing and marketing operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:53.536463+00:00",
+    "inspected_commit": "0b8de14cb7c3f6647ac217f4b1afa4b6d02406b0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "840aae250e9c7ba8e36ab67c3f7107c524611a5f",
+        "value": "https://github.com/jamesrwatsonx-creator/Website-and-newsletter-GHL-Ghost/blob/0b8de14cb7c3f6647ac217f4b1afa4b6d02406b0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "website and newsletter publishing",
+        "description": "Supports creating and distributing content through Ghost.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:website-and-newsletter-publishing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CRM and marketing automation",
+        "description": "Connects content activity to GoHighLevel contact or campaign workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crm-and-marketing-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

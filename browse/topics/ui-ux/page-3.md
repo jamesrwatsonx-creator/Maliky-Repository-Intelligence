@@ -1,6 +1,6 @@
 # UI/UX — page 3
 
-1,053 catalog entries · Sorted alphabetically by name · Page 3 of 8.
+1,088 catalog entries · Sorted alphabetically by name · Page 3 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

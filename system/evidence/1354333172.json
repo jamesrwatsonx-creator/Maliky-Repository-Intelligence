@@ -3,8 +3,100 @@
   "inspected_commit": "aceacf0e590a7d84447a8c44f3aa61eba781a542",
   "tree_complete": true,
   "tree_files": 3444,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "AGENTS.md",
+      "sha": "bcdd5aaded7c460777281a1cc6b7a01a8762a1b4"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "fa030bd11bce1323682f4d7c49cae233c04a4996"
+    },
+    {
+      "path": "README.md",
+      "sha": "a5e286186fb756e75c2c87c0bde2724193b1a193"
+    },
+    {
+      "path": "package.json",
+      "sha": "03229c8915d685d00f83af08f0059d829011abe0"
+    },
+    {
+      "path": "src/assistant/index.ts",
+      "sha": "8dc62aa39c1a2f8e8035a71636da097120e17f7f"
+    },
+    {
+      "path": "src/i18n/index.ts",
+      "sha": "7beb10a22b1e018c3597a39c6850c82f7c2ebcf4"
+    },
+    {
+      "path": "vendor/node-domexception-shim/package.json",
+      "sha": "762db143786c39d064b3ecf3a54d5564c6fdb752"
+    },
+    {
+      "path": "vscode-extension/openclaude-vscode/README.md",
+      "sha": "c7e254437ba86c9f99d21f47c8a6be3e45db44bc"
+    },
+    {
+      "path": "vscode-extension/openclaude-vscode/package.json",
+      "sha": "79194cfdce4bd0d1a573232bbcd829775151e697"
+    },
+    {
+      "path": "web/package.json",
+      "sha": "0b1e6e5c6632d482036670f93e5f0bcd290037d2"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "a5e286186fb756e75c2c87c0bde2724193b1a193",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "fa030bd11bce1323682f4d7c49cae233c04a4996",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "03229c8915d685d00f83af08f0059d829011abe0",
+      "entities_detected": 0
+    },
+    {
+      "path": "web/package.json",
+      "blob_sha": "0b1e6e5c6632d482036670f93e5f0bcd290037d2",
+      "entities_detected": 0
+    },
+    {
+      "path": "vendor/node-domexception-shim/package.json",
+      "blob_sha": "762db143786c39d064b3ecf3a54d5564c6fdb752",
+      "entities_detected": 0
+    },
+    {
+      "path": "vscode-extension/openclaude-vscode/package.json",
+      "blob_sha": "79194cfdce4bd0d1a573232bbcd829775151e697",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "bcdd5aaded7c460777281a1cc6b7a01a8762a1b4",
+      "entities_detected": 0
+    },
+    {
+      "path": "vscode-extension/openclaude-vscode/README.md",
+      "blob_sha": "c7e254437ba86c9f99d21f47c8a6be3e45db44bc",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/assistant/index.ts",
+      "blob_sha": "8dc62aa39c1a2f8e8035a71636da097120e17f7f",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/i18n/index.ts",
+      "blob_sha": "7beb10a22b1e018c3597a39c6850c82f7c2ebcf4",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".coderabbit.yaml",
     ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -15,13 +107,12 @@
     ".github/workflows/pr-checks.yml",
     ".github/workflows/release.yml",
     ".release-please-manifest.json",
-    "AGENTS.md",
     "ANDROID_INSTALL.md",
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
     "PLAYBOOK.md",
-    "README.md",
     "SECURITY.md",
     "bin/import-specifier.mjs",
     "bin/import-specifier.test.mjs",
@@ -50,7 +141,6 @@
     "docs/smart-routing.md",
     "docs/windows-aliases-and-launchers.md",
     "knip.json",
-    "package.json",
     "release-please-config.json",
     "scripts/benchmark-openclaude-startup.mjs",
     "scripts/build.ts",
@@ -92,6 +182,7 @@
     "scripts/verify-clean-install.ts",
     "scripts/verify-no-phone-home.sh",
     "scripts/verify-no-phone-home.ts",
+    "scripts/windows/openclaude-aliases.ps1",
     "src/QueryEngine.autoCompactCooldown.test.ts",
     "src/QueryEngine.customPricingBudget.test.ts",
     "src/QueryEngine.interruptionTrace.test.ts",
@@ -105,7 +196,8 @@
     "src/__tests__/security-hardening.test.ts",
     "src/__tests__/statusNoticeLocalModel.test.ts",
     "src/assistant/AssistantSessionChooser.tsx",
-    "src/assistant/gate.ts"
+    "src/assistant/gate.ts",
+    "src/assistant/sessionDiscovery.ts"
   ],
   "excluded_nontext_paths": [
     ".bun-version",
@@ -216,8 +308,12 @@
     "vscode-extension": 21,
     "web": 70
   },
-  "unread_source_paths_count": 3354,
+  "unread_source_paths_count": 3353,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 90,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

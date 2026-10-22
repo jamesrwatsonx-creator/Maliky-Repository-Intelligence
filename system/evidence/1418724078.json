@@ -3,8 +3,100 @@
   "inspected_commit": "40c0adc7ac2fc81eddd3749ab871e6416d4e57ce",
   "tree_complete": true,
   "tree_files": 12997,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".devcontainer/tools/devcontainer-cli/package.json",
+      "sha": "b474c8615592db64c5f8c807606d2876f8fbf271"
+    },
+    {
+      "path": ".mcp.json",
+      "sha": "33958c177dc06444ff8592e60a7b67a509260876"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "LICENSE.enterprise",
+      "sha": "b1169f426db2781dbd05515bd7c8e5cd9fc543bd"
+    },
+    {
+      "path": "README.md",
+      "sha": "487cfc042f760c52138ad4ff0d766a5a1d20a1a1"
+    },
+    {
+      "path": "go.mod",
+      "sha": "85b63f9efeb8c2311b6a5b42ff28c4ee7e3011e7"
+    },
+    {
+      "path": "offlinedocs/package.json",
+      "sha": "90e14ce4ce7475f2a045fb69749e3ef3bd2a0e5b"
+    },
+    {
+      "path": "package.json",
+      "sha": "8bc2f4e5da8b75fdd4c20b0ee8a0cc89888a3a65"
+    },
+    {
+      "path": "scripts/apidocgen/package.json",
+      "sha": "3a5c6c524bd1d94c712a95b1a77b2bd6efac894a"
+    },
+    {
+      "path": "site/package.json",
+      "sha": "9f76b4211f66707aba2ee299168a63b4ef1deeb5"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "487cfc042f760c52138ad4ff0d766a5a1d20a1a1",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.enterprise",
+      "blob_sha": "b1169f426db2781dbd05515bd7c8e5cd9fc543bd",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "85b63f9efeb8c2311b6a5b42ff28c4ee7e3011e7",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "8bc2f4e5da8b75fdd4c20b0ee8a0cc89888a3a65",
+      "entities_detected": 0
+    },
+    {
+      "path": "offlinedocs/package.json",
+      "blob_sha": "90e14ce4ce7475f2a045fb69749e3ef3bd2a0e5b",
+      "entities_detected": 0
+    },
+    {
+      "path": "site/package.json",
+      "blob_sha": "9f76b4211f66707aba2ee299168a63b4ef1deeb5",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/apidocgen/package.json",
+      "blob_sha": "3a5c6c524bd1d94c712a95b1a77b2bd6efac894a",
+      "entities_detected": 0
+    },
+    {
+      "path": ".devcontainer/tools/devcontainer-cli/package.json",
+      "blob_sha": "b474c8615592db64c5f8c807606d2876f8fbf271",
+      "entities_detected": 0
+    },
+    {
+      "path": ".mcp.json",
+      "blob_sha": "33958c177dc06444ff8592e60a7b67a509260876",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".agents/skills/coder-agents-review/SKILL.md",
     ".agents/skills/deep-review/SKILL.md",
@@ -68,7 +160,6 @@
     ".devcontainer/scripts/post_create.sh",
     ".devcontainer/scripts/post_start.sh",
     ".devcontainer/tools/devcontainer-cli/package-lock.json",
-    ".devcontainer/tools/devcontainer-cli/package.json",
     ".github/.linkspector.yml",
     ".github/ISSUE_TEMPLATE/1-bug.yaml",
     ".github/ISSUE_TEMPLATE/config.yml",
@@ -92,7 +183,10 @@
     ".github/pr-deployments/template/main.tf",
     ".github/pr-deployments/values.yaml",
     ".github/pull_request_template.md",
+    ".github/scripts/postgres-diagnostics.ps1",
+    ".github/scripts/postgres-diagnostics.tests.ps1",
     ".github/scripts/retry.sh",
+    ".github/scripts/test-with-postgres-diagnostics.ps1",
     ".github/workflows/aigateway-prices-refresh.yaml",
     ".github/workflows/audit-docs-paths.yaml",
     ".github/workflows/backport.yaml",
@@ -103,9 +197,7 @@
     ".github/workflows/deploy-docs.yaml",
     ".github/workflows/deploy.yaml",
     ".github/workflows/doc-check.yaml",
-    ".github/workflows/docker-base.yaml",
-    ".github/workflows/docs-preview.yaml",
-    ".github/workflows/dogfood.yaml"
+    ".github/workflows/docker-base.yaml"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "ef7504075696a11f9b8fead10088645c2582bd494361271a003fd7c9a6cfa231",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -251,8 +344,11 @@
     "testutil": 49,
     "vpn": 19
   },
-  "unread_source_paths_count": 7817,
+  "unread_source_paths_count": 7819,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 5180,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

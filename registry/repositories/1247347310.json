@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/FlowiseAI/Flowise",
-  "description": "Build AI Agents, Visually",
+  "description": "Visual low-code platform for building LLM workflows, chatbots, agents and retrieval-augmented generation pipelines.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-05-21T08:30:41Z",
-    "github_description": "Build AI Agents, Visually"
+    "github_description": "Build AI Agents, Visually",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b7a2005fd7b394ba7874aded744fe3730d59ccb3",
   "current_commit": "b7a2005fd7b394ba7874aded744fe3730d59ccb3",
   "inspection_date": "2026-09-20T05:32:38.165772+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:ai-orchestration",
+    "category:generative-ai",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.844401+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.758221+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 2447,
-  "files_read": 10,
+  "files_read": 18,
   "entity_count": 0,
-  "unread_source_files": 1996,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2018,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.137823+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Visual low-code platform for building LLM workflows, chatbots, agents and retrieval-augmented generation pipelines.",
+    "reuse_recommendation": "Use for rapid prototypes and review flow permissions, data access and prompt-injection defenses before deployment.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Apache-2.0; connected model and data services have separate terms.",
+    "runtime": [
+      "Node.js/TypeScript",
+      "database",
+      "model and vector services"
+    ],
+    "keywords": [
+      "Flowise",
+      "visual LLM builder",
+      "RAG workflows",
+      "AI agents",
+      "chatbot platform"
+    ],
+    "risk_notes": [
+      "Workflow credentials, data sources and tool actions require strict access control."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Flowise workflow platform",
+        "purpose": "Turns LLM building blocks into deployable flows and agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:54.608070+00:00",
+    "inspected_commit": "b7a2005fd7b394ba7874aded744fe3730d59ccb3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "72e4081c6b6f41c45916f42cde52fdd9e4695391",
+        "value": "https://github.com/jamesrwatsonx-creator/Flowise/blob/b7a2005fd7b394ba7874aded744fe3730d59ccb3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual LLM workflow builder",
+        "description": "Composes model, prompt and tool steps through a graphical interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-llm-workflow-builder",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "RAG and knowledge integration",
+        "description": "Connects document loaders, embeddings and vector stores to question answering.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:rag-and-knowledge-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "deployment and API access",
+        "description": "Exposes constructed flows as services for applications.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:deployment-and-api-access",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

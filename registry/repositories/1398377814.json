@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.",
+  "upstream_url": "https://github.com/marmelroy/PhoneNumberKit",
+  "description": "Swift library for parsing, formatting and validating international phone numbers in Apple applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-25T20:59:33Z",
-    "github_description": "A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber."
+    "github_description": "A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "169ab10234347fb19b37441f2867ace896a284b0",
+  "current_commit": "169ab10234347fb19b37441f2867ace896a284b0",
+  "inspection_date": "2026-10-22T02:34:58.939780+00:00",
   "categories": [
-    "category:general-other"
+    "category:sdks-client-libraries",
+    "category:mobile-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.843393+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.968000+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.256920+00:00",
     "purpose_established": true
+  },
+  "tree_files": 100,
+  "files_read": 10,
+  "unread_source_files": 47,
+  "repository_intelligence": {
+    "purpose": "Swift library for parsing, formatting and validating international phone numbers in Apple applications.",
+    "reuse_recommendation": "Use for international phone input and keep metadata dependencies current.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Verify the pinned license and phone-number metadata update policy.",
+    "runtime": [
+      "Swift",
+      "iOS/macOS"
+    ],
+    "keywords": [
+      "Swift",
+      "phone number parsing",
+      "validation",
+      "internationalization",
+      "iOS"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PhoneNumberKit library",
+        "purpose": "Provides reusable parsing, formatting and validation APIs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:50.685296+00:00",
+    "inspected_commit": "169ab10234347fb19b37441f2867ace896a284b0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e683b25f13c73748a026eb1ebafaf3d3c68019b5",
+        "value": "https://github.com/jamesrwatsonx-creator/PhoneNumberKit/blob/169ab10234347fb19b37441f2867ace896a284b0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Phone number parsing and validation",
+        "description": "Normalizes and validates international phone number input for Apple platform applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:phone-number-parsing-and-validation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

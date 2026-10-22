@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/donetick/donetick",
-  "description": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized",
+  "description": "Open-source shared household chores and task application with customizable recurring responsibilities and reward-oriented motivation.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T09:08:51Z",
-    "github_description": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized"
+    "github_description": "Donetick an open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60",
   "current_commit": "f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60",
   "inspection_date": "2026-10-20T23:54:03.447434+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:productivity",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,97 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.692585+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.593161+00:00",
   "tree_files": 213,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 203,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 192,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source shared household chores and task application with customizable recurring responsibilities and reward-oriented motivation.",
+    "reuse_recommendation": "Use as a product reference or self-hosted app after checking account security and notification behavior.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository LICENSE.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Donetick chores",
+      "shared household tasks",
+      "recurring chores",
+      "task rewards",
+      "family productivity"
+    ],
+    "risk_notes": [
+      "Shared household profiles and notifications may reveal routines; protect accounts and personal data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Donetick task application",
+        "purpose": "Coordinates household tasks, assignments and completion tracking.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:55.248405+00:00",
+    "inspected_commit": "f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "31dbec1f520cbecb4ab600d18c17ffcb005687cc",
+        "value": "https://github.com/jamesrwatsonx-creator/donetick---Chore-app-with-gift-cards-Duolingo-look/blob/f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "shared chores and tasks",
+        "description": "Organizes recurring household responsibilities across users.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:shared-chores-and-tasks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "reward-oriented motivation",
+        "description": "Adds configurable incentives to chore completion workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reward-oriented-motivation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

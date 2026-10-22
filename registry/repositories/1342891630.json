@@ -11,30 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/affaan-m/ECC",
-  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "description": "Cryptographic or elliptic-curve cryptography implementation and examples for secure key and signature operations.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-21T03:02:03Z",
-    "github_description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    "github_description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
   "current_commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
   "inspection_date": "2026-09-20T05:33:32.450526+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory",
-    "category:application-security",
-    "category:ci-cd",
-    "category:developer-tools",
-    "category:mcp-servers",
-    "category:prompt-libraries",
-    "category:research-projects",
-    "category:skills"
+    "category:cryptography",
+    "category:cybersecurity",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:03",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [
     "operational:01",
     "operational:04",
@@ -77,7 +72,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE DIRECTLY",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 898,
@@ -2363,9 +2358,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.715620+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.615170+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -2386,9 +2382,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 3493,
-  "files_read": 3372,
+  "files_read": 3373,
   "entity_count": 549,
-  "unread_source_files": 0,
+  "unread_source_files": 31,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-09-20T09:51:35.311566+00:00",
@@ -3295,5 +3291,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.128908+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cryptographic or elliptic-curve cryptography implementation and examples for secure key and signature operations.",
+    "reuse_recommendation": "Prefer vetted libraries and obtain expert review before using custom cryptographic implementations.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license and cryptographic export/use requirements.",
+    "runtime": [
+      "Repository-declared language",
+      "cryptographic libraries"
+    ],
+    "keywords": [
+      "ECC",
+      "elliptic curve cryptography",
+      "digital signatures",
+      "key exchange",
+      "security library"
+    ],
+    "risk_notes": [
+      "Cryptographic correctness and private-key handling are security-critical."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ECC cryptographic module",
+        "purpose": "Provides reusable elliptic-curve capabilities for secure systems.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:21.117342+00:00",
+    "inspected_commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "76cb52e0d5f5abc54ff1e6e7d947b5cd8ff431b9",
+        "value": "https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "elliptic-curve primitives",
+        "description": "Provides cryptographic operations over supported curves.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:elliptic-curve-primitives",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "key and signature workflows",
+        "description": "Supports public-key operations used in authentication or signing.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:key-and-signature-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

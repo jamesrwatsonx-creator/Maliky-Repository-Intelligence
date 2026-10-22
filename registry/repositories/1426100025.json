@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/alirezamika/autoscraper",
-  "description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+  "description": "Python web-scraping library that learns reusable HTML extraction rules from example text, URLs or attributes and applies them to similar pages.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-29T17:17:55Z",
-    "github_description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python"
+    "github_description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "68a818158c673bf320a8569da10a8b979c1d23fe",
   "current_commit": "68a818158c673bf320a8569da10a8b979c1d23fe",
   "inspection_date": "2026-10-21T00:00:41.461723+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:research-projects",
+    "category:apis",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,143 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.128355+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.844148+00:00",
   "tree_files": 20,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 19,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 12,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python web-scraping library that learns reusable HTML extraction rules from example text, URLs or attributes and applies them to similar pages.",
+    "reuse_recommendation": "Use for permitted, public HTML extraction where learned rules remain stable; handle timeouts, URL restrictions and site terms in the calling application.",
+    "inspection_scope": "Reviewed package documentation, distribution metadata and CI configuration. It uses learned matching rules for HTML extraction; it is not an authenticated browser automation system or a demonstrated anti-bot bypass.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Python",
+      "requests",
+      "BeautifulSoup"
+    ],
+    "keywords": [
+      "Python web scraping",
+      "HTML extraction",
+      "learned selectors",
+      "AutoScraper",
+      "rule reuse"
+    ],
+    "risk_notes": [
+      "Untrusted URLs and HTML require network/output controls; learned rules can be brittle and do not establish permission to scrape a site."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AutoScraper library",
+        "purpose": "Learns and applies HTML extraction rules.",
+        "evidence_paths": [
+          "README.md",
+          "setup.py"
+        ]
+      },
+      {
+        "name": "package tests and publishing",
+        "purpose": "Maintains package distribution and automated checks.",
+        "evidence_paths": [
+          ".github/workflows/tests.yml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:30.211476+00:00",
+    "inspected_commit": "68a818158c673bf320a8569da10a8b979c1d23fe",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ff0462041bc4e1956228ae33ad36c54891bcaac4",
+        "value": "https://github.com/jamesrwatsonx-creator/autoscraper/blob/68a818158c673bf320a8569da10a8b979c1d23fe/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "b1868aef241064d003c0690128b7b3d52cac2daa",
+        "value": "https://github.com/jamesrwatsonx-creator/autoscraper/blob/68a818158c673bf320a8569da10a8b979c1d23fe/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "setup.py",
+        "blob_sha": "ae1972e6469ff630bef19073d21bb75c8329b48a",
+        "value": "https://github.com/jamesrwatsonx-creator/autoscraper/blob/68a818158c673bf320a8569da10a8b979c1d23fe/setup.py"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/tests.yml",
+        "blob_sha": "6dd6873bd1c1eeb050634ff6726933502b8eadf7",
+        "value": "https://github.com/jamesrwatsonx-creator/autoscraper/blob/68a818158c673bf320a8569da10a8b979c1d23fe/.github/workflows/tests.yml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "example-driven extraction rule learning",
+        "description": "Learns matching rules from target text, URL samples or HTML attributes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:example-driven-extraction-rule-learning",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "setup.py",
+          ".github/workflows/tests.yml"
+        ]
+      },
+      {
+        "name": "reusable page scraping",
+        "description": "Applies learned extraction rules to similar pages and URLs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reusable-page-scraping",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "setup.py",
+          ".github/workflows/tests.yml"
+        ]
+      },
+      {
+        "name": "Python library integration",
+        "description": "Exposes scraping functionality as a Python package for application use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:python-library-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "setup.py",
+          ".github/workflows/tests.yml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

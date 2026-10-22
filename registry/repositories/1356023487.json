@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/OpenWhispr/openwhispr",
-  "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+  "description": "Open-source speech transcription or voice interface application for converting spoken input into text and commands.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-03T11:37:28Z",
-    "github_description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform."
+    "github_description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c73e3027b397728fd0ce25e056764cc54edb3c23",
   "current_commit": "c73e3027b397728fd0ce25e056764cc54edb3c23",
   "inspection_date": "2026-09-20T05:35:46.424310+00:00",
   "categories": [
-    "category:generative-ai"
+    "category:media-publishing",
+    "category:productivity",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.794641+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.915094+00:00",
   "tree_files": 1361,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1267,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1283,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.250267+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source speech transcription or voice interface application for converting spoken input into text and commands.",
+    "reuse_recommendation": "Use with explicit microphone permission and review whether transcription is local or cloud-based.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and speech model terms.",
+    "runtime": [
+      "Desktop or web application",
+      "speech recognition models/services"
+    ],
+    "keywords": [
+      "OpenWhispr",
+      "speech to text",
+      "voice dictation",
+      "transcription",
+      "desktop voice"
+    ],
+    "risk_notes": [
+      "Voice data can contain sensitive conversations and biometric information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenWhispr transcription app",
+        "purpose": "Connects audio input to usable text output and application actions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:14.160626+00:00",
+    "inspected_commit": "c73e3027b397728fd0ce25e056764cc54edb3c23",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "beeddae190238427b7633613bbb6b4e6f5daa12e",
+        "value": "https://github.com/jamesrwatsonx-creator/openwhispr/blob/c73e3027b397728fd0ce25e056764cc54edb3c23/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech capture and transcription",
+        "description": "Converts user speech into text using supported recognition models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-capture-and-transcription",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice productivity interface",
+        "description": "Integrates dictation or voice commands into a user workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-productivity-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

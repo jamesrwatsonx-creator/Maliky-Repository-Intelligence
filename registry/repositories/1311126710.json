@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-  "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "description": "Curated collection of LLM application examples and tutorials covering agents, RAG, multimodal apps and model integrations.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-07-23T08:12:10Z",
-    "github_description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+    "github_description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "e46d6feaeacf5f0bec31a92c6ec68f2a701ce714",
   "current_commit": "e46d6feaeacf5f0bec31a92c6ec68f2a701ce714",
   "inspection_date": "2026-09-20T05:32:54.746683+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory",
-    "category:llm-projects",
-    "category:skills"
+    "category:generative-ai",
+    "category:documentation",
+    "category:reference-implementations"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [
     "operational:03",
     "operational:04",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 8,
@@ -256,11 +256,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.181512+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.907149+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -282,10 +283,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1796,
-  "files_read": 1,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1287,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1499,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -295,5 +296,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.075156+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Curated collection of LLM application examples and tutorials covering agents, RAG, multimodal apps and model integrations.",
+    "reuse_recommendation": "Use to find patterns and inspect each source project, license, security posture and current provider API.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Each example and linked dependency may have its own license and provider terms.",
+    "runtime": [
+      "Curated examples",
+      "Python/JavaScript and model APIs"
+    ],
+    "keywords": [
+      "LLM app examples",
+      "RAG tutorials",
+      "AI agents",
+      "multimodal AI",
+      "model integrations"
+    ],
+    "risk_notes": [
+      "Examples may be outdated, insecure or transmit data to external services."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LLM examples catalog",
+        "purpose": "Makes practical AI application patterns discoverable.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:13.258708+00:00",
+    "inspected_commit": "e46d6feaeacf5f0bec31a92c6ec68f2a701ce714",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7abcbdc3cc90ef81e7d69688e11657a7590e25aa",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-llm-apps/blob/e46d6feaeacf5f0bec31a92c6ec68f2a701ce714/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "LLM application patterns",
+        "description": "Collects examples for building model-powered software.",
+        "scope": "REFERENCE",
+        "id": "cluster:llm-application-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent and RAG implementations",
+        "description": "Demonstrates retrieval and tool-using application approaches.",
+        "scope": "REFERENCE",
+        "id": "cluster:agent-and-rag-implementations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multimodal model workflows",
+        "description": "Shows integrations spanning text, image, audio or other modalities.",
+        "scope": "REFERENCE",
+        "id": "cluster:multimodal-model-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,28 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/danny-avila/LibreChat",
-  "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+  "description": "Self-hostable multi-provider AI chat interface supporting conversations, tools, file uploads and integrations with various model services.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-16T03:54:45Z",
-    "github_description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
+    "github_description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "385c6f8a1a42b5facdea5a9de5d00dd5e428ce45",
   "current_commit": "385c6f8a1a42b5facdea5a9de5d00dd5e428ce45",
   "inspection_date": "2026-09-20T05:36:21.396083+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:apis",
-    "category:developer-tools",
-    "category:llm-projects",
-    "category:mcp-servers",
-    "category:research-projects",
-    "category:skills"
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [
     "operational:02",
     "operational:03",
@@ -47,7 +44,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -262,16 +259,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.379361+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.173356+00:00",
   "tree_files": 5362,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 5204,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 5216,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -281,5 +279,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.093981+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hostable multi-provider AI chat interface supporting conversations, tools, file uploads and integrations with various model services.",
+    "reuse_recommendation": "Use with authentication, provider-specific data controls and strict tool permissions.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "MIT; each model provider and plugin has separate terms.",
+    "runtime": [
+      "Node.js/TypeScript",
+      "database",
+      "model APIs"
+    ],
+    "keywords": [
+      "LibreChat",
+      "multi-provider chat",
+      "AI assistant UI",
+      "model integrations",
+      "self-hosted LLM"
+    ],
+    "risk_notes": [
+      "Chats, uploads and tools may expose sensitive data or perform external actions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LibreChat assistant platform",
+        "purpose": "Combines chat UX with provider and tool integrations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:43.412097+00:00",
+    "inspected_commit": "385c6f8a1a42b5facdea5a9de5d00dd5e428ce45",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4a6b43c6c60d7a09a7d60aaa4b2fc453d47f15c8",
+        "value": "https://github.com/jamesrwatsonx-creator/Chat-interface-LibreChat/blob/385c6f8a1a42b5facdea5a9de5d00dd5e428ce45/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-model chat interface",
+        "description": "Provides a unified conversation UI across model providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-model-chat-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tools, files and integrations",
+        "description": "Extends chat with callable tools and uploaded content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tools-files-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "user management and deployment",
+        "description": "Supports operating a multi-user self-hosted assistant service.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:user-management-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

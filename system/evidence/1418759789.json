@@ -3,8 +3,118 @@
   "inspected_commit": "06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd",
   "tree_complete": true,
   "tree_files": 226,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/ci-suite.yaml",
+      "sha": "955d7d5671ac1e8d944075e1efe2b24d19f8f9ed"
+    },
+    {
+      "path": ".php-cs-fixer.dist.php",
+      "sha": "3e85dada3f802f4129ec5d8aa0ff449b10486fbb"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "7b1af193cdfd5956bf62360ab4c0b0d4ae4cb551"
+    },
+    {
+      "path": "README.md",
+      "sha": "489becc57827c34691cc2dd6634b216d467fd333"
+    },
+    {
+      "path": "app/config/app.php",
+      "sha": "4ba83222e31b3bf0c4cf32109573ce9f0b93add0"
+    },
+    {
+      "path": "app/config/cache.php",
+      "sha": "d8dc5bb6671ce7a5c8dbf298b62e107c5ddc6081"
+    },
+    {
+      "path": "app/config/container.php",
+      "sha": "bf4cf9940cb13273af6a1d6dd9332e28180fd17f"
+    },
+    {
+      "path": "composer.json",
+      "sha": "273053c078c54b2eee884859ebbbc36f6772b261"
+    },
+    {
+      "path": "docs/.vitepress/theme/index.js",
+      "sha": "d05a7d950f8f601e6951e13beabaa17e50688020"
+    },
+    {
+      "path": "package.json",
+      "sha": "5e875648a0346e81020eacf765ccf28c687e29dc"
+    },
+    {
+      "path": "tests/_files/README.md",
+      "sha": "bb28c6b4a6a528ed42e6c7d91f7b629ac503147b"
+    },
+    {
+      "path": "tests/_files/README.txt",
+      "sha": "c083f831904f01bea156c20a7c31b5f01f484ba6"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "489becc57827c34691cc2dd6634b216d467fd333",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "7b1af193cdfd5956bf62360ab4c0b0d4ae4cb551",
+      "entities_detected": 0
+    },
+    {
+      "path": "composer.json",
+      "blob_sha": "273053c078c54b2eee884859ebbbc36f6772b261",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "5e875648a0346e81020eacf765ccf28c687e29dc",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/_files/README.md",
+      "blob_sha": "bb28c6b4a6a528ed42e6c7d91f7b629ac503147b",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/.vitepress/theme/index.js",
+      "blob_sha": "d05a7d950f8f601e6951e13beabaa17e50688020",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/_files/README.txt",
+      "blob_sha": "c083f831904f01bea156c20a7c31b5f01f484ba6",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci-suite.yaml",
+      "blob_sha": "955d7d5671ac1e8d944075e1efe2b24d19f8f9ed",
+      "entities_detected": 0
+    },
+    {
+      "path": ".php-cs-fixer.dist.php",
+      "blob_sha": "3e85dada3f802f4129ec5d8aa0ff449b10486fbb",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/config/app.php",
+      "blob_sha": "4ba83222e31b3bf0c4cf32109573ce9f0b93add0",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/config/cache.php",
+      "blob_sha": "d8dc5bb6671ce7a5c8dbf298b62e107c5ddc6081",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/config/container.php",
+      "blob_sha": "bf4cf9940cb13273af6a1d6dd9332e28180fd17f",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".docker/php/config/php.dev.ini",
     ".docker/php/config/php.prod.ini",
@@ -15,16 +125,11 @@
     ".github/SECURITY.md",
     ".github/dependabot.yml",
     ".github/stale.yml",
-    ".github/workflows/ci-suite.yaml",
-    ".php-cs-fixer.dist.php",
     "Dockerfile",
-    "LICENSE",
     "Makefile",
-    "README.md",
-    "app/config/app.php",
-    "app/config/cache.php",
-    "app/config/container.php",
     "app/config/icons.php",
+    "app/resources/css/app.css",
+    "app/resources/css/markdown.css",
     "app/resources/js/app.js",
     "app/resources/js/components/Application.js",
     "app/resources/js/components/FileInfoModal.js",
@@ -105,7 +210,12 @@
     "app/translations/sv.yaml",
     "app/translations/tr.yaml",
     "app/translations/zh-CN.yaml",
-    "app/translations/zh-TW.yaml"
+    "app/translations/zh-TW.yaml",
+    "docker-compose.yaml",
+    "docs/.vitepress/config.js",
+    "docs/configuration/advanced-configuration.md",
+    "docs/configuration/authentication.md",
+    "docs/configuration/configuration-reference.md"
   ],
   "excluded_nontext_paths": [
     ".docker/apache2/config/000-default.dev.conf",
@@ -160,6 +270,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "9122979184dc9ba44c0bdd64aa61aac7fdfb7b599a31e573ed3ecf8ccac87d1d",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -172,8 +283,11 @@
     "stubs": 1,
     "tests": 68
   },
-  "unread_source_paths_count": 178,
+  "unread_source_paths_count": 173,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 48,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

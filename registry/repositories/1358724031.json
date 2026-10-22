@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Anil-matcha/Open-Generative-AI",
-  "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+  "description": "Web platform for accessing generative image and video workflows through the external MuAPI service.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-04T09:04:50Z",
-    "github_description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed."
+    "github_description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2f411dd30e531564c74ee391616d35fe7d53ae28",
   "current_commit": "2f411dd30e531564c74ee391616d35fe7d53ae28",
   "inspection_date": "2026-09-20T05:35:55.795049+00:00",
   "categories": [
-    "category:creative-tools"
+    "category:web-applications",
+    "category:generative-ai",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.680478+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.844078+00:00",
   "tree_files": 200,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 156,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 153,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.239294+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Web platform for accessing generative image and video workflows through the external MuAPI service.",
+    "reuse_recommendation": "Use as a hosted-service integration reference; review moderation, provider costs, user data and generation terms.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository license and MuAPI/model terms.",
+    "runtime": [
+      "Web application",
+      "MuAPI service"
+    ],
+    "keywords": [
+      "Open Generative AI",
+      "MuAPI",
+      "AI video generation",
+      "image generation platform"
+    ],
+    "risk_notes": [
+      "External generation claims and model access depend on provider; implement content and cost controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "generative media platform",
+        "purpose": "Routes media creation requests through an external model API.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:54.452269+00:00",
+    "inspected_commit": "2f411dd30e531564c74ee391616d35fe7d53ae28",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a68aeb2cf32c1e98b8637e0705e92f9f806463ec",
+        "value": "https://github.com/jamesrwatsonx-creator/Open-Generative-AI/blob/2f411dd30e531564c74ee391616d35fe7d53ae28/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "generative media interface",
+        "description": "Provides a web interface to external image and video generation services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:generative-media-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "hosted model API integration",
+        "description": "Connects user requests to MuAPI-backed generation workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hosted-model-api-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

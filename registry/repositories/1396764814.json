@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "edge",
-  "upstream_url": null,
-  "description": "A free, self-hostable news aggregator…",
+  "upstream_url": "https://github.com/FreshRSS/FreshRSS",
+  "description": "Self-hosted RSS feed aggregator for collecting, organizing and reading subscriptions through a web interface.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-29T14:18:01Z",
-    "github_description": "A free, self-hostable news aggregator…"
+    "github_description": "A free, self-hostable news aggregator…",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "0285dc8970246c95c2e588acd25ea2940899a5fd",
+  "current_commit": "0285dc8970246c95c2e588acd25ea2940899a5fd",
+  "inspection_date": "2026-10-22T02:33:38.156948+00:00",
   "categories": [
-    "category:general-other"
+    "category:web-applications",
+    "category:data-engineering"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.924689+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.965014+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.145736+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1291,
+  "files_read": 10,
+  "unread_source_files": 924,
+  "repository_intelligence": {
+    "purpose": "Self-hosted RSS feed aggregator for collecting, organizing and reading subscriptions through a web interface.",
+    "reuse_recommendation": "Use as a self-hosted reading system after hardening deployment and feed credential storage.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review license and deployment/security requirements for handling feed credentials.",
+    "runtime": [
+      "PHP",
+      "web application"
+    ],
+    "keywords": [
+      "RSS reader",
+      "feed aggregation",
+      "self-hosted",
+      "web application",
+      "PHP"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "FreshRSS service",
+        "purpose": "Provides a personal or shared web-based feed reading service.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:52.757134+00:00",
+    "inspected_commit": "0285dc8970246c95c2e588acd25ea2940899a5fd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cdfa98116c971fb63e9046077398d7f9c7cd972b",
+        "value": "https://github.com/jamesrwatsonx-creator/FreshRSS/blob/0285dc8970246c95c2e588acd25ea2940899a5fd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "RSS aggregation and reading",
+        "description": "Fetches subscribed feeds and presents articles in a self-hosted reading interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:rss-aggregation-and-reading",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Feed management and extensions",
+        "description": "Supports configurable sources and extensible workflows around feed ingestion and reading.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:feed-management-and-extensions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

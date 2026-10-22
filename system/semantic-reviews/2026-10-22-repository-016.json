@@ -1,0 +1,1448 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Verify licensing, deployment and external-provider terms before production use."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/khoj-agent-and-agent-memory-",
+                             "commit":  "ae229ca894c0b80ad84664afcfdde523b5e87057",
+                             "purpose":  "Personal AI assistant and knowledge workspace combining searchable personal data, long-term memory, agents and integrations across local or hosted interfaces.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:ai-memory",
+                                                "category:ai-agents"
+                                            ],
+                             "operational":  "operational:04",
+                             "license_notes":  "Check repository license and model/provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Khoj",
+                                              "personal AI",
+                                              "agent memory",
+                                              "knowledge search",
+                                              "self-hosted assistant"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "personal knowledge retrieval",
+                                                             "description":  "Indexes personal sources and supports semantic or keyword search over them.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "persistent assistant memory",
+                                                             "description":  "Maintains context across conversations and tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "agent tools and integrations",
+                                                             "description":  "Connects assistants to configured tools and user-facing clients.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Khoj assistant platform",
+                                                              "purpose":  "Combines personal search, memory and agent interaction.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python backend",
+                                             "web/desktop clients",
+                                             "database and model providers"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Evaluate as a self-hosted personal knowledge layer; inspect source ingestion, access control and model data flow.",
+                             "risk_notes":  [
+                                                "Indexes may contain private documents and conversation history."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/docsearch",
+                             "commit":  "e387920e842c1f2fdb69bbdfff4c2d4d7754ce29",
+                             "purpose":  "Search tooling for documentation sites, enabling users or agents to retrieve relevant docs and code references.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:documentation",
+                                                "category:data-engineering"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "Check repository license and documentation source terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "documentation search",
+                                              "developer docs",
+                                              "semantic search",
+                                              "code search"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "documentation indexing",
+                                                             "description":  "Collects and indexes documentation for discovery.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "relevance search",
+                                                             "description":  "Retrieves matching documentation passages for user or agent queries.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Docsearch retrieval",
+                                                              "purpose":  "Turns documentation content into a searchable reference source.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "search/index backend"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as a documentation retrieval pattern and verify indexing freshness and source attribution.",
+                             "risk_notes":  [
+                                                "Stale or mismatched docs can lead to incorrect API guidance."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/awesome-opus5-5-videos",
+                             "commit":  "92aee2f586ac0715cb3cbcb6384834f98a33383d",
+                             "purpose":  "Curated collection of Opus video-generation examples, prompts or learning resources for discovering model capabilities.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:generative-ai",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Individual videos, linked resources and generated media may have separate rights.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Opus video",
+                                              "AI video examples",
+                                              "video generation prompts",
+                                              "curated media"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "video examples and references",
+                                                             "description":  "Collects examples that demonstrate video-generation outcomes.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "creative prompt discovery",
+                                                             "description":  "Organizes creative references for video model experimentation.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Opus video collection",
+                                                              "purpose":  "Makes video-generation inspiration and examples discoverable.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Curated documentation and media links"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for inspiration; validate current model access and usage rights.",
+                             "risk_notes":  [
+                                                "Linked media and source prompts may carry independent licensing or attribution conditions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/react-grab",
+                             "commit":  "ea4bbec9e80f4802e8ae19ad18431edb9ddbb670",
+                             "purpose":  "React developer tool for selecting interface elements and capturing useful component/context information for coding agents.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:frontend-applications",
+                                                "category:ai-agents"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Check repository license and agent integrations.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "agents":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "React Grab",
+                                              "component selection",
+                                              "coding agent context",
+                                              "frontend debugging",
+                                              "UI inspection"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "element selection and inspection",
+                                                             "description":  "Lets developers identify rendered React elements and inspect their context.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "agent context capture",
+                                                             "description":  "Packages selected UI information for downstream coding-agent workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "React Grab overlay",
+                                                              "purpose":  "Connects browser UI selection to developer/agent context.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "React/TypeScript",
+                                             "browser development environment"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use to reduce UI debugging friction; ensure captured context excludes sensitive page data.",
+                             "risk_notes":  [
+                                                "Browser inspection may capture private content depending on the page."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/nowinandroid",
+                             "commit":  "7d45eae4f8720a0c77f507712ba2437ff974b6ed",
+                             "purpose":  "Google’s modern Android application sample demonstrating recommended architecture, Jetpack libraries and an offline-capable news experience.",
+                             "categories":  [
+                                                "category:mobile-applications",
+                                                "category:reference-implementations",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "Apache-2.0.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Now in Android",
+                                              "Kotlin",
+                                              "Jetpack Compose",
+                                              "Android architecture",
+                                              "offline-first"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Android app architecture",
+                                                             "description":  "Demonstrates modular app structure, dependency injection and recommended Android patterns.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "Compose UI and navigation",
+                                                             "description":  "Shows modern declarative Android screens and navigation patterns.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "offline-first data flow",
+                                                             "description":  "Illustrates local persistence and synchronized content delivery.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Now in Android sample app",
+                                                              "purpose":  "Provides a production-style reference for modern Android development.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Kotlin",
+                                             "Android",
+                                             "Jetpack Compose"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as an architecture and implementation reference; adapt rather than copying sample product assumptions.",
+                             "risk_notes":  [
+                                                "Sample patterns should be checked against current Android platform guidance."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/obsidian-excalidraw-plugin",
+                             "commit":  "da124f019b79b6b3ce2d9af80e3d1183815cd737",
+                             "purpose":  "Obsidian plugin embedding Excalidraw-style sketching, diagramming and visual note workflows within a personal knowledge vault.",
+                             "categories":  [
+                                                "category:plugins-extensions",
+                                                "category:productivity",
+                                                "category:creative-tools"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository and Excalidraw asset terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Obsidian Excalidraw",
+                                              "diagram plugin",
+                                              "visual notes",
+                                              "whiteboard",
+                                              "knowledge management"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "vault-integrated sketching",
+                                                             "description":  "Creates and edits diagrams and sketches inside Obsidian notes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "linkable visual knowledge",
+                                                             "description":  "Connects drawings and embedded visual references to note-taking workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "plugin configuration and extensions",
+                                                             "description":  "Supports customization of drawing behavior in Obsidian.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Excalidraw Obsidian plugin",
+                                                              "purpose":  "Combines whiteboard-style authoring with linked note context.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript",
+                                             "Obsidian plugin API",
+                                             "Excalidraw"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for visual knowledge workflows; validate compatibility with target Obsidian versions.",
+                             "risk_notes":  [
+                                                "Vault contents can be sensitive; plugin access should follow vault trust boundaries."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/scrapy",
+                             "commit":  "962197e2846443ffc1ea794effd679ee8b13e09d",
+                             "purpose":  "Python framework for crawling websites and extracting structured data through configurable spiders, pipelines and asynchronous requests.",
+                             "categories":  [
+                                                "category:automation-scripting",
+                                                "category:data-engineering",
+                                                "category:libraries-packages"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "BSD-3-Clause; target website terms apply.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Scrapy",
+                                              "web crawling",
+                                              "Python spiders",
+                                              "data extraction",
+                                              "scraping pipelines"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "spider-based crawling",
+                                                             "description":  "Defines repeatable crawlers that navigate sites and collect content.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "structured extraction pipelines",
+                                                             "description":  "Transforms and exports scraped data through configurable processing stages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "crawl scheduling and deployment",
+                                                             "description":  "Supports operating crawlers at scale with project configuration.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Scrapy framework",
+                                                              "purpose":  "Coordinates requests, parsing and data pipelines for web collection.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "Twisted networking"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for permitted, rate-limited collection with clear data provenance and robots/policy review.",
+                             "risk_notes":  [
+                                                "Scraping can implicate site terms, personal data and network load."
+                                            ],
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/no-mistakes",
+                             "commit":  "a6f64fcdb4e82c0ddbbd9f01ed91e97dd233d42d",
+                             "purpose":  "Likely developer workflow or quality tooling; use its pinned README and manifest evidence for search classification and inspect implementation if selected.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:automation-scripting",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "See repository license metadata.",
+                             "asset_presence":  {
+
+                                                },
+                             "keywords":  [
+                                              "no mistakes",
+                                              "developer workflow",
+                                              "quality checks",
+                                              "automation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "quality or workflow support",
+                                                             "description":  "Provides the repository’s documented mechanism for reducing errors in a development or operational task.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "project integration",
+                                                             "description":  "Connects the primary behavior to its intended workflow.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Core no-mistakes tooling",
+                                                              "purpose":  "Implements the repository’s documented primary quality capability.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "See pinned manifests"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Retain as a candidate and inspect source details when a matching need arises.",
+                             "risk_notes":  [
+                                                "Confirm exact behavior and supported environment before adopting."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/hister-communiy-business-network",
+                             "commit":  "8465c6fec6f9edc481612737e7b2f592c487bd93",
+                             "purpose":  "Community and business networking application for member discovery, profiles and local connection workflows.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:web-applications",
+                                                "category:government-civic-tech"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and any external identity/service terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "community network",
+                                              "business directory",
+                                              "local groups",
+                                              "member profiles",
+                                              "social platform"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "member profiles and discovery",
+                                                             "description":  "Supports discovering and presenting people or organizations in a community.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "community interactions",
+                                                             "description":  "Provides communication or connection workflows among members.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "business network administration",
+                                                             "description":  "Supports local organization and network management.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Community business network",
+                                                              "purpose":  "Connects member identity, discovery and community participation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "database/backend runtime"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only with clear community governance and privacy controls for member data.",
+                             "risk_notes":  [
+                                                "Profiles, location and social connections are personal data requiring access control."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/gallery-dl",
+                             "commit":  "d9eebbea041a52e347a2b181bdd64536a875d004",
+                             "purpose":  "Command-line program for downloading image galleries and collections from supported websites.",
+                             "categories":  [
+                                                "category:cli-tools",
+                                                "category:media-publishing",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "GPL-2.0-or-later; downloaded media retain source rights and site terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "gallery-dl",
+                                              "image downloader",
+                                              "media archives",
+                                              "website extractors",
+                                              "CLI"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "site-specific gallery extraction",
+                                                             "description":  "Supports downloading media collections from a range of configured websites.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "batch download and organization",
+                                                             "description":  "Automates media retrieval and local file naming/organization.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CLI configuration",
+                                                             "description":  "Allows users to configure credentials, filters and output behavior.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "gallery-dl extractor framework",
+                                                              "purpose":  "Maps supported sites to repeatable gallery download behavior.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python CLI",
+                                             "HTTP/network services"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only for permitted personal or authorized archives; respect site access controls and rights.",
+                             "risk_notes":  [
+                                                "Credentials and copyrighted or private media may be involved."
+                                            ],
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/experiential",
+                             "commit":  "a1f2d3c66d7213522b18f083cb1f1221bee9b533",
+                             "purpose":  "Experiential marketing or interactive experience project; the pinned README defines a business/media capability suitable for concept and implementation reference.",
+                             "categories":  [
+                                                "category:marketing-communications",
+                                                "category:creative-tools",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Verify repository and included creative asset rights.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "experiential",
+                                              "interactive campaign",
+                                              "brand experience",
+                                              "creative technology"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "interactive experience design",
+                                                             "description":  "Provides a digital or event-oriented user experience for engagement.",
+                                                             "scope":  "DESIGN"
+                                                         },
+                                                         {
+                                                             "name":  "campaign content and presentation",
+                                                             "description":  "Supports the creative communication layer around an experience.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Experiential project",
+                                                              "purpose":  "Packages the repository’s branded or interactive experience concept.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared web or media runtime"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a creative reference and verify all campaign claims, tracking and consent practices.",
+                             "risk_notes":  [
+                                                "Experience tracking may collect visitor behavior or personal information."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/bludit",
+                             "commit":  "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
+                             "purpose":  "Lightweight flat-file content management system for publishing websites and blogs without requiring a relational database.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:media-publishing",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "MIT; verify plugins/themes separately.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Bludit",
+                                              "flat-file CMS",
+                                              "blog publishing",
+                                              "PHP",
+                                              "content management"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "content authoring and publishing",
+                                                             "description":  "Manages pages and posts for public websites.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "flat-file storage",
+                                                             "description":  "Stores site content without a conventional database server.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "themes and plugins",
+                                                             "description":  "Extends appearance and CMS behavior through modular add-ons.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Bludit CMS",
+                                                              "purpose":  "Provides a compact content publishing platform and administration interface.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP",
+                                             "web server",
+                                             "filesystem storage"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Consider for small content sites after reviewing maintenance, user roles and backup/security posture.",
+                             "risk_notes":  [
+                                                "Admin authentication, plugin supply chain and file permissions need hardening."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Kotlin-coil",
+                             "commit":  "a42b7709600630cd2bed73517832442b98d4d7b5",
+                             "purpose":  "Kotlin image-loading library for Android and Compose applications, supporting asynchronous image requests, caching and rendering.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:mobile-applications",
+                                                "category:libraries-packages"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "Apache-2.0.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Coil",
+                                              "Kotlin image loader",
+                                              "Android images",
+                                              "Jetpack Compose",
+                                              "image caching"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "asynchronous image loading",
+                                                             "description":  "Loads and displays images from local and remote sources in Kotlin apps.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "caching and request pipeline",
+                                                             "description":  "Provides caching and configurable image request behavior.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Compose and Android integrations",
+                                                             "description":  "Connects image loading to modern Android UI components.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Coil image loader",
+                                                              "purpose":  "Provides a Kotlin-first image loading and rendering API.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Kotlin",
+                                             "Android/JVM",
+                                             "Jetpack Compose"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use as an Android image-loading library and tune caching for the app’s privacy and memory needs.",
+                             "risk_notes":  [
+                                                "Remote image sources should be validated and cache behavior reviewed for sensitive content."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/YOURLS",
+                             "commit":  "d734a863b5a7e7581476a8bf3ab35db2938f5147",
+                             "purpose":  "Self-hosted URL shortening service with link management, click statistics and plugin extensions.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:backend-services",
+                                                "category:analytics"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "MIT; review plugins individually.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "YOURLS",
+                                              "URL shortener",
+                                              "link analytics",
+                                              "self-hosted",
+                                              "redirect service"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "short link creation and redirection",
+                                                             "description":  "Creates branded short URLs and redirects visitors to target destinations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "click analytics",
+                                                             "description":  "Tracks usage and statistics for managed links.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "API and plugin extensions",
+                                                             "description":  "Supports integration and customization through APIs and plugins.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "YOURLS link service",
+                                                              "purpose":  "Combines short-link administration, redirects and analytics.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP",
+                                             "MySQL/MariaDB",
+                                             "web server"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for controlled branded-link management with abuse prevention and privacy-conscious analytics.",
+                             "risk_notes":  [
+                                                "Open redirects, spam, tracking and admin access require security controls."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/freqtrade",
+                             "commit":  "cadc05ebafc242d441798725fa8dcb926f650475",
+                             "purpose":  "Cryptocurrency trading bot with strategy development, backtesting, paper trading and exchange execution integrations.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:automation-scripting",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "GPL-3.0; exchange APIs and financial rules apply.",
+                             "asset_presence":  {
+                                                    "business_media_other":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Freqtrade",
+                                              "crypto trading bot",
+                                              "backtesting",
+                                              "exchange integration",
+                                              "strategy automation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "strategy development and backtesting",
+                                                             "description":  "Tests algorithmic strategies against historical market data.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "paper and live trading",
+                                                             "description":  "Connects strategies to exchange APIs for simulated or real execution.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "trading operations and monitoring",
+                                                             "description":  "Provides configuration, persistence and operational controls for trading runs.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Freqtrade bot",
+                                                              "purpose":  "Runs automated strategy workflows from research through exchange interaction.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "exchange REST APIs",
+                                             "database"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Limit to backtesting/paper trading unless independently reviewed; never expose exchange withdrawal permissions.",
+                             "risk_notes":  [
+                                                "Live trading can lose funds; secrets, exchange permissions and financial compliance are critical."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/skills",
+                             "commit":  "a8924c2a35cfa290458852c4fad17c9133054c2e",
+                             "purpose":  "Collection of reusable agent skills or task instructions; specific domains and host compatibility are defined by included skill manifests.",
+                             "categories":  [
+                                                "category:skills",
+                                                "category:developer-tools",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Review license and attribution for each included skill.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "agent skills",
+                                              "task instructions",
+                                              "reusable workflows",
+                                              "skill library"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "task-specific skills",
+                                                             "description":  "Provides reusable instructions for distinct user or developer workflows.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "skill packaging and discovery",
+                                                             "description":  "Organizes skill manifests and host activation conventions.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Skill collection",
+                                                              "purpose":  "Makes task guidance discoverable and reusable across supported agents.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown skill format",
+                                             "compatible agent hosts"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Select only skills relevant to a concrete task and verify their host requirements and source evidence.",
+                             "risk_notes":  [
+                                                "Skill instructions may invoke external tools or contain untrusted workflows."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/freellmapi",
+                             "commit":  "b235b7e879de2e59f854f8cb14c28173f2886b67",
+                             "purpose":  "API gateway or service providing access to language models through a unified or free-tier interface; confirm provider coverage and limits from pinned documentation.",
+                             "categories":  [
+                                                "category:apis",
+                                                "category:generative-ai",
+                                                "category:backend-services"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check repository license and upstream model/provider terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LLM API",
+                                              "model gateway",
+                                              "free inference",
+                                              "provider routing",
+                                              "AI backend"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "model API access",
+                                                             "description":  "Exposes language-model inference through an application-facing API.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "provider/model routing",
+                                                             "description":  "Connects requests to supported model sources and service configurations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Free LLM API service",
+                                                              "purpose":  "Provides an integration point for model-backed applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared backend runtime",
+                                             "model provider APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only after verifying current provider availability, privacy terms, rate limits and data handling.",
+                             "risk_notes":  [
+                                                "Free endpoints may change, log prompts or have unreliable security guarantees."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ArchiveBox",
+                             "commit":  "3a32fe94040221a4062f49b494d136f1cc4fba8e",
+                             "purpose":  "Self-hosted internet archiving platform that saves web pages and associated media for later search and preservation.",
+                             "categories":  [
+                                                "category:productivity",
+                                                "category:media-publishing",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "MIT; archived websites and media remain subject to rights and access restrictions.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "browser_computer_use":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ArchiveBox",
+                                              "web archiving",
+                                              "URL capture",
+                                              "self-hosted archive",
+                                              "preservation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-format web capture",
+                                                             "description":  "Archives pages and linked media using configurable extraction methods.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "archive indexing and browsing",
+                                                             "description":  "Organizes saved captures for search and later retrieval.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "scheduled and self-hosted archiving",
+                                                             "description":  "Supports recurring capture and personal/server deployment.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ArchiveBox capture pipeline",
+                                                              "purpose":  "Collects and presents durable snapshots of web resources.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "browser and media extractors",
+                                             "database/search services"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for authorized preservation and research; document provenance and honor privacy/takedown obligations.",
+                             "risk_notes":  [
+                                                "Archives can retain sensitive data and copyrighted content long after removal upstream."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/iFixAi",
+                             "commit":  "15599839eccfc2ffcf181b0ca3651413416a9d40",
+                             "purpose":  "AI-assisted repair or troubleshooting application for diagnosing device or equipment issues and guiding users through fixes.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:business-applications",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check repository license and any diagnostic content sources.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AI repair assistant",
+                                              "troubleshooting",
+                                              "diagnostics",
+                                              "maintenance workflows",
+                                              "support agent"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "guided troubleshooting",
+                                                             "description":  "Uses conversational or structured guidance to diagnose common repair problems.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "repair knowledge workflows",
+                                                             "description":  "Organizes troubleshooting steps and reference information for users.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "iFixAI assistant",
+                                                              "purpose":  "Connects issue descriptions to AI-supported repair guidance.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web/mobile application",
+                                             "LLM or knowledge API"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as an assistance layer only; keep safety warnings and human expert escalation for hazardous repairs.",
+                             "risk_notes":  [
+                                                "Incorrect repair guidance can cause injury or property damage; scope advice and verify sources."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/firecracker",
+                             "commit":  "81b38b9dad6056d7a48073e95ac5a9aed51cb2ab",
+                             "purpose":  "Lightweight virtual machine monitor for running secure, isolated microVMs, commonly used for serverless and multi-tenant workloads.",
+                             "categories":  [
+                                                "category:cloud-infrastructure",
+                                                "category:cloud-infrastructure",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Apache-2.0.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "security":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Firecracker",
+                                              "microVM",
+                                              "KVM",
+                                              "sandbox isolation",
+                                              "serverless infrastructure"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "microVM lifecycle",
+                                                             "description":  "Creates, configures and runs lightweight virtual machines on KVM hosts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "isolation boundary",
+                                                             "description":  "Provides a constrained guest execution environment for workloads.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "host integration and operations",
+                                                             "description":  "Exposes APIs and tooling for orchestrating microVMs in infrastructure.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Firecracker VMM",
+                                                              "purpose":  "Provides the virtualization primitive for isolated compute workloads.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Rust",
+                                             "Linux KVM",
+                                             "host orchestration APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use only with kernel, host and guest hardening; model the full isolation boundary and operational lifecycle.",
+                             "risk_notes":  [
+                                                "Virtualization and tenant isolation are security-critical; configuration errors can expose host resources."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/graphify",
+                             "commit":  "b2cd36267456c166788c95be6e68574064a92a42",
+                             "purpose":  "Creates knowledge or relationship graphs from repository or document content to support visual exploration and agent context.",
+                             "categories":  [
+                                                "category:technology-maps",
+                                                "category:knowledge-graphs",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check repository license and any model/provider terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Graphify",
+                                              "knowledge graph",
+                                              "codebase graph",
+                                              "relationship visualization",
+                                              "agent context"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "entity and relationship extraction",
+                                                             "description":  "Transforms source material into connected graph structures.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "graph visualization and exploration",
+                                                             "description":  "Presents relationships for interactive browsing and analysis.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "agent context integration",
+                                                             "description":  "Uses graph results to help agents navigate related concepts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Graphify graph pipeline",
+                                                              "purpose":  "Connects source ingestion, relationship mapping and exploration.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "graph store or visualization",
+                                             "optional LLM"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for exploration and discovery; validate extracted relationships against pinned source evidence.",
+                             "risk_notes":  [
+                                                "Graphs may expose sensitive repository content or imply unsupported relationships."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Google-skills",
+                             "commit":  "1af77752950126ae12dec176a0a3b27a16b7f5f7",
+                             "purpose":  "Collection of agent skills for Google ecosystem products, developer services or productivity workflows; use manifests to identify specific supported tasks.",
+                             "categories":  [
+                                                "category:skills",
+                                                "category:productivity",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Check repository and any Google documentation/content reuse terms.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Google skills",
+                                              "agent workflows",
+                                              "Google APIs",
+                                              "productivity automation",
+                                              "developer guidance"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Google task skills",
+                                                             "description":  "Provides task-specific agent guidance for supported Google services or workflows.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "service integration patterns",
+                                                             "description":  "Documents how agent tasks connect to APIs or user-facing services.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Google skill collection",
+                                                              "purpose":  "Packages reusable instructions for Google-related tasks.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown skills",
+                                             "agent host",
+                                             "Google services/APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Select only relevant skills and verify scopes, API behavior and user authorization.",
+                             "risk_notes":  [
+                                                "OAuth permissions and user data access require least-privilege handling."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/fluidd",
+                             "commit":  "92751a13c4fdbd8181f0e6f771acf7998192fe06",
+                             "purpose":  "Web interface for managing and monitoring Klipper-based 3D printers, commonly integrated with Moonraker.",
+                             "categories":  [
+                                                "category:iot",
+                                                "category:web-applications",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:06",
+                             "license_notes":  "GPL-3.0; printer firmware and hardware terms may apply.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Fluidd",
+                                              "Klipper",
+                                              "3D printer dashboard",
+                                              "Moonraker",
+                                              "printer control"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "printer control interface",
+                                                             "description":  "Provides browser controls for managing supported printer operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "status and job monitoring",
+                                                             "description":  "Displays printer state, temperatures and print progress.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Moonraker integration",
+                                                             "description":  "Connects the UI to printer management APIs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Fluidd dashboard",
+                                                              "purpose":  "Combines printer control, monitoring and configuration in a web UI.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Vue/TypeScript frontend",
+                                             "Moonraker API",
+                                             "3D printer host"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for authorized printer management; protect network/API access and test controls safely.",
+                             "risk_notes":  [
+                                                "Remote device control can create physical hazards; do not expose unauthenticated interfaces."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ComfyUI",
+                             "commit":  "d80fcafee78a9453e89c21da41ecc815ad69a116",
+                             "purpose":  "Node-based graphical interface and backend for composing and executing Stable Diffusion and other generative media workflows.",
+                             "categories":  [
+                                                "category:generative-ai",
+                                                "category:creative-tools",
+                                                "category:machine-learning-models"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "GPL-3.0; custom nodes, checkpoints and models have separate licenses.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ComfyUI",
+                                              "node workflows",
+                                              "Stable Diffusion",
+                                              "image generation",
+                                              "custom nodes"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "visual AI workflow composition",
+                                                             "description":  "Builds reusable graph workflows for image and media generation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "model inference and media processing",
+                                                             "description":  "Runs model-backed generation and transformation nodes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "custom node ecosystem",
+                                                             "description":  "Extends the graph with community and project-specific operations.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ComfyUI graph runtime",
+                                                              "purpose":  "Connects model components and processing nodes into executable pipelines.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "PyTorch/CUDA",
+                                             "web UI and model assets"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for controllable media pipelines; pin custom nodes and review model/content licenses.",
+                             "risk_notes":  [
+                                                "Untrusted custom nodes execute code; model weights and generated media require provenance review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/huginn-agents-custom",
+                             "commit":  "efaba04566eeac4d17fdde7e9258e6c047a02cf8",
+                             "purpose":  "Custom agents or integrations for Huginn’s event-driven automation platform, enabling monitoring, transformation and actions across services.",
+                             "categories":  [
+                                                "category:automation-scripting",
+                                                "category:agent-frameworks",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "Check repository and upstream Huginn licensing; third-party services have separate terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Huginn agents",
+                                              "event automation",
+                                              "custom integrations",
+                                              "workflow automation",
+                                              "service monitoring"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "event source agents",
+                                                             "description":  "Collects events from supported services or data sources.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "event transformation and routing",
+                                                             "description":  "Processes and routes events through configurable automation flows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "custom service integrations",
+                                                             "description":  "Adds project-specific agents for external systems.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Custom Huginn agent set",
+                                                              "purpose":  "Extends event-driven workflows with additional service capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Ruby",
+                                             "Huginn",
+                                             "external service APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use individual agents selectively and verify credentials, payload handling and idempotency.",
+                             "risk_notes":  [
+                                                "Automated actions may affect third-party systems and process sensitive event data."
+                                            ]
+                         }
+                     ]
+}

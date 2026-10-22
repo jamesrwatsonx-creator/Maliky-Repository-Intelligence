@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**380 entries** · Alphabetical · 3 pages.
+**406 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -304,8 +304,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/HermesConsoleModal.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/HermesConsoleModal.tsx#L101) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [IssueWriteApp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A202da9668165d221252f2b9b.json) — MCP App UI (Primer React) for the issue write flow of github-mcp-server, rendered by MCP Apps-capable clients.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [ui/src/apps/issue-write/App.tsx](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/ui/src/apps/issue-write/App.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
-- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
+- [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396969985.json) — Collection or utility library for composing reusable Android view animations into sets and sequences.<br>
+  Source: [jamesrwatsonx-creator/Android-Animation-Set](https://github.com/jamesrwatsonx-creator/Android-Animation-Set) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
 
 ## Pages
 

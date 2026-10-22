@@ -3,8 +3,100 @@
   "inspected_commit": "2bfaccc48dd49e71a5b6d9b3011808e127dd00cd",
   "tree_complete": true,
   "tree_files": 1860,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "e998fcfee5d9d1ba105679b6a755d10fa68cdc97"
+    },
+    {
+      "path": "README.md",
+      "sha": "20dadd44364c91a25448716ebb92e142797794da"
+    },
+    {
+      "path": "controllers/generic/lp_rebalancer/README.md",
+      "sha": "f27396f8338dbd62908d43cce8764cec54e76c73"
+    },
+    {
+      "path": "hummingbot/README.md",
+      "sha": "5297043b431301f5aa55515f1b1db87a252c0a61"
+    },
+    {
+      "path": "hummingbot/cli/README.md",
+      "sha": "17b858e175c56ea4050ecce12b3897a99b0ef5bf"
+    },
+    {
+      "path": "hummingbot/cli/main.py",
+      "sha": "6713f61223cae565bc8ffe844259be9a00ec91f8"
+    },
+    {
+      "path": "hummingbot/connector/derivative/injective_v2_perpetual/README.md",
+      "sha": "162d7949d305b25da50c6e2e0a451db34d49ceed"
+    },
+    {
+      "path": "hummingbot/connector/exchange/injective_v2/README.md",
+      "sha": "a56271975d7a1697947485532b93081927925aad"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "af96a8e58ecaee17ef1c882329a6991a67db994c"
+    },
+    {
+      "path": "setup.py",
+      "sha": "c2289b97f4f94e0cc7cc2e1172b9bae31e07b66e"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "20dadd44364c91a25448716ebb92e142797794da",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "e998fcfee5d9d1ba105679b6a755d10fa68cdc97",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "af96a8e58ecaee17ef1c882329a6991a67db994c",
+      "entities_detected": 0
+    },
+    {
+      "path": "setup.py",
+      "blob_sha": "c2289b97f4f94e0cc7cc2e1172b9bae31e07b66e",
+      "entities_detected": 0
+    },
+    {
+      "path": "hummingbot/README.md",
+      "blob_sha": "5297043b431301f5aa55515f1b1db87a252c0a61",
+      "entities_detected": 0
+    },
+    {
+      "path": "hummingbot/cli/README.md",
+      "blob_sha": "17b858e175c56ea4050ecce12b3897a99b0ef5bf",
+      "entities_detected": 0
+    },
+    {
+      "path": "controllers/generic/lp_rebalancer/README.md",
+      "blob_sha": "f27396f8338dbd62908d43cce8764cec54e76c73",
+      "entities_detected": 0
+    },
+    {
+      "path": "hummingbot/connector/derivative/injective_v2_perpetual/README.md",
+      "blob_sha": "162d7949d305b25da50c6e2e0a451db34d49ceed",
+      "entities_detected": 0
+    },
+    {
+      "path": "hummingbot/connector/exchange/injective_v2/README.md",
+      "blob_sha": "a56271975d7a1697947485532b93081927925aad",
+      "entities_detected": 0
+    },
+    {
+      "path": "hummingbot/cli/main.py",
+      "blob_sha": "6713f61223cae565bc8ffe844259be9a00ec91f8",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bounty_request.yml",
@@ -18,7 +110,8 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "CURSOR_VSCODE_SETUP.md",
-    "README.md",
+    "Dockerfile",
+    "Makefile",
     "bin/__init__.py",
     "bin/conf_migration_script.py",
     "bin/hummingbot.py",
@@ -51,7 +144,6 @@
     "controllers/generic/examples/price_monitor_controller.py",
     "controllers/generic/grid_strike.py",
     "controllers/generic/hedge_asset.py",
-    "controllers/generic/lp_rebalancer/README.md",
     "controllers/generic/lp_rebalancer/__init__.py",
     "controllers/generic/lp_rebalancer/lp_rebalancer.py",
     "controllers/generic/multi_grid_strike.py",
@@ -65,9 +157,7 @@
     "controllers/market_making/pmm_dynamic.py",
     "controllers/market_making/pmm_simple.py",
     "docker-compose.yml",
-    "hummingbot/README.md",
     "hummingbot/__init__.py",
-    "hummingbot/cli/README.md",
     "hummingbot/cli/__init__.py",
     "hummingbot/cli/bot.py",
     "hummingbot/cli/commands/__init__.py",
@@ -87,7 +177,6 @@
     "hummingbot/cli/commands/update.py",
     "hummingbot/cli/data.py",
     "hummingbot/cli/engine.py",
-    "hummingbot/cli/main.py",
     "hummingbot/cli/output.py",
     "hummingbot/cli/password.py",
     "hummingbot/cli/strategy_configs.py",
@@ -105,7 +194,10 @@
     "hummingbot/client/command/gateway_command.py",
     "hummingbot/client/command/gateway_config_command.py",
     "hummingbot/client/command/gateway_lp_command.py",
-    "hummingbot/client/command/gateway_pool_command.py"
+    "hummingbot/client/command/gateway_pool_command.py",
+    "hummingbot/client/command/gateway_swap_command.py",
+    "hummingbot/client/command/gateway_token_command.py",
+    "hummingbot/client/command/help_command.py"
   ],
   "excluded_nontext_paths": [
     ".coveragerc",
@@ -226,8 +318,12 @@
     "setup": 3,
     "test": 668
   },
-  "unread_source_paths_count": 1668,
+  "unread_source_paths_count": 1686,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 192,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

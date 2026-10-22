@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/endurain-project/endurain",
-  "description": " Endurain is a self-hosted fitness tracking service designed to give users full control over their data and hosting environment",
+  "description": "Self-hosted fitness activity tracking and training log application for recording workouts and visualizing progress.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T19:09:02Z",
-    "github_description": " Endurain is a self-hosted fitness tracking service designed to give users full control over their data and hosting environment"
+    "github_description": " Endurain is a self-hosted fitness tracking service designed to give users full control over their data and hosting environment",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fc6bf52bf2c144c71a81a7962297830f08c57af5",
   "current_commit": "fc6bf52bf2c144c71a81a7962297830f08c57af5",
   "inspection_date": "2026-10-20T23:54:52.080173+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:healthcare",
+    "category:productivity",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.747085+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.651173+00:00",
   "tree_files": 1809,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1732,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1727,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted fitness activity tracking and training log application for recording workouts and visualizing progress.",
+    "reuse_recommendation": "Use with clear user ownership and export/deletion options for personal health-adjacent data.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and fitness data integration terms.",
+    "runtime": [
+      "Web application",
+      "database",
+      "fitness data integrations"
+    ],
+    "keywords": [
+      "Endurain",
+      "workout tracker",
+      "fitness analytics",
+      "training log",
+      "self-hosted"
+    ],
+    "risk_notes": [
+      "Location, health and activity data can be sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Endurain fitness platform",
+        "purpose": "Combines activity records, personal analytics and self-hosted data control.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:13.629833+00:00",
+    "inspected_commit": "fc6bf52bf2c144c71a81a7962297830f08c57af5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7810c4bd3558fcf526236aa188b95493cf85b1a4",
+        "value": "https://github.com/jamesrwatsonx-creator/endurain-workout-app/blob/fc6bf52bf2c144c71a81a7962297830f08c57af5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "activity and workout tracking",
+        "description": "Records exercise sessions and related metrics.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:activity-and-workout-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "progress analytics and visualization",
+        "description": "Presents training history and performance trends.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:progress-analytics-and-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "device/data integrations",
+        "description": "Imports or connects activity data from supported services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:device-data-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

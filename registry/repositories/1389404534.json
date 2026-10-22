@@ -10,22 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Run a high-fidelity browser-based web archiving crawler in a single Docker container",
+  "upstream_url": "https://github.com/webrecorder/browsertrix-crawler",
+  "description": "Browser-based web crawler for creating high-fidelity web archives using browser automation and WARC output.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-22T20:00:28Z",
-    "github_description": "Run a high-fidelity browser-based web archiving crawler in a single Docker container"
+    "github_description": "Run a high-fidelity browser-based web archiving crawler in a single Docker container",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "e70f3721ad5b3303568764c280bc3c1447b2a838",
+  "current_commit": "e70f3721ad5b3303568764c280bc3c1447b2a838",
+  "inspection_date": "2026-10-22T02:32:14.938402+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:devops"
+    "category:web-applications",
+    "category:research-projects"
   ],
   "operational_category": "operational:05",
   "secondary_operational_categories": [
@@ -37,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +46,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.337749+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.115307+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +63,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.088033+00:00",
     "purpose_established": true
+  },
+  "tree_files": 186,
+  "files_read": 10,
+  "unread_source_files": 132,
+  "repository_intelligence": {
+    "purpose": "Browser-based web crawler for creating high-fidelity web archives using browser automation and WARC output.",
+    "reuse_recommendation": "Use for permitted archival and preservation crawls; configure scope, rate and resource limits.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check the pinned license and target-site crawl policies.",
+    "runtime": [
+      "JavaScript/Node.js",
+      "browser runtime"
+    ],
+    "keywords": [
+      "web archiving",
+      "browser crawler",
+      "WARC",
+      "browser automation",
+      "web capture"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Browsertrix crawler",
+        "purpose": "Produces replayable web archives of browser-rendered sites.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:30.019651+00:00",
+    "inspected_commit": "e70f3721ad5b3303568764c280bc3c1447b2a838",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bebd5829c9032bdfb0dc1ac3ec2ecea082c0fa7b",
+        "value": "https://github.com/jamesrwatsonx-creator/browsertrix-crawler/blob/e70f3721ad5b3303568764c280bc3c1447b2a838/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Browser-driven web capture",
+        "description": "Crawls rendered pages through browser automation and records archival captures.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-driven-web-capture",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

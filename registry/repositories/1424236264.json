@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/VapiAI/client-sdk-web",
-  "description": "This package lets you start Vapi calls directly in your webapp.",
+  "description": "Web client SDK for connecting browser applications to Vapi voice-agent sessions and related realtime client events.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-10-16T05:05:34Z",
-    "github_description": "This package lets you start Vapi calls directly in your webapp."
+    "github_description": "This package lets you start Vapi calls directly in your webapp.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "4e199f11fef663ffdebd0571ecd0ef808e34a9af",
   "current_commit": "4e199f11fef663ffdebd0571ecd0ef808e34a9af",
   "inspection_date": "2026-10-20T23:58:48.449148+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:apis",
+    "category:ai-applications"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,115 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.444537+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.265969+00:00",
   "tree_files": 33,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 26,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 15,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Web client SDK for connecting browser applications to Vapi voice-agent sessions and related realtime client events.",
+    "reuse_recommendation": "Use as the browser integration candidate after reviewing current SDK authentication, microphone permissions and service pricing.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "No license metadata found in the bounded packet; verify package terms before distribution.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser SDK",
+      "Vapi service"
+    ],
+    "keywords": [
+      "Vapi web SDK",
+      "voice agent client",
+      "browser voice sessions",
+      "realtime audio"
+    ],
+    "risk_notes": [
+      "Voice sessions require microphone permissions and transmit audio to an external service; verify data handling and consent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "web client package",
+        "purpose": "Exposes the browser-facing Vapi client API.",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:17.308052+00:00",
+    "inspected_commit": "4e199f11fef663ffdebd0571ecd0ef808e34a9af",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "04ffe2fd35f6a479a59cdc67ec7bd01b862260f6",
+        "value": "https://github.com/jamesrwatsonx-creator/client-sdk-web/blob/4e199f11fef663ffdebd0571ecd0ef808e34a9af/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "8d93701f88e72dc8a495b6b8892f1a4446f253c9",
+        "value": "https://github.com/jamesrwatsonx-creator/client-sdk-web/blob/4e199f11fef663ffdebd0571ecd0ef808e34a9af/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "example/package.json",
+        "blob_sha": "12802374126da86cb2a30c863779e279f423a27e",
+        "value": "https://github.com/jamesrwatsonx-creator/client-sdk-web/blob/4e199f11fef663ffdebd0571ecd0ef808e34a9af/example/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "browser voice-agent SDK",
+        "description": "Connects web applications to Vapi voice-agent sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-voice-agent-sdk",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "example/package.json"
+        ]
+      },
+      {
+        "name": "client session controls",
+        "description": "Provides client-side session lifecycle and event integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:client-session-controls",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "example/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

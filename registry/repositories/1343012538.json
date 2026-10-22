@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "dev",
   "upstream_url": "https://github.com/mrdoob/three.js",
-  "description": "JavaScript 3D Library.",
+  "description": "JavaScript 3D graphics library for rendering interactive scenes in browsers using WebGL and WebGPU.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T13:52:17Z",
-    "github_description": "JavaScript 3D Library."
+    "github_description": "JavaScript 3D Library.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "31cd191d2d2e3a6f4dac68dc873038fa2aa8c005",
   "current_commit": "31cd191d2d2e3a6f4dac68dc873038fa2aa8c005",
   "inspection_date": "2026-09-20T05:33:41.768804+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:creative-tools",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.377169+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.396311+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 5866,
-  "files_read": 2,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 2580,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4271,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.302792+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript 3D graphics library for rendering interactive scenes in browsers using WebGL and WebGPU.",
+    "reuse_recommendation": "Use for web 3D and profile GPU performance on target devices.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "MIT; example assets and addons may have separate terms.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser",
+      "WebGL/WebGPU"
+    ],
+    "keywords": [
+      "Three.js",
+      "WebGL",
+      "WebGPU",
+      "3D rendering",
+      "browser graphics"
+    ],
+    "risk_notes": [
+      "Untrusted 3D assets and shaders can affect browser security and performance."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Three.js core and addons",
+        "purpose": "Enables interactive 3D experiences in web applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:45.307064+00:00",
+    "inspected_commit": "31cd191d2d2e3a6f4dac68dc873038fa2aa8c005",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7237aa514f305d2e3011a984673c07921076e2b6",
+        "value": "https://github.com/jamesrwatsonx-creator/three.js/blob/31cd191d2d2e3a6f4dac68dc873038fa2aa8c005/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "3D scene and rendering API",
+        "description": "Provides objects, cameras, materials and rendering for browser graphics.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-scene-and-rendering-api",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "interaction and animation",
+        "description": "Supports animation, input and real-time scene behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interaction-and-animation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "loaders and addons",
+        "description": "Extends the core library with file formats and common rendering features.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:loaders-and-addons",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

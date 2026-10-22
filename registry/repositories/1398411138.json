@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "ListView with blur/parallax/sticky capabilities",
+  "upstream_url": "https://github.com/emmano/BlurStickyHeaderListView",
+  "description": "Android UI library implementing a scrolling list with blurred sticky headers and customizable header views.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2018-05-03T21:01:18Z",
-    "github_description": "ListView with blur/parallax/sticky capabilities"
+    "github_description": "ListView with blur/parallax/sticky capabilities",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "d5c2bcd9fe039e687f363e2fb70051379d969b9f",
+  "current_commit": "d5c2bcd9fe039e687f363e2fb70051379d969b9f",
+  "inspection_date": "2026-10-22T02:35:33.472607+00:00",
   "categories": [
-    "category:general-other"
+    "category:mobile-applications",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.315610+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.072277+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.084662+00:00",
     "purpose_established": true
+  },
+  "tree_files": 19,
+  "files_read": 10,
+  "unread_source_files": 1,
+  "repository_intelligence": {
+    "purpose": "Android UI library implementing a scrolling list with blurred sticky headers and customizable header views.",
+    "reuse_recommendation": "Extract selectively for legacy Android UI; assess maintenance and modern framework compatibility.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review the repository license and Android compatibility before adoption.",
+    "runtime": [
+      "Java",
+      "Android"
+    ],
+    "keywords": [
+      "Android",
+      "ListView",
+      "sticky header",
+      "blur effect",
+      "UI component"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "BlurListView component",
+        "purpose": "Adds sticky header and blur behavior to Android list screens.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:48.961370+00:00",
+    "inspected_commit": "d5c2bcd9fe039e687f363e2fb70051379d969b9f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c8f5d4ab7282f2af5079724e68fb8af719bd4eca",
+        "value": "https://github.com/jamesrwatsonx-creator/BlurStickyHeaderListView/blob/d5c2bcd9fe039e687f363e2fb70051379d969b9f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Blurred sticky-header list UI",
+        "description": "Provides a reusable Android list presentation with persistent headers and blur styling.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:blurred-sticky-header-list-ui",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/penpot/penpot",
-  "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+  "description": "Open-source design and prototyping platform for collaborative UI/UX design using web-based vector editing and design systems.",
   "metadata": {
     "language": null,
     "license": "MPL-2.0",
     "archived": false,
     "pushed_at": "2026-09-16T08:22:14Z",
-    "github_description": "Penpot: The open-source design platform for Product teams that need scalable collaboration."
+    "github_description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9a11dfa7f97fd0f3c340f7ae105a806170dc83a0",
   "current_commit": "9a11dfa7f97fd0f3c340f7ae105a806170dc83a0",
   "inspection_date": "2026-09-20T05:36:32.461672+00:00",
   "categories": [
-    "category:design-systems"
+    "category:design-systems",
+    "category:creative-tools",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 23,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.827126+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.950094+00:00",
   "tree_files": 6323,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1364,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3110,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.254804+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source design and prototyping platform for collaborative UI/UX design using web-based vector editing and design systems.",
+    "reuse_recommendation": "Use for collaborative design workflows and review self-hosting, access and asset governance.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "MPL-2.0; contributed assets and fonts may have separate terms.",
+    "runtime": [
+      "ClojureScript frontend",
+      "Clojure backend",
+      "database/object storage"
+    ],
+    "keywords": [
+      "Penpot",
+      "UI design",
+      "prototyping",
+      "design systems",
+      "open-source Figma alternative"
+    ],
+    "risk_notes": [
+      "Shared design documents can contain confidential product plans and customer information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Penpot design platform",
+        "purpose": "Combines collaborative vector design with reusable interface systems.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:46.233061+00:00",
+    "inspected_commit": "9a11dfa7f97fd0f3c340f7ae105a806170dc83a0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ffd702aa315a90be43c7d6846b0702148f94d551",
+        "value": "https://github.com/jamesrwatsonx-creator/penpot/blob/9a11dfa7f97fd0f3c340f7ae105a806170dc83a0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "vector design and prototyping",
+        "description": "Creates interface layouts and interactive prototypes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vector-design-and-prototyping",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "design system assets",
+        "description": "Organizes reusable components, tokens and libraries.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:design-system-assets",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "collaboration and self-hosting",
+        "description": "Supports team design workflows and deployment control.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:collaboration-and-self-hosting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

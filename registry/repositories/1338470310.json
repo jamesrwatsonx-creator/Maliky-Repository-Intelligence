@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/f/prompts.chat",
-  "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+  "description": "Open prompt library and sharing platform for discovering, organizing and reusing prompts across AI models and tasks.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-18T03:20:31Z",
-    "github_description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+    "github_description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "d3e04f19d7b28c657c883637ebfca00a19df66eb",
   "current_commit": "d3e04f19d7b28c657c883637ebfca00a19df66eb",
   "inspection_date": "2026-09-20T05:33:05.231950+00:00",
   "categories": [
-    "category:general-other"
+    "category:prompt-libraries",
+    "category:generative-ai",
+    "category:open-source-communities"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.903565+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.018974+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1535,
-  "files_read": 3,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 602,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1440,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.263172+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open prompt library and sharing platform for discovering, organizing and reusing prompts across AI models and tasks.",
+    "reuse_recommendation": "Use prompts as starting points and verify source, model compatibility and output claims.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check app license and individual prompt attribution/terms.",
+    "runtime": [
+      "Web application",
+      "database/search"
+    ],
+    "keywords": [
+      "prompts.chat",
+      "prompt library",
+      "prompt sharing",
+      "LLM prompts",
+      "AI community"
+    ],
+    "risk_notes": [
+      "User-submitted prompts are untrusted and can include unsafe instructions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Prompt catalog platform",
+        "purpose": "Makes reusable prompt examples searchable and shareable.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:17.331751+00:00",
+    "inspected_commit": "d3e04f19d7b28c657c883637ebfca00a19df66eb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2ef16acadbac7599287913d2e8cc6a39e0def3b5",
+        "value": "https://github.com/jamesrwatsonx-creator/prompts.chat/blob/d3e04f19d7b28c657c883637ebfca00a19df66eb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "prompt discovery and organization",
+        "description": "Catalogs prompts by use case for browsing and reuse.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-discovery-and-organization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "community prompt sharing",
+        "description": "Supports contributing and discovering user-submitted prompt patterns.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:community-prompt-sharing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

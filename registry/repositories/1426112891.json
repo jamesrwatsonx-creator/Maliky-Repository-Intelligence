@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/googleworkspace/cli",
-  "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+  "description": "Google Workspace CLI for Drive, Gmail, Calendar and other Workspace APIs, with structured JSON output and bundled agent skills.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-06T20:23:04Z",
-    "github_description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    "github_description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
   "current_commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
   "inspection_date": "2026-10-21T00:01:22.840765+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:cli-tools",
+    "category:apis",
+    "category:productivity"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,106 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.431469+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.248915+00:00",
   "tree_files": 222,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 212,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 200,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Google Workspace CLI for Drive, Gmail, Calendar and other Workspace APIs, with structured JSON output and bundled agent skills.",
+    "reuse_recommendation": "Review OAuth scopes, token storage, destructive mail/drive actions and confirmation flow before connecting a personal Workspace account.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository license; Google APIs and data terms apply. Not an officially supported Google product per README.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Google Workspace CLI",
+      "Gmail Drive Calendar",
+      "agent skills",
+      "structured JSON",
+      "Workspace APIs"
+    ],
+    "risk_notes": [
+      "Authentication and private email/files are deep-review triggers; restrict scopes and confirm destructive or send actions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Google Workspace CLI",
+        "purpose": "Wraps Workspace services and agent workflows in a command-line interface.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:56.733242+00:00",
+    "inspected_commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "04c532d0a6936d06d96c0572771feba4274a834e",
+        "value": "https://github.com/jamesrwatsonx-creator/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Workspace API command line",
+        "description": "Provides a single CLI for common Google Workspace services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:workspace-api-command-line",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent skill integration",
+        "description": "Bundles instructions for agents to use Workspace operations.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-skill-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "structured output workflows",
+        "description": "Returns machine-readable results for automation and agents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:structured-output-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

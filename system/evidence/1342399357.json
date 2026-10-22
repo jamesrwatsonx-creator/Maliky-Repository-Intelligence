@@ -5,6 +5,10 @@
   "tree_files": 6754,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
       "path": "README.md",
       "sha": "8d056c17f195dd251d535d6ab147976ce366b1ef"
     },
@@ -13,8 +17,32 @@
       "sha": "930837e4698bdcd54274c5e9be4bb5a3b8990f5d"
     },
     {
+      "path": "demos/README.md",
+      "sha": "e23a0fc2bd4bfd3f7025741bc4d47bfd22019866"
+    },
+    {
+      "path": "demos/cast/README.md",
+      "sha": "aae757dd62a16d9d10cc853a0cdcb3cc3b6e4dff"
+    },
+    {
       "path": "demos/compose/README.md",
       "sha": "a70fc11022f6aca14c1f3c3e18a9b2d001a6c478"
+    },
+    {
+      "path": "demos/composition/README.md",
+      "sha": "9162757673599aee126e20bfa82d22dc962d36f2"
+    },
+    {
+      "path": "demos/effect/README.md",
+      "sha": "5116649d1ad57495853824965a888364b959ad85"
+    },
+    {
+      "path": "demos/gl/README.md",
+      "sha": "9bffc3edea5af467d84fb7e5e84014efef73273c"
+    },
+    {
+      "path": "demos/main/README.md",
+      "sha": "91aa2742bf0079bf85854c3d2fdac74d361fabe9"
     },
     {
       "path": "gradle/libs.versions.toml",
@@ -95,6 +123,10 @@
     {
       "path": "settings.gradle.kts",
       "sha": "fc62b6a79272334d94ad3512f2f776b0c17cceaf"
+    },
+    {
+      "path": "testapps/README.md",
+      "sha": "fa1246b0394cc119ab7dfbeaa314daf05eba59ba"
     }
   ],
   "files_read": [
@@ -212,6 +244,46 @@
       "path": "gradle/libs.versions.toml",
       "blob_sha": "91fe4c1a6955337b04542a9749c473819bfcd03a",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/README.md",
+      "blob_sha": "e23a0fc2bd4bfd3f7025741bc4d47bfd22019866",
+      "entities_detected": 0
+    },
+    {
+      "path": "testapps/README.md",
+      "blob_sha": "fa1246b0394cc119ab7dfbeaa314daf05eba59ba",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/cast/README.md",
+      "blob_sha": "aae757dd62a16d9d10cc853a0cdcb3cc3b6e4dff",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/composition/README.md",
+      "blob_sha": "9162757673599aee126e20bfa82d22dc962d36f2",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/effect/README.md",
+      "blob_sha": "5116649d1ad57495853824965a888364b959ad85",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/gl/README.md",
+      "blob_sha": "9bffc3edea5af467d84fb7e5e84014efef73273c",
+      "entities_detected": 0
+    },
+    {
+      "path": "demos/main/README.md",
+      "blob_sha": "91aa2742bf0079bf85854c3d2fdac74d361fabe9",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -219,8 +291,10 @@
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/ISSUE_TEMPLATE/question.md",
+    ".idea/codeStyleSettings.xml",
     "CONTRIBUTING.md",
     "SECURITY.md",
+    "api.txt",
     "build-logic-settings/build.gradle.kts",
     "build-logic-settings/settings.gradle.kts",
     "build-logic-settings/src/main/kotlin/androidx/media3/buildlogic/Media3Module.kt",
@@ -237,15 +311,24 @@
     "build-logic/src/main/kotlin/media3.publish.gradle.kts",
     "build.gradle.kts",
     "buildSrc/build.gradle.kts",
-    "demos/README.md",
-    "demos/cast/README.md",
     "demos/cast/build.gradle.kts",
+    "demos/cast/proguard-rules.txt",
+    "demos/cast/src/main/AndroidManifest.xml",
     "demos/cast/src/main/java/androidx/media3/demo/cast/CastDemoApplication.java",
     "demos/cast/src/main/java/androidx/media3/demo/cast/DemoUtil.java",
     "demos/cast/src/main/java/androidx/media3/demo/cast/MainActivity.java",
     "demos/cast/src/main/java/androidx/media3/demo/cast/PlayerManager.java",
     "demos/cast/src/main/java/androidx/media3/demo/cast/package-info.java",
+    "demos/cast/src/main/res/drawable/ic_baseline_cast_connected_400.xml",
+    "demos/cast/src/main/res/drawable/ic_plus.xml",
+    "demos/cast/src/main/res/layout/cast_context_error.xml",
+    "demos/cast/src/main/res/layout/main_activity.xml",
+    "demos/cast/src/main/res/layout/sample_list.xml",
+    "demos/cast/src/main/res/menu/menu.xml",
+    "demos/cast/src/main/res/values/strings.xml",
     "demos/compose/build.gradle.kts",
+    "demos/compose/lint.xml",
+    "demos/compose/src/main/AndroidManifest.xml",
     "demos/compose/src/main/assets/media.exolist.json",
     "demos/compose/src/main/java/androidx/media3/demo/compose/MainActivity.kt",
     "demos/compose/src/main/java/androidx/media3/demo/compose/buttons/LabeledProgressSlider.kt",
@@ -265,8 +348,13 @@
     "demos/compose/src/main/java/androidx/media3/demo/compose/text/PlaylistInfo.kt",
     "demos/compose/src/main/java/androidx/media3/demo/compose/text/SeekOverlay.kt",
     "demos/compose/src/main/java/androidx/media3/demo/compose/viewmodel/ComposeDemoViewModel.kt",
-    "demos/composition/README.md",
+    "demos/compose/src/main/res/drawable/media3_icon_clip_thumb_left_arrow.xml",
+    "demos/compose/src/main/res/drawable/media3_icon_clip_thumb_limit.xml",
+    "demos/compose/src/main/res/drawable/media3_icon_clip_thumb_right_arrow.xml",
+    "demos/compose/src/main/res/values/strings.xml",
     "demos/composition/build.gradle.kts",
+    "demos/composition/proguard-rules.txt",
+    "demos/composition/src/main/AndroidManifest.xml",
     "demos/composition/src/main/java/androidx/media3/demo/composition/CompositionPreviewActivity.kt",
     "demos/composition/src/main/java/androidx/media3/demo/composition/CompositionPreviewViewModel.kt",
     "demos/composition/src/main/java/androidx/media3/demo/composition/FrameRateCalculator.kt",
@@ -284,37 +372,21 @@
     "demos/composition/src/main/java/androidx/media3/demo/composition/ui/theme/Color.kt",
     "demos/composition/src/main/java/androidx/media3/demo/composition/ui/theme/Theme.kt",
     "demos/composition/src/main/java/androidx/media3/demo/composition/ui/theme/Type.kt",
-    "demos/effect/README.md",
+    "demos/composition/src/main/res/drawable/add.xml",
+    "demos/composition/src/main/res/drawable/arrow_drop_down.xml",
+    "demos/composition/src/main/res/drawable/delete.xml",
+    "demos/composition/src/main/res/values-night/themes.xml",
+    "demos/composition/src/main/res/values/arrays.xml",
+    "demos/composition/src/main/res/values/colors.xml",
+    "demos/composition/src/main/res/values/strings.xml",
+    "demos/composition/src/main/res/values/themes.xml",
+    "demos/composition/src/main/res/xml/file_paths.xml",
     "demos/effect/build.gradle.kts",
+    "demos/effect/lint.xml",
+    "demos/effect/src/main/AndroidManifest.xml",
     "demos/effect/src/main/assets/media.playlist.json",
     "demos/effect/src/main/java/androidx/media3/demo/effect/ClockOverlay.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/ConfettiOverlay.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/DemoLottieProvider.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/EffectActivity.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/EffectDemoUtil.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/LottieEffectFactory.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/ui/InputSelector.kt",
-    "demos/effect/src/main/java/androidx/media3/demo/effect/ui/UiComponents.kt",
-    "demos/effect/src/main/res/raw/counter.json",
-    "demos/effect/src/main/res/raw/heart.json",
-    "demos/effect/src/main/res/raw/swoosh.json",
-    "demos/effect/src/main/res/raw/text_with_asset_encoded.json",
-    "demos/effect/src/main/res/raw/text_with_asset_from_folder.json",
-    "demos/gl/README.md",
-    "demos/gl/build.gradle.kts",
-    "demos/gl/src/main/java/androidx/media3/demo/gl/BitmapOverlayVideoProcessor.java",
-    "demos/gl/src/main/java/androidx/media3/demo/gl/MainActivity.java",
-    "demos/gl/src/main/java/androidx/media3/demo/gl/VideoProcessingGLSurfaceView.java",
-    "demos/gl/src/main/java/androidx/media3/demo/gl/package-info.java",
-    "demos/main/README.md",
-    "demos/main/build.gradle.kts",
-    "demos/main/src/main/assets/media.exolist.json",
-    "demos/main/src/main/java/androidx/media3/demo/main/DemoApplication.java",
-    "demos/main/src/main/java/androidx/media3/demo/main/DemoDownloadService.java",
-    "demos/main/src/main/java/androidx/media3/demo/main/DemoUtil.java",
-    "demos/main/src/main/java/androidx/media3/demo/main/DownloadTracker.java",
-    "demos/main/src/main/java/androidx/media3/demo/main/IntentUtil.java",
-    "demos/main/src/main/java/androidx/media3/demo/main/PlayerActivity.java"
+    "demos/effect/src/main/java/androidx/media3/demo/effect/ConfettiOverlay.kt"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -436,8 +508,12 @@
     "libraries": 6217,
     "testapps": 75
   },
-  "unread_source_paths_count": 3023,
+  "unread_source_paths_count": 3863,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 3708,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

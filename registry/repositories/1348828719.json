@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/smallstep/certificates",
-  "description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
+  "description": "Certificate and TLS utility code for creating, managing or inspecting certificates; validate the exact supported workflows against source documentation before integration.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-27T11:13:15Z",
-    "github_description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH."
+    "github_description": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3f006a5d32882d5743c3236f498e8e3ec7595bf5",
   "current_commit": "3f006a5d32882d5743c3236f498e8e3ec7595bf5",
   "inspection_date": "2026-09-20T05:34:09.731612+00:00",
   "categories": [
-    "category:general-other"
+    "category:cybersecurity",
+    "category:cryptography",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.373812+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.162835+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -276,10 +280,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 546,
-  "files_read": 5,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 399,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 401,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -289,5 +293,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.091742+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Certificate and TLS utility code for creating, managing or inspecting certificates; validate the exact supported workflows against source documentation before integration.",
+    "reuse_recommendation": "Inspect key handling and cryptographic defaults before use in any production trust chain.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Confirm repository license.",
+    "runtime": [
+      "Repository-declared languages and runtime"
+    ],
+    "keywords": [
+      "TLS certificates",
+      "X.509",
+      "certificate management",
+      "cryptography",
+      "security tooling"
+    ],
+    "risk_notes": [
+      "Certificate issuance, private keys and trust configuration are security-critical."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Certificate utilities",
+        "purpose": "Provides reusable certificate-focused implementation patterns.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:37.251533+00:00",
+    "inspected_commit": "3f006a5d32882d5743c3236f498e8e3ec7595bf5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1b70f05869d2f1f55a2e675830b14d0a938ff5be",
+        "value": "https://github.com/jamesrwatsonx-creator/certificates/blob/3f006a5d32882d5743c3236f498e8e3ec7595bf5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "certificate operations",
+        "description": "Supports certificate-related generation or management workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:certificate-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "TLS integration",
+        "description": "Relates certificate material to secure service configuration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tls-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

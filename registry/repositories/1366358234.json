@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/OpenBB-finance/OpenBB",
-  "description": "Open Data Platform for analysts, quants and AI agents.",
+  "description": "Open-source financial data platform and SDK for accessing market, company and macroeconomic information and building research workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-11T15:00:10Z",
-    "github_description": "Open Data Platform for analysts, quants and AI agents."
+    "github_description": "Open Data Platform for analysts, quants and AI agents.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "3e071fcc2cd9f891cac6040ae60296dba76dab46",
   "current_commit": "3e071fcc2cd9f891cac6040ae60296dba76dab46",
   "inspection_date": "2026-09-20T05:36:05.644535+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:finance-accounting",
+    "category:data-science",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.737789+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.862580+00:00",
   "tree_files": 2191,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1932,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1977,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.242497+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source financial data platform and SDK for accessing market, company and macroeconomic information and building research workflows.",
+    "reuse_recommendation": "Use for research after checking data licensing, provenance, freshness and metric definitions.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check OpenBB license, extensions and each data provider’s terms.",
+    "runtime": [
+      "Python",
+      "financial data APIs",
+      "analytics/UI extensions"
+    ],
+    "keywords": [
+      "OpenBB",
+      "financial data API",
+      "investment research",
+      "market data",
+      "finance SDK"
+    ],
+    "risk_notes": [
+      "Financial data is not investment advice; provider terms and data quality vary."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenBB platform and SDK",
+        "purpose": "Provides modular financial data access for research applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:52.307780+00:00",
+    "inspected_commit": "3e071fcc2cd9f891cac6040ae60296dba76dab46",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "33f9961b4a3ea6906e203a5168e3d2b6b8088739",
+        "value": "https://github.com/jamesrwatsonx-creator/OpenBB/blob/3e071fcc2cd9f891cac6040ae60296dba76dab46/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "financial data connectors",
+        "description": "Connects to market and economic data providers through a unified interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-data-connectors",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "research and analytics workflows",
+        "description": "Supports querying, analyzing and presenting financial datasets.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:research-and-analytics-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SDK and application integrations",
+        "description": "Makes financial data capabilities available to Python and other applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:sdk-and-application-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

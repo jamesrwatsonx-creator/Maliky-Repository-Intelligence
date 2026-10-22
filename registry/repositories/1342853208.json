@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/documenso/documenso",
-  "description": "The Open Source DocuSign Alternative.",
+  "description": "Open-source electronic signature platform for preparing, sending and signing documents through web and API workflows.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-22T12:05:39Z",
-    "github_description": "The Open Source DocuSign Alternative."
+    "github_description": "The Open Source DocuSign Alternative.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "75330166cc00b29c14399bc2e391e4b4d8080c00",
   "current_commit": "75330166cc00b29c14399bc2e391e4b4d8080c00",
   "inspection_date": "2026-09-20T05:33:27.871578+00:00",
   "categories": [
-    "category:general-other"
+    "category:business-applications",
+    "category:legal-policy",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.679426+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.574144+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2839,
-  "files_read": 4,
+  "files_read": 12,
   "entity_count": 1,
-  "unread_source_files": 2254,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2567,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.126639+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source electronic signature platform for preparing, sending and signing documents through web and API workflows.",
+    "reuse_recommendation": "Use only with legally reviewed templates, identity checks and secure document retention.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "AGPL-3.0; signature and identity provider terms apply.",
+    "runtime": [
+      "TypeScript/Next.js",
+      "database",
+      "storage and mail services"
+    ],
+    "keywords": [
+      "Documenso",
+      "e-signature",
+      "document signing",
+      "signature API",
+      "contract workflow"
+    ],
+    "risk_notes": [
+      "Signatures, identity data and contracts are high sensitivity and legally consequential."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Documenso signing platform",
+        "purpose": "Combines document preparation, signing and audit workflow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:16.962910+00:00",
+    "inspected_commit": "75330166cc00b29c14399bc2e391e4b4d8080c00",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "642a285ebb7f12542a73237bd99613e527963fe9",
+        "value": "https://github.com/jamesrwatsonx-creator/documenso/blob/75330166cc00b29c14399bc2e391e4b4d8080c00/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "document signing workflow",
+        "description": "Prepares documents, routes signature requests and tracks completion.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-signing-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "templates and recipients",
+        "description": "Supports reusable document templates and signer management.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:templates-and-recipients",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "API and integrations",
+        "description": "Connects signing flows to external applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:api-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

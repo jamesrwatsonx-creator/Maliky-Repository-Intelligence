@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/pipecat-ai/pipecat",
-  "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+  "description": "Framework for building realtime voice and multimodal AI assistants by connecting audio transports, speech services, language models and tools.",
   "metadata": {
     "language": null,
     "license": "BSD-2-Clause",
     "archived": false,
     "pushed_at": "2026-10-14T23:28:26Z",
-    "github_description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community."
+    "github_description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "62f05a838f0a7a735b92f2fab706b53d1ac8c24b",
   "current_commit": "62f05a838f0a7a735b92f2fab706b53d1ac8c24b",
   "inspection_date": "2026-10-20T23:58:04.275212+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:agent-frameworks",
+    "category:generative-ai",
+    "category:sdks-client-libraries"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 11,
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.850416+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.977963+00:00",
   "tree_files": 2096,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1989,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1998,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Framework for building realtime voice and multimodal AI assistants by connecting audio transports, speech services, language models and tools.",
+    "reuse_recommendation": "Use for realtime assistant builds and design consent, interruption, latency and provider-failure behavior.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "BSD-2-Clause; model and speech provider terms remain separate.",
+    "runtime": [
+      "Python",
+      "async pipeline",
+      "WebRTC/telephony",
+      "STT/LLM/TTS APIs"
+    ],
+    "keywords": [
+      "Pipecat",
+      "voice agent framework",
+      "realtime audio",
+      "STT TTS",
+      "multimodal agents"
+    ],
+    "risk_notes": [
+      "Audio data and provider transmissions need consent, retention and privacy controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Pipecat pipeline runtime",
+        "purpose": "Provides reusable primitives for low-latency voice agent applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:51.504285+00:00",
+    "inspected_commit": "62f05a838f0a7a735b92f2fab706b53d1ac8c24b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f37a21baf2aa21c3be864191f37bce2a7af187ad",
+        "value": "https://github.com/jamesrwatsonx-creator/pipecat-voice/blob/62f05a838f0a7a735b92f2fab706b53d1ac8c24b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "realtime voice pipeline",
+        "description": "Connects audio transport, speech recognition, LLM processing and speech synthesis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:realtime-voice-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multimodal agent orchestration",
+        "description": "Coordinates conversational context and tool use across live sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multimodal-agent-orchestration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "transport and provider integrations",
+        "description": "Connects supported WebRTC, telephony and AI service providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:transport-and-provider-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

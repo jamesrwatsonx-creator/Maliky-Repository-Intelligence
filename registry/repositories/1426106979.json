@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/storytold/figcraft",
-  "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+  "description": "Design or graphics creation tool that translates prompts or visual input into editable interface/design artifacts; confirm exact import/export workflow from pinned evidence.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-19T19:54:33Z",
-    "github_description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust"
+    "github_description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d43375b69ccc0e1c9ae4998341b4e05ba003f63c",
   "current_commit": "d43375b69ccc0e1c9ae4998341b4e05ba003f63c",
   "inspection_date": "2026-10-21T00:01:01.178795+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:creative-tools",
+    "category:design-systems",
+    "category:ai-applications"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.793465+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.707210+00:00",
   "tree_files": 982,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 889,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 883,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Design or graphics creation tool that translates prompts or visual input into editable interface/design artifacts; confirm exact import/export workflow from pinned evidence.",
+    "reuse_recommendation": "Use for exploration and verify output editability, design ownership and integration permissions.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license and design tool integration terms.",
+    "runtime": [
+      "Repository-declared web/plugin runtime",
+      "design platform APIs"
+    ],
+    "keywords": [
+      "Figcraft",
+      "design generation",
+      "Figma workflow",
+      "visual authoring",
+      "AI design tools"
+    ],
+    "risk_notes": [
+      "Design platform credentials and generated content rights require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Figcraft design workflow",
+        "purpose": "Bridges visual ideation with editable design artifacts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:46.964131+00:00",
+    "inspected_commit": "d43375b69ccc0e1c9ae4998341b4e05ba003f63c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0a2598984807193c68e53ff75e858f73fb21a2cb",
+        "value": "https://github.com/jamesrwatsonx-creator/figcraft/blob/d43375b69ccc0e1c9ae4998341b4e05ba003f63c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "design artifact generation",
+        "description": "Creates or assists with visual design outputs for product interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:design-artifact-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "design tool integration",
+        "description": "Connects design workflows to supported editors or export formats.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:design-tool-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -5,6 +5,10 @@
   "tree_files": 1648,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "fbb39e17702c5533657798e94fa0eeafce7a315b"
+    },
+    {
       "path": "README.md",
       "sha": "3253f5789e946faf75e653a4b29e6df2462c0323"
     },
@@ -37,8 +41,32 @@
       "sha": "6c765e1e0842929883d95488d8e810fb5945b91f"
     },
     {
+      "path": "e2e/newenemy/README.md",
+      "sha": "ae8b9cabeb64c1c9198015a4ab6219941c137f74"
+    },
+    {
       "path": "go.mod",
       "sha": "3b7a4ef7e40faa52130b7a01198987bc83a7d85f"
+    },
+    {
+      "path": "internal/fdw/Architecture.md",
+      "sha": "1a2c6db6821459db1966b3d84caa9827e53b1b82"
+    },
+    {
+      "path": "internal/fdw/README.md",
+      "sha": "28e07aa326a567d39aaea02bba82f1f3c8aee774"
+    },
+    {
+      "path": "magefiles/go.mod",
+      "sha": "4642b9b6929e086fd1bc104cf1f0d753cce8fab5"
+    },
+    {
+      "path": "proto/README.md",
+      "sha": "5524b826decdff521aa126c29ea03dc3e9dbda68"
+    },
+    {
+      "path": "tools/analyzers/go.mod",
+      "sha": "a726e1ebc146fd765d8995c71571f633ab1bbf42"
     }
   ],
   "files_read": [
@@ -86,9 +114,45 @@
       "path": "docker-compose.yaml",
       "blob_sha": "96b06ec66bb1fef72455c780dff6b4c3d191ad0d",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "fbb39e17702c5533657798e94fa0eeafce7a315b",
+      "entities_detected": 0
+    },
+    {
+      "path": "magefiles/go.mod",
+      "blob_sha": "4642b9b6929e086fd1bc104cf1f0d753cce8fab5",
+      "entities_detected": 0
+    },
+    {
+      "path": "tools/analyzers/go.mod",
+      "blob_sha": "a726e1ebc146fd765d8995c71571f633ab1bbf42",
+      "entities_detected": 0
+    },
+    {
+      "path": "proto/README.md",
+      "blob_sha": "5524b826decdff521aa126c29ea03dc3e9dbda68",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e/newenemy/README.md",
+      "blob_sha": "ae8b9cabeb64c1c9198015a4ab6219941c137f74",
+      "entities_detected": 0
+    },
+    {
+      "path": "internal/fdw/Architecture.md",
+      "blob_sha": "1a2c6db6821459db1966b3d84caa9827e53b1b82",
+      "entities_detected": 0
+    },
+    {
+      "path": "internal/fdw/README.md",
+      "blob_sha": "28e07aa326a567d39aaea02bba82f1f3c8aee774",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
+    ".devcontainer/Dockerfile",
     ".devcontainer/devcontainer.json",
     ".devcontainer/post-create-command.sh",
     ".github/ISSUE_TEMPLATE/bug.yml",
@@ -119,6 +183,9 @@
     "CHANGELOG.md",
     "CODE-OF-CONDUCT.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.release",
+    "NOTICE",
     "ROADMAP.md",
     "SECURITY.md",
     "TELEMETRY.md",
@@ -138,6 +205,7 @@
     "cmd/spicedb/memoryprotection/memory_protection_rtml.go",
     "cmd/spicedb/memoryprotection/memory_protection_test.go",
     "codecov.yaml",
+    "configuration.sql",
     "development/envoy.yaml",
     "development/grafana/dashboards/dashboard.json",
     "development/grafana/provisioning/dashboards/dashboards.yml",
@@ -157,7 +225,6 @@
     "e2e/file.go",
     "e2e/generator/names.go",
     "e2e/network.go",
-    "e2e/newenemy/README.md",
     "e2e/newenemy/newenemy_test.go",
     "e2e/run.go",
     "e2e/signals.go",
@@ -184,11 +251,7 @@
     "internal/cursorediterator/blocks.go",
     "internal/cursorediterator/blocks_test.go",
     "internal/cursorediterator/context_cancellation_test.go",
-    "internal/cursorediterator/cursor.go",
-    "internal/cursorediterator/cursor_test.go",
-    "internal/cursorediterator/doc.go",
-    "internal/cursorediterator/integration_test.go",
-    "internal/cursorediterator/primitives.go"
+    "internal/cursorediterator/cursor.go"
   ],
   "excluded_nontext_paths": [
     ".devcontainer/Dockerfile",
@@ -312,8 +375,12 @@
     "proto": 6,
     "tools": 55
   },
-  "unread_source_paths_count": 1425,
+  "unread_source_paths_count": 1435,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 214,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

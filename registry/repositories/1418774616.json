@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/alextselegidis/easyappointments",
-  "description": ":date: Easy!Appointments - Self Hosted Appointment Scheduler",
+  "description": "Self-hostable appointment scheduling application for businesses to publish availability, accept bookings and manage clients and services.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-12T10:42:59Z",
-    "github_description": ":date: Easy!Appointments - Self Hosted Appointment Scheduler"
+    "github_description": ":date: Easy!Appointments - Self Hosted Appointment Scheduler",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "10e45691f378773f6b9c32398256e5d1c17ab3db",
   "current_commit": "10e45691f378773f6b9c32398256e5d1c17ab3db",
   "inspection_date": "2026-10-20T23:53:59.864142+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:web-applications",
+    "category:productivity"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.711618+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.611170+00:00",
   "tree_files": 1289,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1154,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1249,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hostable appointment scheduling application for businesses to publish availability, accept bookings and manage clients and services.",
+    "reuse_recommendation": "Use for scheduling after checking timezone, access control and privacy workflows.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "GPL-3.0; verify payment and calendar integrations.",
+    "runtime": [
+      "PHP",
+      "web server",
+      "database"
+    ],
+    "keywords": [
+      "Easy!Appointments",
+      "booking system",
+      "calendar scheduling",
+      "client management",
+      "self-hosted"
+    ],
+    "risk_notes": [
+      "Bookings contain personal and potentially sensitive appointment information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "EasyAppointments platform",
+        "purpose": "Combines public scheduling with business-side appointment administration.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:13.174574+00:00",
+    "inspected_commit": "10e45691f378773f6b9c32398256e5d1c17ab3db",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cefbb18b1d997e9cedccd89bc90731b95fa7900f",
+        "value": "https://github.com/jamesrwatsonx-creator/easyappointments/blob/10e45691f378773f6b9c32398256e5d1c17ab3db/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "appointment booking",
+        "description": "Lets customers select services and book available time slots.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:appointment-booking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "staff and schedule management",
+        "description": "Manages provider availability, services and calendars.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:staff-and-schedule-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "notifications and integrations",
+        "description": "Connects bookings to email and calendar workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:notifications-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

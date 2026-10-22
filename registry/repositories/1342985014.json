@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Agents365-ai/drawio-skill",
-  "description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
+  "description": "Agent skill for creating professional diagrams from text descriptions through draw.io-compatible structured source and layout guidance.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-21T13:05:59Z",
-    "github_description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG."
+    "github_description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "4d9b31166022ad4c299180038792372d3f5bcc95",
   "current_commit": "4d9b31166022ad4c299180038792372d3f5bcc95",
   "inspection_date": "2026-09-20T05:33:37.597808+00:00",
   "categories": [
-    "category:agent-workflows",
+    "category:skills",
     "category:creative-tools",
-    "category:skills"
+    "category:documentation"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:09"
   ],
@@ -43,7 +44,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -288,11 +289,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.698066+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.602174+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -314,8 +316,8 @@
   "tree_files": 137,
   "files_read": 93,
   "entity_count": 4,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 2,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -334,5 +336,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.127676+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill for creating professional diagrams from text descriptions through draw.io-compatible structured source and layout guidance.",
+    "reuse_recommendation": "Use with draw.io-compatible editing and validate resulting diagrams for accuracy and accessibility.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "MIT; draw.io and generated icon assets have separate terms.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "draw.io skill",
+      "text to diagram",
+      "architecture diagrams",
+      "agent diagramming",
+      "visual documentation"
+    ],
+    "risk_notes": [
+      "Generated diagrams can misstate architecture; confirm content with system owners."
+    ],
+    "important_subsystems": [
+      {
+        "name": "draw.io diagram skill",
+        "purpose": "Packages diagram creation workflow and style guidance for agent hosts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:44.139885+00:00",
+    "inspected_commit": "4d9b31166022ad4c299180038792372d3f5bcc95",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "74482c6f02670461664393c3ee68986fc4959bf1",
+        "value": "https://github.com/jamesrwatsonx-creator/drawio-skill/blob/4d9b31166022ad4c299180038792372d3f5bcc95/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "text-to-diagram workflow",
+        "description": "Guides an agent from requirements to structured diagrams.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:text-to-diagram-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "professional diagram conventions",
+        "description": "Provides layout and visual guidance for architecture and process diagrams.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:professional-diagram-conventions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

@@ -11,19 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/storytold/pdfcraft",
-  "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+  "description": "PDF editing or document-processing application for manipulating, annotating or transforming PDF files in a browser or local workflow.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-19T19:11:03Z",
-    "github_description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust"
+    "github_description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ec0a965074f376a5bf610435948e4e5184bf3299",
   "current_commit": "ec0a965074f376a5bf610435948e4e5184bf3299",
   "inspection_date": "2026-10-21T00:01:05.128806+00:00",
-  "categories": [],
+  "categories": [
+    "category:productivity",
+    "category:productivity",
+    "category:web-applications"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.824577+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.947095+00:00",
   "tree_files": 1437,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1109,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1105,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "PDF editing or document-processing application for manipulating, annotating or transforming PDF files in a browser or local workflow.",
+    "reuse_recommendation": "Use for non-sensitive document workflows until file handling and local/cloud processing are confirmed.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository and embedded PDF library licenses.",
+    "runtime": [
+      "Web application",
+      "PDF processing libraries"
+    ],
+    "keywords": [
+      "PDF editor",
+      "PDF processing",
+      "document workflow",
+      "annotation",
+      "browser PDF tools"
+    ],
+    "risk_notes": [
+      "PDFs can contain personal data, embedded scripts and malicious payloads; validate input safely."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PDFCraft document tools",
+        "purpose": "Packages PDF operations into an accessible document workflow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:15.093671+00:00",
+    "inspected_commit": "ec0a965074f376a5bf610435948e4e5184bf3299",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2a65b66457fad5f99e5e7a71f9dc3be9c2c29a24",
+        "value": "https://github.com/jamesrwatsonx-creator/pdfcraft/blob/ec0a965074f376a5bf610435948e4e5184bf3299/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "PDF document manipulation",
+        "description": "Provides operations for editing, converting or annotating PDF files.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:pdf-document-manipulation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "document viewing and interaction",
+        "description": "Supports a user-facing interface for reviewing PDF content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-viewing-and-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

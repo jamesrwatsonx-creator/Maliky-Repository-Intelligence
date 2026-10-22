@@ -11,26 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/browser-use/video-use",
-  "description": "Edit videos with coding agents",
+  "description": "Agent-guided video editing workflow that uses speech-aware cuts, subtitle generation, color treatment and FFmpeg processing to produce edited video from raw footage.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-01T00:33:52Z",
-    "github_description": "Edit videos with coding agents"
+    "github_description": "Edit videos with coding agents",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66",
   "current_commit": "92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66",
   "inspection_date": "2026-09-20T05:32:53.272999+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:creative-tools",
-    "category:developer-tools",
-    "category:libraries-packages",
-    "category:skills"
+    "category:media-publishing",
+    "category:skills",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -45,7 +44,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -290,11 +289,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.577865+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.597001+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -316,8 +316,8 @@
   "tree_files": 33,
   "files_read": 28,
   "entity_count": 3,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 1,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -336,5 +336,144 @@
     ],
     "updated_at": "2026-10-12T19:04:27.326362+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent-guided video editing workflow that uses speech-aware cuts, subtitle generation, color treatment and FFmpeg processing to produce edited video from raw footage.",
+    "reuse_recommendation": "Use with a compatible agent host and isolated media workspace; inspect shell/media commands and consent for source footage before processing.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT; external media tools have their own licenses.",
+    "runtime": [
+      "Python",
+      "Claude Code skill",
+      "FFmpeg",
+      "speech/video processing tools"
+    ],
+    "keywords": [
+      "video editing agent",
+      "filler-word removal",
+      "subtitles",
+      "FFmpeg",
+      "automated video workflow",
+      "color grading"
+    ],
+    "risk_notes": [
+      "Video workflows read and rewrite local media and may call external services; confirm file scope and permissions before execution."
+    ],
+    "important_subsystems": [
+      {
+        "name": "video editing skill",
+        "purpose": "Coordinates agent-directed editing steps and output expectations.",
+        "evidence_paths": [
+          "SKILL.md",
+          "README.md"
+        ]
+      },
+      {
+        "name": "media processing setup",
+        "purpose": "Documents runtime and external video tool requirements.",
+        "evidence_paths": [
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:16.991195+00:00",
+    "inspected_commit": "92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0f7b264913faf30f4744162c0ae45edc99de424d",
+        "value": "https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "271d8e2807d0d79aee85a231f5c9dbb007902783",
+        "value": "https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "c2cff2942788e52ba8fe548756ee23406f19616d",
+        "value": "https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "SKILL.md",
+        "blob_sha": "fa4b776d94cbc6ae500c1a8e2c1be9b2486a93d2",
+        "value": "https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/manim-video/SKILL.md",
+        "blob_sha": "6edab8e7428c356bc52b664d09d86dbc9ae4bcc2",
+        "value": "https://github.com/jamesrwatsonx-creator/video-use/blob/92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66/skills/manim-video/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech-aware video editing",
+        "description": "Guides editing to remove filler words and pauses from source footage.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:speech-aware-video-editing",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "skills/manim-video/SKILL.md"
+        ]
+      },
+      {
+        "name": "subtitle and visual treatment",
+        "description": "Coordinates subtitle styling, color grading and audio transitions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:subtitle-and-visual-treatment",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "skills/manim-video/SKILL.md"
+        ]
+      },
+      {
+        "name": "video workflow integration",
+        "description": "Connects host-agent instructions with local media-processing tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-workflow-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "skills/manim-video/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

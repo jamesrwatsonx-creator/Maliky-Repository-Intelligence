@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/onlook-dev/onlook",
-  "description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+  "description": "Visual web development tool that lets users inspect and edit React interfaces directly in a browser-like canvas, with AI-assisted code changes.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-25T01:06:22Z",
-    "github_description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI"
+    "github_description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "423e2e924366419e418ee049093872d535eea41a",
   "current_commit": "423e2e924366419e418ee049093872d535eea41a",
   "inspection_date": "2026-09-20T05:36:05.176010+00:00",
   "categories": [
-    "category:design-systems",
-    "category:frontend-applications"
+    "category:developer-tools",
+    "category:frontend-applications",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [
     "operational:17"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.672495+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.839077+00:00",
   "tree_files": 1695,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1529,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1578,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.238144+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Visual web development tool that lets users inspect and edit React interfaces directly in a browser-like canvas, with AI-assisted code changes.",
+    "reuse_recommendation": "Use for rapid UI iteration and inspect generated diffs before accepting source changes.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and connected model provider terms.",
+    "runtime": [
+      "TypeScript/React",
+      "desktop/web environment",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "Onlook",
+      "visual React editor",
+      "AI code editing",
+      "design-to-code",
+      "frontend builder"
+    ],
+    "risk_notes": [
+      "AI edits can modify arbitrary project code and transmit source context to providers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Onlook visual editor",
+        "purpose": "Bridges browser rendering, design controls and React source edits.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:12.324790+00:00",
+    "inspected_commit": "423e2e924366419e418ee049093872d535eea41a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b35352f5884a1e7360fa3326cbe743d571efc25d",
+        "value": "https://github.com/jamesrwatsonx-creator/onlook/blob/423e2e924366419e418ee049093872d535eea41a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual interface editing",
+        "description": "Lets users select and adjust rendered interface elements visually.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-interface-editing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "React code synchronization",
+        "description": "Maps visual edits back to project source code.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:react-code-synchronization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI-assisted frontend changes",
+        "description": "Uses model workflows to implement or refine interface tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-assisted-frontend-changes",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

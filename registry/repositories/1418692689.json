@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/bludit/bludit",
-  "description": "PHP flat-file CMS with JSON-backed content, administrative editing, HTTP content API, independently installable publishing plugins and three website themes.",
+  "description": "Lightweight flat-file content management system for publishing websites and blogs without requiring a relational database.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-07T18:14:46Z",
-    "github_description": "Simple, Fast, Secure, Flat-File CMS"
+    "github_description": "Simple, Fast, Secure, Flat-File CMS",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
@@ -26,9 +27,9 @@
   "categories": [
     "category:web-applications",
     "category:media-publishing",
-    "category:plugins-extensions"
+    "category:media-publishing"
   ],
-  "operational_category": "operational:12",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:bludit-blog-theme",
@@ -68,7 +69,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "REFERENCE",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -394,13 +395,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.309565+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.063757+00:00",
   "tree_files": 771,
   "files_read": 680,
   "entity_count": 33,
-  "unread_source_files": 0,
+  "unread_source_files": 40,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T23:37:49.103700+00:00",
@@ -620,5 +622,98 @@
         "reason": "Generic stale-issue housekeeping is repository maintenance noise, not a reusable publishing capability."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Lightweight flat-file content management system for publishing websites and blogs without requiring a relational database.",
+    "reuse_recommendation": "Consider for small content sites after reviewing maintenance, user roles and backup/security posture.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "MIT; verify plugins/themes separately.",
+    "runtime": [
+      "PHP",
+      "web server",
+      "filesystem storage"
+    ],
+    "keywords": [
+      "Bludit",
+      "flat-file CMS",
+      "blog publishing",
+      "PHP",
+      "content management"
+    ],
+    "risk_notes": [
+      "Admin authentication, plugin supply chain and file permissions need hardening."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Bludit CMS",
+        "purpose": "Provides a compact content publishing platform and administration interface.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:17.330131+00:00",
+    "inspected_commit": "7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "eef493fdd21f6fa5b8ab03b52931519893f48fc0",
+        "value": "https://github.com/jamesrwatsonx-creator/bludit/blob/7bdaaabd28c655d8c6c7bc87939fe6feb3341ae8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "content authoring and publishing",
+        "description": "Manages pages and posts for public websites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:content-authoring-and-publishing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "flat-file storage",
+        "description": "Stores site content without a conventional database server.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:flat-file-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "themes and plugins",
+        "description": "Extends appearance and CMS behavior through modular add-ons.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:themes-and-plugins",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

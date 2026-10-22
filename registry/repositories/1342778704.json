@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/automatisch/automatisch",
-  "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+  "description": "Self-hostable no-code automation platform for connecting applications and building event-driven workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-02-11T19:53:04Z",
-    "github_description": "The open source Zapier alternative. Build workflow automation without spending time and money."
+    "github_description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "41f3c56a163103cae761bb44f03638cb84e859ee",
   "current_commit": "41f3c56a163103cae761bb44f03638cb84e859ee",
   "inspection_date": "2026-09-20T05:33:17.987930+00:00",
   "categories": [
-    "category:automation-scripting"
+    "category:automation-scripting",
+    "category:business-applications",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.124823+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.840149+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 3226,
-  "files_read": 3,
+  "files_read": 12,
   "entity_count": 0,
   "unread_source_files": 2980,
-  "next_phase": "ENTITY_EXTRACTION",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.067688+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hostable no-code automation platform for connecting applications and building event-driven workflows.",
+    "reuse_recommendation": "Use for controlled integrations with secret management, idempotency and human approval for sensitive writes.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Fair-code or source-available terms may apply; verify exact license and connected app APIs.",
+    "runtime": [
+      "Ruby/Rails or declared backend",
+      "database",
+      "external APIs"
+    ],
+    "keywords": [
+      "Automatisch",
+      "workflow automation",
+      "no-code integrations",
+      "self-hosted Zapier",
+      "business automation"
+    ],
+    "risk_notes": [
+      "Workflow credentials and cross-service actions can affect business data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Automatisch workflow engine",
+        "purpose": "Coordinates service triggers, data mapping and automated actions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:19.569850+00:00",
+    "inspected_commit": "41f3c56a163103cae761bb44f03638cb84e859ee",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "66ee121838c4b10521b86d3b4cfa78c5713a2062",
+        "value": "https://github.com/jamesrwatsonx-creator/automatisch/blob/41f3c56a163103cae761bb44f03638cb84e859ee/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual workflow automation",
+        "description": "Builds triggers and action flows across connected services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-workflow-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "application connector ecosystem",
+        "description": "Integrates common SaaS applications through reusable connectors.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-connector-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted operations",
+        "description": "Runs automation workflows on user-controlled infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

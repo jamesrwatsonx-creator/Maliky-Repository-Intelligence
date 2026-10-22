@@ -11,19 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/facebook/docusaurus",
-  "description": "Easy to maintain open source documentation websites.",
+  "description": "Static site generator for documentation websites, with versioning, search integrations, localization and React-based customization.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-16T22:33:35Z",
-    "github_description": "Easy to maintain open source documentation websites."
+    "github_description": "Easy to maintain open source documentation websites.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "7b6826b8476167008640cfb71105b9bb6c4f99f9",
   "current_commit": "7b6826b8476167008640cfb71105b9bb6c4f99f9",
   "inspection_date": "2026-10-20T23:58:40.457603+00:00",
-  "categories": [],
+  "categories": [
+    "category:documentation",
+    "category:developer-tools",
+    "category:frameworks"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.681446+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.580153+00:00",
   "tree_files": 4294,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1983,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 3534,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Static site generator for documentation websites, with versioning, search integrations, localization and React-based customization.",
+    "reuse_recommendation": "Use for product and API docs; establish versioning, search and accessibility conventions.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "MIT; theme and plugin packages may have separate terms.",
+    "runtime": [
+      "TypeScript/React",
+      "Node.js",
+      "static hosting"
+    ],
+    "keywords": [
+      "Docusaurus",
+      "documentation site",
+      "React static site",
+      "versioned docs",
+      "technical writing"
+    ],
+    "risk_notes": [
+      "Documentation can become stale; verify generated pages and external link security."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Docusaurus framework",
+        "purpose": "Packages a documentation-focused static site and authoring workflow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:53.534544+00:00",
+    "inspected_commit": "7b6826b8476167008640cfb71105b9bb6c4f99f9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1d411f780d5d8cfda3cd6c7242a0d90c44677066",
+        "value": "https://github.com/jamesrwatsonx-creator/docusaurus/blob/7b6826b8476167008640cfb71105b9bb6c4f99f9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "documentation authoring and site generation",
+        "description": "Builds searchable static documentation websites from Markdown/MDX.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:documentation-authoring-and-site-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "versioning and localization",
+        "description": "Supports multiple documentation versions and languages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:versioning-and-localization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "React themes and plugins",
+        "description": "Extends site UI and behavior through components and plugins.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:react-themes-and-plugins",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

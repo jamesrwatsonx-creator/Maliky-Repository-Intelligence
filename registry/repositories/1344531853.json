@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/letta-ai/letta-code",
-  "description": "Stateful agents that are like people, with memory, identity, and the ability to learn and adapt",
+  "description": "Coding agent or developer tool built on Letta memory capabilities, combining repository-aware coding with persistent agent state.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-24T04:22:59Z",
-    "github_description": "Stateful agents that are like people, with memory, identity, and the ability to learn and adapt"
+    "github_description": "Stateful agents that are like people, with memory, identity, and the ability to learn and adapt",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "bca294190315fa6945ffec7a19c1eafaada8731c",
   "current_commit": "bca294190315fa6945ffec7a19c1eafaada8731c",
   "inspection_date": "2026-09-20T05:33:49.178555+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:developer-tools",
     "category:ai-memory",
-    "category:application-security",
-    "category:developer-tools"
+    "category:ai-agents"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:04",
   "secondary_operational_categories": [
     "operational:03",
     "operational:04",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 23,
@@ -256,11 +256,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.345474+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.454009+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -281,10 +282,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2044,
-  "files_read": 3,
+  "files_read": 10,
   "entity_count": 2,
-  "unread_source_files": 2002,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2018,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -294,5 +295,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.195900+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Coding agent or developer tool built on Letta memory capabilities, combining repository-aware coding with persistent agent state.",
+    "reuse_recommendation": "Use with clean branches, scoped tools and explicit memory retention rules.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and model provider terms.",
+    "runtime": [
+      "Repository-declared CLI/runtime",
+      "Letta memory services",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "Letta Code",
+      "coding agent",
+      "persistent memory",
+      "repository assistant",
+      "agent development"
+    ],
+    "risk_notes": [
+      "Source code, secrets and persisted agent context need privacy safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Letta coding agent",
+        "purpose": "Combines code assistance with persistent memory behavior.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:15.570040+00:00",
+    "inspected_commit": "bca294190315fa6945ffec7a19c1eafaada8731c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "630eff3d706dabb7c33b3e184c62b42ce8d0868e",
+        "value": "https://github.com/jamesrwatsonx-creator/letta-code/blob/bca294190315fa6945ffec7a19c1eafaada8731c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository coding workflows",
+        "description": "Supports coding tasks with source context and developer tooling.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-coding-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "persistent agent memory",
+        "description": "Carries useful context across agent sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:persistent-agent-memory",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "developer tool integrations",
+        "description": "Connects coding workflows to editors, shell or model services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:developer-tool-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

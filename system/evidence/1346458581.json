@@ -5,12 +5,44 @@
   "tree_files": 1147,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "a3ce68eb3a1d6900bebd200d107c47769642a3c1"
+    },
+    {
       "path": "README.md",
       "sha": "419880f1626a049b2d99bb1480df49dd0c07f67e"
     },
     {
+      "path": "e2e/svelte/package.json",
+      "sha": "777fd0159b3d38f6242a196434394b4010be66a1"
+    },
+    {
+      "path": "e2e/ts/package.json",
+      "sha": "3124d557cdf8625cbd9cd599bba1fcea48ad7f89"
+    },
+    {
+      "path": "e2e/yarn/package.json",
+      "sha": "577a1615bc8b94fbffeb74321013451aa9b0abe6"
+    },
+    {
       "path": "package.json",
       "sha": "04a46488c6464092e9402b2f86dba5b2ced9d5c3"
+    },
+    {
+      "path": "packages/agents/package.json",
+      "sha": "ea97863f41fab49fd204ec907e7046e5818300b6"
+    },
+    {
+      "path": "packages/blake3-jit/package.json",
+      "sha": "df48c055e1f3d24a44abda116da9f87c6648a594"
+    },
+    {
+      "path": "packages/blob/package.json",
+      "sha": "04e4c8bf6c695ddc9981108d06ac8bfab14be8a4"
+    },
+    {
+      "path": "packages/dduf/package.json",
+      "sha": "20915feef49a33ba32060658b9dfe6a41d70cfd8"
     }
   ],
   "files_read": [
@@ -22,6 +54,46 @@
     {
       "path": "README.md",
       "blob_sha": "419880f1626a049b2d99bb1480df49dd0c07f67e",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "a3ce68eb3a1d6900bebd200d107c47769642a3c1",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e/svelte/package.json",
+      "blob_sha": "777fd0159b3d38f6242a196434394b4010be66a1",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e/ts/package.json",
+      "blob_sha": "3124d557cdf8625cbd9cd599bba1fcea48ad7f89",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e/yarn/package.json",
+      "blob_sha": "577a1615bc8b94fbffeb74321013451aa9b0abe6",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/agents/package.json",
+      "blob_sha": "ea97863f41fab49fd204ec907e7046e5818300b6",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/blake3-jit/package.json",
+      "blob_sha": "df48c055e1f3d24a44abda116da9f87c6648a594",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/blob/package.json",
+      "blob_sha": "04e4c8bf6c695ddc9981108d06ac8bfab14be8a4",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/dduf/package.json",
+      "blob_sha": "20915feef49a33ba32060658b9dfe6a41d70cfd8",
       "entities_detected": 0
     }
   ],
@@ -61,20 +133,18 @@
     "e2e/deno/index.ts",
     "e2e/mock-registry-config.yaml",
     "e2e/svelte/README.md",
-    "e2e/svelte/package.json",
     "e2e/svelte/src/app.d.ts",
+    "e2e/svelte/src/app.html",
     "e2e/svelte/src/routes/+page.svelte",
     "e2e/svelte/src/test.spec.ts",
     "e2e/svelte/svelte.config.js",
     "e2e/svelte/tsconfig.json",
     "e2e/svelte/vite.config.ts",
-    "e2e/ts/package.json",
     "e2e/ts/src/index.ts",
     "e2e/ts/tsconfig.json",
-    "e2e/yarn/package.json",
+    "packages/agents/LICENSE",
     "packages/agents/README.md",
     "packages/agents/index.ts",
-    "packages/agents/package.json",
     "packages/agents/pnpm-lock.yaml",
     "packages/agents/src/HfAgent.ts",
     "packages/agents/src/index.ts",
@@ -98,8 +168,8 @@
     "packages/blake3-jit/.tshy/build.json",
     "packages/blake3-jit/.tshy/commonjs.json",
     "packages/blake3-jit/.tshy/esm.json",
+    "packages/blake3-jit/LICENSE",
     "packages/blake3-jit/README.md",
-    "packages/blake3-jit/package.json",
     "packages/blake3-jit/pnpm-lock.yaml",
     "packages/blake3-jit/src/compress.ts",
     "packages/blake3-jit/src/constants.ts",
@@ -109,9 +179,9 @@
     "packages/blake3-jit/src/utils.ts",
     "packages/blake3-jit/src/wasm-simd.ts",
     "packages/blake3-jit/tsconfig.json",
+    "packages/blob/LICENSE",
     "packages/blob/README.md",
     "packages/blob/index.ts",
-    "packages/blob/package.json",
     "packages/blob/pnpm-lock.yaml",
     "packages/blob/src/index.ts",
     "packages/blob/src/utils/FileBlob.spec.ts",
@@ -123,9 +193,11 @@
     "packages/blob/src/utils/isFrontend.ts",
     "packages/blob/tsconfig.json",
     "packages/blob/tsup.config.ts",
+    "packages/dduf/LICENSE",
     "packages/dduf/README.md",
     "packages/dduf/index.ts",
-    "packages/dduf/package.json"
+    "packages/dduf/pnpm-lock.yaml",
+    "packages/dduf/src/check-dduf.spec.ts"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -244,8 +316,12 @@
     "packages": 1082,
     "scripts": 1
   },
-  "unread_source_paths_count": 1005,
+  "unread_source_paths_count": 1013,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 140,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/bmoscon/cryptofeed",
-  "description": "Cryptocurrency Exchange Websocket Data Feed Handler",
+  "description": "Python asynchronous feed handler for streaming cryptocurrency exchange market data over WebSockets.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-27T15:33:55Z",
-    "github_description": "Cryptocurrency Exchange Websocket Data Feed Handler"
+    "github_description": "Cryptocurrency Exchange Websocket Data Feed Handler",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ce58c2a0015040aa2271e80bac783d74fa2cdcff",
   "current_commit": "ce58c2a0015040aa2271e80bac783d74fa2cdcff",
   "inspection_date": "2026-09-20T05:35:32.490579+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:apis",
+    "category:distributed-systems"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.574513+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.407037+00:00",
   "tree_files": 302,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 188,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 178,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.116214+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python asynchronous feed handler for streaming cryptocurrency exchange market data over WebSockets.",
+    "reuse_recommendation": "Use as a market-data source after checking exchange support, rate limits, licensing and data quality.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "XFree86 license; check compatibility with intended distribution.",
+    "runtime": [
+      "Python 3.12+",
+      "asyncio",
+      "exchange WebSockets"
+    ],
+    "keywords": [
+      "cryptofeed",
+      "crypto exchange websocket",
+      "market data streaming",
+      "Python feed handler",
+      "order book"
+    ],
+    "risk_notes": [
+      "Feed reliability and exchange schemas vary; do not treat market data as an execution or financial recommendation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "cryptofeed library",
+        "purpose": "Provides asynchronous normalized cryptocurrency exchange feeds.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:16.243975+00:00",
+    "inspected_commit": "ce58c2a0015040aa2271e80bac783d74fa2cdcff",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "02f1a360d8a90ca85d8856866c4b93acb1a129f0",
+        "value": "https://github.com/jamesrwatsonx-creator/cryptofeed/blob/ce58c2a0015040aa2271e80bac783d74fa2cdcff/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "exchange market data streams",
+        "description": "Subscribes to supported exchange WebSocket feeds for live market data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:exchange-market-data-streams",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "normalized feed handlers",
+        "description": "Maps venue-specific messages into common market-data events.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:normalized-feed-handlers",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "asynchronous data pipeline",
+        "description": "Supports concurrent feeds and downstream consumer integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:asynchronous-data-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

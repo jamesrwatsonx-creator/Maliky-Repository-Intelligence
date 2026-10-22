@@ -11,24 +11,23 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/korotovsky/slack-mcp-server",
-  "description": "The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.",
+  "description": "MCP server connecting assistants to Slack workspaces for channel/history search, messages, conversations and workspace actions across supported transports.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-16T17:14:22Z",
-    "github_description": "The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic."
+    "github_description": "The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
   "current_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
   "inspection_date": "2026-09-20T05:32:58.901871+00:00",
   "categories": [
-    "category:business-applications",
-    "category:developer-tools",
-    "category:iam",
     "category:mcp-servers",
-    "category:productivity"
+    "category:apis",
+    "category:business-applications"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [],
@@ -64,7 +63,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -365,9 +364,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.216105+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.279240+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -457,5 +457,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.290400+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "MCP server connecting assistants to Slack workspaces for channel/history search, messages, conversations and workspace actions across supported transports.",
+    "reuse_recommendation": "High-value integration; deeply review OAuth scopes, message-send actions, private channel access, secrets and workspace data retention before connecting.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT; Slack API terms apply.",
+    "runtime": [
+      "Node.js",
+      "MCP stdio/SSE/HTTP",
+      "Slack Web API"
+    ],
+    "keywords": [
+      "Slack MCP server",
+      "workspace search",
+      "channel history",
+      "Slack messaging",
+      "agent integration"
+    ],
+    "risk_notes": [
+      "Authentication and private communications are deep-review triggers; restrict scopes and require confirmation for message writes."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Slack MCP integration",
+        "purpose": "Maps assistant tool requests to Slack workspace operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:52.653217+00:00",
+    "inspected_commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3a93a2c497cd92b1b4e815a1d04cab0be07e11a8",
+        "value": "https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Slack workspace search",
+        "description": "Retrieves workspace conversations and history for assistant workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:slack-workspace-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Slack conversation operations",
+        "description": "Exposes channel, direct-message and group-conversation capabilities.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:slack-conversation-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP transport and authentication",
+        "description": "Connects MCP clients to Slack APIs through configured transport and auth modes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-transport-and-authentication",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

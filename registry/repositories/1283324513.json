@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/EliaAlberti/dcode-agent-kit",
-  "description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.",
+  "description": "Skill/plugin scaffolding kit with embedded templates and version-scoped guidance for Deep Agents SDK programs and dcode agent identities, using environment-configured model connectors.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-06-23T15:38:15Z",
-    "github_description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project."
+    "github_description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "f815599e95801461b9fb0862ff03e14f762b2c80",
@@ -343,9 +344,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.605382+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.443059+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -423,5 +425,162 @@
     ],
     "updated_at": "2026-10-12T19:04:27.119764+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Skill/plugin scaffolding kit with embedded templates and version-scoped guidance for Deep Agents SDK programs and dcode agent identities, using environment-configured model connectors.",
+    "reuse_recommendation": "Use the skill to prepare a reviewed scaffold; verify installed SDK contracts and implement real tools before execution.",
+    "inspection_scope": "Full nine-file tree: one scaffolding skill, plugin/marketplace packaging and a version-scoped integration guide. Substantial embedded model-connector and SDK-agent scaffolds are independently reusable templates, not installed Python modules or a bundled Deep Agents framework. Images and duplicate packaging instructions are excluded. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "MIT",
+    "runtime": [
+      "Markdown skills",
+      "Embedded Python templates",
+      "Deep Agents/LangChain dependencies"
+    ],
+    "keywords": [
+      "dcode-agent-kit",
+      "agent scaffolding",
+      "model connector templates",
+      "checkpointed agent templates",
+      "Markdown skills",
+      "Embedded Python templates",
+      "Deep Agents/LangChain dependencies"
+    ],
+    "risk_notes": [
+      "The public tree contains instructions and code templates, not a running permission service. Connector templates read credentials from environment/.env and can send them to a configured provider URL; use only trusted endpoints and protect those files. Mutating template examples pair interrupt_on with a checkpointer and show a gate-verification procedure, but those library semantics and the generated smoke tests were not executed here. Tool examples are stubs; host permissions, real implementations and persistent production checkpointing require integration review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "agent scaffolding",
+        "purpose": "Interview, specify and prepare a project-specific SDK program or dcode identity.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "model connector templates",
+        "purpose": "Adapt environment-driven compatible-model client scaffolds.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "checkpointed agent templates",
+        "purpose": "Reference mutating-tool interruption/checkpoint patterns and replace stub tools.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:42.149054+00:00",
+    "inspected_commit": "f815599e95801461b9fb0862ff03e14f762b2c80",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "06372e75a72f189c44b43fdf50950d5320afe7db",
+        "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "a10e6310b53aa8fd571fc5a5003ed4d6b43406fc",
+        "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude-plugin/plugin.json",
+        "blob_sha": "896a5e5c2f05cc55661135b2eb724f1ea3ea1c2d",
+        "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/new-dcode-agent/SKILL.md",
+        "blob_sha": "a4a1bc2ac37115654825fe05cc9244a12023def0",
+        "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/skills/new-dcode-agent/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "reference/deepagents-guide.md",
+        "blob_sha": "58810c752aedd2c72a1f0370278b6d534c2bb290",
+        "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/reference/deepagents-guide.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent scaffolding",
+        "description": "Interview, specify and prepare a project-specific SDK program or dcode identity.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-scaffolding",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "model connector templates",
+        "description": "Adapt environment-driven compatible-model client scaffolds.",
+        "scope": "REFERENCE",
+        "id": "cluster:model-connector-templates",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "checkpointed agent templates",
+        "description": "Reference mutating-tool interruption/checkpoint patterns and replace stub tools.",
+        "scope": "REFERENCE",
+        "id": "cluster:checkpointed-agent-templates",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

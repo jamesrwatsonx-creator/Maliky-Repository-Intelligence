@@ -11,28 +11,23 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/bitcart/bitcart",
-  "description": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more",
+  "description": "Bitcart self-hosted cryptocurrency payment processor and merchant platform for accepting and managing crypto payments.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-13T21:26:49Z",
-    "github_description": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more"
+    "github_description": "Bitcart is a free and open-source self-hosted payment processor for BTC, LTC, BCH, XMR, ETH, TRX, USDT and more",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
   "current_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
   "inspection_date": "2026-10-20T23:52:16.566299+00:00",
   "categories": [
-    "category:apis",
-    "category:application-security",
-    "category:backend-services",
-    "category:blockchain-web3-security",
     "category:commerce-e-commerce",
-    "category:distributed-systems",
     "category:finance-accounting",
-    "category:message-event-systems",
-    "category:plugins-extensions"
+    "category:blockchain-web3-security"
   ],
   "operational_category": "operational:22",
   "secondary_operational_categories": [],
@@ -78,7 +73,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -387,9 +382,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.296585+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.046228+00:00",
   "tree_files": 335,
   "files_read": 315,
   "entity_count": 35,
@@ -573,5 +569,98 @@
       "CRUD repositories, schemas and models represented by product/API boundaries"
     ],
     "scoped_deep_review": "Wallet/private-key, payment, payout, secrets, authentication and arbitrary-code triggers were reviewed narrowly. The system operates coin wallets and Lightning channels, creates payouts and refunds, exposes scoped management APIs, loads provider credentials, installs executable plugin archives and can restart or update its host deployment."
+  },
+  "repository_intelligence": {
+    "purpose": "Bitcart self-hosted cryptocurrency payment processor and merchant platform for accepting and managing crypto payments.",
+    "reuse_recommendation": "Do not accept funds until wallet key handling, confirmation rules, refunds and network security are reviewed.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See Bitcart license and supported coin/network terms.",
+    "runtime": [
+      "Python/web services",
+      "cryptocurrency nodes/wallets",
+      "Docker deployment"
+    ],
+    "keywords": [
+      "Bitcart crypto payments",
+      "merchant checkout",
+      "cryptocurrency processor",
+      "self-hosted payments",
+      "wallet integrations"
+    ],
+    "risk_notes": [
+      "Payments, private keys and financial records are deep-review triggers; audit signing boundaries and operational security."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Bitcart payment platform",
+        "purpose": "Coordinates payment creation, confirmation and merchant workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:18.390985+00:00",
+    "inspected_commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0e46a2a04d647464e3f6b6c38b7df6122413f38c",
+        "value": "https://github.com/jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-/blob/6388adcf017907d975eed4ed4a1b975d5e120059/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "crypto payment processing",
+        "description": "Accepts cryptocurrency payments for merchant transactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crypto-payment-processing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "merchant checkout and administration",
+        "description": "Provides customer checkout and merchant management workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:merchant-checkout-and-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "wallet and network integrations",
+        "description": "Connects the platform to supported cryptocurrencies and wallet services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:wallet-and-network-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

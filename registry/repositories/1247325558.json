@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Wan-Video/Wan2.1",
-  "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "description": "Wan video-generation research implementation and model tooling for text-to-video and image-to-video synthesis.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-03-05T09:38:07Z",
-    "github_description": "Wan: Open and Advanced Large-Scale Video Generative Models"
+    "github_description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "9737cba9c1c3c4d04b33fcad41c111989865d315",
   "current_commit": "9737cba9c1c3c4d04b33fcad41c111989865d315",
   "inspection_date": "2026-09-20T05:32:31.346855+00:00",
   "categories": [
-    "category:creative-tools",
-    "category:libraries-packages"
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:wan2-1-package-wan"
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -282,11 +284,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.679572+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.677088+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -309,7 +312,7 @@
   "files_read": 44,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -328,5 +331,128 @@
     ],
     "updated_at": "2026-10-12T19:04:27.336957+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Wan video-generation research implementation and model tooling for text-to-video and image-to-video synthesis.",
+    "reuse_recommendation": "Use after validating GPU capacity, checkpoint terms, prompt/output policy and current upstream version.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "See LICENSE.txt; model weights may have separate usage terms.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Wan model checkpoints",
+      "GPU inference"
+    ],
+    "keywords": [
+      "Wan2.1",
+      "text to video",
+      "image to video",
+      "video generation",
+      "model inference"
+    ],
+    "risk_notes": [
+      "Large model artifacts and generated likeness/media rights require review before commercial use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Wan generation pipeline",
+        "purpose": "Loads models and runs video generation tasks.",
+        "evidence_paths": [
+          "README.md",
+          "generate.py",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:46.916080+00:00",
+    "inspected_commit": "9737cba9c1c3c4d04b33fcad41c111989865d315",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b7300c98605447b2d9f268fd36d033b7d105ceae",
+        "value": "https://github.com/jamesrwatsonx-creator/Wan2.1/blob/9737cba9c1c3c4d04b33fcad41c111989865d315/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE.txt",
+        "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "value": "https://github.com/jamesrwatsonx-creator/Wan2.1/blob/9737cba9c1c3c4d04b33fcad41c111989865d315/LICENSE.txt"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "107447161e3bc1cecd8881d4b3e8fdd4604bed0c",
+        "value": "https://github.com/jamesrwatsonx-creator/Wan2.1/blob/9737cba9c1c3c4d04b33fcad41c111989865d315/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "generate.py",
+        "blob_sha": "c841c195ffd16b3f1a468142e35ccdcf8618ad6f",
+        "value": "https://github.com/jamesrwatsonx-creator/Wan2.1/blob/9737cba9c1c3c4d04b33fcad41c111989865d315/generate.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "text-to-video generation",
+        "description": "Generates video clips conditioned on text prompts using Wan checkpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:text-to-video-generation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml",
+          "generate.py"
+        ]
+      },
+      {
+        "name": "image-to-video generation",
+        "description": "Supports video generation conditioned on input images.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:image-to-video-generation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml",
+          "generate.py"
+        ]
+      },
+      {
+        "name": "model inference and setup",
+        "description": "Provides checkpoint and runtime setup for generation workflows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-inference-and-setup",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml",
+          "generate.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

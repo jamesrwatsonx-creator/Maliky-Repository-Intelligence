@@ -11,14 +11,15 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/worldcoin/idkit-js",
-  "description": "Javascript toolkit to interact with the World ID protocol. Building the Identity SDK.",
+  "description": "JavaScript/TypeScript SDK and UI toolkit for integrating World ID identity verification flows into web applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-14T09:20:52Z",
     "live_metadata": "FRESH",
-    "github_description": "Javascript toolkit to interact with the World ID protocol. Building the Identity SDK."
+    "github_description": "Javascript toolkit to interact with the World ID protocol. Building the Identity SDK.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
@@ -27,7 +28,7 @@
   "categories": [
     "category:sdks-client-libraries",
     "category:iam",
-    "category:privacy"
+    "category:web-applications"
   ],
   "operational_category": "operational:21",
   "secondary_operational_categories": [],
@@ -52,7 +53,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE AS LIBRARY",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -378,9 +379,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.745385+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.757150+00:00",
   "tree_files": 228,
   "files_read": 158,
   "entity_count": 14,
@@ -620,5 +622,95 @@
         "reason": "Routine CI, PR convention checks and release packaging are repository maintenance details."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript/TypeScript SDK and UI toolkit for integrating World ID identity verification flows into web applications.",
+    "reuse_recommendation": "Review proof verification, backend trust boundaries, privacy and jurisdictional requirements before using identity results.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See package license; World ID protocol and service terms apply.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "World ID IDKit",
+      "identity verification SDK",
+      "proof verification UI",
+      "JavaScript toolkit"
+    ],
+    "risk_notes": [
+      "Identity and biometric-adjacent verification require privacy, consent and server-side proof validation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "IDKit JavaScript SDK",
+        "purpose": "Provides integration surfaces for World ID identity checks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:57.380374+00:00",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ffd85aff70ebbf358b2ea3702f1e120d70f7eead",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "World ID verification integration",
+        "description": "Connects applications to World ID proof verification flows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:world-id-verification-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "verification UI toolkit",
+        "description": "Provides client-facing components for identity proof interactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:verification-ui-toolkit",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "application SDK helpers",
+        "description": "Packages JavaScript utilities for integrating with the protocol.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-sdk-helpers",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

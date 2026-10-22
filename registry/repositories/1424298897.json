@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ScrapeCreators/social-media-research-skills",
-  "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+  "description": "Agent skill/plugin suite for researching public social posts, comments, creators, ads, trends and transcripts through an external ScrapeCreators API.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-26T17:26:01Z",
-    "github_description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI."
+    "github_description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
   "current_commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
   "inspection_date": "2026-10-20T23:58:52.568203+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills",
+    "category:research-projects",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 13,
@@ -277,14 +282,177 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.235738+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.291249+00:00",
   "tree_files": 20,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 20,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 13,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Agent skill/plugin suite for researching public social posts, comments, creators, ads, trends and transcripts through an external ScrapeCreators API.",
+    "reuse_recommendation": "Use with an authorized API key after checking service terms, platform rules and data retention; validate findings before making business decisions.",
+    "inspection_scope": "Reviewed package instructions and representative research skills. The repository provides host-executed workflows and calls an external data service; it does not implement platform APIs or scraping infrastructure.",
+    "license_notes": "MIT for the skill package; external service and platform terms apply.",
+    "runtime": [
+      "Markdown skills",
+      "Claude plugin metadata",
+      "external ScrapeCreators API"
+    ],
+    "keywords": [
+      "social media research",
+      "competitor analysis",
+      "ad library teardown",
+      "audience insights",
+      "creator prospecting",
+      "trend discovery"
+    ],
+    "risk_notes": [
+      "Requires external credentials and processes social data; authorization, privacy, retention and provider availability need build-specific review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "research skill suite",
+        "purpose": "Packages distinct social research workflows for the host agent.",
+        "evidence_paths": [
+          "README.md",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin integration",
+        "purpose": "Declares host discovery and external service configuration.",
+        "evidence_paths": [
+          ".claude-plugin/plugin.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:30.013668+00:00",
+    "inspected_commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e091165b832ec255f978aed55884ad2e34ac7f0c",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "684ffc4ae84ee9602f649aa1912c3a3c5ffaba71",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "AGENTS.md",
+        "blob_sha": "4a369170d2bbf113c5e537a938db1fb5a04a01af",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/AGENTS.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude-plugin/plugin.json",
+        "blob_sha": "0eb595ea7c4b3759c74d0aec2055b299cf1a0cfe",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/ad-library-teardown/SKILL.md",
+        "blob_sha": "2b680ffc8c995afa7fa62c56adf2d6b7dd07d72a",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/skills/ad-library-teardown/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/audience-research/SKILL.md",
+        "blob_sha": "1e5d9145c4d31612ebdad9db3f480e893a35d9e4",
+        "value": "https://github.com/jamesrwatsonx-creator/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/skills/audience-research/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "public social research",
+        "description": "Guides collection and synthesis of public creator and platform signals.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:public-social-research",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          ".claude-plugin/plugin.json",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      },
+      {
+        "name": "competitor and ad analysis",
+        "description": "Structures competitor research and advertising creative teardown workflows.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:competitor-and-ad-analysis",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          ".claude-plugin/plugin.json",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      },
+      {
+        "name": "audience and comment insights",
+        "description": "Analyzes public comments and audience responses for recurring themes.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:audience-and-comment-insights",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          ".claude-plugin/plugin.json",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      },
+      {
+        "name": "content and trend discovery",
+        "description": "Uses transcripts and trend signals to identify reusable content opportunities.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:content-and-trend-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          ".claude-plugin/plugin.json",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

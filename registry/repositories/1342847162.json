@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/pingdotgg/t3code",
-  "description": "",
+  "description": "Desktop or web interface for managing coding agents and software development tasks in the T3 ecosystem.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T12:57:30Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2274444e92275fda2033de6636e3143ac3599ffb",
   "current_commit": "2274444e92275fda2033de6636e3143ac3599ffb",
   "inspection_date": "2026-09-20T05:33:26.094849+00:00",
   "categories": [
-    "category:ai-agents",
     "category:developer-tools",
-    "category:mobile-applications"
+    "category:ai-agents",
+    "category:desktop-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 7,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.350437+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.374305+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -279,10 +281,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 16029,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 15292,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 15627,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -292,5 +294,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.300058+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Desktop or web interface for managing coding agents and software development tasks in the T3 ecosystem.",
+    "reuse_recommendation": "Use with scoped repository access and inspect agent execution, diffs and provider data flow.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository license and agent/provider terms.",
+    "runtime": [
+      "Desktop/web frontend",
+      "agent runtime",
+      "model APIs"
+    ],
+    "keywords": [
+      "T3 Code",
+      "AI coding workspace",
+      "agent tasks",
+      "developer desktop app",
+      "code assistant"
+    ],
+    "risk_notes": [
+      "Coding agents can access private source and modify files."
+    ],
+    "important_subsystems": [
+      {
+        "name": "T3 Code workspace",
+        "purpose": "Provides an interface for operating agent-assisted coding tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:55.700935+00:00",
+    "inspected_commit": "2274444e92275fda2033de6636e3143ac3599ffb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8ec101387f678291417d28608338c4cd582f5dad",
+        "value": "https://github.com/jamesrwatsonx-creator/t3code/blob/2274444e92275fda2033de6636e3143ac3599ffb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "coding-agent task interface",
+        "description": "Organizes development requests and agent progress in a visual workspace.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:coding-agent-task-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "repository and tool integrations",
+        "description": "Connects agent tasks to source repositories and development tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-and-tool-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

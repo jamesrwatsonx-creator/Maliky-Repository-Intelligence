@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/FujiwaraChoki/MoneyPrinter",
-  "description": "Automate Creation of YouTube Shorts using MoviePy.",
+  "description": "Application for generating short-form videos from a topic using local Ollama text generation, media processing and a database-backed job queue.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-03-26T22:17:17Z",
-    "github_description": "Automate Creation of YouTube Shorts using MoviePy."
+    "github_description": "Automate Creation of YouTube Shorts using MoviePy.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
   "current_commit": "2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
   "inspection_date": "2026-09-20T05:35:37.453551+00:00",
   "categories": [
-    "category:automation-scripting"
+    "category:media-publishing",
+    "category:ai-applications",
+    "category:cloud-infrastructure"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.548127+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.702893+00:00",
   "tree_files": 44,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 36,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 27,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,146 @@
     ],
     "updated_at": "2026-10-12T19:04:27.223187+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Application for generating short-form videos from a topic using local Ollama text generation, media processing and a database-backed job queue.",
+    "reuse_recommendation": "Review subprocesses, downloads, job isolation, credentials and generated-content rights before deployment; sandbox media processing.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT; Ollama models and external media sources have separate terms.",
+    "runtime": [
+      "Python",
+      "Flask/API and worker",
+      "Ollama",
+      "PostgreSQL",
+      "MoviePy",
+      "Docker"
+    ],
+    "keywords": [
+      "automated YouTube Shorts",
+      "video generation queue",
+      "Ollama",
+      "PostgreSQL worker",
+      "topic-to-video"
+    ],
+    "risk_notes": [
+      "Media pipelines may retrieve and process untrusted content; external APIs, local files, model outputs and publishing rights require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "generation API and worker",
+        "purpose": "Accepts generation requests and processes queued video jobs.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "database deployment",
+        "purpose": "Provides the database-backed service deployment path.",
+        "evidence_paths": [
+          "README.md",
+          "docs/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:19.797235+00:00",
+    "inspected_commit": "2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1035c45e1cab293aef0c68fe250cc9c599357cef",
+        "value": "https://github.com/jamesrwatsonx-creator/MoneyPrinter/blob/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "484fbb70f3014e91e2ae5e88709df967eef3e127",
+        "value": "https://github.com/jamesrwatsonx-creator/MoneyPrinter/blob/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "de7414a434d960ed28030af272017e7bf237deda",
+        "value": "https://github.com/jamesrwatsonx-creator/MoneyPrinter/blob/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "AGENTS.md",
+        "blob_sha": "04259aa659e19f50d2aa5fe697b1883d78cd377b",
+        "value": "https://github.com/jamesrwatsonx-creator/MoneyPrinter/blob/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262/AGENTS.md"
+      },
+      {
+        "type": "source_review",
+        "path": "docs/README.md",
+        "blob_sha": "8ba2566c4bd4517bf56d3958a60d5b63bbd90649",
+        "value": "https://github.com/jamesrwatsonx-creator/MoneyPrinter/blob/2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262/docs/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "topic-to-short video workflow",
+        "description": "Coordinates script and metadata generation with video assembly for short-form content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:topic-to-short-video-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "AGENTS.md",
+          "docs/README.md"
+        ]
+      },
+      {
+        "name": "database-backed generation queue",
+        "description": "Tracks jobs through API, worker and PostgreSQL for restart-safe processing.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:database-backed-generation-queue",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "AGENTS.md",
+          "docs/README.md"
+        ]
+      },
+      {
+        "name": "local model and media integrations",
+        "description": "Connects Ollama and media tools to the generation pipeline.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-model-and-media-integrations",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "AGENTS.md",
+          "docs/README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

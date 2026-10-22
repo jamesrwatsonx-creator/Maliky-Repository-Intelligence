@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/CopilotKit/OpenIntelligentUI",
-  "description": "Open-Source Generative UI Framework",
+  "description": "Open-source chat interface that turns user questions into interactive explanations, comparisons and working UI tools using agent/UI frameworks.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-13T23:42:37Z",
-    "github_description": "Open-Source Generative UI Framework"
+    "github_description": "Open-Source Generative UI Framework",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8391a94c1c3939c679e40ddd7bfc08a9ef690e70",
   "current_commit": "8391a94c1c3939c679e40ddd7bfc08a9ef690e70",
   "inspection_date": "2026-10-20T23:57:56.147295+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:ai-applications",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -277,14 +282,106 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.766036+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.885094+00:00",
   "tree_files": 190,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 168,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 160,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source chat interface that turns user questions into interactive explanations, comparisons and working UI tools using agent/UI frameworks.",
+    "reuse_recommendation": "Review generated UI execution, data access and model output sanitization before exposing user-provided prompts.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and connected model/API terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "intelligent UI",
+      "interactive chat interface",
+      "dynamic websites",
+      "CopilotKit",
+      "AG-UI"
+    ],
+    "risk_notes": [
+      "Dynamic UI and agent output may introduce unsafe actions or untrusted content; validate rendering and tool boundaries."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Open Intelligent UI",
+        "purpose": "Connects chat, agent state and dynamically rendered interface elements.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:21.771780+00:00",
+    "inspected_commit": "8391a94c1c3939c679e40ddd7bfc08a9ef690e70",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "26671fabe1a78565c82762d68055084746e5d358",
+        "value": "https://github.com/jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites/blob/8391a94c1c3939c679e40ddd7bfc08a9ef690e70/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive answer interface",
+        "description": "Transforms conversational questions into interactive explanatory UI.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-answer-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "dynamic tool generation",
+        "description": "Presents working tools and comparisons as part of the response experience.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:dynamic-tool-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent UI integration",
+        "description": "Uses CopilotKit and AG-UI patterns to connect agent state and frontend.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-ui-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/GrapheneOS/releases.grapheneos.org",
-  "description": "OS update and app repository servers",
+  "description": "Static-site and server configuration for GrapheneOS release hosting and well-known web policy files.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-24T12:11:59Z",
-    "github_description": "OS update and app repository servers"
+    "github_description": "OS update and app repository servers",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "7ea23ee02c9818ca4edb00e64e398cd506be499f",
   "current_commit": "7ea23ee02c9818ca4edb00e64e398cd506be499f",
   "inspection_date": "2026-09-20T05:34:07.024518+00:00",
   "categories": [
-    "category:general-other"
+    "category:cloud-infrastructure",
+    "category:devops",
+    "category:mobile-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.034557+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.102097+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -271,10 +275,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 31,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 4,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -284,5 +288,139 @@
     ],
     "updated_at": "2026-10-12T19:04:27.273986+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Static-site and server configuration for GrapheneOS release hosting and well-known web policy files.",
+    "reuse_recommendation": "Reference the static hosting and policy setup patterns; adapt domain, signing and release controls for the target service.",
+    "inspection_scope": "Reviewed the complete bounded source packet: server setup, static hosting workflow, requirements and deployed well-known policy assets. No Android application source is present in this repository.",
+    "license_notes": "Repository license file grants MIT-style terms; review notice text and upstream policy.",
+    "runtime": [
+      "Shell",
+      "static web assets",
+      "GitHub Actions",
+      "Python requirements"
+    ],
+    "keywords": [
+      "GrapheneOS release hosting",
+      "static site deployment",
+      "server configuration",
+      "well-known policies",
+      "Android release distribution"
+    ],
+    "risk_notes": [
+      "Release hosting integrity and server configuration are security-sensitive; verify upstream release-signing and deployment controls before reuse."
+    ],
+    "important_subsystems": [
+      {
+        "name": "hosting and deployment configuration",
+        "purpose": "Defines server setup and static publishing workflow.",
+        "evidence_paths": [
+          "servers.sh",
+          ".github/workflows/static.yml"
+        ]
+      },
+      {
+        "name": "well-known site policies",
+        "purpose": "Publishes security, privacy and crawler policy assets.",
+        "evidence_paths": [
+          "static/.well-known/security.txt",
+          "static/robots.txt"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:16.466180+00:00",
+    "inspected_commit": "7ea23ee02c9818ca4edb00e64e398cd506be499f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "a0c9d542ee9c839eda5e242b801df6c9918a27fe",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/static.yml",
+        "blob_sha": "e3bdd310be36e287d6fccbb346070a1ec019dc1c",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/.github/workflows/static.yml"
+      },
+      {
+        "type": "source_review",
+        "path": "servers.sh",
+        "blob_sha": "7566deb60b6f5b5eeba9ca66545661da4ffb08f0",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/servers.sh"
+      },
+      {
+        "type": "source_review",
+        "path": "requirements.txt",
+        "blob_sha": "ec289c71e864463eea69bfc070b53ae85cb10f2b",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/requirements.txt"
+      },
+      {
+        "type": "source_review",
+        "path": "static/.well-known/security.txt",
+        "blob_sha": "a83b0bd10cfe99c14272f9a5489eedf0ad82bbf5",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/static/.well-known/security.txt"
+      },
+      {
+        "type": "source_review",
+        "path": "static/robots.txt",
+        "blob_sha": "0e1b7165cf00bf35b28ef30b5a70d845b35b1b17",
+        "value": "https://github.com/jamesrwatsonx-creator/releases.grapheneos.org/blob/7ea23ee02c9818ca4edb00e64e398cd506be499f/static/robots.txt"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "release website hosting",
+        "description": "Supports deployment of static release-site content and server configuration.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:release-website-hosting",
+        "evidence_paths": [
+          "LICENSE",
+          ".github/workflows/static.yml",
+          "servers.sh",
+          "requirements.txt",
+          "static/.well-known/security.txt",
+          "static/robots.txt"
+        ]
+      },
+      {
+        "name": "web policy endpoints",
+        "description": "Maintains well-known policy and crawler-control files.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web-policy-endpoints",
+        "evidence_paths": [
+          "LICENSE",
+          ".github/workflows/static.yml",
+          "servers.sh",
+          "requirements.txt",
+          "static/.well-known/security.txt",
+          "static/robots.txt"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

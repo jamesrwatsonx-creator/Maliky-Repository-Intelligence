@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/debpalash/VoiceStudio",
-  "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+  "description": "Voice-enabled website creation or editing studio that lets users build web experiences through spoken or conversational interaction.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-24T12:41:40Z",
-    "github_description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    "github_description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a8371baaa806cd4f3b99f7b51ded1a418df91482",
   "current_commit": "a8371baaa806cd4f3b99f7b51ded1a418df91482",
   "inspection_date": "2026-09-20T05:35:27.461793+00:00",
   "categories": [
     "category:creative-tools",
-    "category:design-systems",
-    "category:generative-ai"
+    "category:web-applications",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:09",
     "operational:17"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.713753+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.724108+00:00",
   "tree_files": 2031,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1821,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1826,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.341031+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice-enabled website creation or editing studio that lets users build web experiences through spoken or conversational interaction.",
+    "reuse_recommendation": "Use for prototypes and inspect generated code, publication controls and microphone consent.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and speech/model provider terms.",
+    "runtime": [
+      "Web application",
+      "speech/LLM services",
+      "frontend build tools"
+    ],
+    "keywords": [
+      "website voice studio",
+      "voice-driven web design",
+      "AI site builder",
+      "spoken editing",
+      "website creation"
+    ],
+    "risk_notes": [
+      "Voice capture and generated site publishing require consent and review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Website Voice Studio",
+        "purpose": "Connects conversational input to website design and editing workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:15.370710+00:00",
+    "inspected_commit": "a8371baaa806cd4f3b99f7b51ded1a418df91482",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e0797b9e1bfa228c29c07f6fd7973ff9b9c5d452",
+        "value": "https://github.com/jamesrwatsonx-creator/WebsiteVoiceStudio/blob/a8371baaa806cd4f3b99f7b51ded1a418df91482/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "voice-driven site authoring",
+        "description": "Uses speech or conversation to create or change website content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-driven-site-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "web design and preview",
+        "description": "Provides visual editing and rendering of generated website output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web-design-and-preview",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

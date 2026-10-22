@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "The official LiteLLM docs repository",
+  "upstream_url": "https://github.com/BerriAI/litellm-docs",
+  "description": "Documentation for LiteLLM’s unified LLM proxy, SDK and provider integration workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-26T08:05:24Z",
-    "github_description": "The official LiteLLM docs repository"
+    "github_description": "The official LiteLLM docs repository",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "c6065ff4f0e1e6d4a3fe04dfd6b3e1474e4550ab",
+  "current_commit": "c6065ff4f0e1e6d4a3fe04dfd6b3e1474e4550ab",
+  "inspection_date": "2026-10-22T02:25:19.375652+00:00",
   "categories": [
-    "category:general-other"
+    "category:documentation",
+    "category:apis",
+    "category:generative-ai"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.364737+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.477169+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.198524+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2161,
+  "files_read": 10,
+  "unread_source_files": 1218,
+  "repository_intelligence": {
+    "purpose": "Documentation for LiteLLM’s unified LLM proxy, SDK and provider integration workflows.",
+    "reuse_recommendation": "Use current official docs and verify provider specifics and version compatibility.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Documentation license and provider service terms vary.",
+    "runtime": [
+      "Documentation site",
+      "LiteLLM SDK/proxy"
+    ],
+    "keywords": [
+      "LiteLLM docs",
+      "LLM gateway documentation",
+      "model provider integration",
+      "SDK guide",
+      "API proxy"
+    ],
+    "risk_notes": [
+      "Documentation can lag API changes; secret and prompt data flow require attention."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LiteLLM documentation",
+        "purpose": "Guides developers through model integration and gateway operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:25.540796+00:00",
+    "inspected_commit": "c6065ff4f0e1e6d4a3fe04dfd6b3e1474e4550ab",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3e7e552ca1692add6a64da5bc2cdf41d2e35be9e",
+        "value": "https://github.com/jamesrwatsonx-creator/litellm-docs/blob/c6065ff4f0e1e6d4a3fe04dfd6b3e1474e4550ab/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "SDK and proxy usage documentation",
+        "description": "Explains routing model calls through LiteLLM interfaces.",
+        "scope": "REFERENCE",
+        "id": "cluster:sdk-and-proxy-usage-documentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "provider and deployment guides",
+        "description": "Documents supported model services and operational setup.",
+        "scope": "REFERENCE",
+        "id": "cluster:provider-and-deployment-guides",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

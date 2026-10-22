@@ -3,8 +3,100 @@
   "inspected_commit": "8d8a29377c23bfdb76d852947c765d9f13a220c1",
   "tree_complete": true,
   "tree_files": 14470,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "Cargo.toml",
+      "sha": "f40a20ddcc10a0ca2b6eb3829e483df675f10fdd"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "README.md",
+      "sha": "b582bfc0f64fa47bfe53f15cd229451b7037a2ce"
+    },
+    {
+      "path": "fluxer_admin/Cargo.toml",
+      "sha": "abd6eeabd457c9894dbedb8c92db823c26e7d94a"
+    },
+    {
+      "path": "fluxer_admin/package.json",
+      "sha": "a9a10de84c9ac7cc023eca47e7d6b78a5e2f4989"
+    },
+    {
+      "path": "fluxer_api/package.json",
+      "sha": "7411cdfbe6b88f75ebce84db0d0e5343920bef01"
+    },
+    {
+      "path": "fluxer_app/package.json",
+      "sha": "9228d4abfd3cd3f6671abc1fe77e894abc9b1c1a"
+    },
+    {
+      "path": "fluxer_app_proxy/Cargo.toml",
+      "sha": "8ea00ef24d3d5fd4d4ae73afb846e08f7e5127ec"
+    },
+    {
+      "path": "fluxer_common/Cargo.toml",
+      "sha": "73e61caf4240b2d0582d899d88fe4dba05570ba5"
+    },
+    {
+      "path": "package.json",
+      "sha": "fe55cda50b0ae9b89ba26c6ef2f6b6ff88ff60e0"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "b582bfc0f64fa47bfe53f15cd229451b7037a2ce",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "entities_detected": 0
+    },
+    {
+      "path": "Cargo.toml",
+      "blob_sha": "f40a20ddcc10a0ca2b6eb3829e483df675f10fdd",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "fe55cda50b0ae9b89ba26c6ef2f6b6ff88ff60e0",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_admin/Cargo.toml",
+      "blob_sha": "abd6eeabd457c9894dbedb8c92db823c26e7d94a",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_admin/package.json",
+      "blob_sha": "a9a10de84c9ac7cc023eca47e7d6b78a5e2f4989",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_api/package.json",
+      "blob_sha": "7411cdfbe6b88f75ebce84db0d0e5343920bef01",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_app/package.json",
+      "blob_sha": "9228d4abfd3cd3f6671abc1fe77e894abc9b1c1a",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_app_proxy/Cargo.toml",
+      "blob_sha": "8ea00ef24d3d5fd4d4ae73afb846e08f7e5127ec",
+      "entities_detected": 0
+    },
+    {
+      "path": "fluxer_common/Cargo.toml",
+      "blob_sha": "73e61caf4240b2d0582d899d88fe4dba05570ba5",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".devcontainer/Dockerfile",
     ".devcontainer/devcontainer.json",
@@ -51,9 +143,6 @@
     ".github/workflows/release-image-set.yaml",
     ".github/workflows/tests.yaml",
     ".github/workflows/validate.yaml",
-    "Cargo.toml",
-    "LICENSE",
-    "README.md",
     "biome.json",
     "deny.toml",
     "deploy/helm/fluxer/Chart.yaml",
@@ -86,11 +175,9 @@
     "deploy/self-hosting/external-object-store.compose.yml",
     "deploy/self-hosting/tunnel.compose.yml",
     "eslint.config.mjs",
-    "fluxer_admin/Cargo.toml",
     "fluxer_admin/Dockerfile",
     "fluxer_admin/build.rs",
     "fluxer_admin/openapi-admin.json",
-    "fluxer_admin/package.json",
     "fluxer_admin/src/acl.rs",
     "fluxer_admin/src/admin_flags.rs",
     "fluxer_admin/src/admin_hints.rs",
@@ -105,7 +192,12 @@
     "fluxer_admin/src/api/codes.rs",
     "fluxer_admin/src/api/discovery.rs",
     "fluxer_admin/src/api/generated.rs",
-    "fluxer_admin/src/api/guild_assets.rs"
+    "fluxer_admin/src/api/guild_assets.rs",
+    "fluxer_admin/src/api/guild_threads.rs",
+    "fluxer_admin/src/api/guilds.rs",
+    "fluxer_admin/src/api/instance_config.rs",
+    "fluxer_admin/src/api/jobs.rs",
+    "fluxer_admin/src/api/limit_config.rs"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "23a3148bab47c0005e7d582afa42f23072804717aa7f2aa3b977d655af232dc7",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -242,8 +335,11 @@
     "tools": 60,
     "tsconfigs": 3
   },
-  "unread_source_paths_count": 7480,
+  "unread_source_paths_count": 8197,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 6990,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

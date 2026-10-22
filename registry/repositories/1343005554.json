@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/QwenLM/Qwen3-TTS",
-  "description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+  "description": "Qwen text-to-speech model and toolkit for multilingual speech synthesis, voice design and speech generation workflows.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-03-17T06:38:41Z",
-    "github_description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning."
+    "github_description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
   "current_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
   "inspection_date": "2026-09-20T05:33:39.435768+00:00",
   "categories": [
-    "category:design-systems",
-    "category:generative-ai"
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:scientific-computing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:17"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.975614+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.055038+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -276,10 +279,10 @@
     "unverified_source_files": 3
   },
   "tree_files": 37,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 31,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 20,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -289,5 +292,134 @@
     ],
     "updated_at": "2026-10-12T19:04:27.268248+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Qwen text-to-speech model and toolkit for multilingual speech synthesis, voice design and speech generation workflows.",
+    "reuse_recommendation": "Evaluate voice quality, GPU requirements and model license before deployment; disclose synthetic speech and obtain voice consent.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "Apache-2.0 for code; verify model-weight and voice-data terms independently.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Qwen3 TTS models",
+      "GPU inference"
+    ],
+    "keywords": [
+      "Qwen3 TTS",
+      "text to speech",
+      "voice design",
+      "multilingual speech generation",
+      "speech synthesis"
+    ],
+    "risk_notes": [
+      "Synthetic voice can impersonate individuals; consent, provenance and disclosure controls matter."
+    ],
+    "important_subsystems": [
+      {
+        "name": "TTS inference toolkit",
+        "purpose": "Loads models and generates speech outputs.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "fine-tuning guidance",
+        "purpose": "Documents model adaptation workflows.",
+        "evidence_paths": [
+          "finetuning/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:18.672444+00:00",
+    "inspected_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8287bac4e611b907688a74b90a1d39cf7dbeec58",
+        "value": "https://github.com/jamesrwatsonx-creator/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "c347eb5ec781d2702623e8e2b5923fa1a766a64d",
+        "value": "https://github.com/jamesrwatsonx-creator/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "d4b6df580c18a6974f7dee32eff9bad170a91351",
+        "value": "https://github.com/jamesrwatsonx-creator/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "finetuning/README.md",
+        "blob_sha": "49df2754ad8c5650b142f75121bdd0ff6a25a350",
+        "value": "https://github.com/jamesrwatsonx-creator/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/finetuning/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "text-to-speech generation",
+        "description": "Generates speech audio from text using Qwen3 TTS models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:text-to-speech-generation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "finetuning/README.md"
+        ]
+      },
+      {
+        "name": "voice design and conditioning",
+        "description": "Supports voice-oriented generation and conditioning workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-design-and-conditioning",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "finetuning/README.md"
+        ]
+      },
+      {
+        "name": "model fine-tuning workflow",
+        "description": "Documents fine-tuning procedures for adapting speech models.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:model-fine-tuning-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "finetuning/README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

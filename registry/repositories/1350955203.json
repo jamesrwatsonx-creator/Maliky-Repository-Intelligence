@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/ComposioHQ/awesome-claude-skills",
-  "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+  "description": "Curated directory of Claude skills and related reusable agent instructions from community and official sources.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-08-10T21:45:44Z",
-    "github_description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    "github_description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
   "current_commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
   "inspection_date": "2026-09-20T05:35:42.703237+00:00",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:documentation",
+    "category:open-source-communities"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 864,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.143607+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.862629+00:00",
   "tree_files": 1142,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 960,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 998,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.069236+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Curated directory of Claude skills and related reusable agent instructions from community and official sources.",
+    "reuse_recommendation": "Use to discover candidates and verify each skill’s source, license and tool permissions before installation.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Each linked skill has its own license and provenance; verify individually.",
+    "runtime": [
+      "Curated links and documentation"
+    ],
+    "keywords": [
+      "Claude skills",
+      "agent skills directory",
+      "curated prompts",
+      "workflow instructions",
+      "skill discovery"
+    ],
+    "risk_notes": [
+      "Third-party skill instructions are untrusted and may request sensitive tool access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Claude skill index",
+        "purpose": "Makes distributed skill resources easier to discover.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:16.530982+00:00",
+    "inspected_commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d28b9c3515147fba1242461eb2c11155ffca5bbf",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "skill discovery catalog",
+        "description": "Organizes skills by task area for browsing and selection.",
+        "scope": "REFERENCE",
+        "id": "cluster:skill-discovery-catalog",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "community workflow references",
+        "description": "Links to reusable instructions and examples across the ecosystem.",
+        "scope": "REFERENCE",
+        "id": "cluster:community-workflow-references",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

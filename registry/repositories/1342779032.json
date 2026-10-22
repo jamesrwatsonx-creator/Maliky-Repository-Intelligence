@@ -11,25 +11,26 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/zapier/zapier-mcp",
-  "description": "Official plugin distribution for the hosted Zapier MCP server. Install it in your AI client and connect to thousands of apps.",
+  "description": "Multi-client plugin and instruction distributions for Zapier's hosted MCP service, with onboarding, role-based action discovery, status auditing and confirmation-aware SaaS action guidance; no hosted server implementation is present.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-29T21:42:17Z",
-    "github_description": "Official plugin distribution for the hosted Zapier MCP server. Install it in your AI client and connect to thousands of apps."
+    "github_description": "Official plugin distribution for the hosted Zapier MCP server. Install it in your AI client and connect to thousands of apps.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "5360f152b96735712e5f925ad728732cb86888df",
   "current_commit": "5360f152b96735712e5f925ad728732cb86888df",
   "inspection_date": "2026-09-20T05:33:18.040952+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:mcp-servers",
+    "category:skills",
     "category:plugins-extensions",
-    "category:skills"
+    "category:mcp-clients-sdks",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:zapier-mcp-agent-zapier-mcp-specialist",
@@ -44,7 +45,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -289,11 +290,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.818666+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.855201+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -316,16 +318,15 @@
   "files_read": 21,
   "entity_count": 7,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 7,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:55.211200+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -335,5 +336,305 @@
     ],
     "updated_at": "2026-10-12T19:04:27.347971+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Multi-client plugin and instruction distributions for Zapier's hosted MCP service, with onboarding, role-based action discovery, status auditing and confirmation-aware SaaS action guidance; no hosted server implementation is present.",
+    "reuse_recommendation": "Install the appropriate client package and authenticate only the required actions; host instructions do not replace server authorization.",
+    "inspection_scope": "Complete 29-file tree: four skills, a specialist agent, client distribution manifests, shared remote MCP connector configuration and an always-applied lifecycle rule. Claude/Codex/Cursor/GitHub/Gemini/Kiro packaging and steering variants wrap the same hosted service and role contracts; do not invent local MCP server/tool implementations for its external app catalogue. Repository-level completion only; detailed entities are preserved unchanged.",
+    "license_notes": "MIT; source-specific notices remain applicable.",
+    "runtime": [
+      "Markdown skills/agent rules",
+      "JSON MCP/client manifests",
+      "Remote HTTP MCP service"
+    ],
+    "keywords": [
+      "Zapier",
+      "MCP client",
+      "OAuth",
+      "SaaS actions",
+      "workflow automation",
+      "confirmation",
+      "connector"
+    ],
+    "risk_notes": [
+      "Remote OAuth and user-enabled actions determine real access; no server authorization implementation is present to audit here. The agent/rule explicitly require a user-approved shown payload for writes and prohibit third-party content from granting approval. These are instruction contracts, not server-enforced access controls. The explore skill's assumption of broad app support must be checked against actual configured actions. Credentials, MCP transport, app reads/writes and client reloads were not exercised during this static census."
+    ],
+    "important_subsystems": [
+      {
+        "name": "hosted MCP connection",
+        "purpose": "Configure an authenticated client connection to the external Zapier MCP service.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "SaaS action guidance",
+        "purpose": "Guide read/write app actions with explicit shown-payload write confirmation.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "connector onboarding",
+        "purpose": "Discover and enable a focused app/action toolkit with a read-only first demonstration.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:43:44.034571+00:00",
+    "inspected_commit": "5360f152b96735712e5f925ad728732cb86888df",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "96b2a9e2365f99aff7cbff6da2333769bcd3fe1a",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "315be69da1f9faecc5b48880994d8c9650670063",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/.claude-plugin/plugin.json",
+        "blob_sha": "ddc5b9026ff4ce2a52faaa90f73ba38a1aa53d14",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/.codex-plugin/plugin.json",
+        "blob_sha": "f05988716895f77578b7b0b7fc0c554f6599e1a6",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/.codex-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/.cursor-plugin/plugin.json",
+        "blob_sha": "20c037f9b4e83292c4391c1158328d7ed9419d90",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/.cursor-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/.github/plugin/plugin.json",
+        "blob_sha": "974a5c8ce00dce1c4e3ca3359cf362b7498683c7",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/.github/plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "gemini-extension.json",
+        "blob_sha": "eb16cddb605ea243897d88523438dd3054483b8f",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/gemini-extension.json"
+      },
+      {
+        "type": "source_review",
+        "path": "zapier-power/POWER.md",
+        "blob_sha": "e175c022e37ca0bb4b71783406284ed878dfa4eb",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/zapier-power/POWER.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/.mcp.json",
+        "blob_sha": "6373d433dccc010b4a5123e17e03977d8f1cc7fe",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/.mcp.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/agents/zapier-mcp.agent.md",
+        "blob_sha": "8614ae5b970bfd71a7bc08e0c93eccc63f383fa7",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/agents/zapier-mcp.agent.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/rules/zapier-lifecycle.mdc",
+        "blob_sha": "702fbfcfcc51912e7327a1037d82875966f6a4ff",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/rules/zapier-lifecycle.mdc"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/skills/zapier-demo/SKILL.md",
+        "blob_sha": "1bda485002d9f1cab2d079ca957989a538e66c91",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/skills/zapier-demo/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/skills/zapier-explore/SKILL.md",
+        "blob_sha": "12538fae155d70f27b696ad1142ecd943ae2050c",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/skills/zapier-explore/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/skills/zapier-onboard/SKILL.md",
+        "blob_sha": "4b69531d538feac13a9c350ffc069c63527f8071",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/skills/zapier-onboard/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/zapier/skills/zapier-status/SKILL.md",
+        "blob_sha": "ec4c6697074fa590cb0b2e579c06d321cc813dfc",
+        "value": "https://github.com/jamesrwatsonx-creator/zapier-mcp/blob/5360f152b96735712e5f925ad728732cb86888df/plugins/zapier/skills/zapier-status/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "hosted MCP connection",
+        "description": "Configure an authenticated client connection to the external Zapier MCP service.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:hosted-mcp-connection",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "SaaS action guidance",
+        "description": "Guide read/write app actions with explicit shown-payload write confirmation.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:saas-action-guidance",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "connector onboarding",
+        "description": "Discover and enable a focused app/action toolkit with a read-only first demonstration.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:connector-onboarding",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      },
+      {
+        "name": "MCP setup auditing",
+        "description": "Inventory tools and diagnose authentication, availability and redundant-action issues.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:mcp-setup-auditing",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugins/zapier/.claude-plugin/plugin.json",
+          "plugins/zapier/.codex-plugin/plugin.json",
+          "plugins/zapier/.cursor-plugin/plugin.json",
+          "plugins/zapier/.github/plugin/plugin.json",
+          "gemini-extension.json",
+          "zapier-power/POWER.md",
+          "plugins/zapier/.mcp.json",
+          "plugins/zapier/agents/zapier-mcp.agent.md",
+          "plugins/zapier/rules/zapier-lifecycle.mdc",
+          "plugins/zapier/skills/zapier-demo/SKILL.md",
+          "plugins/zapier/skills/zapier-explore/SKILL.md",
+          "plugins/zapier/skills/zapier-onboard/SKILL.md",
+          "plugins/zapier/skills/zapier-status/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

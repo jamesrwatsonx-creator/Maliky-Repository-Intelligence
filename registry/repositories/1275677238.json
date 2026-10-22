@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/n8n-io/n8n",
-  "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "description": "Workflow automation platform for connecting APIs and business applications through visual nodes, triggers and execution flows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-06-20T23:02:02Z",
-    "github_description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    "github_description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "53ade12c27e73c10be539a8866680b348db2265f",
   "current_commit": "53ade12c27e73c10be539a8866680b348db2265f",
   "inspection_date": "2026-09-20T05:32:47.751685+00:00",
   "categories": [
     "category:automation-scripting",
+    "category:business-applications",
     "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [
     "operational:20"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 27,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.567401+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.721897+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 20576,
-  "files_read": 9,
+  "files_read": 15,
   "entity_count": 1,
-  "unread_source_files": 19299,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 19446,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.224582+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Workflow automation platform for connecting APIs and business applications through visual nodes, triggers and execution flows.",
+    "reuse_recommendation": "Use with least-privilege credentials and approval gates for writes, financial tasks or bulk messaging.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Sustainable Use License or other current terms; verify exact version and usage rights.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "database",
+      "worker/queue infrastructure"
+    ],
+    "keywords": [
+      "n8n",
+      "workflow automation",
+      "API integrations",
+      "visual orchestration",
+      "self-hosted automation"
+    ],
+    "risk_notes": [
+      "Workflow secrets and automated external actions are high-impact."
+    ],
+    "important_subsystems": [
+      {
+        "name": "n8n workflow platform",
+        "purpose": "Connects services and automates data movement and actions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:56.952105+00:00",
+    "inspected_commit": "53ade12c27e73c10be539a8866680b348db2265f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ced2cac78c4b900f592441a3b1806e07f1affabd",
+        "value": "https://github.com/jamesrwatsonx-creator/n8n/blob/53ade12c27e73c10be539a8866680b348db2265f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual workflow authoring",
+        "description": "Composes triggers and actions across services in a node-based editor.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-workflow-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "integration and connector ecosystem",
+        "description": "Provides reusable nodes for APIs and business tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:integration-and-connector-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "workflow runtime and deployment",
+        "description": "Executes automations and supports self-hosted operations.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:workflow-runtime-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

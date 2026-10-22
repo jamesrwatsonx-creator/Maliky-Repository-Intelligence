@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Nayshins/mcp-server-ccxt",
-  "description": "Cryptocurrency Market Data MCP Server",
+  "description": "Python MCP server exposing read-only cryptocurrency exchange market data through CCXT, including ticker and OHLCV retrieval.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-02-17T18:45:06Z",
-    "github_description": "Cryptocurrency Market Data MCP Server"
+    "github_description": "Cryptocurrency Market Data MCP Server",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f7ddee5eb4a335e42541e0c45c6785aa6c88591b",
   "current_commit": "f7ddee5eb4a335e42541e0c45c6785aa6c88591b",
   "inspection_date": "2026-10-21T00:01:39.419298+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mcp-servers",
+    "category:apis",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,153 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.489796+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.620269+00:00",
   "tree_files": 9,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 7,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python MCP server exposing read-only cryptocurrency exchange market data through CCXT, including ticker and OHLCV retrieval.",
+    "reuse_recommendation": "Use for read-only market-data integrations after checking exchange limits and data semantics; do not treat it as trading execution or financial advice.",
+    "inspection_scope": "Reviewed the actual MCP server entrypoint, package metadata and container setup. Observed tools fetch public ticker, multi-ticker and OHLCV data; no order placement implementation was found. README launch path differs from the src/server.py layout.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Python",
+      "MCP stdio",
+      "CCXT async",
+      "Docker"
+    ],
+    "keywords": [
+      "CCXT MCP server",
+      "crypto market data",
+      "exchange ticker",
+      "OHLCV",
+      "read-only finance tools"
+    ],
+    "risk_notes": [
+      "External market data can be delayed or inconsistent; rate limits and exchange availability apply. No order execution was observed."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MCP tool server",
+        "purpose": "Defines and serves the market-data tool interface.",
+        "evidence_paths": [
+          "src/server.py"
+        ]
+      },
+      {
+        "name": "CCXT exchange adapter",
+        "purpose": "Uses CCXT asynchronous clients to query exchange market endpoints.",
+        "evidence_paths": [
+          "src/server.py",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:30.718448+00:00",
+    "inspected_commit": "f7ddee5eb4a335e42541e0c45c6785aa6c88591b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "aad620d97a33d686a7a21e13cbbe68e9ec133d41",
+        "value": "https://github.com/jamesrwatsonx-creator/mcp-server-ccxt/blob/f7ddee5eb4a335e42541e0c45c6785aa6c88591b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "61de1f4fe809f4e3a00482c559f2a990edd5d37f",
+        "value": "https://github.com/jamesrwatsonx-creator/mcp-server-ccxt/blob/f7ddee5eb4a335e42541e0c45c6785aa6c88591b/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "545232524a14c5969ff69a9b3cc59264036ca164",
+        "value": "https://github.com/jamesrwatsonx-creator/mcp-server-ccxt/blob/f7ddee5eb4a335e42541e0c45c6785aa6c88591b/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "src/server.py",
+        "blob_sha": "e25e6715509bcef03fa70dd0ce29ce1aeef9b273",
+        "value": "https://github.com/jamesrwatsonx-creator/mcp-server-ccxt/blob/f7ddee5eb4a335e42541e0c45c6785aa6c88591b/src/server.py"
+      },
+      {
+        "type": "source_review",
+        "path": "Dockerfile",
+        "blob_sha": "a26b9831497fb95338253c91a281f62c4bc16fab",
+        "value": "https://github.com/jamesrwatsonx-creator/mcp-server-ccxt/blob/f7ddee5eb4a335e42541e0c45c6785aa6c88591b/Dockerfile"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "exchange ticker data",
+        "description": "Retrieves current market ticker information through CCXT-supported exchanges.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:exchange-ticker-data",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "src/server.py",
+          "Dockerfile"
+        ]
+      },
+      {
+        "name": "historical OHLCV data",
+        "description": "Fetches candle data for configured symbols and intervals.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:historical-ohlcv-data",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "src/server.py",
+          "Dockerfile"
+        ]
+      },
+      {
+        "name": "MCP market data interface",
+        "description": "Exposes market data retrieval as host-callable MCP tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-market-data-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "src/server.py",
+          "Dockerfile"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/pentacent/keila",
-  "description": "Open Source Newsletter Tool.",
+  "description": "Self-hostable email marketing and newsletter platform for managing subscribers, campaigns, forms and email delivery.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-02T08:40:04Z",
-    "github_description": "Open Source Newsletter Tool."
+    "github_description": "Open Source Newsletter Tool.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2308bebd2b54edc8ac8d484be5c9b4e972aed7cc",
   "current_commit": "2308bebd2b54edc8ac8d484be5c9b4e972aed7cc",
   "inspection_date": "2026-10-20T23:56:22.522640+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:marketing-communications",
+    "category:business-applications",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.299496+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.403863+00:00",
   "tree_files": 1074,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 81,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 502,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hostable email marketing and newsletter platform for managing subscribers, campaigns, forms and email delivery.",
+    "reuse_recommendation": "Use with consent, unsubscribe, suppression and deliverability controls in place.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "AGPL-3.0; email and privacy regulations apply.",
+    "runtime": [
+      "Elixir/Phoenix",
+      "database",
+      "SMTP/email providers"
+    ],
+    "keywords": [
+      "Keila",
+      "newsletter",
+      "email campaigns",
+      "subscriber management",
+      "self-hosted marketing"
+    ],
+    "risk_notes": [
+      "Subscriber PII and bulk email create privacy, compliance and abuse risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Keila email platform",
+        "purpose": "Combines contact management, campaign creation and newsletter delivery.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:14.723773+00:00",
+    "inspected_commit": "2308bebd2b54edc8ac8d484be5c9b4e972aed7cc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e5674e371b9b5dd4772c1a2ef12fbb5cb8b3937f",
+        "value": "https://github.com/jamesrwatsonx-creator/keila-newsletter/blob/2308bebd2b54edc8ac8d484be5c9b4e972aed7cc/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "subscriber and audience management",
+        "description": "Stores contacts and organizes mailing audiences.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:subscriber-and-audience-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "campaign authoring and delivery",
+        "description": "Builds and sends newsletter campaigns through configured providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:campaign-authoring-and-delivery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "forms and integrations",
+        "description": "Collects subscribers and connects workflows to external services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:forms-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

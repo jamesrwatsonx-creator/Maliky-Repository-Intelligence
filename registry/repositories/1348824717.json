@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/openfga/openfga",
-  "description": "A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar",
+  "description": "Authorization system implementing relationship-based access control for applications and services.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-26T19:03:25Z",
-    "github_description": "A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar"
+    "github_description": "A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "7b3de00a1e3dc2914536c23e6c8f5cb8795ae05b",
   "current_commit": "7b3de00a1e3dc2914536c23e6c8f5cb8795ae05b",
   "inspection_date": "2026-09-20T05:34:07.826495+00:00",
   "categories": [
-    "category:general-other"
+    "category:iam",
+    "category:backend-services",
+    "category:databases"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.760524+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.879111+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 574,
-  "files_read": 5,
+  "files_read": 14,
   "entity_count": 0,
-  "unread_source_files": 525,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 537,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.245159+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Authorization system implementing relationship-based access control for applications and services.",
+    "reuse_recommendation": "Use for centralized authorization after modeling and testing policy edge cases.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Apache-2.0.",
+    "runtime": [
+      "Go service",
+      "HTTP/gRPC APIs",
+      "relational datastore"
+    ],
+    "keywords": [
+      "OpenFGA",
+      "relationship-based access control",
+      "authorization",
+      "permissions graph",
+      "IAM"
+    ],
+    "risk_notes": [
+      "Incorrect authorization models can expose or deny sensitive resources; threat-model policy changes."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenFGA authorization service",
+        "purpose": "Evaluates fine-grained permissions from relationship tuples and models.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:38.569663+00:00",
+    "inspected_commit": "7b3de00a1e3dc2914536c23e6c8f5cb8795ae05b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ec713e65a1d61a8f7c91984aacd7652e0e0c6a75",
+        "value": "https://github.com/jamesrwatsonx-creator/openfga/blob/7b3de00a1e3dc2914536c23e6c8f5cb8795ae05b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "authorization model",
+        "description": "Defines relationships and permission evaluation for application resources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:authorization-model",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "authorization API and SDKs",
+        "description": "Exposes permission checks and relationship writes to applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:authorization-api-and-sdks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "deployment and datastore",
+        "description": "Supports operating the authorization service with configured storage.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:deployment-and-datastore",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

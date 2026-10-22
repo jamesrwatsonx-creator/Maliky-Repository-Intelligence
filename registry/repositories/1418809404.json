@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/codelibs/fess",
-  "description": "Open-source, self-hosted enterprise & site search server built on OpenSearch. Crawls web / file / DB / cloud sources, 20+ languages, REST API, and AI/RAG & semantic search. Apache-2.0.",
+  "description": "Enterprise search server for indexing and searching websites, files, databases and other content sources.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-13T21:41:33Z",
-    "github_description": "Open-source, self-hosted enterprise & site search server built on OpenSearch. Crawls web / file / DB / cloud sources, 20+ languages, REST API, and AI/RAG & semantic search. Apache-2.0."
+    "github_description": "Open-source, self-hosted enterprise & site search server built on OpenSearch. Crawls web / file / DB / cloud sources, 20+ languages, REST API, and AI/RAG & semantic search. Apache-2.0.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ef8ed6a1121a656a3f0b0c13c98950434a9a94fd",
   "current_commit": "ef8ed6a1121a656a3f0b0c13c98950434a9a94fd",
   "inspection_date": "2026-10-20T23:54:39.999247+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:backend-services",
+    "category:backend-services",
+    "category:backend-services"
+  ],
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.784543+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.698209+00:00",
   "tree_files": 2697,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2384,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2389,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Enterprise search server for indexing and searching websites, files, databases and other content sources.",
+    "reuse_recommendation": "Use for enterprise search with document-level access controls and index freshness requirements.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Apache-2.0; indexed content retains its own access and license restrictions.",
+    "runtime": [
+      "Java",
+      "OpenSearch",
+      "web service"
+    ],
+    "keywords": [
+      "Fess",
+      "enterprise search",
+      "document indexing",
+      "website search",
+      "OpenSearch"
+    ],
+    "risk_notes": [
+      "Search indexes can leak documents if permissions are not preserved."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fess search platform",
+        "purpose": "Combines content ingestion, indexing and enterprise search UX.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:55.501027+00:00",
+    "inspected_commit": "ef8ed6a1121a656a3f0b0c13c98950434a9a94fd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c5746c630f954917f44a93f836f2f7d322870023",
+        "value": "https://github.com/jamesrwatsonx-creator/fess/blob/ef8ed6a1121a656a3f0b0c13c98950434a9a94fd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-source crawling and indexing",
+        "description": "Collects content from websites and enterprise data sources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-source-crawling-and-indexing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "full-text search and administration",
+        "description": "Provides query, ranking and index management interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:full-text-search-and-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "deployment and integration APIs",
+        "description": "Supports operating search services and connecting client applications.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:deployment-and-integration-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

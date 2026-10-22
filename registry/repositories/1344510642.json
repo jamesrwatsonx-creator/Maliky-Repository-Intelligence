@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/openai/whisper",
-  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "description": "OpenAI Python implementation and model package for multilingual speech recognition, transcription, translation and spoken-language identification.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-28T20:18:29Z",
-    "github_description": "Robust Speech Recognition via Large-Scale Weak Supervision"
+    "github_description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "5f86d1d86363843179951550570367b37c5d6f78",
   "current_commit": "5f86d1d86363843179951550570367b37c5d6f78",
   "inspection_date": "2026-09-20T05:33:47.688625+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:cli-tools",
-    "category:generative-ai",
-    "category:libraries-packages"
+    "category:machine-learning-models",
+    "category:ai-applications",
+    "category:scientific-computing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:whisper-cli-whisper",
@@ -42,7 +42,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -287,11 +287,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.726825+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.739143+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -313,8 +314,8 @@
   "tree_files": 45,
   "files_read": 33,
   "entity_count": 4,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 2,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -333,5 +334,118 @@
     ],
     "updated_at": "2026-10-12T19:04:27.342656+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "OpenAI Python implementation and model package for multilingual speech recognition, transcription, translation and spoken-language identification.",
+    "reuse_recommendation": "Use for transcription where local compute and model terms fit; assess accuracy, latency and sensitive-audio handling.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT code; review model card and dataset/model use terms for deployment context.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Whisper model weights",
+      "ffmpeg"
+    ],
+    "keywords": [
+      "OpenAI Whisper",
+      "speech recognition",
+      "audio transcription",
+      "speech translation",
+      "language identification"
+    ],
+    "risk_notes": [
+      "Audio may contain sensitive information; secure files and outputs and disclose transcription limitations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Whisper inference package",
+        "purpose": "Loads model checkpoints and performs speech tasks from audio inputs.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:20.348230+00:00",
+    "inspected_commit": "5f86d1d86363843179951550570367b37c5d6f78",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "196b48f62d3b6f0b77bac2b7dbc2df5e4cfb070b",
+        "value": "https://github.com/jamesrwatsonx-creator/whisper/blob/5f86d1d86363843179951550570367b37c5d6f78/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "d25552598bb9c5400612159ed4bab92ce12a5ce5",
+        "value": "https://github.com/jamesrwatsonx-creator/whisper/blob/5f86d1d86363843179951550570367b37c5d6f78/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "21b90e737abc3fea0bf0270deb81e6e79e03e4d7",
+        "value": "https://github.com/jamesrwatsonx-creator/whisper/blob/5f86d1d86363843179951550570367b37c5d6f78/pyproject.toml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "multilingual speech recognition",
+        "description": "Transcribes speech across supported languages using Whisper models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multilingual-speech-recognition",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "speech translation and identification",
+        "description": "Supports translating speech and identifying spoken language.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-translation-and-identification",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "Python inference package",
+        "description": "Provides command-line and library access to model inference.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:python-inference-package",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

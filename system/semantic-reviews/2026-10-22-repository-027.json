@@ -1,0 +1,1022 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Confirm source scope, version and operational constraints before production adoption."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/semgrep",
+                             "commit":  "0516c0f23a3dceac5c8f5ff3fecd402af4450182",
+                             "purpose":  "Fast static analysis platform for detecting bugs, security vulnerabilities and policy violations in source code using customizable rules.",
+                             "categories":  [
+                                                "category:cybersecurity",
+                                                "category:developer-tools",
+                                                "category:security-testing"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Check Semgrep product/edition terms and rule licenses.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "security":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Semgrep",
+                                              "static analysis",
+                                              "SAST",
+                                              "security rules",
+                                              "code scanning"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "source code scanning",
+                                                             "description":  "Analyzes code for security and correctness patterns across languages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "custom rule authoring",
+                                                             "description":  "Defines reusable rules for project-specific policies and detections.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CI and developer integrations",
+                                                             "description":  "Runs scans in local development and continuous integration.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Semgrep scanner and rules",
+                                                              "purpose":  "Combines fast code analysis with an extensible pattern language.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "OCaml/Python components",
+                                             "CLI",
+                                             "CI integrations"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for security and quality checks with tuned rules and reviewed findings.",
+                             "risk_notes":  [
+                                                "Static analysis can miss vulnerabilities or generate false positives; scan results are not proof of safety."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/scancode-toolkit",
+                             "commit":  "5e8448ecf2397c6eb7e7eb50326c8c880d9b598b",
+                             "purpose":  "Software composition analysis toolkit for identifying licenses, copyrights and package provenance in codebases and archives.",
+                             "categories":  [
+                                                "category:compliance-governance",
+                                                "category:developer-tools",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Apache-2.0; detected package/license data retain source terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "ScanCode Toolkit",
+                                              "license detection",
+                                              "software composition analysis",
+                                              "copyright inventory",
+                                              "SBOM support"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "license and copyright scanning",
+                                                             "description":  "Detects license and copyright indicators across source files.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "package and provenance analysis",
+                                                             "description":  "Identifies components and evidence for software inventory workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "compliance reporting",
+                                                             "description":  "Produces machine-readable reports for review and governance.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ScanCode scanner",
+                                                              "purpose":  "Automates evidence gathering for software license and provenance review.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python CLI",
+                                             "package/license databases"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use as evidence for legal review, not as a definitive legal conclusion.",
+                             "risk_notes":  [
+                                                "License detection is probabilistic and requires human verification for significant obligations."
+                                            ],
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/linguist",
+                             "commit":  "ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae",
+                             "purpose":  "GitHub language detection library and tooling for identifying programming languages in repositories and applying syntax metadata.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:libraries-packages",
+                                                "category:data-engineering"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "MIT; language data and vendored grammars may have additional licenses.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "GitHub Linguist",
+                                              "language detection",
+                                              "repository statistics",
+                                              "syntax highlighting",
+                                              "file classification"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "source language identification",
+                                                             "description":  "Classifies repository files using heuristics and language metadata.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "repository language statistics",
+                                                             "description":  "Aggregates language usage for project reporting.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "syntax and vendored file handling",
+                                                             "description":  "Supports highlighting metadata and generated/vendor exclusions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Linguist classifier",
+                                                              "purpose":  "Provides consistent language attribution for repository content.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Ruby",
+                                             "YAML language definitions",
+                                             "Git repositories"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for repository classification and adapt generated/vendor overrides to the target corpus.",
+                             "risk_notes":  [
+                                                "Heuristic language results may misclassify generated or mixed-language files."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/repomix",
+                             "commit":  "f444a651f7cd1ce17aa290b5c0df9bc730f350ab",
+                             "purpose":  "CLI tool that packages repository files into a compact text artifact for sharing with LLMs and code analysis workflows.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:cli-tools",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Check repository license and included third-party package terms.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Repomix",
+                                              "repository context packing",
+                                              "LLM codebase input",
+                                              "code analysis CLI",
+                                              "source bundle"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "repository file collection",
+                                                             "description":  "Selects and aggregates project files into a consolidated representation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "token-aware context preparation",
+                                                             "description":  "Formats source content for model context limits and analysis.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "ignore and security filtering",
+                                                             "description":  "Supports excluding unwanted files and secrets from packed output.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Repomix CLI",
+                                                              "purpose":  "Prepares repository context for agent and model workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js CLI",
+                                             "Git repositories"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with explicit ignore rules and secret scanning before sending bundles to external models.",
+                             "risk_notes":  [
+                                                "Packed repositories may expose credentials, private code or user data."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/codeql",
+                             "commit":  "e7bc1c6fb69fab063bb862a57336c69dc33723d0",
+                             "purpose":  "Semantic code analysis engine and query language for finding security vulnerabilities and correctness issues across software repositories.",
+                             "categories":  [
+                                                "category:cybersecurity",
+                                                "category:developer-tools",
+                                                "category:security-testing"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Check CodeQL CLI/database terms and GitHub product licensing.",
+                             "asset_presence":  {
+                                                    "security":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "CodeQL",
+                                              "semantic code analysis",
+                                              "security scanning",
+                                              "query language",
+                                              "vulnerability detection"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "code database extraction",
+                                                             "description":  "Builds semantic databases from supported source languages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "security query library",
+                                                             "description":  "Runs reusable queries to identify vulnerability patterns.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CI and repository integration",
+                                                             "description":  "Automates analysis in developer and code-hosting workflows.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "CodeQL analysis platform",
+                                                              "purpose":  "Combines semantic extraction with query-based security analysis.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "CodeQL CLI",
+                                             "supported language toolchains",
+                                             "GitHub Actions"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use in authorized code scanning pipelines and review query coverage and findings.",
+                             "risk_notes":  [
+                                                "Analysis results are not exhaustive; database generation processes untrusted source."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/RepoAgent",
+                             "commit":  "825d988127d7bfd757237d9c4e8678d9104030f0",
+                             "purpose":  "AI-assisted repository understanding tool that generates code documentation and navigable context from source projects.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:technology-maps",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Check repository license and model provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "RepoAgent",
+                                              "codebase documentation",
+                                              "repository understanding",
+                                              "AI code summaries",
+                                              "architecture map"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "repository structure analysis",
+                                                             "description":  "Examines code organization and relationships to build project context.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "AI documentation generation",
+                                                             "description":  "Produces explanations or documentation for source components.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "RepoAgent analysis pipeline",
+                                                              "purpose":  "Turns repository source into agent-readable summaries and documentation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "LLM APIs",
+                                             "source parsing tools"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use to accelerate onboarding and validate generated descriptions against pinned source.",
+                             "risk_notes":  [
+                                                "Source may be sent to model providers; generated documentation can be inaccurate."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/syft",
+                             "commit":  "b49f0172f636fca01282eb12a411de6b0e26e633",
+                             "purpose":  "Software supply chain tool for generating software bills of materials from container images, filesystems and source projects.",
+                             "categories":  [
+                                                "category:cybersecurity",
+                                                "category:devops",
+                                                "category:compliance-governance"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Apache-2.0; scanned packages retain their own licenses.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Syft",
+                                              "SBOM",
+                                              "software inventory",
+                                              "container scanning",
+                                              "supply chain security"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "component inventory generation",
+                                                             "description":  "Discovers packages and dependencies in software artifacts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "SBOM format output",
+                                                             "description":  "Produces interoperable inventories for security and compliance workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CI and container integration",
+                                                             "description":  "Scans images and build artifacts in development pipelines.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Syft SBOM generator",
+                                                              "purpose":  "Creates software component inventories for downstream analysis.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go CLI",
+                                             "containers and filesystems"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use in release pipelines and retain artifact provenance and scan configuration.",
+                             "risk_notes":  [
+                                                "SBOMs may miss dynamically loaded or embedded components and are not security clearance by themselves."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/user-research-skill",
+                             "commit":  "21eea10a34d3c9b4e711e3d19f0457603dd33e19",
+                             "purpose":  "Agent skill guiding product teams through user research planning, interview synthesis and evidence-based product decisions.",
+                             "categories":  [
+                                                "category:skills",
+                                                "category:research-projects",
+                                                "category:productivity"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Check repository license and participant research material rights.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "user research skill",
+                                              "interview planning",
+                                              "research synthesis",
+                                              "product discovery",
+                                              "agent workflow"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "research planning instructions",
+                                                             "description":  "Guides selection of research questions, methods and participant plans.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "interview and synthesis workflows",
+                                                             "description":  "Supports organizing findings into evidence and themes.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "User research skill",
+                                                              "purpose":  "Provides reusable agent guidance for product discovery and research.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown skill",
+                                             "compatible agent host"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use as a research scaffold and preserve participant consent, anonymization and evidence provenance.",
+                             "risk_notes":  [
+                                                "Interview notes can contain personally identifiable or sensitive information."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/scroll-world",
+                             "commit":  "71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+                             "purpose":  "Interactive 3D or scroll-driven web experience presenting a navigable world or visual story.",
+                             "categories":  [
+                                                "category:creative-tools",
+                                                "category:games-interactive-experiences",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check repository and media/3D asset terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Scroll World",
+                                              "3D web experience",
+                                              "interactive storytelling",
+                                              "scroll animation",
+                                              "world visualization"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "interactive world visualization",
+                                                             "description":  "Presents a 3D or spatial environment for browser exploration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "scroll-driven storytelling",
+                                                             "description":  "Links user scroll behavior with animated scenes or narrative progression.",
+                                                             "scope":  "DESIGN"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Scroll World experience",
+                                                              "purpose":  "Combines interactive graphics with a guided visual narrative.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/TypeScript",
+                                             "browser 3D renderer"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a visual interaction reference and test GPU cost, reduced motion and keyboard access.",
+                             "risk_notes":  [
+                                                "Large 3D experiences may perform poorly on mobile and can exclude assistive users."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/video-shotcraft",
+                             "commit":  "5e71af35a2daee492dd3ea93e5e8903f32dcd13c",
+                             "purpose":  "AI-assisted video creation toolkit for planning shots, generating scenes or assembling structured video content.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:creative-tools",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check code, model, footage and output licensing.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "video shotcraft",
+                                              "AI video production",
+                                              "shot planning",
+                                              "scene generation",
+                                              "media workflow"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "shot and scene planning",
+                                                             "description":  "Structures video concepts into shots and production sequences.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "AI media generation and assembly",
+                                                             "description":  "Connects model tools to scene creation or video editing workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Shotcraft production workflow",
+                                                              "purpose":  "Organizes AI-assisted video concepts into usable media outputs.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "video/model services"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for creative prototypes and verify media rights, factual accuracy and output provenance.",
+                             "risk_notes":  [
+                                                "Synthetic media can mislead audiences and may use unlicensed source material."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Jev-For-Dummies",
+                             "commit":  "e97d28eec2330b4b2df8d05376627ca0cca6de68",
+                             "purpose":  "Beginner-oriented documentation or examples for using JEV decision-engine workflows and structured agent judgments.",
+                             "categories":  [
+                                                "category:documentation",
+                                                "category:education",
+                                                "category:reference-implementations"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check repository license and JEV implementation/version alignment.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "JEV guide",
+                                              "decision engine tutorial",
+                                              "agent judgments",
+                                              "beginner documentation",
+                                              "structured decisions"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "decision engine learning materials",
+                                                             "description":  "Explains core JEV concepts and usage patterns for new users.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "example decisions and workflows",
+                                                             "description":  "Demonstrates structured question and answer workflows.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "JEV beginner guide",
+                                                              "purpose":  "Makes the decision-engine approach easier to adopt.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Documentation and examples"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as onboarding material and verify examples against the current JEV API and operating rules.",
+                             "risk_notes":  [
+                                                "Decision outputs do not establish facts; source evidence remains authoritative."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/autoclip",
+                             "commit":  "aaf863bbd7bba99c64bc53284d41c0ed19034387",
+                             "purpose":  "Automated video clipping tool for identifying highlights and producing short-form clips from longer recordings.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:automation-scripting",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check repository and transcription/video model terms.",
+                             "asset_presence":  {
+                                                    "business_media_other":  "PRESENT",
+                                                    "voice_audio":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AutoClip",
+                                              "video highlights",
+                                              "short clips",
+                                              "media repurposing",
+                                              "automatic editing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "highlight detection and clipping",
+                                                             "description":  "Finds candidate segments and extracts short video clips.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "caption and social export workflows",
+                                                             "description":  "Prepares clips for publishing or further editing.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "AutoClip pipeline",
+                                                              "purpose":  "Automates long-form to short-form video repurposing.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/media tooling",
+                                             "FFmpeg",
+                                             "speech/vision models"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with human review of clip context, captions and source rights before publishing.",
+                             "risk_notes":  [
+                                                "Automated edits can distort context; recordings may contain private speech or imagery."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/visual-explainer",
+                             "commit":  "7163c3e10660912e0b89e1af465db9f387282b88",
+                             "purpose":  "Tool or workflow for turning technical concepts and written explanations into diagrams or visual learning materials.",
+                             "categories":  [
+                                                "category:creative-tools",
+                                                "category:education",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check repository and image/font asset rights.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "visual explainer",
+                                              "technical diagrams",
+                                              "educational graphics",
+                                              "concept visualization",
+                                              "documentation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "concept-to-visual transformation",
+                                                             "description":  "Structures explanations into diagrams or visual narrative artifacts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "visual documentation workflow",
+                                                             "description":  "Supports creation and iteration of explanatory materials.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Visual explainer workflow",
+                                                              "purpose":  "Makes complex ideas easier to communicate through visuals.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared design/web tools",
+                                             "optional AI services"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for communication prototypes and verify the resulting visual claims against source material.",
+                             "risk_notes":  [
+                                                "Simplified diagrams can omit important qualifications or relationships."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/fast-voice-assistant",
+                             "commit":  "5fbf75ea10e25932955e7bd5cf023796b110e252",
+                             "purpose":  "Voice assistant application optimized for quick speech interaction, combining recognition, language-model response and spoken output.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:media-publishing",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check repository, speech model and provider terms.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "fast voice assistant",
+                                              "low-latency speech",
+                                              "STT TTS",
+                                              "conversational agent",
+                                              "audio pipeline"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "low-latency speech pipeline",
+                                                             "description":  "Connects audio input, recognition and assistant output with responsiveness goals.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "conversational assistant logic",
+                                                             "description":  "Routes recognized requests through model-backed responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Fast voice pipeline",
+                                                              "purpose":  "Provides a realtime voice assistant interaction loop.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "STT/LLM/TTS services"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use after measuring latency, interruption handling and local/cloud data flow.",
+                             "risk_notes":  [
+                                                "Voice data and assistant actions need consent and privacy safeguards."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/voice-website-WeKnora",
+                             "commit":  "4364e61afa4bf1e086c34b4220bb21449aa15b25",
+                             "purpose":  "Voice-enabled knowledge or website interaction application built around WeKnora-style retrieval and conversational question answering.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:rag",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check repository and WeKnora/model provider terms.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "agents":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "voice website assistant",
+                                              "WeKnora",
+                                              "RAG voice interface",
+                                              "knowledge search",
+                                              "spoken Q\u0026A"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "knowledge retrieval and Q\u0026A",
+                                                             "description":  "Retrieves information from configured knowledge sources for responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "voice interaction layer",
+                                                             "description":  "Lets users ask questions and receive spoken responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Voice WeKnora experience",
+                                                              "purpose":  "Combines retrieval-grounded answers with speech interaction.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "retrieval database",
+                                             "speech and LLM APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for voice knowledge interfaces and validate citations, source access and audio consent.",
+                             "risk_notes":  [
+                                                "Knowledge sources and audio may contain sensitive content; retrieval must preserve permissions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/claude-code",
+                             "commit":  "7779afb12e3635f46f56ec823979d68350ae000b",
+                             "purpose":  "Claude Code command-line coding agent for understanding repositories, editing files and running developer tools through natural-language tasks.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-agents",
+                                                "category:cli-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository provenance; Anthropic Claude Code product and API terms apply.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Claude Code",
+                                              "coding agent CLI",
+                                              "repository automation",
+                                              "developer assistant",
+                                              "agent skills"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "repository-aware coding workflows",
+                                                             "description":  "Uses project context to answer questions and implement code changes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "commands and skills ecosystem",
+                                                             "description":  "Extends agent behavior with reusable instructions and tool workflows.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "shell and file operations",
+                                                             "description":  "Connects natural-language tasks to local development tools.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Claude Code agent interface",
+                                                              "purpose":  "Provides a terminal-first coding agent experience.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js CLI or repository-declared runtime",
+                                             "Claude APIs",
+                                             "local development tools"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Verify this repository’s provenance and use scoped access with reviewed changes and explicit provider data controls.",
+                             "risk_notes":  [
+                                                "Coding agents can modify files and execute commands; private source may be sent to model services."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/laptop-pet-Octop",
+                             "commit":  "c04aacc604a23ac05c00538f1bd4bc586fee6bb6",
+                             "purpose":  "Desktop companion or animated pet application that provides a persistent character interface and lightweight productivity interactions.",
+                             "categories":  [
+                                                "category:desktop-applications",
+                                                "category:creative-tools",
+                                                "category:productivity"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check repository and bundled character/art assets.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "desktop pet",
+                                              "animated companion",
+                                              "productivity mascot",
+                                              "desktop widget",
+                                              "Octop"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "desktop companion interface",
+                                                             "description":  "Displays an animated character over the desktop environment.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "character animation and interaction",
+                                                             "description":  "Provides lightweight interactions and visual states for the companion.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Octop desktop pet",
+                                                              "purpose":  "Adds a persistent animated companion experience to desktop workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Desktop application",
+                                             "repository-declared UI runtime"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a desktop companion pattern and verify startup behavior, accessibility and asset provenance.",
+                             "risk_notes":  [
+                                                "Persistent overlays and startup processes should be transparent and user-controllable."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Mobile-app-store-submission",
+                             "commit":  "c0c1428275308abb66a353151c94cfef2829f94a",
+                             "purpose":  "Workflow or skill collection for preparing and submitting mobile applications to app stores, including metadata, screenshots and release checks.",
+                             "categories":  [
+                                                "category:skills",
+                                                "category:mobile-applications",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Check repository license and current Apple/Google store policies.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "app store submission",
+                                              "mobile release checklist",
+                                              "App Store Connect",
+                                              "Google Play",
+                                              "release workflow"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "store submission preparation",
+                                                             "description":  "Guides metadata, screenshots, privacy disclosures and package readiness.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "release validation workflow",
+                                                             "description":  "Provides checks for platform requirements and submission artifacts.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Mobile store release skill",
+                                                              "purpose":  "Organizes repeatable preparation for app marketplace submissions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Documentation/agent skills",
+                                             "App Store and Google Play portals"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use as a checklist and verify every requirement against current platform policies before submission.",
+                             "risk_notes":  [
+                                                "Store policies change; inaccurate privacy or age-rating declarations can delay release."
+                                            ]
+                         }
+                     ]
+}

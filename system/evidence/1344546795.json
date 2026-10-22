@@ -9,8 +9,20 @@
       "sha": "cfcf87ad761fb374ab3394e8472ca5c8735d2dd7"
     },
     {
+      "path": "COPYING",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
       "path": "README.md",
       "sha": "5d7f1530efab492ec2cdb9916e250df9d8ce971d"
+    },
+    {
+      "path": "cmd/generate-config/README.md",
+      "sha": "e26170fc77e6b4f1239e0fe3b790da47b0e49e5c"
+    },
+    {
+      "path": "cmd/generate-database/README.md",
+      "sha": "781fdbec82c13c6e6225bc18a67b5c348638fb5b"
     },
     {
       "path": "doc/README.md",
@@ -21,8 +33,16 @@
       "sha": "c0ee68abd448fda1bd6d90d888d23b92e49d1349"
     },
     {
+      "path": "shared/resources/usbid/README.md",
+      "sha": "a5c619512154bf7bcfa6398e8af1a27fcec1a059"
+    },
+    {
       "path": "test/README.md",
       "sha": "9b6b8995fc6775f34e7439f9cc95606592d4babb"
+    },
+    {
+      "path": "test/mini-oidc/README.md",
+      "sha": "5b153f329e2857f27a279667e3153fee40ffbd2f"
     }
   ],
   "files_read": [
@@ -50,10 +70,36 @@
       "path": "AGENTS.md",
       "blob_sha": "cfcf87ad761fb374ab3394e8472ca5c8735d2dd7",
       "entities_detected": 0
+    },
+    {
+      "path": "COPYING",
+      "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/generate-config/README.md",
+      "blob_sha": "e26170fc77e6b4f1239e0fe3b790da47b0e49e5c",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/generate-database/README.md",
+      "blob_sha": "781fdbec82c13c6e6225bc18a67b5c348638fb5b",
+      "entities_detected": 0
+    },
+    {
+      "path": "test/mini-oidc/README.md",
+      "blob_sha": "5b153f329e2857f27a279667e3153fee40ffbd2f",
+      "entities_detected": 0
+    },
+    {
+      "path": "shared/resources/usbid/README.md",
+      "blob_sha": "a5c619512154bf7bcfa6398e8af1a27fcec1a059",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".deepsource.toml",
+    ".devcontainer/Dockerfile",
     ".devcontainer/devcontainer.json",
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug-reports.yml",
@@ -63,6 +109,7 @@
     ".github/dependabot.yml",
     ".github/labeler.yml",
     ".github/packaging/macos/build.sh",
+    ".github/packaging/macos/distribution.xml",
     ".github/packaging/windows/build.sh",
     ".github/packaging/windows/make-license-rtf.sh",
     ".github/workflows/build.yml",
@@ -76,6 +123,7 @@
     ".vscode/launch.json",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "Makefile",
     "SECURITY.md",
     "client/connection.go",
     "client/doc.go",
@@ -116,11 +164,9 @@
     "client/util.go",
     "cmd/fuidshift/main.go",
     "cmd/fuidshift/main_shift.go",
-    "cmd/generate-config/README.md",
     "cmd/generate-config/incus_doc.go",
     "cmd/generate-config/incus_doc_test.go",
     "cmd/generate-config/main.go",
-    "cmd/generate-database/README.md",
     "cmd/generate-database/db.go",
     "cmd/generate-database/db/constants.go",
     "cmd/generate-database/db/lex.go",
@@ -151,8 +197,7 @@
     "cmd/incus-agent/exec.go",
     "cmd/incus-agent/main.go",
     "cmd/incus-agent/main_agent.go",
-    "cmd/incus-agent/metrics.go",
-    "cmd/incus-agent/network.go"
+    "cmd/incus-agent/metrics.go"
   ],
   "excluded_nontext_paths": [
     ".codespell-ignore",
@@ -249,8 +294,12 @@
     "shared": 214,
     "test": 168
   },
-  "unread_source_paths_count": 1767,
+  "unread_source_paths_count": 1777,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 73,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

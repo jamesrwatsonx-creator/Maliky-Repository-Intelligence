@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/ccxt/ccxt",
-  "description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
+  "description": "Unified cryptocurrency exchange API library for market data, account access and trading operations across many exchanges.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-11T08:37:48Z",
-    "github_description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust"
+    "github_description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8be18434989937ed98f1153192b08d4cd758970d",
   "current_commit": "8be18434989937ed98f1153192b08d4cd758970d",
   "inspection_date": "2026-09-20T05:36:06.341383+00:00",
   "categories": [
-    "category:apis",
-    "category:commerce-e-commerce"
+    "category:sdks-client-libraries",
+    "category:finance-accounting",
+    "category:apis"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [
     "operational:12"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 25,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.368254+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.158322+00:00",
   "tree_files": 10096,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 9924,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 9963,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.091136+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Unified cryptocurrency exchange API library for market data, account access and trading operations across many exchanges.",
+    "reuse_recommendation": "Use read-only market endpoints first; isolate API keys and explicitly constrain live trading permissions.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "MIT; exchange APIs and financial regulations apply.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "Python",
+      "PHP",
+      "exchange REST/WebSocket APIs"
+    ],
+    "keywords": [
+      "CCXT",
+      "crypto exchange SDK",
+      "market data",
+      "trading API",
+      "exchange connectors"
+    ],
+    "risk_notes": [
+      "Trading methods can cause direct loss; exchange credentials and order execution are high risk."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CCXT exchange adapters",
+        "purpose": "Reduces integration differences across cryptocurrency venues.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:54.643505+00:00",
+    "inspected_commit": "8be18434989937ed98f1153192b08d4cd758970d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6af713861be3c613b980273665a97ecb75ac11c0",
+        "value": "https://github.com/jamesrwatsonx-creator/ccxt/blob/8be18434989937ed98f1153192b08d4cd758970d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "unified exchange market data",
+        "description": "Normalizes public market endpoints across supported exchanges.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:unified-exchange-market-data",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "account and trading APIs",
+        "description": "Provides authenticated access to balances, orders and trading operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:account-and-trading-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-language SDKs",
+        "description": "Offers common interfaces across JavaScript, Python and other languages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-language-sdks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

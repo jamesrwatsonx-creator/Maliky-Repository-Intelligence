@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/vnpy/vnpy",
-  "description": "基于Python的开源量化交易平台开发框架",
+  "description": "VeighNa Python trading platform with modular gateways, strategies, data services and brokerage integrations for quantitative trading.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-01T01:47:09Z",
-    "github_description": "基于Python的开源量化交易平台开发框架"
+    "github_description": "基于Python的开源量化交易平台开发框架",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
   "current_commit": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
   "inspection_date": "2026-09-20T05:36:11.561787+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:frameworks",
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.597981+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.619012+00:00",
   "tree_files": 196,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 144,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 164,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.328169+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "VeighNa Python trading platform with modular gateways, strategies, data services and brokerage integrations for quantitative trading.",
+    "reuse_recommendation": "Research candidate only; review live order paths, API keys, risk limits and operational kill switches before deployment.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and broker/exchange terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "VeighNa",
+      "vn.py trading framework",
+      "broker gateways",
+      "quantitative trading",
+      "strategy engine"
+    ],
+    "risk_notes": [
+      "Direct financial trading infrastructure; live execution and credential security require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "VeighNa trading platform",
+        "purpose": "Coordinates strategy, data and broker gateway modules.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:22.241731+00:00",
+    "inspected_commit": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "60587b155161d4ed274b9116834c6248afab3476",
+        "value": "https://github.com/jamesrwatsonx-creator/vnpy/blob/fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "modular trading framework",
+        "description": "Provides a Python platform for building and running quantitative trading systems.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:modular-trading-framework",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "broker and exchange gateways",
+        "description": "Connects applications to external trading venues and data services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:broker-and-exchange-gateways",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "strategy and data modules",
+        "description": "Supports strategy development, market data and trading workflow extensions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:strategy-and-data-modules",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

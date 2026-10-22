@@ -3,35 +3,137 @@
   "inspected_commit": "e18fbcc0fa40233db212a9fb2f1dc8a0ebd8813a",
   "tree_complete": true,
   "tree_files": 422,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/buildtest.yaml",
+      "sha": "b11478cd92e9dfc504d075bc2ae5eeae388b8acf"
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "sha": "72a51013529ec73b347a5d4545a3588c78873de0"
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "sha": "c19e141139f9db29e1483634808f79e939bb2620"
+    },
+    {
+      "path": ".github/workflows/slack-notifier.yaml",
+      "sha": "7770345bf0b9f5b88b316ba88e6f680cad0883d0"
+    },
+    {
+      "path": ".github/workflows/test-server-docker.yaml",
+      "sha": "184f0de04f5b3a2624919919a8544e8713b4eb92"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "README.md",
+      "sha": "f3e995de80df4a506143b2c5f62c2b125c3060da"
+    },
+    {
+      "path": "cmd/server/main.go",
+      "sha": "dde5b0adca26d41b8e664e255530d8321760b615"
+    },
+    {
+      "path": "cmd/test-server/README.md",
+      "sha": "0e7152f14ac894ad3bc8bf273885c18f4f8f0412"
+    },
+    {
+      "path": "cmd/test-server/main.go",
+      "sha": "2e1b71f91fd8b72a828a503fdde794da0b3fa5d7"
+    },
+    {
+      "path": "deploy/README.md",
+      "sha": "c72854c4ba85500cc6cbd05281ca49babaaac35b"
+    },
+    {
+      "path": "go.mod",
+      "sha": "4f13448d4a511dfdbf81b9ab53a8f30e82e02a8e"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "f3e995de80df4a506143b2c5f62c2b125c3060da",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "4f13448d4a511dfdbf81b9ab53a8f30e82e02a8e",
+      "entities_detected": 0
+    },
+    {
+      "path": "deploy/README.md",
+      "blob_sha": "c72854c4ba85500cc6cbd05281ca49babaaac35b",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/test-server/README.md",
+      "blob_sha": "0e7152f14ac894ad3bc8bf273885c18f4f8f0412",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/main.go",
+      "blob_sha": "dde5b0adca26d41b8e664e255530d8321760b615",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/test-server/main.go",
+      "blob_sha": "2e1b71f91fd8b72a828a503fdde794da0b3fa5d7",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/buildtest.yaml",
+      "blob_sha": "b11478cd92e9dfc504d075bc2ae5eeae388b8acf",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "blob_sha": "72a51013529ec73b347a5d4545a3588c78873de0",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "blob_sha": "c19e141139f9db29e1483634808f79e939bb2620",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/slack-notifier.yaml",
+      "blob_sha": "7770345bf0b9f5b88b316ba88e6f680cad0883d0",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/test-server-docker.yaml",
+      "blob_sha": "184f0de04f5b3a2624919919a8544e8713b4eb92",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/scripts/go-version.sh",
-    ".github/workflows/buildtest.yaml",
-    ".github/workflows/docker.yaml",
-    ".github/workflows/release.yaml",
-    ".github/workflows/slack-notifier.yaml",
-    ".github/workflows/test-server-docker.yaml",
     ".golangci.yml",
     ".goreleaser.yaml",
     "CHANGELOG.md",
-    "README.md",
+    "Dockerfile",
+    "NOTICE",
     "bootstrap.sh",
     "cmd/server/commands.go",
-    "cmd/server/main.go",
     "cmd/server/main_test.go",
-    "cmd/test-server/README.md",
+    "cmd/test-server/Dockerfile",
     "cmd/test-server/auth.go",
     "cmd/test-server/config.go",
     "cmd/test-server/handlers.go",
-    "cmd/test-server/main.go",
     "cmd/test-server/signal.go",
     "cmd/test-server/signal_test.go",
     "config-sample.yaml",
-    "deploy/README.md",
     "deploy/grafana/livekit-server-overview.json",
-    "go.mod",
     "install-livekit.sh",
     "magefile.go",
     "magefile_unix.go",
@@ -105,7 +207,15 @@
     "pkg/rtc/mediatrack_test.go",
     "pkg/rtc/mediatrackreceiver.go",
     "pkg/rtc/mediatracksubscriptions.go",
-    "pkg/rtc/migrationdatacache.go"
+    "pkg/rtc/migrationdatacache.go",
+    "pkg/rtc/migrationdatacache_test.go",
+    "pkg/rtc/participant.go",
+    "pkg/rtc/participant_data_blob.go",
+    "pkg/rtc/participant_data_blob_handler.go",
+    "pkg/rtc/participant_data_blob_handler_test.go",
+    "pkg/rtc/participant_data_blob_test.go",
+    "pkg/rtc/participant_data_track.go",
+    "pkg/rtc/participant_internal_test.go"
   ],
   "excluded_nontext_paths": [
     ".github/CODEOWNERS",
@@ -133,8 +243,12 @@
     "test": 15,
     "version": 1
   },
-  "unread_source_paths_count": 412,
+  "unread_source_paths_count": 405,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 10,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

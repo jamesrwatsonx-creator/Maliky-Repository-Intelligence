@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "v8",
   "upstream_url": "https://github.com/Graphify-Labs/graphify",
-  "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+  "description": "Creates knowledge or relationship graphs from repository or document content to support visual exploration and agent context.",
   "metadata": {
     "language": "Python",
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T13:08:58Z",
-    "github_description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+    "github_description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b2cd36267456c166788c95be6e68574064a92a42",
   "current_commit": "b2cd36267456c166788c95be6e68574064a92a42",
   "inspection_date": "2026-09-20T05:32:57.448849+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:developer-tools",
-    "category:skills"
+    "category:technology-maps",
+    "category:knowledge-graphs",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:04",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.045506+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.124114+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -279,10 +281,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 823,
-  "files_read": 13,
+  "files_read": 19,
   "entity_count": 4,
-  "unread_source_files": 744,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 756,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -292,5 +294,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.162166+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Creates knowledge or relationship graphs from repository or document content to support visual exploration and agent context.",
+    "reuse_recommendation": "Use for exploration and discovery; validate extracted relationships against pinned source evidence.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Check repository license and any model/provider terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "graph store or visualization",
+      "optional LLM"
+    ],
+    "keywords": [
+      "Graphify",
+      "knowledge graph",
+      "codebase graph",
+      "relationship visualization",
+      "agent context"
+    ],
+    "risk_notes": [
+      "Graphs may expose sensitive repository content or imply unsupported relationships."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Graphify graph pipeline",
+        "purpose": "Connects source ingestion, relationship mapping and exploration.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:19.461955+00:00",
+    "inspected_commit": "b2cd36267456c166788c95be6e68574064a92a42",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0c14d207c9d6faf72a22c7c0b86c9d024460c2a7",
+        "value": "https://github.com/jamesrwatsonx-creator/graphify/blob/b2cd36267456c166788c95be6e68574064a92a42/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "entity and relationship extraction",
+        "description": "Transforms source material into connected graph structures.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:entity-and-relationship-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "graph visualization and exploration",
+        "description": "Presents relationships for interactive browsing and analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:graph-visualization-and-exploration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent context integration",
+        "description": "Uses graph results to help agents navigate related concepts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-context-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

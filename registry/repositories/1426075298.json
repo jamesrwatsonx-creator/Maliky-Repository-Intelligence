@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/modelscope/FunClip",
-  "description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+  "description": "Video clipping application that finds and extracts highlight segments from longer videos, including an LLM-assisted workflow and user interface.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-08T05:36:48Z",
-    "github_description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI."
+    "github_description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "36acf72e2add3c4af33fd35d373574a5dee96482",
   "current_commit": "36acf72e2add3c4af33fd35d373574a5dee96482",
   "inspection_date": "2026-10-20T23:59:43.804213+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:ai-applications",
+    "category:desktop-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,136 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.934719+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.991051+00:00",
   "tree_files": 66,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 56,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 44,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Video clipping application that finds and extracts highlight segments from longer videos, including an LLM-assisted workflow and user interface.",
+    "reuse_recommendation": "Use as a video-editing candidate after checking local media permissions, model credentials and output rights.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; external model and codec terms apply.",
+    "runtime": [
+      "Python application",
+      "video processing",
+      "optional LLM integrations"
+    ],
+    "keywords": [
+      "video clipping",
+      "highlight extraction",
+      "LLM video analysis",
+      "short-form clips",
+      "media editing"
+    ],
+    "risk_notes": [
+      "Media files may be sensitive and large; review model data transfer, resource limits and content rights."
+    ],
+    "important_subsystems": [
+      {
+        "name": "FunClip video workflow",
+        "purpose": "Coordinates video analysis, segment selection and export.",
+        "evidence_paths": [
+          "README.md",
+          ".github/workflows/tests.yml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:48.573734+00:00",
+    "inspected_commit": "36acf72e2add3c4af33fd35d373574a5dee96482",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c6ba6b4975fbf1610044919b4c8e5c55c9c148d4",
+        "value": "https://github.com/jamesrwatsonx-creator/FunClip/blob/36acf72e2add3c4af33fd35d373574a5dee96482/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "bba1f261f0de4570a65378546429ce411830c867",
+        "value": "https://github.com/jamesrwatsonx-creator/FunClip/blob/36acf72e2add3c4af33fd35d373574a5dee96482/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/tests.yml",
+        "blob_sha": "8d67fa3040a40519b0b3b252a3c644d4d16b7723",
+        "value": "https://github.com/jamesrwatsonx-creator/FunClip/blob/36acf72e2add3c4af33fd35d373574a5dee96482/.github/workflows/tests.yml"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/release.yml",
+        "blob_sha": "3df10a3dcdb600523dacb2c89cb5b1d80b17f47b",
+        "value": "https://github.com/jamesrwatsonx-creator/FunClip/blob/36acf72e2add3c4af33fd35d373574a5dee96482/.github/workflows/release.yml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video highlight clipping",
+        "description": "Finds and extracts selected segments from source video.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-highlight-clipping",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".github/workflows/tests.yml",
+          ".github/workflows/release.yml"
+        ]
+      },
+      {
+        "name": "LLM-assisted clip selection",
+        "description": "Uses model-supported analysis to help identify candidate moments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:llm-assisted-clip-selection",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".github/workflows/tests.yml",
+          ".github/workflows/release.yml"
+        ]
+      },
+      {
+        "name": "clip editing interface",
+        "description": "Provides a user interface for reviewing and producing selected clips.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:clip-editing-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".github/workflows/tests.yml",
+          ".github/workflows/release.yml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

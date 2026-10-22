@@ -11,22 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/meituan-longcat/LongCat-Video",
-  "description": "",
+  "description": "Meituan LongCat-Video model implementation and inference resources for generative video creation from text and visual inputs.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-27T02:51:41Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
   "current_commit": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
   "inspection_date": "2026-09-20T05:33:15.604572+00:00",
   "categories": [
-    "category:creative-tools",
+    "category:machine-learning-models",
     "category:generative-ai",
-    "category:machine-learning-models"
+    "category:media-publishing"
   ],
   "operational_category": "operational:09",
   "secondary_operational_categories": [],
@@ -337,9 +338,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.405861+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.520181+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -402,5 +404,107 @@
     ],
     "updated_at": "2026-10-12T19:04:27.204153+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Meituan LongCat-Video model implementation and inference resources for generative video creation from text and visual inputs.",
+    "reuse_recommendation": "Evaluate checkpoint access, hardware, model use terms and output provenance before selecting for a product.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "Review repository LICENSE and distinct model-weight terms.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "video generation model",
+      "GPU inference"
+    ],
+    "keywords": [
+      "LongCat-Video",
+      "video generation model",
+      "text to video",
+      "video inference",
+      "Meituan"
+    ],
+    "risk_notes": [
+      "High compute and large checkpoints; generated media needs provenance, rights and content safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LongCat model pipeline",
+        "purpose": "Implements model loading and video generation support.",
+        "evidence_paths": [
+          "README.md",
+          "longcat_video/audio_process/__init__.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:46.536032+00:00",
+    "inspected_commit": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9d6e54ad0c5ad07e66840f23349efca828f5b86f",
+        "value": "https://github.com/jamesrwatsonx-creator/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "072123c866e9553f926e0e7bbcea9b8f29688641",
+        "value": "https://github.com/jamesrwatsonx-creator/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "longcat_video/audio_process/__init__.py",
+        "blob_sha": "f98cf6c630fa9eee9316cc3da33ac9bb0254dbbb",
+        "value": "https://github.com/jamesrwatsonx-creator/LongCat-Video/blob/6b3f4b8582a8bc3f20f795735f5383716c4ba794/longcat_video/audio_process/__init__.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "generative video inference",
+        "description": "Provides model and inference workflows for creating video content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:generative-video-inference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "longcat_video/audio_process/__init__.py"
+        ]
+      },
+      {
+        "name": "audio/video processing components",
+        "description": "Includes supporting media processing modules for generation workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-video-processing-components",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "longcat_video/audio_process/__init__.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": "No canonical entities were recorded; explicit semantic disposition is required."
   }
 }

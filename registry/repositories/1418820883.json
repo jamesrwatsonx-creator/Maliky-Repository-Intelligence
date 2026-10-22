@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/neosy/elengrab",
-  "description": "Fast cross-platform video and audio downloader and media viewer with flexible format and quality options. Supports 1,000+ websites including YouTube, Instagram, TikTok, Twitch, Facebook, Reddit, and more, with self-hosted deployment support.",
+  "description": "Media download utility for retrieving short and long-form videos from supported websites.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T15:45:48Z",
-    "github_description": "Fast cross-platform video and audio downloader and media viewer with flexible format and quality options. Supports 1,000+ websites including YouTube, Instagram, TikTok, Twitch, Facebook, Reddit, and more, with self-hosted deployment support."
+    "github_description": "Fast cross-platform video and audio downloader and media viewer with flexible format and quality options. Supports 1,000+ websites including YouTube, Instagram, TikTok, Twitch, Facebook, Reddit, and more, with self-hosted deployment support.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "dd4e3e9398f24a6d64b5fa1718ae28b5a58168d2",
   "current_commit": "dd4e3e9398f24a6d64b5fa1718ae28b5a58168d2",
   "inspection_date": "2026-10-20T23:55:00.059987+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:automation-scripting",
+    "category:cli-tools"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.741505+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.643168+00:00",
   "tree_files": 1444,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1256,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1332,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Media download utility for retrieving short and long-form videos from supported websites.",
+    "reuse_recommendation": "Use only for authorized content and validate URL handling, output paths and platform policies.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license, target platform terms and media rights.",
+    "runtime": [
+      "Repository-declared runtime",
+      "media extraction libraries"
+    ],
+    "keywords": [
+      "video downloader",
+      "short videos",
+      "media extraction",
+      "YouTube alternatives",
+      "download automation"
+    ],
+    "risk_notes": [
+      "Copyright, platform terms and unsafe URL/file behavior need review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Video download utility",
+        "purpose": "Automates retrieval of supported short and long videos.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:15.469085+00:00",
+    "inspected_commit": "dd4e3e9398f24a6d64b5fa1718ae28b5a58168d2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "23a0b7f354dde08d9ae5fafa6d4f8f45786a2c88",
+        "value": "https://github.com/jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long/blob/dd4e3e9398f24a6d64b5fa1718ae28b5a58168d2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video source retrieval",
+        "description": "Downloads supported video content from web sources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-source-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "media organization and processing",
+        "description": "Handles output naming, formats or post-download workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-organization-and-processing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

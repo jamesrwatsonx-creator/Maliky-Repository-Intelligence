@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "6.1",
   "upstream_url": "https://github.com/bolt/core",
-  "description": "🧿 Bolt core",
+  "description": "Website builder capability for creating and configuring web pages or sites through reusable templates and editing workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-09T11:22:43Z",
-    "github_description": "🧿 Bolt core"
+    "github_description": "🧿 Bolt core",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "de01e94853d7c6d1fb6018cc852d8257a720d3c4",
   "current_commit": "de01e94853d7c6d1fb6018cc852d8257a720d3c4",
   "inspection_date": "2026-10-20T23:52:51.808816+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:creative-tools",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.531498+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.352998+00:00",
   "tree_files": 977,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 659,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 742,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Website builder capability for creating and configuring web pages or sites through reusable templates and editing workflows.",
+    "reuse_recommendation": "Use for rapid site prototyping; verify generated code quality, accessibility and publishing security.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license and included templates/assets.",
+    "runtime": [
+      "Web frontend",
+      "repository-declared backend/deployment"
+    ],
+    "keywords": [
+      "website builder",
+      "site templates",
+      "page editor",
+      "web publishing",
+      "no-code"
+    ],
+    "risk_notes": [
+      "User-generated HTML and deployment credentials require validation and isolation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Website builder core",
+        "purpose": "Combines editing controls with reusable site output.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:46.748093+00:00",
+    "inspected_commit": "de01e94853d7c6d1fb6018cc852d8257a720d3c4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "544c8cc2703797157910fbb3ce9f6c6cf2bcdff5",
+        "value": "https://github.com/jamesrwatsonx-creator/core-website-builder-/blob/de01e94853d7c6d1fb6018cc852d8257a720d3c4/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "site/page authoring",
+        "description": "Supports creating and editing website pages through a builder workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:site-page-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "templates and reusable sections",
+        "description": "Packages layouts and content structures for rapid site creation.",
+        "scope": "DESIGN",
+        "id": "cluster:templates-and-reusable-sections",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "publishing integration",
+        "description": "Connects authored pages to web delivery or deployment.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:publishing-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

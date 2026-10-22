@@ -9,6 +9,10 @@
       "sha": "a1060975b0b4232c99cf46a24e70459a1ab2f1dc"
     },
     {
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
       "path": "README.md",
       "sha": "ca31a8cce94d828b38dbb9d206c12e4c69a92052"
     },
@@ -19,6 +23,10 @@
     {
       "path": "docs/README.md",
       "sha": "2bdc3e1a3e4c1888dd3e88cccb8354a32e9e3de4"
+    },
+    {
+      "path": "examples/features/structured_outputs/pyproject.toml",
+      "sha": "5e366ab0a03d3cbff74d78d563afb35d345d788c"
     },
     {
       "path": "pyproject.toml",
@@ -37,8 +45,24 @@
       "sha": "085f70d8160599818348fa7e150a17255d412569"
     },
     {
+      "path": "rust/src/bench/Cargo.toml",
+      "sha": "5a3b14894ab87c7e9f714ed33903d2149f807fc3"
+    },
+    {
+      "path": "rust/src/build-info/Cargo.toml",
+      "sha": "41d3092af0f2a317e392ab2898b41099429f247d"
+    },
+    {
+      "path": "rust/src/chat/Cargo.toml",
+      "sha": "f7526b75d9bab09f327dae37c3c68bb19b37ae2a"
+    },
+    {
       "path": "setup.py",
       "sha": "5463dcfcaf38fa3e9fa87719ecb1db8a112234a2"
+    },
+    {
+      "path": "tests/vllm_test_utils/setup.py",
+      "sha": "4cb66b556e5a76311a195dbe27f45ee513891ef6"
     }
   ],
   "files_read": [
@@ -85,6 +109,36 @@
     {
       "path": "rust/AGENTS.md",
       "blob_sha": "37117c7490bb75328436c0ad2b4c01ebc8706c32",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/vllm_test_utils/setup.py",
+      "blob_sha": "4cb66b556e5a76311a195dbe27f45ee513891ef6",
+      "entities_detected": 0
+    },
+    {
+      "path": "examples/features/structured_outputs/pyproject.toml",
+      "blob_sha": "5e366ab0a03d3cbff74d78d563afb35d345d788c",
+      "entities_detected": 0
+    },
+    {
+      "path": "rust/src/bench/Cargo.toml",
+      "blob_sha": "5a3b14894ab87c7e9f714ed33903d2149f807fc3",
+      "entities_detected": 0
+    },
+    {
+      "path": "rust/src/build-info/Cargo.toml",
+      "blob_sha": "41d3092af0f2a317e392ab2898b41099429f247d",
+      "entities_detected": 0
+    },
+    {
+      "path": "rust/src/chat/Cargo.toml",
+      "blob_sha": "f7526b75d9bab09f327dae37c3c68bb19b37ae2a",
       "entities_detected": 0
     }
   ],
@@ -158,6 +212,14 @@
     ".buildkite/lm-eval-harness/configs/Qwen2.5-VL-3B-Instruct-FP8-dynamic.yaml",
     ".buildkite/lm-eval-harness/configs/Qwen2.5-VL-7B-Instruct.yaml",
     ".buildkite/lm-eval-harness/configs/Qwen3-235B-A22B-Instruct-2507-FP8.yaml",
+    ".buildkite/lm-eval-harness/configs/models-large-hopper.txt",
+    ".buildkite/lm-eval-harness/configs/models-large-rocm-fp8.txt",
+    ".buildkite/lm-eval-harness/configs/models-large-rocm.txt",
+    ".buildkite/lm-eval-harness/configs/models-large.txt",
+    ".buildkite/lm-eval-harness/configs/models-mm-large-h100.txt",
+    ".buildkite/lm-eval-harness/configs/models-mm-small.txt",
+    ".buildkite/lm-eval-harness/configs/models-small-rocm.txt",
+    ".buildkite/lm-eval-harness/configs/models-small.txt",
     ".buildkite/lm-eval-harness/conftest.py",
     ".buildkite/lm-eval-harness/run-lm-eval-chartqa-vllm-vlm-baseline.sh",
     ".buildkite/lm-eval-harness/run-lm-eval-gsm-hf-baseline.sh",
@@ -180,15 +242,7 @@
     ".buildkite/performance-benchmarks/tests/serving-tests-cpu-asr.json",
     ".buildkite/performance-benchmarks/tests/serving-tests-cpu-embed.json",
     ".buildkite/performance-benchmarks/tests/serving-tests-cpu-text.json",
-    ".buildkite/performance-benchmarks/tests/serving-tests-cpu.json",
-    ".buildkite/performance-benchmarks/tests/serving-tests-hpu.json",
-    ".buildkite/performance-benchmarks/tests/serving-tests.json",
-    ".buildkite/performance-benchmarks/tests/throughput-tests-arm64-cpu.json",
-    ".buildkite/performance-benchmarks/tests/throughput-tests-cpu.json",
-    ".buildkite/performance-benchmarks/tests/throughput-tests-hpu.json",
-    ".buildkite/performance-benchmarks/tests/throughput-tests.json",
-    ".buildkite/release-pipeline.yaml",
-    ".buildkite/scripts/annotate-build-artifact.sh"
+    ".buildkite/performance-benchmarks/tests/serving-tests-cpu.json"
   ],
   "excluded_nontext_paths": [
     ".buildkite/.pipeline_gen_v2",
@@ -316,8 +370,12 @@
     "tools": 44,
     "vllm": 2882
   },
-  "unread_source_paths_count": 6117,
+  "unread_source_paths_count": 6287,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 575,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

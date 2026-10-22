@@ -11,14 +11,15 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/radix-ui/themes",
-  "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+  "description": "Ready-made design themes and styling primitives for Radix UI components, enabling consistent accessible interfaces.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-11T18:39:15Z",
     "live_metadata": "FRESH",
-    "github_description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos."
+    "github_description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
@@ -26,7 +27,8 @@
   "inspection_date": "2026-10-21T23:09:54.146617+00:00",
   "categories": [
     "category:design-systems",
-    "category:frontend-applications"
+    "category:frontend-applications",
+    "category:libraries-packages"
   ],
   "operational_category": "operational:17",
   "secondary_operational_categories": [],
@@ -99,7 +101,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE AS LIBRARY",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -385,13 +387,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.989691+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.066118+00:00",
   "tree_files": 668,
   "files_read": 287,
   "entity_count": 62,
-  "unread_source_files": 0,
+  "unread_source_files": 153,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T23:43:21.255991+00:00",
@@ -1298,5 +1301,97 @@
         "reason": "Playground, visual-test and branded demonstration code exercises the retained public library; it is not an additional shipped component implementation."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Ready-made design themes and styling primitives for Radix UI components, enabling consistent accessible interfaces.",
+    "reuse_recommendation": "Use for accessible, consistent application UI and align tokens with product branding.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "MIT; verify any separately packaged fonts/assets.",
+    "runtime": [
+      "TypeScript/React",
+      "CSS"
+    ],
+    "keywords": [
+      "Radix Themes",
+      "React UI",
+      "design tokens",
+      "accessible components",
+      "design system"
+    ],
+    "risk_notes": [
+      "Check version compatibility and preserve semantic/accessibility behavior when customizing."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Radix Themes component library",
+        "purpose": "Adds design-system styling to accessible UI primitives.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:23.946616+00:00",
+    "inspected_commit": "1faff10ac26ae17f09944d418c6949b93fc6b566",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "38b190705ecf09bd3a7aa04915a9e2a9c1c7b6ef",
+        "value": "https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "themed component system",
+        "description": "Provides styled components built around Radix UI primitives.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:themed-component-system",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "design tokens and variants",
+        "description": "Supports coherent themes, colors, spacing and component variants.",
+        "scope": "DESIGN",
+        "id": "cluster:design-tokens-and-variants",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "React integration",
+        "description": "Packages components for use in modern frontend projects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:react-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

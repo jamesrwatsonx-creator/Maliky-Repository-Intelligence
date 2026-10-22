@@ -3,26 +3,130 @@
   "inspected_commit": "599b47081e251f2daede59adfc1fb6b5601e125e",
   "tree_complete": true,
   "tree_files": 635,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".devcontainer/prepare-container.sh",
+      "sha": "d57a472de39c7ed79bb0e7cd3d979be54b21a7d6"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "eb5858c786a9e9c87d67882f2f64c999e1cf5825"
+    },
+    {
+      "path": ".github/workflows/container.yml",
+      "sha": "2b70645191c32457eb9c32dbd3c2482c62f377f7"
+    },
+    {
+      "path": ".github/workflows/installers.yml",
+      "sha": "04064a9044652c806807cb6df9dfca5d86409624"
+    },
+    {
+      "path": ".github/workflows/runtime.yml",
+      "sha": "6c3349f1caa544dd8d3c47e3cf6960a54fdb67c8"
+    },
+    {
+      "path": ".github/workflows/weekly.yml",
+      "sha": "8d669d0640ee5c447222e4fe3a16014829152172"
+    },
+    {
+      "path": ".vscode/relive.sh",
+      "sha": "b10b83fb0447327151b195cb0a9b1d3046ea4d64"
+    },
+    {
+      "path": "COPYING",
+      "sha": "e21e8c4eecb4022635f086c13ce279bfdb58ad55"
+    },
+    {
+      "path": "README.md",
+      "sha": "646cc4a1770965d1823d34a3092f4146539e5ff8"
+    },
+    {
+      "path": "package.json",
+      "sha": "fedd287aa7213db1f7673031af6337c01f0096b2"
+    },
+    {
+      "path": "test/README",
+      "sha": "8254230d24fc9352d2e34668fc2d0f7ef62b4ccb"
+    },
+    {
+      "path": "test/docker/README.md",
+      "sha": "7caaa4bb7f22b4b968f156ab4030a50e12468a78"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "646cc4a1770965d1823d34a3092f4146539e5ff8",
+      "entities_detected": 0
+    },
+    {
+      "path": "COPYING",
+      "blob_sha": "e21e8c4eecb4022635f086c13ce279bfdb58ad55",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "fedd287aa7213db1f7673031af6337c01f0096b2",
+      "entities_detected": 0
+    },
+    {
+      "path": "test/docker/README.md",
+      "blob_sha": "7caaa4bb7f22b4b968f156ab4030a50e12468a78",
+      "entities_detected": 0
+    },
+    {
+      "path": "test/README",
+      "blob_sha": "8254230d24fc9352d2e34668fc2d0f7ef62b4ccb",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "eb5858c786a9e9c87d67882f2f64c999e1cf5825",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/container.yml",
+      "blob_sha": "2b70645191c32457eb9c32dbd3c2482c62f377f7",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/installers.yml",
+      "blob_sha": "04064a9044652c806807cb6df9dfca5d86409624",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/runtime.yml",
+      "blob_sha": "6c3349f1caa544dd8d3c47e3cf6960a54fdb67c8",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/weekly.yml",
+      "blob_sha": "8d669d0640ee5c447222e4fe3a16014829152172",
+      "entities_detected": 0
+    },
+    {
+      "path": ".devcontainer/prepare-container.sh",
+      "blob_sha": "d57a472de39c7ed79bb0e7cd3d979be54b21a7d6",
+      "entities_detected": 0
+    },
+    {
+      "path": ".vscode/relive.sh",
+      "blob_sha": "b10b83fb0447327151b195cb0a9b1d3046ea4d64",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".devcontainer/Dockerfile",
     ".devcontainer/devcontainer.json",
-    ".devcontainer/prepare-container.sh",
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/actions/manage-database/action.yml",
     ".github/actions/manage-ejabberd/action.yml",
     ".github/container/Dockerfile",
+    ".github/container/ejabberdctl.template",
     ".github/lock.yml",
-    ".github/workflows/ci.yml",
-    ".github/workflows/container.yml",
-    ".github/workflows/installers.yml",
-    ".github/workflows/runtime.yml",
-    ".github/workflows/weekly.yml",
     ".vscode/extensions.json",
     ".vscode/launch.json",
-    ".vscode/relive.sh",
     ".vscode/settings.json",
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
@@ -30,18 +134,60 @@
     "CONTAINER.md",
     "CONTRIBUTING.md",
     "CONTRIBUTORS.md",
-    "COPYING",
     "Makefile.in",
-    "README.md",
     "SECURITY.md",
     "autogen.sh",
+    "config/ejabberd.exs",
+    "config/runtime.exs",
+    "ejabberd.init.template",
+    "ejabberd.service.template",
+    "ejabberdctl.template",
+    "lib/ejabberd/config/attr.ex",
+    "lib/ejabberd/config/config.ex",
+    "lib/ejabberd/config/ejabberd_hook.ex",
+    "lib/ejabberd/config/ejabberd_module.ex",
+    "lib/ejabberd/config/logger/ejabberd_logger.ex",
+    "lib/ejabberd/config/opts_formatter.ex",
+    "lib/ejabberd/config/store.ex",
+    "lib/ejabberd/config/validator/validation.ex",
+    "lib/ejabberd/config/validator/validator_attrs.ex",
+    "lib/ejabberd/config/validator/validator_dependencies.ex",
+    "lib/ejabberd/config/validator/validator_utility.ex",
+    "lib/ejabberd/config_util.ex",
+    "lib/ejabberd/hooks.ex",
+    "lib/ejabberd/logger.ex",
+    "lib/ejabberd_auth_example.ex",
+    "lib/mix/tasks/deps.tree.ex",
+    "lib/mod_example.ex",
+    "mix.exs",
     "package-lock.json",
-    "package.json",
+    "priv/css/admin.css",
+    "priv/css/bosh.css",
+    "priv/css/muc.css",
+    "priv/css/oauth.css",
+    "priv/css/register.css",
+    "priv/css/sortable.min.css",
     "priv/js/admin.js",
     "priv/js/muc.js",
     "priv/js/sortable.min.js",
+    "priv/lua/redis_sm.lua",
     "priv/mod_invites/HOWTO.md",
+    "priv/mod_invites/apps.html",
     "priv/mod_invites/apps.json",
+    "priv/mod_invites/base.html",
+    "priv/mod_invites/base_min.html",
+    "priv/mod_invites/client.html",
+    "priv/mod_invites/index.html",
+    "priv/mod_invites/invite.html",
+    "priv/mod_invites/invite_invalid.html",
+    "priv/mod_invites/register.html",
+    "priv/mod_invites/register_error.html",
+    "priv/mod_invites/register_success.html",
+    "priv/mod_invites/reset_error.html",
+    "priv/mod_invites/reset_success.html",
+    "priv/mod_invites/reset_token.html",
+    "priv/mod_invites/roster.html",
+    "priv/mod_invites/static/invite.css",
     "priv/mod_invites/static/invite.js",
     "priv/mod_invites/static/platform.min.js",
     "priv/mod_invites/static/qrcode.min.js",
@@ -56,8 +202,6 @@
     "sql/mysql.sql",
     "sql/pg.new.sql",
     "sql/pg.sql",
-    "test/README",
-    "test/docker/README.md",
     "test/docker/db/mssql/initdb/initdb_mssql.sql",
     "test/docker/docker-compose.yml",
     "test/ejabberd_SUITE_data/configtest.yml",
@@ -71,24 +215,7 @@
     "test/ejabberd_SUITE_data/ejabberd.sqlite.yml",
     "test/ejabberd_SUITE_data/ejabberd.yml",
     "test/ejabberd_SUITE_data/extauth.py",
-    "test/ejabberd_SUITE_data/gencerts.sh",
-    "test/ejabberd_SUITE_data/macros.yml",
-    "test/ejabberd_SUITE_data/spam_domains.txt",
-    "test/ejabberd_SUITE_data/spam_jids.txt",
-    "test/ejabberd_SUITE_data/spam_urls.txt",
-    "test/ejabberd_SUITE_data/whitelist_domains.txt",
-    "tools/captcha-ng.sh",
-    "tools/captcha.sh",
-    "tools/check_xep_versions.sh",
-    "tools/dl_invites_page_deps.sh",
-    "tools/emacs-indent.sh",
-    "tools/extract-erlydtl-templates.sh",
-    "tools/extract-tr.sh",
-    "tools/generate-doap.sh",
-    "tools/hook_deps.sh",
-    "tools/opt_types.sh",
-    "tools/prepare-tr.sh",
-    "tools/rebar3-format.sh"
+    "test/ejabberd_SUITE_data/gencerts.sh"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -195,6 +322,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "d0c24c7476e0f04b114dd77e655a2045908f77dc83cf6410d1e5a6a834b6226e",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -216,8 +344,11 @@
     "test": 72,
     "tools": 19
   },
-  "unread_source_paths_count": 83,
-  "unread_source_paths_truncated": false,
+  "unread_source_paths_count": 127,
+  "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 552,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

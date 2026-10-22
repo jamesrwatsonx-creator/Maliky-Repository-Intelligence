@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "⛏️ The extraction engine behind Maigret: turn any profile URL into a structured OSINT record  across 150+ sites",
+  "upstream_url": "https://github.com/soxoj/socid-extractor",
+  "description": "Python tool for extracting social-network identifiers or account references from supplied data.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-13T09:24:21Z",
-    "github_description": "⛏️ The extraction engine behind Maigret: turn any profile URL into a structured OSINT record  across 150+ sites"
+    "github_description": "⛏️ The extraction engine behind Maigret: turn any profile URL into a structured OSINT record  across 150+ sites",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "571dbe29ce63a29a6e729811a7fef4590422cf0d",
+  "current_commit": "571dbe29ce63a29a6e729811a7fef4590422cf0d",
+  "inspection_date": "2026-10-22T02:32:40.980160+00:00",
   "categories": [
-    "category:general-other"
+    "category:research-projects",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.247318+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.298254+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,81 @@
     ],
     "updated_at": "2026-10-12T19:04:27.292395+00:00",
     "purpose_established": true
+  },
+  "tree_files": 80,
+  "files_read": 10,
+  "unread_source_files": 53,
+  "repository_intelligence": {
+    "purpose": "Python tool for extracting social-network identifiers or account references from supplied data.",
+    "reuse_recommendation": "Use only with authorized data and appropriate privacy safeguards.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Confirm license and ensure identifiers are handled lawfully and minimally.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "social identifiers",
+      "account extraction",
+      "OSINT",
+      "Python utility"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Identifier extractor",
+        "purpose": "Converts supplied content into structured social identity references.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:30.815457+00:00",
+    "inspected_commit": "571dbe29ce63a29a6e729811a7fef4590422cf0d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7fb2d7ca49ec22ca465a456ab2a0beccc8115571",
+        "value": "https://github.com/jamesrwatsonx-creator/socid-extractor/blob/571dbe29ce63a29a6e729811a7fef4590422cf0d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Social identifier extraction",
+        "description": "Parses inputs to identify social account references for downstream research workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:social-identifier-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

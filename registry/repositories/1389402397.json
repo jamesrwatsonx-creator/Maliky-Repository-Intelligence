@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "The AT Protocol (🦋 Bluesky) SDK for Python 🐍",
+  "upstream_url": "https://github.com/MarshalX/atproto",
+  "description": "Python SDK for the AT Protocol, including clients and protocol models used to build Bluesky-compatible applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-25T16:37:30Z",
-    "github_description": "The AT Protocol (🦋 Bluesky) SDK for Python 🐍"
+    "github_description": "The AT Protocol (🦋 Bluesky) SDK for Python 🐍",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "71629f535e1872a5769411347d6df47f17f946b8",
+  "current_commit": "71629f535e1872a5769411347d6df47f17f946b8",
+  "inspection_date": "2026-10-22T02:31:48.991360+00:00",
   "categories": [
-    "category:apis"
+    "category:sdks-client-libraries",
+    "category:developer-tools"
   ],
   "operational_category": "operational:12",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.098065+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.810109+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.064814+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1762,
+  "files_read": 10,
+  "unread_source_files": 1744,
+  "repository_intelligence": {
+    "purpose": "Python SDK for the AT Protocol, including clients and protocol models used to build Bluesky-compatible applications.",
+    "reuse_recommendation": "Use when integrating with AT Protocol; pin a compatible version and endpoint configuration.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review repository license before distribution.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "AT Protocol",
+      "Bluesky",
+      "Python SDK",
+      "federated social",
+      "protocol client"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Python client and protocol models",
+        "purpose": "Implements reusable client and data model support for AT Protocol.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:29.197455+00:00",
+    "inspected_commit": "71629f535e1872a5769411347d6df47f17f946b8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e8687540e6503dedaa74a284407926f57a601e66",
+        "value": "https://github.com/jamesrwatsonx-creator/atproto/blob/71629f535e1872a5769411347d6df47f17f946b8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "AT Protocol SDK",
+        "description": "Supports protocol-aware clients and application integrations for AT Protocol services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:at-protocol-sdk",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

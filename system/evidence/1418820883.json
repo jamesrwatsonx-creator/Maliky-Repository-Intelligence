@@ -3,22 +3,106 @@
   "inspected_commit": "dd4e3e9398f24a6d64b5fa1718ae28b5a58168d2",
   "tree_complete": true,
   "tree_files": 1444,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "9a601aa503554a81efcd93cae3c23454e9ea9e66"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "README.md",
+      "sha": "23a0b7f354dde08d9ae5fafa6d4f8f45786a2c88"
+    },
+    {
+      "path": "cmd/server/infra/admin_server.go",
+      "sha": "064f90aa55f3fc9492520647ec9a7e9c44aca2f8"
+    },
+    {
+      "path": "cmd/server/infra/assets.go",
+      "sha": "f22eb3424ba5aeac4b3889a764f2cb5ef390c821"
+    },
+    {
+      "path": "cmd/server/infra/helpers.go",
+      "sha": "933e3aed5b96dd50f3b46f1aa1347d7995d4e2bc"
+    },
+    {
+      "path": "cmd/server/infra/server.go",
+      "sha": "e705e8a80125391ef024192ab3ea11d5bfd5693a"
+    },
+    {
+      "path": "cmd/server/main.go",
+      "sha": "bf21af644d5ed402088a9588fadf33c899a8adb4"
+    },
+    {
+      "path": "db/file_path_test.go",
+      "sha": "2ff9d45c92d1d69667f31de716a01dad1efdf6b1"
+    },
+    {
+      "path": "go.mod",
+      "sha": "bf953384496e2143834e38fd26464cb15297fcad"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "23a0b7f354dde08d9ae5fafa6d4f8f45786a2c88",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "bf953384496e2143834e38fd26464cb15297fcad",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/main.go",
+      "blob_sha": "bf21af644d5ed402088a9588fadf33c899a8adb4",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "blob_sha": "9a601aa503554a81efcd93cae3c23454e9ea9e66",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/infra/admin_server.go",
+      "blob_sha": "064f90aa55f3fc9492520647ec9a7e9c44aca2f8",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/infra/assets.go",
+      "blob_sha": "f22eb3424ba5aeac4b3889a764f2cb5ef390c821",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/infra/helpers.go",
+      "blob_sha": "933e3aed5b96dd50f3b46f1aa1347d7995d4e2bc",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/server/infra/server.go",
+      "blob_sha": "e705e8a80125391ef024192ab3ea11d5bfd5693a",
+      "entities_detected": 0
+    },
+    {
+      "path": "db/file_path_test.go",
+      "blob_sha": "2ff9d45c92d1d69667f31de716a01dad1efdf6b1",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/FUNDING.yml",
-    ".github/workflows/release.yml",
     "Dockerfile",
-    "LICENSE",
     "Makefile",
-    "README.md",
     "RELEASE.md",
     "branch-naming.md",
-    "cmd/server/infra/admin_server.go",
-    "cmd/server/infra/assets.go",
-    "cmd/server/infra/helpers.go",
-    "cmd/server/infra/server.go",
-    "cmd/server/main.go",
     "db/auth/migrations/001_add_user_tables.down.sql",
     "db/auth/migrations/001_add_user_tables.up.sql",
     "db/auth/migrations/002_add_role_tables.up.sql",
@@ -61,7 +145,6 @@
     "db/download/schema/model/data_migrations.sql",
     "db/download/schema/model/download_tasks.sql",
     "db/download/schema/model/media_downloads.sql",
-    "db/file_path_test.go",
     "db/link/migrations/001_add_link_tables.down.sql",
     "db/link/migrations/001_add_link_tables.up.sql",
     "db/link/schema/link_clicks.sql",
@@ -103,9 +186,18 @@
     "docker-compose.yml",
     "entrypoint.sh",
     "environments.md",
-    "go.mod",
     "internal/api/errors/errors.go",
-    "internal/api/rest/server/assets/asset_file.go"
+    "internal/api/rest/server/assets/asset_file.go",
+    "internal/api/rest/server/assets/assets.go",
+    "internal/api/rest/server/assets/assets_embedded.go",
+    "internal/api/rest/server/assets/assets_none.go",
+    "internal/api/rest/server/assets/folder_paths.go",
+    "internal/api/rest/server/assets/load_templates.go",
+    "internal/api/rest/server/assets/read_assets.go",
+    "internal/api/rest/server/assets/static/css/base.css",
+    "internal/api/rest/server/assets/static/css/components-footer.css",
+    "internal/api/rest/server/assets/static/css/components-header.css",
+    "internal/api/rest/server/assets/static/css/components.css"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "bcf1ac5e271932cae4222c3b1f8a181a4f3a677045d4d22015bcfb55e8a9fb0a",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -221,8 +314,11 @@
     "db": 81,
     "internal": 1340
   },
-  "unread_source_paths_count": 1256,
+  "unread_source_paths_count": 1332,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 188,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

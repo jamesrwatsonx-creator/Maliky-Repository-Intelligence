@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/lxc/incus",
-  "description": "Powerful system container and virtual machine manager ",
+  "description": "System container and virtual machine management platform for running isolated workloads on Linux hosts.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-24T00:41:50Z",
-    "github_description": "Powerful system container and virtual machine manager "
+    "github_description": "Powerful system container and virtual machine manager ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "98236acf4b8bb39f51489c2b14d73575666c3b2a",
   "current_commit": "98236acf4b8bb39f51489c2b14d73575666c3b2a",
   "inspection_date": "2026-09-20T05:33:50.649531+00:00",
   "categories": [
-    "category:general-other"
+    "category:cloud-infrastructure",
+    "category:containers",
+    "category:devops"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.205990+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.293275+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1845,
-  "files_read": 5,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1767,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1777,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.181585+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "System container and virtual machine management platform for running isolated workloads on Linux hosts.",
+    "reuse_recommendation": "Use for Linux infrastructure after reviewing host privileges, network exposure and storage policy.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Apache-2.0; kernel and image licenses vary.",
+    "runtime": [
+      "Go",
+      "Linux kernel",
+      "container/VM images"
+    ],
+    "keywords": [
+      "Incus",
+      "Linux containers",
+      "virtual machines",
+      "system container management",
+      "infrastructure"
+    ],
+    "risk_notes": [
+      "Privileged management APIs and host isolation boundaries are security-critical."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Incus management service",
+        "purpose": "Coordinates isolated Linux workloads and their infrastructure resources.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:14.000661+00:00",
+    "inspected_commit": "98236acf4b8bb39f51489c2b14d73575666c3b2a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5d7f1530efab492ec2cdb9916e250df9d8ce971d",
+        "value": "https://github.com/jamesrwatsonx-creator/incus/blob/98236acf4b8bb39f51489c2b14d73575666c3b2a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "container and VM lifecycle",
+        "description": "Creates, configures and manages system containers and virtual machines.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:container-and-vm-lifecycle",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "storage and network management",
+        "description": "Provides infrastructure primitives for workload connectivity and persistence.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:storage-and-network-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "clustered host operations",
+        "description": "Supports managing workloads across Linux systems.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:clustered-host-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

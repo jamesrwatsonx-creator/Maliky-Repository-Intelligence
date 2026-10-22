@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/kepano/obsidian-skills",
-  "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+  "description": "Agent skill bundle for authoring Obsidian Markdown, Bases and JSON Canvas files, operating a running vault through its CLI and extracting readable web content with external Defuddle.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-06-08T16:12:01Z",
-    "github_description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
+    "github_description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "a1dc48e68138490d522c04cbf5822214c6eb1202",
   "current_commit": "a1dc48e68138490d522c04cbf5822214c6eb1202",
   "inspection_date": "2026-09-20T05:34:04.610345+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:developer-tools",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:skills",
+    "category:knowledge-bases",
+    "category:productivity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -47,7 +47,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -292,11 +292,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.646726+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.815069+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -319,16 +320,15 @@
   "files_read": 14,
   "entity_count": 6,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 6,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:57.225558+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -338,5 +338,215 @@
     ],
     "updated_at": "2026-10-12T19:04:27.234460+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill bundle for authoring Obsidian Markdown, Bases and JSON Canvas files, operating a running vault through its CLI and extracting readable web content with external Defuddle.",
+    "reuse_recommendation": "Load the bundle in a compatible agent host; select the correct vault and restrict write/evaluation permissions before use.",
+    "inspection_scope": "Five complete skills and their Claude plugin distribution are independent boundaries. Syntax references and examples support their respective skill rather than supplying Obsidian, Defuddle or a separate JSON Canvas runtime. Repository-level completion only; detailed entities are preserved unchanged.",
+    "license_notes": "MIT; source-specific notices remain applicable.",
+    "runtime": [
+      "Markdown skills",
+      "Obsidian",
+      "Obsidian CLI",
+      "Defuddle CLI"
+    ],
+    "keywords": [
+      "Obsidian",
+      "vault",
+      "Bases",
+      "JSON Canvas",
+      "wikilinks",
+      "notes",
+      "Defuddle"
+    ],
+    "risk_notes": [
+      "The CLI skill includes note creation/overwrite and in-app JavaScript evaluation, so it requires a trusted host and the intended vault scope; the default focused vault is not an authorization boundary. Defuddle fetches external content and can write output files. Retrieved text must remain untrusted data. This review establishes instruction contracts only: no vault, running app, network extraction or plugin code was executed."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Obsidian note authoring",
+        "purpose": "Create vault notes with properties, wikilinks, embeds and callouts.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault structured views",
+        "purpose": "Author Bases filters/formulas and JSON Canvas node-edge documents.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault CLI operation",
+        "purpose": "Search and mutate notes and debug plugins through a running Obsidian instance.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:43:43.852276+00:00",
+    "inspected_commit": "a1dc48e68138490d522c04cbf5822214c6eb1202",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0303cbf40de6a1b6131f51cb49f5020d20f36c70",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "33d692ee84f4464f575f2d1e927f19cf1c8ccc57",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude-plugin/plugin.json",
+        "blob_sha": "07932b6148077cb9e76c6b819895d118fbd73e6a",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/defuddle/SKILL.md",
+        "blob_sha": "287b1fc5eca3d79a8c4081e0abd3c4e8f4eaafd7",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/skills/defuddle/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/json-canvas/SKILL.md",
+        "blob_sha": "8fb2c9de2bbba52b53ca243fbfdab650ee61711c",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/skills/json-canvas/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/obsidian-bases/SKILL.md",
+        "blob_sha": "e857041265fb8ac9f6f7c6606f2dbc762c45a91d",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/skills/obsidian-bases/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/obsidian-cli/SKILL.md",
+        "blob_sha": "0046c45abc11cbba48cee538e9cce9993a62747b",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/skills/obsidian-cli/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/obsidian-markdown/SKILL.md",
+        "blob_sha": "bca51a429c020a4cb6740a917517116e66d428b1",
+        "value": "https://github.com/jamesrwatsonx-creator/obsidian-skills/blob/a1dc48e68138490d522c04cbf5822214c6eb1202/skills/obsidian-markdown/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Obsidian note authoring",
+        "description": "Create vault notes with properties, wikilinks, embeds and callouts.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:obsidian-note-authoring",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault structured views",
+        "description": "Author Bases filters/formulas and JSON Canvas node-edge documents.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:vault-structured-views",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "vault CLI operation",
+        "description": "Search and mutate notes and debug plugins through a running Obsidian instance.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:vault-cli-operation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      },
+      {
+        "name": "readable web extraction",
+        "description": "Use the external Defuddle CLI for clean Markdown and metadata.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:readable-web-extraction",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/defuddle/SKILL.md",
+          "skills/json-canvas/SKILL.md",
+          "skills/obsidian-bases/SKILL.md",
+          "skills/obsidian-cli/SKILL.md",
+          "skills/obsidian-markdown/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

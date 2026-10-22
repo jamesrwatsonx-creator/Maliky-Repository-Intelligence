@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/gramps-project/gramps-web-api",
-  "description": "A RESTful web API for Gramps - backend of Gramps Web",
+  "description": "Python REST API exposing query and modification operations for Gramps genealogy family-tree databases, used by Gramps Web.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T16:44:40Z",
-    "github_description": "A RESTful web API for Gramps - backend of Gramps Web"
+    "github_description": "A RESTful web API for Gramps - backend of Gramps Web",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "50375390a949ece54f32472c7a7e37cff064c141",
   "current_commit": "50375390a949ece54f32472c7a7e37cff064c141",
   "inspection_date": "2026-10-20T23:57:30.977609+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:backend-services",
+    "category:apis",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.039489+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.117116+00:00",
   "tree_files": 312,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 299,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 292,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python REST API exposing query and modification operations for Gramps genealogy family-tree databases, used by Gramps Web.",
+    "reuse_recommendation": "Review authentication, export permissions and sensitive records before exposing genealogy data over a network.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository license and Gramps ecosystem terms.",
+    "runtime": [
+      "Python",
+      "REST API",
+      "Gramps database"
+    ],
+    "keywords": [
+      "Gramps Web API",
+      "genealogy REST API",
+      "family tree database",
+      "Python web service"
+    ],
+    "risk_notes": [
+      "Family history includes sensitive details about living people; enforce access controls and consent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Gramps Web API",
+        "purpose": "Serves genealogy records to the Gramps Web application.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:16.971279+00:00",
+    "inspected_commit": "50375390a949ece54f32472c7a7e37cff064c141",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "925d962b79329a521524485017d8bbab149ae399",
+        "value": "https://github.com/jamesrwatsonx-creator/gramps-web-api-genealogy-/blob/50375390a949ece54f32472c7a7e37cff064c141/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "genealogy REST service",
+        "description": "Queries and modifies Gramps family-tree data through HTTP endpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:genealogy-rest-service",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "family-tree backend integration",
+        "description": "Connects the API to Gramps genealogy storage and web clients.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:family-tree-backend-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

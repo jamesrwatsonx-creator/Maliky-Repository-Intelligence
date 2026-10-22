@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/plausible/analytics",
-  "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+  "description": "Google Analytics integration or analytics tooling for collecting, querying or visualizing website/app usage data.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-09T22:39:00Z",
-    "github_description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud."
+    "github_description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "3a0cc647f7af4e6ca5fba8635fb7f01561a03a4c",
   "current_commit": "3a0cc647f7af4e6ca5fba8635fb7f01561a03a4c",
   "inspection_date": "2026-09-20T05:35:59.033865+00:00",
   "categories": [
-    "category:general-other"
+    "category:analytics",
+    "category:apis",
+    "category:marketing-communications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.020420+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.095114+00:00",
   "tree_files": 2057,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 421,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1707,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.157958+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Google Analytics integration or analytics tooling for collecting, querying or visualizing website/app usage data.",
+    "reuse_recommendation": "Use with consent-aware measurement and least-privilege access; verify metric definitions and API version.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and Google Analytics API/data terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "Google Analytics API"
+    ],
+    "keywords": [
+      "Google Analytics",
+      "GA4 API",
+      "web analytics",
+      "reporting",
+      "marketing metrics"
+    ],
+    "risk_notes": [
+      "Analytics data can identify users and requires privacy/compliance review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Google Analytics integration",
+        "purpose": "Provides reusable access to analytics data for reporting workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:16.173870+00:00",
+    "inspected_commit": "3a0cc647f7af4e6ca5fba8635fb7f01561a03a4c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d592aef247c5a0192ac0b8d07e5676ad2afbc0ef",
+        "value": "https://github.com/jamesrwatsonx-creator/Google-analytics/blob/3a0cc647f7af4e6ca5fba8635fb7f01561a03a4c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "analytics data access",
+        "description": "Connects applications to Google Analytics reporting or measurement APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:analytics-data-access",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "metrics reporting and visualization",
+        "description": "Organizes traffic and engagement data for analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:metrics-reporting-and-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

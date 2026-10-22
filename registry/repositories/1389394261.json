@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "😎 Finding duplicate images made easy!",
+  "upstream_url": "https://github.com/idealo/imagededup",
+  "description": "Python toolkit for detecting duplicate and near-duplicate images using perceptual hashes and machine-learning embeddings.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2025-08-15T15:19:22Z",
-    "github_description": "😎 Finding duplicate images made easy!"
+    "github_description": "😎 Finding duplicate images made easy!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "f0534a6ec10c02379c627696fbd486841068631c",
+  "current_commit": "f0534a6ec10c02379c627696fbd486841068631c",
+  "inspection_date": "2026-10-22T02:26:20.205753+00:00",
   "categories": [
-    "category:general-other"
+    "category:data-science",
+    "category:machine-learning-models",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.189742+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.274254+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.179710+00:00",
     "purpose_established": true
+  },
+  "tree_files": 114,
+  "files_read": 10,
+  "unread_source_files": 57,
+  "repository_intelligence": {
+    "purpose": "Python toolkit for detecting duplicate and near-duplicate images using perceptual hashes and machine-learning embeddings.",
+    "reuse_recommendation": "Use to surface candidates and require confirmation before deleting or consolidating files.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "MIT; model weights may have separate terms.",
+    "runtime": [
+      "Python",
+      "computer vision models",
+      "image processing"
+    ],
+    "keywords": [
+      "image deduplication",
+      "near duplicate images",
+      "perceptual hash",
+      "visual embeddings",
+      "photo cleanup"
+    ],
+    "risk_notes": [
+      "False matches may discard unique photos; images can be sensitive personal data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Image deduplication pipeline",
+        "purpose": "Identifies candidate duplicate images for review or cleanup.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:27.889834+00:00",
+    "inspected_commit": "f0534a6ec10c02379c627696fbd486841068631c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e5470b40a4699d44c5ca34a8f13d2fd6ad550864",
+        "value": "https://github.com/jamesrwatsonx-creator/imagededup/blob/f0534a6ec10c02379c627696fbd486841068631c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "hash-based duplicate detection",
+        "description": "Finds exact or near visual matches using image hashes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hash-based-duplicate-detection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "embedding-based similarity",
+        "description": "Compares image features using learned representations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:embedding-based-similarity",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -5,12 +5,44 @@
   "tree_files": 1027,
   "tree_entries": [
     {
+      "path": "LICENSE.txt",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
       "path": "README.md",
       "sha": "00096822413debd2ff65490a936cbd0a6380cdac"
     },
     {
+      "path": "benchmark/README.md",
+      "sha": "01becdc8804f64f1be067b1f1e22d88d5ec8e096"
+    },
+    {
+      "path": "benchmark/README_zh.md",
+      "sha": "792bc007712afbb74271a96752f409e8f2cd5f44"
+    },
+    {
+      "path": "benchmark/benchmark/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmark/benchmark/core/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmark/benchmark/core/config.py",
+      "sha": "4112003e57e7a765e4a305e1d182fd9eeaa02eaa"
+    },
+    {
       "path": "demo.py",
       "sha": "3299fbadd852009a6a7403ee69c671035e90ac79"
+    },
+    {
+      "path": "demo_render/interactive_viewer/server.py",
+      "sha": "4ebe46dbd98d4c5f1fa441fa12ce0b2dcd82ed49"
+    },
+    {
+      "path": "demo_render/render_cuda_ext/setup.py",
+      "sha": "7cbe29aa476763c065648e7a81b3423b8c5b94fe"
     },
     {
       "path": "lingbot_map/aggregator/stream.py",
@@ -86,14 +118,49 @@
       "path": "lingbot_map/vis/point_cloud_viewer.py",
       "blob_sha": "35946246c4f69ecdf2ef06c47c0cdb24531839ef",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.txt",
+      "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "entities_detected": 0
+    },
+    {
+      "path": "demo_render/render_cuda_ext/setup.py",
+      "blob_sha": "7cbe29aa476763c065648e7a81b3423b8c5b94fe",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmark/README.md",
+      "blob_sha": "01becdc8804f64f1be067b1f1e22d88d5ec8e096",
+      "entities_detected": 0
+    },
+    {
+      "path": "demo_render/interactive_viewer/server.py",
+      "blob_sha": "4ebe46dbd98d4c5f1fa441fa12ce0b2dcd82ed49",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmark/README_zh.md",
+      "blob_sha": "792bc007712afbb74271a96752f409e8f2cd5f44",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmark/benchmark/__init__.py",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmark/benchmark/core/__init__.py",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmark/benchmark/core/config.py",
+      "blob_sha": "4112003e57e7a765e4a305e1d182fd9eeaa02eaa",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
-    "benchmark/README.md",
-    "benchmark/README_zh.md",
-    "benchmark/benchmark/__init__.py",
-    "benchmark/benchmark/core/__init__.py",
-    "benchmark/benchmark/core/config.py",
     "benchmark/benchmark/core/evaluator.py",
     "benchmark/benchmark/core/loader.py",
     "benchmark/benchmark/core/registry.py",
@@ -124,6 +191,8 @@
     "benchmark/benchmark/report/generator.py",
     "benchmark/benchmark/report/manifest_builder.py",
     "benchmark/benchmark/report/templates/app.js",
+    "benchmark/benchmark/report/templates/index.html",
+    "benchmark/benchmark/report/templates/styles.css",
     "benchmark/benchmark/utils/__init__.py",
     "benchmark/benchmark/utils/logging.py",
     "benchmark/benchmark/utils/sky_segmentation.py",
@@ -179,16 +248,19 @@
     "demo_render/interactive_viewer/__init__.py",
     "demo_render/interactive_viewer/camera.py",
     "demo_render/interactive_viewer/npz_to_glb.py",
-    "demo_render/interactive_viewer/server.py",
+    "demo_render/interactive_viewer/static/index.html",
     "demo_render/process_videos.sh",
     "demo_render/render_cuda_ext/frustum_cull/frustum_cull_bind.cpp",
     "demo_render/render_cuda_ext/render_cuda_ext/__init__.py",
     "demo_render/render_cuda_ext/render_cuda_ext/_api.py",
-    "demo_render/render_cuda_ext/setup.py",
     "demo_render/render_cuda_ext/voxel_morton/voxel_morton_bind.cpp",
+    "demo_render/requirements.txt",
     "demo_render/rgbd_render/__init__.py",
     "demo_render/rgbd_render/camera.py",
-    "demo_render/rgbd_render/config.py"
+    "demo_render/rgbd_render/config.py",
+    "demo_render/rgbd_render/data/__init__.py",
+    "demo_render/rgbd_render/data/loader.py",
+    "demo_render/rgbd_render/data/sky.py"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -307,8 +379,12 @@
     "preprocess": 4,
     "scripts": 1
   },
-  "unread_source_paths_count": 152,
+  "unread_source_paths_count": 149,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 866,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

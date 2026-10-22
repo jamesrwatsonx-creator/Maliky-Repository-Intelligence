@@ -3,16 +3,101 @@
   "inspected_commit": "9433c21d680e703277feeb821e33bc2d37fdd1cb",
   "tree_complete": true,
   "tree_files": 2235,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".agents/skills/bem-conventions/SKILL.md",
+      "sha": "9212a20a583e1558b461e38b073a8929f80818bb"
+    },
+    {
+      "path": ".agents/skills/btcpayserver-changelog/SKILL.md",
+      "sha": "b1df274294c87b0748ac11d4d13a8bb46a44632d"
+    },
+    {
+      "path": ".agents/skills/btcpayserver-configuration/SKILL.md",
+      "sha": "06046380624de2a63ab966427747b008977148aa"
+    },
+    {
+      "path": ".agents/skills/btcpayserver-migrations/SKILL.md",
+      "sha": "e2aeff8101962fcdc28affd563c5dfee6237cacb"
+    },
+    {
+      "path": ".agents/skills/btcpayserver-pr-descriptions/SKILL.md",
+      "sha": "a9e32c65d173314b6f6ae74823043007e81377d7"
+    },
+    {
+      "path": ".agents/skills/playwright-test-patterns/SKILL.md",
+      "sha": "8fffa9cdf56c1fe87fc586b8070dfa4061109649"
+    },
+    {
+      "path": ".agents/skills/razor-localization/SKILL.md",
+      "sha": "1bf77259935a84be612af03fa37bf360fa5f0aeb"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "6f154caeec3d20b56570af7d3994e8aa48948346"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "d03fbac07b67917d9e19061ec0c447a75cd2bacf"
+    },
+    {
+      "path": "README.md",
+      "sha": "4c4ba01f1735e96e7d6c0bce33a13701fe75d8f4"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "4c4ba01f1735e96e7d6c0bce33a13701fe75d8f4",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "d03fbac07b67917d9e19061ec0c447a75cd2bacf",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "6f154caeec3d20b56570af7d3994e8aa48948346",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/bem-conventions/SKILL.md",
+      "blob_sha": "9212a20a583e1558b461e38b073a8929f80818bb",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/btcpayserver-changelog/SKILL.md",
+      "blob_sha": "b1df274294c87b0748ac11d4d13a8bb46a44632d",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/btcpayserver-configuration/SKILL.md",
+      "blob_sha": "06046380624de2a63ab966427747b008977148aa",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/btcpayserver-migrations/SKILL.md",
+      "blob_sha": "e2aeff8101962fcdc28affd563c5dfee6237cacb",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/btcpayserver-pr-descriptions/SKILL.md",
+      "blob_sha": "a9e32c65d173314b6f6ae74823043007e81377d7",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/playwright-test-patterns/SKILL.md",
+      "blob_sha": "8fffa9cdf56c1fe87fc586b8070dfa4061109649",
+      "entities_detected": 0
+    },
+    {
+      "path": ".agents/skills/razor-localization/SKILL.md",
+      "blob_sha": "1bf77259935a84be612af03fa37bf360fa5f0aeb",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
-    ".agents/skills/bem-conventions/SKILL.md",
-    ".agents/skills/btcpayserver-changelog/SKILL.md",
-    ".agents/skills/btcpayserver-configuration/SKILL.md",
-    ".agents/skills/btcpayserver-migrations/SKILL.md",
-    ".agents/skills/btcpayserver-pr-descriptions/SKILL.md",
-    ".agents/skills/playwright-test-patterns/SKILL.md",
-    ".agents/skills/razor-localization/SKILL.md",
     ".coderabbit.yaml",
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -29,7 +114,6 @@
     ".vscode/extensions.json",
     ".vscode/launch.json",
     ".vscode/tasks.json",
-    "AGENTS.md",
     "BTCPayServer.Abstractions/CamelCaseSerializerSettings.cs",
     "BTCPayServer.Abstractions/Configuration/DataDirectories.cs",
     "BTCPayServer.Abstractions/Constants/AuthenticationSchemes.cs",
@@ -69,6 +153,7 @@
     "BTCPayServer.Abstractions/Models/LayoutModel.cs",
     "BTCPayServer.Abstractions/Models/StatusMessageModel.cs",
     "BTCPayServer.Abstractions/Models/UploadImageResultModel.cs",
+    "BTCPayServer.Abstractions/PushNuget.ps1",
     "BTCPayServer.Abstractions/RequestBaseUrl.cs",
     "BTCPayServer.Abstractions/Security/ContentSecurityPolicies.cs",
     "BTCPayServer.Abstractions/Security/PolicyRequirement.cs",
@@ -105,7 +190,14 @@
     "BTCPayServer.Client/BTCPayServerClient.PullPayments.cs",
     "BTCPayServer.Client/BTCPayServerClient.Reports.cs",
     "BTCPayServer.Client/BTCPayServerClient.ServerEmail.cs",
-    "BTCPayServer.Client/BTCPayServerClient.ServerInfo.cs"
+    "BTCPayServer.Client/BTCPayServerClient.ServerInfo.cs",
+    "BTCPayServer.Client/BTCPayServerClient.StoreEmail.cs",
+    "BTCPayServer.Client/BTCPayServerClient.StorePaymentMethods.cs",
+    "BTCPayServer.Client/BTCPayServerClient.StorePayoutProcessors.cs",
+    "BTCPayServer.Client/BTCPayServerClient.StoreRatesConfiguration.cs",
+    "BTCPayServer.Client/BTCPayServerClient.StoreUsers.cs",
+    "BTCPayServer.Client/BTCPayServerClient.Stores.cs",
+    "BTCPayServer.Client/BTCPayServerClient.Subscriptions.cs"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "7423b730c15f19a5690b41dc6ad70f962190508fb7d4a3a90b76b3e67455d305",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -231,8 +324,11 @@
     "Docker": 2,
     "docs": 41
   },
-  "unread_source_paths_count": 1607,
+  "unread_source_paths_count": 1657,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 628,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

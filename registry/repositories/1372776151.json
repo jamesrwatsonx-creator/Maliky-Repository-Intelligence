@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/openinterpreter/openinterpreter",
-  "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
+  "description": "Natural-language computer interface that lets language models execute code and operate local or remote environments.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-15T06:55:59Z",
-    "github_description": "A coding agent for open models like Kimi K3 and GLM 5.3"
+    "github_description": "A coding agent for open models like Kimi K3 and GLM 5.3",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "5db50b2e93224dda720462f02fc2858cbd112eb5",
   "current_commit": "5db50b2e93224dda720462f02fc2858cbd112eb5",
   "inspection_date": "2026-09-20T05:36:32.029923+00:00",
   "categories": [
     "category:ai-agents",
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 18,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.769548+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.889095+00:00",
   "tree_files": 7654,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 5835,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 6374,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.246295+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Natural-language computer interface that lets language models execute code and operate local or remote environments.",
+    "reuse_recommendation": "Operate in a restricted sandbox and require confirmation before destructive or external actions.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "AGPL-3.0; model provider terms apply.",
+    "runtime": [
+      "Python",
+      "shell/code runtimes",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "Open Interpreter",
+      "computer use",
+      "code execution agent",
+      "natural language automation",
+      "local AI"
+    ],
+    "risk_notes": [
+      "Arbitrary code execution and computer control are high-impact; isolate secrets and network access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Open Interpreter execution runtime",
+        "purpose": "Bridges language-model instructions to computer capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:51.251295+00:00",
+    "inspected_commit": "5db50b2e93224dda720462f02fc2858cbd112eb5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "208cb9e278279c5b401088fa0f535606cac92308",
+        "value": "https://github.com/jamesrwatsonx-creator/openinterpreter/blob/5db50b2e93224dda720462f02fc2858cbd112eb5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "natural-language code execution",
+        "description": "Translates requests into code execution in a configured environment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:natural-language-code-execution",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "computer and browser interaction",
+        "description": "Supports broader interaction with local applications or web interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:computer-and-browser-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model and runtime configuration",
+        "description": "Connects execution behavior to model backends and environment settings.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-and-runtime-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

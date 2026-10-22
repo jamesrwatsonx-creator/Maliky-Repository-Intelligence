@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Azure-Samples/contoso-creative-writer",
-  "description": "A creative writing multi-agent solution to help users write articles.",
+  "description": "Azure sample application demonstrating an agent-based creative writing assistant using Azure OpenAI, search and prompt orchestration.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-02-11T11:15:08Z",
-    "github_description": "A creative writing multi-agent solution to help users write articles."
+    "github_description": "A creative writing multi-agent solution to help users write articles.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "cf6387c349f100f8fd7ba6a48ba86f3b3952ccf8",
   "current_commit": "cf6387c349f100f8fd7ba6a48ba86f3b3952ccf8",
   "inspection_date": "2026-09-20T05:33:43.253858+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:ai-applications",
+    "category:templates-boilerplates",
+    "category:marketing-communications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:creative-writer-api-create-article",
@@ -49,7 +52,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -294,11 +297,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.551668+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.374042+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -321,8 +325,8 @@
   "tree_files": 187,
   "files_read": 89,
   "entity_count": 15,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 10,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -340,5 +344,96 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 15,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Azure sample application demonstrating an agent-based creative writing assistant using Azure OpenAI, search and prompt orchestration.",
+    "reuse_recommendation": "Use as an Azure architecture example; secure keys, validate retrieved sources and review generated-content claims.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository license; Azure services and sample content terms apply.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Azure creative writing agent",
+      "Prompty",
+      "Azure OpenAI",
+      "Bing search",
+      "content generation sample"
+    ],
+    "risk_notes": [
+      "Hosted Azure services may incur costs; protect credentials and check citations before publishing generated writing."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Azure writing assistant sample",
+        "purpose": "Shows an agent application integrating model, search and prompt components.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:21.015544+00:00",
+    "inspected_commit": "cf6387c349f100f8fd7ba6a48ba86f3b3952ccf8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3550cfcf432500d7afee294de729d620925e55e1",
+        "value": "https://github.com/jamesrwatsonx-creator/creative-writer/blob/cf6387c349f100f8fd7ba6a48ba86f3b3952ccf8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "creative writing assistant",
+        "description": "Uses an LLM agent to draft and refine written content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:creative-writing-assistant",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "search-grounded writing",
+        "description": "Connects search results to writing assistance through Azure services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:search-grounded-writing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Prompty agent example",
+        "description": "Demonstrates prompt and agent configuration in an Azure sample.",
+        "scope": "REFERENCE",
+        "id": "cluster:prompty-agent-example",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

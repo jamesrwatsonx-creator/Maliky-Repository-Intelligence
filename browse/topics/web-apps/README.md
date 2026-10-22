@@ -2,7 +2,7 @@
 
 Browser-based applications, frontend and full-stack projects.
 
-**1,175 entries** · Alphabetical · 8 pages.
+**1,250 entries** · Alphabetical · 9 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -317,3 +317,4 @@ Browser-based applications, frontend and full-stack projects.
 - [Page 6](page-6.md)
 - [Page 7](page-7.md)
 - [Page 8](page-8.md)
+- [Page 9](page-9.md)

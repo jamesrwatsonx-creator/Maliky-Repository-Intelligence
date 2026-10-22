@@ -13,8 +13,44 @@
       "sha": "7a8f2e79cc960e3ecf05afcaddd59e284a6f05d6"
     },
     {
+      "path": "LICENSE",
+      "sha": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
       "path": "README.md",
       "sha": "8d37eab8b1de62ef65197031d576f71976a03c38"
+    },
+    {
+      "path": "crates/context-build/Cargo.toml",
+      "sha": "509ef9ed92a1be4bf09838732b66627f8c28c5d3"
+    },
+    {
+      "path": "crates/context-core/Cargo.toml",
+      "sha": "521cb206686913db5220725143c2dc58408cb4a3"
+    },
+    {
+      "path": "crates/context-filter/Cargo.toml",
+      "sha": "28f3d32a0f4081b0c21f9c677c2cee8ab481e570"
+    },
+    {
+      "path": "crates/context-hybrid/Cargo.toml",
+      "sha": "3787ede7f518213b3b792942a993ac55e9d8c24d"
+    },
+    {
+      "path": "crates/context-index/Cargo.toml",
+      "sha": "a076418dd8a0f69b6676e1de1f33cd8332f4f1c4"
+    },
+    {
+      "path": "crates/context-pg/Cargo.toml",
+      "sha": "c4f735a1f4cacdc153503bde2bdcfeb698adf945"
+    },
+    {
+      "path": "crates/context-query/Cargo.toml",
+      "sha": "08d001cf37715d7c642bd7890b84850ca8c9b03a"
+    },
+    {
+      "path": "crates/context-storage/Cargo.toml",
+      "sha": "57c77bd9b5a85f42f7b0687b4ef6e3a63079abef"
     },
     {
       "path": "fuzz/Cargo.toml",
@@ -59,6 +95,51 @@
       "path": "AGENTS.md",
       "blob_sha": "a67018ce6c2fb960b3f1fb3ae765d946111b298f",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-build/Cargo.toml",
+      "blob_sha": "509ef9ed92a1be4bf09838732b66627f8c28c5d3",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-core/Cargo.toml",
+      "blob_sha": "521cb206686913db5220725143c2dc58408cb4a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-filter/Cargo.toml",
+      "blob_sha": "28f3d32a0f4081b0c21f9c677c2cee8ab481e570",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-hybrid/Cargo.toml",
+      "blob_sha": "3787ede7f518213b3b792942a993ac55e9d8c24d",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-index/Cargo.toml",
+      "blob_sha": "a076418dd8a0f69b6676e1de1f33cd8332f4f1c4",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-pg/Cargo.toml",
+      "blob_sha": "c4f735a1f4cacdc153503bde2bdcfeb698adf945",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-query/Cargo.toml",
+      "blob_sha": "08d001cf37715d7c642bd7890b84850ca8c9b03a",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/context-storage/Cargo.toml",
+      "blob_sha": "57c77bd9b5a85f42f7b0687b4ef6e3a63079abef",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -75,7 +156,10 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "META.json",
+    "Makefile",
+    "NOTICE",
     "SECURITY.md",
+    "benchmarks/pgvector_comparison/Dockerfile.bench",
     "benchmarks/pgvector_comparison/README.md",
     "benchmarks/pgvector_comparison/bench_ann_hdf5.py",
     "benchmarks/pgvector_comparison/benchmark.py",
@@ -83,9 +167,8 @@
     "benchmarks/pgvector_comparison/run-ann-hdf5.sh",
     "benchmarks/pgvector_comparison/run.sh",
     "benchmarks/pgvector_comparison/test_benchmark.py",
-    "crates/context-build/Cargo.toml",
     "crates/context-build/src/lib.rs",
-    "crates/context-core/Cargo.toml",
+    "crates/context-core/proptest-regressions/metric_kernels.txt",
     "crates/context-core/src/catalog.rs",
     "crates/context-core/src/error.rs",
     "crates/context-core/src/exact.rs",
@@ -108,7 +191,6 @@
     "crates/context-core/tests/sparse_vector.rs",
     "crates/context-core/tests/vector_conversion_policy.rs",
     "crates/context-core/tests/vector_properties.rs",
-    "crates/context-filter/Cargo.toml",
     "crates/context-filter/src/lib.rs",
     "crates/context-filter/src/sql.rs",
     "crates/context-filter/tests/field_resolution.rs",
@@ -117,11 +199,10 @@
     "crates/context-filter/tests/property_rendering.rs",
     "crates/context-filter/tests/spi_parameterization.rs",
     "crates/context-filter/tests/sql_predicate_rendering.rs",
-    "crates/context-hybrid/Cargo.toml",
     "crates/context-hybrid/src/lib.rs",
     "crates/context-hybrid/tests/rrf.rs",
     "crates/context-hybrid/tests/weighted.rs",
-    "crates/context-index/Cargo.toml",
+    "crates/context-index/proptest-regressions/quantization_training.txt",
     "crates/context-index/src/delta_scan.rs",
     "crates/context-index/src/graph_mutation.rs",
     "crates/context-index/src/graph_mutation/availability.rs",
@@ -155,13 +236,13 @@
     "crates/context-index/tests/quantized_recall.rs",
     "crates/context-index/tests/quantized_rerank.rs",
     "crates/context-index/tests/scalar_quantization.rs",
-    "crates/context-pg/Cargo.toml",
     "crates/context-pg/src/artifact_segments.rs",
     "crates/context-pg/src/artifact_segments/diagnostics.rs",
     "crates/context-pg/src/artifact_segments/persistence.rs",
     "crates/context-pg/src/artifact_segments/quantization.rs",
     "crates/context-pg/src/artifact_segments/serving_readiness.rs",
-    "crates/context-pg/src/artifact_segments_file_cleanup.rs"
+    "crates/context-pg/src/artifact_segments_file_cleanup.rs",
+    "crates/context-pg/src/artifact_segments_results.rs"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -255,8 +336,12 @@
     "sql": 5,
     "tests": 74
   },
-  "unread_source_paths_count": 520,
+  "unread_source_paths_count": 537,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 68,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

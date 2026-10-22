@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/upstash/context7",
-  "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+  "description": "MCP server that retrieves current library documentation and code examples for use in agent-assisted software development.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-15T13:11:04Z",
-    "github_description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors"
+    "github_description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b653c3a07d7936bdc4c23fc1c88903120e0ece77",
   "current_commit": "b653c3a07d7936bdc4c23fc1c88903120e0ece77",
   "inspection_date": "2026-09-20T05:36:31.151068+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:mcp-servers",
+    "category:developer-tools",
+    "category:documentation"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 10,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.516437+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.336998+00:00",
   "tree_files": 499,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 254,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 367,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.110979+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "MCP server that retrieves current library documentation and code examples for use in agent-assisted software development.",
+    "reuse_recommendation": "Use to ground coding assistance in versioned documentation, then confirm APIs against upstream docs.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license and documentation source terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "MCP",
+      "documentation retrieval backend"
+    ],
+    "keywords": [
+      "Context7",
+      "MCP",
+      "library documentation",
+      "code examples",
+      "developer agents"
+    ],
+    "risk_notes": [
+      "Returned documentation may be incomplete or mismatched to the installed version."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Context7 documentation server",
+        "purpose": "Bridges package/library identity to documentation context for agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:35.225878+00:00",
+    "inspected_commit": "b653c3a07d7936bdc4c23fc1c88903120e0ece77",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "aa34be9ba8eb98b5edc8dc8b9088a513275356ce",
+        "value": "https://github.com/jamesrwatsonx-creator/context7/blob/b653c3a07d7936bdc4c23fc1c88903120e0ece77/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "documentation lookup",
+        "description": "Finds version-relevant documentation for supported libraries.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:documentation-lookup",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "example retrieval",
+        "description": "Supplies usage examples as agent context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:example-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP client integration",
+        "description": "Exposes lookup tools to compatible coding agents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-client-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

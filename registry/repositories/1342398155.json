@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/patrykandpatrick/vico",
-  "description": "A powerful and extensible chart library for Compose Multiplatform.",
+  "description": "Vico Kotlin charting library for displaying charts in Android applications using Jetpack Compose and related UI frameworks.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-19T23:25:26Z",
-    "github_description": "A powerful and extensible chart library for Compose Multiplatform."
+    "github_description": "A powerful and extensible chart library for Compose Multiplatform.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "eb12d779419cdb8e46d6e577e2345c7aedad9989",
   "current_commit": "eb12d779419cdb8e46d6e577e2345c7aedad9989",
   "inspection_date": "2026-09-20T05:33:11.464092+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:mobile-applications",
+    "category:data-visualization"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:charts-vico-skill-docs",
@@ -47,7 +50,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -292,11 +295,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.376367+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.168356+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -318,8 +322,8 @@
   "tree_files": 333,
   "files_read": 280,
   "entity_count": 12,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 2,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -337,5 +341,89 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 12,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Vico Kotlin charting library for displaying charts in Android applications using Jetpack Compose and related UI frameworks.",
+    "reuse_recommendation": "Use after checking library versions, accessibility labels and behavior with dynamic data.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and Maven artifact terms.",
+    "runtime": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Android"
+    ],
+    "keywords": [
+      "Vico charts",
+      "Kotlin chart library",
+      "Compose charts",
+      "Android visualization",
+      "data charts"
+    ],
+    "risk_notes": [
+      "Charts can mislead without clear units and accessible descriptions; validate visual and screen-reader output."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vico chart library",
+        "purpose": "Provides Kotlin chart components for Android visualization.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:18.171019+00:00",
+    "inspected_commit": "eb12d779419cdb8e46d6e577e2345c7aedad9989",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5575c6cf8ff32b6f47e781122a03478525d9ee10",
+        "value": "https://github.com/jamesrwatsonx-creator/Charts-vico/blob/eb12d779419cdb8e46d6e577e2345c7aedad9989/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Android chart components",
+        "description": "Renders reusable charts in Android application interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:android-chart-components",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Compose chart integration",
+        "description": "Connects chart rendering to Jetpack Compose state and layout.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compose-chart-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/Freika/dawarich",
-  "description": "Your favorite self-hostable alternative to Google Timeline (Google Location History)",
+  "description": "Self-hosted location history and mapping application for importing, storing and visualizing a person’s movement data over time.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T22:38:58Z",
-    "github_description": "Your favorite self-hostable alternative to Google Timeline (Google Location History)"
+    "github_description": "Your favorite self-hostable alternative to Google Timeline (Google Location History)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e32b70701b2467b862d4b5bc27ac428999997c1b",
   "current_commit": "e32b70701b2467b862d4b5bc27ac428999997c1b",
   "inspection_date": "2026-10-20T23:53:29.928283+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:real-estate-geospatial",
+    "category:productivity",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.600868+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.439059+00:00",
   "tree_files": 3805,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2641,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2651,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted location history and mapping application for importing, storing and visualizing a person’s movement data over time.",
+    "reuse_recommendation": "Use only with explicit consent, secure access and retention/deletion controls for location archives.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license, map tile terms and data export rules.",
+    "runtime": [
+      "Ruby/Rails",
+      "database",
+      "geospatial map services"
+    ],
+    "keywords": [
+      "Dawarich",
+      "location history",
+      "GPS tracking",
+      "personal maps",
+      "self-hosted timeline"
+    ],
+    "risk_notes": [
+      "Precise location history is highly sensitive personal data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Dawarich location history platform",
+        "purpose": "Combines personal location archives with map-based exploration.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:22.030681+00:00",
+    "inspected_commit": "e32b70701b2467b862d4b5bc27ac428999997c1b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d8e04a05b57315c844c1d97284108c3e75dd470e",
+        "value": "https://github.com/jamesrwatsonx-creator/dawarich---world-ID-track-every-move/blob/e32b70701b2467b862d4b5bc27ac428999997c1b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "location data import and storage",
+        "description": "Ingests and organizes location history from supported sources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:location-data-import-and-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "map and timeline visualization",
+        "description": "Shows movement and places over time for personal review.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:map-and-timeline-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted privacy controls",
+        "description": "Lets users operate the data service on their own infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-privacy-controls",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

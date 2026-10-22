@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/agent37-platform/minions",
-  "description": "Mission Control for your Hermes agents",
+  "description": "Mission-control dashboard for creating, supervising and reviewing autonomous Hermes Agent jobs and long-running sessions.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-15T05:09:55Z",
-    "github_description": "Mission Control for your Hermes agents"
+    "github_description": "Mission Control for your Hermes agents",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "a0787971cb207fd80f7e54991a52665874fe914a",
   "current_commit": "a0787971cb207fd80f7e54991a52665874fe914a",
   "inspection_date": "2026-09-20T05:34:03.886410+00:00",
   "categories": [
+    "category:web-applications",
     "category:ai-agents",
-    "category:cli-tools",
-    "category:frontend-applications",
-    "category:libraries-packages"
+    "category:project-management"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:minions-cli-minions",
@@ -72,7 +72,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -317,11 +317,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.511741+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.648291+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -343,8 +344,8 @@
   "tree_files": 92,
   "files_read": 82,
   "entity_count": 34,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 2,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -363,5 +364,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.217295+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Mission-control dashboard for creating, supervising and reviewing autonomous Hermes Agent jobs and long-running sessions.",
+    "reuse_recommendation": "Useful orchestration UI candidate; review authorization, agent process controls, logs and tenant isolation before connecting production agents.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT; hosted Agent37 service terms apply.",
+    "runtime": [
+      "Web application",
+      "Hermes Agent integration",
+      "job/session control"
+    ],
+    "keywords": [
+      "Hermes mission control",
+      "agent job dashboard",
+      "autonomous task supervision",
+      "session review",
+      "long-running agents"
+    ],
+    "risk_notes": [
+      "Supervises autonomous jobs that may execute tools; verify identity, cancellation, isolation and result access controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Minions mission control",
+        "purpose": "Centralizes agent job creation, progress tracking and review.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:55.200399+00:00",
+    "inspected_commit": "a0787971cb207fd80f7e54991a52665874fe914a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "28b64eea30fa0fa036e9a07ba089242303f2b95e",
+        "value": "https://github.com/jamesrwatsonx-creator/minions/blob/a0787971cb207fd80f7e54991a52665874fe914a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent job management",
+        "description": "Creates and tracks autonomous agent work across sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-job-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "run supervision and review",
+        "description": "Provides a dashboard for monitoring completion and reviewing results.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:run-supervision-and-review",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Hermes integration",
+        "description": "Connects dashboard workflows to Hermes Agent runtime sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hermes-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

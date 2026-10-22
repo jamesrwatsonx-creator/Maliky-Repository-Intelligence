@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/polakowo/vectorbt",
-  "description": "The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.",
+  "description": "Python quantitative trading research library for vectorized strategy backtesting, portfolio analytics and market-data workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-02T09:14:10Z",
-    "github_description": "The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one."
+    "github_description": "The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
   "current_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
   "inspection_date": "2026-09-20T05:36:11.756681+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:data-science",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.465720+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.484894+00:00",
   "tree_files": 297,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 159,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 185,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.313348+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python quantitative trading research library for vectorized strategy backtesting, portfolio analytics and market-data workflows.",
+    "reuse_recommendation": "Use for research/backtesting with leakage-aware evaluation; confirm licensing distinctions and assumptions before financial decisions.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository license; VectorBT Pro is a separate product with separate terms.",
+    "runtime": [
+      "Python",
+      "NumPy",
+      "Pandas"
+    ],
+    "keywords": [
+      "vectorbt",
+      "vectorized backtesting",
+      "portfolio analytics",
+      "quantitative strategies",
+      "Python trading research"
+    ],
+    "risk_notes": [
+      "Backtest performance may not predict live results; verify data leakage, transaction costs and model overfitting."
+    ],
+    "important_subsystems": [
+      {
+        "name": "vectorbt research library",
+        "purpose": "Connects vectorized signal analysis, portfolio simulation and evaluation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:15.707352+00:00",
+    "inspected_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "faaeb22a65f82e89015e651804487db390311877",
+        "value": "https://github.com/jamesrwatsonx-creator/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "vectorized strategy backtesting",
+        "description": "Evaluates trading rules across large datasets using vectorized operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vectorized-strategy-backtesting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "portfolio simulation and analytics",
+        "description": "Computes portfolio performance and trading statistics.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:portfolio-simulation-and-analytics",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "market data research workflows",
+        "description": "Supports data preparation and research notebooks for quantitative strategies.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-data-research-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

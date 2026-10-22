@@ -9,12 +9,44 @@
       "sha": "61beb55a1c7403c76bfb4444f0e5a9665b511b73"
     },
     {
+      "path": "LICENSE",
+      "sha": "90b1793cf8eb2d6444863591e8405ecc707dc62d"
+    },
+    {
       "path": "README.md",
       "sha": "4569db83fe4fee02ba656f8eaa52db22e43e8e63"
     },
     {
+      "path": "crates/build/xai-proto-build/Cargo.toml",
+      "sha": "3c1c303bebd9a86966c66a0cff928291221d13b1"
+    },
+    {
+      "path": "crates/codegen/ptyctl-cli/Cargo.toml",
+      "sha": "a0aaa9d16f01add007e60d903d134e1e674d5e0a"
+    },
+    {
+      "path": "crates/codegen/ptyctl/Cargo.toml",
+      "sha": "631c221ddd85dafb64b278dd8c88cca7d0dd541e"
+    },
+    {
       "path": "third_party/README.md",
       "sha": "cace266c2f4f5b86a8693483b694e717eabd1545"
+    },
+    {
+      "path": "third_party/dagre_rust/Cargo.toml",
+      "sha": "55764342766c1bab2326fcebc632d0c904239bc0"
+    },
+    {
+      "path": "third_party/graphlib_rust/Cargo.toml",
+      "sha": "8e6678231530f899847874db7dfe704f4ee0b6c7"
+    },
+    {
+      "path": "third_party/mermaid-to-svg/Cargo.toml",
+      "sha": "18d854ec84aad57472e5171c262f45bcfca28ead"
+    },
+    {
+      "path": "third_party/ordered_hashmap/Cargo.toml",
+      "sha": "6f9ac15308a85ac7dc13f0c5b7ccb0909f66a659"
     }
   ],
   "files_read": [
@@ -32,6 +64,46 @@
       "path": "third_party/README.md",
       "blob_sha": "cace266c2f4f5b86a8693483b694e717eabd1545",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "90b1793cf8eb2d6444863591e8405ecc707dc62d",
+      "entities_detected": 0
+    },
+    {
+      "path": "third_party/dagre_rust/Cargo.toml",
+      "blob_sha": "55764342766c1bab2326fcebc632d0c904239bc0",
+      "entities_detected": 0
+    },
+    {
+      "path": "third_party/graphlib_rust/Cargo.toml",
+      "blob_sha": "8e6678231530f899847874db7dfe704f4ee0b6c7",
+      "entities_detected": 0
+    },
+    {
+      "path": "third_party/mermaid-to-svg/Cargo.toml",
+      "blob_sha": "18d854ec84aad57472e5171c262f45bcfca28ead",
+      "entities_detected": 0
+    },
+    {
+      "path": "third_party/ordered_hashmap/Cargo.toml",
+      "blob_sha": "6f9ac15308a85ac7dc13f0c5b7ccb0909f66a659",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/build/xai-proto-build/Cargo.toml",
+      "blob_sha": "3c1c303bebd9a86966c66a0cff928291221d13b1",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/codegen/ptyctl-cli/Cargo.toml",
+      "blob_sha": "a0aaa9d16f01add007e60d903d134e1e674d5e0a",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/codegen/ptyctl/Cargo.toml",
+      "blob_sha": "631c221ddd85dafb64b278dd8c88cca7d0dd541e",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -39,18 +111,17 @@
     "CONTRIBUTING.md",
     "SECURITY.md",
     "clippy.toml",
-    "crates/build/xai-proto-build/Cargo.toml",
     "crates/build/xai-proto-build/src/debug_redact.rs",
     "crates/build/xai-proto-build/src/find_protoc.rs",
     "crates/build/xai-proto-build/src/lib.rs",
-    "crates/codegen/ptyctl-cli/Cargo.toml",
+    "crates/build/xai-proto-build/test_data/debug_redact_plain.proto",
+    "crates/build/xai-proto-build/test_data/debug_redact_test.proto",
     "crates/codegen/ptyctl-cli/src/cli.rs",
     "crates/codegen/ptyctl-cli/src/commands/client.rs",
     "crates/codegen/ptyctl-cli/src/commands/mod.rs",
     "crates/codegen/ptyctl-cli/src/commands/run.rs",
     "crates/codegen/ptyctl-cli/src/main.rs",
     "crates/codegen/ptyctl-cli/src/registry.rs",
-    "crates/codegen/ptyctl/Cargo.toml",
     "crates/codegen/ptyctl/src/keys.rs",
     "crates/codegen/ptyctl/src/lib.rs",
     "crates/codegen/ptyctl/src/pty.rs",
@@ -134,7 +205,8 @@
     "crates/codegen/xai-codebase-graph/tests/memory_integration.rs",
     "crates/codegen/xai-compaction-transcript/Cargo.toml",
     "crates/codegen/xai-compaction-transcript/src/lib.rs",
-    "crates/codegen/xai-crash-handler/Cargo.toml"
+    "crates/codegen/xai-crash-handler/Cargo.toml",
+    "crates/codegen/xai-crash-handler/README.md"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -225,8 +297,12 @@
     "prod": 12,
     "third_party": 77
   },
-  "unread_source_paths_count": 3270,
+  "unread_source_paths_count": 3300,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 74,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

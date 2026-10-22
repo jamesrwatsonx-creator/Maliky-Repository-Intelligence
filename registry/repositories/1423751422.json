@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/NationalSecurityAgency/ghidra",
-  "description": "Ghidra is a software reverse engineering (SRE) framework",
+  "description": "Ghidra-based reverse engineering workflow or plugin collection for analyzing compiled binaries and recovering program structure.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-16T16:52:06Z",
-    "github_description": "Ghidra is a software reverse engineering (SRE) framework"
+    "github_description": "Ghidra is a software reverse engineering (SRE) framework",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9a723ce99952771b8368329503aa589ae233e916",
   "current_commit": "9a723ce99952771b8368329503aa589ae233e916",
   "inspection_date": "2026-10-20T23:58:13.979194+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:cybersecurity",
+    "category:developer-tools",
+    "category:research-projects"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.976667+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.052076+00:00",
   "tree_files": 20621,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 16786,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 17317,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Ghidra-based reverse engineering workflow or plugin collection for analyzing compiled binaries and recovering program structure.",
+    "reuse_recommendation": "Use for authorized research and malware analysis in isolated environments.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository and Ghidra license plus analyzed binary rights.",
+    "runtime": [
+      "Java/Ghidra",
+      "analysis scripts"
+    ],
+    "keywords": [
+      "Ghidra",
+      "reverse engineering",
+      "binary analysis",
+      "software security",
+      "disassembly"
+    ],
+    "risk_notes": [
+      "Binary analysis can involve malicious samples and proprietary software; isolate samples and verify authorization."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Ghidra analysis toolkit",
+        "purpose": "Enables structured investigation of executable binaries.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:57.312265+00:00",
+    "inspected_commit": "9a723ce99952771b8368329503aa589ae233e916",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3f1eea7b35d8551f2433f3074f68ba736d72673f",
+        "value": "https://github.com/jamesrwatsonx-creator/ghidra-reverse-engineering/blob/9a723ce99952771b8368329503aa589ae233e916/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "binary analysis workflows",
+        "description": "Supports disassembly, decompilation and program behavior investigation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:binary-analysis-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Ghidra extensions and guidance",
+        "description": "Adds project-specific scripts, plugins or procedures to the analysis environment.",
+        "scope": "REFERENCE",
+        "id": "cluster:ghidra-extensions-and-guidance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

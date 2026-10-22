@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/firecrawl/firecrawl",
-  "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+  "description": "Web crawling and scraping platform/API that converts websites into structured content suitable for search, extraction and AI workflows.",
   "metadata": {
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-22T13:18:42Z",
-    "github_description": "The API to search, scrape, and interact with the web at scale. 🔥"
+    "github_description": "The API to search, scrape, and interact with the web at scale. 🔥",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "ca0be9b7d91eb9b48d3430f5678211f0d47e1d90",
   "current_commit": "ca0be9b7d91eb9b48d3430f5678211f0d47e1d90",
   "inspection_date": "2026-09-20T05:32:48.354909+00:00",
   "categories": [
+    "category:data-engineering",
     "category:apis",
-    "category:research-projects"
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [
     "operational:12"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.832752+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.747221+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 1764,
-  "files_read": 7,
+  "files_read": 16,
   "entity_count": 0,
-  "unread_source_files": 1504,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1557,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.137305+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Web crawling and scraping platform/API that converts websites into structured content suitable for search, extraction and AI workflows.",
+    "reuse_recommendation": "Use for permitted crawling with domain limits, source attribution and data-retention controls.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and hosted service terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "browser automation",
+      "API service"
+    ],
+    "keywords": [
+      "Firecrawl",
+      "web crawling API",
+      "scraping",
+      "LLM data ingestion",
+      "website extraction"
+    ],
+    "risk_notes": [
+      "Crawling arbitrary URLs can create SSRF, privacy and site-policy risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Firecrawl crawl/extract API",
+        "purpose": "Turns web content into usable data for retrieval and automation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:12.712798+00:00",
+    "inspected_commit": "ca0be9b7d91eb9b48d3430f5678211f0d47e1d90",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "21f26a3cbe4ddfe7e504982f352a8a7c71d868c7",
+        "value": "https://github.com/jamesrwatsonx-creator/firecrawl/blob/ca0be9b7d91eb9b48d3430f5678211f0d47e1d90/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "website crawling and mapping",
+        "description": "Discovers pages and collects content from websites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:website-crawling-and-mapping",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "structured extraction",
+        "description": "Transforms pages into markdown or structured data for downstream use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:structured-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser and API integrations",
+        "description": "Supports programmatic and agent-connected crawl workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-and-api-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

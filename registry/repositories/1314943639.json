@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/JuliusBrussee/caveman",
-  "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+  "description": "Prompt/plugin for shortening AI coding-agent responses while retaining task information and reducing output-token use.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-26T16:53:51Z",
-    "github_description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+    "github_description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
   "current_commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
   "inspection_date": "2026-09-20T05:32:55.706890+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:skills"
+    "category:plugins-extensions",
+    "category:skills",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -55,7 +57,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 11,
@@ -300,11 +302,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.363654+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.150315+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -327,8 +330,8 @@
   "tree_files": 167,
   "files_read": 146,
   "entity_count": 25,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 5,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -346,5 +349,86 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 25,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Prompt/plugin for shortening AI coding-agent responses while retaining task information and reducing output-token use.",
+    "reuse_recommendation": "Use as an optional style preference and ensure clarity remains sufficient for safety-critical and complex tasks.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Caveman coding agent",
+      "concise responses",
+      "token reduction",
+      "agent style plugin"
+    ],
+    "risk_notes": [
+      "Aggressive compression can omit assumptions or caveats; retain detail when accuracy requires it."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Caveman style plugin",
+        "purpose": "Applies concise response guidance within a coding-agent host.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:18.669651+00:00",
+    "inspected_commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a8f7cf21b8a7a63cf29fafda1e6e6a8e0f22ebb3",
+        "value": "https://github.com/jamesrwatsonx-creator/caveman/blob/0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "concise agent response style",
+        "description": "Guides an agent to use fewer words while preserving useful information.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:concise-agent-response-style",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "host plugin packaging",
+        "description": "Distributes the style behavior to compatible coding-agent environments.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:host-plugin-packaging",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

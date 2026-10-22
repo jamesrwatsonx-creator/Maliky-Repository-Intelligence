@@ -9,6 +9,14 @@
       "sha": "360724d4895fd216fd13aeb1f0f89169bb9a1f6f"
     },
     {
+      "path": ".github/workflows/close-issues.yml",
+      "sha": "03dcc075d81a0d472873b22600eae14f07dac8eb"
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "sha": "184281843d9fc0bdfe07b4af5a01f8c624f59768"
+    },
+    {
       "path": ".github/workflows/release.yml",
       "sha": "cfe506fc9ab384a6160c1a95edb43689c88c7d53"
     },
@@ -21,8 +29,20 @@
       "sha": "52d10195459a9d18f49a6bf0f46ec1972b8bf4eb"
     },
     {
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
       "path": "README.md",
       "sha": "539de4d9876c52dda0035d581d5fc51a9d764886"
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha": "cc88583c878cea7a0bc585777c489c37f76d4f98"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha": "722e1db481fedb9271e3582e43ed085f0342586a"
     },
     {
       "path": "gradle/libs.versions.toml",
@@ -87,6 +107,10 @@
     {
       "path": "haze/src/commonMain/kotlin/dev/chrisbanes/haze/HazePerformanceMode.kt",
       "sha": "0aaaac1eaa0b75c16b6257e599e7275d6586b920"
+    },
+    {
+      "path": "internal/benchmark/README.md",
+      "sha": "b89a99036277302cde4850bd2b3aaaac2841e60d"
     },
     {
       "path": "settings.gradle.kts",
@@ -203,14 +227,45 @@
       "path": "gradle/libs.versions.toml",
       "blob_sha": "805c4c3f9da1188353f4ebadc9358a15e38ae90e",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/architecture.md",
+      "blob_sha": "722e1db481fedb9271e3582e43ed085f0342586a",
+      "entities_detected": 0
+    },
+    {
+      "path": "internal/benchmark/README.md",
+      "blob_sha": "b89a99036277302cde4850bd2b3aaaac2841e60d",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/close-issues.yml",
+      "blob_sha": "03dcc075d81a0d472873b22600eae14f07dac8eb",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "blob_sha": "184281843d9fc0bdfe07b4af5a01f8c624f59768",
+      "entities_detected": 0
+    },
+    {
+      "path": "build.gradle.kts",
+      "blob_sha": "cc88583c878cea7a0bc585777c489c37f76d4f98",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/release.yml",
-    ".github/workflows/close-issues.yml",
-    ".github/workflows/publish-docs.yml",
-    "build.gradle.kts",
+    ".idea/inspectionProfiles/Project_Default.xml",
+    ".idea/migrations.xml",
+    ".idea/runConfigurations.xml",
+    ".idea/vcs.xml",
     "docs/adr/0001-treat-haze-2-as-an-intentional-source-break.md",
     "docs/adr/0002-use-a-shared-retained-stage-graph-for-glass.md",
     "docs/adr/0003-use-one-android-fused-glass-renderer.md",
@@ -221,7 +276,6 @@
     "docs/agents/issue-tracker.md",
     "docs/agents/run-github-project.md",
     "docs/agents/triage-labels.md",
-    "docs/architecture.md",
     "docs/blur/faq.md",
     "docs/blur/index.md",
     "docs/blur/material3.md",
@@ -255,9 +309,19 @@
     "gradle/build-logic/convention/src/main/kotlin/dev/chrisbanes/gradle/VersionCatalog.kt",
     "gradle/build-logic/convention/src/main/kotlin/dev/chrisbanes/gradle/Versions.kt",
     "gradle/build-logic/settings.gradle.kts",
+    "haze-blur-material3/api/2.0.0-alpha05.txt",
+    "haze-blur-material3/api/2.0.0-beta01.txt",
+    "haze-blur-material3/api/api.txt",
     "haze-blur-material3/build.gradle.kts",
     "haze-blur-material3/src/commonMain/kotlin/dev/chrisbanes/haze/blur/material3/BlurMaterial3.kt",
     "haze-blur-material3/src/jvmTest/kotlin/dev/chrisbanes/haze/blur/material3/BlurMaterial3Test.kt",
+    "haze-blur/api/2.0.0-alpha01.txt",
+    "haze-blur/api/2.0.0-alpha02.txt",
+    "haze-blur/api/2.0.0-alpha03.txt",
+    "haze-blur/api/2.0.0-alpha04.txt",
+    "haze-blur/api/2.0.0-alpha05.txt",
+    "haze-blur/api/2.0.0-beta01.txt",
+    "haze-blur/api/api.txt",
     "haze-blur/build.gradle.kts",
     "haze-blur/src/androidDeviceTest/kotlin/dev/chrisbanes/haze/blur/BlurVisualEffectRecompositionCountInstrumentationTest.kt",
     "haze-blur/src/androidDeviceTest/kotlin/dev/chrisbanes/haze/blur/BlurVisualEffectRecompositionLoopInstrumentationTest.kt",
@@ -295,17 +359,7 @@
     "haze-blur/src/commonTest/kotlin/dev/chrisbanes/haze/blur/RecompositionTestFixtures.kt",
     "haze-blur/src/jvmTest/kotlin/dev/chrisbanes/haze/blur/HazeBlurModifierTest.kt",
     "haze-blur/src/jvmTest/kotlin/dev/chrisbanes/haze/blur/RenderEffectBlurVisualEffectDelegateTrimMemoryTest.kt",
-    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/BlurRenderEffect.skiko.kt",
-    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/BlurVisualEffect.skiko.kt",
-    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/HazeBlurDefaults.skiko.kt",
-    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/Paint.skiko.kt",
-    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/RenderEffectBlurVisualEffectDelegate.skiko.kt",
-    "haze-glass-material3/build.gradle.kts",
-    "haze-glass-material3/src/commonMain/kotlin/dev/chrisbanes/haze/glass/material3/GlassMaterial3.kt",
-    "haze-glass-material3/src/jvmTest/kotlin/dev/chrisbanes/haze/glass/material3/GlassMaterial3Test.kt",
-    "haze-glass/build.gradle.kts",
-    "haze-glass/src/androidHostTest/kotlin/dev/chrisbanes/haze/glass/GlassRuntimeEffectAndroidCapabilityTest.kt",
-    "haze-glass/src/androidHostTest/kotlin/dev/chrisbanes/haze/glass/RuntimeShaderGlassDelegateAndroidHostTest.kt"
+    "haze-blur/src/skikoMain/kotlin/dev/chrisbanes/haze/blur/BlurRenderEffect.skiko.kt"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -434,8 +488,12 @@
     "scripts": 3,
     "spotless": 1
   },
-  "unread_source_paths_count": 385,
+  "unread_source_paths_count": 550,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 892,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/microsoft/monaco-editor",
-  "description": "A browser based code editor",
+  "description": "Monaco Editor integration or extension for Vibe Studio, providing code editing capabilities within an application or agent environment.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-10T02:53:45Z",
-    "github_description": "A browser based code editor"
+    "github_description": "A browser based code editor",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d620ca0c03d24a51c05ae4dca8a9d5923a4aeb9c",
   "current_commit": "d620ca0c03d24a51c05ae4dca8a9d5923a4aeb9c",
   "inspection_date": "2026-09-20T05:36:05.687501+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:frontend-applications",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -36,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -251,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.514423+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.531937+00:00",
   "tree_files": 994,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 730,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 956,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -270,5 +274,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.318903+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Monaco Editor integration or extension for Vibe Studio, providing code editing capabilities within an application or agent environment.",
+    "reuse_recommendation": "Use as an integration reference and verify editor security for untrusted code/content.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license and Monaco Editor terms.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "Monaco Editor",
+      "web application"
+    ],
+    "keywords": [
+      "Monaco Editor",
+      "code editor",
+      "Vibe Studio",
+      "syntax highlighting",
+      "developer UI"
+    ],
+    "risk_notes": [
+      "Editor previews and language services must not execute untrusted source automatically."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vibe Studio Monaco integration",
+        "purpose": "Embeds the Monaco code editor in the host application.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:47.167539+00:00",
+    "inspected_commit": "d620ca0c03d24a51c05ae4dca8a9d5923a4aeb9c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e17867b5a555606dc3287b6f9cf72b622a8aedb9",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-monaco-editor/blob/d620ca0c03d24a51c05ae4dca8a9d5923a4aeb9c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "embedded code editing",
+        "description": "Provides editor surfaces and code-editing interactions inside Vibe Studio.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:embedded-code-editing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "language/editor configuration",
+        "description": "Configures editor models, language services and UI behavior.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:language-editor-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

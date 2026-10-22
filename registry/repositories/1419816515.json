@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/genea-app/genea-app",
-  "description": "Visually build and edit family trees online. Genea is a completely serverless solution for consuming and authoring GEDCOM genealogy data.",
+  "description": "Browser-based genealogy application for visually building and editing family trees with GEDCOM import/export and client-side storage options.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-12-12T20:30:35Z",
-    "github_description": "Visually build and edit family trees online. Genea is a completely serverless solution for consuming and authoring GEDCOM genealogy data."
+    "github_description": "Visually build and edit family trees online. Genea is a completely serverless solution for consuming and authoring GEDCOM genealogy data.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "6544e682b2a9cd9cf304680515b8f8b65a7cc649",
   "current_commit": "6544e682b2a9cd9cf304680515b8f8b65a7cc649",
   "inspection_date": "2026-10-20T23:57:23.271557+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:business-applications",
+    "category:data-visualization"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,135 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.958784+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.034078+00:00",
   "tree_files": 56,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 28,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 21,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Browser-based genealogy application for visually building and editing family trees with GEDCOM import/export and client-side storage options.",
+    "reuse_recommendation": "Reference or adapt the client-side GEDCOM experience; assess data export, access controls and privacy before handling family records.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "React web app",
+      "GEDCOM"
+    ],
+    "keywords": [
+      "genealogy family tree",
+      "GEDCOM editor",
+      "family tree visualization",
+      "client-side genealogy"
+    ],
+    "risk_notes": [
+      "Genealogy data is sensitive personal information, including information about living people; protect local files and sharing workflows."
+    ],
+    "important_subsystems": [
+      {
+        "name": "family tree editor",
+        "purpose": "Provides the visual genealogy editing experience.",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:46.134012+00:00",
+    "inspected_commit": "6544e682b2a9cd9cf304680515b8f8b65a7cc649",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0f130d6749835c8553840c8acab190859c617d74",
+        "value": "https://github.com/jamesrwatsonx-creator/genea-app/blob/6544e682b2a9cd9cf304680515b8f8b65a7cc649/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "506582d156599d805a7f5b21e582a8306e0b51e5",
+        "value": "https://github.com/jamesrwatsonx-creator/genea-app/blob/6544e682b2a9cd9cf304680515b8f8b65a7cc649/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "15cf2444a319ae11fa05f30199f82315385070c1",
+        "value": "https://github.com/jamesrwatsonx-creator/genea-app/blob/6544e682b2a9cd9cf304680515b8f8b65a7cc649/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "components/debug.js",
+        "blob_sha": "9f642c32f379c76d59b35b1c8eb77bca7890a4f7",
+        "value": "https://github.com/jamesrwatsonx-creator/genea-app/blob/6544e682b2a9cd9cf304680515b8f8b65a7cc649/components/debug.js"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual family tree editing",
+        "description": "Builds and edits genealogy relationships through a browser interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-family-tree-editing",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "components/debug.js"
+        ]
+      },
+      {
+        "name": "GEDCOM data exchange",
+        "description": "Reads and writes genealogy records through the GEDCOM format.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:gedcom-data-exchange",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "components/debug.js"
+        ]
+      },
+      {
+        "name": "self-hosted client application",
+        "description": "Can be served as a static web app without a required server backend.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-client-application",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "components/debug.js"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

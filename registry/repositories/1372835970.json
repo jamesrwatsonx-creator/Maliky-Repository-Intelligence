@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/getlago/lago",
-  "description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+  "description": "Lago open-source billing and subscription platform for metered usage, pricing, invoices, credits and subscription management.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-15T23:02:41Z",
-    "github_description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics"
+    "github_description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2fd8e8beb6c3cc5d4245a16ccc1593cc7d18c016",
   "current_commit": "2fd8e8beb6c3cc5d4245a16ccc1593cc7d18c016",
   "inspection_date": "2026-09-20T05:36:41.562629+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:apis"
+    "category:business-applications",
+    "category:apis",
+    "category:commerce-e-commerce"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [
     "operational:12"
   ],
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.807939+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.928095+00:00",
   "tree_files": 167,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 125,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 119,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.252123+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Lago open-source billing and subscription platform for metered usage, pricing, invoices, credits and subscription management.",
+    "reuse_recommendation": "Potential commerce backbone; review payment flows, financial records, authorization and migration behavior before integrating.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "Check current Lago repository license and separately hosted dependencies.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Lago billing",
+      "subscription management",
+      "usage metering",
+      "invoicing",
+      "pricing platform"
+    ],
+    "risk_notes": [
+      "Billing/payment and sensitive customer data are deep-review triggers; ensure reconciliation and access controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lago billing platform",
+        "purpose": "Coordinates usage, pricing, subscription and invoice operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:18.937819+00:00",
+    "inspected_commit": "2fd8e8beb6c3cc5d4245a16ccc1593cc7d18c016",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c06d27a06653e7d69a6553f8445b13e33f21da37",
+        "value": "https://github.com/jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago/blob/2fd8e8beb6c3cc5d4245a16ccc1593cc7d18c016/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "subscription billing platform",
+        "description": "Manages plans, subscriptions and recurring billing workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:subscription-billing-platform",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "usage metering and invoicing",
+        "description": "Tracks billable metrics and creates invoices and credits.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:usage-metering-and-invoicing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "billing API and deployment",
+        "description": "Provides service interfaces and deployment for billing operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:billing-api-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

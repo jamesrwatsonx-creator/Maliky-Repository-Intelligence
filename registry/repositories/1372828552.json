@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/fastapi/full-stack-fastapi-template",
-  "description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+  "description": "Full-stack starter template combining FastAPI backend, database, authentication, frontend and Docker-based development/deployment workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-03T10:29:07Z",
-    "github_description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose."
+    "github_description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
   "current_commit": "cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
   "inspection_date": "2026-09-20T05:36:37.986231+00:00",
   "categories": [
-    "category:design-systems",
-    "category:devops",
-    "category:frontend-applications"
+    "category:templates-boilerplates",
+    "category:backend-services",
+    "category:cloud-infrastructure"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [
     "operational:14",
     "operational:17"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.931714+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.986052+00:00",
   "tree_files": 248,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 210,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 207,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.146446+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Full-stack starter template combining FastAPI backend, database, authentication, frontend and Docker-based development/deployment workflows.",
+    "reuse_recommendation": "Use as a scaffold and replace example secrets/configuration; review auth defaults, migrations and container exposure.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "FastAPI full stack template",
+      "Python backend",
+      "React frontend",
+      "Docker Compose",
+      "authentication starter"
+    ],
+    "risk_notes": [
+      "Starter auth and secret configuration must be hardened before production."
+    ],
+    "important_subsystems": [
+      {
+        "name": "full-stack starter",
+        "purpose": "Connects backend, frontend, database and local deployment for new applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:58.369509+00:00",
+    "inspected_commit": "cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ff783583f7c758ba67b25cef7d828379951b8cce",
+        "value": "https://github.com/jamesrwatsonx-creator/full-stack-fastapi-template/blob/cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "FastAPI backend scaffold",
+        "description": "Provides API routes, database setup and application configuration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:fastapi-backend-scaffold",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "frontend application scaffold",
+        "description": "Pairs the API with a web client for full-stack development.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:frontend-application-scaffold",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "authentication and deployment setup",
+        "description": "Includes starter auth and container-based development workflows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:authentication-and-deployment-setup",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

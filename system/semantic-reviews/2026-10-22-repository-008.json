@@ -1,0 +1,1375 @@
+{
+  "defaults": {
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Check selected integration permissions and external service terms before deployment."
+    ],
+    "license_notes": "See pinned repository license metadata; external model and service terms may differ.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "repository capabilities"
+    ],
+    "reuse_recommendation": "Inspect the selected subsystem and upstream requirements before adoption.",
+    "important_subsystems": [
+      {
+        "name": "primary capability",
+        "purpose": "Core repository capability described by the README.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "categories": [
+      "category:general-other"
+    ],
+    "operational": "operational:25",
+    "recommendation": "REFERENCE"
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/Qwen3",
+      "commit": "7a2f61ffc7a20d47efcd2bf97f6f2bf52729042e",
+      "purpose": "Qwen3 family of pretrained language models and inference code for instruction following, reasoning and agentic tasks.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:ai-agents"
+      ],
+      "operational": "operational:15",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "transformer model checkpoints"
+      ],
+      "license_notes": "Apache-2.0 code; model-specific license and usage terms may differ.",
+      "keywords": [
+        "Qwen3",
+        "language model",
+        "reasoning",
+        "instruction following",
+        "model inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "Qwen3 language models",
+          "description": "Provides pretrained models for text generation and reasoning tasks.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model inference and deployment",
+          "description": "Documents loading and using supported checkpoints across inference environments.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Qwen3 model toolkit",
+          "purpose": "Provides model references and inference setup for the Qwen3 family.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/SkillClaw",
+      "commit": "3938f7537645c961d94498a0a79fc0a977019595",
+      "purpose": "Agent skill management system that helps skills evolve from user interactions and share improvements across sessions, agents and devices.",
+      "categories": [
+        "category:skills",
+        "category:ai-agents",
+        "category:ai-memory"
+      ],
+      "operational": "operational:04",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Agent skills",
+        "cross-session experience store",
+        "compatible agent integrations"
+      ],
+      "license_notes": "See repository LICENSE; connected host and storage terms may apply.",
+      "keywords": [
+        "SkillClaw",
+        "skill evolution",
+        "agent memory",
+        "cross-session learning",
+        "skill management"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "data_database_search": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "agent skill lifecycle",
+          "description": "Supports discovery, use and iterative improvement of reusable skills.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "cross-session experience capture",
+          "description": "Carries useful workflow experience across sessions and agent contexts.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "skill evolution workflow",
+          "description": "Uses interaction feedback to revise shared skill guidance.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "SkillClaw evolution system",
+          "purpose": "Connects skill use, experience capture and skill updates.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Review who can write shared skills and what interaction data is retained before enabling cross-agent learning.",
+      "risk_notes": [
+        "Shared skill updates can propagate untrusted instructions; require provenance, approval and rollback controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/supertonic",
+      "commit": "7e2804f96016a7028cb1ed627353c61c1e9dd281",
+      "purpose": "On-device text-to-speech model and inference project for low-latency speech generation, now archived with the associated hosted Voice Builder service discontinued.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:creative-tools"
+      ],
+      "operational": "operational:07",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Python",
+        "on-device TTS model",
+        "GPU/CPU inference"
+      ],
+      "license_notes": "Verify repository and model checkpoint licenses before reuse.",
+      "keywords": [
+        "Supertonic TTS",
+        "on-device speech",
+        "low latency voice generation",
+        "Voice Builder archived"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "on-device text-to-speech",
+          "description": "Generates speech locally using a compact TTS model.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "voice design service reference",
+          "description": "Documents a hosted voice design service that is no longer available per README notice.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Supertonic inference",
+          "purpose": "Provides local speech synthesis model and usage guidance.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Treat as archived model reference; confirm availability, license and supported dependencies before investing in integration.",
+      "risk_notes": [
+        "Repository/service lifecycle notice states archive and Voice Builder discontinuation; do not promise ongoing support."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/skills-finds",
+      "commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
+      "purpose": "CLI for discovering, installing and invoking agent skills across multiple coding-agent hosts.",
+      "categories": [
+        "category:developer-tools",
+        "category:skills",
+        "category:cli-tools"
+      ],
+      "operational": "operational:24",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Node.js CLI",
+        "agent skill directory formats"
+      ],
+      "license_notes": "See repository LICENSE; installed skills retain their own licenses.",
+      "keywords": [
+        "skills CLI",
+        "agent skill install",
+        "coding agents",
+        "skill discovery",
+        "multi-host"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "skill discovery and installation",
+          "description": "Finds and installs skills into supported agent environments.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "skill prompt invocation",
+          "description": "Supports using a selected skill as an interactive prompt or agent workflow.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-agent host support",
+          "description": "Adapts installation across a broad set of coding-agent hosts.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "skills CLI",
+          "purpose": "Manages skill discovery and host-specific installation.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Useful distribution tooling; review downloaded skill provenance and inspect installation targets before running.",
+      "risk_notes": [
+        "Installs third-party instructions into agent hosts; review source trust, file changes and host permissions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/kokoro",
+      "commit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+      "purpose": "Python inference library for the compact Kokoro-82M open-weight text-to-speech model.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:libraries-packages",
+        "category:generative-ai"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Kokoro-82M model weights"
+      ],
+      "license_notes": "Apache-2.0 library; verify model weights, voices and datasets terms separately.",
+      "keywords": [
+        "Kokoro TTS",
+        "speech synthesis",
+        "82M voice model",
+        "Python inference",
+        "open weights"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "compact TTS inference",
+          "description": "Generates speech from text using the Kokoro-82M model.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Python speech library",
+          "description": "Packages model inference for application integration.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Kokoro inference library",
+          "purpose": "Loads the speech model and produces audio output.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate voice quality, language coverage, license and local resource needs before product use.",
+      "risk_notes": [
+        "Synthetic speech needs consent and disclosure controls where voice identity or attribution matters."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/aastro-api",
+      "commit": "66d5168761a833f87200df880b6143c9c704bcfe",
+      "purpose": "Go API gateway for microservices with parallel fan-out, YAML-configured response aggregation and native shared-object plugins.",
+      "categories": [
+        "category:backend-services",
+        "category:apis",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:12",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Go",
+        "YAML configuration",
+        "native .so plugins",
+        "Docker"
+      ],
+      "license_notes": "See repository LICENSE and plugin terms.",
+      "keywords": [
+        "Go API gateway",
+        "microservices fan-out",
+        "response aggregation",
+        "YAML routes",
+        "native plugins"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "microservice API gateway",
+          "description": "Routes and aggregates requests across configured backend services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "parallel fan-out aggregation",
+          "description": "Runs parallel service requests and combines their responses.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "native plugin extension",
+          "description": "Supports loadable native plugins for gateway behavior.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Aastro gateway",
+          "purpose": "Coordinates API routing, aggregation and plugin execution.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Review authentication, timeout/error handling and native plugin trust boundaries before production deployment.",
+      "risk_notes": [
+        "Gateway handles service traffic and loads native code; privileged network access and plugin execution require deep review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/AttestationServer",
+      "commit": "fc8843d716e773c7daccdf19a940fb997d605f3f",
+      "purpose": "Deployment guide and configuration for a web attestation server, reverse proxy, TLS and supporting service components.",
+      "categories": [
+        "category:cloud-infrastructure",
+        "category:cybersecurity",
+        "category:devops"
+      ],
+      "operational": "operational:21",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Java service",
+        "SQLite",
+        "nginx",
+        "TLS/certbot"
+      ],
+      "license_notes": "See repository LICENSE and third-party submodule notices.",
+      "keywords": [
+        "attestation server deployment",
+        "nginx TLS",
+        "server setup",
+        "GrapheneOS attestation",
+        "SQLite"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "attestation service deployment",
+          "description": "Documents deploying the attestation server and its supporting runtime.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "reverse proxy and TLS setup",
+          "description": "Provides nginx and certificate configuration guidance.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "attestation deployment configuration",
+          "purpose": "Coordinates server, database and web proxy setup.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as deployment reference only; validate domain assumptions, key rotation, TLS, submodules and current upstream requirements.",
+      "risk_notes": [
+        "Attestation and key-management services are security-sensitive; review trust roots, session tickets and operational controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/TradingAgents",
+      "commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+      "purpose": "Multi-agent LLM framework that simulates financial analyst and trader roles for stock-market research and decision analysis.",
+      "categories": [
+        "category:ai-agents",
+        "category:finance-accounting",
+        "category:research-projects"
+      ],
+      "operational": "operational:22",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "runtime": [
+        "Python",
+        "LLM provider APIs",
+        "financial data sources"
+      ],
+      "license_notes": "See repository LICENSE; model/data provider terms apply.",
+      "keywords": [
+        "TradingAgents",
+        "multi-agent finance",
+        "stock analysis",
+        "analyst trader agents",
+        "market research"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "multi-agent financial analysis",
+          "description": "Coordinates specialist agent roles to research market and company information.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "trading decision debate",
+          "description": "Structures analyst and trader perspectives into an investment decision workflow.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "market data integration",
+          "description": "Uses external information sources as inputs to agent analysis.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "TradingAgents framework",
+          "purpose": "Coordinates role-based agent analysis and decision synthesis.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research prototype only until order execution, provider data quality and risk assumptions are verified; do not use for live trades.",
+      "risk_notes": [
+        "Financial decisions and any execution surface require review of credentials, model reliability and loss controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/infima",
+      "commit": "c123556238a38c2982cda6afed3a6736d2f2e9be",
+      "purpose": "CSS styling framework for content-driven websites, including theming and reusable layout primitives used by Docusaurus.",
+      "categories": [
+        "category:frontend-applications",
+        "category:design-systems",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:16",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "CSS",
+        "PostCSS",
+        "npm packages"
+      ],
+      "license_notes": "MIT; README cautions it is not production-ready as a standalone project.",
+      "keywords": [
+        "Infima CSS framework",
+        "website theming",
+        "Docusaurus styles",
+        "content site design system"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "content site styling",
+          "description": "Provides CSS primitives and themes for documentation-oriented websites.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Docusaurus design foundation",
+          "description": "Supplies shared styling used alongside Docusaurus development.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Infima styling framework",
+          "purpose": "Provides theming and layout styles for content-focused sites.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Prefer the maintained Docusaurus-aligned version and verify production status before using independently.",
+      "risk_notes": [
+        "README says the standalone project is not production ready; check current maintenance and compatibility."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach",
+      "commit": "06c202b03400a7d31886bf4399213706da1a0324",
+      "purpose": "Agent Reach setup and diagnostics workflow for installing internet-search and data-source capabilities into AI agent environments.",
+      "categories": [
+        "category:developer-tools",
+        "category:ai-agents",
+        "category:research-projects"
+      ],
+      "operational": "operational:10",
+      "license_notes": "See repository LICENSE and each connected provider's terms.",
+      "keywords": [
+        "Agent Reach",
+        "agent internet access",
+        "search integrations",
+        "capability setup",
+        "health checks"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "browser_computer_use": "PRESENT",
+        "data_database_search": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "agent web capability installation",
+          "description": "Selects and installs internet access integrations for an agent host.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "integration health checks",
+          "description": "Tests configured search and data-source connections.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "capability upgrade workflow",
+          "description": "Provides a maintainable process for updating agent internet integrations as providers change.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Agent Reach setup and diagnostics",
+          "purpose": "Installs, configures and checks external agent access methods.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Useful integration bootstrap; inspect install commands, credentials and every provider's data/privacy terms before enabling.",
+      "risk_notes": [
+        "Installs network capabilities into agents and may expose credentials or user data to external providers."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/oh-my-hermes",
+      "commit": "2a98d38b43010a438b316fb48dbe68a3c8ee8fed",
+      "purpose": "Hermes-native multi-agent orchestration skill suite for consensus planning, requirements interviews and evidence-checked execution, with an optional plugin.",
+      "categories": [
+        "category:skills",
+        "category:ai-agents",
+        "category:ai-orchestration"
+      ],
+      "operational": "operational:03",
+      "license_notes": "See repository LICENSE; Hermes host terms apply.",
+      "keywords": [
+        "Oh My Hermes",
+        "multi-agent orchestration",
+        "consensus planning",
+        "requirements interview",
+        "verified execution"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "consensus planning",
+          "description": "Coordinates agent perspectives into an agreed plan.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "requirements interviewing",
+          "description": "Guides structured discovery before agent execution.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "verified execution plugin",
+          "description": "Adds hook-based roles, state handling and evidence collection to Hermes workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Hermes orchestration skills",
+          "purpose": "Provides composable planning and execution instructions for Hermes agents.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong shared workflow candidate; review hook effects, state isolation and evidence integrity before installing into Hermes.",
+      "risk_notes": [
+        "Hooks and shared state affect agent execution; verify concurrency, trust and rollback behavior."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/claude-plugins-community",
+      "commit": "a727be1c7bd6064419b6f60d71993a19198adc17",
+      "purpose": "Read-only mirror of the community Claude Cowork and Claude Code plugin marketplace, synced from an upstream review pipeline.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:research-projects",
+        "category:documentation"
+      ],
+      "operational": "operational:02",
+      "license_notes": "Review repository license and each plugin's independent license before installation.",
+      "keywords": [
+        "Claude plugin marketplace",
+        "community plugins",
+        "Claude Code",
+        "Cowork plugins",
+        "plugin discovery"
+      ],
+      "asset_presence": {
+        "tools_plugins": "EXTERNAL_REFERENCE",
+        "skills": "EXTERNAL_REFERENCE",
+        "agents_frameworks": "EXTERNAL_REFERENCE"
+      },
+      "capability_clusters": [
+        {
+          "name": "Claude plugin discovery",
+          "description": "Indexes community plugins available through the upstream marketplace.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "marketplace synchronization",
+          "description": "Maintains a read-only mirror of the upstream plugin listing.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "community marketplace index",
+          "purpose": "Lists plugins that can be discovered through Claude clients.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use to discover plugins, then inspect the actual upstream repository, publisher, permissions and license before installation.",
+      "risk_notes": [
+        "A marketplace listing or upstream review badge is not a security audit of current plugin behavior."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ffsubsync",
+      "commit": "de310ac6944b8260431a48ee741e7063cec49b0f",
+      "purpose": "Python command-line tool that automatically synchronizes subtitle files to audio/video by matching speech timing.",
+      "categories": [
+        "category:media-publishing",
+        "category:cli-tools",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:09",
+      "license_notes": "See repository LICENSE; media and subtitle source rights remain separate.",
+      "keywords": [
+        "subtitle synchronization",
+        "FFsubsync",
+        "speech timing",
+        "SRT subtitles",
+        "video audio"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "subtitle timing synchronization",
+          "description": "Aligns subtitle timestamps with speech in an audio or video file.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "batch media CLI workflow",
+          "description": "Provides command-line processing for subtitle and media files.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FFsubsync alignment engine",
+          "purpose": "Computes timing offsets to synchronize subtitle tracks with media.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for local subtitle alignment; verify output language/timing and preserve source media rights.",
+      "risk_notes": [
+        "Processes local media and subtitle files; constrain inputs and inspect generated files."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/crypto-claude-desk",
+      "commit": "298cfd58408aa86ef3c7ce863c0c19858636df7a",
+      "purpose": "Claude Code plugin describing a coordinated crypto trading desk with specialized agents, market tools and persistent trading memory.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:ai-agents",
+        "category:finance-accounting"
+      ],
+      "operational": "operational:22",
+      "license_notes": "See repository LICENSE; exchange and data provider terms apply.",
+      "keywords": [
+        "crypto trading desk",
+        "Claude Code agents",
+        "market tools",
+        "trading memory",
+        "crypto analysis"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "specialist trading agents",
+          "description": "Defines coordinated agent roles for cryptocurrency research and trading tasks.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "market data and exchange tools",
+          "description": "Connects workflows to realtime financial tools and exchange interfaces.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "trade learning memory",
+          "description": "Records trading outcomes for later agent context and analysis.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Crypto Trading Desk plugin",
+          "purpose": "Packages agent roles, tools and memory workflows for Claude Code.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Do not connect live exchange credentials before deep review of order operations, keys, limits and evaluation; research-only by default.",
+      "risk_notes": [
+        "Financial execution and persistent trade memory are deep-review triggers; assess authorization and sensitive account data."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/OpenCut",
+      "commit": "400f097becba5db0fbc305d5a65348cb81c20356",
+      "purpose": "Open-source video editor for web, desktop and mobile with a modern interface for assembling and editing media.",
+      "categories": [
+        "category:media-publishing",
+        "category:web-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:09",
+      "license_notes": "See repository LICENSE and bundled codec/media dependencies.",
+      "keywords": [
+        "OpenCut video editor",
+        "web desktop mobile editing",
+        "open source editor",
+        "media timeline"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "multi-platform video editor",
+          "description": "Provides media editing experiences for web, desktop and mobile targets.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "editing interface and timeline",
+          "description": "Supports visual workflows for arranging and editing video content.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "OpenCut editor application",
+          "purpose": "Provides the core multi-platform media editing product.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate maturity and media pipeline capabilities before adopting; review local file access, codecs and platform packaging.",
+      "risk_notes": [
+        "Handles user media files; verify file isolation and codec licensing for distribution."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/design.md",
+      "commit": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
+      "purpose": "Machine-readable DESIGN.md format specification combining design tokens and rationale so coding agents can consistently apply a visual identity.",
+      "categories": [
+        "category:specifications-standards",
+        "category:design-systems",
+        "category:developer-tools"
+      ],
+      "operational": "operational:17",
+      "license_notes": "See repository LICENSE; design tokens and referenced brands retain their own rights.",
+      "keywords": [
+        "DESIGN.md format",
+        "design tokens for agents",
+        "visual identity specification",
+        "coding agent design context"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "tools_plugins": "NOT_OBSERVED"
+      },
+      "capability_clusters": [
+        {
+          "name": "DESIGN.md specification",
+          "description": "Defines a portable structure for machine-readable design tokens and human rationale.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "agent design context",
+          "description": "Helps coding agents apply persistent brand and interface guidance.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "design context format",
+          "purpose": "Specifies how projects describe visual identity for agent consumption.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Adopt as a design-context convention and validate the format against target tools; do not treat it as an implementation or design system itself.",
+      "risk_notes": [
+        "Specifications need consistent parsing and versioning across agent hosts."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/control-center",
+      "commit": "d13e79e866cc33a1fddfe84f563ce2fb9a2113e0",
+      "purpose": "Local-first business dashboard for monitoring industry updates, brand mentions, newsletters, public audience totals, reminders and tasks.",
+      "categories": [
+        "category:web-applications",
+        "category:business-applications",
+        "category:productivity"
+      ],
+      "operational": "operational:11",
+      "license_notes": "See repository LICENSE and connected data provider terms.",
+      "keywords": [
+        "local-first business dashboard",
+        "brand mentions",
+        "newsletter monitoring",
+        "industry updates",
+        "tasks reminders"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "data_database_search": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "business intelligence dashboard",
+          "description": "Combines niche updates, brand references and audience signals in one interface.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "newsletter and audience monitoring",
+          "description": "Tracks newsletters and public audience metrics selected by the user.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "reminders and task management",
+          "description": "Adds personal follow-up tasks to the monitoring dashboard.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "local-first control center",
+          "purpose": "Provides configurable business monitoring without preloaded names or demo records.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Useful local dashboard candidate; review connectors, secret storage and data retention before adding monitored accounts.",
+      "risk_notes": [
+        "Brand tracking and audience data may include personal/business information; protect API keys and user-configured profiles."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Webwright",
+      "commit": "bc26750af3ad166d982f23d101ef8971a3a2fce5",
+      "purpose": "Python browser-agent framework that combines Playwright with configurable language-model backends to browse and act on websites.",
+      "categories": [
+        "category:ai-agents",
+        "category:developer-tools",
+        "category:developer-tools"
+      ],
+      "operational": "operational:05",
+      "license_notes": "See repository LICENSE; model provider terms apply.",
+      "keywords": [
+        "Webwright browser agent",
+        "Playwright agent",
+        "web task automation",
+        "OpenAI Anthropic OpenRouter",
+        "browser actions"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "browser_computer_use": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "tools_plugins": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "model-driven browser agent",
+          "description": "Uses a language model to plan and perform browser tasks through Playwright.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-provider model backend",
+          "description": "Supports multiple language-model providers for browser reasoning.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser action and observation loop",
+          "description": "Connects page observation, browser actions and task progress.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Webwright agent runtime",
+          "purpose": "Coordinates model, browser and task execution.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong candidate for authorized browser workflows; review domain controls, authentication, downloads, prompt injection and action confirmation before use.",
+      "risk_notes": [
+        "Can access websites and perform actions; isolate credentials and limit domains and consequential operations."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/drawio-skill",
+      "commit": "4d9b31166022ad4c299180038792372d3f5bcc95",
+      "purpose": "Agent skill for creating professional diagrams from text descriptions through draw.io-compatible structured source and layout guidance.",
+      "categories": [
+        "category:skills",
+        "category:creative-tools",
+        "category:documentation"
+      ],
+      "operational": "operational:01",
+      "license_notes": "MIT; draw.io and generated icon assets have separate terms.",
+      "keywords": [
+        "draw.io skill",
+        "text to diagram",
+        "architecture diagrams",
+        "agent diagramming",
+        "visual documentation"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "ui_design": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "text-to-diagram workflow",
+          "description": "Guides an agent from requirements to structured diagrams.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "professional diagram conventions",
+          "description": "Provides layout and visual guidance for architecture and process diagrams.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "draw.io diagram skill",
+          "purpose": "Packages diagram creation workflow and style guidance for agent hosts.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use with draw.io-compatible editing and validate resulting diagrams for accuracy and accessibility.",
+      "risk_notes": [
+        "Generated diagrams can misstate architecture; confirm content with system owners."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/pm-skills",
+      "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+      "purpose": "Product-management agent skill collection for discovery, roadmapping, prioritization, research and product execution workflows.",
+      "categories": [
+        "category:skills",
+        "category:project-management",
+        "category:business-applications"
+      ],
+      "operational": "operational:01",
+      "license_notes": "MIT.",
+      "keywords": [
+        "product management skills",
+        "product discovery",
+        "roadmap",
+        "prioritization",
+        "PM workflows"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "tools_plugins": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "product discovery and research",
+          "description": "Structures user/problem research and opportunity definition.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "roadmap and prioritization",
+          "description": "Guides product planning and prioritization decisions.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "product execution workflows",
+          "description": "Supports ongoing product delivery and communication tasks.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "PM skill suite",
+          "purpose": "Provides reusable product management instructions for agent hosts.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as planning support and validate recommendations against customer evidence and business constraints.",
+      "risk_notes": [
+        "Skills can impose generic product assumptions; adapt to user research and context."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/AI-Trader",
+      "commit": "d03ff6c056b32ced735adf7c19ed8175adb1c8df",
+      "purpose": "Agent-native financial trading project that coordinates automated market analysis and trade decisions across model and data tools.",
+      "categories": [
+        "category:ai-agents",
+        "category:finance-accounting",
+        "category:business-applications"
+      ],
+      "operational": "operational:22",
+      "license_notes": "MIT for repository; financial data, models and exchange APIs have separate terms.",
+      "keywords": [
+        "AI-Trader",
+        "automated trading agent",
+        "market research",
+        "financial tools",
+        "trade execution"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "agent-based trading workflow",
+          "description": "Coordinates agent roles and tools for financial analysis and trade decisions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "market data and tool integrations",
+          "description": "Connects model workflows to external financial information sources.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "AI-Trader application",
+          "purpose": "Runs the agent-native market analysis and trading workflow.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research only until live execution, secret handling and risk controls are deeply reviewed; do not connect production exchange credentials.",
+      "risk_notes": [
+        "Automated financial execution is a deep-review trigger; inspect order paths, permissions, limits and kill switches."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/daily-stars-explorer-for-Github",
+      "commit": "118f0e260d3b28d2e1e66888f8ed8f3bd3a2add3",
+      "purpose": "Web visualization tool for exploring a GitHub repository's history of stars, commits, forks, issues, pull requests and contributors.",
+      "categories": [
+        "category:web-applications",
+        "category:analytics",
+        "category:developer-tools"
+      ],
+      "operational": "operational:10",
+      "license_notes": "See repository LICENSE and GitHub API terms.",
+      "keywords": [
+        "GitHub repository analytics",
+        "stars history",
+        "commit timeline",
+        "repository growth",
+        "open source metrics"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "repository history visualization",
+          "description": "Displays repository activity and growth over time.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "GitHub metadata analytics",
+          "description": "Aggregates stars, commits, forks, issues, pull requests and contributor history.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Daily Stars Explorer",
+          "purpose": "Visualizes longitudinal GitHub activity for a selected repository.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for public repository trend exploration; account for API limits and distinguish correlation from project health.",
+      "risk_notes": [
+        "Metrics can be incomplete due to API limits or repository privacy; do not infer project quality from stars alone."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/awesome-design-md",
+      "commit": "8147538b4226ae41e2487a9179e3bcc1f68e8554",
+      "purpose": "Curated index of public DESIGN.md files and website design-system examples for browsing visual identity patterns.",
+      "categories": [
+        "category:design-systems",
+        "category:research-projects",
+        "category:documentation"
+      ],
+      "operational": "operational:17",
+      "license_notes": "Review repository license and the independent rights of linked design assets.",
+      "keywords": [
+        "DESIGN.md gallery",
+        "design system references",
+        "website styles",
+        "design token examples",
+        "visual research"
+      ],
+      "asset_presence": {
+        "ui_design": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "EXTERNAL_REFERENCE"
+      },
+      "capability_clusters": [
+        {
+          "name": "DESIGN.md reference gallery",
+          "description": "Collects examples of structured design context files from websites.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "visual style research",
+          "description": "Supports discovery and comparison of public design systems.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "design reference catalogue",
+          "purpose": "Indexes external DESIGN.md examples for inspection and inspiration.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a research index and inspect source-site rights before copying tokens, branding or visual assets.",
+      "risk_notes": [
+        "Linked designs remain owned by their respective authors; catalogue inclusion does not grant reuse rights."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Konfetti",
+      "commit": "628e67e671de73c6af4806e4c5f24c0a55fecb32",
+      "purpose": "Android and Compose library for displaying customizable confetti particle effects in mobile interfaces.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:19",
+      "license_notes": "ISC.",
+      "keywords": [
+        "Konfetti Android",
+        "Compose confetti",
+        "celebration animation",
+        "particle effects",
+        "mobile UI"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "Android confetti effects",
+          "description": "Renders configurable particle celebrations in Android applications.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Compose integration",
+          "description": "Provides composable API support for celebration UI.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Konfetti animation library",
+          "purpose": "Provides particle effect rendering for Android and Compose apps.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for celebratory UI after checking lifecycle, performance and reduced-motion accessibility.",
+      "risk_notes": [
+        "Particle effects can affect performance and accessibility; provide motion-aware alternatives."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Qwen3-VL",
+      "commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "purpose": "Qwen3 vision-language model family and utilities for image/video understanding, visual question answering and multimodal reasoning.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:ai-applications"
+      ],
+      "operational": "operational:08",
+      "license_notes": "Review code and model checkpoint licenses independently.",
+      "keywords": [
+        "Qwen3-VL",
+        "vision language model",
+        "image understanding",
+        "video reasoning",
+        "multimodal AI"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "vision_ocr": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "capability_clusters": [
+        {
+          "name": "visual language understanding",
+          "description": "Answers questions and reasons over image content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "video understanding",
+          "description": "Supports visual reasoning across video content and temporal context.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "fine-tuning and evaluation",
+          "description": "Provides model adaptation and benchmark materials for multimodal tasks.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Qwen3-VL model toolkit",
+          "purpose": "Provides multimodal model references, utilities and evaluation resources.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate accuracy, GPU requirements and sensitive-image handling; avoid relying on model claims without task-specific validation.",
+      "risk_notes": [
+        "Images/videos may contain sensitive biometric or private data; control processing, retention and model access."
+      ]
+    }
+  ]
+}

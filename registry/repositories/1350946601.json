@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/MovingBlocks/Terasology",
-  "description": "Terasology - open source voxel world",
+  "description": "Open-source voxel sandbox game and modular game engine for creating extensible 3D worlds and gameplay systems.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-29T19:19:27Z",
-    "github_description": "Terasology - open source voxel world"
+    "github_description": "Terasology - open source voxel world",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f2b8434a2d1d065d8e40173892364c56e7391510",
   "current_commit": "f2b8434a2d1d065d8e40173892364c56e7391510",
   "inspection_date": "2026-09-20T05:35:41.451560+00:00",
   "categories": [
-    "category:general-other"
+    "category:games-interactive-experiences",
+    "category:creative-tools",
+    "category:frameworks"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.368658+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.389312+00:00",
   "tree_files": 2999,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2393,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2439,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.302301+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source voxel sandbox game and modular game engine for creating extensible 3D worlds and gameplay systems.",
+    "reuse_recommendation": "Use as an engine and modular-game architecture reference; inspect module and asset licenses.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Apache-2.0 for code; modules and assets may have separate licenses.",
+    "runtime": [
+      "Java/JVM",
+      "game engine",
+      "modular content"
+    ],
+    "keywords": [
+      "Terasology",
+      "voxel game",
+      "game engine",
+      "modular gameplay",
+      "3D world"
+    ],
+    "risk_notes": [
+      "Community modules may have independent provenance and maintenance status."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Terasology engine",
+        "purpose": "Provides a modular foundation for voxel games and simulations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:18.002150+00:00",
+    "inspected_commit": "f2b8434a2d1d065d8e40173892364c56e7391510",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5451e9f4a4217895f8bcd53171e21400c77a327e",
+        "value": "https://github.com/jamesrwatsonx-creator/Terasology/blob/f2b8434a2d1d065d8e40173892364c56e7391510/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "voxel world runtime",
+        "description": "Runs interactive block-based worlds and gameplay.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voxel-world-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "modular game systems",
+        "description": "Extends gameplay through module-based content and services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:modular-game-systems",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "editor and world tooling",
+        "description": "Supports world creation and game development workflows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:editor-and-world-tooling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

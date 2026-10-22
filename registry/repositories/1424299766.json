@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/hexgrad/kokoro",
-  "description": "https://hf.co/hexgrad/Kokoro-82M",
+  "description": "Python inference library for the compact Kokoro-82M open-weight text-to-speech model.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2025-08-06T22:28:53Z",
-    "github_description": "https://hf.co/hexgrad/Kokoro-82M"
+    "github_description": "https://hf.co/hexgrad/Kokoro-82M",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
   "current_commit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
   "inspection_date": "2026-10-20T23:58:56.405386+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:machine-learning-models",
+    "category:libraries-packages",
+    "category:generative-ai"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.311545+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.416891+00:00",
   "tree_files": 108,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 45,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 35,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python inference library for the compact Kokoro-82M open-weight text-to-speech model.",
+    "reuse_recommendation": "Evaluate voice quality, language coverage, license and local resource needs before product use.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "Apache-2.0 library; verify model weights, voices and datasets terms separately.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Kokoro-82M model weights"
+    ],
+    "keywords": [
+      "Kokoro TTS",
+      "speech synthesis",
+      "82M voice model",
+      "Python inference",
+      "open weights"
+    ],
+    "risk_notes": [
+      "Synthetic speech needs consent and disclosure controls where voice identity or attribution matters."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Kokoro inference library",
+        "purpose": "Loads the speech model and produces audio output.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:41.618583+00:00",
+    "inspected_commit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "765dcc77ff656885225fd882d3e7c3c67545325b",
+        "value": "https://github.com/jamesrwatsonx-creator/kokoro/blob/dfb907a02bba8152ca444717ca5d78747ccb4bec/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "compact TTS inference",
+        "description": "Generates speech from text using the Kokoro-82M model.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compact-tts-inference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Python speech library",
+        "description": "Packages model inference for application integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:python-speech-library",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

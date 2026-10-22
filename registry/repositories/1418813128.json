@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "2.x",
   "upstream_url": "https://github.com/flarum/flarum",
-  "description": "Simple forum software for building great communities.",
+  "description": "Small PHP bootstrap/skeleton for integrating with the external Flarum forum framework; the repository does not contain the Flarum core or a complete community platform.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-09T18:15:31Z",
-    "github_description": "Simple forum software for building great communities."
+    "github_description": "Simple forum software for building great communities.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "62ff2a73052da182f87cf86a2b887ea377e95fb4",
   "current_commit": "62ff2a73052da182f87cf86a2b887ea377e95fb4",
   "inspection_date": "2026-10-20T23:54:43.813149+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:backend-services",
+    "category:business-applications",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,156 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.837879+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.750220+00:00",
   "tree_files": 24,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 7,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Small PHP bootstrap/skeleton for integrating with the external Flarum forum framework; the repository does not contain the Flarum core or a complete community platform.",
+    "reuse_recommendation": "Use as an integration skeleton only; add and review the Flarum core, extensions, authentication and moderation configuration separately.",
+    "inspection_scope": "Reviewed Composer metadata and PHP entrypoints. README identifies Flarum core as an external dependency; local files provide bootstrap and extension integration points.",
+    "license_notes": "MIT for this repository; verify terms for Flarum and extensions.",
+    "runtime": [
+      "PHP",
+      "Composer",
+      "Flarum extension API",
+      "Mithril external frontend"
+    ],
+    "keywords": [
+      "Flarum integration",
+      "forum bootstrap",
+      "PHP community platform",
+      "extension skeleton"
+    ],
+    "risk_notes": [
+      "The forum engine is an external dependency; user-generated content, moderation and authentication need deployment-specific review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PHP bootstrap",
+        "purpose": "Loads the external Flarum framework through local entrypoints.",
+        "evidence_paths": [
+          "composer.json",
+          "extend.php",
+          "public/index.php",
+          "site.php"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:28.772910+00:00",
+    "inspected_commit": "62ff2a73052da182f87cf86a2b887ea377e95fb4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7c870ef21c80d18b13089114374438470d0b8cc4",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "fa2ba3ee6017dc6fd706880ee60dd9b26d0c6b99",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "composer.json",
+        "blob_sha": "df748b5ee680fef18aaf0a98e1b27cd5d47ea786",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/composer.json"
+      },
+      {
+        "type": "source_review",
+        "path": "extend.php",
+        "blob_sha": "5d5eee4f525bb2a433487f9435b42f3aa7e6970b",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/extend.php"
+      },
+      {
+        "type": "source_review",
+        "path": "public/index.php",
+        "blob_sha": "d1f12ed92d44d3ce50fb018f6608847121f0c077",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/public/index.php"
+      },
+      {
+        "type": "source_review",
+        "path": "site.php",
+        "blob_sha": "f532aa0bc92c12019632c2db14fa10e73f0d4f8c",
+        "value": "https://github.com/jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit/blob/62ff2a73052da182f87cf86a2b887ea377e95fb4/site.php"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "EXTERNAL_REFERENCE"
+    },
+    "capability_clusters": [
+      {
+        "name": "forum application bootstrap",
+        "description": "Provides the local entrypoints and configuration skeleton for a Flarum-backed site.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:forum-application-bootstrap",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "composer.json",
+          "extend.php",
+          "public/index.php",
+          "site.php"
+        ]
+      },
+      {
+        "name": "Flarum extension integration",
+        "description": "Exposes extension hooks and application integration points.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:flarum-extension-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "composer.json",
+          "extend.php",
+          "public/index.php",
+          "site.php"
+        ]
+      },
+      {
+        "name": "community platform reference",
+        "description": "Documents the intended knowledge-community use of the external forum framework.",
+        "scope": "REFERENCE",
+        "id": "cluster:community-platform-reference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "composer.json",
+          "extend.php",
+          "public/index.php",
+          "site.php"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

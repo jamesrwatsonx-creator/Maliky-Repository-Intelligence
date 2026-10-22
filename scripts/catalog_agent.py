@@ -27,11 +27,13 @@ def search(text='', repository=None, category=None, kind=None, verified=False, l
         if category and category not in categories: continue
         # A repository marked COMPLETE is not itself a verified reusable asset.
         status = 'VERIFIED' if d['state'] == 'VERIFIED' else 'CANDIDATE'
-        if d['entity_type'] == 'REPOSITORY': status = 'REPOSITORY_METADATA'
+        if d['entity_type'] == 'REPOSITORY':
+            status = 'REPOSITORY_INTELLIGENCE' if source.get('completion_scope') == r.SUMMARY_POLICY else 'REPOSITORY_METADATA'
         if verified and status != 'VERIFIED': continue
         score = len(terms & set(re.findall(r'[a-z0-9]+', d['text'].lower())))
         if caps & set(d.get('capabilities', [])): score += 10
         if terms and not score: continue
+        if status == 'REPOSITORY_INTELLIGENCE': score += 2
         found.append({**d, 'catalog_status': status, 'categories': categories, 'match_score': score})
     return sorted(found, key=lambda d: (-d['match_score'], d['id']))[:limit]
 
@@ -40,21 +42,27 @@ def plan(requirements, limit=5):
     mapped = []
     capability_ids = set()
     for requirement in requirements:
+        repositories = search(requirement, kind='REPOSITORY', limit=limit)
         verified = search(requirement, verified=True, limit=limit)
         candidates = [x for x in search(requirement, limit=limit*3) if x['catalog_status'] != 'VERIFIED'][:limit]
         exact = [c['id'] for c in r.records('capabilities') if c['status'] == 'VERIFIED' and normalized(requirement) in [normalized(a) for a in [c['id'], c['name']] + c.get('aliases', [])]]
         capability_ids.update(exact)
-        mapped.append({'requirement': requirement, 'verified_recommendations': verified, 'discovery_candidates': candidates, 'exact_capability_ids': exact, 'gap': 'NO_EXACT_VERIFIED_CAPABILITY' if not exact else None})
+        mapped.append({'requirement': requirement, 'repository_shortlist': repositories,
+                       'verified_recommendations': verified, 'discovery_candidates': candidates,
+                       'exact_capability_ids': exact,
+                       'gap': ('ON_DEMAND_INSPECTION_REQUIRED' if repositories else 'NO_EXACT_VERIFIED_CAPABILITY') if not exact else None})
     composition = r.compose(sorted(capability_ids))
     composition_gaps = set(composition.get('missing_capabilities', []))
     missing = [x['requirement'] for x in mapped
-               if x['gap'] or composition_gaps.intersection(x['exact_capability_ids'])]
+               if x['gap'] == 'NO_EXACT_VERIFIED_CAPABILITY' or composition_gaps.intersection(x['exact_capability_ids'])]
     return {'requirements': mapped, 'composition': composition,
             'missing_components': missing,
             'unprovided_capabilities': sorted(composition_gaps),
+            'on_demand_inspection': [x['requirement'] for x in mapped if x['gap'] == 'ON_DEMAND_INSPECTION_REQUIRED'],
             'mvp_plan': [
                 'Confirm one customer workflow and acceptance criteria for each requirement.',
-                'Inspect linked verified recommendations; confirm licenses, dependencies and runtime compatibility.',
+                'Rank the repository shortlists, then deeply inspect only the strongest candidates for exact files, components, Skills, MCPs and APIs.',
+                'Confirm licenses, dependencies, permission boundaries and runtime compatibility for the selected build.',
                 'Integrate the selected providers for exact capability matches; investigate candidates for remaining requirements.',
                 'Implement only confirmed gaps, then test the complete workflow with one user.'],
             'limitations': 'Lexical recommendations are leads, not proof that a feature is satisfied. Missing means not established in this catalog. No model, source execution, credentials, or writes are used.'}

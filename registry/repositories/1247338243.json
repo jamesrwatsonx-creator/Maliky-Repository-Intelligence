@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/cvat-ai/cvat",
-  "description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
+  "description": "Web-based computer-vision data annotation platform for labeling images, video and 3D data for machine-learning projects.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-22T22:54:22Z",
-    "github_description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
+    "github_description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "4c45d1a3c9790306b2002090b9aa0baf73d5ad5d",
   "current_commit": "4c45d1a3c9790306b2002090b9aa0baf73d5ad5d",
   "inspection_date": "2026-09-20T05:32:36.219020+00:00",
   "categories": [
-    "category:creative-tools",
+    "category:data-labeling",
+    "category:machine-learning-models",
     "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.583618+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.417044+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2708,
-  "files_read": 10,
+  "files_read": 15,
   "entity_count": 5,
-  "unread_source_files": 1723,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1835,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.117391+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Web-based computer-vision data annotation platform for labeling images, video and 3D data for machine-learning projects.",
+    "reuse_recommendation": "Use for dataset labeling with clear quality, provenance and annotator access policies.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "MIT; cloud service and annotation data terms are separate.",
+    "runtime": [
+      "Python/Django",
+      "React",
+      "database/object storage"
+    ],
+    "keywords": [
+      "CVAT",
+      "computer vision annotation",
+      "image labeling",
+      "video annotation",
+      "ML datasets"
+    ],
+    "risk_notes": [
+      "Images and video may contain personal or sensitive data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CVAT annotation platform",
+        "purpose": "Combines visual labeling tools with dataset workflow management.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:55.721023+00:00",
+    "inspected_commit": "4c45d1a3c9790306b2002090b9aa0baf73d5ad5d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3835641f648c877b4ab49ae4e552834140dc4b84",
+        "value": "https://github.com/jamesrwatsonx-creator/cvat/blob/4c45d1a3c9790306b2002090b9aa0baf73d5ad5d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual data annotation",
+        "description": "Supports manual labeling of images, video and related media.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-data-annotation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "team review and task management",
+        "description": "Coordinates annotation tasks and quality review.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:team-review-and-task-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "dataset import/export and automation",
+        "description": "Connects annotations to ML pipelines and supported formats.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:dataset-import-export-and-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

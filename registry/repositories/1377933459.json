@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/hoppscotch/hoppscotch",
-  "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+  "description": "Open-source API development and testing platform for sending requests, inspecting responses and collaborating on API collections.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-16T15:34:42Z",
-    "github_description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia"
+    "github_description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d86e59f6e9574c69f01b300691b9f4396eeb38d2",
   "current_commit": "d86e59f6e9574c69f01b300691b9f4396eeb38d2",
   "inspection_date": "2026-09-20T05:36:53.568301+00:00",
   "categories": [
+    "category:developer-tools",
     "category:apis",
     "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:23",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.133722+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.202157+00:00",
   "tree_files": 2448,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1918,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2182,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.172994+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source API development and testing platform for sending requests, inspecting responses and collaborating on API collections.",
+    "reuse_recommendation": "Use for API exploration and protect secrets in environments and shared collections.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "MIT; hosted/cloud services have separate terms.",
+    "runtime": [
+      "Web/desktop app",
+      "TypeScript",
+      "API protocols"
+    ],
+    "keywords": [
+      "Hoppscotch",
+      "API client",
+      "REST testing",
+      "GraphQL",
+      "developer collaboration"
+    ],
+    "risk_notes": [
+      "Requests may alter live systems; redact credentials and avoid production writes."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hoppscotch API workspace",
+        "purpose": "Provides a collaborative interface for exploring and testing APIs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:54.837566+00:00",
+    "inspected_commit": "d86e59f6e9574c69f01b300691b9f4396eeb38d2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ffe946ee471221c8ff23601d1067e4a4fb88687b",
+        "value": "https://github.com/jamesrwatsonx-creator/hoppscotch/blob/d86e59f6e9574c69f01b300691b9f4396eeb38d2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "API request testing",
+        "description": "Builds and sends HTTP and other API requests for inspection.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:api-request-testing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "collections and environments",
+        "description": "Organizes reusable requests, variables and team workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:collections-and-environments",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "API protocol integrations",
+        "description": "Supports REST, GraphQL, WebSocket and related protocols.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:api-protocol-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

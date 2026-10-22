@@ -5,8 +5,44 @@
   "tree_files": 1764,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "c3670aecd9a8bce47d9be8daa62811a99b809113"
+    },
+    {
       "path": "README.md",
       "sha": "21f26a3cbe4ddfe7e504982f352a8a7c71d868c7"
+    },
+    {
+      "path": "apps/api/package.json",
+      "sha": "0c1b2e8c7171c318e2a6fb6e6100556e1ab04a64"
+    },
+    {
+      "path": "apps/go-html-to-md-service/go.mod",
+      "sha": "362ba4d7da997d4e384a4636a8ac5e420f07c977"
+    },
+    {
+      "path": "apps/go-sdk/go.mod",
+      "sha": "7d7728a501b48668e8db280ebb14119e2f742b21"
+    },
+    {
+      "path": "apps/js-sdk/package.json",
+      "sha": "f3bcce04df77d1b462f165a2c64cec7f60592dac"
+    },
+    {
+      "path": "apps/php-sdk/composer.json",
+      "sha": "dc4a65e5a80988494988ce4db0f9e6cfc0179778"
+    },
+    {
+      "path": "apps/playwright-service-ts/package.json",
+      "sha": "e905ac0040779d2951ab823197360a4a4967522d"
+    },
+    {
+      "path": "apps/python-sdk/pyproject.toml",
+      "sha": "9e3017afef2d7eda2af8b3f7c61c833f84d0af0f"
+    },
+    {
+      "path": "apps/python-sdk/setup.py",
+      "sha": "c705e8c51efd0edf9b0118b445698633366d464c"
     },
     {
       "path": "docker-compose.yaml",
@@ -68,6 +104,51 @@
       "path": "docker-compose.yaml",
       "blob_sha": "233f44bc3b558e4dc86c8dabcece3c934a9b528a",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "c3670aecd9a8bce47d9be8daa62811a99b809113",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/api/package.json",
+      "blob_sha": "0c1b2e8c7171c318e2a6fb6e6100556e1ab04a64",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/go-html-to-md-service/go.mod",
+      "blob_sha": "362ba4d7da997d4e384a4636a8ac5e420f07c977",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/go-sdk/go.mod",
+      "blob_sha": "7d7728a501b48668e8db280ebb14119e2f742b21",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/js-sdk/package.json",
+      "blob_sha": "f3bcce04df77d1b462f165a2c64cec7f60592dac",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/php-sdk/composer.json",
+      "blob_sha": "dc4a65e5a80988494988ce4db0f9e6cfc0179778",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/playwright-service-ts/package.json",
+      "blob_sha": "e905ac0040779d2951ab823197360a4a4967522d",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/python-sdk/pyproject.toml",
+      "blob_sha": "9e3017afef2d7eda2af8b3f7c61c833f84d0af0f",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/python-sdk/setup.py",
+      "blob_sha": "c705e8c51efd0edf9b0118b445698633366d464c",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -82,6 +163,7 @@
     ".github/scripts/audit-ci-vuln-scan.mjs",
     ".github/scripts/check_version_has_incremented.py",
     ".github/scripts/eval_run.py",
+    ".github/scripts/requirements.txt",
     ".github/scripts/resolve_api_image_version.py",
     ".github/workflows/deploy-go-service.yaml",
     ".github/workflows/deploy-image-staging.yml",
@@ -118,6 +200,8 @@
     "CLAUDE.md",
     "CONTRIBUTING.md",
     "SELF_HOST.md",
+    "apps/api/Dockerfile",
+    "apps/api/clickhouse/concurrency_logs.sql",
     "apps/api/knip.config.ts",
     "apps/api/native/.cargo/config.toml",
     "apps/api/native/.taplo.toml",
@@ -139,7 +223,6 @@
     "apps/api/native/wasi-worker-browser.mjs",
     "apps/api/openapi-v0.json",
     "apps/api/openapi.json",
-    "apps/api/package.json",
     "apps/api/pnpm-lock.yaml",
     "apps/api/pnpm-workspace.yaml",
     "apps/api/sharedLibs/go-html-to-md/README.md",
@@ -168,9 +251,7 @@
     "apps/api/src/__tests__/nuq-fdb/stress.test.ts",
     "apps/api/src/__tests__/nuq-postgres.test.ts",
     "apps/api/src/__tests__/pdf-parser-options.test.ts",
-    "apps/api/src/__tests__/routes/check-credits-middleware.test.ts",
-    "apps/api/src/__tests__/routes/labs.routes.test.ts",
-    "apps/api/src/__tests__/routes/research-keyless.routes.test.ts"
+    "apps/api/src/__tests__/routes/check-credits-middleware.test.ts"
   ],
   "excluded_nontext_paths": [
     ".gitattributes",
@@ -291,8 +372,12 @@
     "img": 3,
     "skills": 16
   },
-  "unread_source_paths_count": 1504,
+  "unread_source_paths_count": 1557,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 253,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

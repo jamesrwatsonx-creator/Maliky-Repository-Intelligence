@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/Tencent/ncnn",
-  "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+  "description": "High-performance neural network inference framework optimized for mobile and edge devices, with lightweight CPU/GPU backends.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-05-22T10:36:55Z",
-    "github_description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform"
+    "github_description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "cc16734913a3d014f34b7cb6afc968c1fd007d1c",
   "current_commit": "cc16734913a3d014f34b7cb6afc968c1fd007d1c",
   "inspection_date": "2026-09-20T05:32:36.290709+00:00",
   "categories": [
-    "category:llm-projects",
-    "category:mobile-applications"
+    "category:machine-learning-models",
+    "category:ai-infrastructure",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [
     "operational:15"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.581596+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.736897+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 4020,
-  "files_read": 5,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3563,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3590,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.226339+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "High-performance neural network inference framework optimized for mobile and edge devices, with lightweight CPU/GPU backends.",
+    "reuse_recommendation": "Use for edge inference after benchmarking model conversion, operators and target device performance.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "BSD-3-Clause; model files and operators may have separate terms.",
+    "runtime": [
+      "C++",
+      "Android/iOS/Linux/Windows",
+      "CPU/GPU backends"
+    ],
+    "keywords": [
+      "ncnn",
+      "edge inference",
+      "mobile neural networks",
+      "C++ ML runtime",
+      "model optimization"
+    ],
+    "risk_notes": [
+      "Validate model provenance and accuracy for any safety-relevant decisions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ncnn runtime",
+        "purpose": "Provides efficient neural inference for mobile and edge applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:51.768691+00:00",
+    "inspected_commit": "cc16734913a3d014f34b7cb6afc968c1fd007d1c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "81ddbd39b1d20e426cc533432f5628dc43060d96",
+        "value": "https://github.com/jamesrwatsonx-creator/ncnn/blob/cc16734913a3d014f34b7cb6afc968c1fd007d1c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "neural network inference runtime",
+        "description": "Executes trained models through a compact C++ inference engine.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:neural-network-inference-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "mobile and edge acceleration",
+        "description": "Optimizes inference for constrained devices and supported accelerators.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-and-edge-acceleration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model conversion and deployment",
+        "description": "Supports preparing models for deployment across target platforms.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-conversion-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

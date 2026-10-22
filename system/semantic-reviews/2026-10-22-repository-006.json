@@ -1,0 +1,1768 @@
+{
+  "defaults": {
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Review upstream dependencies, service terms and permissions for the selected use case."
+    ],
+    "license_notes": "See repository license metadata and upstream notices; linked services and dependencies may have separate terms.",
+    "reuse_recommendation": "Inspect the selected subsystem and its upstream requirements before adoption.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "repository summary"
+    ],
+    "categories": [
+      "category:general-other"
+    ],
+    "operational": "operational:25",
+    "recommendation": "REFERENCE",
+    "important_subsystems": [
+      {
+        "name": "primary capability",
+        "purpose": "Core capability summarized from the repository overview.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "capability_clusters": [
+      {
+        "name": "primary capability",
+        "description": "Core capability described by the repository overview.",
+        "scope": "IMPLEMENTATION"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/livestream",
+      "commit": "f8926732520f16a130f2ae40c58c2bb4601ff280",
+      "purpose": "Next.js and LiveKit reference application for low-latency livestreaming with interactive audience participation.",
+      "categories": [
+        "category:web-applications",
+        "category:ai-applications",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "TypeScript",
+        "Next.js",
+        "LiveKit WebRTC"
+      ],
+      "keywords": [
+        "LiveKit livestream",
+        "low-latency video",
+        "interactive broadcast",
+        "WebRTC streaming"
+      ],
+      "capability_clusters": [
+        {
+          "name": "realtime livestream app",
+          "description": "Demonstrates a web experience for low-latency video delivery using LiveKit.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "interactive audience streaming",
+          "description": "Targets live audience interaction alongside streaming video.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "LiveKit streaming application",
+          "purpose": "Connects a web interface to realtime livestream infrastructure.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/phone-harness",
+      "commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
+      "purpose": "Agent-control toolkit for operating real iOS and Android phones through screen observation, taps, typing and text discovery using desktop or cloud bridges.",
+      "categories": [
+        "category:mobile-applications",
+        "category:developer-tools",
+        "category:ai-agents"
+      ],
+      "operational": "operational:06",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "SKILL.md",
+        "integrations/hermes/README.md"
+      ],
+      "runtime": [
+        "Python",
+        "agent-host skill",
+        "iPhone Mirroring",
+        "Android ADB",
+        "Phone Harness Cloud"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "phone automation",
+        "iOS mirroring",
+        "Android ADB",
+        "mobile agent control",
+        "screen taps typing"
+      ],
+      "capability_clusters": [
+        {
+          "name": "mobile device control",
+          "description": "Lets an agent observe a phone screen and perform tap and typing actions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "iOS and Android bridges",
+          "description": "Connects desktop agent hosts to iPhone Mirroring, Android ADB or cloud devices.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent integration skill",
+          "description": "Packages host instructions and integration guidance for phone-control workflows.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "phone control service",
+          "purpose": "Coordinates screen capture, text finding and device actions.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        },
+        {
+          "name": "Hermes integration",
+          "purpose": "Connects Hermes agent workflows to phone control.",
+          "evidence_paths": [
+            "integrations/hermes/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong mobile automation candidate; use a dedicated test device and review screenshots, account access, cloud routing and destructive tap boundaries.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Controls real devices and may access private apps/accounts; isolate test accounts and require confirmation for consequential actions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Hermes-Bot-Mode",
+      "commit": "80fee22582b871b9765a65e2992b8b5a8211c9f8",
+      "purpose": "Archived desktop plugin prototype for aggregating and displaying connected Hermes bot activity; current Hermes Desktop reportedly includes Bot Mode natively.",
+      "categories": [
+        "category:desktop-applications",
+        "category:plugins-extensions",
+        "category:ai-agents"
+      ],
+      "operational": "operational:02",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "plugin.js"
+      ],
+      "runtime": [
+        "JavaScript desktop plugin",
+        "Hermes Desktop"
+      ],
+      "keywords": [
+        "Hermes bot mode",
+        "desktop plugin",
+        "bot roster",
+        "activity dashboard"
+      ],
+      "capability_clusters": [
+        {
+          "name": "bot activity display",
+          "description": "Shows activity and roster information for connected assistant bots.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Hermes desktop plugin integration",
+          "description": "Implements an archived plugin extension for the Hermes desktop host.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "bot mode plugin",
+          "purpose": "Provides the bot roster and activity interface now described as built into Hermes Desktop.",
+          "evidence_paths": [
+            "README.md",
+            "plugin.js"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Prefer the current Hermes Desktop implementation; consult this repository only for historical UI or migration reference.",
+      "license_notes": "See repository LICENSE; Hermes upstream carries its own terms.",
+      "risk_notes": [
+        "Archived and superseded according to README; confirm compatibility and avoid installing obsolete plugin code."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/grok-build-plugin-cc",
+      "commit": "92b76a670713335229644e94add15ab40c80e547",
+      "purpose": "Claude Code marketplace plugin that shells out to the Grok Build CLI for review, critique, delegation and session import, tracking process status through local PID/log files.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:developer-tools",
+        "category:agent-workflows"
+      ],
+      "operational": "operational:02",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "plugins/grok-build/.claude-plugin/plugin.json",
+        "plugins/grok-build/skills/grok-delegate-runtime/SKILL.md"
+      ],
+      "runtime": [
+        "Node.js",
+        "Claude Code plugin",
+        "Grok CLI"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Grok Build Claude Code",
+        "agent delegation",
+        "code review",
+        "critique workflow",
+        "session import"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Grok Build delegation",
+          "description": "Connects Claude Code workflows to a logged-in Grok CLI for delegated tasks.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "review and critique workflow",
+          "description": "Provides agent instructions for obtaining external review and importing results.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "local process management",
+          "description": "Tracks CLI process IDs and logs for status and stop operations.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Claude marketplace plugin",
+          "purpose": "Packages Grok CLI integration and skills for Claude Code.",
+          "evidence_paths": [
+            "README.md",
+            "plugins/grok-build/.claude-plugin/plugin.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use only with an authenticated Grok CLI and review local process/log handling and code sent to the external provider.",
+      "license_notes": "MIT; Grok CLI and provider terms apply.",
+      "risk_notes": [
+        "Delegated source may contain proprietary code; provider transmission, local logs and process termination behavior need review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/jev-guard",
+      "commit": "cda06c49ceaac207904142ec92bfab793bbd18b1",
+      "purpose": "Security hook for coding-agent environments that evaluates proposed actions through Jev/TypeSafe decision infrastructure before allowing or blocking them.",
+      "categories": [
+        "category:developer-tools",
+        "category:application-security",
+        "category:ai-safety-alignment"
+      ],
+      "operational": "operational:21",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "plugin.json"
+      ],
+      "runtime": [
+        "Node.js",
+        "coding-agent hooks",
+        "Jev/TypeSafe provider"
+      ],
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "coding agent security hook",
+        "Jev Guard",
+        "tool approval",
+        "policy decisions",
+        "agent safety"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent action guard",
+          "description": "Interposes policy decisions into coding-agent tool/action workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-host plugin packaging",
+          "description": "Targets multiple coding-agent CLI hosts through plugin and hook configuration.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "security hook package",
+          "purpose": "Connects agent actions to an external decision service and host integration points.",
+          "evidence_paths": [
+            "README.md",
+            "package.json",
+            "plugin.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Potential security control component; test fail-open/fail-closed behavior, bypass paths, provider outages and command coverage before relying on it.",
+      "license_notes": "MIT; Jev/TypeSafe service terms apply.",
+      "risk_notes": [
+        "Security decisions depend on an external evaluator; never assume hooks cover every execution path without adversarial testing."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/heretic",
+      "commit": "bedb94ef117a271532ac2058447fbc165d5051bd",
+      "purpose": "Research toolkit that automates removal of refusal behavior from language models through optimization and fine-tuning workflows.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:research-projects",
+        "category:ai-safety-alignment"
+      ],
+      "operational": "operational:15",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "src/heretic/main.py"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch/transformer tooling",
+        "local or hosted model artifacts"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "model refusal removal",
+        "LLM fine tuning",
+        "model optimization",
+        "research tooling"
+      ],
+      "capability_clusters": [
+        {
+          "name": "model behavior optimization",
+          "description": "Runs an optimization workflow targeting refusal behavior in language models.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model evaluation and artifact workflow",
+          "description": "Coordinates model loading, evaluation and output artifacts.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Heretic model workflow",
+          "purpose": "Coordinates the research pipeline for modifying and evaluating model behavior.",
+          "evidence_paths": [
+            "README.md",
+            "src/heretic/main.py",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research reference only unless the use case is explicitly approved; evaluate safety impact and model redistribution terms before running.",
+      "license_notes": "See repository LICENSE; model weights and datasets have independent terms.",
+      "risk_notes": [
+        "Designed to weaken refusal behavior; outputs may remove safety protections and require controlled, authorized research handling."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/AutoHedge",
+      "commit": "c549c7950da112286e76725d49f6a25de8fa99bd",
+      "purpose": "Python project for automated portfolio hedging and trading-oriented financial workflows using model and market-data integrations.",
+      "categories": [
+        "category:finance-accounting",
+        "category:ai-applications",
+        "category:business-applications"
+      ],
+      "operational": "operational:22",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "autohedge/main.py"
+      ],
+      "runtime": [
+        "Python",
+        "financial APIs",
+        "LLM/agent integrations"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "automated hedging",
+        "portfolio management",
+        "financial agent",
+        "trading APIs",
+        "risk management"
+      ],
+      "capability_clusters": [
+        {
+          "name": "automated hedge workflow",
+          "description": "Coordinates financial analysis and hedge-oriented actions through configured integrations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "financial provider integrations",
+          "description": "Connects the workflow to external market or broker services.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "AutoHedge application",
+          "purpose": "Coordinates the primary finance workflow and integrations.",
+          "evidence_paths": [
+            "README.md",
+            "autohedge/main.py"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Do not connect to live funds until execution paths, authorization, risk limits, credentials and paper-trading behavior are deeply reviewed.",
+      "license_notes": "MIT; financial provider and data terms apply.",
+      "risk_notes": [
+        "Financial/trading execution is a deep-review trigger; inspect order paths, credential storage, limits and failure behavior before any live connection."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/HunyuanVideo",
+      "commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
+      "purpose": "Tencent HunyuanVideo research implementation and tooling for text/image-conditioned video generation using large pretrained models.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:creative-tools"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE.txt",
+        "ckpts/README.md",
+        "gradio_server.py"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "video diffusion/transformer models",
+        "GPU inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "HunyuanVideo",
+        "video generation",
+        "text to video",
+        "image to video",
+        "Tencent model"
+      ],
+      "capability_clusters": [
+        {
+          "name": "video generation inference",
+          "description": "Generates video from supported prompts or image inputs using HunyuanVideo models.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model setup and checkpoint workflow",
+          "description": "Documents model checkpoint acquisition and inference setup.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "demo interface",
+          "description": "Provides a Gradio-facing demonstration path for video generation.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "video generation pipeline",
+          "purpose": "Loads the model and performs generation workflows.",
+          "evidence_paths": [
+            "README.md",
+            "gradio_server.py",
+            "ckpts/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use after confirming GPU capacity, model license, checkpoint provenance and generated-media policy.",
+      "license_notes": "Review LICENSE.txt and separate model checkpoint terms before redistribution or commercial use.",
+      "risk_notes": [
+        "Large model downloads and GPU workloads; generated likeness/media rights and checkpoint provenance require review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/genea-app",
+      "commit": "6544e682b2a9cd9cf304680515b8f8b65a7cc649",
+      "purpose": "Browser-based genealogy application for visually building and editing family trees with GEDCOM import/export and client-side storage options.",
+      "categories": [
+        "category:web-applications",
+        "category:business-applications",
+        "category:data-visualization"
+      ],
+      "operational": "operational:16",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "components/debug.js"
+      ],
+      "runtime": [
+        "JavaScript/TypeScript",
+        "React web app",
+        "GEDCOM"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "genealogy family tree",
+        "GEDCOM editor",
+        "family tree visualization",
+        "client-side genealogy"
+      ],
+      "capability_clusters": [
+        {
+          "name": "visual family tree editing",
+          "description": "Builds and edits genealogy relationships through a browser interface.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "GEDCOM data exchange",
+          "description": "Reads and writes genealogy records through the GEDCOM format.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted client application",
+          "description": "Can be served as a static web app without a required server backend.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "family tree editor",
+          "purpose": "Provides the visual genealogy editing experience.",
+          "evidence_paths": [
+            "README.md",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Reference or adapt the client-side GEDCOM experience; assess data export, access controls and privacy before handling family records.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Genealogy data is sensitive personal information, including information about living people; protect local files and sharing workflows."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ox",
+      "commit": "b8f7621661040a54a5251bb7d8f59bbeba7f3118",
+      "purpose": "Terminal-native coding agent that reads and edits a project, runs shell tools, searches source, manages sessions and verifies task outcomes through an OpenRouter-hosted model.",
+      "categories": [
+        "category:ai-agents",
+        "category:developer-tools",
+        "category:cli-tools"
+      ],
+      "operational": "operational:03",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/index.ts",
+        "src/tools/index.ts"
+      ],
+      "runtime": [
+        "TypeScript",
+        "Node.js CLI",
+        "OpenRouter ox-alpha model"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "terminal coding agent",
+        "AI pair programmer",
+        "project editing agent",
+        "OpenRouter",
+        "tool permissions"
+      ],
+      "capability_clusters": [
+        {
+          "name": "interactive coding agent loop",
+          "description": "Combines project context, model responses and tool use in a terminal session.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "code and shell tools",
+          "description": "Provides search, editing and command execution capabilities for project tasks.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "session and permission modes",
+          "description": "Tracks project sessions and offers interaction/permission modes.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "coding agent CLI",
+          "purpose": "Runs the interactive agent loop and project tools.",
+          "evidence_paths": [
+            "README.md",
+            "src/index.ts",
+            "src/tools/index.ts"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong coding-agent reference; review shell permissions, file writes, bypass modes, model routing and secret handling before adopting execution patterns.",
+      "license_notes": "MIT; OpenRouter and model terms apply.",
+      "risk_notes": [
+        "Can execute commands and change project files; privileged/bypass modes and externally transmitted code require scoped permissions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/LongCat-Video",
+      "commit": "6b3f4b8582a8bc3f20f795735f5383716c4ba794",
+      "purpose": "Meituan LongCat-Video model implementation and inference resources for generative video creation from text and visual inputs.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "longcat_video/audio_process/__init__.py"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "video generation model",
+        "GPU inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "LongCat-Video",
+        "video generation model",
+        "text to video",
+        "video inference",
+        "Meituan"
+      ],
+      "capability_clusters": [
+        {
+          "name": "generative video inference",
+          "description": "Provides model and inference workflows for creating video content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "audio/video processing components",
+          "description": "Includes supporting media processing modules for generation workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "LongCat model pipeline",
+          "purpose": "Implements model loading and video generation support.",
+          "evidence_paths": [
+            "README.md",
+            "longcat_video/audio_process/__init__.py"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate checkpoint access, hardware, model use terms and output provenance before selecting for a product.",
+      "license_notes": "Review repository LICENSE and distinct model-weight terms.",
+      "risk_notes": [
+        "High compute and large checkpoints; generated media needs provenance, rights and content safeguards."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/loopy",
+      "commit": "75966cbd572a4185064971c9fe5e9c52e8f8456d",
+      "purpose": "Loop Library website for browsing reusable agent prompts plus an optional Loopy skill for finding, auditing, repairing, creating and debriefing prompt loops.",
+      "categories": [
+        "category:skills",
+        "category:web-applications",
+        "category:prompt-libraries"
+      ],
+      "operational": "operational:01",
+      "recommendation": "COMBINE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "AGENTS.md",
+        "loop-library/worker/package.json"
+      ],
+      "runtime": [
+        "Markdown skill",
+        "JavaScript website",
+        "worker and database"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "data_database_search": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Loop Library",
+        "agent prompt loops",
+        "workflow prompts",
+        "prompt catalog",
+        "agent skill"
+      ],
+      "capability_clusters": [
+        {
+          "name": "prompt loop catalogue",
+          "description": "Lets people and agents browse, read and copy published prompt loops.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Loopy agent skill",
+          "description": "Guides agents through discovering, auditing, repairing, authoring and debriefing loops.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "loop publishing website",
+          "description": "Hosts the catalogue with site, worker and database components.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Loop Library website",
+          "purpose": "Publishes and renders the public prompt catalogue.",
+          "evidence_paths": [
+            "README.md",
+            "loop-library/worker/package.json"
+          ]
+        },
+        {
+          "name": "Loopy skill",
+          "purpose": "Provides agent instructions for creating and using reusable loops.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use the skill and catalog for prompt workflow design; inspect worker/database handling and prompt provenance before hosting or importing content.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Published prompts are external instructions; review embedded actions and site data handling before execution."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Wan2.1",
+      "commit": "9737cba9c1c3c4d04b33fcad41c111989865d315",
+      "purpose": "Wan video-generation research implementation and model tooling for text-to-video and image-to-video synthesis.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE.txt",
+        "pyproject.toml",
+        "generate.py"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Wan model checkpoints",
+        "GPU inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Wan2.1",
+        "text to video",
+        "image to video",
+        "video generation",
+        "model inference"
+      ],
+      "capability_clusters": [
+        {
+          "name": "text-to-video generation",
+          "description": "Generates video clips conditioned on text prompts using Wan checkpoints.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "image-to-video generation",
+          "description": "Supports video generation conditioned on input images.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model inference and setup",
+          "description": "Provides checkpoint and runtime setup for generation workflows.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Wan generation pipeline",
+          "purpose": "Loads models and runs video generation tasks.",
+          "evidence_paths": [
+            "README.md",
+            "generate.py",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use after validating GPU capacity, checkpoint terms, prompt/output policy and current upstream version.",
+      "license_notes": "See LICENSE.txt; model weights may have separate usage terms.",
+      "risk_notes": [
+        "Large model artifacts and generated likeness/media rights require review before commercial use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/FinMem-LLM-StockTrading",
+      "commit": "be814aa47970de9bf2fdd6a1d5a60ae5cf361b46",
+      "purpose": "Research implementation of an LLM stock-trading agent using layered memory, character profiles and a market-data pipeline to study decision performance.",
+      "categories": [
+        "category:ai-agents",
+        "category:finance-accounting",
+        "category:research-projects"
+      ],
+      "operational": "operational:22",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "data-pipeline/README.md"
+      ],
+      "runtime": [
+        "Python",
+        "LLM APIs",
+        "market/news data pipeline",
+        "trading research"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "LLM stock trading research",
+        "layered agent memory",
+        "financial data pipeline",
+        "portfolio strategy evaluation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "financial agent research framework",
+          "description": "Studies LLM-driven stock selection and trading decisions using structured agent roles.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "layered memory and character design",
+          "description": "Organizes agent context and role characteristics for financial reasoning experiments.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "market data pipeline",
+          "description": "Collects or prepares financial inputs used in experiments.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FinMem research workflow",
+          "purpose": "Connects agent memory, financial inputs and evaluation for trading research.",
+          "evidence_paths": [
+            "README.md",
+            "data-pipeline/README.md",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research reference only until data licensing, strategy assumptions, order execution and risk controls are reviewed; do not connect to live trading.",
+      "license_notes": "MIT; data sources and model providers have separate terms.",
+      "risk_notes": [
+        "Financial trading is a deep-review trigger; identify whether any execution path exists and audit credentials, limits and evaluation validity."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/HunyuanVideo-1.5",
+      "commit": "60783e704160023913bee78f0b47036d393d4dfa",
+      "purpose": "Tencent HunyuanVideo-1.5 implementation and tools for high-quality video generation using a compact pretrained model.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "ComfyUI/README.md",
+        "generate.py"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "video generation model",
+        "ComfyUI integration",
+        "GPU inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "HunyuanVideo 1.5",
+        "video generation",
+        "ComfyUI workflow",
+        "text to video",
+        "image to video"
+      ],
+      "capability_clusters": [
+        {
+          "name": "video generation model pipeline",
+          "description": "Provides model inference and generation utilities for creative video outputs.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "ComfyUI integration",
+          "description": "Documents integration with ComfyUI node workflows.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "model setup and deployment",
+          "description": "Explains checkpoint, dependency and hardware setup.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "video inference pipeline",
+          "purpose": "Runs HunyuanVideo model generation workflows.",
+          "evidence_paths": [
+            "README.md",
+            "generate.py"
+          ]
+        },
+        {
+          "name": "ComfyUI workflow integration",
+          "purpose": "Connects the model to an external node-based generation interface.",
+          "evidence_paths": [
+            "ComfyUI/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Assess checkpoint terms, GPU memory, workflow dependencies and generated-media safeguards before integration.",
+      "license_notes": "Review LICENSE and model-weight terms independently.",
+      "risk_notes": [
+        "Large model and external node dependencies; media likeness, provenance and content controls need review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/i-have-adhd",
+      "commit": "6f1f982d0a47c65899af3c5a7450b7098bc65325",
+      "purpose": "Accessibility-focused agent plugin that formats responses and tasks into ADHD-friendly, clear and manageable outputs without requiring a diagnosis.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:accessibility",
+        "category:productivity"
+      ],
+      "operational": "operational:02",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "plugin.json"
+      ],
+      "runtime": [
+        "JavaScript plugin",
+        "compatible coding/assistant host"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "ADHD-friendly formatting",
+        "accessible agent output",
+        "task breakdown",
+        "cognitive accessibility",
+        "assistant plugin"
+      ],
+      "capability_clusters": [
+        {
+          "name": "accessible response formatting",
+          "description": "Shapes assistant output for clarity, scannability and reduced cognitive load.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "task organization support",
+          "description": "Encourages manageable task steps and clear next actions.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "agent plugin integration",
+          "description": "Packages formatting behavior for compatible host environments.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "accessibility plugin",
+          "purpose": "Applies ADHD-friendly output conventions in the host assistant.",
+          "evidence_paths": [
+            "README.md",
+            "plugin.json",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as an optional accessibility preference and let users adjust formatting; avoid treating it as clinical diagnosis or advice.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Accessibility preferences vary by person; avoid asserting medical benefits or inferring a user's diagnosis."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/AI-Manga-AI-Comics",
+      "commit": "3f2c154f58a66e841f6fab2dd169bf69592b419d",
+      "purpose": "Reusable multi-stage AI comic-generation workflow that coordinates models and tools to produce consistent multi-page manga/comic outputs.",
+      "categories": [
+        "category:creative-tools",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "multi-model-comic-workflow/package.json",
+        "multi-model-comic-workflow/examples/benchmark_six_models.py"
+      ],
+      "runtime": [
+        "Python",
+        "JavaScript workflow package",
+        "external image models and APIs"
+      ],
+      "asset_presence": {
+        "models": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "AI comics",
+        "manga generation workflow",
+        "multi-model consistency",
+        "multi-page story",
+        "comic pipeline"
+      ],
+      "capability_clusters": [
+        {
+          "name": "multi-page comic workflow",
+          "description": "Coordinates stages for producing longer comic narratives rather than a single image.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model comparison and selection",
+          "description": "Includes benchmark tooling for comparing image-generation model behavior.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "visual consistency workflow",
+          "description": "Structures repeated generation steps to maintain characters and style across pages.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "multi-model comic workflow",
+          "purpose": "Provides the reusable generation pipeline and examples.",
+          "evidence_paths": [
+            "README.md",
+            "multi-model-comic-workflow/package.json"
+          ]
+        },
+        {
+          "name": "model benchmark",
+          "purpose": "Compares candidate models for comic workflow requirements.",
+          "evidence_paths": [
+            "multi-model-comic-workflow/examples/benchmark_six_models.py"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Extract workflow patterns after reviewing provider credentials, model licensing, image rights and output consistency limitations.",
+      "license_notes": "MIT for this repository; model and image-service terms apply.",
+      "risk_notes": [
+        "External generation APIs may incur costs; generated characters and source references need rights and content review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vibe-studio-taste-skill",
+      "commit": "72e299530e2eb31ed8da06181bc19f6c18a00821",
+      "purpose": "Agent skill suite for shaping polished frontend interfaces through brand direction, visual taste constraints and implementation-specific design guidance.",
+      "categories": [
+        "category:skills",
+        "category:design-systems",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        ".claude-plugin/plugin.json",
+        "skills/brandkit/SKILL.md",
+        "skills/brutalist-skill/SKILL.md"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "frontend agent hosts"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "frontend design skill",
+        "brand kit",
+        "visual taste",
+        "anti-generic UI",
+        "design systems"
+      ],
+      "capability_clusters": [
+        {
+          "name": "frontend visual direction",
+          "description": "Guides agent-generated interfaces toward a coherent and intentional visual identity.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "brand and style skill variants",
+          "description": "Provides reusable design guidance such as brand kits and distinct visual styles.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "plugin distribution",
+          "description": "Packages skills for supported agent hosts.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Taste skill collection",
+          "purpose": "Provides frontend visual design instructions and style-specific references.",
+          "evidence_paths": [
+            "README.md",
+            "skills/brandkit/SKILL.md",
+            "skills/brutalist-skill/SKILL.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use to establish frontend direction, then validate accessibility, responsive behavior and user needs in the actual application.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Design guidance is subjective and does not replace usability, accessibility or brand-rights review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Go-native",
+      "commit": "2b68ea109ec02093fbb1f2439c20d671e549f67d",
+      "purpose": "Mobile-first opportunity and benefits platform concept for Indigenous communities, connecting people with opportunities, application tracking and plain-language AI assistance.",
+      "categories": [
+        "category:mobile-applications",
+        "category:business-applications",
+        "category:ai-applications"
+      ],
+      "operational": "operational:19",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "source_review": [
+        "README.md",
+        "package.json",
+        "docs/architecture.md",
+        "apps/admin/README.md",
+        "apps/android/README.md"
+      ],
+      "runtime": [
+        "TypeScript/JavaScript monorepo",
+        "web administration",
+        "Android application",
+        "AI service integrations"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Indigenous opportunity network",
+        "benefits discovery",
+        "application tracking",
+        "mobile-first platform",
+        "community services"
+      ],
+      "capability_clusters": [
+        {
+          "name": "opportunity and benefits discovery",
+          "description": "Helps users find relevant opportunities, benefits and official processes.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "application tracking",
+          "description": "Organizes applications, deadlines and next actions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "organization publishing workspace",
+          "description": "Supports verified organizations publishing opportunities and connecting with users.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "plain-language AI assistance",
+          "description": "Provides an AI assistance surface for explaining processes and user next steps.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "mobile and admin applications",
+          "purpose": "Separates public mobile experience from organization/admin workflows.",
+          "evidence_paths": [
+            "README.md",
+            "apps/admin/README.md",
+            "apps/android/README.md"
+          ]
+        },
+        {
+          "name": "platform architecture",
+          "purpose": "Documents services and data boundaries across the application.",
+          "evidence_paths": [
+            "docs/architecture.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strategically important product architecture; review Indigenous governance, identity/privacy, eligibility data, AI accuracy and partner authorization before building on it.",
+      "license_notes": "No license path included in the bounded source packet; confirm source license before reuse.",
+      "risk_notes": [
+        "Sensitive benefits and identity contexts require privacy, consent, data governance and accuracy review; do not infer eligibility or identity authority."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Deep-Live-Cam",
+      "commit": "aa6f2cbade35a0a55502b87b18697b020c49b5f3",
+      "purpose": "Desktop real-time face-swapping and synthetic video application driven by a source image and live or recorded video.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:media-publishing",
+        "category:desktop-applications"
+      ],
+      "operational": "operational:09",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "modules/capturer.py",
+        "modules/__init__.py"
+      ],
+      "runtime": [
+        "Python",
+        "computer vision and face-swap models",
+        "desktop GPU/video pipeline"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "vision_ocr": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "real-time face swap",
+        "synthetic video",
+        "face replacement",
+        "computer vision",
+        "Deep-Live-Cam"
+      ],
+      "capability_clusters": [
+        {
+          "name": "face-swap video pipeline",
+          "description": "Maps a source face onto live or recorded video frames.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "video capture and processing",
+          "description": "Captures and processes video frames for desktop output.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "capture and face-swap application",
+          "purpose": "Coordinates video input and face transformation workflows.",
+          "evidence_paths": [
+            "README.md",
+            "modules/capturer.py"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use only for consent-based, clearly labeled synthetic media; inspect model behavior, source-image handling and output disclosure safeguards.",
+      "license_notes": "MIT; model assets and third-party components may have separate terms.",
+      "risk_notes": [
+        "Deepfake/identity impersonation capability is high risk; require consent, provenance, disclosure and abuse safeguards."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/FunClip",
+      "commit": "36acf72e2add3c4af33fd35d373574a5dee96482",
+      "purpose": "Video clipping application that finds and extracts highlight segments from longer videos, including an LLM-assisted workflow and user interface.",
+      "categories": [
+        "category:media-publishing",
+        "category:ai-applications",
+        "category:desktop-applications"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        ".github/workflows/tests.yml",
+        ".github/workflows/release.yml"
+      ],
+      "runtime": [
+        "Python application",
+        "video processing",
+        "optional LLM integrations"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "video clipping",
+        "highlight extraction",
+        "LLM video analysis",
+        "short-form clips",
+        "media editing"
+      ],
+      "capability_clusters": [
+        {
+          "name": "video highlight clipping",
+          "description": "Finds and extracts selected segments from source video.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "LLM-assisted clip selection",
+          "description": "Uses model-supported analysis to help identify candidate moments.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "clip editing interface",
+          "description": "Provides a user interface for reviewing and producing selected clips.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FunClip video workflow",
+          "purpose": "Coordinates video analysis, segment selection and export.",
+          "evidence_paths": [
+            "README.md",
+            ".github/workflows/tests.yml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a video-editing candidate after checking local media permissions, model credentials and output rights.",
+      "license_notes": "MIT; external model and codec terms apply.",
+      "risk_notes": [
+        "Media files may be sensitive and large; review model data transfer, resource limits and content rights."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/geo-seo-claude",
+      "commit": "9eec32f5f700a1e6c3cb1cb735a56ee5ec49a964",
+      "purpose": "Claude Code skill suite for generative-engine optimization and SEO audits, including brand visibility and AI search readiness workflows.",
+      "categories": [
+        "category:skills",
+        "category:marketing-communications",
+        "category:research-projects"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "geo/SKILL.md",
+        "skills/geo-audit/SKILL.md",
+        "skills/geo-brand-mentions/SKILL.md"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "Claude Code",
+        "web search/crawl integrations as configured"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "GEO SEO skill",
+        "AI search visibility",
+        "brand mentions",
+        "SEO audit",
+        "AI Overviews"
+      ],
+      "capability_clusters": [
+        {
+          "name": "generative search optimization",
+          "description": "Guides website content review for AI-powered answer/search surfaces.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "SEO audit workflow",
+          "description": "Structures technical and content audits for target websites.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "brand mention research",
+          "description": "Supports tracking and improving brand presence in AI search results.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "GEO/SEO skill suite",
+          "purpose": "Packages audit and brand visibility workflows for a coding-agent host.",
+          "evidence_paths": [
+            "README.md",
+            "geo/SKILL.md",
+            "skills/geo-audit/SKILL.md",
+            "skills/geo-brand-mentions/SKILL.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as research guidance, verify current search behavior with measured evidence and avoid treating prompt-level recommendations as ranking guarantees.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Search algorithms and platform behavior change; do not promise rankings or cite unverified brand-visibility metrics."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/youtube-skills",
+      "commit": "5c168578ec8424dbd1bd144d1cb53e8e6db276ee",
+      "purpose": "Agent skill collection for YouTube transcripts, video search, channel data and playlist extraction through the external TranscriptAPI service.",
+      "categories": [
+        "category:skills",
+        "category:apis",
+        "category:media-publishing"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        ".codex-plugin/plugin.json",
+        "clawhub/captions/SKILL.md",
+        "clawhub/subtitles/SKILL.md"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "agent plugin",
+        "TranscriptAPI"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "YouTube transcripts",
+        "video search skill",
+        "channel data",
+        "playlist extraction",
+        "TranscriptAPI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "YouTube transcript retrieval",
+          "description": "Guides host agents to retrieve captions and transcript content from an external API.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "video and channel discovery",
+          "description": "Provides workflows for searching videos and browsing channel information.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "plugin packaging",
+          "description": "Distributes skills for compatible agent clients.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "YouTube skill collection",
+          "purpose": "Packages transcript, search, channel and playlist workflows.",
+          "evidence_paths": [
+            "README.md",
+            ".codex-plugin/plugin.json",
+            "clawhub/captions/SKILL.md",
+            "clawhub/subtitles/SKILL.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use with an authorized API key after checking provider terms, quotas and content rights; do not promise provider uptime or free access.",
+      "license_notes": "MIT for skills; TranscriptAPI and YouTube terms apply.",
+      "risk_notes": [
+        "External API credentials and video/transcript data require privacy, authorization and retention review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/-email-agentic-inbox",
+      "commit": "48039bb6785af34e592c2966f87cde2b255c4c80",
+      "purpose": "Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.",
+      "categories": [
+        "category:web-applications",
+        "category:business-applications",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:11",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "workers/index.ts",
+        "app/types/index.ts"
+      ],
+      "runtime": [
+        "TypeScript",
+        "Cloudflare Workers",
+        "Durable Objects with SQLite",
+        "R2",
+        "AI API"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "agentic email inbox",
+        "Cloudflare email routing",
+        "AI email assistant",
+        "Durable Objects",
+        "mailbox isolation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "self-hosted email client",
+          "description": "Provides a web interface to send, receive and manage email through a user's Cloudflare account.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "isolated mailbox storage",
+          "description": "Separates mailbox state using Durable Objects and stores attachments in R2.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "AI inbox assistant",
+          "description": "Supports inbox search and draft reply workflows through a model integration.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Cloudflare email and mailbox backend",
+          "purpose": "Receives email and maintains per-mailbox state and attachments.",
+          "evidence_paths": [
+            "README.md",
+            "workers/index.ts"
+          ]
+        },
+        {
+          "name": "AI email workflow",
+          "purpose": "Adds agent-assisted search and reply drafting to the inbox.",
+          "evidence_paths": [
+            "README.md",
+            "app/types/index.ts"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strategically useful email architecture; deeply review OAuth/authorization, prompt injection from email, attachment handling, retention and send-confirmation controls before deployment.",
+      "license_notes": "MIT; Cloudflare and model-provider terms apply.",
+      "risk_notes": [
+        "Processes private email and attachments and may send messages; authentication, injection defense, retention and explicit send approval are deep-review triggers."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ai-website-cloner-template",
+      "commit": "92872bc40ced2c5edb4d5dc9fd3970d40c77f4ca",
+      "purpose": "Cross-host agent skill and starter template for reconstructing a website as a clean Next.js application from a reference URL.",
+      "categories": [
+        "category:skills",
+        "category:templates-boilerplates",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "AGENTS.md",
+        ".codex/skills/clone-website/SKILL.md"
+      ],
+      "runtime": [
+        "Next.js",
+        "TypeScript",
+        "multi-host agent instructions"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "EXTERNAL_REFERENCE",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "browser_computer_use": "EXTERNAL_REFERENCE"
+      },
+      "keywords": [
+        "website cloner skill",
+        "URL to Next.js",
+        "website reconstruction",
+        "coding agent template",
+        "multi-host skill"
+      ],
+      "capability_clusters": [
+        {
+          "name": "website reconstruction workflow",
+          "description": "Guides a coding agent from reference URL to a locally implemented Next.js site.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "cross-agent skill packaging",
+          "description": "Provides synchronized instructions for multiple coding-agent hosts.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "Next.js starter scaffold",
+          "description": "Supplies the application template used as the reconstruction target.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "clone website skill",
+          "purpose": "Coordinates reference inspection and implementation steps across supported agent hosts.",
+          "evidence_paths": [
+            "README.md",
+            ".codex/skills/clone-website/SKILL.md",
+            "AGENTS.md"
+          ]
+        },
+        {
+          "name": "Next.js template",
+          "purpose": "Provides the target scaffold for generated site implementations.",
+          "evidence_paths": [
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for authorized redesign/reimplementation; respect source-site copyright, access controls and brand assets, and review generated code before deployment.",
+      "license_notes": "MIT; source website content and trademarks retain their own rights.",
+      "risk_notes": [
+        "Can retrieve external sites and reproduce protected design/content; ensure authorization and review network/file operations."
+      ]
+    }
+  ]
+}

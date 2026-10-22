@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/apify/crawlee",
-  "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+  "description": "Web scraping and browser automation framework for building reliable crawlers in JavaScript/TypeScript or Python.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-19T15:01:23Z",
-    "github_description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation."
+    "github_description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "45e7e897a2bce58460a67324086c0850766bd2ba",
   "current_commit": "45e7e897a2bce58460a67324086c0850766bd2ba",
   "inspection_date": "2026-10-21T00:00:24.802021+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:automation-scripting",
+    "category:libraries-packages",
+    "category:data-engineering"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.547668+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.369042+00:00",
   "tree_files": 3017,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2114,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2698,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Web scraping and browser automation framework for building reliable crawlers in JavaScript/TypeScript or Python.",
+    "reuse_recommendation": "Use for authorized collection with rate limits, domain allowlists and data minimization.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Apache-2.0; target site terms apply.",
+    "runtime": [
+      "TypeScript/JavaScript or Python",
+      "browser automation",
+      "storage"
+    ],
+    "keywords": [
+      "Crawlee",
+      "web scraping",
+      "browser crawling",
+      "Playwright",
+      "data extraction"
+    ],
+    "risk_notes": [
+      "Crawling arbitrary URLs may create SSRF, privacy, terms-of-service and abuse risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Crawlee crawler framework",
+        "purpose": "Provides reusable building blocks for web data collection.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:18.196999+00:00",
+    "inspected_commit": "45e7e897a2bce58460a67324086c0850766bd2ba",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f2af01ffb314b5c7375bcf8faf37e56151ba8ff6",
+        "value": "https://github.com/jamesrwatsonx-creator/crawlee/blob/45e7e897a2bce58460a67324086c0850766bd2ba/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "HTTP and browser crawlers",
+        "description": "Builds crawlers using direct HTTP or full browser sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:http-and-browser-crawlers",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "request queues and data extraction",
+        "description": "Manages crawl URLs, retries and structured output pipelines.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:request-queues-and-data-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "cloud and local deployment",
+        "description": "Supports scalable crawler execution and storage.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:cloud-and-local-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

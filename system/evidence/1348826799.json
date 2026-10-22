@@ -9,12 +9,24 @@
       "sha": "8bf0d6b55651070e3c124b525005f9172c427a5d"
     },
     {
+      "path": "LICENSE",
+      "sha": "f4f97ee5853a2b2ba9121ea21589c706edf7a1cc"
+    },
+    {
       "path": "README.md",
       "sha": "787217b1911ae9c69aceeed266690a8cbc28db17"
     },
     {
       "path": "api/README.md",
       "sha": "069960df2e2c768adfe9831771b7dd485b30362d"
+    },
+    {
+      "path": "api/auth/approle/go.mod",
+      "sha": "453a539c494ec0640b05b8d0d8e17c1162bb630d"
+    },
+    {
+      "path": "api/auth/jwt/go.mod",
+      "sha": "36c7b233bffaad7273a62a8edff2e7a4719212f0"
     },
     {
       "path": "api/go.mod",
@@ -39,6 +51,14 @@
     {
       "path": "ui/README.md",
       "sha": "de7f938efe67c9e0c1df2441b818aa63a8b0259c"
+    },
+    {
+      "path": "ui/package.json",
+      "sha": "343ff90067c87c9ba9f14b82d516f9f12ca6f0cb"
+    },
+    {
+      "path": "website/package.json",
+      "sha": "cdfe8f17facda9da71740f9e85098b1238b030ab"
     }
   ],
   "files_read": [
@@ -86,6 +106,31 @@
       "path": "AGENTS.md",
       "blob_sha": "8bf0d6b55651070e3c124b525005f9172c427a5d",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "f4f97ee5853a2b2ba9121ea21589c706edf7a1cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "ui/package.json",
+      "blob_sha": "343ff90067c87c9ba9f14b82d516f9f12ca6f0cb",
+      "entities_detected": 0
+    },
+    {
+      "path": "website/package.json",
+      "blob_sha": "cdfe8f17facda9da71740f9e85098b1238b030ab",
+      "entities_detected": 0
+    },
+    {
+      "path": "api/auth/approle/go.mod",
+      "blob_sha": "453a539c494ec0640b05b8d0d8e17c1162bb630d",
+      "entities_detected": 0
+    },
+    {
+      "path": "api/auth/jwt/go.mod",
+      "blob_sha": "36c7b233bffaad7273a62a8edff2e7a4719212f0",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -121,20 +166,21 @@
     ".github/workflows/verify-commits.yml",
     ".golangci.deprecations.yml",
     ".golangci.yml",
+    ".release/LICENSE_DEPENDENCIES.tpl",
     ".release/docker/docker-entrypoint.sh",
     ".release/docker/ubi-docker-entrypoint.sh",
     ".release/nfpm.yaml",
     "CHANGELOG.md",
     "CHARTER.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
     "GOVERNANCE.md",
     "MAINTAINERS.md",
+    "Makefile",
     "api/api_test.go",
     "api/auth.go",
     "api/auth/approle/approle.go",
     "api/auth/approle/approle_test.go",
-    "api/auth/approle/go.mod",
-    "api/auth/jwt/go.mod",
     "api/auth/jwt/jwt.go",
     "api/auth/kubernetes/go.mod",
     "api/auth/kubernetes/kubernetes.go",
@@ -187,8 +233,7 @@
     "api/sys_leases.go",
     "api/sys_mfa.go",
     "api/sys_monitor.go",
-    "api/sys_mounts.go",
-    "api/sys_mounts_test.go"
+    "api/sys_mounts.go"
   ],
   "excluded_nontext_paths": [
     ".git-blame-ignore-revs",
@@ -311,8 +356,12 @@
     "ui": 2080,
     "website": 954
   },
-  "unread_source_paths_count": 3120,
+  "unread_source_paths_count": 4451,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 2202,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,24 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-  "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "description": "Agent instruction package promoting deliberate planning, simple solutions, surgical code changes and verifiable completion through a reusable skill and editor rules.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-04-20T10:05:04Z",
-    "github_description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+    "github_description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
   "current_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
   "inspection_date": "2026-09-20T05:32:59.261740+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:llm-projects",
-    "category:plugins-extensions",
     "category:skills",
-    "category:tutorials-examples"
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [
@@ -264,7 +263,7 @@
   },
   "tier": "B",
   "tier_reason": "A small, readily reusable coding-guidance asset, with strategic fit for Agent Studio but no behavioral benchmarks and a missing standalone license file. Tier is a qualitative judgment, not a score average.",
-  "recommendation": "LICENSE REVIEW REQUIRED",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -507,9 +506,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.000736+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.709974+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -534,7 +534,7 @@
   "files_read": 9,
   "entity_count": 3,
   "unread_source_files": 0,
-  "next_phase": "CHECK_FOR_NEW_COMMIT",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -544,5 +544,121 @@
     ],
     "updated_at": "2026-10-12T19:04:27.049853+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent instruction package promoting deliberate planning, simple solutions, surgical code changes and verifiable completion through a reusable skill and editor rules.",
+    "reuse_recommendation": "Use as host-agent guidance; verify compatibility and the skill's stated MIT terms when redistributing.",
+    "inspection_scope": "Reviewed the main skill, plugin and editor-rule variants. These are behavioral instructions for host agents, not an autonomous coding runtime.",
+    "license_notes": "Skill frontmatter states MIT; no root LICENSE was included in the reviewed files, so verify distribution terms.",
+    "runtime": [
+      "Markdown skill",
+      "editor rule",
+      "plugin metadata"
+    ],
+    "keywords": [
+      "coding agent guidelines",
+      "plan first",
+      "simplicity",
+      "surgical edits",
+      "verifiable success"
+    ],
+    "risk_notes": [
+      "Instructions influence agent behavior but do not enforce permissions or guarantee code quality."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Karpathy guidelines skill",
+        "purpose": "Packages the core behavioral guidance for compatible coding agents.",
+        "evidence_paths": [
+          "skills/karpathy-guidelines/SKILL.md"
+        ]
+      },
+      {
+        "name": "editor integrations",
+        "purpose": "Distributes related instructions through plugin and editor-rule metadata.",
+        "evidence_paths": [
+          ".claude-plugin/plugin.json",
+          ".cursor/rules/karpathy-guidelines.mdc"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:26.285583+00:00",
+    "inspected_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude-plugin/plugin.json",
+        "blob_sha": "6e885516c084de3cde769ff3f0ed80ef2ea946d9",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/karpathy-guidelines/SKILL.md",
+        "blob_sha": "6a62d0441753157ca6ca50479e490c2948033adb",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/skills/karpathy-guidelines/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".cursor/rules/karpathy-guidelines.mdc",
+        "blob_sha": "edd317f72af150e842d46e31ecc8e009ff999813",
+        "value": "https://github.com/jamesrwatsonx-creator/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/.cursor/rules/karpathy-guidelines.mdc"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "deliberate coding workflow",
+        "description": "Encourages understanding the task and planning before changing code.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:deliberate-coding-workflow",
+        "evidence_paths": [
+          "README.md",
+          ".claude-plugin/plugin.json",
+          "skills/karpathy-guidelines/SKILL.md",
+          ".cursor/rules/karpathy-guidelines.mdc"
+        ]
+      },
+      {
+        "name": "minimal implementation guidance",
+        "description": "Favors simple solutions and tightly scoped edits with observable completion criteria.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:minimal-implementation-guidance",
+        "evidence_paths": [
+          "README.md",
+          ".claude-plugin/plugin.json",
+          "skills/karpathy-guidelines/SKILL.md",
+          ".cursor/rules/karpathy-guidelines.mdc"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "CHECK_FOR_NEW_COMMIT",
+    "review_reason": null
   }
 }

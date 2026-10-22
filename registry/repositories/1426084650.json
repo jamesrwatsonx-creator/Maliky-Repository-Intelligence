@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/m-bain/whisperX",
-  "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "description": "Python speech-processing toolkit that combines Whisper transcription with word-level alignment, diarization and audio segmentation workflows.",
   "metadata": {
     "language": null,
     "license": "BSD-2-Clause",
     "archived": false,
     "pushed_at": "2026-10-18T16:53:35Z",
-    "github_description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+    "github_description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "db8fde4d31a3e7f49fe5835938685a76f5ba5477",
   "current_commit": "db8fde4d31a3e7f49fe5835938685a76f5ba5477",
   "inspection_date": "2026-10-21T00:00:16.325759+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:machine-learning-models",
+    "category:apis",
+    "category:scientific-computing"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,128 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.731336+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.743140+00:00",
   "tree_files": 34,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 27,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 15,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python speech-processing toolkit that combines Whisper transcription with word-level alignment, diarization and audio segmentation workflows.",
+    "reuse_recommendation": "Use for local or controlled transcription pipelines after checking model licenses, GPU requirements and diarization service credentials.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "BSD-2-Clause; model weights and third-party components may have separate terms.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Whisper",
+      "audio alignment and diarization models"
+    ],
+    "keywords": [
+      "WhisperX",
+      "speech transcription",
+      "word timestamps",
+      "speaker diarization",
+      "audio alignment"
+    ],
+    "risk_notes": [
+      "Audio can contain sensitive personal data; diarization credentials, model downloads and GPU resource usage require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "transcription and alignment toolkit",
+        "purpose": "Coordinates ASR, timestamp alignment and optional speaker labeling.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:17.797166+00:00",
+    "inspected_commit": "db8fde4d31a3e7f49fe5835938685a76f5ba5477",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d66fd7e7d429de3125d1a8a45d89ef21bc3640bb",
+        "value": "https://github.com/jamesrwatsonx-creator/whisperX/blob/db8fde4d31a3e7f49fe5835938685a76f5ba5477/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "21ec9f0a1ef9cdf0f0b4cadf510287102c244559",
+        "value": "https://github.com/jamesrwatsonx-creator/whisperX/blob/db8fde4d31a3e7f49fe5835938685a76f5ba5477/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "fdde305caa24b12cd6b2158d61d6fb1205cfb203",
+        "value": "https://github.com/jamesrwatsonx-creator/whisperX/blob/db8fde4d31a3e7f49fe5835938685a76f5ba5477/pyproject.toml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech transcription pipeline",
+        "description": "Runs Whisper-based transcription over audio and video inputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-transcription-pipeline",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "word-level alignment",
+        "description": "Aligns transcript segments to audio timestamps using external alignment models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:word-level-alignment",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "speaker diarization",
+        "description": "Adds speaker segmentation through compatible diarization components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speaker-diarization",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

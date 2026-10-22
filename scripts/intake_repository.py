@@ -6,7 +6,7 @@ import json
 import re
 
 import registry as r
-from review_extracted_batch import promote
+from review_extracted_batch import promote, prepare_repository_summary
 
 
 def identity(value):
@@ -22,6 +22,7 @@ def main():
     parser.add_argument('--structure-only',action='store_true')
     parser.add_argument('--snapshot',action='store_true')
     parser.add_argument('--dry-run',action='store_true')
+    parser.add_argument('--detailed',action='store_true',help='Explicit on-demand source/asset extraction instead of repository-summary preparation')
     args=parser.parse_args()
     full_name=identity(args.repository)
     if args.dry_run:
@@ -29,6 +30,11 @@ def main():
     repo=r.intake_record(full_name)
     if repo is None:
         print(json.dumps({'repository':'PRIVATE_REDACTED','status':'LOCAL_ONLY'})); return
+    if not args.detailed and not args.structure_only:
+        result=prepare_repository_summary(repo)
+        result['next_action']='Review the pinned packet and apply a repository capability-cluster plan.'
+        r.build(); result['validation']=r.validate()['valid']
+        print(json.dumps(result,indent=2)); return
     result=r.ingest(repo['full_name'],structure_only=args.structure_only,snapshot=args.snapshot)
     repo=next(x for x in r.records('repositories') if x['id']==repo['id'])
     if not args.structure_only and not result.get('error') and not repo.get('unread_source_files',0):

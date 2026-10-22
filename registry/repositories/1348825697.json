@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/authzed/spicedb",
-  "description": "Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data",
+  "description": "Open-source relationship-based authorization database and service for modeling and evaluating fine-grained permissions.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-26T20:18:06Z",
-    "github_description": "Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data"
+    "github_description": "Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "8c463b95b94c1ce750d40c46dd50008ffdad1fd4",
   "current_commit": "8c463b95b94c1ce750d40c46dd50008ffdad1fd4",
   "inspection_date": "2026-09-20T05:34:08.648587+00:00",
   "categories": [
-    "category:general-other"
+    "category:iam",
+    "category:backend-services",
+    "category:databases"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.255867+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.306253+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 1648,
-  "files_read": 9,
+  "files_read": 16,
   "entity_count": 0,
-  "unread_source_files": 1425,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1435,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.293189+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source relationship-based authorization database and service for modeling and evaluating fine-grained permissions.",
+    "reuse_recommendation": "Use for centralized authorization after testing policy models and consistency semantics.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Apache-2.0; managed service terms are separate.",
+    "runtime": [
+      "Go",
+      "gRPC/HTTP APIs",
+      "relational datastore"
+    ],
+    "keywords": [
+      "SpiceDB",
+      "authorization database",
+      "Zanzibar model",
+      "permissions",
+      "relationship-based access control"
+    ],
+    "risk_notes": [
+      "Authorization model mistakes can expose sensitive resources."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SpiceDB authorization service",
+        "purpose": "Provides a centralized engine for fine-grained access decisions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:12.130748+00:00",
+    "inspected_commit": "8c463b95b94c1ce750d40c46dd50008ffdad1fd4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3253f5789e946faf75e653a4b29e6df2462c0323",
+        "value": "https://github.com/jamesrwatsonx-creator/spicedb/blob/8c463b95b94c1ce750d40c46dd50008ffdad1fd4/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "permission schema and relationship tuples",
+        "description": "Models resource relationships and permission rules.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:permission-schema-and-relationship-tuples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "authorization checks and APIs",
+        "description": "Evaluates whether a subject can perform actions on resources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:authorization-checks-and-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "service deployment and datastore",
+        "description": "Supports operating the authorization service with persistent storage.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:service-deployment-and-datastore",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

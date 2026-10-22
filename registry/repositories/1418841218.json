@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/asciimoo/hister",
-  "description": "Your own search engine",
+  "description": "Community and business networking application for member discovery, profiles and local connection workflows.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T06:53:24Z",
-    "github_description": "Your own search engine"
+    "github_description": "Your own search engine",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8465c6fec6f9edc481612737e7b2f592c487bd93",
   "current_commit": "8465c6fec6f9edc481612737e7b2f592c487bd93",
   "inspection_date": "2026-10-20T23:55:33.326962+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:web-applications",
+    "category:government-civic-tech"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.118169+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.192150+00:00",
   "tree_files": 753,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 710,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 711,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Community and business networking application for member discovery, profiles and local connection workflows.",
+    "reuse_recommendation": "Use only with clear community governance and privacy controls for member data.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Check repository license and any external identity/service terms.",
+    "runtime": [
+      "Web application",
+      "database/backend runtime"
+    ],
+    "keywords": [
+      "community network",
+      "business directory",
+      "local groups",
+      "member profiles",
+      "social platform"
+    ],
+    "risk_notes": [
+      "Profiles, location and social connections are personal data requiring access control."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Community business network",
+        "purpose": "Connects member identity, discovery and community participation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:16.791866+00:00",
+    "inspected_commit": "8465c6fec6f9edc481612737e7b2f592c487bd93",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a61bd7892ffdb24cf774f07cb5d408475592d2de",
+        "value": "https://github.com/jamesrwatsonx-creator/hister-communiy-business-network/blob/8465c6fec6f9edc481612737e7b2f592c487bd93/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "member profiles and discovery",
+        "description": "Supports discovering and presenting people or organizations in a community.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:member-profiles-and-discovery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "community interactions",
+        "description": "Provides communication or connection workflows among members.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:community-interactions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "business network administration",
+        "description": "Supports local organization and network management.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-network-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

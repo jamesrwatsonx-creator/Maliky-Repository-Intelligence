@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/openai/plugins",
-  "description": "OpenAI Plugins",
+  "description": "Android plugin or integration package for connecting OpenAI APIs to mobile applications.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-08-19T21:22:33Z",
-    "github_description": "OpenAI Plugins"
+    "github_description": "OpenAI Plugins",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
   "current_commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
   "inspection_date": "2026-09-20T05:34:55.443307+00:00",
   "categories": [
-    "category:general-other"
+    "category:mobile-applications",
+    "category:apis",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 608,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.044797+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.752976+00:00",
   "tree_files": 5266,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 4659,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4725,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.057405+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android plugin or integration package for connecting OpenAI APIs to mobile applications.",
+    "reuse_recommendation": "Use through a secured backend; never embed long-lived API keys in a mobile client.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository and OpenAI API terms.",
+    "runtime": [
+      "Kotlin/Java",
+      "Android",
+      "OpenAI API"
+    ],
+    "keywords": [
+      "Android OpenAI plugin",
+      "Kotlin API integration",
+      "mobile AI",
+      "Android SDK",
+      "LLM client"
+    ],
+    "risk_notes": [
+      "API credentials and user prompts require secure handling and privacy review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android OpenAI integration",
+        "purpose": "Provides mobile-facing access to model-backed capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:43.020352+00:00",
+    "inspected_commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e901b40b9d643a5f878157158759fa0a6d3e2909",
+        "value": "https://github.com/jamesrwatsonx-creator/androidOpenaiplugins/blob/11c74d6ba24d3a6d48f54a194cd00ef3beea18f9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "OpenAI API integration",
+        "description": "Connects Android app workflows to OpenAI model endpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:openai-api-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "mobile plugin packaging",
+        "description": "Provides reusable integration components for Android projects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-plugin-packaging",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

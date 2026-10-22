@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/stablyai/orca",
-  "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+  "description": "Vibe Studio or Orca-oriented application workflow, possibly a separate app or integration layer for coding agents and project creation.",
   "metadata": {
     "language": "TypeScript",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T13:32:11Z",
-    "github_description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile."
+    "github_description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "565166249406f5661881e6feb21920c42b030c5f",
   "current_commit": "565166249406f5661881e6feb21920c42b030c5f",
   "inspection_date": "2026-09-20T05:34:45.612237+00:00",
   "categories": [
-    "category:ai-agents",
     "category:developer-tools",
-    "category:mobile-applications"
+    "category:ai-applications",
+    "category:general-other"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 8,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.519458+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.537942+00:00",
   "tree_files": 16630,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 16417,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 16447,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.319479+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Vibe Studio or Orca-oriented application workflow, possibly a separate app or integration layer for coding agents and project creation.",
+    "reuse_recommendation": "Verify whether this is distinct from adjacent Vibe Studio repositories before integrating.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository provenance and license.",
+    "runtime": [
+      "Repository-declared runtime",
+      "agent/tool integrations"
+    ],
+    "keywords": [
+      "Vibe Studio",
+      "Orca",
+      "agent app",
+      "developer workflow",
+      "project tooling"
+    ],
+    "risk_notes": [
+      "Potentially shared agent infrastructure should be checked for provenance and permissions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vibe/Orca app layer",
+        "purpose": "Packages a distinct application workflow around the agent ecosystem.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:56.162120+00:00",
+    "inspected_commit": "565166249406f5661881e6feb21920c42b030c5f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8d0b9e7965314b5c21b09a3e4d6e9dd84cb1630a",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-or-seperate-app-orca/blob/565166249406f5661881e6feb21920c42b030c5f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent-enabled application workflow",
+        "description": "Provides a user-facing workflow for project or coding tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-enabled-application-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tool and platform integration",
+        "description": "Connects the application to supported agents or development services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tool-and-platform-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

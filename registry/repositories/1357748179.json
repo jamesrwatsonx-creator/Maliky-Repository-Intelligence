@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/tt-a1i/archify",
-  "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+  "description": "Agent workflow and schema toolkit for generating, validating and rendering architecture diagrams from structured system descriptions.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-04T16:04:29Z",
-    "github_description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export."
+    "github_description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "5769acefcc2ebd696a4f9ed3ac9cb6cca1d75c70",
   "current_commit": "5769acefcc2ebd696a4f9ed3ac9cb6cca1d75c70",
   "inspection_date": "2026-09-20T05:35:46.212212+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:skills"
+    "category:developer-tools",
+    "category:documentation",
+    "category:architecture-maps"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:03",
     "operational:20"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.082414+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.791101+00:00",
   "tree_files": 471,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 355,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 392,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.062483+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent workflow and schema toolkit for generating, validating and rendering architecture diagrams from structured system descriptions.",
+    "reuse_recommendation": "Use for architecture documentation and validate diagrams against source systems and current operational evidence.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and external renderer terms.",
+    "runtime": [
+      "Python/TypeScript tooling",
+      "diagram renderers",
+      "agent skill"
+    ],
+    "keywords": [
+      "Archify",
+      "architecture as code",
+      "diagram schemas",
+      "system visualization",
+      "agent diagram workflow"
+    ],
+    "risk_notes": [
+      "Generated architecture may be incomplete or stale; verify each relationship with system owners."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Archify schema and renderer",
+        "purpose": "Connects structured architecture evidence to generated diagrams.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:53.342830+00:00",
+    "inspected_commit": "5769acefcc2ebd696a4f9ed3ac9cb6cca1d75c70",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5983178b956d2d31ec3229510cfe315108c8bafd",
+        "value": "https://github.com/jamesrwatsonx-creator/archify/blob/5769acefcc2ebd696a4f9ed3ac9cb6cca1d75c70/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "structured architecture descriptions",
+        "description": "Represents system architecture using typed schemas and structured documents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:structured-architecture-descriptions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "diagram rendering workflows",
+        "description": "Renders architecture descriptions into visual diagrams.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:diagram-rendering-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent architecture skill",
+        "description": "Guides agents through building and iterating on architecture diagrams.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-architecture-skill",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

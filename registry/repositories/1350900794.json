@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/AgriciDaniel/claude-seo",
-  "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+  "description": "Claude Code SEO plugin with skills and commands for technical audits, content, schema, AI search visibility and backlink analysis.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-26T12:16:22Z",
-    "github_description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions."
+    "github_description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
   "current_commit": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
   "inspection_date": "2026-09-20T05:35:36.112865+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:developer-tools",
-    "category:research-projects",
-    "category:skills"
+    "category:skills",
+    "category:marketing-communications",
+    "category:research-projects"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:10",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 33,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.425919+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.240908+00:00",
   "tree_files": 383,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 334,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 359,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.099681+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Claude Code SEO plugin with skills and commands for technical audits, content, schema, AI search visibility and backlink analysis.",
+    "reuse_recommendation": "Use as research guidance and validate current search behavior with primary data; do not promise ranking outcomes.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and external SEO data provider terms.",
+    "runtime": [
+      "Claude Code plugin",
+      "Markdown skills",
+      "optional external SEO APIs"
+    ],
+    "keywords": [
+      "Claude SEO",
+      "technical SEO audit",
+      "schema",
+      "GEO AI search",
+      "backlinks"
+    ],
+    "risk_notes": [
+      "Search algorithms change and provider metrics can be stale; verify claims and data provenance."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Claude SEO skill suite",
+        "purpose": "Packages SEO commands and specialized sub-skills for Claude Code.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:48.079306+00:00",
+    "inspected_commit": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d3f0a0c90a3cdab146edf8f1b6f7f7f106c04c27",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "SEO audit workflows",
+        "description": "Provides agent workflows for technical and on-page website analysis.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:seo-audit-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI search optimization",
+        "description": "Includes workflows for visibility in generative search and answer systems.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:ai-search-optimization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SEO research and reporting",
+        "description": "Supports schema, content and backlink research tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:seo-research-and-reporting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

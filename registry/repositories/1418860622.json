@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/iredmail/iRedMail",
-  "description": "Full-featured, open source mail server solution for mainstream Linux/BSD distributions.",
+  "description": "Linux/BSD mail-server deployment solution that configures common mail services, webmail, filtering and administration components.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-09T10:43:51Z",
-    "github_description": "Full-featured, open source mail server solution for mainstream Linux/BSD distributions."
+    "github_description": "Full-featured, open source mail server solution for mainstream Linux/BSD distributions.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "4f363e1cbfdc80df9673676150eb20a3fdf7a323",
   "current_commit": "4f363e1cbfdc80df9673676150eb20a3fdf7a323",
   "inspection_date": "2026-10-20T23:56:18.740877+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:cloud-infrastructure",
+    "category:backend-services",
+    "category:backend-services"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.261485+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.364855+00:00",
   "tree_files": 322,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 72,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 60,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Linux/BSD mail-server deployment solution that configures common mail services, webmail, filtering and administration components.",
+    "reuse_recommendation": "Mail infrastructure is sensitive; review DNS, TLS, anti-abuse, storage, backups and authentication before production.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "Review iRedMail edition and bundled component licenses; terms vary by edition.",
+    "runtime": [
+      "Shell",
+      "Linux/BSD services",
+      "Postfix/Dovecot and supporting components"
+    ],
+    "keywords": [
+      "iRedMail mail server",
+      "self-hosted email",
+      "Linux mail stack",
+      "SMTP IMAP",
+      "email filtering"
+    ],
+    "risk_notes": [
+      "Handles private email and network services; misconfiguration can expose accounts or enable abuse."
+    ],
+    "important_subsystems": [
+      {
+        "name": "iRedMail deployment system",
+        "purpose": "Assembles a production mail stack from configured components.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:17.538302+00:00",
+    "inspected_commit": "4f363e1cbfdc80df9673676150eb20a3fdf7a323",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ca4dc523a74c309d87f4a35334425bca6006e095",
+        "value": "https://github.com/jamesrwatsonx-creator/iRedMail/blob/4f363e1cbfdc80df9673676150eb20a3fdf7a323/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "self-hosted mail stack",
+        "description": "Installs and configures SMTP, IMAP and supporting mail services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-mail-stack",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "mail administration and webmail",
+        "description": "Provides management and user-facing email components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mail-administration-and-webmail",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "server deployment automation",
+        "description": "Automates installation on supported Linux/BSD distributions.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:server-deployment-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

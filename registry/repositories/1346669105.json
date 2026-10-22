@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/lottie-react-native/lottie-react-native",
-  "description": "Lottie wrapper for React Native.",
+  "description": "React Native component for rendering Lottie/Bodymovin animations on iOS and Android.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T20:26:01Z",
-    "github_description": "Lottie wrapper for React Native."
+    "github_description": "Lottie wrapper for React Native.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "2d60a7b0b6782d1f606991654880b993566dba6d",
   "current_commit": "2d60a7b0b6782d1f606991654880b993566dba6d",
   "inspection_date": "2026-09-20T05:34:06.726826+00:00",
   "categories": [
-    "category:frontend-applications",
-    "category:mobile-applications"
+    "category:libraries-packages",
+    "category:mobile-applications",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [
     "operational:16"
   ],
@@ -50,7 +52,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -295,11 +297,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.428055+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.543193+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -321,8 +324,8 @@
   "tree_files": 257,
   "files_read": 147,
   "entity_count": 13,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 28,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -340,5 +343,87 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 13,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "React Native component for rendering Lottie/Bodymovin animations on iOS and Android.",
+    "reuse_recommendation": "Use with compatible native renderer versions and validate performance and reduced-motion behavior.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "Apache-2.0; native platform renderer dependencies apply.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Lottie React Native",
+      "mobile animation",
+      "iOS Android",
+      "Bodymovin component",
+      "React Native UI"
+    ],
+    "risk_notes": [
+      "Review native dependency compatibility and animation accessibility."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lottie React Native library",
+        "purpose": "Provides an animation component across iOS and Android.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:58.828206+00:00",
+    "inspected_commit": "2d60a7b0b6782d1f606991654880b993566dba6d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e67ec2f8bbdc4d3250562f63ae171be678c92359",
+        "value": "https://github.com/jamesrwatsonx-creator/lottie-react-native/blob/2d60a7b0b6782d1f606991654880b993566dba6d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "cross-platform Lottie component",
+        "description": "Renders Lottie animation assets in React Native applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-platform-lottie-component",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "native renderer integration",
+        "description": "Connects React Native UI to platform animation runtimes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:native-renderer-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

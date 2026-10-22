@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-  "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+  "description": "Financial trading and market research terminal with data visualization, portfolio workflows and potential trade execution integrations.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-01T07:14:54Z",
-    "github_description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment."
+    "github_description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "73e192986aa6133d69ec306ebbd4eb9befbe43ac",
   "current_commit": "73e192986aa6133d69ec306ebbd4eb9befbe43ac",
   "inspection_date": "2026-09-20T05:35:55.649554+00:00",
   "categories": [
-    "category:research-projects"
+    "category:finance-accounting",
+    "category:analytics",
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.398087+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.418834+00:00",
   "tree_files": 3597,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3529,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3547,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.305177+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Financial trading and market research terminal with data visualization, portfolio workflows and potential trade execution integrations.",
+    "reuse_recommendation": "Use as research tooling; keep live trading disabled until execution, compliance and key handling are reviewed.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license, broker/data provider terms and regulatory requirements.",
+    "runtime": [
+      "Desktop application",
+      "market data APIs",
+      "broker integrations"
+    ],
+    "keywords": [
+      "Fincept Terminal",
+      "trading dashboard",
+      "market data",
+      "portfolio analytics",
+      "financial terminal"
+    ],
+    "risk_notes": [
+      "Financial decisions and order execution can cause direct losses."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fincept trading terminal",
+        "purpose": "Combines market monitoring, analysis and potential execution in a desktop workspace.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:21.330877+00:00",
+    "inspected_commit": "73e192986aa6133d69ec306ebbd4eb9befbe43ac",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "86e68a2108cbc1f2f58a3e79e5c4f8f189d2d04d",
+        "value": "https://github.com/jamesrwatsonx-creator/trading-studio-FinceptTerminal/blob/73e192986aa6133d69ec306ebbd4eb9befbe43ac/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "market data and charting",
+        "description": "Presents financial instruments and market information for analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-data-and-charting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "portfolio and research workflows",
+        "description": "Supports investment tracking and decision-support operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:portfolio-and-research-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "broker or trading integrations",
+        "description": "May connect research workflows to order execution services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:broker-or-trading-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

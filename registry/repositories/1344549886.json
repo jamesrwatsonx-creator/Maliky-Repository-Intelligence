@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/deepseek-ai/DeepSeek-R1",
-  "description": "",
+  "description": "DeepSeek-R1 reasoning-model and distilled-model release references with deployment guidance and search/file-grounding prompt templates; model weights and inference runtime are external.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-06-27T08:35:54Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "0cf78561f1d51c84a21b2190626b21116d5c68bb",
@@ -339,9 +340,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.620603+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.499108+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -413,5 +415,124 @@
     ],
     "updated_at": "2026-10-12T19:04:27.122026+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "DeepSeek-R1 reasoning-model and distilled-model release references with deployment guidance and search/file-grounding prompt templates; model weights and inference runtime are external.",
+    "reuse_recommendation": "Select a referenced release, inspect its exact weights/license/runtime separately, and adapt prompt templates as needed.",
+    "inspection_scope": "Model-release/documentation repository with no inference implementation in the complete five-file tree. Eight separately selectable model releases are explicitly listed: two large MoE models and six dense distillations. Retain model-reference records plus the independently reusable file-grounding and search-answer prompt templates embedded in README. English/Chinese search prompts are language variants of one template. Issue housekeeping is excluded; benchmark tables and report figures support documentation rather than proving independently reproduced runtime performance. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "Source card declares MIT and identifies inherited Qwen/Llama base-model terms; verify the selected artifact before redistribution.",
+    "runtime": [
+      "Markdown model cards/prompts",
+      "External model runtimes"
+    ],
+    "keywords": [
+      "DeepSeek-R1",
+      "reasoning model references",
+      "distilled model references",
+      "grounded answer prompts",
+      "Markdown model cards/prompts",
+      "External model runtimes"
+    ],
+    "risk_notes": [
+      "The pinned repository includes an MIT license and a release-card statement covering code/weights, while separately identifying Apache-2.0 Qwen and custom Llama 3.1/3.3 base provenance. Records preserve those distinctions and remain documentation-scoped model references; the catalog does not certify external weight artifacts, their exact revisions or redistribution obligations. No weights, inference code or model execution were fetched or run."
+    ],
+    "important_subsystems": [
+      {
+        "name": "reasoning model references",
+        "purpose": "Describe R1/R1-Zero releases without reproducing their published benchmark claims.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "distilled model references",
+        "purpose": "Identify Qwen/Llama-based distilled releases and distinct upstream license obligations.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "grounded answer prompts",
+        "purpose": "Reference source-indexed search and file-grounding instruction templates.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:42.514660+00:00",
+    "inspected_commit": "0cf78561f1d51c84a21b2190626b21116d5c68bb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "40d1af36fdb96e26129527b0531bb3ac195f6713",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-R1/blob/0cf78561f1d51c84a21b2190626b21116d5c68bb/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "d42fae903e9fa07f3e8edb0db00a8d905ba49560",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-R1/blob/0cf78561f1d51c84a21b2190626b21116d5c68bb/LICENSE"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "reasoning model references",
+        "description": "Describe R1/R1-Zero releases without reproducing their published benchmark claims.",
+        "scope": "REFERENCE",
+        "id": "cluster:reasoning-model-references",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "distilled model references",
+        "description": "Identify Qwen/Llama-based distilled releases and distinct upstream license obligations.",
+        "scope": "REFERENCE",
+        "id": "cluster:distilled-model-references",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "grounded answer prompts",
+        "description": "Reference source-indexed search and file-grounding instruction templates.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:grounded-answer-prompts",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

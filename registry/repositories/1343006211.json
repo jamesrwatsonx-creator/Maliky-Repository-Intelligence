@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/QwenLM/qwen-code",
-  "description": "An open-source AI coding agent that lives in your terminal.",
+  "description": "Command-line coding agent that uses Qwen models to understand repositories, edit code and run development tools.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T17:01:58Z",
-    "github_description": "An open-source AI coding agent that lives in your terminal."
+    "github_description": "An open-source AI coding agent that lives in your terminal.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "21727214059cc928c768af5fb7b6d6dd495b93f2",
   "current_commit": "21727214059cc928c768af5fb7b6d6dd495b93f2",
   "inspection_date": "2026-09-20T05:33:39.880633+00:00",
   "categories": [
+    "category:developer-tools",
     "category:ai-agents",
-    "category:developer-tools"
+    "category:cli-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 39,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.965479+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.047996+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 8656,
-  "files_read": 5,
+  "files_read": 12,
   "entity_count": 3,
-  "unread_source_files": 8116,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 8292,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.267018+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Command-line coding agent that uses Qwen models to understand repositories, edit code and run development tools.",
+    "reuse_recommendation": "Use in a controlled worktree with reviewed diffs and narrowly scoped tool permissions.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check project license and Qwen model/API terms.",
+    "runtime": [
+      "TypeScript/Node.js CLI",
+      "Qwen APIs or models"
+    ],
+    "keywords": [
+      "Qwen Code",
+      "coding agent CLI",
+      "repository assistant",
+      "Qwen models",
+      "developer automation"
+    ],
+    "risk_notes": [
+      "Code and credentials may be exposed to providers; shell actions can modify the workspace."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Qwen Code CLI",
+        "purpose": "Provides a command-line AI coding workflow backed by Qwen models.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:52.908750+00:00",
+    "inspected_commit": "21727214059cc928c768af5fb7b6d6dd495b93f2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a77382edc91c008ffbb48fdb4446fe4e0108298a",
+        "value": "https://github.com/jamesrwatsonx-creator/qwen-code/blob/21727214059cc928c768af5fb7b6d6dd495b93f2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository coding agent",
+        "description": "Uses project context to answer questions and implement code changes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-coding-agent",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "shell and tool workflows",
+        "description": "Runs development tools as part of coding tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:shell-and-tool-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model configuration",
+        "description": "Connects the agent to Qwen models and supported providers.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,23 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
-  "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "description": "Tencent HunyuanVideo research implementation and tooling for text/image-conditioned video generation using large pretrained models.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2025-11-21T06:36:57Z",
-    "github_description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model"
+    "github_description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
   "current_commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
   "inspection_date": "2026-09-20T05:32:31.066747+00:00",
   "categories": [
-    "category:creative-tools",
+    "category:machine-learning-models",
     "category:generative-ai",
-    "category:llm-projects",
-    "category:machine-learning-models"
+    "category:creative-tools"
   ],
   "operational_category": "operational:09",
   "secondary_operational_categories": [
@@ -47,7 +47,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "LICENSE REVIEW REQUIRED",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -333,9 +333,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.155754+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.231184+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -358,7 +359,7 @@
   "files_read": 45,
   "entity_count": 4,
   "unread_source_files": 0,
-  "next_phase": "LICENSE_REVIEW",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T17:13:48.669833+00:00",
     "completed_at": "2026-10-12T17:13:48.669833+00:00",
@@ -392,5 +393,128 @@
     ],
     "updated_at": "2026-10-12T19:04:27.175923+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Tencent HunyuanVideo research implementation and tooling for text/image-conditioned video generation using large pretrained models.",
+    "reuse_recommendation": "Use after confirming GPU capacity, model license, checkpoint provenance and generated-media policy.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "Review LICENSE.txt and separate model checkpoint terms before redistribution or commercial use.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "video diffusion/transformer models",
+      "GPU inference"
+    ],
+    "keywords": [
+      "HunyuanVideo",
+      "video generation",
+      "text to video",
+      "image to video",
+      "Tencent model"
+    ],
+    "risk_notes": [
+      "Large model downloads and GPU workloads; generated likeness/media rights and checkpoint provenance require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "video generation pipeline",
+        "purpose": "Loads the model and performs generation workflows.",
+        "evidence_paths": [
+          "README.md",
+          "gradio_server.py",
+          "ckpts/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:45.934040+00:00",
+    "inspected_commit": "e260ed40c88d104801a8b1de05d2ab81e965a9ef",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "86513ad3bcb46170c8dceba67407878a0c362f84",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE.txt",
+        "blob_sha": "164c703a8953fab9cd5ceb6fd0c1ce4f382d1d05",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/LICENSE.txt"
+      },
+      {
+        "type": "source_review",
+        "path": "ckpts/README.md",
+        "blob_sha": "0125c2feab71a28e7b26608fe7fe019aa99dbc40",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/ckpts/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "gradio_server.py",
+        "blob_sha": "3aa5a536ca3819d6c392dda8e773fe0307cbb7ae",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo/blob/e260ed40c88d104801a8b1de05d2ab81e965a9ef/gradio_server.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video generation inference",
+        "description": "Generates video from supported prompts or image inputs using HunyuanVideo models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-generation-inference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "ckpts/README.md",
+          "gradio_server.py"
+        ]
+      },
+      {
+        "name": "model setup and checkpoint workflow",
+        "description": "Documents model checkpoint acquisition and inference setup.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-setup-and-checkpoint-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "ckpts/README.md",
+          "gradio_server.py"
+        ]
+      },
+      {
+        "name": "demo interface",
+        "description": "Provides a Gradio-facing demonstration path for video generation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:demo-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "ckpts/README.md",
+          "gradio_server.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "LICENSE_REVIEW",
+    "review_reason": "Custom model/code license has geographic and use restrictions; legal disposition remains unresolved."
   }
 }

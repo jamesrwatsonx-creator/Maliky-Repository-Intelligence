@@ -11,26 +11,25 @@
   "fork": false,
   "default_branch": "main",
   "upstream_url": null,
-  "description": "",
+  "description": "Official collection of focused agent skills for coding, research, content and workflow tasks across compatible AI-agent hosts.",
   "metadata": {
     "language": "Python",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T16:41:28Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "69c3ae5228eb146724fd23dac3d43eab5805bcc3",
   "current_commit": "69c3ae5228eb146724fd23dac3d43eab5805bcc3",
   "inspection_date": "2026-09-20T05:34:01.099551+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:developer-tools",
-    "category:research-projects",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:10",
@@ -97,7 +96,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 53,
@@ -342,11 +341,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.598318+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.435052+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -370,7 +370,7 @@
   "files_read": 97,
   "entity_count": 53,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -389,5 +389,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.119038+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Official collection of focused agent skills for coding, research, content and workflow tasks across compatible AI-agent hosts.",
+    "reuse_recommendation": "Select skills that match the task and inspect their commands, external services and host assumptions before installation.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skills",
+      "compatible agent hosts"
+    ],
+    "keywords": [
+      "David Ondrej skills",
+      "agent skills library",
+      "coding skills",
+      "research workflows",
+      "content workflows"
+    ],
+    "risk_notes": [
+      "Skills are instructions and may request external tools or file operations; review each selected workflow."
+    ],
+    "important_subsystems": [
+      {
+        "name": "official skill collection",
+        "purpose": "Groups reusable host instructions by task and capability.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:55.847266+00:00",
+    "inspected_commit": "69c3ae5228eb146724fd23dac3d43eab5805bcc3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c40cffc573580ebc3d071b96f23bd286a2c08a96",
+        "value": "https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "coding agent skills",
+        "description": "Provides focused instructions for codebase and development tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:coding-agent-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "research and content skills",
+        "description": "Packages agent workflows for research, presentations and transcript work.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:research-and-content-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "skill discovery and packaging",
+        "description": "Organizes skills for installation in compatible agent hosts.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:skill-discovery-and-packaging",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

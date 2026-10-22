@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ultralytics/ultralytics",
-  "description": "Ultralytics YOLO 🚀",
+  "description": "Computer-vision framework and model family for object detection, segmentation, pose estimation, tracking and related vision tasks.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-05-23T04:43:37Z",
-    "github_description": "Ultralytics YOLO 🚀"
+    "github_description": "Ultralytics YOLO 🚀",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "1c3468d3c5253653fdab81532de8d727822634b9",
   "current_commit": "1c3468d3c5253653fdab81532de8d727822634b9",
   "inspection_date": "2026-09-20T05:32:35.170842+00:00",
   "categories": [
-    "category:general-other"
+    "category:machine-learning-models",
+    "category:machine-learning-models",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.420732+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.438841+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 928,
-  "files_read": 5,
+  "files_read": 11,
   "entity_count": 3,
-  "unread_source_files": 877,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 910,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.308844+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Computer-vision framework and model family for object detection, segmentation, pose estimation, tracking and related vision tasks.",
+    "reuse_recommendation": "Use after reviewing model licensing, dataset provenance and deployment performance on representative data.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "AGPL-3.0; commercial licensing and pretrained weights require separate review.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "CPU/GPU accelerators"
+    ],
+    "keywords": [
+      "Ultralytics YOLO",
+      "object detection",
+      "segmentation",
+      "pose estimation",
+      "computer vision"
+    ],
+    "risk_notes": [
+      "Vision outputs can affect safety or privacy decisions; validate accuracy and model rights."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Ultralytics vision framework",
+        "purpose": "Connects pretrained models, training workflows and deployment APIs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:44.856846+00:00",
+    "inspected_commit": "1c3468d3c5253653fdab81532de8d727822634b9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "865c1517734f78d7e357e309af9f0f03cbb957fa",
+        "value": "https://github.com/jamesrwatsonx-creator/ultralytics/blob/1c3468d3c5253653fdab81532de8d727822634b9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "vision model inference",
+        "description": "Runs supported YOLO models for detection, segmentation, pose and classification.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vision-model-inference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "training and dataset workflows",
+        "description": "Supports model training, validation and dataset configuration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:training-and-dataset-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "deployment and model APIs",
+        "description": "Offers Python/CLI interfaces and deployment targets.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:deployment-and-model-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

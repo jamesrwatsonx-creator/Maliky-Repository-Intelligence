@@ -11,20 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/SAMA-Communications/awesome-chat-react",
-  "description": "A collection of permissive license open source things that help build Chat apps with React.",
+  "description": "Curated directory of external React and React Native chat interfaces and related resources; it does not bundle a chat UI library.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-20T07:34:25Z",
-    "github_description": "A collection of permissive license open source things that help build Chat apps with React."
+    "github_description": "A collection of permissive license open source things that help build Chat apps with React.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "25c95d5c3db99cee6d020d2c1dbf9bb82facde9e",
   "current_commit": "25c95d5c3db99cee6d020d2c1dbf9bb82facde9e",
   "inspection_date": "2026-10-20T23:56:52.540587+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:frontend-applications",
+    "category:research-projects"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +281,104 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.139610+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.858116+00:00",
   "tree_files": 3,
-  "files_read": 0,
+  "files_read": 2,
   "entity_count": 0,
-  "unread_source_files": 2,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Curated directory of external React and React Native chat interfaces and related resources; it does not bundle a chat UI library.",
+    "reuse_recommendation": "Use to shortlist components, then check each package's current maintenance, license and integration model.",
+    "inspection_scope": "The three-file repository is a categorized list of independently maintained chat UI projects and links.",
+    "license_notes": "MIT for the directory; linked components have independent licenses.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "keywords": [
+      "React chat UI",
+      "React Native messaging",
+      "chat component discovery",
+      "conversation interface"
+    ],
+    "risk_notes": [
+      "Listings are references, not included or verified UI implementations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "chat resource directory",
+        "purpose": "Collects links to chat UI kits and related tools.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:28.976326+00:00",
+    "inspected_commit": "25c95d5c3db99cee6d020d2c1dbf9bb82facde9e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "95e5d11c7dd0ab0580a1d1827c4b699250186cf8",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-chat-react/blob/25c95d5c3db99cee6d020d2c1dbf9bb82facde9e/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "ca375b986ba88e8f8a716ff15dce66cd001a1fcc",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-chat-react/blob/25c95d5c3db99cee6d020d2c1dbf9bb82facde9e/LICENSE"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "React chat interface discovery",
+        "description": "Finds external React chat UI libraries and examples.",
+        "scope": "REFERENCE",
+        "id": "cluster:react-chat-interface-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "React Native chat discovery",
+        "description": "Points to mobile conversation interface packages maintained upstream.",
+        "scope": "REFERENCE",
+        "id": "cluster:react-native-chat-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

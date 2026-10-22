@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/agentscope-ai/QwenPaw",
-  "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+  "description": "AI assistant or agent interface built around Qwen models, providing conversational interaction and potentially tools or local model support.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T10:29:59Z",
-    "github_description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
+    "github_description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "16b2e712d198166c9359e77055b13bf2668bf5ae",
   "current_commit": "16b2e712d198166c9359e77055b13bf2668bf5ae",
   "inspection_date": "2026-09-20T05:33:39.256864+00:00",
   "categories": [
-    "category:devops"
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:ai-agents"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 42,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.983678+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.061001+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4421,
-  "files_read": 9,
+  "files_read": 16,
   "entity_count": 5,
-  "unread_source_files": 3918,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4085,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.269424+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "AI assistant or agent interface built around Qwen models, providing conversational interaction and potentially tools or local model support.",
+    "reuse_recommendation": "Verify model license, deployment mode and tool permissions before integrating.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check software and each Qwen model license separately.",
+    "runtime": [
+      "Repository-declared app runtime",
+      "Qwen model runtime/API"
+    ],
+    "keywords": [
+      "QwenPaw",
+      "Qwen assistant",
+      "local AI agent",
+      "chat interface",
+      "model tools"
+    ],
+    "risk_notes": [
+      "Model outputs and agent actions require validation; provider data handling may vary."
+    ],
+    "important_subsystems": [
+      {
+        "name": "QwenPaw assistant",
+        "purpose": "Packages Qwen model access into an interactive agent experience.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:54.399457+00:00",
+    "inspected_commit": "16b2e712d198166c9359e77055b13bf2668bf5ae",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8761f83ef4fed7b2b7327f72488a4ca12fda2709",
+        "value": "https://github.com/jamesrwatsonx-creator/QwenPaw/blob/16b2e712d198166c9359e77055b13bf2668bf5ae/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Qwen conversational interface",
+        "description": "Provides a user-facing assistant experience backed by Qwen models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:qwen-conversational-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent tools and workflows",
+        "description": "May connect model responses to tools or task execution.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-tools-and-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

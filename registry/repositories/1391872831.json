@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+  "upstream_url": "https://github.com/soxoj/maigret",
+  "description": "Username OSINT tool that searches many websites for matching accounts and can generate structured investigation reports.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-27T06:52:30Z",
-    "github_description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites"
+    "github_description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b6642744988e7e6c2d21f75db60ec3093019ba25",
+  "current_commit": "b6642744988e7e6c2d21f75db60ec3093019ba25",
+  "inspection_date": "2026-10-22T02:33:05.794798+00:00",
   "categories": [
-    "category:general-other"
+    "category:research-projects",
+    "category:cybersecurity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.452464+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.570243+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,91 @@
     ],
     "updated_at": "2026-10-12T19:04:27.209849+00:00",
     "purpose_established": true
+  },
+  "tree_files": 189,
+  "files_read": 10,
+  "unread_source_files": 123,
+  "repository_intelligence": {
+    "purpose": "Username OSINT tool that searches many websites for matching accounts and can generate structured investigation reports.",
+    "reuse_recommendation": "Use only for authorized investigations, validate false positives and minimize retention of personal data.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Confirm license and applicable privacy/website policies.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "username search",
+      "account discovery",
+      "OSINT",
+      "reports",
+      "Python"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Maigret search engine",
+        "purpose": "Coordinates site checks and consolidates potential profile matches.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:31.658715+00:00",
+    "inspected_commit": "b6642744988e7e6c2d21f75db60ec3093019ba25",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3b4fade2a3edd9db2edb4a0943cf966df951bcea",
+        "value": "https://github.com/jamesrwatsonx-creator/maigret/blob/b6642744988e7e6c2d21f75db60ec3093019ba25/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Multi-site username search",
+        "description": "Checks a broad site catalog for candidate profiles associated with a username.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-site-username-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Investigation reporting",
+        "description": "Organizes lookup results into reusable reports and exports.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:investigation-reporting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

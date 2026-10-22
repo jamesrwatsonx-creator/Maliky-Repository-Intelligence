@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/livekit/components-js",
-  "description": "Official open source React components and examples for building with LiveKit.",
+  "description": "JavaScript UI components and examples for building LiveKit-powered realtime audio/video experiences.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-19T15:52:34Z",
-    "github_description": "Official open source React components and examples for building with LiveKit."
+    "github_description": "Official open source React components and examples for building with LiveKit.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "aac048a96e68ed5e02bbcc84bbc49fe2765e374c",
   "current_commit": "aac048a96e68ed5e02bbcc84bbc49fe2765e374c",
   "inspection_date": "2026-09-20T05:33:45.230667+00:00",
   "categories": [
-    "category:frontend-applications"
+    "category:frontend-applications",
+    "category:sdks-client-libraries",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.374355+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.487192+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 595,
-  "files_read": 3,
+  "files_read": 13,
   "entity_count": 1,
-  "unread_source_files": 485,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 520,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.200005+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript UI components and examples for building LiveKit-powered realtime audio/video experiences.",
+    "reuse_recommendation": "Use to accelerate realtime UI; test permissions, reconnect behavior and accessibility.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and LiveKit service terms.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "React/web",
+      "LiveKit WebRTC"
+    ],
+    "keywords": [
+      "LiveKit components",
+      "voice UI",
+      "realtime video",
+      "WebRTC",
+      "JavaScript"
+    ],
+    "risk_notes": [
+      "Microphone/camera consent and media session privacy are essential."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LiveKit component library",
+        "purpose": "Packages reusable UI around realtime communication primitives.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:19.287857+00:00",
+    "inspected_commit": "aac048a96e68ed5e02bbcc84bbc49fe2765e374c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1bd00650536b967642e9af0a3c5805dfa5677120",
+        "value": "https://github.com/jamesrwatsonx-creator/live-Kit-components-js/blob/aac048a96e68ed5e02bbcc84bbc49fe2765e374c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "realtime room interface",
+        "description": "Provides interface components for joining and managing LiveKit sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:realtime-room-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "audio/video controls",
+        "description": "Supports participant, microphone, camera and media interactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-video-controls",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SDK integration examples",
+        "description": "Demonstrates use of LiveKit client APIs in web applications.",
+        "scope": "REFERENCE",
+        "id": "cluster:sdk-integration-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

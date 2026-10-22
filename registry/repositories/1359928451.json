@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/theabecaster/ox",
-  "description": "Ox — the open coding agent. Terminal AI pair-programmer powered by ox-alpha via OpenRouter. No account, no key, no limits.",
+  "description": "Terminal-native coding agent that reads and edits a project, runs shell tools, searches source, manages sessions and verifies task outcomes through an OpenRouter-hosted model.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-31T15:12:36Z",
-    "github_description": "Ox — the open coding agent. Terminal AI pair-programmer powered by ox-alpha via OpenRouter. No account, no key, no limits."
+    "github_description": "Ox — the open coding agent. Terminal AI pair-programmer powered by ox-alpha via OpenRouter. No account, no key, no limits.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b8f7621661040a54a5251bb7d8f59bbeba7f3118",
   "current_commit": "b8f7621661040a54a5251bb7d8f59bbeba7f3118",
   "inspection_date": "2026-09-20T05:35:58.090114+00:00",
   "categories": [
     "category:ai-agents",
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:cli-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.812464+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.932095+00:00",
   "tree_files": 57,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 55,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 44,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,136 @@
     ],
     "updated_at": "2026-10-12T19:04:27.252802+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Terminal-native coding agent that reads and edits a project, runs shell tools, searches source, manages sessions and verifies task outcomes through an OpenRouter-hosted model.",
+    "reuse_recommendation": "Strong coding-agent reference; review shell permissions, file writes, bypass modes, model routing and secret handling before adopting execution patterns.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; OpenRouter and model terms apply.",
+    "runtime": [
+      "TypeScript",
+      "Node.js CLI",
+      "OpenRouter ox-alpha model"
+    ],
+    "keywords": [
+      "terminal coding agent",
+      "AI pair programmer",
+      "project editing agent",
+      "OpenRouter",
+      "tool permissions"
+    ],
+    "risk_notes": [
+      "Can execute commands and change project files; privileged/bypass modes and externally transmitted code require scoped permissions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "coding agent CLI",
+        "purpose": "Runs the interactive agent loop and project tools.",
+        "evidence_paths": [
+          "README.md",
+          "src/index.ts",
+          "src/tools/index.ts"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:46.347872+00:00",
+    "inspected_commit": "b8f7621661040a54a5251bb7d8f59bbeba7f3118",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "eb49ed7dddce167a0a2d394973d9498eb98b0803",
+        "value": "https://github.com/jamesrwatsonx-creator/ox/blob/b8f7621661040a54a5251bb7d8f59bbeba7f3118/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+        "value": "https://github.com/jamesrwatsonx-creator/ox/blob/b8f7621661040a54a5251bb7d8f59bbeba7f3118/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "301371cdadbf708dd95e56aa76fa36485fd576e9",
+        "value": "https://github.com/jamesrwatsonx-creator/ox/blob/b8f7621661040a54a5251bb7d8f59bbeba7f3118/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/index.ts",
+        "blob_sha": "aaa67ed7499acdf6e58740011424ec9bdbdc8728",
+        "value": "https://github.com/jamesrwatsonx-creator/ox/blob/b8f7621661040a54a5251bb7d8f59bbeba7f3118/src/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "src/tools/index.ts",
+        "blob_sha": "41144d6ad27b056abb5f95a101621b2554f6ec66",
+        "value": "https://github.com/jamesrwatsonx-creator/ox/blob/b8f7621661040a54a5251bb7d8f59bbeba7f3118/src/tools/index.ts"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive coding agent loop",
+        "description": "Combines project context, model responses and tool use in a terminal session.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-coding-agent-loop",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.ts",
+          "src/tools/index.ts"
+        ]
+      },
+      {
+        "name": "code and shell tools",
+        "description": "Provides search, editing and command execution capabilities for project tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:code-and-shell-tools",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.ts",
+          "src/tools/index.ts"
+        ]
+      },
+      {
+        "name": "session and permission modes",
+        "description": "Tracks project sessions and offers interaction/permission modes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:session-and-permission-modes",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.ts",
+          "src/tools/index.ts"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

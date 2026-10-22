@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Forward-Future/loopy",
-  "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+  "description": "Loop Library website for browsing reusable agent prompts plus an optional Loopy skill for finding, auditing, repairing, creating and debriefing prompt loops.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-26T11:04:33Z",
-    "github_description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows."
+    "github_description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "75966cbd572a4185064971c9fe5e9c52e8f8456d",
   "current_commit": "75966cbd572a4185064971c9fe5e9c52e8f8456d",
   "inspection_date": "2026-09-20T05:34:04.188373+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ai-agents",
-    "category:libraries-packages",
-    "category:skills"
+    "category:skills",
+    "category:web-applications",
+    "category:prompt-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -45,7 +45,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "COMBINE",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -290,11 +290,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.417901+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.534195+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -316,8 +317,8 @@
   "tree_files": 58,
   "files_read": 47,
   "entity_count": 5,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -336,5 +337,133 @@
     ],
     "updated_at": "2026-10-12T19:04:27.206273+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Loop Library website for browsing reusable agent prompts plus an optional Loopy skill for finding, auditing, repairing, creating and debriefing prompt loops.",
+    "reuse_recommendation": "Use the skill and catalog for prompt workflow design; inspect worker/database handling and prompt provenance before hosting or importing content.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skill",
+      "JavaScript website",
+      "worker and database"
+    ],
+    "keywords": [
+      "Loop Library",
+      "agent prompt loops",
+      "workflow prompts",
+      "prompt catalog",
+      "agent skill"
+    ],
+    "risk_notes": [
+      "Published prompts are external instructions; review embedded actions and site data handling before execution."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Loop Library website",
+        "purpose": "Publishes and renders the public prompt catalogue.",
+        "evidence_paths": [
+          "README.md",
+          "loop-library/worker/package.json"
+        ]
+      },
+      {
+        "name": "Loopy skill",
+        "purpose": "Provides agent instructions for creating and using reusable loops.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:46.731878+00:00",
+    "inspected_commit": "75966cbd572a4185064971c9fe5e9c52e8f8456d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "603e49f294f704fbd55a6310d1e39f41945afca9",
+        "value": "https://github.com/jamesrwatsonx-creator/loopy/blob/75966cbd572a4185064971c9fe5e9c52e8f8456d/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "4157dfcc0e73f2359c314987a9ab7eb67085fa4e",
+        "value": "https://github.com/jamesrwatsonx-creator/loopy/blob/75966cbd572a4185064971c9fe5e9c52e8f8456d/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "AGENTS.md",
+        "blob_sha": "ba5a62bb9bdbcad0a48ef3938627bed85d0d1986",
+        "value": "https://github.com/jamesrwatsonx-creator/loopy/blob/75966cbd572a4185064971c9fe5e9c52e8f8456d/AGENTS.md"
+      },
+      {
+        "type": "source_review",
+        "path": "loop-library/worker/package.json",
+        "blob_sha": "453280ab119bb93adca2ccac51ff88a7066e3f4c",
+        "value": "https://github.com/jamesrwatsonx-creator/loopy/blob/75966cbd572a4185064971c9fe5e9c52e8f8456d/loop-library/worker/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "prompt loop catalogue",
+        "description": "Lets people and agents browse, read and copy published prompt loops.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-loop-catalogue",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          "loop-library/worker/package.json"
+        ]
+      },
+      {
+        "name": "Loopy agent skill",
+        "description": "Guides agents through discovering, auditing, repairing, authoring and debriefing loops.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:loopy-agent-skill",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          "loop-library/worker/package.json"
+        ]
+      },
+      {
+        "name": "loop publishing website",
+        "description": "Hosts the catalogue with site, worker and database components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:loop-publishing-website",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "AGENTS.md",
+          "loop-library/worker/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

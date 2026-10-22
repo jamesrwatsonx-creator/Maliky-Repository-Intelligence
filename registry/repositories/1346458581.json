@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/huggingface/huggingface.js",
-  "description": "Use Hugging Face with JavaScript",
+  "description": "JavaScript libraries and tools for working with Hugging Face Hub repositories, models, inference and related ecosystem services.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T17:19:33Z",
-    "github_description": "Use Hugging Face with JavaScript"
+    "github_description": "Use Hugging Face with JavaScript",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "9556dfab918d80dccfbc7a336540cef0f59bdb43",
   "current_commit": "9556dfab918d80dccfbc7a336540cef0f59bdb43",
   "inspection_date": "2026-09-20T05:34:05.727617+00:00",
   "categories": [
-    "category:general-other"
+    "category:sdks-client-libraries",
+    "category:machine-learning-models",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.138144+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.206164+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1147,
-  "files_read": 2,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 1005,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1013,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.173520+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript libraries and tools for working with Hugging Face Hub repositories, models, inference and related ecosystem services.",
+    "reuse_recommendation": "Use for JS model workflows and check each model’s license, hardware and data requirements.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Apache-2.0 for code; hosted models and datasets have separate licenses.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "Node.js/browser",
+      "Hugging Face APIs"
+    ],
+    "keywords": [
+      "Hugging Face JavaScript",
+      "Hub SDK",
+      "model inference",
+      "Transformers.js",
+      "AI APIs"
+    ],
+    "risk_notes": [
+      "Tokens can expose private models; remote inference transmits input data to providers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hugging Face JS packages",
+        "purpose": "Provides reusable JavaScript integration with models and the Hub.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:16.726086+00:00",
+    "inspected_commit": "9556dfab918d80dccfbc7a336540cef0f59bdb43",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "419880f1626a049b2d99bb1480df49dd0c07f67e",
+        "value": "https://github.com/jamesrwatsonx-creator/huggingface.js/blob/9556dfab918d80dccfbc7a336540cef0f59bdb43/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Hub API and artifact access",
+        "description": "Provides JavaScript access to Hub repositories and metadata.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hub-api-and-artifact-access",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model inference and Transformers.js",
+        "description": "Supports running or calling model inference from JavaScript environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-inference-and-transformers-js",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser and Node integrations",
+        "description": "Connects model workflows to web and server runtimes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-and-node-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

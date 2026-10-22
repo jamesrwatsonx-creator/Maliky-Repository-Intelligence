@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ranaroussi/yfinance",
-  "description": "Download market data from Yahoo! Finance's API",
+  "description": "Python library for retrieving historical and current market data from Yahoo Finance endpoints for research and analysis.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-13T13:43:32Z",
-    "github_description": "Download market data from Yahoo! Finance's API"
+    "github_description": "Download market data from Yahoo! Finance's API",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "93eb4c234acc7d0cf9d176e602b8443179546253",
   "current_commit": "93eb4c234acc7d0cf9d176e602b8443179546253",
   "inspection_date": "2026-09-20T05:33:05.044799+00:00",
   "categories": [
-    "category:apis"
+    "category:libraries-packages",
+    "category:finance-accounting",
+    "category:data-science"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:yfinance-package-yfinance",
@@ -42,7 +45,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -287,11 +290,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.771506+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.804191+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -313,8 +317,8 @@
   "tree_files": 219,
   "files_read": 92,
   "entity_count": 7,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 31,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -332,5 +336,87 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 7,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Python library for retrieving historical and current market data from Yahoo Finance endpoints for research and analysis.",
+    "reuse_recommendation": "Use for research after confirming service terms, data completeness, delays and redistribution rights.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "Apache-2.0 library; Yahoo Finance service terms apply.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "yfinance",
+      "Yahoo Finance data",
+      "Python market data",
+      "historical prices",
+      "financial analysis"
+    ],
+    "risk_notes": [
+      "Unofficial endpoints may change and data may be incomplete; not a guaranteed market feed or execution source."
+    ],
+    "important_subsystems": [
+      {
+        "name": "yfinance client library",
+        "purpose": "Wraps Yahoo Finance data retrieval for Python workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:56.060035+00:00",
+    "inspected_commit": "93eb4c234acc7d0cf9d176e602b8443179546253",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "00cf0d8d3ab5d281ef7a75afe3169f3e1699159c",
+        "value": "https://github.com/jamesrwatsonx-creator/yfinance/blob/93eb4c234acc7d0cf9d176e602b8443179546253/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "market data retrieval",
+        "description": "Downloads historical and selected current financial data into Python structures.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-data-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "finance research integration",
+        "description": "Provides a convenient client surface for analysis notebooks and applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:finance-research-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

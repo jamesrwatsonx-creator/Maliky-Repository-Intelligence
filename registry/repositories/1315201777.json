@@ -11,25 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/github/github-mcp-server",
-  "description": "GitHub's official MCP Server",
+  "description": "MCP server exposing GitHub repository, issue, pull request, search and related operations as agent tools.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-28T14:26:23Z",
-    "github_description": "GitHub's official MCP Server"
+    "github_description": "GitHub's official MCP Server",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
   "current_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
   "inspection_date": "2026-09-20T05:32:58.877910+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ci-cd",
-    "category:developer-tools",
     "category:mcp-servers",
-    "category:prompt-libraries",
-    "category:web-applications"
+    "category:developer-tools",
+    "category:apis"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [],
@@ -72,7 +70,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "INTEGRATE VIA MCP",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -323,9 +321,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.994749+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.071114+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -346,9 +345,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 543,
-  "files_read": 292,
+  "files_read": 293,
   "entity_count": 134,
-  "unread_source_files": 0,
+  "unread_source_files": 49,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T18:05:13.500933+00:00",
@@ -412,5 +411,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.154030+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "MCP server exposing GitHub repository, issue, pull request, search and related operations as agent tools.",
+    "reuse_recommendation": "Use least-privilege tokens and disable write-capable tools unless required.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license and GitHub API terms.",
+    "runtime": [
+      "Go or repository-declared runtime",
+      "MCP",
+      "GitHub API"
+    ],
+    "keywords": [
+      "GitHub MCP",
+      "repository tools",
+      "issues",
+      "pull requests",
+      "agent integration"
+    ],
+    "risk_notes": [
+      "Repository content can be untrusted; write scopes and secrets require careful isolation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GitHub MCP server",
+        "purpose": "Maps MCP tool calls to GitHub API actions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:36.734922+00:00",
+    "inspected_commit": "eb088dfe9d854dab6453a8d4ae5871a5ced20974",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1a06c0697db1aeb0ad6f53c3cce3ba37bf7975f5",
+        "value": "https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository and code search",
+        "description": "Enables agent workflows to inspect repositories and search GitHub content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-and-code-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "issue and pull-request operations",
+        "description": "Supports collaboration workflows across issues and pull requests.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:issue-and-pull-request-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP permissions and configuration",
+        "description": "Connects a client to GitHub using configured authentication and tool scope.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:mcp-permissions-and-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

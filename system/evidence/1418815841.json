@@ -3,8 +3,100 @@
   "inspected_commit": "97a93b4fd229b77d39adde31e1ff317ba7f60b23",
   "tree_complete": true,
   "tree_files": 5821,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "README.md",
+      "sha": "bb7a8bc2c33033e506dc5c15469aaacfe31ceee5"
+    },
+    {
+      "path": "banking/package.json",
+      "sha": "1312ddc704a4e2169016f10bd09cca2b15f0f056"
+    },
+    {
+      "path": "erpnext/regional/address_template/setup.py",
+      "sha": "793767e0a90c25a6df103b192606da11ff11e877"
+    },
+    {
+      "path": "erpnext/regional/australia/setup.py",
+      "sha": "55549690f72c50d38a6a6861085c2ea5cf2b2231"
+    },
+    {
+      "path": "erpnext/regional/italy/setup.py",
+      "sha": "86c62afeaf0942ca6b7f1d906a7b0a35d24f5e37"
+    },
+    {
+      "path": "erpnext/regional/south_africa/setup.py",
+      "sha": "aa277aac70789bc3a8d9f2878f9bd1c1580a3c8f"
+    },
+    {
+      "path": "erpnext/regional/turkey/setup.py",
+      "sha": "c915189352cc12f4dcf2d15f36d3954378a38927"
+    },
+    {
+      "path": "license.txt",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "package.json",
+      "sha": "e69a0f82904c24f833725faeda2cb67d81231f05"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "e89d4f8689b5fe8c9390da20168ae693e8fdce05"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "bb7a8bc2c33033e506dc5c15469aaacfe31ceee5",
+      "entities_detected": 0
+    },
+    {
+      "path": "license.txt",
+      "blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "e69a0f82904c24f833725faeda2cb67d81231f05",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "e89d4f8689b5fe8c9390da20168ae693e8fdce05",
+      "entities_detected": 0
+    },
+    {
+      "path": "banking/package.json",
+      "blob_sha": "1312ddc704a4e2169016f10bd09cca2b15f0f056",
+      "entities_detected": 0
+    },
+    {
+      "path": "erpnext/regional/address_template/setup.py",
+      "blob_sha": "793767e0a90c25a6df103b192606da11ff11e877",
+      "entities_detected": 0
+    },
+    {
+      "path": "erpnext/regional/australia/setup.py",
+      "blob_sha": "55549690f72c50d38a6a6861085c2ea5cf2b2231",
+      "entities_detected": 0
+    },
+    {
+      "path": "erpnext/regional/italy/setup.py",
+      "blob_sha": "86c62afeaf0942ca6b7f1d906a7b0a35d24f5e37",
+      "entities_detected": 0
+    },
+    {
+      "path": "erpnext/regional/south_africa/setup.py",
+      "blob_sha": "aa277aac70789bc3a8d9f2878f9bd1c1580a3c8f",
+      "entities_detected": 0
+    },
+    {
+      "path": "erpnext/regional/turkey/setup.py",
+      "blob_sha": "c915189352cc12f4dcf2d15f36d3954378a38927",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".coderabbit.yml",
     ".github/CONTRIBUTING.md",
@@ -57,13 +149,12 @@
     ".oss-scanner/threat_model.md",
     ".pre-commit-config.yaml",
     "CODE_OF_CONDUCT.md",
-    "README.md",
     "SECURITY.md",
     "TRADEMARK_POLICY.md",
     "attributions.md",
     "banking/README.md",
     "banking/eslint.config.js",
-    "banking/package.json",
+    "banking/index.html",
     "banking/proxyOptions.ts",
     "banking/src/App.tsx",
     "banking/src/components/common/AccountsDropdown.tsx",
@@ -105,7 +196,8 @@
     "banking/src/components/features/BankStatementImporter/CSV/CSVRawDataPreview.tsx",
     "banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx",
     "banking/src/components/features/BankStatementImporter/PDF/BBoxOverlay.tsx",
-    "banking/src/components/features/BankStatementImporter/PDF/PDFImport.tsx"
+    "banking/src/components/features/BankStatementImporter/PDF/PDFImport.tsx",
+    "banking/src/components/features/BankStatementImporter/PDF/PDFTableEditor.tsx"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "da8a0bac5f3f15a3dfbfa7b894062ca2bb683437c6a772b7c5214886035640f9",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -223,8 +316,11 @@
     "erpnext": 5592,
     "semgrep": 1
   },
-  "unread_source_paths_count": 5455,
+  "unread_source_paths_count": 5579,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 366,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

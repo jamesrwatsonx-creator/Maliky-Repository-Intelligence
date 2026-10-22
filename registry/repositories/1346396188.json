@@ -11,25 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ZeroPointRepo/youtube-skills",
-  "description": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes Agent, and other agent runtimes.",
+  "description": "Agent skill collection for YouTube transcripts, video search, channel data and playlist extraction through the external TranscriptAPI service.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-23T05:51:01Z",
-    "github_description": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes Agent, and other agent runtimes."
+    "github_description": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes Agent, and other agent runtimes.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "5c168578ec8424dbd1bd144d1cb53e8e6db276ee",
   "current_commit": "5c168578ec8424dbd1bd144d1cb53e8e6db276ee",
   "inspection_date": "2026-09-20T05:34:03.850847+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:skills",
     "category:apis",
-    "category:media-publishing",
-    "category:plugins-extensions",
-    "category:research-projects",
-    "category:skills"
+    "category:media-publishing"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [
@@ -343,9 +341,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.810627+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.845196+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -421,5 +420,137 @@
     ],
     "updated_at": "2026-10-12T19:04:27.346575+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill collection for YouTube transcripts, video search, channel data and playlist extraction through the external TranscriptAPI service.",
+    "reuse_recommendation": "Use with an authorized API key after checking provider terms, quotas and content rights; do not promise provider uptime or free access.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT for skills; TranscriptAPI and YouTube terms apply.",
+    "runtime": [
+      "Markdown skills",
+      "agent plugin",
+      "TranscriptAPI"
+    ],
+    "keywords": [
+      "YouTube transcripts",
+      "video search skill",
+      "channel data",
+      "playlist extraction",
+      "TranscriptAPI"
+    ],
+    "risk_notes": [
+      "External API credentials and video/transcript data require privacy, authorization and retention review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "YouTube skill collection",
+        "purpose": "Packages transcript, search, channel and playlist workflows.",
+        "evidence_paths": [
+          "README.md",
+          ".codex-plugin/plugin.json",
+          "clawhub/captions/SKILL.md",
+          "clawhub/subtitles/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:49.043809+00:00",
+    "inspected_commit": "5c168578ec8424dbd1bd144d1cb53e8e6db276ee",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cefb452ca5cef712109618277c1e3b810b6db89d",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "b3a72de31eae6d3beecf813bfb8e7e775125fe79",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".codex-plugin/plugin.json",
+        "blob_sha": "5fc9522ee47973c058882718f2780842797f0f21",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/.codex-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "clawhub/captions/SKILL.md",
+        "blob_sha": "32de5a6526c6c87d62cf5f9aaf55c4794958e4f7",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/clawhub/captions/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "clawhub/subtitles/SKILL.md",
+        "blob_sha": "d1956d99656c91267d0e8ef43572c9ea62403c03",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-skills/blob/5c168578ec8424dbd1bd144d1cb53e8e6db276ee/clawhub/subtitles/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "YouTube transcript retrieval",
+        "description": "Guides host agents to retrieve captions and transcript content from an external API.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:youtube-transcript-retrieval",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".codex-plugin/plugin.json",
+          "clawhub/captions/SKILL.md",
+          "clawhub/subtitles/SKILL.md"
+        ]
+      },
+      {
+        "name": "video and channel discovery",
+        "description": "Provides workflows for searching videos and browsing channel information.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:video-and-channel-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".codex-plugin/plugin.json",
+          "clawhub/captions/SKILL.md",
+          "clawhub/subtitles/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin packaging",
+        "description": "Distributes skills for compatible agent clients.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:plugin-packaging",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".codex-plugin/plugin.json",
+          "clawhub/captions/SKILL.md",
+          "clawhub/subtitles/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

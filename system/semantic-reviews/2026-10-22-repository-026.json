@@ -1,0 +1,1456 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Check execution permissions, data handling, payments and deployment requirements before production use."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/coder",
+                             "commit":  "40c0adc7ac2fc81eddd3749ab871e6416d4e57ce",
+                             "purpose":  "Open-source AI coding agent for understanding repositories, editing code and running development workflows through a CLI or application interface.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-agents",
+                                                "category:cli-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository license and model/provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AI coding agent",
+                                              "repository assistant",
+                                              "code editing",
+                                              "developer CLI",
+                                              "model integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "repository coding agent",
+                                                             "description":  "Uses source context to answer questions and make code changes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tool execution and development workflow",
+                                                             "description":  "Connects agent plans to shell and project tools.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "model and environment configuration",
+                                                             "description":  "Configures provider and repository context for agent sessions.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Coder agent runtime",
+                                                              "purpose":  "Coordinates coding tasks with repository files and developer tools.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared CLI/runtime",
+                                             "LLM provider APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Compare against maintained coding agents and use with scoped filesystem permissions and reviewed changes.",
+                             "risk_notes":  [
+                                                "Source context may be transmitted to providers and tool execution can modify files."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/moby",
+                             "commit":  "b985e2313a8676e18072b442911fc8f64f17d440",
+                             "purpose":  "Open-source container engine and component ecosystem for building, distributing and running OCI containerized applications.",
+                             "categories":  [
+                                                "category:containers",
+                                                "category:cloud-infrastructure",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Apache-2.0; images and bundled software have their own licenses.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Moby",
+                                              "container engine",
+                                              "Docker components",
+                                              "OCI images",
+                                              "container infrastructure"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "container runtime and image management",
+                                                             "description":  "Builds and operates container images and workloads.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "container networking and storage",
+                                                             "description":  "Provides system components for container isolation and connectivity.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "engine components and APIs",
+                                                             "description":  "Supplies modular building blocks for container platforms.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Moby container engine",
+                                                              "purpose":  "Provides foundational components for container-based application infrastructure.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go",
+                                             "Linux/Windows",
+                                             "OCI/container tooling"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use container components with hardened daemon access, image provenance and least privilege.",
+                             "risk_notes":  [
+                                                "Container daemon access is privileged and images may contain untrusted software."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/vibe-studio-vercel",
+                             "commit":  "e06cc643cec6a47bd9344af7f4589c736d95ed15",
+                             "purpose":  "Vibe Studio workflow or integration for deploying AI-generated web applications to Vercel.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:devops",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Check repository, Vercel platform and model provider terms.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Vibe Studio",
+                                              "Vercel deployment",
+                                              "AI app builder",
+                                              "web publishing",
+                                              "deployment automation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "AI app build workflow",
+                                                             "description":  "Connects prompt-driven project creation to deployable web applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Vercel deployment integration",
+                                                             "description":  "Automates or guides publishing projects to Vercel infrastructure.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Vibe Studio deployment workflow",
+                                                              "purpose":  "Bridges generated projects to hosted web deployment.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web app/build tooling",
+                                             "Vercel CLI/API",
+                                             "agent workflows"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use on test projects and require review before publishing, changing domains or exposing secrets.",
+                             "risk_notes":  [
+                                                "Deployment actions can publish insecure code or incur cloud costs."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/OmniRoute",
+                             "commit":  "af49d4972ed9b69e43f322453ebccca997a0ab94",
+                             "purpose":  "Unified gateway or routing layer for accessing multiple LLM providers through a common API and configuration surface.",
+                             "categories":  [
+                                                "category:apis",
+                                                "category:ai-infrastructure",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check repository and each upstream model provider’s API terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OmniRoute",
+                                              "LLM gateway",
+                                              "provider routing",
+                                              "model API",
+                                              "AI infrastructure"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "unified model API",
+                                                             "description":  "Provides a common request interface across supported model providers.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "provider selection and routing",
+                                                             "description":  "Routes requests according to configured model and provider policies.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "keys, quotas and observability",
+                                                             "description":  "Manages access and usage across provider connections.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OmniRoute gateway",
+                                                              "purpose":  "Centralizes model connectivity for AI applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared service runtime",
+                                             "LLM provider APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use with secure secret storage, provider allowlists and explicit logging/data policies.",
+                             "risk_notes":  [
+                                                "Gateway credentials and prompts may transit multiple third parties."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/AI-For-Beginners",
+                             "commit":  "33e781bf7bfb9b39fd27c4e4a3e592669b52cb4b",
+                             "purpose":  "Educational curriculum and coding lessons that introduce artificial intelligence and machine learning concepts through practical examples.",
+                             "categories":  [
+                                                "category:education",
+                                                "category:documentation",
+                                                "category:reference-implementations"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check course and sample-code licenses.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AI for beginners",
+                                              "machine learning course",
+                                              "AI tutorials",
+                                              "educational notebooks",
+                                              "beginner curriculum"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "AI learning curriculum",
+                                                             "description":  "Teaches fundamental concepts through sequenced lessons.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "hands-on examples and notebooks",
+                                                             "description":  "Provides implementation exercises for AI topics.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "AI for Beginners course",
+                                                              "purpose":  "Combines educational material and practical examples for AI learners.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Documentation",
+                                             "Python notebooks",
+                                             "ML libraries"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for onboarding and check dependencies and lesson content for current versions.",
+                             "risk_notes":  [
+                                                "Educational examples may be outdated or unsuitable for production systems."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ever-gauzy-community-business-platform-",
+                             "commit":  "8ca211637eac9d29d567d16f3e565ce5e7e91fed",
+                             "purpose":  "Business management platform for organizations and communities, with CRM, projects, scheduling, finance and workforce workflows.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:crm",
+                                                "category:productivity"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and hosted service terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Ever Gauzy",
+                                              "business platform",
+                                              "CRM",
+                                              "project management",
+                                              "community operations"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "CRM and customer workflows",
+                                                             "description":  "Manages contacts, sales relationships and business activity.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "projects and workforce operations",
+                                                             "description":  "Coordinates work, teams, time and organizational planning.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "finance and scheduling",
+                                                             "description":  "Supports billing, calendars and business administration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Gauzy business platform",
+                                                              "purpose":  "Combines business and community administration capabilities in one suite.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js",
+                                             "web application",
+                                             "database"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Evaluate modules and data model before adopting; restrict access to financial and employee data.",
+                             "risk_notes":  [
+                                                "Broad business systems contain sensitive customer, financial and workforce information."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Voice-a",
+                             "commit":  "e7981a6f19435d52ef4b92f71054739ebc2b593e",
+                             "purpose":  "Voice AI application or toolkit for speech conversation, transcription or voice-driven assistant workflows.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:ai-applications",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check repository and speech/model provider terms.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Voice AI",
+                                              "speech assistant",
+                                              "audio interaction",
+                                              "STT TTS",
+                                              "voice agent"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "speech interaction",
+                                                             "description":  "Supports voice input and spoken or text responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "model-backed conversation",
+                                                             "description":  "Connects audio workflows to conversational AI behavior.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Voice AI workflow",
+                                                              "purpose":  "Combines speech processing with assistant interaction.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared app runtime",
+                                             "speech models/services",
+                                             "LLM API"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use after confirming local versus cloud processing and obtaining participant consent.",
+                             "risk_notes":  [
+                                                "Speech data may be sensitive and voice generation can enable impersonation."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/hyperswitch-payments",
+                             "commit":  "f237029208a1812aa27281dc9ee5f69fa8c89f84",
+                             "purpose":  "Open-source payment orchestration platform that connects merchants to multiple payment processors through a unified API.",
+                             "categories":  [
+                                                "category:commerce-e-commerce",
+                                                "category:finance-accounting",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Apache-2.0; payment processor and regulatory terms apply.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Hyperswitch",
+                                              "payment orchestration",
+                                              "processor routing",
+                                              "checkout API",
+                                              "merchant payments"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "unified payment API",
+                                                             "description":  "Provides common interfaces for payment intents and transactions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "processor routing and resilience",
+                                                             "description":  "Routes payment requests across supported providers.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "merchant operations and reconciliation",
+                                                             "description":  "Supports payment lifecycle, monitoring and finance workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Hyperswitch payment platform",
+                                                              "purpose":  "Centralizes payment integrations and routing for merchants.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Rust",
+                                             "database",
+                                             "payment processor APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Adopt only with PCI scope analysis, processor testing, fraud controls and secure secret management.",
+                             "risk_notes":  [
+                                                "Payments and cardholder data are high-stakes; compliance and transaction integrity require deep review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/godot",
+                             "commit":  "893cf5cbfe789ae67c9389708e1428141bb39b18",
+                             "purpose":  "Open-source cross-platform game engine for creating 2D and 3D games using a scene-based editor and scripting/runtime APIs.",
+                             "categories":  [
+                                                "category:games-interactive-experiences",
+                                                "category:frameworks",
+                                                "category:creative-tools"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "MIT; game assets and third-party modules vary.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Godot Engine",
+                                              "2D game engine",
+                                              "3D game development",
+                                              "GDScript",
+                                              "game editor"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "2D and 3D scene runtime",
+                                                             "description":  "Provides rendering, physics, input and scene management for games.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "editor and content authoring",
+                                                             "description":  "Supports visual scene composition and asset workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "scripting and cross-platform export",
+                                                             "description":  "Builds game logic and deploys to multiple platforms.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Godot engine and editor",
+                                                              "purpose":  "Provides a complete open-source game development environment.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "C++ engine",
+                                             "GDScript/C#",
+                                             "desktop/mobile/web platforms"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for game and interactive applications; review export templates, plugins and asset provenance.",
+                             "risk_notes":  [
+                                                "Community plugins and platform export code require trust and compatibility review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/fluxer-Doscord-style-interface",
+                             "commit":  "8d8a29377c23bfdb76d852947c765d9f13a220c1",
+                             "purpose":  "Chat or community application interface styled after Discord, providing channels, messaging and collaborative workspace features.",
+                             "categories":  [
+                                                "category:message-event-systems",
+                                                "category:web-applications",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and branding/trademark implications.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Fluxer",
+                                              "Discord-style chat",
+                                              "community interface",
+                                              "messaging UI",
+                                              "collaboration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "real-time chat interface",
+                                                             "description":  "Presents channel and direct-message interactions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "community and member workflows",
+                                                             "description":  "Organizes users, spaces and collaboration features.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Fluxer chat application",
+                                                              "purpose":  "Provides a community messaging experience with familiar chat patterns.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "real-time messaging backend"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as an interface reference and verify protocol, moderation and identity capabilities.",
+                             "risk_notes":  [
+                                                "Messaging systems require abuse prevention, moderation and privacy safeguards."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/appwrite-supabase-per-agent-",
+                             "commit":  "61833ff0f9dd5985f580b230244749247b170a6f",
+                             "purpose":  "Backend-as-a-service integration or agent workflow connecting application development to Appwrite and Supabase services.",
+                             "categories":  [
+                                                "category:backend-services",
+                                                "category:apis",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check repository and Appwrite/Supabase service terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "agents":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Appwrite",
+                                              "Supabase",
+                                              "BaaS integration",
+                                              "agent app development",
+                                              "backend services"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "backend service integration",
+                                                             "description":  "Connects applications to authentication, database and storage APIs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "agent-assisted backend workflows",
+                                                             "description":  "Guides agents through configuring or building with BaaS platforms.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Appwrite/Supabase integration workflow",
+                                                              "purpose":  "Provides an application or agent path for backend-as-a-service capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared language",
+                                             "Appwrite/Supabase APIs",
+                                             "agent host"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with test projects and review auth rules, service keys and database access policies.",
+                             "risk_notes":  [
+                                                "Backend credentials and authorization configuration are sensitive."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/infisical",
+                             "commit":  "0bc88e5ecc7e806aaeba5740bff3721220baf233",
+                             "purpose":  "Secrets management platform for securely storing, syncing and managing environment variables and credentials across teams and infrastructure.",
+                             "categories":  [
+                                                "category:secrets-management",
+                                                "category:cybersecurity",
+                                                "category:devops"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Check current edition and source-available licensing terms.",
+                             "asset_presence":  {
+                                                    "security":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Infisical",
+                                              "secrets manager",
+                                              "environment variables",
+                                              "credential rotation",
+                                              "developer security"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "secret storage and synchronization",
+                                                             "description":  "Stores and distributes secrets to applications and teams.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "identity and access policies",
+                                                             "description":  "Controls who can retrieve secrets and under what conditions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "rotation and infrastructure integrations",
+                                                             "description":  "Connects secrets to deployment workflows and rotation procedures.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Infisical secrets platform",
+                                                              "purpose":  "Centralizes secrets lifecycle and developer access workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js",
+                                             "database",
+                                             "cloud/self-hosted services"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with tested recovery, audit logging, least privilege and secret rotation.",
+                             "risk_notes":  [
+                                                "Compromise can expose broad credentials; secrets tooling is critical infrastructure."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/t3code",
+                             "commit":  "2274444e92275fda2033de6636e3143ac3599ffb",
+                             "purpose":  "Desktop or web interface for managing coding agents and software development tasks in the T3 ecosystem.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-agents",
+                                                "category:desktop-applications"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository license and agent/provider terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "T3 Code",
+                                              "AI coding workspace",
+                                              "agent tasks",
+                                              "developer desktop app",
+                                              "code assistant"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "coding-agent task interface",
+                                                             "description":  "Organizes development requests and agent progress in a visual workspace.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "repository and tool integrations",
+                                                             "description":  "Connects agent tasks to source repositories and development tools.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "T3 Code workspace",
+                                                              "purpose":  "Provides an interface for operating agent-assisted coding tasks.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Desktop/web frontend",
+                                             "agent runtime",
+                                             "model APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with scoped repository access and inspect agent execution, diffs and provider data flow.",
+                             "risk_notes":  [
+                                                "Coding agents can access private source and modify files."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/flutter",
+                             "commit":  "51fd9afadf309ba5337320bd3653f5345c156cb9",
+                             "purpose":  "Google’s UI toolkit for building natively compiled applications for mobile, web and desktop from a shared Dart codebase.",
+                             "categories":  [
+                                                "category:frameworks",
+                                                "category:mobile-applications",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "BSD-3-Clause; packages and platform SDKs have separate terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Flutter",
+                                              "Dart UI framework",
+                                              "cross-platform apps",
+                                              "mobile development",
+                                              "widget toolkit"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "declarative UI and widgets",
+                                                             "description":  "Builds custom interfaces from composable Dart widgets.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "cross-platform application runtime",
+                                                             "description":  "Targets Android, iOS, web and desktop from one project.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "developer tooling and packages",
+                                                             "description":  "Provides build, testing and extension ecosystem.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Flutter framework and engine",
+                                                              "purpose":  "Connects Dart application code to multi-platform rendering and runtime.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Dart",
+                                             "Flutter engine",
+                                             "Android/iOS/Web/Desktop"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for cross-platform app development and validate native integration needs and package maintenance.",
+                             "risk_notes":  [
+                                                "Platform plugins may require distinct permissions and security review."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/vibe-studio-or-seperate-app-orca",
+                             "commit":  "565166249406f5661881e6feb21920c42b030c5f",
+                             "purpose":  "Vibe Studio or Orca-oriented application workflow, possibly a separate app or integration layer for coding agents and project creation.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-applications",
+                                                "category:general-other"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Check repository provenance and license.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Vibe Studio",
+                                              "Orca",
+                                              "agent app",
+                                              "developer workflow",
+                                              "project tooling"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "agent-enabled application workflow",
+                                                             "description":  "Provides a user-facing workflow for project or coding tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tool and platform integration",
+                                                             "description":  "Connects the application to supported agents or development services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Vibe/Orca app layer",
+                                                              "purpose":  "Packages a distinct application workflow around the agent ecosystem.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "agent/tool integrations"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Verify whether this is distinct from adjacent Vibe Studio repositories before integrating.",
+                             "risk_notes":  [
+                                                "Potentially shared agent infrastructure should be checked for provenance and permissions."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/GHL-register",
+                             "commit":  "464a2e936d5f51345714b37ddd1c71b648740db8",
+                             "purpose":  "GoHighLevel registration or onboarding integration for capturing users and connecting account setup to CRM workflows.",
+                             "categories":  [
+                                                "category:crm",
+                                                "category:business-applications",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and GoHighLevel API terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "GoHighLevel registration",
+                                              "CRM onboarding",
+                                              "lead capture",
+                                              "account signup",
+                                              "API integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "registration and onboarding UI",
+                                                             "description":  "Collects user or lead information through a signup workflow.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "CRM record integration",
+                                                             "description":  "Connects registration details to GoHighLevel contacts or accounts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "GHL registration workflow",
+                                                              "purpose":  "Bridges web onboarding with CRM record creation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "GoHighLevel API"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use with input validation, consent and sandbox CRM accounts before creating real records.",
+                             "risk_notes":  [
+                                                "Personal data and marketing consent must be handled correctly."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/supabase",
+                             "commit":  "5e8e551e2c05440bf4624500609fe3c6061a8eac",
+                             "purpose":  "Open-source backend-as-a-service platform built around PostgreSQL, providing database, authentication, storage, realtime and edge functions.",
+                             "categories":  [
+                                                "category:backend-services",
+                                                "category:databases",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check component licenses and hosted Supabase terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Supabase",
+                                              "PostgreSQL BaaS",
+                                              "authentication",
+                                              "storage APIs",
+                                              "realtime backend"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "managed PostgreSQL and APIs",
+                                                             "description":  "Provides database access through REST, GraphQL or client libraries.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "authentication and authorization",
+                                                             "description":  "Manages users, sessions and row-level access rules.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "storage, realtime and edge functions",
+                                                             "description":  "Adds file storage, event updates and server-side application logic.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Supabase platform",
+                                                              "purpose":  "Combines core backend services around PostgreSQL.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Go/Rust components",
+                                             "PostgreSQL",
+                                             "Docker/Kubernetes"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with correctly tested row-level security, secret handling and backup/migration plans.",
+                             "risk_notes":  [
+                                                "Misconfigured policies can expose entire datasets; service keys are privileged."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/n8n",
+                             "commit":  "53ade12c27e73c10be539a8866680b348db2265f",
+                             "purpose":  "Workflow automation platform for connecting APIs and business applications through visual nodes, triggers and execution flows.",
+                             "categories":  [
+                                                "category:automation-scripting",
+                                                "category:business-applications",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "Sustainable Use License or other current terms; verify exact version and usage rights.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "n8n",
+                                              "workflow automation",
+                                              "API integrations",
+                                              "visual orchestration",
+                                              "self-hosted automation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "visual workflow authoring",
+                                                             "description":  "Composes triggers and actions across services in a node-based editor.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "integration and connector ecosystem",
+                                                             "description":  "Provides reusable nodes for APIs and business tools.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "workflow runtime and deployment",
+                                                             "description":  "Executes automations and supports self-hosted operations.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "n8n workflow platform",
+                                                              "purpose":  "Connects services and automates data movement and actions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js",
+                                             "database",
+                                             "worker/queue infrastructure"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with least-privilege credentials and approval gates for writes, financial tasks or bulk messaging.",
+                             "risk_notes":  [
+                                                "Workflow secrets and automated external actions are high-impact."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ghidra-reverse-engineering",
+                             "commit":  "9a723ce99952771b8368329503aa589ae233e916",
+                             "purpose":  "Ghidra-based reverse engineering workflow or plugin collection for analyzing compiled binaries and recovering program structure.",
+                             "categories":  [
+                                                "category:cybersecurity",
+                                                "category:developer-tools",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Check repository and Ghidra license plus analyzed binary rights.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Ghidra",
+                                              "reverse engineering",
+                                              "binary analysis",
+                                              "software security",
+                                              "disassembly"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "binary analysis workflows",
+                                                             "description":  "Supports disassembly, decompilation and program behavior investigation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Ghidra extensions and guidance",
+                                                             "description":  "Adds project-specific scripts, plugins or procedures to the analysis environment.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Ghidra analysis toolkit",
+                                                              "purpose":  "Enables structured investigation of executable binaries.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Java/Ghidra",
+                                             "analysis scripts"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for authorized research and malware analysis in isolated environments.",
+                             "risk_notes":  [
+                                                "Binary analysis can involve malicious samples and proprietary software; isolate samples and verify authorization."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/medusa",
+                             "commit":  "e9dc0edbc23aad274305e4b36950bd842f3dc006",
+                             "purpose":  "GraphQL-based e-commerce framework or headless commerce platform for building custom storefronts, catalogs and order workflows.",
+                             "categories":  [
+                                                "category:commerce-e-commerce",
+                                                "category:backend-services",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and payment integrations.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Medusa commerce",
+                                              "headless e-commerce",
+                                              "GraphQL API",
+                                              "storefront framework",
+                                              "order management"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "commerce backend and APIs",
+                                                             "description":  "Provides catalog, cart, order and customer operations for stores.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "storefront and integrations",
+                                                             "description":  "Connects frontend experiences to payments, shipping and commerce services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "plugins and administration",
+                                                             "description":  "Extends backend functionality and store management.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Medusa commerce engine",
+                                                              "purpose":  "Provides modular backend capabilities for custom commerce applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/Node.js",
+                                             "database",
+                                             "GraphQL/REST APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for custom commerce builds after testing checkout, inventory and payment edge cases.",
+                             "risk_notes":  [
+                                                "Payments and customer/order data require security and compliance safeguards."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/discourse---The-community-platform-DOADAO-",
+                             "commit":  "01ef0bc60bc905c45eac0f3369d0290dddcc43cc",
+                             "purpose":  "Community discussion platform or Discourse customization for DAO/community governance, forums and member participation.",
+                             "categories":  [
+                                                "category:open-source-communities",
+                                                "category:web-applications",
+                                                "category:government-civic-tech"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository and Discourse plugin/theme licenses.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Discourse community",
+                                              "DAO forum",
+                                              "community governance",
+                                              "discussion platform",
+                                              "member engagement"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "forum and discussion workflows",
+                                                             "description":  "Supports topics, replies and community knowledge sharing.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "DAO/community governance",
+                                                             "description":  "Adapts discussion and participation workflows for organized groups.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "theme/plugin customization",
+                                                             "description":  "Extends Discourse UI and behavior for specific communities.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Discourse community platform",
+                                                              "purpose":  "Provides a discussion and governance space for organized communities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Ruby/Rails",
+                                             "PostgreSQL",
+                                             "Redis"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for community patterns and verify moderation, identity and plugin security.",
+                             "risk_notes":  [
+                                                "Community content and member identity need moderation and privacy controls."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/crewAI",
+                             "commit":  "3df34d91690c3ad0a88efc6a56e301ea599e1326",
+                             "purpose":  "Framework for orchestrating role-based AI agent teams and task workflows with tools, processes and memory.",
+                             "categories":  [
+                                                "category:agent-frameworks",
+                                                "category:ai-orchestration",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository license and model/tool provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "CrewAI",
+                                              "multi-agent framework",
+                                              "role-based agents",
+                                              "task orchestration",
+                                              "AI workflows"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "agent roles and crews",
+                                                             "description":  "Defines specialized agents that collaborate on assigned tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "task processes and delegation",
+                                                             "description":  "Coordinates sequential or hierarchical work across agents.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "tools, memory and integrations",
+                                                             "description":  "Connects agent teams to external functions and persistence.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "CrewAI runtime",
+                                                              "purpose":  "Provides a framework for orchestrating collaborative agent workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "LLM APIs",
+                                             "tool integrations"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use with bounded tools, clear task ownership and human approval for consequential steps.",
+                             "risk_notes":  [
+                                                "Agent collaboration can compound incorrect assumptions and external tool side effects."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/printing-press-library",
+                             "commit":  "1ebe3d436da95bf57965bf8521ac424bdf0e01be",
+                             "purpose":  "Library or framework for producing print-ready layouts and publication artifacts from structured content and templates.",
+                             "categories":  [
+                                                "category:libraries-packages",
+                                                "category:creative-tools",
+                                                "category:documentation"
+                                            ],
+                             "operational":  "operational:17",
+                             "license_notes":  "Check repository, fonts, templates and rendering dependencies.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "printing press library",
+                                              "document layout",
+                                              "print publishing",
+                                              "templates",
+                                              "PDF generation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "publication layout generation",
+                                                             "description":  "Transforms content into formatted print or PDF output.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "template and rendering APIs",
+                                                             "description":  "Provides reusable layout and export behavior to applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Printing press renderer",
+                                                              "purpose":  "Packages repeatable publication output for print workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared language",
+                                             "PDF/rendering dependencies"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for document generation after checking font embedding, page layout and output accessibility.",
+                             "risk_notes":  [
+                                                "Generated publications may embed unlicensed assets or expose private content."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/odoo",
+                             "commit":  "90f6c79fc2b21bb66f5064f39ae158dfa705686f",
+                             "purpose":  "Integrated business application suite covering CRM, accounting, inventory, e-commerce, manufacturing, HR and operations.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:finance-accounting",
+                                                "category:commerce-e-commerce"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Odoo Community and Enterprise editions differ; verify module and deployment licensing.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Odoo ERP",
+                                              "CRM",
+                                              "accounting",
+                                              "inventory",
+                                              "business applications"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "CRM, sales and commerce",
+                                                             "description":  "Manages customer relationships, sales pipelines and commerce workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "finance, inventory and manufacturing",
+                                                             "description":  "Supports accounting, stock and production operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "modules and business automation",
+                                                             "description":  "Extends the suite with vertical applications and workflow automation.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Odoo business suite",
+                                                              "purpose":  "Provides modular applications for end-to-end business operations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "PostgreSQL",
+                                             "web application and modules"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use after edition/license review and business-process, migration and access-control planning.",
+                             "risk_notes":  [
+                                                "ERP contains financial, employee and customer data and drives consequential operations."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/kotlin",
+                             "commit":  "32e72c24aa3530144f50bfe781622bdc5fa4d4a7",
+                             "purpose":  "Kotlin programming language and ecosystem repository, including compiler, standard library and multiplatform tooling.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:developer-tools",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Apache-2.0; platform and compiler dependencies have separate terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Kotlin",
+                                              "programming language",
+                                              "JVM",
+                                              "multiplatform",
+                                              "compiler"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Kotlin language and compiler",
+                                                             "description":  "Defines the language syntax, type system and compilation toolchain.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "standard library and runtime",
+                                                             "description":  "Provides core APIs used by Kotlin applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multiplatform and IDE tooling",
+                                                             "description":  "Supports development across JVM, Android, native and web targets.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Kotlin language ecosystem",
+                                                              "purpose":  "Enables concise, statically typed development across multiple platforms.",
+                                                              "evidence_paths":  [
+                                                                                     "ReadMe.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Kotlin compiler",
+                                             "JVM/Native/JS/Wasm targets"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for Kotlin development and consult target-specific platform support and release compatibility.",
+                             "risk_notes":  [
+                                                "Compiler and language ecosystem compatibility varies by target and version."
+                                            ],
+                             "source_review":  [
+                                                   "ReadMe.md"
+                                               ]
+                         }
+                     ]
+}

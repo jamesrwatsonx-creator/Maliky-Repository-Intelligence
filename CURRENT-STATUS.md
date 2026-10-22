@@ -2,29 +2,29 @@
 
 ## Active V1 checkpoint — 2026-10-21
 
-Fresh authenticated discovery reconciled 730 accessible/owned repositories:
-717 public and 13 private. All seven public IDs absent from the starting manifest
-were added and ingested. Private identities and source remain in ignored `.local/`.
+The current strategy indexes each repository by pinned purpose, major capability
+clusters, provenance, reuse guidance and tags. Existing detailed entity records
+are preserved as bonus intelligence. The latest authenticated refresh reports 731
+accessible/owned repositories (717 public, 14 private). The public manifest
+contains 717 repositories, so inventory is reconciled; the refresh found no new
+public repositories. Private identities and evidence remain local-only.
 
-The canonical catalog currently contains 44 complete repositories, 9,945 active
-entities (8,395 verified and 1,550 candidates), 2,402 capability records and 13,064
-search documents. Nineteen repositories reached completion in this session.
-Source-reviewed cohorts now include the World ID SDK surfaces, Open IRIS biometric
-pipeline modules, voice/UI assets, agent skills, documentation-only branch indexes,
-scaffold templates and model-release references. Four previously finished semantic
-reviews had their remaining census/scoped-review bookkeeping reconciled. A further
-30-repository pinned extraction batch was preserved for semantic review.
+The canonical catalog has 653 repository-intelligence summaries complete, 57
+DISCOVERED repositories, and 7 NEEDS_REVIEW empty-source dispositions. It contains
+9,945 active entities (8,395 verified and 1,550 candidates), 2,402 capabilities,
+13,064 search documents, 1,608 capability clusters and 1,633 repository/cluster
+assignments. The pending queue is 64 repositories. This run completed 43
+source-reviewed summaries across PRAW/social-research and mobile/Android cohorts,
+without changing detailed entity records.
 
-The full corpus is still in progress: 673 repositories remain in the canonical
-queue. Use `docs/CODEX-RESUME.md` and `system/inspection-state.json` for the exact
-resume pointer. Source-reviewed cohort plans run through the existing
-`review_extracted_batch.py --plan` entrypoint; static candidates are never
-automatically promoted. JEV/TypeSafe is unavailable, so source-backed deterministic
-work continues while optional decisions remain explicitly deferred. A second
-fully paginated authenticated refresh found no additional public IDs; all 717
-live public IDs reconcile with the canonical manifest. Six of the seven additions
-from the first refresh have completed semantic review; Freebuff remains queued.
-Canonical writes and generated-view builds are serialized at checkpoints.
+The latest 50-repository preparation attempt could not retrieve pinned source for
+its selected cohort because GitHub REST connections were refused; those entries
+remain uncompleted. The Git remote remains reachable. `gh auth status` reports an
+invalid keyring token, although the repository discovery path completed this
+refresh successfully. JEV decisions remain deferred where the decision engine is
+unavailable. Resume from `docs/CODEX-RESUME.md` and
+`system/inspection-state.json`; do not mark source-unavailable entries complete.
+Registry, catalog, 73 unit tests and publication guard passed on 2026-10-22.
 
 The historical sections below describe earlier checkpoints, not current counts.
 

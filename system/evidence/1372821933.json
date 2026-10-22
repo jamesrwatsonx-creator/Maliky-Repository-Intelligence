@@ -3,8 +3,100 @@
   "inspected_commit": "7998589725a932c43bb3bb870c665cc7c724d3df",
   "tree_complete": true,
   "tree_files": 1266,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "AGENTS.md",
+      "sha": "3e01a61e44ebc7b949649d55eb5a1468bd8c7828"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "09951d9f8743a65d034616e602995a40a56c5cbd"
+    },
+    {
+      "path": "README.md",
+      "sha": "be27134ae34eced673957bff6acd58708298ae87"
+    },
+    {
+      "path": "harness/claude/.mcp.json",
+      "sha": "a402fc284f97fe2991e1ebed3fa8fcedd50112f9"
+    },
+    {
+      "path": "package.json",
+      "sha": "7c09259bfdc458be04dfddd639250befe6d22ebf"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "a56ca8404b3a77ce03515adc40cd212f949bc757"
+    },
+    {
+      "path": "tests/fixtures/brownfield-todo/package.json",
+      "sha": "2c8e34db1c1acafaba8ad8776dc812e98a49dcf1"
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/failing-linter/package.json",
+      "sha": "2146e51e4c88542b81b7f7461f93e1ae5e81d116"
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/failing-type-check/package.json",
+      "sha": "339babe64afaaafc3292d9e53b9c6bbe85877542"
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/passing-typescript/package.json",
+      "sha": "36316599db911d3af5ab4ab23c306c3008d99c4e"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "be27134ae34eced673957bff6acd58708298ae87",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "09951d9f8743a65d034616e602995a40a56c5cbd",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "7c09259bfdc458be04dfddd639250befe6d22ebf",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "a56ca8404b3a77ce03515adc40cd212f949bc757",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/fixtures/brownfield-todo/package.json",
+      "blob_sha": "2c8e34db1c1acafaba8ad8776dc812e98a49dcf1",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/failing-linter/package.json",
+      "blob_sha": "2146e51e4c88542b81b7f7461f93e1ae5e81d116",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/failing-type-check/package.json",
+      "blob_sha": "339babe64afaaafc3292d9e53b9c6bbe85877542",
+      "entities_detected": 0
+    },
+    {
+      "path": "tests/fixtures/v05-mr9-sensor-fire/passing-typescript/package.json",
+      "blob_sha": "36316599db911d3af5ab4ab23c306c3008d99c4e",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "3e01a61e44ebc7b949649d55eb5a1468bd8c7828",
+      "entities_detected": 0
+    },
+    {
+      "path": "harness/claude/.mcp.json",
+      "blob_sha": "a402fc284f97fe2991e1ebed3fa8fcedd50112f9",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/bug_report.yml",
     ".github/ISSUE_TEMPLATE/config.yml",
@@ -34,12 +126,10 @@
     ".gitleaks-baseline.json",
     ".gitleaks.toml",
     ".markdownlint-cli2.yaml",
-    "AGENTS.md",
     "CHANGELOG.md",
     "CLAUDE.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "README.md",
     "biome.json",
     "core/agents/aidlc-architect-agent.md",
     "core/agents/aidlc-architecture-reviewer-agent.md",
@@ -105,7 +195,9 @@
     "core/hooks/aidlc-plan-approval-guard.ts",
     "core/hooks/aidlc-rebuild-stage-graph.ts",
     "core/hooks/aidlc-record-human-turn.ts",
-    "core/hooks/aidlc-review-freeze.ts"
+    "core/hooks/aidlc-review-freeze.ts",
+    "core/hooks/aidlc-reviewer-scope.ts",
+    "core/hooks/aidlc-run-sensors.ts"
   ],
   "excluded_nontext_paths": [
     ".gitattributes",
@@ -183,8 +275,12 @@
     "scripts": 16,
     "tests": 730
   },
-  "unread_source_paths_count": 1208,
+  "unread_source_paths_count": 1210,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 58,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

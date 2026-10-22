@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/webadderallorg/Recordly",
-  "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+  "description": "Recording or meeting-content application that captures sessions and may transcribe or summarize audio/video for later review.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-17T07:32:21Z",
-    "github_description": "Create polished demo videos without editing skills. Mac/Windows/Linux"
+    "github_description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e4a9d04860f4cbad3358bda3ac4a2307489f1d03",
   "current_commit": "e4a9d04860f4cbad3358bda3ac4a2307489f1d03",
   "inspection_date": "2026-10-21T00:01:13.633683+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:productivity",
+    "category:media-publishing",
+    "category:ai-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.031561+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.099099+00:00",
   "tree_files": 1208,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 924,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 938,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Recording or meeting-content application that captures sessions and may transcribe or summarize audio/video for later review.",
+    "reuse_recommendation": "Use only with informed participant consent and clear retention/deletion controls.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository license and transcription/model provider terms.",
+    "runtime": [
+      "Repository-declared web/mobile runtime",
+      "media and speech services"
+    ],
+    "keywords": [
+      "Recordly",
+      "meeting recording",
+      "transcription",
+      "session notes",
+      "media capture"
+    ],
+    "risk_notes": [
+      "Recorded conversations may contain confidential or personal information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Recordly capture workflow",
+        "purpose": "Connects recording with downstream review and content processing.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:17.372783+00:00",
+    "inspected_commit": "e4a9d04860f4cbad3358bda3ac4a2307489f1d03",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c13d0fcd2604765dfa57aac807a6e24f0bfb24cd",
+        "value": "https://github.com/jamesrwatsonx-creator/Recordly/blob/e4a9d04860f4cbad3358bda3ac4a2307489f1d03/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "audio/video capture",
+        "description": "Records or imports sessions for later processing.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-video-capture",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "transcription and summaries",
+        "description": "Transforms recorded speech into searchable text or meeting notes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:transcription-and-summaries",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

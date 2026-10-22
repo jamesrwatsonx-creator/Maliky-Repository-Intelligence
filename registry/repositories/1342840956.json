@@ -11,25 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/NousResearch/hermes-agent",
-  "description": "The agent that grows with you",
+  "description": "General-purpose AI assistant/agent system with persistent memory, tool integrations and multi-channel interaction for ongoing tasks.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T12:32:00Z",
-    "github_description": "The agent that grows with you"
+    "github_description": "The agent that grows with you",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
   "current_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
   "inspection_date": "2026-09-20T05:33:24.558621+00:00",
   "categories": [
-    "category:agent-frameworks",
     "category:ai-agents",
-    "category:ci-cd",
-    "category:mcp-servers",
-    "category:skills",
-    "category:web-applications"
+    "category:ai-memory",
+    "category:agent-frameworks"
   ],
   "operational_category": "operational:03",
   "secondary_operational_categories": [],
@@ -4127,9 +4125,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.095599+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.171146+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -4150,9 +4149,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 10030,
-  "files_read": 9058,
+  "files_read": 9059,
   "entity_count": 934,
-  "unread_source_files": 0,
+  "unread_source_files": 65,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-09-20T09:46:53.077525+00:00",
@@ -4802,5 +4801,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.170121+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "General-purpose AI assistant/agent system with persistent memory, tool integrations and multi-channel interaction for ongoing tasks.",
+    "reuse_recommendation": "Prioritize for Hermes integration after deep review of its actual shared interfaces, memory boundaries and permission model.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Verify repository license, model providers and every tool integration.",
+    "runtime": [
+      "Repository-declared runtime",
+      "LLM providers",
+      "tools and channel APIs"
+    ],
+    "keywords": [
+      "Hermes Agent",
+      "persistent assistant",
+      "agent tools",
+      "multi-channel AI",
+      "long-running tasks"
+    ],
+    "risk_notes": [
+      "Strategically important shared infrastructure; persistent memory, credentials and autonomous tool actions require scoped review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hermes agent platform",
+        "purpose": "Combines assistant runtime, memory and integrations for persistent agent workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:54.346679+00:00",
+    "inspected_commit": "261a4efb90d7dbe4e71786861858f721b4ab730c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
+        "value": "https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "general agent runtime",
+        "description": "Coordinates user requests, planning and tool-mediated task execution.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:general-agent-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "persistent memory and context",
+        "description": "Retains useful information across sessions for continuity.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:persistent-memory-and-context",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "channel and tool integrations",
+        "description": "Connects agent interactions to external tools or communication surfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:channel-and-tool-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

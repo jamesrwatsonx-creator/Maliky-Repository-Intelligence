@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/leepokai/jev-guard",
-  "description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
+  "description": "Security hook for coding-agent environments that evaluates proposed actions through Jev/TypeSafe decision infrastructure before allowing or blocking them.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-02T03:49:16Z",
-    "github_description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP."
+    "github_description": "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "cda06c49ceaac207904142ec92bfab793bbd18b1",
   "current_commit": "cda06c49ceaac207904142ec92bfab793bbd18b1",
   "inspection_date": "2026-10-21T00:01:18.442898+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:developer-tools",
+    "category:application-security",
+    "category:ai-safety-alignment"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,125 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.288759+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.393862+00:00",
   "tree_files": 50,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 36,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 24,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Security hook for coding-agent environments that evaluates proposed actions through Jev/TypeSafe decision infrastructure before allowing or blocking them.",
+    "reuse_recommendation": "Potential security control component; test fail-open/fail-closed behavior, bypass paths, provider outages and command coverage before relying on it.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; Jev/TypeSafe service terms apply.",
+    "runtime": [
+      "Node.js",
+      "coding-agent hooks",
+      "Jev/TypeSafe provider"
+    ],
+    "keywords": [
+      "coding agent security hook",
+      "Jev Guard",
+      "tool approval",
+      "policy decisions",
+      "agent safety"
+    ],
+    "risk_notes": [
+      "Security decisions depend on an external evaluator; never assume hooks cover every execution path without adversarial testing."
+    ],
+    "important_subsystems": [
+      {
+        "name": "security hook package",
+        "purpose": "Connects agent actions to an external decision service and host integration points.",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "plugin.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:45.319874+00:00",
+    "inspected_commit": "cda06c49ceaac207904142ec92bfab793bbd18b1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "787dbd68aaab577be2fd958be9202783e56ecfbf",
+        "value": "https://github.com/jamesrwatsonx-creator/jev-guard/blob/cda06c49ceaac207904142ec92bfab793bbd18b1/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "e9e4707cef970d53214795c9419280429b63f989",
+        "value": "https://github.com/jamesrwatsonx-creator/jev-guard/blob/cda06c49ceaac207904142ec92bfab793bbd18b1/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "bc06bed378a2180cca38c638c5e32924ab891d21",
+        "value": "https://github.com/jamesrwatsonx-creator/jev-guard/blob/cda06c49ceaac207904142ec92bfab793bbd18b1/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugin.json",
+        "blob_sha": "10c36dfb962f422ba647a85d3a3b45aa23a5fb5b",
+        "value": "https://github.com/jamesrwatsonx-creator/jev-guard/blob/cda06c49ceaac207904142ec92bfab793bbd18b1/plugin.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent action guard",
+        "description": "Interposes policy decisions into coding-agent tool/action workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-action-guard",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "plugin.json"
+        ]
+      },
+      {
+        "name": "multi-host plugin packaging",
+        "description": "Targets multiple coding-agent CLI hosts through plugin and hook configuration.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:multi-host-plugin-packaging",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "plugin.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

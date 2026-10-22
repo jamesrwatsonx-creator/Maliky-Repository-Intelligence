@@ -1,0 +1,1948 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/vibefeed",
+    "commit": "9806a7de3b203c18a67b0bfba3808bd1ed06c944",
+    "purpose": "Early product concept and visual direction for a cross-platform social-content repurposing service; the inspected tree does not contain an executable application or working platform integrations.",
+    "categories": [
+      "category:business-applications",
+      "category:frontend-applications",
+      "category:general-other"
+    ],
+    "operational": "operational:25",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "BUILD_LOG.md",
+      "DESIGN.md",
+      "GOAL.md"
+    ],
+    "inspection_scope": "Reviewed the complete four-file concept tree. It records a branded design direction and staged roadmap for AI repurposing and later social scheduling, but no implemented product, OAuth flow or AI pipeline.",
+    "runtime": [
+      "Markdown product concept"
+    ],
+    "asset_presence": {
+      "ui_design": "DESIGN_ONLY",
+      "business_media_other": "DESIGN_ONLY",
+      "prompts_workflows": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "social media repurposing concept",
+      "cross-platform content",
+      "product design",
+      "roadmap"
+    ],
+    "capability_clusters": [
+      {
+        "name": "social content repurposing concept",
+        "description": "Roadmap for adapting content across social platforms; implementation is not present.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "visual product direction",
+        "description": "Dark, high-contrast creator-service branding and interface direction.",
+        "scope": "DESIGN"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "product roadmap",
+        "purpose": "Describes staged product goals for content repurposing and future scheduling.",
+        "evidence_paths": [
+          "README.md",
+          "GOAL.md",
+          "BUILD_LOG.md"
+        ]
+      },
+      {
+        "name": "visual direction",
+        "purpose": "Captures the intended creator-oriented brand and interface style.",
+        "evidence_paths": [
+          "DESIGN.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as a product/design reference only; build and verify integrations before treating any planned workflow as available.",
+    "license_notes": "No repository license established in the reviewed tree.",
+    "risk_notes": [
+      "Roadmap and build-log claims do not establish shipped functionality or connected integrations."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/humanizer",
+    "commit": "e2e92e7b4b8229253ed5c8e81dc65463fdeddda5",
+    "purpose": "Host-executed writing skill and plugin that revises prose to reduce formulaic AI-sounding patterns while preserving meaning and the writerâ€™s voice.",
+    "categories": [
+      "category:skills",
+      "category:prompt-libraries",
+      "category:documentation"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "AGENTS.md",
+      "SKILL.md",
+      ".claude-plugin/plugin.json"
+    ],
+    "inspection_scope": "Reviewed the skill/plugin instructions and package metadata. It provides an editing workflow and pattern guidance, not an AI-authorship detector or standalone language model.",
+    "runtime": [
+      "Markdown skill",
+      "plugin metadata"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "humanize prose",
+      "writing revision",
+      "preserve author voice",
+      "AI-sounding patterns",
+      "Claude plugin"
+    ],
+    "capability_clusters": [
+      {
+        "name": "prose style revision",
+        "description": "Rewrites prose to sound more natural while retaining its meaning and intended voice.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "pattern critique",
+        "description": "Flags common formulaic writing patterns and guides a focused revision pass.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "humanizer skill",
+        "purpose": "Provides the host agent with editing instructions and pattern examples.",
+        "evidence_paths": [
+          "SKILL.md",
+          "README.md"
+        ]
+      },
+      {
+        "name": "plugin packaging",
+        "purpose": "Makes the skill discoverable through host plugin metadata.",
+        "evidence_paths": [
+          ".claude-plugin/plugin.json"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Install in a compatible agent host and review factual edits; pattern reduction is not proof of human authorship.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Editing guidance cannot establish authorship and should not alter factual claims without review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/andrej-karpathy-skills",
+    "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+    "purpose": "Agent instruction package promoting deliberate planning, simple solutions, surgical code changes and verifiable completion through a reusable skill and editor rules.",
+    "categories": [
+      "category:skills",
+      "category:agent-workflows",
+      "category:developer-tools"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      ".claude-plugin/plugin.json",
+      "skills/karpathy-guidelines/SKILL.md",
+      ".cursor/rules/karpathy-guidelines.mdc"
+    ],
+    "inspection_scope": "Reviewed the main skill, plugin and editor-rule variants. These are behavioral instructions for host agents, not an autonomous coding runtime.",
+    "runtime": [
+      "Markdown skill",
+      "editor rule",
+      "plugin metadata"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "coding agent guidelines",
+      "plan first",
+      "simplicity",
+      "surgical edits",
+      "verifiable success"
+    ],
+    "capability_clusters": [
+      {
+        "name": "deliberate coding workflow",
+        "description": "Encourages understanding the task and planning before changing code.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "minimal implementation guidance",
+        "description": "Favors simple solutions and tightly scoped edits with observable completion criteria.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Karpathy guidelines skill",
+        "purpose": "Packages the core behavioral guidance for compatible coding agents.",
+        "evidence_paths": [
+          "skills/karpathy-guidelines/SKILL.md"
+        ]
+      },
+      {
+        "name": "editor integrations",
+        "purpose": "Distributes related instructions through plugin and editor-rule metadata.",
+        "evidence_paths": [
+          ".claude-plugin/plugin.json",
+          ".cursor/rules/karpathy-guidelines.mdc"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as host-agent guidance; verify compatibility and the skill's stated MIT terms when redistributing.",
+    "license_notes": "Skill frontmatter states MIT; no root LICENSE was included in the reviewed files, so verify distribution terms.",
+    "risk_notes": [
+      "Instructions influence agent behavior but do not enforce permissions or guarantee code quality."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Game-Demo",
+    "commit": "f2c885bb107df939ae1a98e47cbfab730ba40306",
+    "purpose": "Markdown templates and experiment protocol for recording constraints, decisions, critiques, timelines, evidence gaps and interventions while iterating on a game-building task.",
+    "categories": [
+      "category:documentation",
+      "category:agent-workflows",
+      "category:ai-evaluation"
+    ],
+    "operational": "operational:20",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "gauntlet/README.md",
+      "GAUNTLET-EXPERIMENT.md",
+      "GAUNTLET-PROMPT-ADDENDUM.md",
+      "gauntlet/CONSTRAINT-LEDGER.md",
+      "gauntlet/CRITIQUE-LOG.md",
+      "gauntlet/DECISIONS.md"
+    ],
+    "inspection_scope": "The 15-file tree is documentation and logging templates, not a game implementation or execution framework. It describes evidence-oriented iterative experiments and structured review records.",
+    "runtime": [
+      "Markdown templates"
+    ],
+    "asset_presence": {
+      "prompts_workflows": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "business_media_other": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "game development experiment",
+      "constraint ledger",
+      "critique log",
+      "decision log",
+      "iteration evidence"
+    ],
+    "capability_clusters": [
+      {
+        "name": "game build experiment protocol",
+        "description": "Structures iterative game-building experiments around constraints and verifiable outcomes.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "development evidence logs",
+        "description": "Provides reusable records for decisions, critiques, timelines, gaps and human interventions.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "gauntlet logging templates",
+        "purpose": "Organizes evidence and learning across build iterations.",
+        "evidence_paths": [
+          "gauntlet/README.md",
+          "gauntlet/CONSTRAINT-LEDGER.md",
+          "gauntlet/CRITIQUE-LOG.md",
+          "gauntlet/DECISIONS.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Adapt the logging protocol for bounded experiments; provide the actual game tools and independent evaluation separately.",
+    "license_notes": "No repository license established in the reviewed tree.",
+    "risk_notes": [
+      "Documentation does not implement a game engine, agent loop or hidden-reasoning capture system."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/voice-websites-studio-Scraper",
+    "commit": "a478a729ad771be2d8bcfaccffb6503127cc487b",
+    "purpose": "Python web-capability service prototype combining constrained HTTP extraction, Playwright-backed browser replay, a local capability registry, MCP/API surfaces and health/lead-intelligence endpoints.",
+    "categories": [
+      "category:developer-tools",
+      "category:backend-services",
+      "category:mcp-servers",
+      "category:business-applications"
+    ],
+    "operational": "operational:05",
+    "recommendation": "EXTRACT",
+    "source_review": [
+      "README.md",
+      "pyproject.toml",
+      "docs/ARCHITECTURE.md",
+      "src/scraper/api.py",
+      "src/scraper/capabilities.py",
+      "src/scraper/providers.py",
+      "src/scraper/mcp_server.py",
+      "src/scraper/security.py",
+      "PROJECT_STATE.md",
+      "src/scraper/router.py"
+    ],
+    "inspection_scope": "Reviewed the pinned Python service structure and core provider/capability/API surfaces. HTTP extraction and constrained browser replay are implemented; optional provider fallback raises NotImplementedError and the LLM planner is explicitly absent.",
+    "runtime": [
+      "Python",
+      "FastAPI",
+      "Playwright",
+      "MCP"
+    ],
+    "asset_presence": {
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "browser_computer_use": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "keywords": [
+      "website scraper",
+      "browser replay",
+      "Playwright",
+      "HTTP extraction",
+      "MCP server",
+      "web capability registry",
+      "lead intelligence"
+    ],
+    "capability_clusters": [
+      {
+        "name": "HTTP page extraction",
+        "description": "Fetches public pages and extracts normalized text and metadata with content evidence.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "constrained browser replay",
+        "description": "Runs declared browser actions through a Playwright-backed executor.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "web capability registry",
+        "description": "Stores typed capabilities and trust states in a local registry.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "MCP and service interfaces",
+        "description": "Exposes web operations and health/verification surfaces through service interfaces.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "lead intelligence",
+        "description": "Adds web-derived lead signals and service health observations.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "HTTP and browser providers",
+        "purpose": "Fetches pages and performs constrained browser replay.",
+        "evidence_paths": [
+          "src/scraper/providers.py",
+          "src/scraper/security.py"
+        ]
+      },
+      {
+        "name": "capability registry and routing",
+        "purpose": "Registers capabilities, tracks trust state and routes requests.",
+        "evidence_paths": [
+          "src/scraper/capabilities.py",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "API and MCP surfaces",
+        "purpose": "Provides HTTP and tool-facing access to the service.",
+        "evidence_paths": [
+          "src/scraper/api.py",
+          "src/scraper/mcp_server.py"
+        ]
+      }
+    ],
+    "reuse_recommendation": "A promising extraction base for a bounded web automation service; deeply review URL policy, redirect/SSRF controls, filesystem state and action permissions before selecting it for a build.",
+    "license_notes": "No repository license established in the reviewed metadata.",
+    "risk_notes": [
+      "Arbitrary URLs, redirects, browser actions and local registry writes need build-specific security review; planner/provider fallback is not implemented."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/free-llm-api-resources",
+    "commit": "d7f1c86c8d59d04117fdc248a321444dc7f5de44",
+    "purpose": "Curated directory of external free-tier LLM providers plus a Python updater that retrieves provider model information and renders a comparison catalogue.",
+    "categories": [
+      "category:machine-learning-models",
+      "category:apis",
+      "category:research-projects"
+    ],
+    "operational": "operational:10",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "src/README_template.md",
+      "src/pull_available_models.py",
+      "src/requirements.txt"
+    ],
+    "inspection_scope": "The README is a provider directory; the Python script updates model availability information and generates catalogue output. It does not implement model inference or guarantee current pricing/quotas.",
+    "runtime": [
+      "Python",
+      "Markdown catalogue"
+    ],
+    "asset_presence": {
+      "models": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "free LLM APIs",
+      "model provider directory",
+      "model catalogue updater",
+      "trial credits",
+      "provider comparison"
+    ],
+    "capability_clusters": [
+      {
+        "name": "LLM provider discovery",
+        "description": "Indexes external services that offer free tiers or trial access.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "provider model catalogue updater",
+        "description": "Queries configured provider sources and generates model-list output.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "free-tier comparison",
+        "description": "Collects reference information useful for comparing external access options.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "provider catalogue script",
+        "purpose": "Retrieves model/provider data and renders an updated listing.",
+        "evidence_paths": [
+          "src/pull_available_models.py",
+          "src/requirements.txt"
+        ]
+      },
+      {
+        "name": "provider directory",
+        "purpose": "Lists external LLM services and access references.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use the directory as a discovery lead and validate provider terms, pricing and quotas directly before relying on access; review credentials and outbound calls before running the updater.",
+    "license_notes": "No repository license established in the reviewed tree.",
+    "risk_notes": [
+      "Provider availability, free limits and model names change; the updater makes network requests and may consume quota depending on provider endpoints."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Kimi-K3",
+    "commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+    "purpose": "Reference repository containing a README and license material for the Kimi-K3 project; the bounded tree has no implementation or model weights.",
+    "categories": [
+      "category:machine-learning-models",
+      "category:documentation"
+    ],
+    "operational": "operational:25",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE"
+    ],
+    "inspection_scope": "Only README and license files were present in the inspected tree; this is a documentation/reference record rather than a locally runnable model or service.",
+    "runtime": [
+      "Markdown"
+    ],
+    "asset_presence": {
+      "models": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "Kimi-K3",
+      "model reference",
+      "project documentation"
+    ],
+    "capability_clusters": [
+      {
+        "name": "Kimi-K3 project reference",
+        "description": "Provides documentation and licensing context for an externally referenced project.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "project documentation",
+        "purpose": "Records the project reference and available license information.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Treat as a reference only; inspect the linked upstream and model terms before selecting a model capability.",
+    "license_notes": "See the repository LICENSE; it does not establish terms for any external model or weights.",
+    "risk_notes": [
+      "No local implementation, weights or runtime were verified."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/obsidian-galaxy-graph",
+    "commit": "39ae71a3398452fee6b214049c77ca548d829666",
+    "purpose": "Obsidian desktop plugin that visualizes vault notes and links as an interactive 3D galaxy graph with search, navigation and neighborhood exploration.",
+    "categories": [
+      "category:frontend-applications",
+      "category:productivity",
+      "category:data-visualization"
+    ],
+    "operational": "operational:16",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "package.json",
+      "src/galaxy-view.ts",
+      "src/graph-data.ts"
+    ],
+    "inspection_scope": "Reviewed plugin metadata, graph data and visualization entrypoint. The project adapts Obsidian vault notes/links to a Three.js-based interactive graph; README states local-only behavior, not independently audited here.",
+    "runtime": [
+      "TypeScript",
+      "Obsidian plugin API",
+      "Three.js",
+      "3d-force-graph"
+    ],
+    "asset_presence": {
+      "tools_plugins": "PRESENT",
+      "ui_design": "PRESENT",
+      "data_database_search": "PRESENT"
+    },
+    "keywords": [
+      "Obsidian plugin",
+      "3D knowledge graph",
+      "note visualization",
+      "vault search",
+      "graph navigation"
+    ],
+    "capability_clusters": [
+      {
+        "name": "vault graph visualization",
+        "description": "Renders notes and links as a navigable 3D graph.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "knowledge graph exploration",
+        "description": "Supports search, focus and navigation across linked vault notes.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "Obsidian graph adapter",
+        "description": "Maps vault content and resolved links into visualization data.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "graph data adapter",
+        "purpose": "Builds graph data from vault notes and links.",
+        "evidence_paths": [
+          "src/graph-data.ts"
+        ]
+      },
+      {
+        "name": "galaxy view",
+        "purpose": "Implements interactive graph visualization and navigation.",
+        "evidence_paths": [
+          "src/galaxy-view.ts"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Reuse as an Obsidian visualization plugin or extract graph navigation patterns; review plugin privileges and private vault metadata for the target vault.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Vault content and link metadata may be sensitive; the README's local-only claim was not runtime-audited."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/youtube-intelligence-plugin",
+    "commit": "451e353f90515fea91c085f32e4025931df12f18",
+    "purpose": "Prototype YouTube intelligence package combining Hermes tool contracts, heuristic outlier scoring and a React dashboard, while the registered search/analysis tools and dashboard data remain scaffolded or mocked.",
+    "categories": [
+      "category:ai-agents",
+      "category:research-projects",
+      "category:frontend-applications",
+      "category:mcp-servers"
+    ],
+    "operational": "operational:10",
+    "recommendation": "EXTRACT",
+    "source_review": [
+      "README.md",
+      "pyproject.toml",
+      "hermes_plugin/tools.py",
+      "youtube_intelligence/scoring.py",
+      "dashboard/README.md",
+      "dashboard/src/App.tsx",
+      "skills/find-viral-shorts/SKILL.md",
+      "hermes_plugin/schemas.py"
+    ],
+    "inspection_scope": "Inspected actual tool handlers, scoring module and dashboard documentation. All ten Hermes handlers return a scaffolded/not-ready response; dashboard data is mocked. Scoring provides a V0 heuristic, not a production ranker.",
+    "runtime": [
+      "Python",
+      "Hermes plugin",
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "asset_presence": {
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "data_database_search": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "YouTube intelligence",
+      "outlier scoring",
+      "Hermes plugin",
+      "creator research dashboard",
+      "viral shorts workflow"
+    ],
+    "capability_clusters": [
+      {
+        "name": "YouTube tool contracts",
+        "description": "Defines Hermes-facing search and analysis tool interfaces; handlers currently report not ready.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "outlier scoring heuristic",
+        "description": "Calculates baseline-relative signals and confidence from supplied video/channel metrics.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "creator research dashboard prototype",
+        "description": "Provides a React UI prototype backed by mocked dataset content.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "viral shorts research workflow",
+        "description": "Describes a host-agent workflow for discovering and evaluating short-form content.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hermes plugin contracts",
+        "purpose": "Registers tool schemas and placeholder handlers.",
+        "evidence_paths": [
+          "hermes_plugin/tools.py",
+          "hermes_plugin/schemas.py"
+        ]
+      },
+      {
+        "name": "scoring module",
+        "purpose": "Computes V0 heuristic evidence from channel and video metrics.",
+        "evidence_paths": [
+          "youtube_intelligence/scoring.py"
+        ]
+      },
+      {
+        "name": "dashboard prototype",
+        "purpose": "Displays a prototype creator-intelligence interface with mocked data.",
+        "evidence_paths": [
+          "dashboard/README.md",
+          "dashboard/src/App.tsx"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Extract the scoring prototype or dashboard concepts selectively; implement and verify data connectors before depending on the registered tools.",
+    "license_notes": "No repository license established in the reviewed metadata.",
+    "risk_notes": [
+      "Tool contracts do not perform live YouTube research; mock data and unimplemented handlers must not be presented as working integrations.",
+      "YouTube API credentials, private analytics and content rights require build-specific review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/reclip",
+    "commit": "1d161d15a4fe93d9b3371377f0a421dc3e965b10",
+    "purpose": "Self-hosted web app and command-line wrapper for downloading media URLs as MP4 or MP3 using yt-dlp and FFmpeg, with format selection and batch handling.",
+    "categories": [
+      "category:media-publishing",
+      "category:mcp-servers",
+      "category:cloud-infrastructure"
+    ],
+    "operational": "operational:09",
+    "recommendation": "WRAP",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "app.py",
+      "docker-entrypoint.sh",
+      "reclip.sh",
+      "Dockerfile"
+    ],
+    "inspection_scope": "Reviewed the Python application, wrapper and container configuration. Supported sources depend on the bundled yt-dlp version and external site behavior; no universal site coverage claim is guaranteed.",
+    "runtime": [
+      "Python",
+      "Flask",
+      "yt-dlp",
+      "FFmpeg",
+      "Docker",
+      "shell"
+    ],
+    "asset_presence": {
+      "tools_plugins": "PRESENT",
+      "business_media_other": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "keywords": [
+      "media downloader",
+      "YouTube download",
+      "MP4",
+      "MP3",
+      "yt-dlp",
+      "FFmpeg",
+      "self-hosted"
+    ],
+    "capability_clusters": [
+      {
+        "name": "media URL download service",
+        "description": "Accepts media URLs and produces selected audio/video formats.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "batch download handling",
+        "description": "Supports multiple URL requests and duplicate handling.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "self-hosted deployment",
+        "description": "Packages the app with Docker and a shell entrypoint.",
+        "scope": "CONFIGURATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "web download application",
+        "purpose": "Coordinates URL input, format selection and media conversion.",
+        "evidence_paths": [
+          "app.py"
+        ]
+      },
+      {
+        "name": "deployment wrapper",
+        "purpose": "Builds or launches the service with its media tooling.",
+        "evidence_paths": [
+          "Dockerfile",
+          "docker-entrypoint.sh",
+          "reclip.sh"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Wrap behind authenticated, bounded upload/download controls; review outbound URL access, subprocess and output-path constraints before deployment.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "URL fetching and subprocess conversion create network and local-file risks; public exposure requires authentication and media rights review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/vibe-studio-botmaker",
+    "commit": "93eb3b6d3976b115a372598fa5c02c4f6ab63ed2",
+    "purpose": "Hermes skill and profile templates for interviewing a user, drafting an agent SOUL, scaffolding a bot and recording human approval/certification steps.",
+    "categories": [
+      "category:skills",
+      "category:agent-workflows",
+      "category:developer-tools"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "skills/autonomous-ai-agents/botmaker/SKILL.md",
+      "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+      "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+      "profile/SOUL.md"
+    ],
+    "inspection_scope": "Reviewed the Hermes skill, SOUL template and helper scripts. The workflow describes human approval and child-chat certification; this package is not a Hermes runtime fork and was not invoked.",
+    "runtime": [
+      "Markdown skill",
+      "Python helper scripts",
+      "Hermes profile configuration"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "Hermes bot creation",
+      "agent SOUL",
+      "profile scaffolding",
+      "skill linking",
+      "drift check",
+      "human approval"
+    ],
+    "capability_clusters": [
+      {
+        "name": "agent design interview",
+        "description": "Guides an interview and translates requirements into a draft agent identity and operating instructions.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "Hermes profile scaffolding",
+        "description": "Provides profile templates and helpers for assembling a new bot configuration.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "profile drift checks",
+        "description": "Compares profile files against expected linked skill structure.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "human approval workflow",
+        "description": "Documents review and certification checkpoints for a newly designed bot.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "botmaker skill",
+        "purpose": "Coordinates interview, draft, scaffold and review steps.",
+        "evidence_paths": [
+          "skills/autonomous-ai-agents/botmaker/SKILL.md"
+        ]
+      },
+      {
+        "name": "profile helpers",
+        "purpose": "Links skill trees and checks configuration drift.",
+        "evidence_paths": [
+          "skills/autonomous-ai-agents/botmaker/scripts/link_skill_tree.py",
+          "skills/autonomous-ai-agents/botmaker/scripts/drift_check.py",
+          "profile/SOUL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as host-executed guidance after reviewing file writes, symlink behavior and vault/profile permissions; retain human approval as an actual enforced step.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Scaffolding may write profiles or link local skills; certification is described by instructions and is not enforced by this repository alone."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/awesome-mcp-servers",
+    "commit": "393b4e9fafb0348e5a1c2a4ef5a8719b0d85e061",
+    "purpose": "Multilingual curated directory of external MCP servers, clients, frameworks and learning resources; it does not bundle those server implementations.",
+    "categories": [
+      "category:mcp-servers",
+      "category:research-projects",
+      "category:documentation"
+    ],
+    "operational": "operational:02",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "README-fa-ir.md",
+      "README-ja.md",
+      "README-ko.md",
+      "README-pt_BR.md"
+    ],
+    "inspection_scope": "Reviewed the curated-list structure and language variants. Entries point to independently maintained projects; inclusion is not an audit of current functionality or safety.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "asset_presence": {
+      "mcp": "EXTERNAL_REFERENCE",
+      "tools_plugins": "EXTERNAL_REFERENCE",
+      "agents_frameworks": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "MCP server directory",
+      "Model Context Protocol",
+      "MCP clients",
+      "MCP frameworks",
+      "server discovery"
+    ],
+    "capability_clusters": [
+      {
+        "name": "MCP server discovery",
+        "description": "Indexes external MCP server projects across capability areas.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "MCP client and framework discovery",
+        "description": "Links to external clients, SDKs and frameworks for MCP integration.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "MCP learning resources",
+        "description": "Collects tutorials and educational references for the protocol ecosystem.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "curated MCP catalogue",
+        "purpose": "Organizes external projects and resources for discovery.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "localized catalogues",
+        "purpose": "Provides translated listings for multiple reader communities.",
+        "evidence_paths": [
+          "README-fa-ir.md",
+          "README-ja.md",
+          "README-ko.md",
+          "README-pt_BR.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use for candidate discovery, then inspect each upstream repository, maintenance state, permissions and license independently.",
+    "license_notes": "MIT for this directory; linked projects retain their own terms.",
+    "risk_notes": [
+      "Catalogue membership and README claims do not verify external servers or guarantee safe tool behavior."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/public-apis",
+    "commit": "4cfe04f70da070207b032eed62db76a0c82e11b7",
+    "purpose": "Curated directory of external public APIs, supported by repository scripts and CI for link/package maintenance; API services themselves are not implemented here.",
+    "categories": [
+      "category:apis",
+      "category:research-projects",
+      "category:documentation"
+    ],
+    "operational": "operational:10",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "scripts/README.md",
+      ".github/workflows/validate_links.yml",
+      ".github/workflows/test_of_validate_package.yml"
+    ],
+    "inspection_scope": "Reviewed the API directory, maintenance documentation and validation workflows. The project discovers third-party endpoints; link checks do not establish current uptime or service quality.",
+    "runtime": [
+      "Markdown catalogue",
+      "Node.js maintenance scripts",
+      "GitHub Actions"
+    ],
+    "asset_presence": {
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "keywords": [
+      "public API directory",
+      "API discovery",
+      "API categories",
+      "link validation",
+      "integration research"
+    ],
+    "capability_clusters": [
+      {
+        "name": "public API discovery",
+        "description": "Organizes links to external APIs across many domains.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "domain integration research",
+        "description": "Supports finding candidate APIs for a target product area.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "catalogue maintenance checks",
+        "description": "Runs repository checks for package structure and outbound links.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "API catalogue",
+        "purpose": "Lists and categorizes third-party public API references.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "link and package checks",
+        "purpose": "Maintains the catalogue through automated repository validation.",
+        "evidence_paths": [
+          "scripts/README.md",
+          ".github/workflows/validate_links.yml",
+          ".github/workflows/test_of_validate_package.yml"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as an integration discovery index, then confirm endpoint availability, authentication, terms and data handling directly with each provider.",
+    "license_notes": "MIT for the catalogue repository; APIs and their data retain provider-specific terms.",
+    "risk_notes": [
+      "Directory entries and link checks do not prove service uptime, API behavior, pricing or safe data use."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/material-components",
+    "commit": "087df1a33c79ea8a2ae8c846bee2fce11f367744",
+    "purpose": "Shared Material Design documentation and contribution guidance that links to separate platform implementations; the reviewed repository does not contain those component libraries.",
+    "categories": [
+      "category:frontend-applications",
+      "category:design-systems",
+      "category:documentation"
+    ],
+    "operational": "operational:16",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".mdc-docsite.yml",
+      "COMING_SOON.md",
+      "COMPONENTS_REQUEST_POLICY.md"
+    ],
+    "inspection_scope": "Reviewed the common documentation repository and its platform references. Android, iOS, web and Flutter implementations are maintained separately.",
+    "runtime": [
+      "Markdown documentation",
+      "Jekyll configuration"
+    ],
+    "asset_presence": {
+      "ui_design": "EXTERNAL_REFERENCE",
+      "tools_plugins": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "Material Design",
+      "platform component libraries",
+      "design system documentation",
+      "Android UI",
+      "Flutter UI"
+    ],
+    "capability_clusters": [
+      {
+        "name": "Material platform discovery",
+        "description": "Points to platform-specific Material component implementations.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "design integration guidance",
+        "description": "Documents shared design conventions and component contribution processes.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "shared design documentation",
+        "purpose": "Provides common guidance and routes readers to platform implementations.",
+        "evidence_paths": [
+          "README.md",
+          ".mdc-docsite.yml"
+        ]
+      },
+      {
+        "name": "component request policy",
+        "purpose": "Explains how component proposals are handled in the documentation ecosystem.",
+        "evidence_paths": [
+          "COMPONENTS_REQUEST_POLICY.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use for design-system orientation, then select the matching platform implementation and inspect its current license/API.",
+    "license_notes": "Apache-2.0 for this documentation repository; platform projects may have their own terms.",
+    "risk_notes": [
+      "This repository is not itself the source code for the linked UI components."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Mobile-app-design-agent-skills",
+    "commit": "aa88b4dc5b2e35def6e3a89df85a6461af66a4d0",
+    "purpose": "Agent skill package for guiding mobile application design work through a reusable design workflow.",
+    "categories": [
+      "category:skills",
+      "category:mobile-applications",
+      "category:frontend-applications"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "skills/design-mobile-apps/SKILL.md"
+    ],
+    "inspection_scope": "Reviewed the repository overview and its single mobile-design skill. This is host-executed design guidance rather than a component implementation or mobile runtime.",
+    "runtime": [
+      "Markdown skill"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "mobile app design",
+      "design agent skill",
+      "mobile UX workflow",
+      "iOS Android interface"
+    ],
+    "capability_clusters": [
+      {
+        "name": "mobile product design workflow",
+        "description": "Guides an agent through mobile application design tasks.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "mobile UX reference",
+        "description": "Packages reusable design guidance for mobile interface work.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "mobile design skill",
+        "purpose": "Provides the host agent with the design workflow and reference guidance.",
+        "evidence_paths": [
+          "skills/design-mobile-apps/SKILL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Install in a compatible agent host and pair it with the target app's design system and implementation constraints.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Guidance does not provide production UI components or guarantee platform-specific correctness."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit",
+    "commit": "62ff2a73052da182f87cf86a2b887ea377e95fb4",
+    "purpose": "Small PHP bootstrap/skeleton for integrating with the external Flarum forum framework; the repository does not contain the Flarum core or a complete community platform.",
+    "categories": [
+      "category:backend-services",
+      "category:business-applications",
+      "category:cloud-infrastructure"
+    ],
+    "operational": "operational:12",
+    "recommendation": "WRAP",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "composer.json",
+      "extend.php",
+      "public/index.php",
+      "site.php"
+    ],
+    "inspection_scope": "Reviewed Composer metadata and PHP entrypoints. README identifies Flarum core as an external dependency; local files provide bootstrap and extension integration points.",
+    "runtime": [
+      "PHP",
+      "Composer",
+      "Flarum extension API",
+      "Mithril external frontend"
+    ],
+    "asset_presence": {
+      "apis_sdks_services": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "Flarum integration",
+      "forum bootstrap",
+      "PHP community platform",
+      "extension skeleton"
+    ],
+    "capability_clusters": [
+      {
+        "name": "forum application bootstrap",
+        "description": "Provides the local entrypoints and configuration skeleton for a Flarum-backed site.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "Flarum extension integration",
+        "description": "Exposes extension hooks and application integration points.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "community platform reference",
+        "description": "Documents the intended knowledge-community use of the external forum framework.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "PHP bootstrap",
+        "purpose": "Loads the external Flarum framework through local entrypoints.",
+        "evidence_paths": [
+          "composer.json",
+          "extend.php",
+          "public/index.php",
+          "site.php"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as an integration skeleton only; add and review the Flarum core, extensions, authentication and moderation configuration separately.",
+    "license_notes": "MIT for this repository; verify terms for Flarum and extensions.",
+    "risk_notes": [
+      "The forum engine is an external dependency; user-generated content, moderation and authentication need deployment-specific review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/awesome-chat-react",
+    "commit": "25c95d5c3db99cee6d020d2c1dbf9bb82facde9e",
+    "purpose": "Curated directory of external React and React Native chat interfaces and related resources; it does not bundle a chat UI library.",
+    "categories": [
+      "category:frontend-applications",
+      "category:research-projects"
+    ],
+    "operational": "operational:16",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE"
+    ],
+    "inspection_scope": "The three-file repository is a categorized list of independently maintained chat UI projects and links.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "asset_presence": {
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "React chat UI",
+      "React Native messaging",
+      "chat component discovery",
+      "conversation interface"
+    ],
+    "capability_clusters": [
+      {
+        "name": "React chat interface discovery",
+        "description": "Finds external React chat UI libraries and examples.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "React Native chat discovery",
+        "description": "Points to mobile conversation interface packages maintained upstream.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "chat resource directory",
+        "purpose": "Collects links to chat UI kits and related tools.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use to shortlist components, then check each package's current maintenance, license and integration model.",
+    "license_notes": "MIT for the directory; linked components have independent licenses.",
+    "risk_notes": [
+      "Listings are references, not included or verified UI implementations."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/restreamer",
+    "commit": "fd12aee2a289e9be4fbf45fc1dfa50838cfb149f",
+    "purpose": "Deployment/bundle repository that assembles external Datarhei Core, FFmpeg and UI components into a self-hosted livestreaming distribution.",
+    "categories": [
+      "category:media-publishing",
+      "category:cloud-infrastructure",
+      "category:general-other"
+    ],
+    "operational": "operational:14",
+    "recommendation": "WRAP",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".github/workflows/build_bundle.yaml",
+      ".github/workflows/build_bundle_dev.yaml",
+      "run.sh"
+    ],
+    "inspection_scope": "Reviewed the 20-file distribution repository and bundle workflow. It fetches or assembles external core, UI and FFmpeg components rather than containing the full streaming engine implementation.",
+    "runtime": [
+      "Shell",
+      "Docker/build workflows",
+      "external Datarhei Core",
+      "FFmpeg"
+    ],
+    "asset_presence": {
+      "business_media_other": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "self-hosted livestreaming",
+      "stream rebroadcast",
+      "FFmpeg bundle",
+      "Datarhei Core",
+      "broadcast deployment"
+    ],
+    "capability_clusters": [
+      {
+        "name": "livestream deployment bundle",
+        "description": "Packages external streaming components for self-hosted installation.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "stream processing integration",
+        "description": "Connects FFmpeg and Datarhei Core components within the distribution.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "broadcast distribution workflows",
+        "description": "Provides build and launch scripts for the assembled service.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "bundle build workflows",
+        "purpose": "Assembles the external runtime and distribution artifacts.",
+        "evidence_paths": [
+          ".github/workflows/build_bundle.yaml",
+          ".github/workflows/build_bundle_dev.yaml"
+        ]
+      },
+      {
+        "name": "runtime launcher",
+        "purpose": "Prepares bundled components and starts the core process.",
+        "evidence_paths": [
+          "run.sh"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as a deployment integration starting point and inspect pinned external components, network exposure and database migration behavior before production use.",
+    "license_notes": "Apache-2.0 for this repository; bundled dependencies carry their own terms.",
+    "risk_notes": [
+      "External core/UI/FFmpeg supply most product behavior; launcher may migrate database state and broadcasts require credential/content-rights review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/awesome-computer-vision",
+    "commit": "9b82b1645aecdc9b895fc378d5209a9f6672bb15",
+    "purpose": "Curated computer-vision learning, research, dataset, software and pretrained-model references rather than a bundled vision implementation.",
+    "categories": [
+      "category:machine-learning-models",
+      "category:research-projects",
+      "category:documentation"
+    ],
+    "operational": "operational:08",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "people.md"
+    ],
+    "inspection_scope": "The inspected two-file directory organizes external vision resources and academic references; linked models, datasets and tools are not included.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "asset_presence": {
+      "vision_ocr": "EXTERNAL_REFERENCE",
+      "models": "EXTERNAL_REFERENCE",
+      "data_database_search": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "computer vision resources",
+      "vision datasets",
+      "pretrained models",
+      "research papers",
+      "learning resources"
+    ],
+    "capability_clusters": [
+      {
+        "name": "vision research discovery",
+        "description": "Indexes external papers and software for computer-vision topics.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "dataset and model discovery",
+        "description": "Points to externally hosted vision datasets and pretrained models.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "vision learning resources",
+        "description": "Collects educational material and academic references.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "vision resource index",
+        "purpose": "Organizes external tools, datasets, models and research links.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "researcher directory",
+        "purpose": "Lists people and research references related to computer vision.",
+        "evidence_paths": [
+          "people.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as a discovery index, then inspect the selected upstream artifact, dataset provenance and license independently.",
+    "license_notes": "No repository license established in the reviewed tree.",
+    "risk_notes": [
+      "Linked models and datasets are external; the catalogue does not establish their quality, safety or reuse rights."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/SwiftUI-Agent-Skill",
+    "commit": "ce32af1693b9e78a7d22ff48001c97a304d32063",
+    "purpose": "SwiftUI Pro agent skill and plugin guidance for modern SwiftUI APIs, navigation, state, layout, animation, accessibility and performance.",
+    "categories": [
+      "category:skills",
+      "category:mobile-applications",
+      "category:frontend-applications"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "swiftui-pro/SKILL.md",
+      "swiftui-pro/.claude-plugin/plugin.json",
+      "swiftui-pro/skills/swiftui-pro/SKILL.md"
+    ],
+    "inspection_scope": "Reviewed the packaged skill and nested variant. It supplies host-agent source guidance and references, not a SwiftUI component library or compiled runtime.",
+    "runtime": [
+      "Markdown skill",
+      "plugin metadata",
+      "Swift and SwiftUI reference guidance"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "SwiftUI coding skill",
+      "iOS interface design",
+      "SwiftUI navigation",
+      "accessibility",
+      "performance"
+    ],
+    "capability_clusters": [
+      {
+        "name": "SwiftUI implementation guidance",
+        "description": "Guides agents through SwiftUI APIs, state, navigation and view composition.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "accessibility and performance review",
+        "description": "Provides instruction for evaluating VoiceOver, responsiveness and common SwiftUI pitfalls.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "plugin packaging",
+        "description": "Distributes the guidance as a compatible agent skill/plugin.",
+        "scope": "CONFIGURATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "SwiftUI Pro skill",
+        "purpose": "Contains the core implementation and review guidance.",
+        "evidence_paths": [
+          "swiftui-pro/SKILL.md",
+          "swiftui-pro/skills/swiftui-pro/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin manifest",
+        "purpose": "Declares host discovery and package metadata.",
+        "evidence_paths": [
+          "swiftui-pro/.claude-plugin/plugin.json"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as source guidance alongside the target app and SDK documentation; check platform/API versions because the guidance may age.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Guidance is not a component library and cannot guarantee current API correctness or accessibility conformance."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/esp32-muse-agent",
+    "commit": "9bd511fb510b9336699cdf44cf219a66f4c59d1d",
+    "purpose": "Setup guide and patch scripts for integrating an ESP32-S3 board with an external Muse SDK to build a press-to-talk voice agent with spoken replies and an animated display.",
+    "categories": [
+      "category:mobile-applications",
+      "category:ai-applications",
+      "category:agent-workflows",
+      "category:cloud-infrastructure"
+    ],
+    "operational": "operational:07",
+    "recommendation": "WRAP",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "scripts/configure.sh",
+      "scripts/setup.sh",
+      "docs/lessons-learned.md"
+    ],
+    "inspection_scope": "Reviewed the setup/configuration guidance and scripts. The repository patches and builds an external SDK; no firmware was built or flashed. Source warns that credentials compiled into firmware can be extracted from the device.",
+    "runtime": [
+      "C/C++ ESP32-S3 firmware",
+      "shell setup scripts",
+      "external Muse SDK",
+      "optional OpenAI API"
+    ],
+    "asset_presence": {
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "voice_audio": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "keywords": [
+      "ESP32 voice agent",
+      "Muse SDK",
+      "push-to-talk",
+      "voice interface",
+      "Waveshare AMOLED",
+      "device integration"
+    ],
+    "capability_clusters": [
+      {
+        "name": "ESP32 board and SDK integration",
+        "description": "Applies configuration and patches to an external Muse SDK for the target board.",
+        "scope": "CONFIGURATION"
+      },
+      {
+        "name": "push-to-talk voice interface",
+        "description": "Targets spoken interaction and animated device feedback through external firmware components.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "firmware setup workflow",
+        "description": "Documents environment, credential and build setup for the board integration.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "SDK setup and patch scripts",
+        "purpose": "Fetches/configures the external SDK and applies board-specific modifications.",
+        "evidence_paths": [
+          "scripts/setup.sh",
+          "scripts/configure.sh"
+        ]
+      },
+      {
+        "name": "device integration guide",
+        "purpose": "Describes hardware, voice interaction and credential constraints.",
+        "evidence_paths": [
+          "README.md",
+          "docs/lessons-learned.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as a hardware integration guide after reviewing scripts and key handling; use low-spend credentials and do not embed privileged keys in distributable firmware.",
+    "license_notes": "Apache-2.0 for this repository; external SDK/model/service terms apply.",
+    "risk_notes": [
+      "Firmware may expose compiled credentials to device holders; hardware flashing, microphone privacy and external cloud access need explicit build review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/social-media-research-skills",
+    "commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+    "purpose": "Agent skill/plugin suite for researching public social posts, comments, creators, ads, trends and transcripts through an external ScrapeCreators API.",
+    "categories": [
+      "category:skills",
+      "category:research-projects",
+      "category:business-applications"
+    ],
+    "operational": "operational:10",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "AGENTS.md",
+      ".claude-plugin/plugin.json",
+      "skills/ad-library-teardown/SKILL.md",
+      "skills/audience-research/SKILL.md"
+    ],
+    "inspection_scope": "Reviewed package instructions and representative research skills. The repository provides host-executed workflows and calls an external data service; it does not implement platform APIs or scraping infrastructure.",
+    "runtime": [
+      "Markdown skills",
+      "Claude plugin metadata",
+      "external ScrapeCreators API"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "business_media_other": "PRESENT"
+    },
+    "keywords": [
+      "social media research",
+      "competitor analysis",
+      "ad library teardown",
+      "audience insights",
+      "creator prospecting",
+      "trend discovery"
+    ],
+    "capability_clusters": [
+      {
+        "name": "public social research",
+        "description": "Guides collection and synthesis of public creator and platform signals.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "competitor and ad analysis",
+        "description": "Structures competitor research and advertising creative teardown workflows.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "audience and comment insights",
+        "description": "Analyzes public comments and audience responses for recurring themes.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "content and trend discovery",
+        "description": "Uses transcripts and trend signals to identify reusable content opportunities.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "research skill suite",
+        "purpose": "Packages distinct social research workflows for the host agent.",
+        "evidence_paths": [
+          "README.md",
+          "skills/ad-library-teardown/SKILL.md",
+          "skills/audience-research/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin integration",
+        "purpose": "Declares host discovery and external service configuration.",
+        "evidence_paths": [
+          ".claude-plugin/plugin.json"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use with an authorized API key after checking service terms, platform rules and data retention; validate findings before making business decisions.",
+    "license_notes": "MIT for the skill package; external service and platform terms apply.",
+    "risk_notes": [
+      "Requires external credentials and processes social data; authorization, privacy, retention and provider availability need build-specific review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/autoscraper",
+    "commit": "68a818158c673bf320a8569da10a8b979c1d23fe",
+    "purpose": "Python web-scraping library that learns reusable HTML extraction rules from example text, URLs or attributes and applies them to similar pages.",
+    "categories": [
+      "category:research-projects",
+      "category:apis",
+      "category:developer-tools"
+    ],
+    "operational": "operational:10",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "setup.py",
+      ".github/workflows/tests.yml"
+    ],
+    "inspection_scope": "Reviewed package documentation, distribution metadata and CI configuration. It uses learned matching rules for HTML extraction; it is not an authenticated browser automation system or a demonstrated anti-bot bypass.",
+    "runtime": [
+      "Python",
+      "requests",
+      "BeautifulSoup"
+    ],
+    "asset_presence": {
+      "apis_sdks_services": "PRESENT",
+      "data_database_search": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED"
+    },
+    "keywords": [
+      "Python web scraping",
+      "HTML extraction",
+      "learned selectors",
+      "AutoScraper",
+      "rule reuse"
+    ],
+    "capability_clusters": [
+      {
+        "name": "example-driven extraction rule learning",
+        "description": "Learns matching rules from target text, URL samples or HTML attributes.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "reusable page scraping",
+        "description": "Applies learned extraction rules to similar pages and URLs.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "Python library integration",
+        "description": "Exposes scraping functionality as a Python package for application use.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "AutoScraper library",
+        "purpose": "Learns and applies HTML extraction rules.",
+        "evidence_paths": [
+          "README.md",
+          "setup.py"
+        ]
+      },
+      {
+        "name": "package tests and publishing",
+        "purpose": "Maintains package distribution and automated checks.",
+        "evidence_paths": [
+          ".github/workflows/tests.yml"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use for permitted, public HTML extraction where learned rules remain stable; handle timeouts, URL restrictions and site terms in the calling application.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Untrusted URLs and HTML require network/output controls; learned rules can be brittle and do not establish permission to scrape a site."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/no-ai-slop",
+    "commit": "000650b156983f5159695b441477f4e63b25dc85",
+    "purpose": "Writing skill and plugin that identifies formulaic prose patterns and guides voice-preserving edits, with tooling to package the instructions for an agent host.",
+    "categories": [
+      "category:skills",
+      "category:documentation",
+      "category:developer-tools"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".codex-plugin/plugin.json",
+      "skills/no-ai-slop/SKILL.md",
+      "scripts/build_plugin.py"
+    ],
+    "inspection_scope": "Reviewed the skill, plugin metadata and packaging script. Pattern detection is an editing aid, not an authorship or plagiarism classifier.",
+    "runtime": [
+      "Markdown skill",
+      "Python packaging script",
+      "Codex plugin metadata"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "writing style cleanup",
+      "formulaic prose",
+      "preserve voice",
+      "AI-sounding text patterns",
+      "Codex plugin"
+    ],
+    "capability_clusters": [
+      {
+        "name": "prose pattern review",
+        "description": "Flags common formulaic writing patterns for focused editorial review.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "voice-preserving revision",
+        "description": "Guides edits that retain the author's intent and style.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "plugin packaging",
+        "description": "Builds distributable plugin metadata and package artifacts.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "no-ai-slop skill",
+        "purpose": "Provides detection heuristics and editing instructions to a host agent.",
+        "evidence_paths": [
+          "skills/no-ai-slop/SKILL.md",
+          "README.md"
+        ]
+      },
+      {
+        "name": "plugin packager",
+        "purpose": "Assembles the host plugin package.",
+        "evidence_paths": [
+          "scripts/build_plugin.py",
+          ".codex-plugin/plugin.json"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use as an editorial aid and review factual changes; do not present its pattern flags as proof that text was AI-generated.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "Pattern-based flags can misclassify legitimate writing and should not be used as an authorship score."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/mcp-server-ccxt",
+    "commit": "f7ddee5eb4a335e42541e0c45c6785aa6c88591b",
+    "purpose": "Python MCP server exposing read-only cryptocurrency exchange market data through CCXT, including ticker and OHLCV retrieval.",
+    "categories": [
+      "category:mcp-servers",
+      "category:apis",
+      "category:finance-accounting"
+    ],
+    "operational": "operational:02",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "pyproject.toml",
+      "src/server.py",
+      "Dockerfile"
+    ],
+    "inspection_scope": "Reviewed the actual MCP server entrypoint, package metadata and container setup. Observed tools fetch public ticker, multi-ticker and OHLCV data; no order placement implementation was found. README launch path differs from the src/server.py layout.",
+    "runtime": [
+      "Python",
+      "MCP stdio",
+      "CCXT async",
+      "Docker"
+    ],
+    "asset_presence": {
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "keywords": [
+      "CCXT MCP server",
+      "crypto market data",
+      "exchange ticker",
+      "OHLCV",
+      "read-only finance tools"
+    ],
+    "capability_clusters": [
+      {
+        "name": "exchange ticker data",
+        "description": "Retrieves current market ticker information through CCXT-supported exchanges.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "historical OHLCV data",
+        "description": "Fetches candle data for configured symbols and intervals.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "MCP market data interface",
+        "description": "Exposes market data retrieval as host-callable MCP tools.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "MCP tool server",
+        "purpose": "Defines and serves the market-data tool interface.",
+        "evidence_paths": [
+          "src/server.py"
+        ]
+      },
+      {
+        "name": "CCXT exchange adapter",
+        "purpose": "Uses CCXT asynchronous clients to query exchange market endpoints.",
+        "evidence_paths": [
+          "src/server.py",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use for read-only market-data integrations after checking exchange limits and data semantics; do not treat it as trading execution or financial advice.",
+    "license_notes": "MIT.",
+    "risk_notes": [
+      "External market data can be delayed or inconsistent; rate limits and exchange availability apply. No order execution was observed."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/LiveKit-index",
+    "commit": "9adf0144a2a501934df3e2be1a5067092be65b74",
+    "purpose": "Small registry and task-based setup index for discovering external LiveKit starter templates and configuring selected examples.",
+    "categories": [
+      "category:ai-applications",
+      "category:agent-workflows",
+      "category:documentation"
+    ],
+    "operational": "operational:07",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "taskfile.yaml",
+      "templates.yaml"
+    ],
+    "inspection_scope": "Reviewed all six files. The repository contains template metadata and setup tasks that fetch/use external examples; it is not itself a voice SDK, agent server or full template implementation.",
+    "runtime": [
+      "YAML registry",
+      "Taskfile configuration",
+      "external LiveKit templates"
+    ],
+    "asset_presence": {
+      "voice_audio": "EXTERNAL_REFERENCE",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "keywords": [
+      "LiveKit template index",
+      "voice agent starter discovery",
+      "Taskfile setup",
+      "realtime audio examples"
+    ],
+    "capability_clusters": [
+      {
+        "name": "LiveKit starter discovery",
+        "description": "Catalogues external LiveKit templates for voice and realtime application patterns.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "template setup tasks",
+        "description": "Provides task configuration to initialize selected external examples.",
+        "scope": "CONFIGURATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "template registry",
+        "purpose": "Records external template references and metadata.",
+        "evidence_paths": [
+          "templates.yaml"
+        ]
+      },
+      {
+        "name": "setup task configuration",
+        "purpose": "Defines commands used to initialize selected templates.",
+        "evidence_paths": [
+          "taskfile.yaml"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use to shortlist LiveKit examples, then inspect the selected upstream template and its dependencies before setup.",
+    "license_notes": "Apache-2.0 for this index; external templates have independent terms.",
+    "risk_notes": [
+      "Template entries are references; setup tasks may retrieve and execute external project workflows when invoked."
+    ]
+  }
+]

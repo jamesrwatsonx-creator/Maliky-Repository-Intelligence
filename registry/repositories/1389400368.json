@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Yelp Fusion API",
+  "upstream_url": "https://github.com/Yelp/yelp-fusion",
+  "description": "Yelp Fusion API integration for searching local businesses, retrieving venue details and accessing review-related metadata.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-02T17:10:55Z",
-    "github_description": "Yelp Fusion API"
+    "github_description": "Yelp Fusion API",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b66545583b9d1f337e20582e98aded32160f52cb",
+  "current_commit": "b66545583b9d1f337e20582e98aded32160f52cb",
+  "inspection_date": "2026-10-22T02:26:56.018684+00:00",
   "categories": [
-    "category:apis"
+    "category:apis",
+    "category:business-applications",
+    "category:real-estate-geospatial"
   ],
-  "operational_category": "operational:12",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.767985+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.800192+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.344856+00:00",
     "purpose_established": true
+  },
+  "tree_files": 28,
+  "files_read": 10,
+  "unread_source_files": 6,
+  "repository_intelligence": {
+    "purpose": "Yelp Fusion API integration for searching local businesses, retrieving venue details and accessing review-related metadata.",
+    "reuse_recommendation": "Use within API quotas and display, caching and attribution rules.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and Yelp API terms and display requirements.",
+    "runtime": [
+      "Repository-declared client language",
+      "Yelp API"
+    ],
+    "keywords": [
+      "Yelp Fusion API",
+      "local business search",
+      "restaurant discovery",
+      "business listings",
+      "location services"
+    ],
+    "risk_notes": [
+      "API data has usage restrictions and may include personal/business information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Yelp Fusion client integration",
+        "purpose": "Provides local discovery data through Yelp APIs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:29.315717+00:00",
+    "inspected_commit": "b66545583b9d1f337e20582e98aded32160f52cb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b10ffa5b90a5309883401ff7c5ffee1fa7db5d3d",
+        "value": "https://github.com/jamesrwatsonx-creator/yelp-fusion/blob/b66545583b9d1f337e20582e98aded32160f52cb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "business search and details",
+        "description": "Queries local business listings and location information.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-search-and-details",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "application API integration",
+        "description": "Connects search results to consumer or business workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-api-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

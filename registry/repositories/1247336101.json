@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/google-ai-edge/mediapipe",
-  "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+  "description": "Cross-platform framework for building perception pipelines for vision, audio and other on-device machine-learning tasks.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-05-22T19:12:07Z",
-    "github_description": "Cross-platform, customizable ML solutions for live and streaming media."
+    "github_description": "Cross-platform, customizable ML solutions for live and streaming media.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "56627158379484b070e902b00f0f08271c456d3d",
   "current_commit": "56627158379484b070e902b00f0f08271c456d3d",
   "inspection_date": "2026-09-20T05:32:34.545945+00:00",
   "categories": [
-    "category:creative-tools"
+    "category:machine-learning-models",
+    "category:ai-infrastructure",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.495849+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.625269+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4661,
-  "files_read": 4,
+  "files_read": 11,
   "entity_count": 1,
-  "unread_source_files": 1710,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3580,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.215119+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cross-platform framework for building perception pipelines for vision, audio and other on-device machine-learning tasks.",
+    "reuse_recommendation": "Use for on-device perception and validate model behavior, privacy and target hardware.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Apache-2.0; model assets and datasets may have separate licenses.",
+    "runtime": [
+      "C++",
+      "Android/iOS/Web/Python",
+      "accelerated ML backends"
+    ],
+    "keywords": [
+      "MediaPipe",
+      "computer vision",
+      "on-device ML",
+      "pose tracking",
+      "audio perception"
+    ],
+    "risk_notes": [
+      "Camera, audio and biometric-like inferences need consent and accuracy safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MediaPipe task framework",
+        "purpose": "Packages reusable inference pipelines for perception applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:55.479529+00:00",
+    "inspected_commit": "56627158379484b070e902b00f0f08271c456d3d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e4f5dd182813dc073e0845be06d23d2c58bbeafb",
+        "value": "https://github.com/jamesrwatsonx-creator/mediapipe/blob/56627158379484b070e902b00f0f08271c456d3d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "vision perception tasks",
+        "description": "Provides pipelines for detection, segmentation, landmarks and tracking.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vision-perception-tasks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "audio and multimodal pipelines",
+        "description": "Supports speech and audio-related machine-learning tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-and-multimodal-pipelines",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "cross-platform graph runtime",
+        "description": "Composes models and processing nodes across mobile, web and desktop.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-platform-graph-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

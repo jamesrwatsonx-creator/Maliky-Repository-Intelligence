@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/iv-org/invidious",
-  "description": "Invidious is an alternative front-end to YouTube",
+  "description": "Self-hostable, privacy-oriented alternative front end for viewing and searching YouTube content without the standard YouTube interface.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T11:08:07Z",
-    "github_description": "Invidious is an alternative front-end to YouTube"
+    "github_description": "Invidious is an alternative front-end to YouTube",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "57cc097022ad44a3a4fbd75f25912e7d12a84eb3",
   "current_commit": "57cc097022ad44a3a4fbd75f25912e7d12a84eb3",
   "inspection_date": "2026-10-20T23:55:59.080821+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:media-publishing",
+    "category:privacy"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.225740+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.319821+00:00",
   "tree_files": 369,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 135,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 134,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hostable, privacy-oriented alternative front end for viewing and searching YouTube content without the standard YouTube interface.",
+    "reuse_recommendation": "Reuse only after checking current YouTube behavior, hosting obligations and privacy implications; avoid implying official affiliation.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "AGPL-3.0; confirm obligations for modified network service deployments.",
+    "runtime": [
+      "Crystal web application",
+      "PostgreSQL",
+      "container/Kubernetes deployment"
+    ],
+    "keywords": [
+      "Invidious",
+      "YouTube frontend",
+      "privacy",
+      "video search",
+      "self-hosted media"
+    ],
+    "risk_notes": [
+      "Third-party platform compatibility, content rights and user privacy require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Invidious web service",
+        "purpose": "Combines media browsing, playback and instance operation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:33.439780+00:00",
+    "inspected_commit": "57cc097022ad44a3a4fbd75f25912e7d12a84eb3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a50441a97a20c52d6a52b1ce51c3f599b1a95ac5",
+        "value": "https://github.com/jamesrwatsonx-creator/invidious/blob/57cc097022ad44a3a4fbd75f25912e7d12a84eb3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "video discovery and playback",
+        "description": "Provides search, browsing and playback access to YouTube-hosted media.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-discovery-and-playback",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "privacy-oriented web frontend",
+        "description": "Offers an alternative interface and reduces reliance on the official client experience.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:privacy-oriented-web-frontend",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted deployment",
+        "description": "Includes container and orchestration paths for operating instances.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

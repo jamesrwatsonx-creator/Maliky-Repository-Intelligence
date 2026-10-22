@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/Cybrarist/Discount-Bandit",
-  "description": "A Multi-User Selfhosted price tracker for Amazon, Aliexpress, ebay and many more along with custom stores.  Get notified when price matches one or more criterias set by the user",
+  "description": "Product price tracker for monitoring selected items across online stores and notifying users when prices meet configured conditions.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-10-13T11:44:51Z",
-    "github_description": "A Multi-User Selfhosted price tracker for Amazon, Aliexpress, ebay and many more along with custom stores.  Get notified when price matches one or more criterias set by the user"
+    "github_description": "A Multi-User Selfhosted price tracker for Amazon, Aliexpress, ebay and many more along with custom stores.  Get notified when price matches one or more criterias set by the user",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fb9caebee58f8e0785cdd697c728e6094d5457f7",
   "current_commit": "fb9caebee58f8e0785cdd697c728e6094d5457f7",
   "inspection_date": "2026-10-20T23:53:45.784242+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:commerce-e-commerce",
+    "category:business-applications",
+    "category:automation-scripting"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.660785+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.535145+00:00",
   "tree_files": 467,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 363,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 361,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Product price tracker for monitoring selected items across online stores and notifying users when prices meet configured conditions.",
+    "reuse_recommendation": "Verify retailer access methods, terms, update frequency and notification handling before operating at scale.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and retailer/API terms.",
+    "runtime": [
+      "Web application",
+      "retailer integrations and background checks"
+    ],
+    "keywords": [
+      "Discount Bandit",
+      "price tracking",
+      "Amazon eBay alerts",
+      "retail monitoring",
+      "price drop notifications"
+    ],
+    "risk_notes": [
+      "Retailer data availability and scraping restrictions change; avoid bypassing access controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Discount Bandit tracker",
+        "purpose": "Combines retailer monitoring with price condition alerts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:52.945786+00:00",
+    "inspected_commit": "fb9caebee58f8e0785cdd697c728e6094d5457f7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "694707507b5e680ceb988a57177d175c44aad303",
+        "value": "https://github.com/jamesrwatsonx-creator/Discount-Bandit-Amazon-Ebay-exposed-/blob/fb9caebee58f8e0785cdd697c728e6094d5457f7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-store price tracking",
+        "description": "Tracks product prices across supported retailers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-store-price-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "price alert notifications",
+        "description": "Notifies users when configured price conditions are met.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:price-alert-notifications",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

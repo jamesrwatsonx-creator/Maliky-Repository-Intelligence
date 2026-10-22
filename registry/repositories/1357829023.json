@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Lightricks/LTX-2",
-  "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+  "description": "Lightricks generative audio-video model and tools for producing synchronized video and audio from prompts and visual inputs.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-26T10:47:10Z",
-    "github_description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model."
+    "github_description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a95ab856bf29407b6b066ede0abe1846050db56c",
   "current_commit": "a95ab856bf29407b6b066ede0abe1846050db56c",
   "inspection_date": "2026-09-20T05:35:51.451476+00:00",
   "categories": [
-    "category:creative-tools",
+    "category:machine-learning-models",
     "category:generative-ai",
-    "category:llm-projects"
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:09",
     "operational:15"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.443801+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.557196+00:00",
   "tree_files": 415,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 370,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 377,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.209340+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Lightricks generative audio-video model and tools for producing synchronized video and audio from prompts and visual inputs.",
+    "reuse_recommendation": "Evaluate compute, model terms and output safeguards before building; review generated likeness and audio rights.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "Verify code, checkpoint and commercial use terms separately.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "video/audio generation model",
+      "GPU"
+    ],
+    "keywords": [
+      "LTX-2",
+      "audio video generation",
+      "text to video",
+      "synchronized audio",
+      "Lightricks model"
+    ],
+    "risk_notes": [
+      "Large model and synthetic media outputs require provenance, consent and rights review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LTX-2 model toolkit",
+        "purpose": "Provides model assets and inference paths for synchronized media generation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:50.260922+00:00",
+    "inspected_commit": "a95ab856bf29407b6b066ede0abe1846050db56c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4e0b9233c4ea65a4550c079bbf1482cbe3bdd95e",
+        "value": "https://github.com/jamesrwatsonx-creator/LTX-2/blob/a95ab856bf29407b6b066ede0abe1846050db56c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "generative video pipeline",
+        "description": "Produces video outputs from supported prompt and image conditions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:generative-video-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "synchronized audio generation",
+        "description": "Coordinates audio output with generated video content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:synchronized-audio-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model setup and inference",
+        "description": "Provides checkpoint and runtime guidance for generation.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-setup-and-inference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

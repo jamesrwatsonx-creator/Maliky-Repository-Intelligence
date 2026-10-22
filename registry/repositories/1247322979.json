@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/invoke-ai/InvokeAI",
-  "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+  "description": "Creative generative-media platform for running image-generation models and managing workflows, assets and model configurations.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-05-22T01:35:27Z",
-    "github_description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+    "github_description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b4224d97fdb16d4124d49da725e5979f2c3be576",
   "current_commit": "b4224d97fdb16d4124d49da725e5979f2c3be576",
   "inspection_date": "2026-09-20T05:32:30.370776+00:00",
   "categories": [
-    "category:creative-tools"
+    "category:generative-ai",
+    "category:creative-tools",
+    "category:machine-learning-models"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.254849+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.355829+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 3462,
-  "files_read": 7,
+  "files_read": 13,
   "entity_count": 7,
-  "unread_source_files": 2891,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2979,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.184650+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Creative generative-media platform for running image-generation models and managing workflows, assets and model configurations.",
+    "reuse_recommendation": "Use for local creative pipelines after checking hardware, model provenance and content rights.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check software, checkpoints, LoRAs and generated media licenses individually.",
+    "runtime": [
+      "Python",
+      "PyTorch/CUDA",
+      "model assets"
+    ],
+    "keywords": [
+      "InvokeAI",
+      "Stable Diffusion",
+      "image generation",
+      "creative workflow",
+      "model management"
+    ],
+    "risk_notes": [
+      "Model files and generated content have independent licensing and safety considerations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "InvokeAI creative platform",
+        "purpose": "Combines model inference with a creator-focused interface and workflow system.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:20.886606+00:00",
+    "inspected_commit": "b4224d97fdb16d4124d49da725e5979f2c3be576",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "afc0211bd91ca4167e3d99fa406fdde53ec2dc3f",
+        "value": "https://github.com/jamesrwatsonx-creator/InvokeAI/blob/b4224d97fdb16d4124d49da725e5979f2c3be576/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "image generation and editing",
+        "description": "Creates and transforms images through supported generative models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:image-generation-and-editing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "visual workflow editor",
+        "description": "Composes reusable generation pipelines and node-based operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-workflow-editor",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model and asset management",
+        "description": "Organizes checkpoints and generated creative outputs.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-and-asset-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

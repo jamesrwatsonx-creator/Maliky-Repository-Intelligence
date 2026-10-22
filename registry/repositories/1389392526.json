@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "An OSINT tool to search for accounts by username and email in social networks.",
+  "upstream_url": "https://github.com/antoniaci/blackbird",
+  "description": "Username and account discovery tool for searching public profiles and identities across internet services.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2025-07-13T13:48:19Z",
-    "github_description": "An OSINT tool to search for accounts by username and email in social networks."
+    "github_description": "An OSINT tool to search for accounts by username and email in social networks.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b45505080ef51bb3ef52dc29879ee6bef31e5b94",
+  "current_commit": "b45505080ef51bb3ef52dc29879ee6bef31e5b94",
+  "inspection_date": "2026-10-22T02:26:00.367325+00:00",
   "categories": [
-    "category:research-projects"
+    "category:cybersecurity",
+    "category:privacy",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:10",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.302587+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.055227+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.083535+00:00",
     "purpose_established": true
+  },
+  "tree_files": 69,
+  "files_read": 10,
+  "unread_source_files": 41,
+  "repository_intelligence": {
+    "purpose": "Username and account discovery tool for searching public profiles and identities across internet services.",
+    "reuse_recommendation": "Use only for legitimate, consent-based investigations and minimize retention of results.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository license and target platform terms.",
+    "runtime": [
+      "Python/CLI",
+      "HTTP services"
+    ],
+    "keywords": [
+      "Blackbird OSINT",
+      "username search",
+      "account discovery",
+      "public profiles",
+      "reconnaissance"
+    ],
+    "risk_notes": [
+      "Identity enumeration may enable harassment or doxxing and can trigger platform controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Blackbird account finder",
+        "purpose": "Automates public profile discovery across services.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:27.052666+00:00",
+    "inspected_commit": "b45505080ef51bb3ef52dc29879ee6bef31e5b94",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "74c6300bfd0562d30b92d9cc7c3fa766cfba9519",
+        "value": "https://github.com/jamesrwatsonx-creator/blackbird/blob/b45505080ef51bb3ef52dc29879ee6bef31e5b94/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "cross-platform account search",
+        "description": "Searches supported services for public accounts matching an identifier.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-platform-account-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "results aggregation",
+        "description": "Collects and presents matches for analyst review.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:results-aggregation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

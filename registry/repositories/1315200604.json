@@ -11,26 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/vercel-labs/skills",
-  "description": "The open agent skills tool - npx skills",
+  "description": "CLI for discovering, installing and invoking agent skills across multiple coding-agent hosts.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-22T21:14:21Z",
-    "github_description": "The open agent skills tool - npx skills"
+    "github_description": "The open agent skills tool - npx skills",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
   "current_commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
   "inspection_date": "2026-09-20T05:32:58.120658+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ai-agents",
-    "category:cli-tools",
-    "category:libraries-packages",
-    "category:skills"
+    "category:developer-tools",
+    "category:skills",
+    "category:cli-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -48,7 +47,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -293,11 +292,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.192453+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.259195+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -320,7 +320,7 @@
   "files_read": 104,
   "entity_count": 7,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -339,5 +339,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.287598+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "CLI for discovering, installing and invoking agent skills across multiple coding-agent hosts.",
+    "reuse_recommendation": "Useful distribution tooling; review downloaded skill provenance and inspect installation targets before running.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE; installed skills retain their own licenses.",
+    "runtime": [
+      "Node.js CLI",
+      "agent skill directory formats"
+    ],
+    "keywords": [
+      "skills CLI",
+      "agent skill install",
+      "coding agents",
+      "skill discovery",
+      "multi-host"
+    ],
+    "risk_notes": [
+      "Installs third-party instructions into agent hosts; review source trust, file changes and host permissions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "skills CLI",
+        "purpose": "Manages skill discovery and host-specific installation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:41.412777+00:00",
+    "inspected_commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9f1222e2f25cefbbc431f0e3321904399c1ef460",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-finds/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "skill discovery and installation",
+        "description": "Finds and installs skills into supported agent environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:skill-discovery-and-installation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "skill prompt invocation",
+        "description": "Supports using a selected skill as an interactive prompt or agent workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:skill-prompt-invocation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-agent host support",
+        "description": "Adapts installation across a broad set of coding-agent hosts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-agent-host-support",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

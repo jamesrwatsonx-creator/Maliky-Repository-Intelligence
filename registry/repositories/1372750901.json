@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/mikf/gallery-dl",
-  "description": "Command-line program to download image galleries and collections from several image hosting sites",
+  "description": "Command-line program for downloading image galleries and collections from supported websites.",
   "metadata": {
     "language": null,
     "license": "GPL-2.0",
     "archived": false,
     "pushed_at": "2026-09-12T08:43:37Z",
-    "github_description": "Command-line program to download image galleries and collections from several image hosting sites"
+    "github_description": "Command-line program to download image galleries and collections from several image hosting sites",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d9eebbea041a52e347a2b181bdd64536a875d004",
   "current_commit": "d9eebbea041a52e347a2b181bdd64536a875d004",
   "inspection_date": "2026-09-20T05:36:27.459898+00:00",
   "categories": [
-    "category:general-other"
+    "category:cli-tools",
+    "category:media-publishing",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.937238+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.999061+00:00",
   "tree_files": 763,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 735,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 733,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.147004+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Command-line program for downloading image galleries and collections from supported websites.",
+    "reuse_recommendation": "Use only for permitted personal or authorized archives; respect site access controls and rights.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "GPL-2.0-or-later; downloaded media retain source rights and site terms.",
+    "runtime": [
+      "Python CLI",
+      "HTTP/network services"
+    ],
+    "keywords": [
+      "gallery-dl",
+      "image downloader",
+      "media archives",
+      "website extractors",
+      "CLI"
+    ],
+    "risk_notes": [
+      "Credentials and copyrighted or private media may be involved."
+    ],
+    "important_subsystems": [
+      {
+        "name": "gallery-dl extractor framework",
+        "purpose": "Maps supported sites to repeatable gallery download behavior.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:16.969633+00:00",
+    "inspected_commit": "d9eebbea041a52e347a2b181bdd64536a875d004",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "aa9da979baf9f879f64022e1fba9523581556099",
+        "value": "https://github.com/jamesrwatsonx-creator/gallery-dl/blob/d9eebbea041a52e347a2b181bdd64536a875d004/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "site-specific gallery extraction",
+        "description": "Supports downloading media collections from a range of configured websites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:site-specific-gallery-extraction",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "batch download and organization",
+        "description": "Automates media retrieval and local file naming/organization.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:batch-download-and-organization",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "CLI configuration",
+        "description": "Allows users to configure credentials, filters and output behavior.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:cli-configuration",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

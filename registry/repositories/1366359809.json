@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/hummingbot/hummingbot",
-  "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+  "description": "Open-source algorithmic trading framework and connectors for automated cryptocurrency market-making and trading strategies.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-10T21:33:04Z",
-    "github_description": "Open source software that helps you create and deploy high-frequency crypto trading bots"
+    "github_description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2bfaccc48dd49e71a5b6d9b3011808e127dd00cd",
   "current_commit": "2bfaccc48dd49e71a5b6d9b3011808e127dd00cd",
   "inspection_date": "2026-09-20T05:36:06.926698+00:00",
   "categories": [
-    "category:commerce-e-commerce",
-    "category:devops"
+    "category:finance-accounting",
+    "category:automation-scripting",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [
     "operational:14"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.151694+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.226183+00:00",
   "tree_files": 1860,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1668,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1686,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.175359+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source algorithmic trading framework and connectors for automated cryptocurrency market-making and trading strategies.",
+    "reuse_recommendation": "Use in paper mode first and restrict API key permissions; do not treat strategies as investment advice.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Apache-2.0; exchanges, connectors and financial rules have separate terms.",
+    "runtime": [
+      "Python",
+      "exchange APIs",
+      "market data services"
+    ],
+    "keywords": [
+      "Hummingbot",
+      "crypto trading",
+      "market making",
+      "exchange connectors",
+      "algorithmic execution"
+    ],
+    "risk_notes": [
+      "Live trading may lose funds; secrets and transaction execution require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hummingbot trading runtime",
+        "purpose": "Coordinates strategies and exchange connectivity for automated trading.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:14.185153+00:00",
+    "inspected_commit": "2bfaccc48dd49e71a5b6d9b3011808e127dd00cd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "20dadd44364c91a25448716ebb92e142797794da",
+        "value": "https://github.com/jamesrwatsonx-creator/hummingbot/blob/2bfaccc48dd49e71a5b6d9b3011808e127dd00cd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "trading strategy framework",
+        "description": "Builds and runs automated market-making or trading strategies.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:trading-strategy-framework",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "exchange connector ecosystem",
+        "description": "Connects strategies to centralized and decentralized venues.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:exchange-connector-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "strategy testing and operations",
+        "description": "Supports simulation, configuration and bot monitoring.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:strategy-testing-and-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,28 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/letta-ai/agent-sdk-mobile-app",
-  "description": "Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.",
+  "description": "Bloop mobile client and worked example for chatting with Letta agents, viewing streamed reasoning/tool events and approving consequential actions.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-15T21:48:19Z",
-    "github_description": "Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers."
+    "github_description": "Example mobile app built on top of the Letta Agent SDK. Supports both Letta Cloud and self-hosted remote app servers.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "dc414f05172c62af1bc993a556ffa33f6033bb7d",
   "current_commit": "dc414f05172c62af1bc993a556ffa33f6033bb7d",
   "inspection_date": "2026-09-20T05:33:55.226796+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-applications",
-    "category:apis",
-    "category:frontend-applications",
     "category:mobile-applications",
-    "category:reference-implementations",
+    "category:ai-agents",
     "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:19",
+  "operational_category": "operational:06",
   "secondary_operational_categories": [
     "operational:03",
     "operational:12"
@@ -73,7 +70,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -378,9 +375,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.948111+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.655943+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -484,5 +482,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.041357+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Bloop mobile client and worked example for chatting with Letta agents, viewing streamed reasoning/tool events and approving consequential actions.",
+    "reuse_recommendation": "Use as a mobile SDK reference; deeply review auth/session storage, streamed event handling and approval enforcement before production.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "Apache-2.0; Letta Cloud and SDK terms apply.",
+    "runtime": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Letta Agent SDK"
+    ],
+    "keywords": [
+      "Letta mobile client",
+      "agent chat app",
+      "streaming tool events",
+      "mobile agent approvals",
+      "Expo"
+    ],
+    "risk_notes": [
+      "Agent tools may perform consequential actions; verify approval is enforced server-side and protect conversation data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Bloop mobile client",
+        "purpose": "Demonstrates a full mobile Letta SDK interaction flow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:51.990763+00:00",
+    "inspected_commit": "dc414f05172c62af1bc993a556ffa33f6033bb7d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bc79bb4eb598926052899c70bb3210e5e26b7dc1",
+        "value": "https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app/blob/dc414f05172c62af1bc993a556ffa33f6033bb7d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "mobile agent client",
+        "description": "Lets users select agents and continue conversations from a phone.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-agent-client",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "streamed agent transcript UI",
+        "description": "Reduces streamed SDK events into a readable conversation and activity view.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:streamed-agent-transcript-ui",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "consequential action approval",
+        "description": "Provides a user approval interaction for agent actions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:consequential-action-approval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

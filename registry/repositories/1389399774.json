@@ -10,24 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+  "upstream_url": "https://github.com/gosom/google-maps-scraper",
+  "description": "Scraping or extraction tool for collecting business and place information from Google Maps search results.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-24T04:54:54Z",
-    "github_description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place"
+    "github_description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "d0b51bcf3cd56d9a3f71e049cb6e226554e24162",
+  "current_commit": "d0b51bcf3cd56d9a3f71e049cb6e226554e24162",
+  "inspection_date": "2026-10-22T02:26:49.344282+00:00",
   "categories": [
-    "category:frontend-applications",
-    "category:research-projects"
+    "category:real-estate-geospatial",
+    "category:data-engineering",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:10",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [
     "operational:16"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.027941+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.102114+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.159188+00:00",
     "purpose_established": true
+  },
+  "tree_files": 260,
+  "files_read": 10,
+  "unread_source_files": 222,
+  "repository_intelligence": {
+    "purpose": "Scraping or extraction tool for collecting business and place information from Google Maps search results.",
+    "reuse_recommendation": "Prefer official APIs and use only with policy-compliant collection and data minimization.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review Google Maps terms, API policies and applicable privacy law.",
+    "runtime": [
+      "Repository-declared runtime",
+      "browser or Maps endpoints"
+    ],
+    "keywords": [
+      "Google Maps scraping",
+      "local business data",
+      "places extraction",
+      "geospatial lead data",
+      "maps automation"
+    ],
+    "risk_notes": [
+      "Scraping may violate platform terms and collect personal/business data at scale."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Maps scraping pipeline",
+        "purpose": "Automates collection of place information for analysis.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:29.074812+00:00",
+    "inspected_commit": "d0b51bcf3cd56d9a3f71e049cb6e226554e24162",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1dd1d5ca3f65cd7e08253f727d32cf30a3419672",
+        "value": "https://github.com/jamesrwatsonx-creator/google-maps-scraper/blob/d0b51bcf3cd56d9a3f71e049cb6e226554e24162/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "place and business data collection",
+        "description": "Collects place listings and associated public fields.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:place-and-business-data-collection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "search and export workflow",
+        "description": "Automates queries and organizes extracted results.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:search-and-export-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

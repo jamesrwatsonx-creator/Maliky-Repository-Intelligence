@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/DePayFi/widgets",
-  "description": "💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable widgets designed for seamless user experience.",
+  "description": "DePay web3 payment widgets and JavaScript SDK for embedding cryptocurrency payment flows into web applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-03-29T17:58:40Z",
-    "github_description": "💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable widgets designed for seamless user experience."
+    "github_description": "💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable widgets designed for seamless user experience.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f9856f3ff1163d52fd0084a37291a4312e67e5eb",
   "current_commit": "f9856f3ff1163d52fd0084a37291a4312e67e5eb",
   "inspection_date": "2026-10-20T23:53:34.299613+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:commerce-e-commerce",
+    "category:sdks-client-libraries",
+    "category:blockchain-web3-security"
+  ],
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,106 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.740393+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.751147+00:00",
   "tree_files": 277,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 258,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 254,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "DePay web3 payment widgets and JavaScript SDK for embedding cryptocurrency payment flows into web applications.",
+    "reuse_recommendation": "Do not process funds until transaction signing, chain/token validation, refunds and user-confirmation flows are reviewed.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "MIT repository metadata; blockchain, token and wallet dependencies have separate terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "DePay widgets",
+      "web3 payments",
+      "crypto checkout",
+      "JavaScript payment SDK",
+      "wallet integration"
+    ],
+    "risk_notes": [
+      "Payments and wallet access are deep-review triggers; verify signing boundaries, token contracts and transaction handling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "DePay payment widgets",
+        "purpose": "Packages user-facing payment components and supporting SDK behavior.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:59.788371+00:00",
+    "inspected_commit": "f9856f3ff1163d52fd0084a37291a4312e67e5eb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "25f7e765500ec100ea3a6b00f6897efd54b08b3f",
+        "value": "https://github.com/jamesrwatsonx-creator/widgets---web3-payments/blob/f9856f3ff1163d52fd0084a37291a4312e67e5eb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "crypto payment widgets",
+        "description": "Provides embeddable UI for cryptocurrency payment flows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crypto-payment-widgets",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "web3 payment SDK",
+        "description": "Connects frontend applications to wallet and payment operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web3-payment-sdk",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "payment provider integration",
+        "description": "Coordinates on-chain payment interactions with DePay services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:payment-provider-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

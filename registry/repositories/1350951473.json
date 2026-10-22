@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/bilawalsidhu/gods-eye-view",
-  "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+  "description": "Browser-based 3D globe visualization aggregating public aircraft, ships, satellites, earthquakes, traffic and camera data.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-28T00:46:30Z",
-    "github_description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+    "github_description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "314a0e1c2ef668cb110674b737e19a44ff6fc1ef",
   "current_commit": "314a0e1c2ef668cb110674b737e19a44ff6fc1ef",
   "inspection_date": "2026-09-20T05:35:41.818135+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:research-projects"
+    "category:web-applications",
+    "category:data-visualization",
+    "category:real-estate-geospatial"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:10"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.017902+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.091113+00:00",
   "tree_files": 428,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 383,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 375,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.157325+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Browser-based 3D globe visualization aggregating public aircraft, ships, satellites, earthquakes, traffic and camera data.",
+    "reuse_recommendation": "Review feed provenance, update cadence, terms and privacy implications before republishing or operational use.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "Review repository and each public data feed's terms.",
+    "runtime": [
+      "WebGL/3D frontend",
+      "public data APIs"
+    ],
+    "keywords": [
+      "God's Eye View",
+      "3D globe OSINT",
+      "public aircraft ships satellites",
+      "geospatial dashboard",
+      "live events"
+    ],
+    "risk_notes": [
+      "Public data aggregation can expose location patterns; label stale/modeled data and avoid targeting individuals."
+    ],
+    "important_subsystems": [
+      {
+        "name": "God's Eye View globe",
+        "purpose": "Presents public geospatial feeds in a single interactive interface.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:51.241129+00:00",
+    "inspected_commit": "314a0e1c2ef668cb110674b737e19a44ff6fc1ef",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ff82dab65ca52f6f8636c3108fbe49e50699c044",
+        "value": "https://github.com/jamesrwatsonx-creator/gods-eye-view/blob/314a0e1c2ef668cb110674b737e19a44ff6fc1ef/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "global public-data visualization",
+        "description": "Displays public geospatial feeds on an interactive 3D globe.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:global-public-data-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-source event aggregation",
+        "description": "Combines aviation, maritime, satellite, seismic and traffic data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-source-event-aggregation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "modeled and live feed labeling",
+        "description": "Distinguishes live feeds from modeled views where direct data is unavailable.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:modeled-and-live-feed-labeling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

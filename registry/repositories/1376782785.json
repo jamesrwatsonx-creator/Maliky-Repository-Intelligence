@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/airbnb/lottie-web",
-  "description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
+  "description": "JavaScript Lottie/Bodymovin renderer for displaying After Effects animation exports across web and other supported platforms.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-09-01T09:01:31Z",
-    "github_description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/"
+    "github_description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
   "current_commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
   "inspection_date": "2026-09-20T05:36:45.021042+00:00",
   "categories": [
+    "category:libraries-packages",
     "category:frontend-applications",
-    "category:mobile-applications"
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [
     "operational:16"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.433616+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.548198+00:00",
   "tree_files": 337,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 315,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 313,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.208153+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript Lottie/Bodymovin renderer for displaying After Effects animation exports across web and other supported platforms.",
+    "reuse_recommendation": "Use with trusted animation assets and validate renderer compatibility and reduced-motion support.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "MIT; Adobe and animation asset rights remain separate.",
+    "runtime": [
+      "JavaScript",
+      "browser SVG/canvas/HTML renderers"
+    ],
+    "keywords": [
+      "Lottie web",
+      "Bodymovin renderer",
+      "After Effects JSON animation",
+      "SVG canvas animation",
+      "JavaScript"
+    ],
+    "risk_notes": [
+      "Animation files can be complex; review performance, asset rights and accessibility."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lottie web renderer",
+        "purpose": "Parses and displays Bodymovin animation assets.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:18.604340+00:00",
+    "inspected_commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "98de95b9459860384d8c42c129df278d94883ac4",
+        "value": "https://github.com/jamesrwatsonx-creator/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Lottie animation rendering",
+        "description": "Renders exported animation JSON in browser environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:lottie-animation-rendering",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-platform animation runtime",
+        "description": "Supports rendering through several platform-specific Lottie libraries.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-platform-animation-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

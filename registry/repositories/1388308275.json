@@ -10,24 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "The open-source skills that turn your agent into a full PR team.",
+  "upstream_url": "https://github.com/elvisun/newsjack",
+  "description": "News monitoring and content workflow for identifying timely stories and producing related commentary or marketing materials.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-19T17:11:34Z",
-    "github_description": "The open-source skills that turn your agent into a full PR team."
+    "github_description": "The open-source skills that turn your agent into a full PR team.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "092d882fc69912622f620c50eb493afe625f99dc",
+  "current_commit": "092d882fc69912622f620c50eb493afe625f99dc",
+  "inspection_date": "2026-10-22T02:24:39.168319+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:skills"
+    "category:media-publishing",
+    "category:marketing-communications",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.598113+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.755895+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.228619+00:00",
     "purpose_established": true
+  },
+  "tree_files": 4281,
+  "files_read": 10,
+  "unread_source_files": 4164,
+  "repository_intelligence": {
+    "purpose": "News monitoring and content workflow for identifying timely stories and producing related commentary or marketing materials.",
+    "reuse_recommendation": "Use with source verification, attribution and editorial review before publication.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and news source/API terms.",
+    "runtime": [
+      "Web/API or agent workflow",
+      "news sources",
+      "LLM services"
+    ],
+    "keywords": [
+      "news monitoring",
+      "newsjacking",
+      "trend tracking",
+      "content ideation",
+      "media workflow"
+    ],
+    "risk_notes": [
+      "Breaking news can be inaccurate or sensitive; avoid exploiting tragedies or misinformation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Newsjack content pipeline",
+        "purpose": "Connects topic discovery with timely content production.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:23.982867+00:00",
+    "inspected_commit": "092d882fc69912622f620c50eb493afe625f99dc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2b7d448955ec905aa30d61773ed9cfc418a1551a",
+        "value": "https://github.com/jamesrwatsonx-creator/newsjack/blob/092d882fc69912622f620c50eb493afe625f99dc/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "news and trend discovery",
+        "description": "Finds relevant current stories or topics for a content workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:news-and-trend-discovery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "content response planning",
+        "description": "Structures timely commentary or campaign content based on discovered news.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:content-response-planning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

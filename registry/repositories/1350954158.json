@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/p-e-w/heretic",
-  "description": "Fully automatic censorship removal for language models",
+  "description": "Research toolkit that automates removal of refusal behavior from language models through optimization and fine-tuning workflows.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-17T16:57:44Z",
-    "github_description": "Fully automatic censorship removal for language models"
+    "github_description": "Fully automatic censorship removal for language models",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "bedb94ef117a271532ac2058447fbc165d5051bd",
   "current_commit": "bedb94ef117a271532ac2058447fbc165d5051bd",
   "inspection_date": "2026-09-20T05:35:41.746350+00:00",
   "categories": [
-    "category:general-other"
+    "category:machine-learning-models",
+    "category:research-projects",
+    "category:ai-safety-alignment"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.089588+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.166145+00:00",
   "tree_files": 51,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 30,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 19,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,114 @@
     ],
     "updated_at": "2026-10-12T19:04:27.168574+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Research toolkit that automates removal of refusal behavior from language models through optimization and fine-tuning workflows.",
+    "reuse_recommendation": "Research reference only unless the use case is explicitly approved; evaluate safety impact and model redistribution terms before running.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "See repository LICENSE; model weights and datasets have independent terms.",
+    "runtime": [
+      "Python",
+      "PyTorch/transformer tooling",
+      "local or hosted model artifacts"
+    ],
+    "keywords": [
+      "model refusal removal",
+      "LLM fine tuning",
+      "model optimization",
+      "research tooling"
+    ],
+    "risk_notes": [
+      "Designed to weaken refusal behavior; outputs may remove safety protections and require controlled, authorized research handling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Heretic model workflow",
+        "purpose": "Coordinates the research pipeline for modifying and evaluating model behavior.",
+        "evidence_paths": [
+          "README.md",
+          "src/heretic/main.py",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:45.538038+00:00",
+    "inspected_commit": "bedb94ef117a271532ac2058447fbc165d5051bd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ec4e8090207c2db1bce3c4ba5684bc10ef03fbe4",
+        "value": "https://github.com/jamesrwatsonx-creator/heretic/blob/bedb94ef117a271532ac2058447fbc165d5051bd/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+        "value": "https://github.com/jamesrwatsonx-creator/heretic/blob/bedb94ef117a271532ac2058447fbc165d5051bd/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "ddd422faa5195a7320041a61555a3ce5b2727738",
+        "value": "https://github.com/jamesrwatsonx-creator/heretic/blob/bedb94ef117a271532ac2058447fbc165d5051bd/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "src/heretic/main.py",
+        "blob_sha": "fbc6cd59a545af23e94b5b8caea0ccc5fbcfa9fd",
+        "value": "https://github.com/jamesrwatsonx-creator/heretic/blob/bedb94ef117a271532ac2058447fbc165d5051bd/src/heretic/main.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "model behavior optimization",
+        "description": "Runs an optimization workflow targeting refusal behavior in language models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-behavior-optimization",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "src/heretic/main.py"
+        ]
+      },
+      {
+        "name": "model evaluation and artifact workflow",
+        "description": "Coordinates model loading, evaluation and output artifacts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-evaluation-and-artifact-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "src/heretic/main.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

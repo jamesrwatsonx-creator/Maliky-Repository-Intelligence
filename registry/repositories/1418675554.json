@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/oupala/apaxy",
-  "description": "a simple, customisable theme for your apache directory listing",
+  "description": "Customizable Apache directory-index theme that restyles mod_autoindex listings with CSS and media-type presentation.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2024-10-09T21:50:07Z",
-    "github_description": "a simple, customisable theme for your apache directory listing"
+    "github_description": "a simple, customisable theme for your apache directory listing",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2",
   "current_commit": "5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2",
   "inspection_date": "2026-10-20T23:51:59.574504+00:00",
   "categories": [
-    "category:design-systems",
-    "category:templates-boilerplates",
-    "category:web-applications"
+    "category:frontend-applications",
+    "category:creative-tools",
+    "category:cloud-infrastructure"
   ],
-  "operational_category": "operational:09",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:apache-directory-listing-theme",
@@ -325,13 +326,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.060749+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.768100+00:00",
   "tree_files": 90,
   "files_read": 16,
   "entity_count": 2,
-  "unread_source_files": 0,
+  "unread_source_files": 11,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:16:57.324016+00:00",
@@ -349,5 +351,89 @@
       "Docker packaging",
       "individual icon and JavaScript implementation fragments"
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Customizable Apache directory-index theme that restyles mod_autoindex listings with CSS and media-type presentation.",
+    "reuse_recommendation": "Use for intentionally public file directories; configure authentication and prevent accidental exposure of private files.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "GPL-3.0.",
+    "runtime": [
+      "HTML/CSS",
+      "Apache mod_autoindex",
+      "optional Docker"
+    ],
+    "keywords": [
+      "Apache directory listing theme",
+      "mod_autoindex UI",
+      "directory browser",
+      "CSS theme",
+      "file index"
+    ],
+    "risk_notes": [
+      "Directory listings can disclose filenames and content; access controls must be configured separately."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Apaxy theme",
+        "purpose": "Styles Apache-generated directory listings for browsing.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:54.974287+00:00",
+    "inspected_commit": "5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e6233d709405e668296b51109ef9619387e7c75b",
+        "value": "https://github.com/jamesrwatsonx-creator/apaxy-browse/blob/5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "directory listing theme",
+        "description": "Replaces the default Apache autoindex presentation with a customizable browser UI.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:directory-listing-theme",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "media type presentation",
+        "description": "Provides visual treatment for files and directory contents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-type-presentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

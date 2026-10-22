@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/harry0703/MoneyPrinterTurbo",
-  "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "description": "AI workflow for generating HD short videos from a topic or keyword by producing scripts, sourcing footage, adding subtitles/music and assembling clips.",
   "metadata": {
     "language": "Python",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T13:57:00Z",
-    "github_description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    "github_description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "28a55ddc1d3f4fc094837352ee9a74e1b264484a",
   "current_commit": "28a55ddc1d3f4fc094837352ee9a74e1b264484a",
   "inspection_date": "2026-09-20T05:34:54.731887+00:00",
   "categories": [
-    "category:automation-scripting",
-    "category:creative-tools"
+    "category:media-publishing",
+    "category:ai-applications",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:20"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.562294+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.578989+00:00",
   "tree_files": 198,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 124,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 120,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.324163+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "AI workflow for generating HD short videos from a topic or keyword by producing scripts, sourcing footage, adding subtitles/music and assembling clips.",
+    "reuse_recommendation": "Use only with guarded media downloads and reviewed output; protect provider keys and verify source-media licensing.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository license; model APIs and media sources have independent terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "AI short video generation",
+      "topic to video",
+      "script and footage workflow",
+      "subtitles",
+      "MoneyPrinterTurbo"
+    ],
+    "risk_notes": [
+      "Automated network retrieval, external APIs and publishing-ready media rights need review; isolate file and subprocess operations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MoneyPrinterTurbo pipeline",
+        "purpose": "Connects topic prompting, media sourcing, subtitles and video rendering.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:22.463498+00:00",
+    "inspected_commit": "28a55ddc1d3f4fc094837352ee9a74e1b264484a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9ef61cd67e6491ca7fbff4328e0db274e3c5025a",
+        "value": "https://github.com/jamesrwatsonx-creator/video-nerate-HD-short-videos-from-a-topic-or-keyword-with-an-automated-AI-workflow.MoneyPrinterTurbo/blob/28a55ddc1d3f4fc094837352ee9a74e1b264484a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "topic-to-video production",
+        "description": "Turns a topic into a scripted short video with sourced media and assembly.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:topic-to-video-production",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "media sourcing and subtitles",
+        "description": "Coordinates asset retrieval, captions and background audio.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-sourcing-and-subtitles",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "automated video assembly",
+        "description": "Combines generated content into an HD short-form output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:automated-video-assembly",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

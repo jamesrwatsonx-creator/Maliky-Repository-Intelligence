@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/mattpocock/skills",
-  "description": "Skills for Real Engineers. Straight from my .claude directory.",
+  "description": "Agent skills and learning materials for improving coding, content and problem-solving workflows through reusable instructions.",
   "metadata": {
     "language": "Shell",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T16:53:29Z",
-    "github_description": "Skills for Real Engineers. Straight from my .claude directory."
+    "github_description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
   "current_commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
   "inspection_date": "2026-09-20T05:32:46.118855+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:libraries-packages",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:skills",
+    "category:education",
+    "category:agent-workflows"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:skills-learning-package-mattpocock-skills",
@@ -78,7 +78,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 37,
@@ -323,11 +323,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.196980+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.265224+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -349,7 +350,7 @@
   "files_read": 162,
   "entity_count": 40,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -368,5 +369,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.288229+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skills and learning materials for improving coding, content and problem-solving workflows through reusable instructions.",
+    "reuse_recommendation": "Select the relevant skill and verify host assumptions and commands before installation.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository license and individual linked resource terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "agent skills learning",
+      "coding workflows",
+      "AI skill library",
+      "skill education"
+    ],
+    "risk_notes": [
+      "Skills are instructions and may require external tools; inspect execution steps."
+    ],
+    "important_subsystems": [
+      {
+        "name": "skills library",
+        "purpose": "Collects reusable instructions and supporting learning materials.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:18.254681+00:00",
+    "inspected_commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-learning/blob/6654f6b60cd9d5be8b54c6fafe44346dabeb3b76/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent skill collection",
+        "description": "Organizes task-focused skill instructions for compatible agents.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-skill-collection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "skill learning resources",
+        "description": "Provides learning and reference materials for applying agent skills.",
+        "scope": "REFERENCE",
+        "id": "cluster:skill-learning-resources",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

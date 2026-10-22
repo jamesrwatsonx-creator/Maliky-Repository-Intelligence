@@ -11,15 +11,16 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/browser-use/browser-use",
-  "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "description": "Python framework for agents that inspect and operate web pages through browser automation.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T23:25:03Z",
-    "github_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
+    "github_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "85ddbfedf609166b2d2c76c3d80506649fee82a9",
   "current_commit": "85ddbfedf609166b2d2c76c3d80506649fee82a9",
   "inspection_date": "2026-09-20T05:33:45.007743+00:00",
@@ -28,7 +29,7 @@
     "category:automation-scripting",
     "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [
     "operational:03",
     "operational:20"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 7,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.331450+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.103296+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -281,10 +283,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 494,
-  "files_read": 5,
+  "files_read": 13,
   "entity_count": 6,
-  "unread_source_files": 464,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 465,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -294,5 +296,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.087202+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python framework for agents that inspect and operate web pages through browser automation.",
+    "reuse_recommendation": "Use in isolated sessions and require confirmation before purchases, submissions or account changes.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license and supported browser/model provider terms.",
+    "runtime": [
+      "Python",
+      "Playwright/browser",
+      "LLM provider APIs"
+    ],
+    "keywords": [
+      "browser-use",
+      "browser agents",
+      "web automation",
+      "Playwright",
+      "computer use"
+    ],
+    "risk_notes": [
+      "Prompt injection, secrets exposure and arbitrary web actions are significant risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Browser-use agent runtime",
+        "purpose": "Coordinates model decisions with browser interaction.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:34.556794+00:00",
+    "inspected_commit": "85ddbfedf609166b2d2c76c3d80506649fee82a9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "83e3d8c5e96574858c232aa2740479d9e7b92e81",
+        "value": "https://github.com/jamesrwatsonx-creator/browser-use/blob/85ddbfedf609166b2d2c76c3d80506649fee82a9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent browser control",
+        "description": "Lets an LLM-driven agent navigate pages and interact with browser controls.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-browser-control",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "task orchestration",
+        "description": "Runs multi-step web tasks and exposes execution state.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:task-orchestration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser integrations",
+        "description": "Connects automation to browser sessions and model providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

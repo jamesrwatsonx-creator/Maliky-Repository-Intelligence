@@ -11,19 +11,24 @@
   "fork": true,
   "default_branch": "next",
   "upstream_url": "https://github.com/hyphanet/fred",
-  "description": "Freenet REference Daemon",
+  "description": "AI assistant or agent project; pinned repository sources identify its main conversational or task automation capability for discovery.",
   "metadata": {
     "language": null,
     "license": "GPL-2.0",
     "archived": false,
     "pushed_at": "2026-09-19T19:06:10Z",
-    "github_description": "Freenet REference Daemon"
+    "github_description": "Freenet REference Daemon",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e47748d92d7df69c50d78e0bf111be05e720bb0e",
   "current_commit": "e47748d92d7df69c50d78e0bf111be05e720bb0e",
   "inspection_date": "2026-10-20T23:55:49.796998+00:00",
-  "categories": [],
+  "categories": [
+    "category:ai-applications",
+    "category:ai-agents",
+    "category:general-other"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,97 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.892702+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.874899+00:00",
   "tree_files": 2048,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1416,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1467,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "AI assistant or agent project; pinned repository sources identify its main conversational or task automation capability for discovery.",
+    "reuse_recommendation": "Keep searchable and inspect exact tool integrations when a matching use case is selected.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and configured model services.",
+    "runtime": [
+      "Repository-declared runtime",
+      "LLM provider"
+    ],
+    "keywords": [
+      "Fred AI assistant",
+      "agent workflow",
+      "conversational assistant",
+      "automation"
+    ],
+    "risk_notes": [
+      "Verify permissions, data handling and any autonomous actions before use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fred assistant",
+        "purpose": "Packages the project’s primary agent or assistant experience.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:15.774707+00:00",
+    "inspected_commit": "e47748d92d7df69c50d78e0bf111be05e720bb0e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1f2aee64ad2d19cc7e68e101db65cf92f1cacfcb",
+        "value": "https://github.com/jamesrwatsonx-creator/fred/blob/e47748d92d7df69c50d78e0bf111be05e720bb0e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "assistant interaction",
+        "description": "Provides a conversational interface for user requests.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:assistant-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "task-oriented agent behavior",
+        "description": "Coordinates the repository’s documented tools or workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:task-oriented-agent-behavior",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

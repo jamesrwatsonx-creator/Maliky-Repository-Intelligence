@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coil-kt/coil",
-  "description": "Image loading for Android and Compose Multiplatform.",
+  "description": "Kotlin image-loading library for Android and Compose applications, supporting asynchronous image requests, caching and rendering.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T15:12:00Z",
-    "github_description": "Image loading for Android and Compose Multiplatform."
+    "github_description": "Image loading for Android and Compose Multiplatform.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "a42b7709600630cd2bed73517832442b98d4d7b5",
   "current_commit": "a42b7709600630cd2bed73517832442b98d4d7b5",
   "inspection_date": "2026-09-20T05:33:11.534651+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:sdks-client-libraries",
+    "category:mobile-applications",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.321384+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.428896+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 775,
-  "files_read": 11,
+  "files_read": 18,
   "entity_count": 0,
-  "unread_source_files": 537,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 565,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.192138+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Kotlin image-loading library for Android and Compose applications, supporting asynchronous image requests, caching and rendering.",
+    "reuse_recommendation": "Use as an Android image-loading library and tune caching for the app’s privacy and memory needs.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Apache-2.0.",
+    "runtime": [
+      "Kotlin",
+      "Android/JVM",
+      "Jetpack Compose"
+    ],
+    "keywords": [
+      "Coil",
+      "Kotlin image loader",
+      "Android images",
+      "Jetpack Compose",
+      "image caching"
+    ],
+    "risk_notes": [
+      "Remote image sources should be validated and cache behavior reviewed for sensitive content."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Coil image loader",
+        "purpose": "Provides a Kotlin-first image loading and rendering API.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:17.537944+00:00",
+    "inspected_commit": "a42b7709600630cd2bed73517832442b98d4d7b5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6a41461dba518333cd1b778166a5a6537678fe55",
+        "value": "https://github.com/jamesrwatsonx-creator/Kotlin-coil/blob/a42b7709600630cd2bed73517832442b98d4d7b5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "asynchronous image loading",
+        "description": "Loads and displays images from local and remote sources in Kotlin apps.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:asynchronous-image-loading",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "caching and request pipeline",
+        "description": "Provides caching and configurable image request behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:caching-and-request-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Compose and Android integrations",
+        "description": "Connects image loading to modern Android UI components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compose-and-android-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

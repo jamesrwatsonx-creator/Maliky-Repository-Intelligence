@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/searxng/searxng",
-  "description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+  "description": "Search-engine application or customization built around SearXNG, aggregating results from multiple search providers with an AI-oriented discovery layer.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-15T09:40:15Z",
-    "github_description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    "github_description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ca49650407a04cc0cc043759d5cb2cd2c92efd20",
   "current_commit": "ca49650407a04cc0cc043759d5cb2cd2c92efd20",
   "inspection_date": "2026-09-20T05:36:21.541503+00:00",
   "categories": [
-    "category:research-projects"
+    "category:developer-tools",
+    "category:privacy",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.973779+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.680979+00:00",
   "tree_files": 995,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 525,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 796,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.045403+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Search-engine application or customization built around SearXNG, aggregating results from multiple search providers with an AI-oriented discovery layer.",
+    "reuse_recommendation": "Use with careful provider, logging and privacy configuration; disclose when AI processing is enabled.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Review SearXNG license and upstream search-provider terms.",
+    "runtime": [
+      "Python/web service",
+      "SearXNG",
+      "search providers/LLM APIs"
+    ],
+    "keywords": [
+      "SearXNG",
+      "metasearch",
+      "AI search",
+      "privacy search",
+      "search aggregation"
+    ],
+    "risk_notes": [
+      "Queries may reveal sensitive intent to upstream providers or model services."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SearXNG search interface",
+        "purpose": "Combines privacy-oriented metasearch with AI-assisted discovery.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:47.377709+00:00",
+    "inspected_commit": "ca49650407a04cc0cc043759d5cb2cd2c92efd20",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "9c2319105ed83fa26397e523b7425447f2302717",
+        "value": "https://github.com/jamesrwatsonx-creator/Ai-search-engine-idea-searxng/blob/ca49650407a04cc0cc043759d5cb2cd2c92efd20/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "metasearch aggregation",
+        "description": "Queries multiple search engines through a unified results interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:metasearch-aggregation",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "AI-assisted search discovery",
+        "description": "Adds model-based summarization or query support to search workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-assisted-search-discovery",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "self-hosted privacy configuration",
+        "description": "Supports deployment and provider configuration for controlled search.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-privacy-configuration",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

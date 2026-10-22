@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/CommunityToolkit/Lottie-Windows",
-  "description": "Lottie-Windows is a library (and related tools) for rendering Lottie animations on Windows 10 and Windows 11. ",
+  "description": "Windows library or runtime for rendering Lottie animations in native applications.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2025-06-04T19:31:47Z",
-    "github_description": "Lottie-Windows is a library (and related tools) for rendering Lottie animations on Windows 10 and Windows 11. "
+    "github_description": "Lottie-Windows is a library (and related tools) for rendering Lottie animations on Windows 10 and Windows 11. ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "27e3769e22ce6d081677dfdb277db929aa721156",
   "current_commit": "27e3769e22ce6d081677dfdb277db929aa721156",
   "inspection_date": "2026-09-20T05:36:44.475960+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:frontend-applications",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.439798+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.553199+00:00",
   "tree_files": 700,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 481,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 479,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.208795+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Windows library or runtime for rendering Lottie animations in native applications.",
+    "reuse_recommendation": "Use for lightweight motion in Windows apps after validating feature support and animation performance.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and Lottie asset licensing.",
+    "runtime": [
+      "Windows/.NET or native runtime",
+      "Lottie JSON"
+    ],
+    "keywords": [
+      "Lottie Windows",
+      "animation rendering",
+      "Windows UI",
+      "JSON animation",
+      "native components"
+    ],
+    "risk_notes": [
+      "Validate untrusted animation input and honor reduced-motion accessibility needs."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lottie Windows renderer",
+        "purpose": "Connects Lottie animation data to native Windows presentation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:26.304197+00:00",
+    "inspected_commit": "27e3769e22ce6d081677dfdb277db929aa721156",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "968bb18325f4767b5e7448407851e23864ce821e",
+        "value": "https://github.com/jamesrwatsonx-creator/Lottie-Windows/blob/27e3769e22ce6d081677dfdb277db929aa721156/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Lottie playback",
+        "description": "Renders Lottie animation assets in Windows application interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:lottie-playback",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "native UI integration",
+        "description": "Provides APIs or controls for embedding animation into Windows apps.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:native-ui-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

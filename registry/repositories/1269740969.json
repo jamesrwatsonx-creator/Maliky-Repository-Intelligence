@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/mvanhorn/last30days-skill",
-  "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+  "description": "Agent skill that researches recent discussions and trends across web and social sources over a rolling 30-day window.",
   "metadata": {
     "language": "Python",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-18T15:03:10Z",
-    "github_description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    "github_description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "c7460f6114449ddfe6ea3fc2f23c3d910c0e740c",
   "current_commit": "c7460f6114449ddfe6ea3fc2f23c3d910c0e740c",
   "inspection_date": "2026-09-20T05:32:42.666155+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:skills"
+    "category:skills",
+    "category:research-projects",
+    "category:ai-agents"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -51,7 +53,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -296,11 +298,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.333419+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.442009+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -323,7 +326,7 @@
   "files_read": 437,
   "entity_count": 14,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -341,5 +344,88 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 14,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill that researches recent discussions and trends across web and social sources over a rolling 30-day window.",
+    "reuse_recommendation": "Use as a research workflow and verify recency, source credibility and platform access for each result.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and external source/API terms.",
+    "runtime": [
+      "Markdown skill",
+      "external web/search sources"
+    ],
+    "keywords": [
+      "last30days skill",
+      "recent trend research",
+      "social search",
+      "web research agent",
+      "30 day analysis"
+    ],
+    "risk_notes": [
+      "External search results can be incomplete or biased; cite primary sources and respect platform terms."
+    ],
+    "important_subsystems": [
+      {
+        "name": "last30days research skill",
+        "purpose": "Packages an agent workflow for recent web and social discovery.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:52.103843+00:00",
+    "inspected_commit": "c7460f6114449ddfe6ea3fc2f23c3d910c0e740c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b2e656a5cb450755cde4681ced8237535a9a45bf",
+        "value": "https://github.com/jamesrwatsonx-creator/last30days-skill/blob/c7460f6114449ddfe6ea3fc2f23c3d910c0e740c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "recent web and social research",
+        "description": "Guides agents to gather information published within the last month.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:recent-web-and-social-research",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "trend synthesis workflow",
+        "description": "Structures source collection and synthesis into a concise research result.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:trend-synthesis-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

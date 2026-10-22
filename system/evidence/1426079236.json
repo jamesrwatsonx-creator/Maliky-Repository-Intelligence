@@ -3,8 +3,100 @@
   "inspected_commit": "15599839eccfc2ffcf181b0ca3651413416a9d40",
   "tree_complete": true,
   "tree_files": 802,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "787561239ede8f7abaee0125b9fab113b0106927"
+    },
+    {
+      "path": "README.md",
+      "sha": "702e34aa5be1ab7862ea05743dbfdda49e212c78"
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "481bede70c6392d8202912e9fa2f144de4c4882e"
+    },
+    {
+      "path": "ifixai/fixtures/README.md",
+      "sha": "09979062201505291e1c6a928b1fc65e5c2bfe43"
+    },
+    {
+      "path": "ifixai/fixtures/default/README.md",
+      "sha": "da33723c8b89395a3319f22d31d33abe4fec56bb"
+    },
+    {
+      "path": "plugin/.claude-plugin/plugin.json",
+      "sha": "bc14745f6ed114d4286d48430f718b2aec48c2af"
+    },
+    {
+      "path": "plugin/.codex-plugin/plugin.json",
+      "sha": "a8e6a01913e8099112350782565f2fe62fc9f525"
+    },
+    {
+      "path": "plugin/README.md",
+      "sha": "2b7a0112da07790a169a8cd4d59ad9a81d096d7e"
+    },
+    {
+      "path": "plugin/skills/ifixai/SKILL.md",
+      "sha": "fac6698b1254f94892ade822a0722d079e59d280"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "7165a8939f4b98e2aa35d7e4b5a0b8f94e196a31"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "702e34aa5be1ab7862ea05743dbfdda49e212c78",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "787561239ede8f7abaee0125b9fab113b0106927",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "7165a8939f4b98e2aa35d7e4b5a0b8f94e196a31",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugin/.claude-plugin/plugin.json",
+      "blob_sha": "bc14745f6ed114d4286d48430f718b2aec48c2af",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugin/.codex-plugin/plugin.json",
+      "blob_sha": "a8e6a01913e8099112350782565f2fe62fc9f525",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugin/skills/ifixai/SKILL.md",
+      "blob_sha": "fac6698b1254f94892ade822a0722d079e59d280",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/README.md",
+      "blob_sha": "481bede70c6392d8202912e9fa2f144de4c4882e",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugin/README.md",
+      "blob_sha": "2b7a0112da07790a169a8cd4d59ad9a81d096d7e",
+      "entities_detected": 0
+    },
+    {
+      "path": "ifixai/fixtures/README.md",
+      "blob_sha": "09979062201505291e1c6a928b1fc65e5c2bfe43",
+      "entities_detected": 0
+    },
+    {
+      "path": "ifixai/fixtures/default/README.md",
+      "blob_sha": "da33723c8b89395a3319f22d31d33abe4fec56bb",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".agents/plugins/marketplace.json",
     ".claude-plugin/marketplace.json",
@@ -15,10 +107,8 @@
     ".github/workflows/traction.yaml",
     ".pre-commit-config.yaml",
     "CONTRIBUTING.md",
-    "LICENSE",
     "README.ja.md",
     "README.ko.md",
-    "README.md",
     "README.zh-CN.md",
     "SECURITY.md",
     "case_studies/aisi-cyber-range-containment/SCORECARD.md",
@@ -27,7 +117,6 @@
     "case_studies/pizza-hut-dragontail/SCORECARD.md",
     "conftest.py",
     "count_fixture_fields.py",
-    "docs/README.md",
     "docs/assets/downloads_history.json",
     "docs/assets/pypi_stats_history.json",
     "docs/assets/runs_history.json",
@@ -100,12 +189,15 @@
     "ifixai/examples/custom_fixture.py",
     "ifixai/examples/run_all.py",
     "ifixai/examples/run_single.py",
-    "ifixai/fixtures/README.md",
-    "ifixai/fixtures/default/README.md",
     "ifixai/fixtures/default/fixture.yaml",
     "ifixai/fixtures/examples/acme_legal.yaml",
     "ifixai/fixtures/examples/customer_support.yaml",
-    "ifixai/fixtures/examples/healthcare.yaml"
+    "ifixai/fixtures/examples/healthcare.yaml",
+    "ifixai/fixtures/examples/helio_finance.yaml",
+    "ifixai/fixtures/examples/hermes_strict.yaml",
+    "ifixai/fixtures/examples/nimbusforge_it_infra.yaml",
+    "ifixai/fixtures/examples/openclaw_consolidated.yaml",
+    "ifixai/fixtures/examples/openclaw_moderate.yaml"
   ],
   "excluded_nontext_paths": [
     ".gitattributes",
@@ -136,6 +228,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "7057fac1acb8e8859d150eeabd4a7a047d3da898ccff2d52eaa419b68393de84",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -150,8 +243,11 @@
     "plugin": 10,
     "scripts": 4
   },
-  "unread_source_paths_count": 778,
+  "unread_source_paths_count": 770,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 24,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

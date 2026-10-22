@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/galleonlabs/crypto-defi-skills",
-  "description": "Open-source DeFi skills for Claude Code, Codex, Cursor, Gemini CLI, Hermes and OpenClaw: 49 skills in 17 independent packs for lending, liquidity, yield, routing and research.",
+  "description": "Agent skills for cryptocurrency and DeFi research or operation, such as protocol analysis, wallet workflows and market tasks.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T15:01:10Z",
-    "github_description": "Open-source DeFi skills for Claude Code, Codex, Cursor, Gemini CLI, Hermes and OpenClaw: 49 skills in 17 independent packs for lending, liquidity, yield, routing and research."
+    "github_description": "Open-source DeFi skills for Claude Code, Codex, Cursor, Gemini CLI, Hermes and OpenClaw: 49 skills in 17 independent packs for lending, liquidity, yield, routing and research.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "86130b45757a53dad00fd8a4701750baf3528674",
   "current_commit": "86130b45757a53dad00fd8a4701750baf3528674",
   "inspection_date": "2026-10-21T00:00:08.068798+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills",
+    "category:finance-accounting",
+    "category:blockchain-web3-security"
+  ],
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 51,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.567001+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.401040+00:00",
   "tree_files": 938,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 920,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 910,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Agent skills for cryptocurrency and DeFi research or operation, such as protocol analysis, wallet workflows and market tasks.",
+    "reuse_recommendation": "Use for research only unless wallet operations receive independent security review and explicit user confirmation.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license, protocol terms and data-source restrictions.",
+    "runtime": [
+      "Markdown skills",
+      "agent host",
+      "optional blockchain data services"
+    ],
+    "keywords": [
+      "DeFi skills",
+      "crypto research",
+      "wallet workflows",
+      "protocol analysis",
+      "agent instructions"
+    ],
+    "risk_notes": [
+      "Wallet secrets, irreversible transactions and financial loss require strong safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Crypto/DeFi skill collection",
+        "purpose": "Packages domain-specific instructions for agent-assisted research and workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:45.564189+00:00",
+    "inspected_commit": "86130b45757a53dad00fd8a4701750baf3528674",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "964f7364107dc3c42f8a0b8728c95ee32e20375c",
+        "value": "https://github.com/jamesrwatsonx-creator/crypto-defi-skills/blob/86130b45757a53dad00fd8a4701750baf3528674/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "crypto research guidance",
+        "description": "Structures research tasks around tokens, protocols and market information.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:crypto-research-guidance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "DeFi workflow instructions",
+        "description": "Guides supported protocol or wallet-related tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:defi-workflow-instructions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

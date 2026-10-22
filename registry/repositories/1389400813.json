@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+  "upstream_url": "https://github.com/instaloader/instaloader",
+  "description": "Python tool for downloading public Instagram profiles, posts, stories and metadata for archiving or research workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-06T18:20:52Z",
-    "github_description": "Download pictures (or videos) along with their captions and other metadata from Instagram."
+    "github_description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "7efc78de12e02feb1794b71125a48e66250f0db0",
+  "current_commit": "7efc78de12e02feb1794b71125a48e66250f0db0",
+  "inspection_date": "2026-10-22T02:27:02.085649+00:00",
   "categories": [
-    "category:general-other"
+    "category:cli-tools",
+    "category:media-publishing",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.217144+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.309295+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.182140+00:00",
     "purpose_established": true
+  },
+  "tree_files": 75,
+  "files_read": 10,
+  "unread_source_files": 52,
+  "repository_intelligence": {
+    "purpose": "Python tool for downloading public Instagram profiles, posts, stories and metadata for archiving or research workflows.",
+    "reuse_recommendation": "Use only for content you are authorized to access and avoid collecting private or sensitive data.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "MIT; Instagram terms and content rights apply.",
+    "runtime": [
+      "Python CLI/library",
+      "Instagram web services"
+    ],
+    "keywords": [
+      "Instaloader",
+      "Instagram downloader",
+      "profile archive",
+      "social media research",
+      "media extraction"
+    ],
+    "risk_notes": [
+      "Platform terms, account credentials, personal data and copyright risks are significant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Instaloader CLI/library",
+        "purpose": "Automates retrieval of Instagram content for permitted use.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:29.589829+00:00",
+    "inspected_commit": "7efc78de12e02feb1794b71125a48e66250f0db0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "3d4d061db54dbb8102773321e6c64abf5fdffa86",
+        "value": "https://github.com/jamesrwatsonx-creator/instaloader/blob/7efc78de12e02feb1794b71125a48e66250f0db0/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "profile and post retrieval",
+        "description": "Downloads supported Instagram media and metadata.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:profile-and-post-retrieval",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "archive and export workflows",
+        "description": "Organizes social content for offline research or preservation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:archive-and-export-workflows",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

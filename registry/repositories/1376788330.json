@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/material-components/material-components",
-  "description": "Documentation and policies for Material Components (all platforms)",
+  "description": "Shared Material Design documentation and contribution guidance that links to separate platform implementations; the reviewed repository does not contain those component libraries.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2023-05-13T06:41:29Z",
-    "github_description": "Documentation and policies for Material Components (all platforms)"
+    "github_description": "Documentation and policies for Material Components (all platforms)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "087df1a33c79ea8a2ae8c846bee2fce11f367744",
   "current_commit": "087df1a33c79ea8a2ae8c846bee2fce11f367744",
   "inspection_date": "2026-09-20T05:36:44.854291+00:00",
   "categories": [
-    "category:frontend-applications"
+    "category:frontend-applications",
+    "category:design-systems",
+    "category:documentation"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.479737+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.605255+00:00",
   "tree_files": 12,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 10,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,128 @@
     ],
     "updated_at": "2026-10-12T19:04:27.213717+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Shared Material Design documentation and contribution guidance that links to separate platform implementations; the reviewed repository does not contain those component libraries.",
+    "reuse_recommendation": "Use for design-system orientation, then select the matching platform implementation and inspect its current license/API.",
+    "inspection_scope": "Reviewed the common documentation repository and its platform references. Android, iOS, web and Flutter implementations are maintained separately.",
+    "license_notes": "Apache-2.0 for this documentation repository; platform projects may have their own terms.",
+    "runtime": [
+      "Markdown documentation",
+      "Jekyll configuration"
+    ],
+    "keywords": [
+      "Material Design",
+      "platform component libraries",
+      "design system documentation",
+      "Android UI",
+      "Flutter UI"
+    ],
+    "risk_notes": [
+      "This repository is not itself the source code for the linked UI components."
+    ],
+    "important_subsystems": [
+      {
+        "name": "shared design documentation",
+        "purpose": "Provides common guidance and routes readers to platform implementations.",
+        "evidence_paths": [
+          "README.md",
+          ".mdc-docsite.yml"
+        ]
+      },
+      {
+        "name": "component request policy",
+        "purpose": "Explains how component proposals are handled in the documentation ecosystem.",
+        "evidence_paths": [
+          "COMPONENTS_REQUEST_POLICY.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:28.357605+00:00",
+    "inspected_commit": "087df1a33c79ea8a2ae8c846bee2fce11f367744",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7f9771f22106340722b7a3db569fa6b195f4de4b",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components/blob/087df1a33c79ea8a2ae8c846bee2fce11f367744/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components/blob/087df1a33c79ea8a2ae8c846bee2fce11f367744/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".mdc-docsite.yml",
+        "blob_sha": "9c8bf102cc2bb945bd206869c9ce5341d09732f6",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components/blob/087df1a33c79ea8a2ae8c846bee2fce11f367744/.mdc-docsite.yml"
+      },
+      {
+        "type": "source_review",
+        "path": "COMING_SOON.md",
+        "blob_sha": "cde982c4fc4452fa3492cdcc825d6be632a789e8",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components/blob/087df1a33c79ea8a2ae8c846bee2fce11f367744/COMING_SOON.md"
+      },
+      {
+        "type": "source_review",
+        "path": "COMPONENTS_REQUEST_POLICY.md",
+        "blob_sha": "b3cd68f4ee4968e855f49b8fb3310208987b959c",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components/blob/087df1a33c79ea8a2ae8c846bee2fce11f367744/COMPONENTS_REQUEST_POLICY.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Material platform discovery",
+        "description": "Points to platform-specific Material component implementations.",
+        "scope": "REFERENCE",
+        "id": "cluster:material-platform-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".mdc-docsite.yml",
+          "COMING_SOON.md",
+          "COMPONENTS_REQUEST_POLICY.md"
+        ]
+      },
+      {
+        "name": "design integration guidance",
+        "description": "Documents shared design conventions and component contribution processes.",
+        "scope": "REFERENCE",
+        "id": "cluster:design-integration-guidance",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".mdc-docsite.yml",
+          "COMING_SOON.md",
+          "COMPONENTS_REQUEST_POLICY.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

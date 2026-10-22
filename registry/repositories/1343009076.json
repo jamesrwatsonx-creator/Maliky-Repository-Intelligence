@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/sandboxie-plus/Sandboxie",
-  "description": "Sandboxie Plus & Classic",
+  "description": "Windows sandboxing software for isolating applications and their file or registry changes from the host system.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-22T01:31:31Z",
-    "github_description": "Sandboxie Plus & Classic"
+    "github_description": "Sandboxie Plus & Classic",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "991c700d845158107daedffd493833e99d733894",
   "current_commit": "991c700d845158107daedffd493833e99d733894",
   "inspection_date": "2026-09-20T05:33:41.533756+00:00",
   "categories": [
-    "category:general-other"
+    "category:cybersecurity",
+    "category:developer-tools",
+    "category:desktop-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.105853+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.158107+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1624,
-  "files_read": 6,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 965,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1061,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.279840+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Windows sandboxing software for isolating applications and their file or registry changes from the host system.",
+    "reuse_recommendation": "Use only with current supported Windows versions and threat-model the isolation boundary.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Sandboxie Classic and Plus components have distinct licensing; inspect included license files.",
+    "runtime": [
+      "Windows native components",
+      "driver/service"
+    ],
+    "keywords": [
+      "Sandboxie",
+      "Windows sandbox",
+      "application isolation",
+      "desktop security",
+      "virtualization"
+    ],
+    "risk_notes": [
+      "Kernel drivers and sandbox escape protection are security-critical."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Sandboxie isolation runtime",
+        "purpose": "Separates application activity from normal host state.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:11.758803+00:00",
+    "inspected_commit": "991c700d845158107daedffd493833e99d733894",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "00fe4d1119c1da287d0dbb33583db92037b3564d",
+        "value": "https://github.com/jamesrwatsonx-creator/Sandboxie/blob/991c700d845158107daedffd493833e99d733894/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "application isolation",
+        "description": "Runs selected Windows applications in a contained environment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-isolation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "sandbox configuration and management",
+        "description": "Controls isolation settings, resource access and user workflows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:sandbox-configuration-and-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+  "upstream_url": "https://github.com/github-linguist/linguist",
+  "description": "GitHub language detection library and tooling for identifying programming languages in repositories and applying syntax metadata.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-15T15:58:44Z",
-    "github_description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    "github_description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae",
+  "current_commit": "ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae",
+  "inspection_date": "2026-10-22T02:22:38.772180+00:00",
   "categories": [
-    "category:general-other"
+    "category:developer-tools",
+    "category:libraries-packages",
+    "category:data-engineering"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.352501+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.463625+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.197255+00:00",
     "purpose_established": true
+  },
+  "tree_files": 4316,
+  "files_read": 10,
+  "unread_source_files": 1272,
+  "repository_intelligence": {
+    "purpose": "GitHub language detection library and tooling for identifying programming languages in repositories and applying syntax metadata.",
+    "reuse_recommendation": "Use for repository classification and adapt generated/vendor overrides to the target corpus.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "MIT; language data and vendored grammars may have additional licenses.",
+    "runtime": [
+      "Ruby",
+      "YAML language definitions",
+      "Git repositories"
+    ],
+    "keywords": [
+      "GitHub Linguist",
+      "language detection",
+      "repository statistics",
+      "syntax highlighting",
+      "file classification"
+    ],
+    "risk_notes": [
+      "Heuristic language results may misclassify generated or mixed-language files."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Linguist classifier",
+        "purpose": "Provides consistent language attribution for repository content.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:36.666749+00:00",
+    "inspected_commit": "ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "dc8ac5dc584ac30f29e8cdfca5a1d93b16e4e22f",
+        "value": "https://github.com/jamesrwatsonx-creator/linguist/blob/ee4fb24d13cb21a0eb43b30b52f5cde17fbba8ae/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "source language identification",
+        "description": "Classifies repository files using heuristics and language metadata.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:source-language-identification",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "repository language statistics",
+        "description": "Aggregates language usage for project reporting.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-language-statistics",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "syntax and vendored file handling",
+        "description": "Supports highlighting metadata and generated/vendor exclusions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:syntax-and-vendored-file-handling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

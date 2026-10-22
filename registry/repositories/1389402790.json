@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Python wrapper for the Mastodon ( https://github.com/mastodon/mastodon/ ) API.",
+  "upstream_url": "https://github.com/halcy/Mastodon.py",
+  "description": "Python API wrapper for interacting with Mastodon and compatible federated social-network servers.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-03T11:06:32Z",
-    "github_description": "Python wrapper for the Mastodon ( https://github.com/mastodon/mastodon/ ) API."
+    "github_description": "Python wrapper for the Mastodon ( https://github.com/mastodon/mastodon/ ) API.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b9f2effbb5a9f07ebca3807466f4130e69b1614c",
+  "current_commit": "b9f2effbb5a9f07ebca3807466f4130e69b1614c",
+  "inspection_date": "2026-10-22T02:31:55.471291+00:00",
   "categories": [
-    "category:apis"
+    "category:sdks-client-libraries",
+    "category:research-projects"
   ],
   "operational_category": "operational:12",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.478230+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.603255+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.213368+00:00",
     "purpose_established": true
+  },
+  "tree_files": 400,
+  "files_read": 10,
+  "unread_source_files": 376,
+  "repository_intelligence": {
+    "purpose": "Python API wrapper for interacting with Mastodon and compatible federated social-network servers.",
+    "reuse_recommendation": "Use for federated social integrations and account workflows; account for instance-specific limits.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check the pinned license file before redistribution.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "Mastodon API",
+      "ActivityPub",
+      "Python SDK",
+      "federated social",
+      "social integration"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Mastodon.py client",
+        "purpose": "Connects Python applications to Mastodon instances and their APIs.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:29.401811+00:00",
+    "inspected_commit": "b9f2effbb5a9f07ebca3807466f4130e69b1614c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "ff535d72834fc1f9b987300816a39d8948c4b521",
+        "value": "https://github.com/jamesrwatsonx-creator/Mastodon.py/blob/b9f2effbb5a9f07ebca3807466f4130e69b1614c/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Mastodon API integration",
+        "description": "Provides client operations for accounts, timelines, posts and server APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mastodon-api-integration",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

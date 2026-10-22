@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/farion1231/cc-switch",
-  "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+  "description": "Desktop utility for switching configuration among Claude Code, Codex and other AI coding tools or provider profiles.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T10:26:56Z",
-    "github_description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+    "github_description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f92ff0b03964188f1cd011d9302ab8869d7a8219",
   "current_commit": "f92ff0b03964188f1cd011d9302ab8869d7a8219",
   "inspection_date": "2026-10-20T23:59:59.500190+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:developer-tools",
+    "category:desktop-applications",
+    "category:ai-applications"
+  ],
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.366215+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.154316+00:00",
   "tree_files": 1647,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1362,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1358,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Desktop utility for switching configuration among Claude Code, Codex and other AI coding tools or provider profiles.",
+    "reuse_recommendation": "Use after confirming how credentials are stored and which config files are modified.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and provider CLI terms.",
+    "runtime": [
+      "Desktop app",
+      "local configuration files",
+      "coding agent CLIs"
+    ],
+    "keywords": [
+      "CC Switch",
+      "coding agent profiles",
+      "Claude Code",
+      "Codex configuration",
+      "provider switching"
+    ],
+    "risk_notes": [
+      "Provider API keys and local agent settings are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CC Switch profile manager",
+        "purpose": "Simplifies switching between multiple coding-agent configurations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:11.951921+00:00",
+    "inspected_commit": "f92ff0b03964188f1cd011d9302ab8869d7a8219",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7ff7ea62fa693be7ab3d3319eb12a61e8737b854",
+        "value": "https://github.com/jamesrwatsonx-creator/cc-switch/blob/f92ff0b03964188f1cd011d9302ab8869d7a8219/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent/provider profile management",
+        "description": "Stores and switches configurations for supported coding-agent tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-provider-profile-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "desktop configuration interface",
+        "description": "Provides a user-facing workflow for selecting active providers and settings.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:desktop-configuration-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

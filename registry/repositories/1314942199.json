@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/obra/superpowers",
-  "description": "An agentic skills framework & software development methodology that works.",
+  "description": "Software development methodology for coding agents implemented as composable skills and startup instructions for disciplined engineering workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-24T21:21:36Z",
-    "github_description": "An agentic skills framework & software development methodology that works."
+    "github_description": "An agentic skills framework & software development methodology that works.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
   "current_commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
   "inspection_date": "2026-09-20T05:32:54.845850+00:00",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:superpowers-package-brainstorm-server-tests",
@@ -52,7 +55,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 14,
@@ -297,11 +300,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.313776+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.341253+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -323,8 +327,8 @@
   "tree_files": 179,
   "files_read": 168,
   "entity_count": 18,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 1,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -342,5 +346,96 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 18,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Software development methodology for coding agents implemented as composable skills and startup instructions for disciplined engineering workflows.",
+    "reuse_recommendation": "Install into a compatible agent host and adapt workflow rules to the repository's own engineering constraints.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Superpowers agent methodology",
+      "coding skills",
+      "software development workflow",
+      "test-driven development",
+      "agent instructions"
+    ],
+    "risk_notes": [
+      "Instruction packages influence agent actions but do not enforce security permissions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Superpowers skills framework",
+        "purpose": "Combines startup guidance with task-specific development skills.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:20.307598+00:00",
+    "inspected_commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bb398c6b68b0214439981acf8217a13cd5dcc562",
+        "value": "https://github.com/jamesrwatsonx-creator/superpowers/blob/3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent software methodology",
+        "description": "Defines a reusable development process for coding agents.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-software-methodology",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "composable engineering skills",
+        "description": "Packages specific engineering practices as skills invoked during development.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:composable-engineering-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "host startup guidance",
+        "description": "Uses initial instructions to make agents follow the methodology.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:host-startup-guidance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

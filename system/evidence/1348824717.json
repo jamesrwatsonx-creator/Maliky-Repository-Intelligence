@@ -5,12 +5,28 @@
   "tree_files": 574,
   "tree_entries": [
     {
+      "path": ".github/workflows/claude-code-review.yaml",
+      "sha": "138b976055c8e2b9605a2b813c9bcafb62e678b2"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "80f0ce7ff69d6d5f2bea3d6d08def10485f3f9b5"
+    },
+    {
       "path": "AGENTS.md",
       "sha": "1c6e3cc75d1c734af060616ea928116113710ebd"
     },
     {
+      "path": "LICENSE",
+      "sha": "4959a5e50d66e62e675d8d033d66cca0f390458d"
+    },
+    {
       "path": "README.md",
       "sha": "ec713e65a1d61a8f7c91984aacd7652e0e0c6a75"
+    },
+    {
+      "path": "cmd/openfga/main.go",
+      "sha": "9c5dffc8fad76dfd04bd120c8fdb8b2f694b894a"
     },
     {
       "path": "docker-compose.override.yaml",
@@ -21,8 +37,28 @@
       "sha": "5d0b1542c9e741e47fcf7606bc77041c2187e7f8"
     },
     {
+      "path": "docs/architecture/architecture.md",
+      "sha": "b7a738bb063ef7b6e77d72b4b85c15477cc5a128"
+    },
+    {
+      "path": "docs/authzen/README.md",
+      "sha": "9e5cf786fc2b9c330e989fa0b524c4a9ce0bf899"
+    },
+    {
+      "path": "docs/check/README.md",
+      "sha": "0ae737940bf3ac77ea7cc4c4f8e9a9f560771e01"
+    },
+    {
+      "path": "docs/http/README.md",
+      "sha": "b304e1fe7b223030dc9770354e0a6e59b812ac12"
+    },
+    {
       "path": "go.mod",
       "sha": "77de0c9355772905cb6ee748301b6530951d3de9"
+    },
+    {
+      "path": "scripts/README.md",
+      "sha": "363b23a68cf90609b95c31fb286dec8b0d4375c3"
     }
   ],
   "files_read": [
@@ -50,6 +86,51 @@
       "path": "docker-compose.yaml",
       "blob_sha": "5d0b1542c9e741e47fcf7606bc77041c2187e7f8",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "4959a5e50d66e62e675d8d033d66cca0f390458d",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/README.md",
+      "blob_sha": "363b23a68cf90609b95c31fb286dec8b0d4375c3",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/architecture/architecture.md",
+      "blob_sha": "b7a738bb063ef7b6e77d72b4b85c15477cc5a128",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/authzen/README.md",
+      "blob_sha": "9e5cf786fc2b9c330e989fa0b524c4a9ce0bf899",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/check/README.md",
+      "blob_sha": "0ae737940bf3ac77ea7cc4c4f8e9a9f560771e01",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/http/README.md",
+      "blob_sha": "b304e1fe7b223030dc9770354e0a6e59b812ac12",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/openfga/main.go",
+      "blob_sha": "9c5dffc8fad76dfd04bd120c8fdb8b2f694b894a",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yaml",
+      "blob_sha": "138b976055c8e2b9605a2b813c9bcafb62e678b2",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "blob_sha": "80f0ce7ff69d6d5f2bea3d6d08def10485f3f9b5",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -64,8 +145,6 @@
     ".github/dependabot.yaml",
     ".github/instructions/changelog-review.instructions.md",
     ".github/instructions/dockerfile-goreleaser-sync.instructions.md",
-    ".github/workflows/claude-code-review.yaml",
-    ".github/workflows/codeql.yml",
     ".github/workflows/create-helm-release-pr.yaml",
     ".github/workflows/create-release-tag.yaml",
     ".github/workflows/enforce-changelog-entry.yaml",
@@ -82,15 +161,34 @@
     "CHANGELOG.md",
     "CLAUDE.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.goreleaser",
+    "Makefile",
     "RELEASES.md",
     "assets/assets.go",
+    "assets/migrations/mysql/001_initialize_schema.sql",
+    "assets/migrations/mysql/002_add_authorization_model_version.sql",
+    "assets/migrations/mysql/003_add_reverse_lookup_index.sql",
+    "assets/migrations/mysql/004_add_authorization_model_serialized_protobuf.sql",
+    "assets/migrations/mysql/005_add_conditions_to_tuples.sql",
+    "assets/migrations/mysql/006_extend_object_id.sql",
+    "assets/migrations/mysql/007_collate_object_id.sql",
+    "assets/migrations/mysql/008_collate_identifiers.sql",
     "assets/migrations/mysql/collation_migrations.md",
+    "assets/migrations/postgres/001_initialize_schema.sql",
+    "assets/migrations/postgres/002_add_authorization_model_version.sql",
+    "assets/migrations/postgres/003_add_reverse_lookup_index.sql",
+    "assets/migrations/postgres/004_add_authorization_model_serialized_protobuf.sql",
+    "assets/migrations/postgres/005_add_conditions_to_tuples.sql",
+    "assets/migrations/postgres/006_add_collate_index.sql",
+    "assets/migrations/sqlite/005_initialize_schema.sql",
+    "assets/migrations/sqlite/006_add_store_ulid_index.sql",
+    "assets/playground/index.html",
     "assets/tests/abac_tests.yaml",
     "assets/tests/consolidated_1_1_tests.yaml",
     "cmd/migrate/flags.go",
     "cmd/migrate/migrate.go",
     "cmd/migrate/migrate_test.go",
-    "cmd/openfga/main.go",
     "cmd/openfga/main_test.go",
     "cmd/root.go",
     "cmd/run/cleanups.go",
@@ -105,14 +203,10 @@
     "cmd/validatemodels/validate_models_test.go",
     "cmd/version.go",
     "codecov.yml",
-    "docs/architecture/architecture.md",
-    "docs/authzen/README.md",
     "docs/authzen/implementation.md",
     "docs/authzen/pdp-capabilities-registry.md",
     "docs/caching.md",
-    "docs/check/README.md",
     "docs/dependencies-policy.md",
-    "docs/http/README.md",
     "docs/list_objects/example/example.md",
     "docs/list_objects/example_with_intersection_or_exclusion/example.md",
     "docs/security-self-assessment.md",
@@ -139,20 +233,7 @@
     "internal/check/mock_resolver.go",
     "internal/check/recursive.go",
     "internal/check/recursive_test.go",
-    "internal/check/recursive_ttu_collision_test.go",
-    "internal/check/request.go",
-    "internal/check/request_test.go",
-    "internal/check/response.go",
-    "internal/check/strategies.go",
-    "internal/check/weight2.go",
-    "internal/check/weight2_test.go",
-    "internal/checkutil/checkutil.go",
-    "internal/checkutil/checkutil_test.go",
-    "internal/concurrency/concurrency.go",
-    "internal/concurrency/concurrency_test.go",
-    "internal/concurrency/panic.go",
-    "internal/condition/condition.go",
-    "internal/condition/condition_test.go"
+    "internal/check/recursive_ttu_collision_test.go"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -219,8 +300,12 @@
     "telemetry": 5,
     "tests": 26
   },
-  "unread_source_paths_count": 525,
+  "unread_source_paths_count": 537,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 44,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

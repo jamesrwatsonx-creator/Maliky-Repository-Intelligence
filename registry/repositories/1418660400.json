@@ -11,26 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/superdesigndev/superdesign",
-  "description": "AI Product Design Agent - Open Source",
+  "description": "Archived open-source IDE extension prototype for AI-assisted interface design; README points users to a newer hosted SuperDesign product.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-06-29T04:55:32Z",
-    "github_description": "AI Product Design Agent - Open Source"
+    "github_description": "AI Product Design Agent - Open Source",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19",
   "current_commit": "49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19",
   "inspection_date": "2026-10-20T23:51:51.526375+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:creative-tools",
-    "category:design-systems",
-    "category:developer-tools",
-    "category:plugins-extensions"
+    "category:plugins-extensions",
+    "category:frontend-applications",
+    "category:design-systems"
   ],
-  "operational_category": "operational:03",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:ide-native-ai-design-extension",
@@ -41,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -342,13 +341,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.307244+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.337255+00:00",
   "tree_files": 89,
   "files_read": 71,
   "entity_count": 2,
-  "unread_source_files": 0,
+  "unread_source_files": 3,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:16:49.146003+00:00",
@@ -391,5 +391,87 @@
       "provider and webview implementation internals"
     ],
     "scoped_deep_review": "Credential, workspace-mutation and arbitrary-command triggers reviewed narrowly. The custom agent connects to configured model providers and registers file mutation plus shell tools. The shell helper checks a short unsafe-pattern list, which is not a complete command sandbox, and the upstream README says the extension is no longer maintained."
+  },
+  "repository_intelligence": {
+    "purpose": "Archived open-source IDE extension prototype for AI-assisted interface design; README points users to a newer hosted SuperDesign product.",
+    "reuse_recommendation": "Prefer the maintained successor product; use archived code only as historical design reference after license review.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "No SPDX license assertion in repository metadata; verify before reuse.",
+    "runtime": [
+      "IDE extension",
+      "frontend design workflow"
+    ],
+    "keywords": [
+      "AI design IDE extension",
+      "UI mockups",
+      "frontend design agent",
+      "SuperDesign archive"
+    ],
+    "risk_notes": [
+      "README states the repository is no longer actively maintained and product has moved; compatibility and licensing need verification."
+    ],
+    "important_subsystems": [
+      {
+        "name": "archived SuperDesign extension",
+        "purpose": "Contains the historical IDE extension implementation and design flow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:54.531004+00:00",
+    "inspected_commit": "49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "74cd5acd7f9e8b076dab75b4a93adda56d25c042",
+        "value": "https://github.com/jamesrwatsonx-creator/superdesign-Front-end/blob/49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "IDE design extension",
+        "description": "Provides an earlier IDE-based AI interface-design workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ide-design-extension",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "design mockup generation",
+        "description": "Supports ideation and UI design artifacts through an agent workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:design-mockup-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

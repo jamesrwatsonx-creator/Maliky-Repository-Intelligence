@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/iamlukethedev/Claw3D",
-  "description": "Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications.",
+  "description": "3D content or interaction project built around a claw-machine concept; provides a reusable visual/interactive experience rather than a general-purpose 3D engine.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-21T11:07:08Z",
-    "github_description": "Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications."
+    "github_description": "Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "0565b7892909eca7bbc8f2d9b0fad171dd75ad7c",
   "current_commit": "0565b7892909eca7bbc8f2d9b0fad171dd75ad7c",
   "inspection_date": "2026-09-20T05:33:56.095768+00:00",
   "categories": [
+    "category:games-interactive-experiences",
+    "category:creative-tools",
     "category:general-other"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.427921+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.244908+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 608,
-  "files_read": 3,
+  "files_read": 12,
   "entity_count": 1,
-  "unread_source_files": 572,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 567,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.100223+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "3D content or interaction project built around a claw-machine concept; provides a reusable visual/interactive experience rather than a general-purpose 3D engine.",
+    "reuse_recommendation": "Use for interaction and visual reference; confirm asset licenses and target-device performance.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and included 3D asset rights.",
+    "runtime": [
+      "Web 3D runtime or repository-declared engine",
+      "3D assets"
+    ],
+    "keywords": [
+      "Claw3D",
+      "3D interaction",
+      "game experience",
+      "WebGL",
+      "3D assets"
+    ],
+    "risk_notes": [
+      "Third-party media and 3D assets may have separate reuse terms."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Claw3D scene",
+        "purpose": "Provides the project’s core interactive 3D experience.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:20.555147+00:00",
+    "inspected_commit": "0565b7892909eca7bbc8f2d9b0fad171dd75ad7c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4fc53d90ba40ffe37c5d46913c2362dfa031ae8f",
+        "value": "https://github.com/jamesrwatsonx-creator/Claw3D/blob/0565b7892909eca7bbc8f2d9b0fad171dd75ad7c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive 3D experience",
+        "description": "Implements a 3D claw-machine style interface or scene.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-3d-experience",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "3D asset presentation",
+        "description": "Combines scene assets, controls and visual effects.",
+        "scope": "DESIGN",
+        "id": "cluster:3d-asset-presentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

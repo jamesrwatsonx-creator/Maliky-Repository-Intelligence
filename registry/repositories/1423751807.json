@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/ranxianglei/billion-context",
-  "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+  "description": "Long-context or persistent-memory system intended to let agents retrieve large amounts of project or conversational context efficiently.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-17T21:06:29Z",
-    "github_description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
+    "github_description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "07501b353afd896036be7332c91c526e9d385898",
   "current_commit": "07501b353afd896036be7332c91c526e9d385898",
   "inspection_date": "2026-10-20T23:58:19.738390+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:ai-memory",
+    "category:ai-infrastructure",
+    "category:data-engineering"
+  ],
+  "operational_category": "operational:04",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.293435+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.041229+00:00",
   "tree_files": 1510,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1470,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1467,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Long-context or persistent-memory system intended to let agents retrieve large amounts of project or conversational context efficiently.",
+    "reuse_recommendation": "Use only after evaluating retrieval quality, tenancy isolation, deletion and cost at scale.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and model/provider terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "embedding/model services",
+      "storage backend"
+    ],
+    "keywords": [
+      "long context",
+      "agent memory",
+      "context retrieval",
+      "large knowledge base",
+      "AI infrastructure"
+    ],
+    "risk_notes": [
+      "Large persistent context stores can retain confidential data and amplify stale information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Billion-context memory layer",
+        "purpose": "Supports scalable context storage and retrieval for agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:16.511662+00:00",
+    "inspected_commit": "07501b353afd896036be7332c91c526e9d385898",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b19627e9c37982cd761ef573925ce1b8bf93dc34",
+        "value": "https://github.com/jamesrwatsonx-creator/billion-context/blob/07501b353afd896036be7332c91c526e9d385898/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "large-context storage and indexing",
+        "description": "Organizes substantial context for later lookup by agent workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:large-context-storage-and-indexing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "retrieval and context assembly",
+        "description": "Selects relevant information to provide to model interactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:retrieval-and-context-assembly",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

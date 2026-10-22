@@ -1,0 +1,843 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Respect platform policies, consent and data protection requirements for integrations and media."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/praw",
+                             "commit":  "b04ac4694d77e1fd3ea4bd51a9996573d9becec4",
+                             "purpose":  "Python wrapper for Reddit\u0027s API, covering authenticated access to communities, submissions, comments and account functions.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "MIT license identified in repository.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Reddit API",
+                                              "Python SDK",
+                                              "submissions",
+                                              "comments",
+                                              "community integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Reddit API client",
+                                                             "description":  "Python interface for reading and managing Reddit resources through its API.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "PRAW client library",
+                                                              "purpose":  "Provides authenticated Reddit API access from Python applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for Reddit integrations; confirm current API terms, rate limits and access requirements.",
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/TikTok-Api",
+                             "commit":  "99630590a2e24997f69822b0541f396424f44d40",
+                             "purpose":  "Unofficial Python client for retrieving TikTok content and account data through platform-facing interfaces.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Review both license files and TikTok terms before reuse.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "TikTok",
+                                              "Python client",
+                                              "social media",
+                                              "content retrieval",
+                                              "unofficial API"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "TikTok content access",
+                                                             "description":  "Automates retrieval of TikTok media and account information using unofficial endpoints.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "TikTok API client",
+                                                              "purpose":  "Provides programmatic access to platform content and metadata.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only after validating platform terms, endpoint stability, consent and data handling.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/atproto",
+                             "commit":  "71629f535e1872a5769411347d6df47f17f946b8",
+                             "purpose":  "Python SDK for the AT Protocol, including clients and protocol models used to build Bluesky-compatible applications.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Review repository license before distribution.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AT Protocol",
+                                              "Bluesky",
+                                              "Python SDK",
+                                              "federated social",
+                                              "protocol client"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "AT Protocol SDK",
+                                                             "description":  "Supports protocol-aware clients and application integrations for AT Protocol services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Python client and protocol models",
+                                                              "purpose":  "Implements reusable client and data model support for AT Protocol.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use when integrating with AT Protocol; pin a compatible version and endpoint configuration.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Mastodon.py",
+                             "commit":  "b9f2effbb5a9f07ebca3807466f4130e69b1614c",
+                             "purpose":  "Python API wrapper for interacting with Mastodon and compatible federated social-network servers.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Check the pinned license file before redistribution.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Mastodon API",
+                                              "ActivityPub",
+                                              "Python SDK",
+                                              "federated social",
+                                              "social integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Mastodon API integration",
+                                                             "description":  "Provides client operations for accounts, timelines, posts and server APIs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Mastodon.py client",
+                                                              "purpose":  "Connects Python applications to Mastodon instances and their APIs.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for federated social integrations and account workflows; account for instance-specific limits.",
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/dedupe",
+                             "commit":  "3f61e79102910bd355e920a2df7e44c14c9cb247",
+                             "purpose":  "Python library for entity resolution and fuzzy deduplication of records using learned similarity models.",
+                             "categories":  [
+                                                "category:databases",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "Review pinned license and model/data handling obligations.",
+                             "asset_presence":  {
+                                                    "data_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "entity resolution",
+                                              "record linkage",
+                                              "deduplication",
+                                              "fuzzy matching",
+                                              "Python data quality"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Record linkage and deduplication",
+                                                             "description":  "Finds likely duplicate records from noisy fields and supports learned matching workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Dedupe matching library",
+                                                              "purpose":  "Supports scalable entity resolution over structured records.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for record linkage after evaluating data quality, thresholds and privacy constraints.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/spiderfoot",
+                             "commit":  "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+                             "purpose":  "Automated OSINT platform that orchestrates modules to collect and correlate publicly available information about targets.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Review license and applicable laws before deployment.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OSINT",
+                                              "reconnaissance",
+                                              "data collection",
+                                              "correlation",
+                                              "security research"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "OSINT collection and correlation",
+                                                             "description":  "Runs modular collection workflows and correlates discovered public information.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Extensible intelligence modules",
+                                                             "description":  "Adds source-specific collection and analysis through a plugin-like module system.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "SpiderFoot platform",
+                                                              "purpose":  "Coordinates scans, source modules and results for OSINT investigations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "JavaScript assets"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only for authorized investigations with strict scope, privacy and source-policy controls.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/browsertrix-crawler",
+                             "commit":  "e70f3721ad5b3303568764c280bc3c1447b2a838",
+                             "purpose":  "Browser-based web crawler for creating high-fidelity web archives using browser automation and WARC output.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:05",
+                             "license_notes":  "Check the pinned license and target-site crawl policies.",
+                             "asset_presence":  {
+                                                    "browser_computer_use":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "web archiving",
+                                              "browser crawler",
+                                              "WARC",
+                                              "browser automation",
+                                              "web capture"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Browser-driven web capture",
+                                                             "description":  "Crawls rendered pages through browser automation and records archival captures.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Browsertrix crawler",
+                                                              "purpose":  "Produces replayable web archives of browser-rendered sites.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/Node.js",
+                                             "browser runtime"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for permitted archival and preservation crawls; configure scope, rate and resource limits.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/snscrape",
+                             "commit":  "614d4c2029a62d348ca56598f87c425966aaec66",
+                             "purpose":  "Social-network scraping library and command-line tool for collecting public posts and profile data from supported platforms.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Verify license and platform terms; collection may involve personal data.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "social media scraping",
+                                              "public posts",
+                                              "social data",
+                                              "CLI",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Social content collection",
+                                                             "description":  "Retrieves public posts and account metadata from supported social services.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "snscrape library and CLI",
+                                                              "purpose":  "Offers reusable scrapers and command-line collection workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only where collection is authorized and consistent with platform rules and privacy obligations.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/awesome-typesafe-jev",
+                             "commit":  "aef592247ef6071828268f535692a30f72f8e6dc",
+                             "purpose":  "Curated reference collection for TypeSafe JEV-related integrations, patterns or resources.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Review repository and referenced project licenses individually.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "JEV",
+                                              "TypeSafe",
+                                              "curated resources",
+                                              "reference catalog"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "TypeSafe JEV reference catalog",
+                                                             "description":  "Indexes related tools and references for discovery rather than providing a runtime service.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Curated resource list",
+                                                              "purpose":  "Helps locate relevant JEV and TypeSafe resources.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown/reference data",
+                                             "TypeScript ecosystem"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a discovery index; verify each upstream project\u0027s current status and license.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/awesome-jev",
+                             "commit":  "d5624c417c9371fcdb994ac7d6c943140f2bf398",
+                             "purpose":  "Curated collection of JEV resources and scenarios, including agent-oriented decision examples.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:ai-agents"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Review the repository license and individual upstream terms.",
+                             "asset_presence":  {
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "JEV",
+                                              "agent scenarios",
+                                              "decision examples",
+                                              "curated list"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "JEV reference collection",
+                                                             "description":  "Collects pointers and scenario material for JEV implementations and use cases.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Agent scenarios",
+                                                              "purpose":  "Provides example scenarios and references for applying JEV to agents.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown/reference data"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a starting point for examples, checking referenced sources before adopting them.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/socid-extractor",
+                             "commit":  "571dbe29ce63a29a6e729811a7fef4590422cf0d",
+                             "purpose":  "Python tool for extracting social-network identifiers or account references from supplied data.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Confirm license and ensure identifiers are handled lawfully and minimally.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "social identifiers",
+                                              "account extraction",
+                                              "OSINT",
+                                              "Python utility"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Social identifier extraction",
+                                                             "description":  "Parses inputs to identify social account references for downstream research workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Identifier extractor",
+                                                              "purpose":  "Converts supplied content into structured social identity references.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only with authorized data and appropriate privacy safeguards.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Aliens_eye",
+                             "commit":  "b1316648fe0e648469d30512bb0535ebc8c4bbc7",
+                             "purpose":  "OSINT investigation application for collecting and visualizing links among entities and online evidence.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check license and legal/privacy constraints for target data.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OSINT",
+                                              "investigation graph",
+                                              "entity relationships",
+                                              "visualization",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Investigation visualization",
+                                                             "description":  "Presents collected intelligence as linked entities and evidence for analyst exploration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OSINT investigation interface",
+                                                              "purpose":  "Supports organizing and inspecting relationships discovered during research.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for authorized research only; assess source handling, privacy and operational security.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/social-analyzer",
+                             "commit":  "1ba0905e00d054aab833eb3693739c354db09e0f",
+                             "purpose":  "Social media discovery tool that searches supported sites for profiles matching a username or identity hint.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:plugins-extensions"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check both README variants and license terms; profile discovery can affect personal privacy.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "username search",
+                                              "social profiles",
+                                              "OSINT",
+                                              "social discovery",
+                                              "API"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Cross-site profile discovery",
+                                                             "description":  "Searches supported networks for potential accounts matching a submitted identity string.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Social Analyzer",
+                                                              "purpose":  "Combines site-specific checks and presents candidate social profiles.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "web/API interface"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only for consent-based or otherwise authorized research; validate matches and avoid sensitive profiling.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/holehe",
+                             "commit":  "14da70f588538936b20d238783c5e28a0772a2b3",
+                             "purpose":  "Command-line OSINT utility that checks whether an email address is registered with supported online services.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Review license, privacy laws and service terms; results may reveal sensitive account associations.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "email account enumeration",
+                                              "OSINT",
+                                              "CLI",
+                                              "account discovery",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Email-to-service checks",
+                                                             "description":  "Tests supported services for account registration signals associated with an email address.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "holehe CLI",
+                                                              "purpose":  "Runs concurrent registration checks and reports possible service associations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Restrict to authorized security or account-recovery contexts and protect queried identifiers.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/maigret",
+                             "commit":  "b6642744988e7e6c2d21f75db60ec3093019ba25",
+                             "purpose":  "Username OSINT tool that searches many websites for matching accounts and can generate structured investigation reports.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Confirm license and applicable privacy/website policies.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "username search",
+                                              "account discovery",
+                                              "OSINT",
+                                              "reports",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Multi-site username search",
+                                                             "description":  "Checks a broad site catalog for candidate profiles associated with a username.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Investigation reporting",
+                                                             "description":  "Organizes lookup results into reusable reports and exports.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Maigret search engine",
+                                                              "purpose":  "Coordinates site checks and consolidates potential profile matches.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only for authorized investigations, validate false positives and minimize retention of personal data.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/sherlock",
+                             "commit":  "e40a45ec2a074b90703b3b4b842c8a3adbd6ada3",
+                             "purpose":  "Command-line username search tool for checking public profile availability across many websites.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Verify license and target website terms before operational use.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "username search",
+                                              "OSINT",
+                                              "public profile lookup",
+                                              "CLI",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Cross-site username checks",
+                                                             "description":  "Queries configured websites for public profiles matching a supplied username.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Sherlock CLI",
+                                                              "purpose":  "Runs and formats username availability checks across site definitions.",
+                                                              "evidence_paths":  [
+                                                                                     ".actor/README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for authorized research with conservative rate limits and privacy safeguards.",
+                             "source_review":  [
+                                                   ".actor/README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/socialscan",
+                             "commit":  "5ae42d0f82b0ebd717b3ae52b693b4ececa902b1",
+                             "purpose":  "Python CLI and library for checking username or email availability on supported social platforms.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Review the license, platform policies and privacy implications of queried identifiers.",
+                             "asset_presence":  {
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks_services":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "username availability",
+                                              "email checks",
+                                              "social platforms",
+                                              "Python library",
+                                              "OSINT"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Account availability checks",
+                                                             "description":  "Checks configured services for username or email registration indicators.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "socialscan library and CLI",
+                                                              "purpose":  "Provides programmatic and command-line account lookup workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only with authorization and appropriate controls for personal identifiers.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/react-native-expo-quickstart",
+                             "commit":  "67ca6304e377bc17ce7ac214fe3165f207f04c14",
+                             "purpose":  "Starter template for rapidly bootstrapping React Native applications with Expo and a preconfigured project structure.",
+                             "categories":  [
+                                                "category:mobile-applications",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "Review template license and dependency licenses before shipping derived applications.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "React Native",
+                                              "Expo",
+                                              "mobile starter",
+                                              "quickstart",
+                                              "JavaScript"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Expo mobile app scaffold",
+                                                             "description":  "Provides a starting project structure and configuration for cross-platform mobile development.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Quickstart template",
+                                                              "purpose":  "Reduces setup time for a new Expo-based React Native project.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "JavaScript/TypeScript",
+                                             "React Native",
+                                             "Expo"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use as a scaffold after checking dependency freshness, build configuration and license compatibility.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         }
+                     ]
+}

@@ -11,28 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/microsoft/CUAWright",
-  "description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks. ",
+  "description": "Python browser-agent framework that combines Playwright with configurable language-model backends to browse and act on websites.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-03T22:00:27Z",
-    "github_description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks. "
+    "github_description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks. ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "bc26750af3ad166d982f23d101ef8971a3a2fce5",
   "current_commit": "bc26750af3ad166d982f23d101ef8971a3a2fce5",
   "inspection_date": "2026-09-20T05:33:31.275765+00:00",
   "categories": [
-    "category:agent-workflows",
     "category:ai-agents",
-    "category:cli-tools",
     "category:developer-tools",
-    "category:libraries-packages",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -48,7 +45,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -293,11 +290,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.716785+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.729109+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -320,8 +318,8 @@
   "tree_files": 135,
   "files_read": 120,
   "entity_count": 6,
-  "unread_source_files": 0,
-  "next_phase": "SOURCE_EVIDENCE_REVIEW",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -351,5 +349,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.341594+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python browser-agent framework that combines Playwright with configurable language-model backends to browse and act on websites.",
+    "reuse_recommendation": "Strong candidate for authorized browser workflows; review domain controls, authentication, downloads, prompt injection and action confirmation before use.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE; model provider terms apply.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "Webwright browser agent",
+      "Playwright agent",
+      "web task automation",
+      "OpenAI Anthropic OpenRouter",
+      "browser actions"
+    ],
+    "risk_notes": [
+      "Can access websites and perform actions; isolate credentials and limit domains and consequential operations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Webwright agent runtime",
+        "purpose": "Coordinates model, browser and task execution.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:43.956947+00:00",
+    "inspected_commit": "bc26750af3ad166d982f23d101ef8971a3a2fce5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c38dadc21c7d447e3a1b98e5b2f90d54804c64d1",
+        "value": "https://github.com/jamesrwatsonx-creator/Webwright/blob/bc26750af3ad166d982f23d101ef8971a3a2fce5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "model-driven browser agent",
+        "description": "Uses a language model to plan and perform browser tasks through Playwright.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-driven-browser-agent",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-provider model backend",
+        "description": "Supports multiple language-model providers for browser reasoning.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-provider-model-backend",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser action and observation loop",
+        "description": "Connects page observation, browser actions and task progress.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-action-and-observation-loop",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "SOURCE_EVIDENCE_REVIEW",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

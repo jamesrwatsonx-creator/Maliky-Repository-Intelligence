@@ -5,8 +5,24 @@
   "tree_files": 1115,
   "tree_entries": [
     {
+      "path": ".claude/skills/analyze-issue/SKILL.md",
+      "sha": "fd192f15ba4813b036b9e43082fd6cf6c80c1b5c"
+    },
+    {
+      "path": ".claude/skills/analyze-pr/SKILL.md",
+      "sha": "78f2690128bd29cd232dfcb62d945ac61bc1a062"
+    },
+    {
+      "path": ".claude/skills/fix-issue/SKILL.md",
+      "sha": "564ba825ef3fe6b1654efbdefdcf0f563a4bbb32"
+    },
+    {
       "path": "AGENTS.md",
       "sha": "6c90718d4aec85e4763f009ce46dc4f654cd16e2"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "3f8e14a03bb424b24d0b36f39e396c76d8e30b88"
     },
     {
       "path": "README.md",
@@ -15,6 +31,14 @@
     {
       "path": "SKILL.md",
       "sha": "405e9fb25389c5044c32f712fb76fe7ede4bfca8"
+    },
+    {
+      "path": "apps/dsa-desktop/package.json",
+      "sha": "61b243d7e6d028c19cd992b4b68bdd7f56ef9e7e"
+    },
+    {
+      "path": "apps/dsa-web/package.json",
+      "sha": "c069df2972ba9e603af580d48ee725e952b30daa"
     },
     {
       "path": "docker/docker-compose.yml",
@@ -77,13 +101,40 @@
       "path": "docker/docker-compose.yml",
       "blob_sha": "d515f3143657c856aa2639fe8cf62c8abfa5754b",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "3f8e14a03bb424b24d0b36f39e396c76d8e30b88",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/dsa-desktop/package.json",
+      "blob_sha": "61b243d7e6d028c19cd992b4b68bdd7f56ef9e7e",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/dsa-web/package.json",
+      "blob_sha": "c069df2972ba9e603af580d48ee725e952b30daa",
+      "entities_detected": 0
+    },
+    {
+      "path": ".claude/skills/analyze-issue/SKILL.md",
+      "blob_sha": "fd192f15ba4813b036b9e43082fd6cf6c80c1b5c",
+      "entities_detected": 0
+    },
+    {
+      "path": ".claude/skills/analyze-pr/SKILL.md",
+      "blob_sha": "78f2690128bd29cd232dfcb62d945ac61bc1a062",
+      "entities_detected": 0
+    },
+    {
+      "path": ".claude/skills/fix-issue/SKILL.md",
+      "blob_sha": "564ba825ef3fe6b1654efbdefdcf0f563a4bbb32",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".claude/skills/README.md",
-    ".claude/skills/analyze-issue/SKILL.md",
-    ".claude/skills/analyze-pr/SKILL.md",
-    ".claude/skills/fix-issue/SKILL.md",
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/ISSUE_TEMPLATE/config.yml",
@@ -95,6 +146,7 @@
     ".github/instructions/client.instructions.md",
     ".github/instructions/governance.instructions.md",
     ".github/release.yml",
+    ".github/requirements-ci.txt",
     ".github/scripts/ai_review.py",
     ".github/scripts/build_release_notes.py",
     ".github/workflows/00-daily-analysis.yml",
@@ -148,8 +200,8 @@
     "api/v1/schemas/usage.py",
     "apps/dsa-desktop/main.js",
     "apps/dsa-desktop/package-lock.json",
-    "apps/dsa-desktop/package.json",
     "apps/dsa-desktop/preload.js",
+    "apps/dsa-desktop/renderer/loading.html",
     "apps/dsa-desktop/scripts/afterPackMacos.js",
     "apps/dsa-desktop/tests/main.test.js",
     "apps/dsa-desktop/tests/preload.test.js",
@@ -157,10 +209,11 @@
     "apps/dsa-web/e2e/report-markdown.spec.ts",
     "apps/dsa-web/e2e/smoke.spec.ts",
     "apps/dsa-web/eslint.config.js",
+    "apps/dsa-web/index.html",
     "apps/dsa-web/package-lock.json",
-    "apps/dsa-web/package.json",
     "apps/dsa-web/playwright.config.ts",
     "apps/dsa-web/public/stocks.index.json",
+    "apps/dsa-web/src/App.css",
     "apps/dsa-web/src/App.test.tsx",
     "apps/dsa-web/src/App.tsx",
     "apps/dsa-web/src/api/__tests__/agent.test.ts",
@@ -179,7 +232,8 @@
     "apps/dsa-web/src/api/error.ts",
     "apps/dsa-web/src/api/history.ts",
     "apps/dsa-web/src/api/index.ts",
-    "apps/dsa-web/src/api/portfolio.ts"
+    "apps/dsa-web/src/api/portfolio.ts",
+    "apps/dsa-web/src/api/screening.ts"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -300,8 +354,12 @@
     "templates": 4,
     "tests": 270
   },
-  "unread_source_paths_count": 1011,
+  "unread_source_paths_count": 1019,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 96,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -1,13 +1,9 @@
 # Memory & Context — page 2
 
-232 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+230 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [methodologies/maestro/maestro-knowledge-graph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4c0a3cfe5796d5eb4ed4727f.json) — Maestro Knowledge Graph - Knowledge management: capture patterns, validate updates, sync across stories, query architectural decisions<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-knowledge-graph.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-knowledge-graph.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/planning-with-files/planning-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4d4ffd7027f908e25e03ac0.json) — Planning with Files - Main orchestrator implementing persistent markdown-based planning with filesystem as extended memory<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/planning-with-files/planning-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/planning-with-files/planning-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/ruflo/ruflo-intelligence](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A713cbcd4287686a4ef08fbd3.json) — Ruflo RuVector Intelligence - Self-optimization cycle: pattern extraction -> reasoning bank -> SONA adaptation -> knowledge graph updates<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/ruflo-intelligence.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/ruflo-intelligence.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [migrate-sqlite-to-tcvdb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A223590317bb0ce4312785b5a.json) — Four-layer local memory system plugin for OpenClaw — auto-captures, structures, and profiles conversational knowledge using local LLM + SQLite vector search (L0→L1→L2→L3 pipeline)<br>

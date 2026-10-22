@@ -1,0 +1,1781 @@
+{
+  "defaults": {
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "runtime": [
+      "See repository package metadata"
+    ],
+    "risk_notes": [
+      "Review upstream dependencies, current service terms and deployment permissions before production use."
+    ],
+    "source_review": [
+      "README.md"
+    ],
+    "capability_clusters": [
+      {
+        "name": "repository capability",
+        "description": "Provides the capability described by the pinned repository overview.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "primary capability",
+        "purpose": "Core reusable function described by the repository overview.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/new-social-media-skills",
+      "commit": "94f72ea2ece388fa30ef49a26fb2e6fd2109e0b1",
+      "purpose": "A collection of host-executed skills for planning and producing social-media content across newsletter, LinkedIn, Instagram, Substack, X and YouTube workflows.",
+      "categories": [
+        "category:skills",
+        "category:marketing-communications",
+        "category:agent-workflows"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "skills/analytics-dashboard/SKILL.md",
+        "skills/content-matrix/SKILL.md",
+        "skills/niche-research/SKILL.md"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "agent-host instructions"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "social media skills",
+        "content system",
+        "newsletter repurposing",
+        "content planning",
+        "creator marketing"
+      ],
+      "capability_clusters": [
+        {
+          "name": "social content planning",
+          "description": "Guides content research, editorial planning and multi-channel content matrices.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "cross-channel publishing workflow",
+          "description": "Coordinates adapting source content for multiple creator channels.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "creative asset generation",
+          "description": "Includes instruction workflows for social graphics and content formats.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "social content skill suite",
+          "purpose": "Packages host instructions for researching, planning and adapting creator content.",
+          "evidence_paths": [
+            "README.md",
+            "skills/content-matrix/SKILL.md",
+            "skills/niche-research/SKILL.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use selected skills in a compatible host and adapt channel workflows to the target brand and current platform rules.",
+      "license_notes": "MIT; external platform terms apply.",
+      "risk_notes": [
+        "Follower and view figures are README claims, not independently verified; publishing integrations are host/platform dependent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/dexpaprika-mcp",
+      "commit": "ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea",
+      "purpose": "Node.js MCP server that exposes DexPaprika cryptocurrency and decentralized-exchange data, including token, pool and DEX queries.",
+      "categories": [
+        "category:mcp-servers",
+        "category:apis",
+        "category:finance-accounting"
+      ],
+      "operational": "operational:02",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/index.js",
+        "src/indicators.js",
+        "src/search-mapping.js"
+      ],
+      "runtime": [
+        "JavaScript",
+        "Node.js",
+        "MCP",
+        "DexPaprika API"
+      ],
+      "asset_presence": {
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "DexPaprika MCP",
+        "DEX data",
+        "crypto tokens",
+        "liquidity pools",
+        "decentralized exchanges"
+      ],
+      "capability_clusters": [
+        {
+          "name": "DEX and token data tools",
+          "description": "Provides MCP access to current token, pool and decentralized-exchange information.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "network-specific pool queries",
+          "description": "Maps supported networks and query parameters to DexPaprika endpoints.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "MCP server packaging",
+          "description": "Packages the data interface for Node-based MCP clients.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "DexPaprika MCP service",
+          "purpose": "Connects assistants to external DEX and token data endpoints.",
+          "evidence_paths": [
+            "src/index.js",
+            "src/search-mapping.js",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a read/query integration after reviewing API limits, chain coverage and financial-data semantics; it is not a trading executor.",
+      "license_notes": "MIT; DexPaprika API terms apply.",
+      "risk_notes": [
+        "Market data and API availability are external and may be delayed, incomplete or rate limited."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/releases.grapheneos.org",
+      "commit": "7ea23ee02c9818ca4edb00e64e398cd506be499f",
+      "purpose": "Static-site and server configuration for GrapheneOS release hosting and well-known web policy files.",
+      "categories": [
+        "category:cloud-infrastructure",
+        "category:devops",
+        "category:mobile-applications"
+      ],
+      "operational": "operational:14",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "LICENSE",
+        ".github/workflows/static.yml",
+        "servers.sh",
+        "requirements.txt",
+        "static/.well-known/security.txt",
+        "static/robots.txt"
+      ],
+      "inspection_scope": "Reviewed the complete bounded source packet: server setup, static hosting workflow, requirements and deployed well-known policy assets. No Android application source is present in this repository.",
+      "runtime": [
+        "Shell",
+        "static web assets",
+        "GitHub Actions",
+        "Python requirements"
+      ],
+      "asset_presence": {
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "GrapheneOS release hosting",
+        "static site deployment",
+        "server configuration",
+        "well-known policies",
+        "Android release distribution"
+      ],
+      "capability_clusters": [
+        {
+          "name": "release website hosting",
+          "description": "Supports deployment of static release-site content and server configuration.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "web policy endpoints",
+          "description": "Maintains well-known policy and crawler-control files.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "hosting and deployment configuration",
+          "purpose": "Defines server setup and static publishing workflow.",
+          "evidence_paths": [
+            "servers.sh",
+            ".github/workflows/static.yml"
+          ]
+        },
+        {
+          "name": "well-known site policies",
+          "purpose": "Publishes security, privacy and crawler policy assets.",
+          "evidence_paths": [
+            "static/.well-known/security.txt",
+            "static/robots.txt"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Reference the static hosting and policy setup patterns; adapt domain, signing and release controls for the target service.",
+      "license_notes": "Repository license file grants MIT-style terms; review notice text and upstream policy.",
+      "risk_notes": [
+        "Release hosting integrity and server configuration are security-sensitive; verify upstream release-signing and deployment controls before reuse."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/react-lottie",
+      "commit": "c7d0a7c14e796fdedb81e977d613d8a5cb3c4470",
+      "purpose": "Legacy React wrapper for rendering Bodymovin/Lottie animation JSON in browser interfaces, with controls for playback and animation segments.",
+      "categories": [
+        "category:frontend-applications",
+        "category:libraries-packages",
+        "category:creative-tools"
+      ],
+      "operational": "operational:16",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/index.js"
+      ],
+      "runtime": [
+        "JavaScript",
+        "React",
+        "Lottie/bodymovin"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "React Lottie",
+        "Bodymovin animation",
+        "JSON animation player",
+        "SVG canvas animation",
+        "React component"
+      ],
+      "capability_clusters": [
+        {
+          "name": "React animation player",
+          "description": "Embeds Bodymovin/Lottie animations in React applications.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "animation playback controls",
+          "description": "Exposes playback and segment control for rendered animations.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "React Lottie component",
+          "purpose": "Wraps the Lottie renderer for use in React interfaces.",
+          "evidence_paths": [
+            "src/index.js",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Consider for legacy integration; compare current React and Lottie renderer compatibility before adopting in a new application.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Older package/API surface may require maintenance or a current maintained alternative."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/blender-mcp",
+      "commit": "c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9",
+      "purpose": "Python MCP integration that lets compatible assistants inspect and manipulate Blender scenes through an add-on and tool server.",
+      "categories": [
+        "category:mcp-servers",
+        "category:creative-tools",
+        "category:creative-tools"
+      ],
+      "operational": "operational:02",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "main.py",
+        "src/blender_mcp/server.py"
+      ],
+      "runtime": [
+        "Python",
+        "MCP",
+        "Blender Python API"
+      ],
+      "asset_presence": {
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "NOT_OBSERVED",
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Blender MCP",
+        "3D scene editing",
+        "AI-assisted modeling",
+        "Blender add-on",
+        "MCP tools"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Blender scene tools",
+          "description": "Exposes scene inspection and modeling operations through MCP tools.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Blender add-on bridge",
+          "description": "Connects the MCP process to Blender's application-side integration.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "prompt-assisted 3D workflow",
+          "description": "Supports assistant-driven creation and modification of Blender scenes.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "MCP server",
+          "purpose": "Defines assistant-callable operations for Blender.",
+          "evidence_paths": [
+            "src/blender_mcp/server.py",
+            "main.py"
+          ]
+        },
+        {
+          "name": "Blender add-on",
+          "purpose": "Provides the Blender-side bridge used by remote tool requests.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Select for Blender automation after reviewing every exposed operation, local application bridge and confirmation boundary; it can change project files and scenes.",
+      "license_notes": "MIT; Blender and dependency terms also apply.",
+      "risk_notes": [
+        "MCP actions can modify 3D project state and may invoke powerful application operations; inspect tool permissions before connecting to an agent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/video-use",
+      "commit": "92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66",
+      "purpose": "Agent-guided video editing workflow that uses speech-aware cuts, subtitle generation, color treatment and FFmpeg processing to produce edited video from raw footage.",
+      "categories": [
+        "category:media-publishing",
+        "category:skills",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "SKILL.md",
+        "skills/manim-video/SKILL.md"
+      ],
+      "runtime": [
+        "Python",
+        "Claude Code skill",
+        "FFmpeg",
+        "speech/video processing tools"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "video editing agent",
+        "filler-word removal",
+        "subtitles",
+        "FFmpeg",
+        "automated video workflow",
+        "color grading"
+      ],
+      "capability_clusters": [
+        {
+          "name": "speech-aware video editing",
+          "description": "Guides editing to remove filler words and pauses from source footage.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "subtitle and visual treatment",
+          "description": "Coordinates subtitle styling, color grading and audio transitions.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "video workflow integration",
+          "description": "Connects host-agent instructions with local media-processing tools.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "video editing skill",
+          "purpose": "Coordinates agent-directed editing steps and output expectations.",
+          "evidence_paths": [
+            "SKILL.md",
+            "README.md"
+          ]
+        },
+        {
+          "name": "media processing setup",
+          "purpose": "Documents runtime and external video tool requirements.",
+          "evidence_paths": [
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use with a compatible agent host and isolated media workspace; inspect shell/media commands and consent for source footage before processing.",
+      "license_notes": "MIT; external media tools have their own licenses.",
+      "risk_notes": [
+        "Video workflows read and rewrite local media and may call external services; confirm file scope and permissions before execution."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/free-ai-bible",
+      "commit": "89a63fec7bffd4286893d8c7c5c948c86bf5152f",
+      "purpose": "Starter templates and deployment guidance for assembling small AI applications from hosted model APIs and open-source components.",
+      "categories": [
+        "category:templates-boilerplates",
+        "category:ai-applications",
+        "category:developer-tools"
+      ],
+      "operational": "operational:24",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "scripts/README.md",
+        "templates/chatbot-groq/README.md",
+        "templates/image-gen-api/README.md"
+      ],
+      "runtime": [
+        "Template collection",
+        "Python/JavaScript varies by starter",
+        "external model APIs"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "EXTERNAL_REFERENCE",
+        "models": "EXTERNAL_REFERENCE",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "AI app starters",
+        "chatbot template",
+        "image generation",
+        "hosted model API",
+        "developer templates"
+      ],
+      "capability_clusters": [
+        {
+          "name": "AI application starter templates",
+          "description": "Provides starter-project references for common model-backed application patterns.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "chat and image generation setup",
+          "description": "Documents example integrations with external inference APIs.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "template maintenance tooling",
+          "description": "Includes scripts and guidance for maintaining the starter collection.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "starter template directory",
+          "purpose": "Collects example application scaffolds and setup guidance.",
+          "evidence_paths": [
+            "README.md",
+            "templates/chatbot-groq/README.md",
+            "templates/image-gen-api/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a starter discovery index and inspect the selected template's actual source, API key handling and current provider terms.",
+      "license_notes": "MIT for this repository; external models and providers retain their terms.",
+      "risk_notes": [
+        "Template descriptions do not prove each hosted provider is available or free; protect API credentials and user inputs."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/client-sdk-web",
+      "commit": "4e199f11fef663ffdebd0571ecd0ef808e34a9af",
+      "purpose": "Web client SDK for connecting browser applications to Vapi voice-agent sessions and related realtime client events.",
+      "categories": [
+        "category:sdks-client-libraries",
+        "category:apis",
+        "category:ai-applications"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "package.json",
+        "example/package.json"
+      ],
+      "runtime": [
+        "JavaScript/TypeScript",
+        "browser SDK",
+        "Vapi service"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Vapi web SDK",
+        "voice agent client",
+        "browser voice sessions",
+        "realtime audio"
+      ],
+      "capability_clusters": [
+        {
+          "name": "browser voice-agent SDK",
+          "description": "Connects web applications to Vapi voice-agent sessions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "client session controls",
+          "description": "Provides client-side session lifecycle and event integration.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "web client package",
+          "purpose": "Exposes the browser-facing Vapi client API.",
+          "evidence_paths": [
+            "README.md",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as the browser integration candidate after reviewing current SDK authentication, microphone permissions and service pricing.",
+      "license_notes": "No license metadata found in the bounded packet; verify package terms before distribution.",
+      "risk_notes": [
+        "Voice sessions require microphone permissions and transmit audio to an external service; verify data handling and consent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vapi-client-javascript-next",
+      "commit": "a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a",
+      "purpose": "Next.js example application demonstrating Vapi voice-agent integration through a browser client, assistant setup and UI components.",
+      "categories": [
+        "category:templates-boilerplates",
+        "category:web-applications",
+        "category:ai-applications"
+      ],
+      "operational": "operational:07",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "assistants/assistant.ts",
+        "components/app/assistant.tsx"
+      ],
+      "runtime": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Vapi web client"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Vapi Next.js example",
+        "voice agent UI",
+        "assistant configuration",
+        "browser audio"
+      ],
+      "capability_clusters": [
+        {
+          "name": "voice assistant example app",
+          "description": "Demonstrates configuring and launching a Vapi-powered assistant in a Next.js application.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "voice interaction UI",
+          "description": "Provides example React components for browser-based voice sessions.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "assistant configuration",
+          "purpose": "Defines example assistant setup for the demo.",
+          "evidence_paths": [
+            "assistants/assistant.ts"
+          ]
+        },
+        {
+          "name": "voice app interface",
+          "purpose": "Connects the example UI to browser client interactions.",
+          "evidence_paths": [
+            "components/app/assistant.tsx",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a UI integration reference; confirm whether API calls and session setup are demo-only and keep service credentials server-side.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Browser microphone capture and hosted voice processing require consent, credential review and service-cost controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Jarvis",
+      "commit": "68db23cbd7b71a41f7853941a3037cd11d83cbed",
+      "purpose": "Multi-language desktop voice-assistant project with setup and launch scripts, including a Ruby-based assistant implementation and supporting Python entrypoint.",
+      "categories": [
+        "category:ai-applications",
+        "category:ai-applications",
+        "category:desktop-applications"
+      ],
+      "operational": "operational:07",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "main.py",
+        "main.rb",
+        "ion.sh"
+      ],
+      "runtime": [
+        "Ruby",
+        "Python",
+        "desktop voice assistant"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "voice_audio": "PRESENT",
+        "tools_plugins": "PRESENT"
+      },
+      "keywords": [
+        "Jarvis voice assistant",
+        "desktop assistant",
+        "Ruby assistant",
+        "speech interaction",
+        "assistant launcher"
+      ],
+      "capability_clusters": [
+        {
+          "name": "desktop assistant runtime",
+          "description": "Implements a personal assistant application with voice-oriented interaction.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "cross-language launch workflow",
+          "description": "Provides setup and launcher scripts for the assistant environment.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "assistant application",
+          "purpose": "Hosts the assistant logic and interaction flow.",
+          "evidence_paths": [
+            "main.rb",
+            "main.py"
+          ]
+        },
+        {
+          "name": "launcher and setup",
+          "purpose": "Starts or configures the application environment.",
+          "evidence_paths": [
+            "ion.sh"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Inspect provider integrations and local command permissions before adapting; treat as a project reference until the current runtime path is verified.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Voice assistant integrations may access microphone, network or local commands; review permissions and credentials before use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/whisperX",
+      "commit": "db8fde4d31a3e7f49fe5835938685a76f5ba5477",
+      "purpose": "Python speech-processing toolkit that combines Whisper transcription with word-level alignment, diarization and audio segmentation workflows.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:apis",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Whisper",
+        "audio alignment and diarization models"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "WhisperX",
+        "speech transcription",
+        "word timestamps",
+        "speaker diarization",
+        "audio alignment"
+      ],
+      "capability_clusters": [
+        {
+          "name": "speech transcription pipeline",
+          "description": "Runs Whisper-based transcription over audio and video inputs.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "word-level alignment",
+          "description": "Aligns transcript segments to audio timestamps using external alignment models.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "speaker diarization",
+          "description": "Adds speaker segmentation through compatible diarization components.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "transcription and alignment toolkit",
+          "purpose": "Coordinates ASR, timestamp alignment and optional speaker labeling.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for local or controlled transcription pipelines after checking model licenses, GPU requirements and diarization service credentials.",
+      "license_notes": "BSD-2-Clause; model weights and third-party components may have separate terms.",
+      "risk_notes": [
+        "Audio can contain sensitive personal data; diarization credentials, model downloads and GPU resource usage require review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ian-xiaohei-illustrations",
+      "commit": "91b560849e8f883922cc2fa8a358a668caa94105",
+      "purpose": "Illustration and prompt-reference package for generating a consistent character style through reusable agent instructions and example prompts.",
+      "categories": [
+        "category:creative-tools",
+        "category:skills",
+        "category:generative-ai"
+      ],
+      "operational": "operational:01",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "ian-xiaohei-illustrations/SKILL.md",
+        "NOTICE.md",
+        "examples/prompts.md"
+      ],
+      "runtime": [
+        "Markdown skill",
+        "image-generation prompts"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "illustration skill",
+        "character style",
+        "image prompts",
+        "visual consistency",
+        "creative agent"
+      ],
+      "capability_clusters": [
+        {
+          "name": "illustration style guidance",
+          "description": "Guides a compatible image-generation agent toward a consistent illustration direction.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "prompt examples",
+          "description": "Provides sample prompts for adapting the visual style to new requests.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "illustration skill",
+          "purpose": "Packages style and prompting guidance for a host agent.",
+          "evidence_paths": [
+            "ian-xiaohei-illustrations/SKILL.md"
+          ]
+        },
+        {
+          "name": "prompt reference",
+          "purpose": "Shows example prompt patterns and outputs.",
+          "evidence_paths": [
+            "examples/prompts.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as style inspiration after checking NOTICE and image-model terms; do not assume the repository includes or licenses a generation model.",
+      "license_notes": "MIT repository license; NOTICE may add attribution requirements.",
+      "risk_notes": [
+        "Generated outputs depend on external models and their terms; confirm rights and attribution for intended use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/playwright-mcp",
+      "commit": "16cf228d7b02c07f800ec3423f471ec2a42d22a9",
+      "purpose": "Microsoft MCP server exposing browser automation through Playwright, with accessibility-oriented page interaction and browser management tools.",
+      "categories": [
+        "category:mcp-servers",
+        "category:developer-tools",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:05",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "index.js",
+        "src/README.md"
+      ],
+      "runtime": [
+        "TypeScript/JavaScript",
+        "Node.js",
+        "MCP",
+        "Playwright browsers"
+      ],
+      "asset_presence": {
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "browser_computer_use": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Playwright MCP",
+        "browser automation",
+        "accessibility tree",
+        "web interaction",
+        "Microsoft MCP server"
+      ],
+      "capability_clusters": [
+        {
+          "name": "browser automation tools",
+          "description": "Provides MCP operations for navigating and interacting with browser pages.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser session management",
+          "description": "Manages browser contexts and page state for agent workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "accessible page inspection",
+          "description": "Uses structured page information to support agent-directed interaction.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Playwright MCP server",
+          "purpose": "Connects MCP clients to Playwright browser capabilities.",
+          "evidence_paths": [
+            "index.js",
+            "src/README.md",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong browser-automation candidate; review browser isolation, allowed domains, downloads, authentication and user-data handling for the intended build.",
+      "license_notes": "Apache-2.0.",
+      "risk_notes": [
+        "Browser control can access authenticated sites and perform consequential actions; scope profiles and permissions before connection."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vibe-coding-with-base44",
+      "commit": "dadf1c8ced45c99fbb41a9ed6c49170719ac0fd0",
+      "purpose": "Documentation, prompts and starter-kit references for planning and building applications with the external Base44 platform.",
+      "categories": [
+        "category:documentation",
+        "category:agent-workflows",
+        "category:templates-boilerplates"
+      ],
+      "operational": "operational:20",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "docs/README.md",
+        "prompts/README.md",
+        "starter-kits/README.md"
+      ],
+      "runtime": [
+        "Markdown guides and prompts",
+        "Base44 hosted platform"
+      ],
+      "asset_presence": {
+        "prompts_workflows": "PRESENT",
+        "apis_sdks_services": "EXTERNAL_REFERENCE",
+        "infrastructure_deployment": "EXTERNAL_REFERENCE"
+      },
+      "keywords": [
+        "Base44 vibe coding",
+        "app-building prompts",
+        "starter kits",
+        "AI coding workflow"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Base44 application workflow",
+          "description": "Guides users through planning and creating apps on the Base44 platform.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "prompt and starter references",
+          "description": "Collects reusable prompt and starter-kit materials for the hosted builder.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Base44 guides",
+          "purpose": "Documents platform-oriented building workflows.",
+          "evidence_paths": [
+            "docs/README.md",
+            "README.md"
+          ]
+        },
+        {
+          "name": "prompt and starter directories",
+          "purpose": "Organizes reusable prompts and starter references.",
+          "evidence_paths": [
+            "prompts/README.md",
+            "starter-kits/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as process guidance and verify current Base44 platform behavior, account permissions and generated-code ownership.",
+      "license_notes": "MIT for this repository; Base44 platform terms apply.",
+      "risk_notes": [
+        "Hosted platform and examples are external; instructions do not implement or guarantee deployed app functionality."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/skills-fable",
+      "commit": "42dfc3dbe4ca43ef021e79abcc7d258698f2be33",
+      "purpose": "Curated collection of agent skills covering orchestration, scheduling, coding and productivity workflows across supported agent hosts.",
+      "categories": [
+        "category:skills",
+        "category:agent-workflows",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "recommendation": "REFERENCE",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+        "skills/agent-orchestration/cmux/SKILL.md",
+        "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "multiple agent hosts"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "agent skills collection",
+        "agent orchestration",
+        "scheduling",
+        "Codex workflows",
+        "developer productivity"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent orchestration skills",
+          "description": "Provides host instructions for coordinating agents and session workflows.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "coding and productivity workflows",
+          "description": "Collects skills for goal loops and related development tasks.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "cross-host skill packaging",
+          "description": "Organizes reusable instructions for compatible agent environments.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "skill library",
+          "purpose": "Groups skill instructions by agent capability area.",
+          "evidence_paths": [
+            "README.md",
+            "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+            "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Select individual skills and check their host requirements, external tools and local execution effects before installation.",
+      "license_notes": "MIT; external tool dependencies retain their own terms.",
+      "risk_notes": [
+        "Skills are instructions, not enforcement boundaries; inspect commands and permissions for each selected workflow."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Qwen3-TTS",
+      "commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+      "purpose": "Qwen text-to-speech model and toolkit for multilingual speech synthesis, voice design and speech generation workflows.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "finetuning/README.md"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Qwen3 TTS models",
+        "GPU inference"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Qwen3 TTS",
+        "text to speech",
+        "voice design",
+        "multilingual speech generation",
+        "speech synthesis"
+      ],
+      "capability_clusters": [
+        {
+          "name": "text-to-speech generation",
+          "description": "Generates speech audio from text using Qwen3 TTS models.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "voice design and conditioning",
+          "description": "Supports voice-oriented generation and conditioning workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model fine-tuning workflow",
+          "description": "Documents fine-tuning procedures for adapting speech models.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "TTS inference toolkit",
+          "purpose": "Loads models and generates speech outputs.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        },
+        {
+          "name": "fine-tuning guidance",
+          "purpose": "Documents model adaptation workflows.",
+          "evidence_paths": [
+            "finetuning/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate voice quality, GPU requirements and model license before deployment; disclose synthetic speech and obtain voice consent.",
+      "license_notes": "Apache-2.0 for code; verify model-weight and voice-data terms independently.",
+      "risk_notes": [
+        "Synthetic voice can impersonate individuals; consent, provenance and disclosure controls matter."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/shadcn-calendar-heatmap",
+      "commit": "759856717f149bbf95d4e1e4b2712b64a0006e7b",
+      "purpose": "Reusable React calendar heatmap component package for displaying activity or time-series intensity in a shadcn/ui-style application.",
+      "categories": [
+        "category:frontend-applications",
+        "category:design-systems",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:16",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "app/(components)/example-code.tsx"
+      ],
+      "runtime": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "shadcn/ui conventions"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "React calendar heatmap",
+        "activity grid",
+        "shadcn component",
+        "time series visualization",
+        "contribution calendar"
+      ],
+      "capability_clusters": [
+        {
+          "name": "calendar heatmap component",
+          "description": "Renders date-based values as an interactive intensity grid.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "shadcn integration example",
+          "description": "Documents copying and adapting the component within a shadcn-style app.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "calendar heatmap UI",
+          "purpose": "Provides the reusable date/value visualization component.",
+          "evidence_paths": [
+            "README.md",
+            "app/(components)/example-code.tsx",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use directly after checking date/timezone handling, accessibility and peer dependency versions.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Validate data semantics and keyboard/screen-reader behavior for the target application."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ng-lottie",
+      "commit": "632446f2000518113d3f0df0a7b79197046ade0c",
+      "purpose": "Angular wrapper component for rendering Lottie/Bodymovin animation JSON in web applications.",
+      "categories": [
+        "category:frontend-applications",
+        "category:libraries-packages",
+        "category:creative-tools"
+      ],
+      "operational": "operational:16",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/index.ts"
+      ],
+      "runtime": [
+        "TypeScript",
+        "Angular",
+        "Lottie/Bodymovin"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Angular Lottie",
+        "Bodymovin",
+        "animation component",
+        "JSON animation",
+        "Angular UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Angular animation component",
+          "description": "Embeds Lottie animations in Angular interfaces.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "animation playback integration",
+          "description": "Connects component lifecycle and controls to the animation renderer.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Angular Lottie package",
+          "purpose": "Wraps the Lottie renderer as an Angular component.",
+          "evidence_paths": [
+            "src/index.ts",
+            "package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Compare package maintenance and Angular compatibility before adopting; use the current Lottie renderer API.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Check package age, Angular compatibility and animation asset provenance."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/jev-ultrafast",
+      "commit": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+      "purpose": "Python decision-engine package for routing bounded judgment tasks to configured evaluators with structured inputs and outputs.",
+      "categories": [
+        "category:ai-applications",
+        "category:developer-tools",
+        "category:ai-evaluation"
+      ],
+      "operational": "operational:24",
+      "recommendation": "EXTRACT",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "AGENTS.md",
+        "examples/flights.py"
+      ],
+      "runtime": [
+        "Python",
+        "provider/evaluator adapters"
+      ],
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "models": "EXTERNAL_REFERENCE"
+      },
+      "keywords": [
+        "JEV decision engine",
+        "bounded judgment",
+        "evaluator routing",
+        "structured decisions",
+        "Python"
+      ],
+      "capability_clusters": [
+        {
+          "name": "structured decision requests",
+          "description": "Packages bounded questions and evidence for evaluator decisions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "decision provider routing",
+          "description": "Routes requests through configurable evaluator integrations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "decision result normalization",
+          "description": "Returns structured decision outputs for downstream automation.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Python decision engine",
+          "purpose": "Coordinates request, provider and result handling.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml",
+            "examples/flights.py"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Potential shared infrastructure; inspect provider privacy, retries, cost controls and source-evidence boundaries before integrating.",
+      "license_notes": "MIT; provider terms apply.",
+      "risk_notes": [
+        "Evaluator outputs are judgments, not facts; preserve primary source evidence and control sensitive data sent to providers."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/youtube-dl-server",
+      "commit": "e6fc6e49a8a20b46b6d4b8745d834fdd5381236a",
+      "purpose": "Self-hosted web interface and server for downloading or processing media from supported URLs using yt-dlp and FFmpeg.",
+      "categories": [
+        "category:media-publishing",
+        "category:web-applications",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:09",
+      "recommendation": "WRAP",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "front/package.json",
+        "front/src/App.vue"
+      ],
+      "runtime": [
+        "Python or Node service; Vue frontend",
+        "yt-dlp",
+        "FFmpeg"
+      ],
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "youtube downloader server",
+        "yt-dlp web UI",
+        "media conversion",
+        "self-hosted video tools"
+      ],
+      "capability_clusters": [
+        {
+          "name": "media download service",
+          "description": "Provides a web-facing workflow for fetching media from supported URLs.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "media processing interface",
+          "description": "Offers a Vue UI for selecting and managing download or conversion tasks.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted deployment",
+          "description": "Packages the web frontend and backend for local or server use.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "download web interface",
+          "purpose": "Collects media requests and displays processing status.",
+          "evidence_paths": [
+            "front/src/App.vue",
+            "front/package.json"
+          ]
+        },
+        {
+          "name": "media service",
+          "purpose": "Coordinates URL retrieval and media processing.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use only behind access controls and strict URL/output limits; review subprocess handling and content rights before deployment.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Arbitrary URL retrieval and media conversion create SSRF, subprocess and file-write risks; public exposure needs authentication."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "purpose": "Official GSAP agent skills that teach compatible coding agents to use GSAP timelines, ScrollTrigger and animation plugins correctly.",
+      "categories": [
+        "category:skills",
+        "category:creative-tools",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:01",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "examples/nuxt/package.json",
+        "examples/react/package.json",
+        "examples/vue/package.json"
+      ],
+      "runtime": [
+        "Markdown skills",
+        "GSAP JavaScript animation library",
+        "React/Vue/Nuxt examples"
+      ],
+      "asset_presence": {
+        "skills": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "GSAP skills",
+        "animation agent guidance",
+        "ScrollTrigger",
+        "motion design",
+        "timeline animation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "GSAP API guidance",
+          "description": "Teaches agent hosts to construct animations using core GSAP APIs.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "scroll and plugin workflows",
+          "description": "Covers ScrollTrigger and related animation plugin patterns.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "framework examples",
+          "description": "Provides example projects for common JavaScript frameworks.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "GSAP skill collection",
+          "purpose": "Packages framework-aware instructions for agent-assisted animation work.",
+          "evidence_paths": [
+            "README.md",
+            "examples/react/package.json",
+            "examples/vue/package.json"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Install the skill for agent-assisted GSAP work and pair it with the installed GSAP version and current documentation.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Instructions can age as library APIs change; verify against the target GSAP release."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/MoneyPrinter",
+      "commit": "2a7c6bc6e8fab6e01fa740c4311d9e1e233b0262",
+      "purpose": "Application for generating short-form videos from a topic using local Ollama text generation, media processing and a database-backed job queue.",
+      "categories": [
+        "category:media-publishing",
+        "category:ai-applications",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:09",
+      "recommendation": "WRAP",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "AGENTS.md",
+        "docs/README.md"
+      ],
+      "runtime": [
+        "Python",
+        "Flask/API and worker",
+        "Ollama",
+        "PostgreSQL",
+        "MoviePy",
+        "Docker"
+      ],
+      "asset_presence": {
+        "models": "EXTERNAL_REFERENCE",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "automated YouTube Shorts",
+        "video generation queue",
+        "Ollama",
+        "PostgreSQL worker",
+        "topic-to-video"
+      ],
+      "capability_clusters": [
+        {
+          "name": "topic-to-short video workflow",
+          "description": "Coordinates script and metadata generation with video assembly for short-form content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "database-backed generation queue",
+          "description": "Tracks jobs through API, worker and PostgreSQL for restart-safe processing.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "local model and media integrations",
+          "description": "Connects Ollama and media tools to the generation pipeline.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "generation API and worker",
+          "purpose": "Accepts generation requests and processes queued video jobs.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        },
+        {
+          "name": "database deployment",
+          "purpose": "Provides the database-backed service deployment path.",
+          "evidence_paths": [
+            "README.md",
+            "docs/README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Review subprocesses, downloads, job isolation, credentials and generated-content rights before deployment; sandbox media processing.",
+      "license_notes": "MIT; Ollama models and external media sources have separate terms.",
+      "risk_notes": [
+        "Media pipelines may retrieve and process untrusted content; external APIs, local files, model outputs and publishing rights require review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/quantstats",
+      "commit": "fbd10daed0227aa0d10da6513f1b15e7e98d7fae",
+      "purpose": "Python quantitative-finance library for portfolio performance analysis, statistics, visualization and report generation.",
+      "categories": [
+        "category:libraries-packages",
+        "category:finance-accounting",
+        "category:data-visualization"
+      ],
+      "operational": "operational:13",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE.txt",
+        "pyproject.toml"
+      ],
+      "runtime": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "portfolio analytics",
+        "quantitative finance",
+        "performance metrics",
+        "risk statistics",
+        "backtesting reports"
+      ],
+      "capability_clusters": [
+        {
+          "name": "portfolio performance analytics",
+          "description": "Computes common performance and risk statistics from portfolio return series.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "financial visualization and reports",
+          "description": "Creates plots and reports for portfolio analysis.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Python quant research library",
+          "description": "Provides reusable analytics functions for finance workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "quantitative analytics library",
+          "purpose": "Implements portfolio metrics and report-oriented analysis.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for research analytics after validating input assumptions, benchmark selection and statistical interpretation; not investment advice.",
+      "license_notes": "Apache-2.0.",
+      "risk_notes": [
+        "Financial metrics depend on data quality, sampling and assumptions; do not treat outputs as trading advice or execution signals."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/bittorrent-tracker",
+      "commit": "0cec6887a9f31d4eb9856908283e603ddf01a654",
+      "purpose": "Node.js implementation of BitTorrent tracker client and server protocols for peer discovery over HTTP, UDP and WebSocket transports.",
+      "categories": [
+        "category:libraries-packages",
+        "category:networking",
+        "category:distributed-systems"
+      ],
+      "operational": "operational:12",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "index.js"
+      ],
+      "runtime": [
+        "JavaScript",
+        "Node.js",
+        "HTTP/UDP/WebSocket",
+        "BitTorrent protocol"
+      ],
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "BitTorrent tracker",
+        "peer discovery",
+        "WebTorrent",
+        "HTTP tracker",
+        "UDP tracker",
+        "WebSocket"
+      ],
+      "capability_clusters": [
+        {
+          "name": "tracker server",
+          "description": "Announces and serves peer-discovery requests over supported tracker protocols.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "tracker client",
+          "description": "Connects torrent clients to tracker endpoints to discover peers.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-transport networking",
+          "description": "Supports HTTP, UDP and WebSocket tracker communication paths.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "tracker client and server library",
+          "purpose": "Implements peer discovery protocol behavior for Node applications.",
+          "evidence_paths": [
+            "README.md",
+            "package.json",
+            "index.js"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a networking library after reviewing exposed ports, peer data, abuse controls and current protocol compatibility.",
+      "license_notes": "MIT.",
+      "risk_notes": [
+        "Peer discovery exposes network metadata and may attract abuse; deployment requires rate limits and network policy."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/whisper",
+      "commit": "5f86d1d86363843179951550570367b37c5d6f78",
+      "purpose": "OpenAI Python implementation and model package for multilingual speech recognition, transcription, translation and spoken-language identification.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:ai-applications",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "source_review": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml"
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Whisper model weights",
+        "ffmpeg"
+      ],
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "OpenAI Whisper",
+        "speech recognition",
+        "audio transcription",
+        "speech translation",
+        "language identification"
+      ],
+      "capability_clusters": [
+        {
+          "name": "multilingual speech recognition",
+          "description": "Transcribes speech across supported languages using Whisper models.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "speech translation and identification",
+          "description": "Supports translating speech and identifying spoken language.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Python inference package",
+          "description": "Provides command-line and library access to model inference.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Whisper inference package",
+          "purpose": "Loads model checkpoints and performs speech tasks from audio inputs.",
+          "evidence_paths": [
+            "README.md",
+            "pyproject.toml"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for transcription where local compute and model terms fit; assess accuracy, latency and sensitive-audio handling.",
+      "license_notes": "MIT code; review model card and dataset/model use terms for deployment context.",
+      "risk_notes": [
+        "Audio may contain sensitive information; secure files and outputs and disclose transcription limitations."
+      ]
+    }
+  ]
+}

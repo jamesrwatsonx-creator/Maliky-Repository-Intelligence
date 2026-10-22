@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/nomadkaraoke/python-audio-separator",
-  "description": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)",
+  "description": "Python audio source-separation toolkit for splitting music into stems such as vocals and accompaniment using pretrained models.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T18:33:29Z",
-    "github_description": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)"
+    "github_description": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "465b60f0271e880a7289a2c9aaeb13817c3b2bed",
   "current_commit": "465b60f0271e880a7289a2c9aaeb13817c3b2bed",
   "inspection_date": "2026-10-20T23:59:35.838061+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:machine-learning-models",
+    "category:media-publishing",
+    "category:media-publishing"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.938283+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.033982+00:00",
   "tree_files": 398,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 250,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 238,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python audio source-separation toolkit for splitting music into stems such as vocals and accompaniment using pretrained models.",
+    "reuse_recommendation": "Use on authorized audio and evaluate artifacts; protect recordings and verify model licensing.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository license and separate model checkpoint terms.",
+    "runtime": [
+      "Python",
+      "PyTorch/ONNX models",
+      "FFmpeg"
+    ],
+    "keywords": [
+      "audio-separator",
+      "vocal isolation",
+      "music stem separation",
+      "Demucs models",
+      "audio source separation"
+    ],
+    "risk_notes": [
+      "Audio may be copyrighted or sensitive; model downloads and generated stems carry separate rights."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Audio Separator toolkit",
+        "purpose": "Loads pretrained models and writes separated audio stems.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:49.131517+00:00",
+    "inspected_commit": "465b60f0271e880a7289a2c9aaeb13817c3b2bed",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d7c031ec52acce9967f3a53e2cfb56520b0c724a",
+        "value": "https://github.com/jamesrwatsonx-creator/python-audio-separator/blob/465b60f0271e880a7289a2c9aaeb13817c3b2bed/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "audio stem separation",
+        "description": "Separates mixed audio into vocals and instrumental components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-stem-separation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "pretrained separation models",
+        "description": "Supports multiple source-separation model families and checkpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:pretrained-separation-models",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CLI and Python integration",
+        "description": "Exposes separation through command-line and library workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cli-and-python-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

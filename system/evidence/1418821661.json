@@ -3,8 +3,100 @@
   "inspected_commit": "02cee08b38be9515d849050a47176b3c494ee3a4",
   "tree_complete": true,
   "tree_files": 5421,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE-AGPL-3.0",
+      "sha": "19bae35887757f088b6c6bbad90a7dbc8791f641"
+    },
+    {
+      "path": "LICENSE-COMMERCIAL",
+      "sha": "173e03e0c035b652da531fb58c734737c0284a47"
+    },
+    {
+      "path": "LICENSE-GPL-3.0",
+      "sha": "e72bfddabc15be5718a7cc061ac10e47741d8219"
+    },
+    {
+      "path": "README.md",
+      "sha": "3a18763b13d380fc9ab84fe48de5524ad6e76b7e"
+    },
+    {
+      "path": "apps/desktop/package.json",
+      "sha": "a7bc45e537500efc0054bec573923fab47a725db"
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha": "2a2974723df4379e7df4f484c81301583d6b90b7"
+    },
+    {
+      "path": "modules/banner/package.json",
+      "sha": "2be7b96dd4db1cd815ca391b39bc61ab14d74738"
+    },
+    {
+      "path": "modules/package.json",
+      "sha": "f33d784490c874f85cce99bd0ed21e2be2946bf1"
+    },
+    {
+      "path": "modules/restricted-guests/package.json",
+      "sha": "777d326f825d38a2f2a78d2ed2879357e10f8508"
+    },
+    {
+      "path": "package.json",
+      "sha": "95615b36c93753e58ac5e4d13dbe5167c7a99474"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "3a18763b13d380fc9ab84fe48de5524ad6e76b7e",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE-AGPL-3.0",
+      "blob_sha": "19bae35887757f088b6c6bbad90a7dbc8791f641",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE-COMMERCIAL",
+      "blob_sha": "173e03e0c035b652da531fb58c734737c0284a47",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE-GPL-3.0",
+      "blob_sha": "e72bfddabc15be5718a7cc061ac10e47741d8219",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "95615b36c93753e58ac5e4d13dbe5167c7a99474",
+      "entities_detected": 0
+    },
+    {
+      "path": "modules/package.json",
+      "blob_sha": "f33d784490c874f85cce99bd0ed21e2be2946bf1",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/desktop/package.json",
+      "blob_sha": "a7bc45e537500efc0054bec573923fab47a725db",
+      "entities_detected": 0
+    },
+    {
+      "path": "apps/web/package.json",
+      "blob_sha": "2a2974723df4379e7df4f484c81301583d6b90b7",
+      "entities_detected": 0
+    },
+    {
+      "path": "modules/banner/package.json",
+      "blob_sha": "2be7b96dd4db1cd815ca391b39bc61ab14d74738",
+      "entities_detected": 0
+    },
+    {
+      "path": "modules/restricted-guests/package.json",
+      "blob_sha": "777d326f825d38a2f2a78d2ed2879357e10f8508",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug-desktop.yml",
@@ -63,12 +155,9 @@
     ".github/workflows/update-jitsi.yml",
     ".github/workflows/update-topics.yaml",
     "AGENTS.md",
+    "AUTHORS.rst",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
-    "LICENSE-AGPL-3.0",
-    "LICENSE-COMMERCIAL",
-    "LICENSE-GPL-3.0",
-    "README.md",
     "apps/desktop/CHANGELOG.md",
     "apps/desktop/README.md",
     "apps/desktop/babel.config.cjs",
@@ -81,7 +170,6 @@
     "apps/desktop/element.io/nightly/config.json",
     "apps/desktop/element.io/release/build.json",
     "apps/desktop/element.io/release/config.json",
-    "apps/desktop/package.json",
     "apps/desktop/playwright.config.ts",
     "apps/desktop/playwright/Dockerfile",
     "apps/desktop/playwright/docker-entrypoint.sh",
@@ -105,7 +193,11 @@
     "apps/desktop/src/__fixtures__/x509/generate.sh",
     "apps/desktop/src/args.test.ts",
     "apps/desktop/src/args.ts",
-    "apps/desktop/src/asar.ts"
+    "apps/desktop/src/asar.ts",
+    "apps/desktop/src/auto-launch.ts",
+    "apps/desktop/src/badge.ts",
+    "apps/desktop/src/build-config.test.ts",
+    "apps/desktop/src/build-config.ts"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "8cdd8f678c07f2e304a4639c8d535f6569246d3894eaace6de5ee568ce9c45fe",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -225,8 +318,11 @@
     "patches": 11,
     "scripts": 12
   },
-  "unread_source_paths_count": 3602,
+  "unread_source_paths_count": 3721,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 1819,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

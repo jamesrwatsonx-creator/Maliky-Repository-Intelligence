@@ -5,6 +5,10 @@
   "tree_files": 16232,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "aea51a336a305bd31e4e50af448679ed0c73b95e"
+    },
+    {
       "path": "README.md",
       "sha": "9c228ee1873122526e38667afb09771cb4ac013e"
     },
@@ -19,6 +23,38 @@
     {
       "path": "dev/README.md",
       "sha": "e48142ead6081e5b5dbd59b721ddf92b413719bb"
+    },
+    {
+      "path": "dev/a11y_assessments/pubspec.yaml",
+      "sha": "7c2609e69ac4099ad7cb1272377fcd94dda5029f"
+    },
+    {
+      "path": "dev/automated_tests/pubspec.yaml",
+      "sha": "0db6ab9a3743af1f3a99bfbc59143b98c166de9c"
+    },
+    {
+      "path": "dev/bots/pubspec.yaml",
+      "sha": "6aa23454dedd0517c2b8cc6009b4ffd0fbcb206e"
+    },
+    {
+      "path": "dev/customer_testing/pubspec.yaml",
+      "sha": "3a50b9779d81e7363f2cf80b85d449e26e35398b"
+    },
+    {
+      "path": "dev/devicelab/pubspec.yaml",
+      "sha": "70d10826b7661edf6fbf05bd54255bb69f606bf7"
+    },
+    {
+      "path": "dev/flutter_analyzer_plugin/pubspec.yaml",
+      "sha": "00535dfe8cad6fb8ea912bc2a1d07ebfd53cb1cc"
+    },
+    {
+      "path": "dev/forbidden_from_release_tests/pubspec.yaml",
+      "sha": "76a1b3abd2ffb04f0798fa1abbe010a4cf9376cb"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha": "b2863416faf5b5ef42269b7ffc447fc657f5e414"
     }
   ],
   "files_read": [
@@ -40,6 +76,51 @@
     {
       "path": "dev/README.md",
       "blob_sha": "e48142ead6081e5b5dbd59b721ddf92b413719bb",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "aea51a336a305bd31e4e50af448679ed0c73b95e",
+      "entities_detected": 0
+    },
+    {
+      "path": "pubspec.yaml",
+      "blob_sha": "b2863416faf5b5ef42269b7ffc447fc657f5e414",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/a11y_assessments/pubspec.yaml",
+      "blob_sha": "7c2609e69ac4099ad7cb1272377fcd94dda5029f",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/automated_tests/pubspec.yaml",
+      "blob_sha": "0db6ab9a3743af1f3a99bfbc59143b98c166de9c",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/bots/pubspec.yaml",
+      "blob_sha": "6aa23454dedd0517c2b8cc6009b4ffd0fbcb206e",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/customer_testing/pubspec.yaml",
+      "blob_sha": "3a50b9779d81e7363f2cf80b85d449e26e35398b",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/devicelab/pubspec.yaml",
+      "blob_sha": "70d10826b7661edf6fbf05bd54255bb69f606bf7",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/flutter_analyzer_plugin/pubspec.yaml",
+      "blob_sha": "00535dfe8cad6fb8ea912bc2a1d07ebfd53cb1cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "dev/forbidden_from_release_tests/pubspec.yaml",
+      "blob_sha": "76a1b3abd2ffb04f0798fa1abbe010a4cf9376cb",
       "entities_detected": 0
     }
   ],
@@ -72,14 +153,18 @@
     ".agents/skills/dart_skills_lint_ignore.json",
     ".agents/skills/engine-whats-new/SKILL.md",
     ".agents/skills/engine-whats-new/scripts/README.md",
+    ".agents/skills/engine-whats-new/scripts/generate_engine_whats_new.dart",
     ".agents/skills/find-release/SKILL.md",
     ".agents/skills/flutter-cherry-pick/SKILL.md",
+    ".agents/skills/flutter-cherry-pick/scripts/flutter_cp.dart",
     ".agents/skills/flutter-pr-checks-finder/SKILL.md",
     ".agents/skills/rebuilding-flutter-tool/SKILL.md",
+    ".agents/skills/rebuilding-flutter-tool/scripts/rebuild.dart",
     ".agents/skills/run-devicelab-with-led/SKILL.md",
     ".agents/skills/shepherd-prs/SKILL.md",
     ".agents/skills/updating-android-sdk/SKILL.md",
     ".agents/skills/upgrade-browser/SKILL.md",
+    ".agents/skills/upgrade-browser/scripts/fetch_versions.dart",
     ".autoroller-preupload.sh",
     ".ci.yaml",
     ".gemini/config.yaml",
@@ -133,17 +218,13 @@
     "analysis_options.yaml",
     "analysis_options_common.yaml",
     "bin/internal/README.md",
+    "bin/internal/content_aware_hash.ps1",
     "bin/internal/content_aware_hash.sh",
+    "bin/internal/last_engine_commit.ps1",
     "bin/internal/last_engine_commit.sh",
     "bin/internal/shared.sh",
-    "bin/internal/update_dart_sdk.sh",
-    "bin/internal/update_engine_version.sh",
-    "dartdoc_options.yaml",
-    "dev/a11y_assessments/GEMINI.md",
-    "dev/a11y_assessments/README.md",
-    "dev/a11y_assessments/analysis_options.yaml",
-    "dev/a11y_assessments/android/app/src/main/kotlin/com/example/a11y_assessments/MainActivity.kt",
-    "dev/a11y_assessments/ios/Runner/AppDelegate.swift"
+    "bin/internal/update_dart_sdk.ps1",
+    "bin/internal/update_dart_sdk.sh"
   ],
   "excluded_nontext_paths": [
     ".agents/agents/android-agent/.gitignore",
@@ -268,8 +349,12 @@
     "packages": 5279,
     "third_party": 2
   },
-  "unread_source_paths_count": 3640,
+  "unread_source_paths_count": 12680,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 12588,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

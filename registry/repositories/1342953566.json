@@ -11,29 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/google-labs-code/design.md",
-  "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+  "description": "Machine-readable DESIGN.md format specification combining design tokens and rationale so coding agents can consistently apply a visual identity.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-07-27T21:15:07Z",
-    "github_description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system."
+    "github_description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
   "current_commit": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
   "inspection_date": "2026-09-20T05:33:34.772562+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ai-agents",
-    "category:application-security",
-    "category:cli-tools",
+    "category:specifications-standards",
     "category:design-systems",
-    "category:developer-tools",
-    "category:libraries-packages",
-    "category:skills"
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [
     "operational:03",
     "operational:17",
@@ -55,7 +51,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -300,11 +296,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.639630+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.518103+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -326,8 +323,8 @@
   "tree_files": 134,
   "files_read": 130,
   "entity_count": 9,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 1,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -346,5 +343,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.125013+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Machine-readable DESIGN.md format specification combining design tokens and rationale so coding agents can consistently apply a visual identity.",
+    "reuse_recommendation": "Adopt as a design-context convention and validate the format against target tools; do not treat it as an implementation or design system itself.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE; design tokens and referenced brands retain their own rights.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "DESIGN.md format",
+      "design tokens for agents",
+      "visual identity specification",
+      "coding agent design context"
+    ],
+    "risk_notes": [
+      "Specifications need consistent parsing and versioning across agent hosts."
+    ],
+    "important_subsystems": [
+      {
+        "name": "design context format",
+        "purpose": "Specifies how projects describe visual identity for agent consumption.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:43.559903+00:00",
+    "inspected_commit": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ed855c5227b5e18317537549cde731c3fd96b331",
+        "value": "https://github.com/jamesrwatsonx-creator/design.md/blob/9bf8eae67128b6cc55ad9bf86665767deb4c11cd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "DESIGN.md specification",
+        "description": "Defines a portable structure for machine-readable design tokens and human rationale.",
+        "scope": "REFERENCE",
+        "id": "cluster:design-md-specification",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent design context",
+        "description": "Helps coding agents apply persistent brand and interface guidance.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-design-context",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/elie222/rakazo",
-  "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+  "description": "Alternative chatbot or bot integration using Grok-compatible model services; exact behavior and provider wiring should be confirmed from pinned implementation before reuse.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T15:26:37Z",
-    "github_description": "Open-source Grok Bot alternative. Choose your own model and sandbox."
+    "github_description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "90572cb2bcab4458aebbe1994b3ffbc9ddfac339",
   "current_commit": "90572cb2bcab4458aebbe1994b3ffbc9ddfac339",
   "inspection_date": "2026-09-20T05:33:33.410642+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:apis"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.050534+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.131129+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 528,
-  "files_read": 3,
+  "files_read": 13,
   "entity_count": 1,
-  "unread_source_files": 424,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 445,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.163356+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Alternative chatbot or bot integration using Grok-compatible model services; exact behavior and provider wiring should be confirmed from pinned implementation before reuse.",
+    "reuse_recommendation": "Treat as an integration reference; verify provider endpoints, rate limits and current model terms.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Confirm source license and model-provider terms.",
+    "runtime": [
+      "Application runtime",
+      "model provider API"
+    ],
+    "keywords": [
+      "Grok bot",
+      "chatbot",
+      "LLM integration",
+      "conversational AI"
+    ],
+    "risk_notes": [
+      "Provider credentials and user conversations may leave the local system."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Grok chatbot integration",
+        "purpose": "Demonstrates a bot experience built around a Grok-compatible model.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:36.461012+00:00",
+    "inspected_commit": "90572cb2bcab4458aebbe1994b3ffbc9ddfac339",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0e3282792283d6a564fcf2d365fb863735f1f70a",
+        "value": "https://github.com/jamesrwatsonx-creator/Grok-bot-alternative/blob/90572cb2bcab4458aebbe1994b3ffbc9ddfac339/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "conversational bot",
+        "description": "Provides a chat-oriented interface to a model-backed assistant.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:conversational-bot",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "provider integration",
+        "description": "Connects application behavior to a hosted language-model service.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:provider-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

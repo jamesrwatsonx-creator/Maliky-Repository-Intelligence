@@ -1,0 +1,1369 @@
+{
+  "defaults": {
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Review external providers and deployment permissions before production use."
+    ],
+    "runtime": [
+      "See repository runtime manifests"
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/pgvector",
+      "commit": "e48241b4dcc045b18902914f668d03d1d399dfbe",
+      "purpose": "PostgreSQL extension adding exact and approximate nearest-neighbor similarity search for dense, half-precision, binary and sparse vectors.",
+      "categories": [
+        "category:databases",
+        "category:vector-search",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:13",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "C",
+        "PostgreSQL extension"
+      ],
+      "license_notes": "PostgreSQL License.",
+      "asset_presence": {
+        "data_database_search": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "pgvector",
+        "PostgreSQL vector search",
+        "nearest neighbors",
+        "HNSW",
+        "embedding storage"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Postgres vector storage",
+          "description": "Stores vector representations alongside relational data.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "exact and approximate similarity search",
+          "description": "Supports distance metrics and approximate nearest-neighbor indexes.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "pgvector extension",
+          "purpose": "Adds vector types, distance operations and indexes to PostgreSQL.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use when embeddings should live with PostgreSQL data; benchmark index and distance choices for the workload.",
+      "risk_notes": [
+        "Database indexing and recall/performance depend on workload and configuration."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/okf-agent-memory",
+      "commit": "04d3891b98a9fc9e4aa5b9485a942a3c7177ef67",
+      "purpose": "Go-based Git-native persistent project memory system for AI agents using the Open Knowledge Format, with domain-neutral records and reusable skills.",
+      "categories": [
+        "category:ai-memory",
+        "category:knowledge-bases",
+        "category:ai-agents"
+      ],
+      "operational": "operational:04",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Go",
+        "Git",
+        "Open Knowledge Format"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "skills": "PRESENT",
+        "data_database_search": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "agent persistent memory",
+        "Git-native project memory",
+        "Open Knowledge Format",
+        "knowledge files",
+        "Go"
+      ],
+      "capability_clusters": [
+        {
+          "name": "versioned agent memory",
+          "description": "Stores structured project knowledge in Git-tracked files for durable context.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "domain-neutral knowledge format",
+          "description": "Organizes agent memory using reusable Open Knowledge Format structures.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "memory skills and examples",
+          "description": "Provides host instructions and example knowledge domains.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "OKF Agent Memory",
+          "purpose": "Connects structured knowledge, Git history and agent memory workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Promising persistent-memory base; inspect secret filtering, merge behavior and private data boundaries before sharing repositories.",
+      "risk_notes": [
+        "Git-native memory can persist sensitive prompts and facts in history; apply retention, access and secret controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ponytail",
+      "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+      "purpose": "Developer assistant plugin ecosystem offering editor/agent integrations, an MCP server and skills for small, practical code changes.",
+      "categories": [
+        "category:developer-tools",
+        "category:plugins-extensions",
+        "category:mcp-servers"
+      ],
+      "operational": "operational:24",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "TypeScript/JavaScript",
+        "MCP",
+        "multiple coding-agent plugins"
+      ],
+      "license_notes": "See repository LICENSE and package notices.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Ponytail developer assistant",
+        "MCP server",
+        "coding agent plugin",
+        "developer workflow",
+        "skills"
+      ],
+      "capability_clusters": [
+        {
+          "name": "coding-agent assistant plugins",
+          "description": "Integrates Ponytail behavior with multiple coding-agent hosts.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Ponytail MCP tools",
+          "description": "Exposes assistant functions through an MCP server package.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "developer workflow skills",
+          "description": "Provides reusable guidance for scoped engineering work.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Ponytail plugin and MCP ecosystem",
+          "purpose": "Combines host plugins, skills and server tools for developer workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use relevant host integration after reviewing hook activation, MCP permissions and data passed to external services.",
+      "risk_notes": [
+        "Plugins and hooks affect developer environments; inspect activation and command permissions before enabling."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/AIOS",
+      "commit": "ec4917a528c952f774f5f462e7c23935b27a4930",
+      "purpose": "Local-first AI operating environment and dashboard for managing agents, browser sessions, conversations and activity through a web interface.",
+      "categories": [
+        "category:web-applications",
+        "category:ai-agents",
+        "category:ai-orchestration"
+      ],
+      "operational": "operational:03",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "agent and browser APIs"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "browser_computer_use": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "AIOS agent dashboard",
+        "local-first agent OS",
+        "browser sessions",
+        "agent activity",
+        "AI orchestration UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent operations dashboard",
+          "description": "Provides a web workspace for managing agents and conversations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser session control",
+          "description": "Exposes browser session workflows through the agent interface.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent activity and history",
+          "description": "Surfaces activity and conversation state for ongoing agent work.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "AIOS web control plane",
+          "purpose": "Combines agent, browser and activity surfaces in a local-first dashboard.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strategically useful control-plane candidate; review auth, browser-session isolation, API routes and local data protection.",
+      "risk_notes": [
+        "Agent and browser control can expose local or authenticated data; verify permissions and session isolation before use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/skills-learning",
+      "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+      "purpose": "Agent skills and learning materials for improving coding, content and problem-solving workflows through reusable instructions.",
+      "categories": [
+        "category:skills",
+        "category:education",
+        "category:agent-workflows"
+      ],
+      "operational": "operational:01",
+      "license_notes": "See repository license and individual linked resource terms.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "tools_plugins": "PRESENT"
+      },
+      "keywords": [
+        "agent skills learning",
+        "coding workflows",
+        "AI skill library",
+        "skill education"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent skill collection",
+          "description": "Organizes task-focused skill instructions for compatible agents.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "skill learning resources",
+          "description": "Provides learning and reference materials for applying agent skills.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "skills library",
+          "purpose": "Collects reusable instructions and supporting learning materials.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Select the relevant skill and verify host assumptions and commands before installation.",
+      "risk_notes": [
+        "Skills are instructions and may require external tools; inspect execution steps."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/markitdown",
+      "commit": "9dc0d6579b8739c9d0671ff205e071e3053c7df1",
+      "purpose": "Python utility that converts many document and media formats into Markdown for downstream indexing, analysis and LLM workflows.",
+      "categories": [
+        "category:libraries-packages",
+        "category:data-engineering",
+        "category:developer-tools"
+      ],
+      "operational": "operational:13",
+      "license_notes": "MIT; format-specific dependencies retain their terms.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "MarkItDown",
+        "document to Markdown",
+        "file conversion",
+        "LLM ingestion",
+        "Office PDF audio"
+      ],
+      "capability_clusters": [
+        {
+          "name": "multi-format document conversion",
+          "description": "Converts supported files into Markdown representations for downstream use.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "LLM ingestion preparation",
+          "description": "Provides a text-oriented conversion path for indexing and model workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "format plugins",
+          "description": "Extends conversion support through format-specific integrations.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "MarkItDown converter",
+          "purpose": "Extracts content from supported file types into Markdown.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for authorized document ingestion; sandbox parsers and review extracted text for sensitive content before indexing.",
+      "risk_notes": [
+        "File parsers run with process privileges and inputs may be hostile; isolate conversion and protect extracted data."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/caveman",
+      "commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
+      "purpose": "Prompt/plugin for shortening AI coding-agent responses while retaining task information and reducing output-token use.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:skills",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "license_notes": "See repository LICENSE.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Caveman coding agent",
+        "concise responses",
+        "token reduction",
+        "agent style plugin"
+      ],
+      "capability_clusters": [
+        {
+          "name": "concise agent response style",
+          "description": "Guides an agent to use fewer words while preserving useful information.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "host plugin packaging",
+          "description": "Distributes the style behavior to compatible coding-agent environments.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Caveman style plugin",
+          "purpose": "Applies concise response guidance within a coding-agent host.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use as an optional style preference and ensure clarity remains sufficient for safety-critical and complex tasks.",
+      "risk_notes": [
+        "Aggressive compression can omit assumptions or caveats; retain detail when accuracy requires it."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago",
+      "commit": "2fd8e8beb6c3cc5d4245a16ccc1593cc7d18c016",
+      "purpose": "Lago open-source billing and subscription platform for metered usage, pricing, invoices, credits and subscription management.",
+      "categories": [
+        "category:business-applications",
+        "category:apis",
+        "category:commerce-e-commerce"
+      ],
+      "operational": "operational:12",
+      "license_notes": "Check current Lago repository license and separately hosted dependencies.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Lago billing",
+        "subscription management",
+        "usage metering",
+        "invoicing",
+        "pricing platform"
+      ],
+      "capability_clusters": [
+        {
+          "name": "subscription billing platform",
+          "description": "Manages plans, subscriptions and recurring billing workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "usage metering and invoicing",
+          "description": "Tracks billable metrics and creates invoices and credits.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "billing API and deployment",
+          "description": "Provides service interfaces and deployment for billing operations.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Lago billing platform",
+          "purpose": "Coordinates usage, pricing, subscription and invoice operations.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Potential commerce backbone; review payment flows, financial records, authorization and migration behavior before integrating.",
+      "risk_notes": [
+        "Billing/payment and sensitive customer data are deep-review triggers; ensure reconciliation and access controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/DeepFilterNet",
+      "commit": "d375b2d8309e0935d165700c91da9de862a99c31",
+      "purpose": "Low-complexity neural speech-enhancement framework for suppressing noise in full-band audio, with real-time audio integration options.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:ai-applications",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:07",
+      "license_notes": "See repository LICENSE and model checkpoint terms.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "DeepFilterNet",
+        "speech enhancement",
+        "noise suppression",
+        "48kHz audio",
+        "real-time microphone"
+      ],
+      "capability_clusters": [
+        {
+          "name": "neural speech enhancement",
+          "description": "Reduces background noise in speech audio while retaining voice content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "real-time audio integration",
+          "description": "Supports use in live audio pipelines and virtual microphone workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "DeepFilterNet audio pipeline",
+          "purpose": "Provides model and processing components for speech enhancement.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Evaluate quality and latency with representative microphones and preserve original audio when needed.",
+      "risk_notes": [
+        "Voice enhancement changes recorded audio; communicate processing and protect recordings."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/retell-typescript-sdk",
+      "commit": "b02c9e48701279d220af8bf4469806d5eeb06b73",
+      "purpose": "Server-side TypeScript and JavaScript client library for the Retell REST API and voice-agent services.",
+      "categories": [
+        "category:sdks-client-libraries",
+        "category:apis",
+        "category:ai-applications"
+      ],
+      "operational": "operational:12",
+      "license_notes": "See package license; Retell service terms apply.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT"
+      },
+      "keywords": [
+        "Retell TypeScript SDK",
+        "voice agent API",
+        "server-side client",
+        "REST API",
+        "telephony agent"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Retell REST client",
+          "description": "Provides typed server-side access to Retell API operations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "voice agent service integration",
+          "description": "Connects applications to Retell voice agent resources and workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Retell TypeScript API library",
+          "purpose": "Wraps Retell REST resources for JavaScript/TypeScript applications.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use server-side and protect API keys; review audio data, call permissions and service costs.",
+      "risk_notes": [
+        "Voice/telephony interactions can contact real people and process personal audio; consent and authorization apply."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/android-maps-compose",
+      "commit": "7dec2b7a38260821970160373836bed126458d80",
+      "purpose": "Google Maps Compose library for embedding Google Maps views and map overlays in Jetpack Compose Android applications.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:real-estate-geospatial"
+      ],
+      "operational": "operational:19",
+      "license_notes": "Apache-2.0; Google Maps Platform usage terms and billing apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Maps Compose",
+        "Google Maps Android",
+        "Jetpack Compose maps",
+        "map overlays",
+        "geospatial UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Compose map interface",
+          "description": "Embeds interactive Google Maps in Compose layouts.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "map state and overlays",
+          "description": "Provides Compose integration for markers, camera and map elements.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Maps Compose library",
+          "purpose": "Connects Google Maps SDK features to Compose UI.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use with a restricted Maps API key and review location permissions, billing and privacy.",
+      "risk_notes": [
+        "Maps may process precise location data and incur usage costs; secure API keys and consent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/gemma.cpp",
+      "commit": "3ed403e28707c0e3eb5f48b0e487b63a446d8e2e",
+      "purpose": "Lightweight standalone C++ inference engine for Google Gemma foundation models.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:libraries-packages",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:15",
+      "license_notes": "See code license and Gemma model terms; model weights are distributed separately.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "gemma.cpp",
+        "C++ LLM inference",
+        "Google Gemma",
+        "local model runtime",
+        "CPU inference"
+      ],
+      "capability_clusters": [
+        {
+          "name": "standalone C++ model inference",
+          "description": "Runs supported Gemma models through a lightweight C++ runtime.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model artifact loading",
+          "description": "Documents acquiring and loading compatible Gemma checkpoints.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "gemma.cpp runtime",
+          "purpose": "Provides standalone inference for Gemma model artifacts.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Evaluate model compatibility, hardware, checkpoint provenance and license before embedding the runtime.",
+      "risk_notes": [
+        "Model weights require separate acquisition and terms review; local inference does not remove model limitations."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/codegraph",
+      "commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
+      "purpose": "Local semantic code intelligence tool that builds code graphs and exposes repository navigation/search capabilities to coding agents.",
+      "categories": [
+        "category:developer-tools",
+        "category:ai-agents",
+        "category:knowledge-graphs"
+      ],
+      "operational": "operational:24",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "mcp": "PRESENT",
+        "data_database_search": "PRESENT",
+        "agents_frameworks": "PRESENT"
+      },
+      "keywords": [
+        "CodeGraph",
+        "semantic code graph",
+        "coding agent context",
+        "local repository intelligence",
+        "MCP code search"
+      ],
+      "capability_clusters": [
+        {
+          "name": "semantic repository graph",
+          "description": "Indexes code relationships to support structural navigation.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent code intelligence interface",
+          "description": "Makes local code context available to coding-agent tools.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-host integrations",
+          "description": "Integrates with several coding agent environments.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "CodeGraph index and agent interface",
+          "purpose": "Builds local code intelligence and exposes it to supported hosts.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "EXTRACT",
+      "reuse_recommendation": "Potential codebase search component; evaluate indexing freshness, language coverage and privacy boundaries.",
+      "risk_notes": [
+        "Index contents may reveal proprietary source; keep indexes local and verify their exclusion from external model calls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/browser-harness",
+      "commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
+      "purpose": "Browser automation harness that connects an LLM to a real browser through an editable Chrome DevTools Protocol websocket and supports adding helpers during tasks.",
+      "categories": [
+        "category:developer-tools",
+        "category:ai-agents",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:05",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "browser_computer_use": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Browser Harness",
+        "CDP browser control",
+        "LLM browser agent",
+        "editable helpers",
+        "Chrome DevTools Protocol"
+      ],
+      "capability_clusters": [
+        {
+          "name": "real browser agent connection",
+          "description": "Connects a model or agent to an active browser through CDP.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "extensible task helpers",
+          "description": "Allows task-specific browser helpers to be authored and reused.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser session workflow",
+          "description": "Supports interaction with a real browser profile and pages.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Browser Harness runtime",
+          "purpose": "Bridges model-driven tasks to a live browser session.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Strong browser candidate; isolate browser profiles and review CDP exposure, credential access, page prompt injection and action confirmation.",
+      "risk_notes": [
+        "Real browser connection may expose authenticated sessions and local browser data; secure the websocket and isolate profiles."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/superpowers",
+      "commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+      "purpose": "Software development methodology for coding agents implemented as composable skills and startup instructions for disciplined engineering workflows.",
+      "categories": [
+        "category:skills",
+        "category:agent-workflows",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Superpowers agent methodology",
+        "coding skills",
+        "software development workflow",
+        "test-driven development",
+        "agent instructions"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent software methodology",
+          "description": "Defines a reusable development process for coding agents.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "composable engineering skills",
+          "description": "Packages specific engineering practices as skills invoked during development.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "host startup guidance",
+          "description": "Uses initial instructions to make agents follow the methodology.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Superpowers skills framework",
+          "purpose": "Combines startup guidance with task-specific development skills.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Install into a compatible agent host and adapt workflow rules to the repository's own engineering constraints.",
+      "risk_notes": [
+        "Instruction packages influence agent actions but do not enforce security permissions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Claude-of-Duty",
+      "commit": "d9b237b75c9304ab8d9ef4cfa0c3568c7c11a853",
+      "purpose": "Browser-based first-person shooter built with Three.js and WebGL2, with procedural graphics, animation and audio assets generated at runtime.",
+      "categories": [
+        "category:games-interactive-experiences",
+        "category:web-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:18",
+      "license_notes": "See repository license and generated asset dependencies.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT",
+        "models": "NOT_OBSERVED"
+      },
+      "keywords": [
+        "browser FPS game",
+        "Three.js",
+        "WebGL2",
+        "procedural graphics",
+        "AI agent-built game"
+      ],
+      "capability_clusters": [
+        {
+          "name": "browser first-person shooter",
+          "description": "Implements a playable 3D shooter using WebGL in the browser.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "procedural game assets",
+          "description": "Generates textures, meshes, animations and sound from code at runtime.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-subsystem game architecture",
+          "description": "Organizes gameplay and rendering across distinct game systems.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Claude of Duty game",
+          "purpose": "Combines Three.js rendering and gameplay systems into a browser FPS.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as a game architecture and procedural content reference; inspect performance, input handling and asset licenses for a new project.",
+      "risk_notes": [
+        "Browser game content and performance vary by device; verify input accessibility and third-party asset rights."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vibe-studio-agent-skills",
+      "commit": "5a5ea45e806f82273549fd85e60adb95d55f510d",
+      "purpose": "Production-oriented engineering skill collection encoding senior development workflows, quality gates and practices for coding agents.",
+      "categories": [
+        "category:skills",
+        "category:developer-tools",
+        "category:agent-workflows"
+      ],
+      "operational": "operational:01",
+      "license_notes": "See repository LICENSE and skill-specific notices.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "agents_frameworks": "PRESENT"
+      },
+      "keywords": [
+        "coding agent skills",
+        "engineering workflows",
+        "quality gates",
+        "software development skills"
+      ],
+      "capability_clusters": [
+        {
+          "name": "engineering practice skills",
+          "description": "Provides agent instructions for common software development and review tasks.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "quality gate workflows",
+          "description": "Encodes checks and completion criteria for development phases.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "engineering skill collection",
+          "purpose": "Packages reusable senior-engineer workflows for compatible agent hosts.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Select relevant skills and inspect executable commands, host assumptions and repository-specific quality requirements.",
+      "risk_notes": [
+        "Skills can conflict with project rules or request tool actions; review before enabling."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/creative-writer",
+      "commit": "cf6387c349f100f8fd7ba6a48ba86f3b3952ccf8",
+      "purpose": "Azure sample application demonstrating an agent-based creative writing assistant using Azure OpenAI, search and prompt orchestration.",
+      "categories": [
+        "category:ai-applications",
+        "category:templates-boilerplates",
+        "category:marketing-communications"
+      ],
+      "operational": "operational:11",
+      "license_notes": "See repository license; Azure services and sample content terms apply.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Azure creative writing agent",
+        "Prompty",
+        "Azure OpenAI",
+        "Bing search",
+        "content generation sample"
+      ],
+      "capability_clusters": [
+        {
+          "name": "creative writing assistant",
+          "description": "Uses an LLM agent to draft and refine written content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "search-grounded writing",
+          "description": "Connects search results to writing assistance through Azure services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Prompty agent example",
+          "description": "Demonstrates prompt and agent configuration in an Azure sample.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Azure writing assistant sample",
+          "purpose": "Shows an agent application integrating model, search and prompt components.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as an Azure architecture example; secure keys, validate retrieved sources and review generated-content claims.",
+      "risk_notes": [
+        "Hosted Azure services may incur costs; protect credentials and check citations before publishing generated writing."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/cursify-animated-cursors-",
+      "commit": "b3a173c33f12e74550389c9555f9ce85c30c46f6",
+      "purpose": "Starter UI-layout repository for an animated cursor and documentation-style web interface built with React/Next.js components.",
+      "categories": [
+        "category:frontend-applications",
+        "category:templates-boilerplates",
+        "category:creative-tools"
+      ],
+      "operational": "operational:16",
+      "license_notes": "See repository LICENSE; cursor visuals may have separate asset terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "tools_plugins": "NOT_OBSERVED",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "animated cursor UI",
+        "Next.js starter",
+        "UI layout",
+        "frontend template",
+        "interactive cursor"
+      ],
+      "capability_clusters": [
+        {
+          "name": "animated cursor interface",
+          "description": "Provides a frontend direction and components for animated cursor behavior.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "web starter layout",
+          "description": "Offers a starter structure for a documented interface.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "cursor UI starter",
+          "purpose": "Combines interface layout and animated cursor presentation.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use selectively as a UI starter and check cursor accessibility, touch behavior and animation preferences.",
+      "risk_notes": [
+        "Pointer-only effects can impair touch and keyboard use; provide accessible alternatives."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/auto-editor",
+      "commit": "7c51a914256e4b061b03b3efeae734e17bd5883e",
+      "purpose": "Command-line media editor that automatically cuts video and audio based on loudness and other analysis methods.",
+      "categories": [
+        "category:media-publishing",
+        "category:cli-tools",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:09",
+      "license_notes": "See repository LICENSE and bundled media dependencies.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "auto-editor",
+        "automatic video editing",
+        "audio loudness cuts",
+        "CLI video tool",
+        "media automation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "automatic media cutting",
+          "description": "Detects low-activity or quiet sections and edits them out of video/audio.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "command-line editing workflow",
+          "description": "Provides configurable CLI processing for media projects.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "auto-editor pipeline",
+          "purpose": "Analyzes media and generates edited output based on editing rules.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use on copies of media and inspect cut decisions and export quality before publishing.",
+      "risk_notes": [
+        "Processes and rewrites media; preserve originals and review outputs for missed speech or context."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites",
+      "commit": "8391a94c1c3939c679e40ddd7bfc08a9ef690e70",
+      "purpose": "Open-source chat interface that turns user questions into interactive explanations, comparisons and working UI tools using agent/UI frameworks.",
+      "categories": [
+        "category:web-applications",
+        "category:ai-applications",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:16",
+      "license_notes": "See repository LICENSE and connected model/API terms.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "intelligent UI",
+        "interactive chat interface",
+        "dynamic websites",
+        "CopilotKit",
+        "AG-UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "interactive answer interface",
+          "description": "Transforms conversational questions into interactive explanatory UI.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "dynamic tool generation",
+          "description": "Presents working tools and comparisons as part of the response experience.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent UI integration",
+          "description": "Uses CopilotKit and AG-UI patterns to connect agent state and frontend.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Open Intelligent UI",
+          "purpose": "Connects chat, agent state and dynamically rendered interface elements.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "EXTRACT",
+      "reuse_recommendation": "Review generated UI execution, data access and model output sanitization before exposing user-provided prompts.",
+      "risk_notes": [
+        "Dynamic UI and agent output may introduce unsafe actions or untrusted content; validate rendering and tool boundaries."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/FinRL",
+      "commit": "2334a5fe6d30629157f13c3b0319e1637e15e123",
+      "purpose": "Open-source financial reinforcement-learning framework for algorithmic trading research, with data, environments, agents and backtesting workflows.",
+      "categories": [
+        "category:finance-accounting",
+        "category:machine-learning-models",
+        "category:research-projects"
+      ],
+      "operational": "operational:22",
+      "license_notes": "See repository license, financial data and broker terms.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "FinRL",
+        "financial reinforcement learning",
+        "algorithmic trading research",
+        "backtesting",
+        "market data"
+      ],
+      "capability_clusters": [
+        {
+          "name": "financial RL agents",
+          "description": "Trains reinforcement-learning strategies for financial market environments.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "market data and trading environments",
+          "description": "Prepares data and simulated environments for strategy evaluation.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "backtesting and benchmarks",
+          "description": "Supports evaluation of trading strategies against historical data.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FinRL research framework",
+          "purpose": "Connects financial data, simulated markets and learning agents.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Research and simulation only until any broker execution is separated and risk controls, data licensing and evaluation assumptions are reviewed.",
+      "risk_notes": [
+        "Trading execution is a deep-review trigger; do not connect live accounts without a full risk and security audit."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vnpy",
+      "commit": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
+      "purpose": "VeighNa Python trading platform with modular gateways, strategies, data services and brokerage integrations for quantitative trading.",
+      "categories": [
+        "category:finance-accounting",
+        "category:frameworks",
+        "category:business-applications"
+      ],
+      "operational": "operational:22",
+      "license_notes": "See repository LICENSE and broker/exchange terms.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "VeighNa",
+        "vn.py trading framework",
+        "broker gateways",
+        "quantitative trading",
+        "strategy engine"
+      ],
+      "capability_clusters": [
+        {
+          "name": "modular trading framework",
+          "description": "Provides a Python platform for building and running quantitative trading systems.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "broker and exchange gateways",
+          "description": "Connects applications to external trading venues and data services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "strategy and data modules",
+          "description": "Supports strategy development, market data and trading workflow extensions.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "VeighNa trading platform",
+          "purpose": "Coordinates strategy, data and broker gateway modules.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Research candidate only; review live order paths, API keys, risk limits and operational kill switches before deployment.",
+      "risk_notes": [
+        "Direct financial trading infrastructure; live execution and credential security require deep review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/video-nerate-HD-short-videos-from-a-topic-or-keyword-with-an-automated-AI-workflow.MoneyPrinterTurbo",
+      "commit": "28a55ddc1d3f4fc094837352ee9a74e1b264484a",
+      "purpose": "AI workflow for generating HD short videos from a topic or keyword by producing scripts, sourcing footage, adding subtitles/music and assembling clips.",
+      "categories": [
+        "category:media-publishing",
+        "category:ai-applications",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:09",
+      "license_notes": "See repository license; model APIs and media sources have independent terms.",
+      "asset_presence": {
+        "models": "EXTERNAL_REFERENCE",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "AI short video generation",
+        "topic to video",
+        "script and footage workflow",
+        "subtitles",
+        "MoneyPrinterTurbo"
+      ],
+      "capability_clusters": [
+        {
+          "name": "topic-to-video production",
+          "description": "Turns a topic into a scripted short video with sourced media and assembly.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "media sourcing and subtitles",
+          "description": "Coordinates asset retrieval, captions and background audio.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "automated video assembly",
+          "description": "Combines generated content into an HD short-form output.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "MoneyPrinterTurbo pipeline",
+          "purpose": "Connects topic prompting, media sourcing, subtitles and video rendering.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "WRAP",
+      "reuse_recommendation": "Use only with guarded media downloads and reviewed output; protect provider keys and verify source-media licensing.",
+      "risk_notes": [
+        "Automated network retrieval, external APIs and publishing-ready media rights need review; isolate file and subprocess operations."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/shutter-encoder",
+      "commit": "86239ead1d0e731eccf98c294c239954847638a5",
+      "purpose": "Desktop media conversion and encoding application offering video/audio transcoding, editing utilities and professional broadcast-oriented processing.",
+      "categories": [
+        "category:media-publishing",
+        "category:desktop-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:09",
+      "license_notes": "See repository LICENSE and bundled codec terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Shutter Encoder",
+        "video transcoding",
+        "media conversion",
+        "broadcast tools",
+        "desktop editor"
+      ],
+      "capability_clusters": [
+        {
+          "name": "media encoding and conversion",
+          "description": "Converts audio/video files across supported formats and codecs.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "editing and broadcast utilities",
+          "description": "Provides additional media processing tools for professional workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Shutter Encoder application",
+          "purpose": "Provides a desktop interface to FFmpeg-based media operations.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for controlled media conversion and review codec, file-path and export settings for each workflow.",
+      "risk_notes": [
+        "Processes local media and bundled codecs; protect source files and review redistribution obligations."
+      ]
+    }
+  ]
+}

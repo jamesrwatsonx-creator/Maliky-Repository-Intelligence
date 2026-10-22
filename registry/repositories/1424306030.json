@@ -11,19 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Anil-matcha/ai",
-  "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+  "description": "Vercel AI SDK for building AI-powered TypeScript applications, with provider abstractions, streaming UI helpers and tool-calling workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-06T08:59:18Z",
-    "github_description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents "
+    "github_description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "4a441d8fb584b231f771348de3e7f383ab7aa95b",
   "current_commit": "4a441d8fb584b231f771348de3e7f383ab7aa95b",
   "inspection_date": "2026-10-20T23:59:00.978781+00:00",
-  "categories": [],
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:generative-ai",
+    "category:developer-tools"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 11,
@@ -277,14 +282,97 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.960692+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.666979+00:00",
   "tree_files": 6993,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 6332,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 6837,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Vercel AI SDK for building AI-powered TypeScript applications, with provider abstractions, streaming UI helpers and tool-calling workflows.",
+    "reuse_recommendation": "Keep searchable and inspect exact model and application scope when a concrete need appears.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check source license and model/provider terms.",
+    "runtime": [
+      "See pinned manifests and language files",
+      "model/provider APIs"
+    ],
+    "keywords": [
+      "AI project",
+      "machine learning",
+      "model workflows",
+      "assistant application"
+    ],
+    "risk_notes": [
+      "The generic repository name requires source-based confirmation before selection."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AI project core",
+        "purpose": "Implements the repository’s main AI capability.",
+        "evidence_paths": [
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:51.034589+00:00",
+    "inspected_commit": "4a441d8fb584b231f771348de3e7f383ab7aa95b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "f18f19d6cdc2fcd0a107c872e1895e5906e2bbd7",
+        "value": "https://github.com/jamesrwatsonx-creator/ai/blob/4a441d8fb584b231f771348de3e7f383ab7aa95b/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "primary AI capability",
+        "description": "Provides the repository’s documented model-backed application or research function.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:primary-ai-capability",
+        "evidence_paths": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "model and workflow integration",
+        "description": "Connects model behavior to the application’s supported task flow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-and-workflow-integration",
+        "evidence_paths": [
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

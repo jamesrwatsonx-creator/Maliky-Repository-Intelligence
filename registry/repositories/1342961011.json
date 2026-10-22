@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Robbyant/lingbot-map",
-  "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+  "description": "3D map or globe visualization combined with a Lingbot conversational interface for exploring geographic information.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T17:37:56Z",
-    "github_description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data"
+    "github_description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "1740f18ead3cca8e0e07dd0ec6b7030d22f0894c",
   "current_commit": "1740f18ead3cca8e0e07dd0ec6b7030d22f0894c",
   "inspection_date": "2026-09-20T05:33:35.836829+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:real-estate-geospatial",
+    "category:creative-tools",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.929492+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.635944+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -280,10 +284,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 1027,
-  "files_read": 9,
+  "files_read": 17,
   "entity_count": 1,
-  "unread_source_files": 152,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 149,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -293,5 +297,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.038881+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "3D map or globe visualization combined with a Lingbot conversational interface for exploring geographic information.",
+    "reuse_recommendation": "Use as an exploratory interface reference; verify map data attribution and location privacy.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check map tile/data, 3D assets and model-provider licenses.",
+    "runtime": [
+      "Web 3D frontend",
+      "map/geospatial APIs",
+      "LLM service"
+    ],
+    "keywords": [
+      "3D map",
+      "globe visualization",
+      "Lingbot",
+      "geospatial assistant",
+      "interactive map"
+    ],
+    "risk_notes": [
+      "Location queries and user positions can be sensitive data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lingbot 3D map experience",
+        "purpose": "Combines geospatial visualization with conversational exploration.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:14.133935+00:00",
+    "inspected_commit": "1740f18ead3cca8e0e07dd0ec6b7030d22f0894c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "00096822413debd2ff65490a936cbd0a6380cdac",
+        "value": "https://github.com/jamesrwatsonx-creator/3D-lingbot-map/blob/1740f18ead3cca8e0e07dd0ec6b7030d22f0894c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive 3D geospatial view",
+        "description": "Presents geographic information in a navigable 3D map or globe.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-3d-geospatial-view",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "conversational map exploration",
+        "description": "Connects a chat/agent interface to geographic discovery tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:conversational-map-exploration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

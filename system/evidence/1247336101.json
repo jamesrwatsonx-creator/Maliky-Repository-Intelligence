@@ -5,12 +5,40 @@
   "tree_files": 4661,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "0e03e3911e0ac02c72ed527b34efe250f0fb9bef"
+    },
+    {
       "path": "README.md",
       "sha": "e4f5dd182813dc073e0845be06d23d2c58bbeafb"
     },
     {
+      "path": "docs/MediaPipeTasksDocGen/README.md",
+      "sha": "475253057a262dcb1acd621460b2b96cb2d22122"
+    },
+    {
       "path": "docs/index.md",
       "sha": "e4f5dd182813dc073e0845be06d23d2c58bbeafb"
+    },
+    {
+      "path": "mediapipe/calculators/tflite/testdata/README.md",
+      "sha": "ffafe0df96c6d77f352d1ecd30b60ef42c2c4a80"
+    },
+    {
+      "path": "mediapipe/docs/README.md",
+      "sha": "70c3d2723a054c6a98d8cdb91917a4ddf365dbcc"
+    },
+    {
+      "path": "mediapipe/model_maker/setup.py",
+      "sha": "d80e6ebe45840dc200bbcdeac80d9c9e60f3d522"
+    },
+    {
+      "path": "mediapipe/modules/README.md",
+      "sha": "12ec103d21166c7f21c0cd3327339c1e02f939a3"
+    },
+    {
+      "path": "mediapipe/tasks/web/package.json",
+      "sha": "6f250cfdfc993effb2b4e3c353dc7ccaf205e2b7"
     },
     {
       "path": "package.json",
@@ -41,6 +69,41 @@
       "path": "docs/index.md",
       "blob_sha": "e4f5dd182813dc073e0845be06d23d2c58bbeafb",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "0e03e3911e0ac02c72ed527b34efe250f0fb9bef",
+      "entities_detected": 0
+    },
+    {
+      "path": "mediapipe/model_maker/setup.py",
+      "blob_sha": "d80e6ebe45840dc200bbcdeac80d9c9e60f3d522",
+      "entities_detected": 0
+    },
+    {
+      "path": "mediapipe/tasks/web/package.json",
+      "blob_sha": "6f250cfdfc993effb2b4e3c353dc7ccaf205e2b7",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/MediaPipeTasksDocGen/README.md",
+      "blob_sha": "475253057a262dcb1acd621460b2b96cb2d22122",
+      "entities_detected": 0
+    },
+    {
+      "path": "mediapipe/docs/README.md",
+      "blob_sha": "70c3d2723a054c6a98d8cdb91917a4ddf365dbcc",
+      "entities_detected": 0
+    },
+    {
+      "path": "mediapipe/modules/README.md",
+      "blob_sha": "12ec103d21166c7f21c0cd3327339c1e02f939a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "mediapipe/calculators/tflite/testdata/README.md",
+      "blob_sha": "ffafe0df96c6d77f352d1ecd30b60ef42c2c4a80",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -56,12 +119,17 @@
     ".github/bot_config.yml",
     ".github/workflows/stale.yaml",
     "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.manylinux2014_aarch64rp4",
+    "Dockerfile.manylinux_2_28_x86_64",
     "build_android_examples.sh",
     "build_desktop_examples.sh",
     "build_ios_examples.sh",
+    "docs/Makefile",
     "docs/MediaPipeTasksDocGen/MediaPipeTasksDocGen/MediaPipeTasksDocGen.h",
-    "docs/MediaPipeTasksDocGen/README.md",
     "docs/_config.yml",
+    "docs/_layouts/forward.html",
+    "docs/_sass/color_schemes/mediapipe.scss",
     "docs/build_java_api_docs.py",
     "docs/build_model_maker_api_docs.py",
     "docs/build_py_api_docs.py",
@@ -92,6 +160,7 @@
     "docs/getting_started/python.md",
     "docs/getting_started/python_framework.md",
     "docs/getting_started/troubleshooting.md",
+    "docs/index.rst",
     "docs/solutions/autoflip.md",
     "docs/solutions/box_tracking.md",
     "docs/solutions/face_detection.md",
@@ -117,33 +186,27 @@
     "docs/tools/tracing_and_profiling.md",
     "docs/tools/visualizer.md",
     "mediapipe/__init__.py",
+    "mediapipe/calculators/audio/add_audio_header_calculator.cc",
     "mediapipe/calculators/audio/add_audio_header_calculator.h",
+    "mediapipe/calculators/audio/add_audio_header_calculator_options.proto",
+    "mediapipe/calculators/audio/add_audio_header_calculator_test.cc",
+    "mediapipe/calculators/audio/audio_decoder_calculator.cc",
+    "mediapipe/calculators/audio/audio_decoder_calculator_test.cc",
+    "mediapipe/calculators/audio/basic_time_series_calculators.cc",
     "mediapipe/calculators/audio/basic_time_series_calculators.h",
+    "mediapipe/calculators/audio/basic_time_series_calculators_test.cc",
+    "mediapipe/calculators/audio/mfcc_mel_calculators.cc",
+    "mediapipe/calculators/audio/mfcc_mel_calculators.proto",
+    "mediapipe/calculators/audio/mfcc_mel_calculators_test.cc",
+    "mediapipe/calculators/audio/rational_factor_resample_calculator.cc",
     "mediapipe/calculators/audio/rational_factor_resample_calculator.h",
+    "mediapipe/calculators/audio/rational_factor_resample_calculator.proto",
+    "mediapipe/calculators/audio/rational_factor_resample_calculator_test.cc",
+    "mediapipe/calculators/audio/resample_time_series_calculator.cc",
     "mediapipe/calculators/audio/resample_time_series_calculator.h",
-    "mediapipe/calculators/core/begin_loop_calculator.h",
-    "mediapipe/calculators/core/clip_vector_size_calculator.h",
-    "mediapipe/calculators/core/concatenate_vector_calculator.h",
-    "mediapipe/calculators/core/end_loop_calculator.h",
-    "mediapipe/calculators/core/get_vector_item_calculator.h",
-    "mediapipe/calculators/core/merge_calculator.h",
-    "mediapipe/calculators/core/merge_to_vector_calculator.h",
-    "mediapipe/calculators/core/packet_resampler_calculator.h",
-    "mediapipe/calculators/core/pass_through_calculator.h",
-    "mediapipe/calculators/core/split_vector_calculator.h",
-    "mediapipe/calculators/core/vector_indices_calculator.h",
-    "mediapipe/calculators/core/vector_size_calculator.h",
-    "mediapipe/calculators/image/affine_transformation.h",
-    "mediapipe/calculators/image/affine_transformation_runner_gl.h",
-    "mediapipe/calculators/image/affine_transformation_runner_opencv.h",
-    "mediapipe/calculators/image/image_cropping_calculator.h",
-    "mediapipe/calculators/image/scale_image_utils.h",
-    "mediapipe/calculators/image/warp_affine_calculator.h",
-    "mediapipe/calculators/internal/callback_packet_calculator.h",
-    "mediapipe/calculators/tensor/gecko_preprocessor_calculator.h",
-    "mediapipe/calculators/tensor/image_to_tensor_calculator.h",
-    "mediapipe/calculators/tensor/image_to_tensor_converter.h",
-    "mediapipe/calculators/tensor/image_to_tensor_converter_frame_buffer.h"
+    "mediapipe/calculators/audio/resample_time_series_calculator.proto",
+    "mediapipe/calculators/audio/resample_time_series_calculator_test.cc",
+    "mediapipe/calculators/audio/spectrogram_calculator.cc"
   ],
   "excluded_nontext_paths": [
     ".bazelrc",
@@ -259,8 +322,12 @@
     "mediapipe": 4493,
     "third_party": 58
   },
-  "unread_source_paths_count": 1710,
+  "unread_source_paths_count": 3580,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 2947,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

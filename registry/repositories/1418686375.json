@@ -11,28 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/alam00000/bentopdf",
-  "description": "The Privacy First PDF Toolkit",
+  "description": "Browser-based PDF tooling focused on editing text locally and saving or connecting document workflows without a full remote document service.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T06:42:54Z",
-    "github_description": "The Privacy First PDF Toolkit"
+    "github_description": "The Privacy First PDF Toolkit",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "872a32929e0ee90c67c104e661be31433ff7b4df",
   "current_commit": "872a32929e0ee90c67c104e661be31433ff7b4df",
   "inspection_date": "2026-10-20T23:52:13.013634+00:00",
   "categories": [
-    "category:application-security",
-    "category:creative-tools",
-    "category:full-stack-applications",
-    "category:kubernetes-orchestration",
-    "category:privacy",
     "category:productivity",
+    "category:creative-tools",
     "category:web-applications"
   ],
-  "operational_category": "operational:23",
+  "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:bentopdf-add-attachments",
@@ -157,7 +154,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "LICENSE REVIEW REQUIRED",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -462,13 +459,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.285661+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.031228+00:00",
   "tree_files": 1713,
   "files_read": 755,
   "entity_count": 116,
-  "unread_source_files": 0,
+  "unread_source_files": 164,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:56:56.270079+00:00",
@@ -614,5 +612,88 @@
       "marketing and documentation build scripts"
     ],
     "scoped_deep_review": "License, sensitive-file and security-operation triggers were reviewed narrowly. BentoPDF is dual licensed, preconfigures runtime CDN URLs for AGPL WASM processors, handles untrusted documents in a browser, and includes password, permission, sanitization, redaction and cryptographic-signature tools."
+  },
+  "repository_intelligence": {
+    "purpose": "Browser-based PDF tooling focused on editing text locally and saving or connecting document workflows without a full remote document service.",
+    "reuse_recommendation": "Use for document prototypes after confirming local processing, file integrity and accessibility.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Verify embedded PDF library licenses and whether processing is truly local.",
+    "runtime": [
+      "Web application",
+      "PDF processing library"
+    ],
+    "keywords": [
+      "PDF text editing",
+      "local document processing",
+      "browser PDF editor",
+      "document workflow",
+      "offline tools"
+    ],
+    "risk_notes": [
+      "PDFs may contain confidential data or malicious embedded content."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PDF editing interface",
+        "purpose": "Packages document editing into a local-first web workflow.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:12.519912+00:00",
+    "inspected_commit": "872a32929e0ee90c67c104e661be31433ff7b4df",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e0661dbe1d989544d31db612efd84a109720e485",
+        "value": "https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "PDF text editing",
+        "description": "Provides browser UI for modifying text or content in PDF documents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:pdf-text-editing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "local file workflow",
+        "description": "Supports saving and managing edited documents from a client-side experience.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-file-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

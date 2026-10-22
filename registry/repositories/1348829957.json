@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/sigstore/docs",
-  "description": "Sigstore documentation",
+  "description": "Documentation site for Sigstore tools and workflows used to sign, verify and attest software artifacts.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T01:32:25Z",
-    "github_description": "Sigstore documentation"
+    "github_description": "Sigstore documentation",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "842c30981f1bf5061fe0d370512db4de8cdf3b33",
   "current_commit": "842c30981f1bf5061fe0d370512db4de8cdf3b33",
   "inspection_date": "2026-09-20T05:34:10.273457+00:00",
   "categories": [
-    "category:general-other"
+    "category:documentation",
+    "category:cybersecurity",
+    "category:specifications-standards"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:sigstore-docs-package-hyas-doks",
@@ -37,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -282,11 +285,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.168074+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.232182+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -307,8 +311,8 @@
   "tree_files": 316,
   "files_read": 110,
   "entity_count": 2,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 79,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -326,5 +330,88 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 2,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Documentation site for Sigstore tools and workflows used to sign, verify and attest software artifacts.",
+    "reuse_recommendation": "Use as the documentation source and verify current commands against the corresponding Sigstore tool versions.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See documentation repository license; referenced Sigstore tools have independent terms.",
+    "runtime": [
+      "Documentation site",
+      "Markdown/content tooling"
+    ],
+    "keywords": [
+      "Sigstore documentation",
+      "software signing",
+      "artifact verification",
+      "supply chain security",
+      "provenance attestation"
+    ],
+    "risk_notes": [
+      "Security instructions can become stale; validate release-signing guidance against current upstream tools."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Sigstore documentation site",
+        "purpose": "Provides user and developer guidance for the Sigstore ecosystem.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:17.162324+00:00",
+    "inspected_commit": "842c30981f1bf5061fe0d370512db4de8cdf3b33",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2a8120a4f09bf19dbdeb3785e165b0103377dad9",
+        "value": "https://github.com/jamesrwatsonx-creator/Sigstore-docs/blob/842c30981f1bf5061fe0d370512db4de8cdf3b33/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "EXTERNAL_REFERENCE",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Sigstore workflow documentation",
+        "description": "Explains signing and verification of software artifacts.",
+        "scope": "REFERENCE",
+        "id": "cluster:sigstore-workflow-documentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "supply-chain security guidance",
+        "description": "Documents provenance and trust workflows for software releases.",
+        "scope": "REFERENCE",
+        "id": "cluster:supply-chain-security-guidance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

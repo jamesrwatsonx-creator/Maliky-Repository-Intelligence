@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/chenqingspring/react-lottie",
-  "description": "Render After Effects animations on React based on lottie-web",
+  "description": "Legacy React wrapper for rendering Bodymovin/Lottie animation JSON in browser interfaces, with controls for playback and animation segments.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-02-20T07:51:21Z",
-    "github_description": "Render After Effects animations on React based on lottie-web"
+    "github_description": "Render After Effects animations on React based on lottie-web",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c7d0a7c14e796fdedb81e977d613d8a5cb3c4470",
   "current_commit": "c7d0a7c14e796fdedb81e977d613d8a5cb3c4470",
   "inspection_date": "2026-09-20T05:36:43.893131+00:00",
   "categories": [
-    "category:frontend-applications"
+    "category:frontend-applications",
+    "category:libraries-packages",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.015795+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.084101+00:00",
   "tree_files": 31,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 24,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 14,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,114 @@
     ],
     "updated_at": "2026-10-12T19:04:27.271914+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Legacy React wrapper for rendering Bodymovin/Lottie animation JSON in browser interfaces, with controls for playback and animation segments.",
+    "reuse_recommendation": "Consider for legacy integration; compare current React and Lottie renderer compatibility before adopting in a new application.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "JavaScript",
+      "React",
+      "Lottie/bodymovin"
+    ],
+    "keywords": [
+      "React Lottie",
+      "Bodymovin animation",
+      "JSON animation player",
+      "SVG canvas animation",
+      "React component"
+    ],
+    "risk_notes": [
+      "Older package/API surface may require maintenance or a current maintained alternative."
+    ],
+    "important_subsystems": [
+      {
+        "name": "React Lottie component",
+        "purpose": "Wraps the Lottie renderer for use in React interfaces.",
+        "evidence_paths": [
+          "src/index.js",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:16.653222+00:00",
+    "inspected_commit": "c7d0a7c14e796fdedb81e977d613d8a5cb3c4470",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "dcd95ea2f9cd8f7481879740bc9dde8e16b35060",
+        "value": "https://github.com/jamesrwatsonx-creator/react-lottie/blob/c7d0a7c14e796fdedb81e977d613d8a5cb3c4470/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "c2d2a91d0e890342bf52aa9d0a1d8fcc9ecc4924",
+        "value": "https://github.com/jamesrwatsonx-creator/react-lottie/blob/c7d0a7c14e796fdedb81e977d613d8a5cb3c4470/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "a1fcabea567f65b74ec881bcb99d1d6f41167396",
+        "value": "https://github.com/jamesrwatsonx-creator/react-lottie/blob/c7d0a7c14e796fdedb81e977d613d8a5cb3c4470/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/index.js",
+        "blob_sha": "3eaa43cbc356a32946136d0eaacff2b9a1a59133",
+        "value": "https://github.com/jamesrwatsonx-creator/react-lottie/blob/c7d0a7c14e796fdedb81e977d613d8a5cb3c4470/src/index.js"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "React animation player",
+        "description": "Embeds Bodymovin/Lottie animations in React applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:react-animation-player",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.js"
+        ]
+      },
+      {
+        "name": "animation playback controls",
+        "description": "Exposes playback and segment control for rendered animations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:animation-playback-controls",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.js"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

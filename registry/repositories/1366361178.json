@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/nautechsystems/nautilus_trader",
-  "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+  "description": "High-performance algorithmic trading platform for research, backtesting and live trading across multiple financial venues.",
   "metadata": {
     "language": null,
     "license": "LGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-11T14:19:12Z",
-    "github_description": "Production-grade Rust-native trading engine with deterministic event-driven architecture"
+    "github_description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e1b72c717a11c65cc1761ef98dd560c711cf27ee",
   "current_commit": "e1b72c717a11c65cc1761ef98dd560c711cf27ee",
   "inspection_date": "2026-09-20T05:36:07.762685+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:developer-tools",
+    "category:data-science"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.577994+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.730901+00:00",
   "tree_files": 4741,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 4397,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4423,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.225654+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "High-performance algorithmic trading platform for research, backtesting and live trading across multiple financial venues.",
+    "reuse_recommendation": "Use in simulation first; live execution needs strict risk controls, secure keys and independent financial review.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository license, exchange connector and financial compliance terms.",
+    "runtime": [
+      "Python/Rust",
+      "market data and exchange APIs"
+    ],
+    "keywords": [
+      "NautilusTrader",
+      "algorithmic trading",
+      "backtesting",
+      "market data",
+      "execution engine"
+    ],
+    "risk_notes": [
+      "Automated trading can create rapid financial losses and requires compliance oversight."
+    ],
+    "important_subsystems": [
+      {
+        "name": "NautilusTrader core",
+        "purpose": "Unifies research, simulation and live trading workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:56.138836+00:00",
+    "inspected_commit": "e1b72c717a11c65cc1761ef98dd560c711cf27ee",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "924ab984d49bf6c4196829fc2265349c4e194552",
+        "value": "https://github.com/jamesrwatsonx-creator/nautilus_trader/blob/e1b72c717a11c65cc1761ef98dd560c711cf27ee/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "event-driven trading engine",
+        "description": "Processes market data and strategy events for simulation and execution.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:event-driven-trading-engine",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "backtesting and research",
+        "description": "Replays market data to evaluate trading strategies.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:backtesting-and-research",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "live venue connectivity",
+        "description": "Connects strategies to exchanges and broker venues.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:live-venue-connectivity",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

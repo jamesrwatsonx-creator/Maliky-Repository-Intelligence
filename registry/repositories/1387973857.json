@@ -10,24 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+  "upstream_url": "https://github.com/nicobailon/visual-explainer",
+  "description": "Tool or workflow for turning technical concepts and written explanations into diagrams or visual learning materials.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-28T22:24:35Z",
-    "github_description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps"
+    "github_description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "7163c3e10660912e0b89e1af465db9f387282b88",
+  "current_commit": "7163c3e10660912e0b89e1af465db9f387282b88",
+  "inspection_date": "2026-10-22T02:23:58.234796+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:skills"
+    "category:creative-tools",
+    "category:education",
+    "category:documentation"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:25",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.585905+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.606999+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.327296+00:00",
     "purpose_established": true
+  },
+  "tree_files": 44,
+  "files_read": 10,
+  "unread_source_files": 32,
+  "repository_intelligence": {
+    "purpose": "Tool or workflow for turning technical concepts and written explanations into diagrams or visual learning materials.",
+    "reuse_recommendation": "Use for communication prototypes and verify the resulting visual claims against source material.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Check repository and image/font asset rights.",
+    "runtime": [
+      "Repository-declared design/web tools",
+      "optional AI services"
+    ],
+    "keywords": [
+      "visual explainer",
+      "technical diagrams",
+      "educational graphics",
+      "concept visualization",
+      "documentation"
+    ],
+    "risk_notes": [
+      "Simplified diagrams can omit important qualifications or relationships."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Visual explainer workflow",
+        "purpose": "Makes complex ideas easier to communicate through visuals.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:38.720972+00:00",
+    "inspected_commit": "7163c3e10660912e0b89e1af465db9f387282b88",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "26cb28c043fca90a0547fe8e4aaa9b9b9bdc56af",
+        "value": "https://github.com/jamesrwatsonx-creator/visual-explainer/blob/7163c3e10660912e0b89e1af465db9f387282b88/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "concept-to-visual transformation",
+        "description": "Structures explanations into diagrams or visual narrative artifacts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:concept-to-visual-transformation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "visual documentation workflow",
+        "description": "Supports creation and iteration of explanatory materials.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-documentation-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

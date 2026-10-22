@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/AI-Builder-Club/skills",
-  "description": "Join the best AI Builder Community",
+  "description": "Agent-development harness and durable workstream template combining local-stack setup, end-to-end verification, isolated change-to-PR orchestration and recurring-loop knowledge organization.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-06-18T13:59:12Z",
-    "github_description": "Join the best AI Builder Community"
+    "github_description": "Join the best AI Builder Community",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "a2267355209713a2184eaeef3b276ec680219d2b",
   "current_commit": "a2267355209713a2184eaeef3b276ec680219d2b",
   "inspection_date": "2026-09-20T05:32:49.342962+00:00",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:loop-engineer-template-skill-dev-local-setup",
@@ -40,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -285,11 +288,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.410387+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.524182+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -312,16 +316,15 @@
   "files_read": 14,
   "entity_count": 5,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 5,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:54.134279+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -331,5 +334,228 @@
     ],
     "updated_at": "2026-10-12T19:04:27.204820+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent-development harness and durable workstream template combining local-stack setup, end-to-end verification, isolated change-to-PR orchestration and recurring-loop knowledge organization.",
+    "reuse_recommendation": "Reference and adapt the harness in a trusted project; review command/secret scope and obtain licensing permission before redistribution.",
+    "inspection_scope": "Complete 18-file template tree separates five skills, one host-executed change workflow, a configurable tmux launcher and a durable loop-knowledge architecture reference. Empty domains/signals/docs substrate, log and images are packaging, not additional implementations. Repository-level completion only; detailed entities are preserved unchanged.",
+    "license_notes": "No license grant found; source-specific notices remain applicable.",
+    "runtime": [
+      "Markdown skills",
+      "JavaScript workflow host",
+      "Bash",
+      "tmux",
+      "Git"
+    ],
+    "keywords": [
+      "harness engineering",
+      "worktree",
+      "end-to-end",
+      "verify before PR",
+      "dev-local",
+      "recurring loops"
+    ],
+    "risk_notes": [
+      "The workflow intentionally delegates command execution and writes to its host agents. It copies ignored environment files into a new worktree and may install dependencies, so worktree isolation does not isolate secrets or make untrusted projects safe to run. Setup and later phases interpolate repository/task strings into agent instructions, not a hardened execution sandbox. The launcher can terminate its session and optional infrastructure; customize and review all commands before running. Host permissions, actual verification results and safe target selection remain integration responsibilities. No source execution, dependency installation, PR creation or license permission was assumed during cataloguing; missing licensing is recorded with reference-only recommendations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "codebase harness setup",
+        "purpose": "Make a project legible, runnable and verifiable using focused setup skills.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "local development orchestration",
+        "purpose": "Customize the tmux multi-service launcher for a discovered project stack.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "verified change workflow",
+        "purpose": "Coordinate isolated-worktree implementation, review, tests and conditional PR creation.",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:43:43.687377+00:00",
+    "inspected_commit": "a2267355209713a2184eaeef3b276ec680219d2b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "44354e2e1a980205f167f8eedbc4ec95e864811c",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "ARCHITECTURE.md",
+        "blob_sha": "baed9427a3e810713026f6480d694c92f3d28d4e",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/ARCHITECTURE.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/dev-local-setup/SKILL.md",
+        "blob_sha": "750667401ea9973b05148c77d59182a45373c2a6",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/dev-local-setup/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/e2e-setup/SKILL.md",
+        "blob_sha": "2fdc84ac47c80aa5a1ab0c9c073bd17d17335fa1",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/e2e-setup/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/new-loop/SKILL.md",
+        "blob_sha": "12c0ea777003e371cebe8bb5902eaa2a204c5e42",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/new-loop/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/pr/SKILL.md",
+        "blob_sha": "5a91eb382ec3e66aebeeac053d933fcfb7367810",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/pr/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/setup-codebase-harness/SKILL.md",
+        "blob_sha": "f3d3dc09d459a89a88377c5cf6f806306b82e1d3",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/setup-codebase-harness/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+        "blob_sha": "02014a66db129dbd2a8784679c8474bdbe74f4ca",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/skills/dev-local-setup/assets/dev-local.template.sh"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/workflows/ship-change.js",
+        "blob_sha": "3deb9a93125b67b32c0f9181ff45b687f3f341f4",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineer-template/blob/a2267355209713a2184eaeef3b276ec680219d2b/.claude/workflows/ship-change.js"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "codebase harness setup",
+        "description": "Make a project legible, runnable and verifiable using focused setup skills.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:codebase-harness-setup",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "local development orchestration",
+        "description": "Customize the tmux multi-service launcher for a discovered project stack.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:local-development-orchestration",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "verified change workflow",
+        "description": "Coordinate isolated-worktree implementation, review, tests and conditional PR creation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:verified-change-workflow",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      },
+      {
+        "name": "recurring workstream knowledge",
+        "description": "Organize domain charters, signals, reusable documents and durable run logs.",
+        "scope": "REFERENCE",
+        "id": "cluster:recurring-workstream-knowledge",
+        "evidence_paths": [
+          "README.md",
+          "ARCHITECTURE.md",
+          ".claude/skills/dev-local-setup/SKILL.md",
+          ".claude/skills/e2e-setup/SKILL.md",
+          ".claude/skills/new-loop/SKILL.md",
+          ".claude/skills/pr/SKILL.md",
+          ".claude/skills/setup-codebase-harness/SKILL.md",
+          ".claude/skills/dev-local-setup/assets/dev-local.template.sh",
+          ".claude/workflows/ship-change.js"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

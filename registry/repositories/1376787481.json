@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/material-components/material-components-android",
-  "description": "[MAINTENANCE MODE] Modular and customizable Material Design UI components for Android",
+  "description": "Google’s Android Material Components library providing reusable UI widgets and design system implementations for Material Design.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-14T20:08:09Z",
-    "github_description": "[MAINTENANCE MODE] Modular and customizable Material Design UI components for Android"
+    "github_description": "[MAINTENANCE MODE] Modular and customizable Material Design UI components for Android",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "60ff09436d5d477a4b9d02940f31eb01e1250620",
   "current_commit": "60ff09436d5d477a4b9d02940f31eb01e1250620",
   "inspection_date": "2026-09-20T05:36:45.270364+00:00",
   "categories": [
     "category:design-systems",
-    "category:frontend-applications",
-    "category:mobile-applications"
+    "category:mobile-applications",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [
     "operational:16",
     "operational:17"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.482767+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.612265+00:00",
   "tree_files": 4584,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1030,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3930,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.214283+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Google’s Android Material Components library providing reusable UI widgets and design system implementations for Material Design.",
+    "reuse_recommendation": "Use when maintaining Material-based Android UI and verify current platform support and migration guidance.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Apache-2.0.",
+    "runtime": [
+      "Kotlin/Java",
+      "Android SDK"
+    ],
+    "keywords": [
+      "Material Components Android",
+      "Material Design",
+      "Android UI library",
+      "Kotlin",
+      "design system"
+    ],
+    "risk_notes": [
+      "Check library lifecycle and compatibility before starting new projects."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Material Components Android",
+        "purpose": "Provides production UI primitives for Android applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:55.057506+00:00",
+    "inspected_commit": "60ff09436d5d477a4b9d02940f31eb01e1250620",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "25897a2861a3f3ef297f89c61636624e418a72a7",
+        "value": "https://github.com/jamesrwatsonx-creator/material-components-android/blob/60ff09436d5d477a4b9d02940f31eb01e1250620/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Material UI components",
+        "description": "Provides Android widgets implementing Material Design patterns.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:material-ui-components",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "theming and design tokens",
+        "description": "Supports colors, typography and component styling.",
+        "scope": "DESIGN",
+        "id": "cluster:theming-and-design-tokens",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Android developer integration",
+        "description": "Packages components for app implementation and migration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:android-developer-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

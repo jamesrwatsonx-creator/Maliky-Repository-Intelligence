@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "next",
   "upstream_url": "https://github.com/novuhq/novu",
-  "description": "The open-source communication infrastructure for agents and products",
+  "description": "Voice-enabled conversational application for interacting with an AI assistant through speech input and spoken responses.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-11T15:34:02Z",
-    "github_description": "The open-source communication infrastructure for agents and products"
+    "github_description": "The open-source communication infrastructure for agents and products",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8801303c75ede3c6a7da280e96c18711de0476f5",
   "current_commit": "8801303c75ede3c6a7da280e96c18711de0476f5",
   "inspection_date": "2026-09-20T05:36:13.924528+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:devops",
+    "category:ai-applications",
+    "category:media-publishing",
     "category:generative-ai"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:03",
     "operational:14"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 35,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.385887+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.182877+00:00",
   "tree_files": 10901,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 9219,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 9833,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.094881+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice-enabled conversational application for interacting with an AI assistant through speech input and spoken responses.",
+    "reuse_recommendation": "Use as a voice UX pattern after checking where audio is processed and obtaining consent.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check repository and speech/model provider terms.",
+    "runtime": [
+      "Repository-declared app runtime",
+      "speech and LLM APIs"
+    ],
+    "keywords": [
+      "voice chat app",
+      "speech assistant",
+      "AI conversation",
+      "STT TTS",
+      "mobile voice UI"
+    ],
+    "risk_notes": [
+      "Voice recordings and conversation content may be sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice assistant app",
+        "purpose": "Combines speech interaction with conversational AI.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:56.185347+00:00",
+    "inspected_commit": "8801303c75ede3c6a7da280e96c18711de0476f5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cdcbc6c4a750f6bf48a3fc457044ad66ef155e16",
+        "value": "https://github.com/jamesrwatsonx-creator/chat-voice-app-1/blob/8801303c75ede3c6a7da280e96c18711de0476f5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech input and recognition",
+        "description": "Captures speech and converts it to text or intent.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-input-and-recognition",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI conversation and response",
+        "description": "Connects user requests to model-backed assistant behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-conversation-and-response",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "spoken output and interface",
+        "description": "Returns responses through audio and user-facing controls.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:spoken-output-and-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

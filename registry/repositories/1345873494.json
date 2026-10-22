@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/iamlukethedev/Hermes3D",
-  "description": "Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.",
+  "description": "3D visualization or scene-generation project within the Hermes ecosystem; treat as a reusable visual subsystem and verify exact function from pinned sources.",
   "metadata": {
     "language": "TypeScript",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-31T12:21:21Z",
-    "github_description": "Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications."
+    "github_description": "Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "59fe1f618c8711e7a20ae45b665e120fc50b2961",
   "current_commit": "59fe1f618c8711e7a20ae45b665e120fc50b2961",
   "inspection_date": "2026-09-20T05:33:55.787746+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:creative-tools",
+    "category:games-interactive-experiences",
+    "category:general-other"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.116167+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.188148+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 625,
-  "files_read": 3,
+  "files_read": 12,
   "entity_count": 1,
-  "unread_source_files": 589,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 585,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,87 @@
     ],
     "updated_at": "2026-10-12T19:04:27.171928+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "3D visualization or scene-generation project within the Hermes ecosystem; treat as a reusable visual subsystem and verify exact function from pinned sources.",
+    "reuse_recommendation": "Inspect interfaces and asset provenance before integrating into shared Hermes infrastructure.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and bundled asset terms.",
+    "runtime": [
+      "Web or desktop 3D runtime",
+      "repository-declared renderer"
+    ],
+    "keywords": [
+      "Hermes3D",
+      "3D scenes",
+      "visualization",
+      "interactive graphics"
+    ],
+    "risk_notes": [
+      "Shared Hermes integration makes compatibility and asset provenance strategically important."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hermes 3D interface",
+        "purpose": "Packages the project’s 3D display or interaction layer.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:22.306845+00:00",
+    "inspected_commit": "59fe1f618c8711e7a20ae45b665e120fc50b2961",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "206aa03ebe829e9091eab9d1ef0aea0c8923bae2",
+        "value": "https://github.com/jamesrwatsonx-creator/Hermes3D/blob/59fe1f618c8711e7a20ae45b665e120fc50b2961/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "3D rendering and presentation",
+        "description": "Provides a 3D scene or visualization capability for Hermes-related use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-rendering-and-presentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "interactive scene controls",
+        "description": "Supports user interaction with the rendered 3D content.",
+        "scope": "DESIGN",
+        "id": "cluster:interactive-scene-controls",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -10,24 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily.",
+  "upstream_url": "https://github.com/GONZOsint/gvision",
+  "description": "Google Cloud Vision API client or examples for image labeling, OCR, face/landmark detection and visual content analysis.",
   "metadata": {
     "language": null,
     "license": "Unlicense",
     "archived": false,
     "pushed_at": "2024-12-08T21:03:15Z",
-    "github_description": "GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily."
+    "github_description": "GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "48d3b125fd20ab85bb5113203163792482c291e3",
+  "current_commit": "48d3b125fd20ab85bb5113203163792482c291e3",
+  "inspection_date": "2026-10-22T02:26:30.423201+00:00",
   "categories": [
     "category:apis",
-    "category:research-projects"
+    "category:machine-learning-models",
+    "category:machine-learning-models"
   ],
-  "operational_category": "operational:10",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [
     "operational:12"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.067075+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.148110+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.166311+00:00",
     "purpose_established": true
+  },
+  "tree_files": 5,
+  "files_read": 4,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Google Cloud Vision API client or examples for image labeling, OCR, face/landmark detection and visual content analysis.",
+    "reuse_recommendation": "Use with consent, secure credentials and careful review of cloud processing and retention.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and Google Cloud Vision service terms.",
+    "runtime": [
+      "Repository-declared client language",
+      "Google Cloud API"
+    ],
+    "keywords": [
+      "Google Vision API",
+      "OCR",
+      "image labeling",
+      "cloud vision",
+      "visual analysis"
+    ],
+    "risk_notes": [
+      "Images can contain biometric or personal information; cloud processing requires privacy review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vision API integration",
+        "purpose": "Provides programmatic access to cloud-based image analysis.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:28.397858+00:00",
+    "inspected_commit": "48d3b125fd20ab85bb5113203163792482c291e3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "619d408ee884006bae58fc9a121728873609f813",
+        "value": "https://github.com/jamesrwatsonx-creator/gvision/blob/48d3b125fd20ab85bb5113203163792482c291e3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "vision API client integration",
+        "description": "Connects applications to hosted image understanding endpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vision-api-client-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "OCR and image analysis workflows",
+        "description": "Extracts text and labels from image inputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ocr-and-image-analysis-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

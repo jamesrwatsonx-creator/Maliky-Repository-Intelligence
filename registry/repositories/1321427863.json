@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/webmachinelearning/webmcp",
-  "description": "🤖 WebMCP",
+  "description": "Browser-tool specification and explainers for JavaScript registration, declarative HTML form tools and proposed service-worker providers; not a browser or MCP server implementation.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-07-28T17:29:19Z",
-    "github_description": "🤖 WebMCP"
+    "github_description": "🤖 WebMCP",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "3678f646fc0605ef37a76007c5567d31b6989e2c",
   "current_commit": "3678f646fc0605ef37a76007c5567d31b6989e2c",
   "inspection_date": "2026-09-20T05:33:00.237221+00:00",
   "categories": [
-    "category:agent-workflows"
+    "category:specifications-standards",
+    "category:documentation",
+    "category:mcp-clients-sdks"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:webmcp-workflow-ci"
@@ -36,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -281,11 +284,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.703667+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.714113+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -304,19 +308,18 @@
     "unverified_source_files": 1
   },
   "tree_files": 13,
-  "files_read": 11,
+  "files_read": 12,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 1,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:54.747275+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -326,5 +329,177 @@
     ],
     "updated_at": "2026-10-12T19:04:27.339841+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Browser-tool specification and explainers for JavaScript registration, declarative HTML form tools and proposed service-worker providers; not a browser or MCP server implementation.",
+    "reuse_recommendation": "Reference when designing browser-native tools; verify current target-browser support and implementation-specific security.",
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "license_notes": "Reports use the W3C Software and Document License stated in LICENSE.md.",
+    "runtime": [
+      "Bikeshed",
+      "Markdown",
+      "Proposed JavaScript/HTML browser APIs"
+    ],
+    "keywords": [
+      "webmcp",
+      "browser tool API",
+      "declarative form tools",
+      "background browser tools",
+      "browser tool privacy",
+      "Bikeshed",
+      "Markdown",
+      "Proposed JavaScript/HTML browser APIs"
+    ],
+    "risk_notes": [
+      "Security and deployment semantics are specification/proposal contracts, not tested browser controls or universal support. Tool metadata/results can leak private data or contain malicious instructions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "declarative form tools",
+        "purpose": "Propose translating annotated forms into agent-facing tool schemas.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      },
+      {
+        "name": "background browser tools",
+        "purpose": "Explore service-worker discovery and calls beyond currently open tabs.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:44:46.559367+00:00",
+    "inspected_commit": "3678f646fc0605ef37a76007c5567d31b6989e2c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c26257dafff7117ad3d72acc2ac22acf97ac3ecd",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE.md",
+        "blob_sha": "cabddd80c7fdf19cd5577d8b86ee7dadc64c9b4e",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/LICENSE.md"
+      },
+      {
+        "type": "source_review",
+        "path": "index.bs",
+        "blob_sha": "4274a31c854246f6a9d3b6bf2f87c7bacbe132d0",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/index.bs"
+      },
+      {
+        "type": "source_review",
+        "path": "declarative-api-explainer.md",
+        "blob_sha": "edefb1cd424dcd50e71d90d29716133b16d7f201",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/declarative-api-explainer.md"
+      },
+      {
+        "type": "source_review",
+        "path": "docs/service-workers.md",
+        "blob_sha": "4adf8c5971aef915abb02da4e37162f523fbab73",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/docs/service-workers.md"
+      },
+      {
+        "type": "source_review",
+        "path": "security-privacy-questionnaire.md",
+        "blob_sha": "dc0e7df52c79fd88451e4ee115bc51abafa3326a",
+        "value": "https://github.com/jamesrwatsonx-creator/webmcp/blob/3678f646fc0605ef37a76007c5567d31b6989e2c/security-privacy-questionnaire.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "DESIGN_ONLY",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "DESIGN_ONLY",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "DESIGN_ONLY",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "browser tool API",
+        "description": "Specify author-defined tool registration/invocation in web application context.",
+        "scope": "REFERENCE",
+        "id": "cluster:browser-tool-api",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      },
+      {
+        "name": "declarative form tools",
+        "description": "Propose translating annotated forms into agent-facing tool schemas.",
+        "scope": "DESIGN",
+        "id": "cluster:declarative-form-tools",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      },
+      {
+        "name": "background browser tools",
+        "description": "Explore service-worker discovery and calls beyond currently open tabs.",
+        "scope": "DESIGN",
+        "id": "cluster:background-browser-tools",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      },
+      {
+        "name": "browser tool privacy",
+        "description": "Describe origin exposure, sensitive return data and malicious tool-input risks.",
+        "scope": "REFERENCE",
+        "id": "cluster:browser-tool-privacy",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

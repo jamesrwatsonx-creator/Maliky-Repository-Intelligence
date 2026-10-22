@@ -3,8 +3,100 @@
   "inspected_commit": "d620ca0c03d24a51c05ae4dca8a9d5923a4aeb9c",
   "tree_complete": true,
   "tree_files": 994,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE.txt",
+      "sha": "76fdc58a0d7f76d050f6098fb19e53ee86231b3e"
+    },
+    {
+      "path": "README.md",
+      "sha": "e17867b5a555606dc3287b6f9cf72b622a8aedb9"
+    },
+    {
+      "path": "monaco-lsp-client/package.json",
+      "sha": "297e117a3349c986ca7ea3f2e221384248759d12"
+    },
+    {
+      "path": "package.json",
+      "sha": "52777cde3cd2fde7eb03f836dbe8d2f3f80b01c8"
+    },
+    {
+      "path": "samples/browser-esm-esbuild/package.json",
+      "sha": "ba1ff2ae59491cce52771df1c8284905e18a93d5"
+    },
+    {
+      "path": "samples/browser-esm-parcel/package.json",
+      "sha": "780b100bd015a5d12959131e1d125c3424ebdc16"
+    },
+    {
+      "path": "samples/browser-esm-vite-react/package.json",
+      "sha": "25f1602f4b8d3a0ff1cc56ac07abf2311537e455"
+    },
+    {
+      "path": "samples/package.json",
+      "sha": "879eb8fc3b0289ce50c0fe5a7a1ff31bd037bc59"
+    },
+    {
+      "path": "webpack-plugin/package.json",
+      "sha": "07ac8fed6fadd8d554f91af769ab24c2131d2b61"
+    },
+    {
+      "path": "website/package.json",
+      "sha": "a85b769e6874aa562c927189967802807b7706fc"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "e17867b5a555606dc3287b6f9cf72b622a8aedb9",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.txt",
+      "blob_sha": "76fdc58a0d7f76d050f6098fb19e53ee86231b3e",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "52777cde3cd2fde7eb03f836dbe8d2f3f80b01c8",
+      "entities_detected": 0
+    },
+    {
+      "path": "monaco-lsp-client/package.json",
+      "blob_sha": "297e117a3349c986ca7ea3f2e221384248759d12",
+      "entities_detected": 0
+    },
+    {
+      "path": "samples/package.json",
+      "blob_sha": "879eb8fc3b0289ce50c0fe5a7a1ff31bd037bc59",
+      "entities_detected": 0
+    },
+    {
+      "path": "webpack-plugin/package.json",
+      "blob_sha": "07ac8fed6fadd8d554f91af769ab24c2131d2b61",
+      "entities_detected": 0
+    },
+    {
+      "path": "website/package.json",
+      "blob_sha": "a85b769e6874aa562c927189967802807b7706fc",
+      "entities_detected": 0
+    },
+    {
+      "path": "samples/browser-esm-esbuild/package.json",
+      "blob_sha": "ba1ff2ae59491cce52771df1c8284905e18a93d5",
+      "entities_detected": 0
+    },
+    {
+      "path": "samples/browser-esm-parcel/package.json",
+      "blob_sha": "780b100bd015a5d12959131e1d125c3424ebdc16",
+      "entities_detected": 0
+    },
+    {
+      "path": "samples/browser-esm-vite-react/package.json",
+      "blob_sha": "25f1602f4b8d3a0ff1cc56ac07abf2311537e455",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".azure-pipelines/publish-nightly.yml",
     ".azure-pipelines/publish-stable.yml",
@@ -25,8 +117,8 @@
     "CHANGELOG.md",
     "CONTRIBUTING.md",
     "MAINTAINING.md",
-    "README.md",
     "SECURITY.md",
+    "ThirdPartyNotices.txt",
     "build/amd/build.script.ts",
     "build/amd/plugin.js",
     "build/amd/rollup-types.config.mjs",
@@ -38,6 +130,7 @@
     "build/build-monaco-editor.ts",
     "build/check-samples.ts",
     "build/esm/build.script.ts",
+    "build/esm/rollup-plugin-keep-css-imports/LICENSE",
     "build/esm/rollup-plugin-keep-css-imports/README.md",
     "build/esm/rollup-plugin-keep-css-imports/dist/ImportUpdater.d.ts",
     "build/esm/rollup-plugin-keep-css-imports/dist/compileSass.d.ts",
@@ -66,7 +159,6 @@
     "monaco-lsp-client/README.md",
     "monaco-lsp-client/generator/index.ts",
     "monaco-lsp-client/package-lock.json",
-    "monaco-lsp-client/package.json",
     "monaco-lsp-client/rolldown.config.mjs",
     "monaco-lsp-client/src/adapters/ITextModelBridge.ts",
     "monaco-lsp-client/src/adapters/LspCapabilitiesRegistry.ts",
@@ -100,12 +192,12 @@
     "monaco-lsp-client/src/types.ts",
     "monaco-lsp-client/src/utils.ts",
     "package-lock.json",
-    "package.json",
     "samples/README.md",
     "samples/browser-esm-esbuild/build.js",
+    "samples/browser-esm-esbuild/dist/index.html",
+    "samples/browser-esm-esbuild/index.html",
     "samples/browser-esm-esbuild/index.js",
-    "samples/browser-esm-esbuild/package.json",
-    "samples/browser-esm-parcel/package-lock.json"
+    "samples/browser-esm-parcel/index.html"
   ],
   "excluded_nontext_paths": [
     ".gitattributes",
@@ -232,8 +324,12 @@
     "webpack-plugin": 11,
     "website": 291
   },
-  "unread_source_paths_count": 730,
+  "unread_source_paths_count": 956,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 264,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

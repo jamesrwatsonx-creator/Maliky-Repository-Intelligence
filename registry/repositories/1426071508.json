@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/knadh/listmonk",
-  "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+  "description": "Self-hosted newsletter and mailing-list management platform for campaign creation, subscriber management and email delivery.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-19T11:21:03Z",
-    "github_description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app."
+    "github_description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d2b729acb10c7d689acf6d25c2e8092f106fe77c",
   "current_commit": "d2b729acb10c7d689acf6d25c2e8092f106fe77c",
   "inspection_date": "2026-10-20T23:59:05.119021+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:marketing-communications",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.359138+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.470167+00:00",
   "tree_files": 464,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 274,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 362,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted newsletter and mailing-list management platform for campaign creation, subscriber management and email delivery.",
+    "reuse_recommendation": "Review consent, unsubscribe enforcement, authentication, deliverability and subscriber-data retention before sending campaigns.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "AGPL-3.0; email provider terms apply.",
+    "runtime": [
+      "Go",
+      "PostgreSQL",
+      "SMTP provider",
+      "Docker"
+    ],
+    "keywords": [
+      "listmonk",
+      "newsletter platform",
+      "mailing list management",
+      "campaign email",
+      "self-hosted marketing"
+    ],
+    "risk_notes": [
+      "Processes personal email addresses and sends messages; consent, spam controls and credentials are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "listmonk platform",
+        "purpose": "Combines subscriber management, campaign creation and delivery.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:52.513930+00:00",
+    "inspected_commit": "d2b729acb10c7d689acf6d25c2e8092f106fe77c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0be3f3ef7ede5c229b6c1668e2c6639394335265",
+        "value": "https://github.com/jamesrwatsonx-creator/listmonk/blob/d2b729acb10c7d689acf6d25c2e8092f106fe77c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "subscriber and list management",
+        "description": "Maintains mailing lists and subscriber profiles.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:subscriber-and-list-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "newsletter campaign delivery",
+        "description": "Creates and sends email campaigns through configured delivery backends.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:newsletter-campaign-delivery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted marketing platform",
+        "description": "Provides administration, API and deployment for owned newsletter infrastructure.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-marketing-platform",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

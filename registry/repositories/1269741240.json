@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/addyosmani/agent-skills",
-  "description": "Production-grade engineering skills for AI coding agents.",
+  "description": "Production-oriented engineering skill collection encoding senior development workflows, quality gates and practices for coding agents.",
   "metadata": {
     "language": "JavaScript",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T16:56:14Z",
-    "github_description": "Production-grade engineering skills for AI coding agents."
+    "github_description": "Production-grade engineering skills for AI coding agents.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "5a5ea45e806f82273549fd85e60adb95d55f510d",
   "current_commit": "5a5ea45e806f82273549fd85e60adb95d55f510d",
   "inspection_date": "2026-09-20T05:34:37.942121+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:skills",
     "category:developer-tools",
-    "category:skills"
+    "category:agent-workflows"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 24,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.484752+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.509927+00:00",
   "tree_files": 187,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 181,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 171,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.315896+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Production-oriented engineering skill collection encoding senior development workflows, quality gates and practices for coding agents.",
+    "reuse_recommendation": "Select relevant skills and inspect executable commands, host assumptions and repository-specific quality requirements.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and skill-specific notices.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "coding agent skills",
+      "engineering workflows",
+      "quality gates",
+      "software development skills"
+    ],
+    "risk_notes": [
+      "Skills can conflict with project rules or request tool actions; review before enabling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "engineering skill collection",
+        "purpose": "Packages reusable senior-engineer workflows for compatible agent hosts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:20.791860+00:00",
+    "inspected_commit": "5a5ea45e806f82273549fd85e60adb95d55f510d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f31b37f7fc881e76cf9ba9cedd74efad27d4d255",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-agent-skills/blob/5a5ea45e806f82273549fd85e60adb95d55f510d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "engineering practice skills",
+        "description": "Provides agent instructions for common software development and review tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:engineering-practice-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "quality gate workflows",
+        "description": "Encodes checks and completion criteria for development phases.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:quality-gate-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

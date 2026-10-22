@@ -1,0 +1,1326 @@
+{
+  "defaults": {
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Check external provider terms and deployment permissions for the selected use."
+    ],
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "recommendation": "REFERENCE"
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/Open-Generative-AI",
+      "commit": "2f411dd30e531564c74ee391616d35fe7d53ae28",
+      "purpose": "Web platform for accessing generative image and video workflows through the external MuAPI service.",
+      "categories": [
+        "category:web-applications",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Web application",
+        "MuAPI service"
+      ],
+      "license_notes": "See repository license and MuAPI/model terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Open Generative AI",
+        "MuAPI",
+        "AI video generation",
+        "image generation platform"
+      ],
+      "capability_clusters": [
+        {
+          "name": "generative media interface",
+          "description": "Provides a web interface to external image and video generation services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "hosted model API integration",
+          "description": "Connects user requests to MuAPI-backed generation workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "generative media platform",
+          "purpose": "Routes media creation requests through an external model API.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a hosted-service integration reference; review moderation, provider costs, user data and generation terms.",
+      "risk_notes": [
+        "External generation claims and model access depend on provider; implement content and cost controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/camofox-browser",
+      "commit": "e5a36f5cd0332fde6597de474329a308a53a0716",
+      "purpose": "Anti-detection browser server for AI agents, built on Camoufox, for automating websites with browser fingerprint masking.",
+      "categories": [
+        "category:developer-tools",
+        "category:ai-agents",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:05",
+      "license_notes": "MIT; Camoufox and browser dependencies have separate terms.",
+      "runtime": [
+        "Browser server",
+        "Camoufox/Firefox",
+        "agent API"
+      ],
+      "asset_presence": {
+        "browser_computer_use": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Camofox browser",
+        "anti-detection automation",
+        "Camoufox",
+        "AI browser agent",
+        "browser fingerprint"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent browser automation",
+          "description": "Provides a browser control server for AI-driven web interaction.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser fingerprint adaptation",
+          "description": "Uses Camoufox behavior to reduce automation fingerprints.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Camofox browser server",
+          "purpose": "Connects agent requests to a fingerprint-adapted browser runtime.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use only for authorized testing and permitted automation; enforce domain limits and respect site access rules.",
+      "risk_notes": [
+        "Anti-detection can enable evasion of service controls; use within authorized access and review browser data isolation."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/PySceneDetect",
+      "commit": "8cbc6e2be16e1c91e7f41b1ea767ce6892da2aae",
+      "purpose": "Python and CLI toolkit for detecting scene boundaries and splitting video into shots using visual content analysis.",
+      "categories": [
+        "category:media-publishing",
+        "category:libraries-packages",
+        "category:cli-tools"
+      ],
+      "operational": "operational:09",
+      "license_notes": "BSD-3-Clause; detector dependencies have their own terms.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "PySceneDetect",
+        "video scene detection",
+        "shot boundaries",
+        "content-aware splitting",
+        "OpenCV"
+      ],
+      "capability_clusters": [
+        {
+          "name": "video scene detection",
+          "description": "Finds scene changes and shot boundaries in video files.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "video splitting workflow",
+          "description": "Exports detected scenes as separate clips or time ranges.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Python and CLI integration",
+          "description": "Exposes detection through reusable Python APIs and command-line tools.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "PySceneDetect toolkit",
+          "purpose": "Analyzes video and produces scene boundaries for editing workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a media-analysis building block; tune detection thresholds and validate cuts on target footage.",
+      "risk_notes": [
+        "Processes local video and may use substantial compute; protect source media and review generated cuts."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/1time.io",
+      "commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
+      "purpose": "Zero-knowledge one-time secret-sharing service that encrypts text and files into self-destructing links.",
+      "categories": [
+        "category:web-applications",
+        "category:cybersecurity",
+        "category:privacy"
+      ],
+      "operational": "operational:21",
+      "license_notes": "See repository LICENSE and cryptographic dependency terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "one-time secret sharing",
+        "zero knowledge",
+        "encrypted file sharing",
+        "self-destructing links",
+        "password sharing"
+      ],
+      "capability_clusters": [
+        {
+          "name": "one-time encrypted secret sharing",
+          "description": "Creates links for sharing sensitive text with a limited retrieval lifetime.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "encrypted file sharing",
+          "description": "Supports sharing files through encrypted, expiring links.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "zero-knowledge web service",
+          "description": "Structures the service so plaintext secrets are not retained server-side by design.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "1time secret-sharing service",
+          "purpose": "Coordinates browser encryption, link exchange and one-time consumption.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Do not rely on security claims without reviewing cryptographic design, key handling, deletion guarantees and deployment controls.",
+      "risk_notes": [
+        "Handles passwords, keys and private files; cryptography and secret lifecycle require deep security review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/donetick---Chore-app-with-gift-cards-Duolingo-look",
+      "commit": "f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60",
+      "purpose": "Open-source shared household chores and task application with customizable recurring responsibilities and reward-oriented motivation.",
+      "categories": [
+        "category:web-applications",
+        "category:productivity",
+        "category:business-applications"
+      ],
+      "operational": "operational:20",
+      "license_notes": "See repository LICENSE.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "Donetick chores",
+        "shared household tasks",
+        "recurring chores",
+        "task rewards",
+        "family productivity"
+      ],
+      "capability_clusters": [
+        {
+          "name": "shared chores and tasks",
+          "description": "Organizes recurring household responsibilities across users.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "reward-oriented motivation",
+          "description": "Adds configurable incentives to chore completion workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Donetick task application",
+          "purpose": "Coordinates household tasks, assignments and completion tracking.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as a product reference or self-hosted app after checking account security and notification behavior.",
+      "risk_notes": [
+        "Shared household profiles and notifications may reveal routines; protect accounts and personal data."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/JARVIS-Mission-Control-OpenClaw",
+      "commit": "1208038f5f981a86ce5ad5c3226a9213bf6b2564",
+      "purpose": "Mission-control interface for coordinating and monitoring OpenClaw AI agent tasks and orchestration workflows.",
+      "categories": [
+        "category:web-applications",
+        "category:ai-agents",
+        "category:ai-orchestration"
+      ],
+      "operational": "operational:03",
+      "license_notes": "Apache-2.0.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "JARVIS Mission Control",
+        "OpenClaw agents",
+        "agent orchestration dashboard",
+        "task supervision"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent orchestration control plane",
+          "description": "Provides a dashboard for managing OpenClaw agent execution.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent activity monitoring",
+          "description": "Surfaces task status and operational activity for agent runs.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Mission Control dashboard",
+          "purpose": "Connects users to OpenClaw orchestration and agent task management.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "EXTRACT",
+      "reuse_recommendation": "Review identity, control-plane API auth and action permissions before connecting production agents.",
+      "risk_notes": [
+        "Agent orchestration may expose tool controls and private run data; isolate tenants and verify access enforcement."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/LibreTranslate",
+      "commit": "4aca61bd807021e13258456a9e4224b996f655f2",
+      "purpose": "Self-hostable machine-translation API and web interface supporting translation between many languages.",
+      "categories": [
+        "category:apis",
+        "category:backend-services",
+        "category:machine-learning-models"
+      ],
+      "operational": "operational:12",
+      "license_notes": "AGPL-3.0; verify network-service distribution obligations.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "ui_design": "PRESENT",
+        "models": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "LibreTranslate",
+        "machine translation API",
+        "self-hosted translation",
+        "multilingual service",
+        "language translation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "translation API service",
+          "description": "Exposes text translation through an HTTP API.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted translation runtime",
+          "description": "Runs translation models as a deployable service.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "web translation interface",
+          "description": "Provides a browser UI for interactive text translation.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "LibreTranslate service",
+          "purpose": "Combines language models, API endpoints and a translation interface.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use where language coverage and quality fit; review AGPL obligations, model resources and retention of translated text.",
+      "risk_notes": [
+        "Translation may alter legal/medical meaning; protect submitted text and review output before consequential use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/uAgents",
+      "commit": "9f6a18bd1e8356be834d6d6e78533c47c609e8d1",
+      "purpose": "Fetch.ai Python framework for creating autonomous agents that communicate and coordinate through a distributed agent network.",
+      "categories": [
+        "category:agent-frameworks",
+        "category:ai-agents",
+        "category:distributed-systems"
+      ],
+      "operational": "operational:03",
+      "license_notes": "See repository LICENSE and network/service terms.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "uAgents framework",
+        "Fetch.ai agents",
+        "autonomous network",
+        "agent communication",
+        "Python agent SDK"
+      ],
+      "capability_clusters": [
+        {
+          "name": "autonomous agent framework",
+          "description": "Provides Python abstractions for building and running networked agents.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent-to-agent communication",
+          "description": "Supports messaging and coordination between registered agents.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent network integration",
+          "description": "Connects agent applications to Fetch.ai network services.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "uAgents framework",
+          "purpose": "Provides runtime and communication primitives for autonomous agents.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "EXTRACT",
+      "reuse_recommendation": "Evaluate network trust, identity, message authentication and service availability for the intended deployment.",
+      "risk_notes": [
+        "Distributed agents may transact or exchange sensitive data; inspect identity, permissions and network trust assumptions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/yfinance",
+      "commit": "93eb4c234acc7d0cf9d176e602b8443179546253",
+      "purpose": "Python library for retrieving historical and current market data from Yahoo Finance endpoints for research and analysis.",
+      "categories": [
+        "category:libraries-packages",
+        "category:finance-accounting",
+        "category:data-science"
+      ],
+      "operational": "operational:13",
+      "license_notes": "Apache-2.0 library; Yahoo Finance service terms apply.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "yfinance",
+        "Yahoo Finance data",
+        "Python market data",
+        "historical prices",
+        "financial analysis"
+      ],
+      "capability_clusters": [
+        {
+          "name": "market data retrieval",
+          "description": "Downloads historical and selected current financial data into Python structures.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "finance research integration",
+          "description": "Provides a convenient client surface for analysis notebooks and applications.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "yfinance client library",
+          "purpose": "Wraps Yahoo Finance data retrieval for Python workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for research after confirming service terms, data completeness, delays and redistribution rights.",
+      "risk_notes": [
+        "Unofficial endpoints may change and data may be incomplete; not a guaranteed market feed or execution source."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Vibe-atudio-transitions.dev",
+      "commit": "0b236ec0754fb7408d6291dca52484ecd8e10812",
+      "purpose": "Interactive gallery of reusable CSS transition patterns with copy-ready snippets for frontend interfaces.",
+      "categories": [
+        "category:frontend-applications",
+        "category:creative-tools",
+        "category:documentation"
+      ],
+      "operational": "operational:16",
+      "license_notes": "Check repository license and individual snippet attribution.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "CSS transitions gallery",
+        "UI interaction patterns",
+        "copy-ready CSS",
+        "frontend motion design"
+      ],
+      "capability_clusters": [
+        {
+          "name": "CSS transition reference gallery",
+          "description": "Demonstrates reusable interaction and transition patterns.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "copy-ready frontend snippets",
+          "description": "Provides portable CSS examples for adaptation in web interfaces.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Transitions.dev catalogue",
+          "purpose": "Displays interactive examples with reusable CSS snippets.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as visual inspiration and check snippet licenses, reduced-motion behavior and browser support.",
+      "risk_notes": [
+        "Motion can harm accessibility; honor reduced-motion preferences and validate keyboard interactions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/liteparse",
+      "commit": "59b63ede9b3d7cde037b3e81e8b8d905691783c8",
+      "purpose": "Cross-language document parsing library for extracting structured text and content from common file formats.",
+      "categories": [
+        "category:libraries-packages",
+        "category:data-engineering",
+        "category:developer-tools"
+      ],
+      "operational": "operational:13",
+      "license_notes": "See repository LICENSE and individual parser dependencies.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "LiteParse",
+        "document parsing",
+        "file extraction",
+        "Rust npm Python packages",
+        "LLM ingestion"
+      ],
+      "capability_clusters": [
+        {
+          "name": "document content extraction",
+          "description": "Parses supported documents into structured text for downstream processing.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-language package distribution",
+          "description": "Offers package surfaces for Rust and JavaScript/TypeScript consumers.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "LiteParse parser library",
+          "purpose": "Extracts document content through reusable language packages.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for permitted ingestion; sandbox parsers and validate extracted content and file-size limits.",
+      "risk_notes": [
+        "Parses untrusted files and may process sensitive text; isolate execution and protect outputs."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/cli",
+      "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+      "purpose": "Google Workspace CLI for Drive, Gmail, Calendar and other Workspace APIs, with structured JSON output and bundled agent skills.",
+      "categories": [
+        "category:cli-tools",
+        "category:apis",
+        "category:productivity"
+      ],
+      "operational": "operational:24",
+      "license_notes": "See repository license; Google APIs and data terms apply. Not an officially supported Google product per README.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Google Workspace CLI",
+        "Gmail Drive Calendar",
+        "agent skills",
+        "structured JSON",
+        "Workspace APIs"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Workspace API command line",
+          "description": "Provides a single CLI for common Google Workspace services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent skill integration",
+          "description": "Bundles instructions for agents to use Workspace operations.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "structured output workflows",
+          "description": "Returns machine-readable results for automation and agents.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Google Workspace CLI",
+          "purpose": "Wraps Workspace services and agent workflows in a command-line interface.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Review OAuth scopes, token storage, destructive mail/drive actions and confirmation flow before connecting a personal Workspace account.",
+      "risk_notes": [
+        "Authentication and private email/files are deep-review triggers; restrict scopes and confirm destructive or send actions."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/skills-video",
+      "commit": "0e444efe46a8eb606acefd54d70ae64e8f908e36",
+      "purpose": "Internal Remotion skills package for agent-assisted video composition and editing workflows; public README provides no usage documentation.",
+      "categories": [
+        "category:skills",
+        "category:media-publishing",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "license_notes": "See repository license and Remotion terms.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Remotion video skills",
+        "agent video workflow",
+        "video composition instructions"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Remotion agent skills",
+          "description": "Packages internal agent instruction assets for video work.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Remotion skills package",
+          "purpose": "Distributes task instructions for Remotion-based video workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Inspect the actual skill contents and package terms before adopting; available public documentation is minimal.",
+      "risk_notes": [
+        "README states this is an internal package without documentation; capability and support scope are limited."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/DirectoryLister---maliky-repository-",
+      "commit": "06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd",
+      "purpose": "PHP web application for presenting a browsable listing of files and directories from a server filesystem.",
+      "categories": [
+        "category:web-applications",
+        "category:developer-tools",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:16",
+      "license_notes": "See repository LICENSE and upstream Directory Lister notices.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Directory Lister",
+        "PHP file browser",
+        "directory listing UI",
+        "self-hosted file index"
+      ],
+      "capability_clusters": [
+        {
+          "name": "server directory browser",
+          "description": "Renders files and folders in a web interface.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted file listing",
+          "description": "Supports deploying a browsable index over configured server directories.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Directory Lister application",
+          "purpose": "Maps server directories to a browsable web listing.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "WRAP",
+      "reuse_recommendation": "Deploy only with explicit root-path boundaries and authentication where files are private.",
+      "risk_notes": [
+        "Can disclose server files and names; verify path traversal protection, access control and directory scope."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/world-idkit-js",
+      "commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+      "purpose": "JavaScript/TypeScript SDK and UI toolkit for integrating World ID identity verification flows into web applications.",
+      "categories": [
+        "category:sdks-client-libraries",
+        "category:iam",
+        "category:web-applications"
+      ],
+      "operational": "operational:21",
+      "license_notes": "See package license; World ID protocol and service terms apply.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "World ID IDKit",
+        "identity verification SDK",
+        "proof verification UI",
+        "JavaScript toolkit"
+      ],
+      "capability_clusters": [
+        {
+          "name": "World ID verification integration",
+          "description": "Connects applications to World ID proof verification flows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "verification UI toolkit",
+          "description": "Provides client-facing components for identity proof interactions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "application SDK helpers",
+          "description": "Packages JavaScript utilities for integrating with the protocol.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "IDKit JavaScript SDK",
+          "purpose": "Provides integration surfaces for World ID identity checks.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "EXTRACT",
+      "reuse_recommendation": "Review proof verification, backend trust boundaries, privacy and jurisdictional requirements before using identity results.",
+      "risk_notes": [
+        "Identity and biometric-adjacent verification require privacy, consent and server-side proof validation."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/wavesurfer.js",
+      "commit": "666ba74d4d1138137b235b5aeeac2cb383b7e022",
+      "purpose": "JavaScript audio visualization library for interactive waveform displays, playback controls, regions and timeline annotations.",
+      "categories": [
+        "category:libraries-packages",
+        "category:frontend-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:16",
+      "license_notes": "BSD-3-Clause.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "wavesurfer.js",
+        "audio waveform",
+        "waveform player",
+        "regions annotations",
+        "browser audio UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "interactive waveform visualization",
+          "description": "Renders audio waveforms in browser applications.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "audio playback controls",
+          "description": "Integrates playback, seeking and timeline interaction.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "regions and annotations",
+          "description": "Supports marking segments and adding visual context to audio timelines.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "wavesurfer.js library",
+          "purpose": "Provides waveform and playback UI for web audio applications.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for audio interfaces after checking large-file performance, browser codecs and accessibility.",
+      "risk_notes": [
+        "Audio files may be large or sensitive; handle loading, memory and privacy appropriately."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/gemma",
+      "commit": "7b785991bd78626c73b317eb43fdbb6c292f7b9c",
+      "purpose": "Google DeepMind Gemma model package and utilities for loading, fine-tuning and running Gemma language models.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:15",
+      "license_notes": "Review code and Gemma model terms separately; checkpoints are distributed separately.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "Gemma models",
+        "Google DeepMind",
+        "LLM inference",
+        "fine tuning",
+        "model checkpoints"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Gemma model inference",
+          "description": "Loads and runs supported Gemma language model checkpoints.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model adaptation workflows",
+          "description": "Provides utilities for fine-tuning or adapting Gemma models.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Gemma Python toolkit",
+          "purpose": "Packages model loading, inference and adaptation support.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Verify checkpoint terms and hardware requirements for each model version; evaluate quality on your application tasks.",
+      "risk_notes": [
+        "Model license and behavior vary by checkpoint; monitor generated output and protect sensitive inputs."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/chitchatter-telegram-DMs-group-chat-",
+      "commit": "1197273071b3ff7e3d300ad5f17e617f2772470b",
+      "purpose": "Open-source private communication application for peer-to-peer text, audio/video and group conversations.",
+      "categories": [
+        "category:web-applications",
+        "category:privacy",
+        "category:business-applications"
+      ],
+      "operational": "operational:21",
+      "license_notes": "GPL-2.0; check linked dependencies and deployment terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Chitchatter",
+        "private chat",
+        "peer-to-peer communication",
+        "group chat",
+        "encrypted messaging"
+      ],
+      "capability_clusters": [
+        {
+          "name": "private peer-to-peer chat",
+          "description": "Connects users for private text communication without a conventional central messaging server.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "group communication",
+          "description": "Supports group conversations and collaborative messaging.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "real-time media conversation",
+          "description": "Provides realtime communication capabilities for participants.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Chitchatter communication app",
+          "purpose": "Coordinates private peer-to-peer communication experiences.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Verify cryptographic claims, signaling metadata, browser support and threat model before relying on it for sensitive communication.",
+      "risk_notes": [
+        "Privacy/security claims need independent review; communications can expose metadata even when content is protected."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/full-stack-fastapi-template",
+      "commit": "cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
+      "purpose": "Full-stack starter template combining FastAPI backend, database, authentication, frontend and Docker-based development/deployment workflows.",
+      "categories": [
+        "category:templates-boilerplates",
+        "category:backend-services",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:14",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "ui_design": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "FastAPI full stack template",
+        "Python backend",
+        "React frontend",
+        "Docker Compose",
+        "authentication starter"
+      ],
+      "capability_clusters": [
+        {
+          "name": "FastAPI backend scaffold",
+          "description": "Provides API routes, database setup and application configuration.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "frontend application scaffold",
+          "description": "Pairs the API with a web client for full-stack development.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "authentication and deployment setup",
+          "description": "Includes starter auth and container-based development workflows.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "full-stack starter",
+          "purpose": "Connects backend, frontend, database and local deployment for new applications.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use as a scaffold and replace example secrets/configuration; review auth defaults, migrations and container exposure.",
+      "risk_notes": [
+        "Starter auth and secret configuration must be hardened before production."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Qr-codes",
+      "commit": "ef750a948d57903aa4d361c35f0b4b7df8e13289",
+      "purpose": "Web application named Flink for creating, managing or analyzing QR-code workflows and related content.",
+      "categories": [
+        "category:web-applications",
+        "category:developer-tools",
+        "category:business-applications"
+      ],
+      "operational": "operational:25",
+      "license_notes": "See repository LICENSE and any QR service/API terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "QR code web app",
+        "Flink",
+        "QR generation",
+        "code management",
+        "web utility"
+      ],
+      "capability_clusters": [
+        {
+          "name": "QR code application",
+          "description": "Provides a web-facing workflow associated with creating or managing QR codes.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "QR content interface",
+          "description": "Presents a user interface for QR-related operations.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "QR code web application",
+          "purpose": "Coordinates the QR code user workflow and interface.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Inspect actual implemented flows and storage behavior before integrating; verify destination URLs and analytics privacy.",
+      "risk_notes": [
+        "QR codes can direct users to arbitrary destinations; validate content, redirects and tracking behavior."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/lottie-react-native",
+      "commit": "2d60a7b0b6782d1f606991654880b993566dba6d",
+      "purpose": "React Native component for rendering Lottie/Bodymovin animations on iOS and Android.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:19",
+      "license_notes": "Apache-2.0; native platform renderer dependencies apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Lottie React Native",
+        "mobile animation",
+        "iOS Android",
+        "Bodymovin component",
+        "React Native UI"
+      ],
+      "capability_clusters": [
+        {
+          "name": "cross-platform Lottie component",
+          "description": "Renders Lottie animation assets in React Native applications.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "native renderer integration",
+          "description": "Connects React Native UI to platform animation runtimes.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Lottie React Native library",
+          "purpose": "Provides an animation component across iOS and Android.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use with compatible native renderer versions and validate performance and reduced-motion behavior.",
+      "risk_notes": [
+        "Review native dependency compatibility and animation accessibility."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/system_prompts_leaks",
+      "commit": "28639e67c6774477aa32b9ef1995bae2c74c40f6",
+      "purpose": "Public documentation archive collecting purported system prompts and hidden instructions from commercial AI assistants.",
+      "categories": [
+        "category:research-projects",
+        "category:documentation",
+        "category:ai-safety-alignment"
+      ],
+      "operational": "operational:25",
+      "license_notes": "Verify repository and third-party text rights; provider prompt contents are not licensed by this archive.",
+      "asset_presence": {
+        "prompts_workflows": "EXTERNAL_REFERENCE",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "system prompt archive",
+        "AI assistant instructions",
+        "prompt research",
+        "model behavior documentation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "assistant prompt reference archive",
+          "description": "Collects reported system prompt text for research and comparison.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "AI behavior research",
+          "description": "Supports examining how assistant instructions may shape responses.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "system prompt archive",
+          "purpose": "Indexes externally sourced assistant instruction text.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use for research and security analysis, not to impersonate services or bypass access controls; verify provenance and rights.",
+      "risk_notes": [
+        "Prompt provenance may be uncertain and contents may be copyrighted or sensitive; do not treat purported leaks as authoritative."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/yopass-presence-",
+      "commit": "ee684122efbe731c7593bd6d70fc545536670b7b",
+      "purpose": "Self-hosted one-time secret-sharing service that encrypts secrets and destroys them after retrieval or expiry.",
+      "categories": [
+        "category:web-applications",
+        "category:cybersecurity",
+        "category:privacy"
+      ],
+      "operational": "operational:21",
+      "license_notes": "See repository license and encryption dependency notices.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Yopass",
+        "secret sharing",
+        "one-time password link",
+        "self-hosted encryption",
+        "expiring secrets"
+      ],
+      "capability_clusters": [
+        {
+          "name": "one-time secret exchange",
+          "description": "Shares sensitive text through links that expire or are consumed once.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "encrypted secret storage",
+          "description": "Encrypts secret payloads for temporary storage and retrieval.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted deployment",
+          "description": "Supports operating the service under user-managed infrastructure.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Yopass secret service",
+          "purpose": "Coordinates encrypted secret creation, link sharing and expiry.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Review cryptographic key handling, retention/deletion guarantees, storage and network exposure before sharing real credentials.",
+      "risk_notes": [
+        "Handles secrets and files; cryptographic design and deletion guarantees require security review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/diagram-design",
+      "commit": "da45d4a79a76dc0742c8554b7eabe551db100701",
+      "purpose": "Agent skill and reference system for creating editorial-quality diagrams across many diagram types using a consistent visual design language.",
+      "categories": [
+        "category:skills",
+        "category:design-systems",
+        "category:documentation"
+      ],
+      "operational": "operational:01",
+      "license_notes": "See repository LICENSE and referenced assets.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "diagram design skill",
+        "editorial diagrams",
+        "architecture visuals",
+        "diagram types",
+        "brand styling"
+      ],
+      "capability_clusters": [
+        {
+          "name": "diagram design skill",
+          "description": "Guides compatible agents through professional diagram creation.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "diagram style system",
+          "description": "Provides visual rules and reusable patterns for multiple diagram forms.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "diagram library",
+          "description": "Collects diagram examples and templates for adaptation.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Diagram Design skill system",
+          "purpose": "Combines agent instructions, brand rules and diagram references.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for visual documentation and validate factual accuracy, contrast and legibility of each output.",
+      "risk_notes": [
+        "Diagrams may misrepresent systems; validate content and check linked asset rights."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/widgets---web3-payments",
+      "commit": "f9856f3ff1163d52fd0084a37291a4312e67e5eb",
+      "purpose": "DePay web3 payment widgets and JavaScript SDK for embedding cryptocurrency payment flows into web applications.",
+      "categories": [
+        "category:commerce-e-commerce",
+        "category:sdks-client-libraries",
+        "category:blockchain-web3-security"
+      ],
+      "operational": "operational:22",
+      "license_notes": "MIT repository metadata; blockchain, token and wallet dependencies have separate terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "DePay widgets",
+        "web3 payments",
+        "crypto checkout",
+        "JavaScript payment SDK",
+        "wallet integration"
+      ],
+      "capability_clusters": [
+        {
+          "name": "crypto payment widgets",
+          "description": "Provides embeddable UI for cryptocurrency payment flows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "web3 payment SDK",
+          "description": "Connects frontend applications to wallet and payment operations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "payment provider integration",
+          "description": "Coordinates on-chain payment interactions with DePay services.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "DePay payment widgets",
+          "purpose": "Packages user-facing payment components and supporting SDK behavior.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Do not process funds until transaction signing, chain/token validation, refunds and user-confirmation flows are reviewed.",
+      "risk_notes": [
+        "Payments and wallet access are deep-review triggers; verify signing boundaries, token contracts and transaction handling."
+      ]
+    }
+  ]
+}

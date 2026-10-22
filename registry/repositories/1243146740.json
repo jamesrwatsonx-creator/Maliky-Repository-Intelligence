@@ -11,34 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/jamiepine/voicebox",
-  "description": "The open-source AI voice studio. Clone, dictate, create.",
+  "description": "Speech generation or voice AI toolkit for producing audio from text and experimenting with voice models.",
   "metadata": {
     "language": "TypeScript",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T15:44:30Z",
-    "github_description": "The open-source AI voice studio. Clone, dictate, create."
+    "github_description": "The open-source AI voice studio. Clone, dictate, create.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
   "current_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
   "inspection_date": "2026-09-20T05:32:28.504766+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ai-applications",
-    "category:apis",
-    "category:backend-services",
-    "category:desktop-applications",
-    "category:developer-tools",
-    "category:frontend-applications",
-    "category:full-stack-applications",
     "category:generative-ai",
-    "category:libraries-packages",
-    "category:mcp-servers",
-    "category:message-event-systems",
-    "category:skills"
+    "category:machine-learning-models",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:generated-wav-response-delivery",
@@ -258,7 +249,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -475,11 +466,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.660380+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.666078+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -500,10 +492,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 681,
-  "files_read": 496,
+  "files_read": 497,
   "entity_count": 209,
-  "unread_source_files": 0,
-  "next_phase": "SEMANTIC_CENSUS_REVIEW",
+  "unread_source_files": 70,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T17:59:00.527500+00:00",
     "reviewer": "Automated lean static review",
@@ -538,5 +530,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.335193+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Speech generation or voice AI toolkit for producing audio from text and experimenting with voice models.",
+    "reuse_recommendation": "Use only with consented voice data and clear disclosure of synthetic audio.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check code, checkpoint, voice data and generated audio terms separately.",
+    "runtime": [
+      "Python",
+      "machine-learning/audio stack",
+      "model weights"
+    ],
+    "keywords": [
+      "Voicebox",
+      "text to speech",
+      "voice generation",
+      "audio model",
+      "speech synthesis"
+    ],
+    "risk_notes": [
+      "Voice cloning, biometric data and impersonation risks require strong safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voicebox model pipeline",
+        "purpose": "Connects model inference with generated speech output.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:25.796377+00:00",
+    "inspected_commit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b1ee81fc5560983bebd60f6ada52677ee67c0831",
+        "value": "https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech and voice generation",
+        "description": "Generates speech audio from textual or conditioned input.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-and-voice-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice model research",
+        "description": "Provides model and inference workflows for voice generation experiments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-model-research",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "SEMANTIC_CENSUS_REVIEW",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

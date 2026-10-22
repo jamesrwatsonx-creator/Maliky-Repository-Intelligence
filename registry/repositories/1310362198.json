@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/finna/Finn-loop",
-  "description": "The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review. Humans merge.",
+  "description": "Three complementary agent skills for interactive Linear specification, approved issue implementation and exact-head GitHub PR review, with human merge authority.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-23T00:54:26Z",
-    "github_description": "The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review. Humans merge."
+    "github_description": "The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review. Humans merge.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "7941b62c946154d15c11b7f24931bb8b6e155f01",
@@ -344,9 +345,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.807645+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.724211+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -432,5 +434,174 @@
     ],
     "updated_at": "2026-10-12T19:04:27.134019+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Three complementary agent skills for interactive Linear specification, approved issue implementation and exact-head GitHub PR review, with human merge authority.",
+    "reuse_recommendation": "Configure team labels and authorized credentials; run the interactive spec with a human and preserve the separate merge gate.",
+    "inspection_scope": "All three skills are separate reusable roles: interactive specification, issue implementation and exact-head PR review. The validation script and CI enforce this package's text conventions, so they are maintenance dependencies rather than independent capabilities. These are host-executed instructions, not a server implementing a distributed lock or merge authorization. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "MIT; check source-specific notices and external dependencies.",
+    "runtime": [
+      "Markdown skills",
+      "Linear connector",
+      "GitHub CLI"
+    ],
+    "keywords": [
+      "Finn-loop",
+      "issue specification",
+      "approved issue implementation",
+      "contract-bound PR review",
+      "Markdown skills",
+      "Linear connector",
+      "GitHub CLI"
+    ],
+    "risk_notes": [
+      "The instruction contracts separate human specification/agent-ready authorization from builder mutations and review evidence. Builder requires a clean tree and warns its issue assignment is not an atomic same-user lock. Reviewer checks current required CI and rechecks head before posting; neither role merges or enables auto-merge. Linear TEAM/labels and host credentials require configuration. Catalog review establishes the workflow and limits; it did not invoke the skills, issue trackers, Git writes or PR comments."
+    ],
+    "important_subsystems": [
+      {
+        "name": "issue specification",
+        "purpose": "Research and draft acceptance/non-goal issue contracts with human decisions.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "approved issue implementation",
+        "purpose": "Claim an authorized issue, implement its contract, verify and open a PR.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "contract-bound PR review",
+        "purpose": "Review exact-head code/check evidence and post a structured verdict without merging.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:41.607013+00:00",
+    "inspected_commit": "7941b62c946154d15c11b7f24931bb8b6e155f01",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "02a95a44550a6b49a15b3acef3ecd7896984bf62",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "544958c783395a9147916263e6120e935bdb1823",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "scripts/validate.mjs",
+        "blob_sha": "618963faabca07e5e27dda9456f6647b45cf02ae",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/scripts/validate.mjs"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/finn-spec/SKILL.md",
+        "blob_sha": "e022cc59fb2e2bd5d3d76d462c15a9e83094e45f",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/skills/finn-spec/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/finn-build/SKILL.md",
+        "blob_sha": "e106c5f4d55d0cf518aaf4850e5c9c5ba655e078",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/skills/finn-build/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/finn-review/SKILL.md",
+        "blob_sha": "a4bbae780d923c890febecb125f6ca1616bf758d",
+        "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/skills/finn-review/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "issue specification",
+        "description": "Research and draft acceptance/non-goal issue contracts with human decisions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:issue-specification",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "approved issue implementation",
+        "description": "Claim an authorized issue, implement its contract, verify and open a PR.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:approved-issue-implementation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "contract-bound PR review",
+        "description": "Review exact-head code/check evidence and post a structured verdict without merging.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:contract-bound-pr-review",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

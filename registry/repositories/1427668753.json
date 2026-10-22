@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coinpaprika/dexpaprika-mcp",
-  "description": "DexPaprika MCP server for real-time crypto token data, DEX trading activity, and DeFi analytics across multiple blockchains.",
+  "description": "Node.js MCP server that exposes DexPaprika cryptocurrency and decentralized-exchange data, including token, pool and DEX queries.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-16T12:33:21Z",
-    "github_description": "DexPaprika MCP server for real-time crypto token data, DEX trading activity, and DeFi analytics across multiple blockchains."
+    "github_description": "DexPaprika MCP server for real-time crypto token data, DEX trading activity, and DeFi analytics across multiple blockchains.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea",
   "current_commit": "ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea",
   "inspection_date": "2026-10-21T00:01:35.141988+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mcp-servers",
+    "category:apis",
+    "category:finance-accounting"
+  ],
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,156 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.645638+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.523103+00:00",
   "tree_files": 29,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 28,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 16,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Node.js MCP server that exposes DexPaprika cryptocurrency and decentralized-exchange data, including token, pool and DEX queries.",
+    "reuse_recommendation": "Use as a read/query integration after reviewing API limits, chain coverage and financial-data semantics; it is not a trading executor.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT; DexPaprika API terms apply.",
+    "runtime": [
+      "JavaScript",
+      "Node.js",
+      "MCP",
+      "DexPaprika API"
+    ],
+    "keywords": [
+      "DexPaprika MCP",
+      "DEX data",
+      "crypto tokens",
+      "liquidity pools",
+      "decentralized exchanges"
+    ],
+    "risk_notes": [
+      "Market data and API availability are external and may be delayed, incomplete or rate limited."
+    ],
+    "important_subsystems": [
+      {
+        "name": "DexPaprika MCP service",
+        "purpose": "Connects assistants to external DEX and token data endpoints.",
+        "evidence_paths": [
+          "src/index.js",
+          "src/search-mapping.js",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:16.288361+00:00",
+    "inspected_commit": "ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "828630af3e744e4a632731247b1c236f74e957fd",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "219da46c60d0bfd739581a4893047acb5dd2dcdb",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "e16873d8597d68e80a452a6be2e693cf77ce5f8d",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/index.js",
+        "blob_sha": "cbe52e546d1a8240040742b541d74f1f20916497",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/src/index.js"
+      },
+      {
+        "type": "source_review",
+        "path": "src/indicators.js",
+        "blob_sha": "24b375e3d24f506f2b1b38ebe26a3145bba94d5c",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/src/indicators.js"
+      },
+      {
+        "type": "source_review",
+        "path": "src/search-mapping.js",
+        "blob_sha": "396ba6d536edd6aed7feef78055c13ff1aefaadb",
+        "value": "https://github.com/jamesrwatsonx-creator/dexpaprika-mcp/blob/ed6d71152708a6dcc5baa496c9b33fbe6d22b3ea/src/search-mapping.js"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "DEX and token data tools",
+        "description": "Provides MCP access to current token, pool and decentralized-exchange information.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:dex-and-token-data-tools",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.js",
+          "src/indicators.js",
+          "src/search-mapping.js"
+        ]
+      },
+      {
+        "name": "network-specific pool queries",
+        "description": "Maps supported networks and query parameters to DexPaprika endpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:network-specific-pool-queries",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.js",
+          "src/indicators.js",
+          "src/search-mapping.js"
+        ]
+      },
+      {
+        "name": "MCP server packaging",
+        "description": "Packages the data interface for Node-based MCP clients.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-server-packaging",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/index.js",
+          "src/indicators.js",
+          "src/search-mapping.js"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

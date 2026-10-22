@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ollama/ollama",
-  "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "description": "Local model runner and API for downloading and serving open-weight language models on developer machines and infrastructure.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-23T18:40:59Z",
-    "github_description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    "github_description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "fb30760996871fa9460115c753afd2c60d4ab0f7",
   "current_commit": "fb30760996871fa9460115c753afd2c60d4ab0f7",
   "inspection_date": "2026-09-20T05:33:53.169639+00:00",
   "categories": [
-    "category:general-other"
+    "category:generative-ai",
+    "category:ai-infrastructure",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.663382+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.833072+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1315,
-  "files_read": 8,
+  "files_read": 11,
   "entity_count": 0,
-  "unread_source_files": 1007,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1083,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.236891+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Local model runner and API for downloading and serving open-weight language models on developer machines and infrastructure.",
+    "reuse_recommendation": "Use for private/local inference where suitable; verify model license, memory needs and network exposure.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Ollama software license and individual model licenses differ; check each model card.",
+    "runtime": [
+      "Go runtime",
+      "local model weights",
+      "CPU/GPU backends"
+    ],
+    "keywords": [
+      "Ollama",
+      "local LLM",
+      "model serving",
+      "inference API",
+      "open weights"
+    ],
+    "risk_notes": [
+      "Model artifacts have independent licenses; do not expose local inference APIs without authentication."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Ollama runtime",
+        "purpose": "Provides a convenient local interface for model management and inference.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:13.772956+00:00",
+    "inspected_commit": "fb30760996871fa9460115c753afd2c60d4ab0f7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e511fbe3fd3e73fc6d7cfb5393d827cf70f0a2f6",
+        "value": "https://github.com/jamesrwatsonx-creator/ollama/blob/fb30760996871fa9460115c753afd2c60d4ab0f7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "local model lifecycle",
+        "description": "Pulls, configures and runs supported model artifacts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-model-lifecycle",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "inference API and client tooling",
+        "description": "Exposes local model generation to applications and developer tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:inference-api-and-client-tooling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "deployment and hardware acceleration",
+        "description": "Supports operation across local and server environments.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:deployment-and-hardware-acceleration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/AI4Finance-Foundation/FinGPT",
-  "description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
+  "description": "Open-source financial language model and toolkit for finance-oriented instruction tuning, sentiment analysis and market research.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-14T08:55:09Z",
-    "github_description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace."
+    "github_description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "cefb3a26b84a3a4c57868f1ca48fb0d9723fd28e",
   "current_commit": "cefb3a26b84a3a4c57868f1ca48fb0d9723fd28e",
   "inspection_date": "2026-09-20T05:36:32.756091+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:machine-learning-models",
+    "category:finance-accounting",
+    "category:research-projects"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.799562+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.716210+00:00",
   "tree_files": 432,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 324,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 368,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.132797+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source financial language model and toolkit for finance-oriented instruction tuning, sentiment analysis and market research.",
+    "reuse_recommendation": "Evaluate data provenance, model bias and financial-task accuracy; do not use outputs as investment advice.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "Check code, model and training-data terms separately.",
+    "runtime": [
+      "Python",
+      "PyTorch/Transformers",
+      "financial datasets"
+    ],
+    "keywords": [
+      "FinGPT",
+      "financial LLM",
+      "finance sentiment analysis",
+      "instruction tuning",
+      "market research"
+    ],
+    "risk_notes": [
+      "Financial data may be licensed or sensitive; predictions and sentiment can be wrong or biased."
+    ],
+    "important_subsystems": [
+      {
+        "name": "FinGPT toolkit",
+        "purpose": "Connects finance data, model adaptation and inference resources.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:51.670072+00:00",
+    "inspected_commit": "cefb3a26b84a3a4c57868f1ca48fb0d9723fd28e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6210432880cacb4e8c773d5a2bb155b8f585e5ed",
+        "value": "https://github.com/jamesrwatsonx-creator/FinGPT/blob/cefb3a26b84a3a4c57868f1ca48fb0d9723fd28e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "finance language models",
+        "description": "Provides models and workflows tuned for finance-related language tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:finance-language-models",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "financial sentiment and analysis",
+        "description": "Supports sentiment classification and market text analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-sentiment-and-analysis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model adaptation toolkit",
+        "description": "Includes fine-tuning and data workflows for financial models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-adaptation-toolkit",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

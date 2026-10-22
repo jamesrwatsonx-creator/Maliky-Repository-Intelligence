@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/strapi/strapi",
-  "description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+  "description": "Headless content management system for defining content types and serving structured content through APIs to websites and applications.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-16T09:12:04Z",
-    "github_description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first."
+    "github_description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "aa62644810e48c3b65e4b15e1055b97cd1c158fa",
   "current_commit": "aa62644810e48c3b65e4b15e1055b97cd1c158fa",
   "inspection_date": "2026-09-20T05:36:38.706634+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:backend-services",
+    "category:apis",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.294664+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.327253+00:00",
   "tree_files": 6689,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 6209,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 6297,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.295559+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Headless content management system for defining content types and serving structured content through APIs to websites and applications.",
+    "reuse_recommendation": "Use for API-first content systems with explicit role, media and publication controls.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check current Strapi edition/license and plugin terms.",
+    "runtime": [
+      "Node.js/TypeScript",
+      "database",
+      "REST/GraphQL APIs"
+    ],
+    "keywords": [
+      "Strapi",
+      "headless CMS",
+      "content APIs",
+      "Node.js",
+      "editorial platform"
+    ],
+    "risk_notes": [
+      "CMS APIs and uploaded content require access control, validation and patch management."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Strapi CMS core",
+        "purpose": "Connects content authoring to API-first content delivery.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:46.681886+00:00",
+    "inspected_commit": "aa62644810e48c3b65e4b15e1055b97cd1c158fa",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "421efc02367efeb7ca69fd5dc7afece91cbe9433",
+        "value": "https://github.com/jamesrwatsonx-creator/strapi/blob/aa62644810e48c3b65e4b15e1055b97cd1c158fa/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "content modeling and authoring",
+        "description": "Defines structured content types and editorial workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:content-modeling-and-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "REST and GraphQL delivery",
+        "description": "Exposes managed content to client applications through APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:rest-and-graphql-delivery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "plugins and deployment",
+        "description": "Extends CMS functionality and supports operational configuration.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:plugins-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

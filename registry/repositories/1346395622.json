@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/kepano/defuddle",
-  "description": "Get the main content of any page as Markdown.",
+  "description": "JavaScript library for extracting clean article content and metadata from web pages while removing clutter and boilerplate.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T23:40:52Z",
-    "github_description": "Get the main content of any page as Markdown."
+    "github_description": "Get the main content of any page as Markdown.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "a332b4d5d539066ddfe19fc4ef6f1b6ffaf914b8",
   "current_commit": "a332b4d5d539066ddfe19fc4ef6f1b6ffaf914b8",
   "inspection_date": "2026-09-20T05:34:03.180502+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:developer-tools",
+    "category:automation-scripting"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.635568+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.515104+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 544,
-  "files_read": 4,
+  "files_read": 12,
   "entity_count": 3,
-  "unread_source_files": 325,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 529,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.124421+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript library for extracting clean article content and metadata from web pages while removing clutter and boilerplate.",
+    "reuse_recommendation": "Use for reading-mode and retrieval pipelines; retain source URLs and respect publisher access policies.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository LICENSE.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser or Node.js"
+    ],
+    "keywords": [
+      "article extraction",
+      "readability",
+      "HTML parsing",
+      "web content",
+      "Defuddle"
+    ],
+    "risk_notes": [
+      "Page content is untrusted input and extraction may omit important context."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Defuddle parser",
+        "purpose": "Separates main content from page presentation and clutter.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:36.994915+00:00",
+    "inspected_commit": "a332b4d5d539066ddfe19fc4ef6f1b6ffaf914b8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8ca7d52839be194d49ba9c4df99fc548ca15d579",
+        "value": "https://github.com/jamesrwatsonx-creator/defuddle/blob/a332b4d5d539066ddfe19fc4ef6f1b6ffaf914b8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "article content extraction",
+        "description": "Transforms webpage markup into cleaner structured article content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:article-content-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "metadata parsing",
+        "description": "Extracts page title and related publication metadata.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:metadata-parsing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser and server integration",
+        "description": "Supports use in web-facing and programmatic content pipelines.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-and-server-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

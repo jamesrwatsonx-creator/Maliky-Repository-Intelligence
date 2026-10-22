@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
-  "description": "HunyuanVideo-1.5: A leading lightweight video generation model",
+  "description": "Tencent HunyuanVideo-1.5 implementation and tools for high-quality video generation using a compact pretrained model.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-04-10T06:14:59Z",
-    "github_description": "HunyuanVideo-1.5: A leading lightweight video generation model"
+    "github_description": "HunyuanVideo-1.5: A leading lightweight video generation model",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "60783e704160023913bee78f0b47036d393d4dfa",
   "current_commit": "60783e704160023913bee78f0b47036d393d4dfa",
   "inspection_date": "2026-09-20T05:35:50.938160+00:00",
   "categories": [
-    "category:creative-tools",
-    "category:llm-projects"
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [
     "operational:15"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.158761+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.234187+00:00",
   "tree_files": 60,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 45,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 36,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,135 @@
     ],
     "updated_at": "2026-10-12T19:04:27.176537+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Tencent HunyuanVideo-1.5 implementation and tools for high-quality video generation using a compact pretrained model.",
+    "reuse_recommendation": "Assess checkpoint terms, GPU memory, workflow dependencies and generated-media safeguards before integration.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "Review LICENSE and model-weight terms independently.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "video generation model",
+      "ComfyUI integration",
+      "GPU inference"
+    ],
+    "keywords": [
+      "HunyuanVideo 1.5",
+      "video generation",
+      "ComfyUI workflow",
+      "text to video",
+      "image to video"
+    ],
+    "risk_notes": [
+      "Large model and external node dependencies; media likeness, provenance and content controls need review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "video inference pipeline",
+        "purpose": "Runs HunyuanVideo model generation workflows.",
+        "evidence_paths": [
+          "README.md",
+          "generate.py"
+        ]
+      },
+      {
+        "name": "ComfyUI workflow integration",
+        "purpose": "Connects the model to an external node-based generation interface.",
+        "evidence_paths": [
+          "ComfyUI/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:47.323055+00:00",
+    "inspected_commit": "60783e704160023913bee78f0b47036d393d4dfa",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ed2a8e0ffc5a3bd602cf4d8fb339a364266fdda9",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo-1.5/blob/60783e704160023913bee78f0b47036d393d4dfa/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "a0bca49da1b27585f8b4b7012727392e5c309e8e",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo-1.5/blob/60783e704160023913bee78f0b47036d393d4dfa/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "ComfyUI/README.md",
+        "blob_sha": "8a1af3874526b5e111ef0844e3fac27d5f416358",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo-1.5/blob/60783e704160023913bee78f0b47036d393d4dfa/ComfyUI/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "generate.py",
+        "blob_sha": "ba18ce85661d2cc2ebfe5a7fe4ad80994899d07d",
+        "value": "https://github.com/jamesrwatsonx-creator/HunyuanVideo-1.5/blob/60783e704160023913bee78f0b47036d393d4dfa/generate.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video generation model pipeline",
+        "description": "Provides model inference and generation utilities for creative video outputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-generation-model-pipeline",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "ComfyUI/README.md",
+          "generate.py"
+        ]
+      },
+      {
+        "name": "ComfyUI integration",
+        "description": "Documents integration with ComfyUI node workflows.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:comfyui-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "ComfyUI/README.md",
+          "generate.py"
+        ]
+      },
+      {
+        "name": "model setup and deployment",
+        "description": "Explains checkpoint, dependency and hardware setup.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:model-setup-and-deployment",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "ComfyUI/README.md",
+          "generate.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

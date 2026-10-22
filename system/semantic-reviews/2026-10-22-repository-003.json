@@ -1,0 +1,683 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/Swift-Agent-Skills",
+    "commit": "79dacde53418e718d3ae2c6c44d7eb65c0b9b33e",
+    "purpose": "Curated directory linking externally maintained Swift/Apple agent skills across UI, data, concurrency, testing, accessibility, architecture and platform integration.",
+    "categories": [
+      "category:documentation",
+      "category:skills",
+      "category:mobile-applications"
+    ],
+    "operational": "operational:19",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE"
+    ],
+    "inspection_scope": "The complete five-file tree contains README, license, conduct/git metadata and a logo. The README links external skills; there are no local SKILL.md files or executable implementations. Retain the curated directory, not fictional local copies of linked skills. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "asset_presence": {
+      "skills": "EXTERNAL_REFERENCE",
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "Swift-Agent-Skills",
+      "Swift skill discovery",
+      "Apple development references",
+      "Markdown directory"
+    ],
+    "capability_clusters": [
+      {
+        "name": "Swift skill discovery",
+        "description": "Find relevant external Apple-development instruction resources.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "Apple development references",
+        "description": "Navigate framework-specific skills without asserting their implementations are bundled.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Swift skill discovery",
+        "purpose": "Find relevant external Apple-development instruction resources.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "Apple development references",
+        "purpose": "Navigate framework-specific skills without asserting their implementations are bundled.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Reference the links, then inspect the selected external skill and its license before installing.",
+    "license_notes": "MIT; check source-specific notices and external dependencies.",
+    "risk_notes": [
+      "Instruction/reference inventory only; no external source, model or runtime was executed or verified."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/gauntlet-loop",
+    "commit": "9b1975a1b8f01981f3f1e6b667ad3aaf907178ea",
+    "purpose": "Agent skill compiling a goal and concrete quality reference into a portable execution prompt with decomposed work, independent criticism and iterative benchmark comparison.",
+    "categories": [
+      "category:skills",
+      "category:prompt-libraries",
+      "category:ai-evaluation"
+    ],
+    "operational": "operational:01",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".claude/skills/gauntlet-loop/SKILL.md"
+    ],
+    "inspection_scope": "One complete local skill plus README/license/banner. The skill produces a compact execution prompt from a concrete fetchable quality reference, independent builder/critic comparison and iterative improvement. It is an instruction asset, not an implemented orchestrator or autonomous runtime. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown skill"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "gauntlet-loop",
+      "quality-bar prompt compilation",
+      "builder-critic iteration",
+      "Markdown skill"
+    ],
+    "capability_clusters": [
+      {
+        "name": "quality-bar prompt compilation",
+        "description": "Turn a concrete goal/reference into a compact execution contract.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "builder-critic iteration",
+        "description": "Specify independent construction, criticism and comparison until a stated bar is met.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "quality-bar prompt compilation",
+        "purpose": "Turn a concrete goal/reference into a compact execution contract.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      },
+      {
+        "name": "builder-critic iteration",
+        "purpose": "Specify independent construction, criticism and comparison until a stated bar is met.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use the prompt-generation skill; the executing host must supply agents, tools, permissions and real evaluation evidence.",
+    "license_notes": "MIT; check source-specific notices and external dependencies.",
+    "risk_notes": [
+      "Instruction/reference inventory only; no external source, model or runtime was executed or verified."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Finn-loop",
+    "commit": "7941b62c946154d15c11b7f24931bb8b6e155f01",
+    "purpose": "Three complementary agent skills for interactive Linear specification, approved issue implementation and exact-head GitHub PR review, with human merge authority.",
+    "categories": [
+      "category:skills",
+      "category:agent-workflows",
+      "category:project-management"
+    ],
+    "operational": "operational:20",
+    "recommendation": "COMBINE",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "scripts/validate.mjs",
+      "skills/finn-spec/SKILL.md",
+      "skills/finn-build/SKILL.md",
+      "skills/finn-review/SKILL.md"
+    ],
+    "inspection_scope": "All three skills are separate reusable roles: interactive specification, issue implementation and exact-head PR review. The validation script and CI enforce this package's text conventions, so they are maintenance dependencies rather than independent capabilities. These are host-executed instructions, not a server implementing a distributed lock or merge authorization. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown skills",
+      "Linear connector",
+      "GitHub CLI"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "keywords": [
+      "Finn-loop",
+      "issue specification",
+      "approved issue implementation",
+      "contract-bound PR review",
+      "Markdown skills",
+      "Linear connector",
+      "GitHub CLI"
+    ],
+    "capability_clusters": [
+      {
+        "name": "issue specification",
+        "description": "Research and draft acceptance/non-goal issue contracts with human decisions.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "approved issue implementation",
+        "description": "Claim an authorized issue, implement its contract, verify and open a PR.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "contract-bound PR review",
+        "description": "Review exact-head code/check evidence and post a structured verdict without merging.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "issue specification",
+        "purpose": "Research and draft acceptance/non-goal issue contracts with human decisions.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "approved issue implementation",
+        "purpose": "Claim an authorized issue, implement its contract, verify and open a PR.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      },
+      {
+        "name": "contract-bound PR review",
+        "purpose": "Review exact-head code/check evidence and post a structured verdict without merging.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/validate.mjs",
+          "skills/finn-spec/SKILL.md",
+          "skills/finn-build/SKILL.md",
+          "skills/finn-review/SKILL.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Configure team labels and authorized credentials; run the interactive spec with a human and preserve the separate merge gate.",
+    "license_notes": "MIT; check source-specific notices and external dependencies.",
+    "risk_notes": [
+      "The instruction contracts separate human specification/agent-ready authorization from builder mutations and review evidence. Builder requires a clean tree and warns its issue assignment is not an atomic same-user lock. Reviewer checks current required CI and rechecks head before posting; neither role merges or enables auto-merge. Linear TEAM/labels and host credentials require configuration. Catalog review establishes the workflow and limits; it did not invoke the skills, issue trackers, Git writes or PR comments."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/james-watson-gauntlet-loop",
+    "commit": "820de323a18f51e60c6fd979ab2b8de5c8f08e04",
+    "purpose": "Public design contracts for a constraint-led prompt compiler and agent-project orchestration control plane; no executable application or private compiler constitution is included.",
+    "categories": [
+      "category:documentation",
+      "category:architecture-maps",
+      "category:agent-workflows"
+    ],
+    "operational": "operational:20",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "docs/ARCHITECTURE.md",
+      "docs/PRODUCT-SPEC.md",
+      "docs/PROJECT-FACTORY.md",
+      "docs/PROMPT-COMPILER.md"
+    ],
+    "inspection_scope": "All six tree files are five Markdown documents and gitignore. Four independently reusable design contracts are retained; README is the project overview. No app, SDK, agent runtime, prompt compiler implementation or private constitution is present. Documentation describes intended behavior, not a working service. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown design specifications"
+    ],
+    "asset_presence": {
+      "agents_frameworks": "DESIGN_ONLY",
+      "ui_design": "DESIGN_ONLY",
+      "apis_sdks_services": "DESIGN_ONLY",
+      "prompts_workflows": "DESIGN_ONLY"
+    },
+    "keywords": [
+      "james-watson-gauntlet-loop",
+      "constraint-led orchestration design",
+      "prompt compiler design",
+      "project control-plane design",
+      "Markdown design specifications"
+    ],
+    "capability_clusters": [
+      {
+        "name": "constraint-led orchestration design",
+        "description": "Link evidence discovery, construction, criticism and verified learning through a revision-aware ledger.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "prompt compiler design",
+        "description": "Define goal/reference/environment inputs and project-specific execution output contracts.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "project control-plane design",
+        "description": "Separate a central project library from isolated execution repositories and private server configuration.",
+        "scope": "DESIGN"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "constraint-led orchestration design",
+        "purpose": "Link evidence discovery, construction, criticism and verified learning through a revision-aware ledger.",
+        "evidence_paths": [
+          "README.md",
+          "docs/ARCHITECTURE.md",
+          "docs/PRODUCT-SPEC.md",
+          "docs/PROJECT-FACTORY.md",
+          "docs/PROMPT-COMPILER.md"
+        ]
+      },
+      {
+        "name": "prompt compiler design",
+        "purpose": "Define goal/reference/environment inputs and project-specific execution output contracts.",
+        "evidence_paths": [
+          "README.md",
+          "docs/ARCHITECTURE.md",
+          "docs/PRODUCT-SPEC.md",
+          "docs/PROJECT-FACTORY.md",
+          "docs/PROMPT-COMPILER.md"
+        ]
+      },
+      {
+        "name": "project control-plane design",
+        "purpose": "Separate a central project library from isolated execution repositories and private server configuration.",
+        "evidence_paths": [
+          "README.md",
+          "docs/ARCHITECTURE.md",
+          "docs/PRODUCT-SPEC.md",
+          "docs/PROJECT-FACTORY.md",
+          "docs/PROMPT-COMPILER.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Reference the design contracts; implement and verify controls before treating them as runtime capabilities.",
+    "license_notes": "No license grant found in this pinned tree",
+    "risk_notes": [
+      "Review is limited to public design evidence. All runtime and privacy protections are proposed architecture, not implemented controls. The documents specify keeping private compiler configuration on a protected server and out of generated prompts, logs and execution repositories. That private material is absent from this tree and was neither requested nor inspected. No license grant is present, so assets are catalogued as references rather than assumed redistributable implementations."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Google-architecture-templates",
+    "commit": "4a3b2a141f457f1312c8dc52d6cbea6c9592af72",
+    "purpose": "Documentation branch indexing Google's base and multimodule Android architecture starter branches; actual starter application code is not in this pinned tree.",
+    "categories": [
+      "category:documentation",
+      "category:mobile-applications",
+      "category:templates-boilerplates"
+    ],
+    "operational": "operational:19",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      ".google/packaging.yaml",
+      "LICENSE"
+    ],
+    "inspection_scope": "The complete seven-file tree contains documentation, packaging/renovation metadata, license and screenshots. README references base/multimodule branches and their customizer scripts, but those implementation files are absent at this inspected commit. Retain a branch-discovery reference rather than asserting local template code. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown branch index"
+    ],
+    "asset_presence": {
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "data_database_search": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "Google-architecture-templates",
+      "Android architecture discovery",
+      "Android starter guidance",
+      "Markdown branch index"
+    ],
+    "capability_clusters": [
+      {
+        "name": "Android architecture discovery",
+        "description": "Find base and multimodule starter branches and their described stack.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "Android starter guidance",
+        "description": "Reference Compose, Room, Hilt, Navigation and Flow architecture choices.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android architecture discovery",
+        "purpose": "Find base and multimodule starter branches and their described stack.",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "Android starter guidance",
+        "purpose": "Reference Compose, Room, Hilt, Navigation and Flow architecture choices.",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Follow the implementation branch links and pin that source separately when selecting a starter.",
+    "license_notes": "Apache-2.0",
+    "risk_notes": [
+      "Instruction/reference inventory only; no external source, model or runtime was executed or verified."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/dcode-agent-kit",
+    "commit": "f815599e95801461b9fb0862ff03e14f762b2c80",
+    "purpose": "Skill/plugin scaffolding kit with embedded templates and version-scoped guidance for Deep Agents SDK programs and dcode agent identities, using environment-configured model connectors.",
+    "categories": [
+      "category:skills",
+      "category:templates-boilerplates",
+      "category:agent-frameworks"
+    ],
+    "operational": "operational:03",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      ".claude-plugin/plugin.json",
+      "skills/new-dcode-agent/SKILL.md",
+      "reference/deepagents-guide.md"
+    ],
+    "inspection_scope": "Full nine-file tree: one scaffolding skill, plugin/marketplace packaging and a version-scoped integration guide. Substantial embedded model-connector and SDK-agent scaffolds are independently reusable templates, not installed Python modules or a bundled Deep Agents framework. Images and duplicate packaging instructions are excluded. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown skills",
+      "Embedded Python templates",
+      "Deep Agents/LangChain dependencies"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "dcode-agent-kit",
+      "agent scaffolding",
+      "model connector templates",
+      "checkpointed agent templates",
+      "Markdown skills",
+      "Embedded Python templates",
+      "Deep Agents/LangChain dependencies"
+    ],
+    "capability_clusters": [
+      {
+        "name": "agent scaffolding",
+        "description": "Interview, specify and prepare a project-specific SDK program or dcode identity.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "model connector templates",
+        "description": "Adapt environment-driven compatible-model client scaffolds.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "checkpointed agent templates",
+        "description": "Reference mutating-tool interruption/checkpoint patterns and replace stub tools.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "agent scaffolding",
+        "purpose": "Interview, specify and prepare a project-specific SDK program or dcode identity.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "model connector templates",
+        "purpose": "Adapt environment-driven compatible-model client scaffolds.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      },
+      {
+        "name": "checkpointed agent templates",
+        "purpose": "Reference mutating-tool interruption/checkpoint patterns and replace stub tools.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude-plugin/plugin.json",
+          "skills/new-dcode-agent/SKILL.md",
+          "reference/deepagents-guide.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use the skill to prepare a reviewed scaffold; verify installed SDK contracts and implement real tools before execution.",
+    "license_notes": "MIT",
+    "risk_notes": [
+      "The public tree contains instructions and code templates, not a running permission service. Connector templates read credentials from environment/.env and can send them to a configured provider URL; use only trusted endpoints and protect those files. Mutating template examples pair interrupt_on with a checkpointer and show a gate-verification procedure, but those library semantics and the generated smoke tests were not executed here. Tool examples are stubs; host permissions, real implementations and persistent production checkpointing require integration review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/improve",
+    "commit": "03369ee6d7cafbfcecc4346539b05b3dc0a603bb",
+    "purpose": "Read-only codebase advisory skill/plugin producing prioritized audit findings and self-contained implementation plans for other agents, including plan review and execution-handoff guidance.",
+    "categories": [
+      "category:skills",
+      "category:developer-tools",
+      "category:ai-evaluation"
+    ],
+    "operational": "operational:24",
+    "recommendation": "USE DIRECTLY",
+    "source_review": [
+      "README.md",
+      "LICENSE.md",
+      ".claude-plugin/plugin.json",
+      "skills/improve/SKILL.md",
+      "skills/improve/references/audit-playbook.md",
+      "skills/improve/references/plan-template.md",
+      "skills/improve/references/closing-the-loop.md"
+    ],
+    "inspection_scope": "Full nine-file prompt package. Retain the advisor skill, plugin, independent audit playbook, self-contained implementation-plan template and follow-through execution/reconciliation protocol. The example plan illustrates the template rather than adding a runtime implementation. Prompt-based executor isolation and review are not enforced by a shipped sandbox. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown skill",
+      "Agent host"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT"
+    },
+    "keywords": [
+      "improve",
+      "codebase improvement audit",
+      "agent implementation plans",
+      "plan review and handoff",
+      "Markdown skill",
+      "Agent host"
+    ],
+    "capability_clusters": [
+      {
+        "name": "codebase improvement audit",
+        "description": "Inspect bugs, security, performance, tests and architecture for high-value changes.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "agent implementation plans",
+        "description": "Write bounded, self-contained change specifications with verification steps.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "plan review and handoff",
+        "description": "Critique plans and guide independent execution/reconciliation without implementing in the advisor role.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "codebase improvement audit",
+        "purpose": "Inspect bugs, security, performance, tests and architecture for high-value changes.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "agent implementation plans",
+        "purpose": "Write bounded, self-contained change specifications with verification steps.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "plan review and handoff",
+        "purpose": "Critique plans and guide independent execution/reconciliation without implementing in the advisor role.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Use for advisory analysis and handoff plans; authorize a separate implementation workflow and review its results.",
+    "license_notes": "MIT",
+    "risk_notes": [
+      "The skill states a read-only advisor boundary, forbids copying secret values and treats audited content as data. Optional execution delegates edits to an isolated worktree and requires independent review; optional issue publication has a distinct authorization path. These are instructions and integration requirements, not a supplied sandbox or guarantee that a host will obey them. No source edits, worktree execution or issue publication occurred during this inventory review."
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/DeepSeek-R1",
+    "commit": "0cf78561f1d51c84a21b2190626b21116d5c68bb",
+    "purpose": "DeepSeek-R1 reasoning-model and distilled-model release references with deployment guidance and search/file-grounding prompt templates; model weights and inference runtime are external.",
+    "categories": [
+      "category:machine-learning-models",
+      "category:llm-projects",
+      "category:prompt-libraries"
+    ],
+    "operational": "operational:15",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE"
+    ],
+    "inspection_scope": "Model-release/documentation repository with no inference implementation in the complete five-file tree. Eight separately selectable model releases are explicitly listed: two large MoE models and six dense distillations. Retain model-reference records plus the independently reusable file-grounding and search-answer prompt templates embedded in README. English/Chinese search prompts are language variants of one template. Issue housekeeping is excluded; benchmark tables and report figures support documentation rather than proving independently reproduced runtime performance. Repository-level summary; detailed records remain unchanged.",
+    "runtime": [
+      "Markdown model cards/prompts",
+      "External model runtimes"
+    ],
+    "asset_presence": {
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "data_database_search": "EXTERNAL_REFERENCE"
+    },
+    "keywords": [
+      "DeepSeek-R1",
+      "reasoning model references",
+      "distilled model references",
+      "grounded answer prompts",
+      "Markdown model cards/prompts",
+      "External model runtimes"
+    ],
+    "capability_clusters": [
+      {
+        "name": "reasoning model references",
+        "description": "Describe R1/R1-Zero releases without reproducing their published benchmark claims.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "distilled model references",
+        "description": "Identify Qwen/Llama-based distilled releases and distinct upstream license obligations.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "grounded answer prompts",
+        "description": "Reference source-indexed search and file-grounding instruction templates.",
+        "scope": "INSTRUCTIONS"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "reasoning model references",
+        "purpose": "Describe R1/R1-Zero releases without reproducing their published benchmark claims.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "distilled model references",
+        "purpose": "Identify Qwen/Llama-based distilled releases and distinct upstream license obligations.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "grounded answer prompts",
+        "purpose": "Reference source-indexed search and file-grounding instruction templates.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ],
+    "reuse_recommendation": "Select a referenced release, inspect its exact weights/license/runtime separately, and adapt prompt templates as needed.",
+    "license_notes": "Source card declares MIT and identifies inherited Qwen/Llama base-model terms; verify the selected artifact before redistribution.",
+    "risk_notes": [
+      "The pinned repository includes an MIT license and a release-card statement covering code/weights, while separately identifying Apache-2.0 Qwen and custom Llama 3.1/3.3 base provenance. Records preserve those distinctions and remain documentation-scoped model references; the catalog does not certify external weight artifacts, their exact revisions or redistribution obligations. No weights, inference code or model execution were fetched or run."
+    ]
+  }
+]

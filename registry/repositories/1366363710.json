@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/AI4Finance-Foundation/FinRL",
-  "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
+  "description": "Open-source financial reinforcement-learning framework for algorithmic trading research, with data, environments, agents and backtesting workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-13T23:02:18Z",
-    "github_description": "FinRL®:  Financial Reinforcement Learning. 🔥"
+    "github_description": "FinRL®:  Financial Reinforcement Learning. 🔥",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2334a5fe6d30629157f13c3b0319e1637e15e123",
   "current_commit": "2334a5fe6d30629157f13c3b0319e1637e15e123",
   "inspection_date": "2026-09-20T05:36:09.973859+00:00",
   "categories": [
-    "category:general-other"
+    "category:finance-accounting",
+    "category:machine-learning-models",
+    "category:research-projects"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.812641+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.729215+00:00",
   "tree_files": 195,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 105,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 138,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.134612+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source financial reinforcement-learning framework for algorithmic trading research, with data, environments, agents and backtesting workflows.",
+    "reuse_recommendation": "Research and simulation only until any broker execution is separated and risk controls, data licensing and evaluation assumptions are reviewed.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "See repository license, financial data and broker terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "FinRL",
+      "financial reinforcement learning",
+      "algorithmic trading research",
+      "backtesting",
+      "market data"
+    ],
+    "risk_notes": [
+      "Trading execution is a deep-review trigger; do not connect live accounts without a full risk and security audit."
+    ],
+    "important_subsystems": [
+      {
+        "name": "FinRL research framework",
+        "purpose": "Connects financial data, simulated markets and learning agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:21.994515+00:00",
+    "inspected_commit": "2334a5fe6d30629157f13c3b0319e1637e15e123",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ccdb6882b9b4328b63f503a75a0943c07cde8171",
+        "value": "https://github.com/jamesrwatsonx-creator/FinRL/blob/2334a5fe6d30629157f13c3b0319e1637e15e123/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "financial RL agents",
+        "description": "Trains reinforcement-learning strategies for financial market environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-rl-agents",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "market data and trading environments",
+        "description": "Prepares data and simulated environments for strategy evaluation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-data-and-trading-environments",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "backtesting and benchmarks",
+        "description": "Supports evaluation of trading strategies against historical data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:backtesting-and-benchmarks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

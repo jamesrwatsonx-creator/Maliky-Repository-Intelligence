@@ -5,6 +5,10 @@
   "tree_files": 4421,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "bb587daba1617c37cb8b783bc5e096bbf438543c"
+    },
+    {
       "path": "README.md",
       "sha": "8761f83ef4fed7b2b7327f72488a4ca12fda2709"
     },
@@ -29,6 +33,10 @@
       "sha": "50b13b893cb902a58c03b45072dfb8b74cb93f17"
     },
     {
+      "path": "console/src-tauri/Cargo.toml",
+      "sha": "ba007a3a706c5ee3a51daa1a20c46e30ae908ad7"
+    },
+    {
       "path": "docker-compose.yml",
       "sha": "5e0ec2e28f0685cebdf600360976e413777613af"
     },
@@ -37,8 +45,28 @@
       "sha": "97a8ab79f4759263871805d67168256ffd2f9c59"
     },
     {
+      "path": "packages/qwenpawmail-mcp/pyproject.toml",
+      "sha": "2023eb8ed272c895d32ba99417b9dd45b5973979"
+    },
+    {
+      "path": "plugins/apps/datapaw/ui/package.json",
+      "sha": "4318e8dc21a3a569903417a0e6a53b8372e28a6e"
+    },
+    {
+      "path": "plugins/apps/qwenpaw-creator/ui/package.json",
+      "sha": "c1983a79badef9e3406d9b62899a693ba8a753ec"
+    },
+    {
       "path": "pyproject.toml",
       "sha": "a271f9fad9538678b49aacce976cf84341e169e7"
+    },
+    {
+      "path": "setup.py",
+      "sha": "53d3ffceba81e5522371f5469309081db76c9632"
+    },
+    {
+      "path": "website/package.json",
+      "sha": "e730c21b42c444d88c5de20f5fa7def84a7c1343"
     }
   ],
   "files_read": [
@@ -85,6 +113,41 @@
     {
       "path": "docker-compose.yml",
       "blob_sha": "5e0ec2e28f0685cebdf600360976e413777613af",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "bb587daba1617c37cb8b783bc5e096bbf438543c",
+      "entities_detected": 0
+    },
+    {
+      "path": "setup.py",
+      "blob_sha": "53d3ffceba81e5522371f5469309081db76c9632",
+      "entities_detected": 0
+    },
+    {
+      "path": "website/package.json",
+      "blob_sha": "e730c21b42c444d88c5de20f5fa7def84a7c1343",
+      "entities_detected": 0
+    },
+    {
+      "path": "console/src-tauri/Cargo.toml",
+      "blob_sha": "ba007a3a706c5ee3a51daa1a20c46e30ae908ad7",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/qwenpawmail-mcp/pyproject.toml",
+      "blob_sha": "2023eb8ed272c895d32ba99417b9dd45b5973979",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugins/apps/datapaw/ui/package.json",
+      "blob_sha": "4318e8dc21a3a569903417a0e6a53b8372e28a6e",
+      "entities_detected": 0
+    },
+    {
+      "path": "plugins/apps/qwenpaw-creator/ui/package.json",
+      "blob_sha": "c1983a79badef9e3406d9b62899a693ba8a753ec",
       "entities_detected": 0
     }
   ],
@@ -139,17 +202,22 @@
     ".pre-commit-config.yaml",
     "CONTRIBUTING.md",
     "CONTRIBUTING_zh.md",
+    "Makefile",
     "RELEASING.md",
     "RELEASING_zh.md",
     "SECURITY.md",
     "console/eslint.config.js",
+    "console/index.html",
+    "console/mockups/subagent-session-library/index.html",
     "console/package-lock.json",
     "console/scripts/precompress-assets.mjs",
     "console/scripts/verify-initial-bundle.mjs",
     "console/scripts/verify-monaco-css.mjs",
-    "console/src-tauri/Cargo.toml",
     "console/src-tauri/build.rs",
     "console/src-tauri/capabilities/default.json",
+    "console/src-tauri/nsis/qwenpaw-desktop-debug.ps1",
+    "console/src-tauri/nsis/stop-backend-sidecar.ps1",
+    "console/src-tauri/nsis/update-qwenpaw-path.ps1",
     "console/src-tauri/permissions/backend-download.toml",
     "console/src-tauri/permissions/backend.toml",
     "console/src-tauri/permissions/desktop-updater.toml",
@@ -183,12 +251,7 @@
     "console/src-tauri/src/computer_use_server/platform_windows/wgc.rs",
     "console/src-tauri/src/computer_use_server/platform_windows/window.rs",
     "console/src-tauri/src/computer_use_server/state.rs",
-    "console/src-tauri/src/external_link.rs",
-    "console/src-tauri/src/lib.rs",
-    "console/src-tauri/src/main.rs",
-    "console/src-tauri/src/runtime_env.rs",
-    "console/src-tauri/src/tray.rs",
-    "console/src-tauri/src/updates.rs"
+    "console/src-tauri/src/external_link.rs"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -311,8 +374,12 @@
     "tests": 613,
     "website": 283
   },
-  "unread_source_paths_count": 3918,
+  "unread_source_paths_count": 4085,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 494,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

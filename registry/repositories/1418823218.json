@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/processone/ejabberd",
-  "description": "Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)",
+  "description": "Messaging server/platform based on ejabberd and XMPP for real-time chat and federated communication.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-12T18:39:28Z",
-    "github_description": "Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)"
+    "github_description": "Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "599b47081e251f2daede59adfc1fb6b5601e125e",
   "current_commit": "599b47081e251f2daede59adfc1fb6b5601e125e",
   "inspection_date": "2026-10-20T23:55:08.779819+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:backend-services",
+    "category:message-event-systems",
+    "category:networking"
+  ],
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.734523+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.637169+00:00",
   "tree_files": 635,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 83,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 127,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Messaging server/platform based on ejabberd and XMPP for real-time chat and federated communication.",
+    "reuse_recommendation": "Use where federated messaging is required; harden registration, federation and retention settings.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check ejabberd license and any repository modifications.",
+    "runtime": [
+      "Erlang/Elixir ecosystem",
+      "XMPP",
+      "database backend"
+    ],
+    "keywords": [
+      "ejabberd",
+      "XMPP",
+      "messaging server",
+      "real-time chat",
+      "federation"
+    ],
+    "risk_notes": [
+      "Messages and account metadata are sensitive; secure transport, storage and abuse controls matter."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ejabberd messaging backend",
+        "purpose": "Provides a deployable messaging and presence service.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:23.052129+00:00",
+    "inspected_commit": "599b47081e251f2daede59adfc1fb6b5601e125e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "646cc4a1770965d1823d34a3092f4146539e5ff8",
+        "value": "https://github.com/jamesrwatsonx-creator/ejabberd-messaging-platform-/blob/599b47081e251f2daede59adfc1fb6b5601e125e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "XMPP messaging",
+        "description": "Supports real-time messaging and presence using XMPP protocols.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:xmpp-messaging",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "server administration",
+        "description": "Configures accounts, modules, storage and service operation.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:server-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "client and service integration",
+        "description": "Connects messaging clients and applications to XMPP services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:client-and-service-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

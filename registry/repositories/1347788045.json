@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/supertone-oss-archive/supertonic",
-  "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+  "description": "On-device text-to-speech model and inference project for low-latency speech generation, now archived with the associated hosted Voice Builder service discontinued.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-24T04:00:17Z",
-    "github_description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX."
+    "github_description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "7e2804f96016a7028cb1ed627353c61c1e9dd281",
   "current_commit": "7e2804f96016a7028cb1ed627353c61c1e9dd281",
   "inspection_date": "2026-09-20T05:34:06.922689+00:00",
   "categories": [
+    "category:machine-learning-models",
     "category:generative-ai",
-    "category:libraries-packages"
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:supertonic-package-tts-onnx",
@@ -39,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -284,11 +286,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.319808+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.346265+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -310,8 +313,8 @@
   "tree_files": 105,
   "files_read": 57,
   "entity_count": 3,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -330,5 +333,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.297198+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "On-device text-to-speech model and inference project for low-latency speech generation, now archived with the associated hosted Voice Builder service discontinued.",
+    "reuse_recommendation": "Treat as archived model reference; confirm availability, license and supported dependencies before investing in integration.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "Verify repository and model checkpoint licenses before reuse.",
+    "runtime": [
+      "Python",
+      "on-device TTS model",
+      "GPU/CPU inference"
+    ],
+    "keywords": [
+      "Supertonic TTS",
+      "on-device speech",
+      "low latency voice generation",
+      "Voice Builder archived"
+    ],
+    "risk_notes": [
+      "Repository/service lifecycle notice states archive and Voice Builder discontinuation; do not promise ongoing support."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Supertonic inference",
+        "purpose": "Provides local speech synthesis model and usage guidance.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:41.183907+00:00",
+    "inspected_commit": "7e2804f96016a7028cb1ed627353c61c1e9dd281",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4df01d47288761ccd8d2ec6752ea481e1f1f4640",
+        "value": "https://github.com/jamesrwatsonx-creator/supertonic/blob/7e2804f96016a7028cb1ed627353c61c1e9dd281/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "on-device text-to-speech",
+        "description": "Generates speech locally using a compact TTS model.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:on-device-text-to-speech",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice design service reference",
+        "description": "Documents a hosted voice design service that is no longer available per README notice.",
+        "scope": "REFERENCE",
+        "id": "cluster:voice-design-service-reference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

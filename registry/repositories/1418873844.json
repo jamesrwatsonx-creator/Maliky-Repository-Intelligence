@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/jhaals/yopass",
-  "description": "Secure sharing of secrets, passwords and files ",
+  "description": "Self-hosted one-time secret-sharing service that encrypts secrets and destroys them after retrieval or expiry.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-13T18:16:03Z",
-    "github_description": "Secure sharing of secrets, passwords and files "
+    "github_description": "Secure sharing of secrets, passwords and files ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ee684122efbe731c7593bd6d70fc545536670b7b",
   "current_commit": "ee684122efbe731c7593bd6d70fc545536670b7b",
   "inspection_date": "2026-10-20T23:56:45.405304+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:cybersecurity",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,106 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.778038+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.810192+00:00",
   "tree_files": 263,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 243,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 234,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted one-time secret-sharing service that encrypts secrets and destroys them after retrieval or expiry.",
+    "reuse_recommendation": "Review cryptographic key handling, retention/deletion guarantees, storage and network exposure before sharing real credentials.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository license and encryption dependency notices.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Yopass",
+      "secret sharing",
+      "one-time password link",
+      "self-hosted encryption",
+      "expiring secrets"
+    ],
+    "risk_notes": [
+      "Handles secrets and files; cryptographic design and deletion guarantees require security review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Yopass secret service",
+        "purpose": "Coordinates encrypted secret creation, link sharing and expiry.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:59.290290+00:00",
+    "inspected_commit": "ee684122efbe731c7593bd6d70fc545536670b7b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a692d11c41df00b8d2d8da10c0d5e4569165c402",
+        "value": "https://github.com/jamesrwatsonx-creator/yopass-presence-/blob/ee684122efbe731c7593bd6d70fc545536670b7b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "one-time secret exchange",
+        "description": "Shares sensitive text through links that expire or are consumed once.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:one-time-secret-exchange",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "encrypted secret storage",
+        "description": "Encrypts secret payloads for temporary storage and retrieval.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:encrypted-secret-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted deployment",
+        "description": "Supports operating the service under user-managed infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

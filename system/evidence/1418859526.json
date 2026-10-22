@@ -3,8 +3,100 @@
   "inspected_commit": "650bd3bb105f3993a914303a9a767becf8ab804e",
   "tree_complete": true,
   "tree_files": 2173,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "AGENTS.md",
+      "sha": "bd0535bffb9b771ce9ca90b5b5e9dabdc8292955"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "README.md",
+      "sha": "b7c36b79198b2ac3de6085ae495681badf4fdf92"
+    },
+    {
+      "path": "composer.json",
+      "sha": "e76baf5c7639fd41e4f89022f335983f8e97152f"
+    },
+    {
+      "path": "docker/development/README.md",
+      "sha": "e634d90a2a17e9bee48009a29a7de4c268311ba6"
+    },
+    {
+      "path": "mobile/README.md",
+      "sha": "3889671f8299332be15d0fec1235cdbd067a0b86"
+    },
+    {
+      "path": "mobile/package.json",
+      "sha": "5c8e6fb1075af0c34513ec81cd913e037b5d5341"
+    },
+    {
+      "path": "package.json",
+      "sha": "572023906e38c0fab7ad3526f88a79b496ea4482"
+    },
+    {
+      "path": "resources/scripts/api/index.ts",
+      "sha": "28d535ca39a6cb027e6ad1cf7ddbc553ec2b12b7"
+    },
+    {
+      "path": "resources/scripts/api/services/index.ts",
+      "sha": "c26263f05904e6bf58f2967338be0f4b136549e5"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "b7c36b79198b2ac3de6085ae495681badf4fdf92",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "entities_detected": 0
+    },
+    {
+      "path": "composer.json",
+      "blob_sha": "e76baf5c7639fd41e4f89022f335983f8e97152f",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "572023906e38c0fab7ad3526f88a79b496ea4482",
+      "entities_detected": 0
+    },
+    {
+      "path": "mobile/package.json",
+      "blob_sha": "5c8e6fb1075af0c34513ec81cd913e037b5d5341",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "bd0535bffb9b771ce9ca90b5b5e9dabdc8292955",
+      "entities_detected": 0
+    },
+    {
+      "path": "mobile/README.md",
+      "blob_sha": "3889671f8299332be15d0fec1235cdbd067a0b86",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/development/README.md",
+      "blob_sha": "e634d90a2a17e9bee48009a29a7de4c268311ba6",
+      "entities_detected": 0
+    },
+    {
+      "path": "resources/scripts/api/index.ts",
+      "blob_sha": "28d535ca39a6cb027e6ad1cf7ddbc553ec2b12b7",
+      "entities_detected": 0
+    },
+    {
+      "path": "resources/scripts/api/services/index.ts",
+      "blob_sha": "c26263f05904e6bf58f2967338be0f4b136549e5",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/CONTRIBUTING.md",
     ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -21,13 +113,10 @@
     ".github/workflows/release.yaml",
     ".github/workflows/tests.yaml",
     ".prettierrc.json",
-    "AGENTS.md",
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "LICENSE",
     "Makefile",
-    "README.md",
     "SECURITY.md",
     "app/Adapters/Accounts/EloquentBusinessDefaultsProvisioner.php",
     "app/Adapters/Accounts/EloquentCompanyAddressWriter.php",
@@ -105,7 +194,10 @@
     "app/Domains/Accounts/Http/Controllers/InvitationDeclineController.php",
     "app/Domains/Accounts/Http/Middleware/Authenticate.php",
     "app/Domains/Accounts/Http/Middleware/CompanyMiddleware.php",
-    "app/Domains/Accounts/Http/Middleware/EnsureOAuthServerEnabled.php"
+    "app/Domains/Accounts/Http/Middleware/EnsureOAuthServerEnabled.php",
+    "app/Domains/Accounts/Http/Middleware/RedirectIfAuthenticated.php",
+    "app/Domains/Accounts/Http/Middleware/RedirectIfUnauthorized.php",
+    "app/Domains/Accounts/Http/Middleware/ScopeBouncer.php"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "7ebd56fdaffdc43a0494505936816d9f4cea0a74c014d44417aff37adeead025",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -234,8 +327,11 @@
     "storage": 10,
     "tests": 294
   },
-  "unread_source_paths_count": 2008,
+  "unread_source_paths_count": 2006,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 165,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

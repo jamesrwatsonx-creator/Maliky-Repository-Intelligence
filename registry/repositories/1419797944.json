@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "dev",
   "upstream_url": "https://github.com/motioneye-project/motioneye",
-  "description": "A web frontend for the motion daemon.",
+  "description": "Web interface for motion-based surveillance camera capture and monitoring built around the external motion daemon.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T17:52:09Z",
-    "github_description": "A web frontend for the motion daemon."
+    "github_description": "A web frontend for the motion daemon.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b5b3ee560b115aee732a4445e1b500aa8d1110a8",
   "current_commit": "b5b3ee560b115aee732a4445e1b500aa8d1110a8",
   "inspection_date": "2026-10-20T23:57:19.573873+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:iot",
+    "category:privacy"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.556763+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.711889+00:00",
   "tree_files": 303,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 151,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 144,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Web interface for motion-based surveillance camera capture and monitoring built around the external motion daemon.",
+    "reuse_recommendation": "Use only with authorized cameras and secured networks; review authentication, recording access and retention.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository license and motion daemon terms.",
+    "runtime": [
+      "Python web service",
+      "motion daemon",
+      "camera devices"
+    ],
+    "keywords": [
+      "motionEye camera",
+      "motion detection surveillance",
+      "camera monitoring UI",
+      "self-hosted CCTV"
+    ],
+    "risk_notes": [
+      "Surveillance captures private spaces and people; consent, access control and data retention need review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "motionEye surveillance UI",
+        "purpose": "Manages cameras and motion capture through a web application.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:16.425794+00:00",
+    "inspected_commit": "b5b3ee560b115aee732a4445e1b500aa8d1110a8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b7259fa062e94b14cafa6ac4b87484824e400e8e",
+        "value": "https://github.com/jamesrwatsonx-creator/motioneye--camera-motion-capture/blob/b5b3ee560b115aee732a4445e1b500aa8d1110a8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "camera monitoring interface",
+        "description": "Provides a web interface for viewing and managing connected cameras.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:camera-monitoring-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "motion capture integration",
+        "description": "Connects the interface to motion detection and recording services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:motion-capture-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted surveillance deployment",
+        "description": "Supports running camera monitoring on local infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-surveillance-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,28 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/colbymchenry/codegraph",
-  "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+  "description": "Local semantic code intelligence tool that builds code graphs and exposes repository navigation/search capabilities to coding agents.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-23T06:23:51Z",
-    "github_description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+    "github_description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
   "current_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
   "inspection_date": "2026-09-20T05:32:28.517772+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-evaluation",
-    "category:ai-memory",
-    "category:ci-cd",
     "category:developer-tools",
-    "category:devops",
-    "category:knowledge-graphs",
-    "category:mcp-servers",
-    "category:skills"
+    "category:ai-agents",
+    "category:knowledge-graphs"
   ],
   "operational_category": "operational:24",
   "secondary_operational_categories": [
@@ -62,7 +57,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE DIRECTLY",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -313,9 +308,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.459653+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.281981+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -336,9 +332,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 176,
-  "files_read": 167,
+  "files_read": 168,
   "entity_count": 15,
-  "unread_source_files": 0,
+  "unread_source_files": 3,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T18:14:53.689449+00:00",
@@ -394,5 +390,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.103016+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Local semantic code intelligence tool that builds code graphs and exposes repository navigation/search capabilities to coding agents.",
+    "reuse_recommendation": "Potential codebase search component; evaluate indexing freshness, language coverage and privacy boundaries.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "CodeGraph",
+      "semantic code graph",
+      "coding agent context",
+      "local repository intelligence",
+      "MCP code search"
+    ],
+    "risk_notes": [
+      "Index contents may reveal proprietary source; keep indexes local and verify their exclusion from external model calls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CodeGraph index and agent interface",
+        "purpose": "Builds local code intelligence and exposes it to supported hosts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:19.869537+00:00",
+    "inspected_commit": "f366222dbd6b7e43047072a9417289b1b02ae457",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "faf357bc30c7de4d4a7cad388a733392190f69b0",
+        "value": "https://github.com/jamesrwatsonx-creator/codegraph/blob/f366222dbd6b7e43047072a9417289b1b02ae457/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "semantic repository graph",
+        "description": "Indexes code relationships to support structural navigation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:semantic-repository-graph",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent code intelligence interface",
+        "description": "Makes local code context available to coding-agent tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-code-intelligence-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "multi-host integrations",
+        "description": "Integrates with several coding agent environments.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:multi-host-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

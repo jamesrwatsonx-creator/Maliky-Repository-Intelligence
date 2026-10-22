@@ -1,0 +1,1231 @@
+{
+  "defaults": {
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Validate privacy, access and external-service terms for the intended use."
+    ],
+    "runtime": [
+      "See repository manifests"
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/FluidVoice",
+      "commit": "ab46bf3dd29fd33d79f9fed00172f51af3982625",
+      "purpose": "Native macOS voice dictation application that transcribes speech and inserts text into the active application using local speech recognition.",
+      "categories": [
+        "category:desktop-applications",
+        "category:ai-applications",
+        "category:productivity"
+      ],
+      "operational": "operational:07",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "voice_audio": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "tools_plugins": "PRESENT"
+      },
+      "keywords": [
+        "FluidVoice dictation",
+        "macOS voice typing",
+        "local speech recognition",
+        "voice-to-text",
+        "productivity"
+      ],
+      "capability_clusters": [
+        {
+          "name": "desktop voice dictation",
+          "description": "Captures speech and inserts recognized text into the current application.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "local speech recognition",
+          "description": "Uses local transcription components to process voice input.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "macOS integration",
+          "description": "Connects dictation to desktop input and application workflows.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FluidVoice dictation app",
+          "purpose": "Provides voice capture, transcription and text insertion on macOS.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Swift/macOS",
+        "local speech recognition model"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for private dictation after checking microphone permissions and model licensing; compare accuracy on target languages.",
+      "risk_notes": [
+        "Microphone capture may contain sensitive speech; verify local processing and retention behavior."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/hallmark",
+      "commit": "13ac0ec7e148655948100b6396439e481361d690",
+      "purpose": "Design skill and demo system for generating intentional frontend interfaces with curated themes and style verbs across coding-agent hosts.",
+      "categories": [
+        "category:skills",
+        "category:design-systems",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:17",
+      "license_notes": "See repository LICENSE; Together AI and hosted demo terms apply.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Hallmark design skill",
+        "frontend themes",
+        "design verbs",
+        "Claude Code Cursor Codex",
+        "UI quality"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent frontend design skill",
+          "description": "Guides coding agents toward deliberate interface design and away from generic layouts.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "theme and style library",
+          "description": "Provides selectable visual themes and design verbs for UI work.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "design demonstration site",
+          "description": "Shows example interfaces produced using the design system.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Hallmark skill and theme system",
+          "purpose": "Combines agent guidance with reusable style directions and demos.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Markdown skill",
+        "JavaScript demo website",
+        "multiple agent hosts"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use to set interface direction, then test accessibility and task usability in the target product.",
+      "risk_notes": [
+        "Visual taste guidance does not guarantee usability, brand fit or accessibility."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/next-seo",
+      "commit": "738ef7e774ee6216f6e90c26a3b5b99dd5d166b4",
+      "purpose": "React/TypeScript package for defining SEO metadata, structured data and social preview tags in Next.js applications.",
+      "categories": [
+        "category:libraries-packages",
+        "category:frontend-applications",
+        "category:developer-tools"
+      ],
+      "operational": "operational:16",
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "ui_design": "PRESENT"
+      },
+      "keywords": [
+        "Next SEO",
+        "Next.js metadata",
+        "Open Graph tags",
+        "JSON-LD structured data",
+        "React SEO"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Next.js metadata components",
+          "description": "Provides React helpers for page titles, descriptions and social metadata.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "structured data helpers",
+          "description": "Supports adding JSON-LD and related metadata to applications.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "next-seo package",
+          "purpose": "Wraps common SEO metadata patterns for Next.js applications.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "TypeScript",
+        "React",
+        "Next.js"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use with the target Next.js router/version and validate rendered metadata rather than relying on package defaults.",
+      "risk_notes": [
+        "README contains promotional content unrelated to the package; verify current maintained APIs and rendered output."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vectorbt",
+      "commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+      "purpose": "Python quantitative trading research library for vectorized strategy backtesting, portfolio analytics and market-data workflows.",
+      "categories": [
+        "category:finance-accounting",
+        "category:data-science",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:22",
+      "license_notes": "See repository license; VectorBT Pro is a separate product with separate terms.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "vectorbt",
+        "vectorized backtesting",
+        "portfolio analytics",
+        "quantitative strategies",
+        "Python trading research"
+      ],
+      "capability_clusters": [
+        {
+          "name": "vectorized strategy backtesting",
+          "description": "Evaluates trading rules across large datasets using vectorized operations.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "portfolio simulation and analytics",
+          "description": "Computes portfolio performance and trading statistics.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "market data research workflows",
+          "description": "Supports data preparation and research notebooks for quantitative strategies.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "vectorbt research library",
+          "purpose": "Connects vectorized signal analysis, portfolio simulation and evaluation.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python",
+        "NumPy",
+        "Pandas"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use for research/backtesting with leakage-aware evaluation; confirm licensing distinctions and assumptions before financial decisions.",
+      "risk_notes": [
+        "Backtest performance may not predict live results; verify data leakage, transaction costs and model overfitting."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/chrome-devtools-mcp",
+      "commit": "b2007ab86639a0ae4e4370484561158773112b93",
+      "purpose": "MCP server that lets coding agents inspect and control a live Chrome browser through Chrome DevTools Protocol.",
+      "categories": [
+        "category:mcp-servers",
+        "category:developer-tools",
+        "category:automation-scripting"
+      ],
+      "operational": "operational:05",
+      "license_notes": "See repository LICENSE; Chrome/Google terms apply.",
+      "asset_presence": {
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "browser_computer_use": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Chrome DevTools MCP",
+        "browser debugging agent",
+        "CDP",
+        "live browser inspection",
+        "web automation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "live browser inspection",
+          "description": "Exposes browser tabs, console, network and page information to an agent.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "browser interaction tools",
+          "description": "Lets agents perform page operations through Chrome DevTools Protocol.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "MCP integration",
+          "description": "Connects Chrome debugging capabilities to MCP clients.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Chrome DevTools MCP server",
+          "purpose": "Bridges MCP calls to Chrome inspection and control.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Node.js",
+        "MCP",
+        "Chrome DevTools Protocol"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Strong browser/debug candidate; isolate browser profiles and restrict access to authenticated data, console logs and network requests.",
+      "risk_notes": [
+        "Live browser control may expose credentials, private pages and local session data; protect the CDP endpoint."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/google-timeline-visualizer",
+      "commit": "65d4d5bc75221bceae13e5e7e1f6644738a388a2",
+      "purpose": "Android application that converts Google Timeline location history into an animated travel journey video.",
+      "categories": [
+        "category:mobile-applications",
+        "category:media-publishing",
+        "category:real-estate-geospatial"
+      ],
+      "operational": "operational:19",
+      "license_notes": "See repository LICENSE; Google Timeline export/data terms apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Google Timeline visualizer",
+        "travel history video",
+        "Android map animation",
+        "location timeline export"
+      ],
+      "capability_clusters": [
+        {
+          "name": "location history import",
+          "description": "Loads Timeline data and selected date ranges for visualization.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "animated travel map",
+          "description": "Creates an animated route/journey view from location history.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "MP4 export",
+          "description": "Renders a shareable video from the selected travel timeline.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Timeline Visualizer app",
+          "purpose": "Turns location history into an animated travel video on Android.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Kotlin/Android",
+        "map rendering",
+        "video encoding"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use only with user-exported location data and clear consent; protect precise location files and shared exports.",
+      "risk_notes": [
+        "Precise location history is sensitive personal data; secure imports and avoid unintended sharing."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/cryptofeed",
+      "commit": "ce58c2a0015040aa2271e80bac783d74fa2cdcff",
+      "purpose": "Python asynchronous feed handler for streaming cryptocurrency exchange market data over WebSockets.",
+      "categories": [
+        "category:finance-accounting",
+        "category:apis",
+        "category:distributed-systems"
+      ],
+      "operational": "operational:13",
+      "license_notes": "XFree86 license; check compatibility with intended distribution.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "cryptofeed",
+        "crypto exchange websocket",
+        "market data streaming",
+        "Python feed handler",
+        "order book"
+      ],
+      "capability_clusters": [
+        {
+          "name": "exchange market data streams",
+          "description": "Subscribes to supported exchange WebSocket feeds for live market data.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "normalized feed handlers",
+          "description": "Maps venue-specific messages into common market-data events.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "asynchronous data pipeline",
+          "description": "Supports concurrent feeds and downstream consumer integration.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "cryptofeed library",
+          "purpose": "Provides asynchronous normalized cryptocurrency exchange feeds.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python 3.12+",
+        "asyncio",
+        "exchange WebSockets"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use as a market-data source after checking exchange support, rate limits, licensing and data quality.",
+      "risk_notes": [
+        "Feed reliability and exchange schemas vary; do not treat market data as an execution or financial recommendation."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/motioneye--camera-motion-capture",
+      "commit": "b5b3ee560b115aee732a4445e1b500aa8d1110a8",
+      "purpose": "Web interface for motion-based surveillance camera capture and monitoring built around the external motion daemon.",
+      "categories": [
+        "category:web-applications",
+        "category:iot",
+        "category:privacy"
+      ],
+      "operational": "operational:06",
+      "license_notes": "See repository license and motion daemon terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "motionEye camera",
+        "motion detection surveillance",
+        "camera monitoring UI",
+        "self-hosted CCTV"
+      ],
+      "capability_clusters": [
+        {
+          "name": "camera monitoring interface",
+          "description": "Provides a web interface for viewing and managing connected cameras.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "motion capture integration",
+          "description": "Connects the interface to motion detection and recording services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "self-hosted surveillance deployment",
+          "description": "Supports running camera monitoring on local infrastructure.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "motionEye surveillance UI",
+          "purpose": "Manages cameras and motion capture through a web application.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python web service",
+        "motion daemon",
+        "camera devices"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Use only with authorized cameras and secured networks; review authentication, recording access and retention.",
+      "risk_notes": [
+        "Surveillance captures private spaces and people; consent, access control and data retention need review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/vibe-studio-GHL-agency-agents",
+      "commit": "75173cea526e3324f8e71084eae7581561be54c4",
+      "purpose": "Collection of specialized AI agency agent profiles and workflows for frontend design, marketing, community and critical review tasks.",
+      "categories": [
+        "category:ai-agents",
+        "category:agent-workflows",
+        "category:marketing-communications"
+      ],
+      "operational": "operational:03",
+      "license_notes": "See repository license; external platforms and services have separate terms.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "agency agent profiles",
+        "marketing agents",
+        "frontend design agent",
+        "community workflows",
+        "AI specialist roles"
+      ],
+      "capability_clusters": [
+        {
+          "name": "specialist agent personas",
+          "description": "Defines role-specific agent profiles for agency and product work.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "marketing and community workflows",
+          "description": "Packages process guidance for growth and community tasks.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "quality and reality checks",
+          "description": "Adds critique-oriented roles to review proposed work.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "agency agent collection",
+          "purpose": "Organizes specialized profiles, processes and deliverable expectations.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Markdown agent profiles",
+        "compatible agent host"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Adapt agent scopes to real permissions and verify deliverables; persona descriptions do not provide enforceable skills or guarantees.",
+      "risk_notes": [
+        "Agent profiles are instructions only; review external tools and any customer or platform data access."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Video-openshorts",
+      "commit": "5cf6c14062f198ca4ba85816412d7da59c90e14a",
+      "purpose": "Open-source application for creating and editing short-form videos through a browser-based interface and media workflow.",
+      "categories": [
+        "category:media-publishing",
+        "category:web-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:09",
+      "license_notes": "MIT; external media and codec terms apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "OpenShorts.app",
+        "short video editor",
+        "browser media app",
+        "video creation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "short-form video editing",
+          "description": "Provides an interface and workflow for creating short videos.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "web media workspace",
+          "description": "Supports browser-based management of video editing tasks.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "OpenShorts application",
+          "purpose": "Provides the end-user short-video editing experience.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Web application",
+        "video/media processing"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Review maturity, local file handling, codecs and export rights before integrating.",
+      "risk_notes": [
+        "Processes user media and may bundle codecs; protect source files and validate exports."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/gramps-web-api-genealogy-",
+      "commit": "50375390a949ece54f32472c7a7e37cff064c141",
+      "purpose": "Python REST API exposing query and modification operations for Gramps genealogy family-tree databases, used by Gramps Web.",
+      "categories": [
+        "category:backend-services",
+        "category:apis",
+        "category:business-applications"
+      ],
+      "operational": "operational:12",
+      "license_notes": "See repository license and Gramps ecosystem terms.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Gramps Web API",
+        "genealogy REST API",
+        "family tree database",
+        "Python web service"
+      ],
+      "capability_clusters": [
+        {
+          "name": "genealogy REST service",
+          "description": "Queries and modifies Gramps family-tree data through HTTP endpoints.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "family-tree backend integration",
+          "description": "Connects the API to Gramps genealogy storage and web clients.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Gramps Web API",
+          "purpose": "Serves genealogy records to the Gramps Web application.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python",
+        "REST API",
+        "Gramps database"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Review authentication, export permissions and sensitive records before exposing genealogy data over a network.",
+      "risk_notes": [
+        "Family history includes sensitive details about living people; enforce access controls and consent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Sigstore-docs",
+      "commit": "842c30981f1bf5061fe0d370512db4de8cdf3b33",
+      "purpose": "Documentation site for Sigstore tools and workflows used to sign, verify and attest software artifacts.",
+      "categories": [
+        "category:documentation",
+        "category:cybersecurity",
+        "category:specifications-standards"
+      ],
+      "operational": "operational:21",
+      "license_notes": "See documentation repository license; referenced Sigstore tools have independent terms.",
+      "asset_presence": {
+        "infrastructure_deployment": "EXTERNAL_REFERENCE",
+        "prompts_workflows": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Sigstore documentation",
+        "software signing",
+        "artifact verification",
+        "supply chain security",
+        "provenance attestation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Sigstore workflow documentation",
+          "description": "Explains signing and verification of software artifacts.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "supply-chain security guidance",
+          "description": "Documents provenance and trust workflows for software releases.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Sigstore documentation site",
+          "purpose": "Provides user and developer guidance for the Sigstore ecosystem.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Documentation site",
+        "Markdown/content tooling"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as the documentation source and verify current commands against the corresponding Sigstore tool versions.",
+      "risk_notes": [
+        "Security instructions can become stale; validate release-signing guidance against current upstream tools."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/world-open-iris",
+      "commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+      "purpose": "Iris recognition inference system providing model pipelines, validators, adapters and tooling for biometric iris processing.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:cybersecurity",
+        "category:privacy"
+      ],
+      "operational": "operational:08",
+      "license_notes": "Review code, model-card and model-weight terms separately.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "vision_ocr": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "World Open Iris",
+        "iris recognition",
+        "biometric inference",
+        "image validation",
+        "model adapters"
+      ],
+      "capability_clusters": [
+        {
+          "name": "iris recognition pipeline",
+          "description": "Processes iris imagery through recognition inference components.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "image and model validation",
+          "description": "Provides validators and adapters for biometric processing workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model deployment tooling",
+          "description": "Supports model packaging and inference setup.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "IRIS inference toolkit",
+          "purpose": "Combines iris models, image processing and adapters for recognition tasks.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "computer vision models"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Use only with explicit lawful purpose, consent and biometric governance; assess false matches, model provenance and deployment security.",
+      "risk_notes": [
+        "Biometric identity processing is sensitive; privacy, consent, error impacts and model terms require deep review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/iRedMail",
+      "commit": "4f363e1cbfdc80df9673676150eb20a3fdf7a323",
+      "purpose": "Linux/BSD mail-server deployment solution that configures common mail services, webmail, filtering and administration components.",
+      "categories": [
+        "category:cloud-infrastructure",
+        "category:backend-services",
+        "category:backend-services"
+      ],
+      "operational": "operational:14",
+      "license_notes": "Review iRedMail edition and bundled component licenses; terms vary by edition.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "iRedMail mail server",
+        "self-hosted email",
+        "Linux mail stack",
+        "SMTP IMAP",
+        "email filtering"
+      ],
+      "capability_clusters": [
+        {
+          "name": "self-hosted mail stack",
+          "description": "Installs and configures SMTP, IMAP and supporting mail services.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "mail administration and webmail",
+          "description": "Provides management and user-facing email components.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "server deployment automation",
+          "description": "Automates installation on supported Linux/BSD distributions.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "iRedMail deployment system",
+          "purpose": "Assembles a production mail stack from configured components.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Shell",
+        "Linux/BSD services",
+        "Postfix/Dovecot and supporting components"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Mail infrastructure is sensitive; review DNS, TLS, anti-abuse, storage, backups and authentication before production.",
+      "risk_notes": [
+        "Handles private email and network services; misconfiguration can expose accounts or enable abuse."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/SkillSpector",
+      "commit": "698e2bf29c7d32aa8211ada677382460c01900d7",
+      "purpose": "Python security scanner that analyzes AI agent skills for malicious patterns, risky commands and installation hazards.",
+      "categories": [
+        "category:cybersecurity",
+        "category:developer-tools",
+        "category:skills"
+      ],
+      "operational": "operational:21",
+      "license_notes": "Apache-2.0.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "skills": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "SkillSpector",
+        "agent skill security scanner",
+        "malicious instructions",
+        "skill vetting",
+        "static analysis"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent skill security scanning",
+          "description": "Inspects skill files for suspicious instructions and risky patterns.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "pre-install risk review",
+          "description": "Supports evaluating skills before adding them to agent hosts.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "SkillSpector scanner",
+          "purpose": "Analyzes agent skill packages for potential security risks.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python 3.12+",
+        "static analysis rules"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use as one signal in skill review, then inspect source manually; scanner results do not prove safety.",
+      "risk_notes": [
+        "Static scanners can miss malicious behavior or produce false positives; do not treat a clean result as a security guarantee."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Graphene-infrastructure",
+      "commit": "85a3d251f9fddb481392043e22899191d4d93788",
+      "purpose": "Documentation and reference material describing GrapheneOS server infrastructure and related service operations.",
+      "categories": [
+        "category:documentation",
+        "category:cloud-infrastructure",
+        "category:cybersecurity"
+      ],
+      "operational": "operational:14",
+      "license_notes": "Check repository documentation license and referenced infrastructure terms.",
+      "asset_presence": {
+        "infrastructure_deployment": "EXTERNAL_REFERENCE",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "GrapheneOS infrastructure",
+        "server architecture",
+        "deployment reference",
+        "security operations"
+      ],
+      "capability_clusters": [
+        {
+          "name": "infrastructure reference documentation",
+          "description": "Explains GrapheneOS server infrastructure through public documentation links.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "service operations reference",
+          "description": "Provides context for related service infrastructure and deployments.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Graphene infrastructure guide",
+          "purpose": "Points readers to official server and operations documentation.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Documentation/reference repository"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Use as a pointer to official GrapheneOS articles; do not treat this repository as deployable infrastructure code.",
+      "risk_notes": [
+        "Documentation links may change; verify claims against current upstream sources."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Charts-vico",
+      "commit": "eb12d779419cdb8e46d6e577e2345c7aedad9989",
+      "purpose": "Vico Kotlin charting library for displaying charts in Android applications using Jetpack Compose and related UI frameworks.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:data-visualization"
+      ],
+      "operational": "operational:19",
+      "license_notes": "See repository LICENSE and Maven artifact terms.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "Vico charts",
+        "Kotlin chart library",
+        "Compose charts",
+        "Android visualization",
+        "data charts"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Android chart components",
+          "description": "Renders reusable charts in Android application interfaces.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Compose chart integration",
+          "description": "Connects chart rendering to Jetpack Compose state and layout.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Vico chart library",
+          "purpose": "Provides Kotlin chart components for Android visualization.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use after checking library versions, accessibility labels and behavior with dynamic data.",
+      "risk_notes": [
+        "Charts can mislead without clear units and accessible descriptions; validate visual and screen-reader output."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/bitcart-recieve-crypto-as-payment-",
+      "commit": "6388adcf017907d975eed4ed4a1b975d5e120059",
+      "purpose": "Bitcart self-hosted cryptocurrency payment processor and merchant platform for accepting and managing crypto payments.",
+      "categories": [
+        "category:commerce-e-commerce",
+        "category:finance-accounting",
+        "category:blockchain-web3-security"
+      ],
+      "operational": "operational:22",
+      "license_notes": "See Bitcart license and supported coin/network terms.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Bitcart crypto payments",
+        "merchant checkout",
+        "cryptocurrency processor",
+        "self-hosted payments",
+        "wallet integrations"
+      ],
+      "capability_clusters": [
+        {
+          "name": "crypto payment processing",
+          "description": "Accepts cryptocurrency payments for merchant transactions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "merchant checkout and administration",
+          "description": "Provides customer checkout and merchant management workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "wallet and network integrations",
+          "description": "Connects the platform to supported cryptocurrencies and wallet services.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Bitcart payment platform",
+          "purpose": "Coordinates payment creation, confirmation and merchant workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Python/web services",
+        "cryptocurrency nodes/wallets",
+        "Docker deployment"
+      ],
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "reuse_recommendation": "Do not accept funds until wallet key handling, confirmation rules, refunds and network security are reviewed.",
+      "risk_notes": [
+        "Payments, private keys and financial records are deep-review triggers; audit signing boundaries and operational security."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/lottie-web",
+      "commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+      "purpose": "JavaScript Lottie/Bodymovin renderer for displaying After Effects animation exports across web and other supported platforms.",
+      "categories": [
+        "category:libraries-packages",
+        "category:frontend-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:16",
+      "license_notes": "MIT; Adobe and animation asset rights remain separate.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Lottie web",
+        "Bodymovin renderer",
+        "After Effects JSON animation",
+        "SVG canvas animation",
+        "JavaScript"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Lottie animation rendering",
+          "description": "Renders exported animation JSON in browser environments.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multi-platform animation runtime",
+          "description": "Supports rendering through several platform-specific Lottie libraries.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Lottie web renderer",
+          "purpose": "Parses and displays Bodymovin animation assets.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "JavaScript",
+        "browser SVG/canvas/HTML renderers"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use with trusted animation assets and validate renderer compatibility and reduced-motion support.",
+      "risk_notes": [
+        "Animation files can be complex; review performance, asset rights and accessibility."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/claude-ads",
+      "commit": "669c7608ecb50dd95c941a71fa3ca0a1c0e40512",
+      "purpose": "Claude-first paid-media skills for analyzing authorized ad exports and supporting operations across multiple advertising platforms.",
+      "categories": [
+        "category:skills",
+        "category:marketing-communications",
+        "category:business-applications"
+      ],
+      "operational": "operational:11",
+      "license_notes": "See repository license; ad platform and data provider terms apply.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Claude Ads",
+        "paid media operations",
+        "ad analysis",
+        "campaign exports",
+        "agency marketing skills"
+      ],
+      "capability_clusters": [
+        {
+          "name": "paid media analysis skills",
+          "description": "Guides analysis of campaign and performance data from authorized exports.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "cross-platform advertising workflows",
+          "description": "Organizes paid-media operations across supported advertising channels.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "campaign reporting workflows",
+          "description": "Supports analysis and communication of performance insights.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Claude Ads skill collection",
+          "purpose": "Packages paid-media workflows and platform guidance for Claude agents.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Markdown skills",
+        "Claude Code",
+        "authorized platform exports"
+      ],
+      "recommendation": "USE DIRECTLY",
+      "reuse_recommendation": "Use only with authorized data and platform access; validate analysis and require approval before campaign changes.",
+      "risk_notes": [
+        "Ad account data and budget changes are sensitive; restrict access and keep campaign writes behind approval."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/habitat-local-community-hub",
+      "commit": "a6d22f9c8fde93c54cc67c454c8d1ed53ad011e6",
+      "purpose": "Open-source local community platform for neighborhood groups to share events, information and mutual support.",
+      "categories": [
+        "category:web-applications",
+        "category:business-applications",
+        "category:open-source-communities"
+      ],
+      "operational": "operational:11",
+      "license_notes": "See repository LICENSE.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Habitat community hub",
+        "local community platform",
+        "neighborhood groups",
+        "community events",
+        "local-first social"
+      ],
+      "capability_clusters": [
+        {
+          "name": "local community hub",
+          "description": "Connects people around neighborhood information and shared activities.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "community content and events",
+          "description": "Supports sharing local updates and organizing events.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "privacy-oriented community space",
+          "description": "Describes a community product designed without ads or data harvesting.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Habitat community platform",
+          "purpose": "Provides a digital space for local groups and community information.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "runtime": [
+        "Web application",
+        "community platform service"
+      ],
+      "recommendation": "REFERENCE",
+      "reuse_recommendation": "Assess moderation, identity, privacy and abuse-handling needs before deploying for a real community.",
+      "risk_notes": [
+        "Community content may include personal/location data; provide moderation and user safety controls."
+      ]
+    }
+  ]
+}

@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/aidenybai/react-grab",
-  "description": "Copy any UI element for your agent",
+  "description": "React developer tool for selecting interface elements and capturing useful component/context information for coding agents.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T11:34:22Z",
-    "github_description": "Copy any UI element for your agent"
+    "github_description": "Copy any UI element for your agent",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ea4bbec9e80f4802e8ae19ad18431edb9ddbb670",
   "current_commit": "ea4bbec9e80f4802e8ae19ad18431edb9ddbb670",
   "inspection_date": "2026-09-20T05:36:05.673129+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:frontend-applications"
+    "category:developer-tools",
+    "category:frontend-applications",
+    "category:ai-agents"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.012791+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.080102+00:00",
   "tree_files": 712,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 680,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 681,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.271132+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "React developer tool for selecting interface elements and capturing useful component/context information for coding agents.",
+    "reuse_recommendation": "Use to reduce UI debugging friction; ensure captured context excludes sensitive page data.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Check repository license and agent integrations.",
+    "runtime": [
+      "React/TypeScript",
+      "browser development environment"
+    ],
+    "keywords": [
+      "React Grab",
+      "component selection",
+      "coding agent context",
+      "frontend debugging",
+      "UI inspection"
+    ],
+    "risk_notes": [
+      "Browser inspection may capture private content depending on the page."
+    ],
+    "important_subsystems": [
+      {
+        "name": "React Grab overlay",
+        "purpose": "Connects browser UI selection to developer/agent context.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:15.909777+00:00",
+    "inspected_commit": "ea4bbec9e80f4802e8ae19ad18431edb9ddbb670",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9ae0164caf8bf1cbbe3e04beb31d850d572fa3b1",
+        "value": "https://github.com/jamesrwatsonx-creator/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "element selection and inspection",
+        "description": "Lets developers identify rendered React elements and inspect their context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:element-selection-and-inspection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent context capture",
+        "description": "Packages selected UI information for downstream coding-agent workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-context-capture",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

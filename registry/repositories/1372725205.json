@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/NangoHQ/nango",
-  "description": "Build product integrations with AI.",
+  "description": "Integration platform or connector toolkit based on Nango for linking applications to third-party APIs and synchronizing data.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-16T07:18:36Z",
-    "github_description": "Build product integrations with AI."
+    "github_description": "Build product integrations with AI.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "29606f467e60866f622fc4f6a020113609914020",
   "current_commit": "29606f467e60866f622fc4f6a020113609914020",
   "inspection_date": "2026-09-20T05:36:22.127632+00:00",
   "categories": [
-    "category:general-other"
+    "category:apis",
+    "category:sdks-client-libraries",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 9,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.446093+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.466373+00:00",
   "tree_files": 9596,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3071,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 7157,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.312063+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Integration platform or connector toolkit based on Nango for linking applications to third-party APIs and synchronizing data.",
+    "reuse_recommendation": "Use with least-privilege scopes, secret rotation and explicit sync conflict policies.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check repository and Nango/connectors provider terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "OAuth/API services",
+      "sync storage"
+    ],
+    "keywords": [
+      "Nango integrations",
+      "OAuth connectors",
+      "API synchronization",
+      "third-party integrations",
+      "developer platform"
+    ],
+    "risk_notes": [
+      "OAuth credentials and synchronized business data are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Nango connector layer",
+        "purpose": "Reduces repeated work integrating SaaS APIs and authentication.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:54.073812+00:00",
+    "inspected_commit": "29606f467e60866f622fc4f6a020113609914020",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "60853a616fbed177cb09aaa6c7cee88f2bdf4761",
+        "value": "https://github.com/jamesrwatsonx-creator/Useful-for-everything-nango/blob/29606f467e60866f622fc4f6a020113609914020/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "third-party API connectors",
+        "description": "Provides reusable connections to external SaaS APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:third-party-api-connectors",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "OAuth and credential management",
+        "description": "Manages authorization flows and connection credentials.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:oauth-and-credential-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "data synchronization workflows",
+        "description": "Moves or syncs records between connected services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:data-synchronization-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

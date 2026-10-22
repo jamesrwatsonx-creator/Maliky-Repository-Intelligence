@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ahujasid/mcp-for-blender",
-  "description": "Community plugin to control Blender 3D with any LLM of your choice",
+  "description": "Python MCP integration that lets compatible assistants inspect and manipulate Blender scenes through an add-on and tool server.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-05T04:44:40Z",
-    "github_description": "Community plugin to control Blender 3D with any LLM of your choice"
+    "github_description": "Community plugin to control Blender 3D with any LLM of your choice",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9",
   "current_commit": "c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9",
   "inspection_date": "2026-09-20T05:35:51.168753+00:00",
   "categories": [
-    "category:llm-projects",
-    "category:mcp-servers"
+    "category:mcp-servers",
+    "category:creative-tools",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [
     "operational:15"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.305627+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.057233+00:00",
   "tree_files": 32,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 24,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 14,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,143 @@
     ],
     "updated_at": "2026-10-12T19:04:27.083876+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python MCP integration that lets compatible assistants inspect and manipulate Blender scenes through an add-on and tool server.",
+    "reuse_recommendation": "Select for Blender automation after reviewing every exposed operation, local application bridge and confirmation boundary; it can change project files and scenes.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT; Blender and dependency terms also apply.",
+    "runtime": [
+      "Python",
+      "MCP",
+      "Blender Python API"
+    ],
+    "keywords": [
+      "Blender MCP",
+      "3D scene editing",
+      "AI-assisted modeling",
+      "Blender add-on",
+      "MCP tools"
+    ],
+    "risk_notes": [
+      "MCP actions can modify 3D project state and may invoke powerful application operations; inspect tool permissions before connecting to an agent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MCP server",
+        "purpose": "Defines assistant-callable operations for Blender.",
+        "evidence_paths": [
+          "src/blender_mcp/server.py",
+          "main.py"
+        ]
+      },
+      {
+        "name": "Blender add-on",
+        "purpose": "Provides the Blender-side bridge used by remote tool requests.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:16.823486+00:00",
+    "inspected_commit": "c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ba1cddf03dd23db23f203c42eb0b01d988623f2a",
+        "value": "https://github.com/jamesrwatsonx-creator/blender-mcp/blob/c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "82e98f0ee1ef20d31f852ad43c91020cc51f82ea",
+        "value": "https://github.com/jamesrwatsonx-creator/blender-mcp/blob/c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "ddf362222c59bd5b3bfbb7cfb67213012bfa8dbd",
+        "value": "https://github.com/jamesrwatsonx-creator/blender-mcp/blob/c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "main.py",
+        "blob_sha": "ede40e74988d3760993f58cc169b82e88704bcba",
+        "value": "https://github.com/jamesrwatsonx-creator/blender-mcp/blob/c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9/main.py"
+      },
+      {
+        "type": "source_review",
+        "path": "src/blender_mcp/server.py",
+        "blob_sha": "d6821db37adb1a89803cdcbd682c75f7772171b8",
+        "value": "https://github.com/jamesrwatsonx-creator/blender-mcp/blob/c5f35d9cc54451d785ac4c00c48bf9e98a2e8db9/src/blender_mcp/server.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Blender scene tools",
+        "description": "Exposes scene inspection and modeling operations through MCP tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:blender-scene-tools",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "main.py",
+          "src/blender_mcp/server.py"
+        ]
+      },
+      {
+        "name": "Blender add-on bridge",
+        "description": "Connects the MCP process to Blender's application-side integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:blender-add-on-bridge",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "main.py",
+          "src/blender_mcp/server.py"
+        ]
+      },
+      {
+        "name": "prompt-assisted 3D workflow",
+        "description": "Supports assistant-driven creation and modification of Blender scenes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-assisted-3d-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "main.py",
+          "src/blender_mcp/server.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

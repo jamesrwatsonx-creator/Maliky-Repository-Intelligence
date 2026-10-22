@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ranaroussi/quantstats",
-  "description": "Portfolio analytics for quants, written in Python",
+  "description": "Python quantitative-finance library for portfolio performance analysis, statistics, visualization and report generation.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-07-20T14:12:56Z",
-    "github_description": "Portfolio analytics for quants, written in Python"
+    "github_description": "Portfolio analytics for quants, written in Python",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fbd10daed0227aa0d10da6513f1b15e7e98d7fae",
   "current_commit": "fbd10daed0227aa0d10da6513f1b15e7e98d7fae",
   "inspection_date": "2026-09-20T05:36:10.006854+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:finance-accounting",
+    "category:data-visualization"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.960481+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.044989+00:00",
   "tree_files": 44,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 32,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 26,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,118 @@
     ],
     "updated_at": "2026-10-12T19:04:27.266357+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python quantitative-finance library for portfolio performance analysis, statistics, visualization and report generation.",
+    "reuse_recommendation": "Use for research analytics after validating input assumptions, benchmark selection and statistical interpretation; not investment advice.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "Apache-2.0.",
+    "runtime": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "keywords": [
+      "portfolio analytics",
+      "quantitative finance",
+      "performance metrics",
+      "risk statistics",
+      "backtesting reports"
+    ],
+    "risk_notes": [
+      "Financial metrics depend on data quality, sampling and assumptions; do not treat outputs as trading advice or execution signals."
+    ],
+    "important_subsystems": [
+      {
+        "name": "quantitative analytics library",
+        "purpose": "Implements portfolio metrics and report-oriented analysis.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:19.972459+00:00",
+    "inspected_commit": "fbd10daed0227aa0d10da6513f1b15e7e98d7fae",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6afa775c0e69ff8b2f19f4b29e53692b739ff105",
+        "value": "https://github.com/jamesrwatsonx-creator/quantstats/blob/fbd10daed0227aa0d10da6513f1b15e7e98d7fae/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE.txt",
+        "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "value": "https://github.com/jamesrwatsonx-creator/quantstats/blob/fbd10daed0227aa0d10da6513f1b15e7e98d7fae/LICENSE.txt"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "d3d98dbb7c1ad1c5a496301dd557bcd7edafb3e4",
+        "value": "https://github.com/jamesrwatsonx-creator/quantstats/blob/fbd10daed0227aa0d10da6513f1b15e7e98d7fae/pyproject.toml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "portfolio performance analytics",
+        "description": "Computes common performance and risk statistics from portfolio return series.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:portfolio-performance-analytics",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "financial visualization and reports",
+        "description": "Creates plots and reports for portfolio analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-visualization-and-reports",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "Python quant research library",
+        "description": "Provides reusable analytics functions for finance workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:python-quant-research-library",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.txt",
+          "pyproject.toml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

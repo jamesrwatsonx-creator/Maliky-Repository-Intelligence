@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/livekit/livekit",
-  "description": "End-to-end realtime stack for connecting humans and AI",
+  "description": "LiveKit voice-agent application and integration example for building realtime conversational voice experiences.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-07T00:34:47Z",
-    "github_description": "End-to-end realtime stack for connecting humans and AI"
+    "github_description": "End-to-end realtime stack for connecting humans and AI",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e18fbcc0fa40233db212a9fb2f1dc8a0ebd8813a",
   "current_commit": "e18fbcc0fa40233db212a9fb2f1dc8a0ebd8813a",
   "inspection_date": "2026-09-20T05:35:58.863064+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:generative-ai"
+    "category:ai-applications",
+    "category:media-publishing",
+    "category:agent-frameworks"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.608022+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.629013+00:00",
   "tree_files": 422,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 412,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 405,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.329259+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "LiveKit voice-agent application and integration example for building realtime conversational voice experiences.",
+    "reuse_recommendation": "Use as a voice integration reference; review tokens, audio consent, provider data handling and session costs.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository license and LiveKit/model provider terms.",
+    "runtime": [
+      "Python/Node.js",
+      "LiveKit Agents",
+      "external speech/model services"
+    ],
+    "keywords": [
+      "LiveKit voice agent",
+      "realtime conversational audio",
+      "voice AI",
+      "agent session",
+      "speech interface"
+    ],
+    "risk_notes": [
+      "Voice sessions process personal audio and may connect to hosted services; consent and credential controls are required."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LiveKit voice-agent example",
+        "purpose": "Demonstrates the voice agent and realtime media integration path.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:50.831724+00:00",
+    "inspected_commit": "e18fbcc0fa40233db212a9fb2f1dc8a0ebd8813a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f3e995de80df4a506143b2c5f62c2b125c3060da",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-agent-livekit/blob/e18fbcc0fa40233db212a9fb2f1dc8a0ebd8813a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "realtime voice agent",
+        "description": "Connects an agent to live audio sessions through LiveKit.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:realtime-voice-agent",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "speech interaction pipeline",
+        "description": "Coordinates voice input, model responses and spoken output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-interaction-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice session integration",
+        "description": "Provides application scaffolding for realtime agent sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-session-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/reactive-resume/reactive-resume",
-  "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+  "description": "Job search and resume application built around Reactive Resume, helping users manage resumes, discover jobs and prepare applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-12T09:29:07Z",
-    "github_description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!"
+    "github_description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fd3494ccac6ef4c47d01614a8a5dcdea08df85eb",
   "current_commit": "fd3494ccac6ef4c47d01614a8a5dcdea08df85eb",
   "inspection_date": "2026-09-20T05:36:27.056824+00:00",
   "categories": [
-    "category:general-other"
+    "category:productivity",
+    "category:business-applications",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.048160+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.118101+00:00",
   "tree_files": 1778,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1451,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1563,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.275445+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Job search and resume application built around Reactive Resume, helping users manage resumes, discover jobs and prepare applications.",
+    "reuse_recommendation": "Use with explicit consent and review before sending personal data or submitting applications.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license, job-source terms and resume data handling.",
+    "runtime": [
+      "Web application",
+      "database",
+      "job source APIs"
+    ],
+    "keywords": [
+      "job search",
+      "resume builder",
+      "application tracking",
+      "career workflow",
+      "Reactive Resume"
+    ],
+    "risk_notes": [
+      "Resumes contain identity and employment history; automated submissions can misrepresent users."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Resume/job hunter application",
+        "purpose": "Combines career documents with opportunity discovery and tracking.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:13.073642+00:00",
+    "inspected_commit": "fd3494ccac6ef4c47d01614a8a5dcdea08df85eb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f414e44aef83a0ba05b6a104a9aa90b9a28d3d16",
+        "value": "https://github.com/jamesrwatsonx-creator/Resume-job-hunter-reactive-resume/blob/fd3494ccac6ef4c47d01614a8a5dcdea08df85eb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "resume authoring and management",
+        "description": "Creates and organizes job-seeking documents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:resume-authoring-and-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "job discovery and application tracking",
+        "description": "Supports finding opportunities and managing application progress.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:job-discovery-and-application-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI-assisted application workflows",
+        "description": "May help tailor materials or automate search tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-assisted-application-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

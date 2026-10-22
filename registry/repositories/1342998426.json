@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/shadcn/improve",
-  "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+  "description": "Read-only codebase advisory skill/plugin producing prioritized audit findings and self-contained implementation plans for other agents, including plan review and execution-handoff guidance.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-06-15T06:18:39Z",
-    "github_description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute."
+    "github_description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "03369ee6d7cafbfcecc4346539b05b3dc0a603bb",
@@ -344,9 +345,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.200482+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.288277+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -430,5 +432,184 @@
     ],
     "updated_at": "2026-10-12T19:04:27.181004+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Read-only codebase advisory skill/plugin producing prioritized audit findings and self-contained implementation plans for other agents, including plan review and execution-handoff guidance.",
+    "reuse_recommendation": "Use for advisory analysis and handoff plans; authorize a separate implementation workflow and review its results.",
+    "inspection_scope": "Full nine-file prompt package. Retain the advisor skill, plugin, independent audit playbook, self-contained implementation-plan template and follow-through execution/reconciliation protocol. The example plan illustrates the template rather than adding a runtime implementation. Prompt-based executor isolation and review are not enforced by a shipped sandbox. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "MIT",
+    "runtime": [
+      "Markdown skill",
+      "Agent host"
+    ],
+    "keywords": [
+      "improve",
+      "codebase improvement audit",
+      "agent implementation plans",
+      "plan review and handoff",
+      "Markdown skill",
+      "Agent host"
+    ],
+    "risk_notes": [
+      "The skill states a read-only advisor boundary, forbids copying secret values and treats audited content as data. Optional execution delegates edits to an isolated worktree and requires independent review; optional issue publication has a distinct authorization path. These are instructions and integration requirements, not a supplied sandbox or guarantee that a host will obey them. No source edits, worktree execution or issue publication occurred during this inventory review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "codebase improvement audit",
+        "purpose": "Inspect bugs, security, performance, tests and architecture for high-value changes.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "agent implementation plans",
+        "purpose": "Write bounded, self-contained change specifications with verification steps.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "plan review and handoff",
+        "purpose": "Critique plans and guide independent execution/reconciliation without implementing in the advisor role.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:42.321921+00:00",
+    "inspected_commit": "03369ee6d7cafbfcecc4346539b05b3dc0a603bb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "17e41e80976356c4bacfa5b9f2e873b67d1fe554",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE.md",
+        "blob_sha": "af4976ce11ba2e6599d815154b165af3e00b83fd",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/LICENSE.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude-plugin/plugin.json",
+        "blob_sha": "c8a84e76d0e46f88cbc0dfd1f51cdf36c4b8fb79",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/improve/SKILL.md",
+        "blob_sha": "df5b9001adda5ee72697ab5f7d3efe74c212e478",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/improve/references/audit-playbook.md",
+        "blob_sha": "6c2278cc8853522c2bce3c3af20630320b492d1b",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/audit-playbook.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/improve/references/plan-template.md",
+        "blob_sha": "f4ff6fcfa92a3fe817c46ae4eefe02793610b9ea",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/plan-template.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/improve/references/closing-the-loop.md",
+        "blob_sha": "f0e524f4b1e9d332f0c92d0c990da5a071cfb06b",
+        "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/closing-the-loop.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "codebase improvement audit",
+        "description": "Inspect bugs, security, performance, tests and architecture for high-value changes.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:codebase-improvement-audit",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "agent implementation plans",
+        "description": "Write bounded, self-contained change specifications with verification steps.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-implementation-plans",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      },
+      {
+        "name": "plan review and handoff",
+        "description": "Critique plans and guide independent execution/reconciliation without implementing in the advisor role.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:plan-review-and-handoff",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          ".claude-plugin/plugin.json",
+          "skills/improve/SKILL.md",
+          "skills/improve/references/audit-playbook.md",
+          "skills/improve/references/plan-template.md",
+          "skills/improve/references/closing-the-loop.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

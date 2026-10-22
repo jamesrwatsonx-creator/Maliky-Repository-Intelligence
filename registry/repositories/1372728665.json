@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/reconurge/flowsint",
-  "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+  "description": "Open-source security and OSINT platform that combines multiple reconnaissance and investigation tools in a workflow-oriented interface.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-06T15:51:04Z",
-    "github_description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators."
+    "github_description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "182056979b12f86d495dd962b627ac6e065b4f02",
   "current_commit": "182056979b12f86d495dd962b627ac6e065b4f02",
   "inspection_date": "2026-09-20T05:36:21.460378+00:00",
   "categories": [
-    "category:general-other"
+    "category:cybersecurity",
+    "category:automation-scripting",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.846712+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.761742+00:00",
   "tree_files": 878,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 772,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 790,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.138404+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source security and OSINT platform that combines multiple reconnaissance and investigation tools in a workflow-oriented interface.",
+    "reuse_recommendation": "Use only for authorized investigations with strict target scope and data retention controls.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license and every integrated tool’s terms.",
+    "runtime": [
+      "Python/TypeScript services",
+      "security tool integrations",
+      "database"
+    ],
+    "keywords": [
+      "Flowsint",
+      "OSINT",
+      "security investigation",
+      "reconnaissance",
+      "workflow automation"
+    ],
+    "risk_notes": [
+      "OSINT results can contain personal data; integrated scanners may affect target systems."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Flowsint platform",
+        "purpose": "Combines security tooling, workflows and result handling for investigations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:43.413297+00:00",
+    "inspected_commit": "182056979b12f86d495dd962b627ac6e065b4f02",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fd5939773cdfa3782e5f72e13deb00180c9d78d3",
+        "value": "https://github.com/jamesrwatsonx-creator/flowsint/blob/182056979b12f86d495dd962b627ac6e065b4f02/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "OSINT tool orchestration",
+        "description": "Connects reconnaissance and investigation tools through shared workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:osint-tool-orchestration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "investigation data management",
+        "description": "Collects and presents results for analyst review.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:investigation-data-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "security workflow interface",
+        "description": "Provides an interface for composing and operating investigation tasks.",
+        "scope": "DESIGN",
+        "id": "cluster:security-workflow-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

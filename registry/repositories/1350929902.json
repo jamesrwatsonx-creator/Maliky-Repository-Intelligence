@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/livekit-examples/swift-example",
-  "description": "Example app for LiveKit Swift SDK 👉 https://github.com/livekit/client-sdk-swift",
+  "description": "Example iOS and macOS application demonstrating LiveKit Swift SDK realtime room and media integration.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-07T14:46:33Z",
-    "github_description": "Example app for LiveKit Swift SDK 👉 https://github.com/livekit/client-sdk-swift"
+    "github_description": "Example app for LiveKit Swift SDK 👉 https://github.com/livekit/client-sdk-swift",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f405b66ae1015d277180ac7ee0434aa24209177f",
   "current_commit": "f405b66ae1015d277180ac7ee0434aa24209177f",
   "inspection_date": "2026-09-20T05:35:37.568730+00:00",
   "categories": [
-    "category:apis"
+    "category:mobile-applications",
+    "category:ai-applications",
+    "category:templates-boilerplates"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.383659+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.499166+00:00",
   "tree_files": 81,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 46,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 35,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.201240+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Example iOS and macOS application demonstrating LiveKit Swift SDK realtime room and media integration.",
+    "reuse_recommendation": "Use as a starting reference with current LiveKit SDK docs and sample credentials; review microphone/camera permission and network behavior.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "Apache-2.0; LiveKit SDK terms apply.",
+    "runtime": [
+      "Swift",
+      "SwiftUI/AppKit",
+      "LiveKit Swift SDK",
+      "iOS/macOS"
+    ],
+    "keywords": [
+      "LiveKit Swift example",
+      "iOS realtime media",
+      "macOS video call",
+      "WebRTC SDK"
+    ],
+    "risk_notes": [
+      "Realtime calls capture audio/video and depend on server tokens; protect credentials and obtain user consent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Apple LiveKit sample app",
+        "purpose": "Illustrates client SDK setup and realtime room media workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:52.841130+00:00",
+    "inspected_commit": "f405b66ae1015d277180ac7ee0434aa24209177f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d97919f820222d9e3153c84468779c35cd5f9feb",
+        "value": "https://github.com/jamesrwatsonx-creator/livekit-swift-example/blob/f405b66ae1015d277180ac7ee0434aa24209177f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "LiveKit iOS client example",
+        "description": "Demonstrates connecting an Apple mobile app to LiveKit rooms.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:livekit-ios-client-example",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "macOS realtime media example",
+        "description": "Shows desktop integration patterns for LiveKit media sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:macos-realtime-media-example",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

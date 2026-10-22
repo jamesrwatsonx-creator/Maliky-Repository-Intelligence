@@ -11,27 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/livekit-examples/agent-starter-react",
-  "description": "A complete voice AI frontend app for LiveKit Agents with Next.js",
+  "description": "React starter template for LiveKit Agents with voice, transcription and virtual-avatar UI components.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-24T01:14:29Z",
-    "github_description": "A complete voice AI frontend app for LiveKit Agents with Next.js"
+    "github_description": "A complete voice AI frontend app for LiveKit Agents with Next.js",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "46f51a6a300cceeb1c1460116a620c32cdef18fb",
   "current_commit": "46f51a6a300cceeb1c1460116a620c32cdef18fb",
   "inspection_date": "2026-09-20T05:33:46.817856+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ai-agents",
-    "category:creative-tools",
+    "category:templates-boilerplates",
     "category:frontend-applications",
-    "category:generative-ai",
-    "category:libraries-packages"
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:03",
     "operational:09",
@@ -77,7 +75,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -322,11 +320,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.377682+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.491168+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -348,8 +347,8 @@
   "tree_files": 88,
   "files_read": 65,
   "entity_count": 33,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 1,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -368,5 +367,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.200612+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "React starter template for LiveKit Agents with voice, transcription and virtual-avatar UI components.",
+    "reuse_recommendation": "Strong starter for voice UI; review token issuance, microphone/video permissions, realtime service costs and private audio handling.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT; LiveKit services and SDK terms apply.",
+    "runtime": [
+      "TypeScript",
+      "React",
+      "LiveKit Agents SDK",
+      "LiveKit UI components"
+    ],
+    "keywords": [
+      "LiveKit voice agent UI",
+      "React starter",
+      "transcription interface",
+      "virtual avatar",
+      "realtime assistant"
+    ],
+    "risk_notes": [
+      "Captures and transmits audio/video; use short-lived tokens and clear consent/privacy controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LiveKit React starter",
+        "purpose": "Connects agent SDK session state to reusable UI components.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:53.864176+00:00",
+    "inspected_commit": "46f51a6a300cceeb1c1460116a620c32cdef18fb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "08251e01db56596cb34eff0b94a1d9b3c79b11a1",
+        "value": "https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "voice agent interface",
+        "description": "Provides a React user interface for realtime voice-agent sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-agent-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "transcription display",
+        "description": "Integrates text output and transcript state with voice interactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:transcription-display",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "avatar interaction UI",
+        "description": "Supports virtual-avatar presentation in the agent experience.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:avatar-interaction-ui",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coollabsio/coolify",
-  "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+  "description": "Self-hosted platform for deploying and managing applications, databases and services on user-owned servers.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-16T03:14:21Z",
-    "github_description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+    "github_description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ede9d8417a200198eb101bdc82afe35b2728ba52",
   "current_commit": "ede9d8417a200198eb101bdc82afe35b2728ba52",
   "inspection_date": "2026-09-20T05:36:31.904062+00:00",
   "categories": [
-    "category:devops"
+    "category:devops",
+    "category:cloud-infrastructure",
+    "category:containers"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 34,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.527985+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.348995+00:00",
   "tree_files": 4077,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3370,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3575,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.112426+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hosted platform for deploying and managing applications, databases and services on user-owned servers.",
+    "reuse_recommendation": "Use for self-hosted deployments with strong server hardening, secret management and backups.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Apache-2.0; managed features may have separate terms.",
+    "runtime": [
+      "PHP/Laravel or declared stack",
+      "Docker",
+      "Linux servers"
+    ],
+    "keywords": [
+      "Coolify",
+      "self-hosted PaaS",
+      "application deployment",
+      "Docker hosting",
+      "server management"
+    ],
+    "risk_notes": [
+      "Deployment credentials and server control are privileged; misconfiguration can expose services or data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Coolify deployment platform",
+        "purpose": "Provides a self-hosted control plane for application infrastructure.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:52.159546+00:00",
+    "inspected_commit": "ede9d8417a200198eb101bdc82afe35b2728ba52",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ee4028d6a0c0dec31ead3e19b323ec734f604676",
+        "value": "https://github.com/jamesrwatsonx-creator/coolify/blob/ede9d8417a200198eb101bdc82afe35b2728ba52/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "application build and deployment",
+        "description": "Deploys applications from repositories and supported build systems.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-build-and-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "database and service management",
+        "description": "Creates and administers common stateful services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:database-and-service-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "server and environment operations",
+        "description": "Manages hosts, domains, certificates and deployment settings.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:server-and-environment-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -33,6 +33,14 @@ def check():
         failures.append("public repository coverage differs from canonical repository registry")
     if {x["id"] for x in assets} != active_entity_ids:
         failures.append("active asset coverage differs from canonical entity registry")
+    exported_repos = {x['id']: x for x in repos}
+    for repo in canonical_repos:
+        info = repo.get('repository_intelligence', {})
+        if info.get('status') == 'COMPLETE':
+            exported = exported_repos.get(repo['id'], {})
+            for field in ('capability_clusters', 'keywords', 'important_subsystems', 'asset_presence', 'runtime', 'license_notes', 'risk_notes', 'reuse_recommendation', 'source_evidence'):
+                if exported.get(field) != info.get(field): failures.append(repo['id']+': summary export mismatch '+field)
+            if exported.get('completion_scope') != r.SUMMARY_POLICY: failures.append(repo['id']+': summary scope missing')
     for item in assets:
         required = ("id", "name", "repository", "repository_url", "source_path", "source_url", "review_status", "evidence_status", "inspected_commit", "blob_sha")
         missing = [key for key in required if not item.get(key)]

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/mifi/editly",
-  "description": "Slick, declarative command line video editing & API",
+  "description": "Node.js command-line tool and framework for declaratively creating edited videos from media clips, titles, transitions, audio and overlays.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-05-12T07:03:44Z",
-    "github_description": "Slick, declarative command line video editing & API"
+    "github_description": "Slick, declarative command line video editing & API",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
   "current_commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
   "inspection_date": "2026-10-20T23:59:55.731150+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:cli-tools",
+    "category:libraries-packages"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.726937+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.627171+00:00",
   "tree_files": 100,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 57,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 45,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Node.js command-line tool and framework for declaratively creating edited videos from media clips, titles, transitions, audio and overlays.",
+    "reuse_recommendation": "Use for automated video composition after validating input paths, FFmpeg availability and media rights.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT; bundled codecs and media dependencies have separate terms.",
+    "runtime": [
+      "JavaScript",
+      "Node.js",
+      "FFmpeg",
+      "media processing"
+    ],
+    "keywords": [
+      "editly video editor",
+      "declarative video editing",
+      "FFmpeg CLI",
+      "video montage",
+      "JavaScript media framework"
+    ],
+    "risk_notes": [
+      "Processes local media and invokes native tools; constrain file paths, resources and untrusted inputs."
+    ],
+    "important_subsystems": [
+      {
+        "name": "editly renderer",
+        "purpose": "Composes media, overlays, audio and transitions into a video file.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:56.503683+00:00",
+    "inspected_commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b133c8050e45cdf5339f1852966bbfa6a5398c21",
+        "value": "https://github.com/jamesrwatsonx-creator/editly/blob/dc46674052eacd15ef6e0f563a58eb378b3804ad/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "declarative video composition",
+        "description": "Builds edited videos from a structured sequence of clips and effects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:declarative-video-composition",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CLI video rendering",
+        "description": "Provides a command-line workflow for producing rendered video output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cli-video-rendering",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "programmable editing framework",
+        "description": "Exposes reusable composition features for application integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:programmable-editing-framework",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

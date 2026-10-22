@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-  "description": "Chrome DevTools for coding agents",
+  "description": "MCP server that lets coding agents inspect and control a live Chrome browser through Chrome DevTools Protocol.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-02T19:01:21Z",
-    "github_description": "Chrome DevTools for coding agents"
+    "github_description": "Chrome DevTools for coding agents",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b2007ab86639a0ae4e4370484561158773112b93",
   "current_commit": "b2007ab86639a0ae4e4370484561158773112b93",
   "inspection_date": "2026-09-20T05:35:45.440991+00:00",
   "categories": [
-    "category:ai-agents",
+    "category:mcp-servers",
     "category:developer-tools",
-    "category:mcp-servers"
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.392485+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.192874+00:00",
   "tree_files": 301,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 267,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 259,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.095405+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "MCP server that lets coding agents inspect and control a live Chrome browser through Chrome DevTools Protocol.",
+    "reuse_recommendation": "Strong browser/debug candidate; isolate browser profiles and restrict access to authenticated data, console logs and network requests.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE; Chrome/Google terms apply.",
+    "runtime": [
+      "Node.js",
+      "MCP",
+      "Chrome DevTools Protocol"
+    ],
+    "keywords": [
+      "Chrome DevTools MCP",
+      "browser debugging agent",
+      "CDP",
+      "live browser inspection",
+      "web automation"
+    ],
+    "risk_notes": [
+      "Live browser control may expose credentials, private pages and local session data; protect the CDP endpoint."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Chrome DevTools MCP server",
+        "purpose": "Bridges MCP calls to Chrome inspection and control.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:15.882973+00:00",
+    "inspected_commit": "b2007ab86639a0ae4e4370484561158773112b93",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b08e3f4d7c36b090fba41d5307696f9a2cc3f276",
+        "value": "https://github.com/jamesrwatsonx-creator/chrome-devtools-mcp/blob/b2007ab86639a0ae4e4370484561158773112b93/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "live browser inspection",
+        "description": "Exposes browser tabs, console, network and page information to an agent.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:live-browser-inspection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser interaction tools",
+        "description": "Lets agents perform page operations through Chrome DevTools Protocol.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-interaction-tools",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP integration",
+        "description": "Connects Chrome debugging capabilities to MCP clients.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

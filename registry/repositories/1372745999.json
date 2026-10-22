@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/dgtlmoon/changedetection.io",
-  "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+  "description": "Voice-driven website monitoring or change detection workflow that combines spoken interaction with page-change alerts and crawling.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-15T07:43:43Z",
-    "github_description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!"
+    "github_description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b61b83c35d72b3cbfa826edf6666dd2c5061fd64",
   "current_commit": "b61b83c35d72b3cbfa826edf6666dd2c5061fd64",
   "inspection_date": "2026-09-20T05:36:27.128130+00:00",
   "categories": [
-    "category:frontend-applications",
-    "category:generative-ai"
+    "category:automation-scripting",
+    "category:media-publishing",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:16"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.633653+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.648030+00:00",
   "tree_files": 1137,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 401,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 492,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.332115+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice-driven website monitoring or change detection workflow that combines spoken interaction with page-change alerts and crawling.",
+    "reuse_recommendation": "Use for permitted monitoring with conservative intervals and clear notification controls.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository and changedetection.io license plus monitored-site terms.",
+    "runtime": [
+      "Web application",
+      "changedetection.io",
+      "speech/agent services"
+    ],
+    "keywords": [
+      "website change detection",
+      "voice agent",
+      "page monitoring",
+      "alerts",
+      "web automation"
+    ],
+    "risk_notes": [
+      "Frequent crawling can burden sites; voice and monitored URLs may reveal private interests."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice change monitoring workflow",
+        "purpose": "Connects page-change detection to conversational monitoring tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:16.010966+00:00",
+    "inspected_commit": "b61b83c35d72b3cbfa826edf6666dd2c5061fd64",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ce1336724f99c84cc12c78050aaefe41e8accf6d",
+        "value": "https://github.com/jamesrwatsonx-creator/Voice-website-idea-changedetection.io/blob/b61b83c35d72b3cbfa826edf6666dd2c5061fd64/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "website monitoring",
+        "description": "Tracks selected pages for content or structural changes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:website-monitoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice interaction and alerts",
+        "description": "Provides speech-oriented configuration or notification workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-interaction-and-alerts",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

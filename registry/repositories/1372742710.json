@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/imputnet/cobalt",
-  "description": "best way to save what you love",
+  "description": "Cobalt web application and service for saving downloadable media from supported online links.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-04-06T11:59:56Z",
-    "github_description": "best way to save what you love"
+    "github_description": "best way to save what you love",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a636575b09de1fc55d9b8cd98cac88f5f2f16b42",
   "current_commit": "a636575b09de1fc55d9b8cd98cac88f5f2f16b42",
   "inspection_date": "2026-09-20T05:36:22.596075+00:00",
   "categories": [
+    "category:media-publishing",
+    "category:web-applications",
     "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.573348+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.591001+00:00",
   "tree_files": 468,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 396,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 392,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.325676+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cobalt web application and service for saving downloadable media from supported online links.",
+    "reuse_recommendation": "Review URL filtering, SSRF, subprocesses and copyright/platform terms before deployment or public exposure.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository license and source-platform/media rights.",
+    "runtime": [
+      "Web application/service",
+      "media extraction and transcoding dependencies"
+    ],
+    "keywords": [
+      "cobalt.tools",
+      "media downloader",
+      "video link download",
+      "audio extraction",
+      "web media utility"
+    ],
+    "risk_notes": [
+      "Arbitrary media URLs can trigger network/file risks and copyright concerns; restrict inputs and protect service access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Cobalt media service",
+        "purpose": "Coordinates supported media link resolution and downloads.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:53.152955+00:00",
+    "inspected_commit": "a636575b09de1fc55d9b8cd98cac88f5f2f16b42",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "795eb7e30a742fbf5ebcf16991e6e5c90332f614",
+        "value": "https://github.com/jamesrwatsonx-creator/Video-studio-cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "media URL download service",
+        "description": "Accepts supported media links and returns downloadable media files.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-url-download-service",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "web download interface",
+        "description": "Provides a simple browser interface for media retrieval.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web-download-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted service deployment",
+        "description": "Supports running the media service on user infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-service-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

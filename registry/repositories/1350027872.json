@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/NousResearch/Hermes-Bot-Mode",
-  "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+  "description": "Archived desktop plugin prototype for aggregating and displaying connected Hermes bot activity; current Hermes Desktop reportedly includes Bot Mode natively.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-17T01:32:13Z",
-    "github_description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches."
+    "github_description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "80fee22582b871b9765a65e2992b8b5a8211c9f8",
   "current_commit": "80fee22582b871b9765a65e2992b8b5a8211c9f8",
   "inspection_date": "2026-09-20T05:35:32.138138+00:00",
   "categories": [
+    "category:desktop-applications",
+    "category:plugins-extensions",
     "category:ai-agents"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.112662+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.184143+00:00",
   "tree_files": 47,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 37,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 26,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,104 @@
     ],
     "updated_at": "2026-10-12T19:04:27.171310+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Archived desktop plugin prototype for aggregating and displaying connected Hermes bot activity; current Hermes Desktop reportedly includes Bot Mode natively.",
+    "reuse_recommendation": "Prefer the current Hermes Desktop implementation; consult this repository only for historical UI or migration reference.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "See repository LICENSE; Hermes upstream carries its own terms.",
+    "runtime": [
+      "JavaScript desktop plugin",
+      "Hermes Desktop"
+    ],
+    "keywords": [
+      "Hermes bot mode",
+      "desktop plugin",
+      "bot roster",
+      "activity dashboard"
+    ],
+    "risk_notes": [
+      "Archived and superseded according to README; confirm compatibility and avoid installing obsolete plugin code."
+    ],
+    "important_subsystems": [
+      {
+        "name": "bot mode plugin",
+        "purpose": "Provides the bot roster and activity interface now described as built into Hermes Desktop.",
+        "evidence_paths": [
+          "README.md",
+          "plugin.js"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:44.908867+00:00",
+    "inspected_commit": "80fee22582b871b9765a65e2992b8b5a8211c9f8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c27b42741032f3f385fb4df6e512526cd008e0fa",
+        "value": "https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode/blob/80fee22582b871b9765a65e2992b8b5a8211c9f8/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "5700b997827973cb0eb6d84a2782bb08a5872434",
+        "value": "https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode/blob/80fee22582b871b9765a65e2992b8b5a8211c9f8/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "plugin.js",
+        "blob_sha": "c514f97ffa6e77013f55c11fc6ea2e8ae0da0dbf",
+        "value": "https://github.com/jamesrwatsonx-creator/Hermes-Bot-Mode/blob/80fee22582b871b9765a65e2992b8b5a8211c9f8/plugin.js"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "bot activity display",
+        "description": "Shows activity and roster information for connected assistant bots.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:bot-activity-display",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugin.js"
+        ]
+      },
+      {
+        "name": "Hermes desktop plugin integration",
+        "description": "Implements an archived plugin extension for the Hermes desktop host.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hermes-desktop-plugin-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "plugin.js"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

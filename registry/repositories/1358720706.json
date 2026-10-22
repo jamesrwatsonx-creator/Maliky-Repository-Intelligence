@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/cloudflare/agentic-inbox",
-  "description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers",
+  "description": "Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-04-23T21:04:17Z",
-    "github_description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers"
+    "github_description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "48039bb6785af34e592c2966f87cde2b255c4c80",
   "current_commit": "48039bb6785af34e592c2966f87cde2b255c4c80",
   "inspection_date": "2026-09-20T05:35:55.163696+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:web-applications",
+    "category:business-applications",
+    "category:cloud-infrastructure"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.917862+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.622944+00:00",
   "tree_files": 72,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 64,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 54,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,145 @@
     ],
     "updated_at": "2026-10-12T19:04:27.037306+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.",
+    "reuse_recommendation": "Strategically useful email architecture; deeply review OAuth/authorization, prompt injection from email, attachment handling, retention and send-confirmation controls before deployment.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; Cloudflare and model-provider terms apply.",
+    "runtime": [
+      "TypeScript",
+      "Cloudflare Workers",
+      "Durable Objects with SQLite",
+      "R2",
+      "AI API"
+    ],
+    "keywords": [
+      "agentic email inbox",
+      "Cloudflare email routing",
+      "AI email assistant",
+      "Durable Objects",
+      "mailbox isolation"
+    ],
+    "risk_notes": [
+      "Processes private email and attachments and may send messages; authentication, injection defense, retention and explicit send approval are deep-review triggers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Cloudflare email and mailbox backend",
+        "purpose": "Receives email and maintains per-mailbox state and attachments.",
+        "evidence_paths": [
+          "README.md",
+          "workers/index.ts"
+        ]
+      },
+      {
+        "name": "AI email workflow",
+        "purpose": "Adds agent-assisted search and reply drafting to the inbox.",
+        "evidence_paths": [
+          "README.md",
+          "app/types/index.ts"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:49.288834+00:00",
+    "inspected_commit": "48039bb6785af34e592c2966f87cde2b255c4c80",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e1e2eb724d621480fdb6d7f7d17d848ee9fcfbd7",
+        "value": "https://github.com/jamesrwatsonx-creator/-email-agentic-inbox/blob/48039bb6785af34e592c2966f87cde2b255c4c80/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "387f6e060936d5af8d8d5fe1744a082c282b7e1c",
+        "value": "https://github.com/jamesrwatsonx-creator/-email-agentic-inbox/blob/48039bb6785af34e592c2966f87cde2b255c4c80/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "9d6f02729246bf27baf0fa38bdde00be48a5c0ed",
+        "value": "https://github.com/jamesrwatsonx-creator/-email-agentic-inbox/blob/48039bb6785af34e592c2966f87cde2b255c4c80/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "workers/index.ts",
+        "blob_sha": "fd3359ce7e5c4ca6141eb4a1ac122506617b0a37",
+        "value": "https://github.com/jamesrwatsonx-creator/-email-agentic-inbox/blob/48039bb6785af34e592c2966f87cde2b255c4c80/workers/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "app/types/index.ts",
+        "blob_sha": "9ee40892eec12d52610212450f91cc7d5560f46f",
+        "value": "https://github.com/jamesrwatsonx-creator/-email-agentic-inbox/blob/48039bb6785af34e592c2966f87cde2b255c4c80/app/types/index.ts"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "self-hosted email client",
+        "description": "Provides a web interface to send, receive and manage email through a user's Cloudflare account.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-email-client",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "workers/index.ts",
+          "app/types/index.ts"
+        ]
+      },
+      {
+        "name": "isolated mailbox storage",
+        "description": "Separates mailbox state using Durable Objects and stores attachments in R2.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:isolated-mailbox-storage",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "workers/index.ts",
+          "app/types/index.ts"
+        ]
+      },
+      {
+        "name": "AI inbox assistant",
+        "description": "Supports inbox search and draft reply workflows through a model integration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-inbox-assistant",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "workers/index.ts",
+          "app/types/index.ts"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

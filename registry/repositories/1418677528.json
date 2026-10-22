@@ -11,31 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/appwrite/appwrite",
-  "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+  "description": "Backend-as-a-service integration or agent workflow connecting application development to Appwrite and Supabase services.",
   "metadata": {
     "language": null,
     "license": "BSD-3-Clause",
     "archived": false,
     "pushed_at": "2026-10-14T09:28:17Z",
-    "github_description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more"
+    "github_description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "61833ff0f9dd5985f580b230244749247b170a6f",
   "current_commit": "61833ff0f9dd5985f580b230244749247b170a6f",
   "inspection_date": "2026-10-20T23:52:04.021374+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:apis",
-    "category:application-security",
     "category:backend-services",
-    "category:cloud-infrastructure",
-    "category:developer-tools",
-    "category:full-stack-applications",
-    "category:libraries-packages",
-    "category:mcp-servers",
-    "category:web-applications"
+    "category:apis",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:16",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:appwrite-administration-console",
@@ -115,7 +109,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -424,13 +418,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.079408+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.787101+00:00",
   "tree_files": 14789,
   "files_read": 9237,
   "entity_count": 71,
-  "unread_source_files": 0,
+  "unread_source_files": 66,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:32:07.194472+00:00",
@@ -520,5 +515,89 @@
       "provider-specific and route-level implementation classes represented by their product or library boundary"
     ],
     "scoped_deep_review": "Authentication, secrets, privileged infrastructure and arbitrary-execution triggers reviewed narrowly. Appwrite exposes session/key/JWT/OAuth authorization, stores provider and encryption credentials, runs user functions, accepts network traffic, mounts the Docker socket during installation and coordinates many privileged workers. Source includes explicit production-key checks and security scanning rules, but static review does not certify tenant isolation, authorization coverage, cryptographic operation, runtime sandboxing or deployment hardening."
+  },
+  "repository_intelligence": {
+    "purpose": "Backend-as-a-service integration or agent workflow connecting application development to Appwrite and Supabase services.",
+    "reuse_recommendation": "Use with test projects and review auth rules, service keys and database access policies.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository and Appwrite/Supabase service terms.",
+    "runtime": [
+      "Repository-declared language",
+      "Appwrite/Supabase APIs",
+      "agent host"
+    ],
+    "keywords": [
+      "Appwrite",
+      "Supabase",
+      "BaaS integration",
+      "agent app development",
+      "backend services"
+    ],
+    "risk_notes": [
+      "Backend credentials and authorization configuration are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Appwrite/Supabase integration workflow",
+        "purpose": "Provides an application or agent path for backend-as-a-service capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:55.210230+00:00",
+    "inspected_commit": "61833ff0f9dd5985f580b230244749247b170a6f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2fb01850790fd025c0ab172c14d7775ff1a409cd",
+        "value": "https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "backend service integration",
+        "description": "Connects applications to authentication, database and storage APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:backend-service-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent-assisted backend workflows",
+        "description": "Guides agents through configuring or building with BaaS platforms.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-assisted-backend-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

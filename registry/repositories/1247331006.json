@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/promptfoo/promptfoo",
-  "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+  "description": "Developer tool for evaluating, testing and red-teaming LLM applications, prompts and model providers.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-23T07:02:56Z",
-    "github_description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic."
+    "github_description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "1205a2a2be77beb8505731515d0af1ee893cacb0",
   "current_commit": "1205a2a2be77beb8505731515d0af1ee893cacb0",
   "inspection_date": "2026-09-20T05:32:31.794704+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:devops"
+    "category:ai-evaluation",
+    "category:developer-tools",
+    "category:cybersecurity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:23",
   "secondary_operational_categories": [
     "operational:14"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 18,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.898033+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.014968+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 5241,
-  "files_read": 10,
+  "files_read": 18,
   "entity_count": 1,
-  "unread_source_files": 4336,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4532,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.262568+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Developer tool for evaluating, testing and red-teaming LLM applications, prompts and model providers.",
+    "reuse_recommendation": "Use to test model behavior and include representative, privacy-safe cases in release checks.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "MIT; hosted services and provider terms are separate.",
+    "runtime": [
+      "Node.js/TypeScript",
+      "LLM provider APIs",
+      "CLI and CI"
+    ],
+    "keywords": [
+      "Promptfoo",
+      "LLM evaluation",
+      "prompt testing",
+      "red teaming",
+      "AI security"
+    ],
+    "risk_notes": [
+      "Red-team testing should remain scoped; evaluation datasets may contain sensitive prompts."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Promptfoo evaluation engine",
+        "purpose": "Makes model behavior testable across prompts and providers.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:42.804078+00:00",
+    "inspected_commit": "1205a2a2be77beb8505731515d0af1ee893cacb0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d237a4834cfe0c8b309bd0bd4be1cab3a0aa7982",
+        "value": "https://github.com/jamesrwatsonx-creator/promptfoo/blob/1205a2a2be77beb8505731515d0af1ee893cacb0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "prompt and model evaluations",
+        "description": "Runs structured test cases against prompts and providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-and-model-evaluations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "LLM red teaming",
+        "description": "Tests model applications for safety and security weaknesses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:llm-red-teaming",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CI and reporting integration",
+        "description": "Connects evaluation results to developer workflows and release gates.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ci-and-reporting-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

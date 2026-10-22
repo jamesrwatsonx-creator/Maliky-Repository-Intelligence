@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": ":id: A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution.",
+  "upstream_url": "https://github.com/dedupeio/dedupe",
+  "description": "Python library for entity resolution and fuzzy deduplication of records using learned similarity models.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-07-29T00:18:20Z",
-    "github_description": ":id: A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution."
+    "github_description": ":id: A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "3f61e79102910bd355e920a2df7e44c14c9cb247",
+  "current_commit": "3f61e79102910bd355e920a2df7e44c14c9cb247",
+  "inspection_date": "2026-10-22T02:32:01.885186+00:00",
   "categories": [
-    "category:general-other"
+    "category:databases",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.608934+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.448069+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.120306+00:00",
     "purpose_established": true
+  },
+  "tree_files": 104,
+  "files_read": 10,
+  "unread_source_files": 81,
+  "repository_intelligence": {
+    "purpose": "Python library for entity resolution and fuzzy deduplication of records using learned similarity models.",
+    "reuse_recommendation": "Use for record linkage after evaluating data quality, thresholds and privacy constraints.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review pinned license and model/data handling obligations.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "entity resolution",
+      "record linkage",
+      "deduplication",
+      "fuzzy matching",
+      "Python data quality"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Dedupe matching library",
+        "purpose": "Supports scalable entity resolution over structured records.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:29.604692+00:00",
+    "inspected_commit": "3f61e79102910bd355e920a2df7e44c14c9cb247",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "19bb7f47468104fbf1f90f68cb0d5adb7facf601",
+        "value": "https://github.com/jamesrwatsonx-creator/dedupe/blob/3f61e79102910bd355e920a2df7e44c14c9cb247/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Record linkage and deduplication",
+        "description": "Finds likely duplicate records from noisy fields and supports learned matching workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:record-linkage-and-deduplication",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

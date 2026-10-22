@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/jbhuang0604/awesome-computer-vision",
-  "description": "A curated list of awesome computer vision resources",
+  "description": "Curated computer-vision learning, research, dataset, software and pretrained-model references rather than a bundled vision implementation.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2024-05-17T14:24:27Z",
-    "github_description": "A curated list of awesome computer vision resources"
+    "github_description": "A curated list of awesome computer vision resources",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9b82b1645aecdc9b895fc378d5209a9f6672bb15",
   "current_commit": "9b82b1645aecdc9b895fc378d5209a9f6672bb15",
   "inspection_date": "2026-10-20T23:57:38.755134+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:machine-learning-models",
+    "category:research-projects",
+    "category:documentation"
+  ],
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,122 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.146773+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.866148+00:00",
   "tree_files": 2,
-  "files_read": 0,
+  "files_read": 2,
   "entity_count": 0,
-  "unread_source_files": 2,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Curated computer-vision learning, research, dataset, software and pretrained-model references rather than a bundled vision implementation.",
+    "reuse_recommendation": "Use as a discovery index, then inspect the selected upstream artifact, dataset provenance and license independently.",
+    "inspection_scope": "The inspected two-file directory organizes external vision resources and academic references; linked models, datasets and tools are not included.",
+    "license_notes": "No repository license established in the reviewed tree.",
+    "runtime": [
+      "Markdown directory"
+    ],
+    "keywords": [
+      "computer vision resources",
+      "vision datasets",
+      "pretrained models",
+      "research papers",
+      "learning resources"
+    ],
+    "risk_notes": [
+      "Linked models and datasets are external; the catalogue does not establish their quality, safety or reuse rights."
+    ],
+    "important_subsystems": [
+      {
+        "name": "vision resource index",
+        "purpose": "Organizes external tools, datasets, models and research links.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "researcher directory",
+        "purpose": "Lists people and research references related to computer vision.",
+        "evidence_paths": [
+          "people.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:29.382600+00:00",
+    "inspected_commit": "9b82b1645aecdc9b895fc378d5209a9f6672bb15",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b221ddfdb2bc5d2f02d24ac11dc04967c83348bf",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-computer-vision/blob/9b82b1645aecdc9b895fc378d5209a9f6672bb15/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "people.md",
+        "blob_sha": "790739d9d83be73ebbd507562c77034461de51b9",
+        "value": "https://github.com/jamesrwatsonx-creator/awesome-computer-vision/blob/9b82b1645aecdc9b895fc378d5209a9f6672bb15/people.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "EXTERNAL_REFERENCE",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "vision research discovery",
+        "description": "Indexes external papers and software for computer-vision topics.",
+        "scope": "REFERENCE",
+        "id": "cluster:vision-research-discovery",
+        "evidence_paths": [
+          "README.md",
+          "people.md"
+        ]
+      },
+      {
+        "name": "dataset and model discovery",
+        "description": "Points to externally hosted vision datasets and pretrained models.",
+        "scope": "REFERENCE",
+        "id": "cluster:dataset-and-model-discovery",
+        "evidence_paths": [
+          "README.md",
+          "people.md"
+        ]
+      },
+      {
+        "name": "vision learning resources",
+        "description": "Collects educational material and academic references.",
+        "scope": "REFERENCE",
+        "id": "cluster:vision-learning-resources",
+        "evidence_paths": [
+          "README.md",
+          "people.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

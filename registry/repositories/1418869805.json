@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/nbr23/youtube-dl-server",
-  "description": "Web / REST interface for downloading youtube videos onto a server.",
+  "description": "Self-hosted web interface and server for downloading or processing media from supported URLs using yt-dlp and FFmpeg.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-02T01:24:40Z",
-    "github_description": "Web / REST interface for downloading youtube videos onto a server."
+    "github_description": "Web / REST interface for downloading youtube videos onto a server.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e6fc6e49a8a20b46b6d4b8745d834fdd5381236a",
   "current_commit": "e6fc6e49a8a20b46b6d4b8745d834fdd5381236a",
   "inspection_date": "2026-10-20T23:56:30.275538+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:web-applications",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,142 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.799551+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.835191+00:00",
   "tree_files": 41,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 32,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 22,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted web interface and server for downloading or processing media from supported URLs using yt-dlp and FFmpeg.",
+    "reuse_recommendation": "Use only behind access controls and strict URL/output limits; review subprocess handling and content rights before deployment.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Python or Node service; Vue frontend",
+      "yt-dlp",
+      "FFmpeg"
+    ],
+    "keywords": [
+      "youtube downloader server",
+      "yt-dlp web UI",
+      "media conversion",
+      "self-hosted video tools"
+    ],
+    "risk_notes": [
+      "Arbitrary URL retrieval and media conversion create SSRF, subprocess and file-write risks; public exposure needs authentication."
+    ],
+    "important_subsystems": [
+      {
+        "name": "download web interface",
+        "purpose": "Collects media requests and displays processing status.",
+        "evidence_paths": [
+          "front/src/App.vue",
+          "front/package.json"
+        ]
+      },
+      {
+        "name": "media service",
+        "purpose": "Coordinates URL retrieval and media processing.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:19.407356+00:00",
+    "inspected_commit": "e6fc6e49a8a20b46b6d4b8745d834fdd5381236a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6fb444d6e34ea116099f7096234c1dba17ffca3b",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-dl-server/blob/e6fc6e49a8a20b46b6d4b8745d834fdd5381236a/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "167760a8b183c0ea8f32ae29efba9177a202ce62",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-dl-server/blob/e6fc6e49a8a20b46b6d4b8745d834fdd5381236a/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "front/package.json",
+        "blob_sha": "b123a03c6ab9fa25a2fdde1348b0cd425e5e6772",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-dl-server/blob/e6fc6e49a8a20b46b6d4b8745d834fdd5381236a/front/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "front/src/App.vue",
+        "blob_sha": "fc9e5a9ea1e51faec8193ff59767081c1b206a6f",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-dl-server/blob/e6fc6e49a8a20b46b6d4b8745d834fdd5381236a/front/src/App.vue"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "media download service",
+        "description": "Provides a web-facing workflow for fetching media from supported URLs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-download-service",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "front/package.json",
+          "front/src/App.vue"
+        ]
+      },
+      {
+        "name": "media processing interface",
+        "description": "Offers a Vue UI for selecting and managing download or conversion tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-processing-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "front/package.json",
+          "front/src/App.vue"
+        ]
+      },
+      {
+        "name": "self-hosted deployment",
+        "description": "Packages the web frontend and backend for local or server use.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-deployment",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "front/package.json",
+          "front/src/App.vue"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

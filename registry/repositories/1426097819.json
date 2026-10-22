@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/D4Vinci/Scrapling",
-  "description": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+  "description": "Adaptive Python web scraping framework for extracting structured data from websites while handling page and site changes.",
   "metadata": {
     "language": null,
     "license": "BSD-3-Clause",
     "archived": false,
     "pushed_at": "2026-10-19T15:42:52Z",
-    "github_description": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev"
+    "github_description": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "fd531313a499092d8471bf24a0e08dc5771f2b40",
   "current_commit": "fd531313a499092d8471bf24a0e08dc5771f2b40",
   "inspection_date": "2026-10-21T00:00:32.860880+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:libraries-packages",
+    "category:automation-scripting",
+    "category:data-engineering"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.113384+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.166144+00:00",
   "tree_files": 671,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 618,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 609,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Adaptive Python web scraping framework for extracting structured data from websites while handling page and site changes.",
+    "reuse_recommendation": "Use for permitted collection with rate limits, robots/policy review and robust data validation.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and target site terms.",
+    "runtime": [
+      "Python",
+      "HTTP/browser automation"
+    ],
+    "keywords": [
+      "Scrapling",
+      "web scraping",
+      "Python parser",
+      "adaptive selectors",
+      "browser extraction"
+    ],
+    "risk_notes": [
+      "Scraping may violate site terms or expose personal data; browser evasion features need strict governance."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Scrapling extraction framework",
+        "purpose": "Combines parsing and adaptive collection for web data workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:24.687857+00:00",
+    "inspected_commit": "fd531313a499092d8471bf24a0e08dc5771f2b40",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f727f837f9d3067ecb64bcbc2b37796d3a76d969",
+        "value": "https://github.com/jamesrwatsonx-creator/Scrapling/blob/fd531313a499092d8471bf24a0e08dc5771f2b40/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "HTML parsing and extraction",
+        "description": "Extracts structured content from web pages using convenient selectors.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:html-parsing-and-extraction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "adaptive scraping",
+        "description": "Supports resilient extraction when page structure shifts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:adaptive-scraping",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser-backed collection",
+        "description": "Integrates browser automation for dynamic sites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-backed-collection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

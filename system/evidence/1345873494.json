@@ -5,16 +5,52 @@
   "tree_files": 625,
   "tree_entries": [
     {
+      "path": ".github/workflows/docker-publish.yml",
+      "sha": "99fa23af258c091be0d1d9fb21ab6c4c10f8350e"
+    },
+    {
       "path": "AGENTS.md",
       "sha": "f757d52e7d7732ead69791e34c04fb178ae8be90"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha": "206730b5fa436d85db9c8fb03f2008248b9f3707"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "aa960c1c9fff563358bfd49aecee4d4d1001b781"
     },
     {
       "path": "README.md",
       "sha": "206aa03ebe829e9091eab9d1ef0aea0c8923bae2"
     },
     {
+      "path": "assets/skills/soundhermes/SKILL.md",
+      "sha": "d64064a4e42e6aac874d531ff2638b16254c9f04"
+    },
+    {
+      "path": "assets/skills/task-manager/SKILL.md",
+      "sha": "d2d1e27b0a11a3b50508d219f91fe9f55e2d8a6b"
+    },
+    {
+      "path": "assets/skills/todo-board/SKILL.md",
+      "sha": "a9cc160464aa857f4fd7a6b48b1bf334d81956f9"
+    },
+    {
       "path": "package.json",
       "sha": "be0d81d94d90490f5c45c741906bb38e2ac7cf32"
+    },
+    {
+      "path": "server/index.js",
+      "sha": "0dd27694b2c813b1c2093ddb7265303975262f17"
+    },
+    {
+      "path": "src/features/onboarding/index.ts",
+      "sha": "347a18d2b74c995b43e958219efffd858a2609b5"
+    },
+    {
+      "path": "src/lib/dom/index.ts",
+      "sha": "8e452961935012dae36761282f2fef95a35ebfff"
     }
   ],
   "files_read": [
@@ -32,6 +68,51 @@
       "path": "AGENTS.md",
       "blob_sha": "f757d52e7d7732ead69791e34c04fb178ae8be90",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "aa960c1c9fff563358bfd49aecee4d4d1001b781",
+      "entities_detected": 0
+    },
+    {
+      "path": "assets/skills/soundhermes/SKILL.md",
+      "blob_sha": "d64064a4e42e6aac874d531ff2638b16254c9f04",
+      "entities_detected": 0
+    },
+    {
+      "path": "assets/skills/task-manager/SKILL.md",
+      "blob_sha": "d2d1e27b0a11a3b50508d219f91fe9f55e2d8a6b",
+      "entities_detected": 0
+    },
+    {
+      "path": "assets/skills/todo-board/SKILL.md",
+      "blob_sha": "a9cc160464aa857f4fd7a6b48b1bf334d81956f9",
+      "entities_detected": 0
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "blob_sha": "206730b5fa436d85db9c8fb03f2008248b9f3707",
+      "entities_detected": 0
+    },
+    {
+      "path": "server/index.js",
+      "blob_sha": "0dd27694b2c813b1c2093ddb7265303975262f17",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/features/onboarding/index.ts",
+      "blob_sha": "347a18d2b74c995b43e958219efffd858a2609b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/lib/dom/index.ts",
+      "blob_sha": "8e452961935012dae36761282f2fef95a35ebfff",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "blob_sha": "99fa23af258c091be0d1d9fb21ab6c4c10f8350e",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -40,12 +121,12 @@
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/SECURITY.md",
-    ".github/workflows/docker-publish.yml",
-    "ARCHITECTURE.md",
     "CHANGELOG.md",
     "CODE_DOCUMENTATION.md",
+    "CODE_OF_CONDUCT.MD",
     "CONTRIBUTING.md",
     "CREATING_SKILLS.md",
+    "Dockerfile",
     "MULTI_AGENT_BETA.md",
     "ROADMAP.md",
     "SECURITY.md",
@@ -53,10 +134,7 @@
     "SUPPORT.md",
     "TUTORIAL.md",
     "VISION.md",
-    "assets/skills/soundhermes/SKILL.md",
-    "assets/skills/task-manager/SKILL.md",
     "assets/skills/task-manager/tasks.example.json",
-    "assets/skills/todo-board/SKILL.md",
     "assets/skills/todo-board/todo-list.example.json",
     "components.json",
     "docs/agent-state-model-spec.md",
@@ -112,7 +190,6 @@
     "server/hermes-agent/kanban.js",
     "server/hermes-agent/office-speech.js",
     "server/hermes-gateway-adapter.js",
-    "server/index.js",
     "server/network-policy.js",
     "server/studio-settings.js",
     "skills-overview.md",
@@ -134,7 +211,11 @@
     "src/app/api/office/remote-handoff/route.ts",
     "src/app/api/office/remote-message/route.ts",
     "src/app/api/office/route.ts",
-    "src/app/api/office/standup/config/route.ts"
+    "src/app/api/office/standup/config/route.ts",
+    "src/app/api/office/standup/meeting/route.ts",
+    "src/app/api/office/standup/run/route.ts",
+    "src/app/api/office/text/route.ts",
+    "src/app/api/office/voice/reply/route.ts"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -188,8 +269,12 @@
     "src": 314,
     "tests": 192
   },
-  "unread_source_paths_count": 589,
+  "unread_source_paths_count": 585,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 33,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

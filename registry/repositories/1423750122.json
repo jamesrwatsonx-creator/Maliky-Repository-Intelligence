@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
-  "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+  "description": "SwiftUI Pro agent skill and plugin guidance for modern SwiftUI APIs, navigation, state, layout, animation, accessibility and performance.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-16T09:24:27Z",
-    "github_description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+    "github_description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ce32af1693b9e78a7d22ff48001c97a304d32063",
   "current_commit": "ce32af1693b9e78a7d22ff48001c97a304d32063",
   "inspection_date": "2026-10-20T23:58:08.429360+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:skills",
+    "category:mobile-applications",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -277,14 +282,152 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.334363+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.360280+00:00",
   "tree_files": 24,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 20,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 13,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "SwiftUI Pro agent skill and plugin guidance for modern SwiftUI APIs, navigation, state, layout, animation, accessibility and performance.",
+    "reuse_recommendation": "Use as source guidance alongside the target app and SDK documentation; check platform/API versions because the guidance may age.",
+    "inspection_scope": "Reviewed the packaged skill and nested variant. It supplies host-agent source guidance and references, not a SwiftUI component library or compiled runtime.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skill",
+      "plugin metadata",
+      "Swift and SwiftUI reference guidance"
+    ],
+    "keywords": [
+      "SwiftUI coding skill",
+      "iOS interface design",
+      "SwiftUI navigation",
+      "accessibility",
+      "performance"
+    ],
+    "risk_notes": [
+      "Guidance is not a component library and cannot guarantee current API correctness or accessibility conformance."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SwiftUI Pro skill",
+        "purpose": "Contains the core implementation and review guidance.",
+        "evidence_paths": [
+          "swiftui-pro/SKILL.md",
+          "swiftui-pro/skills/swiftui-pro/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin manifest",
+        "purpose": "Declares host discovery and package metadata.",
+        "evidence_paths": [
+          "swiftui-pro/.claude-plugin/plugin.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:29.603551+00:00",
+    "inspected_commit": "ce32af1693b9e78a7d22ff48001c97a304d32063",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "12e282c9336a10d31c23d53a586d2049e2b77525",
+        "value": "https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill/blob/ce32af1693b9e78a7d22ff48001c97a304d32063/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "e9f6fd1f59090753544df5af4edbd524f1aa0f32",
+        "value": "https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill/blob/ce32af1693b9e78a7d22ff48001c97a304d32063/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "swiftui-pro/SKILL.md",
+        "blob_sha": "6d7d37a6daa6cb95ec940e4c5bc598ba7637fde2",
+        "value": "https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill/blob/ce32af1693b9e78a7d22ff48001c97a304d32063/swiftui-pro/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "swiftui-pro/.claude-plugin/plugin.json",
+        "blob_sha": "2f914d3a432d5265d1a62dccaedae98d1f45bcf9",
+        "value": "https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill/blob/ce32af1693b9e78a7d22ff48001c97a304d32063/swiftui-pro/.claude-plugin/plugin.json"
+      },
+      {
+        "type": "source_review",
+        "path": "swiftui-pro/skills/swiftui-pro/SKILL.md",
+        "blob_sha": "2baea3b3a8bd378581ad8716db37bbf29231d611",
+        "value": "https://github.com/jamesrwatsonx-creator/SwiftUI-Agent-Skill/blob/ce32af1693b9e78a7d22ff48001c97a304d32063/swiftui-pro/skills/swiftui-pro/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "SwiftUI implementation guidance",
+        "description": "Guides agents through SwiftUI APIs, state, navigation and view composition.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:swiftui-implementation-guidance",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "swiftui-pro/SKILL.md",
+          "swiftui-pro/.claude-plugin/plugin.json",
+          "swiftui-pro/skills/swiftui-pro/SKILL.md"
+        ]
+      },
+      {
+        "name": "accessibility and performance review",
+        "description": "Provides instruction for evaluating VoiceOver, responsiveness and common SwiftUI pitfalls.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:accessibility-and-performance-review",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "swiftui-pro/SKILL.md",
+          "swiftui-pro/.claude-plugin/plugin.json",
+          "swiftui-pro/skills/swiftui-pro/SKILL.md"
+        ]
+      },
+      {
+        "name": "plugin packaging",
+        "description": "Distributes the guidance as a compatible agent skill/plugin.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:plugin-packaging",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "swiftui-pro/SKILL.md",
+          "swiftui-pro/.claude-plugin/plugin.json",
+          "swiftui-pro/skills/swiftui-pro/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

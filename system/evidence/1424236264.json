@@ -3,21 +3,121 @@
   "inspected_commit": "4e199f11fef663ffdebd0571ecd0ef808e34a9af",
   "tree_complete": true,
   "tree_files": 33,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "e7651926174018bf52ccd5fa5546f91fd0f67aca"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "94d70739691cb8abeef0527961672e55db3aec34"
+    },
+    {
+      "path": ".github/workflows/sdk-release-pr-notification.yml",
+      "sha": "365dc140a0df3046db1ec4a7a37b0d68540b9914"
+    },
+    {
+      "path": ".github/workflows/update-deps.yml",
+      "sha": "08e00efaebabf200c5fa919e26150f4afa970131"
+    },
+    {
+      "path": "README.md",
+      "sha": "04ffe2fd35f6a479a59cdc67ec7bd01b862260f6"
+    },
+    {
+      "path": "__tests__/audioPlayer.test.ts",
+      "sha": "acf2b60a07927e1014e8c43e3f7f10e18df7120e"
+    },
+    {
+      "path": "__tests__/vapi.test.ts",
+      "sha": "f50c75341dc712a8fb609daf36a9e14d401e3998"
+    },
+    {
+      "path": "api.ts",
+      "sha": "4219aa0a2bc398ea343df12827871c9eddf72f8e"
+    },
+    {
+      "path": "client.ts",
+      "sha": "17f8c72df118dc2a0ee0e5ec963f3fc81d6f1d76"
+    },
+    {
+      "path": "daily-guards.ts",
+      "sha": "b47a32d057d81b76a50c430081f12d2dffb53e44"
+    },
+    {
+      "path": "example/package.json",
+      "sha": "12802374126da86cb2a30c863779e279f423a27e"
+    },
+    {
+      "path": "package.json",
+      "sha": "8d93701f88e72dc8a495b6b8892f1a4446f253c9"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "04ffe2fd35f6a479a59cdc67ec7bd01b862260f6",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "8d93701f88e72dc8a495b6b8892f1a4446f253c9",
+      "entities_detected": 0
+    },
+    {
+      "path": "example/package.json",
+      "blob_sha": "12802374126da86cb2a30c863779e279f423a27e",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "e7651926174018bf52ccd5fa5546f91fd0f67aca",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "blob_sha": "94d70739691cb8abeef0527961672e55db3aec34",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/sdk-release-pr-notification.yml",
+      "blob_sha": "365dc140a0df3046db1ec4a7a37b0d68540b9914",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/update-deps.yml",
+      "blob_sha": "08e00efaebabf200c5fa919e26150f4afa970131",
+      "entities_detected": 0
+    },
+    {
+      "path": "__tests__/audioPlayer.test.ts",
+      "blob_sha": "acf2b60a07927e1014e8c43e3f7f10e18df7120e",
+      "entities_detected": 0
+    },
+    {
+      "path": "__tests__/vapi.test.ts",
+      "blob_sha": "f50c75341dc712a8fb609daf36a9e14d401e3998",
+      "entities_detected": 0
+    },
+    {
+      "path": "api.ts",
+      "blob_sha": "4219aa0a2bc398ea343df12827871c9eddf72f8e",
+      "entities_detected": 0
+    },
+    {
+      "path": "client.ts",
+      "blob_sha": "17f8c72df118dc2a0ee0e5ec963f3fc81d6f1d76",
+      "entities_detected": 0
+    },
+    {
+      "path": "daily-guards.ts",
+      "blob_sha": "b47a32d057d81b76a50c430081f12d2dffb53e44",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
-    ".github/workflows/ci.yml",
-    ".github/workflows/release.yml",
-    ".github/workflows/sdk-release-pr-notification.yml",
-    ".github/workflows/update-deps.yml",
-    "README.md",
     "RELEASE.md",
-    "__tests__/audioPlayer.test.ts",
-    "__tests__/vapi.test.ts",
-    "api.ts",
-    "client.ts",
-    "daily-guards.ts",
-    "example/package.json",
+    "example/index.html",
     "example/src/App.tsx",
     "example/src/main.tsx",
     "example/src/vite-env.d.ts",
@@ -26,7 +126,6 @@
     "generate-api.sh",
     "jest.config.ts",
     "package-lock.json",
-    "package.json",
     "scripts/build-latest.sh",
     "scripts/re-build-local-example.sh",
     "tsconfig.json",
@@ -45,6 +144,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "bb2aca828a00b239865ad9bd82bf9f4d5239bca4b2a4db9322810967c31f92e5",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -54,8 +154,11 @@
     "example": 9,
     "scripts": 2
   },
-  "unread_source_paths_count": 26,
+  "unread_source_paths_count": 15,
   "unread_source_paths_truncated": false,
   "excluded_nontext_paths_count": 7,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

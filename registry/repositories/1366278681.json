@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/AlexsJones/llmfit",
-  "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+  "description": "Voice-agent application experiment combining speech interaction with an agent workflow; inspect its README and manifests before selecting components for reuse.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-11T08:35:06Z",
-    "github_description": "Hundreds of models & providers. One command to find what runs on your hardware."
+    "github_description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "dc9a8cca2cb0b0d61f375a72313b9f0b7bc5e735",
   "current_commit": "dc9a8cca2cb0b0d61f375a72313b9f0b7bc5e735",
   "inspection_date": "2026-09-20T05:36:01.306244+00:00",
   "categories": [
-    "category:generative-ai"
+    "category:ai-applications",
+    "category:ai-agents",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.698073+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.856092+00:00",
   "tree_files": 501,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 438,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 451,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.241429+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice-agent application experiment combining speech interaction with an agent workflow; inspect its README and manifests before selecting components for reuse.",
+    "reuse_recommendation": "Treat as a prototype reference and inspect pinned implementation before production reuse.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Confirm license and external speech/model provider terms.",
+    "runtime": [
+      "Application runtime and speech/model provider APIs"
+    ],
+    "keywords": [
+      "voice assistant",
+      "speech agent",
+      "audio interaction",
+      "AI application"
+    ],
+    "risk_notes": [
+      "Audio privacy, consent, credentials and model-provider data handling need review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice agent application",
+        "purpose": "Demonstrates an end-to-end speech-driven assistant experience.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:35.459577+00:00",
+    "inspected_commit": "dc9a8cca2cb0b0d61f375a72313b9f0b7bc5e735",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5ec32d944447cdeda3e1098b11bc90da9a5843ef",
+        "value": "https://github.com/jamesrwatsonx-creator/Open-zero-1--for-my-voice-app/blob/dc9a8cca2cb0b0d61f375a72313b9f0b7bc5e735/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "voice interaction",
+        "description": "Provides a speech-oriented interface to an AI assistant.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent conversation workflow",
+        "description": "Coordinates user input, model responses and task behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-conversation-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

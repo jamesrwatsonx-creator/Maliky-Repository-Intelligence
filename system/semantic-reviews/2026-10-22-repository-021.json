@@ -1,0 +1,1485 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Review data, credential and operational requirements before production adoption."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/pipecat-voice",
+                             "commit":  "62f05a838f0a7a735b92f2fab706b53d1ac8c24b",
+                             "purpose":  "Framework for building realtime voice and multimodal AI assistants by connecting audio transports, speech services, language models and tools.",
+                             "categories":  [
+                                                "category:agent-frameworks",
+                                                "category:generative-ai",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "BSD-2-Clause; model and speech provider terms remain separate.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Pipecat",
+                                              "voice agent framework",
+                                              "realtime audio",
+                                              "STT TTS",
+                                              "multimodal agents"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "realtime voice pipeline",
+                                                             "description":  "Connects audio transport, speech recognition, LLM processing and speech synthesis.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multimodal agent orchestration",
+                                                             "description":  "Coordinates conversational context and tool use across live sessions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "transport and provider integrations",
+                                                             "description":  "Connects supported WebRTC, telephony and AI service providers.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Pipecat pipeline runtime",
+                                                              "purpose":  "Provides reusable primitives for low-latency voice agent applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "async pipeline",
+                                             "WebRTC/telephony",
+                                             "STT/LLM/TTS APIs"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for realtime assistant builds and design consent, interruption, latency and provider-failure behavior.",
+                             "risk_notes":  [
+                                                "Audio data and provider transmissions need consent, retention and privacy controls."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/OpenMontage",
+                             "commit":  "cd9f3c1f03368be87b140af494914b8ee4e3c7a4",
+                             "purpose":  "Video editing and montage creation application for assembling clips, media and visual effects into finished video outputs.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:creative-tools",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check repository, codec and bundled media/model licenses.",
+                             "asset_presence":  {
+                                                    "business_media_other":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OpenMontage",
+                                              "video editor",
+                                              "AI video montage",
+                                              "media production",
+                                              "clip assembly"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "video montage editing",
+                                                             "description":  "Combines media clips into a sequenced video project.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "AI-assisted media workflows",
+                                                             "description":  "Applies model assistance to editing, generation or production tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OpenMontage editor",
+                                                              "purpose":  "Provides an interface and pipeline for assembling video projects.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared app runtime",
+                                             "FFmpeg/media libraries",
+                                             "optional model APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for media workflow prototyping; validate source rights, export quality and GPU needs.",
+                             "risk_notes":  [
+                                                "User video can be sensitive and generated media rights vary by model."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/spire",
+                             "commit":  "187f410332d7ef3daae457681c2eefef3da9a5df",
+                             "purpose":  "Infrastructure-as-code framework or toolkit for managing cloud environments and deployment resources.",
+                             "categories":  [
+                                                "category:cloud-infrastructure",
+                                                "category:devops",
+                                                "category:infrastructure-as-code"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Check repository license and provider-specific terms.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Spire",
+                                              "infrastructure automation",
+                                              "cloud deployment",
+                                              "IaC",
+                                              "provisioning"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "infrastructure definition",
+                                                             "description":  "Models deployable infrastructure resources and configuration.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "provisioning and lifecycle",
+                                                             "description":  "Automates creation and updates of infrastructure environments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Spire infrastructure toolkit",
+                                                              "purpose":  "Provides reusable primitives for defining and operating infrastructure.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared IaC language/runtime",
+                                             "cloud provider APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Inspect target provider support and review planned changes before applying infrastructure mutations.",
+                             "risk_notes":  [
+                                                "Infrastructure changes can expose services, destroy data or incur costs."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/InvoiceShelf",
+                             "commit":  "650bd3bb105f3993a914303a9a767becf8ab804e",
+                             "purpose":  "Self-hosted invoicing and billing application for creating estimates, managing customers, tracking payments and handling business documents.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:business-applications",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and payment integrations.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "InvoiceShelf",
+                                              "invoicing",
+                                              "billing",
+                                              "customer management",
+                                              "self-hosted business"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "invoice and estimate management",
+                                                             "description":  "Creates, sends and tracks customer billing documents.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "customer and payment records",
+                                                             "description":  "Organizes clients, payment states and billing history.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "business document workflows",
+                                                             "description":  "Supports routine administration and document generation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "InvoiceShelf billing platform",
+                                                              "purpose":  "Combines customer records with invoice and payment workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP/web application",
+                                             "database",
+                                             "email/payment services"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Evaluate tax, currency and payment behavior before production billing use.",
+                             "risk_notes":  [
+                                                "Customer identity and financial records require secure access and backups."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/OpenBB",
+                             "commit":  "3e071fcc2cd9f891cac6040ae60296dba76dab46",
+                             "purpose":  "Open-source financial data platform and SDK for accessing market, company and macroeconomic information and building research workflows.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:data-science",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check OpenBB license, extensions and each data provider’s terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OpenBB",
+                                              "financial data API",
+                                              "investment research",
+                                              "market data",
+                                              "finance SDK"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "financial data connectors",
+                                                             "description":  "Connects to market and economic data providers through a unified interface.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "research and analytics workflows",
+                                                             "description":  "Supports querying, analyzing and presenting financial datasets.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "SDK and application integrations",
+                                                             "description":  "Makes financial data capabilities available to Python and other applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OpenBB platform and SDK",
+                                                              "purpose":  "Provides modular financial data access for research applications.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "financial data APIs",
+                                             "analytics/UI extensions"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for research after checking data licensing, provenance, freshness and metric definitions.",
+                             "risk_notes":  [
+                                                "Financial data is not investment advice; provider terms and data quality vary."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/LocalAI",
+                             "commit":  "e4cc1f11f3337fa5eb761c7e9a83c964c81cc14d",
+                             "purpose":  "Self-hosted, OpenAI-compatible inference server for running local language, image, audio and embedding models.",
+                             "categories":  [
+                                                "category:ai-infrastructure",
+                                                "category:generative-ai",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "MIT for software; each model and backend has separate licensing.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LocalAI",
+                                              "local inference",
+                                              "OpenAI-compatible API",
+                                              "self-hosted models",
+                                              "multimodal AI"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "model serving API",
+                                                             "description":  "Exposes compatible inference endpoints for local or hosted applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multimodal model runtime",
+                                                             "description":  "Supports language, image, audio and embedding backends.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "self-hosted deployment and hardware backends",
+                                                             "description":  "Runs models on user-controlled infrastructure with configurable acceleration.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "LocalAI inference server",
+                                                              "purpose":  "Provides a local API layer across open model runtimes.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go service",
+                                             "model backends",
+                                             "CPU/GPU infrastructure"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use where data locality matters and validate model compatibility, memory and network access controls.",
+                             "risk_notes":  [
+                                                "Unprotected inference endpoints can leak data or consume expensive compute; model licenses vary."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/btcpayserver",
+                             "commit":  "9433c21d680e703277feeb821e33bc2d37fdd1cb",
+                             "purpose":  "Self-hosted cryptocurrency payment processor for accepting payments, managing invoices and connecting merchant systems to Bitcoin and other supported networks.",
+                             "categories":  [
+                                                "category:commerce-e-commerce",
+                                                "category:finance-accounting",
+                                                "category:blockchain-web3-security"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "MIT; supported networks and integrations have separate conditions.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "BTCPay Server",
+                                              "Bitcoin payments",
+                                              "merchant checkout",
+                                              "crypto invoicing",
+                                              "self-hosted payment processor"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "payment invoice and checkout",
+                                                             "description":  "Creates payment requests and tracks settlement for merchant transactions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "wallet and node integration",
+                                                             "description":  "Connects payment flows to cryptocurrency nodes and wallets.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "merchant APIs and plugins",
+                                                             "description":  "Integrates checkout into commerce platforms and applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "BTCPay merchant platform",
+                                                              "purpose":  "Combines payment processing, invoice management and self-hosted control.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             ".NET",
+                                             "Bitcoin node",
+                                             "database and wallet integrations"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only after security review of wallet keys, settlement handling and merchant integration.",
+                             "risk_notes":  [
+                                                "Payments and private keys are high risk; transactions are irreversible."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ckan",
+                             "commit":  "94a2156b7ae8156b8ef478648a90095313134781",
+                             "purpose":  "Open-source data management platform for publishing, finding and accessing datasets through catalogs, metadata and APIs.",
+                             "categories":  [
+                                                "category:data-engineering",
+                                                "category:government-civic-tech",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "AGPL-3.0; dataset licenses are independent.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "CKAN",
+                                              "open data portal",
+                                              "dataset catalog",
+                                              "metadata management",
+                                              "data APIs"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "dataset catalog and discovery",
+                                                             "description":  "Organizes dataset metadata for browsing and search.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "data publishing and access",
+                                                             "description":  "Supports uploads, resource management and API access.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "portal extensions and administration",
+                                                             "description":  "Customizes catalog behavior for institutions and communities.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "CKAN data portal",
+                                                              "purpose":  "Provides a platform for publishing and discovering structured datasets.",
+                                                              "evidence_paths":  [
+                                                                                     "README.rst"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "PostgreSQL",
+                                             "web application and plugins"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for open-data catalogs with metadata quality, access and dataset-license governance.",
+                             "risk_notes":  [
+                                                "Published datasets may contain personal data or licensing restrictions."
+                                            ],
+                             "source_review":  [
+                                                   "README.rst"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/InvenTree",
+                             "commit":  "720ba157bb006cb0edcebe9dba05a2b9d0a3d7ba",
+                             "purpose":  "Open-source inventory and parts management system for tracking stock, suppliers, manufacturing BOMs and purchasing workflows.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:manufacturing",
+                                                "category:business-applications"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "MIT; external integrations and hosted services have separate terms.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "InvenTree",
+                                              "inventory management",
+                                              "parts database",
+                                              "BOM",
+                                              "manufacturing operations"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "parts and stock tracking",
+                                                             "description":  "Maintains part catalogs, locations and inventory quantities.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "BOM and manufacturing workflows",
+                                                             "description":  "Models assemblies and production processes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "supplier and purchasing operations",
+                                                             "description":  "Supports procurement and supplier management.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "InvenTree inventory platform",
+                                                              "purpose":  "Connects part records, stock control and manufacturing operations.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/Django",
+                                             "database",
+                                             "plugin/API ecosystem"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for inventory workflows after reconciling domain-specific stock and production requirements.",
+                             "risk_notes":  [
+                                                "Inventory changes affect purchasing and fulfillment; use access control and backups."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/headroom",
+                             "commit":  "91186b40d886c78e4b126d15837a51bea0a871e3",
+                             "purpose":  "LLM middleware that reduces prompt and conversation context size through filtering, compression or memory-aware request processing.",
+                             "categories":  [
+                                                "category:ai-infrastructure",
+                                                "category:generative-ai",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Check repository license and model provider compatibility.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "LLM context compression",
+                                              "prompt optimization",
+                                              "token reduction",
+                                              "agent middleware",
+                                              "conversation memory"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "context filtering and compression",
+                                                             "description":  "Reduces redundant or low-value content before model requests.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "LLM request middleware",
+                                                             "description":  "Integrates with model clients to manage context and token use.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Headroom middleware",
+                                                              "purpose":  "Optimizes model context while attempting to preserve useful information.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/TypeScript as declared",
+                                             "LLM SDKs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with evaluation datasets to ensure compression does not remove critical instructions or evidence.",
+                             "risk_notes":  [
+                                                "Context reduction can omit safety constraints or source details."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/deer-flow",
+                             "commit":  "f1f4af99bbf1cffb83a80744bf6e4a44ee8f24be",
+                             "purpose":  "Multi-agent deep research system that decomposes questions, searches web sources, synthesizes findings and produces reports.",
+                             "categories":  [
+                                                "category:ai-agents",
+                                                "category:research-projects",
+                                                "category:ai-orchestration"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check repository license and model/search provider terms.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "browser_computer_use":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "DeerFlow",
+                                              "deep research agents",
+                                              "web search",
+                                              "research reports",
+                                              "multi-agent orchestration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "research task planning",
+                                                             "description":  "Breaks research questions into subtasks and investigation paths.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "web/source collection",
+                                                             "description":  "Searches and gathers supporting references for analysis.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "synthesis and report generation",
+                                                             "description":  "Combines findings into structured research outputs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Deep research agent workflow",
+                                                              "purpose":  "Coordinates research, evidence gathering and synthesis across agents.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/TypeScript stack",
+                                             "search APIs",
+                                             "LLM providers"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for exploratory research and verify citations and claims against primary sources.",
+                             "risk_notes":  [
+                                                "Research outputs can hallucinate or misrepresent sources; external web content is untrusted."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/AionUi",
+                             "commit":  "16589d8c7487ceaea9d9290d123b72de241d8f7e",
+                             "purpose":  "Desktop interface for operating multiple AI coding agents and model providers through a unified workspace.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:desktop-applications",
+                                                "category:ai-applications"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository license and provider-specific terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "agents":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AionUi",
+                                              "AI coding agents",
+                                              "desktop workspace",
+                                              "provider management",
+                                              "developer tools"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-agent desktop workspace",
+                                                             "description":  "Provides a unified UI for interacting with supported coding agents.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "provider configuration and sessions",
+                                                             "description":  "Manages model connections and agent task sessions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "AionUi agent console",
+                                                              "purpose":  "Brings multiple coding-agent experiences into one desktop interface.",
+                                                              "evidence_paths":  [
+                                                                                     "readme.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Desktop app",
+                                             "coding agent CLIs",
+                                             "LLM APIs"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use if it supports the required agents; inspect local credential handling and process permissions.",
+                             "risk_notes":  [
+                                                "Agent sessions may access local repositories and transmit source to providers."
+                                            ],
+                             "source_review":  [
+                                                   "readme.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ml-agents",
+                             "commit":  "d52b006228fa48070344cc6f012442095fe57500",
+                             "purpose":  "Unity machine-learning toolkit for training intelligent agents in simulated environments using reinforcement learning and imitation learning.",
+                             "categories":  [
+                                                "category:machine-learning-models",
+                                                "category:games-interactive-experiences",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:15",
+                             "license_notes":  "Apache-2.0; Unity and training environment terms apply.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Unity ML-Agents",
+                                              "reinforcement learning",
+                                              "game AI",
+                                              "simulation agents",
+                                              "imitation learning"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "simulation-based agent training",
+                                                             "description":  "Trains policies by interacting with Unity environments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "reinforcement and imitation learning",
+                                                             "description":  "Supports common learning algorithms and demonstrations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "environment integration and evaluation",
+                                                             "description":  "Connects Unity scenes to Python training workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "ML-Agents toolkit",
+                                                              "purpose":  "Bridges game/simulation environments with machine-learning training.",
+                                                              "evidence_paths":  [
+                                                                                     "Readme.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Unity/C#",
+                                             "Python",
+                                             "PyTorch"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for simulated agent research and evaluate reward design, reproducibility and safety before transfer to real systems.",
+                             "risk_notes":  [
+                                                "Simulation success may not transfer to real-world conditions."
+                                            ],
+                             "source_review":  [
+                                                   "Readme.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/luanti---build-Games-Voxel-custom-",
+                             "commit":  "0e1414682e4be3ffb84d067d0621e98d6bf5cd76",
+                             "purpose":  "Custom voxel game or world content for Luanti (formerly Minetest), demonstrating game mechanics, map generation or modding capabilities.",
+                             "categories":  [
+                                                "category:games-interactive-experiences",
+                                                "category:creative-tools",
+                                                "category:plugins-extensions"
+                                            ],
+                             "operational":  "operational:18",
+                             "license_notes":  "Check game code, textures and world assets individually.",
+                             "asset_presence":  {
+                                                    "business_media_other":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Luanti",
+                                              "voxel game",
+                                              "Minetest mod",
+                                              "custom world",
+                                              "game content"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "voxel world/gameplay content",
+                                                             "description":  "Adds custom gameplay, world generation or interactive content to Luanti.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "game mod integration",
+                                                             "description":  "Connects content to the Luanti engine and extension conventions.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Luanti game or mod package",
+                                                              "purpose":  "Provides reusable voxel gameplay and world content.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Luanti engine",
+                                             "Lua",
+                                             "game assets"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a game/mod example and verify engine compatibility and asset licensing.",
+                             "risk_notes":  [
+                                                "Community content and dependencies may carry independent licenses."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Vibe-Trading",
+                             "commit":  "5c2766f9eca237c69340be21758644428ecd610c",
+                             "purpose":  "AI-assisted trading workspace or automation concept combining market data, analysis and trading workflows.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:ai-applications",
+                                                "category:business-applications"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Check repository and market data/provider terms.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Vibe Trading",
+                                              "AI market analysis",
+                                              "trading workflow",
+                                              "financial dashboard",
+                                              "market data"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "market research and analysis",
+                                                             "description":  "Combines financial data with analytical or model-assisted insight.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "trading decision interface",
+                                                             "description":  "Organizes strategies, signals or portfolio workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Vibe Trading workspace",
+                                                              "purpose":  "Packages market analysis and potential trading operations in a unified interface.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared application stack",
+                                             "market data/model APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Treat as research/decision support; do not enable live execution without an independent risk and security review.",
+                             "risk_notes":  [
+                                                "Trading execution, financial advice claims and account credentials are high risk."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Flowise",
+                             "commit":  "b7a2005fd7b394ba7874aded744fe3730d59ccb3",
+                             "purpose":  "Visual low-code platform for building LLM workflows, chatbots, agents and retrieval-augmented generation pipelines.",
+                             "categories":  [
+                                                "category:ai-orchestration",
+                                                "category:generative-ai",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "Apache-2.0; connected model and data services have separate terms.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "agents":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Flowise",
+                                              "visual LLM builder",
+                                              "RAG workflows",
+                                              "AI agents",
+                                              "chatbot platform"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "visual LLM workflow builder",
+                                                             "description":  "Composes model, prompt and tool steps through a graphical interface.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "RAG and knowledge integration",
+                                                             "description":  "Connects document loaders, embeddings and vector stores to question answering.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "deployment and API access",
+                                                             "description":  "Exposes constructed flows as services for applications.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Flowise workflow platform",
+                                                              "purpose":  "Turns LLM building blocks into deployable flows and agents.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Node.js/TypeScript",
+                                             "database",
+                                             "model and vector services"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for rapid prototypes and review flow permissions, data access and prompt-injection defenses before deployment.",
+                             "risk_notes":  [
+                                                "Workflow credentials, data sources and tool actions require strict access control."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/hoppscotch",
+                             "commit":  "d86e59f6e9574c69f01b300691b9f4396eeb38d2",
+                             "purpose":  "Open-source API development and testing platform for sending requests, inspecting responses and collaborating on API collections.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:apis",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:23",
+                             "license_notes":  "MIT; hosted/cloud services have separate terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Hoppscotch",
+                                              "API client",
+                                              "REST testing",
+                                              "GraphQL",
+                                              "developer collaboration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "API request testing",
+                                                             "description":  "Builds and sends HTTP and other API requests for inspection.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "collections and environments",
+                                                             "description":  "Organizes reusable requests, variables and team workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "API protocol integrations",
+                                                             "description":  "Supports REST, GraphQL, WebSocket and related protocols.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Hoppscotch API workspace",
+                                                              "purpose":  "Provides a collaborative interface for exploring and testing APIs.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web/desktop app",
+                                             "TypeScript",
+                                             "API protocols"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for API exploration and protect secrets in environments and shared collections.",
+                             "risk_notes":  [
+                                                "Requests may alter live systems; redact credentials and avoid production writes."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/ai-berkshire",
+                             "commit":  "fef5533145e2a505c7e07592d61165c7485a98b9",
+                             "purpose":  "AI-driven financial research or portfolio analysis inspired by Berkshire Hathaway investment principles.",
+                             "categories":  [
+                                                "category:finance-accounting",
+                                                "category:ai-applications",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository, data-provider and model terms.",
+                             "asset_presence":  {
+                                                    "models":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AI investment research",
+                                              "Berkshire analysis",
+                                              "company fundamentals",
+                                              "financial assistant",
+                                              "portfolio research"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "company and financial research",
+                                                             "description":  "Collects or summarizes public company and financial information.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "investment framework workflows",
+                                                             "description":  "Applies structured analysis prompts or models to research tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "AI Berkshire research workflow",
+                                                              "purpose":  "Packages AI-assisted financial research around a stated investment approach.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Repository-declared runtime",
+                                             "financial data APIs",
+                                             "LLM"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use for exploratory analysis only and independently verify data and conclusions.",
+                             "risk_notes":  [
+                                                "Financial conclusions are uncertain and must not be presented as guaranteed advice."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/compose-multiplatform",
+                             "commit":  "200695dde45e1109d0437f9bac777d0bfc32c40e",
+                             "purpose":  "JetBrains framework for building shared declarative user interfaces across Android, desktop, iOS and web with Kotlin.",
+                             "categories":  [
+                                                "category:frameworks",
+                                                "category:mobile-applications",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:19",
+                             "license_notes":  "Apache-2.0; target platform dependencies and APIs have separate terms.",
+                             "asset_presence":  {
+                                                    "apis_sdks":  "PRESENT",
+                                                    "ui_design":  "PRESENT",
+                                                    "business_media_other":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Compose Multiplatform",
+                                              "Kotlin UI",
+                                              "cross-platform apps",
+                                              "declarative UI",
+                                              "JetBrains"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "shared declarative UI",
+                                                             "description":  "Builds reusable UI code across supported platforms.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "platform-specific integrations",
+                                                             "description":  "Connects shared UI to native APIs and platform runtimes.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multiplatform build and tooling",
+                                                             "description":  "Supports packaging and development across targets.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Compose Multiplatform framework",
+                                                              "purpose":  "Provides Kotlin UI primitives for cross-platform application development.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Kotlin",
+                                             "Android/iOS/Desktop/Web",
+                                             "Gradle"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use when shared UI outweighs platform-specific constraints; verify target API support and performance.",
+                             "risk_notes":  [
+                                                "Platform maturity and behavior vary by target and release."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/fess",
+                             "commit":  "ef8ed6a1121a656a3f0b0c13c98950434a9a94fd",
+                             "purpose":  "Enterprise search server for indexing and searching websites, files, databases and other content sources.",
+                             "categories":  [
+                                                "category:backend-services",
+                                                "category:backend-services",
+                                                "category:backend-services"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "Apache-2.0; indexed content retains its own access and license restrictions.",
+                             "asset_presence":  {
+                                                    "data_database_search":  "PRESENT",
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Fess",
+                                              "enterprise search",
+                                              "document indexing",
+                                              "website search",
+                                              "OpenSearch"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "multi-source crawling and indexing",
+                                                             "description":  "Collects content from websites and enterprise data sources.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "full-text search and administration",
+                                                             "description":  "Provides query, ranking and index management interfaces.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "deployment and integration APIs",
+                                                             "description":  "Supports operating search services and connecting client applications.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Fess search platform",
+                                                              "purpose":  "Combines content ingestion, indexing and enterprise search UX.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Java",
+                                             "OpenSearch",
+                                             "web service"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for enterprise search with document-level access controls and index freshness requirements.",
+                             "risk_notes":  [
+                                                "Search indexes can leak documents if permissions are not preserved."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/cvat",
+                             "commit":  "4c45d1a3c9790306b2002090b9aa0baf73d5ad5d",
+                             "purpose":  "Web-based computer-vision data annotation platform for labeling images, video and 3D data for machine-learning projects.",
+                             "categories":  [
+                                                "category:data-labeling",
+                                                "category:machine-learning-models",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:08",
+                             "license_notes":  "MIT; cloud service and annotation data terms are separate.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "data_database_search":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "CVAT",
+                                              "computer vision annotation",
+                                              "image labeling",
+                                              "video annotation",
+                                              "ML datasets"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "visual data annotation",
+                                                             "description":  "Supports manual labeling of images, video and related media.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "team review and task management",
+                                                             "description":  "Coordinates annotation tasks and quality review.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "dataset import/export and automation",
+                                                             "description":  "Connects annotations to ML pipelines and supported formats.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "CVAT annotation platform",
+                                                              "purpose":  "Combines visual labeling tools with dataset workflow management.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python/Django",
+                                             "React",
+                                             "database/object storage"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for dataset labeling with clear quality, provenance and annotator access policies.",
+                             "risk_notes":  [
+                                                "Images and video may contain personal or sensitive data."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/kata-containers",
+                             "commit":  "7739b6262fccf27fcc7afd4fa39de5b4fb0b53a0",
+                             "purpose":  "Container runtime that runs workloads inside lightweight virtual machines to provide stronger isolation than conventional containers.",
+                             "categories":  [
+                                                "category:containers",
+                                                "category:cloud-infrastructure",
+                                                "category:cybersecurity"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Apache-2.0.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "security":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Kata Containers",
+                                              "container isolation",
+                                              "lightweight VM",
+                                              "OCI runtime",
+                                              "cloud security"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "VM-backed container runtime",
+                                                             "description":  "Runs container workloads inside lightweight virtual machines.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "container orchestration integration",
+                                                             "description":  "Connects virtualized containers to OCI and Kubernetes environments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "isolation and runtime operations",
+                                                             "description":  "Configures hypervisors, guest kernels and resource boundaries.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Kata runtime",
+                                                              "purpose":  "Adds VM isolation to container execution workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go",
+                                             "Linux/KVM or supported hypervisor",
+                                             "OCI/Kubernetes"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for stronger workload isolation after benchmarking and validating the full host/guest security model.",
+                             "risk_notes":  [
+                                                "Hypervisor and guest-kernel configuration are security-critical."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Voice-mode-3",
+                             "commit":  "252ecd65769c0451342d23e133ecae10c627aa07",
+                             "purpose":  "Voice interaction extension or workflow for AI coding agents, enabling speech input and spoken responses during development tasks.",
+                             "categories":  [
+                                                "category:plugins-extensions",
+                                                "category:media-publishing",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:07",
+                             "license_notes":  "Check repository license and speech/model provider terms.",
+                             "asset_presence":  {
+                                                    "voice_audio":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "voice mode",
+                                              "coding agent voice",
+                                              "speech interaction",
+                                              "TTS STT",
+                                              "developer plugin"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "speech input for agent tasks",
+                                                             "description":  "Captures spoken requests and routes them to an AI coding workflow.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "spoken model responses",
+                                                             "description":  "Presents agent outputs through speech synthesis.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "coding agent integration",
+                                                             "description":  "Connects voice interaction to a supported developer agent.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Voice mode plugin",
+                                                              "purpose":  "Adds voice-centered interaction to coding-agent sessions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Agent plugin/CLI",
+                                             "speech recognition and TTS services"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use with microphone consent and allow text fallback for private or noisy environments.",
+                             "risk_notes":  [
+                                                "Speech may contain source code, credentials or confidential discussion."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/tailscale",
+                             "commit":  "faa10ddaaa5ecf2df05eedee6df2fecb819de0b9",
+                             "purpose":  "Secure mesh VPN platform connecting devices and services over encrypted WireGuard tunnels with identity-based access control.",
+                             "categories":  [
+                                                "category:networking",
+                                                "category:cybersecurity",
+                                                "category:cloud-infrastructure"
+                                            ],
+                             "operational":  "operational:14",
+                             "license_notes":  "Check open-source component licenses and Tailscale service terms.",
+                             "asset_presence":  {
+                                                    "infrastructure_deployment":  "PRESENT",
+                                                    "apis_sdks":  "PRESENT",
+                                                    "security":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Tailscale",
+                                              "WireGuard mesh VPN",
+                                              "private network",
+                                              "device access",
+                                              "identity-based networking"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "encrypted mesh connectivity",
+                                                             "description":  "Connects devices through secure peer-to-peer or relay-assisted tunnels.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "identity and access controls",
+                                                             "description":  "Applies identity-aware rules to network connectivity.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "service and device integrations",
+                                                             "description":  "Supports subnet routing, exit nodes and application connectivity.",
+                                                             "scope":  "CONFIGURATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Tailscale networking stack",
+                                                              "purpose":  "Provides secure connectivity and coordination across devices.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Go clients/control components",
+                                             "WireGuard",
+                                             "cloud or self-hosted coordination"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for private networking with carefully scoped identities, routes and device enrollment.",
+                             "risk_notes":  [
+                                                "Network access can expose internal services; review ACLs and device trust."
+                                            ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/OpenMAIC",
+                             "commit":  "dfebbcf33f3a56064129903faeab70a9e4243146",
+                             "purpose":  "Multi-agent AI classroom or course-generation platform that creates interactive learning sessions with instructor and learner agents.",
+                             "categories":  [
+                                                "category:education",
+                                                "category:ai-agents",
+                                                "category:generative-ai"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Check repository, model and course material licenses.",
+                             "asset_presence":  {
+                                                    "agents":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "OpenMAIC",
+                                              "AI classroom",
+                                              "multi-agent education",
+                                              "course generation",
+                                              "interactive learning"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "AI course and lesson generation",
+                                                             "description":  "Creates learning materials or sessions from user goals and subject inputs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "multi-agent classroom interaction",
+                                                             "description":  "Coordinates instructor/learner roles in interactive educational workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "learning interface and session management",
+                                                             "description":  "Provides a user-facing environment for participating in generated courses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OpenMAIC learning environment",
+                                                              "purpose":  "Combines agent roles, course content and interactive learning sessions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Web application",
+                                             "LLM providers",
+                                             "education content workflows"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use for educational prototyping with teacher review, accessibility and learner privacy controls.",
+                             "risk_notes":  [
+                                                "Generated instruction can be inaccurate; learner data and age-sensitive safety need attention."
+                                            ]
+                         }
+                     ]
+}

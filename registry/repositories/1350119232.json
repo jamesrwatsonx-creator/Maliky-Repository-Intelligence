@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/freqtrade/freqtrade",
-  "description": "Free, open source crypto trading bot",
+  "description": "Cryptocurrency trading bot with strategy development, backtesting, paper trading and exchange execution integrations.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-27T16:26:43Z",
-    "github_description": "Free, open source crypto trading bot"
+    "github_description": "Free, open source crypto trading bot",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "cadc05ebafc242d441798725fa8dcb926f650475",
   "current_commit": "cadc05ebafc242d441798725fa8dcb926f650475",
   "inspection_date": "2026-09-20T05:35:32.385060+00:00",
   "categories": [
-    "category:commerce-e-commerce"
+    "category:finance-accounting",
+    "category:automation-scripting",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.921679+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.954980+00:00",
   "tree_files": 779,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 634,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 647,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.145173+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cryptocurrency trading bot with strategy development, backtesting, paper trading and exchange execution integrations.",
+    "reuse_recommendation": "Limit to backtesting/paper trading unless independently reviewed; never expose exchange withdrawal permissions.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "GPL-3.0; exchange APIs and financial rules apply.",
+    "runtime": [
+      "Python",
+      "exchange REST APIs",
+      "database"
+    ],
+    "keywords": [
+      "Freqtrade",
+      "crypto trading bot",
+      "backtesting",
+      "exchange integration",
+      "strategy automation"
+    ],
+    "risk_notes": [
+      "Live trading can lose funds; secrets, exchange permissions and financial compliance are critical."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Freqtrade bot",
+        "purpose": "Runs automated strategy workflows from research through exchange interaction.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:18.079820+00:00",
+    "inspected_commit": "cadc05ebafc242d441798725fa8dcb926f650475",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "439f4c80034e9e644e71ba627debe911ae1a26a3",
+        "value": "https://github.com/jamesrwatsonx-creator/freqtrade/blob/cadc05ebafc242d441798725fa8dcb926f650475/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "strategy development and backtesting",
+        "description": "Tests algorithmic strategies against historical market data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:strategy-development-and-backtesting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "paper and live trading",
+        "description": "Connects strategies to exchange APIs for simulated or real execution.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:paper-and-live-trading",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "trading operations and monitoring",
+        "description": "Provides configuration, persistence and operational controls for trading runs.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:trading-operations-and-monitoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

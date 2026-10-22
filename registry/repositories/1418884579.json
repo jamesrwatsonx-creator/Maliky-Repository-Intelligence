@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/bitwarden/server",
-  "description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+  "description": "Self-hosted password manager service for storing and retrieving credentials through a web interface or API.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T11:11:42Z",
-    "github_description": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+    "github_description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a0058fb5a988bb20801a816609208a39459b310d",
   "current_commit": "a0058fb5a988bb20801a816609208a39459b310d",
   "inspection_date": "2026-10-20T23:57:04.102744+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:secrets-management",
+    "category:cybersecurity",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 6,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.145483+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.201163+00:00",
   "tree_files": 7948,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 7469,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 7479,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted password manager service for storing and retrieving credentials through a web interface or API.",
+    "reuse_recommendation": "Do not store production secrets until cryptographic design, threat model and recovery are independently reviewed.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Review repository license and cryptographic design before storing real credentials.",
+    "runtime": [
+      "Repository-declared web/backend runtime",
+      "database",
+      "cryptography"
+    ],
+    "keywords": [
+      "password manager",
+      "credential vault",
+      "self-hosted secrets",
+      "encryption",
+      "access control"
+    ],
+    "risk_notes": [
+      "Password vaults are high-impact security systems; custom cryptography and key recovery require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Password manager vault",
+        "purpose": "Provides a centralized interface for storing sensitive credentials.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:52.412382+00:00",
+    "inspected_commit": "a0058fb5a988bb20801a816609208a39459b310d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "34902c207bba3b0cfff6e37e7c695aaa095874a5",
+        "value": "https://github.com/jamesrwatsonx-creator/server-password-manager-/blob/a0058fb5a988bb20801a816609208a39459b310d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "credential storage and retrieval",
+        "description": "Organizes passwords and secrets for authenticated users.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:credential-storage-and-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "vault access and sharing",
+        "description": "Controls how users or services retrieve protected credentials.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vault-access-and-sharing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted deployment",
+        "description": "Runs the password service on user-controlled infrastructure.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -3,8 +3,100 @@
   "inspected_commit": "86130b45757a53dad00fd8a4701750baf3528674",
   "tree_complete": true,
   "tree_files": 938,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "669725305fba9a0b2095bc0029fef76340c2809e"
+    },
+    {
+      "path": "README.md",
+      "sha": "964f7364107dc3c42f8a0b8728c95ee32e20375c"
+    },
+    {
+      "path": "package.json",
+      "sha": "756578eb0ebdaa607aced3a410a531968b0107d0"
+    },
+    {
+      "path": "packages/agent/package.json",
+      "sha": "39d947b6c9a8f0d4bd04e10392b07b8e49c1e0fa"
+    },
+    {
+      "path": "packages/data/package.json",
+      "sha": "74d3646d2a63e36bd947ea892a184fba70cf625d"
+    },
+    {
+      "path": "packages/derivatives/package.json",
+      "sha": "b2defebbd48869891820747860b1311334de984e"
+    },
+    {
+      "path": "packages/governance/package.json",
+      "sha": "c1198e20bc4bbd4aca0bb8a03ebfd78115472bd4"
+    },
+    {
+      "path": "packages/hyperliquid/package.json",
+      "sha": "04a3eb92b07ca90651d21d6f388291100c2ca1d6"
+    },
+    {
+      "path": "packages/infra/package.json",
+      "sha": "75b699041ea372c356859f68d8a16a1451d6a05c"
+    },
+    {
+      "path": "packages/lending/package.json",
+      "sha": "68d96333c9e217d1573f2baf07fa4e28148988fc"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "964f7364107dc3c42f8a0b8728c95ee32e20375c",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "669725305fba9a0b2095bc0029fef76340c2809e",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "756578eb0ebdaa607aced3a410a531968b0107d0",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/agent/package.json",
+      "blob_sha": "39d947b6c9a8f0d4bd04e10392b07b8e49c1e0fa",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/data/package.json",
+      "blob_sha": "74d3646d2a63e36bd947ea892a184fba70cf625d",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/derivatives/package.json",
+      "blob_sha": "b2defebbd48869891820747860b1311334de984e",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/governance/package.json",
+      "blob_sha": "c1198e20bc4bbd4aca0bb8a03ebfd78115472bd4",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/hyperliquid/package.json",
+      "blob_sha": "04a3eb92b07ca90651d21d6f388291100c2ca1d6",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/infra/package.json",
+      "blob_sha": "75b699041ea372c356859f68d8a16a1451d6a05c",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/lending/package.json",
+      "blob_sha": "68d96333c9e217d1573f2baf07fa4e28148988fc",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".claude-plugin/marketplace.json",
     ".github/ISSUE_TEMPLATE/bug.yml",
@@ -18,10 +110,8 @@
     "ATTRIBUTION.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "LICENSE",
     "MIGRATION.md",
     "PRIVACY.md",
-    "README.md",
     "RELEASING.md",
     "SECURITY.md",
     "docs/AGENT-INDEX.md",
@@ -73,7 +163,6 @@
     "docs/research/report-source.md",
     "docs/research/vault-exit-evidence-2026-10-10.md",
     "llms.txt",
-    "package.json",
     "packages/agent/.claude-plugin/plugin.json",
     "packages/agent/.codex-plugin/plugin.json",
     "packages/agent/AGENTS.md",
@@ -86,7 +175,6 @@
     "packages/agent/evals/behavior.json",
     "packages/agent/evals/routing.json",
     "packages/agent/llms.txt",
-    "packages/agent/package.json",
     "packages/agent/skills.sh.json",
     "packages/agent/skills/galleon-defi-agent-plan/ATTRIBUTION.md",
     "packages/agent/skills/galleon-defi-agent-plan/LICENSE",
@@ -105,7 +193,11 @@
     "packages/agent/skills/galleon-defi-agent-simulate/scripts/record.ts",
     "packages/agent/src/catalog.ts",
     "packages/agent/src/cli.ts",
-    "packages/agent/src/index.ts"
+    "packages/agent/src/index.ts",
+    "packages/agent/tsconfig.build.json",
+    "packages/agent/tsconfig.json",
+    "packages/data/.claude-plugin/plugin.json",
+    "packages/data/.codex-plugin/plugin.json"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -130,6 +222,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "ce301a4b8546973cafb8095670d7f0aa3c4d707ac5e9f4986da33679e522c9f1",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -142,8 +235,11 @@
     "scripts": 27,
     "test": 10
   },
-  "unread_source_paths_count": 920,
+  "unread_source_paths_count": 910,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 18,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

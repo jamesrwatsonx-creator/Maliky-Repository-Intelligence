@@ -11,25 +11,26 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Ai-Automators/base44-to-supabase-sdk",
-  "description": "Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes",
+  "description": "JavaScript Base44-shaped Supabase compatibility adapter for entity CRUD and user/auth operations with migration guidance; email, upload, image and extraction integrations include mocks rather than real services.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-08-14T09:52:50Z",
-    "github_description": "Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes"
+    "github_description": "Universal drop-in replacement SDK for Base44 projects to migrate to self-hosted Supabase with zero code changes",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "37e224357fdd6f1751a5d759fc1cefaef9ba8a9c",
   "current_commit": "37e224357fdd6f1751a5d759fc1cefaef9ba8a9c",
   "inspection_date": "2026-09-20T05:33:04.216963+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:apis",
-    "category:developer-tools",
-    "category:libraries-packages"
+    "category:sdks-client-libraries",
+    "category:databases",
+    "category:iam",
+    "category:reference-implementations"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -42,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "AVOID FOR PRODUCTION",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -287,11 +288,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.278141+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.019229+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -316,16 +318,15 @@
   "files_read": 19,
   "entity_count": 2,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 2,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:54.959430+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -335,5 +336,191 @@
     ],
     "updated_at": "2026-10-12T19:04:27.082929+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "JavaScript Base44-shaped Supabase compatibility adapter for entity CRUD and user/auth operations with migration guidance; email, upload, image and extraction integrations include mocks rather than real services.",
+    "reuse_recommendation": "Use as a migration reference or extract narrowly reviewed CRUD; do not deploy its current privileged-client/auth path in a browser.",
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "license_notes": "MIT source; Supabase service/data permissions are separate.",
+    "runtime": [
+      "JavaScript ES modules",
+      "Node.js or Vite",
+      "Supabase",
+      "@supabase/supabase-js"
+    ],
+    "keywords": [
+      "base44-to-supabase-sdk",
+      "entity CRUD compatibility",
+      "user authentication adapter",
+      "migration reference",
+      "integration mocks",
+      "JavaScript ES modules",
+      "Node.js or Vite",
+      "Supabase",
+      "@supabase/supabase-js"
+    ],
+    "risk_notes": [
+      "Service-role access is constructed from a VITE-prefixed variable and selected automatically for some entities: never bundle a real service key in a browser. Import-time queries, development-login behavior and user/session logging need isolation/removal. Mock success does not prove delivery or processing; universal API compatibility is unverified."
+    ],
+    "important_subsystems": [
+      {
+        "name": "entity CRUD compatibility",
+        "purpose": "Map Base44-style queries/mutations and date-field names onto Supabase tables.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      },
+      {
+        "name": "user authentication adapter",
+        "purpose": "Bridge current-user and authentication operations into a Base44-like interface.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:44:46.839062+00:00",
+    "inspected_commit": "37e224357fdd6f1751a5d759fc1cefaef9ba8a9c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1cb89ac2f301d64da3c9ad1bcf3dc8c01fe30c38",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "7f40d8ae6024d8cac17513ce5c9cd1836ab69f57",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "9c7bbd627304fd03a6620345ffd83e067b386adb",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/lib/custom-sdk.js",
+        "blob_sha": "c41496e746c814d8b847dd18f3c92092900b2b38",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/src/lib/custom-sdk.js"
+      },
+      {
+        "type": "source_review",
+        "path": "src/lib/supabase-client.js",
+        "blob_sha": "1243224257cfe22e6fbfa38b7512d1631e3c8e63",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/src/lib/supabase-client.js"
+      },
+      {
+        "type": "source_review",
+        "path": "src/api/base44Client.js",
+        "blob_sha": "aa11ee0341af5558a7b16a3087b609cd464d0434",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/src/api/base44Client.js"
+      },
+      {
+        "type": "source_review",
+        "path": "SELF_HOSTING_GUIDE.md",
+        "blob_sha": "ee0e9d1d987064625cdc6956fa5fab929eb7c6f9",
+        "value": "https://github.com/jamesrwatsonx-creator/base44-to-supabase-sdk/blob/37e224357fdd6f1751a5d759fc1cefaef9ba8a9c/SELF_HOSTING_GUIDE.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "entity CRUD compatibility",
+        "description": "Map Base44-style queries/mutations and date-field names onto Supabase tables.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:entity-crud-compatibility",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      },
+      {
+        "name": "user authentication adapter",
+        "description": "Bridge current-user and authentication operations into a Base44-like interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:user-authentication-adapter",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      },
+      {
+        "name": "migration reference",
+        "description": "Provide import aliasing and self-hosted Supabase setup guidance.",
+        "scope": "REFERENCE",
+        "id": "cluster:migration-reference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      },
+      {
+        "name": "integration mocks",
+        "description": "Expose placeholder integration result shapes requiring real implementations.",
+        "scope": "REFERENCE",
+        "id": "cluster:integration-mocks",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

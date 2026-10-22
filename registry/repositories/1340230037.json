@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/airbnb/lottie-android",
-  "description": "Render After Effects animations natively on Android and iOS, Web, and React Native",
+  "description": "Android library for rendering and playing Lottie vector animations in native applications.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-02-15T22:03:57Z",
-    "github_description": "Render After Effects animations natively on Android and iOS, Web, and React Native"
+    "github_description": "Render After Effects animations natively on Android and iOS, Web, and React Native",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "05ea92e90381eb8a8ae06855ea2b74f322bebbec",
   "current_commit": "05ea92e90381eb8a8ae06855ea2b74f322bebbec",
   "inspection_date": "2026-09-20T05:33:05.558930+00:00",
   "categories": [
-    "category:frontend-applications",
-    "category:mobile-applications"
+    "category:sdks-client-libraries",
+    "category:mobile-applications",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [
     "operational:16"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.424420+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.539190+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -276,10 +279,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 1291,
-  "files_read": 1,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 860,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1046,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -289,5 +292,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.206982+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android library for rendering and playing Lottie vector animations in native applications.",
+    "reuse_recommendation": "Use for lightweight vector motion and honor reduced-motion settings.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Apache-2.0; Lottie files may have independent licenses.",
+    "runtime": [
+      "Kotlin/Java",
+      "Android"
+    ],
+    "keywords": [
+      "Lottie Android",
+      "animation renderer",
+      "Android UI",
+      "vector animation",
+      "Kotlin"
+    ],
+    "risk_notes": [
+      "Validate untrusted animation input and performance on target devices."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lottie Android runtime",
+        "purpose": "Connects Lottie JSON assets to native Android rendering.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:13.377682+00:00",
+    "inspected_commit": "05ea92e90381eb8a8ae06855ea2b74f322bebbec",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "09b9bb438cc4f95cb9d2dceec681f70d98f3b7d9",
+        "value": "https://github.com/jamesrwatsonx-creator/lottie-android/blob/05ea92e90381eb8a8ae06855ea2b74f322bebbec/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "native animation playback",
+        "description": "Renders Lottie animation assets in Android interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:native-animation-playback",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Android developer integration",
+        "description": "Provides APIs and UI components for loading and controlling animations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:android-developer-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

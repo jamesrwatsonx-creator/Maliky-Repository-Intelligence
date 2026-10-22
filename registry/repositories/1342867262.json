@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Egonex-AI/Understand-Anything",
-  "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+  "description": "Developer tool that builds an interactive, AI-assisted map of a codebase to help users understand its architecture and components.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-11T14:13:37Z",
-    "github_description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+    "github_description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
   "current_commit": "32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
   "inspection_date": "2026-09-20T05:33:31.439741+00:00",
   "categories": [
-    "category:ai-memory",
     "category:developer-tools",
-    "category:research-projects"
+    "category:technology-maps",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:04",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 9,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.425730+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.443841+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -278,10 +280,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 499,
-  "files_read": 10,
+  "files_read": 20,
   "entity_count": 1,
-  "unread_source_files": 445,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 441,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -291,5 +293,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.309460+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Developer tool that builds an interactive, AI-assisted map of a codebase to help users understand its architecture and components.",
+    "reuse_recommendation": "Use to accelerate onboarding and architecture discovery; verify generated explanations against source.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license and model-provider terms.",
+    "runtime": [
+      "TypeScript/JavaScript desktop or web tooling",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "codebase understanding",
+      "architecture map",
+      "repository search",
+      "AI developer tool",
+      "dependency graph"
+    ],
+    "risk_notes": [
+      "Source code may be transmitted to configured model services; assess data handling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Codebase map and assistant",
+        "purpose": "Combines repository structure with interactive explanations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:34.995917+00:00",
+    "inspected_commit": "32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "04efe8311e3cf56d088ac4c4f3da8378784205d2",
+        "value": "https://github.com/jamesrwatsonx-creator/Understand-Anything/blob/32944829e7a63a9fa9c55d811d7f98a9530c6a6a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository indexing",
+        "description": "Analyzes source structure to create navigable codebase context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-indexing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "architecture visualization",
+        "description": "Presents relationships and subsystem maps for software projects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:architecture-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI code explanations",
+        "description": "Uses model-assisted summaries to support repository exploration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-code-explanations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

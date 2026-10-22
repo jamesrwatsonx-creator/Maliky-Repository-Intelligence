@@ -9,6 +9,10 @@
       "sha": "1f08b8ef98767216709877c9c0e53d85fa1c841d"
     },
     {
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
       "path": "README.md",
       "sha": "48e2c8eee964fa0078a53cbe1bcc81b2c92f0c10"
     },
@@ -43,6 +47,38 @@
     {
       "path": "README_tr.md",
       "sha": "eb988992ff2613d74ccea35cb8bf36b372f5c8ab"
+    },
+    {
+      "path": "admin/client/pyproject.toml",
+      "sha": "e01f27878bcfc184dfa6509514a9dc4257dabf48"
+    },
+    {
+      "path": "agent/sandbox/pyproject.toml",
+      "sha": "7fefa775ced9a142f4e1d9a17a090acfed2e1182"
+    },
+    {
+      "path": "deepdoc/server/pyproject.toml",
+      "sha": "6eacb26b2ccfb12be3cc23b5209aabb142dfc8b1"
+    },
+    {
+      "path": "go.mod",
+      "sha": "7aa97bb9f08ab97674142618449ddbc7ac5ca2c9"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "e99823a8ad3eaea0f815e0edc2774706961f2ef3"
+    },
+    {
+      "path": "sdk/python/pyproject.toml",
+      "sha": "6ef827e8c5e67d2086f99c328ab6bb6c7950f98d"
+    },
+    {
+      "path": "tools/es-to-oceanbase-migration/pyproject.toml",
+      "sha": "e41cb501a067d60544445e887f6e33dddf41d255"
+    },
+    {
+      "path": "web/package.json",
+      "sha": "d996ee7434cef6d3ccf085137e1a1f9730f68b56"
     }
   ],
   "files_read": [
@@ -95,6 +131,51 @@
       "path": "AGENTS.md",
       "blob_sha": "1f08b8ef98767216709877c9c0e53d85fa1c841d",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "7aa97bb9f08ab97674142618449ddbc7ac5ca2c9",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "e99823a8ad3eaea0f815e0edc2774706961f2ef3",
+      "entities_detected": 0
+    },
+    {
+      "path": "web/package.json",
+      "blob_sha": "d996ee7434cef6d3ccf085137e1a1f9730f68b56",
+      "entities_detected": 0
+    },
+    {
+      "path": "admin/client/pyproject.toml",
+      "blob_sha": "e01f27878bcfc184dfa6509514a9dc4257dabf48",
+      "entities_detected": 0
+    },
+    {
+      "path": "agent/sandbox/pyproject.toml",
+      "blob_sha": "7fefa775ced9a142f4e1d9a17a090acfed2e1182",
+      "entities_detected": 0
+    },
+    {
+      "path": "deepdoc/server/pyproject.toml",
+      "blob_sha": "6eacb26b2ccfb12be3cc23b5209aabb142dfc8b1",
+      "entities_detected": 0
+    },
+    {
+      "path": "sdk/python/pyproject.toml",
+      "blob_sha": "6ef827e8c5e67d2086f99c328ab6bb6c7950f98d",
+      "entities_detected": 0
+    },
+    {
+      "path": "tools/es-to-oceanbase-migration/pyproject.toml",
+      "blob_sha": "e41cb501a067d60544445e887f6e33dddf41d255",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -112,6 +193,12 @@
     ".github/workflows/sep-tests.yml",
     ".github/workflows/serenedb.yml",
     ".github/workflows/tests.yml",
+    "Dockerfile",
+    "Dockerfile.scratch.oc9",
+    "Dockerfile_base",
+    "Dockerfile_ci",
+    "Dockerfile_deepdoc_oss",
+    "Dockerfile_tei",
     "README_tzh.md",
     "README_zh.md",
     "SECURITY.md",
@@ -120,7 +207,6 @@
     "admin/client/README.md",
     "admin/client/http_client.py",
     "admin/client/parser.py",
-    "admin/client/pyproject.toml",
     "admin/client/ragflow_cli.py",
     "admin/client/ragflow_client.py",
     "admin/client/user.py",
@@ -167,9 +253,11 @@
     "agent/plugin/embedded_plugins/llm_tools/bad_calculator.py",
     "agent/plugin/llm_tool_plugin.py",
     "agent/plugin/plugin_manager.py",
+    "agent/sandbox/Makefile",
     "agent/sandbox/README.md",
     "agent/sandbox/client.py",
     "agent/sandbox/docker-compose.yml",
+    "agent/sandbox/executor_manager/Dockerfile",
     "agent/sandbox/executor_manager/api/__init__.py",
     "agent/sandbox/executor_manager/api/handlers.py",
     "agent/sandbox/executor_manager/api/routes.py",
@@ -181,6 +269,7 @@
     "agent/sandbox/executor_manager/models/__init__.py",
     "agent/sandbox/executor_manager/models/enums.py",
     "agent/sandbox/executor_manager/models/schemas.py",
+    "agent/sandbox/executor_manager/requirements.txt",
     "agent/sandbox/executor_manager/seccomp-profile-default.json",
     "agent/sandbox/executor_manager/services/__init__.py",
     "agent/sandbox/executor_manager/services/execution.py",
@@ -189,15 +278,7 @@
     "agent/sandbox/executor_manager/util.py",
     "agent/sandbox/executor_manager/utils/__init__.py",
     "agent/sandbox/executor_manager/utils/common.py",
-    "agent/sandbox/providers/__init__.py",
-    "agent/sandbox/providers/aliyun_codeinterpreter.py",
-    "agent/sandbox/providers/base.py",
-    "agent/sandbox/providers/e2b.py",
-    "agent/sandbox/providers/local.py",
-    "agent/sandbox/providers/manager.py",
-    "agent/sandbox/providers/self_managed.py",
-    "agent/sandbox/providers/ssh.py",
-    "agent/sandbox/providers/tenki.py"
+    "agent/sandbox/providers/__init__.py"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -332,8 +413,12 @@
     "tools": 46,
     "web": 1784
   },
-  "unread_source_paths_count": 5296,
+  "unread_source_paths_count": 5397,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 485,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

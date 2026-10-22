@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/DeusData/codebase-memory-mcp",
-  "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+  "description": "MCP server or integration combining codebase understanding with persistent memory for Vibe Studio/Orca coding-agent workflows.",
   "metadata": {
     "language": "C",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T15:38:29Z",
-    "github_description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+    "github_description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "010569fa6ce1bc5d6430f858129243ea1a2e3fd5",
   "current_commit": "010569fa6ce1bc5d6430f858129243ea1a2e3fd5",
   "inspection_date": "2026-09-20T05:34:42.149628+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:developer-tools",
     "category:mcp-servers",
-    "category:research-projects"
+    "category:ai-memory",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [
     "operational:04",
     "operational:10",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.527008+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.542945+00:00",
   "tree_files": 2051,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1817,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2016,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.320101+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "MCP server or integration combining codebase understanding with persistent memory for Vibe Studio/Orca coding-agent workflows.",
+    "reuse_recommendation": "Use only with explicit repository scope, data retention and tool permission controls.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license, MCP host compatibility and model service terms.",
+    "runtime": [
+      "Repository-declared Node/Python runtime",
+      "MCP",
+      "local or remote storage"
+    ],
+    "keywords": [
+      "codebase memory MCP",
+      "Vibe Studio",
+      "Orca agent",
+      "repository context",
+      "persistent coding memory"
+    ],
+    "risk_notes": [
+      "Private code and secrets may be indexed and returned to an agent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Codebase memory MCP",
+        "purpose": "Bridges repository knowledge and persistent memory to coding agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:15.981215+00:00",
+    "inspected_commit": "010569fa6ce1bc5d6430f858129243ea1a2e3fd5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ca39ef4182aef94e1d51673a5686cf18827a8056",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-seperate-idea-with-orca-codebase-memory-mcp/blob/010569fa6ce1bc5d6430f858129243ea1a2e3fd5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository indexing and context",
+        "description": "Extracts project knowledge for coding-agent retrieval.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-indexing-and-context",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "persistent memory tools",
+        "description": "Stores and retrieves context across agent sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:persistent-memory-tools",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP integration",
+        "description": "Exposes codebase and memory operations to compatible agent hosts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

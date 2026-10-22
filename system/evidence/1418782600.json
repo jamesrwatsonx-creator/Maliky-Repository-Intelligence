@@ -3,8 +3,100 @@
   "inspected_commit": "97f9fb0870f340310b6799aa56ea8e7d43779ea6",
   "tree_complete": true,
   "tree_files": 1251,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "README.md",
+      "sha": "74af78cf61342941639fb317d8173373775a622d"
+    },
+    {
+      "path": "backend/core/go.mod",
+      "sha": "ae1311a4a1d8b8e46d85615d43755c186e566cda"
+    },
+    {
+      "path": "backend/go.mod",
+      "sha": "00366967597cf68319656a78c9bc02726f66221e"
+    },
+    {
+      "path": "cli/Cargo.toml",
+      "sha": "f269f5a804fb3213895137f1e21e90f977554f8a"
+    },
+    {
+      "path": "desktop/main/package.json",
+      "sha": "64032752b99fdf125ea2df9e9b5efbeebd5839d6"
+    },
+    {
+      "path": "desktop/package.json",
+      "sha": "fe268aa9910820ae2d64330f40f39c9b3bdc3714"
+    },
+    {
+      "path": "desktop/src-tauri/Cargo.toml",
+      "sha": "bde7d0fc0a70359c443cb08b69083139c91945c7"
+    },
+    {
+      "path": "package.json",
+      "sha": "cdba65da029d03a70d71cd5eef72408394b4c09d"
+    },
+    {
+      "path": "server/package.json",
+      "sha": "41a195ee2493366e2c4ab7dbb01561515393d1ad"
+    },
+    {
+      "path": "torrential/Cargo.toml",
+      "sha": "d662118ea6a68e8b78f998efba86a84a2b386651"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "74af78cf61342941639fb317d8173373775a622d",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "cdba65da029d03a70d71cd5eef72408394b4c09d",
+      "entities_detected": 0
+    },
+    {
+      "path": "backend/go.mod",
+      "blob_sha": "00366967597cf68319656a78c9bc02726f66221e",
+      "entities_detected": 0
+    },
+    {
+      "path": "cli/Cargo.toml",
+      "blob_sha": "f269f5a804fb3213895137f1e21e90f977554f8a",
+      "entities_detected": 0
+    },
+    {
+      "path": "desktop/package.json",
+      "blob_sha": "fe268aa9910820ae2d64330f40f39c9b3bdc3714",
+      "entities_detected": 0
+    },
+    {
+      "path": "server/package.json",
+      "blob_sha": "41a195ee2493366e2c4ab7dbb01561515393d1ad",
+      "entities_detected": 0
+    },
+    {
+      "path": "torrential/Cargo.toml",
+      "blob_sha": "d662118ea6a68e8b78f998efba86a84a2b386651",
+      "entities_detected": 0
+    },
+    {
+      "path": "backend/core/go.mod",
+      "blob_sha": "ae1311a4a1d8b8e46d85615d43755c186e566cda",
+      "entities_detected": 0
+    },
+    {
+      "path": "desktop/main/package.json",
+      "blob_sha": "64032752b99fdf125ea2df9e9b5efbeebd5839d6",
+      "entities_detected": 0
+    },
+    {
+      "path": "desktop/src-tauri/Cargo.toml",
+      "blob_sha": "bde7d0fc0a70359c443cb08b69083139c91945c7",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/workflows/client-release.yml",
     ".github/workflows/droplet-ci.yml",
@@ -13,13 +105,9 @@
     ".github/workflows/server-release.yml",
     ".github/workflows/torrential-ci.yml",
     "Dockerfile",
-    "README.md",
     "SECURITY.md",
     "backend/core/database.go",
-    "backend/core/go.mod",
-    "backend/go.mod",
     "backend/main.go",
-    "cli/Cargo.toml",
     "cli/README.md",
     "cli/rust-toolchain.toml",
     "cli/spec.md",
@@ -47,6 +135,7 @@
     "desktop/changelog.md",
     "desktop/libs/appletrust/add-certificate.swift",
     "desktop/main/app.vue",
+    "desktop/main/assets/main.scss",
     "desktop/main/components/DefaultProtonButton.vue",
     "desktop/main/components/DependencyRequiredModal.vue",
     "desktop/main/components/GameOptions/HandlerSelector.vue",
@@ -82,7 +171,6 @@
     "desktop/main/layouts/default.vue",
     "desktop/main/layouts/mini.vue",
     "desktop/main/nuxt.config.ts",
-    "desktop/main/package.json",
     "desktop/main/pages/auth/code.vue",
     "desktop/main/pages/auth/failed.vue",
     "desktop/main/pages/auth/index.vue",
@@ -105,7 +193,11 @@
     "desktop/main/pages/settings/index.vue",
     "desktop/main/pages/settings/interface.vue",
     "desktop/main/pages/setup/index.vue",
-    "desktop/main/pages/setup/server.vue"
+    "desktop/main/pages/setup/server.vue",
+    "desktop/main/pages/store/index.vue",
+    "desktop/main/plugins/global-error-handler.ts",
+    "desktop/main/plugins/vuedraggable.ts",
+    "desktop/main/pnpm-lock.yaml"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "d3482fb37776c06fe37905e36378fcc7139f027fa77a359a4dda81a551ae363c",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -225,8 +318,11 @@
     "sites": 155,
     "torrential": 29
   },
-  "unread_source_paths_count": 983,
+  "unread_source_paths_count": 997,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 268,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/pgvector/pgvector",
-  "description": "Open-source vector similarity search for Postgres",
+  "description": "PostgreSQL extension adding exact and approximate nearest-neighbor similarity search for dense, half-precision, binary and sparse vectors.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-20T03:47:50Z",
-    "github_description": "Open-source vector similarity search for Postgres"
+    "github_description": "Open-source vector similarity search for Postgres",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "e48241b4dcc045b18902914f668d03d1d399dfbe",
   "current_commit": "e48241b4dcc045b18902914f668d03d1d399dfbe",
   "inspection_date": "2026-09-20T05:33:52.677596+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:research-projects"
+    "category:databases",
+    "category:vector-search",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:pgvector-workflow-build"
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -282,11 +284,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.836340+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.960094+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -308,8 +311,8 @@
   "tree_files": 158,
   "files_read": 91,
   "entity_count": 1,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 50,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -328,5 +331,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.256332+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "PostgreSQL extension adding exact and approximate nearest-neighbor similarity search for dense, half-precision, binary and sparse vectors.",
+    "reuse_recommendation": "Use when embeddings should live with PostgreSQL data; benchmark index and distance choices for the workload.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "PostgreSQL License.",
+    "runtime": [
+      "C",
+      "PostgreSQL extension"
+    ],
+    "keywords": [
+      "pgvector",
+      "PostgreSQL vector search",
+      "nearest neighbors",
+      "HNSW",
+      "embedding storage"
+    ],
+    "risk_notes": [
+      "Database indexing and recall/performance depend on workload and configuration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "pgvector extension",
+        "purpose": "Adds vector types, distance operations and indexes to PostgreSQL.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:17.376585+00:00",
+    "inspected_commit": "e48241b4dcc045b18902914f668d03d1d399dfbe",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bcb7edaf91d2bb005675d378bb0ed495cc279c82",
+        "value": "https://github.com/jamesrwatsonx-creator/pgvector/blob/e48241b4dcc045b18902914f668d03d1d399dfbe/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Postgres vector storage",
+        "description": "Stores vector representations alongside relational data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:postgres-vector-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "exact and approximate similarity search",
+        "description": "Supports distance metrics and approximate nearest-neighbor indexes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:exact-and-approximate-similarity-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

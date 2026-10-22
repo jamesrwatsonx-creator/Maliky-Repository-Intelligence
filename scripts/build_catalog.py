@@ -187,8 +187,10 @@ def make_catalog():
     repo_items = []
     for repo in repos:
         desc, desc_status = descriptions[repo["id"]]
+        intelligence = repo.get("repository_intelligence", {})
         cat_names = [categories.get(x, x) for x in repo.get("categories", [])]
-        caps = [cap_map[x]["name"] for x in repo.get("capabilities", []) if x in cap_map]
+        caps = sorted(set([cap_map[x]["name"] for x in repo.get("capabilities", []) if x in cap_map]
+                          + [c["name"] for c in intelligence.get("capability_clusters", [])]))
         repo_items.append({
             "id": repo["id"], "kind": "repository", "asset_type": "Repository", "entity_type": "REPOSITORY",
             "name": repo["full_name"], "description": desc, "description_status": desc_status,
@@ -203,6 +205,16 @@ def make_catalog():
             "operational_category_name": operational.get(repo.get("operational_category")),
             "asset_types": sorted({e["entity_type"] for e in by_repo.get(repo["id"], [])}),
             "capabilities": caps, "recommendation": repo.get("recommendation"),
+            "capability_ids": repo.get("capabilities", []),
+            "capability_clusters": intelligence.get("capability_clusters", []),
+            "keywords": intelligence.get("keywords", []),
+            "important_subsystems": intelligence.get("important_subsystems", []),
+            "asset_presence": intelligence.get("asset_presence", {}),
+            "runtime": intelligence.get("runtime", []),
+            "license_notes": intelligence.get("license_notes"), "risk_notes": intelligence.get("risk_notes", []),
+            "reuse_recommendation": intelligence.get("reuse_recommendation"),
+            "completion_scope": repo.get("completion_scope"),
+            "source_evidence": intelligence.get("source_evidence", []),
         })
     entity_items = []
     for entity in active:
@@ -237,7 +249,7 @@ def make_catalog():
                 item["topics"].append(topic[0])
                 topics_by_id[topic[0]].append(item)
         topic_names = [name for slug_, name, *_ in TOPICS if slug_ in item["topics"]]
-        item["search_text"] += " " + " ".join(topic_names)
+        item["search_text"] += " " + " ".join(topic_names + item.get("keywords", []))
     capability_export = [{"id": c["id"], "name": c["name"], "description": c.get("description", ""), "aliases": c.get("aliases", []), "status": c.get("status"), "providers": [x for x in c.get("providers", []) if x in repo_by_id or any(e["id"] == x for e in active)]} for c in cap_map.values()]
     return {
         "schema_version": 1, "generated_at": r.now(),
@@ -327,7 +339,7 @@ def generate(catalog):
     pages = 0
     # Agent/site export. Keep one canonical record per item; views only contain links.
     export = {k: v for k, v in catalog.items() if k not in ("items", "repositories", "assets")}
-    export["items"] = [{k: x.get(k) for k in ("id", "kind", "asset_type", "entity_type", "name", "description", "description_status", "record_url", "repository", "repository_url", "source_path", "source_url", "upstream_url", "language", "technology", "review_status", "evidence_status", "inspected_commit", "inspection_date", "blob_sha", "categories", "operational_category", "operational_category_name", "asset_types", "capabilities", "capability_ids", "recommendation", "topics")} for x in items]
+    export["items"] = [{k: x.get(k) for k in ("id", "kind", "asset_type", "entity_type", "name", "description", "description_status", "record_url", "repository", "repository_url", "source_path", "source_url", "upstream_url", "language", "technology", "review_status", "evidence_status", "inspected_commit", "inspection_date", "blob_sha", "categories", "operational_category", "operational_category_name", "asset_types", "capabilities", "capability_ids", "recommendation", "topics", "capability_clusters", "keywords", "important_subsystems", "asset_presence", "runtime", "license_notes", "risk_notes", "reuse_recommendation", "completion_scope", "source_evidence")} for x in items]
     write_text("docs/catalog/catalog.json", json.dumps(export, ensure_ascii=False, separators=(",", ":")) + "\n")
 
     # Public source links are from the stable branch expected after publication.
@@ -434,7 +446,7 @@ STATIC_HTML = '''<!doctype html>
 <body><main><header><p class="eyebrow">MALIKY REPOSITORY INTELLIGENCE</p><h1>My GitHub capability library</h1><p>Search owned repositories and individually indexed assets. Catalog presence does not mean software is installed or production-ready.</p></header>
 <section class="controls"><label for="query">Search by name, capability, description, technology, repository or source path</label><input id="query" type="search" placeholder="Try “Android voice interface” or “MCP server”" autocomplete="off"><div class="filters"><label>Asset type <select id="type"><option value="">All types</option></select></label><label>Topic <select id="topic"><option value="">All topics</option></select></label><label>Status <select id="status"><option value="">All evidence states</option><option>VERIFIED</option><option>NEEDS_REVIEW</option><option>COMPLETE</option><option>PARTIAL</option><option>STRUCTURE_COMPLETE</option><option>DISCOVERED</option></select></label></div><p id="count" aria-live="polite"></p></section><section id="results" aria-live="polite"></section></main><script src="app.js"></script></body></html>'''
 
-STATIC_JS = '''const $=s=>document.querySelector(s);let catalog=[];const esc=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\\\"":"&quot;","'":"&#39;"}[c]));const text=x=>[x.name,x.asset_type,x.entity_type,x.description,x.repository,x.source_path,x.technology,x.language,(x.categories||[]).join(" "),(x.capabilities||[]).join(" "),(x.topics||[]).join(" ")].join(" ").toLowerCase();
+STATIC_JS = '''const $=s=>document.querySelector(s);let catalog=[];const esc=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\\\"":"&quot;","'":"&#39;"}[c]));const text=x=>[x.name,x.asset_type,x.entity_type,x.description,x.repository,x.source_path,x.technology,x.language,(x.categories||[]).join(" "),(x.capabilities||[]).join(" "),(x.topics||[]).join(" "),(x.keywords||[]).join(" "),(x.capability_clusters||[]).map(c=>c.name+" "+c.description).join(" "),(x.important_subsystems||[]).map(s=>s.name+" "+s.purpose).join(" ")].join(" ").toLowerCase();
 fetch("catalog.json").then(r=>r.json()).then(data=>{catalog=data.items||[];const types=[...new Set(catalog.map(x=>x.asset_type))].sort();for(const x of types)$("#type").add(new Option(x,x));for(const x of data.topics||[])$("#topic").add(new Option(x.name,x.slug));render();}).catch(()=>{$("#count").textContent="Catalog data could not be loaded. Use the JSON export or local CLI."});
 function render(){const q=$("#query").value.toLowerCase().trim().split(/\\s+/).filter(Boolean),type=$("#type").value,topic=$("#topic").value,status=$("#status").value;let rows=catalog.map(x=>{const hay=text(x);const score=q.reduce((n,t)=>n+(hay.includes(t)?1:0),0);return{x,score}}).filter(y=>(!q.length||y.score>0)&&(!type||y.x.asset_type===type)&&(!topic||y.x.topics.includes(topic))&&(!status||y.x.review_status===status)).sort((a,b)=>b.score-a.score||a.x.name.localeCompare(b.x.name)).slice(0,250);$("#count").textContent=`Showing ${rows.length} of ${catalog.filter(x=>(!type||x.asset_type===type)&&(!topic||x.topics.includes(topic))&&(!status||x.review_status===status)).length} matches (maximum 250 per view).`;$("#results").innerHTML=rows.map(({x})=>`<article><h2><a href="${esc(x.record_url||x.repository_url)}">${esc(x.name)}</a></h2><p>${esc(x.description)}</p><p class="meta">${esc(x.asset_type)} · ${esc(x.review_status)} · from <a href="${esc(x.repository_url)}">${esc(x.repository)}</a></p>${x.source_path?`<p><a href="${esc(x.source_url)}">Source: ${esc(x.source_path)}</a></p>`:""}<p class="tags">${(x.topics||[]).map(t=>`<span>${esc(t)}</span>`).join("")}</p></article>`).join("")||"<p>No matching entries.</p>"}
 ["#query","#type","#topic","#status"].forEach(s=>$(s).addEventListener(s==="#query"?"input":"change",render));'''

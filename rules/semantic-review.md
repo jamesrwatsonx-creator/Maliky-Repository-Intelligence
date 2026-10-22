@@ -1,6 +1,20 @@
 # Semantic Review Policy
 
-## Lean review is the default
+## Current default: repository intelligence
+
+The owner's 2026-10-21 directive supersedes exhaustive asset decomposition as the
+practical V1 gate. Follow docs/V1-CATALOG-SCOPE.md. Review bounded pinned sources,
+summarize repository purpose and major clusters, note important subsystems and
+asset families, preserve provenance and record runtime/license/risk/reuse guidance.
+Detailed entities already present remain unchanged and searchable, including their
+candidate/verified distinctions. Do not require their census reconciliation for
+`completion_scope: REPOSITORY_CLUSTERS_V1`.
+
+Select strong repositories through summary search before demand-driven deep
+inspection for a particular build. The remaining policy below governs that detailed
+inspection and historical detailed-census completion, not ordinary summary coverage.
+
+## Lean review for on-demand assets
 
 Review each meaningful reusable entity only deeply enough to establish:
 

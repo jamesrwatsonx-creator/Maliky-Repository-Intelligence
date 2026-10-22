@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/JetBrains/compose-hot-reload",
-  "description": "Compose Hot Reload: Make changes to your UI code in a Compose Multiplatform application, and see the results in real time. No restarts required. Compose Hot Reload runs your application on the JetBrains Runtime and intelligently reloads your code whenever it is changed.",
+  "description": "Android development tool for applying Kotlin/Compose code changes to a running application without a full rebuild or restart.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-18T09:22:21Z",
-    "github_description": "Compose Hot Reload: Make changes to your UI code in a Compose Multiplatform application, and see the results in real time. No restarts required. Compose Hot Reload runs your application on the JetBrains Runtime and intelligently reloads your code whenever it is changed."
+    "github_description": "Compose Hot Reload: Make changes to your UI code in a Compose Multiplatform application, and see the results in real time. No restarts required. Compose Hot Reload runs your application on the JetBrains Runtime and intelligently reloads your code whenever it is changed.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "32ce1653924e5ae2723ae9a8c5d664c94ac9116d",
   "current_commit": "32ce1653924e5ae2723ae9a8c5d664c94ac9116d",
   "inspection_date": "2026-09-20T05:36:49.796630+00:00",
   "categories": [
     "category:developer-tools",
-    "category:frontend-applications"
+    "category:mobile-applications",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.486635+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.310983+00:00",
   "tree_files": 1378,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 642,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 761,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.107282+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android development tool for applying Kotlin/Compose code changes to a running application without a full rebuild or restart.",
+    "reuse_recommendation": "Use as a development accelerator and verify compatibility with the exact toolchain versions.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and Android Studio/Gradle compatibility.",
+    "runtime": [
+      "Kotlin",
+      "Android Gradle Plugin",
+      "Android Studio/runtime"
+    ],
+    "keywords": [
+      "Compose hot reload",
+      "Android developer tool",
+      "Kotlin UI iteration",
+      "live preview",
+      "build workflow"
+    ],
+    "risk_notes": [
+      "Development-only code paths should not leak into production builds."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Compose reload tooling",
+        "purpose": "Shortens the edit-test feedback loop for Android UI work.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:14.543930+00:00",
+    "inspected_commit": "32ce1653924e5ae2723ae9a8c5d664c94ac9116d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "229856668d3ea2a3a6e421de6dffde1b40639a75",
+        "value": "https://github.com/jamesrwatsonx-creator/compose-hot-reload/blob/32ce1653924e5ae2723ae9a8c5d664c94ac9116d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "live UI update",
+        "description": "Reflects supported code changes in a running Compose app.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:live-ui-update",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "developer build integration",
+        "description": "Connects reload workflows to Android development tooling.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:developer-build-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

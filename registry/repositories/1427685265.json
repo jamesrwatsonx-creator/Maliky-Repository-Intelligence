@@ -11,22 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/livekit-examples/index",
-  "description": "An index of LiveKit application templates",
+  "description": "Small registry and task-based setup index for discovering external LiveKit starter templates and configuring selected examples.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-04T19:18:26Z",
     "live_metadata": "FRESH",
-    "github_description": "An index of LiveKit application templates"
+    "github_description": "An index of LiveKit application templates",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "9adf0144a2a501934df3e2be1a5067092be65b74",
   "current_commit": "9adf0144a2a501934df3e2be1a5067092be65b74",
   "inspection_date": "2026-10-21T23:09:28.981964+00:00",
   "categories": [
-    "category:documentation",
-    "category:templates-boilerplates"
+    "category:ai-applications",
+    "category:agent-workflows",
+    "category:documentation"
   ],
   "operational_category": "operational:07",
   "secondary_operational_categories": [],
@@ -325,9 +327,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.380661+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.494168+00:00",
   "tree_files": 6,
   "files_read": 4,
   "entity_count": 2,
@@ -369,5 +372,119 @@
       }
     ],
     "excluded_candidates": []
+  },
+  "repository_intelligence": {
+    "purpose": "Small registry and task-based setup index for discovering external LiveKit starter templates and configuring selected examples.",
+    "reuse_recommendation": "Use to shortlist LiveKit examples, then inspect the selected upstream template and its dependencies before setup.",
+    "inspection_scope": "Reviewed all six files. The repository contains template metadata and setup tasks that fetch/use external examples; it is not itself a voice SDK, agent server or full template implementation.",
+    "license_notes": "Apache-2.0 for this index; external templates have independent terms.",
+    "runtime": [
+      "YAML registry",
+      "Taskfile configuration",
+      "external LiveKit templates"
+    ],
+    "keywords": [
+      "LiveKit template index",
+      "voice agent starter discovery",
+      "Taskfile setup",
+      "realtime audio examples"
+    ],
+    "risk_notes": [
+      "Template entries are references; setup tasks may retrieve and execute external project workflows when invoked."
+    ],
+    "important_subsystems": [
+      {
+        "name": "template registry",
+        "purpose": "Records external template references and metadata.",
+        "evidence_paths": [
+          "templates.yaml"
+        ]
+      },
+      {
+        "name": "setup task configuration",
+        "purpose": "Defines commands used to initialize selected templates.",
+        "evidence_paths": [
+          "taskfile.yaml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:31.006926+00:00",
+    "inspected_commit": "9adf0144a2a501934df3e2be1a5067092be65b74",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "efbdc7d2f46bfe2b5dd159ea20dbd00dc5549b8d",
+        "value": "https://github.com/jamesrwatsonx-creator/LiveKit-index/blob/9adf0144a2a501934df3e2be1a5067092be65b74/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "value": "https://github.com/jamesrwatsonx-creator/LiveKit-index/blob/9adf0144a2a501934df3e2be1a5067092be65b74/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "taskfile.yaml",
+        "blob_sha": "11218716779df20be8b2b167d53877e7889603a5",
+        "value": "https://github.com/jamesrwatsonx-creator/LiveKit-index/blob/9adf0144a2a501934df3e2be1a5067092be65b74/taskfile.yaml"
+      },
+      {
+        "type": "source_review",
+        "path": "templates.yaml",
+        "blob_sha": "9dbc83deb9bc78c1b5204f2d03156e15c4dd7a55",
+        "value": "https://github.com/jamesrwatsonx-creator/LiveKit-index/blob/9adf0144a2a501934df3e2be1a5067092be65b74/templates.yaml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "EXTERNAL_REFERENCE",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "LiveKit starter discovery",
+        "description": "Catalogues external LiveKit templates for voice and realtime application patterns.",
+        "scope": "REFERENCE",
+        "id": "cluster:livekit-starter-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "taskfile.yaml",
+          "templates.yaml"
+        ]
+      },
+      {
+        "name": "template setup tasks",
+        "description": "Provides task configuration to initialize selected external examples.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:template-setup-tasks",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "taskfile.yaml",
+          "templates.yaml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/fluidd-core/fluidd",
-  "description": "Fluidd, the klipper UI.",
+  "description": "Web interface for managing and monitoring Klipper-based 3D printers, commonly integrated with Moonraker.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T09:20:49Z",
-    "github_description": "Fluidd, the klipper UI."
+    "github_description": "Fluidd, the klipper UI.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "92751a13c4fdbd8181f0e6f771acf7998192fe06",
   "current_commit": "92751a13c4fdbd8181f0e6f771acf7998192fe06",
   "inspection_date": "2026-10-20T23:55:21.632743+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:iot",
+    "category:web-applications",
+    "category:developer-tools"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.850716+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.768274+00:00",
   "tree_files": 840,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 711,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 721,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Web interface for managing and monitoring Klipper-based 3D printers, commonly integrated with Moonraker.",
+    "reuse_recommendation": "Use for authorized printer management; protect network/API access and test controls safely.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "GPL-3.0; printer firmware and hardware terms may apply.",
+    "runtime": [
+      "Vue/TypeScript frontend",
+      "Moonraker API",
+      "3D printer host"
+    ],
+    "keywords": [
+      "Fluidd",
+      "Klipper",
+      "3D printer dashboard",
+      "Moonraker",
+      "printer control"
+    ],
+    "risk_notes": [
+      "Remote device control can create physical hazards; do not expose unauthenticated interfaces."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fluidd dashboard",
+        "purpose": "Combines printer control, monitoring and configuration in a web UI.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:19.848616+00:00",
+    "inspected_commit": "92751a13c4fdbd8181f0e6f771acf7998192fe06",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8a8a2844358843da144e6f08417662f8f36c33d2",
+        "value": "https://github.com/jamesrwatsonx-creator/fluidd/blob/92751a13c4fdbd8181f0e6f771acf7998192fe06/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "printer control interface",
+        "description": "Provides browser controls for managing supported printer operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:printer-control-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "status and job monitoring",
+        "description": "Displays printer state, temperatures and print progress.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:status-and-job-monitoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Moonraker integration",
+        "description": "Connects the UI to printer management APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:moonraker-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

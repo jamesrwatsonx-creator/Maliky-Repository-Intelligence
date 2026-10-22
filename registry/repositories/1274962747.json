@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/anthropics/launch-your-agent",
-  "description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+  "description": "Instruction and template kit for scoping, launching, evaluating and handing off agents on an external managed-agent platform; not a hosted agent-runtime implementation.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-06-17T12:56:48Z",
-    "github_description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it"
+    "github_description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "05e9627ddae296b85b3870287661cf2934e6c958",
   "current_commit": "05e9627ddae296b85b3870287661cf2934e6c958",
   "inspection_date": "2026-09-20T05:32:45.674001+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:templates-boilerplates"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -42,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -287,11 +288,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.335925+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.445006+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -311,19 +313,18 @@
     "unverified_source_files": 0
   },
   "tree_files": 16,
-  "files_read": 13,
+  "files_read": 15,
   "entity_count": 2,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 2,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:53.778234+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -333,5 +334,215 @@
     ],
     "updated_at": "2026-10-12T19:04:27.194711+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Instruction and template kit for scoping, launching, evaluating and handing off agents on an external managed-agent platform; not a hosted agent-runtime implementation.",
+    "reuse_recommendation": "Use the skills with an authorized agent host; adapt the templates and verify current provider contracts before live deployment.",
+    "inspection_scope": "Complete 16-file tree: two independently invocable skills, a reusable overview page, build-sheet structure, visibly mocked connector contracts and a version-scoped platform reference. Duplicate UI examples and interview/example banks support these assets rather than implementing a hosted agent runtime. Repository-level completion only; detailed entities are preserved unchanged.",
+    "license_notes": "Apache-2.0; source-specific notices remain applicable.",
+    "runtime": [
+      "Markdown skills",
+      "HTML/CSS",
+      "JSON templates",
+      "Claude Code or adapted agent host"
+    ],
+    "keywords": [
+      "managed agents",
+      "CMA",
+      "rubrics",
+      "scheduled deployment",
+      "connector mocks",
+      "build sheet",
+      "handoff"
+    ],
+    "risk_notes": [
+      "This tree contains instructions and templates, not a hosted runtime. The launch skill calls for owner credentials in local environment/vault storage rather than chat, exposes permission/network decisions and stages write connectors behind explicit configuration. Outbox mocks are not delivered messages; custom-tool mocks block pending a host response and are unsuitable for unattended scheduling. Live launch, spend, network policy and schedule mutations require operator authority in the executing environment. No credentials were supplied, no provider call was made and no deployment or inspected script was run during this census."
+    ],
+    "important_subsystems": [
+      {
+        "name": "managed-agent build workflow",
+        "purpose": "Scope a job, stage launch payloads and iterate against an outcome rubric.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "agent deployment planning",
+        "purpose": "Plan scheduled external-platform execution and permissions without implementing hosting.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "connector mock contracts",
+        "purpose": "Design visible outbox or interactive custom-tool mocks before real connector access.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:43:43.506094+00:00",
+    "inspected_commit": "05e9627ddae296b85b3870287661cf2934e6c958",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4b60c69a7b326372114f3e7e23801c053b2e9e55",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/launch-your-agent/SKILL.md",
+        "blob_sha": "e2b63b64358aff77fd0ebb4147f5a194f9406a60",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/launch-your-agent/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/wrap-up/SKILL.md",
+        "blob_sha": "fdde5caafd5082bdfb33bc168ae67a6ee4096d43",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/wrap-up/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+        "blob_sha": "0741514b3a6b95be49732e671d9a0c8a01dc0872",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/launch-your-agent/references/build-sheet.example.json"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/launch-your-agent/references/overview-template.html",
+        "blob_sha": "708c784b6a47f8d3f8b3990864138c3c0dfed653",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/launch-your-agent/references/overview-template.html"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/launch-your-agent/references/mock-connectors.md",
+        "blob_sha": "443897b80ad4e5075f0e3890d0ec315737c41029",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/launch-your-agent/references/mock-connectors.md"
+      },
+      {
+        "type": "source_review",
+        "path": "cma-primitives.md",
+        "blob_sha": "54c690527ddf2376581f58a35254a34af6ff6352",
+        "value": "https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/cma-primitives.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "EXTERNAL_REFERENCE",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "managed-agent build workflow",
+        "description": "Scope a job, stage launch payloads and iterate against an outcome rubric.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:managed-agent-build-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "agent deployment planning",
+        "description": "Plan scheduled external-platform execution and permissions without implementing hosting.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-deployment-planning",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "connector mock contracts",
+        "description": "Design visible outbox or interactive custom-tool mocks before real connector access.",
+        "scope": "REFERENCE",
+        "id": "cluster:connector-mock-contracts",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      },
+      {
+        "name": "agent handoff templates",
+        "description": "Build-sheet and visual overview templates for status, ownership and next upgrades.",
+        "scope": "REFERENCE",
+        "id": "cluster:agent-handoff-templates",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/launch-your-agent/SKILL.md",
+          ".claude/skills/wrap-up/SKILL.md",
+          ".claude/skills/launch-your-agent/references/build-sheet.example.json",
+          ".claude/skills/launch-your-agent/references/overview-template.html",
+          ".claude/skills/launch-your-agent/references/mock-connectors.md",
+          "cma-primitives.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

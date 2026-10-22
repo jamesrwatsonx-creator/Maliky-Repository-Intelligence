@@ -11,25 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/MoonshotAI/Kimi-K3",
-  "description": "Open Frontier Intelligence",
+  "description": "Reference repository containing a README and license material for the Kimi-K3 project; the bounded tree has no implementation or model weights.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-06T10:17:28Z",
-    "github_description": "Open Frontier Intelligence"
+    "github_description": "Open Frontier Intelligence",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
   "current_commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
   "inspection_date": "2026-09-20T05:34:04.712408+00:00",
   "categories": [
-    "category:generative-ai",
-    "category:llm-projects",
     "category:machine-learning-models",
-    "category:research-projects"
+    "category:documentation"
   ],
-  "operational_category": "operational:15",
+  "operational_category": "operational:25",
   "secondary_operational_categories": [
     "operational:10"
   ],
@@ -41,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "LICENSE REVIEW REQUIRED",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -292,9 +291,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.306014+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.410863+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -312,10 +312,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4,
-  "files_read": 1,
+  "files_read": 2,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "LICENSE_REVIEW",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T18:05:21.800802+00:00",
     "completed_at": "2026-10-12T18:05:21.800802+00:00",
@@ -342,5 +342,84 @@
     ],
     "updated_at": "2026-10-12T19:04:27.190091+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Reference repository containing a README and license material for the Kimi-K3 project; the bounded tree has no implementation or model weights.",
+    "reuse_recommendation": "Treat as a reference only; inspect the linked upstream and model terms before selecting a model capability.",
+    "inspection_scope": "Only README and license files were present in the inspected tree; this is a documentation/reference record rather than a locally runnable model or service.",
+    "license_notes": "See the repository LICENSE; it does not establish terms for any external model or weights.",
+    "runtime": [
+      "Markdown"
+    ],
+    "keywords": [
+      "Kimi-K3",
+      "model reference",
+      "project documentation"
+    ],
+    "risk_notes": [
+      "No local implementation, weights or runtime were verified."
+    ],
+    "important_subsystems": [
+      {
+        "name": "project documentation",
+        "purpose": "Records the project reference and available license information.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:27.044857+00:00",
+    "inspected_commit": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "21fe1f27c13dd41d8e45da6ea628e98abc105b60",
+        "value": "https://github.com/jamesrwatsonx-creator/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "0de9f0698195e20305982b95f47246bfd85602e5",
+        "value": "https://github.com/jamesrwatsonx-creator/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/LICENSE"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Kimi-K3 project reference",
+        "description": "Provides documentation and licensing context for an externally referenced project.",
+        "scope": "REFERENCE",
+        "id": "cluster:kimi-k3-project-reference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "LICENSE_REVIEW",
+    "review_reason": "LICENSE_REVIEW"
   }
 }

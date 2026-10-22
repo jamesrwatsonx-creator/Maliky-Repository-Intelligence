@@ -3,14 +3,112 @@
   "inspected_commit": "84cd26ecb454e3bc4cc964b3006094ee8b619e77",
   "tree_complete": true,
   "tree_files": 3200,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "d68041161a7a42ada7c4a3789a84e593bff2fdcf"
+    },
+    {
+      "path": "README.md",
+      "sha": "160950c55d7df49c65f73c9abc15290c6d26c9ff"
+    },
+    {
+      "path": "e2e-tests/fixtures/import-app/astro/package.json",
+      "sha": "1bfaa0958707da9ddbc202cffa7c6f0bc39f8586"
+    },
+    {
+      "path": "e2e-tests/fixtures/import-app/minimal-with-ai-rules/package.json",
+      "sha": "1bfaa0958707da9ddbc202cffa7c6f0bc39f8586"
+    },
+    {
+      "path": "native/keychain-reader/package.json",
+      "sha": "b9a8d6d4e0eb0a5daf297e96244e0cdfcdcf51f3"
+    },
+    {
+      "path": "package.json",
+      "sha": "d893e4bcb534878ef4658bad118644f4f7e98e87"
+    },
+    {
+      "path": "packages/pg-schema-classifier/package.json",
+      "sha": "d2b64c1193bf9e4a4712baae3ca5831139eaf3ab"
+    },
+    {
+      "path": "packages/ts-pg-schema-diff/package.json",
+      "sha": "1a1bd0816bcaf3e0f4aa50052ee352c6eb2a8e0a"
+    },
+    {
+      "path": "scaffold/package.json",
+      "sha": "ecaef9a830a31512f8e27238173f818a19cc9fae"
+    },
+    {
+      "path": "testing/fake-llm-server/package.json",
+      "sha": "0eac75884c8852f3ae722e5a512264e9aad8debf"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "160950c55d7df49c65f73c9abc15290c6d26c9ff",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "d68041161a7a42ada7c4a3789a84e593bff2fdcf",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "d893e4bcb534878ef4658bad118644f4f7e98e87",
+      "entities_detected": 0
+    },
+    {
+      "path": "scaffold/package.json",
+      "blob_sha": "ecaef9a830a31512f8e27238173f818a19cc9fae",
+      "entities_detected": 0
+    },
+    {
+      "path": "native/keychain-reader/package.json",
+      "blob_sha": "b9a8d6d4e0eb0a5daf297e96244e0cdfcdcf51f3",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/pg-schema-classifier/package.json",
+      "blob_sha": "d2b64c1193bf9e4a4712baae3ca5831139eaf3ab",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/ts-pg-schema-diff/package.json",
+      "blob_sha": "1a1bd0816bcaf3e0f4aa50052ee352c6eb2a8e0a",
+      "entities_detected": 0
+    },
+    {
+      "path": "testing/fake-llm-server/package.json",
+      "blob_sha": "0eac75884c8852f3ae722e5a512264e9aad8debf",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e-tests/fixtures/import-app/astro/package.json",
+      "blob_sha": "1bfaa0958707da9ddbc202cffa7c6f0bc39f8586",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e-tests/fixtures/import-app/minimal-with-ai-rules/package.json",
+      "blob_sha": "1bfaa0958707da9ddbc202cffa7c6f0bc39f8586",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".claude/README.md",
     ".claude/hooks/gh-permission-hook.py",
     ".claude/hooks/permission-policy.md",
     ".claude/hooks/python-permission-hook.py",
     ".claude/hooks/tests/README.md",
+    ".claude/hooks/tests/bad_commands.txt",
+    ".claude/hooks/tests/good_commands.txt",
+    ".claude/hooks/tests/python_bad_commands.txt",
+    ".claude/hooks/tests/python_good_commands.txt",
+    ".claude/hooks/tests/python_passthrough_commands.txt",
+    ".claude/hooks/tests/python_security_blocked_commands.txt",
     ".claude/hooks/tests/test_gh_permission_hook.py",
     ".claude/hooks/tests/test_permission_request_hook.py",
     ".claude/hooks/tests/test_python_permission_hook.py",
@@ -64,12 +162,16 @@
     ".claude/skills/swarm-to-plan/references/eng.md",
     ".claude/skills/swarm-to-plan/references/pm.md",
     ".claude/skills/swarm-to-plan/references/ux.md",
+    ".cursor/rules/ipc.mdc",
     ".devcontainer/devcontainer.json",
     ".eslintrc.json",
     ".github/ISSUE_TEMPLATE/add_template.md",
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/ISSUE_TEMPLATE/hub_issue.md",
+    ".github/prompts/claude-pr-review.txt",
+    ".github/prompts/claude-triage.txt",
+    ".github/prompts/codex-pr-review.txt",
     ".github/workflows/README.md",
     ".github/workflows/cancel-ci-after-merge.yml",
     ".github/workflows/cancel-claude-pr-review-after-merge.yml",
@@ -95,17 +197,7 @@
     ".oxlintrc.json",
     ".storybook/main.ts",
     ".storybook/preview.ts",
-    "AGENTS.md",
-    "CLA.md",
-    "CONTRIBUTING.md",
-    "PRODUCT.md",
-    "README.md",
-    "SECURITY.md",
-    "benchmarks/code-explorer/BENCHMARK.md",
-    "benchmarks/code-explorer/pricing.mjs",
-    "benchmarks/code-explorer/run.mjs",
-    "benchmarks/code-explorer/suite.mjs",
-    "benchmarks/code-explorer/tasks.json"
+    "AGENTS.md"
   ],
   "excluded_nontext_paths": [
     ".claude/hooks/tests/bad_commands.txt",
@@ -241,8 +333,12 @@
     "worker": 10,
     "workers": 13
   },
-  "unread_source_paths_count": 2967,
+  "unread_source_paths_count": 3121,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 233,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

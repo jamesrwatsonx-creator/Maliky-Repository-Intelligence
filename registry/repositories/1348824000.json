@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/juanfont/headscale",
-  "description": "An open source, self-hosted implementation of the Tailscale control server",
+  "description": "Self-hosted implementation of the Tailscale control server for coordinating secure mesh VPN nodes and access policies.",
   "metadata": {
     "language": null,
     "license": "BSD-3-Clause",
     "archived": false,
     "pushed_at": "2026-08-25T20:00:36Z",
-    "github_description": "An open source, self-hosted implementation of the Tailscale control server"
+    "github_description": "An open source, self-hosted implementation of the Tailscale control server",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "63123196cc21eeb301eec60bf05d5fe0a2bc4787",
   "current_commit": "63123196cc21eeb301eec60bf05d5fe0a2bc4787",
   "inspection_date": "2026-09-20T05:34:07.843521+00:00",
   "categories": [
-    "category:general-other"
+    "category:networking",
+    "category:cybersecurity",
+    "category:cloud-infrastructure"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.085572+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.162625+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1464,
-  "files_read": 6,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 544,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 563,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.168041+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hosted implementation of the Tailscale control server for coordinating secure mesh VPN nodes and access policies.",
+    "reuse_recommendation": "Use for private mesh networking with carefully managed identity, ACLs and server updates.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "BSD-3-Clause; Tailscale client and service terms are separate.",
+    "runtime": [
+      "Go server",
+      "SQLite/PostgreSQL",
+      "WireGuard clients"
+    ],
+    "keywords": [
+      "Headscale",
+      "mesh VPN",
+      "WireGuard coordination",
+      "self-hosted control server",
+      "private networking"
+    ],
+    "risk_notes": [
+      "Control-plane compromise can expose connected network devices and routes."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Headscale control server",
+        "purpose": "Offers a self-hosted control plane compatible with Tailscale clients.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:15.903436+00:00",
+    "inspected_commit": "63123196cc21eeb301eec60bf05d5fe0a2bc4787",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c18bf2ad5e57f7120f3672d92003ffb02f3418dc",
+        "value": "https://github.com/jamesrwatsonx-creator/headscale/blob/63123196cc21eeb301eec60bf05d5fe0a2bc4787/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "mesh VPN coordination",
+        "description": "Coordinates device enrollment and network configuration for mesh nodes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mesh-vpn-coordination",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "identity and access policy",
+        "description": "Manages users, namespaces and access controls for network participants.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:identity-and-access-policy",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted infrastructure",
+        "description": "Provides control-plane deployment and operational APIs.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-infrastructure",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

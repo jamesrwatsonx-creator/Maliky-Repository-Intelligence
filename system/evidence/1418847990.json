@@ -3,8 +3,100 @@
   "inspected_commit": "efaba04566eeac4d17fdde7e9258e6c047a02cf8",
   "tree_complete": true,
   "tree_files": 872,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "3aa9abca890d4f41ca75a605cdef496b7deb4c56"
+    },
+    {
+      "path": "README.md",
+      "sha": "c2d6e88de11d6f1d63f7047e68aa07ffec361453"
+    },
+    {
+      "path": "doc/README.md",
+      "sha": "7a2b3aebcdb8387ed6260842fa2339ad80e5cfae"
+    },
+    {
+      "path": "doc/manual/README.md",
+      "sha": "48e8839802e1c33d98f1f420abdffc68d5bd6127"
+    },
+    {
+      "path": "docker/README.md",
+      "sha": "93c4e1cbd7bc19f451e63704e9059b84a745a72f"
+    },
+    {
+      "path": "docker/multi-process/README.md",
+      "sha": "a8047e5d5680eddd8d4c0d30b22e05619f425d0f"
+    },
+    {
+      "path": "docker/single-process/README.md",
+      "sha": "ff7d8dbe854a45b6d332a23abeb24995f13cfaf9"
+    },
+    {
+      "path": "docker/test/README.md",
+      "sha": "8a2ee1f191cef78299faf192e47937b1868f1f62"
+    },
+    {
+      "path": "package.json",
+      "sha": "1fa48f2d25213fff43b443b2f736912e5b63ae6f"
+    },
+    {
+      "path": "vendor/gems/dotenv-3.2.0/README.md",
+      "sha": "e3b7e25be8d840f7b546752342d410a3e267e135"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "c2d6e88de11d6f1d63f7047e68aa07ffec361453",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "3aa9abca890d4f41ca75a605cdef496b7deb4c56",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "1fa48f2d25213fff43b443b2f736912e5b63ae6f",
+      "entities_detected": 0
+    },
+    {
+      "path": "doc/README.md",
+      "blob_sha": "7a2b3aebcdb8387ed6260842fa2339ad80e5cfae",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/README.md",
+      "blob_sha": "93c4e1cbd7bc19f451e63704e9059b84a745a72f",
+      "entities_detected": 0
+    },
+    {
+      "path": "doc/manual/README.md",
+      "blob_sha": "48e8839802e1c33d98f1f420abdffc68d5bd6127",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/multi-process/README.md",
+      "blob_sha": "a8047e5d5680eddd8d4c0d30b22e05619f425d0f",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/single-process/README.md",
+      "blob_sha": "ff7d8dbe854a45b6d332a23abeb24995f13cfaf9",
+      "entities_detected": 0
+    },
+    {
+      "path": "docker/test/README.md",
+      "blob_sha": "8a2ee1f191cef78299faf192e47937b1868f1f62",
+      "entities_detected": 0
+    },
+    {
+      "path": "vendor/gems/dotenv-3.2.0/README.md",
+      "blob_sha": "e3b7e25be8d840f7b546752342d410a3e267e135",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -14,8 +106,6 @@
     ".github/workflows/renovate_bundle_install_ruby.yml",
     "CHANGES.md",
     "CONTRIBUTING.md",
-    "LICENSE",
-    "README.md",
     "SECURITY.md",
     "UPGRADING.md",
     "app.json",
@@ -37,6 +127,12 @@
     "app/assets/javascripts/pages/scenario-show-page.js",
     "app/assets/javascripts/pages/user-credential-page.js",
     "app/assets/javascripts/tweets.js",
+    "app/assets/stylesheets/agent_views/peak_detector_agent/show.scss",
+    "app/assets/stylesheets/diagram.scss",
+    "app/assets/stylesheets/jobs.scss",
+    "app/assets/stylesheets/scenarios.scss",
+    "app/assets/stylesheets/tables.scss",
+    "app/assets/stylesheets/typeahead.scss",
     "app/concerns/agent_controller_concern.rb",
     "app/concerns/agent_proxy_concern.rb",
     "app/concerns/assignable_types.rb",
@@ -101,11 +197,7 @@
     "app/jobs/agent_receive_job.rb",
     "app/jobs/agent_reemit_job.rb",
     "app/jobs/agent_run_schedule_job.rb",
-    "app/mailers/system_mailer.rb",
-    "app/models/agent.rb",
-    "app/models/agent_log.rb",
-    "app/models/agents/aftership_agent.rb",
-    "app/models/agents/attribute_difference_agent.rb"
+    "app/mailers/system_mailer.rb"
   ],
   "excluded_nontext_paths": [
     ".buildpacks",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "bb7461c6caa8bb311bb9645e47ea37e348d122838b38fc9ab5d8136b4eed79bb",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -235,8 +328,11 @@
     "tmp": 1,
     "vendor": 92
   },
-  "unread_source_paths_count": 628,
+  "unread_source_paths_count": 672,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 244,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

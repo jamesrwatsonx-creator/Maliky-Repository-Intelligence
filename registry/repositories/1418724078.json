@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coder/coder",
-  "description": "Secure environments for developers and their agents",
+  "description": "Open-source AI coding agent for understanding repositories, editing code and running development workflows through a CLI or application interface.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T09:50:14Z",
-    "github_description": "Secure environments for developers and their agents"
+    "github_description": "Secure environments for developers and their agents",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "40c0adc7ac2fc81eddd3749ab871e6416d4e57ce",
   "current_commit": "40c0adc7ac2fc81eddd3749ab871e6416d4e57ce",
   "inspection_date": "2026-10-20T23:52:56.211172+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:developer-tools",
+    "category:ai-agents",
+    "category:cli-tools"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 11,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.464651+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.287983+00:00",
   "tree_files": 12997,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 7817,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 7819,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source AI coding agent for understanding repositories, editing code and running development workflows through a CLI or application interface.",
+    "reuse_recommendation": "Compare against maintained coding agents and use with scoped filesystem permissions and reviewed changes.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository license and model/provider terms.",
+    "runtime": [
+      "Repository-declared CLI/runtime",
+      "LLM provider APIs"
+    ],
+    "keywords": [
+      "AI coding agent",
+      "repository assistant",
+      "code editing",
+      "developer CLI",
+      "model integration"
+    ],
+    "risk_notes": [
+      "Source context may be transmitted to providers and tool execution can modify files."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Coder agent runtime",
+        "purpose": "Coordinates coding tasks with repository files and developer tools.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:52.777083+00:00",
+    "inspected_commit": "40c0adc7ac2fc81eddd3749ab871e6416d4e57ce",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "487cfc042f760c52138ad4ff0d766a5a1d20a1a1",
+        "value": "https://github.com/jamesrwatsonx-creator/coder/blob/40c0adc7ac2fc81eddd3749ab871e6416d4e57ce/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "repository coding agent",
+        "description": "Uses source context to answer questions and make code changes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:repository-coding-agent",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tool execution and development workflow",
+        "description": "Connects agent plans to shell and project tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tool-execution-and-development-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model and environment configuration",
+        "description": "Configures provider and repository context for agent sessions.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-and-environment-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

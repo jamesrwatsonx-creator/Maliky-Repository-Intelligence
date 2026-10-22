@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/DirectoryLister/DirectoryLister",
-  "description": "📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.",
+  "description": "PHP web application for presenting a browsable listing of files and directories from a server filesystem.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-04T01:19:42Z",
-    "github_description": "📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing."
+    "github_description": "📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd",
   "current_commit": "06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd",
   "inspection_date": "2026-10-20T23:53:41.880680+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:developer-tools",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,96 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.657785+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.531102+00:00",
   "tree_files": 226,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 178,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 173,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "PHP web application for presenting a browsable listing of files and directories from a server filesystem.",
+    "reuse_recommendation": "Deploy only with explicit root-path boundaries and authentication where files are private.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository LICENSE and upstream Directory Lister notices.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Directory Lister",
+      "PHP file browser",
+      "directory listing UI",
+      "self-hosted file index"
+    ],
+    "risk_notes": [
+      "Can disclose server files and names; verify path traversal protection, access control and directory scope."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Directory Lister application",
+        "purpose": "Maps server directories to a browsable web listing.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:57.151308+00:00",
+    "inspected_commit": "06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "489becc57827c34691cc2dd6634b216d467fd333",
+        "value": "https://github.com/jamesrwatsonx-creator/DirectoryLister---maliky-repository-/blob/06d758e901f9ff6159c28b89bc6bc7ad5d13dfbd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "server directory browser",
+        "description": "Renders files and folders in a web interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:server-directory-browser",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted file listing",
+        "description": "Supports deploying a browsable index over configured server directories.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-file-listing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

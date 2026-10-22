@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/jesse-ai/jesse",
-  "description": "An advanced crypto trading bot written in Python",
+  "description": "Algorithmic trading framework focused on strategy research, backtesting, optimization and automated execution for cryptocurrency markets.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-10T16:51:00Z",
-    "github_description": "An advanced crypto trading bot written in Python"
+    "github_description": "An advanced crypto trading bot written in Python",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "79e2618cd1a858fc7808a50e324ff451218c4d4a",
   "current_commit": "79e2618cd1a858fc7808a50e324ff451218c4d4a",
   "inspection_date": "2026-09-20T05:36:11.312378+00:00",
   "categories": [
-    "category:commerce-e-commerce"
+    "category:finance-accounting",
+    "category:developer-tools",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.279365+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.384863+00:00",
   "tree_files": 1240,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1184,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1201,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.187774+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Algorithmic trading framework focused on strategy research, backtesting, optimization and automated execution for cryptocurrency markets.",
+    "reuse_recommendation": "Limit to research and paper environments unless financial, key and execution controls are independently reviewed.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check source license, exchange terms and financial regulations.",
+    "runtime": [
+      "Python",
+      "exchange APIs",
+      "database"
+    ],
+    "keywords": [
+      "Jesse trading",
+      "crypto strategies",
+      "backtesting",
+      "optimization",
+      "exchange execution"
+    ],
+    "risk_notes": [
+      "Live trading can cause direct financial loss; API keys and transaction permissions are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Jesse trading engine",
+        "purpose": "Coordinates strategy execution, historical testing and live exchange connectivity.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:17.991700+00:00",
+    "inspected_commit": "79e2618cd1a858fc7808a50e324ff451218c4d4a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bcdc01bb4af72891f939bd8390eb71cc76a5c76b",
+        "value": "https://github.com/jamesrwatsonx-creator/jesse/blob/79e2618cd1a858fc7808a50e324ff451218c4d4a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "strategy research and backtesting",
+        "description": "Develops and evaluates trading strategies against historical data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:strategy-research-and-backtesting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "optimization and analysis",
+        "description": "Supports parameter exploration and performance analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:optimization-and-analysis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "exchange execution",
+        "description": "Connects strategy workflows to cryptocurrency exchange APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:exchange-execution",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

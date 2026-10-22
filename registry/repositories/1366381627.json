@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/langgenius/dify",
-  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "description": "Voice AI application or toolkit for speech conversation, transcription or voice-driven assistant workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-11T15:26:43Z",
-    "github_description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
+    "github_description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e7981a6f19435d52ef4b92f71054739ebc2b593e",
   "current_commit": "e7981a6f19435d52ef4b92f71054739ebc2b593e",
   "inspection_date": "2026-09-20T05:36:14.812288+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:devops",
-    "category:generative-ai",
-    "category:llm-projects"
+    "category:media-publishing",
+    "category:ai-applications",
+    "category:generative-ai"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:04",
     "operational:14",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 6,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.602507+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.624006+00:00",
   "tree_files": 14001,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 12987,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 13145,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.328745+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice AI application or toolkit for speech conversation, transcription or voice-driven assistant workflows.",
+    "reuse_recommendation": "Use after confirming local versus cloud processing and obtaining participant consent.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository and speech/model provider terms.",
+    "runtime": [
+      "Repository-declared app runtime",
+      "speech models/services",
+      "LLM API"
+    ],
+    "keywords": [
+      "Voice AI",
+      "speech assistant",
+      "audio interaction",
+      "STT TTS",
+      "voice agent"
+    ],
+    "risk_notes": [
+      "Speech data may be sensitive and voice generation can enable impersonation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice AI workflow",
+        "purpose": "Combines speech processing with assistant interaction.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:54.144321+00:00",
+    "inspected_commit": "e7981a6f19435d52ef4b92f71054739ebc2b593e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c3f68564c8508b45187958696257a57859c9fdb4",
+        "value": "https://github.com/jamesrwatsonx-creator/Voice-a/blob/e7981a6f19435d52ef4b92f71054739ebc2b593e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech interaction",
+        "description": "Supports voice input and spoken or text responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model-backed conversation",
+        "description": "Connects audio workflows to conversational AI behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-backed-conversation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

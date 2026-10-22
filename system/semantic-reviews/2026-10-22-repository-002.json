@@ -1,0 +1,790 @@
+[
+  {
+    "repository": "jamesrwatsonx-creator/claude-android-skill",
+    "commit": "edfca5e36ceb7532708c28fd2fd5215a9f01d105",
+    "purpose": "Android-development skill, architecture references, Gradle templates and a Python generator for Kotlin/Compose feature API and implementation modules.",
+    "categories": [
+      "category:skills",
+      "category:mobile-applications",
+      "category:templates-boilerplates"
+    ],
+    "operational": "operational:19",
+    "recommendation": "EXTRACT",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "SKILL.md",
+      "scripts/generate_feature.py",
+      "assets/templates/libs.versions.toml.template",
+      "assets/templates/settings.gradle.kts.template"
+    ],
+    "runtime": [
+      "Markdown skills",
+      "Python 3",
+      "Kotlin",
+      "Compose",
+      "Gradle"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "ui_design": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "claude-android-skill",
+      "Android architecture",
+      "feature scaffolding",
+      "Android build setup",
+      "Markdown skills",
+      "Python 3",
+      "Kotlin",
+      "Compose",
+      "Gradle"
+    ],
+    "license_notes": "MIT source license; generated applications still need dependency/license review.",
+    "risk_notes": [
+      "The generator writes under user-supplied feature/project paths without robust name confinement or overwrite confirmation. Validate targets before running; generated features contain TODOs and sample data."
+    ],
+    "reuse_recommendation": "Use the skill/reference directly; extract the generator only after target validation and project-specific updates.",
+    "capability_clusters": [
+      {
+        "name": "Android architecture",
+        "description": "Guide offline-first data, reactive state, Compose UI and modular feature boundaries.",
+        "scope": "INSTRUCTIONS"
+      },
+      {
+        "name": "feature scaffolding",
+        "description": "Generate navigation, ViewModel, state, screen and build-file templates.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "Android build setup",
+        "description": "Adapt Gradle project and version-catalog starter configuration.",
+        "scope": "CONFIGURATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android architecture",
+        "purpose": "Guide offline-first data, reactive state, Compose UI and modular feature boundaries.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "feature scaffolding",
+        "purpose": "Generate navigation, ViewModel, state, screen and build-file templates.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "Android build setup",
+        "purpose": "Adapt Gradle project and version-catalog starter configuration.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/webmcp",
+    "commit": "3678f646fc0605ef37a76007c5567d31b6989e2c",
+    "purpose": "Browser-tool specification and explainers for JavaScript registration, declarative HTML form tools and proposed service-worker providers; not a browser or MCP server implementation.",
+    "categories": [
+      "category:specifications-standards",
+      "category:documentation",
+      "category:mcp-clients-sdks"
+    ],
+    "operational": "operational:05",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "LICENSE.md",
+      "index.bs",
+      "declarative-api-explainer.md",
+      "docs/service-workers.md",
+      "security-privacy-questionnaire.md"
+    ],
+    "runtime": [
+      "Bikeshed",
+      "Markdown",
+      "Proposed JavaScript/HTML browser APIs"
+    ],
+    "asset_presence": {
+      "mcp": "DESIGN_ONLY",
+      "apis_sdks_services": "DESIGN_ONLY",
+      "browser_computer_use": "DESIGN_ONLY"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "webmcp",
+      "browser tool API",
+      "declarative form tools",
+      "background browser tools",
+      "browser tool privacy",
+      "Bikeshed",
+      "Markdown",
+      "Proposed JavaScript/HTML browser APIs"
+    ],
+    "license_notes": "Reports use the W3C Software and Document License stated in LICENSE.md.",
+    "risk_notes": [
+      "Security and deployment semantics are specification/proposal contracts, not tested browser controls or universal support. Tool metadata/results can leak private data or contain malicious instructions."
+    ],
+    "reuse_recommendation": "Reference when designing browser-native tools; verify current target-browser support and implementation-specific security.",
+    "capability_clusters": [
+      {
+        "name": "browser tool API",
+        "description": "Specify author-defined tool registration/invocation in web application context.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "declarative form tools",
+        "description": "Propose translating annotated forms into agent-facing tool schemas.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "background browser tools",
+        "description": "Explore service-worker discovery and calls beyond currently open tabs.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "browser tool privacy",
+        "description": "Describe origin exposure, sensitive return data and malicious tool-input risks.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "declarative form tools",
+        "purpose": "Propose translating annotated forms into agent-facing tool schemas.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      },
+      {
+        "name": "background browser tools",
+        "purpose": "Explore service-worker discovery and calls beyond currently open tabs.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE.md",
+          "index.bs",
+          "declarative-api-explainer.md",
+          "docs/service-workers.md",
+          "security-privacy-questionnaire.md"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/base44-to-supabase-sdk",
+    "commit": "37e224357fdd6f1751a5d759fc1cefaef9ba8a9c",
+    "purpose": "JavaScript Base44-shaped Supabase compatibility adapter for entity CRUD and user/auth operations with migration guidance; email, upload, image and extraction integrations include mocks rather than real services.",
+    "categories": [
+      "category:sdks-client-libraries",
+      "category:databases",
+      "category:iam",
+      "category:reference-implementations"
+    ],
+    "operational": "operational:12",
+    "recommendation": "AVOID FOR PRODUCTION",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "package.json",
+      "src/lib/custom-sdk.js",
+      "src/lib/supabase-client.js",
+      "src/api/base44Client.js",
+      "SELF_HOSTING_GUIDE.md"
+    ],
+    "runtime": [
+      "JavaScript ES modules",
+      "Node.js or Vite",
+      "Supabase",
+      "@supabase/supabase-js"
+    ],
+    "asset_presence": {
+      "apis_sdks_services": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "base44-to-supabase-sdk",
+      "entity CRUD compatibility",
+      "user authentication adapter",
+      "migration reference",
+      "integration mocks",
+      "JavaScript ES modules",
+      "Node.js or Vite",
+      "Supabase",
+      "@supabase/supabase-js"
+    ],
+    "license_notes": "MIT source; Supabase service/data permissions are separate.",
+    "risk_notes": [
+      "Service-role access is constructed from a VITE-prefixed variable and selected automatically for some entities: never bundle a real service key in a browser. Import-time queries, development-login behavior and user/session logging need isolation/removal. Mock success does not prove delivery or processing; universal API compatibility is unverified."
+    ],
+    "reuse_recommendation": "Use as a migration reference or extract narrowly reviewed CRUD; do not deploy its current privileged-client/auth path in a browser.",
+    "capability_clusters": [
+      {
+        "name": "entity CRUD compatibility",
+        "description": "Map Base44-style queries/mutations and date-field names onto Supabase tables.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "user authentication adapter",
+        "description": "Bridge current-user and authentication operations into a Base44-like interface.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "migration reference",
+        "description": "Provide import aliasing and self-hosted Supabase setup guidance.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "integration mocks",
+        "description": "Expose placeholder integration result shapes requiring real implementations.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "entity CRUD compatibility",
+        "purpose": "Map Base44-style queries/mutations and date-field names onto Supabase tables.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      },
+      {
+        "name": "user authentication adapter",
+        "purpose": "Bridge current-user and authentication operations into a Base44-like interface.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "src/lib/custom-sdk.js",
+          "src/lib/supabase-client.js",
+          "src/api/base44Client.js",
+          "SELF_HOSTING_GUIDE.md"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/Crowned",
+    "commit": "a1b21adc5cac3351d5bc182c76ea922372083107",
+    "purpose": "Design-only Barology/Crowned hip-hop intelligence corpus defining evidence-backed lyric interpretation, rankings, reputation, news/retrieval integrations, onboarding and Base44-first architecture; executable app code is absent.",
+    "categories": [
+      "category:documentation",
+      "category:architecture-maps",
+      "category:media-publishing",
+      "category:ai-applications"
+    ],
+    "operational": "operational:11",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "app/README.md",
+      "product/APP-CONTRACT.yaml",
+      "implementation/ARCHITECTURE.md",
+      "implementation/BAROLOGY-GAUNTLET.md",
+      "implementation/API-AND-SECRETS.md",
+      "implementation/INTEGRATION-REGISTRY.md",
+      "design/DESIGN-DIRECTION.md",
+      "tests/BAROLOGY-EVAL-PLAN.md"
+    ],
+    "runtime": [
+      "Markdown/YAML design contracts",
+      "Proposed Base44 runtime"
+    ],
+    "asset_presence": {
+      "agents_frameworks": "DESIGN_ONLY",
+      "ui_design": "DESIGN_ONLY",
+      "apis_sdks_services": "DESIGN_ONLY",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "DESIGN_ONLY",
+      "voice_audio": "DESIGN_ONLY",
+      "data_database_search": "DESIGN_ONLY",
+      "business_media_other": "DESIGN_ONLY"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "Crowned",
+      "hip-hop intelligence design",
+      "evidence-backed interpretation",
+      "provider architecture",
+      "consumer experience design",
+      "Markdown/YAML design contracts",
+      "Proposed Base44 runtime"
+    ],
+    "license_notes": "No license grant found; public documents do not establish unrestricted redistribution rights.",
+    "risk_notes": [
+      "Security/privacy protections and server-side secret/fixture patterns are proposed, not implemented. A build must resolve lyrics/audio rights and private-user-data controls. app/README.md explicitly reserves implementation for a future real project."
+    ],
+    "reuse_recommendation": "Use product/architecture/evaluation contracts as design references, not an existing app or analysis service.",
+    "capability_clusters": [
+      {
+        "name": "hip-hop intelligence design",
+        "description": "Define linked news, lyric interpretation, rankings and reputation product workflows.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "evidence-backed interpretation",
+        "description": "Specify span-level hypothesis, retrieval, criticism, revision and evaluation contracts.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "provider architecture",
+        "description": "Plan logical analysis services, data/retrieval boundaries and optional-provider states.",
+        "scope": "DESIGN"
+      },
+      {
+        "name": "consumer experience design",
+        "description": "Specify onboarding, profile polarity, navigation and evidence-oriented song interfaces.",
+        "scope": "DESIGN"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "hip-hop intelligence design",
+        "purpose": "Define linked news, lyric interpretation, rankings and reputation product workflows.",
+        "evidence_paths": [
+          "README.md",
+          "app/README.md",
+          "product/APP-CONTRACT.yaml",
+          "implementation/ARCHITECTURE.md",
+          "implementation/BAROLOGY-GAUNTLET.md",
+          "implementation/API-AND-SECRETS.md",
+          "implementation/INTEGRATION-REGISTRY.md",
+          "design/DESIGN-DIRECTION.md",
+          "tests/BAROLOGY-EVAL-PLAN.md"
+        ]
+      },
+      {
+        "name": "evidence-backed interpretation",
+        "purpose": "Specify span-level hypothesis, retrieval, criticism, revision and evaluation contracts.",
+        "evidence_paths": [
+          "README.md",
+          "app/README.md",
+          "product/APP-CONTRACT.yaml",
+          "implementation/ARCHITECTURE.md",
+          "implementation/BAROLOGY-GAUNTLET.md",
+          "implementation/API-AND-SECRETS.md",
+          "implementation/INTEGRATION-REGISTRY.md",
+          "design/DESIGN-DIRECTION.md",
+          "tests/BAROLOGY-EVAL-PLAN.md"
+        ]
+      },
+      {
+        "name": "provider architecture",
+        "purpose": "Plan logical analysis services, data/retrieval boundaries and optional-provider states.",
+        "evidence_paths": [
+          "README.md",
+          "app/README.md",
+          "product/APP-CONTRACT.yaml",
+          "implementation/ARCHITECTURE.md",
+          "implementation/BAROLOGY-GAUNTLET.md",
+          "implementation/API-AND-SECRETS.md",
+          "implementation/INTEGRATION-REGISTRY.md",
+          "design/DESIGN-DIRECTION.md",
+          "tests/BAROLOGY-EVAL-PLAN.md"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/free-for-dev",
+    "commit": "52f27d4418670aa47fd41f0d4dbbdfc4e3117f8c",
+    "purpose": "Curated directory of external developer services with free tiers and a Docsify viewer; reference material and presentation are present, not the listed SaaS/cloud/API implementations.",
+    "categories": [
+      "category:documentation",
+      "category:technology-maps",
+      "category:cloud-infrastructure",
+      "category:developer-tools"
+    ],
+    "operational": "operational:25",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "index.html"
+    ],
+    "runtime": [
+      "Markdown",
+      "HTML",
+      "Docsify CDN"
+    ],
+    "asset_presence": {
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "EXTERNAL_REFERENCE",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "EXTERNAL_REFERENCE",
+      "business_media_other": "EXTERNAL_REFERENCE"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "free-for-dev",
+      "developer service discovery",
+      "infrastructure discovery",
+      "directory web viewer",
+      "Markdown",
+      "HTML",
+      "Docsify CDN"
+    ],
+    "license_notes": "No license declaration found in this tree. External services have separate terms; pinned free-tier descriptions are not current price/availability guarantees.",
+    "risk_notes": [
+      "Listed services are external leads, not owned implementations or vetted recommendations. Viewer scripts load from third-party CDNs and include analytics; review these before private deployment."
+    ],
+    "reuse_recommendation": "Use for discovery and verify external terms/availability before adoption; resolve permission before republishing.",
+    "capability_clusters": [
+      {
+        "name": "developer service discovery",
+        "description": "Find externally hosted development, collaboration, data and security service options.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "infrastructure discovery",
+        "description": "Reference cloud, storage, hosting, networking, monitoring and deployment free-tier leads.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "directory web viewer",
+        "description": "Render the Markdown directory with client-side search and light/dark presentation.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "directory web viewer",
+        "purpose": "Render the Markdown directory with client-side search and light/dark presentation.",
+        "evidence_paths": [
+          "README.md",
+          "index.html"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/DeepSeek-V3",
+    "commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+    "purpose": "DeepSeek-V3 model-release references and PyTorch/Triton inference code covering mixture-of-experts architecture, tensor-parallel generation, checkpoint conversion and FP8/BF16 utilities.",
+    "categories": [
+      "category:machine-learning-models",
+      "category:llm-projects",
+      "category:reference-implementations"
+    ],
+    "operational": "operational:10",
+    "recommendation": "REFERENCE",
+    "source_review": [
+      "README.md",
+      "README_WEIGHTS.md",
+      "LICENSE-CODE",
+      "LICENSE-MODEL",
+      "inference/model.py",
+      "inference/kernel.py",
+      "inference/generate.py",
+      "inference/convert.py",
+      "inference/fp8_cast_bf16.py",
+      "inference/requirements.txt"
+    ],
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Triton",
+      "CUDA",
+      "safetensors",
+      "Transformers"
+    ],
+    "asset_presence": {
+      "models": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "DeepSeek-V3",
+      "language model releases",
+      "mixture-of-experts inference",
+      "distributed generation",
+      "checkpoint quantization",
+      "Python",
+      "PyTorch",
+      "Triton",
+      "CUDA",
+      "safetensors",
+      "Transformers"
+    ],
+    "license_notes": "Code uses MIT under LICENSE-CODE. Model use separately follows LICENSE-MODEL's DeepSeek agreement and use-based restrictions; README supports commercial use subject to those terms.",
+    "risk_notes": [
+      "External weights and benchmark claims were not downloaded/reproduced. Hardware sizing, trusted checkpoint provenance and model terms need checking for a selected deployment. Conversion writes output checkpoint files."
+    ],
+    "reuse_recommendation": "Adapt inference/conversion references after matching hardware/dependencies; obtain trusted weights and review their separate terms.",
+    "capability_clusters": [
+      {
+        "name": "language model releases",
+        "description": "Describe Base/Chat releases and externally hosted checkpoints; weights are not bundled/evaluated here.",
+        "scope": "REFERENCE"
+      },
+      {
+        "name": "mixture-of-experts inference",
+        "description": "Provide reference Transformer, multi-head latent attention and routed experts.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "distributed generation",
+        "description": "Generate text using checkpoint/tokenizer and tensor-parallel runtime configuration.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "checkpoint quantization",
+        "description": "Convert checkpoint layouts and FP8 weights with Triton quantization/dequantization/GEMM utilities.",
+        "scope": "IMPLEMENTATION"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "mixture-of-experts inference",
+        "purpose": "Provide reference Transformer, multi-head latent attention and routed experts.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "distributed generation",
+        "purpose": "Generate text using checkpoint/tokenizer and tensor-parallel runtime configuration.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "checkpoint quantization",
+        "purpose": "Convert checkpoint layouts and FP8 weights with Triton quantization/dequantization/GEMM utilities.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      }
+    ]
+  },
+  {
+    "repository": "jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-",
+    "commit": "aac5357ea3e677594f39ed62bfccd329bb9cdf40",
+    "purpose": "Freebuff/Codebuff coding-agent monorepo with terminal CLI/UI, programmatic SDK, shared agent runtime/definitions, code mapping, model adapters and evaluation tools; README also links hosted products whose complete implementations are not established here.",
+    "categories": [
+      "category:agent-frameworks",
+      "category:ai-agents",
+      "category:cli-tools",
+      "category:sdks-client-libraries",
+      "category:developer-tools"
+    ],
+    "operational": "operational:03",
+    "recommendation": "EXTRACT COMPONENTS",
+    "source_review": [
+      "README.md",
+      "LICENSE",
+      "package.json",
+      "sdk/package.json",
+      "sdk/src/index.ts",
+      "cli/package.json",
+      "agents/package.json",
+      "packages/agent-runtime/package.json",
+      "packages/code-map/package.json",
+      "packages/code-map/src/index.ts",
+      "packages/llm-providers/package.json",
+      "evals/package.json",
+      "common/src/mcp/client.ts"
+    ],
+    "runtime": [
+      "TypeScript",
+      "Bun",
+      "Node-compatible SDK",
+      "React terminal UI",
+      "Tree-sitter WASM"
+    ],
+    "asset_presence": {
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT"
+    },
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "keywords": [
+      "freebuff-vibe-coding-like-Lovable-",
+      "coding-agent runtime",
+      "terminal coding interface",
+      "coding-agent SDK",
+      "repository code mapping",
+      "model and MCP integration",
+      "agent evaluation tooling",
+      "hosted product references",
+      "TypeScript",
+      "Bun",
+      "Node-compatible SDK",
+      "React terminal UI",
+      "Tree-sitter WASM"
+    ],
+    "license_notes": "Root and SDK declare Apache-2.0; dependency and asset notices still apply.",
+    "risk_notes": [
+      "Agent tools can read private project context, mutate files and execute commands. Model/MCP connections add credential and external-data boundaries; inspect permissions/routing for a selected build. Hosted-product availability, billing and runtime security were not tested. MCP servers declared only in test fixtures are not shipped server capabilities."
+    ],
+    "reuse_recommendation": "Evaluate the CLI on trusted projects or extract SDK/code-map/adapter packages; inspect exact execution permissions and dependency closure only when selecting an integration.",
+    "capability_clusters": [
+      {
+        "name": "coding-agent runtime",
+        "description": "Coordinate coding work through agent definitions, tool handling and shared run state.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "terminal coding interface",
+        "description": "Expose Codebuff/Freebuff command-line and terminal UI surfaces.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "coding-agent SDK",
+        "description": "Control programmatic runs, tool overrides and persisted/compacted run state.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "repository code mapping",
+        "description": "Extract language-aware repository context through Tree-sitter-backed parsing.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "model and MCP integration",
+        "description": "Connect model-provider adapters and external stdio/SSE/HTTP MCP tools.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "agent evaluation tooling",
+        "description": "Provide workspace evaluation harnesses for coding-agent behavior.",
+        "scope": "IMPLEMENTATION"
+      },
+      {
+        "name": "hosted product references",
+        "description": "Link external desktop/web/cloud/chat products without assuming their complete service code is included.",
+        "scope": "REFERENCE"
+      }
+    ],
+    "important_subsystems": [
+      {
+        "name": "coding-agent runtime",
+        "purpose": "Coordinate coding work through agent definitions, tool handling and shared run state.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "terminal coding interface",
+        "purpose": "Expose Codebuff/Freebuff command-line and terminal UI surfaces.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      },
+      {
+        "name": "coding-agent SDK",
+        "purpose": "Control programmatic runs, tool overrides and persisted/compacted run state.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "sdk/package.json",
+          "sdk/src/index.ts",
+          "cli/package.json",
+          "agents/package.json",
+          "packages/agent-runtime/package.json",
+          "packages/code-map/package.json",
+          "packages/code-map/src/index.ts",
+          "packages/llm-providers/package.json",
+          "evals/package.json",
+          "common/src/mcp/client.ts"
+        ]
+      }
+    ]
+  }
+]

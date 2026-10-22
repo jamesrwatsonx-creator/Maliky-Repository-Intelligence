@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/marvkr/better-design",
-  "description": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+  "description": "Enhanced shadcn/ui component collection and design patterns for building polished React applications.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-22T18:59:05Z",
-    "github_description": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command."
+    "github_description": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e146625f3041ef8089a2013587435fc763dc3b15",
   "current_commit": "e146625f3041ef8089a2013587435fc763dc3b15",
   "inspection_date": "2026-10-20T23:52:24.483731+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:design-systems",
+    "category:frontend-applications",
+    "category:creative-tools"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.289425+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.036229+00:00",
   "tree_files": 6353,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 6321,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 6341,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Enhanced shadcn/ui component collection and design patterns for building polished React applications.",
+    "reuse_recommendation": "Use as a starting point; test accessibility, responsive layouts and component maintenance.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository and individual component attribution.",
+    "runtime": [
+      "TypeScript/React",
+      "Tailwind CSS"
+    ],
+    "keywords": [
+      "shadcn components",
+      "React UI library",
+      "Tailwind design system",
+      "frontend patterns",
+      "component examples"
+    ],
+    "risk_notes": [
+      "Copied UI needs security and accessibility review where it handles user input."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Better Design component collection",
+        "purpose": "Accelerates polished web interface development.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:46.457149+00:00",
+    "inspected_commit": "e146625f3041ef8089a2013587435fc763dc3b15",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "91aa090eb9b0ce2670816cc9756ed773f4fb10ba",
+        "value": "https://github.com/jamesrwatsonx-creator/better-design-shadcn/blob/e146625f3041ef8089a2013587435fc763dc3b15/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "reusable React components",
+        "description": "Provides application UI elements based on shadcn/ui conventions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reusable-react-components",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "design patterns and page examples",
+        "description": "Offers visual patterns and layouts for common app needs.",
+        "scope": "DESIGN",
+        "id": "cluster:design-patterns-and-page-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

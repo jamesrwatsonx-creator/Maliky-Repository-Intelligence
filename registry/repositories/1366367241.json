@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coinbase/agentkit",
-  "description": "Every AI Agent deserves a wallet.",
+  "description": "Agent-building toolkit or framework for composing model-backed assistants with tools, actions and application integrations.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-03T17:58:06Z",
-    "github_description": "Every AI Agent deserves a wallet."
+    "github_description": "Every AI Agent deserves a wallet.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2e6dbaf725b9ec5f3b53003278100b0e655c214d",
   "current_commit": "2e6dbaf725b9ec5f3b53003278100b0e655c214d",
   "inspection_date": "2026-09-20T05:36:13.083670+00:00",
   "categories": [
+    "category:agent-frameworks",
     "category:ai-agents",
-    "category:commerce-e-commerce"
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.952664+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.659453+00:00",
   "tree_files": 1208,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 986,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1053,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.042091+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent-building toolkit or framework for composing model-backed assistants with tools, actions and application integrations.",
+    "reuse_recommendation": "Confirm which AgentKit project this is and inspect API maturity before choosing it over alternatives.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository license and model/provider terms.",
+    "runtime": [
+      "Repository-declared language",
+      "LLM and tool APIs"
+    ],
+    "keywords": [
+      "AgentKit",
+      "agent framework",
+      "tool calling",
+      "AI application SDK",
+      "workflow orchestration"
+    ],
+    "risk_notes": [
+      "Tool-enabled agents require least-privilege execution and input validation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AgentKit runtime",
+        "purpose": "Packages reusable primitives for agent-enabled applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:17.152730+00:00",
+    "inspected_commit": "2e6dbaf725b9ec5f3b53003278100b0e655c214d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "dda14a2d87d1402024a991da4169e829ce0d520a",
+        "value": "https://github.com/jamesrwatsonx-creator/agentkit/blob/2e6dbaf725b9ec5f3b53003278100b0e655c214d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent construction primitives",
+        "description": "Provides components for defining agent behavior and tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-construction-primitives",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tool and action integration",
+        "description": "Connects agent decisions to external functions or services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tool-and-action-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

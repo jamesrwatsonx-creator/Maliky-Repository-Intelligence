@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/public-apis/public-apis",
-  "description": "A collective list of free APIs",
+  "description": "Curated directory of external public APIs, supported by repository scripts and CI for link/package maintenance; API services themselves are not implemented here.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-18T19:39:43Z",
-    "github_description": "A collective list of free APIs"
+    "github_description": "A collective list of free APIs",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "4cfe04f70da070207b032eed62db76a0c82e11b7",
   "current_commit": "4cfe04f70da070207b032eed62db76a0c82e11b7",
   "inspection_date": "2026-09-20T05:36:41.969698+00:00",
   "categories": [
-    "category:general-other"
+    "category:apis",
+    "category:research-projects",
+    "category:documentation"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.912620+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.021973+00:00",
   "tree_files": 23,
-  "files_read": 0,
+  "files_read": 7,
   "entity_count": 0,
-  "unread_source_files": 15,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 10,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,143 @@
     ],
     "updated_at": "2026-10-12T19:04:27.263709+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Curated directory of external public APIs, supported by repository scripts and CI for link/package maintenance; API services themselves are not implemented here.",
+    "reuse_recommendation": "Use as an integration discovery index, then confirm endpoint availability, authentication, terms and data handling directly with each provider.",
+    "inspection_scope": "Reviewed the API directory, maintenance documentation and validation workflows. The project discovers third-party endpoints; link checks do not establish current uptime or service quality.",
+    "license_notes": "MIT for the catalogue repository; APIs and their data retain provider-specific terms.",
+    "runtime": [
+      "Markdown catalogue",
+      "Node.js maintenance scripts",
+      "GitHub Actions"
+    ],
+    "keywords": [
+      "public API directory",
+      "API discovery",
+      "API categories",
+      "link validation",
+      "integration research"
+    ],
+    "risk_notes": [
+      "Directory entries and link checks do not prove service uptime, API behavior, pricing or safe data use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "API catalogue",
+        "purpose": "Lists and categorizes third-party public API references.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "link and package checks",
+        "purpose": "Maintains the catalogue through automated repository validation.",
+        "evidence_paths": [
+          "scripts/README.md",
+          ".github/workflows/validate_links.yml",
+          ".github/workflows/test_of_validate_package.yml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:28.181424+00:00",
+    "inspected_commit": "4cfe04f70da070207b032eed62db76a0c82e11b7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c45f5413d49e223b20500ed2e0bda8d11a2e303c",
+        "value": "https://github.com/jamesrwatsonx-creator/public-apis/blob/4cfe04f70da070207b032eed62db76a0c82e11b7/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "196b23b178fbf71317fc55c3d3e01d481b5760e5",
+        "value": "https://github.com/jamesrwatsonx-creator/public-apis/blob/4cfe04f70da070207b032eed62db76a0c82e11b7/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "scripts/README.md",
+        "blob_sha": "2e926a37d1eccfa4a71df5081492f441248ffdb1",
+        "value": "https://github.com/jamesrwatsonx-creator/public-apis/blob/4cfe04f70da070207b032eed62db76a0c82e11b7/scripts/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/validate_links.yml",
+        "blob_sha": "33fef08876400e25cc61eb3802b481697cd62171",
+        "value": "https://github.com/jamesrwatsonx-creator/public-apis/blob/4cfe04f70da070207b032eed62db76a0c82e11b7/.github/workflows/validate_links.yml"
+      },
+      {
+        "type": "source_review",
+        "path": ".github/workflows/test_of_validate_package.yml",
+        "blob_sha": "f739df81d75929c8a489c3d5e21b0d0d5bbd68c6",
+        "value": "https://github.com/jamesrwatsonx-creator/public-apis/blob/4cfe04f70da070207b032eed62db76a0c82e11b7/.github/workflows/test_of_validate_package.yml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "public API discovery",
+        "description": "Organizes links to external APIs across many domains.",
+        "scope": "REFERENCE",
+        "id": "cluster:public-api-discovery",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/README.md",
+          ".github/workflows/validate_links.yml",
+          ".github/workflows/test_of_validate_package.yml"
+        ]
+      },
+      {
+        "name": "domain integration research",
+        "description": "Supports finding candidate APIs for a target product area.",
+        "scope": "REFERENCE",
+        "id": "cluster:domain-integration-research",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/README.md",
+          ".github/workflows/validate_links.yml",
+          ".github/workflows/test_of_validate_package.yml"
+        ]
+      },
+      {
+        "name": "catalogue maintenance checks",
+        "description": "Runs repository checks for package structure and outbound links.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:catalogue-maintenance-checks",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/README.md",
+          ".github/workflows/validate_links.yml",
+          ".github/workflows/test_of_validate_package.yml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

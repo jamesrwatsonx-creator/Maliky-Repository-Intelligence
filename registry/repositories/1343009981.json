@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/agent-infra/sandbox",
-  "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
+  "description": "Sandboxing or isolated execution environment for running code or agent tasks with constrained resources; confirm the intended runtime from pinned documentation.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-17T07:49:03Z",
-    "github_description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container."
+    "github_description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "0f23e3c9395cd2175f5f8d009c96363f2a7711a5",
   "current_commit": "0f23e3c9395cd2175f5f8d009c96363f2a7711a5",
   "inspection_date": "2026-09-20T05:33:41.609029+00:00",
   "categories": [
-    "category:ai-agents",
     "category:developer-tools",
-    "category:devops",
-    "category:mcp-servers"
+    "category:cloud-infrastructure",
+    "category:cybersecurity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [
     "operational:03",
     "operational:05",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -256,11 +256,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.100825+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.154099+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -281,10 +282,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 1245,
-  "files_read": 7,
+  "files_read": 13,
   "entity_count": 3,
-  "unread_source_files": 1068,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1095,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -294,5 +295,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.279304+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Sandboxing or isolated execution environment for running code or agent tasks with constrained resources; confirm the intended runtime from pinned documentation.",
+    "reuse_recommendation": "Use only after threat-modeling escape paths, network access, secrets and cleanup behavior.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository license and sandbox provider terms.",
+    "runtime": [
+      "Container or VM runtime",
+      "repository-declared orchestration"
+    ],
+    "keywords": [
+      "code sandbox",
+      "isolated execution",
+      "agent runtime",
+      "container security",
+      "developer infrastructure"
+    ],
+    "risk_notes": [
+      "Sandbox escape and untrusted code execution are high-impact security risks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Sandbox runtime",
+        "purpose": "Provides a controlled environment for untrusted or temporary workloads.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:18.226235+00:00",
+    "inspected_commit": "0f23e3c9395cd2175f5f8d009c96363f2a7711a5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "752c34fb1c950459ec3d1ccda080fdf3163db326",
+        "value": "https://github.com/jamesrwatsonx-creator/sandbox/blob/0f23e3c9395cd2175f5f8d009c96363f2a7711a5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "isolated task execution",
+        "description": "Runs code or tasks in a constrained environment separate from the host.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:isolated-task-execution",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "resource and permission controls",
+        "description": "Configures runtime limits and access boundaries.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:resource-and-permission-controls",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

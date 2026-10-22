@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**102 entries** · Alphabetical · 1 page.
+**105 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -84,8 +84,14 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/image-to-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/image-to-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [Invert Colors](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A81effa489b078123c9c50952.json) — Create a dark mode version of your PDF.<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/invert-colors.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/invert-colors.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
-- [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418686375.json) — The Privacy First PDF Toolkit<br>
-  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
+- [jamesrwatsonx-creator/appium](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344514888.json) — Cross-platform automation framework for testing native, hybrid and mobile web applications through WebDriver-compatible interfaces.<br>
+  Source: [jamesrwatsonx-creator/appium](https://github.com/jamesrwatsonx-creator/appium) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Automation/scripting, Mobile applications
+- [jamesrwatsonx-creator/Codetest-open-code-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376926051.json) — Automated code review and test workflow intended to inspect changes and identify defects or quality issues.<br>
+  Source: [jamesrwatsonx-creator/Codetest-open-code-review](https://github.com/jamesrwatsonx-creator/Codetest-open-code-review) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Automation/scripting, AI applications
+- [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377933459.json) — Open-source API development and testing platform for sending requests, inspecting responses and collaborating on API collections.<br>
+  Source: [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/hoppscotch) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, APIs, Developer tools
+- [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Developer tool for evaluating, testing and red-teaming LLM applications, prompts and model providers.<br>
+  Source: [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/promptfoo) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI evaluation, Developer tools, Cybersecurity
 - [JPG to PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A517e8e84f364989c6ed301c2.json) — Create a PDF from one or more JPG images.<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/jpg-to-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/jpg-to-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [JSON to PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A40c304e8800ec63b05aec87c.json) — Convert JSON files to PDF format.<br>

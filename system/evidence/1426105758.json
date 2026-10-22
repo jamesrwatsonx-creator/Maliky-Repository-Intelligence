@@ -3,8 +3,100 @@
   "inspected_commit": "1644490429a3849769fc1abf0c32973660edf2b7",
   "tree_complete": true,
   "tree_files": 10384,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "AGENTS.md",
+      "sha": "13ff92bd75ccdefd3a9bd3572a97e003fcc67a6b"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "9b259bdfcf9022e7f4999a318ab7261300644e11"
+    },
+    {
+      "path": "README.md",
+      "sha": "ec905bef906488c4ca7b6156f4059f0eb77d822e"
+    },
+    {
+      "path": "go.mod",
+      "sha": "5021446693a983a9768dae9e2f076ccfc95328f5"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "5a31279c6aeabcc0ab71f31e4f3d8c07d1adb543"
+    },
+    {
+      "path": "test/tools/go.mod",
+      "sha": "59ea137cd83fcb441b913196963a083a41ce3d30"
+    },
+    {
+      "path": "test/tools/vendor/github.com/pelletier/go-toml/v2/AGENTS.md",
+      "sha": "f495afd872d15a72a6887db39e797ec717e30f2f"
+    },
+    {
+      "path": "vendor/github.com/aperturerobotics/protobuf-go-lite/package.json",
+      "sha": "15f66b606dc48ed6782d6c0e7f7d3c09b94600a9"
+    },
+    {
+      "path": "vendor/github.com/klauspost/compress/AGENTS.md",
+      "sha": "61d24b585abfab90f3352477fe613baf96892bbc"
+    },
+    {
+      "path": "vendor/go.opentelemetry.io/otel/AGENTS.md",
+      "sha": "02db715284987995f70696efd88e3e8617f258ce"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "ec905bef906488c4ca7b6156f4059f0eb77d822e",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "9b259bdfcf9022e7f4999a318ab7261300644e11",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "5021446693a983a9768dae9e2f076ccfc95328f5",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "5a31279c6aeabcc0ab71f31e4f3d8c07d1adb543",
+      "entities_detected": 0
+    },
+    {
+      "path": "test/tools/go.mod",
+      "blob_sha": "59ea137cd83fcb441b913196963a083a41ce3d30",
+      "entities_detected": 0
+    },
+    {
+      "path": "vendor/github.com/aperturerobotics/protobuf-go-lite/package.json",
+      "blob_sha": "15f66b606dc48ed6782d6c0e7f7d3c09b94600a9",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "13ff92bd75ccdefd3a9bd3572a97e003fcc67a6b",
+      "entities_detected": 0
+    },
+    {
+      "path": "test/tools/vendor/github.com/pelletier/go-toml/v2/AGENTS.md",
+      "blob_sha": "f495afd872d15a72a6887db39e797ec717e30f2f",
+      "entities_detected": 0
+    },
+    {
+      "path": "vendor/github.com/klauspost/compress/AGENTS.md",
+      "blob_sha": "61d24b585abfab90f3352477fe613baf96892bbc",
+      "entities_detected": 0
+    },
+    {
+      "path": "vendor/go.opentelemetry.io/otel/AGENTS.md",
+      "blob_sha": "02db715284987995f70696efd88e3e8617f258ce",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/bug_report.yaml",
     ".github/ISSUE_TEMPLATE/config.yml",
@@ -36,18 +128,15 @@
     ".pre-commit-config.yaml",
     ".readthedocs.yaml",
     "ADOPTERS.md",
-    "AGENTS.md",
     "CODE-OF-CONDUCT.md",
     "CONTRIBUTING.md",
     "DISTRO_PACKAGE.md",
     "DOWNLOADS.md",
     "GOVERNANCE.md",
     "ISSUE.md",
-    "LICENSE",
     "LLM_POLICY.md",
     "MAINTAINERS.md",
     "Makefile",
-    "README.md",
     "RELEASE_NOTES.md",
     "RELEASE_PROCESS.md",
     "REVIEWING.md",
@@ -105,7 +194,10 @@
     "cmd/podman/containers/cleanup.go",
     "cmd/podman/containers/clone.go",
     "cmd/podman/containers/commit.go",
-    "cmd/podman/containers/container.go"
+    "cmd/podman/containers/container.go",
+    "cmd/podman/containers/cp.go",
+    "cmd/podman/containers/create.go",
+    "cmd/podman/containers/diff.go"
   ],
   "excluded_nontext_paths": [
     ".codespellrc",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "fdb0607e9d200ffada199e9a8efa84456440c396343f51d8c9508d0501c42218",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -235,8 +328,11 @@
     "vendor": 5758,
     "version": 2
   },
-  "unread_source_paths_count": 9072,
+  "unread_source_paths_count": 9083,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 1312,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

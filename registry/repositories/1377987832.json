@@ -11,21 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": null,
-  "description": "open-source coding agent",
+  "description": "Open-source AI coding assistant for IDEs and terminals, supporting code completion, chat, agent workflows and configurable model providers.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-19T10:23:58Z",
-    "github_description": "open-source coding agent"
+    "github_description": "open-source coding agent",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
   "current_commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
   "inspection_date": "2026-10-12T18:57:58.344689+00:00",
   "categories": [
+    "category:developer-tools",
     "category:ai-agents",
-    "category:developer-tools"
+    "category:plugins-extensions"
   ],
   "operational_category": "operational:03",
   "secondary_operational_categories": [
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -282,12 +284,13 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "next_phase": "ENTITY_EXTRACTION",
-  "visibility_verified_at": "2026-10-22T00:25:08.519437+00:00",
+  "next_phase": "COMPLETE",
+  "visibility_verified_at": "2026-10-22T02:59:09.339998+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -299,7 +302,100 @@
     "purpose_established": true
   },
   "tree_files": 3058,
-  "files_read": 47,
+  "files_read": 48,
   "entity_count": 38,
-  "unread_source_files": 2337
+  "unread_source_files": 2510,
+  "repository_intelligence": {
+    "purpose": "Open-source AI coding assistant for IDEs and terminals, supporting code completion, chat, agent workflows and configurable model providers.",
+    "reuse_recommendation": "Use with scoped repository context and inspect edits before applying or committing.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Apache-2.0; model providers and extensions have separate terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "IDE extensions",
+      "LLM providers"
+    ],
+    "keywords": [
+      "Continue",
+      "AI coding assistant",
+      "IDE extension",
+      "code completion",
+      "developer agents"
+    ],
+    "risk_notes": [
+      "Source code and secrets may be sent to configured providers; agent tools can modify files."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Continue coding assistant",
+        "purpose": "Integrates model-backed assistance into IDE and terminal workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:18.586683+00:00",
+    "inspected_commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "66477d92b4cdb8772a74e28852cef31cd37019e4",
+        "value": "https://github.com/jamesrwatsonx-creator/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "IDE coding assistance",
+        "description": "Provides chat and code-completion workflows in developer environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ide-coding-assistance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent and tool workflows",
+        "description": "Coordinates coding tasks with tools and repository context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-and-tool-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model and context configuration",
+        "description": "Connects model providers, local models and codebase sources.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-and-context-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

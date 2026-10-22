@@ -13,6 +13,10 @@
       "sha": "78816ff48277838d07e5c4a960e5cf45ed13c8d5"
     },
     {
+      "path": "LICENSE",
+      "sha": "862ee3c28647e7a58801a75236855c269c1448ae"
+    },
+    {
       "path": "README.md",
       "sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d"
     },
@@ -21,8 +25,16 @@
       "sha": "3f3eeebd875b9e159a77de4ad4844749cc0588d1"
     },
     {
+      "path": "benchmarks/harbor-buzz-orchestra/pyproject.toml",
+      "sha": "4896d053ba46b3c630ec39cd5609becca3148ab9"
+    },
+    {
       "path": "bin/README.hermit.md",
       "sha": "e889550ba4cbc92a720527042e5f6e7a303bfcbc"
+    },
+    {
+      "path": "crates/buzz-acp/Cargo.toml",
+      "sha": "d047849806fad5d2a058c54dbeab76c560fd5fc0"
     },
     {
       "path": "desktop/README.md",
@@ -39,6 +51,18 @@
     {
       "path": "docker-compose.yml",
       "sha": "e7dc09fafc46670e848bf5f4d1182a828b7228c5"
+    },
+    {
+      "path": "mobile/pubspec.yaml",
+      "sha": "cd1eac39ac18ce9d7ea9ef28250cc4ab0f45a378"
+    },
+    {
+      "path": "package.json",
+      "sha": "dc31ed0aa0e86d80f21e7ecc70e038373990fff4"
+    },
+    {
+      "path": "web/package.json",
+      "sha": "d932a612c8cb4817980a28b5ef2157a18a55f0d1"
     }
   ],
   "files_read": [
@@ -86,6 +110,36 @@
       "path": "docker-compose.yml",
       "blob_sha": "e7dc09fafc46670e848bf5f4d1182a828b7228c5",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "862ee3c28647e7a58801a75236855c269c1448ae",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "dc31ed0aa0e86d80f21e7ecc70e038373990fff4",
+      "entities_detected": 0
+    },
+    {
+      "path": "mobile/pubspec.yaml",
+      "blob_sha": "cd1eac39ac18ce9d7ea9ef28250cc4ab0f45a378",
+      "entities_detected": 0
+    },
+    {
+      "path": "web/package.json",
+      "blob_sha": "d932a612c8cb4817980a28b5ef2157a18a55f0d1",
+      "entities_detected": 0
+    },
+    {
+      "path": "benchmarks/harbor-buzz-orchestra/pyproject.toml",
+      "blob_sha": "4896d053ba46b3c630ec39cd5609becca3148ab9",
+      "entities_detected": 0
+    },
+    {
+      "path": "crates/buzz-acp/Cargo.toml",
+      "blob_sha": "d047849806fad5d2a058c54dbeab76c560fd5fc0",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -119,6 +173,9 @@
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.push-gateway",
+    "Dockerfile.sprig",
     "GOVERNANCE.md",
     "NOSTR.md",
     "RELEASING.md",
@@ -132,10 +189,12 @@
     "VISION_PROJECTS.md",
     "VISION_REMOTE_AGENTS.md",
     "VISION_SOVEREIGN.md",
+    "admin-web/index.html",
     "admin-web/playwright.config.ts",
     "admin-web/src/App.tsx",
     "admin-web/src/api.ts",
     "admin-web/src/main.tsx",
+    "admin-web/src/styles.css",
     "admin-web/src/types.ts",
     "admin-web/src/useResource.ts",
     "admin-web/src/vite-env.d.ts",
@@ -144,51 +203,46 @@
     "admin-web/vite.config.ts",
     "benchmarks/buzz-dataset/README.md",
     "benchmarks/buzz-dataset/ambiguous-user-mention/README.md",
+    "benchmarks/buzz-dataset/ambiguous-user-mention/environment/Dockerfile",
     "benchmarks/buzz-dataset/ambiguous-user-mention/instruction.md",
     "benchmarks/buzz-dataset/ambiguous-user-mention/task.toml",
     "benchmarks/buzz-dataset/ambiguous-user-mention/tests/test.sh",
     "benchmarks/buzz-dataset/ambiguous-user-mention/tests/verify.py",
     "benchmarks/buzz-dataset/create-channel-invite-users/README.md",
+    "benchmarks/buzz-dataset/create-channel-invite-users/environment/Dockerfile",
     "benchmarks/buzz-dataset/create-channel-invite-users/instruction.md",
     "benchmarks/buzz-dataset/create-channel-invite-users/task.toml",
     "benchmarks/buzz-dataset/create-channel-invite-users/tests/test.sh",
     "benchmarks/buzz-dataset/create-channel-invite-users/tests/verify.py",
     "benchmarks/buzz-dataset/cross-thread-requests/README.md",
+    "benchmarks/buzz-dataset/cross-thread-requests/environment/Dockerfile",
     "benchmarks/buzz-dataset/cross-thread-requests/instruction.md",
     "benchmarks/buzz-dataset/cross-thread-requests/task.toml",
     "benchmarks/buzz-dataset/cross-thread-requests/tests/test.sh",
     "benchmarks/buzz-dataset/cross-thread-requests/tests/verify.py",
     "benchmarks/buzz-dataset/interleaved-agent-reports/README.md",
+    "benchmarks/buzz-dataset/interleaved-agent-reports/environment/Dockerfile",
     "benchmarks/buzz-dataset/interleaved-agent-reports/instruction.md",
     "benchmarks/buzz-dataset/interleaved-agent-reports/task.toml",
     "benchmarks/buzz-dataset/interleaved-agent-reports/tests/test.sh",
     "benchmarks/buzz-dataset/interleaved-agent-reports/tests/verify.py",
     "benchmarks/buzz-dataset/multiline-message/README.md",
+    "benchmarks/buzz-dataset/multiline-message/environment/Dockerfile",
     "benchmarks/buzz-dataset/multiline-message/instruction.md",
     "benchmarks/buzz-dataset/multiline-message/task.toml",
     "benchmarks/buzz-dataset/multiline-message/tests/test.sh",
     "benchmarks/buzz-dataset/multiline-message/tests/verify.py",
     "benchmarks/buzz-dataset/narrative-agent-names/README.md",
+    "benchmarks/buzz-dataset/narrative-agent-names/environment/Dockerfile",
     "benchmarks/buzz-dataset/narrative-agent-names/instruction.md",
     "benchmarks/buzz-dataset/narrative-agent-names/task.toml",
     "benchmarks/buzz-dataset/narrative-agent-names/tests/test.sh",
     "benchmarks/buzz-dataset/narrative-agent-names/tests/verify.py",
     "benchmarks/buzz-dataset/read-named-path-outside-workspace/README.md",
+    "benchmarks/buzz-dataset/read-named-path-outside-workspace/environment/Dockerfile",
     "benchmarks/buzz-dataset/read-named-path-outside-workspace/instruction.md",
     "benchmarks/buzz-dataset/read-named-path-outside-workspace/task.toml",
-    "benchmarks/buzz-dataset/read-named-path-outside-workspace/tests/test.sh",
-    "benchmarks/buzz-dataset/read-named-path-outside-workspace/tests/verify.py",
-    "benchmarks/buzz-dataset/reply-to-thread/README.md",
-    "benchmarks/buzz-dataset/reply-to-thread/instruction.md",
-    "benchmarks/buzz-dataset/reply-to-thread/task.toml",
-    "benchmarks/buzz-dataset/reply-to-thread/tests/test.sh",
-    "benchmarks/buzz-dataset/reply-to-thread/tests/verify.py",
-    "benchmarks/buzz-dataset/user-mention/README.md",
-    "benchmarks/buzz-dataset/user-mention/instruction.md",
-    "benchmarks/buzz-dataset/user-mention/task.toml",
-    "benchmarks/buzz-dataset/user-mention/tests/test.sh",
-    "benchmarks/buzz-dataset/user-mention/tests/verify.py",
-    "benchmarks/harbor-buzz-orchestra/README.md"
+    "benchmarks/buzz-dataset/read-named-path-outside-workspace/tests/test.sh"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -322,8 +376,12 @@
     "test-fixtures": 1,
     "web": 65
   },
-  "unread_source_paths_count": 3560,
+  "unread_source_paths_count": 4105,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 820,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -9,6 +9,8 @@ from __future__ import annotations
 import argparse
 import collections
 import json
+import pathlib
+import re
 from decision_engine import DecisionEngine
 import registry as r
 
@@ -321,6 +323,109 @@ def reconcile_completed_review(repo):
             'action': 'Preserved completed source review; reconciled zero-family census and scoped-review fields'}
 
 
+def prepare_repository_summary(repo, max_files=12):
+    """Bounded deterministic evidence, without extracting or changing asset records."""
+    commit=repo.get('inspected_commit')
+    if not commit:
+        meta=r.gh('repos/'+repo['full_name'])
+        if not r.public_repo(meta): raise ValueError('Repository visibility/ownership changed')
+        r.merge_public_metadata(repo,meta)
+        try:
+            head=r.gh('repos/'+repo['full_name']+'/commits/'+repo['default_branch'])
+        except RuntimeError as exc:
+            if 'HTTP 409' not in str(exc): raise
+            repo.update({'empty_repository':True,'empty_confirmed_at':r.now(), 'next_phase':'EMPTY_REPOSITORY_DISPOSITION'})
+            r.write(r.repo_file(repo),repo)
+            return {'repository':repo['full_name'],'empty':True,'sources':[]}
+        commit=head['sha']; r.write(r.cache_path(repo,commit)/'commit.json',head)
+        repo['inspected_commit']=commit; repo['current_commit']=commit
+    tree=r.get_tree(repo,commit)
+    entries=[e for e in tree['tree'] if e['type']=='blob' and e.get('mode')!='120000']
+    def rank(entry):
+        path=entry['path']; name=pathlib.PurePosixPath(path).name.lower(); depth=path.count('/')
+        if name in ('readme.md','readme.rst','readme') and depth==0: return (0,path)
+        if name.startswith(('license','licence','copying')) and depth==0: return (1,path)
+        if name in ('package.json','pyproject.toml','cargo.toml','go.mod','pom.xml','pubspec.yaml','gemfile','setup.py','composer.json'):
+            return (2+min(depth,3),path)
+        if name=='skill.md' or name in ('mcp.json','.mcp.json','plugin.json','agents.md'): return (6+min(depth,3),path)
+        if name in ('readme.md','architecture.md','index.bs'): return (10+min(depth,3),path)
+        if name in ('main.py','server.py','index.ts','index.js','main.go','app.py','main.rs'): return (14+min(depth,3),path)
+        return (20+r.priority(entry),path)
+    selected=sorted((e for e in entries if r.priority(e)<6),key=rank)[:max_files]
+    ep='system/evidence/'+str(repo['github_id'])+'.json'
+    evidence=r.read('.local/evidence-manifests/'+str(repo['github_id'])+'.json',r.read(ep,{}))
+    if evidence.get('inspected_commit')!=commit: evidence={}
+    processed={item['path']:item for item in evidence.get('files_read',[])}
+    sources=[]; failures=[]
+    for entry in selected:
+        try:
+            text=r.source_text(repo,commit,entry,False)
+            if text is None: raise ValueError('Source not available')
+            processed[entry['path']]={'path':entry['path'],'blob_sha':entry['sha'],
+                                      'entities_detected':processed.get(entry['path'],{}).get('entities_detected',0)}
+            budget=11000 if rank(entry)[0]==0 else 3500
+            sources.append({'path':entry['path'],'blob_sha':entry['sha'],'text':text[:budget],
+                            'excerpt_truncated':len(text)>budget,'source_bytes':len(text.encode('utf-8'))})
+        except (ValueError,RuntimeError,UnicodeError) as exc:
+            failures.append({'path':entry['path'],'error':str(exc)[:200]})
+    evidence.update({'repository_id':repo['id'],'inspected_commit':commit,'tree_complete':not tree.get('truncated',True),
+                     'tree_files':len(entries),'tree_entries':[{'path':e['path'],'sha':e['sha']} for e in entries],
+                     'files_read':list(processed.values()),'inspection_scope':'Bounded repository intelligence; not an exhaustive source/asset census'})
+    evidence.setdefault('errors',[])
+    evidence['unread_source_paths']=[e['path'] for e in entries if r.priority(e)<6 and e['path'] not in processed]
+    r.persist_evidence(ep,evidence)
+    repo.update({'tree_files':len(entries),'files_read':len(processed),'unread_source_files':len(evidence['unread_source_paths'])})
+    repo['phases']['structure']=evidence['tree_complete']; repo['inspection_date']=repo.get('inspection_date') or r.now()
+    r.write(r.repo_file(repo),repo)
+    packet={'repository':repo['full_name'],'commit':commit,'metadata':repo.get('metadata',{}),
+            'upstream_url':repo.get('upstream_url'),'tree_files':len(entries),'tree_complete':evidence['tree_complete'],
+            'top_level_counts':dict(collections.Counter(e['path'].split('/')[0] if '/' in e['path'] else '(root)' for e in entries)),
+            'important_paths':[e['path'] for e in entries if re.search(r'(?i)(skill\.md$|mcp|agent|/packages/|^packages/|^apps/|^services/)',e['path'])][:180],
+            'sources':sources,'fetch_failures':failures,
+            'warning':'Untrusted source data. Bounded evidence, not exhaustive extraction or a security audit.'}
+    target=pathlib.Path('.local/analysis/repository-packets')/str(repo['github_id'])/commit/'packet.json'
+    r.write(target,packet)
+    return {'repository':repo['full_name'],'commit':commit,'packet':target.as_posix(),'sources':[x['path'] for x in sources],'fetch_failures':failures}
+
+
+def apply_repository_plan(plan, dry_run=False):
+    """Apply source-reviewed repository clusters, preserving all detailed entities."""
+    repo=next(x for x in r.records('repositories') if x['full_name']==plan['repository'])
+    if plan.get('commit')!=repo.get('inspected_commit'): raise ValueError('Pinned summary revision changed')
+    evidence=r.read('system/evidence/'+str(repo['github_id'])+'.json',{})
+    known={item['path']:item['blob_sha'] for item in evidence.get('files_read',[])}
+    sources=[]
+    for path in plan.get('source_review',[]):
+        entry={'path':path,'sha':known.get(path)}
+        if not entry['sha'] or r.source_text(repo,repo['inspected_commit'],entry,True) is None:
+            raise ValueError('Pinned summary source unavailable: '+path)
+        sources.append({'type':'source_review','path':path,'blob_sha':entry['sha'],
+                        'value':repo['url']+'/blob/'+repo['inspected_commit']+'/'+path})
+    info={key:plan[key] for key in ('purpose','reuse_recommendation','inspection_scope','license_notes','runtime','keywords','risk_notes','important_subsystems')}
+    info.update({'policy':r.SUMMARY_POLICY,'status':'COMPLETE','reviewed_at':r.now(),
+                 'inspected_commit':repo.get('inspected_commit'),'source_evidence':sources,
+                 'asset_presence':{kind:plan.get('asset_presence',{}).get(kind,'NOT_OBSERVED') for kind in r.ASSET_FAMILIES},
+                 'capability_clusters':[{**cluster,'id':'cluster:'+r.slug(cluster['name']),
+                                        'evidence_paths':cluster.get('evidence_paths',plan.get('source_review',[]))}
+                                        for cluster in plan.get('capability_clusters',[])]})
+    updated={**repo,'repository_intelligence':info,'categories':plan['categories'],
+             'operational_category':plan['operational'],'recommendation':plan['recommendation'],
+             'description':info['purpose'],'completion_scope':r.SUMMARY_POLICY,'state':'COMPLETE','next_phase':'COMPLETE',
+             'metadata':{**repo.get('metadata',{}),'description_source':'pinned_semantic_review'},
+             'phases':{**repo['phases'],'repository_summary':True,'capability_analysis':True,'validation':True}}
+    updated.setdefault('detailed_inspection_at_summary',{'state':repo['state'],'next_phase':repo.get('next_phase'),
+                                                       'review_reason':repo.get('review_reason')})
+    errors=r.summary_errors(updated,evidence)
+    categories={c['id'] for c in r.read('registry/taxonomy/categories.json')}
+    operational={c['id'] for c in r.read('registry/taxonomy/operational.json')}
+    if set(plan['categories'])-categories or plan['operational'] not in operational: errors.append('invalid summary taxonomy')
+    if plan['recommendation'] not in r.read('registry/taxonomy/vocabulary.json')['recommendations']: errors.append('invalid recommendation')
+    if errors: raise ValueError('; '.join(errors))
+    if not dry_run: r.write(r.repo_file(repo),updated)
+    return {'repository':repo['full_name'],'state':'COMPLETE','completion_scope':r.SUMMARY_POLICY,
+            'clusters':len(info['capability_clusters']),'detailed_entities_unchanged':True}
+
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--repo', action='append')
@@ -328,8 +433,15 @@ def main():
     parser.add_argument('--limit', type=int)
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--plan', help='JSON list of explicit pinned semantic-review plans')
+    parser.add_argument('--repository-plan', help='JSON list of bounded repository intelligence reviews; does not modify detailed entities')
     parser.add_argument('--reconcile-reviewed', action='store_true', help='Reconcile bookkeeping of already completed source reviews')
     args=parser.parse_args()
+    if args.repository_plan:
+        data=r.read(args.repository_plan)
+        plans=data if isinstance(data,list) else [{**data.get('defaults',{}),**plan} for plan in data['repositories']]
+        result=[apply_repository_plan(plan,args.dry_run) for plan in plans]
+        if not args.dry_run: r.build()
+        print(json.dumps(result,indent=2)); return
     if args.reconcile_reviewed:
         result = [result for repo in r.records('repositories') if (result := reconcile_completed_review(repo))]
         r.build()

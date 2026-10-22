@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "dev",
   "upstream_url": "https://github.com/blakeblackshear/frigate",
-  "description": "NVR with realtime local object detection for IP cameras",
+  "description": "Local network video recorder and camera monitoring system with real-time object detection and event-based recording.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-14T19:10:05Z",
-    "github_description": "NVR with realtime local object detection for IP cameras"
+    "github_description": "NVR with realtime local object detection for IP cameras",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "b79e0439769ab7f7b03805295d0c12e2f0a89032",
   "current_commit": "b79e0439769ab7f7b03805295d0c12e2f0a89032",
   "inspection_date": "2026-10-20T23:57:15.424306+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:iot",
+    "category:machine-learning-models",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.927199+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.970028+00:00",
   "tree_files": 3203,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2977,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2984,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Local network video recorder and camera monitoring system with real-time object detection and event-based recording.",
+    "reuse_recommendation": "Use only for authorized cameras with local network isolation, retention controls and clear notice.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "MIT; camera integrations and model components have separate terms.",
+    "runtime": [
+      "Python",
+      "FFmpeg",
+      "GPU/accelerator options",
+      "camera streams"
+    ],
+    "keywords": [
+      "Frigate NVR",
+      "camera monitoring",
+      "object detection",
+      "local surveillance",
+      "home security"
+    ],
+    "risk_notes": [
+      "Surveillance video and people detection are sensitive; access and retention need strict controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Frigate NVR pipeline",
+        "purpose": "Combines video processing, detection and event storage.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:19.195958+00:00",
+    "inspected_commit": "b79e0439769ab7f7b03805295d0c12e2f0a89032",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1fb158b19161962d49473aa6659356e684434121",
+        "value": "https://github.com/jamesrwatsonx-creator/frigate---camera-monitoring/blob/b79e0439769ab7f7b03805295d0c12e2f0a89032/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "camera stream ingestion and recording",
+        "description": "Processes live camera streams and manages recorded events.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:camera-stream-ingestion-and-recording",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "local object detection",
+        "description": "Uses computer vision to identify events such as people or vehicles.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-object-detection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "home automation integrations",
+        "description": "Connects detections and events to smart-home systems.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:home-automation-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/HKUDS/CLI-Anything",
-  "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+  "description": "Framework or agent skill that turns desktop applications into command-line accessible workflows for AI agents and automation.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-22T02:01:29Z",
-    "github_description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    "github_description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
   "current_commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
   "inspection_date": "2026-10-20T23:59:09.138993+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:developer-tools",
+    "category:agent-workflows",
+    "category:automation-scripting"
+  ],
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 151,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.434470+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.253918+00:00",
   "tree_files": 1872,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1808,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1812,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Framework or agent skill that turns desktop applications into command-line accessible workflows for AI agents and automation.",
+    "reuse_recommendation": "Use with strict command allowlists and per-operation review, particularly where app actions alter files or publish content.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Check repository license and each supported application’s own terms.",
+    "runtime": [
+      "Python/CLI",
+      "desktop application integrations",
+      "agent host"
+    ],
+    "keywords": [
+      "CLI Anything",
+      "agent computer use",
+      "desktop app automation",
+      "command line bridge",
+      "workflow skills"
+    ],
+    "risk_notes": [
+      "Command wrappers may grant broad file or application access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CLI-Anything toolkit",
+        "purpose": "Makes application operations more accessible to scripts and agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:14.362751+00:00",
+    "inspected_commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8a78b5420911eff5e7cc219bf1ecb2a12b562874",
+        "value": "https://github.com/jamesrwatsonx-creator/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "application CLI generation/integration",
+        "description": "Provides command-line interfaces or wrappers for desktop application tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:application-cli-generation-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent workflow skills",
+        "description": "Guides agents through using application capabilities via command tools.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-workflow-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "desktop automation bridge",
+        "description": "Connects agent tasks with installed application behavior.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:desktop-automation-bridge",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

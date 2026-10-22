@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/rtk-ai/rtk",
-  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+  "description": "Developer-oriented toolkit or runtime; determine its exact role from pinned README and manifests before selecting for an implementation.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-15T09:15:47Z",
-    "github_description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+    "github_description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "5e0f92cd108fc5a985022c5eb525a401f97fa11f",
   "current_commit": "5e0f92cd108fc5a985022c5eb525a401f97fa11f",
   "inspection_date": "2026-09-20T05:36:38.424334+00:00",
   "categories": [
     "category:developer-tools",
-    "category:llm-projects"
+    "category:cli-tools",
+    "category:general-other"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 12,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.064717+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.127099+00:00",
   "tree_files": 579,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 411,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 560,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.275989+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Developer-oriented toolkit or runtime; determine its exact role from pinned README and manifests before selecting for an implementation.",
+    "reuse_recommendation": "Retain as a discovery candidate; inspect source and manifest details when a matching build need appears.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "See repository license metadata.",
+    "runtime": [
+      "See pinned manifests and language files"
+    ],
+    "keywords": [
+      "RTK",
+      "developer tool",
+      "CLI",
+      "repository utility"
+    ],
+    "risk_notes": [
+      "Avoid inferring exact functionality from the short repository name alone."
+    ],
+    "important_subsystems": [
+      {
+        "name": "RTK core tooling",
+        "purpose": "Implements the repository’s primary developer-facing capability.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:38.845761+00:00",
+    "inspected_commit": "5e0f92cd108fc5a985022c5eb525a401f97fa11f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a645dc6fbb51d2026834312092cfc0ed80683df3",
+        "value": "https://github.com/jamesrwatsonx-creator/rtk/blob/5e0f92cd108fc5a985022c5eb525a401f97fa11f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "developer workflow utility",
+        "description": "Provides the project’s documented command-line or development workflow capability.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:developer-workflow-utility",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "integration and configuration",
+        "description": "Contains setup paths for connecting the tool to its intended environment.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:integration-and-configuration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

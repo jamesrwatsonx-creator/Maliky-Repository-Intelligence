@@ -11,23 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/hacksider/Deep-Live-Cam",
-  "description": "real time face swap and one-click video deepfake with only a single image",
+  "description": "Desktop real-time face-swapping and synthetic video application driven by a source image and live or recorded video.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-05-20T21:11:41Z",
-    "github_description": "real time face swap and one-click video deepfake with only a single image"
+    "github_description": "real time face swap and one-click video deepfake with only a single image",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "aa6f2cbade35a0a55502b87b18697b020c49b5f3",
   "current_commit": "aa6f2cbade35a0a55502b87b18697b020c49b5f3",
   "inspection_date": "2026-09-20T05:32:30.744791+00:00",
   "categories": [
-    "category:ai-applications",
-    "category:creative-tools",
-    "category:generative-ai",
-    "category:privacy"
+    "category:machine-learning-models",
+    "category:media-publishing",
+    "category:desktop-applications"
   ],
   "operational_category": "operational:09",
   "secondary_operational_categories": [],
@@ -43,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -340,9 +340,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.610937+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.451067+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -397,5 +398,114 @@
     ],
     "updated_at": "2026-10-12T19:04:27.120708+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Desktop real-time face-swapping and synthetic video application driven by a source image and live or recorded video.",
+    "reuse_recommendation": "Use only for consent-based, clearly labeled synthetic media; inspect model behavior, source-image handling and output disclosure safeguards.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; model assets and third-party components may have separate terms.",
+    "runtime": [
+      "Python",
+      "computer vision and face-swap models",
+      "desktop GPU/video pipeline"
+    ],
+    "keywords": [
+      "real-time face swap",
+      "synthetic video",
+      "face replacement",
+      "computer vision",
+      "Deep-Live-Cam"
+    ],
+    "risk_notes": [
+      "Deepfake/identity impersonation capability is high risk; require consent, provenance, disclosure and abuse safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "capture and face-swap application",
+        "purpose": "Coordinates video input and face transformation workflows.",
+        "evidence_paths": [
+          "README.md",
+          "modules/capturer.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:48.352664+00:00",
+    "inspected_commit": "aa6f2cbade35a0a55502b87b18697b020c49b5f3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "cb68ac5fc3994847941126d84c8c3f33fa6724bd",
+        "value": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+        "value": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "modules/capturer.py",
+        "blob_sha": "1dee22d1478415b0546aa229b5398424b074072d",
+        "value": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/modules/capturer.py"
+      },
+      {
+        "type": "source_review",
+        "path": "modules/__init__.py",
+        "blob_sha": "6eca4a3264b78f38eb7b4b378e36c8819f206372",
+        "value": "https://github.com/jamesrwatsonx-creator/Deep-Live-Cam/blob/aa6f2cbade35a0a55502b87b18697b020c49b5f3/modules/__init__.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "face-swap video pipeline",
+        "description": "Maps a source face onto live or recorded video frames.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:face-swap-video-pipeline",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "modules/capturer.py",
+          "modules/__init__.py"
+        ]
+      },
+      {
+        "name": "video capture and processing",
+        "description": "Captures and processes video frames for desktop output.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-capture-and-processing",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "modules/capturer.py",
+          "modules/__init__.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

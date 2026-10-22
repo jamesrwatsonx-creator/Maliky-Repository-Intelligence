@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/sleekdotdesign/agent-skills",
-  "description": "",
+  "description": "Agent skill package for guiding mobile application design work through a reusable design workflow.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-05T13:52:35Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "aa88b4dc5b2e35def6e3a89df85a6461af66a4d0",
   "current_commit": "aa88b4dc5b2e35def6e3a89df85a6461af66a4d0",
   "inspection_date": "2026-09-20T05:36:50.450995+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:design-systems",
+    "category:skills",
     "category:mobile-applications",
-    "category:skills"
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:17",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.518345+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.659294+00:00",
   "tree_files": 4,
-  "files_read": 0,
+  "files_read": 3,
   "entity_count": 0,
-  "unread_source_files": 2,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.218717+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill package for guiding mobile application design work through a reusable design workflow.",
+    "reuse_recommendation": "Install in a compatible agent host and pair it with the target app's design system and implementation constraints.",
+    "inspection_scope": "Reviewed the repository overview and its single mobile-design skill. This is host-executed design guidance rather than a component implementation or mobile runtime.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Markdown skill"
+    ],
+    "keywords": [
+      "mobile app design",
+      "design agent skill",
+      "mobile UX workflow",
+      "iOS Android interface"
+    ],
+    "risk_notes": [
+      "Guidance does not provide production UI components or guarantee platform-specific correctness."
+    ],
+    "important_subsystems": [
+      {
+        "name": "mobile design skill",
+        "purpose": "Provides the host agent with the design workflow and reference guidance.",
+        "evidence_paths": [
+          "skills/design-mobile-apps/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:28.558413+00:00",
+    "inspected_commit": "aa88b4dc5b2e35def6e3a89df85a6461af66a4d0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "359b07762c90ad901705c0e0516ab4859db4d45d",
+        "value": "https://github.com/jamesrwatsonx-creator/Mobile-app-design-agent-skills/blob/aa88b4dc5b2e35def6e3a89df85a6461af66a4d0/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "820f5d6753a294d1063396c73dee5313e4a69dfc",
+        "value": "https://github.com/jamesrwatsonx-creator/Mobile-app-design-agent-skills/blob/aa88b4dc5b2e35def6e3a89df85a6461af66a4d0/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/design-mobile-apps/SKILL.md",
+        "blob_sha": "11824b3d45ab86460066b15e88f182460f21550d",
+        "value": "https://github.com/jamesrwatsonx-creator/Mobile-app-design-agent-skills/blob/aa88b4dc5b2e35def6e3a89df85a6461af66a4d0/skills/design-mobile-apps/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "mobile product design workflow",
+        "description": "Guides an agent through mobile application design tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:mobile-product-design-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/design-mobile-apps/SKILL.md"
+        ]
+      },
+      {
+        "name": "mobile UX reference",
+        "description": "Packages reusable design guidance for mobile interface work.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:mobile-ux-reference",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/design-mobile-apps/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

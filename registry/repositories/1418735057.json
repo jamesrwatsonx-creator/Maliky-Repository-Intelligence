@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/contao/contao",
-  "description": "Contao Open Source CMS",
+  "description": "Open-source content management system for building websites with structured content, themes, extensions and editorial workflows.",
   "metadata": {
     "language": null,
     "license": "LGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T17:42:22Z",
-    "github_description": "Contao Open Source CMS"
+    "github_description": "Contao Open Source CMS",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "784f5bf880ae59f4f867edd5c5e921b191081e05",
   "current_commit": "784f5bf880ae59f4f867edd5c5e921b191081e05",
   "inspection_date": "2026-10-20T23:53:09.360511+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:media-publishing",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.509314+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.328995+00:00",
   "tree_files": 4916,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2420,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2422,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source content management system for building websites with structured content, themes, extensions and editorial workflows.",
+    "reuse_recommendation": "Use for content sites and review extension compatibility and security updates.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "LGPL-3.0; extensions and themes may have distinct licenses.",
+    "runtime": [
+      "PHP/Symfony",
+      "database",
+      "web server"
+    ],
+    "keywords": [
+      "Contao CMS",
+      "PHP content management",
+      "website publishing",
+      "editorial workflows",
+      "CMS extensions"
+    ],
+    "risk_notes": [
+      "CMS administrator access, uploads and extensions are security-sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Contao CMS platform",
+        "purpose": "Provides a flexible content publishing system for websites.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:41.986218+00:00",
+    "inspected_commit": "784f5bf880ae59f4f867edd5c5e921b191081e05",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "93e72c6cc134bf7a4369690e0b6d3a0dd0894359",
+        "value": "https://github.com/jamesrwatsonx-creator/contao/blob/784f5bf880ae59f4f867edd5c5e921b191081e05/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "structured content authoring",
+        "description": "Manages pages and structured records for websites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:structured-content-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "themes and extension ecosystem",
+        "description": "Customizes site behavior and presentation through packages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:themes-and-extension-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "editorial and access workflows",
+        "description": "Supports publishing administration and user permissions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:editorial-and-access-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

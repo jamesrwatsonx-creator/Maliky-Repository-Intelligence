@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/headroomlabs-ai/headroom",
-  "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+  "description": "LLM middleware that reduces prompt and conversation context size through filtering, compression or memory-aware request processing.",
   "metadata": {
     "language": "Python",
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-22T13:58:33Z",
-    "github_description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+    "github_description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "91186b40d886c78e4b126d15837a51bea0a871e3",
   "current_commit": "91186b40d886c78e4b126d15837a51bea0a871e3",
   "inspection_date": "2026-09-20T05:32:42.703964+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:llm-projects",
-    "category:mcp-servers"
+    "category:ai-infrastructure",
+    "category:generative-ai",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [
     "operational:04",
     "operational:15"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.080573+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.159113+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -279,10 +281,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2314,
-  "files_read": 9,
+  "files_read": 15,
   "entity_count": 3,
-  "unread_source_files": 2186,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2262,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -292,5 +294,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.167498+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "LLM middleware that reduces prompt and conversation context size through filtering, compression or memory-aware request processing.",
+    "reuse_recommendation": "Use with evaluation datasets to ensure compression does not remove critical instructions or evidence.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check repository license and model provider compatibility.",
+    "runtime": [
+      "Python/TypeScript as declared",
+      "LLM SDKs"
+    ],
+    "keywords": [
+      "LLM context compression",
+      "prompt optimization",
+      "token reduction",
+      "agent middleware",
+      "conversation memory"
+    ],
+    "risk_notes": [
+      "Context reduction can omit safety constraints or source details."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Headroom middleware",
+        "purpose": "Optimizes model context while attempting to preserve useful information.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:53.344002+00:00",
+    "inspected_commit": "91186b40d886c78e4b126d15837a51bea0a871e3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0b923e94095ff6398185c11c47d3cba6d090219d",
+        "value": "https://github.com/jamesrwatsonx-creator/headroom/blob/91186b40d886c78e4b126d15837a51bea0a871e3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "context filtering and compression",
+        "description": "Reduces redundant or low-value content before model requests.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:context-filtering-and-compression",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "LLM request middleware",
+        "description": "Integrates with model clients to manage context and token use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:llm-request-middleware",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

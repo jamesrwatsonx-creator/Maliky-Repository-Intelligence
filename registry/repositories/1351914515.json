@@ -11,23 +11,26 @@
   "fork": false,
   "default_branch": "main",
   "upstream_url": null,
-  "description": "",
+  "description": "Prototype YouTube intelligence package combining Hermes tool contracts, heuristic outlier scoring and a React dashboard, while the registered search/analysis tools and dashboard data remain scaffolded or mocked.",
   "metadata": {
     "language": "TypeScript",
     "license": null,
     "archived": false,
     "pushed_at": "2026-08-31T05:12:46Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "451e353f90515fea91c085f32e4025931df12f18",
   "current_commit": "451e353f90515fea91c085f32e4025931df12f18",
   "inspection_date": "2026-09-20T05:35:43.225243+00:00",
   "categories": [
     "category:ai-agents",
-    "category:research-projects"
+    "category:research-projects",
+    "category:frontend-applications",
+    "category:mcp-servers"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -252,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.804563+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.839189+00:00",
   "tree_files": 25,
-  "files_read": 0,
+  "files_read": 20,
   "entity_count": 0,
-  "unread_source_files": 22,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +275,196 @@
     ],
     "updated_at": "2026-10-12T19:04:27.345737+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Prototype YouTube intelligence package combining Hermes tool contracts, heuristic outlier scoring and a React dashboard, while the registered search/analysis tools and dashboard data remain scaffolded or mocked.",
+    "reuse_recommendation": "Extract the scoring prototype or dashboard concepts selectively; implement and verify data connectors before depending on the registered tools.",
+    "inspection_scope": "Inspected actual tool handlers, scoring module and dashboard documentation. All ten Hermes handlers return a scaffolded/not-ready response; dashboard data is mocked. Scoring provides a V0 heuristic, not a production ranker.",
+    "license_notes": "No repository license established in the reviewed metadata.",
+    "runtime": [
+      "Python",
+      "Hermes plugin",
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "keywords": [
+      "YouTube intelligence",
+      "outlier scoring",
+      "Hermes plugin",
+      "creator research dashboard",
+      "viral shorts workflow"
+    ],
+    "risk_notes": [
+      "Tool contracts do not perform live YouTube research; mock data and unimplemented handlers must not be presented as working integrations.",
+      "YouTube API credentials, private analytics and content rights require build-specific review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hermes plugin contracts",
+        "purpose": "Registers tool schemas and placeholder handlers.",
+        "evidence_paths": [
+          "hermes_plugin/tools.py",
+          "hermes_plugin/schemas.py"
+        ]
+      },
+      {
+        "name": "scoring module",
+        "purpose": "Computes V0 heuristic evidence from channel and video metrics.",
+        "evidence_paths": [
+          "youtube_intelligence/scoring.py"
+        ]
+      },
+      {
+        "name": "dashboard prototype",
+        "purpose": "Displays a prototype creator-intelligence interface with mocked data.",
+        "evidence_paths": [
+          "dashboard/README.md",
+          "dashboard/src/App.tsx"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:27.390287+00:00",
+    "inspected_commit": "451e353f90515fea91c085f32e4025931df12f18",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "528a6a4bef2940ab7dd0a3ce9686a859c9bfd894",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "b7917299815b8ece959a04f30089747a8c5bf17c",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "hermes_plugin/tools.py",
+        "blob_sha": "b6f43d325749e896d87591d45f8b8be1630cfa4d",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/hermes_plugin/tools.py"
+      },
+      {
+        "type": "source_review",
+        "path": "youtube_intelligence/scoring.py",
+        "blob_sha": "c55f999255de36b32022b19df1c2a283ba5fd154",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/youtube_intelligence/scoring.py"
+      },
+      {
+        "type": "source_review",
+        "path": "dashboard/README.md",
+        "blob_sha": "02b894ab0e514d320ea13e26912e7aff08df2d14",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/dashboard/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "dashboard/src/App.tsx",
+        "blob_sha": "7d185bc3fa801593144c3656a730800bc1ea8198",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/dashboard/src/App.tsx"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/find-viral-shorts/SKILL.md",
+        "blob_sha": "77f9eafbd0781a40eb77b3c735a93f37b7f26c45",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/skills/find-viral-shorts/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "hermes_plugin/schemas.py",
+        "blob_sha": "f8de1ef072a35808e3adb0d249f0dddff8ed4c77",
+        "value": "https://github.com/jamesrwatsonx-creator/youtube-intelligence-plugin/blob/451e353f90515fea91c085f32e4025931df12f18/hermes_plugin/schemas.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "YouTube tool contracts",
+        "description": "Defines Hermes-facing search and analysis tool interfaces; handlers currently report not ready.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:youtube-tool-contracts",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "hermes_plugin/tools.py",
+          "youtube_intelligence/scoring.py",
+          "dashboard/README.md",
+          "dashboard/src/App.tsx",
+          "skills/find-viral-shorts/SKILL.md",
+          "hermes_plugin/schemas.py"
+        ]
+      },
+      {
+        "name": "outlier scoring heuristic",
+        "description": "Calculates baseline-relative signals and confidence from supplied video/channel metrics.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:outlier-scoring-heuristic",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "hermes_plugin/tools.py",
+          "youtube_intelligence/scoring.py",
+          "dashboard/README.md",
+          "dashboard/src/App.tsx",
+          "skills/find-viral-shorts/SKILL.md",
+          "hermes_plugin/schemas.py"
+        ]
+      },
+      {
+        "name": "creator research dashboard prototype",
+        "description": "Provides a React UI prototype backed by mocked dataset content.",
+        "scope": "DESIGN",
+        "id": "cluster:creator-research-dashboard-prototype",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "hermes_plugin/tools.py",
+          "youtube_intelligence/scoring.py",
+          "dashboard/README.md",
+          "dashboard/src/App.tsx",
+          "skills/find-viral-shorts/SKILL.md",
+          "hermes_plugin/schemas.py"
+        ]
+      },
+      {
+        "name": "viral shorts research workflow",
+        "description": "Describes a host-agent workflow for discovering and evaluating short-form content.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:viral-shorts-research-workflow",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "hermes_plugin/tools.py",
+          "youtube_intelligence/scoring.py",
+          "dashboard/README.md",
+          "dashboard/src/App.tsx",
+          "skills/find-viral-shorts/SKILL.md",
+          "hermes_plugin/schemas.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

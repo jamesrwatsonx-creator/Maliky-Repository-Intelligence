@@ -3,8 +3,100 @@
   "inspected_commit": "94a2156b7ae8156b8ef478648a90095313134781",
   "tree_complete": true,
   "tree_files": 2240,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "AGENTS.md",
+      "sha": "98912451c6f2c50599c11d79e05cc3596edb6107"
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha": "c097cbfd3d1cf3dd441a99738e8b3c7a4338efbd"
+    },
+    {
+      "path": "README.rst",
+      "sha": "7d32cef02e02ee1243ff73125ff928fc3dfc57f4"
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/README.md",
+      "sha": "e84f84f4b4de8fafcef2f9bd992fd8cadd1c74cc"
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/pyproject.toml",
+      "sha": "00de2c6c5967f7b309def375d1857603f0d41476"
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/setup.py",
+      "sha": "93fe8d6f9bdc760bcfefad071ecc8c4949d8e3c3"
+    },
+    {
+      "path": "package.json",
+      "sha": "085b30b856331e4b35404f47a8f3a6f2713a2627"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "456dfbcc63fa954c021b86553a282f2062033bcb"
+    },
+    {
+      "path": "setup.py",
+      "sha": "84a05f49093176b2312fcd7bcf0da8471515cdf7"
+    },
+    {
+      "path": "test-infrastructure/README.md",
+      "sha": "ed380349342d00e7b22d7d15c90bdffb6d93101f"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.rst",
+      "blob_sha": "7d32cef02e02ee1243ff73125ff928fc3dfc57f4",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.txt",
+      "blob_sha": "c097cbfd3d1cf3dd441a99738e8b3c7a4338efbd",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "085b30b856331e4b35404f47a8f3a6f2713a2627",
+      "entities_detected": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "456dfbcc63fa954c021b86553a282f2062033bcb",
+      "entities_detected": 0
+    },
+    {
+      "path": "setup.py",
+      "blob_sha": "84a05f49093176b2312fcd7bcf0da8471515cdf7",
+      "entities_detected": 0
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/pyproject.toml",
+      "blob_sha": "00de2c6c5967f7b309def375d1857603f0d41476",
+      "entities_detected": 0
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/setup.py",
+      "blob_sha": "93fe8d6f9bdc760bcfefad071ecc8c4949d8e3c3",
+      "entities_detected": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "98912451c6f2c50599c11d79e05cc3596edb6107",
+      "entities_detected": 0
+    },
+    {
+      "path": "test-infrastructure/README.md",
+      "blob_sha": "ed380349342d00e7b22d7d15c90bdffb6d93101f",
+      "entities_detected": 0
+    },
+    {
+      "path": "contrib/cookiecutter/ckan_extension/{{cookiecutter.project}}/README.md",
+      "blob_sha": "e84f84f4b4de8fafcef2f9bd992fd8cadd1c74cc",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".devcontainer/Dockerfile",
     ".devcontainer/README_codespaces.md",
@@ -31,11 +123,9 @@
     ".github/workflows/test.yml",
     ".github/workflows/towncrier.yml",
     ".readthedocs.yaml",
-    "AGENTS.md",
+    "CHANGELOG.rst",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "LICENSE.txt",
-    "README.rst",
     "SECURITY.md",
     "bin/osx-postgres-mem.sh",
     "bin/postgres_init/1_create_ckan_db.sh",
@@ -105,7 +195,9 @@
     "ckan/lib/files/default/__init__.py",
     "ckan/lib/files/default/fs.py",
     "ckan/lib/files/default/memory.py",
-    "ckan/lib/files/default/null.py"
+    "ckan/lib/files/default/null.py",
+    "ckan/lib/files/file_keeper_ext.py",
+    "ckan/lib/flask_multistatic.py"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "80896b028df207abc2f266fa49cdcf8d555236ccdb984076dfe389b7de6f31c5",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -228,8 +321,11 @@
     "doc": 169,
     "test-infrastructure": 8
   },
-  "unread_source_paths_count": 1152,
+  "unread_source_paths_count": 1780,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 1088,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

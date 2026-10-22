@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/earthtojake/text-to-cad",
-  "description": "Give your agent CAD superpowers.",
+  "description": "Generative CAD application that turns natural-language descriptions or sketches into editable 3D models and CAD workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-17T21:00:20Z",
-    "github_description": "Give your agent CAD superpowers."
+    "github_description": "Give your agent CAD superpowers.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "24573128ceaab564f497d7c12f995c41784c9539",
   "current_commit": "24573128ceaab564f497d7c12f995c41784c9539",
   "inspection_date": "2026-10-20T23:58:24.188303+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:creative-tools",
+    "category:generative-ai",
+    "category:creative-tools"
+  ],
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 13,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.373659+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.392311+00:00",
   "tree_files": 2932,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2820,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2821,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Generative CAD application that turns natural-language descriptions or sketches into editable 3D models and CAD workflows.",
+    "reuse_recommendation": "Use for concept generation; validate dimensions, manufacturability and safety with engineering tools.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository, model and generated design output terms.",
+    "runtime": [
+      "Python/web application",
+      "3D/CAD libraries",
+      "LLM or geometry models"
+    ],
+    "keywords": [
+      "text to CAD",
+      "generative design",
+      "3D modeling",
+      "CAD automation",
+      "AI engineering"
+    ],
+    "risk_notes": [
+      "Generated geometry may be structurally unsafe or dimensionally inaccurate."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Text-to-CAD pipeline",
+        "purpose": "Connects generative models with editable computer-aided designs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:17.564096+00:00",
+    "inspected_commit": "24573128ceaab564f497d7c12f995c41784c9539",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2cd09ec3c928459c1072a001bd3d62cfec25b27c",
+        "value": "https://github.com/jamesrwatsonx-creator/text-to-cad/blob/24573128ceaab564f497d7c12f995c41784c9539/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "prompt-to-CAD generation",
+        "description": "Generates geometric design artifacts from natural language or visual input.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-to-cad-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model editing and export",
+        "description": "Supports reviewing and exporting generated geometry to CAD workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-editing-and-export",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

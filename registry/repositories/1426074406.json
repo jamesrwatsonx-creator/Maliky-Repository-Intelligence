@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/tmoroney/auto-subs",
-  "description": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects.",
+  "description": "Automates subtitle or caption creation and related media processing; confirm supported input formats and transcription pipeline from repository documentation.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-05T20:26:31Z",
-    "github_description": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects."
+    "github_description": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c98f6df804bf49ab8ff14ee8f24ef1413211dec2",
   "current_commit": "c98f6df804bf49ab8ff14ee8f24ef1413211dec2",
   "inspection_date": "2026-10-20T23:59:26.231974+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:automation-scripting",
+    "category:ai-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.109440+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.824112+00:00",
   "tree_files": 599,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 442,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 476,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Automates subtitle or caption creation and related media processing; confirm supported input formats and transcription pipeline from repository documentation.",
+    "reuse_recommendation": "Use as a starting point for caption pipelines; validate accuracy and provide human correction.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Review source license and transcription/model terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "speech/media tools"
+    ],
+    "keywords": [
+      "automatic subtitles",
+      "captions",
+      "speech transcription",
+      "video processing",
+      "media automation"
+    ],
+    "risk_notes": [
+      "Recordings may contain personal or confidential speech; secure inputs and transcripts."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Subtitle automation pipeline",
+        "purpose": "Connects audio processing to subtitle outputs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:19.961234+00:00",
+    "inspected_commit": "c98f6df804bf49ab8ff14ee8f24ef1413211dec2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8121e49d4b12fa4aa920b76fc3e4109b9741e2d8",
+        "value": "https://github.com/jamesrwatsonx-creator/auto-subs/blob/c98f6df804bf49ab8ff14ee8f24ef1413211dec2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "subtitle generation",
+        "description": "Creates caption or subtitle output from supported media inputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:subtitle-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "media workflow automation",
+        "description": "Coordinates transcription and output processing steps.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-workflow-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

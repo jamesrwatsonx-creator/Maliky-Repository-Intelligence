@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/ever-co/ever-gauzy",
-  "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+  "description": "Business management platform for organizations and communities, with CRM, projects, scheduling, finance and workforce workflows.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T11:28:48Z",
-    "github_description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co"
+    "github_description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8ca211637eac9d29d567d16f3e565ce5e7e91fed",
   "current_commit": "8ca211637eac9d29d567d16f3e565ce5e7e91fed",
   "inspection_date": "2026-10-20T23:54:21.487222+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:crm",
+    "category:productivity"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.761744+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.669201+00:00",
   "tree_files": 13964,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 11081,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 12820,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Business management platform for organizations and communities, with CRM, projects, scheduling, finance and workforce workflows.",
+    "reuse_recommendation": "Evaluate modules and data model before adopting; restrict access to financial and employee data.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository license and hosted service terms.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "web application",
+      "database"
+    ],
+    "keywords": [
+      "Ever Gauzy",
+      "business platform",
+      "CRM",
+      "project management",
+      "community operations"
+    ],
+    "risk_notes": [
+      "Broad business systems contain sensitive customer, financial and workforce information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Gauzy business platform",
+        "purpose": "Combines business and community administration capabilities in one suite.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:53.893147+00:00",
+    "inspected_commit": "8ca211637eac9d29d567d16f3e565ce5e7e91fed",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "589f70bd1983172d92cf41dc7b1576737bc5c448",
+        "value": "https://github.com/jamesrwatsonx-creator/ever-gauzy-community-business-platform-/blob/8ca211637eac9d29d567d16f3e565ce5e7e91fed/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "CRM and customer workflows",
+        "description": "Manages contacts, sales relationships and business activity.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crm-and-customer-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "projects and workforce operations",
+        "description": "Coordinates work, teams, time and organizational planning.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:projects-and-workforce-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "finance and scheduling",
+        "description": "Supports billing, calendars and business administration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:finance-and-scheduling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

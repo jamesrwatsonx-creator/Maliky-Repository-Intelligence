@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/appium/appium",
-  "description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol",
+  "description": "Cross-platform automation framework for testing native, hybrid and mobile web applications through WebDriver-compatible interfaces.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-23T09:03:21Z",
-    "github_description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    "github_description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3999208fc0b77db8ff82bb7bd514369c5a48e381",
   "current_commit": "3999208fc0b77db8ff82bb7bd514369c5a48e381",
   "inspection_date": "2026-09-20T05:33:48.790520+00:00",
   "categories": [
-    "category:automation-scripting"
+    "category:developer-tools",
+    "category:automation-scripting",
+    "category:mobile-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:23",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.076905+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.784098+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -275,10 +279,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 952,
-  "files_read": 5,
+  "files_read": 13,
   "entity_count": 1,
-  "unread_source_files": 864,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 892,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -288,5 +292,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.061867+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cross-platform automation framework for testing native, hybrid and mobile web applications through WebDriver-compatible interfaces.",
+    "reuse_recommendation": "Use for repeatable mobile UI tests; pin driver versions and isolate device credentials.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Apache-2.0; platform drivers and device services may have separate terms.",
+    "runtime": [
+      "Node.js server",
+      "WebDriver clients",
+      "Android/iOS tooling"
+    ],
+    "keywords": [
+      "Appium",
+      "mobile test automation",
+      "WebDriver",
+      "iOS testing",
+      "Android testing"
+    ],
+    "risk_notes": [
+      "Automated devices can access user data and perform real actions if not isolated."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Appium server and drivers",
+        "purpose": "Coordinates cross-platform automation commands and device interactions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:45.941236+00:00",
+    "inspected_commit": "3999208fc0b77db8ff82bb7bd514369c5a48e381",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9a947bf15e165df104283f31111000ac9c892619",
+        "value": "https://github.com/jamesrwatsonx-creator/appium/blob/3999208fc0b77db8ff82bb7bd514369c5a48e381/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "mobile UI automation",
+        "description": "Drives app interfaces across supported mobile platforms.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-ui-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "driver and plugin ecosystem",
+        "description": "Extends automation to platform-specific devices and interaction types.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:driver-and-plugin-ecosystem",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "test client integrations",
+        "description": "Connects test suites to Appium server endpoints.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:test-client-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

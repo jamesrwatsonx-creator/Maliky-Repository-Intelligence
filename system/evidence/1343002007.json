@@ -5,6 +5,14 @@
   "tree_files": 4129,
   "tree_entries": [
     {
+      "path": "COPYING",
+      "sha": "4213fd700d4fc951f33d4dd6a082e875ca51b04e"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "e1600b0c03fcac2af12eff408fc5436d8d1b8c30"
+    },
+    {
       "path": "README.md",
       "sha": "3c4a7acae8865322bb4b565f6d0d774aa7022d23"
     },
@@ -13,8 +21,28 @@
       "sha": "76cf2b240f73e61ba82a0aec4f23b9c174319fcf"
     },
     {
+      "path": "studio/backend/core/data_recipe/oxc-validator/package.json",
+      "sha": "2817b6c7c347e6dbb9627a71ee25d6f866554eab"
+    },
+    {
+      "path": "studio/backend/plugins/data-designer-github-repo-seed/pyproject.toml",
+      "sha": "e232adc60cc9e4271ad2e5c58c38b997e525ef4b"
+    },
+    {
+      "path": "studio/backend/plugins/data-designer-unstructured-seed/pyproject.toml",
+      "sha": "c9d988bd9d8c3338880f7701c95552342fa8adec"
+    },
+    {
+      "path": "studio/frontend/package.json",
+      "sha": "095d685b54d20717121c7e0acc0bf9ece3e061a9"
+    },
+    {
       "path": "studio/package.json",
       "sha": "ac4789e87413029c64eedab10bb2016dcab01efc"
+    },
+    {
+      "path": "studio/src-tauri/Cargo.toml",
+      "sha": "23d92c0c06132ab96b2327661deae235508a270d"
     }
   ],
   "files_read": [
@@ -32,6 +60,41 @@
       "path": "README.md",
       "blob_sha": "3c4a7acae8865322bb4b565f6d0d774aa7022d23",
       "entities_detected": 0
+    },
+    {
+      "path": "COPYING",
+      "blob_sha": "4213fd700d4fc951f33d4dd6a082e875ca51b04e",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "e1600b0c03fcac2af12eff408fc5436d8d1b8c30",
+      "entities_detected": 0
+    },
+    {
+      "path": "studio/frontend/package.json",
+      "blob_sha": "095d685b54d20717121c7e0acc0bf9ece3e061a9",
+      "entities_detected": 0
+    },
+    {
+      "path": "studio/src-tauri/Cargo.toml",
+      "blob_sha": "23d92c0c06132ab96b2327661deae235508a270d",
+      "entities_detected": 0
+    },
+    {
+      "path": "studio/backend/core/data_recipe/oxc-validator/package.json",
+      "blob_sha": "2817b6c7c347e6dbb9627a71ee25d6f866554eab",
+      "entities_detected": 0
+    },
+    {
+      "path": "studio/backend/plugins/data-designer-github-repo-seed/pyproject.toml",
+      "blob_sha": "e232adc60cc9e4271ad2e5c58c38b997e525ef4b",
+      "entities_detected": 0
+    },
+    {
+      "path": "studio/backend/plugins/data-designer-unstructured-seed/pyproject.toml",
+      "blob_sha": "c9d988bd9d8c3338880f7701c95552342fa8adec",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -47,13 +110,19 @@
     ".github/dependabot.yml",
     ".github/scripts/agent-guides-drive.sh",
     ".github/scripts/agent-guides-install.sh",
+    ".github/scripts/assert-bundle-signed.ps1",
     ".github/scripts/assert-llama-loads.sh",
+    ".github/scripts/assert-nobuild.ps1",
     ".github/scripts/assert-prompt-cache.sh",
     ".github/scripts/boot-studio-api-only.sh",
+    ".github/scripts/ci-connect-prompt.txt",
+    ".github/scripts/ci-min-system-prompt.txt",
     ".github/scripts/clean-machine-assert.sh",
     ".github/scripts/clean-machine-env.sh",
     ".github/scripts/clean-machine-install-name-tool.sh",
+    ".github/scripts/ensure-docker-daemon.ps1",
     ".github/scripts/hf-download-with-retry.sh",
+    ".github/scripts/interrupt-install.ps1",
     ".github/scripts/interrupt-install.sh",
     ".github/scripts/interrupted_install_probe.py",
     ".github/scripts/kaggle_studio_ci/build_kernel.py",
@@ -75,6 +144,8 @@
     ".github/scripts/run-studio-ui-lane.sh",
     ".github/scripts/serve-unsloth-run.sh",
     ".github/scripts/studio_smoke/multi_turn_chat.py",
+    ".github/scripts/virgin-windows-install.ps1",
+    ".github/scripts/virgin-windows-probe.ps1",
     ".github/scripts/wait-for-health.sh",
     ".github/workflows/cache-janitor.yml",
     ".github/workflows/ci-capacity.yml",
@@ -123,18 +194,10 @@
     "CONTRIBUTING.md",
     "build.sh",
     "cli.py",
+    "install.ps1",
     "install.sh",
     "scripts/build_prequant_checkpoint.py",
-    "scripts/build_te_prequant_checkpoint.py",
-    "scripts/build_whisper_cpp.sh",
-    "scripts/check_frontend_dep_removal.py",
-    "scripts/check_new_install_scripts.py",
-    "scripts/compare_engines.py",
-    "scripts/compile_probe.py",
-    "scripts/data/colab_to_cpu_pin.json",
-    "scripts/diffusion_bench.py",
-    "scripts/diffusion_quality.py",
-    "scripts/enforce_kwargs_spacing.py"
+    "scripts/build_te_prequant_checkpoint.py"
   ],
   "excluded_nontext_paths": [
     ".gitattributes",
@@ -253,8 +316,12 @@
     "unsloth": 101,
     "unsloth_cli": 39
   },
-  "unread_source_paths_count": 3877,
+  "unread_source_paths_count": 3947,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 249,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

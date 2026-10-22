@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/volcengine/OpenViking",
-  "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+  "description": "Open-source context database for AI agents, organizing files, memories and resources in a hierarchical structure for efficient retrieval.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-20T03:32:42Z",
-    "github_description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+    "github_description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "98a0104aaa975f6348256c78c7a2276398d54700",
   "current_commit": "98a0104aaa975f6348256c78c7a2276398d54700",
   "inspection_date": "2026-09-20T05:33:06.350725+00:00",
   "categories": [
-    "category:ai-agents",
     "category:ai-memory",
-    "category:skills"
+    "category:ai-infrastructure",
+    "category:data-engineering"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:04",
   "secondary_operational_categories": [
     "operational:03",
     "operational:04"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 25,
@@ -254,11 +255,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.790633+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.910094+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -279,10 +281,10 @@
     "unverified_source_files": 2
   },
   "tree_files": 3891,
-  "files_read": 9,
+  "files_read": 16,
   "entity_count": 1,
-  "unread_source_files": 3577,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3686,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -292,5 +294,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.249659+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source context database for AI agents, organizing files, memories and resources in a hierarchical structure for efficient retrieval.",
+    "reuse_recommendation": "Use for persistent agent context after evaluating retrieval quality, tenancy, retention and deletion behavior.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository and model/provider terms.",
+    "runtime": [
+      "Python/Rust components",
+      "database and embeddings",
+      "agent APIs"
+    ],
+    "keywords": [
+      "OpenViking",
+      "agent context database",
+      "memory retrieval",
+      "hierarchical context",
+      "AI infrastructure"
+    ],
+    "risk_notes": [
+      "Stored memories may include confidential user data and stale inferences."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenViking context database",
+        "purpose": "Provides a persistent context layer for agent systems.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:51.363162+00:00",
+    "inspected_commit": "98a0104aaa975f6348256c78c7a2276398d54700",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "405ee268d942980f61df0c6fcca7e98f394de5ea",
+        "value": "https://github.com/jamesrwatsonx-creator/OpenViking/blob/98a0104aaa975f6348256c78c7a2276398d54700/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "context and memory storage",
+        "description": "Stores agent knowledge and user/project context in a structured system.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:context-and-memory-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "hierarchical retrieval",
+        "description": "Organizes content to retrieve relevant context efficiently.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:hierarchical-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent integration APIs",
+        "description": "Connects context operations to agent applications and workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-integration-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

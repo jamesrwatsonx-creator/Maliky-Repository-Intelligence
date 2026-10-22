@@ -3,8 +3,100 @@
   "inspected_commit": "8465c6fec6f9edc481612737e7b2f592c487bd93",
   "tree_complete": true,
   "tree_files": 753,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "dba13ed2ddf783ee8118c6a581dbf75305f816a3"
+    },
+    {
+      "path": "README.md",
+      "sha": "a61bd7892ffdb24cf774f07cb5d408475592d2de"
+    },
+    {
+      "path": "go.mod",
+      "sha": "6e4214c3e12418d7ce0045089892f8040c0db1dc"
+    },
+    {
+      "path": "package.json",
+      "sha": "9a81bf2733cc03c1c57f1d3c1b6376629caa397b"
+    },
+    {
+      "path": "webui/README.md",
+      "sha": "a0445c5917581d272e25419aa974b444530eb2b2"
+    },
+    {
+      "path": "webui/app/package.json",
+      "sha": "72aa99950403412f27f9e88cd1e5ec0ce1ac6205"
+    },
+    {
+      "path": "webui/components/package.json",
+      "sha": "468e50306a420b8e143a391c3845219db60fccb9"
+    },
+    {
+      "path": "webui/ext/package.json",
+      "sha": "1ede780a2a665653974094cb475c5b52f382cc37"
+    },
+    {
+      "path": "webui/package.json",
+      "sha": "43a9b2b6edc615cacf2395caac087af62e378c6e"
+    },
+    {
+      "path": "webui/website/package.json",
+      "sha": "a6ba31030b69ac753626f5d6929cf0c1eab87408"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "a61bd7892ffdb24cf774f07cb5d408475592d2de",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "dba13ed2ddf783ee8118c6a581dbf75305f816a3",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "6e4214c3e12418d7ce0045089892f8040c0db1dc",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "9a81bf2733cc03c1c57f1d3c1b6376629caa397b",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/package.json",
+      "blob_sha": "43a9b2b6edc615cacf2395caac087af62e378c6e",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/app/package.json",
+      "blob_sha": "72aa99950403412f27f9e88cd1e5ec0ce1ac6205",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/components/package.json",
+      "blob_sha": "468e50306a420b8e143a391c3845219db60fccb9",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/ext/package.json",
+      "blob_sha": "1ede780a2a665653974094cb475c5b52f382cc37",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/website/package.json",
+      "blob_sha": "a6ba31030b69ac753626f5d6929cf0c1eab87408",
+      "entities_detected": 0
+    },
+    {
+      "path": "webui/README.md",
+      "blob_sha": "a0445c5917581d272e25419aa974b444530eb2b2",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".fallowrc.json",
     ".forgejo/workflows/build.yml",
@@ -32,8 +124,6 @@
     "CHANGELOG.md",
     "CONTRIBUTING.md",
     "Dockerfile",
-    "LICENSE",
-    "README.md",
     "SECURITY.md",
     "client/client.go",
     "client/dependencies_test.go",
@@ -105,7 +195,9 @@
     "cmd/raindrop.go",
     "cmd/raindrop_api.go",
     "cmd/raindrop_api_test.go",
-    "cmd/raindrop_csv.go"
+    "cmd/raindrop_csv.go",
+    "cmd/raindrop_http.go",
+    "cmd/raindrop_test.go"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -155,6 +247,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "763c315e07fd2a4ef4974869c19adaec3d7f5b0195eb5cf3fc9b9751aa911f69",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -172,8 +265,11 @@
     "server": 224,
     "webui": 310
   },
-  "unread_source_paths_count": 710,
+  "unread_source_paths_count": 711,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 43,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

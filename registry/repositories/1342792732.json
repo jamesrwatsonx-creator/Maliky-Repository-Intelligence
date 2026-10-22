@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/semantica-agi/semantica",
-  "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+  "description": "Python toolkit for building semantic AI applications and knowledge graphs from documents, including extraction, embeddings and retrieval workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T09:42:52Z",
-    "github_description": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+    "github_description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "483f53aaa6368783ca4d1dd95a02544027a2cf08",
   "current_commit": "483f53aaa6368783ca4d1dd95a02544027a2cf08",
   "inspection_date": "2026-09-20T05:33:21.962629+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:devops"
+    "category:ai-applications",
+    "category:knowledge-graphs",
+    "category:data-engineering"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:14"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 18,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.135956+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.193163+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1075,
-  "files_read": 7,
+  "files_read": 14,
   "entity_count": 7,
-  "unread_source_files": 992,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1030,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.282104+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python toolkit for building semantic AI applications and knowledge graphs from documents, including extraction, embeddings and retrieval workflows.",
+    "reuse_recommendation": "Use for knowledge extraction prototypes and validate entity links and provenance before relying on results.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Check repository license and model/provider terms.",
+    "runtime": [
+      "Python",
+      "LLM/embedding providers",
+      "graph or vector storage"
+    ],
+    "keywords": [
+      "Semantica",
+      "semantic AI",
+      "knowledge graph",
+      "document processing",
+      "RAG"
+    ],
+    "risk_notes": [
+      "Source documents can contain sensitive data and model outputs may be incorrect."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Semantica framework",
+        "purpose": "Connects document processing, graph construction and semantic retrieval.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:14.901715+00:00",
+    "inspected_commit": "483f53aaa6368783ca4d1dd95a02544027a2cf08",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a2646bde5226539eb4d9bfe94f977cff81354489",
+        "value": "https://github.com/jamesrwatsonx-creator/semantica/blob/483f53aaa6368783ca4d1dd95a02544027a2cf08/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "document understanding pipeline",
+        "description": "Processes text into entities, relationships and semantic representations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-understanding-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "knowledge graph construction",
+        "description": "Builds graph structures for exploration and reasoning.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:knowledge-graph-construction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "embedding and retrieval",
+        "description": "Supports semantic search and retrieval-augmented workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:embedding-and-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

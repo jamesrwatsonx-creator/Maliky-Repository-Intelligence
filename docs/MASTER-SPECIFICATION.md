@@ -1,5 +1,10 @@
 # MALIKY REPOSITORY INTELLIGENCE
 
+> Current owner override (2026-10-21): practical V1 is repository-level intelligence
+> with bounded pinned-source evidence and capability clusters, not exhaustive
+> internal-asset decomposition. Follow docs/V1-CATALOG-SCOPE.md for completion and
+> on-demand inspection. Preserve historical detailed work and its verification states.
+
 ## RECOVERY, CHECKPOINT, RESUME, AND COMPLETION MASTER PROMPT
 
 You are operating inside the existing canonical repository:

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/android/platform-samples",
-  "description": "A collection of samples of different Android OS platform APIs.",
+  "description": "Official Android platform sample collection demonstrating APIs and implementation patterns across device form factors and platform capabilities.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-20T20:05:46Z",
-    "github_description": "A collection of samples of different Android OS platform APIs."
+    "github_description": "A collection of samples of different Android OS platform APIs.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "8590e4a7abfd684012cbd2b7d4540b7bc7b72ef7",
   "current_commit": "8590e4a7abfd684012cbd2b7d4540b7bc7b72ef7",
   "inspection_date": "2026-09-20T05:33:10.047170+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:reference-implementations",
+    "category:mobile-applications",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.032732+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.740976+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -278,10 +282,10 @@
     "unverified_source_files": 2
   },
   "tree_files": 936,
-  "files_read": 13,
+  "files_read": 20,
   "entity_count": 1,
-  "unread_source_files": 401,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 783,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -291,5 +295,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.055447+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Official Android platform sample collection demonstrating APIs and implementation patterns across device form factors and platform capabilities.",
+    "reuse_recommendation": "Use as current platform examples and verify behavior against the Android API level being targeted.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Apache-2.0 unless individual samples specify otherwise.",
+    "runtime": [
+      "Kotlin/Java",
+      "Android SDK",
+      "Jetpack libraries"
+    ],
+    "keywords": [
+      "Android platform samples",
+      "Kotlin",
+      "Android APIs",
+      "device form factors",
+      "mobile reference"
+    ],
+    "risk_notes": [
+      "Sample apps are illustrative and may not include production hardening."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android sample catalog",
+        "purpose": "Provides source examples for implementing Android platform features.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:45.383938+00:00",
+    "inspected_commit": "8590e4a7abfd684012cbd2b7d4540b7bc7b72ef7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "59a9ea4ac833326265ab6d611f0275d236c55186",
+        "value": "https://github.com/jamesrwatsonx-creator/Android-platform-samples/blob/8590e4a7abfd684012cbd2b7d4540b7bc7b72ef7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "platform API examples",
+        "description": "Demonstrates Android framework and platform service usage.",
+        "scope": "REFERENCE",
+        "id": "cluster:platform-api-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "device and form-factor patterns",
+        "description": "Shows adaptation to phones, tablets and other supported devices.",
+        "scope": "REFERENCE",
+        "id": "cluster:device-and-form-factor-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

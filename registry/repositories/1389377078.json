@@ -10,28 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+  "upstream_url": "https://github.com/mobile-next/mobile-mcp",
+  "description": "MCP server exposing mobile device or emulator interaction capabilities to compatible AI agents.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-23T15:38:57Z",
-    "github_description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)"
+    "github_description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "18d0e8c44ef4dbc4113d57ee917c51f2da5678d4",
+  "current_commit": "18d0e8c44ef4dbc4113d57ee917c51f2da5678d4",
+  "inspection_date": "2026-10-22T02:25:41.130530+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:automation-scripting",
-    "category:developer-tools",
-    "category:llm-projects",
     "category:mcp-servers",
-    "category:mobile-applications"
+    "category:mobile-applications",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:02",
+  "operational_category": "operational:06",
   "secondary_operational_categories": [
     "operational:04",
     "operational:05",
@@ -45,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -53,13 +51,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.525827+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.670359+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -69,5 +68,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.219569+00:00",
     "purpose_established": true
+  },
+  "tree_files": 67,
+  "files_read": 10,
+  "unread_source_files": 48,
+  "repository_intelligence": {
+    "purpose": "MCP server exposing mobile device or emulator interaction capabilities to compatible AI agents.",
+    "reuse_recommendation": "Use only with test devices and confirmation before account, purchase or data-changing actions.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and device platform requirements.",
+    "runtime": [
+      "MCP server",
+      "Android/iOS tools",
+      "device/emulator APIs"
+    ],
+    "keywords": [
+      "mobile MCP",
+      "Android automation",
+      "device agent",
+      "MCP tools",
+      "mobile testing"
+    ],
+    "risk_notes": [
+      "Device access may expose private data and perform consequential actions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Mobile device MCP server",
+        "purpose": "Bridges agent tools to mobile devices or emulators.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:26.203992+00:00",
+    "inspected_commit": "18d0e8c44ef4dbc4113d57ee917c51f2da5678d4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7e92d5ac941424dfa1dd08bb3a669f78c7564097",
+        "value": "https://github.com/jamesrwatsonx-creator/mobile-mcp/blob/18d0e8c44ef4dbc4113d57ee917c51f2da5678d4/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "mobile device inspection and control",
+        "description": "Exposes device state and interaction commands to agent clients.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-device-inspection-and-control",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "MCP integration",
+        "description": "Provides a protocol interface for compatible AI hosts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+  "upstream_url": "https://github.com/smicallef/spiderfoot",
+  "description": "Automated OSINT platform that orchestrates modules to collect and correlate publicly available information about targets.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-13T19:43:06Z",
-    "github_description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface."
+    "github_description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+  "current_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+  "inspection_date": "2026-10-22T02:32:08.420372+00:00",
   "categories": [
-    "category:research-projects"
+    "category:research-projects",
+    "category:cybersecurity"
   ],
   "operational_category": "operational:10",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.262424+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.311252+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.293710+00:00",
     "purpose_established": true
+  },
+  "tree_files": 817,
+  "files_read": 10,
+  "unread_source_files": 777,
+  "repository_intelligence": {
+    "purpose": "Automated OSINT platform that orchestrates modules to collect and correlate publicly available information about targets.",
+    "reuse_recommendation": "Use only for authorized investigations with strict scope, privacy and source-policy controls.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review license and applicable laws before deployment.",
+    "runtime": [
+      "Python",
+      "JavaScript assets"
+    ],
+    "keywords": [
+      "OSINT",
+      "reconnaissance",
+      "data collection",
+      "correlation",
+      "security research"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SpiderFoot platform",
+        "purpose": "Coordinates scans, source modules and results for OSINT investigations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:29.801586+00:00",
+    "inspected_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1f140137f77ce9efce1c910b05ab374115e4d63f",
+        "value": "https://github.com/jamesrwatsonx-creator/spiderfoot/blob/0f815a203afebf05c98b605dba5cf0475a0ee5fd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "OSINT collection and correlation",
+        "description": "Runs modular collection workflows and correlates discovered public information.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:osint-collection-and-correlation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Extensible intelligence modules",
+        "description": "Adds source-specific collection and analysis through a plugin-like module system.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:extensible-intelligence-modules",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

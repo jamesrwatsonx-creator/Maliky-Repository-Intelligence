@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "dev",
   "upstream_url": "https://github.com/different-ai/openwork",
-  "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+  "description": "Open-source AI agent workspace for delegating tasks to coding agents and coordinating work through an application interface.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-21T23:39:26Z",
-    "github_description": "The open-source alternative to Claude Cowork (powered by opencode)"
+    "github_description": "The open-source alternative to Claude Cowork (powered by opencode)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "1d61672a09402d4d80d09a9a4cd3282a6b2f04fd",
   "current_commit": "1d61672a09402d4d80d09a9a4cd3282a6b2f04fd",
   "inspection_date": "2026-09-20T05:33:15.852980+00:00",
   "categories": [
-    "category:general-other"
+    "category:ai-agents",
+    "category:developer-tools",
+    "category:productivity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 29,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.798266+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.918095+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 4141,
-  "files_read": 9,
+  "files_read": 16,
   "entity_count": 2,
-  "unread_source_files": 3547,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3723,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.250832+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source AI agent workspace for delegating tasks to coding agents and coordinating work through an application interface.",
+    "reuse_recommendation": "Use with scoped filesystem and shell permissions and review all agent outputs.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository license and supported agent/provider terms.",
+    "runtime": [
+      "Desktop/web app",
+      "coding agent CLIs",
+      "LLM providers"
+    ],
+    "keywords": [
+      "OpenWork",
+      "AI agent workspace",
+      "coding delegation",
+      "agent orchestration",
+      "developer productivity"
+    ],
+    "risk_notes": [
+      "Connected agents may modify files, execute commands and expose source context."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenWork agent workspace",
+        "purpose": "Provides a user-facing control plane for agent-assisted tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:52.756480+00:00",
+    "inspected_commit": "1d61672a09402d4d80d09a9a4cd3282a6b2f04fd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "aeee4efe71986fe369e01e6a8d28308ba5546e89",
+        "value": "https://github.com/jamesrwatsonx-creator/openwork/blob/1d61672a09402d4d80d09a9a4cd3282a6b2f04fd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "task delegation and tracking",
+        "description": "Creates and manages work for connected AI agents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:task-delegation-and-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent runtime integrations",
+        "description": "Connects the workspace to coding agents and model providers.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-runtime-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "workspace UI and collaboration",
+        "description": "Presents agent status, results and task context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:workspace-ui-and-collaboration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

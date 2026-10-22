@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "An Android library that help you to build app with swipe back gesture.",
+  "upstream_url": "https://github.com/ikew0ng/SwipeBackLayout",
+  "description": "Android UI library that adds swipe-to-dismiss or swipe-back gesture behavior to layouts and screens.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2019-09-18T06:44:18Z",
-    "github_description": "An Android library that help you to build app with swipe back gesture."
+    "github_description": "An Android library that help you to build app with swipe back gesture.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "7c6b0ac424813266cec57db86d65a7c9d9ff5fa6",
+  "current_commit": "7c6b0ac424813266cec57db86d65a7c9d9ff5fa6",
+  "inspection_date": "2026-10-22T02:35:14.974418+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:mobile-applications",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:19",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.339389+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.363790+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.298760+00:00",
     "purpose_established": true
+  },
+  "tree_files": 47,
+  "files_read": 10,
+  "unread_source_files": 15,
+  "repository_intelligence": {
+    "purpose": "Android UI library that adds swipe-to-dismiss or swipe-back gesture behavior to layouts and screens.",
+    "reuse_recommendation": "Consider for legacy projects; validate gesture conflicts and platform behavior.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review license and compatibility with the target Android UI stack.",
+    "runtime": [
+      "Java",
+      "Android"
+    ],
+    "keywords": [
+      "Android",
+      "swipe back",
+      "gesture navigation",
+      "UI library"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SwipeBackLayout",
+        "purpose": "Adds swipe navigation interactions to Android screen layouts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:50.172221+00:00",
+    "inspected_commit": "7c6b0ac424813266cec57db86d65a7c9d9ff5fa6",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "66a6db95a24bb6ab0aa07854c25374ab11331788",
+        "value": "https://github.com/jamesrwatsonx-creator/SwipeBackLayout/blob/7c6b0ac424813266cec57db86d65a7c9d9ff5fa6/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Swipe-back interaction",
+        "description": "Implements reusable gesture-driven navigation or dismissal behavior for Android views.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:swipe-back-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

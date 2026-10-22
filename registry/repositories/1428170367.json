@@ -11,22 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/worldcoin/open-iris",
-  "description": "Open Iris Recognition Inference System (IRIS)",
+  "description": "Iris recognition inference system providing model pipelines, validators, adapters and tooling for biometric iris processing.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T13:52:36Z",
     "live_metadata": "FRESH",
-    "github_description": "Open Iris Recognition Inference System (IRIS)"
+    "github_description": "Open Iris Recognition Inference System (IRIS)",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
   "current_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
   "inspection_date": "2026-10-21T23:17:22.795094+00:00",
   "categories": [
-    "category:libraries-packages",
     "category:machine-learning-models",
+    "category:cybersecurity",
     "category:privacy"
   ],
   "operational_category": "operational:08",
@@ -91,7 +92,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE AS LIBRARY",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -413,9 +414,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.750415+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.766190+00:00",
   "tree_files": 320,
   "files_read": 240,
   "entity_count": 53,
@@ -730,5 +732,98 @@
         "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
       }
     ]
+  },
+  "repository_intelligence": {
+    "purpose": "Iris recognition inference system providing model pipelines, validators, adapters and tooling for biometric iris processing.",
+    "reuse_recommendation": "Use only with explicit lawful purpose, consent and biometric governance; assess false matches, model provenance and deployment security.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level intelligence; not exhaustive source decomposition.",
+    "license_notes": "Review code, model-card and model-weight terms separately.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "computer vision models"
+    ],
+    "keywords": [
+      "World Open Iris",
+      "iris recognition",
+      "biometric inference",
+      "image validation",
+      "model adapters"
+    ],
+    "risk_notes": [
+      "Biometric identity processing is sensitive; privacy, consent, error impacts and model terms require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "IRIS inference toolkit",
+        "purpose": "Combines iris models, image processing and adapters for recognition tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:17.341261+00:00",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fa331ec570b851da7fecef4a9d6b473992ca9188",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "iris recognition pipeline",
+        "description": "Processes iris imagery through recognition inference components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:iris-recognition-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "image and model validation",
+        "description": "Provides validators and adapters for biometric processing workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:image-and-model-validation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model deployment tooling",
+        "description": "Supports model packaging and inference setup.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:model-deployment-tooling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

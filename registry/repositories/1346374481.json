@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/crewAIInc/crewAI",
-  "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "description": "Framework for orchestrating role-based AI agent teams and task workflows with tools, processes and memory.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T15:40:45Z",
-    "github_description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    "github_description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3df34d91690c3ad0a88efc6a56e301ea599e1326",
   "current_commit": "3df34d91690c3ad0a88efc6a56e301ea599e1326",
   "inspection_date": "2026-09-20T05:33:57.312762+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:research-projects"
+    "category:agent-frameworks",
+    "category:ai-orchestration",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 3,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.556732+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.380043+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 27142,
-  "files_read": 3,
+  "files_read": 11,
   "entity_count": 0,
-  "unread_source_files": 2207,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 27007,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.114628+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Framework for orchestrating role-based AI agent teams and task workflows with tools, processes and memory.",
+    "reuse_recommendation": "Use with bounded tools, clear task ownership and human approval for consequential steps.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository license and model/tool provider terms.",
+    "runtime": [
+      "Python",
+      "LLM APIs",
+      "tool integrations"
+    ],
+    "keywords": [
+      "CrewAI",
+      "multi-agent framework",
+      "role-based agents",
+      "task orchestration",
+      "AI workflows"
+    ],
+    "risk_notes": [
+      "Agent collaboration can compound incorrect assumptions and external tool side effects."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CrewAI runtime",
+        "purpose": "Provides a framework for orchestrating collaborative agent workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:58.003444+00:00",
+    "inspected_commit": "3df34d91690c3ad0a88efc6a56e301ea599e1326",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4a5360ad587a35625684747157881558c6acae1d",
+        "value": "https://github.com/jamesrwatsonx-creator/crewAI/blob/3df34d91690c3ad0a88efc6a56e301ea599e1326/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent roles and crews",
+        "description": "Defines specialized agents that collaborate on assigned tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-roles-and-crews",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "task processes and delegation",
+        "description": "Coordinates sequential or hierarchical work across agents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:task-processes-and-delegation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tools, memory and integrations",
+        "description": "Connects agent teams to external functions and persistence.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tools-memory-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

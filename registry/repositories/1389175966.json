@@ -10,21 +10,24 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+  "upstream_url": "https://github.com/vllm-project/semantic-router",
+  "description": "Semantic routing layer for directing LLM requests to models or workflows based on intent, policy and request characteristics.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-26T12:07:27Z",
-    "github_description": "A programmable Mixture-of-Models router for heterogeneous LLM inference"
+    "github_description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "5aa0145eb16ddf7edcc40a87793f61260e8c5084",
+  "current_commit": "5aa0145eb16ddf7edcc40a87793f61260e8c5084",
+  "inspection_date": "2026-10-22T02:25:26.766630+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:ai-infrastructure",
+    "category:generative-ai",
+    "category:apis"
   ],
   "operational_category": "operational:15",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.133447+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.189160+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.281756+00:00",
     "purpose_established": true
+  },
+  "tree_files": 10276,
+  "files_read": 10,
+  "unread_source_files": 9706,
+  "repository_intelligence": {
+    "purpose": "Semantic routing layer for directing LLM requests to models or workflows based on intent, policy and request characteristics.",
+    "reuse_recommendation": "Use with explicit fallbacks and evaluation to avoid unsafe or inconsistent model selection.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and supported model/provider terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "embedding/classifier models",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "semantic router",
+      "LLM routing",
+      "intent classification",
+      "model selection",
+      "AI gateway"
+    ],
+    "risk_notes": [
+      "Routing errors can bypass policies or send sensitive inputs to unintended providers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Semantic Router",
+        "purpose": "Adds intent-aware routing between applications and model backends.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:25.762537+00:00",
+    "inspected_commit": "5aa0145eb16ddf7edcc40a87793f61260e8c5084",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c049d60f5aa5dc0e14faac00d0a4cd63578d2aac",
+        "value": "https://github.com/jamesrwatsonx-creator/semantic-router/blob/5aa0145eb16ddf7edcc40a87793f61260e8c5084/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "request intent and semantic classification",
+        "description": "Classifies inputs to inform routing decisions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:request-intent-and-semantic-classification",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model and policy routing",
+        "description": "Directs requests to configured models or specialized workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-and-policy-routing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "gateway and observability integration",
+        "description": "Connects routing decisions to application APIs and monitoring.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:gateway-and-observability-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

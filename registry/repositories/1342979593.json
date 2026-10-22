@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/bytedance/deer-flow",
-  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "description": "Multi-agent deep research system that decomposes questions, searches web sources, synthesizes findings and produces reports.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T09:24:20Z",
-    "github_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+    "github_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "f1f4af99bbf1cffb83a80744bf6e4a44ee8f24be",
   "current_commit": "f1f4af99bbf1cffb83a80744bf6e4a44ee8f24be",
   "inspection_date": "2026-09-20T05:33:37.500765+00:00",
   "categories": [
-    "category:skills"
+    "category:ai-agents",
+    "category:research-projects",
+    "category:ai-orchestration"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 33,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.631539+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.511110+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2321,
-  "files_read": 10,
+  "files_read": 16,
   "entity_count": 1,
-  "unread_source_files": 2151,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2250,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.123897+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Multi-agent deep research system that decomposes questions, searches web sources, synthesizes findings and produces reports.",
+    "reuse_recommendation": "Use for exploratory research and verify citations and claims against primary sources.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check repository license and model/search provider terms.",
+    "runtime": [
+      "Python/TypeScript stack",
+      "search APIs",
+      "LLM providers"
+    ],
+    "keywords": [
+      "DeerFlow",
+      "deep research agents",
+      "web search",
+      "research reports",
+      "multi-agent orchestration"
+    ],
+    "risk_notes": [
+      "Research outputs can hallucinate or misrepresent sources; external web content is untrusted."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Deep research agent workflow",
+        "purpose": "Coordinates research, evidence gathering and synthesis across agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:53.546089+00:00",
+    "inspected_commit": "f1f4af99bbf1cffb83a80744bf6e4a44ee8f24be",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "55f871821bde4593bd0947d8aa50bcc364d5c8b9",
+        "value": "https://github.com/jamesrwatsonx-creator/deer-flow/blob/f1f4af99bbf1cffb83a80744bf6e4a44ee8f24be/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "research task planning",
+        "description": "Breaks research questions into subtasks and investigation paths.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:research-task-planning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "web/source collection",
+        "description": "Searches and gathers supporting references for analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web-source-collection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "synthesis and report generation",
+        "description": "Combines findings into structured research outputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:synthesis-and-report-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

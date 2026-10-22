@@ -11,19 +11,24 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/MGeurts/genealogy",
-  "description": "Genealogy is a free and open-source family tree PHP application to record family members and their relationships, build with LARAVEL 13.",
+  "description": "Genealogy research application or data model for organizing family trees, people, relationships and historical records.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-10T16:03:59Z",
-    "github_description": "Genealogy is a free and open-source family tree PHP application to record family members and their relationships, build with LARAVEL 13."
+    "github_description": "Genealogy is a free and open-source family tree PHP application to record family members and their relationships, build with LARAVEL 13.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ba35113b3116c51ff129b0ed42f8de769e145a5b",
   "current_commit": "ba35113b3116c51ff129b0ed42f8de769e145a5b",
   "inspection_date": "2026-10-20T23:57:27.143513+00:00",
-  "categories": [],
+  "categories": [
+    "category:productivity",
+    "category:real-estate-geospatial",
+    "category:general-other"
+  ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,98 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.962331+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.038077+00:00",
   "tree_files": 1413,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 762,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 759,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Genealogy research application or data model for organizing family trees, people, relationships and historical records.",
+    "reuse_recommendation": "Use with source citations and privacy boundaries, particularly for living individuals.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and source record permissions.",
+    "runtime": [
+      "Repository-declared application runtime",
+      "structured data store"
+    ],
+    "keywords": [
+      "genealogy",
+      "family tree",
+      "historical records",
+      "relationships",
+      "ancestry research"
+    ],
+    "risk_notes": [
+      "Family history includes sensitive information about living people and minors."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Genealogy workspace",
+        "purpose": "Connects family relationships with supporting research records.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:14.914811+00:00",
+    "inspected_commit": "ba35113b3116c51ff129b0ed42f8de769e145a5b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "35272772f767a4455a316bd301783ad43556e73a",
+        "value": "https://github.com/jamesrwatsonx-creator/genealogy/blob/ba35113b3116c51ff129b0ed42f8de769e145a5b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "family relationship modeling",
+        "description": "Represents people and lineage connections in a navigable structure.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:family-relationship-modeling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "historical record management",
+        "description": "Organizes evidence and records associated with family research.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:historical-record-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

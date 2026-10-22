@@ -3,8 +3,100 @@
   "inspected_commit": "200695dde45e1109d0437f9bac777d0bfc32c40e",
   "tree_complete": true,
   "tree_files": 2548,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE.txt",
+      "sha": "244380c242e0f0f3545082a425eb43990addbd5f"
+    },
+    {
+      "path": "README.md",
+      "sha": "ce2d34e9e5bd3040b64e6e3000cbad911688d850"
+    },
+    {
+      "path": "ci/templates/maven-test-project/pom.xml",
+      "sha": "f4c0056ea94c1cba5903b0cace178b9d8e836ae4"
+    },
+    {
+      "path": "components/README.md",
+      "sha": "7ec4fc353caf3ec49ed3c9c5895e84db88e818fe"
+    },
+    {
+      "path": "compose/README.md",
+      "sha": "b2b2d6c69a566ee9712e00cb254626338caf572d"
+    },
+    {
+      "path": "examples/README.md",
+      "sha": "55f75e587dceda4bec5267326e0f7260efe77731"
+    },
+    {
+      "path": "gradle-plugins/README.md",
+      "sha": "d47d92c4e043f370e6923b48cbc38b96a0ddf980"
+    },
+    {
+      "path": "html/README.md",
+      "sha": "137288cd57b5fa5a79fcc59bebfd6f9bd20ae9b5"
+    },
+    {
+      "path": "license/README.md",
+      "sha": "5845217d544226578af2874ee6a631e1a55abd78"
+    },
+    {
+      "path": "tutorials/README.md",
+      "sha": "2e44170e6345acd903f871dd32d2625abef0ca4e"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "ce2d34e9e5bd3040b64e6e3000cbad911688d850",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.txt",
+      "blob_sha": "244380c242e0f0f3545082a425eb43990addbd5f",
+      "entities_detected": 0
+    },
+    {
+      "path": "ci/templates/maven-test-project/pom.xml",
+      "blob_sha": "f4c0056ea94c1cba5903b0cace178b9d8e836ae4",
+      "entities_detected": 0
+    },
+    {
+      "path": "components/README.md",
+      "blob_sha": "7ec4fc353caf3ec49ed3c9c5895e84db88e818fe",
+      "entities_detected": 0
+    },
+    {
+      "path": "compose/README.md",
+      "blob_sha": "b2b2d6c69a566ee9712e00cb254626338caf572d",
+      "entities_detected": 0
+    },
+    {
+      "path": "examples/README.md",
+      "blob_sha": "55f75e587dceda4bec5267326e0f7260efe77731",
+      "entities_detected": 0
+    },
+    {
+      "path": "gradle-plugins/README.md",
+      "blob_sha": "d47d92c4e043f370e6923b48cbc38b96a0ddf980",
+      "entities_detected": 0
+    },
+    {
+      "path": "html/README.md",
+      "blob_sha": "137288cd57b5fa5a79fcc59bebfd6f9bd20ae9b5",
+      "entities_detected": 0
+    },
+    {
+      "path": "license/README.md",
+      "blob_sha": "5845217d544226578af2874ee6a631e1a55abd78",
+      "entities_detected": 0
+    },
+    {
+      "path": "tutorials/README.md",
+      "blob_sha": "2e44170e6345acd903f871dd32d2625abef0ca4e",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/ISSUE_TEMPLATE/youtrack-redirect.yml",
@@ -18,12 +110,15 @@
     ".github/workflows/examples.yml",
     ".github/workflows/gradle-plugin.yml",
     ".github/workflows/kotlinx-browser-common-subset.yml",
+    ".idea/copyright/compose_desktop.xml",
+    ".idea/copyright/profiles_settings.xml",
+    ".idea/scopes/Apply_copyright.xml",
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
-    "README.md",
     "SECURITY.md",
     "VERSIONING.md",
+    "artwork/compose-logo.xml",
     "artwork/imageviewerrepo/pictures.json",
     "benchmarks/desktop/README.md",
     "benchmarks/desktop/build.gradle.kts",
@@ -34,6 +129,7 @@
     "benchmarks/kn-performance/README.md",
     "benchmarks/multiplatform/README.md",
     "benchmarks/multiplatform/benchmarks/build.gradle.kts",
+    "benchmarks/multiplatform/benchmarks/src/androidMain/AndroidManifest.xml",
     "benchmarks/multiplatform/benchmarks/src/androidMain/kotlin/BenchmarksSave.android.kt",
     "benchmarks/multiplatform/benchmarks/src/androidMain/kotlin/MeasureComposable.android.kt",
     "benchmarks/multiplatform/benchmarks/src/androidMain/kotlin/main.android.kt",
@@ -42,6 +138,7 @@
     "benchmarks/multiplatform/benchmarks/src/appleMain/kotlin/GraphicsContext.apple.kt",
     "benchmarks/multiplatform/benchmarks/src/appleMain/kotlin/getProcessStartTime.apple.kt",
     "benchmarks/multiplatform/benchmarks/src/appleMain/kotlin/runGC.native.kt",
+    "benchmarks/multiplatform/benchmarks/src/commonMain/composeResources/drawable/example1_ic_call_answer.xml",
     "benchmarks/multiplatform/benchmarks/src/commonMain/kotlin/Benchmarks.kt",
     "benchmarks/multiplatform/benchmarks/src/commonMain/kotlin/BenchmarksSave.kt",
     "benchmarks/multiplatform/benchmarks/src/commonMain/kotlin/Config.kt",
@@ -79,9 +176,11 @@
     "benchmarks/multiplatform/benchmarks/src/webMain/kotlin/BenchmarksSave.web.kt",
     "benchmarks/multiplatform/benchmarks/src/webMain/kotlin/Main.web.kt",
     "benchmarks/multiplatform/benchmarks/src/webMain/kotlin/runGC.web.kt",
+    "benchmarks/multiplatform/benchmarks/src/webMain/resources/index.html",
     "benchmarks/multiplatform/benchmarks/src/webMain/resources/launcher.mjs",
     "benchmarks/multiplatform/benchmarks/src/webMain/resources/launcher_jetstream3.mjs",
     "benchmarks/multiplatform/benchmarks/src/webMain/resources/polyfills.mjs",
+    "benchmarks/multiplatform/benchmarks/src/webMain/resources/styles.css",
     "benchmarks/multiplatform/build.gradle.kts",
     "benchmarks/multiplatform/compare_benchmarks.main.kts",
     "benchmarks/multiplatform/compose-scene-api/build.gradle.kts",
@@ -98,14 +197,7 @@
     "benchmarks/multiplatform/find_degradation.main.kts",
     "benchmarks/multiplatform/gradle/libs.versions.toml",
     "benchmarks/multiplatform/iosApp/iosApp/Assets.xcassets/AccentColor.colorset/Contents.json",
-    "benchmarks/multiplatform/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
-    "benchmarks/multiplatform/iosApp/iosApp/Assets.xcassets/Contents.json",
-    "benchmarks/multiplatform/iosApp/iosApp/ContentView.swift",
-    "benchmarks/multiplatform/iosApp/iosApp/Preview Content/Preview Assets.xcassets/Contents.json",
-    "benchmarks/multiplatform/iosApp/iosApp/iOSApp.swift",
-    "benchmarks/multiplatform/iosApp/run_ios_benchmarks.sh",
-    "benchmarks/multiplatform/run_android_benchmarks.main.kts",
-    "benchmarks/multiplatform/run_benchmarks.main.kts"
+    "benchmarks/multiplatform/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -231,8 +323,12 @@
     "tools": 7,
     "tutorials": 23
   },
-  "unread_source_paths_count": 1748,
+  "unread_source_paths_count": 1944,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 800,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

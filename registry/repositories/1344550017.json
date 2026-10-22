@@ -11,26 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-  "description": "",
+  "description": "DeepSeek-V3 model-release references and PyTorch/Triton inference code covering mixture-of-experts architecture, tensor-parallel generation, checkpoint conversion and FP8/BF16 utilities.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-08-28T03:24:37Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
   "current_commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
   "inspection_date": "2026-09-20T05:33:52.190505+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:apis",
-    "category:developer-tools",
-    "category:frontend-applications",
-    "category:llm-projects"
+    "category:machine-learning-models",
+    "category:llm-projects",
+    "category:reference-implementations"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:12",
     "operational:15",
@@ -44,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -289,11 +288,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.628024+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.507109+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -315,16 +315,15 @@
   "files_read": 17,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 1,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:56.209520+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -334,5 +333,247 @@
     ],
     "updated_at": "2026-10-12T19:04:27.123242+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "DeepSeek-V3 model-release references and PyTorch/Triton inference code covering mixture-of-experts architecture, tensor-parallel generation, checkpoint conversion and FP8/BF16 utilities.",
+    "reuse_recommendation": "Adapt inference/conversion references after matching hardware/dependencies; obtain trusted weights and review their separate terms.",
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "license_notes": "Code uses MIT under LICENSE-CODE. Model use separately follows LICENSE-MODEL's DeepSeek agreement and use-based restrictions; README supports commercial use subject to those terms.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "Triton",
+      "CUDA",
+      "safetensors",
+      "Transformers"
+    ],
+    "keywords": [
+      "DeepSeek-V3",
+      "language model releases",
+      "mixture-of-experts inference",
+      "distributed generation",
+      "checkpoint quantization",
+      "Python",
+      "PyTorch",
+      "Triton",
+      "CUDA",
+      "safetensors",
+      "Transformers"
+    ],
+    "risk_notes": [
+      "External weights and benchmark claims were not downloaded/reproduced. Hardware sizing, trusted checkpoint provenance and model terms need checking for a selected deployment. Conversion writes output checkpoint files."
+    ],
+    "important_subsystems": [
+      {
+        "name": "mixture-of-experts inference",
+        "purpose": "Provide reference Transformer, multi-head latent attention and routed experts.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "distributed generation",
+        "purpose": "Generate text using checkpoint/tokenizer and tensor-parallel runtime configuration.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "checkpoint quantization",
+        "purpose": "Convert checkpoint layouts and FP8 weights with Triton quantization/dequantization/GEMM utilities.",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:44:47.520391+00:00",
+    "inspected_commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e94a77fda8274fc1f2c9ade7d524be003788de21",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "README_WEIGHTS.md",
+        "blob_sha": "567908318b59cadb00126472cd2d3a6c02c2127f",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/README_WEIGHTS.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE-CODE",
+        "blob_sha": "d42fae903e9fa07f3e8edb0db00a8d905ba49560",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/LICENSE-CODE"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE-MODEL",
+        "blob_sha": "ac09290cb2947183ab7f19d7477511dad3600a7a",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/LICENSE-MODEL"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/model.py",
+        "blob_sha": "886849975d3b146bfb84f8ea5fdff265c210fcec",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/model.py"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/kernel.py",
+        "blob_sha": "22afc9268faeb843f4b235a475ca5aeed9feb94d",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/kernel.py"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/generate.py",
+        "blob_sha": "7e9bffe92ff2b667a836588a559048ee040351c1",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/generate.py"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/convert.py",
+        "blob_sha": "6d85ccc0600a854b4a96588ed3ccb4df9d2a902c",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/convert.py"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/fp8_cast_bf16.py",
+        "blob_sha": "4037342a4a73da6fc6019f492a628341ab0aa5ea",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/fp8_cast_bf16.py"
+      },
+      {
+        "type": "source_review",
+        "path": "inference/requirements.txt",
+        "blob_sha": "68a60d0f430c20f192e366e8e01735ff4695e4a0",
+        "value": "https://github.com/jamesrwatsonx-creator/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/inference/requirements.txt"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "language model releases",
+        "description": "Describe Base/Chat releases and externally hosted checkpoints; weights are not bundled/evaluated here.",
+        "scope": "REFERENCE",
+        "id": "cluster:language-model-releases",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "mixture-of-experts inference",
+        "description": "Provide reference Transformer, multi-head latent attention and routed experts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mixture-of-experts-inference",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "distributed generation",
+        "description": "Generate text using checkpoint/tokenizer and tensor-parallel runtime configuration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:distributed-generation",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      },
+      {
+        "name": "checkpoint quantization",
+        "description": "Convert checkpoint layouts and FP8 weights with Triton quantization/dequantization/GEMM utilities.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:checkpoint-quantization",
+        "evidence_paths": [
+          "README.md",
+          "README_WEIGHTS.md",
+          "LICENSE-CODE",
+          "LICENSE-MODEL",
+          "inference/model.py",
+          "inference/kernel.py",
+          "inference/generate.py",
+          "inference/convert.py",
+          "inference/fp8_cast_bf16.py",
+          "inference/requirements.txt"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

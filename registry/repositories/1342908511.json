@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Meridiona/meridian",
-  "description": "Stop letting your work go unnoticed. Meridian keeps an automatic work journal of what you worked on and what you finished, summarised daily, and automatically drafts your project tickets for you.",
+  "description": "Google’s open-source marketing mix modeling framework for estimating channel contribution and optimizing marketing budget allocation.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-21T09:22:34Z",
-    "github_description": "Stop letting your work go unnoticed. Meridian keeps an automatic work journal of what you worked on and what you finished, summarised daily, and automatically drafts your project tickets for you."
+    "github_description": "Stop letting your work go unnoticed. Meridian keeps an automatic work journal of what you worked on and what you finished, summarised daily, and automatically drafts your project tickets for you.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b79a96c5d14f6d66bf1f0ea218d1e92e439260dc",
   "current_commit": "b79a96c5d14f6d66bf1f0ea218d1e92e439260dc",
   "inspection_date": "2026-09-20T05:33:33.681758+00:00",
   "categories": [
-    "category:general-other"
+    "category:analytics",
+    "category:data-science",
+    "category:marketing-communications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.508713+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.642279+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 904,
-  "files_read": 10,
+  "files_read": 13,
   "entity_count": 3,
-  "unread_source_files": 751,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 837,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.216734+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Google’s open-source marketing mix modeling framework for estimating channel contribution and optimizing marketing budget allocation.",
+    "reuse_recommendation": "Use for analytical decision support with domain review; understand assumptions, uncertainty and data limitations.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Apache-2.0; dataset and advertising platform terms remain separate.",
+    "runtime": [
+      "Python",
+      "TensorFlow Probability",
+      "marketing datasets"
+    ],
+    "keywords": [
+      "Google Meridian",
+      "marketing mix modeling",
+      "MMM",
+      "budget optimization",
+      "causal analytics"
+    ],
+    "risk_notes": [
+      "Budget decisions are consequential and model estimates are not causal certainty."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Meridian MMM framework",
+        "purpose": "Connects marketing data, Bayesian modeling and budget planning.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:43.976392+00:00",
+    "inspected_commit": "b79a96c5d14f6d66bf1f0ea218d1e92e439260dc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c9bddb1e30e6def1be4a0efdb22167a15bf502fb",
+        "value": "https://github.com/jamesrwatsonx-creator/meridian/blob/b79a96c5d14f6d66bf1f0ea218d1e92e439260dc/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "marketing mix modeling",
+        "description": "Estimates incremental channel effects from aggregate marketing and outcome data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:marketing-mix-modeling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "budget scenario optimization",
+        "description": "Supports planning and comparing allocation scenarios.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:budget-scenario-optimization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model diagnostics and reporting",
+        "description": "Provides fit, uncertainty and decision-support outputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-diagnostics-and-reporting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

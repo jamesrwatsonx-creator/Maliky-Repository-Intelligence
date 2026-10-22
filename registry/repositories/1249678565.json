@@ -11,24 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/browser-use/browser-harness",
-  "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+  "description": "Browser automation harness that connects an LLM to a real browser through an editable Chrome DevTools Protocol websocket and supports adding helpers during tasks.",
   "metadata": {
     "language": "Python",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-25T17:01:23Z",
-    "github_description": "Browser Harness | Self-healing harness that enables LLMs to complete any task."
+    "github_description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
   "current_commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
   "inspection_date": "2026-09-20T05:32:38.701622+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:ci-cd",
     "category:developer-tools",
-    "category:skills"
+    "category:ai-agents",
+    "category:automation-scripting"
   ],
   "operational_category": "operational:05",
   "secondary_operational_categories": [],
@@ -52,7 +51,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 123,
@@ -842,9 +841,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.324455+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.088287+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -866,9 +866,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 177,
-  "files_read": 166,
+  "files_read": 167,
   "entity_count": 133,
-  "unread_source_files": 0,
+  "unread_source_files": 1,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-09-20T09:12:50.575578+00:00",
@@ -1044,5 +1044,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.086200+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Browser automation harness that connects an LLM to a real browser through an editable Chrome DevTools Protocol websocket and supports adding helpers during tasks.",
+    "reuse_recommendation": "Strong browser candidate; isolate browser profiles and review CDP exposure, credential access, page prompt injection and action confirmation.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Browser Harness",
+      "CDP browser control",
+      "LLM browser agent",
+      "editable helpers",
+      "Chrome DevTools Protocol"
+    ],
+    "risk_notes": [
+      "Real browser connection may expose authenticated sessions and local browser data; secure the websocket and isolate profiles."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Browser Harness runtime",
+        "purpose": "Bridges model-driven tasks to a live browser session.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:20.074682+00:00",
+    "inspected_commit": "41108b8676d4bdb58b26ab3b079c0b7b0f8f3926",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "19f3f99c61669588caef55de083c117bdd99fb64",
+        "value": "https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "real browser agent connection",
+        "description": "Connects a model or agent to an active browser through CDP.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:real-browser-agent-connection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "extensible task helpers",
+        "description": "Allows task-specific browser helpers to be authored and reused.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:extensible-task-helpers",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser session workflow",
+        "description": "Supports interaction with a real browser profile and pages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-session-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

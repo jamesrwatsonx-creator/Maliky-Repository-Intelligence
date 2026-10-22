@@ -10,20 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "⚡ Insanely fast AI voice assistant with <500ms response times",
+  "upstream_url": "https://github.com/dsa/fast-voice-assistant",
+  "description": "Voice assistant application optimized for quick speech interaction, combining recognition, language-model response and spoken output.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2024-12-03T07:57:48Z",
-    "github_description": "⚡ Insanely fast AI voice assistant with <500ms response times"
+    "github_description": "⚡ Insanely fast AI voice assistant with <500ms response times",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "5fbf75ea10e25932955e7bd5cf023796b110e252",
+  "current_commit": "5fbf75ea10e25932955e7bd5cf023796b110e252",
+  "inspection_date": "2026-10-22T02:24:02.390803+00:00",
   "categories": [
+    "category:ai-applications",
+    "category:media-publishing",
     "category:generative-ai"
   ],
   "operational_category": "operational:07",
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.779494+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.690211+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.132045+00:00",
     "purpose_established": true
+  },
+  "tree_files": 6,
+  "files_read": 4,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Voice assistant application optimized for quick speech interaction, combining recognition, language-model response and spoken output.",
+    "reuse_recommendation": "Use after measuring latency, interruption handling and local/cloud data flow.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Check repository, speech model and provider terms.",
+    "runtime": [
+      "Repository-declared runtime",
+      "STT/LLM/TTS services"
+    ],
+    "keywords": [
+      "fast voice assistant",
+      "low-latency speech",
+      "STT TTS",
+      "conversational agent",
+      "audio pipeline"
+    ],
+    "risk_notes": [
+      "Voice data and assistant actions need consent and privacy safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Fast voice pipeline",
+        "purpose": "Provides a realtime voice assistant interaction loop.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:38.951599+00:00",
+    "inspected_commit": "5fbf75ea10e25932955e7bd5cf023796b110e252",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c21b51e16394118c21388da7b8a5d9a78637419a",
+        "value": "https://github.com/jamesrwatsonx-creator/fast-voice-assistant/blob/5fbf75ea10e25932955e7bd5cf023796b110e252/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "low-latency speech pipeline",
+        "description": "Connects audio input, recognition and assistant output with responsiveness goals.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:low-latency-speech-pipeline",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "conversational assistant logic",
+        "description": "Routes recognized requests through model-backed responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:conversational-assistant-logic",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

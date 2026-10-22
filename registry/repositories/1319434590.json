@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Evokoa/pgGraph",
-  "description": "Open-source graph database superpowers for your existing Postgres data.",
+  "description": "PostgreSQL graph extension and tooling for representing and querying graph relationships alongside relational data.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-01T06:02:49Z",
-    "github_description": "Open-source graph database superpowers for your existing Postgres data."
+    "github_description": "Open-source graph database superpowers for your existing Postgres data.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "6fd7da97a8e1ec93309cfafcb61582755487f4c3",
   "current_commit": "6fd7da97a8e1ec93309cfafcb61582755487f4c3",
   "inspection_date": "2026-09-20T05:32:59.730822+00:00",
   "categories": [
-    "category:general-other"
+    "category:databases",
+    "category:knowledge-graphs",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:pggraph-package-pggraph-docs-validation",
@@ -37,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -282,11 +285,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.832751+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.956135+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -308,8 +312,8 @@
   "tree_files": 424,
   "files_read": 340,
   "entity_count": 2,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 41,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -327,5 +331,88 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 2,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "PostgreSQL graph extension and tooling for representing and querying graph relationships alongside relational data.",
+    "reuse_recommendation": "Evaluate query language, index strategy, migration behavior and production compatibility against the target Postgres version.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository license and PostgreSQL extension compatibility.",
+    "runtime": [
+      "PostgreSQL extension",
+      "C/C++ or database functions"
+    ],
+    "keywords": [
+      "pgGraph",
+      "PostgreSQL graph database",
+      "graph queries",
+      "relational graph storage",
+      "database extension"
+    ],
+    "risk_notes": [
+      "Database extensions run with database privileges; review installation and upgrade behavior."
+    ],
+    "important_subsystems": [
+      {
+        "name": "pgGraph extension",
+        "purpose": "Adds graph-oriented data and query capabilities to PostgreSQL.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:51.044906+00:00",
+    "inspected_commit": "6fd7da97a8e1ec93309cfafcb61582755487f4c3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a03bc4f32e980c450ff85017bd81e252c6a3e3f1",
+        "value": "https://github.com/jamesrwatsonx-creator/pgGraph/blob/6fd7da97a8e1ec93309cfafcb61582755487f4c3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Postgres graph storage",
+        "description": "Represents graph nodes and relationships within PostgreSQL.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:postgres-graph-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "graph query interface",
+        "description": "Provides query operations for traversing connected records.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:graph-query-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

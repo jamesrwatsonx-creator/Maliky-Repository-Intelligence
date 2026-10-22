@@ -1,0 +1,1476 @@
+{
+  "defaults": {
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "source_review": [
+      "README.md"
+    ],
+    "risk_notes": [
+      "Review data permissions, external services and selected integrations before operational use."
+    ],
+    "keywords": [
+      "repository capabilities"
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "jamesrwatsonx-creator/MobileAgent-Android",
+      "commit": "31e3662d4bec9d8101997a2bd6f63a2c6d04e153",
+      "purpose": "Android-native mobile agent that uses a vision-language model to interpret phone screenshots and perform taps, swipes and text input.",
+      "categories": [
+        "category:mobile-applications",
+        "category:ai-agents",
+        "category:developer-tools"
+      ],
+      "operational": "operational:06",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Kotlin",
+        "Android",
+        "C++ JNI",
+        "vision-language model API"
+      ],
+      "license_notes": "MIT; model provider terms apply.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "models": "EXTERNAL_REFERENCE",
+        "browser_computer_use": "PRESENT",
+        "vision_ocr": "PRESENT"
+      },
+      "keywords": [
+        "Android mobile agent",
+        "screen understanding",
+        "phone automation",
+        "tap swipe text input",
+        "Mobile-Agent"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Android screen agent",
+          "description": "Interprets device screenshots and plans mobile UI actions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "phone interaction controls",
+          "description": "Executes taps, swipes and text entry on an Android device.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "agent reflection loop",
+          "description": "Coordinates action feedback and repeated task execution.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "MobileAgent Android app",
+          "purpose": "Connects model-driven task reasoning to Android screen and input APIs.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use only on a dedicated test device with scoped accounts; review accessibility permissions, screen data transmission and consequential actions.",
+      "risk_notes": [
+        "Controls a real phone and may access private apps, messages and account state; device/privacy review is required."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/voice-studio-VoxCPM",
+      "commit": "ee8161e9e1b7b082cb5721a3a9980da4204401e6",
+      "purpose": "VoxCPM2 speech-generation toolkit for multilingual text-to-speech, creative voice design, voice cloning and fine-tuning workflows.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:creative-tools"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "VoxCPM models",
+        "GPU inference"
+      ],
+      "license_notes": "Apache-2.0 code; verify model and voice data terms separately.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "VoxCPM2",
+        "multilingual TTS",
+        "voice cloning",
+        "voice design",
+        "speech fine tuning"
+      ],
+      "capability_clusters": [
+        {
+          "name": "multilingual speech generation",
+          "description": "Generates spoken audio from text across supported languages.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "voice design and cloning",
+          "description": "Supports conditioned voice creation and cloning workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model fine-tuning",
+          "description": "Provides inference and fine-tuning utilities for speech models.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "VoxCPM speech toolkit",
+          "purpose": "Provides model inference, voice design and adaptation workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate voice quality and model terms; require consent and disclosure for cloned or synthetic voices.",
+      "risk_notes": [
+        "Voice cloning can impersonate identifiable people; consent, provenance and abuse controls are required."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/agent-sdk-mobile-app",
+      "commit": "dc414f05172c62af1bc993a556ffa33f6033bb7d",
+      "purpose": "Bloop mobile client and worked example for chatting with Letta agents, viewing streamed reasoning/tool events and approving consequential actions.",
+      "categories": [
+        "category:mobile-applications",
+        "category:ai-agents",
+        "category:sdks-client-libraries"
+      ],
+      "operational": "operational:06",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "TypeScript",
+        "React Native",
+        "Expo",
+        "Letta Agent SDK"
+      ],
+      "license_notes": "Apache-2.0; Letta Cloud and SDK terms apply.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "Letta mobile client",
+        "agent chat app",
+        "streaming tool events",
+        "mobile agent approvals",
+        "Expo"
+      ],
+      "capability_clusters": [
+        {
+          "name": "mobile agent client",
+          "description": "Lets users select agents and continue conversations from a phone.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "streamed agent transcript UI",
+          "description": "Reduces streamed SDK events into a readable conversation and activity view.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "consequential action approval",
+          "description": "Provides a user approval interaction for agent actions.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Bloop mobile client",
+          "purpose": "Demonstrates a full mobile Letta SDK interaction flow.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a mobile SDK reference; deeply review auth/session storage, streamed event handling and approval enforcement before production.",
+      "risk_notes": [
+        "Agent tools may perform consequential actions; verify approval is enforced server-side and protect conversation data."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Real-Time-Voice-Cloning",
+      "commit": "890f3a03187195b9829db2079b75c2ba2ab0405c",
+      "purpose": "Python SV2TTS research implementation that synthesizes speech in a target voice from a short reference sample using speaker encoding, text synthesis and a vocoder.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:scientific-computing",
+        "category:generative-ai"
+      ],
+      "operational": "operational:07",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "speaker encoder",
+        "TTS synthesizer",
+        "vocoder"
+      ],
+      "license_notes": "No SPDX license assertion in GitHub metadata; inspect repository notices and model artifacts before reuse.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "voice_audio": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "real-time voice cloning",
+        "SV2TTS",
+        "speaker encoder",
+        "multispeaker TTS",
+        "voice synthesis"
+      ],
+      "capability_clusters": [
+        {
+          "name": "speaker voice encoding",
+          "description": "Builds a speaker representation from reference audio.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "text-to-speech synthesis",
+          "description": "Generates speech from text conditioned on a speaker representation.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "vocoder audio generation",
+          "description": "Converts synthesized features into speech audio output.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "SV2TTS pipeline",
+          "purpose": "Connects speaker encoding, synthesis and vocoder stages.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research reference only until license and model provenance are established; use voice samples only with informed consent.",
+      "risk_notes": [
+        "Voice cloning enables impersonation; license uncertainty, consent, provenance and synthetic-media disclosure require review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/makerskills",
+      "commit": "17218de201e94f7aebe8b0ddfb507175caf37343",
+      "purpose": "Curated collection of practical skills for AI agents, organized as reusable instructions for maker and builder workflows.",
+      "categories": [
+        "category:skills",
+        "category:agent-workflows",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Markdown skills",
+        "compatible agent hosts"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "tools_plugins": "PRESENT"
+      },
+      "keywords": [
+        "maker skills",
+        "agent skill directory",
+        "builder workflows",
+        "Claude skills",
+        "AI agents"
+      ],
+      "capability_clusters": [
+        {
+          "name": "maker skill discovery",
+          "description": "Organizes reusable agent skills for product and maker tasks.",
+          "scope": "REFERENCE"
+        },
+        {
+          "name": "host-executed workflows",
+          "description": "Provides instruction-based workflows that agents can load for selected tasks.",
+          "scope": "INSTRUCTIONS"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "agent skill library",
+          "purpose": "Collects and categorizes reusable skill instructions.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Select and inspect individual skills, required tools and side effects before installing them in a host.",
+      "risk_notes": [
+        "Skills are instructions, not security boundaries; linked tools and commands need independent review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/slack-mcp-server",
+      "commit": "b88c0de3f706f4f07337c9eda7133c736d1c9524",
+      "purpose": "MCP server connecting assistants to Slack workspaces for channel/history search, messages, conversations and workspace actions across supported transports.",
+      "categories": [
+        "category:mcp-servers",
+        "category:apis",
+        "category:business-applications"
+      ],
+      "operational": "operational:02",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "runtime": [
+        "Node.js",
+        "MCP stdio/SSE/HTTP",
+        "Slack Web API"
+      ],
+      "license_notes": "MIT; Slack API terms apply.",
+      "asset_presence": {
+        "mcp": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Slack MCP server",
+        "workspace search",
+        "channel history",
+        "Slack messaging",
+        "agent integration"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Slack workspace search",
+          "description": "Retrieves workspace conversations and history for assistant workflows.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Slack conversation operations",
+          "description": "Exposes channel, direct-message and group-conversation capabilities.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "MCP transport and authentication",
+          "description": "Connects MCP clients to Slack APIs through configured transport and auth modes.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Slack MCP integration",
+          "purpose": "Maps assistant tool requests to Slack workspace operations.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "High-value integration; deeply review OAuth scopes, message-send actions, private channel access, secrets and workspace data retention before connecting.",
+      "risk_notes": [
+        "Authentication and private communications are deep-review triggers; restrict scopes and require confirmation for message writes."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/livekit-swift-example",
+      "commit": "f405b66ae1015d277180ac7ee0434aa24209177f",
+      "purpose": "Example iOS and macOS application demonstrating LiveKit Swift SDK realtime room and media integration.",
+      "categories": [
+        "category:mobile-applications",
+        "category:ai-applications",
+        "category:templates-boilerplates"
+      ],
+      "operational": "operational:07",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Swift",
+        "SwiftUI/AppKit",
+        "LiveKit Swift SDK",
+        "iOS/macOS"
+      ],
+      "license_notes": "Apache-2.0; LiveKit SDK terms apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "LiveKit Swift example",
+        "iOS realtime media",
+        "macOS video call",
+        "WebRTC SDK"
+      ],
+      "capability_clusters": [
+        {
+          "name": "LiveKit iOS client example",
+          "description": "Demonstrates connecting an Apple mobile app to LiveKit rooms.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "macOS realtime media example",
+          "description": "Shows desktop integration patterns for LiveKit media sessions.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Apple LiveKit sample app",
+          "purpose": "Illustrates client SDK setup and realtime room media workflows.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a starting reference with current LiveKit SDK docs and sample credentials; review microphone/camera permission and network behavior.",
+      "risk_notes": [
+        "Realtime calls capture audio/video and depend on server tokens; protect credentials and obtain user consent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/ioBroker",
+      "commit": "9fbf5a1307fa1e0759402ea94f9c5b9db99996fc",
+      "purpose": "Windows installer and setup distribution for ioBroker, a Node.js home-automation platform with adapters for connecting devices and services.",
+      "categories": [
+        "category:iot",
+        "category:automation-scripting",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:06",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "JavaScript",
+        "Node.js",
+        "Windows installer",
+        "ioBroker adapters"
+      ],
+      "license_notes": "MIT for this repository; adapters and connected devices carry separate terms.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "infrastructure_deployment": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "ioBroker installer",
+        "home automation",
+        "IoT adapters",
+        "Windows setup",
+        "device integration"
+      ],
+      "capability_clusters": [
+        {
+          "name": "home automation platform setup",
+          "description": "Installs or configures the ioBroker automation runtime on Windows.",
+          "scope": "CONFIGURATION"
+        },
+        {
+          "name": "device and service adapter ecosystem",
+          "description": "Connects the platform to external home devices and services through adapters.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Windows installation workflow",
+          "purpose": "Sets up the ioBroker runtime for home automation use.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as installation reference; isolate home-automation networks and review adapter privileges before connecting physical devices.",
+      "risk_notes": [
+        "Home automation can control physical devices; network exposure and adapter permissions require deployment-specific review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/FinRL-Trading",
+      "commit": "e65d6f0483ead7d2ef4a5fc940cdf960392a25c1",
+      "purpose": "Modular AI-native quantitative trading research infrastructure for data, strategy development, backtesting and market execution integrations.",
+      "categories": [
+        "category:finance-accounting",
+        "category:ai-agents",
+        "category:research-projects"
+      ],
+      "operational": "operational:22",
+      "recommendation": "NEEDS DEEPER REVIEW",
+      "runtime": [
+        "Python",
+        "quantitative trading framework",
+        "market data and broker APIs"
+      ],
+      "license_notes": "Apache-2.0; financial data and broker terms apply.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "FinRL-X",
+        "quantitative trading infrastructure",
+        "market data",
+        "strategy backtesting",
+        "financial agents"
+      ],
+      "capability_clusters": [
+        {
+          "name": "quantitative trading research",
+          "description": "Provides modular infrastructure for evaluating algorithmic strategies.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "financial data and model components",
+          "description": "Connects datasets, models and analysis workflows for trading research.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "broker/execution integration",
+          "description": "Repository scope includes operational trading connectivity that requires verification before use.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "FinRL trading infrastructure",
+          "purpose": "Coordinates data, strategy and execution-oriented modules.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Research and backtesting only until exact broker execution paths, keys, risk limits and paper-mode behavior are reviewed.",
+      "risk_notes": [
+        "Financial execution is a deep-review trigger; do not connect live credentials before security and strategy-risk validation."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/book-to-skill",
+      "commit": "3a97a7115ab3c82edf47f315b544fbcefdd8559c",
+      "purpose": "Workflow/tooling for transforming technical books or document collections into structured, searchable agent skills.",
+      "categories": [
+        "category:skills",
+        "category:documentation",
+        "category:ai-applications"
+      ],
+      "operational": "operational:01",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Python/JavaScript tooling",
+        "Markdown skill output",
+        "document processing"
+      ],
+      "license_notes": "MIT; source books and generated derivative materials retain their own rights.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT",
+        "data_database_search": "PRESENT"
+      },
+      "keywords": [
+        "book to skill",
+        "document to agent skill",
+        "knowledge extraction",
+        "skill generation",
+        "technical book processing"
+      ],
+      "capability_clusters": [
+        {
+          "name": "document-to-skill workflow",
+          "description": "Turns technical reference material into organized agent instruction assets.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "source knowledge structuring",
+          "description": "Guides extraction and organization of reusable concepts from document collections.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "skill packaging",
+          "description": "Produces output suitable for installation into agent skill systems.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Booklin conversion workflow",
+          "purpose": "Coordinates source-document analysis and skill creation.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Useful for internal documents the user has rights to process; review extraction accuracy, private-data handling and derivative-work licensing.",
+      "risk_notes": [
+        "Books and documents may be copyrighted or confidential; ensure authorization and inspect generated instructions for errors."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Wan2.2",
+      "commit": "42bf4cfaa384bc21833865abc2f9e6c0e67233dc",
+      "purpose": "Wan2.2 video-generation model implementation and inference tools for text- and image-conditioned video synthesis.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:generative-ai",
+        "category:media-publishing"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "Wan video models",
+        "GPU inference"
+      ],
+      "license_notes": "Apache-2.0 code; verify checkpoint and model usage terms.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "business_media_other": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Wan2.2",
+        "video generation",
+        "text to video",
+        "image to video",
+        "model inference"
+      ],
+      "capability_clusters": [
+        {
+          "name": "video generation inference",
+          "description": "Generates video outputs from supported text or visual conditioning.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model checkpoint setup",
+          "description": "Documents model acquisition and runtime configuration.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Wan2.2 generation pipeline",
+          "purpose": "Loads model checkpoints and executes video synthesis.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Evaluate compute, checkpoint rights, output provenance and content controls before product integration.",
+      "risk_notes": [
+        "Large model workloads and synthetic media rights require review."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react",
+      "commit": "46f51a6a300cceeb1c1460116a620c32cdef18fb",
+      "purpose": "React starter template for LiveKit Agents with voice, transcription and virtual-avatar UI components.",
+      "categories": [
+        "category:templates-boilerplates",
+        "category:frontend-applications",
+        "category:ai-applications"
+      ],
+      "operational": "operational:07",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "TypeScript",
+        "React",
+        "LiveKit Agents SDK",
+        "LiveKit UI components"
+      ],
+      "license_notes": "MIT; LiveKit services and SDK terms apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "agents_frameworks": "PRESENT",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "LiveKit voice agent UI",
+        "React starter",
+        "transcription interface",
+        "virtual avatar",
+        "realtime assistant"
+      ],
+      "capability_clusters": [
+        {
+          "name": "voice agent interface",
+          "description": "Provides a React user interface for realtime voice-agent sessions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "transcription display",
+          "description": "Integrates text output and transcript state with voice interactions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "avatar interaction UI",
+          "description": "Supports virtual-avatar presentation in the agent experience.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "LiveKit React starter",
+          "purpose": "Connects agent SDK session state to reusable UI components.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Strong starter for voice UI; review token issuance, microphone/video permissions, realtime service costs and private audio handling.",
+      "risk_notes": [
+        "Captures and transmits audio/video; use short-lived tokens and clear consent/privacy controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/android-livestream",
+      "commit": "0fcbe876d151e979996f2566b0e6e7218b7b3974",
+      "purpose": "Android LiveKit livestream sample where a broadcaster sends video and viewers watch, chat or join as hosts.",
+      "categories": [
+        "category:mobile-applications",
+        "category:media-publishing",
+        "category:ai-applications"
+      ],
+      "operational": "operational:19",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Kotlin",
+        "Android",
+        "LiveKit SDK"
+      ],
+      "license_notes": "Apache-2.0; LiveKit and Android dependencies apply.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "voice_audio": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Android livestream",
+        "LiveKit broadcast",
+        "mobile video streaming",
+        "viewer chat",
+        "host participant"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Android broadcast client",
+          "description": "Publishes a mobile broadcaster stream to a LiveKit room.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "viewer and co-host experience",
+          "description": "Demonstrates viewing, chat and joining a broadcast as a host.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Android livestream sample",
+          "purpose": "Shows publisher and viewer roles using LiveKit Android components.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a sample reference; update SDK versions and review camera/microphone permissions and room token handling.",
+      "risk_notes": [
+        "Live streams expose audio/video to participants; secure room access and obtain user consent."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Android.compose-shimmer",
+      "commit": "948235ec24fa77764e4b4dbd6245b11897ac0efc",
+      "purpose": "Jetpack Compose and Compose Multiplatform library for rendering shimmer/loading placeholder effects.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:frontend-applications"
+      ],
+      "operational": "operational:19",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Compose Multiplatform"
+      ],
+      "license_notes": "Apache-2.0.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Compose shimmer",
+        "Android loading placeholder",
+        "Compose Multiplatform",
+        "skeleton UI",
+        "animation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Compose shimmer effect",
+          "description": "Applies animated shimmer highlighting to Compose content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "multiplatform loading UI",
+          "description": "Supports shimmer placeholders across Compose targets.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Compose shimmer library",
+          "purpose": "Provides reusable modifiers and effects for loading-state interfaces.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use directly after checking Compose/Kotlin version compatibility and motion accessibility preferences.",
+      "risk_notes": [
+        "Respect reduced-motion preferences and avoid shimmer when it harms readability."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/superdesign-Front-end",
+      "commit": "49e2b9dd9615c6dae936b326b1ddb85d4f1d6f19",
+      "purpose": "Archived open-source IDE extension prototype for AI-assisted interface design; README points users to a newer hosted SuperDesign product.",
+      "categories": [
+        "category:plugins-extensions",
+        "category:frontend-applications",
+        "category:design-systems"
+      ],
+      "operational": "operational:16",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "IDE extension",
+        "frontend design workflow"
+      ],
+      "license_notes": "No SPDX license assertion in repository metadata; verify before reuse.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "ui_design": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "AI design IDE extension",
+        "UI mockups",
+        "frontend design agent",
+        "SuperDesign archive"
+      ],
+      "capability_clusters": [
+        {
+          "name": "IDE design extension",
+          "description": "Provides an earlier IDE-based AI interface-design workflow.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "design mockup generation",
+          "description": "Supports ideation and UI design artifacts through an agent workflow.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "archived SuperDesign extension",
+          "purpose": "Contains the historical IDE extension implementation and design flow.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Prefer the maintained successor product; use archived code only as historical design reference after license review.",
+      "risk_notes": [
+        "README states the repository is no longer actively maintained and product has moved; compatibility and licensing need verification."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/airllm",
+      "commit": "5765c2173003e0c67a43495cfcf82f1879a8e1b1",
+      "purpose": "Python inference library that reduces memory requirements for running large language models by loading and executing model layers incrementally.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:libraries-packages",
+        "category:ai-infrastructure"
+      ],
+      "operational": "operational:15",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "PyTorch",
+        "transformer checkpoints",
+        "CPU/GPU inference"
+      ],
+      "license_notes": "Apache-2.0; model checkpoints retain their own licenses.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "AirLLM",
+        "low memory LLM inference",
+        "large model loading",
+        "layerwise inference",
+        "single GPU"
+      ],
+      "capability_clusters": [
+        {
+          "name": "memory-efficient model inference",
+          "description": "Runs large models with reduced peak memory through staged layer loading.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "model compatibility and loading",
+          "description": "Provides utilities for loading supported pretrained model checkpoints.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "AirLLM inference engine",
+          "purpose": "Coordinates low-memory loading and generation for large language models.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Benchmark the target model and hardware; verify checkpoint licensing and performance claims against actual workloads.",
+      "risk_notes": [
+        "Model artifacts may be large or remote; confirm provenance, code execution during loading and hardware/resource limits."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/apaxy-browse",
+      "commit": "5b76e32d662fa1b0d96ebba2f559b1d3d5ee17d2",
+      "purpose": "Customizable Apache directory-index theme that restyles mod_autoindex listings with CSS and media-type presentation.",
+      "categories": [
+        "category:frontend-applications",
+        "category:creative-tools",
+        "category:cloud-infrastructure"
+      ],
+      "operational": "operational:16",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "HTML/CSS",
+        "Apache mod_autoindex",
+        "optional Docker"
+      ],
+      "license_notes": "GPL-3.0.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "infrastructure_deployment": "PRESENT"
+      },
+      "keywords": [
+        "Apache directory listing theme",
+        "mod_autoindex UI",
+        "directory browser",
+        "CSS theme",
+        "file index"
+      ],
+      "capability_clusters": [
+        {
+          "name": "directory listing theme",
+          "description": "Replaces the default Apache autoindex presentation with a customizable browser UI.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "media type presentation",
+          "description": "Provides visual treatment for files and directory contents.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Apaxy theme",
+          "purpose": "Styles Apache-generated directory listings for browsing.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for intentionally public file directories; configure authentication and prevent accidental exposure of private files.",
+      "risk_notes": [
+        "Directory listings can disclose filenames and content; access controls must be configured separately."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/minions",
+      "commit": "a0787971cb207fd80f7e54991a52665874fe914a",
+      "purpose": "Mission-control dashboard for creating, supervising and reviewing autonomous Hermes Agent jobs and long-running sessions.",
+      "categories": [
+        "category:web-applications",
+        "category:ai-agents",
+        "category:project-management"
+      ],
+      "operational": "operational:03",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Web application",
+        "Hermes Agent integration",
+        "job/session control"
+      ],
+      "license_notes": "MIT; hosted Agent37 service terms apply.",
+      "asset_presence": {
+        "agents_frameworks": "PRESENT",
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Hermes mission control",
+        "agent job dashboard",
+        "autonomous task supervision",
+        "session review",
+        "long-running agents"
+      ],
+      "capability_clusters": [
+        {
+          "name": "agent job management",
+          "description": "Creates and tracks autonomous agent work across sessions.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "run supervision and review",
+          "description": "Provides a dashboard for monitoring completion and reviewing results.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Hermes integration",
+          "description": "Connects dashboard workflows to Hermes Agent runtime sessions.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Minions mission control",
+          "purpose": "Centralizes agent job creation, progress tracking and review.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Useful orchestration UI candidate; review authorization, agent process controls, logs and tenant isolation before connecting production agents.",
+      "risk_notes": [
+        "Supervises autonomous jobs that may execute tools; verify identity, cancellation, isolation and result access controls."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/Android-SpinKit",
+      "commit": "aa83e4d0a42c76eae15e8b18b79aa2a231cca5f8",
+      "purpose": "Android library and sample for reusable loading animations inspired by the SpinKit CSS animation collection.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:19",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Java/Kotlin",
+        "Android UI animations"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "Android loading animations",
+        "SpinKit",
+        "progress indicator",
+        "Android UI library"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Android loading indicators",
+          "description": "Provides animated progress/loading visual components for Android interfaces.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "animation style variants",
+          "description": "Offers multiple animation patterns inspired by the SpinKit collection.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Android SpinKit library",
+          "purpose": "Packages reusable loading animation views and examples.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a visual reference and verify compatibility with current Android UI stacks and reduced-motion accessibility.",
+      "risk_notes": [
+        "Repository age and Android API compatibility should be checked before new integration."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/compose-android--animations",
+      "commit": "eb51389891c303a0ad79c73525bd97acfdf96547",
+      "purpose": "Android Jetpack Compose animation library and examples for adding motion and animated transitions to Compose interfaces.",
+      "categories": [
+        "category:libraries-packages",
+        "category:mobile-applications",
+        "category:creative-tools"
+      ],
+      "operational": "operational:19",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android API 23+"
+      ],
+      "license_notes": "Apache-2.0.",
+      "asset_presence": {
+        "ui_design": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "Jetpack Compose animations",
+        "Android motion UI",
+        "Compose transitions",
+        "animation components"
+      ],
+      "capability_clusters": [
+        {
+          "name": "Compose animation components",
+          "description": "Provides reusable animation patterns and components for Jetpack Compose.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "motion examples",
+          "description": "Demonstrates animation integration in Android UI projects.",
+          "scope": "REFERENCE"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "Compose animation library",
+          "purpose": "Packages animation utilities and examples for Android interfaces.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use directly after checking Compose version compatibility, motion accessibility and component lifecycle behavior.",
+      "risk_notes": [
+        "Review animation performance and reduced-motion behavior in the target app."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/David-skills",
+      "commit": "69c3ae5228eb146724fd23dac3d43eab5805bcc3",
+      "purpose": "Official collection of focused agent skills for coding, research, content and workflow tasks across compatible AI-agent hosts.",
+      "categories": [
+        "category:skills",
+        "category:agent-workflows",
+        "category:developer-tools"
+      ],
+      "operational": "operational:01",
+      "recommendation": "REFERENCE",
+      "runtime": [
+        "Markdown skills",
+        "compatible agent hosts"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "skills": "PRESENT",
+        "tools_plugins": "PRESENT",
+        "prompts_workflows": "PRESENT"
+      },
+      "keywords": [
+        "David Ondrej skills",
+        "agent skills library",
+        "coding skills",
+        "research workflows",
+        "content workflows"
+      ],
+      "capability_clusters": [
+        {
+          "name": "coding agent skills",
+          "description": "Provides focused instructions for codebase and development tasks.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "research and content skills",
+          "description": "Packages agent workflows for research, presentations and transcript work.",
+          "scope": "INSTRUCTIONS"
+        },
+        {
+          "name": "skill discovery and packaging",
+          "description": "Organizes skills for installation in compatible agent hosts.",
+          "scope": "CONFIGURATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "official skill collection",
+          "purpose": "Groups reusable host instructions by task and capability.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Select skills that match the task and inspect their commands, external services and host assumptions before installation.",
+      "risk_notes": [
+        "Skills are instructions and may request external tools or file operations; review each selected workflow."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/StoryToolkitAI",
+      "commit": "91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb",
+      "purpose": "AI-assisted film editing toolkit that transcribes footage, indexes scenes, searches clips and assembles story selections for import into video editors.",
+      "categories": [
+        "category:media-publishing",
+        "category:ai-applications",
+        "category:desktop-applications"
+      ],
+      "operational": "operational:09",
+      "recommendation": "EXTRACT",
+      "runtime": [
+        "Python desktop application",
+        "speech recognition",
+        "LLM providers",
+        "EDL/XML export"
+      ],
+      "license_notes": "GPL-3.0.",
+      "asset_presence": {
+        "models": "EXTERNAL_REFERENCE",
+        "voice_audio": "PRESENT",
+        "vision_ocr": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "AI film editing",
+        "footage transcription",
+        "scene indexing",
+        "video search",
+        "EDL XML export"
+      ],
+      "capability_clusters": [
+        {
+          "name": "footage transcription and indexing",
+          "description": "Transcribes media and indexes scenes for later search.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "natural-language footage search",
+          "description": "Finds relevant moments across local video content.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "story assembly and editor export",
+          "description": "Uses model-assisted selection to create story sequences exportable to editing software.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "StoryToolkitAI editing workflow",
+          "purpose": "Connects local media understanding and story selection to editing software exports.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Potential local media workflow; inspect model data transfer, indexing privacy and editor export compatibility before processing sensitive footage.",
+      "risk_notes": [
+        "Film footage may contain private or copyrighted material; verify provider processing, retention and rights."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/PyPortfolioOpt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "purpose": "Python portfolio optimization library implementing mean-variance, Black-Litterman, shrinkage and hierarchical risk parity methods.",
+      "categories": [
+        "category:libraries-packages",
+        "category:finance-accounting",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:13",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "SciPy"
+      ],
+      "license_notes": "MIT.",
+      "asset_presence": {
+        "apis_sdks_services": "PRESENT",
+        "data_database_search": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "portfolio optimization",
+        "mean variance",
+        "Black-Litterman",
+        "risk parity",
+        "asset allocation"
+      ],
+      "capability_clusters": [
+        {
+          "name": "classical portfolio optimization",
+          "description": "Computes mean-variance allocations and related constrained portfolios.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "Black-Litterman allocation",
+          "description": "Combines market equilibrium assumptions and investor views for portfolio weights.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "risk-based portfolio methods",
+          "description": "Includes shrinkage and hierarchical risk parity approaches.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "PyPortfolioOpt library",
+          "purpose": "Provides optimization methods and allocation utilities for Python applications.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as an analytics library after validating return data, constraints and assumptions; results are not investment advice.",
+      "risk_notes": [
+        "Financial allocation depends on uncertain inputs and modeling choices; independently validate before investment use."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/editly",
+      "commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
+      "purpose": "Node.js command-line tool and framework for declaratively creating edited videos from media clips, titles, transitions, audio and overlays.",
+      "categories": [
+        "category:media-publishing",
+        "category:cli-tools",
+        "category:libraries-packages"
+      ],
+      "operational": "operational:09",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "JavaScript",
+        "Node.js",
+        "FFmpeg",
+        "media processing"
+      ],
+      "license_notes": "MIT; bundled codecs and media dependencies have separate terms.",
+      "asset_presence": {
+        "tools_plugins": "PRESENT",
+        "apis_sdks_services": "PRESENT",
+        "business_media_other": "PRESENT"
+      },
+      "keywords": [
+        "editly video editor",
+        "declarative video editing",
+        "FFmpeg CLI",
+        "video montage",
+        "JavaScript media framework"
+      ],
+      "capability_clusters": [
+        {
+          "name": "declarative video composition",
+          "description": "Builds edited videos from a structured sequence of clips and effects.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "CLI video rendering",
+          "description": "Provides a command-line workflow for producing rendered video output.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "programmable editing framework",
+          "description": "Exposes reusable composition features for application integration.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "editly renderer",
+          "purpose": "Composes media, overlays, audio and transitions into a video file.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use for automated video composition after validating input paths, FFmpeg availability and media rights.",
+      "risk_notes": [
+        "Processes local media and invokes native tools; constrain file paths, resources and untrusted inputs."
+      ]
+    },
+    {
+      "repository": "jamesrwatsonx-creator/timesfm",
+      "commit": "3dae50b20d7a724981e8ea36cda75578f80dd2dc",
+      "purpose": "Google Research pretrained foundation model and Python toolkit for time-series forecasting across varied datasets and horizons.",
+      "categories": [
+        "category:machine-learning-models",
+        "category:data-science",
+        "category:scientific-computing"
+      ],
+      "operational": "operational:15",
+      "recommendation": "USE DIRECTLY",
+      "runtime": [
+        "Python",
+        "JAX/PyTorch",
+        "pretrained time-series checkpoints"
+      ],
+      "license_notes": "Apache-2.0 code; verify checkpoint and data terms.",
+      "asset_presence": {
+        "models": "PRESENT",
+        "data_database_search": "PRESENT",
+        "apis_sdks_services": "PRESENT"
+      },
+      "keywords": [
+        "TimesFM",
+        "time-series foundation model",
+        "forecasting",
+        "Google Research",
+        "pretrained forecasting"
+      ],
+      "capability_clusters": [
+        {
+          "name": "pretrained time-series forecasting",
+          "description": "Predicts future values from historical sequences using a foundation model.",
+          "scope": "IMPLEMENTATION"
+        },
+        {
+          "name": "forecast evaluation and integration",
+          "description": "Provides tools for loading checkpoints and applying forecasts to datasets.",
+          "scope": "IMPLEMENTATION"
+        }
+      ],
+      "important_subsystems": [
+        {
+          "name": "TimesFM forecasting toolkit",
+          "purpose": "Loads pretrained checkpoints and runs time-series inference.",
+          "evidence_paths": [
+            "README.md"
+          ]
+        }
+      ],
+      "reuse_recommendation": "Use as a forecasting candidate after testing on domain-specific holdouts and checking checkpoint/runtime requirements.",
+      "risk_notes": [
+        "Forecast quality varies by distribution and horizon; do not treat outputs as guaranteed predictions or financial advice."
+      ]
+    }
+  ]
+}

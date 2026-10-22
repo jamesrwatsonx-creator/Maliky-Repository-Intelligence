@@ -11,26 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/mreflow/control-center",
-  "description": "A local-first, settings-driven business intelligence dashboard.",
+  "description": "Local-first business dashboard for monitoring industry updates, brand mentions, newsletters, public audience totals, reminders and tasks.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-26T01:12:15Z",
-    "github_description": "A local-first, settings-driven business intelligence dashboard."
+    "github_description": "A local-first, settings-driven business intelligence dashboard.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "d13e79e866cc33a1fddfe84f563ce2fb9a2113e0",
   "current_commit": "d13e79e866cc33a1fddfe84f563ce2fb9a2113e0",
   "inspection_date": "2026-09-20T05:34:12.281630+00:00",
   "categories": [
-    "category:agent-workflows",
+    "category:web-applications",
     "category:business-applications",
-    "category:frontend-applications",
-    "category:libraries-packages",
-    "category:research-projects"
+    "category:productivity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [
     "operational:11"
   ],
@@ -50,7 +49,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -295,11 +294,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.523433+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.345000+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -322,8 +322,8 @@
   "tree_files": 134,
   "files_read": 126,
   "entity_count": 9,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 4,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -342,5 +342,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.111810+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Local-first business dashboard for monitoring industry updates, brand mentions, newsletters, public audience totals, reminders and tasks.",
+    "reuse_recommendation": "Useful local dashboard candidate; review connectors, secret storage and data retention before adding monitored accounts.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE and connected data provider terms.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "local-first business dashboard",
+      "brand mentions",
+      "newsletter monitoring",
+      "industry updates",
+      "tasks reminders"
+    ],
+    "risk_notes": [
+      "Brand tracking and audience data may include personal/business information; protect API keys and user-configured profiles."
+    ],
+    "important_subsystems": [
+      {
+        "name": "local-first control center",
+        "purpose": "Provides configurable business monitoring without preloaded names or demo records.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:43.760691+00:00",
+    "inspected_commit": "d13e79e866cc33a1fddfe84f563ce2fb9a2113e0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "45f85330361f4149d575d1f7992aa6030db04ca8",
+        "value": "https://github.com/jamesrwatsonx-creator/control-center/blob/d13e79e866cc33a1fddfe84f563ce2fb9a2113e0/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "business intelligence dashboard",
+        "description": "Combines niche updates, brand references and audience signals in one interface.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-intelligence-dashboard",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "newsletter and audience monitoring",
+        "description": "Tracks newsletters and public audience metrics selected by the user.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:newsletter-and-audience-monitoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "reminders and task management",
+        "description": "Adds personal follow-up tasks to the monitoring dashboard.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reminders-and-task-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

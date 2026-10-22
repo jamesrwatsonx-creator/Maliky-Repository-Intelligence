@@ -7,6 +7,10 @@ from urllib.parse import quote
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OWNER = 'jamesrwatsonx-creator'
 SELF = OWNER + '/Maliky-Repository-Intelligence'
+SUMMARY_POLICY = 'REPOSITORY_CLUSTERS_V1'
+ASSET_FAMILIES = ('skills','mcp','tools_plugins','agents_frameworks','ui_design',
+                  'apis_sdks_services','models','prompts_workflows','browser_computer_use',
+                  'voice_audio','vision_ocr','data_database_search','infrastructure_deployment','business_media_other')
 SHA = re.compile(r'^[0-9a-f]{40}$')
 SOURCE_EXTENSIONS = {'.py','.js','.jsx','.ts','.tsx','.mjs','.cjs','.go','.rs','.java','.kt','.kts','.swift','.cs','.cpp','.c','.h','.hpp','.cc','.cxx','.m','.mm','.vue','.svelte','.sh','.rb','.php','.dart','.ex','.exs','.lua','.r','.scala','.clj','.cljs','.fs','.fsx','.vb','.pl','.pm','.ps1','.psm1','.jl'}
 
@@ -80,7 +84,8 @@ def merge_public_metadata(repo, meta):
     fresh=blank_repo(meta)
     reviewed_description=bool(repo.get('description') and (
         repo.get('metadata',{}).get('description_source')=='pinned_semantic_review'
-        or repo.get('semantic_review_progress',{}).get('status')=='COMPLETE'))
+        or repo.get('semantic_review_progress',{}).get('status')=='COMPLETE'
+        or repo.get('repository_intelligence',{}).get('status')=='COMPLETE'))
     for key in ('name','full_name','url','owner','visibility','affiliation','fork','default_branch'):
         repo[key]=fresh[key]
     if not reviewed_description: repo['description']=fresh['description']
@@ -319,7 +324,7 @@ def priority(entry):
     if p.startswith('.github/workflows/'): return 3
     extension=pathlib.PurePosixPath(p).suffix.lower()
     if extension in SOURCE_EXTENSIONS: return 4
-    if extension in ('.md','.mdx','.mdc','.rst','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto','.html','.htm','.css','.scss','.sass','.less','.styl','.ipynb') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
+    if extension in ('.md','.mdx','.mdc','.rst','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto','.html','.htm','.css','.scss','.sass','.less','.styl','.ipynb','.bs','.template') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
     return 6
 
 def persist_evidence(path,evidence):
@@ -474,6 +479,53 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
         r['state']='FAILED' if not r.get('phases',{}).get('structure') else 'PARTIAL'; r['last_error']=str(exc)[:600]; write(repo_file(r),r)
         return {'repo':full_name,'error':str(exc)[:300]}
 
+def summary_errors(repo, evidence):
+    """Validate bounded repository intelligence without claiming an asset census."""
+    info=repo.get('repository_intelligence',{}); errors=[]
+    if info.get('policy')!=SUMMARY_POLICY or info.get('status')!='COMPLETE':
+        return ['missing completed repository-intelligence review']
+    for field in ('purpose','reuse_recommendation','inspection_scope','license_notes'):
+        if not isinstance(info.get(field),str) or not info[field].strip(): errors.append('missing summary '+field)
+    for field in ('runtime','keywords','risk_notes','important_subsystems'):
+        if not isinstance(info.get(field),list): errors.append('invalid summary '+field)
+    if not info.get('keywords') or not repo.get('categories'): errors.append('missing summary search classification')
+    if set(info.get('asset_presence',{}))!=set(ASSET_FAMILIES): errors.append('incomplete major asset-family inventory')
+    if any(value not in ('PRESENT','NOT_OBSERVED','EXTERNAL_REFERENCE','DESIGN_ONLY') for value in info.get('asset_presence',{}).values()):
+        errors.append('invalid asset-family observation')
+    clusters=info.get('capability_clusters',[])
+    if repo.get('empty_repository'):
+        if not repo.get('empty_confirmed_at') or repo.get('inspected_commit') or clusters:
+            errors.append('unsupported empty repository disposition')
+        return errors
+    if not SHA.fullmatch(repo.get('inspected_commit') or '') or info.get('inspected_commit')!=repo.get('inspected_commit'):
+        errors.append('summary revision mismatch')
+    known={item['path']:item['blob_sha'] for item in evidence.get('files_read',[])}
+    reviewed=info.get('source_evidence',[])
+    paths={item.get('path') for item in reviewed}
+    if not reviewed or any(not safe_path(item.get('path','')) or not SHA.fullmatch(item.get('blob_sha') or '') or known.get(item.get('path'))!=item.get('blob_sha') for item in reviewed):
+        errors.append('summary lacks verified pinned source evidence')
+    if not clusters or len(clusters)>20 or len({item.get('id') for item in clusters})!=len(clusters):
+        errors.append('invalid repository capability clusters')
+    for cluster in clusters:
+        if (cluster.get('id')!='cluster:'+slug(cluster.get('name','')) or not cluster.get('description')
+                or not cluster.get('evidence_paths') or not set(cluster['evidence_paths'])<=paths
+                or cluster.get('scope') not in ('IMPLEMENTATION','INSTRUCTIONS','REFERENCE','CONFIGURATION','DESIGN')):
+            errors.append('unsupported capability cluster')
+    for subsystem in info.get('important_subsystems',[]):
+        if not subsystem.get('name') or not subsystem.get('purpose') or not subsystem.get('evidence_paths') or not set(subsystem['evidence_paths'])<=paths:
+            errors.append('unsupported top-level subsystem')
+    return errors
+
+
+def repository_search_text(repo):
+    info=repo.get('repository_intelligence',{})
+    clusters=info.get('capability_clusters',[])
+    return ' '.join([repo['full_name'],repo.get('description',''),info.get('purpose',''),
+                     info.get('reuse_recommendation',''),' '.join(info.get('keywords',[])),
+                     ' '.join(info.get('runtime',[]))]+[c['name']+' '+c['description'] for c in clusters]+
+                    [s['name']+' '+s['purpose'] for s in info.get('important_subsystems',[])])
+
+
 def build():
     repos=records('repositories'); entities=records('entities'); caps=records('capabilities'); edges=records('relationships')
     active=[e for e in entities if any(r['id']==e['source']['repository_id'] and r.get('inspected_commit')==e['source']['inspected_commit'] for r in repos)]
@@ -482,7 +534,10 @@ def build():
         for cap in e['capabilities']: generated_edges.append({'id':e['id']+':provides:'+cap,'type':'PROVIDES','from':e['id'],'to':cap,'evidence':e['evidence']})
     docs=[]
     for r in repos:
-        docs.append({'id':r['id'],'entity_type':'REPOSITORY','name':r['full_name'],'text':r['full_name']+' '+r['description'],'repository':r['full_name'],'url':r['url'],'state':r['state'],'capabilities':r['capabilities'],'inspected_commit':r['inspected_commit']})
+        info=r.get('repository_intelligence',{})
+        docs.append({'id':r['id'],'entity_type':'REPOSITORY','name':r['full_name'],'text':repository_search_text(r),'repository':r['full_name'],'url':r['url'],'state':r['state'],'capabilities':r['capabilities'],'inspected_commit':r['inspected_commit'],
+                     'capability_clusters':info.get('capability_clusters',[]),'keywords':info.get('keywords',[]),
+                     'completion_scope':r.get('completion_scope'),'reuse_recommendation':info.get('reuse_recommendation')})
     cap_map={c['id']:c for c in caps}
     for e in active:
         synonyms=' '.join(' '.join(cap_map[c].get('aliases',[])) for c in e['capabilities'] if c in cap_map)
@@ -490,8 +545,13 @@ def build():
         docs.append({'id':e['id'],'entity_type':e['entity_type'],'name':e['name'],'text':' '.join([e['name'],e['description'],e['source']['source_path'],synonyms]+[' '.join(v) for v in visual.values()]),'repository':e['source']['repository_name'],'url':e['source']['repository_url']+'/blob/'+e['source']['inspected_commit']+'/'+e['source']['source_path'],'state':e['review_status'],'capabilities':e['capabilities'],'source_path':e['source']['source_path'],'inspected_commit':e['source']['inspected_commit'],**visual})
     for c in caps: docs.append({'id':c['id'],'entity_type':'CAPABILITY','name':c['name'],'text':' '.join([c['name']]+c.get('aliases',[])),'state':c['status'],'capabilities':[c['id']]})
     p=ROOT/'search/search-index.jsonl'; p.parent.mkdir(exist_ok=True); p.write_text(''.join(json.dumps(d,ensure_ascii=False)+'\n' for d in docs),encoding='utf-8')
-    write('MASTER-INVENTORY.json',[{k:r[k] for k in ['id','full_name','url','affiliation','state','inspected_commit','capabilities']} for r in repos])
+    write('MASTER-INVENTORY.json',[{**{k:r[k] for k in ['id','full_name','url','affiliation','state','inspected_commit','capabilities']},'repository_intelligence':r.get('repository_intelligence'),'completion_scope':r.get('completion_scope')} for r in repos])
     nodes=[{'id':d['id'],'type':d['entity_type'],'name':d['name']} for d in docs]
+    clusters={c['id']:c['name'] for repo in repos for c in repo.get('repository_intelligence',{}).get('capability_clusters',[])}
+    nodes.extend({'id':identifier,'type':'CAPABILITY_CLUSTER','name':name} for identifier,name in clusters.items())
+    generated_edges.extend({'id':repo['id']+':provides:'+c['id'],'type':'PROVIDES','from':repo['id'],'to':c['id'],
+                            'scope':c['scope'],'evidence':repo['repository_intelligence']['source_evidence']}
+                           for repo in repos for c in repo.get('repository_intelligence',{}).get('capability_clusters',[]))
     for kind in ('ideas','studios','compositions'): nodes.extend({'id':x['id'],'type':kind.upper(),'name':x['name']} for x in records(kind))
     write('CAPABILITY-GRAPH.json',{'nodes':nodes,'edges':edges+generated_edges})
     dimensions=['entity_type','repository','state','capabilities','visual_style','layout','visual_features','technologies','best_for']
@@ -533,7 +593,10 @@ def build():
     phase_priority={'CAPABILITY_ANALYSIS':0,'SEMANTIC_CENSUS_REVIEW':0,'ENTITY_EXTRACTION':1,'STRUCTURE':2,'EMPTY_REPOSITORY_DISPOSITION':3}
     queue.sort(key=lambda item:(item['repository']==SELF,phase_priority.get(item['next_phase'],2),item['repository_id']))
     decisions=read('system/decision-records.json',[]) or []
-    stats={'generated_at':now(),'public_repository_records':len(repos),'active_entity_records':len(active),'historical_entity_records':len(entities)-len(active),'entity_types':dict(collections.Counter(e['entity_type'] for e in active)),'repositories_by_state':dict(collections.Counter(r['state'] for r in repos)),'complete_trees':sum(r['phases']['structure'] for r in repos),'verified_source_files_read':sum(r.get('files_read',0) for r in repos),'verified_capabilities':sum(c['status']=='VERIFIED' for c in caps),'search_documents':len(docs),'pending_repositories':len(queue),'completion_policy':'V1 uses lean semantic completion; scores and universal deep review are not completion gates. Source evidence remains canonical.'}
+    stats={'generated_at':now(),'public_repository_records':len(repos),'active_entity_records':len(active),'historical_entity_records':len(entities)-len(active),'entity_types':dict(collections.Counter(e['entity_type'] for e in active)),'repositories_by_state':dict(collections.Counter(r['state'] for r in repos)),'complete_trees':sum(r['phases']['structure'] for r in repos),'verified_source_files_read':sum(r.get('files_read',0) for r in repos),'verified_capabilities':sum(c['status']=='VERIFIED' for c in caps),'search_documents':len(docs),'pending_repositories':len(queue),'completion_policy':'Repository purpose, bounded pinned-source review, major capability clusters and on-demand detailed inspection. Existing detailed verification states are preserved.'}
+    stats['repository_intelligence_complete']=sum(r.get('repository_intelligence',{}).get('status')=='COMPLETE' for r in repos)
+    stats['capability_cluster_count']=len(clusters)
+    stats['repository_cluster_assignments']=sum(len(r.get('repository_intelligence',{}).get('capability_clusters',[])) for r in repos)
     stats['verified_entity_records']=sum(e['review_status']=='VERIFIED' for e in active)
     stats['candidate_entity_records']=sum(e['review_status']=='NEEDS_REVIEW' for e in active)
     stats['confirmed_empty_repositories']=sum(bool(r.get('empty_confirmed_at')) for r in repos)
@@ -639,7 +702,10 @@ def validate():
         for kind,census in r.get('entity_census',{}).items():
             if census['catalogued']!=counts[kind]: errors.append(prefix+': census count mismatch '+kind)
             if census['detected']<census['catalogued']: errors.append(prefix+': detection count below catalogued '+kind)
-        if r['state']=='COMPLETE':
+        if r.get('completion_scope')==SUMMARY_POLICY:
+            errors.extend(prefix+': '+error for error in summary_errors(r,evidence))
+            if r['state']!='COMPLETE' or not r.get('phases',{}).get('repository_summary'): errors.append(prefix+': incomplete repository summary state')
+        elif r['state']=='COMPLETE':
             required_phases=('structure','entity_extraction','capability_analysis','validation')
             if any(not r.get('phases',{}).get(phase) for phase in required_phases): errors.append(prefix+': completion lacks required lean phases')
             if not r.get('entity_census') or any(c['detected']<c['catalogued'] or not c['reviewed'] for c in r['entity_census'].values()): errors.append(prefix+': unreconciled lean census')

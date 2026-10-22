@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/remotion-dev/skills",
-  "description": "Agent Skills",
+  "description": "Internal Remotion skills package for agent-assisted video composition and editing workflows; public README provides no usage documentation.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-07-27T15:46:19Z",
-    "github_description": "Agent Skills"
+    "github_description": "Agent Skills",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "0e444efe46a8eb606acefd54d70ae64e8f908e36",
   "current_commit": "0e444efe46a8eb606acefd54d70ae64e8f908e36",
   "inspection_date": "2026-09-20T05:32:55.981967+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:creative-tools",
-    "category:skills"
+    "category:skills",
+    "category:media-publishing",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:09"
@@ -56,7 +57,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 11,
@@ -301,11 +302,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.203516+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.269233+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -327,7 +329,7 @@
   "files_read": 222,
   "entity_count": 32,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -345,5 +347,76 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 32,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Internal Remotion skills package for agent-assisted video composition and editing workflows; public README provides no usage documentation.",
+    "reuse_recommendation": "Inspect the actual skill contents and package terms before adopting; available public documentation is minimal.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository license and Remotion terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Remotion video skills",
+      "agent video workflow",
+      "video composition instructions"
+    ],
+    "risk_notes": [
+      "README states this is an internal package without documentation; capability and support scope are limited."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Remotion skills package",
+        "purpose": "Distributes task instructions for Remotion-based video workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:56.941359+00:00",
+    "inspected_commit": "0e444efe46a8eb606acefd54d70ae64e8f908e36",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "60f7cfc36d7b9e43e5ddcb40d8a5b65ac192a971",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-video/blob/0e444efe46a8eb606acefd54d70ae64e8f908e36/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Remotion agent skills",
+        "description": "Packages internal agent instruction assets for video work.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:remotion-agent-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

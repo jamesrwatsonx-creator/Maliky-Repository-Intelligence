@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "release",
   "upstream_url": "https://github.com/trycompai/crm",
-  "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+  "description": "Customer relationship management application or CRM workflow system for managing contacts, organizations, opportunities and sales interactions.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-11T07:06:17Z",
-    "github_description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM."
+    "github_description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "6d4793dd6d7aeea91aa6a034e00b17d7408a2d08",
   "current_commit": "6d4793dd6d7aeea91aa6a034e00b17d7408a2d08",
   "inspection_date": "2026-10-21T00:01:30.828836+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:crm",
+    "category:business-applications",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 36,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.559732+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.385044+00:00",
   "tree_files": 1493,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1452,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1445,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Customer relationship management application or CRM workflow system for managing contacts, organizations, opportunities and sales interactions.",
+    "reuse_recommendation": "Evaluate data model, access controls and integration support before migrating customer records.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and integrations.",
+    "runtime": [
+      "Repository-declared web/backend stack",
+      "database"
+    ],
+    "keywords": [
+      "CRM",
+      "customer records",
+      "sales pipeline",
+      "contacts",
+      "business workflow"
+    ],
+    "risk_notes": [
+      "CRM data is personal and commercially sensitive; enforce retention and role-based access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "CRM application",
+        "purpose": "Provides a central system for customer data and sales activity.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:16.113822+00:00",
+    "inspected_commit": "6d4793dd6d7aeea91aa6a034e00b17d7408a2d08",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c761ebff650556235dd27f7c320ce94a6e5cdc30",
+        "value": "https://github.com/jamesrwatsonx-creator/crm/blob/6d4793dd6d7aeea91aa6a034e00b17d7408a2d08/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "customer and contact records",
+        "description": "Organizes people and organization information for business use.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:customer-and-contact-records",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "sales pipeline workflows",
+        "description": "Tracks opportunities, activity and customer relationships.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:sales-pipeline-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CRM integrations",
+        "description": "Connects records with communication or business services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crm-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

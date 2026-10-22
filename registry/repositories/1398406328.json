@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "A Material Design ViewPager easy to use library",
+  "upstream_url": "https://github.com/florent37/MaterialViewPager",
+  "description": "Android UI library for building Material Design-inspired scrolling view pagers with coordinated headers and tabs.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2018-10-12T01:11:20Z",
-    "github_description": "A Material Design ViewPager easy to use library"
+    "github_description": "A Material Design ViewPager easy to use library",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "e2fb22e0ad95b00934c3d73cd1031c1cd5b407c1",
+  "current_commit": "e2fb22e0ad95b00934c3d73cd1031c1cd5b407c1",
+  "inspection_date": "2026-10-22T02:35:27.115673+00:00",
   "categories": [
-    "category:design-systems"
+    "category:mobile-applications",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:17",
+  "operational_category": "operational:16",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.486279+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.617269+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.214768+00:00",
     "purpose_established": true
+  },
+  "tree_files": 101,
+  "files_read": 10,
+  "unread_source_files": 56,
+  "repository_intelligence": {
+    "purpose": "Android UI library for building Material Design-inspired scrolling view pagers with coordinated headers and tabs.",
+    "reuse_recommendation": "Consider as a UI reference or legacy component; verify modern Android compatibility.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check license and compatibility with current Android UI libraries.",
+    "runtime": [
+      "Java",
+      "Android"
+    ],
+    "keywords": [
+      "Android",
+      "ViewPager",
+      "Material Design",
+      "scrolling UI",
+      "tabs"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MaterialViewPager component",
+        "purpose": "Provides a reusable pattern for content-heavy mobile screens.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:50.892104+00:00",
+    "inspected_commit": "e2fb22e0ad95b00934c3d73cd1031c1cd5b407c1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "138e17e384f6481e5c32110ee38f72ed1a3ef1d6",
+        "value": "https://github.com/jamesrwatsonx-creator/MaterialViewPager/blob/e2fb22e0ad95b00934c3d73cd1031c1cd5b407c1/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Material scrolling pager UI",
+        "description": "Coordinates pager pages, tabs and collapsing header behavior in Android interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:material-scrolling-pager-ui",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "dev",
   "upstream_url": "https://github.com/jgraph/drawio",
-  "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
+  "description": "Diagramming application for creating flowcharts, architecture diagrams, network maps and other structured visuals.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-08T21:48:25Z",
-    "github_description": "draw.io is a JavaScript, client-side editor for general diagramming."
+    "github_description": "draw.io is a JavaScript, client-side editor for general diagramming.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9034053fba80a435e27d68d374bc564b83917ae9",
   "current_commit": "9034053fba80a435e27d68d374bc564b83917ae9",
   "inspection_date": "2026-10-20T23:54:08.827218+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:creative-tools",
+    "category:documentation",
+    "category:frontend-applications"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.694622+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.598172+00:00",
   "tree_files": 3172,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 677,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 683,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Diagramming application for creating flowcharts, architecture diagrams, network maps and other structured visuals.",
+    "reuse_recommendation": "Use for architecture and process diagrams; verify source diagrams against actual systems.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Apache-2.0; embedded templates and icon packs may have separate terms.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser/desktop app"
+    ],
+    "keywords": [
+      "draw.io",
+      "diagrams.net",
+      "architecture diagrams",
+      "flowcharts",
+      "visual documentation"
+    ],
+    "risk_notes": [
+      "Diagrams can disclose internal topology or sensitive operational details."
+    ],
+    "important_subsystems": [
+      {
+        "name": "diagrams.net editor",
+        "purpose": "Provides a general-purpose diagram authoring experience.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:18.765617+00:00",
+    "inspected_commit": "9034053fba80a435e27d68d374bc564b83917ae9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "2342bd81d61ab713cfc0103fb699e7d6b8e26d8e",
+        "value": "https://github.com/jamesrwatsonx-creator/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "diagram editor",
+        "description": "Creates and edits structured diagrams on a visual canvas.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:diagram-editor",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "templates and visual libraries",
+        "description": "Provides reusable shapes and diagram templates.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:templates-and-visual-libraries",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "embedding and export",
+        "description": "Supports integration and export of diagrams for documentation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:embedding-and-export",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

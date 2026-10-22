@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "A skill that turn any brand into a scrollable 3D world landing page",
+  "upstream_url": "https://github.com/oso95/scroll-world",
+  "description": "Interactive 3D or scroll-driven web experience presenting a navigable world or visual story.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-29T04:44:56Z",
-    "github_description": "A skill that turn any brand into a scrollable 3D world landing page"
+    "github_description": "A skill that turn any brand into a scrollable 3D world landing page",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+  "current_commit": "71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+  "inspection_date": "2026-10-22T02:23:31.573806+00:00",
   "categories": [
-    "category:skills"
+    "category:creative-tools",
+    "category:games-interactive-experiences",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.125420+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.180155+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.280824+00:00",
     "purpose_established": true
+  },
+  "tree_files": 11,
+  "files_read": 10,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Interactive 3D or scroll-driven web experience presenting a navigable world or visual story.",
+    "reuse_recommendation": "Use as a visual interaction reference and test GPU cost, reduced motion and keyboard access.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Check repository and media/3D asset terms.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser 3D renderer"
+    ],
+    "keywords": [
+      "Scroll World",
+      "3D web experience",
+      "interactive storytelling",
+      "scroll animation",
+      "world visualization"
+    ],
+    "risk_notes": [
+      "Large 3D experiences may perform poorly on mobile and can exclude assistive users."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Scroll World experience",
+        "purpose": "Combines interactive graphics with a guided visual narrative.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:37.920750+00:00",
+    "inspected_commit": "71cc36d3bb150248ae36a2c552f9cbf88802a79c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "eeab4839125f6a4b4602e57cbe1609079dd3052e",
+        "value": "https://github.com/jamesrwatsonx-creator/scroll-world/blob/71cc36d3bb150248ae36a2c552f9cbf88802a79c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive world visualization",
+        "description": "Presents a 3D or spatial environment for browser exploration.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-world-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "scroll-driven storytelling",
+        "description": "Links user scroll behavior with animated scenes or narrative progression.",
+        "scope": "DESIGN",
+        "id": "cluster:scroll-driven-storytelling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

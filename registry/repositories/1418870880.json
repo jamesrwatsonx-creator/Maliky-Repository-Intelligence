@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/YOURLS/YOURLS",
-  "description": "🔗 The 𝘥𝘦 𝘧𝘢𝘤𝘵𝘰 standard, self hosted, powerful and customizable, URL shortener in PHP",
+  "description": "Self-hosted URL shortening service with link management, click statistics and plugin extensions.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-12T14:22:31Z",
-    "github_description": "🔗 The 𝘥𝘦 𝘧𝘢𝘤𝘵𝘰 standard, self hosted, powerful and customizable, URL shortener in PHP"
+    "github_description": "🔗 The 𝘥𝘦 𝘧𝘢𝘤𝘵𝘰 standard, self hosted, powerful and customizable, URL shortener in PHP",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d734a863b5a7e7581476a8bf3ab35db2938f5147",
   "current_commit": "d734a863b5a7e7581476a8bf3ab35db2938f5147",
   "inspection_date": "2026-10-20T23:56:38.037574+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:backend-services",
+    "category:analytics"
+  ],
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.782564+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.816192+00:00",
   "tree_files": 778,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 428,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 436,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted URL shortening service with link management, click statistics and plugin extensions.",
+    "reuse_recommendation": "Use for controlled branded-link management with abuse prevention and privacy-conscious analytics.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "MIT; review plugins individually.",
+    "runtime": [
+      "PHP",
+      "MySQL/MariaDB",
+      "web server"
+    ],
+    "keywords": [
+      "YOURLS",
+      "URL shortener",
+      "link analytics",
+      "self-hosted",
+      "redirect service"
+    ],
+    "risk_notes": [
+      "Open redirects, spam, tracking and admin access require security controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "YOURLS link service",
+        "purpose": "Combines short-link administration, redirects and analytics.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:17.867641+00:00",
+    "inspected_commit": "d734a863b5a7e7581476a8bf3ab35db2938f5147",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7016843e854c05bbbb028e5a2e27c7f59a58dee2",
+        "value": "https://github.com/jamesrwatsonx-creator/YOURLS/blob/d734a863b5a7e7581476a8bf3ab35db2938f5147/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "short link creation and redirection",
+        "description": "Creates branded short URLs and redirects visitors to target destinations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:short-link-creation-and-redirection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "click analytics",
+        "description": "Tracks usage and statistics for managed links.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:click-analytics",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "API and plugin extensions",
+        "description": "Supports integration and customization through APIs and plugins.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:api-and-plugin-extensions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

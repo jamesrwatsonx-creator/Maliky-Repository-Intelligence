@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/vercel/vercel",
-  "description": "Develop. Preview. Ship.",
+  "description": "Vibe Studio workflow or integration for deploying AI-generated web applications to Vercel.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-01T22:11:19Z",
-    "github_description": "Develop. Preview. Ship."
+    "github_description": "Develop. Preview. Ship.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e06cc643cec6a47bd9344af7f4589c736d95ed15",
   "current_commit": "e06cc643cec6a47bd9344af7f4589c736d95ed15",
   "inspection_date": "2026-09-20T05:35:46.958398+00:00",
   "categories": [
-    "category:general-other"
+    "category:developer-tools",
+    "category:devops",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:14",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.548108+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.564979+00:00",
   "tree_files": 13204,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 10356,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 11177,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.322449+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Vibe Studio workflow or integration for deploying AI-generated web applications to Vercel.",
+    "reuse_recommendation": "Use on test projects and require review before publishing, changing domains or exposing secrets.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository, Vercel platform and model provider terms.",
+    "runtime": [
+      "Web app/build tooling",
+      "Vercel CLI/API",
+      "agent workflows"
+    ],
+    "keywords": [
+      "Vibe Studio",
+      "Vercel deployment",
+      "AI app builder",
+      "web publishing",
+      "deployment automation"
+    ],
+    "risk_notes": [
+      "Deployment actions can publish insecure code or incur cloud costs."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vibe Studio deployment workflow",
+        "purpose": "Bridges generated projects to hosted web deployment.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:53.240372+00:00",
+    "inspected_commit": "e06cc643cec6a47bd9344af7f4589c736d95ed15",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d768562726ba1b1702f0c696473662f3d92eb716",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-vercel/blob/e06cc643cec6a47bd9344af7f4589c736d95ed15/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "AI app build workflow",
+        "description": "Connects prompt-driven project creation to deployable web applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-app-build-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Vercel deployment integration",
+        "description": "Automates or guides publishing projects to Vercel infrastructure.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:vercel-deployment-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

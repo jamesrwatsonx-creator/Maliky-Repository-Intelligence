@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/pbakaus/impeccable",
-  "description": "The design language that makes your AI harness better at design.",
+  "description": "Design skill or toolkit offering structured guidance for improving frontend UI quality, visual polish and product experience.",
   "metadata": {
     "language": "JavaScript",
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-18T15:14:07Z",
-    "github_description": "The design language that makes your AI harness better at design."
+    "github_description": "The design language that makes your AI harness better at design.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "f88b2837a7d7c3182e46307bbbb091a1ed547571",
   "current_commit": "f88b2837a7d7c3182e46307bbbb091a1ed547571",
   "inspection_date": "2026-09-20T05:32:57.136246+00:00",
   "categories": [
-    "category:design-systems"
+    "category:skills",
+    "category:design-systems",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 17,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.195930+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.284267+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 3267,
-  "files_read": 4,
+  "files_read": 12,
   "entity_count": 2,
-  "unread_source_files": 3084,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3240,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.180324+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Design skill or toolkit offering structured guidance for improving frontend UI quality, visual polish and product experience.",
+    "reuse_recommendation": "Use as a critique and iteration aid; validate accessibility and user outcomes independently.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license and referenced design resources.",
+    "runtime": [
+      "Markdown skills",
+      "coding/design agent host"
+    ],
+    "keywords": [
+      "Impeccable design skill",
+      "frontend polish",
+      "UI critique",
+      "design systems",
+      "agent design workflow"
+    ],
+    "risk_notes": [
+      "Design instructions should not override accessibility or user research requirements."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Impeccable skill suite",
+        "purpose": "Packages reusable instructions for stronger frontend design decisions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:19.783860+00:00",
+    "inspected_commit": "f88b2837a7d7c3182e46307bbbb091a1ed547571",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3a71f5981c2872c3eaad7464daf50aa16d7974b6",
+        "value": "https://github.com/jamesrwatsonx-creator/impeccable/blob/f88b2837a7d7c3182e46307bbbb091a1ed547571/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "UI quality review",
+        "description": "Guides evaluation of visual hierarchy, consistency and interface craft.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:ui-quality-review",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "frontend design implementation",
+        "description": "Provides task workflows for refining web interface details.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:frontend-design-implementation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/QwenLM/Qwen3-VL",
-  "description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+  "description": "Qwen3 vision-language model family and utilities for image/video understanding, visual question answering and multimodal reasoning.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-01-30T04:47:30Z",
-    "github_description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud."
+    "github_description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
   "current_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
   "inspection_date": "2026-09-20T05:33:51.332670+00:00",
   "categories": [
-    "category:libraries-packages",
-    "category:llm-projects"
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:qwen3-vl-package-qwen-vl-utils"
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -282,11 +284,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.979644+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.058036+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -308,8 +311,8 @@
   "tree_files": 154,
   "files_read": 82,
   "entity_count": 1,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 14,
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -328,5 +331,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.268822+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Qwen3 vision-language model family and utilities for image/video understanding, visual question answering and multimodal reasoning.",
+    "reuse_recommendation": "Evaluate accuracy, GPU requirements and sensitive-image handling; avoid relying on model claims without task-specific validation.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "Review code and model checkpoint licenses independently.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "Qwen3-VL",
+      "vision language model",
+      "image understanding",
+      "video reasoning",
+      "multimodal AI"
+    ],
+    "risk_notes": [
+      "Images/videos may contain sensitive biometric or private data; control processing, retention and model access."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Qwen3-VL model toolkit",
+        "purpose": "Provides multimodal model references, utilities and evaluation resources.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:45.292806+00:00",
+    "inspected_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ec5ca7603d9c88ce2d2480190fe57a1f463904ef",
+        "value": "https://github.com/jamesrwatsonx-creator/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "visual language understanding",
+        "description": "Answers questions and reasons over image content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-language-understanding",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "video understanding",
+        "description": "Supports visual reasoning across video content and temporal context.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-understanding",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "fine-tuning and evaluation",
+        "description": "Provides model adaptation and benchmark materials for multimodal tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:fine-tuning-and-evaluation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

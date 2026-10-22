@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "The only free, open-source GEO tracker. Monitor how your brand appears in ChatGPT, Gemini, Perplexity, Claude, and AI Overview.",
+  "upstream_url": "https://github.com/oneglanse/oneglanse",
+  "description": "Full-stack geospatial application with agent, web, landing, database and service packages for mapping location intelligence.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-30T13:09:36Z",
-    "github_description": "The only free, open-source GEO tracker. Monitor how your brand appears in ChatGPT, Gemini, Perplexity, Claude, and AI Overview."
+    "github_description": "The only free, open-source GEO tracker. Monitor how your brand appears in ChatGPT, Gemini, Perplexity, Claude, and AI Overview.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "242af56b58b8463d31b972a84037fd8e562a3d1b",
+  "current_commit": "242af56b58b8463d31b972a84037fd8e562a3d1b",
+  "inspection_date": "2026-10-22T02:35:39.942340+00:00",
   "categories": [
-    "category:general-other"
+    "category:full-stack-applications",
+    "category:maps"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.969433+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.047076+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.150906+00:00",
     "purpose_established": true
+  },
+  "tree_files": 446,
+  "files_read": 10,
+  "unread_source_files": 406,
+  "repository_intelligence": {
+    "purpose": "Full-stack geospatial application with agent, web, landing, database and service packages for mapping location intelligence.",
+    "reuse_recommendation": "Use as a product reference or extract packages after assessing map APIs, data privacy and package boundaries.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review license, map-provider terms, privacy and handling of location data.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "web",
+      "database"
+    ],
+    "keywords": [
+      "geospatial",
+      "maps",
+      "location intelligence",
+      "web application",
+      "agent"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Monorepo application packages",
+        "purpose": "Separates web, agent, database and shared service concerns.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:52.039410+00:00",
+    "inspected_commit": "242af56b58b8463d31b972a84037fd8e562a3d1b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "47f04b4a944a74928891236cdfb718879980ef1e",
+        "value": "https://github.com/jamesrwatsonx-creator/geo-oneglanse/blob/242af56b58b8463d31b972a84037fd8e562a3d1b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Geospatial application experience",
+        "description": "Combines web interfaces and services for exploring location-based information.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:geospatial-application-experience",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Agent and data services",
+        "description": "Provides supporting agent, database, service, type and error packages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-and-data-services",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

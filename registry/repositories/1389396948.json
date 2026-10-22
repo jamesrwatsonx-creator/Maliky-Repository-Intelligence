@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Wayback Machine API interface & a command-line tool",
+  "upstream_url": "https://github.com/akamhy/waybackpy",
+  "description": "Python library and CLI for querying the Internet Archive Wayback Machine, checking snapshots and saving URLs for archival.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2024-02-26T00:15:49Z",
-    "github_description": "Wayback Machine API interface & a command-line tool"
+    "github_description": "Wayback Machine API interface & a command-line tool",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "3b3e78d901a600bb22943202c6a8981ca04a5e48",
+  "current_commit": "3b3e78d901a600bb22943202c6a8981ca04a5e48",
+  "inspection_date": "2026-10-22T02:26:36.804341+00:00",
   "categories": [
-    "category:apis"
+    "category:sdks-client-libraries",
+    "category:developer-tools",
+    "category:documentation"
   ],
-  "operational_category": "operational:12",
+  "operational_category": "operational:25",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.700658+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.708117+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.339443+00:00",
     "purpose_established": true
+  },
+  "tree_files": 42,
+  "files_read": 10,
+  "unread_source_files": 27,
+  "repository_intelligence": {
+    "purpose": "Python library and CLI for querying the Internet Archive Wayback Machine, checking snapshots and saving URLs for archival.",
+    "reuse_recommendation": "Use for research and preserve snapshot dates and URLs as provenance.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check repository and Internet Archive service terms.",
+    "runtime": [
+      "Python",
+      "Internet Archive APIs"
+    ],
+    "keywords": [
+      "Wayback Machine API",
+      "web archives",
+      "historical snapshots",
+      "Python client",
+      "URL availability"
+    ],
+    "risk_notes": [
+      "Archived pages may retain personal data or copyrighted content."
+    ],
+    "important_subsystems": [
+      {
+        "name": "WaybackPy client",
+        "purpose": "Makes Internet Archive lookup and save operations available to Python workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:28.634732+00:00",
+    "inspected_commit": "3b3e78d901a600bb22943202c6a8981ca04a5e48",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "afce812c451ff45d43ff938efd19f75cabb841fe",
+        "value": "https://github.com/jamesrwatsonx-creator/waybackpy/blob/3b3e78d901a600bb22943202c6a8981ca04a5e48/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "archive snapshot queries",
+        "description": "Finds historical snapshots for URLs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:archive-snapshot-queries",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "archival save requests",
+        "description": "Connects clients to supported page capture workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:archival-save-requests",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

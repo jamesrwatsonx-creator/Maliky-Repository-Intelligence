@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends",
+  "upstream_url": "https://github.com/moj-analytical-services/splink",
+  "description": "Probabilistic record linkage toolkit for matching records that refer to the same entity across imperfect datasets.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-25T14:36:17Z",
-    "github_description": "Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends"
+    "github_description": "Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "473f0f7fdb19916e4dbdf1c420a1a8c0b0cf9953",
+  "current_commit": "473f0f7fdb19916e4dbdf1c420a1a8c0b0cf9953",
+  "inspection_date": "2026-10-22T02:25:47.968621+00:00",
   "categories": [
-    "category:general-other"
+    "category:data-science",
+    "category:data-engineering",
+    "category:analytics"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.275507+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.317253+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.294576+00:00",
     "purpose_established": true
+  },
+  "tree_files": 545,
+  "files_read": 10,
+  "unread_source_files": 417,
+  "repository_intelligence": {
+    "purpose": "Probabilistic record linkage toolkit for matching records that refer to the same entity across imperfect datasets.",
+    "reuse_recommendation": "Use with labeled validation data and review false-match impact before merging records.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "MIT; input data licensing and privacy obligations remain.",
+    "runtime": [
+      "Python",
+      "SQL engines",
+      "statistical modeling"
+    ],
+    "keywords": [
+      "Splink",
+      "record linkage",
+      "entity resolution",
+      "deduplication",
+      "data matching"
+    ],
+    "risk_notes": [
+      "Entity matching may link the wrong people and process sensitive personal data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Splink entity resolution",
+        "purpose": "Provides scalable probabilistic matching for data integration.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:26.434599+00:00",
+    "inspected_commit": "473f0f7fdb19916e4dbdf1c420a1a8c0b0cf9953",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "db810a8635fb6b89fbf14cef0d7f4eced75fbb58",
+        "value": "https://github.com/jamesrwatsonx-creator/splink/blob/473f0f7fdb19916e4dbdf1c420a1a8c0b0cf9953/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "probabilistic entity matching",
+        "description": "Estimates whether records across datasets refer to the same entity.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:probabilistic-entity-matching",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model training and match evaluation",
+        "description": "Supports parameter estimation and quality assessment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-training-and-match-evaluation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "scalable database execution",
+        "description": "Runs linkage workflows over large datasets and SQL engines.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:scalable-database-execution",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

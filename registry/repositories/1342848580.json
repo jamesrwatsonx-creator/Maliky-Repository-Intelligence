@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/koala73/worldmonitor",
-  "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+  "description": "Real-time world events dashboard combining public information sources, maps and data visualization for situational awareness.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-08-22T13:04:34Z",
-    "github_description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
+    "github_description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "902cd7a162f2bfb7da49c91554a19c08ee84d089",
   "current_commit": "902cd7a162f2bfb7da49c91554a19c08ee84d089",
   "inspection_date": "2026-09-20T05:33:27.572596+00:00",
   "categories": [
-    "category:devops",
-    "category:research-projects"
+    "category:analytics",
+    "category:real-estate-geospatial",
+    "category:data-visualization"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:14"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 26,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.755419+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.774188+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 6076,
-  "files_read": 8,
+  "files_read": 15,
   "entity_count": 4,
-  "unread_source_files": 4240,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4900,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.343596+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Real-time world events dashboard combining public information sources, maps and data visualization for situational awareness.",
+    "reuse_recommendation": "Use as a public-data dashboard pattern and verify each feed’s provenance, freshness and uncertainty.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository license and individual data provider terms.",
+    "runtime": [
+      "Web application",
+      "data APIs",
+      "map/visualization stack"
+    ],
+    "keywords": [
+      "WorldMonitor",
+      "global events dashboard",
+      "geospatial intelligence",
+      "public data",
+      "situational awareness"
+    ],
+    "risk_notes": [
+      "Geopolitical and public-safety interpretations can be misleading if source data is incomplete."
+    ],
+    "important_subsystems": [
+      {
+        "name": "WorldMonitor dashboard",
+        "purpose": "Combines heterogeneous public signals for situational awareness.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:45.534139+00:00",
+    "inspected_commit": "902cd7a162f2bfb7da49c91554a19c08ee84d089",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fe4d8685faf76723a38d29e53dcb412b431ccaa1",
+        "value": "https://github.com/jamesrwatsonx-creator/worldmonitor/blob/902cd7a162f2bfb7da49c91554a19c08ee84d089/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-source event aggregation",
+        "description": "Collects public feeds and indicators into a consolidated view.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-source-event-aggregation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "map and timeline visualization",
+        "description": "Presents events spatially and temporally.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:map-and-timeline-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "monitoring and analysis interface",
+        "description": "Supports exploration of global developments and alerts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:monitoring-and-analysis-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,26 +11,26 @@
   "fork": false,
   "default_branch": "main",
   "upstream_url": null,
-  "description": "",
+  "description": "Python web-capability service prototype combining constrained HTTP extraction, Playwright-backed browser replay, a local capability registry, MCP/API surfaces and health/lead-intelligence endpoints.",
   "metadata": {
     "language": "Python",
     "license": null,
     "archived": false,
     "pushed_at": "2026-08-22T02:25:05Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a478a729ad771be2d8bcfaccffb6503127cc487b",
   "current_commit": "a478a729ad771be2d8bcfaccffb6503127cc487b",
   "inspection_date": "2026-09-20T05:34:56.337372+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:apis",
-    "category:generative-ai",
+    "category:developer-tools",
+    "category:backend-services",
     "category:mcp-servers",
-    "category:research-projects"
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:05",
   "secondary_operational_categories": [
     "operational:03",
     "operational:07",
@@ -43,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -258,16 +258,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.654331+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.660046+00:00",
   "tree_files": 21,
-  "files_read": 0,
+  "files_read": 20,
   "entity_count": 0,
-  "unread_source_files": 20,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -277,5 +278,235 @@
     ],
     "updated_at": "2026-10-12T19:04:27.334353+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python web-capability service prototype combining constrained HTTP extraction, Playwright-backed browser replay, a local capability registry, MCP/API surfaces and health/lead-intelligence endpoints.",
+    "reuse_recommendation": "A promising extraction base for a bounded web automation service; deeply review URL policy, redirect/SSRF controls, filesystem state and action permissions before selecting it for a build.",
+    "inspection_scope": "Reviewed the pinned Python service structure and core provider/capability/API surfaces. HTTP extraction and constrained browser replay are implemented; optional provider fallback raises NotImplementedError and the LLM planner is explicitly absent.",
+    "license_notes": "No repository license established in the reviewed metadata.",
+    "runtime": [
+      "Python",
+      "FastAPI",
+      "Playwright",
+      "MCP"
+    ],
+    "keywords": [
+      "website scraper",
+      "browser replay",
+      "Playwright",
+      "HTTP extraction",
+      "MCP server",
+      "web capability registry",
+      "lead intelligence"
+    ],
+    "risk_notes": [
+      "Arbitrary URLs, redirects, browser actions and local registry writes need build-specific security review; planner/provider fallback is not implemented."
+    ],
+    "important_subsystems": [
+      {
+        "name": "HTTP and browser providers",
+        "purpose": "Fetches pages and performs constrained browser replay.",
+        "evidence_paths": [
+          "src/scraper/providers.py",
+          "src/scraper/security.py"
+        ]
+      },
+      {
+        "name": "capability registry and routing",
+        "purpose": "Registers capabilities, tracks trust state and routes requests.",
+        "evidence_paths": [
+          "src/scraper/capabilities.py",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "API and MCP surfaces",
+        "purpose": "Provides HTTP and tool-facing access to the service.",
+        "evidence_paths": [
+          "src/scraper/api.py",
+          "src/scraper/mcp_server.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:26.666548+00:00",
+    "inspected_commit": "a478a729ad771be2d8bcfaccffb6503127cc487b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "04f57fda364b50d8d9bca148b06753f99271ab14",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "927fdda5bbc644eca523ae94da4031c69e60fc4a",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "docs/ARCHITECTURE.md",
+        "blob_sha": "886d2ad0b85767c9515212c9160a10b1d7e5378e",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/docs/ARCHITECTURE.md"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/api.py",
+        "blob_sha": "5845be3294c7e8d8b8f7428225d84b781f067dbb",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/api.py"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/capabilities.py",
+        "blob_sha": "5629a8a5bdc2bb744ac2fe32b991402cfd461081",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/capabilities.py"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/providers.py",
+        "blob_sha": "808e6ee38fcf33868444fd29515ae59fef23f483",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/providers.py"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/mcp_server.py",
+        "blob_sha": "20c866fc517dd0aa4d9509c707b18922bca73059",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/mcp_server.py"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/security.py",
+        "blob_sha": "8a931a115cc3838958d71e883d45fefbf8088c49",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/security.py"
+      },
+      {
+        "type": "source_review",
+        "path": "PROJECT_STATE.md",
+        "blob_sha": "561febde1f0738df151687109a0aa09ff1bfc4a6",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/PROJECT_STATE.md"
+      },
+      {
+        "type": "source_review",
+        "path": "src/scraper/router.py",
+        "blob_sha": "344753dce0dc6cb5604cf5e4a2cdf24a4d20a487",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper/blob/a478a729ad771be2d8bcfaccffb6503127cc487b/src/scraper/router.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "HTTP page extraction",
+        "description": "Fetches public pages and extracts normalized text and metadata with content evidence.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:http-page-extraction",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "docs/ARCHITECTURE.md",
+          "src/scraper/api.py",
+          "src/scraper/capabilities.py",
+          "src/scraper/providers.py",
+          "src/scraper/mcp_server.py",
+          "src/scraper/security.py",
+          "PROJECT_STATE.md",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "constrained browser replay",
+        "description": "Runs declared browser actions through a Playwright-backed executor.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:constrained-browser-replay",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "docs/ARCHITECTURE.md",
+          "src/scraper/api.py",
+          "src/scraper/capabilities.py",
+          "src/scraper/providers.py",
+          "src/scraper/mcp_server.py",
+          "src/scraper/security.py",
+          "PROJECT_STATE.md",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "web capability registry",
+        "description": "Stores typed capabilities and trust states in a local registry.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:web-capability-registry",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "docs/ARCHITECTURE.md",
+          "src/scraper/api.py",
+          "src/scraper/capabilities.py",
+          "src/scraper/providers.py",
+          "src/scraper/mcp_server.py",
+          "src/scraper/security.py",
+          "PROJECT_STATE.md",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "MCP and service interfaces",
+        "description": "Exposes web operations and health/verification surfaces through service interfaces.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-and-service-interfaces",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "docs/ARCHITECTURE.md",
+          "src/scraper/api.py",
+          "src/scraper/capabilities.py",
+          "src/scraper/providers.py",
+          "src/scraper/mcp_server.py",
+          "src/scraper/security.py",
+          "PROJECT_STATE.md",
+          "src/scraper/router.py"
+        ]
+      },
+      {
+        "name": "lead intelligence",
+        "description": "Adds web-derived lead signals and service health observations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:lead-intelligence",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml",
+          "docs/ARCHITECTURE.md",
+          "src/scraper/api.py",
+          "src/scraper/capabilities.py",
+          "src/scraper/providers.py",
+          "src/scraper/mcp_server.py",
+          "src/scraper/security.py",
+          "PROJECT_STATE.md",
+          "src/scraper/router.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

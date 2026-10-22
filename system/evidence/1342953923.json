@@ -9,6 +9,10 @@
       "sha": "962e5c7950fb2f63798f1ae7e6b4e491a785888a"
     },
     {
+      "path": "LICENSE",
+      "sha": "5043b3a58af9c1ee101d4f7dec2d527d7ba0b2a4"
+    },
+    {
       "path": "README.md",
       "sha": "e1e069233d0ec2b63d7897baaab409d98b094279"
     },
@@ -17,12 +21,32 @@
       "sha": "2128da1d87dde0edf54589c07b24d19901674fdd"
     },
     {
+      "path": "cmd/fakeagent/main.go",
+      "sha": "84864427090aa5219306fe38ebbf04b3e21a20cf"
+    },
+    {
+      "path": "cmd/genskill/main.go",
+      "sha": "08e1f57da8ce37fad6dadee9e7eac9c85dd15d2b"
+    },
+    {
+      "path": "cmd/no-mistakes/main.go",
+      "sha": "2e1293c6c64384a9fabc3111f709e8866ad23f3c"
+    },
+    {
       "path": "docs/package.json",
       "sha": "7190f6e413e2ace8b62157ebec3c3c94ba51b601"
     },
     {
+      "path": "docs/src/content/docs/guides/agents.md",
+      "sha": "9a9af32faaae663bc2c8f2c05fe496d49541b44e"
+    },
+    {
       "path": "go.mod",
       "sha": "b60891e2a73bb619cebe366311f7e0d13cb87a7e"
+    },
+    {
+      "path": "skills/no-mistakes/SKILL.md",
+      "sha": "e37169fcf7d21d697b403b90da382fc5464285a5"
     }
   ],
   "files_read": [
@@ -50,6 +74,36 @@
       "path": "AGENTS.md",
       "blob_sha": "962e5c7950fb2f63798f1ae7e6b4e491a785888a",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "5043b3a58af9c1ee101d4f7dec2d527d7ba0b2a4",
+      "entities_detected": 0
+    },
+    {
+      "path": "skills/no-mistakes/SKILL.md",
+      "blob_sha": "e37169fcf7d21d697b403b90da382fc5464285a5",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/src/content/docs/guides/agents.md",
+      "blob_sha": "9a9af32faaae663bc2c8f2c05fe496d49541b44e",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/fakeagent/main.go",
+      "blob_sha": "84864427090aa5219306fe38ebbf04b3e21a20cf",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/genskill/main.go",
+      "blob_sha": "08e1f57da8ce37fad6dadee9e7eac9c85dd15d2b",
+      "entities_detected": 0
+    },
+    {
+      "path": "cmd/no-mistakes/main.go",
+      "blob_sha": "2e1293c6c64384a9fabc3111f709e8866ad23f3c",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -65,6 +119,7 @@
     "CHANGELOG.md",
     "CLAUDE.md",
     "CONTRIBUTING.md",
+    "Makefile",
     "VISION.md",
     "cmd/fakeagent/antigravity.go",
     "cmd/fakeagent/antigravity_test.go",
@@ -77,13 +132,10 @@
     "cmd/fakeagent/grok.go",
     "cmd/fakeagent/grok_test.go",
     "cmd/fakeagent/log.go",
-    "cmd/fakeagent/main.go",
     "cmd/fakeagent/opencode.go",
     "cmd/fakeagent/opencode_test.go",
     "cmd/fakeagent/scenario.go",
     "cmd/fakeagent/scenario_test.go",
-    "cmd/genskill/main.go",
-    "cmd/no-mistakes/main.go",
     "cmd/no-mistakes/main_test.go",
     "cmd/recordfixture/antigravity.go",
     "cmd/recordfixture/claude.go",
@@ -100,6 +152,7 @@
     "cmd/recordfixture/scrub_test.go",
     "cmd/recordfixture/sse_capture_test.go",
     "docs/astro.config.mjs",
+    "docs/install.ps1",
     "docs/install.sh",
     "docs/package-lock.json",
     "docs/src/content.config.ts",
@@ -107,12 +160,12 @@
     "docs/src/content/docs/concepts/daemon.md",
     "docs/src/content/docs/concepts/gate-model.md",
     "docs/src/content/docs/concepts/pipeline.md",
-    "docs/src/content/docs/guides/agents.md",
     "docs/src/content/docs/guides/configuration.md",
     "docs/src/content/docs/guides/provider-integration.md",
     "docs/src/content/docs/guides/setup-wizard.md",
     "docs/src/content/docs/guides/troubleshooting.md",
     "docs/src/content/docs/guides/tui.md",
+    "docs/src/content/docs/index.mdx",
     "docs/src/content/docs/reference/cli.md",
     "docs/src/content/docs/reference/environment.md",
     "docs/src/content/docs/reference/eval.md",
@@ -122,6 +175,7 @@
     "docs/src/content/docs/start-here/installation.md",
     "docs/src/content/docs/start-here/introduction.md",
     "docs/src/content/docs/start-here/quick-start.md",
+    "docs/src/styles/custom.css",
     "docs/tsconfig.json",
     "dogfood_test_contract_test.go",
     "install_script_test.go",
@@ -190,8 +244,12 @@
     "scripts": 1,
     "skills": 1
   },
-  "unread_source_paths_count": 717,
+  "unread_source_paths_count": 718,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 19,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

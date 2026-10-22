@@ -5,6 +5,18 @@
   "tree_files": 499,
   "tree_entries": [
     {
+      "path": ".claude-plugin/plugin.json",
+      "sha": "779bd0107387bc340fc2c69860dbef3774ba880d"
+    },
+    {
+      "path": ".copilot-plugin/plugin.json",
+      "sha": "7841d335e822f7724a94452d88b01bd6ecb3a898"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "5df102e8a2e29cdfb881ae7ec5040f2766564680"
+    },
+    {
       "path": "README.md",
       "sha": "04efe8311e3cf56d088ac4c4f3da8378784205d2"
     },
@@ -41,8 +53,36 @@
       "sha": "8198762a00d8adb9700f98aaa5cfe5d1e90ca189"
     },
     {
+      "path": "homepage/package.json",
+      "sha": "eade656f888cf9938f8680bc7b68c5fbef78f584"
+    },
+    {
       "path": "package.json",
       "sha": "9beba876318c4cf407591de79aa0ddb6ec566058"
+    },
+    {
+      "path": "understand-anything-plugin/package.json",
+      "sha": "c27d6b17070050376b497eb1852638d15412a4b6"
+    },
+    {
+      "path": "understand-anything-plugin/packages/core/package.json",
+      "sha": "e34af18abb197834ec89febc44b8a2bf24a59836"
+    },
+    {
+      "path": "understand-anything-plugin/packages/dashboard/package.json",
+      "sha": "41319a4660f0466a97c7cd0362f9e6d3e32eecb4"
+    },
+    {
+      "path": "understand-anything-plugin/packages/tree-sitter-dart-wasm/package.json",
+      "sha": "595b436a4f50a6fd91ce9431c30ebf6584da2730"
+    },
+    {
+      "path": "understand-anything-plugin/packages/tree-sitter-swift-wasm/package.json",
+      "sha": "b94434be7cd03c18393a052f5b28f8541c43b8fd"
+    },
+    {
+      "path": "understand-anything-plugin/packages/viewer/package.json",
+      "sha": "a16a5b3ccfe01466292448c1f17fd9fc55ad7c1c"
     }
   ],
   "files_read": [
@@ -95,12 +135,60 @@
       "path": "homepage/README.md",
       "blob_sha": "8198762a00d8adb9700f98aaa5cfe5d1e90ca189",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "5df102e8a2e29cdfb881ae7ec5040f2766564680",
+      "entities_detected": 0
+    },
+    {
+      "path": "homepage/package.json",
+      "blob_sha": "eade656f888cf9938f8680bc7b68c5fbef78f584",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/package.json",
+      "blob_sha": "c27d6b17070050376b497eb1852638d15412a4b6",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/packages/core/package.json",
+      "blob_sha": "e34af18abb197834ec89febc44b8a2bf24a59836",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/packages/dashboard/package.json",
+      "blob_sha": "41319a4660f0466a97c7cd0362f9e6d3e32eecb4",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/packages/tree-sitter-dart-wasm/package.json",
+      "blob_sha": "595b436a4f50a6fd91ce9431c30ebf6584da2730",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/packages/tree-sitter-swift-wasm/package.json",
+      "blob_sha": "b94434be7cd03c18393a052f5b28f8541c43b8fd",
+      "entities_detected": 0
+    },
+    {
+      "path": "understand-anything-plugin/packages/viewer/package.json",
+      "blob_sha": "a16a5b3ccfe01466292448c1f17fd9fc55ad7c1c",
+      "entities_detected": 0
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "blob_sha": "779bd0107387bc340fc2c69860dbef3774ba880d",
+      "entities_detected": 0
+    },
+    {
+      "path": ".copilot-plugin/plugin.json",
+      "blob_sha": "7841d335e822f7724a94452d88b01bd6ecb3a898",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".claude-plugin/marketplace.json",
-    ".claude-plugin/plugin.json",
-    ".copilot-plugin/plugin.json",
     ".cursor-plugin/plugin.json",
     ".github/ISSUE_TEMPLATE/bug_report.yml",
     ".github/ISSUE_TEMPLATE/config.yml",
@@ -160,8 +248,9 @@
     "homepage/.vscode/extensions.json",
     "homepage/.vscode/launch.json",
     "homepage/astro.config.mjs",
-    "homepage/package.json",
+    "homepage/src/styles/global.css",
     "homepage/tsconfig.json",
+    "install.ps1",
     "install.sh",
     "pnpm-lock.yaml",
     "pnpm-workspace.yaml",
@@ -197,7 +286,8 @@
     "understand-anything-plugin/agents/domain-analyzer.md",
     "understand-anything-plugin/agents/file-analyzer.md",
     "understand-anything-plugin/agents/graph-reviewer.md",
-    "understand-anything-plugin/agents/knowledge-graph-guide.md"
+    "understand-anything-plugin/agents/knowledge-graph-guide.md",
+    "understand-anything-plugin/agents/project-scanner.md"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -264,8 +354,12 @@
     "tests": 19,
     "understand-anything-plugin": 361
   },
-  "unread_source_paths_count": 445,
+  "unread_source_paths_count": 441,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 44,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

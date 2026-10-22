@@ -3,8 +3,100 @@
   "inspected_commit": "5db50b2e93224dda720462f02fc2858cbd112eb5",
   "tree_complete": true,
   "tree_files": 7654,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".devcontainer/codex-install/package.json",
+      "sha": "521e9f1954b35b542c29b0d27cb328514497e7ed"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "4606e72e042564097e8780d66c1d4dcb611869bd"
+    },
+    {
+      "path": "README.md",
+      "sha": "208cb9e278279c5b401088fa0f535606cac92308"
+    },
+    {
+      "path": "codex-cli/package.json",
+      "sha": "7d3a49405d1f3be9af35d3ac2838dd35303a48b6"
+    },
+    {
+      "path": "codex-rs/Cargo.toml",
+      "sha": "45ef11bec6c8bd5c91d03bf1ca8709683677b018"
+    },
+    {
+      "path": "codex-rs/acp-server/Cargo.toml",
+      "sha": "da5e978191c57ef149d36821b3d00f5ae4122632"
+    },
+    {
+      "path": "codex-rs/agent-graph-store/Cargo.toml",
+      "sha": "1bb5ed2699fb0d986efb8740286775d76e76db92"
+    },
+    {
+      "path": "codex-rs/agent-identity/Cargo.toml",
+      "sha": "36d5eb41fd694a9eb283cbd6af4bc0977fa36c80"
+    },
+    {
+      "path": "package.json",
+      "sha": "4e9ac9c2f6665d8602a89548802d32b33766a280"
+    },
+    {
+      "path": "scripts/pyproject.toml",
+      "sha": "4340b6b78e83971e0032a7c90852f02791d3acbf"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "208cb9e278279c5b401088fa0f535606cac92308",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "4e9ac9c2f6665d8602a89548802d32b33766a280",
+      "entities_detected": 0
+    },
+    {
+      "path": "codex-cli/package.json",
+      "blob_sha": "7d3a49405d1f3be9af35d3ac2838dd35303a48b6",
+      "entities_detected": 0
+    },
+    {
+      "path": "codex-rs/Cargo.toml",
+      "blob_sha": "45ef11bec6c8bd5c91d03bf1ca8709683677b018",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/pyproject.toml",
+      "blob_sha": "4340b6b78e83971e0032a7c90852f02791d3acbf",
+      "entities_detected": 0
+    },
+    {
+      "path": ".devcontainer/codex-install/package.json",
+      "blob_sha": "521e9f1954b35b542c29b0d27cb328514497e7ed",
+      "entities_detected": 0
+    },
+    {
+      "path": "codex-rs/acp-server/Cargo.toml",
+      "blob_sha": "da5e978191c57ef149d36821b3d00f5ae4122632",
+      "entities_detected": 0
+    },
+    {
+      "path": "codex-rs/agent-graph-store/Cargo.toml",
+      "blob_sha": "1bb5ed2699fb0d986efb8740286775d76e76db92",
+      "entities_detected": 0
+    },
+    {
+      "path": "codex-rs/agent-identity/Cargo.toml",
+      "blob_sha": "36d5eb41fd694a9eb283cbd6af4bc0977fa36c80",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".codex/environments/environment.toml",
     ".codex/skills/babysit-pr/SKILL.md",
@@ -24,8 +116,9 @@
     ".codex/skills/test-tui/SKILL.md",
     ".codex/skills/update-v8-version/SKILL.md",
     ".codex/skills/update-v8-version/agents/openai.yaml",
+    ".devcontainer/Dockerfile",
+    ".devcontainer/Dockerfile.secure",
     ".devcontainer/README.md",
-    ".devcontainer/codex-install/package.json",
     ".devcontainer/codex-install/pnpm-lock.yaml",
     ".devcontainer/codex-install/pnpm-workspace.yaml",
     ".devcontainer/devcontainer.json",
@@ -48,8 +141,10 @@
     ".github/actions/setup-bazel-ci/action.yml",
     ".github/actions/setup-ci/action.yml",
     ".github/actions/setup-msvc-env/action.yml",
+    ".github/actions/setup-msvc-env/setup-msvc-env.ps1",
     ".github/actions/setup-rusty-v8/action.yml",
     ".github/actions/windows-code-sign/action.yml",
+    ".github/blob-size-allowlist.txt",
     ".github/codex/home/config.toml",
     ".github/codex/labels/codex-attempt.md",
     ".github/codex/labels/codex-review.md",
@@ -66,6 +161,7 @@
     ".github/scripts/build-zsh-release-artifact.sh",
     ".github/scripts/check_ci_results.py",
     ".github/scripts/check_readme_translations.py",
+    ".github/scripts/compute-bazel-windows-path.ps1",
     ".github/scripts/copy-release-notes.sh",
     ".github/scripts/install-musl-build-tools.sh",
     ".github/scripts/macos-signing/notarize_macos_binary_with_akv.sh",
@@ -80,6 +176,7 @@
     ".github/scripts/run_bazel_with_buildbuddy.py",
     ".github/scripts/rusty_v8_bazel.py",
     ".github/scripts/rusty_v8_module_bazel.py",
+    ".github/scripts/setup-dev-drive.ps1",
     ".github/scripts/test_macos_signing_entitlements.py",
     ".github/scripts/test_release_notes.py",
     ".github/scripts/test_release_signing_mode.py",
@@ -100,12 +197,7 @@
     ".github/workflows/codespell.yml",
     ".github/workflows/issue-translator.yml",
     ".github/workflows/postmerge-ci.yml",
-    ".github/workflows/public-ci.yml",
-    ".github/workflows/python-runtime-build.yml",
-    ".github/workflows/python-runtime-release.yml",
-    ".github/workflows/python-sdk-release.yml",
-    ".github/workflows/readme-translations.yml",
-    ".github/workflows/repo-checks.yml"
+    ".github/workflows/public-ci.yml"
   ],
   "excluded_nontext_paths": [
     ".bazelignore",
@@ -232,8 +324,12 @@
     "third_party": 49,
     "tools": 31
   },
-  "unread_source_paths_count": 5835,
+  "unread_source_paths_count": 6374,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 1819,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

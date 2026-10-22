@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/google/skills",
-  "description": "Agent Skills for Google products and technologies",
+  "description": "Collection of agent skills for Google ecosystem products, developer services or productivity workflows; use manifests to identify specific supported tasks.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T20:38:11Z",
-    "github_description": "Agent Skills for Google products and technologies"
+    "github_description": "Agent Skills for Google products and technologies",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
   "current_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
   "inspection_date": "2026-09-20T05:33:22.031649+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:cloud-infrastructure",
-    "category:skills"
+    "category:skills",
+    "category:productivity",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:14",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:01",
     "operational:03"
@@ -302,9 +303,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.029448+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.105116+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -325,9 +327,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 829,
-  "files_read": 805,
+  "files_read": 806,
   "entity_count": 124,
-  "unread_source_files": 0,
+  "unread_source_files": 16,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T18:05:04.695866+00:00",
@@ -364,5 +366,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.159688+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Collection of agent skills for Google ecosystem products, developer services or productivity workflows; use manifests to identify specific supported tasks.",
+    "reuse_recommendation": "Select only relevant skills and verify scopes, API behavior and user authorization.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Check repository and any Google documentation/content reuse terms.",
+    "runtime": [
+      "Markdown skills",
+      "agent host",
+      "Google services/APIs"
+    ],
+    "keywords": [
+      "Google skills",
+      "agent workflows",
+      "Google APIs",
+      "productivity automation",
+      "developer guidance"
+    ],
+    "risk_notes": [
+      "OAuth permissions and user data access require least-privilege handling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Google skill collection",
+        "purpose": "Packages reusable instructions for Google-related tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:19.654821+00:00",
+    "inspected_commit": "1af77752950126ae12dec176a0a3b27a16b7f5f7",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "eb1a2e33ce23210d4390930530360c684fdf6336",
+        "value": "https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Google task skills",
+        "description": "Provides task-specific agent guidance for supported Google services or workflows.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:google-task-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "service integration patterns",
+        "description": "Documents how agent tasks connect to APIs or user-facing services.",
+        "scope": "REFERENCE",
+        "id": "cluster:service-integration-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

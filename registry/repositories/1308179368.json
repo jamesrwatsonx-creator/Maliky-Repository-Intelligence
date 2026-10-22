@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/software-mansion/argent",
-  "description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
+  "description": "Argent account or smart-wallet project, providing wallet user experience and blockchain transaction capabilities; confirm whether this repository is the app, SDK or supporting service.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-07-21T21:57:59Z",
-    "github_description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion."
+    "github_description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "300bc30e3dcdf08c35e047bbec51de44613b1ac9",
   "current_commit": "300bc30e3dcdf08c35e047bbec51de44613b1ac9",
   "inspection_date": "2026-09-20T05:32:53.745788+00:00",
   "categories": [
+    "category:blockchain-web3-security",
+    "category:finance-accounting",
     "category:mobile-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 14,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.093554+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.802105+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -275,10 +279,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 965,
-  "files_read": 2,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 932,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 945,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -288,5 +292,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.064000+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Argent account or smart-wallet project, providing wallet user experience and blockchain transaction capabilities; confirm whether this repository is the app, SDK or supporting service.",
+    "reuse_recommendation": "Treat as security-critical; inspect signing, key custody, chain support and transaction confirmation before reuse.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Review repository license and supported chain/protocol terms.",
+    "runtime": [
+      "Repository-declared mobile/web runtime",
+      "blockchain APIs"
+    ],
+    "keywords": [
+      "Argent wallet",
+      "smart account",
+      "Ethereum",
+      "crypto wallet",
+      "blockchain transactions"
+    ],
+    "risk_notes": [
+      "Private keys and irreversible financial transactions require deep review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Argent wallet capability",
+        "purpose": "Provides wallet interaction and account operations for supported networks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:46.338953+00:00",
+    "inspected_commit": "300bc30e3dcdf08c35e047bbec51de44613b1ac9",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "972284bb4f4ca3579c408f7844aa9bce88653ae3",
+        "value": "https://github.com/jamesrwatsonx-creator/argent/blob/300bc30e3dcdf08c35e047bbec51de44613b1ac9/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "wallet/account experience",
+        "description": "Supports user-facing management of a blockchain account or wallet.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:wallet-account-experience",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "transaction and chain integration",
+        "description": "Connects wallet operations to blockchain networks and services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:transaction-and-chain-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

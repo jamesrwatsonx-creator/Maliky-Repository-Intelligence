@@ -11,13 +11,14 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/robonuggets/gauntlet-loop",
-  "description": "Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins.",
+  "description": "Agent skill compiling a goal and concrete quality reference into a portable execution prompt with decomposed work, independent criticism and iterative benchmark comparison.",
   "metadata": {
     "language": null,
     "license": "CC-BY-4.0",
     "archived": false,
     "pushed_at": "2026-08-05T22:30:54Z",
-    "github_description": "Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins."
+    "github_description": "Turn any goal into a short prompt that makes your agent set a real quality bar, run builder and critic pairs, compare blind, and loop until it wins.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "9b1975a1b8f01981f3f1e6b667ad3aaf907178ea",
@@ -324,9 +325,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.943764+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.012072+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -390,5 +392,113 @@
     ],
     "updated_at": "2026-10-12T19:04:27.148147+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Agent skill compiling a goal and concrete quality reference into a portable execution prompt with decomposed work, independent criticism and iterative benchmark comparison.",
+    "reuse_recommendation": "Use the prompt-generation skill; the executing host must supply agents, tools, permissions and real evaluation evidence.",
+    "inspection_scope": "One complete local skill plus README/license/banner. The skill produces a compact execution prompt from a concrete fetchable quality reference, independent builder/critic comparison and iterative improvement. It is an instruction asset, not an implemented orchestrator or autonomous runtime. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "MIT; check source-specific notices and external dependencies.",
+    "runtime": [
+      "Markdown skill"
+    ],
+    "keywords": [
+      "gauntlet-loop",
+      "quality-bar prompt compilation",
+      "builder-critic iteration",
+      "Markdown skill"
+    ],
+    "risk_notes": [
+      "Instruction/reference inventory only; no external source, model or runtime was executed or verified."
+    ],
+    "important_subsystems": [
+      {
+        "name": "quality-bar prompt compilation",
+        "purpose": "Turn a concrete goal/reference into a compact execution contract.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      },
+      {
+        "name": "builder-critic iteration",
+        "purpose": "Specify independent construction, criticism and comparison until a stated bar is met.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:41.423822+00:00",
+    "inspected_commit": "9b1975a1b8f01981f3f1e6b667ad3aaf907178ea",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "35aec3392eaf04591ca1c7c6c2e6e35322a944ae",
+        "value": "https://github.com/jamesrwatsonx-creator/gauntlet-loop/blob/9b1975a1b8f01981f3f1e6b667ad3aaf907178ea/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+        "value": "https://github.com/jamesrwatsonx-creator/gauntlet-loop/blob/9b1975a1b8f01981f3f1e6b667ad3aaf907178ea/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": ".claude/skills/gauntlet-loop/SKILL.md",
+        "blob_sha": "5c33caa59ceeb553a064b952054a0112162e5a92",
+        "value": "https://github.com/jamesrwatsonx-creator/gauntlet-loop/blob/9b1975a1b8f01981f3f1e6b667ad3aaf907178ea/.claude/skills/gauntlet-loop/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "quality-bar prompt compilation",
+        "description": "Turn a concrete goal/reference into a compact execution contract.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:quality-bar-prompt-compilation",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      },
+      {
+        "name": "builder-critic iteration",
+        "description": "Specify independent construction, criticism and comparison until a stated bar is met.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:builder-critic-iteration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          ".claude/skills/gauntlet-loop/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/frappe/erpnext",
-  "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "description": "Open-source ERP system covering accounting, inventory, sales, purchasing, manufacturing, projects and human resources.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-14T09:55:50Z",
-    "github_description": "Free and Open Source Enterprise Resource Planning (ERP)"
+    "github_description": "Free and Open Source Enterprise Resource Planning (ERP)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "97a93b4fd229b77d39adde31e1ff317ba7f60b23",
   "current_commit": "97a93b4fd229b77d39adde31e1ff317ba7f60b23",
   "inspection_date": "2026-10-20T23:54:48.108087+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:finance-accounting",
+    "category:manufacturing"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.751641+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.658177+00:00",
   "tree_files": 5821,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 5455,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 5579,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source ERP system covering accounting, inventory, sales, purchasing, manufacturing, projects and human resources.",
+    "reuse_recommendation": "Use for ERP workflows after mapping accounting, tax, access and migration requirements.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "GPL-3.0; integrations and extensions may have separate terms.",
+    "runtime": [
+      "Python/Frappe",
+      "MariaDB",
+      "Redis",
+      "web application"
+    ],
+    "keywords": [
+      "ERPNext",
+      "ERP",
+      "accounting",
+      "inventory",
+      "manufacturing"
+    ],
+    "risk_notes": [
+      "Financial, employee and customer data are highly sensitive; business workflows are consequential."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ERPNext business suite",
+        "purpose": "Provides an integrated system for core business operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:45.069206+00:00",
+    "inspected_commit": "97a93b4fd229b77d39adde31e1ff317ba7f60b23",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "bb7a8bc2c33033e506dc5c15469aaacfe31ceee5",
+        "value": "https://github.com/jamesrwatsonx-creator/erpnext/blob/97a93b4fd229b77d39adde31e1ff317ba7f60b23/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "finance and accounting",
+        "description": "Manages ledgers, invoices, payments and business reporting.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:finance-and-accounting",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "inventory, sales and procurement",
+        "description": "Coordinates stock, customer orders and supplier purchasing.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:inventory-sales-and-procurement",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "manufacturing and workforce operations",
+        "description": "Supports production planning, projects and HR workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:manufacturing-and-workforce-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

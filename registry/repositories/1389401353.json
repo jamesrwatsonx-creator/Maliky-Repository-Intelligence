@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API.",
+  "upstream_url": "https://github.com/praw-dev/praw",
+  "description": "Python wrapper for Reddit's API, covering authenticated access to communities, submissions, comments and account functions.",
   "metadata": {
     "language": null,
     "license": "BSD-2-Clause",
     "archived": false,
     "pushed_at": "2026-09-25T09:10:05Z",
-    "github_description": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API."
+    "github_description": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b04ac4694d77e1fd3ea4bd51a9996573d9becec4",
+  "current_commit": "b04ac4694d77e1fd3ea4bd51a9996573d9becec4",
+  "inspection_date": "2026-10-22T02:31:34.736392+00:00",
   "categories": [
-    "category:apis"
+    "category:sdks-client-libraries",
+    "category:research-projects"
   ],
   "operational_category": "operational:12",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.881637+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.006968+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.261261+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1048,
+  "files_read": 10,
+  "unread_source_files": 1015,
+  "repository_intelligence": {
+    "purpose": "Python wrapper for Reddit's API, covering authenticated access to communities, submissions, comments and account functions.",
+    "reuse_recommendation": "Use for Reddit integrations; confirm current API terms, rate limits and access requirements.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "MIT license identified in repository.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "Reddit API",
+      "Python SDK",
+      "submissions",
+      "comments",
+      "community integration"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PRAW client library",
+        "purpose": "Provides authenticated Reddit API access from Python applications.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:28.759858+00:00",
+    "inspected_commit": "b04ac4694d77e1fd3ea4bd51a9996573d9becec4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "9142d2cba2efe742bcec79f824b4128a38d13495",
+        "value": "https://github.com/jamesrwatsonx-creator/praw/blob/b04ac4694d77e1fd3ea4bd51a9996573d9becec4/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Reddit API client",
+        "description": "Python interface for reading and managing Reddit resources through its API.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reddit-api-client",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

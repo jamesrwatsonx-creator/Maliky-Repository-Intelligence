@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/witt3rd/oh-my-hermes",
-  "description": "Oh My Hermes (OMH) — Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives.",
+  "description": "Hermes-native multi-agent orchestration skill suite for consensus planning, requirements interviews and evidence-checked execution, with an optional plugin.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-05T12:34:16Z",
-    "github_description": "Oh My Hermes (OMH) — Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives."
+    "github_description": "Oh My Hermes (OMH) — Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "2a98d38b43010a438b316fb48dbe68a3c8ee8fed",
   "current_commit": "2a98d38b43010a438b316fb48dbe68a3c8ee8fed",
   "inspection_date": "2026-09-20T05:34:11.969769+00:00",
   "categories": [
+    "category:skills",
     "category:ai-agents",
-    "category:libraries-packages",
-    "category:skills"
+    "category:ai-orchestration"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -50,7 +51,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 10,
@@ -295,11 +296,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.653736+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.824069+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -322,7 +324,7 @@
   "files_read": 116,
   "entity_count": 11,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -341,5 +343,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.235681+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Hermes-native multi-agent orchestration skill suite for consensus planning, requirements interviews and evidence-checked execution, with an optional plugin.",
+    "reuse_recommendation": "Strong shared workflow candidate; review hook effects, state isolation and evidence integrity before installing into Hermes.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE; Hermes host terms apply.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "Oh My Hermes",
+      "multi-agent orchestration",
+      "consensus planning",
+      "requirements interview",
+      "verified execution"
+    ],
+    "risk_notes": [
+      "Hooks and shared state affect agent execution; verify concurrency, trust and rollback behavior."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Hermes orchestration skills",
+        "purpose": "Provides composable planning and execution instructions for Hermes agents.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:42.640724+00:00",
+    "inspected_commit": "2a98d38b43010a438b316fb48dbe68a3c8ee8fed",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a9c43ebf7e085395cf8f86bd9af0a70fe264b8d1",
+        "value": "https://github.com/jamesrwatsonx-creator/oh-my-hermes/blob/2a98d38b43010a438b316fb48dbe68a3c8ee8fed/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "consensus planning",
+        "description": "Coordinates agent perspectives into an agreed plan.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:consensus-planning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "requirements interviewing",
+        "description": "Guides structured discovery before agent execution.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:requirements-interviewing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "verified execution plugin",
+        "description": "Adds hook-based roles, state handling and evidence collection to Hermes workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:verified-execution-plugin",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

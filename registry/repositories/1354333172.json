@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Gitlawb/openclaude",
-  "description": "runs anywhere. uses anything",
+  "description": "Open-source interface or runtime for Claude-compatible AI assistance, enabling conversational access or tool workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-02T00:15:38Z",
-    "github_description": "runs anywhere. uses anything"
+    "github_description": "runs anywhere. uses anything",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "aceacf0e590a7d84447a8c44f3aa61eba781a542",
   "current_commit": "aceacf0e590a7d84447a8c44f3aa61eba781a542",
   "inspection_date": "2026-09-20T05:35:45.748146+00:00",
   "categories": [
-    "category:general-other"
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:developer-tools"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.742336+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.866093+00:00",
   "tree_files": 3444,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 3354,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3353,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.242997+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Open-source interface or runtime for Claude-compatible AI assistance, enabling conversational access or tool workflows.",
+    "reuse_recommendation": "Verify model compatibility, authentication and data retention before connecting real conversations.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license and Anthropic/API provider terms.",
+    "runtime": [
+      "Repository-declared app runtime",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "OpenClaude",
+      "Claude-compatible assistant",
+      "AI chat",
+      "LLM client",
+      "agent tools"
+    ],
+    "risk_notes": [
+      "Prompt and conversation data may be transmitted to external providers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "OpenClaude client",
+        "purpose": "Packages an accessible application experience for supported language models.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:20.671050+00:00",
+    "inspected_commit": "aceacf0e590a7d84447a8c44f3aa61eba781a542",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a5e286186fb756e75c2c87c0bde2724193b1a193",
+        "value": "https://github.com/jamesrwatsonx-creator/openclaude/blob/aceacf0e590a7d84447a8c44f3aa61eba781a542/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "conversational assistant interface",
+        "description": "Provides a chat workflow for model-powered responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:conversational-assistant-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model/API integration",
+        "description": "Connects the interface to a Claude-compatible backend.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-api-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

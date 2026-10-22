@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/balzack/databag",
-  "description": "fast & lightweight self-hosted messenger",
+  "description": "Messaging application emphasizing encrypted communication and private chat between users or devices.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-06-14T11:45:27Z",
-    "github_description": "fast & lightweight self-hosted messenger"
+    "github_description": "fast & lightweight self-hosted messenger",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "45343338582b394f4f5fdb4b7e271ea1dc8dd5fd",
   "current_commit": "45343338582b394f4f5fdb4b7e271ea1dc8dd5fd",
   "inspection_date": "2026-10-20T23:53:21.688173+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:privacy",
+    "category:message-event-systems",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,107 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.596271+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.430051+00:00",
   "tree_files": 1500,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1113,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1146,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Messaging application emphasizing encrypted communication and private chat between users or devices.",
+    "reuse_recommendation": "Do not rely on security claims without auditing protocol design, key management and threat model.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and cryptographic implementation claims.",
+    "runtime": [
+      "Repository-declared backend/web runtime",
+      "cryptographic libraries"
+    ],
+    "keywords": [
+      "Databag",
+      "encrypted chat",
+      "private messaging",
+      "end-to-end encryption",
+      "secure communication"
+    ],
+    "risk_notes": [
+      "Private messages and cryptographic key handling are high-sensitivity surfaces."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Databag messaging system",
+        "purpose": "Combines chat UX with privacy-focused communication infrastructure.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:16.313838+00:00",
+    "inspected_commit": "45343338582b394f4f5fdb4b7e271ea1dc8dd5fd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5d1df0a4b6cf14a5d95d0d9a8cd999c003da0c7a",
+        "value": "https://github.com/jamesrwatsonx-creator/databag---encrypted-chat-interface-/blob/45343338582b394f4f5fdb4b7e271ea1dc8dd5fd/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "private messaging interface",
+        "description": "Provides user flows for exchanging messages and managing conversations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:private-messaging-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "encrypted message transport/storage",
+        "description": "Applies cryptographic protections to messaging data as documented by the project.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:encrypted-message-transport-storage",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted communication service",
+        "description": "Supports deployment and account management for private chat.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-communication-service",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

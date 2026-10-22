@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/InvoicePlane/InvoicePlane",
-  "description": "A self-hosted open source application for managing your invoices, clients and payments.",
+  "description": "Self-hosted invoicing and client management application for estimates, invoices, payments and basic business administration.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T07:29:23Z",
-    "github_description": "A self-hosted open source application for managing your invoices, clients and payments."
+    "github_description": "A self-hosted open source application for managing your invoices, clients and payments.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "32b92f8105654d9d7cc2c739b9fd9da8eb15a228",
   "current_commit": "32b92f8105654d9d7cc2c739b9fd9da8eb15a228",
   "inspection_date": "2026-10-20T23:56:06.891519+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:finance-accounting",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.246816+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.348831+00:00",
   "tree_files": 624,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 504,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 541,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted invoicing and client management application for estimates, invoices, payments and basic business administration.",
+    "reuse_recommendation": "Evaluate for small-business billing workflows after verifying maintenance, tax rules and payment integrations.",
+    "inspection_scope": "Bounded review of pinned README, language/package manifests and selected project metadata; repository capability clusters only, not exhaustive internal entity extraction.",
+    "license_notes": "Check repository license and payment provider terms.",
+    "runtime": [
+      "PHP",
+      "web server",
+      "relational database"
+    ],
+    "keywords": [
+      "InvoicePlane",
+      "invoicing",
+      "estimates",
+      "client management",
+      "self-hosted billing"
+    ],
+    "risk_notes": [
+      "Customer PII, financial records and payment data require security and compliance review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "InvoicePlane business application",
+        "purpose": "Combines client records with invoicing and payment workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:33:21.956365+00:00",
+    "inspected_commit": "32b92f8105654d9d7cc2c739b9fd9da8eb15a228",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3a9fe371d4994e3408d43b9346527c452a5e3c7f",
+        "value": "https://github.com/jamesrwatsonx-creator/InvoicePlane/blob/32b92f8105654d9d7cc2c739b9fd9da8eb15a228/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "invoices and estimates",
+        "description": "Creates and manages customer estimates and invoices.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:invoices-and-estimates",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "client and payment records",
+        "description": "Tracks customer details and payment status.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:client-and-payment-records",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "business administration",
+        "description": "Provides a self-hosted interface for routine billing operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

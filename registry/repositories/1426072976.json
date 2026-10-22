@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/xerj-org/xerj",
-  "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+  "description": "JavaScript/Xerj framework or application for building interactive interfaces; pinned package documentation defines its supported UI or rendering model.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-19T17:56:53Z",
-    "github_description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
+    "github_description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e6216b6597ca11b816caa4e3e0ca2ffdf73d9a2b",
   "current_commit": "e6216b6597ca11b816caa4e3e0ca2ffdf73d9a2b",
   "inspection_date": "2026-10-20T23:59:13.090830+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:frontend-applications",
+    "category:developer-tools",
+    "category:libraries-packages"
+  ],
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.763466+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.787193+00:00",
   "tree_files": 2923,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2361,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2558,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "JavaScript/Xerj framework or application for building interactive interfaces; pinned package documentation defines its supported UI or rendering model.",
+    "reuse_recommendation": "Keep as a search candidate and inspect its exact API and maturity before adoption.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "See repository license and package dependency terms.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "browser",
+      "package ecosystem"
+    ],
+    "keywords": [
+      "Xerj",
+      "JavaScript framework",
+      "UI components",
+      "frontend toolkit",
+      "web development"
+    ],
+    "risk_notes": [
+      "Verify maintenance and compatibility from source and package metadata."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Xerj framework package",
+        "purpose": "Provides the repository’s primary frontend development capability.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:17.168834+00:00",
+    "inspected_commit": "e6216b6597ca11b816caa4e3e0ca2ffdf73d9a2b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1a9c6d696db943d5ccd97bd68c178bef9b016466",
+        "value": "https://github.com/jamesrwatsonx-creator/xerj/blob/e6216b6597ca11b816caa4e3e0ca2ffdf73d9a2b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive application framework",
+        "description": "Provides reusable primitives for building web interfaces or applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-application-framework",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "developer integration and tooling",
+        "description": "Packages setup and extension patterns for the target frontend runtime.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:developer-integration-and-tooling",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

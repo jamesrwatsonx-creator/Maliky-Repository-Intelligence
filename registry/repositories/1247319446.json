@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/microsoft/graphrag",
-  "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+  "description": "Microsoft GraphRAG toolkit for extracting knowledge graphs from text corpora and performing global or local retrieval-augmented question answering.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-19T22:28:07Z",
-    "github_description": "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+    "github_description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "de531f0a697d2f35c4f85cb8511141507278404e",
   "current_commit": "de531f0a697d2f35c4f85cb8511141507278404e",
   "inspection_date": "2026-09-20T05:32:29.631513+00:00",
   "categories": [
-    "category:ai-memory"
+    "category:rag",
+    "category:knowledge-graphs",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.048018+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.126113+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 893,
-  "files_read": 4,
+  "files_read": 11,
   "entity_count": 2,
-  "unread_source_files": 721,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 779,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.162821+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Microsoft GraphRAG toolkit for extracting knowledge graphs from text corpora and performing global or local retrieval-augmented question answering.",
+    "reuse_recommendation": "Use for graph-structured corpus exploration; assess indexing cost, citation fidelity and source privacy.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "MIT; model provider and source corpus terms are separate.",
+    "runtime": [
+      "Python",
+      "LLM/embedding providers",
+      "vector and graph data"
+    ],
+    "keywords": [
+      "GraphRAG",
+      "knowledge graph RAG",
+      "global search",
+      "document corpus",
+      "LLM retrieval"
+    ],
+    "risk_notes": [
+      "Source documents may be sent to model providers; generated answers require source verification."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GraphRAG indexing and query pipeline",
+        "purpose": "Turns text collections into graph-informed retrieval experiences.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:43.781975+00:00",
+    "inspected_commit": "de531f0a697d2f35c4f85cb8511141507278404e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b17d46fdaff576147051eedef932d5992392bbe7",
+        "value": "https://github.com/jamesrwatsonx-creator/graphrag/blob/de531f0a697d2f35c4f85cb8511141507278404e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "graph extraction and indexing",
+        "description": "Builds entity and relationship graphs from a document collection.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:graph-extraction-and-indexing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "global and local question answering",
+        "description": "Combines graph context and source evidence for corpus queries.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:global-and-local-question-answering",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "indexing workflows and evaluation",
+        "description": "Provides configurable pipeline stages and output analysis.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:indexing-workflows-and-evaluation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

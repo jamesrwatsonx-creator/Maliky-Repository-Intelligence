@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ktorio/ktor",
-  "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+  "description": "Kotlin/Ktor integration or sample project for connecting server applications to Firebase services.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T13:46:20Z",
-    "github_description": "Framework for quickly creating connected applications in Kotlin with minimal effort"
+    "github_description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "ef92e5537d7465961f1b3f2b21e217fc35bcfa1f",
   "current_commit": "ef92e5537d7465961f1b3f2b21e217fc35bcfa1f",
   "inspection_date": "2026-09-20T05:33:13.850541+00:00",
   "categories": [
-    "category:general-other"
+    "category:sdks-client-libraries",
+    "category:backend-services",
+    "category:reference-implementations"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.819669+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.736212+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 3028,
-  "files_read": 10,
+  "files_read": 17,
   "entity_count": 0,
-  "unread_source_files": 2591,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2635,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.135690+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Kotlin/Ktor integration or sample project for connecting server applications to Firebase services.",
+    "reuse_recommendation": "Use as an integration reference and protect service account credentials outside client code.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository license and Firebase service terms.",
+    "runtime": [
+      "Kotlin/JVM",
+      "Ktor",
+      "Firebase APIs"
+    ],
+    "keywords": [
+      "Firebase Ktor",
+      "Kotlin server",
+      "Firebase Admin SDK",
+      "backend integration",
+      "service authentication"
+    ],
+    "risk_notes": [
+      "Firebase credentials and security rules are sensitive and must be least-privilege."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Ktor Firebase integration",
+        "purpose": "Provides a server-side pattern for Firebase-backed Kotlin services.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:18.396928+00:00",
+    "inspected_commit": "ef92e5537d7465961f1b3f2b21e217fc35bcfa1f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b5a1256f25298735e38b03d8e19bf0b72edf02da",
+        "value": "https://github.com/jamesrwatsonx-creator/Firebase-ktor/blob/ef92e5537d7465961f1b3f2b21e217fc35bcfa1f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Ktor backend integration",
+        "description": "Connects Kotlin server routes and services to Firebase capabilities.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ktor-backend-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "authentication and data services",
+        "description": "Demonstrates access to Firebase identity or data APIs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:authentication-and-data-services",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,25 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ShawnPana/phone-harness",
-  "description": "let your agent control your phone",
+  "description": "Agent-control toolkit for operating real iOS and Android phones through screen observation, taps, typing and text discovery using desktop or cloud bridges.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-14T01:18:17Z",
-    "github_description": "let your agent control your phone"
+    "github_description": "let your agent control your phone",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
   "current_commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
   "inspection_date": "2026-10-20T23:51:47.914421+00:00",
   "categories": [
-    "category:automation-scripting",
-    "category:cli-tools",
-    "category:developer-tools",
     "category:mobile-applications",
-    "category:plugins-extensions",
-    "category:skills"
+    "category:developer-tools",
+    "category:ai-agents"
   ],
   "operational_category": "operational:06",
   "secondary_operational_categories": [],
@@ -45,7 +43,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -346,9 +344,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.839860+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.964956+00:00",
   "tree_files": 46,
   "files_read": 44,
   "entity_count": 5,
@@ -375,5 +374,144 @@
       "backend-specific transport internals"
     ],
     "scoped_deep_review": "Privileged-device and arbitrary-execution trigger reviewed narrowly. The runtime can observe and operate real or hosted phones, while its CLI and Hermes tool run caller/model-supplied Python. Hermes requests approval by default and scrubs likely credential variables, but classifier-only auto-run is opt-in and heuristic."
+  },
+  "repository_intelligence": {
+    "purpose": "Agent-control toolkit for operating real iOS and Android phones through screen observation, taps, typing and text discovery using desktop or cloud bridges.",
+    "reuse_recommendation": "Strong mobile automation candidate; use a dedicated test device and review screenshots, account access, cloud routing and destructive tap boundaries.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Python",
+      "agent-host skill",
+      "iPhone Mirroring",
+      "Android ADB",
+      "Phone Harness Cloud"
+    ],
+    "keywords": [
+      "phone automation",
+      "iOS mirroring",
+      "Android ADB",
+      "mobile agent control",
+      "screen taps typing"
+    ],
+    "risk_notes": [
+      "Controls real devices and may access private apps/accounts; isolate test accounts and require confirmation for consequential actions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "phone control service",
+        "purpose": "Coordinates screen capture, text finding and device actions.",
+        "evidence_paths": [
+          "README.md",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "Hermes integration",
+        "purpose": "Connects Hermes agent workflows to phone control.",
+        "evidence_paths": [
+          "integrations/hermes/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:44.700759+00:00",
+    "inspected_commit": "8ad9a8b764c59a4bebe2a50ca457e50e557ee550",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c40595784da3a28ecb8d190728d6fe2e93bceaa5",
+        "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "4eb6ede56ee2d34e9be743aff48f35477c28bad0",
+        "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "32a69273317d5eedd4311526009399c86fece336",
+        "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "SKILL.md",
+        "blob_sha": "686db853580ac3766a5d0beedd4070a4016aa90e",
+        "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "integrations/hermes/README.md",
+        "blob_sha": "e7c12dc9e02b8bdc3fb11d95f03e01014448ae23",
+        "value": "https://github.com/jamesrwatsonx-creator/phone-harness/blob/8ad9a8b764c59a4bebe2a50ca457e50e557ee550/integrations/hermes/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "mobile device control",
+        "description": "Lets an agent observe a phone screen and perform tap and typing actions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mobile-device-control",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "integrations/hermes/README.md"
+        ]
+      },
+      {
+        "name": "iOS and Android bridges",
+        "description": "Connects desktop agent hosts to iPhone Mirroring, Android ADB or cloud devices.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ios-and-android-bridges",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "integrations/hermes/README.md"
+        ]
+      },
+      {
+        "name": "agent integration skill",
+        "description": "Packages host instructions and integration guidance for phone-control workflows.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-integration-skill",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "SKILL.md",
+          "integrations/hermes/README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

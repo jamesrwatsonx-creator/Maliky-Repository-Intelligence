@@ -1,6 +1,6 @@
 # AI Agents / Agent Frameworks — page 4
 
-1,533 catalog entries · Sorted alphabetically by name · Page 4 of 11.
+1,556 catalog entries · Sorted alphabetically by name · Page 4 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/Breakthrough/PySceneDetect",
-  "description": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library.",
+  "description": "Python and CLI toolkit for detecting scene boundaries and splitting video into shots using visual content analysis.",
   "metadata": {
     "language": null,
     "license": "BSD-3-Clause",
     "archived": false,
     "pushed_at": "2026-10-18T01:29:29Z",
-    "github_description": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library."
+    "github_description": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8cbc6e2be16e1c91e7f41b1ea767ce6892da2aae",
   "current_commit": "8cbc6e2be16e1c91e7f41b1ea767ce6892da2aae",
   "inspection_date": "2026-10-20T23:59:17.616299+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:libraries-packages",
+    "category:cli-tools"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,106 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.932752+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.028984+00:00",
   "tree_files": 204,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 143,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 152,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Python and CLI toolkit for detecting scene boundaries and splitting video into shots using visual content analysis.",
+    "reuse_recommendation": "Use as a media-analysis building block; tune detection thresholds and validate cuts on target footage.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "BSD-3-Clause; detector dependencies have their own terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "PySceneDetect",
+      "video scene detection",
+      "shot boundaries",
+      "content-aware splitting",
+      "OpenCV"
+    ],
+    "risk_notes": [
+      "Processes local video and may use substantial compute; protect source media and review generated cuts."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PySceneDetect toolkit",
+        "purpose": "Analyzes video and produces scene boundaries for editing workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:54.848370+00:00",
+    "inspected_commit": "8cbc6e2be16e1c91e7f41b1ea767ce6892da2aae",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "1e4c9582558181b0fc974546e3279344f1401adc",
+        "value": "https://github.com/jamesrwatsonx-creator/PySceneDetect/blob/8cbc6e2be16e1c91e7f41b1ea767ce6892da2aae/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "video scene detection",
+        "description": "Finds scene changes and shot boundaries in video files.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-scene-detection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "video splitting workflow",
+        "description": "Exports detected scenes as separate clips or time ranges.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-splitting-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Python and CLI integration",
+        "description": "Exposes detection through reusable Python APIs and command-line tools.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:python-and-cli-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

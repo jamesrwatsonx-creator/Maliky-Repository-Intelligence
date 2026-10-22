@@ -2,7 +2,7 @@
 
 Business systems, CRM, sales, marketing and commerce tools.
 
-**1,422 entries** · Alphabetical · 10 pages.
+**1,482 entries** · Alphabetical · 10 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

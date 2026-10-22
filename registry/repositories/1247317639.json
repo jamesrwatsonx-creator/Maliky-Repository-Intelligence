@@ -11,27 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/TauricResearch/TradingAgents",
-  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "description": "Multi-agent LLM framework that simulates financial analyst and trader roles for stock-market research and decision analysis.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-05-17T07:54:07Z",
-    "github_description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    "github_description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
   "current_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
   "inspection_date": "2026-09-20T05:32:28.501770+00:00",
   "categories": [
-    "category:agent-frameworks",
     "category:ai-agents",
-    "category:ai-memory",
-    "category:ai-orchestration",
     "category:finance-accounting",
-    "category:llm-projects"
+    "category:research-projects"
   ],
-  "operational_category": "operational:03",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [
     "operational:15"
   ],
@@ -62,7 +60,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE AS LIBRARY",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -313,9 +311,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.403615+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.422834+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -335,9 +334,9 @@
     "unverified_source_files": 0
   },
   "tree_files": 116,
-  "files_read": 96,
+  "files_read": 97,
   "entity_count": 30,
-  "unread_source_files": 0,
+  "unread_source_files": 3,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-12T18:14:59.055602+00:00",
@@ -413,5 +412,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.305752+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Multi-agent LLM framework that simulates financial analyst and trader roles for stock-market research and decision analysis.",
+    "reuse_recommendation": "Research prototype only until order execution, provider data quality and risk assumptions are verified; do not use for live trades.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "See repository LICENSE; model/data provider terms apply.",
+    "runtime": [
+      "Python",
+      "LLM provider APIs",
+      "financial data sources"
+    ],
+    "keywords": [
+      "TradingAgents",
+      "multi-agent finance",
+      "stock analysis",
+      "analyst trader agents",
+      "market research"
+    ],
+    "risk_notes": [
+      "Financial decisions and any execution surface require review of credentials, model reliability and loss controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "TradingAgents framework",
+        "purpose": "Coordinates role-based agent analysis and decision synthesis.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:42.120918+00:00",
+    "inspected_commit": "61522e103e61601c553b4544abcd53fa7ebf9f1d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0bba01b8fc039ce4d58677da198eae72c5a428c8",
+        "value": "https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-agent financial analysis",
+        "description": "Coordinates specialist agent roles to research market and company information.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-agent-financial-analysis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "trading decision debate",
+        "description": "Structures analyst and trader perspectives into an investment decision workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:trading-decision-debate",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "market data integration",
+        "description": "Uses external information sources as inputs to agent analysis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:market-data-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

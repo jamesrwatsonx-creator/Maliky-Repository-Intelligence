@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/chrisbanes/haze",
-  "description": "Background blurring for Compose Multiplatform / Jetpack Compose",
+  "description": "Android UI library or sample for adding motion blur, haze or visual transition effects to Compose interfaces.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-20T13:33:20Z",
-    "github_description": "Background blurring for Compose Multiplatform / Jetpack Compose"
+    "github_description": "Background blurring for Compose Multiplatform / Jetpack Compose",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "d0e7c97fac6623b194a2ec61d8c23526865ca175",
   "current_commit": "d0e7c97fac6623b194a2ec61d8c23526865ca175",
   "inspection_date": "2026-09-20T05:33:11.071716+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:mobile-applications",
+    "category:creative-tools",
+    "category:reference-implementations"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.029722+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.737974+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +281,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1299,
-  "files_read": 22,
+  "files_read": 28,
   "entity_count": 2,
-  "unread_source_files": 385,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 550,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +294,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.054918+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android UI library or sample for adding motion blur, haze or visual transition effects to Compose interfaces.",
+    "reuse_recommendation": "Use selectively and test GPU cost, accessibility and target API support.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and Android API requirements.",
+    "runtime": [
+      "Kotlin",
+      "Android",
+      "Jetpack Compose"
+    ],
+    "keywords": [
+      "Android motion haze",
+      "Jetpack Compose",
+      "blur effects",
+      "UI animation",
+      "visual effects"
+    ],
+    "risk_notes": [
+      "Heavy blur effects can affect performance and legibility."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Motion haze UI component",
+        "purpose": "Packages Android visual effects as reusable UI behavior.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:13.567479+00:00",
+    "inspected_commit": "d0e7c97fac6623b194a2ec61d8c23526865ca175",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "539de4d9876c52dda0035d581d5fc51a9d764886",
+        "value": "https://github.com/jamesrwatsonx-creator/Android-motion-haze/blob/d0e7c97fac6623b194a2ec61d8c23526865ca175/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Compose visual effects",
+        "description": "Adds haze or blur treatments to Android UI elements.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compose-visual-effects",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "motion and transitions",
+        "description": "Demonstrates animated visual behavior for interface states.",
+        "scope": "REFERENCE",
+        "id": "cluster:motion-and-transitions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

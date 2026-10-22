@@ -11,7 +11,7 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/android/architecture-templates",
-  "description": "Documentation branch indexing Google's base and multimodule Android architecture starter branches; implementation code is not present in this pinned tree.",
+  "description": "Documentation branch indexing Google's base and multimodule Android architecture starter branches; actual starter application code is not in this pinned tree.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
@@ -325,9 +325,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.024431+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.098113+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -392,5 +393,113 @@
     ],
     "updated_at": "2026-10-12T19:04:27.158561+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Documentation branch indexing Google's base and multimodule Android architecture starter branches; actual starter application code is not in this pinned tree.",
+    "reuse_recommendation": "Follow the implementation branch links and pin that source separately when selecting a starter.",
+    "inspection_scope": "The complete seven-file tree contains documentation, packaging/renovation metadata, license and screenshots. README references base/multimodule branches and their customizer scripts, but those implementation files are absent at this inspected commit. Retain a branch-discovery reference rather than asserting local template code. Repository-level summary; detailed records remain unchanged.",
+    "license_notes": "Apache-2.0",
+    "runtime": [
+      "Markdown branch index"
+    ],
+    "keywords": [
+      "Google-architecture-templates",
+      "Android architecture discovery",
+      "Android starter guidance",
+      "Markdown branch index"
+    ],
+    "risk_notes": [
+      "Instruction/reference inventory only; no external source, model or runtime was executed or verified."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android architecture discovery",
+        "purpose": "Find base and multimodule starter branches and their described stack.",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "Android starter guidance",
+        "purpose": "Reference Compose, Room, Hilt, Navigation and Flow architecture choices.",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:46:41.963843+00:00",
+    "inspected_commit": "4a3b2a141f457f1312c8dc52d6cbea6c9592af72",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "05849db1a65630329a300229c1242072c10d88d9",
+        "value": "https://github.com/jamesrwatsonx-creator/Google-architecture-templates/blob/4a3b2a141f457f1312c8dc52d6cbea6c9592af72/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": ".google/packaging.yaml",
+        "blob_sha": "25b5597bc99b3d9a87c826af6831c69f6a6af32f",
+        "value": "https://github.com/jamesrwatsonx-creator/Google-architecture-templates/blob/4a3b2a141f457f1312c8dc52d6cbea6c9592af72/.google/packaging.yaml"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "value": "https://github.com/jamesrwatsonx-creator/Google-architecture-templates/blob/4a3b2a141f457f1312c8dc52d6cbea6c9592af72/LICENSE"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "EXTERNAL_REFERENCE",
+      "apis_sdks_services": "EXTERNAL_REFERENCE",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "EXTERNAL_REFERENCE",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Android architecture discovery",
+        "description": "Find base and multimodule starter branches and their described stack.",
+        "scope": "REFERENCE",
+        "id": "cluster:android-architecture-discovery",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      },
+      {
+        "name": "Android starter guidance",
+        "description": "Reference Compose, Room, Hilt, Navigation and Flow architecture choices.",
+        "scope": "REFERENCE",
+        "id": "cluster:android-starter-guidance",
+        "evidence_paths": [
+          "README.md",
+          ".google/packaging.yaml",
+          "LICENSE"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

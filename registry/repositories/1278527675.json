@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/dyad-sh/dyad",
-  "description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
+  "description": "AI-powered app builder or integration connecting Vibe Studio workflows with Dyad local application generation.",
   "metadata": {
     "language": "TypeScript",
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-02T05:04:06Z",
-    "github_description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!"
+    "github_description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "84cd26ecb454e3bc4cc964b3006094ee8b619e77",
   "current_commit": "84cd26ecb454e3bc4cc964b3006094ee8b619e77",
   "inspection_date": "2026-09-20T05:34:41.726444+00:00",
   "categories": [
-    "category:general-other"
+    "category:developer-tools",
+    "category:ai-applications",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 23,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.502370+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.521926+00:00",
   "tree_files": 3200,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2967,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 3121,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.317690+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "AI-powered app builder or integration connecting Vibe Studio workflows with Dyad local application generation.",
+    "reuse_recommendation": "Use for prototyping and inspect generated code and dependency choices before execution.",
+    "inspection_scope": "Pinned README and manifest review to summarize repository-level purpose and major reusable capability clusters only.",
+    "license_notes": "Check repository, Dyad and model provider licenses.",
+    "runtime": [
+      "Desktop/web tooling",
+      "LLM APIs",
+      "local application runtime"
+    ],
+    "keywords": [
+      "Vibe Studio",
+      "Dyad",
+      "AI app builder",
+      "local development",
+      "prototype generation"
+    ],
+    "risk_notes": [
+      "Generated code may be insecure and model calls may transmit project context."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Vibe/Dyad app builder bridge",
+        "purpose": "Combines AI-assisted generation with local app development workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:02:19.000934+00:00",
+    "inspected_commit": "84cd26ecb454e3bc4cc964b3006094ee8b619e77",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "160950c55d7df49c65f73c9abc15290c6d26c9ff",
+        "value": "https://github.com/jamesrwatsonx-creator/vibe-studio-dyad/blob/84cd26ecb454e3bc4cc964b3006094ee8b619e77/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "prompt-driven app generation",
+        "description": "Uses natural-language tasks to scaffold or modify applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:prompt-driven-app-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "local developer workflow integration",
+        "description": "Connects generated projects to a local editing and run environment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-developer-workflow-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/infiniflow/ragflow",
-  "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+  "description": "RAG platform focused on document understanding, knowledge base management and grounded question answering for enterprise content.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-25T13:21:10Z",
-    "github_description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    "github_description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "b380728df6627c83f48b498ee46d0931315296f5",
   "current_commit": "b380728df6627c83f48b498ee46d0931315296f5",
   "inspection_date": "2026-09-20T05:33:58.236869+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory"
+    "category:rag",
+    "category:ai-applications",
+    "category:data-engineering"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.001740+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.071119+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 5791,
-  "files_read": 10,
+  "files_read": 19,
   "entity_count": 0,
-  "unread_source_files": 5296,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 5397,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.269988+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "RAG platform focused on document understanding, knowledge base management and grounded question answering for enterprise content.",
+    "reuse_recommendation": "Use for document-heavy RAG after validating OCR, citation fidelity, access isolation and data flow.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository license, model and document parser dependencies.",
+    "runtime": [
+      "Python/JavaScript services",
+      "search/vector database",
+      "LLM and embedding models"
+    ],
+    "keywords": [
+      "RAGFlow",
+      "document intelligence",
+      "knowledge base",
+      "retrieval augmented generation",
+      "enterprise search"
+    ],
+    "risk_notes": [
+      "Enterprise documents may contain confidential or regulated data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "RAGFlow pipeline",
+        "purpose": "Connects document understanding with retrieval and grounded answers.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:44.838521+00:00",
+    "inspected_commit": "b380728df6627c83f48b498ee46d0931315296f5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "48e2c8eee964fa0078a53cbe1bcc81b2c92f0c10",
+        "value": "https://github.com/jamesrwatsonx-creator/ragflow/blob/b380728df6627c83f48b498ee46d0931315296f5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "document parsing and understanding",
+        "description": "Processes complex documents into structured, retrievable content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-parsing-and-understanding",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "knowledge base and hybrid retrieval",
+        "description": "Indexes content and retrieves passages for question answering.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:knowledge-base-and-hybrid-retrieval",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "grounded chat and workflow UI",
+        "description": "Provides user interfaces for querying source collections.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:grounded-chat-and-workflow-ui",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

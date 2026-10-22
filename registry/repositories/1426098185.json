@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/Genymobile/scrcpy",
-  "description": "Display and control your Android device",
+  "description": "Desktop application and command-line tool for mirroring and controlling Android devices over USB or TCP/IP using Android Debug Bridge.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-17T21:40:27Z",
-    "github_description": "Display and control your Android device"
+    "github_description": "Display and control your Android device",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
   "current_commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
   "inspection_date": "2026-10-21T00:00:37.349645+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mobile-applications",
+    "category:developer-tools",
+    "category:networking"
+  ],
+  "operational_category": "operational:06",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.120417+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.174145+00:00",
   "tree_files": 387,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 350,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 338,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Desktop application and command-line tool for mirroring and controlling Android devices over USB or TCP/IP using Android Debug Bridge.",
+    "reuse_recommendation": "Use the official upstream project and verified releases; restrict device debugging and network access.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "Apache-2.0.",
+    "runtime": [
+      "C",
+      "SDL",
+      "Android ADB"
+    ],
+    "keywords": [
+      "scrcpy",
+      "Android screen mirroring",
+      "ADB device control",
+      "USB wireless Android",
+      "desktop device testing"
+    ],
+    "risk_notes": [
+      "Android debugging grants extensive device access; enable only on trusted hosts and networks."
+    ],
+    "important_subsystems": [
+      {
+        "name": "scrcpy device client",
+        "purpose": "Mirrors and controls an Android device through the official client/server path.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:48.324859+00:00",
+    "inspected_commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "58387e0af7d3df463ca4977930df73781d276d48",
+        "value": "https://github.com/jamesrwatsonx-creator/scrcpy/blob/a60891aea193d92e7e5c3942700eca63f9d19a5f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Android screen mirroring",
+        "description": "Displays an Android device screen on a desktop with low latency.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:android-screen-mirroring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "remote device input",
+        "description": "Sends keyboard and mouse actions to the connected phone.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:remote-device-input",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "ADB-based device workflows",
+        "description": "Supports USB and network-connected Android testing and control.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:adb-based-device-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/cobusgreyling/loop-engineering",
-  "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+  "description": "Design-system and agent prompt methodology for engineering reusable visual systems that guide generated interfaces.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-05T14:05:20Z",
-    "github_description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost."
+    "github_description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "e1b6a66a4e69d51e811e135376815fc361a8d295",
   "current_commit": "e1b6a66a4e69d51e811e135376815fc361a8d295",
   "inspection_date": "2026-09-20T05:32:50.917794+00:00",
   "categories": [
-    "category:ai-agents",
     "category:design-systems",
-    "category:developer-tools"
+    "category:skills",
+    "category:agent-workflows"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -90,7 +91,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 38,
@@ -335,11 +336,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.414387+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.529192+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -362,8 +364,8 @@
   "tree_files": 408,
   "files_read": 352,
   "entity_count": 90,
-  "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "unread_source_files": 5,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -381,5 +383,87 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 90,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Design-system and agent prompt methodology for engineering reusable visual systems that guide generated interfaces.",
+    "reuse_recommendation": "Use as a process reference and validate the resulting system against real product tasks and accessibility needs.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository LICENSE and referenced design assets.",
+    "runtime": [
+      "Markdown guidance",
+      "design tokens and examples"
+    ],
+    "keywords": [
+      "loop engineering",
+      "design system prompts",
+      "agent visual design",
+      "system-building workflow"
+    ],
+    "risk_notes": [
+      "Prompted visual systems can overfit aesthetics; test usability and brand requirements."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Loop Engineering method",
+        "purpose": "Connects design-system construction with agent-facing instructions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:49.628545+00:00",
+    "inspected_commit": "e1b6a66a4e69d51e811e135376815fc361a8d295",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6cd8872c8e8a23be9ef484f517ad335a9e94ba92",
+        "value": "https://github.com/jamesrwatsonx-creator/loop-engineering/blob/e1b6a66a4e69d51e811e135376815fc361a8d295/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "design-system engineering method",
+        "description": "Guides creation and iteration of reusable design systems.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:design-system-engineering-method",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "agent design context",
+        "description": "Structures visual rules so agents can apply them consistently.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-design-context",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

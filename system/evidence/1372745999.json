@@ -3,14 +3,107 @@
   "inspected_commit": "b61b83c35d72b3cbfa826edf6666dd2c5061fd64",
   "tree_complete": true,
   "tree_files": 1137,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "8410206a2c078407074a9d10df6917f7e46e567f"
+    },
+    {
+      "path": "README.md",
+      "sha": "ce1336724f99c84cc12c78050aaefe41e8accf6d"
+    },
+    {
+      "path": "changedetectionio/processors/README.md",
+      "sha": "715716e0afd95016a0dad4c3efe95db000e5e981"
+    },
+    {
+      "path": "changedetectionio/realtime/README.md",
+      "sha": "a391ad2a57c3b4bbb9e5fbca97da62e4c11da1ab"
+    },
+    {
+      "path": "changedetectionio/static/styles/package.json",
+      "sha": "68b98b0bd015d6817bb6df6e9f95398f5346f089"
+    },
+    {
+      "path": "changedetectionio/translations/README.md",
+      "sha": "b51aef216a44d04b3d6aba1b78d4da08a44c67b1"
+    },
+    {
+      "path": "changedetectionio/translations_overlay/README.md",
+      "sha": "823b1b4dd1ec7b8a1b28afa5ee734fe4a389fb95"
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "65bb1919c7d0963d873d10e343f608b380eb091f"
+    },
+    {
+      "path": "docs/package.json",
+      "sha": "dcad00aabd937a71fea2cfcbd08593882dbbbab5"
+    },
+    {
+      "path": "setup.py",
+      "sha": "caac094dd0b790497be7e4b1741a7fa9df17b423"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "ce1336724f99c84cc12c78050aaefe41e8accf6d",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "8410206a2c078407074a9d10df6917f7e46e567f",
+      "entities_detected": 0
+    },
+    {
+      "path": "setup.py",
+      "blob_sha": "caac094dd0b790497be7e4b1741a7fa9df17b423",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/package.json",
+      "blob_sha": "dcad00aabd937a71fea2cfcbd08593882dbbbab5",
+      "entities_detected": 0
+    },
+    {
+      "path": "changedetectionio/static/styles/package.json",
+      "blob_sha": "68b98b0bd015d6817bb6df6e9f95398f5346f089",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/README.md",
+      "blob_sha": "65bb1919c7d0963d873d10e343f608b380eb091f",
+      "entities_detected": 0
+    },
+    {
+      "path": "changedetectionio/processors/README.md",
+      "blob_sha": "715716e0afd95016a0dad4c3efe95db000e5e981",
+      "entities_detected": 0
+    },
+    {
+      "path": "changedetectionio/realtime/README.md",
+      "blob_sha": "a391ad2a57c3b4bbb9e5fbca97da62e4c11da1ab",
+      "entities_detected": 0
+    },
+    {
+      "path": "changedetectionio/translations/README.md",
+      "blob_sha": "b51aef216a44d04b3d6aba1b78d4da08a44c67b1",
+      "entities_detected": 0
+    },
+    {
+      "path": "changedetectionio/translations_overlay/README.md",
+      "blob_sha": "823b1b4dd1ec7b8a1b28afa5ee734fe4a389fb95",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/FUNDING.yml",
     ".github/ISSUE_TEMPLATE/bug_report.md",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/actions/extract-memory-report/action.yml",
     ".github/dependabot.yml",
+    ".github/test/Dockerfile-alpine",
     ".github/workflows/codeql-analysis.yml",
     ".github/workflows/containers.yml",
     ".github/workflows/pypi-release.yml",
@@ -21,8 +114,9 @@
     ".ruff.toml",
     "COMMERCIAL_LICENCE.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
     "README-pip.md",
-    "README.md",
+    "babel.cfg",
     "changedetection.py",
     "changedetectionio/PLUGIN_README.md",
     "changedetectionio/__init__.py",
@@ -40,12 +134,17 @@
     "changedetectionio/blueprint/add_watch_ui/__init__.py",
     "changedetectionio/blueprint/add_watch_ui/browser_config.py",
     "changedetectionio/blueprint/add_watch_ui/static/add-watch.js",
+    "changedetectionio/blueprint/add_watch_ui/templates/add-watch-ui.html",
     "changedetectionio/blueprint/backups/__init__.py",
     "changedetectionio/blueprint/backups/restore.py",
+    "changedetectionio/blueprint/backups/templates/backup_create.html",
+    "changedetectionio/blueprint/backups/templates/backup_restore.html",
+    "changedetectionio/blueprint/browser_steps/TODO.txt",
     "changedetectionio/blueprint/browser_steps/__init__.py",
     "changedetectionio/blueprint/check_proxies/__init__.py",
     "changedetectionio/blueprint/imports/__init__.py",
     "changedetectionio/blueprint/imports/importer.py",
+    "changedetectionio/blueprint/imports/templates/import.html",
     "changedetectionio/blueprint/menu_modes.py",
     "changedetectionio/blueprint/price_data_follower/__init__.py",
     "changedetectionio/blueprint/rss/__init__.py",
@@ -57,20 +156,34 @@
     "changedetectionio/blueprint/settings/__init__.py",
     "changedetectionio/blueprint/settings/llm.py",
     "changedetectionio/blueprint/settings/notifications/__init__.py",
+    "changedetectionio/blueprint/settings/notifications/templates/apprise.html",
+    "changedetectionio/blueprint/settings/templates/notification-log.html",
+    "changedetectionio/blueprint/settings/templates/settings.html",
+    "changedetectionio/blueprint/settings/templates/settings_llm_tab.html",
     "changedetectionio/blueprint/tags/README.md",
     "changedetectionio/blueprint/tags/__init__.py",
     "changedetectionio/blueprint/tags/colour.py",
     "changedetectionio/blueprint/tags/form.py",
+    "changedetectionio/blueprint/tags/templates/edit-tag.html",
+    "changedetectionio/blueprint/tags/templates/groups-overview.html",
     "changedetectionio/blueprint/ui/__init__.py",
     "changedetectionio/blueprint/ui/diff.py",
     "changedetectionio/blueprint/ui/edit.py",
     "changedetectionio/blueprint/ui/notification.py",
     "changedetectionio/blueprint/ui/preview.py",
     "changedetectionio/blueprint/ui/queue.py",
+    "changedetectionio/blueprint/ui/templates/clear_all_history.html",
+    "changedetectionio/blueprint/ui/templates/diff-offscreen-options.html",
+    "changedetectionio/blueprint/ui/templates/diff.html",
+    "changedetectionio/blueprint/ui/templates/edit.html",
+    "changedetectionio/blueprint/ui/templates/preview.html",
+    "changedetectionio/blueprint/ui/templates/queue.html",
     "changedetectionio/blueprint/ui/views.py",
     "changedetectionio/blueprint/watchlist/__init__.py",
     "changedetectionio/blueprint/watchlist/filters.py",
     "changedetectionio/blueprint/watchlist/row_context.py",
+    "changedetectionio/blueprint/watchlist/templates/watch-overview-single-row.html",
+    "changedetectionio/blueprint/watchlist/templates/watch-overview.html",
     "changedetectionio/browser_steps/__init__.py",
     "changedetectionio/browser_steps/browser_steps.py",
     "changedetectionio/conditions/__init__.py",
@@ -84,28 +197,7 @@
     "changedetectionio/conditions/plugins/wordcount_plugin.py",
     "changedetectionio/content_fetchers/__init__.py",
     "changedetectionio/content_fetchers/base.py",
-    "changedetectionio/content_fetchers/exceptions/__init__.py",
-    "changedetectionio/content_fetchers/playwright.py",
-    "changedetectionio/content_fetchers/puppeteer.py",
-    "changedetectionio/content_fetchers/requests.py",
-    "changedetectionio/content_fetchers/res/__init__.py",
-    "changedetectionio/content_fetchers/res/favicon-fetcher.js",
-    "changedetectionio/content_fetchers/res/lock-elements-sizing.js",
-    "changedetectionio/content_fetchers/res/stock-not-in-stock.js",
-    "changedetectionio/content_fetchers/res/unlock-elements-sizing.js",
-    "changedetectionio/content_fetchers/res/xpath_element_scraper.js",
-    "changedetectionio/content_fetchers/screenshot_handler.py",
-    "changedetectionio/content_fetchers/webdriver_selenium.py",
-    "changedetectionio/custom_queue.py",
-    "changedetectionio/diff/__init__.py",
-    "changedetectionio/diff/tokenizers/__init__.py",
-    "changedetectionio/diff/tokenizers/natural_text.py",
-    "changedetectionio/diff/tokenizers/words_and_html.py",
-    "changedetectionio/favicon_utils.py",
-    "changedetectionio/flask_app.py",
-    "changedetectionio/forms.py",
-    "changedetectionio/gc_cleanup.py",
-    "changedetectionio/gc_debounce.py"
+    "changedetectionio/content_fetchers/exceptions/__init__.py"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -220,8 +312,12 @@
     "changedetectionio": 1083,
     "docs": 21
   },
-  "unread_source_paths_count": 401,
+  "unread_source_paths_count": 492,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 736,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/octimot/StoryToolkitAI",
-  "description": "An editing tool that uses AI to transcribe, understand content and search for anything in your footage,  integrated with ChatGPT and other AI models",
+  "description": "AI-assisted film editing toolkit that transcribes footage, indexes scenes, searches clips and assembles story selections for import into video editors.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2026-07-28T06:37:10Z",
-    "github_description": "An editing tool that uses AI to transcribe, understand content and search for anything in your footage,  integrated with ChatGPT and other AI models"
+    "github_description": "An editing tool that uses AI to transcribe, understand content and search for anything in your footage,  integrated with ChatGPT and other AI models",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb",
   "current_commit": "91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb",
   "inspection_date": "2026-10-20T23:59:47.670849+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:ai-applications",
+    "category:desktop-applications"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,109 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.287127+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.324257+00:00",
   "tree_files": 98,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 92,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 80,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "AI-assisted film editing toolkit that transcribes footage, indexes scenes, searches clips and assembles story selections for import into video editors.",
+    "reuse_recommendation": "Potential local media workflow; inspect model data transfer, indexing privacy and editor export compatibility before processing sensitive footage.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "GPL-3.0.",
+    "runtime": [
+      "Python desktop application",
+      "speech recognition",
+      "LLM providers",
+      "EDL/XML export"
+    ],
+    "keywords": [
+      "AI film editing",
+      "footage transcription",
+      "scene indexing",
+      "video search",
+      "EDL XML export"
+    ],
+    "risk_notes": [
+      "Film footage may contain private or copyrighted material; verify provider processing, retention and rights."
+    ],
+    "important_subsystems": [
+      {
+        "name": "StoryToolkitAI editing workflow",
+        "purpose": "Connects local media understanding and story selection to editing software exports.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:56.068031+00:00",
+    "inspected_commit": "91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5015420462320ca42a330091e301836cdb77062f",
+        "value": "https://github.com/jamesrwatsonx-creator/StoryToolkitAI/blob/91ab42b11f509aa84bb3801a5a1ba31cf5cf74cb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "footage transcription and indexing",
+        "description": "Transcribes media and indexes scenes for later search.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:footage-transcription-and-indexing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "natural-language footage search",
+        "description": "Finds relevant moments across local video content.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:natural-language-footage-search",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "story assembly and editor export",
+        "description": "Uses model-assisted selection to create story sequences exportable to editing software.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:story-assembly-and-editor-export",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

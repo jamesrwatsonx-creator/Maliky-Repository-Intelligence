@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/nerfstudio-project/nerfstudio",
-  "description": "A collaboration friendly studio for NeRFs",
+  "description": "Toolkit and workflows for creating, training and viewing neural radiance field scenes and related 3D reconstructions.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2025-07-29T02:30:55Z",
-    "github_description": "A collaboration friendly studio for NeRFs"
+    "github_description": "A collaboration friendly studio for NeRFs",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "50e0e3c70c775e89333256213363badbf074f29d",
   "current_commit": "50e0e3c70c775e89333256213363badbf074f29d",
   "inspection_date": "2026-10-20T23:58:00.139523+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:creative-tools",
+    "category:machine-learning-models",
+    "category:research-projects"
+  ],
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.586063+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.739895+00:00",
   "tree_files": 497,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 370,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 399,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Toolkit and workflows for creating, training and viewing neural radiance field scenes and related 3D reconstructions.",
+    "reuse_recommendation": "Reuse for 3D capture experiments after checking GPU requirements and data/model licenses.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Review code, model weights and dataset licenses separately.",
+    "runtime": [
+      "Python",
+      "PyTorch/CUDA",
+      "3D viewer"
+    ],
+    "keywords": [
+      "NeRF",
+      "3D reconstruction",
+      "radiance fields",
+      "scene viewer",
+      "computer vision"
+    ],
+    "risk_notes": [
+      "Captured imagery may contain sensitive spaces or people; handle datasets accordingly."
+    ],
+    "important_subsystems": [
+      {
+        "name": "NeRF workflow and viewer",
+        "purpose": "Connects scene data, training and visualization.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:34.766843+00:00",
+    "inspected_commit": "50e0e3c70c775e89333256213363badbf074f29d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "95ba60a48f5870b800e3ff0a23e56601a5de0c2a",
+        "value": "https://github.com/jamesrwatsonx-creator/nerfstudio-3D-VR/blob/50e0e3c70c775e89333256213363badbf074f29d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "3D scene reconstruction",
+        "description": "Trains neural scene representations from image and camera data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-scene-reconstruction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "training and evaluation",
+        "description": "Provides workflows and tooling for model experimentation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:training-and-evaluation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "3D visualization",
+        "description": "Supports viewing and interacting with reconstructed scenes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-visualization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

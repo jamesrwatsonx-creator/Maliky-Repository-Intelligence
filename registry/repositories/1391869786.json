@@ -10,25 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+  "upstream_url": "https://github.com/qeeqbox/social-analyzer",
+  "description": "Social media discovery tool that searches supported sites for profiles matching a username or identity hint.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-01-12T21:50:25Z",
-    "github_description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites"
+    "github_description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "1ba0905e00d054aab833eb3693739c354db09e0f",
+  "current_commit": "1ba0905e00d054aab833eb3693739c354db09e0f",
+  "inspection_date": "2026-10-22T02:32:53.908027+00:00",
   "categories": [
-    "category:apis",
-    "category:creative-tools",
-    "category:developer-tools"
+    "category:research-projects",
+    "category:plugins-extensions"
   ],
-  "operational_category": "operational:09",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [
     "operational:12",
     "operational:24"
@@ -39,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -47,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.231728+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.288246+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -63,5 +64,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.291752+00:00",
     "purpose_established": true
+  },
+  "tree_files": 63,
+  "files_read": 10,
+  "unread_source_files": 24,
+  "repository_intelligence": {
+    "purpose": "Social media discovery tool that searches supported sites for profiles matching a username or identity hint.",
+    "reuse_recommendation": "Use only for consent-based or otherwise authorized research; validate matches and avoid sensitive profiling.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Check both README variants and license terms; profile discovery can affect personal privacy.",
+    "runtime": [
+      "Python",
+      "web/API interface"
+    ],
+    "keywords": [
+      "username search",
+      "social profiles",
+      "OSINT",
+      "social discovery",
+      "API"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Social Analyzer",
+        "purpose": "Combines site-specific checks and presents candidate social profiles.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:31.216672+00:00",
+    "inspected_commit": "1ba0905e00d054aab833eb3693739c354db09e0f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0d0f8a866e9f01894db20c778f693a8ae13e538d",
+        "value": "https://github.com/jamesrwatsonx-creator/social-analyzer/blob/1ba0905e00d054aab833eb3693739c354db09e0f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Cross-site profile discovery",
+        "description": "Searches supported networks for potential accounts matching a submitted identity string.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-site-profile-discovery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

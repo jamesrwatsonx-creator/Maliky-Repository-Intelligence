@@ -75,6 +75,7 @@ def main() -> int:
         repo.get("inspection_date") or "",
         repo.get("semantic_review_progress", {}).get("completed_at") or "",
         repo.get("semantic_review_progress", {}).get("bookkeeping_reconciled_at") or "",
+        repo.get("repository_intelligence", {}).get("reviewed_at") or "",
     ), default=None)
 
     refresh_ids = refresh.get("new_repository_ids", [])
@@ -173,6 +174,9 @@ def main() -> int:
         f"- Historical entity records: {statistics.get('historical_entity_records', 'unknown')}",
         f"- Capability records: {len(capabilities)}",
         f"- Search documents: {statistics.get('search_documents', 'unknown')}",
+        f"- Repository-intelligence summaries complete: {statistics.get('repository_intelligence_complete', 0)}",
+        f"- Distinct capability clusters: {statistics.get('capability_cluster_count', 0)}",
+        f"- Repository/cluster assignments: {statistics.get('repository_cluster_assignments', 0)}",
         "- JEV decision records: " + (", ".join(f"{key}={value}" for key, value in sorted(decisions.items())) or "none"),
         f"- Outstanding explicit deep review items: {len(deep_items)}",
     ])

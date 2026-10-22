@@ -10,25 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "",
+  "upstream_url": "https://github.com/livekit/client-sdk-react-native-expo-plugin",
+  "description": "React Native and Expo client SDK/plugin integration for connecting mobile apps to its associated service.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-23T17:04:48Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "8a4d6e35719d44f05d7114644f6e2cf5b6aedb25",
+  "current_commit": "8a4d6e35719d44f05d7114644f6e2cf5b6aedb25",
+  "inspection_date": "2026-10-22T02:33:31.205824+00:00",
   "categories": [
-    "category:apis",
-    "category:frontend-applications",
+    "category:sdks-client-libraries",
     "category:mobile-applications"
   ],
-  "operational_category": "operational:19",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [
     "operational:12",
     "operational:16"
@@ -39,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -47,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.441498+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.262448+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -63,5 +64,84 @@
     ],
     "updated_at": "2026-10-12T19:04:27.101392+00:00",
     "purpose_established": true
+  },
+  "tree_files": 38,
+  "files_read": 10,
+  "unread_source_files": 17,
+  "repository_intelligence": {
+    "purpose": "React Native and Expo client SDK/plugin integration for connecting mobile apps to its associated service.",
+    "reuse_recommendation": "Use after verifying service identity, API compatibility, dependency health and licensing.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Verify package and service terms and inspect the pinned manifest before distribution.",
+    "runtime": [
+      "JavaScript/TypeScript",
+      "React Native",
+      "Expo"
+    ],
+    "keywords": [
+      "React Native",
+      "Expo",
+      "client SDK",
+      "mobile integration",
+      "plugin"
+    ],
+    "risk_notes": [
+      "Verify licenses of cataloged projects and respect privacy, service terms and applicable law where relevant."
+    ],
+    "important_subsystems": [
+      {
+        "name": "React Native/Expo SDK",
+        "purpose": "Provides a mobile-facing integration surface for the associated platform.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:47:49.914354+00:00",
+    "inspected_commit": "8a4d6e35719d44f05d7114644f6e2cf5b6aedb25",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5b9728520c09cff79ce6d64fe3d2b48255daadf2",
+        "value": "https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin/blob/8a4d6e35719d44f05d7114644f6e2cf5b6aedb25/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Expo client integration",
+        "description": "Packages service connectivity for React Native and Expo application code.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:expo-client-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

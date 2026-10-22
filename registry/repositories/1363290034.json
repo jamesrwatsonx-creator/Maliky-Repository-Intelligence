@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/medusajs/medusa",
-  "description": "The world's most flexible commerce platform for agents and developers",
+  "description": "GraphQL-based e-commerce framework or headless commerce platform for building custom storefronts, catalogs and order workflows.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-09T14:57:25Z",
-    "github_description": "The world's most flexible commerce platform for agents and developers"
+    "github_description": "The world's most flexible commerce platform for agents and developers",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "e9dc0edbc23aad274305e4b36950bd842f3dc006",
   "current_commit": "e9dc0edbc23aad274305e4b36950bd842f3dc006",
   "inspection_date": "2026-09-20T05:36:02.489241+00:00",
   "categories": [
-    "category:ai-agents"
+    "category:commerce-e-commerce",
+    "category:backend-services",
+    "category:apis"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 7,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.499867+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.630282+00:00",
   "tree_files": 23979,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 22615,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 23578,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.215658+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "GraphQL-based e-commerce framework or headless commerce platform for building custom storefronts, catalogs and order workflows.",
+    "reuse_recommendation": "Use for custom commerce builds after testing checkout, inventory and payment edge cases.",
+    "inspection_scope": "Pinned README and manifest review of repository purpose, major capability areas and reusable subsystems; detailed asset decomposition remains on-demand.",
+    "license_notes": "Check repository license and payment integrations.",
+    "runtime": [
+      "TypeScript/Node.js",
+      "database",
+      "GraphQL/REST APIs"
+    ],
+    "keywords": [
+      "Medusa commerce",
+      "headless e-commerce",
+      "GraphQL API",
+      "storefront framework",
+      "order management"
+    ],
+    "risk_notes": [
+      "Payments and customer/order data require security and compliance safeguards."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Medusa commerce engine",
+        "purpose": "Provides modular backend capabilities for custom commerce applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:20:57.577323+00:00",
+    "inspected_commit": "e9dc0edbc23aad274305e4b36950bd842f3dc006",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "555892311daf5f44023620a3b2daa16729f01075",
+        "value": "https://github.com/jamesrwatsonx-creator/medusa/blob/e9dc0edbc23aad274305e4b36950bd842f3dc006/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "commerce backend and APIs",
+        "description": "Provides catalog, cart, order and customer operations for stores.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:commerce-backend-and-apis",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "storefront and integrations",
+        "description": "Connects frontend experiences to payments, shipping and commerce services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:storefront-and-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "plugins and administration",
+        "description": "Extends backend functionality and store management.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:plugins-and-administration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

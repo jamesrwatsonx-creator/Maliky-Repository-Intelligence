@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/lfnovo/open-notebook",
-  "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+  "description": "Self-hostable AI research workspace for collecting sources, organizing notes and querying a persistent knowledge base with model assistance.",
   "metadata": {
     "language": "TypeScript",
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T16:11:00Z",
-    "github_description": "An Open Source implementation of Notebook LM with more flexibility and features"
+    "github_description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "a7de90d38aaf18ee85fd661854d35c11e44613e2",
   "current_commit": "a7de90d38aaf18ee85fd661854d35c11e44613e2",
   "inspection_date": "2026-09-20T05:32:42.999125+00:00",
   "categories": [
-    "category:general-other"
+    "category:ai-memory",
+    "category:ai-applications",
+    "category:databases"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:04",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.685475+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.848085+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 1
   },
   "tree_files": 593,
-  "files_read": 9,
+  "files_read": 17,
   "entity_count": 0,
-  "unread_source_files": 501,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 498,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.239832+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hostable AI research workspace for collecting sources, organizing notes and querying a persistent knowledge base with model assistance.",
+    "reuse_recommendation": "Use for source-grounded research workflows; verify retention, model data flow and citation fidelity.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license and any model-provider terms.",
+    "runtime": [
+      "Web application",
+      "database/search backend",
+      "LLM provider integration"
+    ],
+    "keywords": [
+      "Open Notebook",
+      "AI research workspace",
+      "knowledge base",
+      "sources",
+      "RAG"
+    ],
+    "risk_notes": [
+      "Imported documents may contain sensitive data; model calls and retrieval results need review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Open Notebook workspace",
+        "purpose": "Combines source management, persistent knowledge and AI-assisted research.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:39.224542+00:00",
+    "inspected_commit": "a7de90d38aaf18ee85fd661854d35c11e44613e2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3d42f2e125e3ba18179fb714dd4150e7bd00dbfb",
+        "value": "https://github.com/jamesrwatsonx-creator/open-notebook/blob/a7de90d38aaf18ee85fd661854d35c11e44613e2/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "source-grounded research",
+        "description": "Collects source material and supports AI-assisted querying and synthesis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:source-grounded-research",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "notebook knowledge store",
+        "description": "Organizes durable notes and source context for ongoing research.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:notebook-knowledge-store",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "local/self-hosted AI workspace",
+        "description": "Provides an application interface and deployment options for personal knowledge work.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-self-hosted-ai-workspace",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

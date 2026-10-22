@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+  "upstream_url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "description": "OCR and document/image understanding toolkit supporting text detection, recognition, layout analysis and multilingual document processing.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-16T03:31:50Z",
-    "github_description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages."
+    "github_description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+  "current_commit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+  "inspection_date": "2026-10-22T02:26:07.413488+00:00",
   "categories": [
-    "category:general-other"
+    "category:machine-learning-models",
+    "category:data-engineering",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.814459+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.936093+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.253335+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2455,
+  "files_read": 10,
+  "unread_source_files": 2041,
+  "repository_intelligence": {
+    "purpose": "OCR and document/image understanding toolkit supporting text detection, recognition, layout analysis and multilingual document processing.",
+    "reuse_recommendation": "Use for document OCR and validate accuracy across language, layout and scan quality.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Apache-2.0; model weights and datasets may have separate terms.",
+    "runtime": [
+      "Python",
+      "PaddlePaddle",
+      "CPU/GPU"
+    ],
+    "keywords": [
+      "PaddleOCR",
+      "OCR",
+      "document parsing",
+      "text detection",
+      "multilingual recognition"
+    ],
+    "risk_notes": [
+      "Documents may contain sensitive information; OCR errors can alter critical records."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PaddleOCR pipeline",
+        "purpose": "Connects visual document inputs to structured text output.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:39:27.365523+00:00",
+    "inspected_commit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d3a9c16b6b5672a872d6ad7473ff52aceb7712bb",
+        "value": "https://github.com/jamesrwatsonx-creator/PaddleOCR/blob/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "text detection and recognition",
+        "description": "Finds and recognizes text in images and scanned documents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:text-detection-and-recognition",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "document layout and structure",
+        "description": "Extracts tables, reading order and document regions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-layout-and-structure",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model deployment and inference",
+        "description": "Packages OCR models for local or service deployment.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-deployment-and-inference",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

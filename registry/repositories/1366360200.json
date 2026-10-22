@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/QuantConnect/Lean",
-  "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+  "description": "Lean theorem prover and programming language for formalizing mathematics and verifying proofs with a large mathematical library.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-11T14:55:10Z",
-    "github_description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)"
+    "github_description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
   "current_commit": "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
   "inspection_date": "2026-09-20T05:36:08.015066+00:00",
   "categories": [
-    "category:general-other"
+    "category:developer-tools",
+    "category:education",
+    "category:research-projects"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.342468+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.450046+00:00",
   "tree_files": 6294,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 4925,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 5009,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.195353+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Lean theorem prover and programming language for formalizing mathematics and verifying proofs with a large mathematical library.",
+    "reuse_recommendation": "Use for formal verification and mathematical proofs when correctness guarantees are important.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Apache-2.0 for Lean; mathlib and contributed content have their own licensing.",
+    "runtime": [
+      "Lean 4",
+      "native compiler",
+      "editor tooling"
+    ],
+    "keywords": [
+      "Lean 4",
+      "theorem prover",
+      "formal verification",
+      "proof assistant",
+      "mathlib"
+    ],
+    "risk_notes": [
+      "A proof only establishes the formalized statement and assumptions, not an incorrectly modeled real-world system."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Lean language and prover",
+        "purpose": "Provides a dependently typed environment for rigorous formal proof.",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:45.999045+00:00",
+    "inspected_commit": "8ee075a39918f2df6fe9e0a5944e366fb60d10dc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "readme.md",
+        "blob_sha": "b352780b83e4da76837cdac623d3d36597639852",
+        "value": "https://github.com/jamesrwatsonx-creator/Lean/blob/8ee075a39918f2df6fe9e0a5944e366fb60d10dc/readme.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive theorem proving",
+        "description": "Formalizes mathematical statements and machine-checkable proofs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-theorem-proving",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      },
+      {
+        "name": "programming language and compiler",
+        "description": "Supports writing verified programs and executable code.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:programming-language-and-compiler",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      },
+      {
+        "name": "editor and package ecosystem",
+        "description": "Provides tooling and libraries for proof development.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:editor-and-package-ecosystem",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

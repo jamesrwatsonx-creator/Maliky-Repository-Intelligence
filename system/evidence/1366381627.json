@@ -3,8 +3,100 @@
   "inspected_commit": "e7981a6f19435d52ef4b92f71054739ebc2b593e",
   "tree_complete": true,
   "tree_files": 14001,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": "LICENSE",
+      "sha": "329ee302875f292fdd11e12e830562d0be9ade1c"
+    },
+    {
+      "path": "README.md",
+      "sha": "c3f68564c8508b45187958696257a57859c9fdb4"
+    },
+    {
+      "path": "api/pyproject.toml",
+      "sha": "16ac4f102e5ee39edd11444cd619c6941aba77f6"
+    },
+    {
+      "path": "cli/package.json",
+      "sha": "8fdad1ae5b7d5cff8caf74e9649ddf664cf8c682"
+    },
+    {
+      "path": "dify-agent-runtime/go.mod",
+      "sha": "4fc628513cec1e0603568c18d950a120d01564bf"
+    },
+    {
+      "path": "dify-agent/pyproject.toml",
+      "sha": "6a6c2651ffd77a89a38e12d816e0d1fc8d5a7f53"
+    },
+    {
+      "path": "e2e/package.json",
+      "sha": "9c37769c1ce941944f9d26416ee8ab3e4613d4fc"
+    },
+    {
+      "path": "package.json",
+      "sha": "d1d4762c2fe6fa6b12e0797474e963f491442eeb"
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "sha": "b9aae0184db63407ce05f16978889bd5dcba0cee"
+    },
+    {
+      "path": "web/package.json",
+      "sha": "850780cff44ff591279e75b9fc1be62f67c77231"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "c3f68564c8508b45187958696257a57859c9fdb4",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "329ee302875f292fdd11e12e830562d0be9ade1c",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "d1d4762c2fe6fa6b12e0797474e963f491442eeb",
+      "entities_detected": 0
+    },
+    {
+      "path": "api/pyproject.toml",
+      "blob_sha": "16ac4f102e5ee39edd11444cd619c6941aba77f6",
+      "entities_detected": 0
+    },
+    {
+      "path": "cli/package.json",
+      "blob_sha": "8fdad1ae5b7d5cff8caf74e9649ddf664cf8c682",
+      "entities_detected": 0
+    },
+    {
+      "path": "dify-agent-runtime/go.mod",
+      "blob_sha": "4fc628513cec1e0603568c18d950a120d01564bf",
+      "entities_detected": 0
+    },
+    {
+      "path": "dify-agent/pyproject.toml",
+      "blob_sha": "6a6c2651ffd77a89a38e12d816e0d1fc8d5a7f53",
+      "entities_detected": 0
+    },
+    {
+      "path": "e2e/package.json",
+      "blob_sha": "9c37769c1ce941944f9d26416ee8ab3e4613d4fc",
+      "entities_detected": 0
+    },
+    {
+      "path": "web/package.json",
+      "blob_sha": "850780cff44ff591279e75b9fc1be62f67c77231",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "blob_sha": "b9aae0184db63407ce05f16978889bd5dcba0cee",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".agents/skills/backend-code-review/SKILL.md",
     ".agents/skills/backend-code-review/references/architecture-rule.md",
@@ -32,8 +124,10 @@
     ".agents/skills/how-to-write-component/references/runtime.md",
     ".agents/skills/how-to-write-component/references/state.md",
     ".claude/settings.json",
+    ".devcontainer/Dockerfile",
     ".devcontainer/README.md",
     ".devcontainer/devcontainer.json",
+    ".devcontainer/noop.txt",
     ".devcontainer/post_create_command.sh",
     ".devcontainer/post_start_command.sh",
     ".github/CODE_OF_CONDUCT.md",
@@ -48,6 +142,7 @@
     ".github/dependabot.yml",
     ".github/labeler.yml",
     ".github/linters/.hadolint.yaml",
+    ".github/linters/.isort.cfg",
     ".github/linters/.yaml-lint.yml",
     ".github/linters/editorconfig-checker.json",
     ".github/pull_request_template.md",
@@ -91,21 +186,18 @@
     ".github/workflows/web-e2e.yml",
     ".github/workflows/web-tests.yml",
     ".vscode/README.md",
+    ".vscode/launch.json.template",
     ".vscode/settings.example.json",
     "AGENTS.md",
     "CONTRIBUTING.md",
-    "README.md",
+    "Makefile",
     "SECURITY.md",
+    "api/.idea/vcs.xml",
     "api/.ruff.toml",
     "api/AGENTS.md",
-    "api/README.md",
-    "api/app.py",
-    "api/app_factory.py",
-    "api/celery_entrypoint.py",
-    "api/celery_healthcheck.py",
-    "api/clients/__init__.py",
-    "api/clients/agent_backend/__init__.py",
-    "api/clients/agent_backend/client.py"
+    "api/Dockerfile",
+    "api/Dockerfile.dockerignore",
+    "api/README.md"
   ],
   "excluded_nontext_paths": [
     ".coveragerc",
@@ -236,8 +328,12 @@
     "sdks": 49,
     "web": 7941
   },
-  "unread_source_paths_count": 12987,
+  "unread_source_paths_count": 13145,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 1014,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

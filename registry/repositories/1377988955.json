@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "develop",
-  "upstream_url": null,
-  "description": ":mag: ScanCode detects licenses, copyrights, dependencies by \"scanning code\" ... to discover and inventory open source and third-party packages used in your code. Sponsored by NLnet, the Google Summer of Code, Azure credits, nexB and other generous sponsors!",
+  "upstream_url": "https://github.com/aboutcode-org/scancode-toolkit",
+  "description": "Software composition analysis toolkit for identifying licenses, copyrights and package provenance in codebases and archives.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-18T19:14:08Z",
-    "github_description": ":mag: ScanCode detects licenses, copyrights, dependencies by \"scanning code\" ... to discover and inventory open source and third-party packages used in your code. Sponsored by NLnet, the Google Summer of Code, Azure credits, nexB and other generous sponsors!"
+    "github_description": ":mag: ScanCode detects licenses, copyrights, dependencies by \"scanning code\" ... to discover and inventory open source and third-party packages used in your code. Sponsored by NLnet, the Google Summer of Code, Azure credits, nexB and other generous sponsors!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "5e8448ecf2397c6eb7e7eb50326c8c880d9b598b",
+  "current_commit": "5e8448ecf2397c6eb7e7eb50326c8c880d9b598b",
+  "inspection_date": "2026-10-22T02:22:31.705796+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:compliance-governance",
+    "category:developer-tools",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:24",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.110389+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.162624+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,101 @@
     ],
     "updated_at": "2026-10-12T19:04:27.280466+00:00",
     "purpose_established": true
+  },
+  "tree_files": 65394,
+  "files_read": 10,
+  "unread_source_files": 21917,
+  "repository_intelligence": {
+    "purpose": "Software composition analysis toolkit for identifying licenses, copyrights and package provenance in codebases and archives.",
+    "reuse_recommendation": "Use as evidence for legal review, not as a definitive legal conclusion.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Apache-2.0; detected package/license data retain source terms.",
+    "runtime": [
+      "Python CLI",
+      "package/license databases"
+    ],
+    "keywords": [
+      "ScanCode Toolkit",
+      "license detection",
+      "software composition analysis",
+      "copyright inventory",
+      "SBOM support"
+    ],
+    "risk_notes": [
+      "License detection is probabilistic and requires human verification for significant obligations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "ScanCode scanner",
+        "purpose": "Automates evidence gathering for software license and provenance review.",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:36.453658+00:00",
+    "inspected_commit": "5e8448ecf2397c6eb7e7eb50326c8c880d9b598b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.rst",
+        "blob_sha": "c35b142d8a2ae4020cf318754ee7c467573634b7",
+        "value": "https://github.com/jamesrwatsonx-creator/scancode-toolkit/blob/5e8448ecf2397c6eb7e7eb50326c8c880d9b598b/README.rst"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "license and copyright scanning",
+        "description": "Detects license and copyright indicators across source files.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:license-and-copyright-scanning",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "package and provenance analysis",
+        "description": "Identifies components and evidence for software inventory workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:package-and-provenance-analysis",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      },
+      {
+        "name": "compliance reporting",
+        "description": "Produces machine-readable reports for review and governance.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compliance-reporting",
+        "evidence_paths": [
+          "README.rst"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

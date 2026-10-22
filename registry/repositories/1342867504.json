@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/OpenBMB/VoxCPM",
-  "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+  "description": "VoxCPM2 speech-generation toolkit for multilingual text-to-speech, creative voice design, voice cloning and fine-tuning workflows.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-12T14:14:37Z",
-    "github_description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+    "github_description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "ee8161e9e1b7b082cb5721a3a9980da4204401e6",
   "current_commit": "ee8161e9e1b7b082cb5721a3a9980da4204401e6",
   "inspection_date": "2026-09-20T05:35:09.745888+00:00",
   "categories": [
-    "category:design-systems",
-    "category:generative-ai"
+    "category:machine-learning-models",
+    "category:generative-ai",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:17"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.623609+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.641021+00:00",
   "tree_files": 75,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 61,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 50,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.331118+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "VoxCPM2 speech-generation toolkit for multilingual text-to-speech, creative voice design, voice cloning and fine-tuning workflows.",
+    "reuse_recommendation": "Evaluate voice quality and model terms; require consent and disclosure for cloned or synthetic voices.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "Apache-2.0 code; verify model and voice data terms separately.",
+    "runtime": [
+      "Python",
+      "PyTorch",
+      "VoxCPM models",
+      "GPU inference"
+    ],
+    "keywords": [
+      "VoxCPM2",
+      "multilingual TTS",
+      "voice cloning",
+      "voice design",
+      "speech fine tuning"
+    ],
+    "risk_notes": [
+      "Voice cloning can impersonate identifiable people; consent, provenance and abuse controls are required."
+    ],
+    "important_subsystems": [
+      {
+        "name": "VoxCPM speech toolkit",
+        "purpose": "Provides model inference, voice design and adaptation workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:51.661864+00:00",
+    "inspected_commit": "ee8161e9e1b7b082cb5721a3a9980da4204401e6",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "766ffe39d7a70d343bd56ce1d2e9f2d6a83f5240",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-studio-VoxCPM/blob/ee8161e9e1b7b082cb5721a3a9980da4204401e6/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "multilingual speech generation",
+        "description": "Generates spoken audio from text across supported languages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multilingual-speech-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice design and cloning",
+        "description": "Supports conditioned voice creation and cloning workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-design-and-cloning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "model fine-tuning",
+        "description": "Provides inference and fine-tuning utilities for speech models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-fine-tuning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

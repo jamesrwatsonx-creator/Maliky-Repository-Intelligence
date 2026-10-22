@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/ayghri/i-have-adhd",
-  "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+  "description": "Accessibility-focused agent plugin that formats responses and tasks into ADHD-friendly, clear and manageable outputs without requiring a diagnosis.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-10T15:48:41Z",
-    "github_description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    "github_description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "6f1f982d0a47c65899af3c5a7450b7098bc65325",
   "current_commit": "6f1f982d0a47c65899af3c5a7450b7098bc65325",
   "inspection_date": "2026-09-20T05:36:00.650186+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:developer-tools",
-    "category:skills"
+    "category:plugins-extensions",
+    "category:accessibility",
+    "category:productivity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [
     "operational:03",
     "operational:24"
@@ -39,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.173590+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.253196+00:00",
   "tree_files": 62,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 57,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 47,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,126 @@
     ],
     "updated_at": "2026-10-12T19:04:27.178265+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Accessibility-focused agent plugin that formats responses and tasks into ADHD-friendly, clear and manageable outputs without requiring a diagnosis.",
+    "reuse_recommendation": "Use as an optional accessibility preference and let users adjust formatting; avoid treating it as clinical diagnosis or advice.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "JavaScript plugin",
+      "compatible coding/assistant host"
+    ],
+    "keywords": [
+      "ADHD-friendly formatting",
+      "accessible agent output",
+      "task breakdown",
+      "cognitive accessibility",
+      "assistant plugin"
+    ],
+    "risk_notes": [
+      "Accessibility preferences vary by person; avoid asserting medical benefits or inferring a user's diagnosis."
+    ],
+    "important_subsystems": [
+      {
+        "name": "accessibility plugin",
+        "purpose": "Applies ADHD-friendly output conventions in the host assistant.",
+        "evidence_paths": [
+          "README.md",
+          "plugin.json",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:47.533855+00:00",
+    "inspected_commit": "6f1f982d0a47c65899af3c5a7450b7098bc65325",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "e56f9641bd903337197a5acd5e5422c3fa8055c0",
+        "value": "https://github.com/jamesrwatsonx-creator/i-have-adhd/blob/6f1f982d0a47c65899af3c5a7450b7098bc65325/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "19db5f1b0ca65e277c158bd4c4263139ccfd859c",
+        "value": "https://github.com/jamesrwatsonx-creator/i-have-adhd/blob/6f1f982d0a47c65899af3c5a7450b7098bc65325/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "cc8e6b45e8b5796cca63da228c97069c921d655c",
+        "value": "https://github.com/jamesrwatsonx-creator/i-have-adhd/blob/6f1f982d0a47c65899af3c5a7450b7098bc65325/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugin.json",
+        "blob_sha": "403125166a56e6d4c4df1ca4d1ddfa1e4c5c62e6",
+        "value": "https://github.com/jamesrwatsonx-creator/i-have-adhd/blob/6f1f982d0a47c65899af3c5a7450b7098bc65325/plugin.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "accessible response formatting",
+        "description": "Shapes assistant output for clarity, scannability and reduced cognitive load.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:accessible-response-formatting",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "plugin.json"
+        ]
+      },
+      {
+        "name": "task organization support",
+        "description": "Encourages manageable task steps and clear next actions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:task-organization-support",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "plugin.json"
+        ]
+      },
+      {
+        "name": "agent plugin integration",
+        "description": "Packages formatting behavior for compatible host environments.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:agent-plugin-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "package.json",
+          "plugin.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

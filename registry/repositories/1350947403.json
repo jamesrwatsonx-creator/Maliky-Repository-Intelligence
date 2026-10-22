@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/Zylann/godot_voxel",
-  "description": "Voxel module for Godot Engine",
+  "description": "Voxel terrain and world-generation toolkit for building editable 3D environments in the Godot game engine.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-20T22:01:47Z",
-    "github_description": "Voxel module for Godot Engine"
+    "github_description": "Voxel module for Godot Engine",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2ac9f5f8a8219bf499314cc0fad54ffc47df908f",
   "current_commit": "2ac9f5f8a8219bf499314cc0fad54ffc47df908f",
   "inspection_date": "2026-09-20T05:35:41.920469+00:00",
   "categories": [
-    "category:general-other"
+    "category:games-interactive-experiences",
+    "category:creative-tools",
+    "category:libraries-packages"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.014389+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.088113+00:00",
   "tree_files": 1369,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1076,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1151,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.156777+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voxel terrain and world-generation toolkit for building editable 3D environments in the Godot game engine.",
+    "reuse_recommendation": "Use for voxel games or simulations after profiling world size and engine compatibility.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository and included assets; engine and plugin versions matter.",
+    "runtime": [
+      "Godot Engine",
+      "GDScript/C++ extension as declared"
+    ],
+    "keywords": [
+      "Godot voxel",
+      "voxel terrain",
+      "3D world generation",
+      "game engine plugin",
+      "procedural worlds"
+    ],
+    "risk_notes": [
+      "Large generated worlds can create significant performance and storage costs."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Godot voxel engine",
+        "purpose": "Provides voxel world capabilities for game and simulation projects.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:14.349237+00:00",
+    "inspected_commit": "2ac9f5f8a8219bf499314cc0fad54ffc47df908f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "abcb29fd8f2b8c0fcf3b58cf24f0d29e929ea05a",
+        "value": "https://github.com/jamesrwatsonx-creator/godot_voxel/blob/2ac9f5f8a8219bf499314cc0fad54ffc47df908f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "voxel terrain generation",
+        "description": "Creates and manages voxel-based 3D environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voxel-terrain-generation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Godot editor integration",
+        "description": "Connects voxel authoring and runtime behavior to Godot projects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:godot-editor-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/VoxelPlugin/VoxelPluginFreeLegacy",
-  "description": "Voxel Plugin Legacy for Unreal Engine",
+  "description": "Legacy free voxel plugin or asset-generation tooling for a game engine, providing voxel modeling or world-construction capabilities.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-06-24T10:55:26Z",
-    "github_description": "Voxel Plugin Legacy for Unreal Engine"
+    "github_description": "Voxel Plugin Legacy for Unreal Engine",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "7e64a89ce827b44a75c83a939e2c2e2e42bee61d",
   "current_commit": "7e64a89ce827b44a75c83a939e2c2e2e42bee61d",
   "inspection_date": "2026-09-20T05:35:41.918453+00:00",
   "categories": [
-    "category:general-other"
+    "category:games-interactive-experiences",
+    "category:creative-tools",
+    "category:plugins-extensions"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.668515+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.670078+00:00",
   "tree_files": 1169,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 691,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 685,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.336118+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Legacy free voxel plugin or asset-generation tooling for a game engine, providing voxel modeling or world-construction capabilities.",
+    "reuse_recommendation": "Treat as a legacy reference and verify engine compatibility, maintenance and redistribution rights.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Legacy project; check plugin and included asset licenses and engine compatibility.",
+    "runtime": [
+      "Target game engine/editor",
+      "plugin runtime"
+    ],
+    "keywords": [
+      "voxel plugin",
+      "voxel modeling",
+      "game engine",
+      "3D world generation",
+      "legacy plugin"
+    ],
+    "risk_notes": [
+      "Unsupported legacy code may have security and compatibility issues."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voxel plugin",
+        "purpose": "Provides voxel authoring capabilities for game projects.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:16.952844+00:00",
+    "inspected_commit": "7e64a89ce827b44a75c83a939e2c2e2e42bee61d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f87bec462ac6448758c3deced7b942473bc71b7e",
+        "value": "https://github.com/jamesrwatsonx-creator/VoxelPluginFreeLegacy/blob/7e64a89ce827b44a75c83a939e2c2e2e42bee61d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "voxel content creation",
+        "description": "Supports building or editing voxel-based geometry and scenes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voxel-content-creation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "game engine integration",
+        "description": "Connects voxel workflows to a supported engine/editor.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:game-engine-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

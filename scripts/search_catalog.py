@@ -37,13 +37,16 @@ def search_catalog(query="", asset_type=None, topic=None, repository=None, statu
             continue
         if status_value and status_value not in {str(item.get("review_status", "")).lower(), str(item.get("evidence_status", "")).lower()}:
             continue
-        searchable = " ".join(filter(None, [item.get("name", ""), item.get("asset_type", ""), item.get("entity_type", ""), item.get("description", ""), item.get("repository", ""), item.get("source_path", ""), item.get("technology", ""), item.get("language", ""), " ".join(item.get("categories", [])), " ".join(item.get("capabilities", [])), " ".join(item.get("topics", []))]))
+        searchable = " ".join(filter(None, [item.get("name", ""), item.get("asset_type", ""), item.get("entity_type", ""), item.get("description", ""), item.get("repository", ""), item.get("source_path", ""), item.get("technology", ""), item.get("language", ""), " ".join(item.get("categories", [])), " ".join(item.get("capabilities", [])), " ".join(item.get("topics", [])), " ".join(item.get("keywords") or []),
+                                               " ".join(c['name']+' '+c['description'] for c in item.get('capability_clusters') or []),
+                                               " ".join(s['name']+' '+s['purpose'] for s in item.get('important_subsystems') or [])]))
         haystack = tokens(searchable)
         word_set = set(haystack)
         overlap = sum(term in word_set for term in terms)
         if terms and overlap == 0:
             continue
         score = overlap
+        if item.get('completion_scope') == 'REPOSITORY_CLUSTERS_V1': score += 2
         name_tokens = set(tokens(item.get("name", "")))
         repo_tokens = set(tokens(item.get("repository", "")))
         score += 4 * sum(term in name_tokens for term in terms)

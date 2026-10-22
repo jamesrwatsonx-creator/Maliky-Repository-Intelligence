@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-  "description": "Financial portfolio optimization in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+  "description": "Python portfolio optimization library implementing mean-variance, Black-Litterman, shrinkage and hierarchical risk parity methods.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-07T21:18:14Z",
-    "github_description": "Financial portfolio optimization in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity"
+    "github_description": "Financial portfolio optimization in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
   "current_commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
   "inspection_date": "2026-09-20T05:36:10.006854+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:finance-accounting",
+    "category:scientific-computing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.919681+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.025983+00:00",
   "tree_files": 100,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 52,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 64,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,99 @@
     ],
     "updated_at": "2026-10-12T19:04:27.264225+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python portfolio optimization library implementing mean-variance, Black-Litterman, shrinkage and hierarchical risk parity methods.",
+    "reuse_recommendation": "Use as an analytics library after validating return data, constraints and assumptions; results are not investment advice.",
+    "inspection_scope": "Bounded review of pinned README; capability clusters describe repository-level reuse, not an exhaustive asset inventory.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "SciPy"
+    ],
+    "keywords": [
+      "portfolio optimization",
+      "mean variance",
+      "Black-Litterman",
+      "risk parity",
+      "asset allocation"
+    ],
+    "risk_notes": [
+      "Financial allocation depends on uncertain inputs and modeling choices; independently validate before investment use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PyPortfolioOpt library",
+        "purpose": "Provides optimization methods and allocation utilities for Python applications.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:06:56.277306+00:00",
+    "inspected_commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "dcf80eff1740375c907afb7d5d85700953ccebe7",
+        "value": "https://github.com/jamesrwatsonx-creator/PyPortfolioOpt/blob/a6638d2e06dae6f444fd022cfd4b3c528902a85b/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "classical portfolio optimization",
+        "description": "Computes mean-variance allocations and related constrained portfolios.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:classical-portfolio-optimization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Black-Litterman allocation",
+        "description": "Combines market equilibrium assumptions and investor views for portfolio weights.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:black-litterman-allocation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "risk-based portfolio methods",
+        "description": "Includes shrinkage and hierarchical risk parity approaches.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:risk-based-portfolio-methods",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

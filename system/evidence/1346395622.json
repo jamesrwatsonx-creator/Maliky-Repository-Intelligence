@@ -5,6 +5,14 @@
   "tree_files": 544,
   "tree_entries": [
     {
+      "path": ".github/workflows/ci.yml",
+      "sha": "9aa6e766b625fc20112cdf82291bb357519808e6"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "04ebbd0e8e4516056024c78f129a0b1522cc435b"
+    },
+    {
       "path": "README.md",
       "sha": "8ca7d52839be194d49ba9c4df99fc548ca15d579"
     },
@@ -13,12 +21,36 @@
       "sha": "aa2981111adafa230f45d604e1ea3937fdaa33ad"
     },
     {
+      "path": "scripts/check-bundle-size.mjs",
+      "sha": "cd7ad249bf254af517f1fe97269ec807be1f2922"
+    },
+    {
+      "path": "scripts/check-no-innerhtml.mjs",
+      "sha": "c693c87be086924c823669e95acae159b20b9ef9"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha": "a40c7dd08a67831672564b0cad1e4dfc98775fac"
+    },
+    {
+      "path": "src/constants.ts",
+      "sha": "8c12154499ad59defe8b273ddb834b38c927bba7"
+    },
+    {
+      "path": "src/index.ts",
+      "sha": "85c38e924d1cad34d987b979a34886c2c9700334"
+    },
+    {
       "path": "website/README.md",
       "sha": "e9294d0418dadbb3eb93e59c31265b1b8f1f80d7"
     },
     {
       "path": "website/package.json",
       "sha": "a2c9211cfe95d06b34eee4483c82fe4fadaf89d4"
+    },
+    {
+      "path": "website/src/index.ts",
+      "sha": "8524db6e7819d00154dc79d652a04b8a111d6b45"
     }
   ],
   "files_read": [
@@ -41,17 +73,52 @@
       "path": "website/README.md",
       "blob_sha": "e9294d0418dadbb3eb93e59c31265b1b8f1f80d7",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "04ebbd0e8e4516056024c78f129a0b1522cc435b",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/index.ts",
+      "blob_sha": "85c38e924d1cad34d987b979a34886c2c9700334",
+      "entities_detected": 0
+    },
+    {
+      "path": "website/src/index.ts",
+      "blob_sha": "8524db6e7819d00154dc79d652a04b8a111d6b45",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "9aa6e766b625fc20112cdf82291bb357519808e6",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check-bundle-size.mjs",
+      "blob_sha": "cd7ad249bf254af517f1fe97269ec807be1f2922",
+      "entities_detected": 0
+    },
+    {
+      "path": "scripts/check-no-innerhtml.mjs",
+      "blob_sha": "c693c87be086924c823669e95acae159b20b9ef9",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/cli.ts",
+      "blob_sha": "a40c7dd08a67831672564b0cad1e4dfc98775fac",
+      "entities_detected": 0
+    },
+    {
+      "path": "src/constants.ts",
+      "blob_sha": "8c12154499ad59defe8b273ddb834b38c927bba7",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".eslintrc.json",
-    ".github/workflows/ci.yml",
     "CLAUDE.md",
     "package-lock.json",
-    "scripts/check-bundle-size.mjs",
-    "scripts/check-no-innerhtml.mjs",
-    "src/cli.ts",
-    "src/constants.ts",
     "src/content-boundary.ts",
     "src/defuddle.ts",
     "src/elements/callouts.ts",
@@ -95,7 +162,6 @@
     "src/fetch.ts",
     "src/frontmatter.ts",
     "src/index.full.ts",
-    "src/index.ts",
     "src/markdown.ts",
     "src/metadata.ts",
     "src/node.ts",
@@ -143,7 +209,13 @@
     "tests/expected/content-patterns--card-grid-stripped-headings.md",
     "tests/expected/content-patterns--code-block-boilerplate-and-trailing-section.md",
     "tests/expected/content-patterns--content-list-with-internal-links.md",
-    "tests/expected/content-patterns--heading-introduced-list.md"
+    "tests/expected/content-patterns--heading-introduced-list.md",
+    "tests/expected/content-patterns--iso-date-and-read-time.md",
+    "tests/expected/content-patterns--leading-breadcrumb.md",
+    "tests/expected/content-patterns--live-blog-metadata.md",
+    "tests/expected/content-patterns--multi-image-row-midarticle.md",
+    "tests/expected/content-patterns--non-semantic-hero-header.md",
+    "tests/expected/content-patterns--social-counter-link.md"
   ],
   "excluded_nontext_paths": [
     ".editorconfig",
@@ -260,8 +332,12 @@
     "tests": 446,
     "website": 17
   },
-  "unread_source_paths_count": 325,
+  "unread_source_paths_count": 529,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 215,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/DialmasterOrg/Youtarr",
-  "description": "Self-hosted web app that automates downloading, organizing, and scheduling YouTube channel content with support for Plex, Kodi, Emby and Jellyfin",
+  "description": "Self-hosted interface for managing YouTube downloads, subscriptions or media archives using yt-dlp-like tooling.",
   "metadata": {
     "language": null,
     "license": "ISC",
     "archived": false,
     "pushed_at": "2026-10-14T01:48:58Z",
-    "github_description": "Self-hosted web app that automates downloading, organizing, and scheduling YouTube channel content with support for Plex, Kodi, Emby and Jellyfin"
+    "github_description": "Self-hosted web app that automates downloading, organizing, and scheduling YouTube channel content with support for Plex, Kodi, Emby and Jellyfin",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d7938d552a13dbf4bbc76f7e2b8f18d3d22cf2b6",
   "current_commit": "d7938d552a13dbf4bbc76f7e2b8f18d3d22cf2b6",
   "inspection_date": "2026-10-20T23:56:34.285682+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:media-publishing",
+    "category:web-applications",
+    "category:automation-scripting"
+  ],
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.795528+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.828191+00:00",
   "tree_files": 1395,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1371,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1369,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted interface for managing YouTube downloads, subscriptions or media archives using yt-dlp-like tooling.",
+    "reuse_recommendation": "Use only for authorized archiving and secure the service and stored media.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and YouTube/platform terms.",
+    "runtime": [
+      "Web service",
+      "container deployment",
+      "media extraction dependencies"
+    ],
+    "keywords": [
+      "Youtarr",
+      "YouTube archive",
+      "media download manager",
+      "self-hosted",
+      "yt-dlp"
+    ],
+    "risk_notes": [
+      "Copyright, platform policy, private media and arbitrary URL handling require review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Youtarr media manager",
+        "purpose": "Combines source monitoring, downloads and library management.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:14.729106+00:00",
+    "inspected_commit": "d7938d552a13dbf4bbc76f7e2b8f18d3d22cf2b6",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4c216d6a01c341d23c3dab0133579d9ddf7779ad",
+        "value": "https://github.com/jamesrwatsonx-creator/Youtarr/blob/d7938d552a13dbf4bbc76f7e2b8f18d3d22cf2b6/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "media subscription and download management",
+        "description": "Organizes supported channels or videos for retrieval and local storage.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:media-subscription-and-download-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted media library",
+        "description": "Provides a web interface and deployment workflow for personal archives.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:self-hosted-media-library",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

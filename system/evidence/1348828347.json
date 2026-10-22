@@ -5,6 +5,30 @@
   "tree_files": 605,
   "tree_entries": [
     {
+      "path": ".github/workflows/claude.yml",
+      "sha": "b6d823ac524f99fbd1bc734c084183fabed95371"
+    },
+    {
+      "path": ".github/workflows/cov.yaml",
+      "sha": "e680d36c11f9a66017dce64abec63614d71e2111"
+    },
+    {
+      "path": ".github/workflows/long-tests.yaml",
+      "sha": "c4fbaa1ca65e4f3773aba777e32bf139f0f3d997"
+    },
+    {
+      "path": ".github/workflows/mqtt-test.yaml",
+      "sha": "a16be0482a442f5b55335afe28daf483e955d1af"
+    },
+    {
+      "path": ".github/workflows/nightly.yaml",
+      "sha": "93cf2d63b14db614bd47ef294ffb98f9c821813b"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
       "path": "README.md",
       "sha": "4487552a792652c3e95d504e7b2f55507fdce05b"
     },
@@ -15,6 +39,10 @@
     {
       "path": "go.mod",
       "sha": "abf8835528e3da32db2985a9959fcd00be7fef8c"
+    },
+    {
+      "path": "main.go",
+      "sha": "dee2ded3e68a4afce88c2df4d19f741269dc3c8e"
     },
     {
       "path": "server/README-MQTT.md",
@@ -50,6 +78,41 @@
       "path": "server/README.md",
       "blob_sha": "38e8621eef388c5a1e750ef57e7f59f342f04617",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "entities_detected": 0
+    },
+    {
+      "path": "main.go",
+      "blob_sha": "dee2ded3e68a4afce88c2df4d19f741269dc3c8e",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "blob_sha": "b6d823ac524f99fbd1bc734c084183fabed95371",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/cov.yaml",
+      "blob_sha": "e680d36c11f9a66017dce64abec63614d71e2111",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/long-tests.yaml",
+      "blob_sha": "c4fbaa1ca65e4f3773aba777e32bf139f0f3d997",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/mqtt-test.yaml",
+      "blob_sha": "a16be0482a442f5b55335afe28daf483e955d1af",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/nightly.yaml",
+      "blob_sha": "93cf2d63b14db614bd47ef294ffb98f9c821813b",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
@@ -61,11 +124,6 @@
     ".github/PULL_REQUEST_TEMPLATE.md",
     ".github/actions/nightly-release/action.yaml",
     ".github/dependabot.yml",
-    ".github/workflows/claude.yml",
-    ".github/workflows/cov.yaml",
-    ".github/workflows/long-tests.yaml",
-    ".github/workflows/mqtt-test.yaml",
-    ".github/workflows/nightly.yaml",
     ".github/workflows/pull-requests.yml",
     ".github/workflows/release.yaml",
     ".github/workflows/stale-issues.yaml",
@@ -86,21 +144,23 @@
     "conf/lex_test.go",
     "conf/parse.go",
     "conf/parse_test.go",
+    "docker/Dockerfile.nightly",
     "internal/antithesis/noop.go",
     "internal/antithesis/test_assert.go",
+    "internal/fastrand/LICENSE",
     "internal/fastrand/fastrand.go",
     "internal/fastrand/fastrand_test.go",
     "internal/ldap/dn.go",
     "internal/ldap/dn_test.go",
     "internal/ocsp/ocsp.go",
     "internal/testhelper/logging.go",
+    "locksordering.txt",
     "logger/log.go",
     "logger/log_test.go",
     "logger/syslog.go",
     "logger/syslog_test.go",
     "logger/syslog_windows.go",
     "logger/syslog_windows_test.go",
-    "main.go",
     "scripts/cov.sh",
     "scripts/runTestsOnTravis.sh",
     "scripts/updateCopyrights.sh",
@@ -152,7 +212,10 @@
     "server/disk_avail_windows.go",
     "server/elastic/elastic.go",
     "server/errors.go",
-    "server/errors.json"
+    "server/errors.json",
+    "server/errors_gen.go",
+    "server/errors_test.go",
+    "server/events.go"
   ],
   "excluded_nontext_paths": [
     ".github/CODEOWNERS",
@@ -275,8 +338,12 @@
     "test": 238,
     "util": 2
   },
-  "unread_source_paths_count": 304,
+  "unread_source_paths_count": 308,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 296,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

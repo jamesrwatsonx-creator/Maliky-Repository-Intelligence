@@ -3,23 +3,106 @@
   "inspected_commit": "3c65b0e4ba872fe71d5566c0d09c3ace59a7fb8a",
   "tree_complete": true,
   "tree_files": 1139,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "a99e0796f82f5a20425d21866639e5e190b4075a"
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "sha": "925d8f6a4c9901e81eac5fff1880a19207e4ede9"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "dbbe3558157f5861bff35dcb37b328b679b0ccfd"
+    },
+    {
+      "path": "LICENSE_ADDITIONAL_TERMS",
+      "sha": "cac2a50b6b49f40391033bab670cd807cff34d5b"
+    },
+    {
+      "path": "README.md",
+      "sha": "e2f6e8b929c4712a3e0eea2cf69871a03a3f1655"
+    },
+    {
+      "path": "app/controllers/account_configs_controller.rb",
+      "sha": "23d82d94062f4370ddca15f7e617f85b05243dc0"
+    },
+    {
+      "path": "app/controllers/account_custom_fields_controller.rb",
+      "sha": "74e27ea0b27dceb5654b65692752d4b3a0d54227"
+    },
+    {
+      "path": "app/controllers/accounts_controller.rb",
+      "sha": "37591527e4ad4802924b8c40cc20f70a42f9d2ca"
+    },
+    {
+      "path": "app/controllers/api/active_storage_blobs_proxy_controller.rb",
+      "sha": "0cddd994985531af7150686a4cbba12bd2a2a663"
+    },
+    {
+      "path": "package.json",
+      "sha": "2127227a3bcbd9bbf760077d3ffbc73a4668ad8a"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "e2f6e8b929c4712a3e0eea2cf69871a03a3f1655",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "dbbe3558157f5861bff35dcb37b328b679b0ccfd",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE_ADDITIONAL_TERMS",
+      "blob_sha": "cac2a50b6b49f40391033bab670cd807cff34d5b",
+      "entities_detected": 0
+    },
+    {
+      "path": "package.json",
+      "blob_sha": "2127227a3bcbd9bbf760077d3ffbc73a4668ad8a",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "blob_sha": "a99e0796f82f5a20425d21866639e5e190b4075a",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "blob_sha": "925d8f6a4c9901e81eac5fff1880a19207e4ede9",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/controllers/account_configs_controller.rb",
+      "blob_sha": "23d82d94062f4370ddca15f7e617f85b05243dc0",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/controllers/account_custom_fields_controller.rb",
+      "blob_sha": "74e27ea0b27dceb5654b65692752d4b3a0d54227",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/controllers/accounts_controller.rb",
+      "blob_sha": "37591527e4ad4802924b8c40cc20f70a42f9d2ca",
+      "entities_detected": 0
+    },
+    {
+      "path": "app/controllers/api/active_storage_blobs_proxy_controller.rb",
+      "blob_sha": "0cddd994985531af7150686a4cbba12bd2a2a663",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".annotaterb.yml",
     ".erb_lint.yml",
-    ".github/workflows/ci.yml",
-    ".github/workflows/docker.yml",
     ".rubocop.yml",
     "Dockerfile",
-    "LICENSE",
-    "LICENSE_ADDITIONAL_TERMS",
-    "README.md",
     "SECURITY.md",
-    "app/controllers/account_configs_controller.rb",
-    "app/controllers/account_custom_fields_controller.rb",
-    "app/controllers/accounts_controller.rb",
-    "app/controllers/api/active_storage_blobs_proxy_controller.rb",
     "app/controllers/api/active_storage_blobs_proxy_legacy_controller.rb",
     "app/controllers/api/api_base_controller.rb",
     "app/controllers/api/attachments_controller.rb",
@@ -105,7 +188,16 @@
     "app/controllers/submitters_controller.rb",
     "app/controllers/submitters_download_controller.rb",
     "app/controllers/submitters_resubmit_controller.rb",
-    "app/controllers/submitters_send_email_controller.rb"
+    "app/controllers/submitters_send_email_controller.rb",
+    "app/controllers/template_documents_controller.rb",
+    "app/controllers/template_documents_crop_controller.rb",
+    "app/controllers/template_documents_modify_controller.rb",
+    "app/controllers/template_documents_page_objects_controller.rb",
+    "app/controllers/template_folders_autocomplete_controller.rb",
+    "app/controllers/template_folders_controller.rb",
+    "app/controllers/template_sharings_testing_controller.rb",
+    "app/controllers/templates_archived_controller.rb",
+    "app/controllers/templates_archived_submissions_controller.rb"
   ],
   "excluded_nontext_paths": [
     ".dockerignore",
@@ -212,6 +304,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "4dfb151b6f78ac4c3956bf5f6452848557b68370c8e2054297adb1b52c8c3b46",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -228,8 +321,11 @@
     "spec": 66,
     "tmp": 2
   },
-  "unread_source_paths_count": 678,
+  "unread_source_paths_count": 674,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 461,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_truncated": true,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

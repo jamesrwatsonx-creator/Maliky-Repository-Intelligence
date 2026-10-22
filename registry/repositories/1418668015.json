@@ -11,27 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/shingrus/1time.io",
-  "description": "Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.",
+  "description": "Zero-knowledge one-time secret-sharing service that encrypts text and files into self-destructing links.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-14T07:16:42Z",
-    "github_description": "Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source."
+    "github_description": "Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
   "current_commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
   "inspection_date": "2026-10-20T23:51:55.396475+00:00",
   "categories": [
-    "category:application-security",
-    "category:backend-services",
-    "category:cli-tools",
-    "category:plugins-extensions",
-    "category:privacy",
-    "category:web-applications"
+    "category:web-applications",
+    "category:cybersecurity",
+    "category:privacy"
   ],
-  "operational_category": "operational:13",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [
     "capability:browser-selected-text-secret-sharing",
@@ -44,7 +42,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "SECURITY REVIEW REQUIRED",
+  "recommendation": "NEEDS DEEPER REVIEW",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -349,13 +347,14 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": true,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.925901+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.631944+00:00",
   "tree_files": 212,
   "files_read": 88,
   "entity_count": 4,
-  "unread_source_files": 0,
+  "unread_source_files": 35,
   "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "started_at": "2026-10-21T00:16:53.344216+00:00",
@@ -384,5 +383,96 @@
       "synchronized protocol copies"
     ],
     "scoped_deep_review": "Sensitive-data and cryptographic-protocol trigger reviewed narrowly. Source documentation and implementations place AES-GCM encryption/decryption in clients, keep decryption keys in URL fragments, store ciphertext plus hashed read tokens server-side and bound reads. Static review does not establish cryptographic correctness, deployment TLS, storage isolation or operational deletion guarantees."
+  },
+  "repository_intelligence": {
+    "purpose": "Zero-knowledge one-time secret-sharing service that encrypts text and files into self-destructing links.",
+    "reuse_recommendation": "Do not rely on security claims without reviewing cryptographic design, key handling, deletion guarantees and deployment controls.",
+    "inspection_scope": "Reviewed pinned README and repository metadata for a bounded summary; not an exhaustive asset breakdown.",
+    "license_notes": "See repository LICENSE and cryptographic dependency terms.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "one-time secret sharing",
+      "zero knowledge",
+      "encrypted file sharing",
+      "self-destructing links",
+      "password sharing"
+    ],
+    "risk_notes": [
+      "Handles passwords, keys and private files; cryptography and secret lifecycle require deep security review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "1time secret-sharing service",
+        "purpose": "Coordinates browser encryption, link exchange and one-time consumption.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:15:55.049220+00:00",
+    "inspected_commit": "69c7c5da0d223c257d3079ecf2c05abea030fcee",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ab64b3cacd3a8a2f2284458bc841d88fe1c73ef3",
+        "value": "https://github.com/jamesrwatsonx-creator/1time.io/blob/69c7c5da0d223c257d3079ecf2c05abea030fcee/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "one-time encrypted secret sharing",
+        "description": "Creates links for sharing sensitive text with a limited retrieval lifetime.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:one-time-encrypted-secret-sharing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "encrypted file sharing",
+        "description": "Supports sharing files through encrypted, expiring links.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:encrypted-file-sharing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "zero-knowledge web service",
+        "description": "Structures the service so plaintext secrets are not retained server-side by design.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:zero-knowledge-web-service",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/android/compose-samples",
-  "description": "Official Jetpack Compose samples.",
+  "description": "Android Jetpack Compose sample applications demonstrating UI, navigation, state and architecture patterns.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T10:08:21Z",
-    "github_description": "Official Jetpack Compose samples."
+    "github_description": "Official Jetpack Compose samples.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "018c5207fb63c4f78e5841bd8ddd4faabdf19d3a",
   "current_commit": "018c5207fb63c4f78e5841bd8ddd4faabdf19d3a",
   "inspection_date": "2026-09-20T05:34:56.507052+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:reference-implementations",
+    "category:mobile-applications",
+    "category:frontend-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.922383+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.626944+00:00",
   "tree_files": 957,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 422,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 653,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.038193+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android Jetpack Compose sample applications demonstrating UI, navigation, state and architecture patterns.",
+    "reuse_recommendation": "Use as sample code and verify APIs, accessibility and architecture against current Android guidance.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Apache-2.0 unless individual sample notes state otherwise.",
+    "runtime": [
+      "Kotlin",
+      "Android",
+      "Jetpack Compose"
+    ],
+    "keywords": [
+      "Jetpack Compose",
+      "Android UI samples",
+      "Kotlin",
+      "navigation",
+      "Compose patterns"
+    ],
+    "risk_notes": [
+      "Samples are not necessarily production-ready implementations."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Compose sample apps",
+        "purpose": "Provides reusable Android UI and architecture references.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:46.141158+00:00",
+    "inspected_commit": "018c5207fb63c4f78e5841bd8ddd4faabdf19d3a",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c9a8c24fafc0df98afc5874f9db3d8a868e4b93e",
+        "value": "https://github.com/jamesrwatsonx-creator/.Android.compose-samples/blob/018c5207fb63c4f78e5841bd8ddd4faabdf19d3a/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Compose UI patterns",
+        "description": "Demonstrates declarative Android screens, layouts and interactions.",
+        "scope": "REFERENCE",
+        "id": "cluster:compose-ui-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "state and navigation examples",
+        "description": "Shows application state management and navigation approaches.",
+        "scope": "REFERENCE",
+        "id": "cluster:state-and-navigation-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

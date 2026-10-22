@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
-  "description": "Specification and documentation for the Model Context Protocol",
+  "description": "Specification and SDK ecosystem for the Model Context Protocol, a standard for connecting AI applications to tools, resources and prompts.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-26T03:22:19Z",
-    "github_description": "Specification and documentation for the Model Context Protocol"
+    "github_description": "Specification and documentation for the Model Context Protocol",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "d8fdc88fb970313247d8a180ac1ec3f6a10a8885",
   "current_commit": "d8fdc88fb970313247d8a180ac1ec3f6a10a8885",
   "inspection_date": "2026-09-20T05:34:11.221557+00:00",
   "categories": [
-    "category:ai-memory",
-    "category:llm-projects"
+    "category:specifications-standards",
+    "category:mcp-servers",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [
     "operational:15"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.541582+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.690887+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 945,
-  "files_read": 5,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 419,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 787,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.221835+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Specification and SDK ecosystem for the Model Context Protocol, a standard for connecting AI applications to tools, resources and prompts.",
+    "reuse_recommendation": "Use the protocol and official SDKs with explicit capability permissions and transport security.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check each SDK and specification repository license.",
+    "runtime": [
+      "Protocol specifications",
+      "TypeScript/Python/other SDK runtimes"
+    ],
+    "keywords": [
+      "MCP",
+      "Model Context Protocol",
+      "tool interoperability",
+      "agent integrations",
+      "protocol specification"
+    ],
+    "risk_notes": [
+      "MCP tools may expose data or perform writes; audit server permissions and trust boundaries."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MCP specification and SDKs",
+        "purpose": "Enables interoperable connections between AI hosts and external capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:45.754130+00:00",
+    "inspected_commit": "d8fdc88fb970313247d8a180ac1ec3f6a10a8885",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4e4811014ee7abd43b8cfc4730bd3f9b8dd2aaca",
+        "value": "https://github.com/jamesrwatsonx-creator/modelcontextprotocol/blob/d8fdc88fb970313247d8a180ac1ec3f6a10a8885/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "protocol specification",
+        "description": "Defines client/server message patterns and capability negotiation for MCP.",
+        "scope": "REFERENCE",
+        "id": "cluster:protocol-specification",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SDKs and examples",
+        "description": "Provides implementations and examples for building MCP clients and servers.",
+        "scope": "REFERENCE",
+        "id": "cluster:sdks-and-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tool/resource interoperability",
+        "description": "Standardizes how compatible applications expose tools, prompts and resources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tool-resource-interoperability",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

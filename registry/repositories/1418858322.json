@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/inventree/InvenTree",
-  "description": "Open Source Inventory Management System",
+  "description": "Open-source inventory and parts management system for tracking stock, suppliers, manufacturing BOMs and purchasing workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-14T08:39:30Z",
-    "github_description": "Open Source Inventory Management System"
+    "github_description": "Open Source Inventory Management System",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "720ba157bb006cb0edcebe9dba05a2b9d0a3d7ba",
   "current_commit": "720ba157bb006cb0edcebe9dba05a2b9d0a3d7ba",
   "inspection_date": "2026-10-20T23:56:02.835929+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:business-applications",
+    "category:manufacturing",
+    "category:business-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.220704+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.313298+00:00",
   "tree_files": 2292,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1599,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1658,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Open-source inventory and parts management system for tracking stock, suppliers, manufacturing BOMs and purchasing workflows.",
+    "reuse_recommendation": "Use for inventory workflows after reconciling domain-specific stock and production requirements.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "MIT; external integrations and hosted services have separate terms.",
+    "runtime": [
+      "Python/Django",
+      "database",
+      "plugin/API ecosystem"
+    ],
+    "keywords": [
+      "InvenTree",
+      "inventory management",
+      "parts database",
+      "BOM",
+      "manufacturing operations"
+    ],
+    "risk_notes": [
+      "Inventory changes affect purchasing and fulfillment; use access control and backups."
+    ],
+    "important_subsystems": [
+      {
+        "name": "InvenTree inventory platform",
+        "purpose": "Connects part records, stock control and manufacturing operations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:53.143284+00:00",
+    "inspected_commit": "720ba157bb006cb0edcebe9dba05a2b9d0a3d7ba",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5295f4fb9c67cec437a3925487386b76ffca5a36",
+        "value": "https://github.com/jamesrwatsonx-creator/InvenTree/blob/720ba157bb006cb0edcebe9dba05a2b9d0a3d7ba/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "parts and stock tracking",
+        "description": "Maintains part catalogs, locations and inventory quantities.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:parts-and-stock-tracking",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "BOM and manufacturing workflows",
+        "description": "Models assemblies and production processes.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:bom-and-manufacturing-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "supplier and purchasing operations",
+        "description": "Supports procurement and supplier management.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:supplier-and-purchasing-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

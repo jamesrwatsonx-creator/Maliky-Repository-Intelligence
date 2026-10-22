@@ -57,6 +57,10 @@
       "sha": "c9ef7860d286ea439e8467f09c3d6c66bb813528"
     },
     {
+      "path": "scripts/ci.ps1",
+      "sha": "f7412b8cd1e417df32f25771ba59dcfc1964f150"
+    },
+    {
       "path": "scripts/ci.sh",
       "sha": "81021e01316ac9ac85675744ed768817011e1e39"
     },
@@ -3956,9 +3960,19 @@
       "path": "LICENSE",
       "blob_sha": "e1749833921e7e82b674fd5ef752545c53c97547",
       "entities_detected": 0
+    },
+    {
+      "path": "scripts/ci.ps1",
+      "blob_sha": "f7412b8cd1e417df32f25771ba59dcfc1964f150",
+      "entities_detected": 0
     }
   ],
-  "unread_source_paths": [],
+  "unread_source_paths": [
+    "scripts/install.ps1",
+    "scripts/uninstall.ps1",
+    "src/free_claude_code/api/admin_static/admin.css",
+    "src/free_claude_code/api/admin_static/index.html"
+  ],
   "excluded_nontext_paths": [
     ".env.example",
     ".gitignore",
@@ -4028,6 +4042,7 @@
   ],
   "census_review_required": true,
   "detector_version": 2,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "86ae1e504071c4446334332f0938dfbd7e69430d016abb50d8676c7f85394355",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -4039,7 +4054,7 @@
     "src": 229,
     "tests": 156
   },
-  "unread_source_paths_count": 0,
+  "unread_source_paths_count": 4,
   "unread_source_paths_truncated": false,
   "excluded_nontext_paths_count": 17,
   "excluded_nontext_paths_truncated": false,

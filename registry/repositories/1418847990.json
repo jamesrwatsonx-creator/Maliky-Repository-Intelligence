@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/huginn/huginn",
-  "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+  "description": "Custom agents or integrations for Huginn’s event-driven automation platform, enabling monitoring, transformation and actions across services.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-13T21:00:44Z",
-    "github_description": "Create agents that monitor and act on your behalf.  Your agents are standing by!"
+    "github_description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "efaba04566eeac4d17fdde7e9258e6c047a02cf8",
   "current_commit": "efaba04566eeac4d17fdde7e9258e6c047a02cf8",
   "inspection_date": "2026-10-20T23:55:40.943629+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:automation-scripting",
+    "category:agent-frameworks",
+    "category:apis"
+  ],
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.146181+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.215167+00:00",
   "tree_files": 872,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 628,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 672,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Custom agents or integrations for Huginn’s event-driven automation platform, enabling monitoring, transformation and actions across services.",
+    "reuse_recommendation": "Use individual agents selectively and verify credentials, payload handling and idempotency.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Check repository and upstream Huginn licensing; third-party services have separate terms.",
+    "runtime": [
+      "Ruby",
+      "Huginn",
+      "external service APIs"
+    ],
+    "keywords": [
+      "Huginn agents",
+      "event automation",
+      "custom integrations",
+      "workflow automation",
+      "service monitoring"
+    ],
+    "risk_notes": [
+      "Automated actions may affect third-party systems and process sensitive event data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Custom Huginn agent set",
+        "purpose": "Extends event-driven workflows with additional service capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:20.287072+00:00",
+    "inspected_commit": "efaba04566eeac4d17fdde7e9258e6c047a02cf8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c2d6e88de11d6f1d63f7047e68aa07ffec361453",
+        "value": "https://github.com/jamesrwatsonx-creator/huginn-agents-custom/blob/efaba04566eeac4d17fdde7e9258e6c047a02cf8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "event source agents",
+        "description": "Collects events from supported services or data sources.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:event-source-agents",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "event transformation and routing",
+        "description": "Processes and routes events through configurable automation flows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:event-transformation-and-routing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "custom service integrations",
+        "description": "Adds project-specific agents for external systems.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:custom-service-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

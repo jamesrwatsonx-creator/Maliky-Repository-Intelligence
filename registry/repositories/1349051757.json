@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/experientiallabs/experiential",
-  "description": "An open source model gateway that provides one control plane across closed, open-source, local, and custom models.",
+  "description": "Experiential marketing or interactive experience project; the pinned README defines a business/media capability suitable for concept and implementation reference.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-27T21:51:14Z",
-    "github_description": "An open source model gateway that provides one control plane across closed, open-source, local, and custom models."
+    "github_description": "An open source model gateway that provides one control plane across closed, open-source, local, and custom models.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a1f2d3c66d7213522b18f083cb1f1221bee9b533",
   "current_commit": "a1f2d3c66d7213522b18f083cb1f1221bee9b533",
   "inspection_date": "2026-09-20T05:35:32.161701+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:marketing-communications",
+    "category:creative-tools",
+    "category:general-other"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.776953+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.686209+00:00",
   "tree_files": 764,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 751,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 743,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.131543+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Experiential marketing or interactive experience project; the pinned README defines a business/media capability suitable for concept and implementation reference.",
+    "reuse_recommendation": "Use as a creative reference and verify all campaign claims, tracking and consent practices.",
+    "inspection_scope": "Repository-level review of pinned README and manifest evidence; only major reusable capability clusters are recorded.",
+    "license_notes": "Verify repository and included creative asset rights.",
+    "runtime": [
+      "Repository-declared web or media runtime"
+    ],
+    "keywords": [
+      "experiential",
+      "interactive campaign",
+      "brand experience",
+      "creative technology"
+    ],
+    "risk_notes": [
+      "Experience tracking may collect visitor behavior or personal information."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Experiential project",
+        "purpose": "Packages the repository’s branded or interactive experience concept.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:40:17.143885+00:00",
+    "inspected_commit": "a1f2d3c66d7213522b18f083cb1f1221bee9b533",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "255eb7a12dcc8e6d33093d34dfc7f5bb31bb0210",
+        "value": "https://github.com/jamesrwatsonx-creator/experiential/blob/a1f2d3c66d7213522b18f083cb1f1221bee9b533/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "interactive experience design",
+        "description": "Provides a digital or event-oriented user experience for engagement.",
+        "scope": "DESIGN",
+        "id": "cluster:interactive-experience-design",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "campaign content and presentation",
+        "description": "Supports the creative communication layer around an experience.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:campaign-content-and-presentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/MonoGame/MonoGame",
-  "description": "One framework for creating powerful cross-platform games.",
+  "description": "Cross-platform open-source game development framework for building 2D and 3D games with .NET and C#.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-08-27T12:53:23Z",
-    "github_description": "One framework for creating powerful cross-platform games."
+    "github_description": "One framework for creating powerful cross-platform games.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "5cebc1e12a2c57f789f37e863f4edb1c65280bf3",
   "current_commit": "5cebc1e12a2c57f789f37e863f4edb1c65280bf3",
   "inspection_date": "2026-09-20T05:35:40.917499+00:00",
   "categories": [
-    "category:general-other"
+    "category:games-interactive-experiences",
+    "category:frameworks",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.550717+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.707895+00:00",
   "tree_files": 2080,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1434,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1472,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.223713+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Cross-platform open-source game development framework for building 2D and 3D games with .NET and C#.",
+    "reuse_recommendation": "Use for custom game development and validate target platform and deployment pipeline requirements.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "Microsoft Public License; verify bundled content and platform dependencies.",
+    "runtime": [
+      "C#/.NET",
+      "graphics/audio backends",
+      "platform-specific SDKs"
+    ],
+    "keywords": [
+      "MonoGame",
+      "C# game framework",
+      "2D games",
+      "cross-platform game development",
+      "XNA"
+    ],
+    "risk_notes": [
+      "Platform SDK and content distribution requirements vary by target."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MonoGame framework",
+        "purpose": "Provides a code-first foundation for cross-platform game development.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:16.390761+00:00",
+    "inspected_commit": "5cebc1e12a2c57f789f37e863f4edb1c65280bf3",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "048e777aab001fd67ec693881a72db241122a9d1",
+        "value": "https://github.com/jamesrwatsonx-creator/MonoGame/blob/5cebc1e12a2c57f789f37e863f4edb1c65280bf3/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "game loop and graphics",
+        "description": "Provides core runtime APIs for drawing, input and frame updates.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:game-loop-and-graphics",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "audio and asset pipelines",
+        "description": "Supports game media management and playback.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:audio-and-asset-pipelines",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "cross-platform deployment",
+        "description": "Targets desktop, mobile and console platforms through platform integrations.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:cross-platform-deployment",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

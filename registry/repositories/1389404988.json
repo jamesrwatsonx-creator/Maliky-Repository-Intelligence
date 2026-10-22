@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "A social networking service scraper in Python",
+  "upstream_url": "https://github.com/JustAnotherArchivist/snscrape",
+  "description": "Social-network scraping library and command-line tool for collecting public posts and profile data from supported platforms.",
   "metadata": {
     "language": null,
     "license": "GPL-3.0",
     "archived": false,
     "pushed_at": "2023-11-15T00:21:52Z",
-    "github_description": "A social networking service scraper in Python"
+    "github_description": "A social networking service scraper in Python",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "614d4c2029a62d348ca56598f87c425966aaec66",
+  "current_commit": "614d4c2029a62d348ca56598f87c425966aaec66",
+  "inspection_date": "2026-10-22T02:32:21.221065+00:00",
   "categories": [
-    "category:research-projects"
+    "category:research-projects",
+    "category:developer-tools"
   ],
   "operational_category": "operational:10",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.228718+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.286249+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.291408+00:00",
     "purpose_established": true
+  },
+  "tree_files": 21,
+  "files_read": 10,
+  "unread_source_files": 10,
+  "repository_intelligence": {
+    "purpose": "Social-network scraping library and command-line tool for collecting public posts and profile data from supported platforms.",
+    "reuse_recommendation": "Use only where collection is authorized and consistent with platform rules and privacy obligations.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Verify license and platform terms; collection may involve personal data.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "social media scraping",
+      "public posts",
+      "social data",
+      "CLI",
+      "Python"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "snscrape library and CLI",
+        "purpose": "Offers reusable scrapers and command-line collection workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:30.210485+00:00",
+    "inspected_commit": "614d4c2029a62d348ca56598f87c425966aaec66",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "00cb4f915b928661a69e352f56243b039bc42f32",
+        "value": "https://github.com/jamesrwatsonx-creator/snscrape/blob/614d4c2029a62d348ca56598f87c425966aaec66/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Social content collection",
+        "description": "Retrieves public posts and account metadata from supported social services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:social-content-collection",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

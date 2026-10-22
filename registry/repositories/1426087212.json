@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/docling-project/docling",
-  "description": "Get your documents ready for gen AI",
+  "description": "Document parsing toolkit that converts PDFs and other office files into structured representations suitable for search, RAG and downstream processing.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T15:59:04Z",
-    "github_description": "Get your documents ready for gen AI"
+    "github_description": "Get your documents ready for gen AI",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "d01c9c0991920924cf17f6b8366079ac035ffc38",
   "current_commit": "d01c9c0991920924cf17f6b8366079ac035ffc38",
   "inspection_date": "2026-10-21T00:00:20.458957+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:data-engineering",
+    "category:developer-tools",
+    "category:data-engineering"
+  ],
+  "operational_category": "operational:13",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.673444+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.566144+00:00",
   "tree_files": 1908,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1387,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1447,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Document parsing toolkit that converts PDFs and other office files into structured representations suitable for search, RAG and downstream processing.",
+    "reuse_recommendation": "Use for document ingestion and validate OCR/layout fidelity on representative files.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "MIT; individual model and parser dependencies may have separate terms.",
+    "runtime": [
+      "Python",
+      "document parsing and vision models",
+      "CPU/GPU"
+    ],
+    "keywords": [
+      "Docling",
+      "document parsing",
+      "PDF extraction",
+      "OCR",
+      "RAG ingestion"
+    ],
+    "risk_notes": [
+      "Documents can contain confidential data and malicious embedded content."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Docling conversion pipeline",
+        "purpose": "Connects file input to structured, model-ready document output.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:14.762036+00:00",
+    "inspected_commit": "d01c9c0991920924cf17f6b8366079ac035ffc38",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3297b7881575dc853facc5add4cc4c8dccc12f14",
+        "value": "https://github.com/jamesrwatsonx-creator/docling/blob/d01c9c0991920924cf17f6b8366079ac035ffc38/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "document format conversion",
+        "description": "Converts PDFs and office documents into structured text and layout data.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:document-format-conversion",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "layout and table understanding",
+        "description": "Extracts document structure, tables and visual elements.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:layout-and-table-understanding",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "AI/RAG ingestion integration",
+        "description": "Prepares document content for retrieval and model workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-rag-ingestion-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

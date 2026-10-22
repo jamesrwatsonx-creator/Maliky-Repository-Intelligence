@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/firebase/quickstart-android",
-  "description": "Firebase Quickstart Samples for Android",
+  "description": "Android sample applications demonstrating Firebase SDK integration patterns for authentication, databases, messaging, analytics and other services.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T22:14:13Z",
-    "github_description": "Firebase Quickstart Samples for Android"
+    "github_description": "Firebase Quickstart Samples for Android",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3a623abb3d3633752b98d020d38f12566afcef60",
   "current_commit": "3a623abb3d3633752b98d020d38f12566afcef60",
   "inspection_date": "2026-09-20T05:33:13.026484+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:reference-implementations",
+    "category:mobile-applications",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.824684+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.740211+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -273,10 +277,10 @@
     "unverified_source_files": 3
   },
   "tree_files": 879,
-  "files_read": 15,
+  "files_read": 20,
   "entity_count": 0,
-  "unread_source_files": 314,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 500,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -286,5 +290,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.136211+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android sample applications demonstrating Firebase SDK integration patterns for authentication, databases, messaging, analytics and other services.",
+    "reuse_recommendation": "Use as integration examples and align SDK versions and security rules with current Firebase guidance.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Apache-2.0; Firebase service terms apply.",
+    "runtime": [
+      "Kotlin/Java",
+      "Android",
+      "Firebase SDK"
+    ],
+    "keywords": [
+      "Firebase Android",
+      "Kotlin samples",
+      "Android SDK",
+      "authentication",
+      "mobile backend"
+    ],
+    "risk_notes": [
+      "Sample configurations are not production security policies; protect client and backend data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Firebase Android quickstarts",
+        "purpose": "Shows working Android examples for Firebase services.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:43.597821+00:00",
+    "inspected_commit": "3a623abb3d3633752b98d020d38f12566afcef60",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7b312a37ea5de87fc931898bc23e52f69b9aee27",
+        "value": "https://github.com/jamesrwatsonx-creator/Firebase-quickstart-android/blob/3a623abb3d3633752b98d020d38f12566afcef60/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Firebase service integrations",
+        "description": "Demonstrates client integration with Firebase product APIs.",
+        "scope": "REFERENCE",
+        "id": "cluster:firebase-service-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Android implementation patterns",
+        "description": "Provides sample app structure and UI wiring for common backend capabilities.",
+        "scope": "REFERENCE",
+        "id": "cluster:android-implementation-patterns",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -21,7 +21,7 @@ class DetectionTests(unittest.TestCase):
         self.assertEqual(m.priority({'path':'.github/assets/readme-hero-dark.webp'}),6)
         self.assertEqual(m.priority({'path':'docs/README.fr.md'}),2)
     def test_web_and_mobile_source_is_not_excluded_as_binary(self):
-        for path in ['lib/main.dart','index.html','src/tokens.css','theme.scss','scripts/setup.ps1','analysis.R']:
+        for path in ['lib/main.dart','index.html','src/tokens.css','theme.scss','scripts/setup.ps1','analysis.R','index.bs','settings.gradle.kts.template']:
             self.assertLess(m.priority({'path':path}),6,path)
     def test_multiline_skill_description(self):
         found=m.detect('SKILL.md','---\nname: editor\ndescription: |\n  Rewrite text.\n  Keep facts intact.\nlicense: MIT\n---\n')[0]
@@ -79,6 +79,53 @@ class RegistryIntegrityTests(unittest.TestCase):
     def test_false_complete_is_rejected(self):
         r=self.repo(); r['state']='COMPLETE'; m.write(m.repo_file(r),r)
         self.assertFalse(m.validate()['valid'])
+    def summary_fixture(self):
+        repo=self.repo(); repo['inspected_commit']='a'*40
+        text=b'# Example\nAn agent instruction package for scoped browser research.\n'; blob=m.git_blob(text)
+        entry={'path':'README.md','sha':blob,'type':'blob'}
+        m.write(m.cache_path(repo,'a'*40)/'tree.json',{'tree':[entry],'truncated':False})
+        path=m.ROOT/m.cache_path(repo,'a'*40)/'blobs'/blob; path.parent.mkdir(); path.write_bytes(text)
+        m.write(m.repo_file(repo),repo)
+        m.write('system/evidence/1.json',{'inspected_commit':'a'*40,'tree_complete':True,
+                'files_read':[{'path':'README.md','blob_sha':blob}], 'unread_source_paths':['later.py'],'errors':[]})
+        plan={'repository':repo['full_name'],'commit':'a'*40,'purpose':'Agent instructions for scoped browser research.',
+              'categories':['category:skills'],'operational':'operational:01','recommendation':'REFERENCE',
+              'reuse_recommendation':'Adapt the instruction package in a trusted agent host.',
+              'inspection_scope':'Pinned README and tree; deeper components are inspected on demand.',
+              'license_notes':'No license grant established in this fixture.','runtime':['Agent host'],
+              'keywords':['browser research'],'risk_notes':['Host permissions remain necessary.'],
+              'important_subsystems':[{'name':'Research instructions','purpose':'Guide scoped research.','evidence_paths':['README.md']}],
+              'source_review':['README.md'],'asset_presence':{'skills':'PRESENT'},
+              'capability_clusters':[{'name':'browser research','description':'Instructions for scoped browser research.','scope':'INSTRUCTIONS'}]}
+        return repo,plan
+    def test_repository_completion_does_not_require_exhaustive_source_or_promote_candidates(self):
+        repo,plan=self.summary_fixture()
+        entity=m.entity_record(repo,'a'*40,{'path':'README.md','sha':m.git_blob(b'# Example\nAn agent instruction package for scoped browser research.\n')},
+                               {'type':'SKILL','symbol':'candidate','description':'Unreviewed','line':1})
+        m.write('registry/entities/test.json',entity)
+        repo['entity_census']={'SKILL':{'detected':1,'catalogued':1,'reviewed':False}}; m.write(m.repo_file(repo),repo)
+        promotion.apply_repository_plan(plan)
+        self.assertTrue(m.validate()['valid'])
+        self.assertEqual(m.records('entities'),[entity])
+        self.assertFalse(m.read(m.repo_file(repo))['phases']['entity_extraction'])
+        m.build(); self.assertIn('browser research',m.query('browser research',kind='REPOSITORY')[0]['text'])
+    def test_repository_summary_rejects_unpinned_cluster_evidence(self):
+        repo,plan=self.summary_fixture()
+        plan['capability_clusters'][0]['evidence_paths']=['not-reviewed.md']
+        with self.assertRaisesRegex(ValueError,'unsupported capability cluster'): promotion.apply_repository_plan(plan)
+        self.assertEqual(m.read(m.repo_file(repo))['state'],'DISCOVERED')
+    def test_repository_summary_preparation_does_not_extract_entities(self):
+        repo,plan=self.summary_fixture()
+        with mock.patch.object(m,'gh',side_effect=AssertionError('Cached pinned source should be reused')):
+            packet=promotion.prepare_repository_summary(repo)
+        self.assertEqual(packet['sources'],['README.md'])
+        self.assertEqual(m.records('entities'),[])
+    def test_empty_repository_summary_requires_fresh_confirmed_disposition(self):
+        repo,plan=self.summary_fixture(); repo['inspected_commit']=None
+        repo.update({'empty_repository':True,'empty_confirmed_at':m.now()}); m.write(m.repo_file(repo),repo)
+        plan.update({'commit':None,'source_review':[],'capability_clusters':[],'important_subsystems':[]})
+        promotion.apply_repository_plan(plan)
+        self.assertTrue(m.validate()['valid'])
     def test_zero_entity_complete_requires_semantic_disposition(self):
         r=self.repo(); r['state']='COMPLETE'; r['inspected_commit']='a'*40
         r['phases'].update({'structure':True,'entity_extraction':True,'capability_analysis':True,'validation':True})

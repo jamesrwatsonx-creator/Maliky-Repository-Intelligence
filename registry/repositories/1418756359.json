@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "develop",
   "upstream_url": "https://github.com/diaspora/diaspora",
-  "description": "A privacy-aware, distributed, open source social network.",
+  "description": "Federated social networking platform allowing independently operated pods to connect and share posts and profiles.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-07-28T20:36:26Z",
-    "github_description": "A privacy-aware, distributed, open source social network."
+    "github_description": "A privacy-aware, distributed, open source social network.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "f96527862dc1ba2e5b95c4196efb0d1f0cc4b6e5",
   "current_commit": "f96527862dc1ba2e5b95c4196efb0d1f0cc4b6e5",
   "inspection_date": "2026-10-20T23:53:38.263493+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:web-applications",
+    "category:message-event-systems",
+    "category:privacy"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.651671+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.529103+00:00",
   "tree_files": 1947,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 1424,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 1508,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Federated social networking platform allowing independently operated pods to connect and share posts and profiles.",
+    "reuse_recommendation": "Use as a federation architecture reference and evaluate maintenance, moderation and privacy needs.",
+    "inspection_scope": "Pinned README and manifest review focused on major repository capabilities and reusable subsystems, not exhaustive asset extraction.",
+    "license_notes": "AGPL-3.0; federation and content policies apply.",
+    "runtime": [
+      "Ruby on Rails",
+      "database",
+      "federated network"
+    ],
+    "keywords": [
+      "Diaspora",
+      "federated social network",
+      "social platform",
+      "privacy",
+      "self-hosted community"
+    ],
+    "risk_notes": [
+      "Social graph and personal content require moderation, safety and privacy controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Diaspora social platform",
+        "purpose": "Combines social publishing with decentralized hosting and federation.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:56:15.171934+00:00",
+    "inspected_commit": "f96527862dc1ba2e5b95c4196efb0d1f0cc4b6e5",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "58becd6d41dbac50e51de8d61547847e3e31bcfa",
+        "value": "https://github.com/jamesrwatsonx-creator/diaspora---decentralized-social-network/blob/f96527862dc1ba2e5b95c4196efb0d1f0cc4b6e5/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "social profiles and publishing",
+        "description": "Supports user profiles, posts and social interaction.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:social-profiles-and-publishing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "federation across pods",
+        "description": "Connects independently hosted communities through a federated protocol.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:federation-across-pods",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "self-hosted community operation",
+        "description": "Provides deployment and administration for community instances.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:self-hosted-community-operation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

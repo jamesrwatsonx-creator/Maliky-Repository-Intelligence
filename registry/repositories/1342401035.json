@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/android/identity-samples",
-  "description": "Multiple samples showing the best practices in identity on Android.",
+  "description": "Android Studio samples demonstrating identity and credential features such as Credential Manager and passkey integration.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-18T23:14:46Z",
-    "github_description": "Multiple samples showing the best practices in identity on Android."
+    "github_description": "Multiple samples showing the best practices in identity on Android.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "d9adcb9fc581800b3f44f26e974b1e6fc806ee5d",
   "current_commit": "d9adcb9fc581800b3f44f26e974b1e6fc806ee5d",
   "inspection_date": "2026-09-20T05:33:13.663972+00:00",
   "categories": [
-    "category:application-security",
-    "category:mobile-applications"
+    "category:mobile-applications",
+    "category:iam",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [
     "operational:19"
   ],
@@ -39,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -284,11 +286,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.011516+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.719977+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -320,7 +323,7 @@
   "files_read": 296,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -338,5 +341,88 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 1,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Android Studio samples demonstrating identity and credential features such as Credential Manager and passkey integration.",
+    "reuse_recommendation": "Use as implementation examples and validate current authentication APIs, provider configuration and account recovery.",
+    "inspection_scope": "Reviewed pinned README and package metadata for repository-level summary; not exhaustive source decomposition.",
+    "license_notes": "See repository license and identity provider terms.",
+    "runtime": [
+      "Kotlin/Android",
+      "Credential Manager APIs"
+    ],
+    "keywords": [
+      "Android identity samples",
+      "Credential Manager",
+      "passkeys",
+      "Android authentication",
+      "identity APIs"
+    ],
+    "risk_notes": [
+      "Authentication is security-sensitive; test phishing resistance, account recovery and credential handling."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android identity sample catalogue",
+        "purpose": "Collects standalone sample apps for identity APIs.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:23:50.053197+00:00",
+    "inspected_commit": "d9adcb9fc581800b3f44f26e974b1e6fc806ee5d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "585ea77aeb62847e817375b453672d2af3dacb68",
+        "value": "https://github.com/jamesrwatsonx-creator/Android-identity-samples/blob/d9adcb9fc581800b3f44f26e974b1e6fc806ee5d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Android credential integration",
+        "description": "Demonstrates platform APIs for credentials and sign-in flows.",
+        "scope": "REFERENCE",
+        "id": "cluster:android-credential-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "passkey and identity examples",
+        "description": "Provides sample projects for understanding Android identity features.",
+        "scope": "REFERENCE",
+        "id": "cluster:passkey-and-identity-examples",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

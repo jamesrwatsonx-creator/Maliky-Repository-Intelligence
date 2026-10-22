@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/CopilotKit/OpenBot",
-  "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+  "description": "Voice-enabled website navigation agent or studio concept that uses spoken requests to move through web experiences and assist users.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-11T22:12:01Z",
-    "github_description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
+    "github_description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c3c43bdd8c60201c02ea80bc8930cc11e785bcc4",
   "current_commit": "c3c43bdd8c60201c02ea80bc8930cc11e785bcc4",
   "inspection_date": "2026-09-20T05:36:14.864643+00:00",
   "categories": [
     "category:ai-agents",
-    "category:developer-tools",
-    "category:frontend-applications",
-    "category:generative-ai"
+    "category:accessibility",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:03",
     "operational:05",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 2,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.640763+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.652025+00:00",
   "tree_files": 1017,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 867,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 931,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,88 @@
     ],
     "updated_at": "2026-10-12T19:04:27.332696+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice-enabled website navigation agent or studio concept that uses spoken requests to move through web experiences and assist users.",
+    "reuse_recommendation": "Prototype with accessible sites and require confirmation before forms, purchases or account actions.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "Check repository license and speech/browser service terms.",
+    "runtime": [
+      "Web/browser runtime",
+      "speech and agent APIs"
+    ],
+    "keywords": [
+      "voice website navigation",
+      "browser agent",
+      "spoken interaction",
+      "web accessibility",
+      "OpenBot"
+    ],
+    "risk_notes": [
+      "Voice recordings, browser context and arbitrary page actions are sensitive."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice web navigation agent",
+        "purpose": "Combines voice input and browser control for web interaction.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:47.810149+00:00",
+    "inspected_commit": "c3c43bdd8c60201c02ea80bc8930cc11e785bcc4",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9766eed70783511b349c47cbea11587eb8bd3827",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-website-navigation-studio-OpenBot/blob/c3c43bdd8c60201c02ea80bc8930cc11e785bcc4/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "voice-driven web navigation",
+        "description": "Maps spoken requests to website browsing actions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-driven-web-navigation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "browser interaction",
+        "description": "Connects the agent to page state and navigation controls.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:browser-interaction",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

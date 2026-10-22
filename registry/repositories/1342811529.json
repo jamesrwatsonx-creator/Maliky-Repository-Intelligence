@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/calcom/cal.diy",
-  "description": "Scheduling infrastructure for absolutely everyone.",
+  "description": "GoHighLevel-oriented course creator or business workflow integrating calendars, scheduling and creator/customer operations.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-08T17:13:42Z",
-    "github_description": "Scheduling infrastructure for absolutely everyone."
+    "github_description": "Scheduling infrastructure for absolutely everyone.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "176037d0afbe572f870a3c702985e7cd83fe6c0c",
   "current_commit": "176037d0afbe572f870a3c702985e7cd83fe6c0c",
   "inspection_date": "2026-09-20T05:35:06.428590+00:00",
   "categories": [
-    "category:automation-scripting",
-    "category:devops"
+    "category:business-applications",
+    "category:education",
+    "category:crm"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:11",
   "secondary_operational_categories": [
     "operational:20"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 5,
@@ -252,16 +254,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.986180+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.062591+00:00",
   "tree_files": 7695,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 6054,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 6720,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -271,5 +274,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.152782+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "GoHighLevel-oriented course creator or business workflow integrating calendars, scheduling and creator/customer operations.",
+    "reuse_recommendation": "Use with sandbox CRM data and approval before messaging or changing customer records.",
+    "inspection_scope": "Review pinned README and manifests to identify repository-level purpose and principal reusable capability clusters; defer internal decomposition.",
+    "license_notes": "Check repository and GoHighLevel API terms.",
+    "runtime": [
+      "Web application",
+      "GoHighLevel API",
+      "calendar services"
+    ],
+    "keywords": [
+      "GoHighLevel",
+      "course creator",
+      "booking calendar",
+      "CRM workflow",
+      "creator business"
+    ],
+    "risk_notes": [
+      "Customer data, calendar availability and outbound communications require consent and access control."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GHL creator calendar workflow",
+        "purpose": "Combines booking, course and customer-management workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:18:51.463834+00:00",
+    "inspected_commit": "176037d0afbe572f870a3c702985e7cd83fe6c0c",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4bfd00c01597ecb1fbd76bcaff5d018c7b61b7bd",
+        "value": "https://github.com/jamesrwatsonx-creator/GHL-every-course-creators-tool-calendar/blob/176037d0afbe572f870a3c702985e7cd83fe6c0c/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "course or creator workflow",
+        "description": "Supports organizing creator offerings and related customer journeys.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:course-or-creator-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "calendar and booking integration",
+        "description": "Coordinates appointment or event availability.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:calendar-and-booking-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "CRM service integration",
+        "description": "Connects course and scheduling activities to GoHighLevel records.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:crm-service-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

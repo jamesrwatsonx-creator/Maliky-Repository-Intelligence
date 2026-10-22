@@ -11,20 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/github/opensource.guide",
-  "description": "📚 Community guides for open source creators",
+  "description": "GitHub-maintained guide to building, sustaining and contributing to open source projects, including licensing, community, governance and project operations.",
   "metadata": {
     "language": null,
     "license": "CC-BY-4.0",
     "archived": false,
     "pushed_at": "2026-08-13T18:13:49Z",
-    "github_description": "📚 Community guides for open source creators"
+    "github_description": "📚 Community guides for open source creators",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "8a7589ab8fe31841a2de3be6f77e5e011a5e1533",
   "current_commit": "8a7589ab8fe31841a2de3be6f77e5e011a5e1533",
   "inspection_date": "2026-09-20T05:33:56.326849+00:00",
   "categories": [
-    "category:general-other"
+    "category:documentation",
+    "category:open-source-communities",
+    "category:education"
   ],
   "operational_category": "operational:25",
   "secondary_operational_categories": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.787119+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.907099+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -272,10 +276,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 935,
-  "files_read": 3,
+  "files_read": 10,
   "entity_count": 1,
-  "unread_source_files": 566,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 858,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -285,5 +289,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.248861+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "GitHub-maintained guide to building, sustaining and contributing to open source projects, including licensing, community, governance and project operations.",
+    "reuse_recommendation": "Use as general guidance and confirm jurisdiction-specific legal questions with qualified counsel.",
+    "inspection_scope": "Bounded pinned README and manifest review for repository purpose and major capability clusters; detailed asset extraction is on demand.",
+    "license_notes": "CC-BY-4.0 content; verify translations and third-party resources.",
+    "runtime": [
+      "Documentation site",
+      "Markdown/content tooling"
+    ],
+    "keywords": [
+      "open source guide",
+      "project governance",
+      "maintainer practices",
+      "licensing",
+      "community health"
+    ],
+    "risk_notes": [
+      "Legal and community recommendations may evolve and are not legal advice."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Open Source Guides",
+        "purpose": "Provides practical reference material for open-source project owners and contributors.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:44:45.214168+00:00",
+    "inspected_commit": "8a7589ab8fe31841a2de3be6f77e5e011a5e1533",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "fb0d6d4df1e93cf3ed0fb08fa63ee1ce5b870e64",
+        "value": "https://github.com/jamesrwatsonx-creator/opensource.guide/blob/8a7589ab8fe31841a2de3be6f77e5e011a5e1533/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "open-source project operations",
+        "description": "Explains project setup, maintenance and sustainability practices.",
+        "scope": "REFERENCE",
+        "id": "cluster:open-source-project-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "community and contribution guidance",
+        "description": "Supports contributor onboarding, governance and inclusive collaboration.",
+        "scope": "REFERENCE",
+        "id": "cluster:community-and-contribution-guidance",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "licensing and legal basics",
+        "description": "Introduces license selection and related project considerations.",
+        "scope": "REFERENCE",
+        "id": "cluster:licensing-and-legal-basics",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

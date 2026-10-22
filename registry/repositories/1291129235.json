@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/davidondrej/skills",
-  "description": "access to david ondrej's personal agent skills",
+  "description": "Curated collection of agent skills covering orchestration, scheduling, coding and productivity workflows across supported agent hosts.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-05T21:16:23Z",
-    "github_description": "access to david ondrej's personal agent skills"
+    "github_description": "access to david ondrej's personal agent skills",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "42dfc3dbe4ca43ef021e79abcc7d258698f2be33",
   "current_commit": "42dfc3dbe4ca43ef021e79abcc7d258698f2be33",
   "inspection_date": "2026-09-20T05:32:50.976825+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -67,7 +69,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 29,
@@ -312,11 +314,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.185910+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.253188+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -337,7 +340,7 @@
   "files_read": 36,
   "entity_count": 29,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
@@ -356,5 +359,135 @@
     ],
     "updated_at": "2026-10-12T19:04:27.286981+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Curated collection of agent skills covering orchestration, scheduling, coding and productivity workflows across supported agent hosts.",
+    "reuse_recommendation": "Select individual skills and check their host requirements, external tools and local execution effects before installation.",
+    "inspection_scope": "Bounded review of pinned README and package metadata; repository summary, not exhaustive asset extraction.",
+    "license_notes": "MIT; external tool dependencies retain their own terms.",
+    "runtime": [
+      "Markdown skills",
+      "multiple agent hosts"
+    ],
+    "keywords": [
+      "agent skills collection",
+      "agent orchestration",
+      "scheduling",
+      "Codex workflows",
+      "developer productivity"
+    ],
+    "risk_notes": [
+      "Skills are instructions, not enforcement boundaries; inspect commands and permissions for each selected workflow."
+    ],
+    "important_subsystems": [
+      {
+        "name": "skill library",
+        "purpose": "Groups skill instructions by agent capability area.",
+        "evidence_paths": [
+          "README.md",
+          "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+          "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:00:18.506367+00:00",
+    "inspected_commit": "42dfc3dbe4ca43ef021e79abcc7d258698f2be33",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "214bf9f88409f030f569950bda5687785c19255e",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "aa4c3084927af513046779215f66b022e7602af0",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+        "blob_sha": "fb745f329da71e41fb6af18d8daf860edd837726",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/agent-orchestration/agent-self-scheduling/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/agent-orchestration/cmux/SKILL.md",
+        "blob_sha": "a1e3ef7809a4019ed0f9fc4d0d9821df00376a3b",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/agent-orchestration/cmux/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/agent-orchestration/codex-goal-loop/SKILL.md",
+        "blob_sha": "095d3ad66bf21f038bae7a55d4b0e2515049ec55",
+        "value": "https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/agent-orchestration/codex-goal-loop/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "agent orchestration skills",
+        "description": "Provides host instructions for coordinating agents and session workflows.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:agent-orchestration-skills",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+          "skills/agent-orchestration/cmux/SKILL.md",
+          "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+        ]
+      },
+      {
+        "name": "coding and productivity workflows",
+        "description": "Collects skills for goal loops and related development tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:coding-and-productivity-workflows",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+          "skills/agent-orchestration/cmux/SKILL.md",
+          "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+        ]
+      },
+      {
+        "name": "cross-host skill packaging",
+        "description": "Organizes reusable instructions for compatible agent environments.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:cross-host-skill-packaging",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+          "skills/agent-orchestration/cmux/SKILL.md",
+          "skills/agent-orchestration/codex-goal-loop/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Prior completion used static declarations without a semantic census; lean review required."
   }
 }

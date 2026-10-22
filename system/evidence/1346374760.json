@@ -9,6 +9,14 @@
       "sha": "b95cf48e56cd683ee1d6b0fb9569f2b7109eee50"
     },
     {
+      "path": "LICENSE",
+      "sha": "2f244ac814036ecd9ba9f69782e89ce6b1dca9eb"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
       "path": "README.md",
       "sha": "25f7cc162ae92c3988966d85cce173ff6df48020"
     },
@@ -19,6 +27,30 @@
     {
       "path": "python/README.md",
       "sha": "df1f24288093be292825a87bdeec94d706590786"
+    },
+    {
+      "path": "python/packages/agbench/pyproject.toml",
+      "sha": "de5f9df22af794c1d6fcc15a78f9213762f738fb"
+    },
+    {
+      "path": "python/packages/agbench/setup.py",
+      "sha": "606849326a4002007fd42060b51e69a19c18675c"
+    },
+    {
+      "path": "python/packages/autogen-agentchat/pyproject.toml",
+      "sha": "0b2c3079736a71285adbe8e1e557ab1f5a477d33"
+    },
+    {
+      "path": "python/packages/autogen-core/pyproject.toml",
+      "sha": "ee5c235a6a88991371108b8494a1437fa08e48bf"
+    },
+    {
+      "path": "python/packages/autogen-ext/pyproject.toml",
+      "sha": "223b610706099f1902a0c8c9d40902e8971f07b3"
+    },
+    {
+      "path": "python/packages/autogen-studio/frontend/package.json",
+      "sha": "11abbe0c740c917c7436e12474cf0175fca09e38"
     },
     {
       "path": "python/pyproject.toml",
@@ -50,12 +82,53 @@
       "path": ".devcontainer/docker-compose.yml",
       "blob_sha": "b95cf48e56cd683ee1d6b0fb9569f2b7109eee50",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "2f244ac814036ecd9ba9f69782e89ce6b1dca9eb",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE-CODE",
+      "blob_sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/agbench/pyproject.toml",
+      "blob_sha": "de5f9df22af794c1d6fcc15a78f9213762f738fb",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/agbench/setup.py",
+      "blob_sha": "606849326a4002007fd42060b51e69a19c18675c",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/autogen-agentchat/pyproject.toml",
+      "blob_sha": "0b2c3079736a71285adbe8e1e557ab1f5a477d33",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/autogen-core/pyproject.toml",
+      "blob_sha": "ee5c235a6a88991371108b8494a1437fa08e48bf",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/autogen-ext/pyproject.toml",
+      "blob_sha": "223b610706099f1902a0c8c9d40902e8971f07b3",
+      "entities_detected": 0
+    },
+    {
+      "path": "python/packages/autogen-studio/frontend/package.json",
+      "blob_sha": "11abbe0c740c917c7436e12474cf0175fca09e38",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
     ".azure/pipelines/build.yaml",
     ".azure/pipelines/templates/build.yaml",
     ".azure/pipelines/templates/vars.yaml",
+    ".devcontainer/Dockerfile",
     ".devcontainer/devcontainer.json",
     ".devcontainer/startup.sh",
     ".github/ISSUE_TEMPLATE/1-bug_report.yml",
@@ -98,10 +171,13 @@
     "docs/dotnet/core/tutorial.md",
     "docs/dotnet/docfx.json",
     "docs/dotnet/index.md",
+    "docs/dotnet/template/public/main.css",
     "docs/dotnet/template/public/main.js",
     "docs/dotnet/toc.yml",
     "docs/switcher.json",
     "dotnet/.config/dotnet-tools.json",
+    "dotnet/.tools/run_all_notebook.ps1",
+    "dotnet/.tools/test-aot-compatibility.ps1",
     "dotnet/PACKAGING.md",
     "dotnet/dotnet-install.sh",
     "dotnet/global.json",
@@ -148,11 +224,7 @@
     "dotnet/samples/AgentChat/AutoGen.Basic.Sample/GettingStart/Streaming_Tool_Call.cs",
     "dotnet/samples/AgentChat/AutoGen.Basic.Sample/GettingStart/Use_Tools_With_Agent.cs",
     "dotnet/samples/AgentChat/AutoGen.Basic.Sample/GlobalUsing.cs",
-    "dotnet/samples/AgentChat/AutoGen.Basic.Sample/LLMConfiguration.cs",
-    "dotnet/samples/AgentChat/AutoGen.Basic.Sample/Program.cs",
-    "dotnet/samples/AgentChat/AutoGen.Gemini.Sample/Chat_With_Google_Gemini.cs",
-    "dotnet/samples/AgentChat/AutoGen.Gemini.Sample/Chat_With_Vertex_Gemini.cs",
-    "dotnet/samples/AgentChat/AutoGen.Gemini.Sample/Function_Call_With_Gemini.cs"
+    "dotnet/samples/AgentChat/AutoGen.Basic.Sample/LLMConfiguration.cs"
   ],
   "excluded_nontext_paths": [
     ".devcontainer/Dockerfile",
@@ -271,8 +343,12 @@
     "protos": 2,
     "python": 1023
   },
-  "unread_source_paths_count": 1463,
+  "unread_source_paths_count": 1587,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 369,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/JetBrains/skiko",
-  "description": "Kotlin Multiplatform bindings to Skia",
+  "description": "Kotlin graphics library providing Skia bindings and rendering support across JVM, Android, JavaScript/Wasm and native platforms.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-18T21:15:35Z",
-    "github_description": "Kotlin Multiplatform bindings to Skia"
+    "github_description": "Kotlin Multiplatform bindings to Skia",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c4b1940eaa73abfcbaa3f3f5d5972ab0ac7b9810",
   "current_commit": "c4b1940eaa73abfcbaa3f3f5d5972ab0ac7b9810",
   "inspection_date": "2026-09-20T05:36:50.211726+00:00",
   "categories": [
-    "category:general-other"
+    "category:libraries-packages",
+    "category:sdks-client-libraries",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:17",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.171594+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.238187+00:00",
   "tree_files": 1078,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 720,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 960,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.284925+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Kotlin graphics library providing Skia bindings and rendering support across JVM, Android, JavaScript/Wasm and native platforms.",
+    "reuse_recommendation": "Use for cross-platform graphics needs after checking target platform coverage and native packaging.",
+    "inspection_scope": "Pinned repository README and manifest review; record a few major capability clusters, not every internal asset.",
+    "license_notes": "Apache-2.0; Skia and bundled dependencies retain their licenses.",
+    "runtime": [
+      "Kotlin",
+      "JVM/Android/JS/Wasm/native",
+      "Skia"
+    ],
+    "keywords": [
+      "Skiko",
+      "Kotlin graphics",
+      "Skia",
+      "cross-platform rendering",
+      "Compose Multiplatform"
+    ],
+    "risk_notes": [
+      "Native binary compatibility and platform-specific licensing should be verified."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Skiko graphics layer",
+        "purpose": "Provides shared Kotlin access to Skia-based rendering.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:46:15.079666+00:00",
+    "inspected_commit": "c4b1940eaa73abfcbaa3f3f5d5972ab0ac7b9810",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "73e397fd805de6655705e05daf8a190def8d3ea9",
+        "value": "https://github.com/jamesrwatsonx-creator/skiko/blob/c4b1940eaa73abfcbaa3f3f5d5972ab0ac7b9810/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Skia graphics bindings",
+        "description": "Exposes native Skia drawing and rendering capabilities to Kotlin applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:skia-graphics-bindings",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "cross-platform rendering runtime",
+        "description": "Connects graphics workloads across JVM, Android, browser and native targets.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-platform-rendering-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

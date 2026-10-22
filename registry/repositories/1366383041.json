@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/devopness/devopness",
-  "description": "Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan.",
+  "description": "Voice interaction extension or workflow for AI coding agents, enabling speech input and spoken responses during development tasks.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-11T12:39:14Z",
-    "github_description": "Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan."
+    "github_description": "Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "252ecd65769c0451342d23e133ecae10c627aa07",
   "current_commit": "252ecd65769c0451342d23e133ecae10c627aa07",
   "inspection_date": "2026-09-20T05:36:14.576274+00:00",
   "categories": [
-    "category:apis",
-    "category:devops",
-    "category:generative-ai",
-    "category:mcp-servers"
+    "category:plugins-extensions",
+    "category:media-publishing",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:07",
     "operational:12",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.617075+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.638020+00:00",
   "tree_files": 2738,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2626,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2635,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,97 @@
     ],
     "updated_at": "2026-10-12T19:04:27.330575+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Voice interaction extension or workflow for AI coding agents, enabling speech input and spoken responses during development tasks.",
+    "reuse_recommendation": "Use with microphone consent and allow text fallback for private or noisy environments.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check repository license and speech/model provider terms.",
+    "runtime": [
+      "Agent plugin/CLI",
+      "speech recognition and TTS services"
+    ],
+    "keywords": [
+      "voice mode",
+      "coding agent voice",
+      "speech interaction",
+      "TTS STT",
+      "developer plugin"
+    ],
+    "risk_notes": [
+      "Speech may contain source code, credentials or confidential discussion."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice mode plugin",
+        "purpose": "Adds voice-centered interaction to coding-agent sessions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:56.159220+00:00",
+    "inspected_commit": "252ecd65769c0451342d23e133ecae10c627aa07",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4ed88ebca3cb320b5c39031d7c3fc0841ffd148b",
+        "value": "https://github.com/jamesrwatsonx-creator/Voice-mode-3/blob/252ecd65769c0451342d23e133ecae10c627aa07/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "speech input for agent tasks",
+        "description": "Captures spoken requests and routes them to an AI coding workflow.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-input-for-agent-tasks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "spoken model responses",
+        "description": "Presents agent outputs through speech synthesis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:spoken-model-responses",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "coding agent integration",
+        "description": "Connects voice interaction to a supported developer agent.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:coding-agent-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

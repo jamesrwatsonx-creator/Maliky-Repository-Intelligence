@@ -11,19 +11,22 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/containers/common",
-  "description": "Location for shared common files in github.com/containers repos.",
+  "description": "Shared common library or component collection used across related projects; identify exported APIs from package metadata before adopting.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2025-09-03T13:50:43Z",
-    "github_description": "Location for shared common files in github.com/containers repos."
+    "github_description": "Location for shared common files in github.com/containers repos.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "a5ccdae846b629b5ceaefa6ffd5c6511409c3487",
   "current_commit": "a5ccdae846b629b5ceaefa6ffd5c6511409c3487",
   "inspection_date": "2026-09-20T05:36:21.133911+00:00",
   "categories": [
+    "category:libraries-packages",
+    "category:developer-tools",
     "category:general-other"
   ],
   "operational_category": "operational:25",
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,16 +252,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.478028+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.302977+00:00",
   "tree_files": 4717,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 4208,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 4376,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -268,5 +272,86 @@
     ],
     "updated_at": "2026-10-12T19:04:27.105804+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Shared common library or component collection used across related projects; identify exported APIs from package metadata before adopting.",
+    "reuse_recommendation": "Inspect exported API and compatibility before adding as a dependency.",
+    "inspection_scope": "Pinned README and manifest review for repository purpose and major capability clusters; no exhaustive asset census.",
+    "license_notes": "Check repository license and package consumers.",
+    "runtime": [
+      "See pinned package manifests and language files"
+    ],
+    "keywords": [
+      "shared common library",
+      "reusable utilities",
+      "cross-project components",
+      "package API"
+    ],
+    "risk_notes": [
+      "The repository name alone does not identify intended consumers; verify provenance."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Common package",
+        "purpose": "Centralizes reusable code for its project ecosystem.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:08:55.696844+00:00",
+    "inspected_commit": "a5ccdae846b629b5ceaefa6ffd5c6511409c3487",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "585a77c2fa1ef5647ffa7df9303b29278a7e841d",
+        "value": "https://github.com/jamesrwatsonx-creator/common/blob/a5ccdae846b629b5ceaefa6ffd5c6511409c3487/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "shared core abstractions",
+        "description": "Provides common types or utilities reused by related applications.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:shared-core-abstractions",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "package integration surface",
+        "description": "Defines the APIs by which dependent projects consume shared functionality.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:package-integration-surface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

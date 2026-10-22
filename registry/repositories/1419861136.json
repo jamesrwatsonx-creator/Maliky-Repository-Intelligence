@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "master",
   "upstream_url": "https://github.com/FlaxEngine/FlaxEngine",
-  "description": "Flax Engine – multi-platform 3D game engine",
+  "description": "Flax Engine project or tooling for authoring and running 3D game environments with a modern editor and runtime.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-14T20:47:34Z",
-    "github_description": "Flax Engine – multi-platform 3D game engine"
+    "github_description": "Flax Engine – multi-platform 3D game engine",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "2b6410459eeafc76d0f7e1e59e9163a989b99ef8",
   "current_commit": "2b6410459eeafc76d0f7e1e59e9163a989b99ef8",
   "inspection_date": "2026-10-20T23:57:43.700255+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:games-interactive-experiences",
+    "category:creative-tools",
+    "category:frameworks"
+  ],
+  "operational_category": "operational:18",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,99 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.841406+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.754222+00:00",
   "tree_files": 4892,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 4168,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 4226,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Flax Engine project or tooling for authoring and running 3D game environments with a modern editor and runtime.",
+    "reuse_recommendation": "Use as a game project reference and verify engine version, assets and target platform support.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check Flax Engine and bundled asset terms.",
+    "runtime": [
+      "Flax Engine",
+      "C# and native runtime",
+      "3D rendering"
+    ],
+    "keywords": [
+      "Flax Engine",
+      "3D game development",
+      "environment creation",
+      "game editor",
+      "real-time rendering"
+    ],
+    "risk_notes": [
+      "Bundled assets and engine dependencies may have separate terms."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Flax 3D project",
+        "purpose": "Packages game creation workflows around the Flax engine.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:41.787586+00:00",
+    "inspected_commit": "2b6410459eeafc76d0f7e1e59e9163a989b99ef8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "74c3f6c01f5728a9d424b3fc8f95ea4a977585af",
+        "value": "https://github.com/jamesrwatsonx-creator/FlaxEngine-3D-environment-for-game-creation/blob/2b6410459eeafc76d0f7e1e59e9163a989b99ef8/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "3D environment authoring",
+        "description": "Provides scene and asset workflows for interactive 3D environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:3d-environment-authoring",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "game runtime and rendering",
+        "description": "Runs interactive scenes and game behavior through the engine.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:game-runtime-and-rendering",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

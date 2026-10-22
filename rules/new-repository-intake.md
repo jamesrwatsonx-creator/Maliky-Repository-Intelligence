@@ -13,7 +13,10 @@ python scripts/intake_repository.py https://github.com/owner/repository
 The command is idempotent. It resolves ownership and visibility, keeps private
 repository identifiers and evidence below `.local/`, captures fork provenance,
 pins the inspected revision, reuses an existing canonical record where present,
-and resumes the first incomplete phase. It never creates a second registry.
+and prepares bounded repository-summary evidence. It never creates a second registry.
+Review the packet and apply purpose/capability-cluster decisions through
+`review_extracted_batch.py --repository-plan`. Use `--detailed` only for an explicit
+on-demand component investigation; ordinary intake does not enumerate all assets.
 
 Use deterministic source evidence first: tree, manifests, declarations, pinned
 blobs, documentation and dependency files. Extract an independent entity only

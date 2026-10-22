@@ -3,36 +3,136 @@
   "inspected_commit": "f12c0564b500fff5c4e51c9b9cb3cc85cd3bbc60",
   "tree_complete": true,
   "tree_files": 213,
-  "tree_entries": [],
-  "files_read": [],
+  "tree_entries": [
+    {
+      "path": ".github/workflows/beta-release.yml",
+      "sha": "b4d7eb939741cbb878ffe39d02e2a62b6e4d5bb2"
+    },
+    {
+      "path": ".github/workflows/go-build.yml",
+      "sha": "a90956121ab430203a3accab6846503b649476c7"
+    },
+    {
+      "path": ".github/workflows/go-release.yml",
+      "sha": "647363b7f9fb3c11af35d1cf53019824602baadc"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha": "29ebfa545f5580919a4e884d7014d7a3eb2df762"
+    },
+    {
+      "path": "README.md",
+      "sha": "31dbec1f520cbecb4ab600d18c17ffcb005687cc"
+    },
+    {
+      "path": "config/config.go",
+      "sha": "01d33e29001cf7598345afe747bdd6f9797ac303"
+    },
+    {
+      "path": "config/config_test.go",
+      "sha": "d187273e8e531e3c97c4cab827b514fed269e4aa"
+    },
+    {
+      "path": "docs/docs.go",
+      "sha": "ec41f65602f5f61b4ae5ae8df06c3f7453cf1e51"
+    },
+    {
+      "path": "docs/handler.go",
+      "sha": "cf957755d40badeea8926455cc51dfaa89371c55"
+    },
+    {
+      "path": "external/payment/handler.go",
+      "sha": "3fb5169a666ab2d263a5f566d1918ce37ae967ba"
+    },
+    {
+      "path": "go.mod",
+      "sha": "58ec380f80234d420afaa0ae4b436a2e02bcbb1f"
+    },
+    {
+      "path": "main.go",
+      "sha": "a7318d229789f6dccd5adbcf2592b87e518a3d3b"
+    }
+  ],
+  "files_read": [
+    {
+      "path": "README.md",
+      "blob_sha": "31dbec1f520cbecb4ab600d18c17ffcb005687cc",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE.md",
+      "blob_sha": "29ebfa545f5580919a4e884d7014d7a3eb2df762",
+      "entities_detected": 0
+    },
+    {
+      "path": "go.mod",
+      "blob_sha": "58ec380f80234d420afaa0ae4b436a2e02bcbb1f",
+      "entities_detected": 0
+    },
+    {
+      "path": "main.go",
+      "blob_sha": "a7318d229789f6dccd5adbcf2592b87e518a3d3b",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/beta-release.yml",
+      "blob_sha": "b4d7eb939741cbb878ffe39d02e2a62b6e4d5bb2",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/go-build.yml",
+      "blob_sha": "a90956121ab430203a3accab6846503b649476c7",
+      "entities_detected": 0
+    },
+    {
+      "path": ".github/workflows/go-release.yml",
+      "blob_sha": "647363b7f9fb3c11af35d1cf53019824602baadc",
+      "entities_detected": 0
+    },
+    {
+      "path": "config/config.go",
+      "blob_sha": "01d33e29001cf7598345afe747bdd6f9797ac303",
+      "entities_detected": 0
+    },
+    {
+      "path": "config/config_test.go",
+      "blob_sha": "d187273e8e531e3c97c4cab827b514fed269e4aa",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/docs.go",
+      "blob_sha": "ec41f65602f5f61b4ae5ae8df06c3f7453cf1e51",
+      "entities_detected": 0
+    },
+    {
+      "path": "docs/handler.go",
+      "blob_sha": "cf957755d40badeea8926455cc51dfaa89371c55",
+      "entities_detected": 0
+    },
+    {
+      "path": "external/payment/handler.go",
+      "blob_sha": "3fb5169a666ab2d263a5f566d1918ce37ae967ba",
+      "entities_detected": 0
+    }
+  ],
   "unread_source_paths": [
     ".github/ISSUE_TEMPLATE/bug_report.md",
-    ".github/workflows/beta-release.yml",
-    ".github/workflows/go-build.yml",
-    ".github/workflows/go-release.yml",
     ".golangci.yaml",
     ".goreleaser.yaml",
     "Dockerfile",
     "Dockerfile.dev",
-    "LICENSE.md",
-    "README.md",
-    "config/config.go",
-    "config/config_test.go",
     "config/local.yaml",
     "docker-compose.yaml",
-    "docs/docs.go",
-    "docs/handler.go",
     "docs/swagger.json",
     "docs/swagger.yaml",
-    "external/payment/handler.go",
     "external/payment/model/model.go",
     "external/payment/repo/repository.go",
     "external/payment/service/service.go",
     "external/payment/webhook.go",
     "external/user/model/model.go",
     "external/user/repo/repository.go",
+    "frontend/dist/index.html",
     "frontend/handler.go",
-    "go.mod",
     "internal/auth/api_middleware.go",
     "internal/auth/apple/service.go",
     "internal/auth/cleanup.go",
@@ -105,7 +205,17 @@
     "internal/events/producer.go",
     "internal/filter/handler.go",
     "internal/filter/model/model.go",
-    "internal/filter/repo/repository.go"
+    "internal/filter/repo/repository.go",
+    "internal/label/handler.go",
+    "internal/label/model/model.go",
+    "internal/label/repo/repository.go",
+    "internal/mfa/cleanup.go",
+    "internal/mfa/service.go",
+    "internal/notifier/model/model.go",
+    "internal/notifier/notifier.go",
+    "internal/notifier/push/push.go",
+    "internal/notifier/repo/repository.go",
+    "internal/notifier/scheduler.go"
   ],
   "excluded_nontext_paths": [
     ".gitignore",
@@ -122,6 +232,7 @@
   "errors": [],
   "census_review_required": true,
   "detector_version": 1,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
   "tree_manifest_sha256": "a54f33b499372ea9c45f831b7032b0b472fc8f121b4b86f4df7ca648bbf3d3b6",
   "tree_entries_scope": "Read-file provenance only; full pinned tree retained in local cache and reconstructible from inspected_commit",
   "top_level_path_counts": {
@@ -137,8 +248,11 @@
     "migrations": 11,
     "scripts": 1
   },
-  "unread_source_paths_count": 203,
+  "unread_source_paths_count": 192,
   "unread_source_paths_truncated": true,
   "excluded_nontext_paths_count": 10,
-  "excluded_nontext_paths_truncated": false
+  "excluded_nontext_paths_truncated": false,
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

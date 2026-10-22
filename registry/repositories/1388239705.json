@@ -10,25 +10,24 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+  "upstream_url": "https://github.com/Tencent/WeKnora",
+  "description": "Voice-enabled knowledge or website interaction application built around WeKnora-style retrieval and conversational question answering.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-25T16:02:35Z",
-    "github_description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
+    "github_description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "4364e61afa4bf1e086c34b4220bb21449aa15b25",
+  "current_commit": "4364e61afa4bf1e086c34b4220bb21449aa15b25",
+  "inspection_date": "2026-10-22T02:24:10.267552+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory",
-    "category:frontend-applications",
-    "category:generative-ai",
-    "category:llm-projects"
+    "category:ai-applications",
+    "category:rag",
+    "category:media-publishing"
   ],
   "operational_category": "operational:07",
   "secondary_operational_categories": [
@@ -43,7 +42,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -51,13 +50,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.646293+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.654024+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -67,5 +67,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.333295+00:00",
     "purpose_established": true
+  },
+  "tree_files": 4574,
+  "files_read": 10,
+  "unread_source_files": 4203,
+  "repository_intelligence": {
+    "purpose": "Voice-enabled knowledge or website interaction application built around WeKnora-style retrieval and conversational question answering.",
+    "reuse_recommendation": "Use for voice knowledge interfaces and validate citations, source access and audio consent.",
+    "inspection_scope": "Review pinned README and manifests for major repository-level capabilities only; internal asset decomposition is demand-driven.",
+    "license_notes": "Check repository and WeKnora/model provider terms.",
+    "runtime": [
+      "Web application",
+      "retrieval database",
+      "speech and LLM APIs"
+    ],
+    "keywords": [
+      "voice website assistant",
+      "WeKnora",
+      "RAG voice interface",
+      "knowledge search",
+      "spoken Q&A"
+    ],
+    "risk_notes": [
+      "Knowledge sources and audio may contain sensitive content; retrieval must preserve permissions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Voice WeKnora experience",
+        "purpose": "Combines retrieval-grounded answers with speech interaction.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:28:39.178194+00:00",
+    "inspected_commit": "4364e61afa4bf1e086c34b4220bb21449aa15b25",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4c97affaf8fc9959db05701ee43f2af61253ce2c",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-website-WeKnora/blob/4364e61afa4bf1e086c34b4220bb21449aa15b25/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "knowledge retrieval and Q&A",
+        "description": "Retrieves information from configured knowledge sources for responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:knowledge-retrieval-and-q-a",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "voice interaction layer",
+        "description": "Lets users ask questions and receive spoken responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:voice-interaction-layer",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

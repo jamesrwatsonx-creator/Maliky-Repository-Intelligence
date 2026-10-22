@@ -11,23 +11,23 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/phuryn/pm-skills",
-  "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+  "description": "Product-management agent skill collection for discovery, roadmapping, prioritization, research and product execution workflows.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-22T16:11:43Z",
-    "github_description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
+    "github_description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "description_source": "pinned_semantic_review"
   },
   "state": "COMPLETE",
   "inspected_commit": "18468a95b427e70e258b51389796367c6f684e7d",
   "current_commit": "18468a95b427e70e258b51389796367c6f684e7d",
   "inspection_date": "2026-09-20T05:32:46.735301+00:00",
   "categories": [
-    "category:agent-workflows",
-    "category:ci-cd",
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:project-management",
+    "category:business-applications"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
@@ -51,7 +51,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "USE DIRECTLY",
+  "recommendation": "REFERENCE",
   "entity_census": {
     "SKILL": {
       "detected": 68,
@@ -302,9 +302,10 @@
     "entity_extraction": true,
     "capability_analysis": true,
     "deep_review": false,
-    "validation": true
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.857937+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.985964+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -324,7 +325,7 @@
     "unverified_source_files": 0
   },
   "tree_files": 147,
-  "files_read": 139,
+  "files_read": 140,
   "entity_count": 122,
   "unread_source_files": 0,
   "next_phase": "COMPLETE",
@@ -364,5 +365,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.259019+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Product-management agent skill collection for discovery, roadmapping, prioritization, research and product execution workflows.",
+    "reuse_recommendation": "Use as planning support and validate recommendations against customer evidence and business constraints.",
+    "inspection_scope": "Pinned README and package overview reviewed; repository summary rather than exhaustive internal asset decomposition.",
+    "license_notes": "MIT.",
+    "runtime": [
+      "See repository manifests"
+    ],
+    "keywords": [
+      "product management skills",
+      "product discovery",
+      "roadmap",
+      "prioritization",
+      "PM workflows"
+    ],
+    "risk_notes": [
+      "Skills can impose generic product assumptions; adapt to user research and context."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PM skill suite",
+        "purpose": "Provides reusable product management instructions for agent hosts.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:08:44.339731+00:00",
+    "inspected_commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b9fba4cac4a30e63d92b854a2cd368a5d23583fc",
+        "value": "https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "product discovery and research",
+        "description": "Structures user/problem research and opportunity definition.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:product-discovery-and-research",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "roadmap and prioritization",
+        "description": "Guides product planning and prioritization decisions.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:roadmap-and-prioritization",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "product execution workflows",
+        "description": "Supports ongoing product delivery and communication tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:product-execution-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "COMPLETE",
+    "next_phase": "COMPLETE",
+    "review_reason": null
   }
 }

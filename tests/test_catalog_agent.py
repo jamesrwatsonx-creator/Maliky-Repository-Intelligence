@@ -48,6 +48,15 @@ class AgentCatalogTests(unittest.TestCase):
         self.assertIn(cap['id'], result['composition']['requirements'])
         self.assertTrue(result['composition']['selected'])
         self.assertTrue(result['composition']['selected'][0]['source']['source_path'])
+    def test_repository_lead_requires_inspection_not_a_claimed_missing_component(self):
+        repo={'id':'repository:lead','entity_type':'REPOSITORY','catalog_status':'REPOSITORY_INTELLIGENCE'}
+        def search(*args, **kwargs):
+            return [] if kwargs.get('verified') else [repo]
+        with patch.object(c,'search',side_effect=search):
+            result=c.plan(['browser automation'],limit=1)
+        self.assertEqual(result['missing_components'],[])
+        self.assertEqual(result['on_demand_inspection'],['browser automation'])
+        self.assertEqual(result['requirements'][0]['repository_shortlist'],[repo])
 
     def test_composition_gaps_are_reported_as_missing_requirements(self):
         cap = next(x for x in r.records('capabilities') if x['status'] == 'VERIFIED' and x.get('providers'))

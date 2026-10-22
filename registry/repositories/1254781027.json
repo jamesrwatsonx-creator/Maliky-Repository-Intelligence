@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/dpconde/claude-android-skill",
-  "description": "Claude Code skill for building modern Android apps following best practices.",
+  "description": "Android-development skill, architecture references, Gradle templates and a Python generator for Kotlin/Compose feature API and implementation modules.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2025-12-07T22:15:38Z",
-    "github_description": "Claude Code skill for building modern Android apps following best practices."
+    "github_description": "Claude Code skill for building modern Android apps following best practices.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "edfca5e36ceb7532708c28fd2fd5215a9f01d105",
   "current_commit": "edfca5e36ceb7532708c28fd2fd5215a9f01d105",
   "inspection_date": "2026-09-20T05:32:39.908574+00:00",
   "categories": [
-    "category:developer-tools",
+    "category:skills",
     "category:mobile-applications",
-    "category:skills"
+    "category:templates-boilerplates"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [
     "operational:19",
     "operational:24"
@@ -41,7 +42,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -286,11 +287,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.406065+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.212891+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -310,19 +312,18 @@
     "unverified_source_files": 0
   },
   "tree_files": 12,
-  "files_read": 9,
+  "files_read": 11,
   "entity_count": 1,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
     "status": "PENDING",
     "review_policy": "LEAN",
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 1,
-    "source_errors": [],
-    "requeued_at": "2026-10-12T17:48:53.137136+00:00"
+    "source_errors": []
   },
-  "review_reason": "Prior completion used static declarations without a semantic census; lean review required.",
+  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -332,5 +333,178 @@
     ],
     "updated_at": "2026-10-12T19:04:27.096550+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Android-development skill, architecture references, Gradle templates and a Python generator for Kotlin/Compose feature API and implementation modules.",
+    "reuse_recommendation": "Use the skill/reference directly; extract the generator only after target validation and project-specific updates.",
+    "inspection_scope": "Bounded pinned README/manifest/tree and relevant source review; deeper components, security and runtime verification are demand-driven. Detailed asset records remain unchanged.",
+    "license_notes": "MIT source license; generated applications still need dependency/license review.",
+    "runtime": [
+      "Markdown skills",
+      "Python 3",
+      "Kotlin",
+      "Compose",
+      "Gradle"
+    ],
+    "keywords": [
+      "claude-android-skill",
+      "Android architecture",
+      "feature scaffolding",
+      "Android build setup",
+      "Markdown skills",
+      "Python 3",
+      "Kotlin",
+      "Compose",
+      "Gradle"
+    ],
+    "risk_notes": [
+      "The generator writes under user-supplied feature/project paths without robust name confinement or overwrite confirmation. Validate targets before running; generated features contain TODOs and sample data."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Android architecture",
+        "purpose": "Guide offline-first data, reactive state, Compose UI and modular feature boundaries.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "feature scaffolding",
+        "purpose": "Generate navigation, ViewModel, state, screen and build-file templates.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "Android build setup",
+        "purpose": "Adapt Gradle project and version-catalog starter configuration.",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:44:46.347308+00:00",
+    "inspected_commit": "edfca5e36ceb7532708c28fd2fd5215a9f01d105",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a3961cea8a95005c7aacc758e1fe0addcc9bd7eb",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "49b734f0423298444e12bffdf16435d989385f68",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "SKILL.md",
+        "blob_sha": "bfea462d7ab88de1230a9faaee918026ca5c47e4",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "scripts/generate_feature.py",
+        "blob_sha": "c22dd1f20dc11c82c32fbd0b97ed1cf821721597",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/scripts/generate_feature.py"
+      },
+      {
+        "type": "source_review",
+        "path": "assets/templates/libs.versions.toml.template",
+        "blob_sha": "4acb250b2362079c438ce7042c81a650724536b1",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/assets/templates/libs.versions.toml.template"
+      },
+      {
+        "type": "source_review",
+        "path": "assets/templates/settings.gradle.kts.template",
+        "blob_sha": "defe684f57e0b879c2641e7eb0cdd8aeedd39808",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-android-skill/blob/edfca5e36ceb7532708c28fd2fd5215a9f01d105/assets/templates/settings.gradle.kts.template"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Android architecture",
+        "description": "Guide offline-first data, reactive state, Compose UI and modular feature boundaries.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:android-architecture",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "feature scaffolding",
+        "description": "Generate navigation, ViewModel, state, screen and build-file templates.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:feature-scaffolding",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      },
+      {
+        "name": "Android build setup",
+        "description": "Adapt Gradle project and version-catalog starter configuration.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:android-build-setup",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "SKILL.md",
+          "scripts/generate_feature.py",
+          "assets/templates/libs.versions.toml.template",
+          "assets/templates/settings.gradle.kts.template"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }

@@ -5,6 +5,10 @@
   "tree_files": 1269,
   "tree_entries": [
     {
+      "path": "LICENSE",
+      "sha": "8a844bc750a313db95d147bea9e4c9537b2cebc0"
+    },
+    {
       "path": "README.md",
       "sha": "48b9d1de9fbb1c74406407e89e2471a01b1f28de"
     },
@@ -21,12 +25,32 @@
       "sha": "5beb3c15b93103fd8514d7a45ff8918d4674a0c8"
     },
     {
+      "path": "examples/with-nextjs/package.json",
+      "sha": "f23ff6f040c9ccce3cc2bb7a00a419f3b9ece457"
+    },
+    {
+      "path": "examples/with-script-in-browser/package.json",
+      "sha": "512786a65926d2d3a5fd9faff79afc0990bb64b7"
+    },
+    {
       "path": "excalidraw-app/package.json",
       "sha": "0c8446b569cddd45b5010213a24e9a0ea1a7a38f"
     },
     {
       "path": "package.json",
       "sha": "c91ee030c3800a91359082661a89d20a4da051f5"
+    },
+    {
+      "path": "packages/common/package.json",
+      "sha": "148ada31ac4ca9b97ef5ec3a5e4d36d07f128783"
+    },
+    {
+      "path": "packages/element/package.json",
+      "sha": "408f2c9d1000a5c77f3aea8bfb24b5ed23dc807c"
+    },
+    {
+      "path": "packages/excalidraw/package.json",
+      "sha": "d2f3d9f0b2607d47b519ee1b99a65962bca6d845"
     }
   ],
   "files_read": [
@@ -59,9 +83,40 @@
       "path": "docker-compose.yml",
       "blob_sha": "5beb3c15b93103fd8514d7a45ff8918d4674a0c8",
       "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "8a844bc750a313db95d147bea9e4c9537b2cebc0",
+      "entities_detected": 0
+    },
+    {
+      "path": "examples/with-nextjs/package.json",
+      "blob_sha": "f23ff6f040c9ccce3cc2bb7a00a419f3b9ece457",
+      "entities_detected": 0
+    },
+    {
+      "path": "examples/with-script-in-browser/package.json",
+      "blob_sha": "512786a65926d2d3a5fd9faff79afc0990bb64b7",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/common/package.json",
+      "blob_sha": "148ada31ac4ca9b97ef5ec3a5e4d36d07f128783",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/element/package.json",
+      "blob_sha": "408f2c9d1000a5c77f3aea8bfb24b5ed23dc807c",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/excalidraw/package.json",
+      "blob_sha": "d2f3d9f0b2607d47b519ee1b99a65962bca6d845",
+      "entities_detected": 0
     }
   ],
   "unread_source_paths": [
+    ".codesandbox/Dockerfile",
     ".codesandbox/tasks.json",
     ".eslintrc.json",
     ".github/FUNDING.yml",
@@ -80,15 +135,52 @@
     ".lintstagedrc.js",
     "CLAUDE.md",
     "CONTRIBUTING.md",
+    "Dockerfile",
     "crowdin.yml",
     "dev-docs/babel.config.js",
+    "dev-docs/docs/@excalidraw/excalidraw/api/api-intro.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/children-components-intro.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/footer.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/live-collaboration-trigger.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/main-menu.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/sidebar.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/children-components/welcome-screen.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/constants.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/excalidraw-element-skeleton.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/props/excalidraw-api.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/props/initialdata.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/props/props.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/props/render-props.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/props/ui-options.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/utils/export.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/api/utils/restore.mdx",
     "dev-docs/docs/@excalidraw/excalidraw/api/utils/utils-intro.md",
+    "dev-docs/docs/@excalidraw/excalidraw/customizing-styles.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/development.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/faq.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/installation.mdx",
+    "dev-docs/docs/@excalidraw/excalidraw/integration.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/api.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/codebase/codebase.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/codebase/new-diagram-type.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/codebase/parser/flowchart.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/codebase/parser/parser.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/development.mdx",
+    "dev-docs/docs/@excalidraw/mermaid-to-excalidraw/installation.mdx",
+    "dev-docs/docs/codebase/frames.mdx",
+    "dev-docs/docs/codebase/json-schema.mdx",
+    "dev-docs/docs/introduction/contributing.mdx",
+    "dev-docs/docs/introduction/development.mdx",
+    "dev-docs/docs/introduction/get-started.mdx",
     "dev-docs/docusaurus.config.js",
     "dev-docs/sidebars.js",
     "dev-docs/src/components/Highlight.js",
     "dev-docs/src/components/Homepage/index.js",
     "dev-docs/src/components/Homepage/index.tsx",
+    "dev-docs/src/components/Homepage/styles.module.css",
+    "dev-docs/src/css/custom.scss",
     "dev-docs/src/initialData.js",
+    "dev-docs/src/pages/index.module.css",
     "dev-docs/src/pages/index.tsx",
     "dev-docs/src/pages/markdown-page.md",
     "dev-docs/src/theme/MDXComponents.js",
@@ -97,21 +189,24 @@
     "dev-docs/vercel.json",
     "examples/with-nextjs/README.md",
     "examples/with-nextjs/next.config.js",
-    "examples/with-nextjs/package.json",
     "examples/with-nextjs/src/app/layout.tsx",
     "examples/with-nextjs/src/app/page.tsx",
+    "examples/with-nextjs/src/common.scss",
     "examples/with-nextjs/src/excalidrawWrapper.tsx",
     "examples/with-nextjs/src/pages/excalidraw-in-pages.tsx",
     "examples/with-nextjs/tsconfig.json",
     "examples/with-nextjs/vercel.json",
+    "examples/with-script-in-browser/.codesandbox/Dockerfile",
     "examples/with-script-in-browser/.codesandbox/tasks.json",
     "examples/with-script-in-browser/components/CustomFooter.tsx",
+    "examples/with-script-in-browser/components/ExampleApp.scss",
     "examples/with-script-in-browser/components/ExampleApp.tsx",
     "examples/with-script-in-browser/components/MobileFooter.tsx",
+    "examples/with-script-in-browser/components/sidebar/ExampleSidebar.scss",
     "examples/with-script-in-browser/components/sidebar/ExampleSidebar.tsx",
+    "examples/with-script-in-browser/index.html",
     "examples/with-script-in-browser/index.tsx",
     "examples/with-script-in-browser/initialData.tsx",
-    "examples/with-script-in-browser/package.json",
     "examples/with-script-in-browser/tsconfig.json",
     "examples/with-script-in-browser/utils.ts",
     "examples/with-script-in-browser/vercel.json",
@@ -120,48 +215,7 @@
     "excalidraw-app/ExcalidrawPlusIframeExport.tsx",
     "excalidraw-app/app-jotai.ts",
     "excalidraw-app/app-language/LanguageList.tsx",
-    "excalidraw-app/app-language/language-detector.ts",
-    "excalidraw-app/app-language/language-state.ts",
-    "excalidraw-app/app_constants.ts",
-    "excalidraw-app/bug-issue-template.js",
-    "excalidraw-app/collab/Collab.tsx",
-    "excalidraw-app/collab/CollabError.tsx",
-    "excalidraw-app/collab/Portal.tsx",
-    "excalidraw-app/components/AI.tsx",
-    "excalidraw-app/components/AppFooter.tsx",
-    "excalidraw-app/components/AppMainMenu.tsx",
-    "excalidraw-app/components/AppSidebar.tsx",
-    "excalidraw-app/components/AppWelcomeScreen.tsx",
-    "excalidraw-app/components/DebugCanvas.tsx",
-    "excalidraw-app/components/EncryptedIcon.tsx",
-    "excalidraw-app/components/ExcalidrawPlusPromoBanner.tsx",
-    "excalidraw-app/components/ExportToExcalidrawPlus.tsx",
-    "excalidraw-app/components/TopErrorBoundary.tsx",
-    "excalidraw-app/data/FileManager.ts",
-    "excalidraw-app/data/LocalData.ts",
-    "excalidraw-app/data/Locker.ts",
-    "excalidraw-app/data/TTDStorage.ts",
-    "excalidraw-app/data/fileStatusStore.ts",
-    "excalidraw-app/data/firebase.ts",
-    "excalidraw-app/data/index.ts",
-    "excalidraw-app/data/localStorage.ts",
-    "excalidraw-app/data/tabSync.ts",
-    "excalidraw-app/debugCollaborators.ts",
-    "excalidraw-app/global.d.ts",
-    "excalidraw-app/index.tsx",
-    "excalidraw-app/sentry.ts",
-    "excalidraw-app/share/QRCode.tsx",
-    "excalidraw-app/share/ShareDialog.tsx",
-    "excalidraw-app/share/qrcode.chunk.ts",
-    "excalidraw-app/tests/LanguageList.test.tsx",
-    "excalidraw-app/tests/MobileMenu.test.tsx",
-    "excalidraw-app/tests/collab.test.tsx",
-    "excalidraw-app/useHandleAppTheme.ts",
-    "excalidraw-app/vite-env.d.ts",
-    "firebase-project/firebase.json",
-    "firebase-project/firestore.indexes.json",
-    "packages/common/.eslintrc.json",
-    "packages/common/README.md"
+    "excalidraw-app/app-language/language-detector.ts"
   ],
   "excluded_nontext_paths": [
     ".codesandbox/Dockerfile",
@@ -283,8 +337,12 @@
     "public": 26,
     "scripts": 20
   },
-  "unread_source_paths_count": 784,
+  "unread_source_paths_count": 904,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 479,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

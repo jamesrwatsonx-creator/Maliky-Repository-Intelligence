@@ -9,12 +9,44 @@
       "sha": "217124056d3e004150c7aff4457a5615982a5aed"
     },
     {
+      "path": "LICENSE",
+      "sha": "683c709c95b54b899bb1a49207cd5bff296ba087"
+    },
+    {
       "path": "README.md",
       "sha": "3a059769f8f62dae1a7a1f7fe86060449da645b9"
     },
     {
       "path": "package.json",
       "sha": "1849cb599a5bfb5f59dc0aa061908d0b893298f6"
+    },
+    {
+      "path": "packages/docs/package.json",
+      "sha": "f3649bec1efcb39ea856e31ba7e7569ba9b0f5d9"
+    },
+    {
+      "path": "packages/evals/package.json",
+      "sha": "40f321dd8c5a131adfc8e03811fa1867cbf18568"
+    },
+    {
+      "path": "packages/extension/package.json",
+      "sha": "01da28319045b767b64e8ffdb2897f7364a9ae5b"
+    },
+    {
+      "path": "packages/protocol/package.json",
+      "sha": "af0fb4d7de85c2552b126e9e96151b779d386ef1"
+    },
+    {
+      "path": "packages/sdk-go/go.mod",
+      "sha": "2b7579baf1218d3483f63e1e0c3dd99cf1a8be45"
+    },
+    {
+      "path": "packages/sdk-go/package.json",
+      "sha": "c9643b5d1f4a66400b303d3c7e0d28f9b3e839d9"
+    },
+    {
+      "path": "packages/sdk-python/package.json",
+      "sha": "230cbe76b8e5ea8588e407205e2bcb544a4c1976"
     }
   ],
   "files_read": [
@@ -31,6 +63,46 @@
     {
       "path": "AGENTS.md",
       "blob_sha": "217124056d3e004150c7aff4457a5615982a5aed",
+      "entities_detected": 0
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "683c709c95b54b899bb1a49207cd5bff296ba087",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/docs/package.json",
+      "blob_sha": "f3649bec1efcb39ea856e31ba7e7569ba9b0f5d9",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/evals/package.json",
+      "blob_sha": "40f321dd8c5a131adfc8e03811fa1867cbf18568",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/extension/package.json",
+      "blob_sha": "01da28319045b767b64e8ffdb2897f7364a9ae5b",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/protocol/package.json",
+      "blob_sha": "af0fb4d7de85c2552b126e9e96151b779d386ef1",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/sdk-go/go.mod",
+      "blob_sha": "2b7579baf1218d3483f63e1e0c3dd99cf1a8be45",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/sdk-go/package.json",
+      "blob_sha": "c9643b5d1f4a66400b303d3c7e0d28f9b3e839d9",
+      "entities_detected": 0
+    },
+    {
+      "path": "packages/sdk-python/package.json",
+      "blob_sha": "230cbe76b8e5ea8588e407205e2bcb544a4c1976",
       "entities_detected": 0
     }
   ],
@@ -59,82 +131,82 @@
     "packages/docs/README.md",
     "packages/docs/docs.json",
     "packages/docs/language-selector.js",
-    "packages/docs/package.json",
     "packages/docs/scripts/runtimePaths.js",
     "packages/docs/scripts/sync-sdk-docs.js",
     "packages/docs/sdk-api-reference-labels.js",
+    "packages/docs/snippets/excalidraw.mdx",
+    "packages/docs/snippets/v3-banner.mdx",
     "packages/docs/tests/sdk-reference.test.ts",
-    "packages/evals/README.md",
-    "packages/evals/browseCliPaths.ts",
-    "packages/evals/browserbaseCleanup.ts",
-    "packages/evals/cli.ts",
-    "packages/evals/core/contracts/representation.ts",
-    "packages/evals/core/contracts/results.ts",
-    "packages/evals/core/contracts/targets.ts",
-    "packages/evals/core/contracts/tool.ts",
-    "packages/evals/core/fixtures/index.ts",
-    "packages/evals/core/fixtures/server.ts",
-    "packages/evals/core/runtime/coreDeps.ts",
-    "packages/evals/core/targets/browserbase.ts",
-    "packages/evals/core/targets/index.ts",
-    "packages/evals/core/targets/localChrome.ts",
-    "packages/evals/core/tasks/actions/click.ts",
-    "packages/evals/core/tasks/actions/click_coordinates.ts",
-    "packages/evals/core/tasks/actions/hover.ts",
-    "packages/evals/core/tasks/actions/scroll.ts",
-    "packages/evals/core/tasks/forms/press_key.ts",
-    "packages/evals/core/tasks/forms/type_input.ts",
-    "packages/evals/core/tasks/navigation/back_forward.ts",
-    "packages/evals/core/tasks/navigation/open.ts",
-    "packages/evals/core/tasks/navigation/reload.ts",
-    "packages/evals/core/tasks/page-info/evaluate_js.ts",
-    "packages/evals/core/tasks/page-info/get_text.ts",
-    "packages/evals/core/tasks/page-info/get_title.ts",
-    "packages/evals/core/tasks/page-info/get_url.ts",
-    "packages/evals/core/tasks/page-info/screenshot.ts",
-    "packages/evals/core/tasks/page-info/wait_for_selector.ts",
-    "packages/evals/core/tasks/tabs/new_tab.ts",
-    "packages/evals/core/tasks/tabs/switch_tab.ts",
-    "packages/evals/core/tasks/viewport/set_viewport.ts",
-    "packages/evals/core/tools/browse_cli.ts",
-    "packages/evals/core/tools/cdp_code.ts",
-    "packages/evals/core/tools/chrome_devtools_mcp.ts",
-    "packages/evals/core/tools/mcpUtils.ts",
-    "packages/evals/core/tools/playwright_code.ts",
-    "packages/evals/core/tools/playwright_mcp.ts",
-    "packages/evals/core/tools/registry.ts",
-    "packages/evals/core/tools/stagehand_code.ts",
-    "packages/evals/core/tools/understudy_code.ts",
-    "packages/evals/datasets/odysseysbench/source/tasks.json",
-    "packages/evals/env.ts",
-    "packages/evals/errors.ts",
-    "packages/evals/evals.config.json",
-    "packages/evals/framework/activeRunCleanup.ts",
-    "packages/evals/framework/adHocRubric.ts",
-    "packages/evals/framework/agentModelModes.ts",
-    "packages/evals/framework/agentToolRuntime.ts",
-    "packages/evals/framework/assertions.ts",
-    "packages/evals/framework/benchHarness.ts",
-    "packages/evals/framework/benchPlanner.ts",
-    "packages/evals/framework/benchRunner.ts",
-    "packages/evals/framework/benchTypes.ts",
-    "packages/evals/framework/braintrust.ts",
-    "packages/evals/framework/claudeCodeRunner.ts",
-    "packages/evals/framework/claudeCodeToolAdapter.ts",
-    "packages/evals/framework/codexCodeBridge.ts",
-    "packages/evals/framework/codexRunner.ts",
-    "packages/evals/framework/codexToolAdapter.ts",
-    "packages/evals/framework/context.ts",
-    "packages/evals/framework/defineTask.ts",
-    "packages/evals/framework/discovery.ts",
-    "packages/evals/framework/externalHarnessPlan.ts",
-    "packages/evals/framework/harnesses/claudeCodeAdapter.ts",
-    "packages/evals/framework/harnesses/codexAdapter.ts",
-    "packages/evals/framework/harnesses/persistTrajectory.ts",
-    "packages/evals/framework/harnesses/trajectoryAdapter.ts",
-    "packages/evals/framework/index.ts",
-    "packages/evals/framework/metrics.ts",
-    "packages/evals/framework/observationRecorder.ts"
+    "packages/docs/v2/basics/act.mdx",
+    "packages/docs/v2/basics/agent.mdx",
+    "packages/docs/v2/basics/extract.mdx",
+    "packages/docs/v2/basics/observe.mdx",
+    "packages/docs/v2/best-practices/agent-fallbacks.mdx",
+    "packages/docs/v2/best-practices/build-agent.mdx",
+    "packages/docs/v2/best-practices/caching.mdx",
+    "packages/docs/v2/best-practices/computer-use.mdx",
+    "packages/docs/v2/best-practices/contributing.mdx",
+    "packages/docs/v2/best-practices/cost-optimization.mdx",
+    "packages/docs/v2/best-practices/deployments.mdx",
+    "packages/docs/v2/best-practices/mcp-integrations.mdx",
+    "packages/docs/v2/best-practices/playwright-interop.mdx",
+    "packages/docs/v2/best-practices/prompting-best-practices.mdx",
+    "packages/docs/v2/best-practices/speed-optimization.mdx",
+    "packages/docs/v2/best-practices/usecase-observe.mdx",
+    "packages/docs/v2/best-practices/user-data.mdx",
+    "packages/docs/v2/best-practices/using-multiple-tabs.mdx",
+    "packages/docs/v2/best-practices/working-with-iframes.mdx",
+    "packages/docs/v2/configuration/browser.mdx",
+    "packages/docs/v2/configuration/evals.mdx",
+    "packages/docs/v2/configuration/logging.mdx",
+    "packages/docs/v2/configuration/models.mdx",
+    "packages/docs/v2/configuration/observability.mdx",
+    "packages/docs/v2/first-steps/ai-rules.mdx",
+    "packages/docs/v2/first-steps/installation.mdx",
+    "packages/docs/v2/first-steps/introduction.mdx",
+    "packages/docs/v2/first-steps/quickstart.mdx",
+    "packages/docs/v2/integrations/crew-ai/configuration.mdx",
+    "packages/docs/v2/integrations/crew-ai/introduction.mdx",
+    "packages/docs/v2/integrations/langchain/configuration.mdx",
+    "packages/docs/v2/integrations/langchain/introduction.mdx",
+    "packages/docs/v2/integrations/mcp/configuration.mdx",
+    "packages/docs/v2/integrations/mcp/introduction.mdx",
+    "packages/docs/v2/integrations/mcp/setup.mdx",
+    "packages/docs/v2/integrations/mcp/tools.mdx",
+    "packages/docs/v2/integrations/vercel/configuration.mdx",
+    "packages/docs/v2/integrations/vercel/introduction.mdx",
+    "packages/docs/v2/references/act.mdx",
+    "packages/docs/v2/references/agent.mdx",
+    "packages/docs/v2/references/extract.mdx",
+    "packages/docs/v2/references/observe.mdx",
+    "packages/docs/v2/references/stagehand.mdx",
+    "packages/docs/v3/basics/act.mdx",
+    "packages/docs/v3/basics/agent.mdx",
+    "packages/docs/v3/basics/evals.mdx",
+    "packages/docs/v3/basics/extract.mdx",
+    "packages/docs/v3/basics/observe.mdx",
+    "packages/docs/v3/basics/webmcp.mdx",
+    "packages/docs/v3/best-practices/agent-fallbacks.mdx",
+    "packages/docs/v3/best-practices/caching.mdx",
+    "packages/docs/v3/best-practices/computer-use.mdx",
+    "packages/docs/v3/best-practices/cost-optimization.mdx",
+    "packages/docs/v3/best-practices/deployments.mdx",
+    "packages/docs/v3/best-practices/deterministic-agent.mdx",
+    "packages/docs/v3/best-practices/history.mdx",
+    "packages/docs/v3/best-practices/mcp-integrations.mdx",
+    "packages/docs/v3/best-practices/prompting-best-practices.mdx",
+    "packages/docs/v3/best-practices/speed-optimization.mdx",
+    "packages/docs/v3/best-practices/usecase-observe.mdx",
+    "packages/docs/v3/best-practices/user-data.mdx",
+    "packages/docs/v3/best-practices/using-multiple-tabs.mdx",
+    "packages/docs/v3/configuration/browser.mdx",
+    "packages/docs/v3/configuration/logging.mdx",
+    "packages/docs/v3/configuration/models.mdx",
+    "packages/docs/v3/configuration/observability.mdx",
+    "packages/docs/v3/first-steps/ai-rules.mdx",
+    "packages/docs/v3/first-steps/installation.mdx",
+    "packages/docs/v3/first-steps/introduction.mdx",
+    "packages/docs/v3/first-steps/quickstart.mdx"
   ],
   "excluded_nontext_paths": [
     ".env.example",
@@ -253,8 +325,12 @@
     "rules": 13,
     "scripts": 20
   },
-  "unread_source_paths_count": 857,
+  "unread_source_paths_count": 1000,
   "unread_source_paths_truncated": true,
-  "excluded_nontext_paths_count": 240,
-  "excluded_nontext_paths_truncated": true
+  "excluded_nontext_paths_count": 100,
+  "excluded_nontext_paths_truncated": false,
+  "inspection_scope": "Bounded repository intelligence; not an exhaustive source/asset census",
+  "detected_binary_paths_count": 0,
+  "detected_binary_paths": [],
+  "detected_binary_paths_truncated": false
 }

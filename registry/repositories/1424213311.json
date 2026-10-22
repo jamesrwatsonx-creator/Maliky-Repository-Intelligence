@@ -11,20 +11,26 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/JJenglert1/esp32-muse-agent",
-  "description": "",
+  "description": "Setup guide and patch scripts for integrating an ESP32-S3 board with an external Muse SDK to build a press-to-talk voice agent with spoken replies and an animated display.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-04T13:37:25Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "9bd511fb510b9336699cdf44cf219a66f4c59d1d",
   "current_commit": "9bd511fb510b9336699cdf44cf219a66f4c59d1d",
   "inspection_date": "2026-10-20T23:58:28.313741+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:mobile-applications",
+    "category:ai-applications",
+    "category:agent-workflows",
+    "category:cloud-infrastructure"
+  ],
+  "operational_category": "operational:07",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +283,155 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.755735+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:09.661689+00:00",
   "tree_files": 7,
-  "files_read": 0,
+  "files_read": 5,
   "entity_count": 0,
-  "unread_source_files": 5,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 0,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Setup guide and patch scripts for integrating an ESP32-S3 board with an external Muse SDK to build a press-to-talk voice agent with spoken replies and an animated display.",
+    "reuse_recommendation": "Use as a hardware integration guide after reviewing scripts and key handling; use low-spend credentials and do not embed privileged keys in distributable firmware.",
+    "inspection_scope": "Reviewed the setup/configuration guidance and scripts. The repository patches and builds an external SDK; no firmware was built or flashed. Source warns that credentials compiled into firmware can be extracted from the device.",
+    "license_notes": "Apache-2.0 for this repository; external SDK/model/service terms apply.",
+    "runtime": [
+      "C/C++ ESP32-S3 firmware",
+      "shell setup scripts",
+      "external Muse SDK",
+      "optional OpenAI API"
+    ],
+    "keywords": [
+      "ESP32 voice agent",
+      "Muse SDK",
+      "push-to-talk",
+      "voice interface",
+      "Waveshare AMOLED",
+      "device integration"
+    ],
+    "risk_notes": [
+      "Firmware may expose compiled credentials to device holders; hardware flashing, microphone privacy and external cloud access need explicit build review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "SDK setup and patch scripts",
+        "purpose": "Fetches/configures the external SDK and applies board-specific modifications.",
+        "evidence_paths": [
+          "scripts/setup.sh",
+          "scripts/configure.sh"
+        ]
+      },
+      {
+        "name": "device integration guide",
+        "purpose": "Describes hardware, voice interaction and credential constraints.",
+        "evidence_paths": [
+          "README.md",
+          "docs/lessons-learned.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T00:54:29.802455+00:00",
+    "inspected_commit": "9bd511fb510b9336699cdf44cf219a66f4c59d1d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "915cf2a700837440c703077d7f165481509e6b49",
+        "value": "https://github.com/jamesrwatsonx-creator/esp32-muse-agent/blob/9bd511fb510b9336699cdf44cf219a66f4c59d1d/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "6c05926afc1216986393c614043eeed397311cd7",
+        "value": "https://github.com/jamesrwatsonx-creator/esp32-muse-agent/blob/9bd511fb510b9336699cdf44cf219a66f4c59d1d/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "scripts/configure.sh",
+        "blob_sha": "b012c782da89760e5ee9b17b3b7b45fe77292bfa",
+        "value": "https://github.com/jamesrwatsonx-creator/esp32-muse-agent/blob/9bd511fb510b9336699cdf44cf219a66f4c59d1d/scripts/configure.sh"
+      },
+      {
+        "type": "source_review",
+        "path": "scripts/setup.sh",
+        "blob_sha": "110f65293b9597ec2a6cbc959c869ca5402d5137",
+        "value": "https://github.com/jamesrwatsonx-creator/esp32-muse-agent/blob/9bd511fb510b9336699cdf44cf219a66f4c59d1d/scripts/setup.sh"
+      },
+      {
+        "type": "source_review",
+        "path": "docs/lessons-learned.md",
+        "blob_sha": "5835ab616f0aeddabdd2d50aecfb1cd15ba38b20",
+        "value": "https://github.com/jamesrwatsonx-creator/esp32-muse-agent/blob/9bd511fb510b9336699cdf44cf219a66f4c59d1d/docs/lessons-learned.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "EXTERNAL_REFERENCE",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "PRESENT",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "ESP32 board and SDK integration",
+        "description": "Applies configuration and patches to an external Muse SDK for the target board.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:esp32-board-and-sdk-integration",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/configure.sh",
+          "scripts/setup.sh",
+          "docs/lessons-learned.md"
+        ]
+      },
+      {
+        "name": "push-to-talk voice interface",
+        "description": "Targets spoken interaction and animated device feedback through external firmware components.",
+        "scope": "REFERENCE",
+        "id": "cluster:push-to-talk-voice-interface",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/configure.sh",
+          "scripts/setup.sh",
+          "docs/lessons-learned.md"
+        ]
+      },
+      {
+        "name": "firmware setup workflow",
+        "description": "Documents environment, credential and build setup for the board integration.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:firmware-setup-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "scripts/configure.sh",
+          "scripts/setup.sh",
+          "docs/lessons-learned.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

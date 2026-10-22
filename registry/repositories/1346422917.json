@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/iOfficeAI/AionUi",
-  "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+  "description": "Desktop interface for operating multiple AI coding agents and model providers through a unified workspace.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-25T07:03:13Z",
-    "github_description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!"
+    "github_description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "16589d8c7487ceaea9d9290d123b72de241d8f7e",
   "current_commit": "16589d8c7487ceaea9d9290d123b72de241d8f7e",
   "inspection_date": "2026-09-20T05:34:05.113455+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:desktop-applications",
+    "category:ai-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {
     "SKILL": {
       "detected": 4,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:07.989662+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.696974+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -286,10 +289,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 2351,
-  "files_read": 32,
+  "files_read": 36,
   "entity_count": 8,
-  "unread_source_files": 2094,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 2139,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -299,5 +302,89 @@
     ],
     "updated_at": "2026-10-12T19:04:27.047603+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Desktop interface for operating multiple AI coding agents and model providers through a unified workspace.",
+    "reuse_recommendation": "Use if it supports the required agents; inspect local credential handling and process permissions.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check repository license and provider-specific terms.",
+    "runtime": [
+      "Desktop app",
+      "coding agent CLIs",
+      "LLM APIs"
+    ],
+    "keywords": [
+      "AionUi",
+      "AI coding agents",
+      "desktop workspace",
+      "provider management",
+      "developer tools"
+    ],
+    "risk_notes": [
+      "Agent sessions may access local repositories and transmit source to providers."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AionUi agent console",
+        "purpose": "Brings multiple coding-agent experiences into one desktop interface.",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:53.743188+00:00",
+    "inspected_commit": "16589d8c7487ceaea9d9290d123b72de241d8f7e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "readme.md",
+        "blob_sha": "ad0b4e34b872e5dd00d75f5f89bec301968a0b23",
+        "value": "https://github.com/jamesrwatsonx-creator/AionUi/blob/16589d8c7487ceaea9d9290d123b72de241d8f7e/readme.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "multi-agent desktop workspace",
+        "description": "Provides a unified UI for interacting with supported coding agents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-agent-desktop-workspace",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      },
+      {
+        "name": "provider configuration and sessions",
+        "description": "Manages model connections and agent task sessions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:provider-configuration-and-sessions",
+        "evidence_paths": [
+          "readme.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/livekit/agents",
-  "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+  "description": "Framework examples and tooling for building realtime voice or multimodal agents on LiveKit rooms and media infrastructure.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-24T02:55:58Z",
-    "github_description": "A framework for building realtime voice AI agents 🤖🎙️📹 "
+    "github_description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3bf38c7878d2f368c4e1daca7e6a67b84cfeaf0f",
   "current_commit": "3bf38c7878d2f368c4e1daca7e6a67b84cfeaf0f",
   "inspection_date": "2026-09-20T05:33:47.241580+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:generative-ai"
+    "category:agent-frameworks",
+    "category:media-publishing",
+    "category:apis"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:07",
   "secondary_operational_categories": [
     "operational:03"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -252,11 +254,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.370838+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.484168+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -277,10 +280,10 @@
     "unverified_source_files": 0
   },
   "tree_files": 1331,
-  "files_read": 5,
+  "files_read": 13,
   "entity_count": 1,
-  "unread_source_files": 1188,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1203,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -290,5 +293,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.199446+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Framework examples and tooling for building realtime voice or multimodal agents on LiveKit rooms and media infrastructure.",
+    "reuse_recommendation": "Use for realtime voice-agent builds after defining consent, interruption and failure handling.",
+    "inspection_scope": "Review pinned README and manifests to describe repository purpose and major clusters; no exhaustive per-file census.",
+    "license_notes": "Check repository license and LiveKit/model provider terms.",
+    "runtime": [
+      "Python/Node.js",
+      "LiveKit WebRTC",
+      "STT/LLM/TTS providers"
+    ],
+    "keywords": [
+      "LiveKit agents",
+      "voice agent",
+      "realtime audio",
+      "WebRTC",
+      "agent framework"
+    ],
+    "risk_notes": [
+      "Audio recordings and provider transmissions require privacy controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "LiveKit agents framework",
+        "purpose": "Coordinates conversational agents over realtime media sessions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:52:13.967657+00:00",
+    "inspected_commit": "3bf38c7878d2f368c4e1daca7e6a67b84cfeaf0f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "23c489a17fa5f790e4d8026a7c730a531f8bdce2",
+        "value": "https://github.com/jamesrwatsonx-creator/live-Kit-agents/blob/3bf38c7878d2f368c4e1daca7e6a67b84cfeaf0f/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "realtime agent runtime",
+        "description": "Runs agents within LiveKit sessions and coordinates participant interactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:realtime-agent-runtime",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "speech pipeline integrations",
+        "description": "Connects speech recognition, language models and speech synthesis.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:speech-pipeline-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "room and media operations",
+        "description": "Uses realtime media rooms for voice and potentially video experiences.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:room-and-media-operations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

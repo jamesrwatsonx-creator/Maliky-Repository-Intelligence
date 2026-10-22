@@ -11,20 +11,25 @@
   "fork": true,
   "default_branch": "3.x",
   "upstream_url": "https://github.com/InvoiceShelf/InvoiceShelf",
-  "description": "Open Source Invoicing Solution for Individuals & Businesses",
+  "description": "Self-hosted invoicing and billing application for creating estimates, managing customers, tracking payments and handling business documents.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-13T16:39:36Z",
-    "github_description": "Open Source Invoicing Solution for Individuals & Businesses"
+    "github_description": "Open Source Invoicing Solution for Individuals & Businesses",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "650bd3bb105f3993a914303a9a767becf8ab804e",
   "current_commit": "650bd3bb105f3993a914303a9a767becf8ab804e",
   "inspection_date": "2026-10-20T23:56:11.552579+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:finance-accounting",
+    "category:business-applications",
+    "category:web-applications"
+  ],
+  "operational_category": "operational:11",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -32,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -277,14 +282,108 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.250816+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.351829+00:00",
   "tree_files": 2173,
-  "files_read": 0,
+  "files_read": 10,
   "entity_count": 0,
-  "unread_source_files": 2008,
-  "next_phase": "ENTITY_EXTRACTION"
+  "unread_source_files": 2006,
+  "next_phase": "COMPLETE",
+  "repository_intelligence": {
+    "purpose": "Self-hosted invoicing and billing application for creating estimates, managing customers, tracking payments and handling business documents.",
+    "reuse_recommendation": "Evaluate tax, currency and payment behavior before production billing use.",
+    "inspection_scope": "Pinned README and manifest review for purpose, reusable subsystem families and major capability clusters; detailed assets remain on-demand.",
+    "license_notes": "Check repository license and payment integrations.",
+    "runtime": [
+      "PHP/web application",
+      "database",
+      "email/payment services"
+    ],
+    "keywords": [
+      "InvoiceShelf",
+      "invoicing",
+      "billing",
+      "customer management",
+      "self-hosted business"
+    ],
+    "risk_notes": [
+      "Customer identity and financial records require secure access and backups."
+    ],
+    "important_subsystems": [
+      {
+        "name": "InvoiceShelf billing platform",
+        "purpose": "Combines customer records with invoice and payment workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:00:52.127757+00:00",
+    "inspected_commit": "650bd3bb105f3993a914303a9a767becf8ab804e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "b7c36b79198b2ac3de6085ae495681badf4fdf92",
+        "value": "https://github.com/jamesrwatsonx-creator/InvoiceShelf/blob/650bd3bb105f3993a914303a9a767becf8ab804e/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "invoice and estimate management",
+        "description": "Creates, sends and tracks customer billing documents.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:invoice-and-estimate-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "customer and payment records",
+        "description": "Organizes clients, payment states and billing history.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:customer-and-payment-records",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "business document workflows",
+        "description": "Supports routine administration and document generation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:business-document-workflows",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
+  }
 }

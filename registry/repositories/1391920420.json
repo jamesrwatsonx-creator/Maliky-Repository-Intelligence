@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Python library for accurately querying username and email usage on online platforms",
+  "upstream_url": "https://github.com/iojw/socialscan",
+  "description": "Python CLI and library for checking username or email availability on supported social platforms.",
   "metadata": {
     "language": null,
     "license": "MPL-2.0",
     "archived": false,
     "pushed_at": "2026-08-03T20:47:15Z",
-    "github_description": "Python library for accurately querying username and email usage on online platforms"
+    "github_description": "Python library for accurately querying username and email usage on online platforms",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "5ae42d0f82b0ebd717b3ae52b693b4ececa902b1",
+  "current_commit": "5ae42d0f82b0ebd717b3ae52b693b4ececa902b1",
+  "inspection_date": "2026-10-22T02:33:19.043908+00:00",
   "categories": [
-    "category:general-other"
+    "category:research-projects",
+    "category:cybersecurity"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:10.242784+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:11.294246+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,82 @@
     ],
     "updated_at": "2026-10-12T19:04:27.292060+00:00",
     "purpose_established": true
+  },
+  "tree_files": 24,
+  "files_read": 10,
+  "unread_source_files": 4,
+  "repository_intelligence": {
+    "purpose": "Python CLI and library for checking username or email availability on supported social platforms.",
+    "reuse_recommendation": "Use only with authorization and appropriate controls for personal identifiers.",
+    "inspection_scope": "Pinned README and manifest review at repository level; identify major capabilities and reusable subsystems without exhaustive asset splitting.",
+    "license_notes": "Review the license, platform policies and privacy implications of queried identifiers.",
+    "runtime": [
+      "Python"
+    ],
+    "keywords": [
+      "username availability",
+      "email checks",
+      "social platforms",
+      "Python library",
+      "OSINT"
+    ],
+    "risk_notes": [
+      "Respect platform policies, consent and data protection requirements for integrations and media."
+    ],
+    "important_subsystems": [
+      {
+        "name": "socialscan library and CLI",
+        "purpose": "Provides programmatic and command-line account lookup workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:45:32.106619+00:00",
+    "inspected_commit": "5ae42d0f82b0ebd717b3ae52b693b4ececa902b1",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "6af21ebb2edee72c112069c8b52814762ac60d2d",
+        "value": "https://github.com/jamesrwatsonx-creator/socialscan/blob/5ae42d0f82b0ebd717b3ae52b693b4ececa902b1/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Account availability checks",
+        "description": "Checks configured services for username or email registration indicators.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:account-availability-checks",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

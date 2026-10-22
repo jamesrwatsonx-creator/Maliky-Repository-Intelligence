@@ -11,22 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/open-webui/open-webui",
-  "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "description": "Self-hosted web UI for interacting with local or remote language models, with chats, knowledge retrieval, tools and user management.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-05-22T09:54:31Z",
-    "github_description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    "github_description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "PARTIAL",
+  "state": "COMPLETE",
   "inspected_commit": "3660bc00fd807deced3400a63bfa6db47811a3bb",
   "current_commit": "3660bc00fd807deced3400a63bfa6db47811a3bb",
   "inspection_date": "2026-09-20T05:32:36.737051+00:00",
   "categories": [
-    "category:apis"
+    "category:ai-applications",
+    "category:generative-ai",
+    "category:web-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:15",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
@@ -249,11 +252,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.694559+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.853085+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -274,10 +278,10 @@
     "unverified_source_files": 2
   },
   "tree_files": 4967,
-  "files_read": 5,
+  "files_read": 14,
   "entity_count": 0,
-  "unread_source_files": 1028,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 1039,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -287,5 +291,98 @@
     ],
     "updated_at": "2026-10-12T19:04:27.240894+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Self-hosted web UI for interacting with local or remote language models, with chats, knowledge retrieval, tools and user management.",
+    "reuse_recommendation": "Use for private model access with authentication, network restrictions and careful provider configuration.",
+    "inspection_scope": "Pinned README/package metadata review of repository-level purpose and major capability clusters; detailed extraction deferred until a concrete build need.",
+    "license_notes": "Check repository license and each connected model/provider’s terms.",
+    "runtime": [
+      "Python/TypeScript",
+      "database",
+      "Ollama or remote model APIs"
+    ],
+    "keywords": [
+      "Open WebUI",
+      "local LLM chat",
+      "RAG",
+      "Ollama",
+      "AI assistant interface"
+    ],
+    "risk_notes": [
+      "Uploaded documents and chats may contain sensitive data; tool permissions can enable external actions."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Open WebUI platform",
+        "purpose": "Combines model access, knowledge workflows and user-facing chat.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T02:10:42.191803+00:00",
+    "inspected_commit": "3660bc00fd807deced3400a63bfa6db47811a3bb",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "3c4bee98c91b74b9a48309d5adfd028398b09f95",
+        "value": "https://github.com/jamesrwatsonx-creator/open-webui/blob/3660bc00fd807deced3400a63bfa6db47811a3bb/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "model chat interface",
+        "description": "Provides a browser-based conversational UI for configured models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-chat-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "knowledge retrieval and documents",
+        "description": "Supports document collections and retrieval-augmented responses.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:knowledge-retrieval-and-documents",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "tools and multi-user operation",
+        "description": "Adds tool integrations and administrative controls.",
+        "scope": "CONFIGURATION",
+        "id": "cluster:tools-and-multi-user-operation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "PARTIAL",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

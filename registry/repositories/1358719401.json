@@ -11,24 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-  "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+  "description": "Python project for automated portfolio hedging and trading-oriented financial workflows using model and market-data integrations.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-05-11T05:44:09Z",
-    "github_description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution."
+    "github_description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "c549c7950da112286e76725d49f6a25de8fa99bd",
   "current_commit": "c549c7950da112286e76725d49f6a25de8fa99bd",
   "inspection_date": "2026-09-20T05:35:51.166346+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:automation-scripting",
-    "category:research-projects"
+    "category:finance-accounting",
+    "category:ai-applications",
+    "category:business-applications"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [
     "operational:03",
     "operational:20"
@@ -254,16 +255,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.120790+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.835116+00:00",
   "tree_files": 51,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 45,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 35,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -273,5 +275,114 @@
     ],
     "updated_at": "2026-10-12T19:04:27.067083+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Python project for automated portfolio hedging and trading-oriented financial workflows using model and market-data integrations.",
+    "reuse_recommendation": "Do not connect to live funds until execution paths, authorization, risk limits, credentials and paper-trading behavior are deeply reviewed.",
+    "inspection_scope": "Reviewed the pinned repository README and package metadata. Bounded summary, not an exhaustive source or asset inventory.",
+    "license_notes": "MIT; financial provider and data terms apply.",
+    "runtime": [
+      "Python",
+      "financial APIs",
+      "LLM/agent integrations"
+    ],
+    "keywords": [
+      "automated hedging",
+      "portfolio management",
+      "financial agent",
+      "trading APIs",
+      "risk management"
+    ],
+    "risk_notes": [
+      "Financial/trading execution is a deep-review trigger; inspect order paths, credential storage, limits and failure behavior before any live connection."
+    ],
+    "important_subsystems": [
+      {
+        "name": "AutoHedge application",
+        "purpose": "Coordinates the primary finance workflow and integrations.",
+        "evidence_paths": [
+          "README.md",
+          "autohedge/main.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:02:45.733893+00:00",
+    "inspected_commit": "c549c7950da112286e76725d49f6a25de8fa99bd",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "83ed776ab67c398e7a347bf9be219794e175a1f9",
+        "value": "https://github.com/jamesrwatsonx-creator/AutoHedge/blob/c549c7950da112286e76725d49f6a25de8fa99bd/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "LICENSE",
+        "blob_sha": "ca69c7eb4955d82bcc187d8b510746d618eb0471",
+        "value": "https://github.com/jamesrwatsonx-creator/AutoHedge/blob/c549c7950da112286e76725d49f6a25de8fa99bd/LICENSE"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "3bdbd4ab6b53b42350a400ca0286b61dcf987c02",
+        "value": "https://github.com/jamesrwatsonx-creator/AutoHedge/blob/c549c7950da112286e76725d49f6a25de8fa99bd/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "autohedge/main.py",
+        "blob_sha": "df58bc62027a027212a1d06e9e0b069d37b47608",
+        "value": "https://github.com/jamesrwatsonx-creator/AutoHedge/blob/c549c7950da112286e76725d49f6a25de8fa99bd/autohedge/main.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "EXTERNAL_REFERENCE",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "automated hedge workflow",
+        "description": "Coordinates financial analysis and hedge-oriented actions through configured integrations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:automated-hedge-workflow",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "autohedge/main.py"
+        ]
+      },
+      {
+        "name": "financial provider integrations",
+        "description": "Connects the workflow to external market or broker services.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:financial-provider-integrations",
+        "evidence_paths": [
+          "README.md",
+          "LICENSE",
+          "pyproject.toml",
+          "autohedge/main.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

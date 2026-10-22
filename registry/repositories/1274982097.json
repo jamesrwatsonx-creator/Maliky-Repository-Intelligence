@@ -11,25 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/coreyhaines31/marketingskills",
-  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "description": "Collection of agent skills for marketing work such as positioning, copywriting, SEO, conversion optimization and growth experiments.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-06-17T06:35:43Z",
-    "github_description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+    "github_description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "STRUCTURE_COMPLETE",
+  "state": "COMPLETE",
   "inspected_commit": "8bfcdffb655f16e713940cd04fb08891899c47db",
   "current_commit": "8bfcdffb655f16e713940cd04fb08891899c47db",
   "inspection_date": "2026-09-20T05:34:39.546284+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:business-applications",
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:marketing-communications",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:01",
   "secondary_operational_categories": [
     "operational:03",
     "operational:11",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 45,
@@ -256,16 +256,17 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:09.590594+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:10.742895+00:00",
   "tree_files": 380,
-  "files_read": 0,
+  "files_read": 12,
   "entity_count": 0,
-  "unread_source_files": 377,
-  "next_phase": "ENTITY_EXTRACTION",
+  "unread_source_files": 366,
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -275,5 +276,96 @@
     ],
     "updated_at": "2026-10-12T19:04:27.226929+00:00",
     "purpose_established": true
+  },
+  "repository_intelligence": {
+    "purpose": "Collection of agent skills for marketing work such as positioning, copywriting, SEO, conversion optimization and growth experiments.",
+    "reuse_recommendation": "Use as a workflow starting point; ground claims, offers and experiments in current business data.",
+    "inspection_scope": "Bounded repository-level review of pinned README and package/manifest evidence; internal assets are not exhaustively decomposed.",
+    "license_notes": "Check repository license before redistribution.",
+    "runtime": [
+      "Markdown agent skills"
+    ],
+    "keywords": [
+      "marketing skills",
+      "SEO",
+      "copywriting",
+      "conversion optimization",
+      "growth"
+    ],
+    "risk_notes": [
+      "Marketing claims and SEO recommendations need factual and current validation."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Marketing skill library",
+        "purpose": "Packages specialized reusable instructions for marketing tasks.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:30:33.901541+00:00",
+    "inspected_commit": "8bfcdffb655f16e713940cd04fb08891899c47db",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4fbf025689fa5d4fb69748a12d40aef4e963c113",
+        "value": "https://github.com/jamesrwatsonx-creator/new-marketingskills/blob/8bfcdffb655f16e713940cd04fb08891899c47db/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "content and positioning",
+        "description": "Supports messaging, copy and marketing content tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:content-and-positioning",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "SEO and acquisition",
+        "description": "Guides search visibility and growth planning.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:seo-and-acquisition",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "conversion and experimentation",
+        "description": "Provides workflows for improving landing pages and testing growth ideas.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:conversion-and-experimentation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "STRUCTURE_COMPLETE",
+    "next_phase": "ENTITY_EXTRACTION",
+    "review_reason": null
   }
 }

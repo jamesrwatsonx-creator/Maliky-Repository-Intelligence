@@ -11,23 +11,25 @@
   "fork": true,
   "default_branch": "main",
   "upstream_url": "https://github.com/googlemaps/android-maps-compose",
-  "description": "Jetpack Compose composables for the Maps SDK for Android",
+  "description": "Google Maps Compose library for embedding Google Maps views and map overlays in Jetpack Compose Android applications.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-08-21T22:19:36Z",
-    "github_description": "Jetpack Compose composables for the Maps SDK for Android"
+    "github_description": "Jetpack Compose composables for the Maps SDK for Android",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "7dec2b7a38260821970160373836bed126458d80",
   "current_commit": "7dec2b7a38260821970160373836bed126458d80",
   "inspection_date": "2026-09-20T05:33:12.412668+00:00",
   "categories": [
-    "category:apis",
-    "category:mobile-applications"
+    "category:libraries-packages",
+    "category:mobile-applications",
+    "category:real-estate-geospatial"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:19",
   "secondary_operational_categories": [
     "operational:12"
   ],
@@ -50,7 +52,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {
     "SKILL": {
       "detected": 1,
@@ -295,11 +297,12 @@
   "phases": {
     "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T00:25:08.021700+00:00",
+  "visibility_verified_at": "2026-10-22T02:59:08.729976+00:00",
   "legacy_review": {
     "completed_phase": "pass2.5",
     "legacy_completion_not_equivalent_to_entity_census": true,
@@ -325,7 +328,7 @@
   "files_read": 136,
   "entity_count": 12,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
+  "next_phase": "COMPLETE",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -343,5 +346,87 @@
     "reason": "static_candidates_require_semantic_review",
     "candidate_entity_count": 12,
     "source_errors": []
+  },
+  "repository_intelligence": {
+    "purpose": "Google Maps Compose library for embedding Google Maps views and map overlays in Jetpack Compose Android applications.",
+    "reuse_recommendation": "Use with a restricted Maps API key and review location permissions, billing and privacy.",
+    "inspection_scope": "Pinned README and repository metadata review; repository-level summary, not exhaustive source decomposition.",
+    "license_notes": "Apache-2.0; Google Maps Platform usage terms and billing apply.",
+    "runtime": [
+      "See repository runtime manifests"
+    ],
+    "keywords": [
+      "Maps Compose",
+      "Google Maps Android",
+      "Jetpack Compose maps",
+      "map overlays",
+      "geospatial UI"
+    ],
+    "risk_notes": [
+      "Maps may process precise location data and incur usage costs; secure API keys and consent."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Maps Compose library",
+        "purpose": "Connects Google Maps SDK features to Compose UI.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T01:14:19.502809+00:00",
+    "inspected_commit": "7dec2b7a38260821970160373836bed126458d80",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "11030fe65b97537b5a47ceb55a9f74ccb909d1a9",
+        "value": "https://github.com/jamesrwatsonx-creator/android-maps-compose/blob/7dec2b7a38260821970160373836bed126458d80/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "PRESENT"
+    },
+    "capability_clusters": [
+      {
+        "name": "Compose map interface",
+        "description": "Embeds interactive Google Maps in Compose layouts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:compose-map-interface",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "map state and overlays",
+        "description": "Provides Compose integration for markers, camera and map elements.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:map-state-and-overlays",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "detailed_inspection_at_summary": {
+    "state": "NEEDS_REVIEW",
+    "next_phase": "CAPABILITY_ANALYSIS",
+    "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required."
   }
 }
