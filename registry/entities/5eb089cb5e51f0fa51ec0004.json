@@ -1,0 +1,57 @@
+{
+  "id": "entity:5eb089cb5e51f0fa51ec0004",
+  "entity_type": "SDK",
+  "name": "@worldcoin/idkit-standalone",
+  "description": "Browser-global World ID integration exposing IDKit.init/update/open/close and IDKitSession APIs for embedding verification in HTML applications without authoring a React host.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "packages/standalone/package.json",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.614710+00:00",
+    "blob_sha": "c7690edba7692f7a91fa46293821c8780e2b75de",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/standalone/package.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:html-world-id-widget-embedding"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Browser DOM",
+      "Bundled React/React DOM",
+      "@worldcoin/idkit and @worldcoin/idkit-core",
+      "World ID service"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": "TypeScript",
+    "license": "MIT",
+    "runtime_tested": false,
+    "deployment_warning": "Treat connector URIs and proof results as sensitive. Backend verification, action/signal binding and replay/nullifier policy belong to the integrating application."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
+}

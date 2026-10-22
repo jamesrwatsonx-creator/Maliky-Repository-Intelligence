@@ -39,13 +39,8 @@ def main():
         print(json.dumps([{'repository':x['full_name'],'state':x['state'],'next_phase':x.get('next_phase')} for x in targets],indent=2)); return
     output=[]
     for repo in targets:
-        if args.pinned and repo.get('inspected_commit'):
-            if args.snapshot:
-                tree=r.get_tree(repo,repo['inspected_commit'])
-                r.cache_snapshot(repo,repo['inspected_commit'],[e for e in tree['tree'] if e['type']=='blob' and e.get('mode')!='120000'])
-            result=r.ingest(repo['full_name'],offline=True)
-        else:
-            result=r.ingest(repo['full_name'],snapshot=args.snapshot)
+        result=r.ingest(repo['full_name'],snapshot=args.snapshot,
+                        pinned=bool(args.pinned and repo.get('inspected_commit')))
         current=next(x for x in r.records('repositories') if x['id']==repo['id'])
         temporary_handoff=current.get('next_phase') in ('SEMANTIC_CENSUS_REVIEW','ENTITY_EXTRACTION','CAPABILITY_ANALYSIS')
         if not result.get('error') and not current.get('unread_source_files',0) and temporary_handoff:

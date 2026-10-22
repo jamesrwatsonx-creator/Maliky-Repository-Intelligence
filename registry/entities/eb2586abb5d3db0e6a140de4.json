@@ -1,0 +1,56 @@
+{
+  "id": "entity:eb2586abb5d3db0e6a140de4",
+  "entity_type": "MODEL",
+  "name": "IRIS eye semantic segmentation model reference",
+  "description": "Model-card reference describing an infrared-eye segmentation network based on UNet++ with a MobileNetV2 encoder and scSE blocks, predicting eyeball, iris, pupil and eyelashes classes. Model weights are acquired separately by the inference adapters.",
+  "source": {
+    "repository_id": "repository:1428170367",
+    "repository_name": "jamesrwatsonx-creator/world-open-iris",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-open-iris",
+    "upstream_url": "https://github.com/worldcoin/open-iris",
+    "source_path": "SEMSEG_MODEL_CARD.md",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "inspection_date": "2026-10-22T00:00:51.132541+00:00",
+    "blob_sha": "7c7b838fb00b89459f113d222e4313b9b5f24186",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/SEMSEG_MODEL_CARD.md#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:infrared-eye-semantic-segmentation-model-reference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Separately obtained Worldcoin/iris-semantic-segmentation model artifact",
+      "Compatible ONNX Runtime or TensorRT adapter"
+    ],
+    "overlap": "A separately callable IRIS algorithm or subsystem. Compose through the package's IRImage/GeometryPolygons/IrisTemplate contracts; types, callbacks and mathematical helpers are shared dependencies. This is biometric processing, not a complete authorized identity service.",
+    "language": null,
+    "license": "MIT",
+    "artifact_scope": "Pinned model documentation only; external model weights/revision/license were not independently verified or downloaded.",
+    "weights_repository": "Worldcoin/iris-semantic-segmentation",
+    "deployment_warning": "Verify the separately acquired weight artifact, revision, terms and performance for the intended input population before deployment."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

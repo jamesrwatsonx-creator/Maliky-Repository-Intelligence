@@ -1,6 +1,6 @@
 # Deployment — page 2
 
-375 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+376 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -76,6 +76,8 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/devops/hermes-s6-container-supervision/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/devops/hermes-s6-container-supervision/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [houdini](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dc5fff7a20d5b60b2b389ee.json) — Houdini Engine skill for procedural assets and HDA deployment.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/houdini/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/houdini/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [IDKitWidget](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7f416f0373e8f9184bf8ddd9.json) — Localized React verification interface composing QR/World App connection, host-app verification, success and error stages in an animated modal or inline container with shadow-root style isolation.<br>
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · [packages/react/src/components/IDKitWidget/BaseWidget.tsx](https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/react/src/components/IDKitWidget/BaseWidget.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · SDKs/client libraries, IAM, Privacy
 - [Install & Update E2E](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2b2b5be5e202d3db4e4238a1.json) — End-to-end install and update test workflow.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [.github/workflows/install-e2e.yml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/.github/workflows/install-e2e.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [Installer tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0de3b47ca71a7410fe718c99.json) — Installer test workflow.<br>
@@ -168,8 +170,6 @@
   Source: [jamesrwatsonx-creator/Voice-mode-3](https://github.com/jamesrwatsonx-creator/Voice-mode-3) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · APIs, DevOps, Generative AI
 - [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344220119.json) — The batteries-included full-stack framework for the AI era. Develop JS/TS web apps (React, Node.js, and Prisma) using declarative code that abstracts away complex full-stack features like auth, background jobs, RPC,…<br>
   Source: [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/wasp) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools, Frontend applications
-- [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428170367.json) — Open Iris Recognition Inference System (IRIS)<br>
-  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
 - [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1335507455.json) — Download market data from Yahoo! Finance's API<br>
   Source: [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/yfinance) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [JS Tests](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A04d400c1a82cc595b4568004.json) — JavaScript test workflow.<br>

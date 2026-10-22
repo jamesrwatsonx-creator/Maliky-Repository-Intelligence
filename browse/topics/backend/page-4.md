@@ -1,9 +1,13 @@
 # Backend — page 4
 
-765 catalog entries · Sorted alphabetically by name · Page 4 of 6.
+769 catalog entries · Sorted alphabetically by name · Page 4 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396769359.json) — Documentation and Samples for the Official HN API<br>
+  Source: [jamesrwatsonx-creator/API](https://github.com/jamesrwatsonx-creator/API) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
+- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
 - [jamesrwatsonx-creator/atproto](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389402397.json) — The AT Protocol (🦋 Bluesky) SDK for Python 🐍<br>
   Source: [jamesrwatsonx-creator/atproto](https://github.com/jamesrwatsonx-creator/atproto) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254783144.json) — Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration<br>
@@ -38,6 +42,8 @@
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI applications, APIs
 - [jamesrwatsonx-creator/waybackpy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389396948.json) — Wayback Machine API interface & a command-line tool<br>
   Source: [jamesrwatsonx-creator/waybackpy](https://github.com/jamesrwatsonx-creator/waybackpy) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
+- [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428166841.json) — Javascript toolkit to interact with the World ID protocol. Building the Identity SDK.<br>
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, IAM, Privacy
 - [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389400368.json) — Yelp Fusion API<br>
   Source: [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/yelp-fusion) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jarvis-mission-control-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa336af5797f189a2436ec025.json) — Backend server for JARVIS Mission Control - handles data persistence, real-time updates, and OpenClaw agent integration<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L411) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [select_toolset_provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afeff12f8bbdc9546b51f5b63.json) — PUT /api/tools/toolsets/{name}/provider - Persist a provider selection for a toolset (no key prompting).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/tools.py#L462) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [serial_generation_queue](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05f2a90fe7df047b1509d509.json) — Serial asyncio generation queue; init_queue creates its worker, enqueue_generation adds jobs, and cancel_generation handles queued and running tasks. Requires startup initialization and database-backed failure reporting.<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/services/task_queue.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/services/task_queue.py#L24) · SERVICE · NEEDS_REVIEW · PINNED_SOURCE · Backend services, Message/event systems
-- [serve_plugin_asset](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0a699ff030332080dbf9e733.json) — GET /dashboard-plugins/{plugin_name}/{file_path:path} - Serve static assets from a dashboard plugin directory.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L18508) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [session_badges](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A84ddb184abd6a2ce04b19eb8.json) — GET /sessions/{session_id}/badges - handler session_badges<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/hermes-achievements/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/hermes-achievements/dashboard/plugin_api.py#L1054) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

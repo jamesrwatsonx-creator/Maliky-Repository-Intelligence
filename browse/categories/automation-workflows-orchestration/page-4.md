@@ -1,9 +1,11 @@
 # Automation / Workflows / Orchestration — page 4
 
-2,299 catalog entries · Sorted alphabetically by name · Page 4 of 16.
+2,308 catalog entries · Sorted alphabetically by name · Page 4 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [domains/science/industrial-engineering/fmea](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A44636390828e03b344957026.json) — Failure Mode and Effects Analysis - Conduct systematic FMEA to identify potential failure modes, assess risks, and prioritize actions to prevent failures before they occur.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/fmea.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/fmea.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/industrial-engineering/inventory-optimization](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A122f08a65f95d40ebc085bf4.json) — Inventory Optimization Analysis - Analyze and optimize inventory policies including safety stock, reorder points, and order quantities to balance service levels with inventory investment.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/inventory-optimization.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/inventory-optimization.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/industrial-engineering/kaizen-event](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3e587216b71beceab7fdbebb.json) — Kaizen Event Facilitation - Plan, facilitate, and follow up on rapid improvement events that achieve measurable results within a focused timeframe (typically 3-5 days).<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/video_gen/fal/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/video_gen/fal/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [fal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4d93ad032e8aa9f26dd46bf0.json) — FAL.ai image generation backend (flux-2-klein, flux-2-pro, nano-banana-2, nano-banana-pro, gpt-image-1.5, recraft-v3, etc.).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/image_gen/fal/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/image_gen/fal/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [Fermi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79be53434c5d86d0ac017d5d.json) — Rough quantitative estimates via decomposition<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/fermi-order-magnitude-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/fermi-order-magnitude-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # Finance, Blockchain & Crypto — page 2
 
-289 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+290 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247317639.json) — TradingAgents: Multi-Agents LLM Financial Trading Framework<br>
+  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, AI memory
 - [jamesrwatsonx-creator/vectorbt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366366120.json) — The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.<br>
   Source: [jamesrwatsonx-creator/vectorbt](https://github.com/jamesrwatsonx-creator/vectorbt) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/Vibe-Trading](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358719664.json) — "Vibe-Trading: Your Personal Trading Agent"<br>

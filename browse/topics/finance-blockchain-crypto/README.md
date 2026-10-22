@@ -2,12 +2,14 @@
 
 Finance, trading, blockchain, crypto and wallet capabilities.
 
-**289 entries** · Alphabetical · 2 pages.
+**290 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
 - [3-statement-model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A18b831adcf41ad3ee91c9874.json) — Build integrated IS/BS/CF financial workbooks in Excel.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/finance/3-statement-model/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/finance/3-statement-model/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [@worldcoin/idkit-react-native](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adc72190641bf5c531c1e5c52.json) — React Native World ID session SDK exposing independent Session instances for connection URI generation, status polling and cleanup, with native crypto integration.<br>
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · [packages/react-native/package.json](https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/react-native/package.json#L1) · SDK · VERIFIED · PINNED_SOURCE · SDKs/client libraries, IAM, Privacy
 - [account-reconciliation-automator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3bcbc7a83942427a4a02d7f9.json) — Automated account reconciliation skill with matching algorithms and exception handling<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/account-reconciliation-automator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/account-reconciliation-automator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A029bd5d426fa5f7b3d1fe47d.json) — Core uAgents Agent: typed message handlers and intervals, protocols, key-value storage, identity and ledger wallet, Almanac registration, Agentverse mailbox and an HTTP endpoint. Defaults to mainnet.<br>
@@ -304,8 +306,6 @@ Finance, trading, blockchain, crypto and wallet capabilities.
   Source: [jamesrwatsonx-creator/smart-wallet](https://github.com/jamesrwatsonx-creator/smart-wallet) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · Commerce/e-commerce, Developer tools
 - [jamesrwatsonx-creator/trading-studio-FinceptTerminal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358720521.json) — FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly…<br>
   Source: [jamesrwatsonx-creator/trading-studio-FinceptTerminal](https://github.com/jamesrwatsonx-creator/trading-studio-FinceptTerminal) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Research projects
-- [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247317639.json) — TradingAgents: Multi-Agents LLM Financial Trading Framework<br>
-  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, AI agents, AI memory
 
 ## Pages
 

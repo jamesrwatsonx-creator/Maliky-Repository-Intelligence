@@ -1,0 +1,57 @@
+{
+  "id": "entity:dcf21d448b7d8e8e9f79654b",
+  "entity_type": "REFERENCE_IMPLEMENTATION",
+  "name": "World ID Expo integration example",
+  "description": "Expo/React Native integration reference showing independent Session creation, World App deep links with return-to navigation, polling and status display/reset.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "examples/with-expo/components/IDKitDemo.tsx",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.614710+00:00",
+    "blob_sha": "f7b68bf6e3690952a31d9555d8a000d025b6ab10",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-expo/components/IDKitDemo.tsx#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:expo-world-id-integration-reference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Expo",
+      "expo-linking",
+      "@worldcoin/idkit-react-native",
+      "Configured application/action"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": "TypeScript",
+    "license": "MIT",
+    "runtime_tested": false,
+    "deployment_warning": "Treat connector URIs and proof results as sensitive. Backend verification, action/signal binding and replay/nullifier policy belong to the integrating application."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

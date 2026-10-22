@@ -1,9 +1,13 @@
 # AI Agents — page 20
 
-2,934 catalog entries · Sorted alphabetically by name · Page 20 of 20.
+2,936 catalog entries · Sorted alphabetically by name · Page 20 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [vite-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5dca92268ca06d819116d11e.json) — Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or…<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/vite-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/vite-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [voice-ai-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A574b72f2c0339fbccc9d3722.json) — Integrates ASR/TTS for voice-enabled agents<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [Voltagent-Inspired-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1eaf1b6906d0d64bdb0a15bb.json) — An inspired interpretation of Voltagent's design language — a developer-focused AI agent engineering platform whose surface is an unrelenting near-black canvas broken only by a single electric-green brand accent,…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/voltagent/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/voltagent/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [vps-server-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8fcc6c306cb209485134de2b.json) — Use when David wants to manage his VPS servers and the AI agents running inside them — connecting, deploying, monitoring, restarting, and operating remote hosts and their agents. Triggers on VPS, server management,…<br>

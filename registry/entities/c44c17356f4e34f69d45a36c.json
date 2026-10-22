@@ -1,0 +1,57 @@
+{
+  "id": "entity:c44c17356f4e34f69d45a36c",
+  "entity_type": "LIBRARY",
+  "name": "EyeCentersInsideImageValidator",
+  "description": "Checks pupil and iris centers against a configurable minimum distance from image boundaries.",
+  "source": {
+    "repository_id": "repository:1428170367",
+    "repository_name": "jamesrwatsonx-creator/world-open-iris",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-open-iris",
+    "upstream_url": "https://github.com/worldcoin/open-iris",
+    "source_path": "src/iris/nodes/validators/cross_object_validators.py",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "inspection_date": "2026-10-22T00:00:51.135062+00:00",
+    "blob_sha": "557ebab0509a76c8a95320ab95155884f974dbf0",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/nodes/validators/cross_object_validators.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:eye-center-image-boundary-validation"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "open-iris Python package",
+      "NumPy",
+      "OpenCV",
+      "Pydantic IRIS algorithm parameters and data models"
+    ],
+    "overlap": "A separately callable IRIS algorithm or subsystem. Compose through the package's IRImage/GeometryPolygons/IrisTemplate contracts; types, callbacks and mathematical helpers are shared dependencies. This is biometric processing, not a complete authorized identity service.",
+    "language": "Python",
+    "license": "MIT for repository software",
+    "runtime_tested": false,
+    "data_sensitivity": "Biometric images, iris templates and derived measurements; protect inputs, traces and outputs."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
+}

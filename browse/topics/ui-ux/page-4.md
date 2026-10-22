@@ -1,13 +1,9 @@
 # UI/UX — page 4
 
-1,056 catalog entries · Sorted alphabetically by name · Page 4 of 8.
+1,053 catalog entries · Sorted alphabetically by name · Page 4 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [imdb/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A192a60c4ecb9958e44711d32.json) — Domain skill: IMDb — Charts, Search, and "More Like This" Scraping. IMDb's app shell is React with a shared design system (ipc- classes). The same li.ipc-metadata-list-summary-item row primitive is reused across Top…<br>
-  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/imdb/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/imdb/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
-- [ImplementorGroup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dbe875913759ce200c3d8ec.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [cli/src/components/blocks/implementor-row.tsx](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/cli/src/components/blocks/implementor-row.tsx#L44) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [INLINE_AD_CARD_HEIGHT](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A93871ea556b6c332f5d47a11.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [cli/src/components/ad-banner.tsx](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/cli/src/components/ad-banner.tsx#L46) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [InputCursor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A124827390595c151b969a1f6.json) — Exported JSX component candidate<br>
@@ -108,6 +104,8 @@
   Source: [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/whiteboard) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
   Source: [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/widgets---web3-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428170367.json) — Open Iris Recognition Inference System (IRIS)<br>
+  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Machine-learning models, Privacy
 - [JsonDocumentEditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5ef95f5add83922005cb6a2c.json) — Hermes desktop app React component Json Document Editor (json-document-editor.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/chat/json-document-editor.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/chat/json-document-editor.tsx#L33) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [JsonTree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa697afe0cc4b18f017bdd0b4.json) — Observer dashboard React component JsonTree (index.tsx).<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/nintendo-2001/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/nintendo-2001/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [NodeContextMenu](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0dbe12d3e8f5f553e28f9b9c.json) — Hermes desktop app React component Node Context Menu (node-context-menu.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/starmap/node-context-menu.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/starmap/node-context-menu.tsx#L35) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [NotificationBell](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab8e19e2b1703536004fe6b2a.json) — Exported JSX component candidate<br>
+  Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/notifications/NotificationBell.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/notifications/NotificationBell.tsx#L8) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 
 ## Pages
 

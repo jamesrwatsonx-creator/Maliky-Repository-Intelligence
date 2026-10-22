@@ -1,0 +1,56 @@
+{
+  "id": "entity:8971b694b4145460522c070e",
+  "entity_type": "REFERENCE_IMPLEMENTATION",
+  "name": "World ID headless QR session example",
+  "description": "Next.js headless-session reference presenting a QR code and connection/confirmation/error states from useSession, with proof display and clipboard export.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "examples/with-session/src/app/page.tsx",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.615327+00:00",
+    "blob_sha": "7d4eb61b11fcc85b8867f4c9709653a5b994938c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-session/src/app/page.tsx#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:world-id-headless-qr-integration-reference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Next.js",
+      "React",
+      "@worldcoin/idkit",
+      "qrcode.react"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": null,
+    "license": "MIT",
+    "deployment_warning": "Demo logs the connector URI and shows/copies proof results; remove that exposure and add trusted backend verification before production."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

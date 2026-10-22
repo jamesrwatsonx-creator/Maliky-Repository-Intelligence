@@ -2,7 +2,7 @@
 
 Individually searchable ui components from the public owned catalog.
 
-**822 entries** · Alphabetical · 6 pages.
+**818 entries** · Alphabetical · 6 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

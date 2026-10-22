@@ -1,6 +1,6 @@
 # Prompts & Workflows — page 2
 
-3,201 catalog entries · Sorted alphabetically by name · Page 2 of 22.
+3,219 catalog entries · Sorted alphabetically by name · Page 2 of 22.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -22,6 +22,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/mechanical-engineering/additive-manufacturing.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/mechanical-engineering/additive-manufacturing.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Adversarial](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A360f2c39af3d24c165a6b627.json) — Systematically attack arguments, plans, or models from an adversarial stance to find weaknesses before deployment<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/adversarial-red-team-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/adversarial-red-team-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [Advisor execution and reconciliation protocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A91eb1cb022584561d6ac607a.json) — Instruction workflow dispatching a separate executor into an isolated worktree, independently checking its results and scope, issuing approve/revise/block verdicts, and reconciling plan status and optional authorized…<br>
+  Source: [jamesrwatsonx-creator/improve](https://github.com/jamesrwatsonx-creator/improve) · [skills/improve/references/closing-the-loop.md](https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/closing-the-loop.md#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Skills, Developer tools, AI evaluation
 - [agent-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A211d48cca2092bbf06523025.json) — Design agent roles, expertise areas, prompt templates, and interaction patterns for Claude Code agents.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/meta/agents/agent-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/meta/agents/agent-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [agent-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9e18b4ae906b0ec1ddc5089a.json) — Generate AGENT.md files with proper YAML frontmatter, role definitions, expertise areas, and prompt templates following Babysitter SDK conventions.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/gemma.cpp](https://github.com/jamesrwatsonx-creator/gemma.cpp) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/gemma.cpp/blob/3ed403e28707c0e3eb5f48b0e487b63a446d8e2e/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acb1c430ed8d8ea12846f82c0.json) — Source-declared workflow `build`.<br>
   Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/pgvector/blob/e48241b4dcc045b18902914f668d03d1d399dfbe/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
-- [Build](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adf9d8658cd4894d582879f10.json) — Description not available in current evidence.<br>
-  Source: [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Android-motion-haze) · [.github/workflows/build.yml](https://github.com/jamesrwatsonx-creator/Android-motion-haze/blob/d0e7c97fac6623b194a2ec61d8c23526865ca175/.github/workflows/build.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW
 
 ## Pages
 

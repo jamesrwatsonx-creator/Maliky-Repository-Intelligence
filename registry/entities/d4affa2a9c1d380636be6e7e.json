@@ -1,0 +1,58 @@
+{
+  "id": "entity:d4affa2a9c1d380636be6e7e",
+  "entity_type": "SDK",
+  "name": "@worldcoin/idkit-core",
+  "description": "World ID client core providing independent bridge-store factories, encrypted request creation, QR/deep-link connector URIs, result polling and verification-state/types shared by web and native SDKs.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "packages/core/package.json",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.614133+00:00",
+    "blob_sha": "8800375235ca90aa23f98b60f5c4f9a53cc23d8f",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/package.json#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:world-id-verification-session-transport"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "World ID bridge service",
+      "Zustand",
+      "ox",
+      "buffer",
+      "Web Crypto or React Native crypto adapter"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": "TypeScript",
+    "license": "MIT",
+    "runtime_tested": false,
+    "deployment_warning": "Treat connector URIs and proof results as sensitive. Backend verification, action/signal binding and replay/nullifier policy belong to the integrating application."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
+}

@@ -1,7 +1,8 @@
-import copy,hashlib,importlib.util,json,pathlib,sys,tempfile,unittest
+import base64,copy,hashlib,importlib.util,json,pathlib,sys,tempfile,unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
 import registry as m
 import review_extracted_batch as promotion
+import build_codex_resume as resume
 from unittest import mock
 
 class DetectionTests(unittest.TestCase):
@@ -19,6 +20,9 @@ class DetectionTests(unittest.TestCase):
     def test_readme_named_binary_asset_is_excluded(self):
         self.assertEqual(m.priority({'path':'.github/assets/readme-hero-dark.webp'}),6)
         self.assertEqual(m.priority({'path':'docs/README.fr.md'}),2)
+    def test_web_and_mobile_source_is_not_excluded_as_binary(self):
+        for path in ['lib/main.dart','index.html','src/tokens.css','theme.scss','scripts/setup.ps1','analysis.R']:
+            self.assertLess(m.priority({'path':path}),6,path)
     def test_multiline_skill_description(self):
         found=m.detect('SKILL.md','---\nname: editor\ndescription: |\n  Rewrite text.\n  Keep facts intact.\nlicense: MIT\n---\n')[0]
         self.assertEqual(found['description'],'Rewrite text. Keep facts intact.')
@@ -44,6 +48,22 @@ class DetectionTests(unittest.TestCase):
         self.assertFalse(m.public_repo({'private':False,'owner':{'login':'unrelated'}}))
         self.assertFalse(m.public_repo({'private':True,'owner':{'login':m.OWNER}}))
         self.assertTrue(m.public_repo({'private':False,'owner':{'login':m.OWNER}}))
+    def test_metadata_refresh_preserves_reviewed_description_and_upstream(self):
+        meta={'id':1,'name':'test','full_name':m.OWNER+'/test','html_url':'https://github.com/'+m.OWNER+'/test',
+              'fork':True,'default_branch':'main','archived':False,'pushed_at':'2026-10-22','description':'GitHub summary','language':'Python'}
+        repo=m.blank_repo(meta); repo['description']='Reviewed functional summary'
+        repo['semantic_review_progress']={'status':'COMPLETE'}
+        repo['metadata']['review_note']='Keep this'; repo['upstream_url']='https://github.com/upstream/test'
+        m.merge_public_metadata(repo,meta)
+        self.assertEqual(repo['description'],'Reviewed functional summary')
+        self.assertEqual(repo['metadata']['github_description'],'GitHub summary')
+        self.assertEqual(repo['metadata']['review_note'],'Keep this')
+        self.assertEqual(repo['upstream_url'],'https://github.com/upstream/test')
+        self.assertEqual(repo['metadata']['pushed_at'],'2026-10-22')
+    def test_resume_counts_pending_license_review_but_not_finished_risk_review(self):
+        pending={'full_name':'owner/pending','state':'NEEDS_REVIEW','next_phase':'LICENSE_REVIEW'}
+        complete={'full_name':'owner/done','state':'COMPLETE','deep_review':{'triggers':['authentication'],'completed':True}}
+        self.assertEqual(resume.explicit_deep_review_items([pending,complete],[]),['owner/pending'])
 
 class RegistryIntegrityTests(unittest.TestCase):
     def setUp(self):
@@ -140,6 +160,18 @@ class RegistryIntegrityTests(unittest.TestCase):
         first=m.ingest(r['full_name'],offline=True); second=m.ingest(r['full_name'],offline=True)
         self.assertEqual(first['files_read'],1); self.assertEqual(second['files_read'],1); self.assertEqual(len(m.records('entities')),1)
         self.assertTrue(m.validate()['valid'])
+    def test_pinned_resume_fetches_missing_blob_without_moving_to_live_head(self):
+        repo=self.repo(); commit='a'*40
+        repo['inspected_commit']=commit; repo['current_commit']='c'*40; m.write(m.repo_file(repo),repo)
+        text=b'---\nname: resumed\ndescription: Restore source coverage.\n---\n'; blob=m.git_blob(text)
+        m.write(m.cache_path(repo,commit)/'tree.json',{'tree':[{'path':'SKILL.md','type':'blob','sha':blob}],'truncated':False})
+        with mock.patch.object(m,'gh',return_value={'encoding':'base64','content':base64.b64encode(text).decode()}) as github:
+            result=m.ingest(repo['full_name'],pinned=True)
+        github.assert_called_once_with('repos/'+repo['full_name']+'/git/blobs/'+blob)
+        self.assertEqual(result['unread'],0)
+        updated=m.read(m.repo_file(repo))
+        self.assertEqual(updated['inspected_commit'],commit)
+        self.assertEqual(updated['current_commit'],'c'*40)
     def test_complete_repository_with_unread_source_resumes_coverage(self):
         repo=self.repo(); commit='a'*40; text=b'---\nname: resumed\ndescription: Resumed skill\n---\n'; blob=m.git_blob(text)
         repo['inspected_commit']=commit; repo['state']='COMPLETE'; repo['phases'].update({'structure':True,'entity_extraction':True,'capability_analysis':True,'validation':True})
@@ -223,5 +255,29 @@ class RegistryIntegrityTests(unittest.TestCase):
         item.pop('capabilities'); item['capability']='Prose editing'
         promotion.apply_review_plan(plan)
         self.assertEqual(m.records('entities')[0]['capabilities'],['capability:prose-editing'])
+
+    def test_relationship_names_require_type_when_ambiguous(self):
+        repo,plan,_=self.review_fixture(); plugin_path='.claude-plugin/plugin.json'
+        data=b'{"name":"editing","description":"Editing skill packaging"}'
+        blob=m.git_blob(data); cp=m.cache_path(repo,plan['commit'])
+        tree=m.read(cp/'tree.json'); tree['tree'].append({'path':plugin_path,'type':'blob','sha':blob})
+        m.write(cp/'tree.json',tree); (m.ROOT/cp/'blobs'/blob).write_bytes(data)
+        m.ingest(repo['full_name'],offline=True)
+        plan['entities'].append({**plan['entities'][0],'type':'PLUGIN','path':plugin_path})
+        edge={'type':'CONTAINS_SKILL','from_name':'editing','to_name':'editing','path':plugin_path}
+        plan['relationships']=[edge]
+        with self.assertRaisesRegex(ValueError,'Ambiguous or missing relationship endpoint'):
+            promotion.apply_review_plan(plan)
+        edge.update({'from_type':'PLUGIN','to_type':'SKILL'})
+        promotion.apply_review_plan(plan)
+        relation=m.records('relationships')[0]
+        self.assertNotEqual(relation['from'],relation['to'])
+
+    def test_review_checks_current_source_classifier_against_tree(self):
+        repo,plan,_=self.review_fixture(); cp=m.cache_path(repo,plan['commit'])
+        tree=m.read(cp/'tree.json'); tree['tree'].append({'path':'index.html','type':'blob','sha':'d'*40})
+        m.write(cp/'tree.json',tree)
+        with self.assertRaisesRegex(ValueError,'further pinned extraction'):
+            promotion.apply_review_plan(plan)
 
 if __name__=='__main__': unittest.main()

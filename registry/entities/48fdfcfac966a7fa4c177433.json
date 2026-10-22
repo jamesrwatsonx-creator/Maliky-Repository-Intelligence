@@ -1,0 +1,55 @@
+{
+  "id": "entity:48fdfcfac966a7fa4c177433",
+  "entity_type": "PROMPT_LIBRARY",
+  "name": "Codebase audit playbook",
+  "description": "Evidence-oriented audit prompts covering correctness, security, performance, tests, architecture debt, dependencies, developer experience, documentation and product direction, with explicit handling of secrets and source instructions.",
+  "source": {
+    "repository_id": "repository:1342998426",
+    "repository_name": "jamesrwatsonx-creator/improve",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/improve",
+    "upstream_url": "https://github.com/shadcn/improve",
+    "source_path": "skills/improve/references/audit-playbook.md",
+    "inspected_commit": "03369ee6d7cafbfcecc4346539b05b3dc0a603bb",
+    "inspection_date": "2026-10-22T00:21:41.338976+00:00",
+    "blob_sha": "6c2278cc8853522c2bce3c3af20630320b492d1b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/audit-playbook.md#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:developer-tools",
+    "category:ai-evaluation"
+  ],
+  "operational_category": "operational:24",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:structured-codebase-audit-guidance"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Coding-agent host with read access to a target repository",
+      "Appropriate isolated execution tools for optional follow-through"
+    ],
+    "overlap": "Prompt-guided advisor and handoff assets, complementing implementation agents and repository audit tooling. The host must enforce read/write boundaries and protect credentials.",
+    "language": null,
+    "license": "MIT",
+    "instruction_asset": true,
+    "runtime_tested": false
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

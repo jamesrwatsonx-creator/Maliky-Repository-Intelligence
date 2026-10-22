@@ -17,288 +17,718 @@
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-19T13:52:36Z",
-    "live_metadata": "FRESH"
+    "live_metadata": "FRESH",
+    "github_description": "Open Iris Recognition Inference System (IRIS)"
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
   "current_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
   "inspection_date": "2026-10-21T23:17:22.795094+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:world-open-iris-workflow-build-and-deploy-docs",
-    "capability:world-open-iris-workflow-check-release-version",
-    "capability:world-open-iris-workflow-ci-testing",
-    "capability:world-open-iris-workflow-pypi-publish-wheels",
-    "capability:world-open-iris-workflow-relyance-sci-scan"
+    "capability:adaptive-iris-geometry-extrapolation",
+    "capability:binary-iris-template-encoding",
+    "capability:bisector-based-pupil-and-iris-center-estimation",
+    "capability:command-line-iris-image-inference",
+    "capability:configurable-vision-pipeline-orchestration",
+    "capability:eye-center-image-boundary-validation",
+    "capability:eye-contour-image-boundary-validation",
+    "capability:eye-contour-length-validation",
+    "capability:eye-contour-point-interpolation",
+    "capability:eye-orientation-estimation",
+    "capability:eye-segmentation-contour-vectorization",
+    "capability:eye-segmentation-mask-binarization",
+    "capability:fragile-iris-feature-masking",
+    "capability:gabor-iris-texture-filtering",
+    "capability:infrared-eye-reflection-masking",
+    "capability:infrared-eye-semantic-segmentation-model-reference",
+    "capability:iris-bounding-box-estimation",
+    "capability:iris-convolution-filter-responses",
+    "capability:iris-noise-mask-aggregation",
+    "capability:iris-off-gaze-estimation",
+    "capability:iris-off-gaze-quality-validation",
+    "capability:iris-pipeline-visual-diagnostics",
+    "capability:iris-recognition-processing-library",
+    "capability:iris-sharpness-quality-validation",
+    "capability:iris-template-aggregation-compatibility-validation",
+    "capability:iris-template-aggregation-pipeline",
+    "capability:iris-template-identity-outlier-filtering",
+    "capability:iris-valid-bit-coverage-validation",
+    "capability:iris-visibility-quality-validation",
+    "capability:linear-iris-image-normalization",
+    "capability:log-gabor-iris-texture-filtering",
+    "capability:majority-vote-iris-template-aggregation",
+    "capability:masked-iris-template-hamming-matching",
+    "capability:multi-frame-iris-recognition-pipeline",
+    "capability:noisy-eye-contour-point-filtering",
+    "capability:nonlinear-iris-image-normalization",
+    "capability:normalized-iris-sharpness-estimation",
+    "capability:onnx-infrared-eye-segmentation-inference",
+    "capability:perspective-iris-image-normalization",
+    "capability:polar-eye-contour-smoothing",
+    "capability:polar-iris-contour-extrapolation",
+    "capability:pupil-containment-geometry-validation",
+    "capability:pupil-to-iris-geometry-measurement",
+    "capability:pupil-to-iris-ratio-quality-validation",
+    "capability:refined-ellipse-fitting-for-eye-geometry",
+    "capability:regular-iris-feature-sampling-grids",
+    "capability:robust-circle-fit-eye-center-estimation",
+    "capability:rotational-iris-template-alignment",
+    "capability:single-image-iris-template-extraction",
+    "capability:tensorrt-infrared-eye-segmentation-inference",
+    "capability:visible-iris-fraction-measurement",
+    "capability:vision-pipeline-intermediate-result-tracing",
+    "capability:weighted-iris-template-hamming-matching"
   ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE AS LIBRARY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "MCP_SERVER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "MCP_CLIENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "TOOL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "PLUGIN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "AGENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "AGENT_FRAMEWORK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "WORKFLOW": {
       "detected": 5,
-      "catalogued": 5,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "COMPONENT": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "UI_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "DESIGN_SYSTEM": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "PROMPT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "PROMPT_LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "SERVICE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "API": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "SDK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "LIBRARY": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 47,
+      "catalogued": 47,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "PACKAGE": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "MODEL": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "MODEL_ADAPTER": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 2,
+      "catalogued": 2,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "DATASET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "BENCHMARK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "DATABASE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "CONNECTOR": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "INTEGRATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "AUTOMATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "CLI": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 1,
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "APP": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "INFRASTRUCTURE_MODULE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "TEMPLATE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "REFERENCE_IMPLEMENTATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "DOCUMENTATION_ASSET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "OTHER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "WEBSITE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "WEBSITE_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "DESIGN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "SCREEN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     },
     "UI_PATTERN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library."
     }
   },
   "deep_review": {
-    "completed": false,
-    "reviewer": null,
-    "evidence": []
+    "completed": true,
+    "required": false,
+    "reviewer": "Source-reviewed cohort decision",
+    "conclusion": "Repository code is MIT, but that does not establish terms or integrity for separately downloaded model artifacts or referenced training datasets. The model entry is explicitly documentation-scoped; ONNX's download factory is not revision-pinned in source, and TensorRT deserializes a supplied engine, so deployment requires trusted pinned artifacts. YAML uses safe_load, but configured class names and callbacks are resolved through pydoc.locate and instantiated; accept only trusted configurations and installed code. Trace storage and debug output can retain raw inputs, iris templates and intermediate biometric data; isolate processing and control logging/storage/retention. Matching produces distance measurements rather than an authorization decision or proven population-wide uniqueness service. Sensitive surfaces are documented for catalog use; no biometric data was processed, external weights fetched or source code executed.",
+    "evidence": [
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/io/class_configs.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/pipelines/base_pipeline.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/callbacks/pipeline_trace.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/orchestration/output_builders.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/nodes/segmentation/onnx_multilabel_segmentation.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/nodes/segmentation/tensorrt_multilabel_segmentation.py#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/SEMSEG_MODEL_CARD.md#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/LICENSE#L1"
+      }
+    ],
+    "runtime_tested": false
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
-    "deep_review": false,
-    "validation": false
+    "entity_extraction": true,
+    "capability_analysis": true,
+    "deep_review": true,
+    "validation": true
   },
-  "visibility_verified_at": "2026-10-21T23:17:21.777936+00:00",
+  "visibility_verified_at": "2026-10-22T00:25:10.750415+00:00",
   "tree_files": 320,
-  "files_read": 203,
-  "entity_count": 5,
+  "files_read": 240,
+  "entity_count": 53,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
-  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
-    "status": "PENDING",
+    "started_at": "2026-10-22T00:00:58.109188+00:00",
+    "completed_at": "2026-10-22T00:00:58.109188+00:00",
+    "status": "COMPLETE",
     "review_policy": "LEAN",
-    "reason": "static_candidates_require_semantic_review",
-    "candidate_entity_count": 5,
-    "source_errors": []
+    "reviewer": "Source-reviewed cohort decision",
+    "final_entity_count": 53,
+    "removed_entity_ids": [
+      "entity:77f18ee28211b966aed2c676",
+      "entity:7846fdf5fe64c7f5fc36b487",
+      "entity:d9bc2638b2d42371051dce93",
+      "entity:dea8168ea8fe4e33093f8473",
+      "entity:e3af8b87e263a94c79b5897f"
+    ],
+    "confirmed_capabilities": [
+      "capability:adaptive-iris-geometry-extrapolation",
+      "capability:binary-iris-template-encoding",
+      "capability:bisector-based-pupil-and-iris-center-estimation",
+      "capability:command-line-iris-image-inference",
+      "capability:configurable-vision-pipeline-orchestration",
+      "capability:eye-center-image-boundary-validation",
+      "capability:eye-contour-image-boundary-validation",
+      "capability:eye-contour-length-validation",
+      "capability:eye-contour-point-interpolation",
+      "capability:eye-orientation-estimation",
+      "capability:eye-segmentation-contour-vectorization",
+      "capability:eye-segmentation-mask-binarization",
+      "capability:fragile-iris-feature-masking",
+      "capability:gabor-iris-texture-filtering",
+      "capability:infrared-eye-reflection-masking",
+      "capability:infrared-eye-semantic-segmentation-model-reference",
+      "capability:iris-bounding-box-estimation",
+      "capability:iris-convolution-filter-responses",
+      "capability:iris-noise-mask-aggregation",
+      "capability:iris-off-gaze-estimation",
+      "capability:iris-off-gaze-quality-validation",
+      "capability:iris-pipeline-visual-diagnostics",
+      "capability:iris-recognition-processing-library",
+      "capability:iris-sharpness-quality-validation",
+      "capability:iris-template-aggregation-compatibility-validation",
+      "capability:iris-template-aggregation-pipeline",
+      "capability:iris-template-identity-outlier-filtering",
+      "capability:iris-valid-bit-coverage-validation",
+      "capability:iris-visibility-quality-validation",
+      "capability:linear-iris-image-normalization",
+      "capability:log-gabor-iris-texture-filtering",
+      "capability:majority-vote-iris-template-aggregation",
+      "capability:masked-iris-template-hamming-matching",
+      "capability:multi-frame-iris-recognition-pipeline",
+      "capability:noisy-eye-contour-point-filtering",
+      "capability:nonlinear-iris-image-normalization",
+      "capability:normalized-iris-sharpness-estimation",
+      "capability:onnx-infrared-eye-segmentation-inference",
+      "capability:perspective-iris-image-normalization",
+      "capability:polar-eye-contour-smoothing",
+      "capability:polar-iris-contour-extrapolation",
+      "capability:pupil-containment-geometry-validation",
+      "capability:pupil-to-iris-geometry-measurement",
+      "capability:pupil-to-iris-ratio-quality-validation",
+      "capability:refined-ellipse-fitting-for-eye-geometry",
+      "capability:regular-iris-feature-sampling-grids",
+      "capability:robust-circle-fit-eye-center-estimation",
+      "capability:rotational-iris-template-alignment",
+      "capability:single-image-iris-template-extraction",
+      "capability:tensorrt-infrared-eye-segmentation-inference",
+      "capability:visible-iris-fraction-measurement",
+      "capability:vision-pipeline-intermediate-result-tracing",
+      "capability:weighted-iris-template-hamming-matching"
+    ],
+    "implementation_details_not_catalogued": [
+      "Abstract image/probe/matcher interfaces and Algorithm/nested Parameters/data/error plumbing",
+      "Enums, mathematical utilities and internal serialization helpers",
+      "Model training dataset citations are external references rather than bundled owned datasets",
+      "Tests and visual fixtures are evidence, not separate retained runtime assets",
+      "Routine repository CI, docs and release workflows"
+    ],
+    "coverage_note": "Full tree reviewed through public exports, Python class/run contracts, pipeline configuration and sensitive implementation surfaces. Retain the distribution, three concrete pipelines, reusable orchestration/trace/visualization, concrete image-processing/encoding/matching/aggregation algorithms and independently configurable quality gates. Two inference backends are alternatives. The model card is a model reference, not a claim that weights or training datasets are bundled or independently verified. Abstract interfaces, data/error classes, nested Parameters, enum values, arithmetic helpers, test fixtures and routine CI are implementation detail. The original five static detections were only workflows and missed the complete algorithm library.",
+    "source_review": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "22ad07ca574097a441831bf3db919d810483cbb0"
+      },
+      {
+        "path": "README.md",
+        "blob_sha": "fa331ec570b851da7fecef4a9d6b473992ca9188"
+      },
+      {
+        "path": "SEMSEG_MODEL_CARD.md",
+        "blob_sha": "7c7b838fb00b89459f113d222e4313b9b5f24186"
+      },
+      {
+        "path": "requirements/base.txt",
+        "blob_sha": "adf5221ddf2d5b88ab8a1eb403a65b9deb3f0984"
+      },
+      {
+        "path": "scripts/common/run_iris_pipeline.py",
+        "blob_sha": "8053d7c8ca84a5eeffb7699203afed8fb4d75d80"
+      },
+      {
+        "path": "setup.py",
+        "blob_sha": "cdd9e593dbb6d322cdc609675789f6770b0b2058"
+      },
+      {
+        "path": "src/iris/__init__.py",
+        "blob_sha": "1c4534766295ec0c86e6a3e3a265f0a0a100cc6a"
+      },
+      {
+        "path": "src/iris/callbacks/pipeline_trace.py",
+        "blob_sha": "5e88124246cd3cd65723fc86636a6515ea2aa2bd"
+      },
+      {
+        "path": "src/iris/io/class_configs.py",
+        "blob_sha": "d74293bb34c9fcd267c6d9c5007e6d2af042a146"
+      },
+      {
+        "path": "src/iris/nodes/aggregation/noise_mask_union.py",
+        "blob_sha": "d944eda75e869c49b8416cd4e1346568a6b817e9"
+      },
+      {
+        "path": "src/iris/nodes/binarization/multilabel_binarization.py",
+        "blob_sha": "7508c2f69c2bc97c941eac65d2e54ac7a595aa74"
+      },
+      {
+        "path": "src/iris/nodes/binarization/specular_reflection_detection.py",
+        "blob_sha": "9e4f235f7b24d5549dc22e997092fb99cbed95aa"
+      },
+      {
+        "path": "src/iris/nodes/encoder/iris_encoder.py",
+        "blob_sha": "271adba4813eb33ce0f2044c07dd9f5766f9ddbc"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/bisectors_method.py",
+        "blob_sha": "7662ebc81a77430730b91a625355eb2b884a476f"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/circle_fit_for_eye_center_method.py",
+        "blob_sha": "6c9cccf997b406b1e591aef8e769ccb68c937980"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/eccentricity_offgaze_estimation.py",
+        "blob_sha": "88ec3b9e889f67a53cc9f021a54950261e1612ad"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/iris_bbox_calculator.py",
+        "blob_sha": "576468395a4dc65734955fbae808445b53742332"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/moment_of_area.py",
+        "blob_sha": "7b64dc4fc300033e582789b1862848b88ffe03d4"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/occlusion_calculator.py",
+        "blob_sha": "f5109bcc3585c61096cfe48be4e5d23fd2e8707f"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/pupil_iris_property_calculator.py",
+        "blob_sha": "35d6053074d939c7278240d6cf507cd7f35fa156"
+      },
+      {
+        "path": "src/iris/nodes/eye_properties_estimation/sharpness_estimation.py",
+        "blob_sha": "0923c706ae23cd869817f1b849b87b15b17aa14a"
+      },
+      {
+        "path": "src/iris/nodes/geometry_estimation/fusion_extrapolation.py",
+        "blob_sha": "8e8e7988c72461d0f99cc537d35d48a03e8bcaac"
+      },
+      {
+        "path": "src/iris/nodes/geometry_estimation/linear_extrapolation.py",
+        "blob_sha": "3858fc75254ef627de272c1c0cf97a0c90e14d8e"
+      },
+      {
+        "path": "src/iris/nodes/geometry_estimation/lsq_ellipse_fit_with_refinement.py",
+        "blob_sha": "688ac96819c0fc091b4de02e68692062ce666863"
+      },
+      {
+        "path": "src/iris/nodes/geometry_refinement/contour_interpolation.py",
+        "blob_sha": "f0640e516e8d7f0edec8fce30ea6bbe97c669132"
+      },
+      {
+        "path": "src/iris/nodes/geometry_refinement/contour_points_filter.py",
+        "blob_sha": "e648ca13210ca8596d5c2034ee04209104985e16"
+      },
+      {
+        "path": "src/iris/nodes/geometry_refinement/smoothing.py",
+        "blob_sha": "f49982306c9d4f27539253a53c467150dba1a022"
+      },
+      {
+        "path": "src/iris/nodes/iris_response/conv_filter_bank.py",
+        "blob_sha": "916256b6f617565ed3130be99d99c123935eb11f"
+      },
+      {
+        "path": "src/iris/nodes/iris_response/image_filters/gabor_filters.py",
+        "blob_sha": "0afaacbc890f7ad8ff8e2b3b2fcfecdc305caa45"
+      },
+      {
+        "path": "src/iris/nodes/iris_response/probe_schemas/regular_probe_schema.py",
+        "blob_sha": "6712817f493bd753984c1e399cbcc6d598293ace"
+      },
+      {
+        "path": "src/iris/nodes/iris_response_refinement/fragile_bits_refinement.py",
+        "blob_sha": "780ee746aee5bf936f7b3baa2fd1f267e6028395"
+      },
+      {
+        "path": "src/iris/nodes/matcher/hamming_distance_matcher.py",
+        "blob_sha": "7fe95602a5f0c6a7503a7401018baf9868fcd31d"
+      },
+      {
+        "path": "src/iris/nodes/matcher/simple_hamming_distance_matcher.py",
+        "blob_sha": "712330ba5f91c05634a814f2abc2dcfa297de10d"
+      },
+      {
+        "path": "src/iris/nodes/normalization/linear_normalization.py",
+        "blob_sha": "749174c7834e0fef38ec2e3e67a4b013ad7d1fe8"
+      },
+      {
+        "path": "src/iris/nodes/normalization/nonlinear_normalization.py",
+        "blob_sha": "c5d150adde161781ba02b00879128b663468cce3"
+      },
+      {
+        "path": "src/iris/nodes/normalization/perspective_normalization.py",
+        "blob_sha": "f8165d9ee44dfbdaffd92e6f6e081ff71e18ba71"
+      },
+      {
+        "path": "src/iris/nodes/segmentation/multilabel_segmentation_interface.py",
+        "blob_sha": "2a16248e7f561cd7cbf3393ef8c36d1416a86e3e"
+      },
+      {
+        "path": "src/iris/nodes/segmentation/onnx_multilabel_segmentation.py",
+        "blob_sha": "6fe744493eedf24621450d2b3950682fd5b90fed"
+      },
+      {
+        "path": "src/iris/nodes/segmentation/tensorrt_multilabel_segmentation.py",
+        "blob_sha": "7ca4432cba1c5676afe446772b245747cb811b4c"
+      },
+      {
+        "path": "src/iris/nodes/templates_aggregation/majority_vote.py",
+        "blob_sha": "dbeef61d93d407ca48567a7ef61a6a008d02290d"
+      },
+      {
+        "path": "src/iris/nodes/templates_alignment/hamming_distance_based.py",
+        "blob_sha": "2c3cf460798b789087c9d111ed970b75a18b6e23"
+      },
+      {
+        "path": "src/iris/nodes/templates_filter/single_identity_filter.py",
+        "blob_sha": "5d10832862f66489a3f0f37a19244d93636baee5"
+      },
+      {
+        "path": "src/iris/nodes/validators/cross_object_validators.py",
+        "blob_sha": "557ebab0509a76c8a95320ab95155884f974dbf0"
+      },
+      {
+        "path": "src/iris/nodes/validators/object_validators.py",
+        "blob_sha": "854b619b4bd1dfdbbbf5b6d8377ac8716272a293"
+      },
+      {
+        "path": "src/iris/nodes/vectorization/contouring.py",
+        "blob_sha": "a45ce681d6c1d0488d88d02dd0b608e8c24ebbc6"
+      },
+      {
+        "path": "src/iris/orchestration/output_builders.py",
+        "blob_sha": "ad99e4d7cf6e23f8edda302dd0c4b2dc5484f04f"
+      },
+      {
+        "path": "src/iris/pipelines/base_pipeline.py",
+        "blob_sha": "4122caf187340b1656a1c9ef2f8bc4d26e053607"
+      },
+      {
+        "path": "src/iris/pipelines/confs/pipeline.yaml",
+        "blob_sha": "7e0329785ebc739d676ca6dc68ccc34ffaf52baf"
+      },
+      {
+        "path": "src/iris/pipelines/iris_pipeline.py",
+        "blob_sha": "2b33c475097907766cb93e009bc52333f80604bc"
+      },
+      {
+        "path": "src/iris/pipelines/multiframe_iris_pipeline.py",
+        "blob_sha": "702465d52b93d44d65439fe115ae1fc21b5c17e1"
+      },
+      {
+        "path": "src/iris/pipelines/templates_aggregation_pipeline.py",
+        "blob_sha": "5b2a7ceafa66523a22267d7314e0a29aedc8f0fa"
+      },
+      {
+        "path": "src/iris/utils/visualisation.py",
+        "blob_sha": "00792a6c899582839656a7af88cbe8166699d296"
+      }
+    ],
+    "excluded_candidates": [
+      {
+        "id": "entity:77f18ee28211b966aed2c676",
+        "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
+      },
+      {
+        "id": "entity:7846fdf5fe64c7f5fc36b487",
+        "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
+      },
+      {
+        "id": "entity:d9bc2638b2d42371051dce93",
+        "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
+      },
+      {
+        "id": "entity:dea8168ea8fe4e33093f8473",
+        "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
+      },
+      {
+        "id": "entity:e3af8b87e263a94c79b5897f",
+        "reason": "Repository testing, documentation publishing, version checks, compliance scan and wheel release are maintenance workflows rather than iris-processing assets."
+      }
+    ]
   }
 }

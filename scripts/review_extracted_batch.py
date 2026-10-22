@@ -168,6 +168,12 @@ def apply_review_plan(plan, dry_run=False):
     if tree.get('truncated', True):
         raise ValueError('Full pinned tree missing')
     entries = {e['path']: e for e in tree['tree'] if e['type'] == 'blob'}
+    local_evidence = r.read('.local/evidence-manifests/' + str(repo['github_id']) + '.json', evidence)
+    binary = set(local_evidence.get('detected_binary_paths', []))
+    missing = [path for path, entry in entries.items() if entry.get('mode') != '120000'
+               and r.priority(entry) < 6 and path not in binary and path not in review.verified]
+    if missing:
+        raise ValueError('Current source classifier requires further pinned extraction: ' + ', '.join(missing[:5]))
     existing = {e['id']: e for e in review.existing}
     vocabulary = r.read('registry/taxonomy/vocabulary.json')
     category_ids = {c['id'] for c in r.read('registry/taxonomy/categories.json')}
@@ -212,12 +218,18 @@ def apply_review_plan(plan, dry_run=False):
         if item.get('operational', plan['operational']) not in operational_ids:
             raise ValueError('Unknown operational category')
     paths = set(plan['source_review']) | {item['path'] for _, item in resolved}
-    named = {entity['name']: entity['id'] for entity, _ in resolved}
+    def endpoint(edge, side):
+        matches = [entity['id'] for entity, _ in resolved
+                   if entity['name'] == edge[side + '_name']
+                   and (side + '_type' not in edge or entity['entity_type'] == edge[side + '_type'])]
+        if len(matches) != 1:
+            raise ValueError('Ambiguous or missing relationship endpoint: ' + edge[side + '_name'])
+        return matches[0]
     edges = []
     for edge in plan.get('relationships', []):
         if edge['type'] not in vocabulary['relationship_types']:
             raise ValueError('Unknown relationship type')
-        edges.append({**edge, 'from': named[edge['from_name']], 'to': named[edge['to_name']]})
+        edges.append({**edge, 'from': endpoint(edge, 'from'), 'to': endpoint(edge, 'to')})
         paths.add(edge['path'])
     scoped = plan.get('scoped_review')
     if scoped:
@@ -263,6 +275,7 @@ def apply_review_plan(plan, dry_run=False):
                                          'evidence': [{'type': 'source_review', 'value': review.url(path)} for path in paths]}
     if plan.get('description'):
         repo['description'] = plan['description']
+        repo.setdefault('metadata', {})['description_source'] = 'pinned_semantic_review'
     result = review.finalize(plan['categories'], plan.get('studios', []), plan['recommendation'],
                              plan['operational'], {kind: plan['coverage_note'] for kind in repo['entity_census']},
                              details=plan.get('implementation_details', []), blocker=plan.get('blocker', ''))

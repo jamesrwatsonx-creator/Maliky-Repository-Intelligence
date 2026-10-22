@@ -1,0 +1,57 @@
+{
+  "id": "entity:ebb557dc22223ed14c3130e6",
+  "entity_type": "MODEL_ADAPTER",
+  "name": "TensorRTMultilabelSegmentation",
+  "description": "TensorRT eye-segmentation adapter deserializing a compatible engine, allocating host/device buffers and running CUDA inference with preprocessing and segmentation-map postprocessing.",
+  "source": {
+    "repository_id": "repository:1428170367",
+    "repository_name": "jamesrwatsonx-creator/world-open-iris",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-open-iris",
+    "upstream_url": "https://github.com/worldcoin/open-iris",
+    "source_path": "src/iris/nodes/segmentation/tensorrt_multilabel_segmentation.py",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "inspection_date": "2026-10-22T00:00:51.132541+00:00",
+    "blob_sha": "7ca4432cba1c5676afe446772b245747cb811b4c",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/nodes/segmentation/tensorrt_multilabel_segmentation.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:tensorrt-infrared-eye-segmentation-inference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Compatible NVIDIA GPU/CUDA runtime",
+      "TensorRT",
+      "PyCUDA",
+      "Trusted serialized TensorRT engine",
+      "NumPy/OpenCV and IRIS data contracts"
+    ],
+    "overlap": "A separately callable IRIS algorithm or subsystem. Compose through the package's IRImage/GeometryPolygons/IrisTemplate contracts; types, callbacks and mathematical helpers are shared dependencies. This is biometric processing, not a complete authorized identity service.",
+    "language": null,
+    "license": "MIT",
+    "deployment_warning": "Deserialize only trusted TensorRT engines in a compatible runtime; engine execution was not tested."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
+}

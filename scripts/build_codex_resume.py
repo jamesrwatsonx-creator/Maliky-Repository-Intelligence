@@ -38,7 +38,8 @@ def explicit_deep_review_items(repositories, entities):
         review = repo.get("deep_review") or {}
         triggers = review.get("triggers") or review.get("trigger") or []
         required = review.get("required") is True
-        if "DEEP" in phase or progress.get("review_policy") == "DEEP" or required or triggers:
+        risk_phase = phase in {"LICENSE_REVIEW", "SECURITY_REVIEW", "AUTHORIZATION_REVIEW", "FINANCIAL_REVIEW"}
+        if repo.get("state") != "COMPLETE" and (risk_phase or "DEEP" in phase or progress.get("review_policy") == "DEEP" or required or triggers):
             items.append(repo["full_name"])
     for entity in entities:
         metadata = entity.get("metadata") or {}
@@ -70,7 +71,11 @@ def main() -> int:
     by_id = {repo["id"]: repo for repo in repositories}
 
     complete = [repo for repo in repositories if repo.get("state") == "COMPLETE"]
-    last_complete = max(complete, key=lambda repo: repo.get("inspection_date") or "", default=None)
+    last_complete = max(complete, key=lambda repo: max(
+        repo.get("inspection_date") or "",
+        repo.get("semantic_review_progress", {}).get("completed_at") or "",
+        repo.get("semantic_review_progress", {}).get("bookkeeping_reconciled_at") or "",
+    ), default=None)
 
     refresh_ids = refresh.get("new_repository_ids", [])
     refresh_pending = [
@@ -133,12 +138,12 @@ def main() -> int:
         "",
         "## Live discovery summary",
         "",
-        f"- Accessible repositories: {counts.get('owned', 'unknown')}",
+        f"- Accessible repositories: {counts.get('accessible', 'unknown')}",
         f"- Public repositories: {counts.get('public_owned', 'unknown')}",
         f"- Private repositories: {counts.get('private_owned', 'unknown')}",
         f"- Discovery manifest public records: {len(manifest.get('repositories', []))}",
         f"- Repositories discovered in the latest refresh: {added}",
-        f"- Latest refresh repositories semantically complete: {refresh.get('semantic_intake_complete', 0)}",
+        f"- Latest refresh repositories semantically complete: {sum(repo_id in by_id and by_id[repo_id].get('state') == 'COMPLETE' for repo_id in refresh_ids)}",
         "",
         "## Resume pointer",
         "",

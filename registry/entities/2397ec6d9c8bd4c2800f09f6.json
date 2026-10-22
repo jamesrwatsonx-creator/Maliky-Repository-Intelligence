@@ -1,0 +1,55 @@
+{
+  "id": "entity:2397ec6d9c8bd4c2800f09f6",
+  "entity_type": "REFERENCE_IMPLEMENTATION",
+  "name": "World ID HTML embedding example",
+  "description": "HTML embedding reference configuring the standalone browser widget, rendering its container and opening it from a native button.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "examples/with-html/index.html",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.615327+00:00",
+    "blob_sha": "6016aa66b361ae5501aa82b698ca36b54eb3d069",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-html/index.html#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:html-world-id-embedding-reference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Browser module bundling",
+      "@worldcoin/idkit-standalone",
+      "Configured World ID application/action"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": null,
+    "license": "MIT",
+    "deployment_warning": "handleVerify is an empty placeholder; this example alone does not verify the returned proof."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

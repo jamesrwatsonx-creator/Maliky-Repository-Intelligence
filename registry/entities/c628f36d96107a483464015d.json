@@ -1,0 +1,56 @@
+{
+  "id": "entity:c628f36d96107a483464015d",
+  "entity_type": "REFERENCE_IMPLEMENTATION",
+  "name": "World ID Next.js verification example",
+  "description": "Next.js integration reference connecting IDKitWidget.handleVerify to a server API route that calls verifyCloudProof and drives a success display.",
+  "source": {
+    "repository_id": "repository:1428166841",
+    "repository_name": "jamesrwatsonx-creator/world-idkit-js",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-idkit-js",
+    "upstream_url": "https://github.com/worldcoin/idkit-js",
+    "source_path": "examples/with-next/pages/index.tsx",
+    "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
+    "inspection_date": "2026-10-21T23:57:35.614710+00:00",
+    "blob_sha": "74074ef0ba6038d2014e60428b04d17a07b69717",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-next/pages/index.tsx#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:next-js-world-id-verification-reference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Next.js",
+      "React",
+      "@worldcoin/idkit",
+      "World ID verification service"
+    ],
+    "overlap": "World ID client integration, not the biometric recognition system or a standalone authentication server. Session confirmation/client UI success does not establish application authorization; verify proofs and bind actions/signals on a trusted backend.",
+    "language": null,
+    "license": "MIT",
+    "deployment_warning": "Demo accepts application/action/signal from request data and query parameters. Production authorization must fix expected values server-side and enforce replay/nullifier policy."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

@@ -1,9 +1,15 @@
 # APIs & SDKs — page 6
 
-1,490 catalog entries · Sorted alphabetically by name · Page 6 of 10.
+1,497 catalog entries · Sorted alphabetically by name · Page 6 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274982458.json) — The open-source CapCut alternative<br>
+  Source: [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/OpenCut) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Frontend applications, Libraries/packages
+- [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372835970.json) — Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics<br>
+  Source: [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs
+- [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427669746.json) — YC F26. Turn any website into an API / MCP in minutes. Open source core integration minting harness. MIT.<br>
+  Source: [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/pomerado) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/praw](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389401353.json) — PRAW, an acronym for "Python Reddit API Wrapper", is a python package that allows for simple access to Reddit's API.<br>
   Source: [jamesrwatsonx-creator/praw](https://github.com/jamesrwatsonx-creator/praw) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD…<br>
@@ -43,7 +49,7 @@
 - [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
   Source: [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/widgets---web3-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428166841.json) — Javascript toolkit to interact with the World ID protocol. Building the Identity SDK.<br>
-  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, IAM, Privacy
 - [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389400368.json) — Yelp Fusion API<br>
   Source: [jamesrwatsonx-creator/yelp-fusion](https://github.com/jamesrwatsonx-creator/yelp-fusion) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1335507455.json) — Download market data from Yahoo! Finance's API<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-inspector-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9bd175488060195cadf406c0.json) — Set up MCP Inspector for debugging and testing MCP servers with request logging, response inspection, and protocol validation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/mcp-inspector-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/mcp-inspector-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [mcp-sdk-python-bootstrapper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af6a439a840e811f3d81e2aa6.json) — Bootstrap MCP server with Python SDK, transport configuration, tool/resource handlers, and proper project structure.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/mcp-sdk-python-bootstrapper/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/mcp-sdk-python-bootstrapper/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [mcp-sdk-typescript-bootstrapper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa7ef93c5617b7d49c5005123.json) — Bootstrap MCP (Model Context Protocol) servers with the official TypeScript SDK. Creates complete server implementations with transport layer, tools, resources, and proper error handling.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/cli-mcp-development/skills/mcp-sdk-typescript-bootstrapper/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/cli-mcp-development/skills/mcp-sdk-typescript-bootstrapper/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [mcp-server-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acb4e056a0370ca6d2670f747.json) — Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API. Use when building or debugging an MCP server — tools,…<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/mcp-server-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/mcp-server-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 
 ## Pages
 

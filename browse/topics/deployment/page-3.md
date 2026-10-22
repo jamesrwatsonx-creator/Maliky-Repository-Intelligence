@@ -1,6 +1,6 @@
 # Deployment — page 3
 
-375 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+376 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -146,6 +146,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/vercel/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/vercel/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vps-server-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8fcc6c306cb209485134de2b.json) — Use when David wants to manage his VPS servers and the AI agents running inside them — connecting, deploying, monitoring, restarting, and operating remote hosts and their agents. Triggers on VPS, server management,…<br>
   Source: [jamesrwatsonx-creator/skills-fable](https://github.com/jamesrwatsonx-creator/skills-fable) · [skills/ops-and-setup/vps-server-management/SKILL.md](https://github.com/jamesrwatsonx-creator/skills-fable/blob/42dfc3dbe4ca43ef021e79abcc7d258698f2be33/skills/ops-and-setup/vps-server-management/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [World ID HTML embedding example](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2397ec6d9c8bd4c2800f09f6.json) — HTML embedding reference configuring the standalone browser widget, rendering its container and opening it from a native button.<br>
+  Source: [jamesrwatsonx-creator/world-idkit-js](https://github.com/jamesrwatsonx-creator/world-idkit-js) · [examples/with-html/index.html](https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-html/index.html#L1) · REFERENCE_IMPLEMENTATION · VERIFIED · PINNED_SOURCE · SDKs/client libraries, IAM, Privacy
 - [wrap-up](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58f09d79ae373571e2863147.json) — Close out (or revisit) a Claude Managed Agent build — regenerate the overview page, recap every primitive the founder now owns, show the run log and live status, suggest 1–2 tailored next upgrades, and sweep hygiene…<br>
   Source: [jamesrwatsonx-creator/launch-your-agent](https://github.com/jamesrwatsonx-creator/launch-your-agent) · [.claude/skills/wrap-up/SKILL.md](https://github.com/jamesrwatsonx-creator/launch-your-agent/blob/05e9627ddae296b85b3870287661cf2934e6c958/.claude/skills/wrap-up/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [writing-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3949616952f6738fe35b258c.json) — Use when creating new skills, editing existing skills, or verifying skills work before deployment<br>

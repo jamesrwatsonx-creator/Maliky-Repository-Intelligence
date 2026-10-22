@@ -2,7 +2,7 @@
   "id": "entity:30824e7838f83cf62c45554b",
   "entity_type": "SKILL",
   "name": "finn-review",
-  "description": "Review open PRs against their linked Linear issues and required GitHub checks, then post a three-group verdict with Finn-loop labels. Use when asked to run Finn-loop's reviewer or review its PR queue. Designed for /loop; never merges or pushes code.",
+  "description": "Reviewer skill evaluating a PR against its linked Linear acceptance/non-goal contract and exact head/check results, posting a structured verdict and applying loop or escalation labels while leaving merge authority to a human.",
   "source": {
     "repository_id": "repository:1310362198",
     "repository_name": "jamesrwatsonx-creator/Finn-loop",
@@ -16,33 +16,42 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "skills/finn-review/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "finn-review"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/skills/finn-review/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:project-management"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:finn-loop-skill-finn-review"
+    "capability:issue-contract-pull-request-review"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Agent host with relevant code and Git access",
+      "Configured Linear connector/team",
+      "Authenticated GitHub CLI",
+      "Finn-loop issue/PR labels"
+    ],
+    "overlap": "Complementary spec/builder/reviewer roles sharing AC-N/NG-N issue contracts and labels. Permissions and stopping rules are prompt instructions enforced by the executing host, not independent security controls.",
+    "language": null,
+    "license": "MIT",
+    "mutation_scope": "PR comments and labels",
+    "review_binding": "Verdict is bound to the reviewed head SHA; changed heads require a new review."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "COMBINE",
   "contribution_role": "SKILL"
 }

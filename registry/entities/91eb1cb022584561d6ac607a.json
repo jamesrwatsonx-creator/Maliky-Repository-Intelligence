@@ -1,0 +1,55 @@
+{
+  "id": "entity:91eb1cb022584561d6ac607a",
+  "entity_type": "WORKFLOW",
+  "name": "Advisor execution and reconciliation protocol",
+  "description": "Instruction workflow dispatching a separate executor into an isolated worktree, independently checking its results and scope, issuing approve/revise/block verdicts, and reconciling plan status and optional authorized issue publication.",
+  "source": {
+    "repository_id": "repository:1342998426",
+    "repository_name": "jamesrwatsonx-creator/improve",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/improve",
+    "upstream_url": "https://github.com/shadcn/improve",
+    "source_path": "skills/improve/references/closing-the-loop.md",
+    "inspected_commit": "03369ee6d7cafbfcecc4346539b05b3dc0a603bb",
+    "inspection_date": "2026-10-22T00:21:41.338976+00:00",
+    "blob_sha": "f0e524f4b1e9d332f0c92d0c990da5a071cfb06b",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/references/closing-the-loop.md#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:skills",
+    "category:developer-tools",
+    "category:ai-evaluation"
+  ],
+  "operational_category": "operational:24",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:isolated-executor-plan-review-workflow"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "Coding-agent host with read access to a target repository",
+      "Appropriate isolated execution tools for optional follow-through"
+    ],
+    "overlap": "Prompt-guided advisor and handoff assets, complementing implementation agents and repository audit tooling. The host must enforce read/write boundaries and protect credentials.",
+    "language": null,
+    "license": "MIT",
+    "instruction_asset": true,
+    "runtime_tested": false
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

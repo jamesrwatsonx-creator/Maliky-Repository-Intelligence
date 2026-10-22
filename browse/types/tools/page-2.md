@@ -1,6 +1,6 @@
 # Tools — page 2
 
-557 catalog entries · Sorted alphabetically by name · Page 2 of 4.
+558 catalog entries · Sorted alphabetically by name · Page 2 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -224,6 +224,8 @@
   Source: [jamesrwatsonx-creator/InvokeAI](https://github.com/jamesrwatsonx-creator/InvokeAI) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/InvokeAI/blob/b4224d97fdb16d4124d49da725e5979f2c3be576/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [invokeai-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05acb6165156d4f18804bb24.json) — invokeai.app.run_app:run_app<br>
   Source: [jamesrwatsonx-creator/InvokeAI](https://github.com/jamesrwatsonx-creator/InvokeAI) · [pyproject.toml](https://github.com/jamesrwatsonx-creator/InvokeAI/blob/b4224d97fdb16d4124d49da725e5979f2c3be576/pyproject.toml#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
+- [IRIS image inference command](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aadeb960901d874f25e1c4e24.json) — Command-line reference loading an input eye image with OpenCV, constructing an IRImage and invoking the default IRIS recognition pipeline through --in_img.<br>
+  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · [scripts/common/run_iris_pipeline.py](https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/scripts/common/run_iris_pipeline.py#L1) · CLI · VERIFIED · PINNED_SOURCE · Libraries/packages, Machine-learning models, Privacy
 - [issue_dependency_read](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A34ba7dd2f1ebd238d353aa19.json) — Read an issue's dependency relationships in a GitHub repository: the issues that block it (blocked_by) or the issues it blocks (blocking).<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/issue_dependencies.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/issue_dependencies.go#L56) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [issue_dependency_write](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae28631d88cf37efc85eeb6c6.json) — Add or remove an issue dependency relationship in a GitHub repository. Use type 'blocked_by' to record that the subject issue is blocked by a related issue, or type 'blocking' to record that the subject issue blocks a…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/issues.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/issues.go#L1075) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [list_issues](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad0faffb8da204ccb3ccba11d.json) — List issues in a GitHub repository. For pagination, use the 'endCursor' from the previous response's 'pageInfo' in the 'after' parameter.<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/issues.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/issues.go#L2751) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
-- [list_label](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8f37b4d9b2dc38349f6fd21.json) — List labels from a repository<br>
-  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/labels.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/labels.go#L130) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 
 ## Pages
 

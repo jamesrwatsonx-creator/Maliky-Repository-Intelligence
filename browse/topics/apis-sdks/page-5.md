@@ -1,9 +1,13 @@
 # APIs & SDKs — page 5
 
-1,490 catalog entries · Sorted alphabetically by name · Page 5 of 10.
+1,497 catalog entries · Sorted alphabetically by name · Page 5 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [git_file_diff_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A205e2fa7e350099d451f1e22.json) — GET /api/git/file-diff - handler git_file_diff_route<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L118) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [git_pr_list_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A39dff8851eadfb901e551643.json) — POST /api/git/review/pr-list - handler git_pr_list_route<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L138) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_push_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A805019f920c8460463495c55.json) — POST /api/git/review/push - handler git_push_route<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L163) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_rev_parse_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A82def07188cf449aa4678ca1.json) — GET /api/git/review/rev-parse - handler git_rev_parse_route<br>
@@ -250,6 +254,8 @@
   Source: [jamesrwatsonx-creator/creative-writer](https://github.com/jamesrwatsonx-creator/creative-writer) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/cryptocurrency.cv](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396777641.json) — Free crypto news API - real-time aggregator for Bitcoin, Ethereum, DeFi, Solana & altcoins. No API key required. RSS/Atom feeds, JSON REST API, historical archive with market context, embeddable widgets, ChatGPT…<br>
   Source: [jamesrwatsonx-creator/cryptocurrency.cv](https://github.com/jamesrwatsonx-creator/cryptocurrency.cv) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory, APIs, Commerce/e-commerce
+- [jamesrwatsonx-creator/dcode-agent-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1283324513.json) — A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.<br>
+  Source: [jamesrwatsonx-creator/dcode-agent-kit](https://github.com/jamesrwatsonx-creator/dcode-agent-kit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Templates/boilerplates, Agent frameworks
 - [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.<br>
   Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Developer tools
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.<br>
@@ -298,12 +304,6 @@
   Source: [jamesrwatsonx-creator/n8n](https://github.com/jamesrwatsonx-creator/n8n) · REPOSITORY · PARTIAL · PINNED_SOURCE · Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247345831.json) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...)<br>
   Source: [jamesrwatsonx-creator/open-webui](https://github.com/jamesrwatsonx-creator/open-webui) · REPOSITORY · PARTIAL · PINNED_SOURCE · APIs
-- [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274982458.json) — The open-source CapCut alternative<br>
-  Source: [jamesrwatsonx-creator/OpenCut](https://github.com/jamesrwatsonx-creator/OpenCut) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Frontend applications, Libraries/packages
-- [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372835970.json) — Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics<br>
-  Source: [jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago](https://github.com/jamesrwatsonx-creator/Outsource-ypur-subscription-when-your-sub-is-freelago) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, APIs
-- [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427669746.json) — YC F26. Turn any website into an API / MCP in minutes. Open source core integration minting harness. MIT.<br>
-  Source: [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/pomerado) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 
 ## Pages
 

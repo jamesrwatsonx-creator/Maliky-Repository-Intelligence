@@ -2,7 +2,7 @@
   "id": "entity:e59e4db0acceff1509e4199a",
   "entity_type": "SKILL",
   "name": "new-dcode-agent",
-  "description": "Scaffold a new Deep Agents (LangChain) agent, a dcode CLI agent, or both, from one command. Use ONLY when the user explicitly runs /new-dcode-agent; never auto-trigger. It interviews the user (form, name, purpose, tools, model, safety), shows a spec, and on confirmation writes a self-contained agent into the user's current project (and/or a dcode CLI agent under ~/.deepagents). The agents it writes work with any OpenAI-compatible API via environment variables.",
+  "description": "Interactive skill interviewing for an agent's role, tools, provider and permissions, then preparing a confirmed standalone Deep Agents program, dcode agent identity or both, with environment-based model configuration and smoke-test instructions.",
   "source": {
     "repository_id": "repository:1283324513",
     "repository_name": "jamesrwatsonx-creator/dcode-agent-kit",
@@ -16,33 +16,42 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "skills/new-dcode-agent/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "new-dcode-agent"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/skills/new-dcode-agent/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:templates-boilerplates",
+    "category:agent-frameworks"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:dcode-agent-kit-skill-new-dcode-agent"
+    "capability:deep-agents-project-scaffolding"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Deep Agents/LangChain-compatible Python environment",
+      "Configured model-provider account/endpoint",
+      "Host agent for applying scaffolding instructions"
+    ],
+    "overlap": "Instruction and template kit for the external Deep Agents/dcode runtime, not an independent implementation of that runtime. Placeholder tools must be replaced and generated files reviewed before use.",
+    "language": null,
+    "license": "MIT",
+    "instruction_asset": true,
+    "explicit_invocation_only": true,
+    "generated_code_not_executed_during_catalog_review": true
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

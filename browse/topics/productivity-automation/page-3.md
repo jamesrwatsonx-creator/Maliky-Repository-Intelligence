@@ -1,6 +1,6 @@
 # Productivity & Automation — page 3
 
-2,808 catalog entries · Sorted alphabetically by name · Page 3 of 19.
+2,817 catalog entries · Sorted alphabetically by name · Page 3 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -278,6 +278,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/type-system-design.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/type-system-design.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [Constraint](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ace4a46e856b9bd2fe500f987.json) — Encode requirements as constraints and solve (SAT/SMT/CSP)<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/constraint-satisfiability-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/constraint-satisfiability-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [Constraint-led agent orchestration architecture](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Accce34c8ce34f407a23817cb.json) — Architecture reference separating evidence/constraint discovery from construction, linking both through a revision-aware constraint ledger, independent criticism, resource budgeting and validated learning.<br>
+  Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · [docs/ARCHITECTURE.md](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop/blob/820de323a18f51e60c6fd979ab2b8de5c8f08e04/docs/ARCHITECTURE.md#L1) · DOCUMENTATION_ASSET · VERIFIED · PINNED_SOURCE · Documentation, Architecture maps, Agent workflows
 - [Constructive](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58ab279d9008763e5fd2c4c5.json) — Proofs must provide explicit witnesses or constructions<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/constructive-intuitionistic-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/constructive-intuitionistic-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [control-systems-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1ef3f51def36201b0665e3cf.json) — Agent specialized in control systems, DAQ, and experimental automation<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [.agents/skills/core-graph/SKILL.md](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/.agents/skills/core-graph/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [cost-database-interface](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abcb36d183c7c660bd588cb9b.json) — Construction cost database interface skill for unit costs, productivity, and regional adjustments<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/skills/cost-database-interface/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/skills/cost-database-interface/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [Counterexample-Guided](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af9cdbb472d5d23cbee89dc29.json) — Iterative loop of abstraction, checking, and refinement<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/counterexample-guided-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/counterexample-guided-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

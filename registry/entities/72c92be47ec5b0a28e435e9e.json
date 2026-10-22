@@ -2,7 +2,7 @@
   "id": "entity:72c92be47ec5b0a28e435e9e",
   "entity_type": "SKILL",
   "name": "improve",
-  "description": "Survey any codebase as a senior advisor and produce prioritized, self-contained implementation plans for OTHER models/agents to execute. Strictly read-only on source code — never implements, fixes, or refactors anything itself. Use when asked to audit a codebase, find improvement opportunities (bugs, security, performance, test coverage, tech debt, migrations, DX), suggest features or where to take the project next (roadmap, product direction), or generate handoff plans for another agent to implement.",
+  "description": "Codebase advisor skill surveying evidence, vetting and prioritizing correctness/security/performance and product-direction findings, then writing self-contained implementation plans for separate executors, with optional plan review and backlog reconciliation modes.",
   "source": {
     "repository_id": "repository:1342998426",
     "repository_name": "jamesrwatsonx-creator/improve",
@@ -16,33 +16,40 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "skills/improve/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "improve"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/skills/improve/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:developer-tools",
+    "category:ai-evaluation"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:improve-skill-improve"
+    "capability:evidence-led-codebase-improvement-planning"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Coding-agent host with read access to a target repository",
+      "Appropriate isolated execution tools for optional follow-through"
+    ],
+    "overlap": "Prompt-guided advisor and handoff assets, complementing implementation agents and repository audit tooling. The host must enforce read/write boundaries and protect credentials.",
+    "language": null,
+    "license": "MIT",
+    "instruction_asset": true,
+    "runtime_tested": false
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

@@ -1,45 +1,9 @@
 # General / Other — page 7
 
-1,787 catalog entries · Sorted alphabetically by name · Page 7 of 12.
+1,759 catalog entries · Sorted alphabetically by name · Page 7 of 12.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/HunyuanVideo-1.5](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1357829156.json) — HunyuanVideo-1.5: A leading lightweight video generation model<br>
-  Source: [jamesrwatsonx-creator/HunyuanVideo-1.5](https://github.com/jamesrwatsonx-creator/HunyuanVideo-1.5) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Creative tools, LLM projects
-- [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608978.json) — HTML-native motion-graphics video workspace — 12 finished projects built on Hyperframes + GSAP. A teaching kit for students learning to build motion-graphics video pipelines end-to-end.<br>
-  Source: [jamesrwatsonx-creator/hyperframes-student-kit](https://github.com/jamesrwatsonx-creator/hyperframes-student-kit) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Creative tools
-- [jamesrwatsonx-creator/hyperframes-Write-HTML.-Render-video.-Built-for-agents.](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1279608571.json) — Write HTML. Render video. Built for agents.<br>
-  Source: [jamesrwatsonx-creator/hyperframes-Write-HTML.-Render-video.-Built-for-agents.](https://github.com/jamesrwatsonx-creator/hyperframes-Write-HTML.-Render-video.-Built-for-agents.) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Creative tools
-- [jamesrwatsonx-creator/hyperswitch-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418849196.json) — Open source, composable payments platform \\| PCI compliant \\| SaaS and Self-host options \\| Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers \\| Uplifts authorization with…<br>
-  Source: [jamesrwatsonx-creator/hyperswitch-payments](https://github.com/jamesrwatsonx-creator/hyperswitch-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/i-have-adhd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366275566.json) — A skill to stop your coding agent from burying the answer. ADHD-friendly output.<br>
-  Source: [jamesrwatsonx-creator/i-have-adhd](https://github.com/jamesrwatsonx-creator/i-have-adhd) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Skills
-- [jamesrwatsonx-creator/ian-xiaohei-illustrations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342968867.json) — 中文小黑怪诞正文配图生成 Skill \\| 16:9 白底手绘 \\| 少量红橙蓝批注 \\| Codex Skill<br>
-  Source: [jamesrwatsonx-creator/ian-xiaohei-illustrations](https://github.com/jamesrwatsonx-creator/ian-xiaohei-illustrations) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Skills
-- [jamesrwatsonx-creator/iFixAi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426079236.json) — Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less…<br>
-  Source: [jamesrwatsonx-creator/iFixAi](https://github.com/jamesrwatsonx-creator/iFixAi) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/imagededup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389394261.json) — 😎 Finding duplicate images made easy!<br>
-  Source: [jamesrwatsonx-creator/imagededup](https://github.com/jamesrwatsonx-creator/imagededup) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/imagehash](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389393585.json) — A Python Perceptual Image Hashing Module<br>
-  Source: [jamesrwatsonx-creator/imagehash](https://github.com/jamesrwatsonx-creator/imagehash) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/impeccable](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315197105.json) — The design language that makes your AI harness better at design.<br>
-  Source: [jamesrwatsonx-creator/impeccable](https://github.com/jamesrwatsonx-creator/impeccable) · REPOSITORY · PARTIAL · PINNED_SOURCE · Design systems
-- [jamesrwatsonx-creator/improve](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342998426.json) — Use your most capable model to audit your codebase and write plans for cheaper models to execute.<br>
-  Source: [jamesrwatsonx-creator/improve](https://github.com/jamesrwatsonx-creator/improve) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · LLM projects, Plugins/extensions, Skills
-- [jamesrwatsonx-creator/incus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344546795.json) — Powerful system container and virtual machine manager<br>
-  Source: [jamesrwatsonx-creator/incus](https://github.com/jamesrwatsonx-creator/incus) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
-- [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424224768.json) — A UI framework that provides websites with the minimal CSS and JS needed to get started with building a modern responsive beautiful website<br>
-  Source: [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/infima) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418856229.json) — Infisical is the open-source platform for securing secrets, certificates, access, and AI Agents.<br>
-  Source: [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/infisical) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/instaloader](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389400813.json) — Download pictures (or videos) along with their captions and other metadata from Instagram.<br>
-  Source: [jamesrwatsonx-creator/instaloader](https://github.com/jamesrwatsonx-creator/instaloader) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
-- [jamesrwatsonx-creator/InvenTree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418858322.json) — Open Source Inventory Management System<br>
-  Source: [jamesrwatsonx-creator/InvenTree](https://github.com/jamesrwatsonx-creator/InvenTree) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/invidious](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418857876.json) — Invidious is an alternative front-end to YouTube<br>
-  Source: [jamesrwatsonx-creator/invidious](https://github.com/jamesrwatsonx-creator/invidious) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399051706.json) — Autumn is an open-source pricing & billing platform<br>
-  Source: [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/invoice-autumn) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399060123.json) — Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬<br>
   Source: [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/invoice-chatwoot) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
 - [jamesrwatsonx-creator/invoice-typebot.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399053662.json) — 💬 Typebot is a powerful chatbot builder that you can self-host.<br>
@@ -56,8 +20,6 @@
   Source: [jamesrwatsonx-creator/ioBroker](https://github.com/jamesrwatsonx-creator/ioBroker) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
 - [jamesrwatsonx-creator/iRedMail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418860622.json) — Full-featured, open source mail server solution for mainstream Linux/BSD distributions.<br>
   Source: [jamesrwatsonx-creator/iRedMail](https://github.com/jamesrwatsonx-creator/iRedMail) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
-- [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1334697613.json) — The James Watson Gauntlet Loop is a recursive multi-agent framework forcing AI systems to challenge assumptions, evidence, beliefs, and more. Built to move beyond linear prompting toward self-correcting agentic…<br>
-  Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Research projects
 - [jamesrwatsonx-creator/jamesrwatsonx-creator-OpenBot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1367506019.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
   Source: [jamesrwatsonx-creator/jamesrwatsonx-creator-OpenBot](https://github.com/jamesrwatsonx-creator/jamesrwatsonx-creator-OpenBot) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · DESCRIPTION NEEDS REVIEW · General / Other
 - [jamesrwatsonx-creator/Jarvis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342771445.json) — Build your own JARVIS: An AI voice interface that enables you to talk with an AI model, creating a conversational experience. It offers a modern alternative to traditional virtual assistants. Highly customizable,…<br>
@@ -93,7 +55,7 @@
 - [jamesrwatsonx-creator/langgraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344553749.json) — Build resilient agents.<br>
   Source: [jamesrwatsonx-creator/langgraph](https://github.com/jamesrwatsonx-creator/langgraph) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/last30days-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1269740969.json) — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary<br>
-  Source: [jamesrwatsonx-creator/last30days-skill](https://github.com/jamesrwatsonx-creator/last30days-skill) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, Skills
+  Source: [jamesrwatsonx-creator/last30days-skill](https://github.com/jamesrwatsonx-creator/last30days-skill) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Skills
 - [jamesrwatsonx-creator/launch-your-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1274962747.json) — Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it<br>
   Source: [jamesrwatsonx-creator/launch-your-agent](https://github.com/jamesrwatsonx-creator/launch-your-agent) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · AI agents, Developer tools, Skills
 - [jamesrwatsonx-creator/Lean](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366360200.json) — Lean Algorithmic Trading Engine by QuantConnect (Python, C#)<br>
@@ -304,6 +266,44 @@
   Source: [jamesrwatsonx-creator/paseo](https://github.com/jamesrwatsonx-creator/paseo) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, Developer tools, Mobile applications
 - [jamesrwatsonx-creator/pdfcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426108384.json) — PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust<br>
   Source: [jamesrwatsonx-creator/pdfcraft](https://github.com/jamesrwatsonx-creator/pdfcraft) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372781855.json) — Penpot: The open-source design platform for Product teams that need scalable collaboration.<br>
+  Source: [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/penpot) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · Design systems
+- [jamesrwatsonx-creator/pgContext](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1319436169.json) — A full AI search engine, built into Postgres.<br>
+  Source: [jamesrwatsonx-creator/pgContext](https://github.com/jamesrwatsonx-creator/pgContext) · REPOSITORY · PARTIAL · PINNED_SOURCE · Research projects
+- [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1319434590.json) — Open-source graph database superpowers for your existing Postgres data.<br>
+  Source: [jamesrwatsonx-creator/pgGraph](https://github.com/jamesrwatsonx-creator/pgGraph) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344550925.json) — Open-source vector similarity search for Postgres<br>
+  Source: [jamesrwatsonx-creator/pgvector](https://github.com/jamesrwatsonx-creator/pgvector) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, Research projects
+- [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398377814.json) — A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.<br>
+  Source: [jamesrwatsonx-creator/PhoneNumberKit](https://github.com/jamesrwatsonx-creator/PhoneNumberKit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407868392.json) — An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust<br>
+  Source: [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/photocraft) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/PhotoML](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340272639.json) — High performance self-hosted photo and video management solution.<br>
+  Source: [jamesrwatsonx-creator/PhotoML](https://github.com/jamesrwatsonx-creator/PhotoML) · REPOSITORY · PARTIAL · PINNED_SOURCE · Creative tools
+- [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419961535.json) — Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.<br>
+  Source: [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/pipecat-voice) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344501968.json) — Playwright MCP server<br>
+  Source: [jamesrwatsonx-creator/playwright-mcp](https://github.com/jamesrwatsonx-creator/playwright-mcp) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, CLI tools, Libraries/packages
+- [jamesrwatsonx-creator/podman](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426105758.json) — Podman: A tool for managing OCI containers and pods.<br>
+  Source: [jamesrwatsonx-creator/podman](https://github.com/jamesrwatsonx-creator/podman) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427669746.json) — YC F26. Turn any website into an API / MCP in minutes. Open source core integration minting harness. MIT.<br>
+  Source: [jamesrwatsonx-creator/pomerado](https://github.com/jamesrwatsonx-creator/pomerado) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342961720.json) — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.<br>
+  Source: [jamesrwatsonx-creator/ponytail](https://github.com/jamesrwatsonx-creator/ponytail) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows, AI agents, Developer tools
+- [jamesrwatsonx-creator/postgres](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344551016.json) — Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch<br>
+  Source: [jamesrwatsonx-creator/postgres](https://github.com/jamesrwatsonx-creator/postgres) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/postiz-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426084035.json) — 📨 The ultimate agentic social media scheduling tool 🤖<br>
+  Source: [jamesrwatsonx-creator/postiz-app](https://github.com/jamesrwatsonx-creator/postiz-app) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271470660.json) — Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed.<br>
+  Source: [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/printing-press-library) · REPOSITORY · PARTIAL · PINNED_SOURCE · Developer tools
+- [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247331006.json) — Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD…<br>
+  Source: [jamesrwatsonx-creator/promptfoo](https://github.com/jamesrwatsonx-creator/promptfoo) · REPOSITORY · PARTIAL · PINNED_SOURCE · AI agents, DevOps
+- [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1338470310.json) — f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.<br>
+  Source: [jamesrwatsonx-creator/prompts.chat](https://github.com/jamesrwatsonx-creator/prompts.chat) · REPOSITORY · PARTIAL · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/public-apis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376774279.json) — A collective list of free APIs<br>
+  Source: [jamesrwatsonx-creator/public-apis](https://github.com/jamesrwatsonx-creator/public-apis) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
+- [jamesrwatsonx-creator/PyPortfolioOpt](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366362061.json) — Financial portfolio optimization in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity<br>
+  Source: [jamesrwatsonx-creator/PyPortfolioOpt](https://github.com/jamesrwatsonx-creator/PyPortfolioOpt) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · General / Other
 
 ## Pages
 

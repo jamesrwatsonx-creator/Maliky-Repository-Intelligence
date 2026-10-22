@@ -2,7 +2,7 @@
   "id": "entity:fcca2e87381cf071bd3c6660",
   "entity_type": "SKILL",
   "name": "gauntlet-loop",
-  "description": "Turns any goal into one short, paste-ready \"gauntlet loop\" prompt - a prompt that makes an agent set a concrete quality bar, split the work into small judgeable pieces, run a builder and a separate harsh critic on each, compare blind against the bar, and loop until it wins. Works for builds, writing, code, research, or design. Triggers on \"/gauntlet-loop\", \"gauntlet loop\", \"gauntlet this\", \"make a gauntlet prompt\", \"loop until it beats X\".",
+  "description": "Agent skill compiling a goal and concrete quality reference into a short portable prompt specifying decomposed work, independent builder/critic comparison, blind evaluation and iteration until the declared quality bar is met.",
   "source": {
     "repository_id": "repository:1331324299",
     "repository_name": "jamesrwatsonx-creator/gauntlet-loop",
@@ -16,33 +16,41 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude/skills/gauntlet-loop/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "gauntlet-loop"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/gauntlet-loop/blob/9b1975a1b8f01981f3f1e6b667ad3aaf907178ea/.claude/skills/gauntlet-loop/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:prompt-libraries",
+    "category:ai-evaluation"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:gauntlet-loop-skill-gauntlet-loop"
+    "capability:quality-bar-agent-prompt-compilation"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Agent host loading Markdown skills",
+      "A named accessible comparison reference",
+      "Execution host supporting the generated workflow"
+    ],
+    "overlap": "Prompt generator; complements execution frameworks and critics rather than implementing their runtime. Claude-specific /loop and ultracode instructions have a documented portable replacement.",
+    "language": null,
+    "license": "CC-BY-4.0",
+    "instruction_asset": true,
+    "runtime_tested": false
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "contribution_role": "SKILL"
 }

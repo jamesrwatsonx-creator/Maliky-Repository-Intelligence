@@ -2,7 +2,7 @@
 
 Reusable interface components, patterns, screens and UX resources.
 
-**1,056 entries**
+**1,053 entries**
 
 ## Browse within this topic
 
@@ -11,11 +11,11 @@ Reusable interface components, patterns, screens and UX resources.
 - [Libraries & Packages](by-type/libraries/README.md) (34)
 - [Plugins](by-type/plugins/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (76)
-- [Repositories](by-type/repositories/README.md) (41)
+- [Repositories](by-type/repositories/README.md) (42)
 - [Services & Integrations](by-type/services/README.md) (9)
 - [Skills](by-type/skills/README.md) (15)
 - [Tools](by-type/tools/README.md) (3)
-- [UI Components](by-type/ui-components/README.md) (822)
+- [UI Components](by-type/ui-components/README.md) (818)
 - [Workflows](by-type/workflows/README.md) (15) · Alphabetical · 8 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)

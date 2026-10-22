@@ -2,7 +2,7 @@
   "id": "entity:103dc474dd84fea16738332e",
   "entity_type": "PLUGIN",
   "name": "dcode-agent-kit",
-  "description": "Scaffold a Deep Agents (LangChain) agent or a dcode CLI agent from one command (/new-dcode-agent). The agents it builds work with any OpenAI-compatible provider.",
+  "description": "Claude Code plugin packaging the new-dcode-agent scaffolding skill for managed installation and namespaced invocation.",
   "source": {
     "repository_id": "repository:1283324513",
     "repository_name": "jamesrwatsonx-creator/dcode-agent-kit",
@@ -16,33 +16,38 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "dcode-agent-kit"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/dcode-agent-kit/blob/f815599e95801461b9fb0862ff03e14f762b2c80/.claude-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:plugins-extensions"
+    "category:skills",
+    "category:templates-boilerplates",
+    "category:agent-frameworks"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:dcode-agent-kit-plugin-dcode-agent-kit"
+    "capability:deep-agents-scaffold-skill-packaging"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Claude Code plugin/skill support"
+    ],
+    "overlap": "Instruction and template kit for the external Deep Agents/dcode runtime, not an independent implementation of that runtime. Placeholder tools must be replaced and generated files reviewed before use.",
+    "language": null,
+    "license": "MIT",
+    "runtime_tested": false
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

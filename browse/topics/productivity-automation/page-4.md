@@ -1,9 +1,11 @@
 # Productivity & Automation — page 4
 
-2,808 catalog entries · Sorted alphabetically by name · Page 4 of 19.
+2,817 catalog entries · Sorted alphabetically by name · Page 4 of 19.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Counterexample-Guided](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af9cdbb472d5d23cbee89dc29.json) — Iterative loop of abstraction, checking, and refinement<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/counterexample-guided-reasoning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/counterexample-guided-reasoning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [coursera/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A176850fe5c05daaf275dcaf7.json) — Domain skill: Coursera — Course & Catalog Data Extraction. Field-tested against coursera.org and api.coursera.org on 2026-04-18.<br>
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/coursera/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/coursera/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [cradle/bug-report](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2d2a52cb619eff86cc11e477.json) — Report a bug in babysitter (SDK, processes, plugins) by gathering details, searching existing issues, and opening a GitHub issue<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/capacity-planning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/capacity-planning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [domains/science/industrial-engineering/demand-forecasting](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A892607e164a56752f3916ccf.json) — Demand Forecasting Model Development - Develop and implement demand forecasting models using statistical and machine learning methods to improve inventory planning and supply chain responsiveness.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/demand-forecasting.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/demand-forecasting.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [domains/science/industrial-engineering/design-of-experiments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca2679d8cb6feed2c2094469.json) — Design of Experiments Execution - Plan and execute designed experiments to identify significant factors, optimize process settings, and reduce variation using factorial and response surface methods.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/design-of-experiments.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/design-of-experiments.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

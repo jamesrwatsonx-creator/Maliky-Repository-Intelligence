@@ -1,9 +1,13 @@
 # AI Agents — page 19
 
-2,934 catalog entries · Sorted alphabetically by name · Page 19 of 20.
+2,936 catalog entries · Sorted alphabetically by name · Page 19 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [traffic-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A773a7d8c62357fb2850a534d.json) — Agent specialized in traffic analysis, signal design, and transportation planning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/civil-engineering/agents/traffic-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/civil-engineering/agents/traffic-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [training-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4496bd302507c26a70b4b27c.json) — Instructional designer for capability building programs and training curriculum development<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/agents/training-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/agents/training-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [transcribe_audio_upload](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac075a046145c78dc215ac88b.json) — POST /api/audio/transcribe - handler transcribe_audio_upload<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5025) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [transfer-pricing-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A91cdb620a26b525ed2545972.json) — Agent specialized in transfer pricing policy development, documentation, and compliance<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/agents/visual-regression/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/agents/visual-regression/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [visualization-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A062e60913ae40b5cd8e824bd.json) — Agent specialized in scientific data visualization<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/agents/visualization-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/agents/visualization-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [vite-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5dca92268ca06d819116d11e.json) — Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or…<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/vite-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/vite-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [voice-ai-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A574b72f2c0339fbccc9d3722.json) — Integrates ASR/TTS for voice-enabled agents<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/voice-ai-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

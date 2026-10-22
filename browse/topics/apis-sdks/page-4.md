@@ -1,9 +1,13 @@
 # APIs & SDKs — page 4
 
-1,490 catalog entries · Sorted alphabetically by name · Page 4 of 10.
+1,497 catalog entries · Sorted alphabetically by name · Page 4 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [exhibition-designer-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab01953f49090712f59c8ee77.json) — Exhibition design and installation specialist agent for spatial design, visitor experience, lighting design, graphic design, ADA compliance, and multimedia integration<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/agents/exhibition-designer-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/agents/exhibition-designer-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [export_generation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3f6beebdc526d8ef2069136b.json) — Export a generation as a ZIP archive.<br>
+  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L135) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_generation_audio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afcb7c806c48e1939d8980946.json) — Export only the audio file from a generation.<br>
   Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [backend/routes/history.py](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/backend/routes/history.py#L166) · API · NEEDS_REVIEW · PINNED_SOURCE · APIs
 - [export_profile](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7da78bae3d350d9addbc249a.json) — Export a voice profile as a ZIP archive.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L158) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [git_create_pr_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37b0198abdab58b586543c4a.json) — POST /api/git/review/create-pr - handler git_create_pr_route<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L168) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [git_file_diff_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A205e2fa7e350099d451f1e22.json) — GET /api/git/file-diff - handler git_file_diff_route<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L118) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [git_pr_list_route](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A39dff8851eadfb901e551643.json) — POST /api/git/review/pr-list - handler git_pr_list_route<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/git.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/git.py#L138) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

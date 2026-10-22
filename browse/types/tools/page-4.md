@@ -1,9 +1,11 @@
 # Tools — page 4
 
-557 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+558 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [saved_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e1b54bc1c36c72495f5891a.json) — List messages in the authenticated user's Save for Later panel.<br>
+  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L46) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [saved_update](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af249cd7e90ab81c57311fc28.json) — Update completion and due-date state for a Slack saved item.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L47) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 - [scan_skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af57c49b095faf38ee0c9adc4.json) — Scan an AI agent skill for security risks before installing it. Use this before installing or loading any skill or MCP server to decide whether it is safe. ``target`` accepts a Git URL, file URL, ``.zip``, ``.md``…<br>

@@ -1,17 +1,9 @@
 # UI Components — page 6
 
-822 catalog entries · Sorted alphabetically by name · Page 6 of 6.
+818 catalog entries · Sorted alphabetically by name · Page 6 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [Theme](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7a8281ca27eb250bcaa2c3c8.json) — Theme provider and wrapper managing appearance, accent/gray colors, panel background, radius and scaling with context access and nested-theme support.<br>
-  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/theme.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/theme.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
-- [ThemePanel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A51b0916c1cb67ef9c5b658ce.json) — Interactive theme configuration panel that composes library controls to change theme appearance and presentation settings, with exported panel-content support.<br>
-  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/theme-panel.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/theme-panel.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
-- [ThemeProvider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5926bb19ac1736916779dc0d.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react) · [components/app/theme-provider.tsx](https://github.com/jamesrwatsonx-creator/Live-Kit-voice-video-agent-starter-react/blob/46f51a6a300cceeb1c1460116a620c32cdef18fb/components/app/theme-provider.tsx#L6) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [ThemeSelect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A787e722fe4915a371babfaa1.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/ThemeSelect.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/ThemeSelect.tsx#L11) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ThemeSwitcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A27be043e23369039e8828cf3.json) — Hermes web dashboard React component Theme Switcher (ThemeSwitcher.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/components/ThemeSwitcher.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/components/ThemeSwitcher.tsx#L27) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [ThemeToggle](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae124f9eb9da87666bbe76e93.json) — Exported JSX component candidate<br>

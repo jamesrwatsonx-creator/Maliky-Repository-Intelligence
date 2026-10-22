@@ -2,15 +2,15 @@
 
 Android apps, libraries, skills and platform tooling.
 
-**134 entries**
+**138 entries**
 
 ## Browse within this topic
 
 - [Agents & Frameworks](by-type/agents/README.md) (13)
 - [Libraries & Packages](by-type/libraries/README.md) (2)
 - [Models & Model Adapters](by-type/models/README.md) (3)
-- [Other Assets](by-type/other-assets/README.md) (1)
-- [Repositories](by-type/repositories/README.md) (51)
+- [Other Assets](by-type/other-assets/README.md) (3)
+- [Repositories](by-type/repositories/README.md) (53)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (22)
 - [UI Components](by-type/ui-components/README.md) (8)
@@ -28,6 +28,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/agent/ActionReflector.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/agent/ActionReflector.kt#L3) · AGENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
 - [Android Accessibility Controller](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79592a1900ac65e7d8d3decc.json) — Executes taps, long presses, swipes, typing and Back/Home/Enter actions through the Android accessibility service.<br>
   Source: [jamesrwatsonx-creator/MobileAgent-Android](https://github.com/jamesrwatsonx-creator/MobileAgent-Android) · [app/src/main/java/com/mobileagent/app/controller/AccessibilityController.kt](https://github.com/jamesrwatsonx-creator/MobileAgent-Android/blob/31e3662d4bec9d8101997a2bd6f63a2c6d04e153/app/src/main/java/com/mobileagent/app/controller/AccessibilityController.kt#L10) · MOBILE_COMPONENT · VERIFIED · PINNED_SOURCE · Mobile applications, AI agents, Agent frameworks
+- [Android architecture starter branch guide](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A850d55f7fc3956c0e713d351.json) — Reference guide linking base and multimodule Android starter branches and describing their Compose/Material3 UI, Room storage, Hilt injection, ViewModel, Navigation, Flow and testing architecture plus customization…<br>
+  Source: [jamesrwatsonx-creator/Google-architecture-templates](https://github.com/jamesrwatsonx-creator/Google-architecture-templates) · [README.md](https://github.com/jamesrwatsonx-creator/Google-architecture-templates/blob/4a3b2a141f457f1312c8dc52d6cbea6c9592af72/README.md#L1) · DOCUMENTATION_ASSET · VERIFIED · PINNED_SOURCE · Documentation, Mobile applications, Templates/boilerplates
 - [Android CI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa53010006b9e6225d31e7264.json) — Source-declared workflow `Android CI`.<br>
   Source: [jamesrwatsonx-creator/Android-camera-samples](https://github.com/jamesrwatsonx-creator/Android-camera-samples) · [.github/workflows/android.yml](https://github.com/jamesrwatsonx-creator/Android-camera-samples/blob/2f10e46fc7a09f7208f8d6de72482ecf3e5fb85a/.github/workflows/android.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Android Native Expert Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad9e9c03918469d1df4c4f406.json) — Expert Android developer with Kotlin and Jetpack mastery<br>
@@ -152,6 +154,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/Firebase-quickstart-android](https://github.com/jamesrwatsonx-creator/Firebase-quickstart-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965909.json) — A curated collection of 200+ Flutter open source projects to help developers learn and practice Flutter development.<br>
   Source: [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Flutter-Awesome-Projects) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/Google-architecture-templates](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342384020.json) — Documentation branch indexing Google's base and multimodule Android architecture starter branches; implementation code is not present in this pinned tree.<br>
+  Source: [jamesrwatsonx-creator/Google-architecture-templates](https://github.com/jamesrwatsonx-creator/Google-architecture-templates) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Mobile applications, Templates/boilerplates
 - [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343179881.json) — Visualize your year in travel using your Google Location History (Timeline) data<br>
   Source: [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/google-timeline-visualizer) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350918326.json) — googleads-mobile-android<br>
@@ -184,6 +188,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
 - [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426098185.json) — Display and control your Android device<br>
   Source: [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/scrcpy) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254778868.json) — Curated reference directory linking community Swift and Apple-platform agent skills; no skill implementations are bundled at this revision.<br>
+  Source: [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Swift-Agent-Skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Skills, Mobile applications
 - [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398401393.json) — An Android library that help you to build app with swipe back gesture.<br>
   Source: [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/SwipeBackLayout) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [java-build-resolver](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4bc2c3b6cb2c6e17cf58cc3c.json) — Java/Maven/Gradle build, compilation, and dependency error resolution specialist. Automatically detects Spring Boot or Quarkus and applies framework-specific fixes. Fixes build errors, Java compiler errors, and…<br>
@@ -280,6 +286,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/qa-testing-automation/mobile-testing.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/qa-testing-automation/mobile-testing.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/security-research/mobile-app-security-research](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9336de659b9b0c95142703cd.json) — Security research for Android and iOS applications including static analysis, dynamic analysis, network traffic analysis, and platform-specific vulnerabilities using Frida, objection, and mobile security testing…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/mobile-app-security-research.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/mobile-app-security-research.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [Swift and Apple agent-skill directory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Addfe3c49d4f00f6f566577a1.json) — Curated discovery directory linking SwiftUI, SwiftData, concurrency, testing, accessibility, App Intents, App Store, architecture, performance and security agent-skill resources maintained in external repositories.<br>
+  Source: [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Swift-Agent-Skills) · [README.md](https://github.com/jamesrwatsonx-creator/Swift-Agent-Skills/blob/79dacde53418e718d3ae2c6c44d7eb65c0b9b33e/README.md#L1) · DOCUMENTATION_ASSET · VERIFIED · PINNED_SOURCE · Documentation, Skills, Mobile applications
 - [Update documentation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afedb6df71154de26fb106097.json) — Source-declared workflow `Update documentation`.<br>
   Source: [jamesrwatsonx-creator/android-maps-compose](https://github.com/jamesrwatsonx-creator/android-maps-compose) · [.github/workflows/docs.yml](https://github.com/jamesrwatsonx-creator/android-maps-compose/blob/7dec2b7a38260821970160373836bed126458d80/.github/workflows/docs.yml#L1) · WORKFLOW · NEEDS_REVIEW · PINNED_SOURCE · Agent workflows
 - [Update Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A35f139a3670d22e339e23e14.json) — Source-declared workflow `Update Skill`.<br>

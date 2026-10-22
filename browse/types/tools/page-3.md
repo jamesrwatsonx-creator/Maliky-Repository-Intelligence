@@ -1,9 +1,11 @@
 # Tools — page 3
 
-557 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+558 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [list_label](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad8f37b4d9b2dc38349f6fd21.json) — List labels from a repository<br>
+  Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/labels.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/labels.go#L130) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [list_notifications](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afd79265bf73e3ffa7e566cd5.json) — Lists all GitHub notifications for the authenticated user, including unread notifications, mentions, review requests, assignments, and updates on issues or pull requests. Use this tool whenever the user asks what to…<br>
   Source: [jamesrwatsonx-creator/github-mcp-server](https://github.com/jamesrwatsonx-creator/github-mcp-server) · [pkg/github/notifications.go](https://github.com/jamesrwatsonx-creator/github-mcp-server/blob/eb088dfe9d854dab6453a8d4ae5871a5ced20974/pkg/github/notifications.go#L32) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools
 - [list_org_repository_security_advisories](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A45aeb690e0495b20620e6866.json) — List repository security advisories for a GitHub organization.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/sanitize-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/sanitize-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [saved_clear_completed](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9265207d72de7abb4a6155df.json) — Bulk-clear completed items from Slack Save for Later.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L48) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
-- [saved_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7e1b54bc1c36c72495f5891a.json) — List messages in the authenticated user's Save for Later panel.<br>
-  Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · [pkg/server/server.go](https://github.com/jamesrwatsonx-creator/slack-mcp-server/blob/b88c0de3f706f4f07337c9eda7133c736d1c9524/pkg/server/server.go#L46) · TOOL · VERIFIED · PINNED_SOURCE · MCP servers, Developer tools, Business applications
 
 ## Pages
 

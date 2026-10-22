@@ -8,7 +8,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 OWNER = 'jamesrwatsonx-creator'
 SELF = OWNER + '/Maliky-Repository-Intelligence'
 SHA = re.compile(r'^[0-9a-f]{40}$')
-SOURCE_EXTENSIONS = {'.py','.js','.jsx','.ts','.tsx','.mjs','.cjs','.go','.rs','.java','.kt','.kts','.swift','.cs','.cpp','.c','.h','.vue','.svelte','.sh','.rb','.php'}
+SOURCE_EXTENSIONS = {'.py','.js','.jsx','.ts','.tsx','.mjs','.cjs','.go','.rs','.java','.kt','.kts','.swift','.cs','.cpp','.c','.h','.hpp','.cc','.cxx','.m','.mm','.vue','.svelte','.sh','.rb','.php','.dart','.ex','.exs','.lua','.r','.scala','.clj','.cljs','.fs','.fsx','.vb','.pl','.pm','.ps1','.psm1','.jl'}
 
 def now(): return datetime.now(timezone.utc).isoformat()
 def slug(s): return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
@@ -75,6 +75,20 @@ def public_repo(meta):
 def blank_repo(meta):
     return {'id':'repository:'+str(meta['id']),'github_id':meta['id'],'entity_type':'REPOSITORY','name':meta['name'],'full_name':meta['full_name'],'url':meta['html_url'],'owner':OWNER,'visibility':'public','affiliation':'FORKED_UNDER_USER_ACCOUNT' if meta['fork'] else 'OWNED','fork':meta['fork'],'default_branch':meta['default_branch'],'upstream_url':meta.get('parent',{}).get('html_url'),'description':meta.get('description') or '', 'metadata':{'language':meta.get('language'),'license':(meta.get('license') or {}).get('spdx_id'),'archived':meta['archived'],'pushed_at':meta['pushed_at']},'state':'DISCOVERED','inspected_commit':None,'current_commit':None,'inspection_date':None,'categories':[],'operational_category':'operational:25','secondary_operational_categories':[],'capabilities':[],'studios':[],'ideas':[],'scores':{},'tier':None,'tier_reason':None,'recommendation':'NEEDS DEEPER REVIEW','entity_census':{},'deep_review':{'completed':False,'reviewer':None,'evidence':[]},'phases':{'structure':False,'entity_extraction':False,'capability_analysis':False,'deep_review':False,'validation':False}}
 
+def merge_public_metadata(repo, meta):
+    """Refresh GitHub facts without erasing pinned semantic annotations."""
+    fresh=blank_repo(meta)
+    reviewed_description=bool(repo.get('description') and (
+        repo.get('metadata',{}).get('description_source')=='pinned_semantic_review'
+        or repo.get('semantic_review_progress',{}).get('status')=='COMPLETE'))
+    for key in ('name','full_name','url','owner','visibility','affiliation','fork','default_branch'):
+        repo[key]=fresh[key]
+    if not reviewed_description: repo['description']=fresh['description']
+    repo['metadata']={**repo.get('metadata',{}),**fresh['metadata'],'github_description':fresh['description']}
+    if meta.get('parent'): repo['upstream_url']=fresh['upstream_url']
+    repo['visibility_verified_at']=now()
+    return repo
+
 def intake_record(full_name):
     """Register one owned public repository without re-running global discovery."""
     meta=gh('repos/'+full_name)
@@ -85,10 +99,7 @@ def intake_record(full_name):
         write('.local/intake-private.json', {'received_at':now(),'identity':full_name,'github_id':meta.get('id'),'status':'PRIVATE_OR_RESTRICTED'})
         return None
     repo=read(repo_file({'github_id':meta['id']})) or blank_repo(meta)
-    fresh=blank_repo(meta)
-    for key in ('name','full_name','url','owner','visibility','affiliation','fork','default_branch','description','metadata','upstream_url'):
-        repo[key]=fresh[key]
-    repo['visibility_verified_at']=now()
+    merge_public_metadata(repo,meta)
     write(repo_file(repo),repo)
     manifest=read('system/discovery-manifest.json',{})
     public=[x for x in manifest.get('repositories',[]) if x.get('id')!=repo['id']]
@@ -118,10 +129,7 @@ def discover(input_path=None):
         raise RuntimeError('Previously catalogued repositories are no longer verified public. Publication blocked; preserve and relocate affected records before proceeding.')
     for m in public:
         r=read(repo_file({'github_id':m['id']})) or blank_repo(m)
-        fresh=blank_repo(m)
-        for k in ['name','full_name','url','owner','visibility','affiliation','fork','default_branch','description','metadata']:
-            r[k]=fresh[k]
-        r['visibility_verified_at']=now()
+        merge_public_metadata(r,m)
         write(repo_file(r),r)
     stats={'accessible':len(raw),'owned':len(owned),'forks_owned':sum(r['fork'] for r in owned),'public_owned':len(public),'private_owned':sum(r['private'] for r in owned),'other_accessible':len(raw)-len(owned),'private_other_access':sum(r['private'] for r in raw if r['owner']['login']!=OWNER)}
     write('system/discovery-manifest.json',{'schema_version':1,'discovered_at':now(),'scope':'Authenticated GitHub account accessibility; ownership filtered exactly; pagination exhausted','target_owner':OWNER,'counts':stats,'repositories':[{'id':'repository:'+str(r['id']),'github_id':r['id'],'full_name':r['full_name'],'visibility':'public','affiliation':'FORKED_UNDER_USER_ACCOUNT' if r['fork'] else 'OWNED'} for r in public],'private_policy':'Aggregate counts only; identifiers and evidence excluded from public files'})
@@ -309,8 +317,9 @@ def priority(entry):
     # readme-hero.webp must remain in the explicitly excluded non-text set.
     if name.lower().startswith('readme') and pathlib.PurePosixPath(p).suffix.lower() in ('','.md','.mdx','.rst','.txt'): return 2
     if p.startswith('.github/workflows/'): return 3
-    if pathlib.PurePosixPath(p).suffix in SOURCE_EXTENSIONS: return 4
-    if pathlib.PurePosixPath(p).suffix in ('.md','.mdc','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
+    extension=pathlib.PurePosixPath(p).suffix.lower()
+    if extension in SOURCE_EXTENSIONS: return 4
+    if extension in ('.md','.mdx','.mdc','.rst','.txt','.json','.yaml','.yml','.toml','.xml','.ini','.cfg','.tf','.sql','.graphql','.proto','.html','.htm','.css','.scss','.sass','.less','.styl','.ipynb') or name.upper().startswith(('LICENSE','LICENCE','COPYING','NOTICE','DOCKERFILE','MAKEFILE')): return 5
     return 6
 
 def persist_evidence(path,evidence):
@@ -347,12 +356,12 @@ def cache_snapshot(repo,commit,entries):
             if git_blob(data)!=entry['sha']: raise RuntimeError('Archive blob differs from pinned tree')
             (existing/entry['sha']).write_bytes(data)
 
-def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot=False):
+def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot=False,pinned=False):
     matches=[r for r in records('repositories') if r['full_name']==full_name]
     if not matches: raise ValueError('Repository not in verified public owned inventory; run discovery')
     r=matches[0]
     try:
-        if offline:
+        if offline or pinned:
             commit=r.get('inspected_commit') or r.get('legacy_cache',{}).get('commit')
             if not commit: raise RuntimeError('No pinned cache available')
         else:
@@ -376,7 +385,8 @@ def ingest(full_name, offline=False,max_files=None,structure_only=False,snapshot
                 raise
             commit=head['sha']; write(cache_path(r,commit)/'commit.json',head)
             r.setdefault('metadata',{})['live_metadata']='FRESH'
-        r['current_commit']=commit
+        if not pinned:
+            r['current_commit']=commit
         if r.get('inspected_commit')!=commit and r.get('inspected_commit'):
             archive_record(r); r['previous_inspected_commit']=r['inspected_commit']; r['phases']={k:False for k in r['phases']}; r['deep_review']={'completed':False,'reviewer':None,'evidence':[]}
             r['inspection_date']=now()

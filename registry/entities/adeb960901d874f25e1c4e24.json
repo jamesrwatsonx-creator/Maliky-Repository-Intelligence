@@ -1,0 +1,57 @@
+{
+  "id": "entity:adeb960901d874f25e1c4e24",
+  "entity_type": "CLI",
+  "name": "IRIS image inference command",
+  "description": "Command-line reference loading an input eye image with OpenCV, constructing an IRImage and invoking the default IRIS recognition pipeline through --in_img.",
+  "source": {
+    "repository_id": "repository:1428170367",
+    "repository_name": "jamesrwatsonx-creator/world-open-iris",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-open-iris",
+    "upstream_url": "https://github.com/worldcoin/open-iris",
+    "source_path": "scripts/common/run_iris_pipeline.py",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "inspection_date": "2026-10-22T00:00:51.132541+00:00",
+    "blob_sha": "8053d7c8ca84a5eeffb7699203afed8fb4d75d80",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/scripts/common/run_iris_pipeline.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:command-line-iris-image-inference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "open-iris Python package",
+      "NumPy",
+      "OpenCV",
+      "Pydantic IRIS algorithm parameters and data models"
+    ],
+    "overlap": "A separately callable IRIS algorithm or subsystem. Compose through the package's IRImage/GeometryPolygons/IrisTemplate contracts; types, callbacks and mathematical helpers are shared dependencies. This is biometric processing, not a complete authorized identity service.",
+    "language": "Python",
+    "license": "MIT for repository software",
+    "runtime_tested": false,
+    "data_sensitivity": "Biometric images, iris templates and derived measurements; protect inputs, traces and outputs."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "REFERENCE",
+  "contribution_role": "REFERENCE"
+}

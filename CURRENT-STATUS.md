@@ -6,20 +6,25 @@ Fresh authenticated discovery reconciled 730 accessible/owned repositories:
 717 public and 13 private. All seven public IDs absent from the starting manifest
 were added and ingested. Private identities and source remain in ignored `.local/`.
 
-The canonical catalog currently contains 34 complete repositories, 9,872 active
-entities (8,298 verified and 1,574 candidates), 2,330 capability records and 12,919
-search documents. Nine repositories reached completion in this session. Bludit,
-LiveKit-index, the Vapi Next.js demo, Radix Themes and the calendar heatmap received
-explicit source-reviewed census decisions. Four previously finished semantic
+The canonical catalog currently contains 44 complete repositories, 9,945 active
+entities (8,395 verified and 1,550 candidates), 2,402 capability records and 13,064
+search documents. Nineteen repositories reached completion in this session.
+Source-reviewed cohorts now include the World ID SDK surfaces, Open IRIS biometric
+pipeline modules, voice/UI assets, agent skills, documentation-only branch indexes,
+scaffold templates and model-release references. Four previously finished semantic
 reviews had their remaining census/scoped-review bookkeeping reconciled. A further
 30-repository pinned extraction batch was preserved for semantic review.
 
-The full corpus is still in progress: 683 repositories remain in the canonical
+The full corpus is still in progress: 673 repositories remain in the canonical
 queue. Use `docs/CODEX-RESUME.md` and `system/inspection-state.json` for the exact
 resume pointer. Source-reviewed cohort plans run through the existing
 `review_extracted_batch.py --plan` entrypoint; static candidates are never
 automatically promoted. JEV/TypeSafe is unavailable, so source-backed deterministic
-work continues while optional decisions remain explicitly deferred.
+work continues while optional decisions remain explicitly deferred. A second
+fully paginated authenticated refresh found no additional public IDs; all 717
+live public IDs reconcile with the canonical manifest. Six of the seven additions
+from the first refresh have completed semantic review; Freebuff remains queued.
+Canonical writes and generated-view builds are serialized at checkpoints.
 
 The historical sections below describe earlier checkpoints, not current counts.
 

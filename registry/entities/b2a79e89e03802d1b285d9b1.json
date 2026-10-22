@@ -1,0 +1,57 @@
+{
+  "id": "entity:b2a79e89e03802d1b285d9b1",
+  "entity_type": "MODEL_ADAPTER",
+  "name": "ONNXMultilabelSegmentation",
+  "description": "ONNX Runtime eye-segmentation adapter validating a local ONNX model, preparing infrared image tensors, running CPU inference and returning resized multilabel segmentation maps; a factory can retrieve model files from Hugging Face.",
+  "source": {
+    "repository_id": "repository:1428170367",
+    "repository_name": "jamesrwatsonx-creator/world-open-iris",
+    "repository_url": "https://github.com/jamesrwatsonx-creator/world-open-iris",
+    "upstream_url": "https://github.com/worldcoin/open-iris",
+    "source_path": "src/iris/nodes/segmentation/onnx_multilabel_segmentation.py",
+    "inspected_commit": "ba232f566ee0f244c503bd8ce3213200c369927c",
+    "inspection_date": "2026-10-22T00:00:51.132541+00:00",
+    "blob_sha": "6fe744493eedf24621450d2b3950682fd5b90fed",
+    "line": 1
+  },
+  "evidence": [
+    {
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/world-open-iris/blob/ba232f566ee0f244c503bd8ce3213200c369927c/src/iris/nodes/segmentation/onnx_multilabel_segmentation.py#L1"
+    }
+  ],
+  "review_status": "VERIFIED",
+  "categories": [
+    "category:libraries-packages",
+    "category:machine-learning-models",
+    "category:privacy"
+  ],
+  "operational_category": "operational:08",
+  "secondary_operational_categories": [],
+  "capabilities": [
+    "capability:onnx-infrared-eye-segmentation-inference"
+  ],
+  "studios": [],
+  "ideas": [],
+  "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
+    "review_policy": "LEAN",
+    "standalone": "PARTIAL",
+    "dependencies": [
+      "ONNX",
+      "ONNX Runtime CPU provider",
+      "NumPy/OpenCV",
+      "huggingface-hub for the optional download factory",
+      "Trusted compatible eye-segmentation weights"
+    ],
+    "overlap": "A separately callable IRIS algorithm or subsystem. Compose through the package's IRImage/GeometryPolygons/IrisTemplate contracts; types, callbacks and mathematical helpers are shared dependencies. This is biometric processing, not a complete authorized identity service.",
+    "language": null,
+    "license": "MIT",
+    "deployment_warning": "The Hugging Face helper does not pin a revision in the source call. Pin and verify the external model artifact for reproducible deployment."
+  },
+  "scores": {},
+  "tier": null,
+  "tier_reason": null,
+  "recommendation": "USE AS LIBRARY",
+  "contribution_role": "MODULE"
+}

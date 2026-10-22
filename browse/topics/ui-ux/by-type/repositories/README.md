@@ -2,7 +2,7 @@
 
 Repositories tagged under UI/UX.
 
-**41 entries** · Alphabetical · 1 page.
+**42 entries** · Alphabetical · 1 page.
 
 [Back to Ui Ux](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -88,3 +88,5 @@ Repositories tagged under UI/UX.
   Source: [jamesrwatsonx-creator/whiteboard](https://github.com/jamesrwatsonx-creator/whiteboard) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418751465.json) — 💸 Crypto Payments straight to your wallet. DePay simplifies Web3 integration for developers, harnessing DeFi to accept any token effortlessly. Integrate frictionless, real-time token conversion with sleek, customizable…<br>
   Source: [jamesrwatsonx-creator/widgets---web3-payments](https://github.com/jamesrwatsonx-creator/widgets---web3-payments) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1428170367.json) — Open Iris Recognition Inference System (IRIS)<br>
+  Source: [jamesrwatsonx-creator/world-open-iris](https://github.com/jamesrwatsonx-creator/world-open-iris) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Machine-learning models, Privacy

@@ -1,13 +1,9 @@
 # Web Apps — page 5
 
-1,178 catalog entries · Sorted alphabetically by name · Page 5 of 8.
+1,175 catalog entries · Sorted alphabetically by name · Page 5 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [LoadPreviousButton](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A740ca6dba114405034081ff3.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [cli/src/components/load-previous-button.tsx](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/cli/src/components/load-previous-button.tsx#L12) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
-- [LocalFilePreview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A846739b4b56ccb391559674b.json) — Hermes desktop app React component Local File Preview (preview-file.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/chat/right-rail/preview-file.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/chat/right-rail/preview-file.tsx#L686) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [LoginModal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A42ff06e993093132e79045e5.json) — Exported JSX component candidate<br>
   Source: [jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-) · [cli/src/components/login-modal.tsx](https://github.com/jamesrwatsonx-creator/freebuff-vibe-coding-like-Lovable-/blob/aac5357ea3e677594f39ed62bfccd329bb9cdf40/cli/src/components/login-modal.tsx#L35) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [LogsPage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A73ca2726ff59a5965bb3cf44.json) — Exported JSX component candidate<br>
@@ -304,6 +300,10 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [web/src/pages/PluginsPage.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/web/src/pages/PluginsPage.tsx#L281) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [PluginsSettings](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00fb38ee0e9daa04c5b23ab1.json) — Hermes desktop app React component Plugins Settings (plugins-settings.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/settings/plugins-settings.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/settings/plugins-settings.tsx#L357) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [PNG to PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aac95daf6396d4ed14e0252f6.json) — Create a PDF from one or more PNG images.<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/png-to-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/png-to-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
+- [polymarket/scraping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abfde0f76f230ca5137a93b76.json) — Domain skill: Polymarket — Market Data, Outcomes & Comments. Polymarket (polymarket.com) is a Next.js SPA. Its DOM is selector-hostile — class names are CSS-module hashes that rotate on every deploy (stylesrowaB3cD),…<br>
+  Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/polymarket/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/polymarket/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 
 ## Pages
 

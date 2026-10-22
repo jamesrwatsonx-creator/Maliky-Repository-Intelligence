@@ -17,300 +17,608 @@
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-04-14T09:20:52Z",
-    "live_metadata": "FRESH"
+    "live_metadata": "FRESH",
+    "github_description": "Javascript toolkit to interact with the World ID protocol. Building the Identity SDK."
   },
-  "state": "NEEDS_REVIEW",
+  "state": "COMPLETE",
   "inspected_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
   "current_commit": "bd8ea11510afacf5c9b16220c97765a68e6fa57b",
   "inspection_date": "2026-10-21T23:16:11.699513+00:00",
-  "categories": [],
-  "operational_category": "operational:25",
+  "categories": [
+    "category:sdks-client-libraries",
+    "category:iam",
+    "category:privacy"
+  ],
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:world-idkit-js-package-idkit-monorepo",
-    "capability:world-idkit-js-package-with-expo",
-    "capability:world-idkit-js-package-with-html",
-    "capability:world-idkit-js-package-with-next",
-    "capability:world-idkit-js-package-with-session",
-    "capability:world-idkit-js-package-worldcoin-idkit",
-    "capability:world-idkit-js-package-worldcoin-idkit-core",
-    "capability:world-idkit-js-package-worldcoin-idkit-react-native",
-    "capability:world-idkit-js-package-worldcoin-idkit-standalone",
-    "capability:world-idkit-js-ui-component-home",
-    "capability:world-idkit-js-ui-component-homescreen",
-    "capability:world-idkit-js-ui-component-idkitdemo",
-    "capability:world-idkit-js-ui-component-rootlayout",
-    "capability:world-idkit-js-ui-component-shadowhost",
-    "capability:world-idkit-js-workflow-ci",
-    "capability:world-idkit-js-workflow-release",
-    "capability:world-idkit-js-workflow-validate-pr-conventions"
+    "capability:browser-headless-world-id-sessions",
+    "capability:expo-world-id-integration-reference",
+    "capability:html-world-id-embedding-reference",
+    "capability:html-world-id-widget-embedding",
+    "capability:next-js-world-id-verification-reference",
+    "capability:react-headless-world-id-sessions",
+    "capability:react-native-world-id-integration",
+    "capability:react-world-id-integration",
+    "capability:react-world-id-widget-control",
+    "capability:world-id-backend-proof-verification",
+    "capability:world-id-headless-qr-integration-reference",
+    "capability:world-id-proof-input-encoding",
+    "capability:world-id-verification-modal-and-inline-ui",
+    "capability:world-id-verification-session-transport"
   ],
   "studios": [],
   "ideas": [],
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE AS LIBRARY",
   "entity_census": {
     "SKILL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "MCP_SERVER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "MCP_CLIENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "TOOL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "PLUGIN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "AGENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "AGENT_FRAMEWORK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "WORKFLOW": {
       "detected": 3,
-      "catalogued": 3,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "UI_COMPONENT": {
       "detected": 6,
-      "catalogued": 6,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "catalogued": 1,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "MOBILE_COMPONENT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "DESIGN_SYSTEM": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "PROMPT": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "PROMPT_LIBRARY": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "SERVICE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "API": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "SDK": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 4,
+      "catalogued": 4,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "LIBRARY": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 5,
+      "catalogued": 5,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "PACKAGE": {
       "detected": 9,
-      "catalogued": 9,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "catalogued": 0,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "MODEL": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "MODEL_ADAPTER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "DATASET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "BENCHMARK": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "DATABASE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "CONNECTOR": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "INTEGRATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "AUTOMATION": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "CLI": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "APP": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "INFRASTRUCTURE_MODULE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "TEMPLATE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "REFERENCE_IMPLEMENTATION": {
-      "detected": 0,
-      "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detected": 4,
+      "catalogued": 4,
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "DOCUMENTATION_ASSET": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "OTHER": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "WEBSITE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "WEBSITE_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "DESIGN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "SCREEN_REFERENCE": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     },
     "UI_PATTERN": {
       "detected": 0,
       "catalogued": 0,
-      "detection_scope": "pinned source declarations; semantic review pending",
-      "reviewed": false
+      "detection_scope": "semantic source review",
+      "reviewed": true,
+      "lean_review_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies."
     }
   },
   "deep_review": {
-    "completed": false,
-    "reviewer": null,
-    "evidence": []
+    "completed": true,
+    "required": false,
+    "reviewer": "Source-reviewed cohort decision",
+    "conclusion": "Static integration review establishes the trust boundary: AES-GCM bridge transport and client Confirmed/UI Success states collect a result but do not grant application authorization. The connector URI carries exported ephemeral key material and must not be logged or shared beyond the intended verification flow. verifyCloudProof rejects browser use and performs remote verification, while the host must bind expected application/action/signal and enforce replay/nullifier policy. Custom bridge URL validation enforces HTTPS/root/default-port outside staging-localhost; domain restrictions are warnings, not an allowlist. Widget verification callbacks are optional, the HTML example leaves one empty, the headless demo logs sensitive URI/results, and the Next.js example accepts request-supplied expected values. These limits are retained with the assets; no proof service, cryptographic implementation or runtime was executed or independently certified.",
+    "evidence": [
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/src/bridge.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/src/lib/validation.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/src/lib/backend.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/src/lib/adapters/web-crypto-adapter.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/core/src/lib/adapters/react-native-crypto-adapter.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/packages/react/src/store/idkit.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-next/pages/api/verify.ts#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-html/index.html#L1"
+      },
+      {
+        "type": "source_review",
+        "value": "https://github.com/jamesrwatsonx-creator/world-idkit-js/blob/bd8ea11510afacf5c9b16220c97765a68e6fa57b/examples/with-session/src/app/page.tsx#L1"
+      }
+    ],
+    "runtime_tested": false
   },
   "phases": {
     "structure": true,
-    "entity_extraction": false,
-    "capability_analysis": false,
-    "deep_review": false,
-    "validation": false
+    "entity_extraction": true,
+    "capability_analysis": true,
+    "deep_review": true,
+    "validation": true
   },
-  "visibility_verified_at": "2026-10-21T23:16:10.612901+00:00",
+  "visibility_verified_at": "2026-10-22T00:25:10.745385+00:00",
   "tree_files": 228,
-  "files_read": 154,
-  "entity_count": 18,
+  "files_read": 158,
+  "entity_count": 14,
   "unread_source_files": 0,
-  "next_phase": "CAPABILITY_ANALYSIS",
-  "review_reason": "Static declarations were prepared as candidates; lean semantic review is still required.",
+  "next_phase": "COMPLETE",
   "semantic_review_progress": {
-    "status": "PENDING",
+    "started_at": "2026-10-21T23:57:39.016905+00:00",
+    "completed_at": "2026-10-21T23:57:39.016905+00:00",
+    "status": "COMPLETE",
     "review_policy": "LEAN",
-    "reason": "static_candidates_require_semantic_review",
-    "candidate_entity_count": 18,
-    "source_errors": []
+    "reviewer": "Source-reviewed cohort decision",
+    "final_entity_count": 14,
+    "removed_entity_ids": [
+      "entity:0454c15a29c986fa5fded278",
+      "entity:0b8c45dea15dc9d1f779095c",
+      "entity:0d778401e1dc63847e6f203f",
+      "entity:116aae7659f239bd1f7ce466",
+      "entity:122ebd0aeb0b371267545b04",
+      "entity:14f385f32883ff95ccb83a7b",
+      "entity:23d5cb78f3b4f68546cff5ff",
+      "entity:2abb19f590267da4cc7cd034",
+      "entity:3507c340099837ed7475a162",
+      "entity:3f22b273a37ef6ef26bb18fb",
+      "entity:40c37c7cb93581354696a5a6",
+      "entity:4881fdbf8ed459984aa8e9fc",
+      "entity:716f3981a4d13d67772c345c",
+      "entity:741676b11b36744d7e289a7c",
+      "entity:7fa6f2bcefaaa05c08185bd3",
+      "entity:d2730ed6ec3e57c13c69deb3",
+      "entity:ddbf2e7e8b31b3dcb520be45",
+      "entity:ebecbd41ec8455f6c55016ad"
+    ],
+    "confirmed_capabilities": [
+      "capability:browser-headless-world-id-sessions",
+      "capability:expo-world-id-integration-reference",
+      "capability:html-world-id-embedding-reference",
+      "capability:html-world-id-widget-embedding",
+      "capability:next-js-world-id-verification-reference",
+      "capability:react-headless-world-id-sessions",
+      "capability:react-native-world-id-integration",
+      "capability:react-world-id-integration",
+      "capability:react-world-id-widget-control",
+      "capability:world-id-backend-proof-verification",
+      "capability:world-id-headless-qr-integration-reference",
+      "capability:world-id-proof-input-encoding",
+      "capability:world-id-verification-modal-and-inline-ui",
+      "capability:world-id-verification-session-transport"
+    ],
+    "implementation_details_not_catalogued": [
+      "Widget state screens, shadow DOM host, localization strings and ordinary utility/type files",
+      "Crypto adapter plumbing is a dependency of the session SDK rather than separate primitive implementations",
+      "Example platform shell files and generated Android/iOS project scaffolding",
+      "Routine CI and release workflows"
+    ],
+    "coverage_note": "Full tree and 158 text files reconciled, including HTML/CSS missed by the earlier extension classifier. Four published packages define platform SDK boundaries. The core explicitly exports independent hashing and backend-verification subpaths; React exports the widget and two distinct hooks; standalone exposes a headless session facade. Four platform examples are retained as whole integration references. Package records are reclassified as SDKs, and example package/component detections are folded into their integration references. Widget state fragments, ShadowHost, translation strings, crypto adapters, generated native scaffolding, types and routine workflows are implementation details/dependencies.",
+    "source_review": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "ea127f8f2176171b0c87c6ff7437c8fb3cf1d535"
+      },
+      {
+        "path": "README.md",
+        "blob_sha": "ffd85aff70ebbf358b2ea3702f1e120d70f7eead"
+      },
+      {
+        "path": "examples/with-expo/components/IDKitDemo.tsx",
+        "blob_sha": "f7b68bf6e3690952a31d9555d8a000d025b6ab10"
+      },
+      {
+        "path": "examples/with-html/index.html",
+        "blob_sha": "6016aa66b361ae5501aa82b698ca36b54eb3d069"
+      },
+      {
+        "path": "examples/with-next/pages/api/verify.ts",
+        "blob_sha": "d996f4cb42d12d890f9f627b63c92647fd2dea2d"
+      },
+      {
+        "path": "examples/with-next/pages/index.tsx",
+        "blob_sha": "74074ef0ba6038d2014e60428b04d17a07b69717"
+      },
+      {
+        "path": "examples/with-session/src/app/page.tsx",
+        "blob_sha": "7d4eb61b11fcc85b8867f4c9709653a5b994938c"
+      },
+      {
+        "path": "packages/core/package.json",
+        "blob_sha": "8800375235ca90aa23f98b60f5c4f9a53cc23d8f"
+      },
+      {
+        "path": "packages/core/src/bridge.ts",
+        "blob_sha": "1b76937df723572b829bd91787cbec2c98edf54d"
+      },
+      {
+        "path": "packages/core/src/index.ts",
+        "blob_sha": "c9f0d759233c26d76f8c64cbe904c6d456474b66"
+      },
+      {
+        "path": "packages/core/src/lib/adapters/react-native-crypto-adapter.ts",
+        "blob_sha": "36d3b1329e8b537726486c57791ebba09656c702"
+      },
+      {
+        "path": "packages/core/src/lib/adapters/web-crypto-adapter.ts",
+        "blob_sha": "4781e627c8743d6929dc0618248137dc7357ad26"
+      },
+      {
+        "path": "packages/core/src/lib/backend.ts",
+        "blob_sha": "2008e1e4352a3263310a2641fff4148bc61366ee"
+      },
+      {
+        "path": "packages/core/src/lib/crypto.ts",
+        "blob_sha": "4f2ee608db96bbbd40a20f8c72e5f814c583e343"
+      },
+      {
+        "path": "packages/core/src/lib/hashing.ts",
+        "blob_sha": "356977cdd07541d3f1e94fe382a3ca9886438dde"
+      },
+      {
+        "path": "packages/core/src/lib/validation.ts",
+        "blob_sha": "59c7a2a17ab698203bcb18c0869b3a4aff8a1300"
+      },
+      {
+        "path": "packages/react-native/package.json",
+        "blob_sha": "340ca7a507b9e445ffeb91a3edaa0d0b49dd4fe9"
+      },
+      {
+        "path": "packages/react-native/src/session.ts",
+        "blob_sha": "9f11f8e0bd8941c612c936a0bea44493bbc3dc0c"
+      },
+      {
+        "path": "packages/react/package.json",
+        "blob_sha": "5f104c012404cccf6fbec934132c4b6723718fbc"
+      },
+      {
+        "path": "packages/react/src/components/IDKitWidget/BaseWidget.tsx",
+        "blob_sha": "895dc5ca31d065a01e1c367478b97c694968f8e1"
+      },
+      {
+        "path": "packages/react/src/hooks/useIDKit.ts",
+        "blob_sha": "43a672dce204470d4a5ce427ad930f8b22bd3a88"
+      },
+      {
+        "path": "packages/react/src/hooks/useSession.ts",
+        "blob_sha": "06237465ce61c45ede3b9a41059eef71b583ddc2"
+      },
+      {
+        "path": "packages/react/src/index.ts",
+        "blob_sha": "d0cd2f16696fbb8636cc40a828160b77c3ca1d8b"
+      },
+      {
+        "path": "packages/react/src/store/idkit.ts",
+        "blob_sha": "a309d68644774b933e195ffa4a0d329156650030"
+      },
+      {
+        "path": "packages/standalone/package.json",
+        "blob_sha": "c7690edba7692f7a91fa46293821c8780e2b75de"
+      },
+      {
+        "path": "packages/standalone/src/index.tsx",
+        "blob_sha": "80ec0cab6313ca58a4aac1a565e7daaff101fa57"
+      },
+      {
+        "path": "packages/standalone/src/session.ts",
+        "blob_sha": "064bc4a99f557096f4a071cb145cd7509bad63f6"
+      }
+    ],
+    "excluded_candidates": [
+      {
+        "id": "entity:23d5cb78f3b4f68546cff5ff",
+        "reason": "Root private monorepo package is build orchestration rather than a published SDK."
+      },
+      {
+        "id": "entity:0454c15a29c986fa5fded278",
+        "reason": "Package detections are replaced by the four platform SDK boundaries; ShadowHost is an internal implementation part of the independently retained IDKitWidget."
+      },
+      {
+        "id": "entity:0d778401e1dc63847e6f203f",
+        "reason": "Package detections are replaced by the four platform SDK boundaries; ShadowHost is an internal implementation part of the independently retained IDKitWidget."
+      },
+      {
+        "id": "entity:716f3981a4d13d67772c345c",
+        "reason": "Package detections are replaced by the four platform SDK boundaries; ShadowHost is an internal implementation part of the independently retained IDKitWidget."
+      },
+      {
+        "id": "entity:d2730ed6ec3e57c13c69deb3",
+        "reason": "Package detections are replaced by the four platform SDK boundaries; ShadowHost is an internal implementation part of the independently retained IDKitWidget."
+      },
+      {
+        "id": "entity:ebecbd41ec8455f6c55016ad",
+        "reason": "Package detections are replaced by the four platform SDK boundaries; ShadowHost is an internal implementation part of the independently retained IDKitWidget."
+      },
+      {
+        "id": "entity:0b8c45dea15dc9d1f779095c",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:122ebd0aeb0b371267545b04",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:14f385f32883ff95ccb83a7b",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:2abb19f590267da4cc7cd034",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:3507c340099837ed7475a162",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:40c37c7cb93581354696a5a6",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:4881fdbf8ed459984aa8e9fc",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:741676b11b36744d7e289a7c",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:7fa6f2bcefaaa05c08185bd3",
+        "reason": "Example package/screen/layout detections are folded into the four independently retained platform integration references."
+      },
+      {
+        "id": "entity:116aae7659f239bd1f7ce466",
+        "reason": "Routine CI, PR convention checks and release packaging are repository maintenance details."
+      },
+      {
+        "id": "entity:3f22b273a37ef6ef26bb18fb",
+        "reason": "Routine CI, PR convention checks and release packaging are repository maintenance details."
+      },
+      {
+        "id": "entity:ddbf2e7e8b31b3dcb520be45",
+        "reason": "Routine CI, PR convention checks and release packaging are repository maintenance details."
+      }
+    ]
   }
 }

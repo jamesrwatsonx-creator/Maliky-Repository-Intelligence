@@ -1,6 +1,6 @@
 # Backend — page 3
 
-765 catalog entries · Sorted alphabetically by name · Page 3 of 6.
+769 catalog entries · Sorted alphabetically by name · Page 3 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -8,6 +8,10 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4726) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [GatewayRunner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afbaf59043bb202a1d6ea4812.json) — Main gateway controller (entry point for messaging platform integrations): manages the lifecycle of all platform adapters and routes messages to and from the agent; inbound user authorization lives in…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [gateway/run.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/gateway/run.py#L6726) · SERVICE · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [Gauntlet product flow specification](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae1271871e1a7202b7112b1f1.json) — Product specification for objective/bar intake, prompt compilation, execution telemetry, constraint ledger, benchmark comparison and a saved-project library, including the server-side private-configuration boundary.<br>
+  Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · [docs/PRODUCT-SPEC.md](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop/blob/820de323a18f51e60c6fd979ab2b8de5c8f08e04/docs/PRODUCT-SPEC.md#L1) · DOCUMENTATION_ASSET · VERIFIED · PINNED_SOURCE · Documentation, Architecture maps, Agent workflows
+- [Gauntlet prompt compiler contract](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4cb12d4265701505c9569e31.json) — Input/output contract for compiling build objective, quality bar, environment and success constraints into project-specific execution instructions using protected server-side configuration.<br>
+  Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · [docs/PROMPT-COMPILER.md](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop/blob/820de323a18f51e60c6fd979ab2b8de5c8f08e04/docs/PROMPT-COMPILER.md#L1) · DOCUMENTATION_ASSET · VERIFIED · PINNED_SOURCE · Documentation, Architecture maps, Agent workflows
 - [gemini-agents-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aff7cec33ed35d3135f381b8c.json) — Manages custom Agent resources on Gemini Enterprise Agent Platform. Use when the user wants to programmatically create, configure, list, update, or delete stateful, server-managed Agent resources (including mounting…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/gemini-agents-api/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/gemini-agents-api/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [gemini-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac0699a317d887a53609c7af7.json) — Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK.…<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/ito-training/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/ito-training/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418668015.json) — Zero-knowledge one-time secret and file sharing. End-to-end encrypted, self-hosted, open source.<br>
   Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · REPOSITORY · COMPLETE · PINNED_SOURCE · Application security, Backend services, CLI tools
-- [jamesrwatsonx-creator/API](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396769359.json) — Documentation and Samples for the Official HN API<br>
-  Source: [jamesrwatsonx-creator/API](https://github.com/jamesrwatsonx-creator/API) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
-- [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418677528.json) — The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

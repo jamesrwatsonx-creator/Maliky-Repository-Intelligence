@@ -1,9 +1,11 @@
 # AI Agents — page 12
 
-2,934 catalog entries · Sorted alphabetically by name · Page 12 of 20.
+2,936 catalog entries · Sorted alphabetically by name · Page 12 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [list_mcp_catalog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A65fd0180ec35fdaa557c81e9.json) — GET /api/mcp/catalog - Browse the Nous-approved MCP catalog (the optional-mcps/ manifests).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L404) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [list_mcp_servers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A67dc835f952e6d9fa854b1ea.json) — GET /api/mcp/servers - handler list_mcp_servers<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/mcp.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/mcp.py#L62) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [list_oauth_providers](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad833f12b7f3ce3e3b59dce9b.json) — GET /api/providers/oauth - Enumerate every OAuth-capable LLM provider with current status.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-engineering-analytics/agents/migration-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-engineering-analytics/agents/migration-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [migration-project-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2047fa4745865c376e534156.json) — Coordinate overall migration project activities with planning, resource allocation, and progress tracking<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/migration-project-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/migration-project-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [migration-readiness-assessor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa11cba397215b9f2aab363ee.json) — Assess overall readiness for migration initiatives through multi-dimensional scoring, blocker identification, and risk-benefit analysis<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/agents/migration-readiness-assessor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/agents/migration-readiness-assessor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

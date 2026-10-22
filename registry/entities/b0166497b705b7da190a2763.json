@@ -2,7 +2,7 @@
   "id": "entity:b0166497b705b7da190a2763",
   "entity_type": "PLUGIN",
   "name": "improve",
-  "description": "Point it at a codebase and it figures out what's worth doing — bugs, perf, tech debt, what to build next — then writes plans any agent can execute. It can hand the work to a cheaper model and review the result. It never edits your code.",
+  "description": "Plugin manifest distributing the improve advisor skill and its audit, plan-template and follow-through references.",
   "source": {
     "repository_id": "repository:1342998426",
     "repository_name": "jamesrwatsonx-creator/improve",
@@ -16,33 +16,39 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": ".claude-plugin/plugin.json"
-    },
-    {
-      "type": "manifest",
-      "value": "improve"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/improve/blob/03369ee6d7cafbfcecc4346539b05b3dc0a603bb/.claude-plugin/plugin.json#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:plugins-extensions"
+    "category:skills",
+    "category:developer-tools",
+    "category:ai-evaluation"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:improve-plugin-improve"
+    "capability:codebase-advisor-skill-packaging"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Compatible plugin/Markdown-skill host"
+    ],
+    "overlap": "Prompt-guided advisor and handoff assets, complementing implementation agents and repository audit tooling. The host must enforce read/write boundaries and protect credentials.",
+    "language": null,
+    "license": "MIT",
+    "instruction_asset": true,
+    "runtime_tested": false
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
-  "contribution_role": "COMPONENT"
+  "recommendation": "USE DIRECTLY",
+  "contribution_role": "MODULE"
 }

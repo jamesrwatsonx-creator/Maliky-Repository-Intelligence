@@ -1,9 +1,13 @@
 # AI Agents — page 15
 
-2,934 catalog entries · Sorted alphabetically by name · Page 15 of 20.
+2,936 catalog entries · Sorted alphabetically by name · Page 15 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Protocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A89956ae2da2085703cc7be67.json) — Reusable protocol container: supported message models, allowed replies and message handlers with a digest, mountable on any Agent.<br>
+  Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/src/uagents/protocol.py](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/protocol.py#L18) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [protocol-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad9c77e2fee99b6b6993e2ea5.json) — Expert agent for protocol implementation and RFC compliance. Specializes in RFC interpretation, protocol state machine design, binary protocol implementation, interoperability testing, and backward compatibility…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/agents/protocol-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/agents/protocol-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [prototype-testing-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14194b6c512073e213494fcc.json) — Facilitate and analyze prototype usability testing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/agents/prototype-testing/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/agents/prototype-testing/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [provider-profile-base](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1dc86ed51c16ba288030f80f.json) — Provider profile base class for model providers (providers/base.py).<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/browser-harness](https://github.com/jamesrwatsonx-creator/browser-harness) · [agent-workspace/domain-skills/rest-countries/scraping.md](https://github.com/jamesrwatsonx-creator/browser-harness/blob/41108b8676d4bdb58b26ab3b079c0b7b0f8f3926/agent-workspace/domain-skills/rest-countries/scraping.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Automation/scripting, AI agents
 - [restart_gateway](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac7d7ec778a708f7d1d10d93c.json) — POST /api/gateway/restart - Kick off a ``hermes gateway restart`` in the background.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L4709) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [resume_cron_job](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa8da6776e5ce5ad51ffef236.json) — POST /api/cron/jobs/{job_id}/resume - handler resume_cron_job<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_routers/cron.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_routers/cron.py#L122) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [retaindb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae2059ef0c85e9f8883ab4cc2.json) — RetainDB — cloud memory API with hybrid search and 7 memory types.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/memory/retaindb/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/memory/retaindb/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

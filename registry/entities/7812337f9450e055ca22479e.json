@@ -2,7 +2,7 @@
   "id": "entity:7812337f9450e055ca22479e",
   "entity_type": "SKILL",
   "name": "finn-build",
-  "description": "Claim the next safe agent-ready issue from Linear, implement it, and open a PR. Use when asked to run Finn-loop's builder, work the approved queue, or fix Finn-loop review feedback. Designed for /loop; one pass does one unit of work.",
+  "description": "Builder skill claiming an approved unblocked Linear issue, prioritizing review feedback, implementing only the issue contract, verifying changes and opening a linked GitHub PR without merging.",
   "source": {
     "repository_id": "repository:1310362198",
     "repository_name": "jamesrwatsonx-creator/Finn-loop",
@@ -16,33 +16,42 @@
   },
   "evidence": [
     {
-      "type": "source_path",
-      "value": "skills/finn-build/SKILL.md"
-    },
-    {
-      "type": "manifest",
-      "value": "finn-build"
+      "type": "source_review",
+      "value": "https://github.com/jamesrwatsonx-creator/Finn-loop/blob/7941b62c946154d15c11b7f24931bb8b6e155f01/skills/finn-build/SKILL.md#L1"
     }
   ],
-  "review_status": "NEEDS_REVIEW",
+  "review_status": "VERIFIED",
   "categories": [
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:project-management"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [
-    "capability:finn-loop-skill-finn-build"
+    "capability:approved-linear-issue-to-pull-request-workflow"
   ],
   "studios": [],
   "ideas": [],
   "metadata": {
+    "semantic_review": "Verified from pinned source; runtime not tested",
     "review_policy": "LEAN",
     "standalone": "PARTIAL",
-    "semantic_review": "Static source-declaration candidate; semantic review pending."
+    "dependencies": [
+      "Agent host with relevant code and Git access",
+      "Configured Linear connector/team",
+      "Authenticated GitHub CLI",
+      "Finn-loop issue/PR labels"
+    ],
+    "overlap": "Complementary spec/builder/reviewer roles sharing AC-N/NG-N issue contracts and labels. Permissions and stopping rules are prompt instructions enforced by the executing host, not independent security controls.",
+    "language": null,
+    "license": "MIT",
+    "mutation_scope": "Local code/branches, GitHub PRs and Linear state",
+    "concurrency_limit": "One builder loop per team; assignment is not an atomic lock between sessions on the same account."
   },
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "COMBINE",
   "contribution_role": "SKILL"
 }

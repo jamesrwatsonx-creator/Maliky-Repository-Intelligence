@@ -2,7 +2,7 @@
 
 Repositories tagged under Android.
 
-**51 entries** · Alphabetical · 1 page.
+**53 entries** · Alphabetical · 1 page.
 
 [Back to Android](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -74,6 +74,8 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/Firebase-quickstart-android](https://github.com/jamesrwatsonx-creator/Firebase-quickstart-android) · REPOSITORY · PARTIAL · PINNED_SOURCE · Mobile applications
 - [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965909.json) — A curated collection of 200+ Flutter open source projects to help developers learn and practice Flutter development.<br>
   Source: [jamesrwatsonx-creator/Flutter-Awesome-Projects](https://github.com/jamesrwatsonx-creator/Flutter-Awesome-Projects) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/Google-architecture-templates](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342384020.json) — Documentation branch indexing Google's base and multimodule Android architecture starter branches; implementation code is not present in this pinned tree.<br>
+  Source: [jamesrwatsonx-creator/Google-architecture-templates](https://github.com/jamesrwatsonx-creator/Google-architecture-templates) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Mobile applications, Templates/boilerplates
 - [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343179881.json) — Visualize your year in travel using your Google Location History (Timeline) data<br>
   Source: [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/google-timeline-visualizer) · REPOSITORY · NEEDS_REVIEW · PINNED_SOURCE · General / Other
 - [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350918326.json) — googleads-mobile-android<br>
@@ -106,5 +108,7 @@ Repositories tagged under Android.
   Source: [jamesrwatsonx-creator/saglitzdesign-mcp](https://github.com/jamesrwatsonx-creator/saglitzdesign-mcp) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE · AI agents, AI memory, Business applications
 - [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426098185.json) — Display and control your Android device<br>
   Source: [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/scrcpy) · REPOSITORY · STRUCTURE_COMPLETE · PINNED_SOURCE
+- [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254778868.json) — Curated reference directory linking community Swift and Apple-platform agent skills; no skill implementations are bundled at this revision.<br>
+  Source: [jamesrwatsonx-creator/Swift-Agent-Skills](https://github.com/jamesrwatsonx-creator/Swift-Agent-Skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Skills, Mobile applications
 - [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398401393.json) — An Android library that help you to build app with swipe back gesture.<br>
   Source: [jamesrwatsonx-creator/SwipeBackLayout](https://github.com/jamesrwatsonx-creator/SwipeBackLayout) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications

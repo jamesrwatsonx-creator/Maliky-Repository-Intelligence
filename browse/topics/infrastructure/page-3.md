@@ -1,6 +1,6 @@
 # Infrastructure — page 3
 
-690 catalog entries · Sorted alphabetically by name · Page 3 of 5.
+692 catalog entries · Sorted alphabetically by name · Page 3 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
