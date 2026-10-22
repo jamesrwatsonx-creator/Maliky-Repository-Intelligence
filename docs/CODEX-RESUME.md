@@ -5,9 +5,9 @@
 ## Durable checkpoint
 
 - Canonical branch: `recovery/v1-rebuild`
-- Local HEAD at generation: `4dcaf35337d438c4bb5a42d62a4be4c7e36afb6b`
+- Local HEAD at generation: `1ae70aaa6ef078fa4bcf7ca568fcb73fa1246dee`
 - Latest known pushed SHA: `4dcaf35337d438c4bb5a42d62a4be4c7e36afb6b`
-- Generated at: `2026-10-22T03:36:55.636519+00:00`
+- Generated at: `2026-10-22T03:37:23.396097+00:00`
 - Checkpoint state: Working tree pending checkpoint
 
 ## Live discovery summary
