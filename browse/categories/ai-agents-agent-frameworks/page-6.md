@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 6
 
-1,556 catalog entries · Sorted alphabetically by name · Page 6 of 11.
+1,557 catalog entries · Sorted alphabetically by name · Page 6 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [kanban_list](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aef6c96b03728bb6c3bb5cb4f.json) — List Kanban task summaries so an orchestrator profile can discover work to route. Supports the same core filters as the CLI: assignee, status, tenant, include_archived, and limit. Returns compact rows with ids, title,…<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/kanban_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/kanban_tools.py#L2364) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [kanban_request_changes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab2ac8cccbae527760fef7861.json) — Reviewer verdict: return the current review run to the original implementer with concrete required changes. This closes the review run, reapplies parent dependency gating, and requeues the task without using block-loop…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/kanban_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/kanban_tools.py#L2400) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [kanban_request_review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A060b063f495829c2cc8f3c40.json) — Hand the task off for review: implementation, self-review, and verification are complete and you want a human (or reviewer) to look before it is marked done. Moves the task to the 'review' column and notifies the…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/agents/monetization-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/agents/monetization-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [monte-carlo-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A635aa789485a54ab2d1476f6.json) — Agent specialized in Monte Carlo simulation design, implementation, and statistical analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/monte-carlo-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/monte-carlo-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [Motion Planning Expert Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e6ba474127fe2a250102add.json) — Specialist in motion planning algorithms for mobile robots and manipulators<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/motion-planning-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/motion-planning-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

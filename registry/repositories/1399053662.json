@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "💬 Typebot is a powerful chatbot builder that you can self-host.",
+  "upstream_url": "https://github.com/baptisteArno/typebot.io",
+  "description": "Conversational form and chatbot builder with visual flows, multiple input types, conditional logic, payment steps and third-party integrations.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-30T16:39:14Z",
-    "github_description": "💬 Typebot is a powerful chatbot builder that you can self-host."
+    "github_description": "💬 Typebot is a powerful chatbot builder that you can self-host.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b19de808de32d5f4f376b3c5750676b5f4a656aa",
+  "current_commit": "b19de808de32d5f4f376b3c5750676b5f4a656aa",
+  "inspection_date": "2026-10-22T03:10:48.853835+00:00",
   "categories": [
-    "category:general-other"
+    "category:web-applications",
+    "category:automation-scripting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.340834+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.589899+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,93 @@
     ],
     "updated_at": "2026-10-12T19:04:27.183912+00:00",
     "purpose_established": true
+  },
+  "tree_files": 4296,
+  "files_read": 10,
+  "unread_source_files": 2975,
+  "repository_intelligence": {
+    "purpose": "Conversational form and chatbot builder with visual flows, multiple input types, conditional logic, payment steps and third-party integrations.",
+    "reuse_recommendation": "Use for conversational intake or form workflows; review payment, webhook and personal-data handling before production.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Verify pinned license and review processor terms, data retention and payment handling for deployed forms.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "web application"
+    ],
+    "keywords": [
+      "chatbot builder",
+      "conversational forms",
+      "visual workflows",
+      "payments",
+      "webhooks",
+      "integrations"
+    ],
+    "risk_notes": [
+      "Review license, data protection, security and provider requirements before deployment or integration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Typebot builder and runtime",
+        "purpose": "Creates and serves interactive conversational forms and chatbot workflows.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:59.547444+00:00",
+    "inspected_commit": "b19de808de32d5f4f376b3c5750676b5f4a656aa",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "32213cad479cc053d7f48b9d9626cd836dcd389b",
+        "value": "https://github.com/jamesrwatsonx-creator/invoice-typebot.io/blob/b19de808de32d5f4f376b3c5750676b5f4a656aa/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Visual conversational flow builder",
+        "description": "Authors interactive chatbot and form experiences using prompts, inputs and conditional branches.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:visual-conversational-flow-builder",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Forms and service integrations",
+        "description": "Connects conversations to webhooks and external tools, with support for payment and content inputs.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:forms-and-service-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

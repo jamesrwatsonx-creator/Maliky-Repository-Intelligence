@@ -2,7 +2,7 @@
 
 Memory, context management, knowledge and retrieval systems.
 
-**230 entries** · Alphabetical · 2 pages.
+**229 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -158,6 +158,8 @@ Memory, context management, knowledge and retrieval systems.
   Source: [jamesrwatsonx-creator/Android-images.-fresco](https://github.com/jamesrwatsonx-creator/Android-images.-fresco) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Mobile applications, Libraries/packages
 - [jamesrwatsonx-creator/billion-context](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1423751807.json) — Long-context or persistent-memory system intended to let agents retrieve large amounts of project or conversational context efficiently.<br>
   Source: [jamesrwatsonx-creator/billion-context](https://github.com/jamesrwatsonx-creator/billion-context) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI memory, AI infrastructure, Data engineering
+- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace combining chat, agents, local or hosted models, MCP tools, file handling, shell access, Skills and persistent memory.<br>
+  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Agent frameworks
 - [jamesrwatsonx-creator/claude-mem](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348987638.json) — Persistent memory system for Claude Code that captures session context and makes prior project knowledge retrievable across coding sessions.<br>
   Source: [jamesrwatsonx-creator/claude-mem](https://github.com/jamesrwatsonx-creator/claude-mem) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI memory, Plugins/extensions, Developer tools
 - [jamesrwatsonx-creator/codegraph](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247306274.json) — Local semantic code intelligence tool that builds code graphs and exposes repository navigation/search capabilities to coding agents.<br>
@@ -184,8 +186,6 @@ Memory, context management, knowledge and retrieval systems.
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, AI memory, Agent frameworks
 - [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418866871.json) — Personal AI assistant and knowledge workspace combining searchable personal data, long-term memory, agents and integrations across local or hosted interfaces.<br>
   Source: [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/khoj-agent-and-agent-memory-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, AI memory, AI agents
-- [jamesrwatsonx-creator/knowledge-work-plugins](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406875750.json) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork<br>
-  Source: [jamesrwatsonx-creator/knowledge-work-plugins](https://github.com/jamesrwatsonx-creator/knowledge-work-plugins) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory
 - [jamesrwatsonx-creator/letta-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344531853.json) — Coding agent or developer tool built on Letta memory capabilities, combining repository-aware coding with persistent agent state.<br>
   Source: [jamesrwatsonx-creator/letta-code](https://github.com/jamesrwatsonx-creator/letta-code) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, AI memory, AI agents
 - [jamesrwatsonx-creator/mem0](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247318718.json) — Memory layer and APIs for AI applications that extract, store and retrieve user or agent memories across sessions.<br>
@@ -214,8 +214,6 @@ Memory, context management, knowledge and retrieval systems.
   Source: [jamesrwatsonx-creator/SkillClaw](https://github.com/jamesrwatsonx-creator/SkillClaw) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, AI agents, AI memory
 - [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1315202127.json) — MCP server connecting assistants to Slack workspaces for channel/history search, messages, conversations and workspace actions across supported transports.<br>
   Source: [jamesrwatsonx-creator/slack-mcp-server](https://github.com/jamesrwatsonx-creator/slack-mcp-server) · REPOSITORY · COMPLETE · PINNED_SOURCE · MCP servers, APIs, Business applications
-- [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399047793.json) — :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the…<br>
-  Source: [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/software-scanning-posthog) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, AI memory, Developer tools
 - [jamesrwatsonx-creator/TencentDB-Agent-Memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342764941.json) — Agent memory integration backed by TencentDB or related database services for storing and retrieving persistent conversational context.<br>
   Source: [jamesrwatsonx-creator/TencentDB-Agent-Memory](https://github.com/jamesrwatsonx-creator/TencentDB-Agent-Memory) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI memory, Databases, AI agents
 - [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247317639.json) — Multi-agent LLM framework that simulates financial analyst and trader roles for stock-market research and decision analysis.<br>
@@ -306,6 +304,8 @@ Memory, context management, knowledge and retrieval systems.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-knowledge-graph.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-knowledge-graph.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/planning-with-files/planning-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa4d4ffd7027f908e25e03ac0.json) — Planning with Files - Main orchestrator implementing persistent markdown-based planning with filesystem as extended memory<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/planning-with-files/planning-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/planning-with-files/planning-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/ruflo/ruflo-intelligence](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A713cbcd4287686a4ef08fbd3.json) — Ruflo RuVector Intelligence - Self-optimization cycle: pattern extraction -> reasoning bank -> SONA adaptation -> knowledge graph updates<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/ruflo-intelligence.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/ruflo-intelligence.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

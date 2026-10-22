@@ -1,15 +1,9 @@
 # Skills — page 11
 
-3,151 catalog entries · Sorted alphabetically by name · Page 11 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 11 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [kotlin-testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8dd9d3c9a0f27afc6ab87df8.json) — Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices. Use when writing Kotlin tests with Kotest or MockK, or…<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/kotlin-testing/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/kotlin-testing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [Kotlin/Jetpack Compose Development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a582e2b60ad52b694a29b65.json) — Expert skill for native Android development with Kotlin and Jetpack Compose<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/skills/kotlin-compose/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/skills/kotlin-compose/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [kpi-aggregator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab3939d5f28b8c3c8917a9984.json) — Aggregates KPIs from portfolio companies, normalizes metrics<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/skills/kpi-aggregator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/skills/kpi-aggregator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [kpi-design-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aaebc56b652195f478678d41b.json) — Strategic KPI selection, metric definition, performance dashboard design, and measurement system architecture<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-strategy-advanced/skills/kpi-design-skill/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-strategy-advanced/skills/kpi-design-skill/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [kpi-tracker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A82b7b7542b90a449d82d9982.json) — KPI definition, calculation, and tracking skill for business intelligence dashboards<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/arts-culture/music-album-creation/skills/lyric-writing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/arts-culture/music-album-creation/skills/lyric-writing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [macbook-metrics-setup](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abdefad97784bd545f7af2f62.json) — Replicate the macbook-metrics setup on any Mac — a local, always-on system-metrics collector (CPU, GPU, RAM, disk, network, battery, thermals) built as a Swift CLI, run by launchd every 60s, stored in SQLite, and…<br>
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/ops-and-setup/macbook-metrics-setup/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/ops-and-setup/macbook-metrics-setup/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
+- [macos-codesign-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A092e472463435312467a4c4c.json) — Execute macOS code signing with Developer ID and hardened runtime requirements<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-codesign-workflow/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-codesign-workflow/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [macos-entitlements-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee6b28650eb3495a799e0afa.json) — Generate entitlements.plist with appropriate sandbox capabilities for macOS applications<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-entitlements-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-entitlements-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [macos-notarization-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23d72203db7ccf80fce33d45.json) — Automate Apple notarization with xcrun notarytool for macOS application distribution<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-notarization-workflow/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-notarization-workflow/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

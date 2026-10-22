@@ -10,22 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.",
+  "upstream_url": "https://github.com/worldcoin/developer-portal",
+  "description": "Developer portal combining product documentation, API resources and a web application with an MCP skill surface and permission-related subsystems.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-02T17:56:23Z",
-    "github_description": "The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID."
+    "github_description": "The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b",
+  "current_commit": "b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b",
+  "inspection_date": "2026-10-22T03:15:49.688184+00:00",
   "categories": [
-    "category:apis",
-    "category:developer-tools"
+    "category:web-applications",
+    "category:apis"
   ],
   "operational_category": "operational:12",
   "secondary_operational_categories": [
@@ -37,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +46,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:09.521104+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.961032+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +63,136 @@
     ],
     "updated_at": "2026-10-12T19:04:27.125581+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2343,
+  "files_read": 10,
+  "unread_source_files": 1981,
+  "repository_intelligence": {
+    "purpose": "Developer portal combining product documentation, API resources and a web application with an MCP skill surface and permission-related subsystems.",
+    "reuse_recommendation": "Use as a developer portal pattern; never copy credentials from local setup and review access-control boundaries before integration.",
+    "inspection_scope": "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+    "license_notes": "Review pinned license, credential handling and external API access requirements; local development documentation references required secrets.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "web application",
+      "Hasura"
+    ],
+    "keywords": [
+      "developer portal",
+      "API documentation",
+      "MCP",
+      "web app",
+      "permissions",
+      "developer experience"
+    ],
+    "risk_notes": [
+      "Credential use and permission enforcement need scoped security review before deployment."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Portal web application",
+        "purpose": "Provides the user-facing developer documentation and resource experience.",
+        "evidence_paths": [
+          "README.md",
+          "web/README.md",
+          "web/package.json"
+        ]
+      },
+      {
+        "name": "MCP and permission subsystem",
+        "purpose": "Organizes MCP exposure and access-control support for portal capabilities.",
+        "evidence_paths": [
+          "web/api/mcp/SKILL.md",
+          "web/lib/permissions/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:17:42.142489+00:00",
+    "inspected_commit": "b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4830cb9e8d24c6b4842d4828c2802b072bd1c76d",
+        "value": "https://github.com/jamesrwatsonx-creator/developer-portal/blob/b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "web/README.md",
+        "blob_sha": "b39af16ff535e00d9f28ea27ca0d25bab5349598",
+        "value": "https://github.com/jamesrwatsonx-creator/developer-portal/blob/b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b/web/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "web/package.json",
+        "blob_sha": "4e4e558969be16bde24f68821a8142c3c7ad03d1",
+        "value": "https://github.com/jamesrwatsonx-creator/developer-portal/blob/b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b/web/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "web/api/mcp/SKILL.md",
+        "blob_sha": "16454d1b19c0dca6f5befe01994aedf16063e933",
+        "value": "https://github.com/jamesrwatsonx-creator/developer-portal/blob/b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b/web/api/mcp/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "web/lib/permissions/README.md",
+        "blob_sha": "cf52afe3e48b5dc5e64fd4266a7db0911bbb6214",
+        "value": "https://github.com/jamesrwatsonx-creator/developer-portal/blob/b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b/web/lib/permissions/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "PRESENT",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Developer documentation and portal",
+        "description": "Presents documentation and developer resources through a web-facing portal.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:developer-documentation-and-portal",
+        "evidence_paths": [
+          "README.md",
+          "web/README.md",
+          "web/package.json",
+          "web/api/mcp/SKILL.md",
+          "web/lib/permissions/README.md"
+        ]
+      },
+      {
+        "name": "MCP and API integration surface",
+        "description": "Includes an MCP skill/API area for exposing developer-facing capabilities.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:mcp-and-api-integration-surface",
+        "evidence_paths": [
+          "README.md",
+          "web/README.md",
+          "web/package.json",
+          "web/api/mcp/SKILL.md",
+          "web/lib/permissions/README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

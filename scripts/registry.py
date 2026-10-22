@@ -502,7 +502,16 @@ def summary_errors(repo, evidence):
     known={item['path']:item['blob_sha'] for item in evidence.get('files_read',[])}
     reviewed=info.get('source_evidence',[])
     paths={item.get('path') for item in reviewed}
-    if not reviewed or any(not safe_path(item.get('path','')) or not SHA.fullmatch(item.get('blob_sha') or '') or known.get(item.get('path'))!=item.get('blob_sha') for item in reviewed):
+    def valid_source(item):
+        path=item.get('path','')
+        if item.get('type')=='repository_metadata':
+            metadata={key:repo.get(key) for key in ('id','github_id','full_name','url','upstream_url','inspected_commit','tree_files')}
+            metadata['metadata']={key:(repo.get('metadata') or {}).get(key) for key in ('language','license','github_description')}
+            fingerprint=hashlib.sha256(json.dumps(metadata,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+            return path=='@repository-metadata' and item.get('metadata_sha256')==fingerprint
+        if not safe_path(path): return False
+        return bool(SHA.fullmatch(item.get('blob_sha') or '') and known.get(path)==item.get('blob_sha'))
+    if not reviewed or any(not valid_source(item) for item in reviewed):
         errors.append('summary lacks verified pinned source evidence')
     if not clusters or len(clusters)>20 or len({item.get('id') for item in clusters})!=len(clusters):
         errors.append('invalid repository capability clusters')

@@ -1,15 +1,9 @@
 # Skills — page 12
 
-3,151 catalog entries · Sorted alphabetically by name · Page 12 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 12 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [macos-codesign-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A092e472463435312467a4c4c.json) — Execute macOS code signing with Developer ID and hardened runtime requirements<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-codesign-workflow/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-codesign-workflow/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [macos-entitlements-generator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aee6b28650eb3495a799e0afa.json) — Generate entitlements.plist with appropriate sandbox capabilities for macOS applications<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-entitlements-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-entitlements-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [macos-notarization-workflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A23d72203db7ccf80fce33d45.json) — Automate Apple notarization with xcrun notarytool for macOS application distribution<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-notarization-workflow/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-notarization-workflow/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [macos-sparkle-config](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abaa5f74556b20676426b4b0e.json) — Configure Sparkle framework for macOS auto-updates with appcast, delta updates, and code signing<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/skills/macos-sparkle-config/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/skills/macos-sparkle-config/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [macro-systems](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af5e82d03d0cb552dd07712f6.json) — Expert skill for designing and implementing macro systems including hygienic macros, procedural macros, and macro expansion. Supports pattern-based macros, quasi-quotation, and hygiene management.<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/motion-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/motion-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [motion-ui](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad186c2ae6a1acb1f04427562.json) — Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/motion-ui/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/motion-ui/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [motor-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a26138c1f94b4877054aafe.json) — Motor control algorithms and driver implementation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/motor-control/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/motor-control/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [MoveIt Motion Planning Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aef1968964de7628a9a37cb85.json) — Deep expertise in MoveIt/MoveIt2 configuration and manipulation planning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/moveit-planning/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/moveit-planning/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [MPC Controller Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A216f554879679b30fa8bee48.json) — Expert skill for Model Predictive Control implementation and tuning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/mpc-controller/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/mpc-controller/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

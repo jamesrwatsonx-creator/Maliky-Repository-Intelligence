@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+  "upstream_url": "https://github.com/microsoft/semantic-kernel",
+  "description": "Multi-language SDK and orchestration framework for building AI agents and workflows with plugins, models and enterprise integrations; the repository notes Microsoft Agent Framework as its successor.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-30T18:49:32Z",
-    "github_description": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+    "github_description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "58ad1a3780159300c766477f258a4cdfa768eedf",
+  "current_commit": "58ad1a3780159300c766477f258a4cdfa768eedf",
+  "inspection_date": "2026-10-22T03:10:10.791211+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:agent-frameworks",
+    "category:sdks-client-libraries"
   ],
-  "operational_category": "operational:15",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.186161+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.415845+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,113 @@
     ],
     "updated_at": "2026-10-12T19:04:27.281441+00:00",
     "purpose_established": true
+  },
+  "tree_files": 4856,
+  "files_read": 10,
+  "unread_source_files": 4475,
+  "repository_intelligence": {
+    "purpose": "Multi-language SDK and orchestration framework for building AI agents and workflows with plugins, models and enterprise integrations; the repository notes Microsoft Agent Framework as its successor.",
+    "reuse_recommendation": "Use for existing Semantic Kernel systems; for new Microsoft agent work, evaluate the documented successor and migration path.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Review license and migration guidance; the pinned README identifies Microsoft Agent Framework as successor.",
+    "runtime": [
+      "Python",
+      ".NET/C#",
+      "Java ecosystem"
+    ],
+    "keywords": [
+      "Semantic Kernel",
+      "AI agent framework",
+      "SDK",
+      "plugin orchestration",
+      "Microsoft Agent Framework",
+      "Python",
+      ".NET"
+    ],
+    "risk_notes": [
+      "The project identifies a successor; confirm supported versions and migration direction before starting new dependencies."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Semantic Kernel SDKs",
+        "purpose": "Integrates model calls, plugins and orchestration into applications across supported runtimes.",
+        "evidence_paths": [
+          "README.md",
+          "python/pyproject.toml",
+          "dotnet/README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:58.650332+00:00",
+    "inspected_commit": "58ad1a3780159300c766477f258a4cdfa768eedf",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "02cab29b8f983d06039752b7326c95ecca7a2891",
+        "value": "https://github.com/jamesrwatsonx-creator/semantic-kernel/blob/58ad1a3780159300c766477f258a4cdfa768eedf/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "python/pyproject.toml",
+        "blob_sha": "6bc95f773a90ba3abf9a9ba5672cbc1a10b8c61f",
+        "value": "https://github.com/jamesrwatsonx-creator/semantic-kernel/blob/58ad1a3780159300c766477f258a4cdfa768eedf/python/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "dotnet/README.md",
+        "blob_sha": "f65bc4d5f49a554826827adaba7352e8fe095e66",
+        "value": "https://github.com/jamesrwatsonx-creator/semantic-kernel/blob/58ad1a3780159300c766477f258a4cdfa768eedf/dotnet/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "AI agent and workflow orchestration",
+        "description": "Provides SDK abstractions for connecting models, plugins and application logic into agentic workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ai-agent-and-workflow-orchestration",
+        "evidence_paths": [
+          "README.md",
+          "python/pyproject.toml",
+          "dotnet/README.md"
+        ]
+      },
+      {
+        "name": "Multi-runtime SDKs",
+        "description": "Supports application development across Python and .NET, with additional language ecosystems.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-runtime-sdks",
+        "evidence_paths": [
+          "README.md",
+          "python/pyproject.toml",
+          "dotnet/README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

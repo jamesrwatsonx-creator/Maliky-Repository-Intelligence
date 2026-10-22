@@ -1,0 +1,520 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Review license, data protection, security and provider requirements before deployment or integration."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/Data.awesome-agent",
+                             "commit":  "f1308b1f08e76363da35b0c4cdc3901a6b8f9d33",
+                             "purpose":  "Curated resource catalog spanning AI agent frameworks, libraries, tools, data systems and learning references.",
+                             "categories":  [
+                                                "category:ai-agents",
+                                                "category:reference-implementations"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Review the catalog license and individual upstream project terms.",
+                             "keywords":  [
+                                              "AI agents",
+                                              "agent frameworks",
+                                              "libraries",
+                                              "curated catalog",
+                                              "learning resources"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Agent ecosystem directory",
+                                                             "description":  "Indexes agent frameworks, libraries and software across multiple technical areas.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Awesome Agent catalog",
+                                                              "purpose":  "Provides a broad starting point for discovering agent-building technologies and references.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown reference catalog"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use to shortlist candidates, then verify current project status, security and licensing.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Any-video-yoinks",
+                             "commit":  "6f03720813c22f907d3fb9ba98567f2169446b82",
+                             "purpose":  "Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.",
+                             "categories":  [
+                                                "category:media-publishing",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Check pinned license and ensure downloads comply with copyright and source-site terms.",
+                             "keywords":  [
+                                              "video downloader",
+                                              "yt-dlp",
+                                              "ffmpeg",
+                                              "terminal UI",
+                                              "media extraction"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Video download and conversion workflow",
+                                                             "description":  "Wraps yt-dlp and ffmpeg to retrieve media and combine or extract supported formats.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Interactive terminal interface",
+                                                             "description":  "Provides a React/Ink terminal UI for selecting and managing media operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "yoinks CLI and UI",
+                                                              "purpose":  "Makes video retrieval and media processing accessible through an interactive terminal application.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "Node.js",
+                                             "yt-dlp",
+                                             "ffmpeg"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only for media users have rights to download and process; respect site policies and copyright.",
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/semantic-kernel",
+                             "commit":  "58ad1a3780159300c766477f258a4cdfa768eedf",
+                             "purpose":  "Multi-language SDK and orchestration framework for building AI agents and workflows with plugins, models and enterprise integrations; the repository notes Microsoft Agent Framework as its successor.",
+                             "categories":  [
+                                                "category:agent-frameworks",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Review license and migration guidance; the pinned README identifies Microsoft Agent Framework as successor.",
+                             "asset_presence":  {
+                                                    "agents_frameworks":  "PRESENT",
+                                                    "apis_sdks_services":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Semantic Kernel",
+                                              "AI agent framework",
+                                              "SDK",
+                                              "plugin orchestration",
+                                              "Microsoft Agent Framework",
+                                              "Python",
+                                              ".NET"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "AI agent and workflow orchestration",
+                                                             "description":  "Provides SDK abstractions for connecting models, plugins and application logic into agentic workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Multi-runtime SDKs",
+                                                             "description":  "Supports application development across Python and .NET, with additional language ecosystems.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Semantic Kernel SDKs",
+                                                              "purpose":  "Integrates model calls, plugins and orchestration into applications across supported runtimes.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "python/pyproject.toml",
+                                                                                     "dotnet/README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             ".NET/C#",
+                                             "Java ecosystem"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for existing Semantic Kernel systems; for new Microsoft agent work, evaluate the documented successor and migration path.",
+                             "risk_notes":  [
+                                                "The project identifies a successor; confirm supported versions and migration direction before starting new dependencies."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "python/pyproject.toml",
+                                                   "dotnet/README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoiceninja",
+                             "commit":  "f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc",
+                             "purpose":  "Invoicing and business-finance application offering hosted and self-hosted workflows for managing invoices and related customer transactions.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:finance-accounting"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Verify repository and dependency licenses; assess payment provider, tax and financial-data requirements for deployment.",
+                             "keywords":  [
+                                              "invoicing",
+                                              "billing",
+                                              "accounts receivable",
+                                              "self-hosted finance",
+                                              "SaaS"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Invoice and billing management",
+                                                             "description":  "Supports business invoice creation and management through hosted or self-managed deployments.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Invoice Ninja application",
+                                                              "purpose":  "Provides the core invoicing product and associated business transaction workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "composer.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP",
+                                             "JavaScript",
+                                             "web application"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as a product or workflow reference; production reuse requires scoped payment, tax, access-control and data-protection review.",
+                             "risk_notes":  [
+                                                "Payments and financial data require scoped security, access-control and compliance review."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "composer.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/software-scanning-posthog",
+                             "commit":  "c1be59d35888ab81df5f8f4b654cbd19f9131c47",
+                             "purpose":  "PostHog product analytics platform for understanding user behavior, monitoring sessions and errors, managing feature rollouts and running experiments.",
+                             "categories":  [
+                                                "category:analytics",
+                                                "category:business-applications"
+                                            ],
+                             "operational":  "operational:13",
+                             "license_notes":  "Verify license and review privacy, retention and consent settings for collected product telemetry.",
+                             "keywords":  [
+                                              "product analytics",
+                                              "session replay",
+                                              "feature flags",
+                                              "experimentation",
+                                              "error tracking",
+                                              "self-hosted"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Product analytics and session insight",
+                                                             "description":  "Captures and analyzes product usage, web activity, sessions and errors.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Feature management and experiments",
+                                                             "description":  "Supports feature flags, rollout controls and experimentation against product metrics.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "PostHog analytics platform",
+                                                              "purpose":  "Provides integrated product analytics, session replay and product operations capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "TypeScript/JavaScript",
+                                             "web services"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use where product telemetry is needed; configure consent, sensitive-data masking, access and retention carefully.",
+                             "risk_notes":  [
+                                                "Session replay and analytics can collect sensitive user data; apply privacy and retention controls."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoice-autumn",
+                             "commit":  "7774b4d7fde0ffa1ccf5be177bcdbc537f555182",
+                             "purpose":  "Billing infrastructure for SaaS subscriptions, credit systems, usage-based pricing and plan management.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:finance-accounting"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Check the pinned license and payment-provider terms; credentials and billing data require secure deployment.",
+                             "keywords":  [
+                                              "subscription billing",
+                                              "usage-based pricing",
+                                              "credits",
+                                              "overages",
+                                              "payment infrastructure"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Subscription and usage billing",
+                                                             "description":  "Implements pricing plans, subscriptions, credit balances and usage-based overages for software products.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Autumn billing service",
+                                                              "purpose":  "Provides application-facing billing infrastructure for monetization and usage tracking.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "See pinned package manifests",
+                                             "web services"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Evaluate for SaaS billing only after scoped payment, authentication, webhook and financial-data security review.",
+                             "risk_notes":  [
+                                                "Payments, authentication and financial records require scoped deep review before production integration."
+                                            ],
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoice-typebot.io",
+                             "commit":  "b19de808de32d5f4f376b3c5750676b5f4a656aa",
+                             "purpose":  "Conversational form and chatbot builder with visual flows, multiple input types, conditional logic, payment steps and third-party integrations.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:20",
+                             "license_notes":  "Verify pinned license and review processor terms, data retention and payment handling for deployed forms.",
+                             "keywords":  [
+                                              "chatbot builder",
+                                              "conversational forms",
+                                              "visual workflows",
+                                              "payments",
+                                              "webhooks",
+                                              "integrations"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Visual conversational flow builder",
+                                                             "description":  "Authors interactive chatbot and form experiences using prompts, inputs and conditional branches.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Forms and service integrations",
+                                                             "description":  "Connects conversations to webhooks and external tools, with support for payment and content inputs.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Typebot builder and runtime",
+                                                              "purpose":  "Creates and serves interactive conversational forms and chatbot workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "web application"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for conversational intake or form workflows; review payment, webhook and personal-data handling before production.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoice-crm",
+                             "commit":  "6b37fc70c412fa294ebfd5163082953c339dab86",
+                             "purpose":  "Frappe CRM application for managing leads, deals, activities and sales pipelines with configurable views and integrations.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:crm"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Check repository license and data-access policies for customer and sales records.",
+                             "keywords":  [
+                                              "CRM",
+                                              "lead management",
+                                              "deals",
+                                              "sales pipeline",
+                                              "Kanban",
+                                              "Frappe"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Lead and deal management",
+                                                             "description":  "Tracks leads, deals, activities and sales pipeline progress in a CRM workspace.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Configurable sales workspace",
+                                                             "description":  "Provides custom views and integrated records for organizing sales work.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Frappe CRM application",
+                                                              "purpose":  "Provides a user-facing CRM for managing customer opportunities and sales activity.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "Frappe",
+                                             "JavaScript/TypeScript"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as a CRM product or workflow reference; assess customer-data access, permissions and deployment configuration.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoice-mautic",
+                             "commit":  "9b35bfd3f73da17546d8314b10d281d2ce4a7683",
+                             "purpose":  "Self-hostable marketing automation platform for managing contacts, campaigns, email marketing and integrations with control over deployment and data storage.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:automation-scripting"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Verify license and email-provider requirements; configure consent, unsubscribe and personal-data controls.",
+                             "keywords":  [
+                                              "marketing automation",
+                                              "campaigns",
+                                              "email marketing",
+                                              "contacts",
+                                              "self-hosted"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Marketing campaign automation",
+                                                             "description":  "Builds automated marketing campaigns and communications around audience data and engagement.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Contact and integration management",
+                                                             "description":  "Manages marketing contacts and connections to external services in a self-hosted system.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Mautic marketing platform",
+                                                              "purpose":  "Provides marketing automation workflows and campaign management capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "PHP",
+                                             "web application"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for self-hosted marketing operations after reviewing consent, access control, email deliverability and data retention.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/invoice-chatwoot",
+                             "commit":  "991741ac144d382573deae6a5aebe97e19ad7ef8",
+                             "purpose":  "Omnichannel customer engagement and support platform with a shared inbox, help center and AI-assisted support features.",
+                             "categories":  [
+                                                "category:business-applications",
+                                                "category:web-applications"
+                                            ],
+                             "operational":  "operational:11",
+                             "license_notes":  "Verify pinned license and review access, retention and processor obligations for customer conversations.",
+                             "keywords":  [
+                                              "customer support",
+                                              "shared inbox",
+                                              "omnichannel",
+                                              "help center",
+                                              "AI support agent"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Omnichannel support workspace",
+                                                             "description":  "Unifies customer conversations across channels in an agent-facing support inbox.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Help center and AI support",
+                                                             "description":  "Adds self-service documentation and AI-assisted support workflows around customer service.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Chatwoot support platform",
+                                                              "purpose":  "Provides customer messaging, team collaboration and self-service support capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Ruby on Rails",
+                                             "JavaScript/TypeScript",
+                                             "web application"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as a customer support platform or integration target; scope access control and customer-data protection before connecting systems.",
+                             "risk_notes":  [
+                                                "Customer conversations may contain sensitive information; review access, retention and AI-processing boundaries."
+                                            ],
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         }
+                     ]
+}

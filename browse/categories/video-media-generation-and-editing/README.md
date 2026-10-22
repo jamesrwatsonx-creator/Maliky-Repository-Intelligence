@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**75 entries** · Alphabetical · 1 page.
+**77 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -42,10 +42,12 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/AI-Manga-AI-Comics](https://github.com/jamesrwatsonx-creator/AI-Manga-AI-Comics) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Media/publishing
 - [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399357.json) — Android media library or sample set for loading, playing and managing audio/video in mobile applications.<br>
   Source: [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Android-media) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Media/publishing, SDKs/client libraries
-- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
-  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
+- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.<br>
+  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Developer tools
 - [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372752337.json) — Self-hosted internet archiving platform that saves web pages and associated media for later search and preservation.<br>
   Source: [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/ArchiveBox) · REPOSITORY · COMPLETE · PINNED_SOURCE · Productivity, Media/publishing, Automation/scripting
+- [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414876606.json) — Desktop creative IDE for interactive AI image and video generation, combining visual 2D composition, 3D scene staging, model selection and repeatable generation controls.<br>
+  Source: [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/artcraft) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Media/publishing
 - [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074222.json) — Command-line media editor that automatically cuts video and audio based on loudness and other analysis methods.<br>
   Source: [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/auto-editor) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, CLI tools, Libraries/packages
 - [jamesrwatsonx-creator/auto-subs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074406.json) — Automates subtitle or caption creation and related media processing; confirm supported input formats and transcription pipeline from repository documentation.<br>
@@ -98,6 +100,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Marketing-Cap-Loom-style-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · Marketing/communications, Media/publishing, Business applications
 - [jamesrwatsonx-creator/MoneyPrinter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350930300.json) — Application for generating short-form videos from a topic using local Ollama text generation, media processing and a database-backed job queue.<br>
   Source: [jamesrwatsonx-creator/MoneyPrinter](https://github.com/jamesrwatsonx-creator/MoneyPrinter) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, AI applications, Cloud infrastructure
+- [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408213976.json) — Desktop/web UI for local AI music generation models, with simple and advanced controls for captions, lyrics, BPM, key and duration.<br>
+  Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Media/publishing
 - [jamesrwatsonx-creator/newsjack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388308275.json) — News monitoring and content workflow for identifying timely stories and producing related commentary or marketing materials.<br>
   Source: [jamesrwatsonx-creator/newsjack](https://github.com/jamesrwatsonx-creator/newsjack) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Marketing/communications, Automation/scripting
 - [jamesrwatsonx-creator/Open-Generative-AI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358724031.json) — Web platform for accessing generative image and video workflows through the external MuAPI service.<br>

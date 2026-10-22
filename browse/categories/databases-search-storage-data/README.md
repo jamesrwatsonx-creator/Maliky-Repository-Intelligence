@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**45 entries** · Alphabetical · 1 page.
+**46 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -74,6 +74,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/quantstats](https://github.com/jamesrwatsonx-creator/quantstats) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Finance/accounting, Data visualization
 - [jamesrwatsonx-creator/ragflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346377461.json) — RAG platform focused on document understanding, knowledge base management and grounded question answering for enterprise content.<br>
   Source: [jamesrwatsonx-creator/ragflow](https://github.com/jamesrwatsonx-creator/ragflow) · REPOSITORY · COMPLETE · PINNED_SOURCE · RAG, AI applications, Data engineering
+- [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399047793.json) — PostHog product analytics platform for understanding user behavior, monitoring sessions and errors, managing feature rollouts and running experiments.<br>
+  Source: [jamesrwatsonx-creator/software-scanning-posthog](https://github.com/jamesrwatsonx-creator/software-scanning-posthog) · REPOSITORY · COMPLETE · PINNED_SOURCE · Analytics, Business applications
 - [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389391184.json) — Probabilistic record linkage toolkit for matching records that refer to the same entity across imperfect datasets.<br>
   Source: [jamesrwatsonx-creator/splink](https://github.com/jamesrwatsonx-creator/splink) · REPOSITORY · COMPLETE · PINNED_SOURCE · Data science, Data engineering, Analytics
 - [jamesrwatsonx-creator/yfinance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1335507455.json) — Python library for retrieving historical and current market data from Yahoo Finance endpoints for research and analysis.<br>

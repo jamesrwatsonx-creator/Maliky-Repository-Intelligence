@@ -1,6 +1,6 @@
 # Agent Frameworks — page 2
 
-2,050 catalog entries · Sorted alphabetically by name · Page 2 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 2 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

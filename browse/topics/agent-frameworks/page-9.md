@@ -1,9 +1,11 @@
 # Agent Frameworks — page 9
 
-2,050 catalog entries · Sorted alphabetically by name · Page 9 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 9 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ml-physics-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e9ce8c55393f7217f1197e5.json) — Agent specialized in machine learning applications for physics research<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/ml-physics-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/ml-physics-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [ml-requirements-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adeba7e19be2bb6ef5694f75c.json) — Agent specialized in ML project scoping, requirements gathering, and feasibility assessment.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/agents/ml-requirements-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/agents/ml-requirements-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [ML/RL Robotics Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A99099b28d1a2f10093f4efed.json) — Machine learning and reinforcement learning expert for robot learning applications<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/philosophy/agents/philosophical-theologian-agent/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/philosophy/agents/philosophical-theologian-agent/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [photon-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad39402fdbccbfe09c4afa470.json) — Photon Spectrum gateway adapter for Hermes Agent. Connects to iMessage (and other Spectrum interfaces) through Photon's managed Spectrum platform. Both directions run over the `spectrum-ts` SDK's long-lived gRPC stream…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/photon/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/photon/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [photonics-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A907595abb50876ab74fed326.json) — Agent specialized in photonics, laser systems, and optical device design<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/photonics-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/photonics-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

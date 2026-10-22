@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "A curated list of awesome MCP frameworks, libraries and software.",
+  "upstream_url": "https://github.com/uhub/awesome-mcp",
+  "description": "Curated catalog of Model Context Protocol servers and related resources for discovering agent tool integrations.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2026-09-22T12:51:14Z",
-    "github_description": "A curated list of awesome MCP frameworks, libraries and software."
+    "github_description": "A curated list of awesome MCP frameworks, libraries and software.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "ca1550fbbab256a9e771ccd3e9097bc9fe00c187",
+  "current_commit": "ca1550fbbab256a9e771ccd3e9097bc9fe00c187",
+  "inspection_date": "2026-10-22T03:05:18.530083+00:00",
   "categories": [
-    "category:mcp-servers"
+    "category:mcp-servers",
+    "category:developer-tools"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.586256+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.831788+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.211498+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1,
+  "files_read": 1,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Curated catalog of Model Context Protocol servers and related resources for discovering agent tool integrations.",
+    "reuse_recommendation": "Use to shortlist integrations; inspect each server's source, permission scope and trust model before connecting.",
+    "inspection_scope": "Pinned README, package manifest and representative top-level subsystem review; repository-level capability summary only.",
+    "license_notes": "Review catalog terms and each MCP server's license, permissions and data access independently.",
+    "runtime": [
+      "Markdown catalog",
+      "MCP ecosystem"
+    ],
+    "keywords": [
+      "MCP servers",
+      "Model Context Protocol",
+      "agent tools",
+      "integration catalog",
+      "Maliky"
+    ],
+    "risk_notes": [
+      "Verify upstream licenses and service/platform policies before adopting integrations or referenced projects."
+    ],
+    "important_subsystems": [
+      {
+        "name": "MCP resource catalog",
+        "purpose": "Helps agents and builders find candidate protocol integrations.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:07:08.538686+00:00",
+    "inspected_commit": "ca1550fbbab256a9e771ccd3e9097bc9fe00c187",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "97c5f5c500063aec8dcc362d1568f0f12a9e50ad",
+        "value": "https://github.com/jamesrwatsonx-creator/Maliky-awesome-mcp/blob/ca1550fbbab256a9e771ccd3e9097bc9fe00c187/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "MCP server discovery",
+        "description": "Organizes MCP servers and references that extend agents with external tools and data.",
+        "scope": "REFERENCE",
+        "id": "cluster:mcp-server-discovery",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

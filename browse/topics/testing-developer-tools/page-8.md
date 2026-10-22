@@ -1,9 +1,11 @@
 # Testing & Developer Tools — page 8
 
-1,564 catalog entries · Sorted alphabetically by name · Page 8 of 11.
+1,565 catalog entries · Sorted alphabetically by name · Page 8 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [quantitative-methods](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac2bd3fdffe2d2023b3b1c0bb.json) — Design and execute statistical analyses including regression modeling, hypothesis testing, power analysis, and robustness checks using R, Stata, SPSS, or Python<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/skills/quantitative-methods/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/skills/quantitative-methods/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [Quantum](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7c86d30058d5076d17c5e858.json) — Establish testing frameworks for quantum circuits including unit tests, integration tests, property-based testing, and simulation-based validation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/quantum-computing/quantum-circuit-testing-framework.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/quantum-computing/quantum-circuit-testing-framework.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [quantum-test-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af0be41f9b7773a08248c51b4.json) — Agent specialized in quantum circuit testing and validation frameworks<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/legacy-codebase-assessment.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/legacy-codebase-assessment.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/code-migration-modernization/migration-planning-roadmap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa98a6ce8f4e7966e9b1dad07.json) — Migration Planning and Roadmap - Strategic migration roadmap creation process covering goal definition, strategy selection, target architecture design, phased planning, data migration planning, testing strategy, and…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/migration-planning-roadmap.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/migration-planning-roadmap.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/code-migration-modernization/migration-testing-strategy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5bbf71bdf8df14d2ef4739f9.json) — Migration Testing Strategy - Comprehensive process for planning and implementing testing strategies specific to migration projects, ensuring functional equivalence, data validation, performance verification, and…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/code-migration-modernization/migration-testing-strategy.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/code-migration-modernization/migration-testing-strategy.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

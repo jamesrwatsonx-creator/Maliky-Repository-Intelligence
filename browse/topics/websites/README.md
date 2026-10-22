@@ -2,7 +2,7 @@
 
 Website projects, templates, components and references.
 
-**586 entries**
+**588 entries**
 
 ## Browse within this topic
 
@@ -10,7 +10,7 @@ Website projects, templates, components and references.
 - [Libraries & Packages](by-type/libraries/README.md) (35)
 - [Plugins](by-type/plugins/README.md) (1)
 - [Other Assets](by-type/other-assets/README.md) (11)
-- [Repositories](by-type/repositories/README.md) (67)
+- [Repositories](by-type/repositories/README.md) (69)
 - [Services & Integrations](by-type/services/README.md) (7)
 - [Skills](by-type/skills/README.md) (10)
 - [Templates](by-type/templates/README.md) (2)

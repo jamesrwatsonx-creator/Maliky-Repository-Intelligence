@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**54 entries** · Alphabetical · 1 page.
+**53 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -48,8 +48,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/openwhispr](https://github.com/jamesrwatsonx-creator/openwhispr) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Productivity, AI applications
 - [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419961535.json) — Framework for building realtime voice and multimodal AI assistants by connecting audio transports, speech services, language models and tools.<br>
   Source: [jamesrwatsonx-creator/pipecat-voice](https://github.com/jamesrwatsonx-creator/pipecat-voice) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent frameworks, Generative AI, SDKs/client libraries
-- [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
-  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/python-audio-separator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074846.json) — Python audio source-separation toolkit for splitting music into stems such as vocals and accompaniment using pretrained models.<br>
   Source: [jamesrwatsonx-creator/python-audio-separator](https://github.com/jamesrwatsonx-creator/python-audio-separator) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Media/publishing, Media/publishing
 - [jamesrwatsonx-creator/Qwen3-TTS](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1343005554.json) — Qwen text-to-speech model and toolkit for multilingual speech synthesis, voice design and speech generation workflows.<br>

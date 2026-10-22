@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**166 entries** · Alphabetical · 2 pages.
+**165 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -134,8 +134,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/intercom/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/intercom/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342397304.json) — Android UI library or sample for adding motion blur, haze or visual transition effects to Compose interfaces.<br>
   Source: [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Android-motion-haze) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Creative tools, Reference implementations
-- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
-  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — Curated index of public DESIGN.md files and website design-system examples for browsing visual identity patterns.<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Research projects, Documentation
 - [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — Enhanced shadcn/ui component collection and design patterns for building polished React applications.<br>
@@ -306,6 +304,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/text.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/text.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [TextArea](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A63e7a01a032c3f97ac7cc11f.json) — Themed multiline text input with a styled wrapper and forwarded native textarea props.<br>
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/text-area.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/text-area.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
+- [TextField](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af390d6a4e7564f5058d663fe.json) — Themed text-input module with root input and accessory-slot composition for icons or controls.<br>
+  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/text-field.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/text-field.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 
 ## Pages
 

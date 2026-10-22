@@ -1,6 +1,6 @@
 # Automation / Workflows / Orchestration — page 5
 
-2,324 catalog entries · Sorted alphabetically by name · Page 5 of 16.
+2,326 catalog entries · Sorted alphabetically by name · Page 5 of 16.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -166,6 +166,8 @@
   Source: [jamesrwatsonx-creator/google-maps-scraper](https://github.com/jamesrwatsonx-creator/google-maps-scraper) · REPOSITORY · COMPLETE · PINNED_SOURCE · Real estate/geospatial, Data engineering, Automation/scripting
 - [jamesrwatsonx-creator/huginn-agents-custom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418847990.json) — Custom agents or integrations for Huginn’s event-driven automation platform, enabling monitoring, transformation and actions across services.<br>
   Source: [jamesrwatsonx-creator/huginn-agents-custom](https://github.com/jamesrwatsonx-creator/huginn-agents-custom) · REPOSITORY · COMPLETE · PINNED_SOURCE · Automation/scripting, Agent frameworks, APIs
+- [jamesrwatsonx-creator/invoice-typebot.io](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399053662.json) — Conversational form and chatbot builder with visual flows, multiple input types, conditional logic, payment steps and third-party integrations.<br>
+  Source: [jamesrwatsonx-creator/invoice-typebot.io](https://github.com/jamesrwatsonx-creator/invoice-typebot.io) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Automation/scripting
 - [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1334697613.json) — Public design contracts for a constraint-led prompt compiler and agent-project orchestration control plane; no executable application or private compiler constitution is included.<br>
   Source: [jamesrwatsonx-creator/james-watson-gauntlet-loop](https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Architecture maps, Agent workflows
 - [jamesrwatsonx-creator/langflow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346376406.json) — Visual authoring platform for composing, testing and serving LLM, agent and data workflows through graph-based components.<br>
@@ -176,6 +178,8 @@
   Source: [jamesrwatsonx-creator/n8n](https://github.com/jamesrwatsonx-creator/n8n) · REPOSITORY · COMPLETE · PINNED_SOURCE · Automation/scripting, Business applications, Developer tools
 - [jamesrwatsonx-creator/node-red](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372830467.json) — Flow-based programming tool for wiring devices, APIs and online services into event-driven automation workflows.<br>
   Source: [jamesrwatsonx-creator/node-red](https://github.com/jamesrwatsonx-creator/node-red) · REPOSITORY · COMPLETE · PINNED_SOURCE · Automation/scripting, IoT, Developer tools
+- [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — Presentation-authoring agent skill and plugin that guides creation and refinement of PowerPoint decks using reusable workflows, design rules and reference materials.<br>
+  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Productivity, Creative tools
 - [jamesrwatsonx-creator/Scrapling](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426097819.json) — Adaptive Python web scraping framework for extracting structured data from websites while handling page and site changes.<br>
   Source: [jamesrwatsonx-creator/Scrapling](https://github.com/jamesrwatsonx-creator/Scrapling) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Automation/scripting, Data engineering
 - [jamesrwatsonx-creator/scrapy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426097515.json) — Python framework for crawling websites and extracting structured data through configurable spiders, pipelines and asynchronous requests.<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-analysis.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-analysis.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/bmad-method/bmad-document-project](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A41078c6bcd5d6e7067b8ea8d.json) — BMAD Document Project - Comprehensive project documentation with Paige (Tech Writer)<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-document-project.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-document-project.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/bmad-method/bmad-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A39625597c69e5e84c957ae05.json) — BMAD Implementation Phase - Sprint-based development with dev, QA, and SM agents<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/bmad-method/bmad-orchestrator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7fe6a5c2f0a99e6560e92254.json) — BMAD Method - Full lifecycle AI-driven agile orchestrator with specialized agent personas<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/bmad-method/bmad-orchestrator.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/bmad-method/bmad-orchestrator.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

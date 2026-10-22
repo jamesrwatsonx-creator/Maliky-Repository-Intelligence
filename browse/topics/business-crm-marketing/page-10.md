@@ -1,9 +1,13 @@
 # Business, CRM & Marketing — page 10
 
-1,482 catalog entries · Sorted alphabetically by name · Page 10 of 10.
+1,484 catalog entries · Sorted alphabetically by name · Page 10 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [support-platform-integration](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8a1a23430c253d6a37a2c722.json) — Integration with support and ticketing platforms<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/customer-experience/skills/support-platform-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/customer-experience/skills/support-platform-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [sustainability-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acb22d9a0be6ce9e8990f2f46.json) — Agent specialized in logistics sustainability, carbon footprint tracking, and green logistics initiatives<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/logistics/agents/sustainability-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/logistics/agents/sustainability-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [sustainability-procurement-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af66b928c94807915561a2dc6.json) — Agent specialized in sustainable and ethical procurement practices<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/sustainability-procurement-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/sustainability-procurement-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [sustainable-procurement-assessor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aafb63a98904f9a0ece197206.json) — Sustainability assessment skill for procurement practices and supplier evaluation<br>

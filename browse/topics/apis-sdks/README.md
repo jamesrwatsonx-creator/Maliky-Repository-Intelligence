@@ -2,7 +2,7 @@
 
 API surfaces, client SDKs and service integrations.
 
-**1,668 entries** · Alphabetical · 12 pages.
+**1,680 entries** · Alphabetical · 12 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

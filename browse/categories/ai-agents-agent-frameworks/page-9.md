@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 9
 
-1,556 catalog entries · Sorted alphabetically by name · Page 9 of 11.
+1,557 catalog entries · Sorted alphabetically by name · Page 9 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [rust-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afb1032a2fe43fc6e4afeffc4.json) — Expert Rust code reviewer specializing in ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Use for all Rust code changes. MUST BE USED for Rust projects.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/rust-reviewer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/rust-reviewer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [Safety Engineer Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aff2c4928b7d0de59ad407908.json) — Functional safety expert for robot safety system design and certification<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/safety-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/safety-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [safety-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A243a230d34fb02ad9706ca5f.json) — Reviews AI agents for safety and alignment issues. Audits prompts, outputs, and behaviors for potential risks including bias, toxicity, and harmful content.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supply-chain-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supply-chain-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [supply-chain-digitalization-lead](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A46635c1882f499ef5aa1feb2.json) — Agent specialized in supply chain digital transformation and technology adoption<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supply-chain-digitalization-lead/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supply-chain-digitalization-lead/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [supply-chain-network-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3cc1a2be9fa41b1e619da1da.json) — Agent specialized in supply chain network design, optimization, and transformation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supply-chain-network-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supply-chain-network-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -1,9 +1,13 @@
 # Search & Indexing — page 6
 
-776 catalog entries · Sorted alphabetically by name · Page 6 of 6.
+778 catalog entries · Sorted alphabetically by name · Page 6 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [web-searxng](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abbb39ecdedc82ad9a8acd3ce.json) — SearXNG web search — free, self-hosted, privacy-respecting metasearch engine. Requires SEARXNG_URL pointing at your instance.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/web/searxng/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/web/searxng/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [web-tavily](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af0f1742edca453ec70ae3878.json) — Tavily web search + content extraction. Works keyless (rate-limited); set TAVILY_API_KEY for higher limits — https://app.tavily.com/home.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/web/tavily/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/web/tavily/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [web-xai](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9159ecf183bc8281a24748f7.json) — xAI Web Search — search the web via Grok's agentic web_search tool (Responses API). Requires xAI Grok OAuth (via `hermes auth`) or XAI_API_KEY (https://x.ai).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/web/xai/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/web/xai/plugin.yaml#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [web_search](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac5928cddc1501672087e8326.json) — Search the web for information. Returns up to 5 results by default with titles, URLs, and descriptions. The query is passed through to the configured backend, so operators such as site:domain, filetype:pdf,…<br>

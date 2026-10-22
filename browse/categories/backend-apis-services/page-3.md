@@ -1,9 +1,11 @@
 # Backend / APIs / Services — page 3
 
-422 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+423 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [managed-airflow-dag-authoring](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7ffdc4fd0532300d627675b7.json) — Provides guidance for authoring Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers environment context discovery, Airflow 2 vs 3 compatibility, authoring best practices,…<br>
+  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/managed-airflow-dag-authoring/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/managed-airflow-dag-authoring/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [managed-airflow-migrations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A111eddf4179c135cb292c59e.json) — Provides guidance for migrating Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers migration to Airflow 2.11.1 (MSAA Gen 2 and 3) and Airflow 3 (MSAA Gen 3), including…<br>
   Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/managed-airflow-migrations/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/managed-airflow-migrations/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 - [matrix-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5d10f0ed8d18ce296d87be29.json) — Matrix gateway adapter for Hermes Agent. Connects to a Matrix homeserver via mautrix (with optional E2EE) and relays messages between Matrix rooms/DMs and the Hermes agent. Supports threads, HTML/markdown rendering,…<br>

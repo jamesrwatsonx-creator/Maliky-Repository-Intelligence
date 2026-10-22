@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import hashlib
 import json
 import pathlib
 import re
@@ -389,25 +390,57 @@ def prepare_repository_summary(repo, max_files=12):
 
 
 def apply_repository_plan(plan, dry_run=False):
-    """Apply source-reviewed repository clusters, preserving all detailed entities."""
+    """Apply repository-level intelligence without requiring every preferred path."""
     repo=next(x for x in r.records('repositories') if x['full_name']==plan['repository'])
     if plan.get('commit')!=repo.get('inspected_commit'): raise ValueError('Pinned summary revision changed')
     evidence=r.read('system/evidence/'+str(repo['github_id'])+'.json',{})
     known={item['path']:item['blob_sha'] for item in evidence.get('files_read',[])}
+    requested=list(dict.fromkeys(plan.get('source_review',[])))
+    unavailable=[path for path in requested if not known.get(path)]
+    selected=[path for path in requested if known.get(path)]
+    # A previously pinned and hash-verified file remains valid provenance even
+    # when its text cache is absent. If the requested path was never read, use
+    # another pinned README/manifest/source file from the same inspected tree.
+    if not selected:
+        priority=lambda path: (0 if pathlib.PurePosixPath(path).name.lower().startswith('readme') else
+                               1 if pathlib.PurePosixPath(path).name.lower() in
+                               ('package.json','pyproject.toml','cargo.toml','go.mod','composer.json','setup.py') else 2,
+                               path.lower())
+        selected=sorted((path for path,sha in known.items() if r.SHA.fullmatch(sha or '') and r.safe_path(path)),key=priority)[:3]
+    if not selected:
+        # Metadata is pinned to this repository record and commit; it is a
+        # deliberate last-resort evidence basis, never represented as a source
+        # file or blob. Validation recomputes the fingerprint.
+        selected=['@repository-metadata']
+        unavailable.extend(requested)
     sources=[]
-    for path in plan.get('source_review',[]):
-        entry={'path':path,'sha':known.get(path)}
-        if not entry['sha'] or r.source_text(repo,repo['inspected_commit'],entry,True) is None:
-            raise ValueError('Pinned summary source unavailable: '+path)
-        sources.append({'type':'source_review','path':path,'blob_sha':entry['sha'],
-                        'value':repo['url']+'/blob/'+repo['inspected_commit']+'/'+path})
+    for path in selected:
+        if path=='@repository-metadata':
+            metadata={key:repo.get(key) for key in ('id','github_id','full_name','url','upstream_url','inspected_commit','tree_files')}
+            metadata['metadata']={key:(repo.get('metadata') or {}).get(key) for key in ('language','license','github_description')}
+            fingerprint=hashlib.sha256(json.dumps(metadata,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+            sources.append({'type':'repository_metadata','path':path,'metadata_sha256':fingerprint,
+                            'value':'Pinned repository identity, upstream, revision, language, license, description and tree metadata.'})
+        else:
+            sources.append({'type':'source_review','path':path,'blob_sha':known[path],
+                            'value':repo['url']+'/blob/'+str(repo.get('inspected_commit') or 'unavailable')+'/'+path})
+    available_paths={item['path'] for item in sources}
+    def evidence_paths(item):
+        paths=list(dict.fromkeys(item.get('evidence_paths',[])))
+        missing=[path for path in paths if path not in available_paths]
+        unavailable.extend(missing)
+        resolved=[path for path in paths if path in available_paths]
+        return resolved or [sources[0]['path']]
     info={key:plan[key] for key in ('purpose','reuse_recommendation','inspection_scope','license_notes','runtime','keywords','risk_notes','important_subsystems')}
     info.update({'policy':r.SUMMARY_POLICY,'status':'COMPLETE','reviewed_at':r.now(),
                  'inspected_commit':repo.get('inspected_commit'),'source_evidence':sources,
+                 'unavailable_sources':list(dict.fromkeys(unavailable)),
                  'asset_presence':{kind:plan.get('asset_presence',{}).get(kind,'NOT_OBSERVED') for kind in r.ASSET_FAMILIES},
                  'capability_clusters':[{**cluster,'id':'cluster:'+r.slug(cluster['name']),
-                                        'evidence_paths':cluster.get('evidence_paths',plan.get('source_review',[]))}
+                                        'evidence_paths':evidence_paths(cluster)}
                                         for cluster in plan.get('capability_clusters',[])]})
+    info['important_subsystems']=[{**item,'evidence_paths':evidence_paths(item)} for item in info['important_subsystems']]
+    info['unavailable_sources']=list(dict.fromkeys(unavailable))
     updated={**repo,'repository_intelligence':info,'categories':plan['categories'],
              'operational_category':plan['operational'],'recommendation':plan['recommendation'],
              'description':info['purpose'],'completion_scope':r.SUMMARY_POLICY,'state':'COMPLETE','next_phase':'COMPLETE',

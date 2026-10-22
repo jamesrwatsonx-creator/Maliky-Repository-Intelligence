@@ -10,28 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation",
+  "upstream_url": "https://github.com/qwwiwi/agentos-skills-public",
+  "description": "Collection of agent Skills for website operations and content workflows, including browser use, server checks, monitoring and social publishing.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-26T18:43:43Z",
-    "github_description": "Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation"
+    "github_description": "Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "3a8efdcaa8dce35ebaafd389e4b98ac79a0b0802",
+  "current_commit": "3a8efdcaa8dce35ebaafd389e4b98ac79a0b0802",
+  "inspection_date": "2026-10-22T03:05:33.000193+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:business-applications",
-    "category:creative-tools",
-    "category:developer-tools",
-    "category:frontend-applications",
-    "category:generative-ai",
-    "category:research-projects",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [
@@ -49,7 +44,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -57,13 +52,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.645020+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.800726+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -73,5 +69,102 @@
     ],
     "updated_at": "2026-10-12T19:04:27.331672+00:00",
     "purpose_established": true
+  },
+  "tree_files": 962,
+  "files_read": 10,
+  "unread_source_files": 940,
+  "repository_intelligence": {
+    "purpose": "Collection of agent Skills for website operations and content workflows, including browser use, server checks, monitoring and social publishing.",
+    "reuse_recommendation": "Select individual Skills on demand; review permissions and require confirmation before external publishing or credential use.",
+    "inspection_scope": "Pinned README, package manifest and representative top-level subsystem review; repository-level capability summary only.",
+    "license_notes": "Review repository license and the permissions, credentials and external service terms required by individual Skills.",
+    "runtime": [
+      "Markdown agent instructions",
+      "JavaScript/Python helper packages"
+    ],
+    "keywords": [
+      "agent Skills",
+      "browser automation",
+      "website operations",
+      "content workflows",
+      "monitoring",
+      "social publishing"
+    ],
+    "risk_notes": [
+      "Verify upstream licenses and service/platform policies before adopting integrations or referenced projects."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Skill collection",
+        "purpose": "Packages reusable website and content operations as agent-readable procedures.",
+        "evidence_paths": [
+          "README.md",
+          "skills/agent-browser/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:07:09.379889+00:00",
+    "inspected_commit": "3a8efdcaa8dce35ebaafd389e4b98ac79a0b0802",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8bfd57a315c60503d64505d92c4dacd740893775",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown/blob/3a8efdcaa8dce35ebaafd389e4b98ac79a0b0802/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/agent-browser/SKILL.md",
+        "blob_sha": "e1b27e323dbdf6b3bf74af798f272488b51ebe19",
+        "value": "https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown/blob/3a8efdcaa8dce35ebaafd389e4b98ac79a0b0802/skills/agent-browser/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "PRESENT",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Website operations Skills",
+        "description": "Provides agent instructions for browser-assisted site maintenance, diagnostics and content tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:website-operations-skills",
+        "evidence_paths": [
+          "README.md",
+          "skills/agent-browser/SKILL.md"
+        ]
+      },
+      {
+        "name": "Monitoring and publishing workflows",
+        "description": "Includes workflow-oriented Skills for tracking topics and preparing or publishing social content.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:monitoring-and-publishing-workflows",
+        "evidence_paths": [
+          "README.md",
+          "skills/agent-browser/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

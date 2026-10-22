@@ -1,15 +1,9 @@
 # Skills — page 17
 
-3,151 catalog entries · Sorted alphabetically by name · Page 17 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 17 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [rest-graphql-debug](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fb9799b93e777c53f50b848.json) — Debug REST/GraphQL APIs: status codes, auth, schemas, repro.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/software-development/rest-graphql-debug/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/software-development/rest-graphql-debug/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3ece6a28ba9d77181aacfa.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-omp/skills/resume/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-omp/skills/resume/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58575134b46d1969d5c16e81.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-github/skills/resume/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-github/skills/resume/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aae2db034e762c11773a61ac0.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-pi/skills/resume/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-pi/skills/resume/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aed0c1d44c87dec568c97a9d0.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/network-programming/skills/serialization/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/network-programming/skills/serialization/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [service-mesh](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9dd3f3dc4077097b25a09ec8.json) — Service mesh configuration and operations expertise for Istio, Linkerd, and Consul Connect<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/devops-sre-platform/skills/service-mesh/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/devops-sre-platform/skills/service-mesh/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [serving-llms-vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90a3f107154e3c048e4745ac.json) — vLLM: high-throughput LLM serving, OpenAI API, quantization.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/mlops/inference/serving-llms-vllm/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/mlops/inference/serving-llms-vllm/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [session-librarian](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fd8c632d4b4739e4e05b719.json) — Organize sessions by prompt: find, rename, archive, prune.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/productivity/session-librarian/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/productivity/session-librarian/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [session-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f83c22fc6c324553e6a4938.json) — Manage agent sessions including initialization, handoffs, revival (seance), and persistent identity for Polecats and Crew agents.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gastown/skills/session-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gastown/skills/session-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

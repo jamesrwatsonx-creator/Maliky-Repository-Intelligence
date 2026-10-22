@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 10
 
-1,556 catalog entries · Sorted alphabetically by name · Page 10 of 11.
+1,557 catalog entries · Sorted alphabetically by name · Page 10 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [supply-chain-network-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3cc1a2be9fa41b1e619da1da.json) — Agent specialized in supply chain network design, optimization, and transformation<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supply-chain-network-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supply-chain-network-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [supply-chain-risk-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad83a9158bf2c94d38d4a1b5a.json) — Agent specialized in supply chain risk identification, assessment, and mitigation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/agents/supply-chain-risk-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/agents/supply-chain-risk-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [surface-chemistry-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6070d8842477b1153d4f4fb7.json) — Agent specialized in surface analysis techniques for chemical composition and bonding state characterization<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/entrepreneurship/agents/vc-partner/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/entrepreneurship/agents/vc-partner/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [vector-db-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac91d9e3b89043074102cceb4.json) — Configures and optimizes vector database deployments<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/vector-db-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/vector-db-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [vehicle-dynamics-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad987b182c1e26e50be781973.json) — Expert in vehicle dynamics tuning and chassis development<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

@@ -10,22 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "",
+  "upstream_url": "https://github.com/coinbase/smart-wallet",
+  "description": "Smart-contract wallet supporting multiple owners, passkey or Ethereum-address ownership and cross-chain owner updates.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-17T22:48:26Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da",
+  "current_commit": "a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da",
+  "inspection_date": "2026-10-22T03:16:21.571132+00:00",
   "categories": [
-    "category:commerce-e-commerce",
-    "category:developer-tools"
+    "category:blockchain-web3-security",
+    "category:cryptography"
   ],
   "operational_category": "operational:22",
   "secondary_operational_categories": [
@@ -37,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +46,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.283242+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.489853+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +63,112 @@
     ],
     "updated_at": "2026-10-12T19:04:27.291103+00:00",
     "purpose_established": true
+  },
+  "tree_files": 76,
+  "files_read": 10,
+  "unread_source_files": 17,
+  "repository_intelligence": {
+    "purpose": "Smart-contract wallet supporting multiple owners, passkey or Ethereum-address ownership and cross-chain owner updates.",
+    "reuse_recommendation": "Treat as high-risk wallet infrastructure; require independent contract, authorization, replay and deployment review before use.",
+    "inspection_scope": "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+    "license_notes": "Review license, audit reports and deployment artifact provenance; do not equate past audits with current security.",
+    "runtime": [
+      "Solidity",
+      "Foundry",
+      "EVM"
+    ],
+    "keywords": [
+      "smart wallet",
+      "passkeys",
+      "multisig owners",
+      "cross-chain",
+      "account abstraction",
+      "Solidity"
+    ],
+    "risk_notes": [
+      "Wallets and cross-chain authorization involve funds and privileged actions; deep security review is mandatory before production use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Smart Wallet contracts",
+        "purpose": "Implements owner validation and wallet action authorization in on-chain contracts.",
+        "evidence_paths": [
+          "README.md",
+          "SECURITY.md",
+          "Makefile"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:17:43.295823+00:00",
+    "inspected_commit": "a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "7570960006542f59349e7eb56bacfb7dde626e3e",
+        "value": "https://github.com/jamesrwatsonx-creator/smart-wallet/blob/a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "SECURITY.md",
+        "blob_sha": "9c7a3c8368dcf5192ff1a5cedc1334f63633db33",
+        "value": "https://github.com/jamesrwatsonx-creator/smart-wallet/blob/a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da/SECURITY.md"
+      },
+      {
+        "type": "source_review",
+        "path": "Makefile",
+        "blob_sha": "5f427ad1c479ca6196cdc20dd01c1a15640b6fb8",
+        "value": "https://github.com/jamesrwatsonx-creator/smart-wallet/blob/a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da/Makefile"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Multi-owner smart account",
+        "description": "Implements wallet authorization across multiple address or passkey owners.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multi-owner-smart-account",
+        "evidence_paths": [
+          "README.md",
+          "SECURITY.md",
+          "Makefile"
+        ]
+      },
+      {
+        "name": "Cross-chain owner management",
+        "description": "Coordinates owner updates and related actions across supported chains.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-chain-owner-management",
+        "evidence_paths": [
+          "README.md",
+          "SECURITY.md",
+          "Makefile"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

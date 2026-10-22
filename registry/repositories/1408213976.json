@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Easy to use AI music generation UI for local models with QoL features",
+  "upstream_url": "https://github.com/proximasan/tadpole-studio",
+  "description": "Desktop/web UI for local AI music generation models, with simple and advanced controls for captions, lyrics, BPM, key and duration.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-03-05T13:27:20Z",
-    "github_description": "Easy to use AI music generation UI for local models with QoL features"
+    "github_description": "Easy to use AI music generation UI for local models with QoL features",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "fef3cac184ebf5d6e9e82313ea809fa8ea453bdc",
+  "current_commit": "fef3cac184ebf5d6e9e82313ea809fa8ea453bdc",
+  "inspection_date": "2026-10-22T03:21:22.345051+00:00",
   "categories": [
-    "category:frontend-applications"
+    "category:ai-applications",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:16",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.718896+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.960991+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,109 @@
     ],
     "updated_at": "2026-10-12T19:04:27.224209+00:00",
     "purpose_established": true
+  },
+  "tree_files": 276,
+  "files_read": 10,
+  "unread_source_files": 257,
+  "repository_intelligence": {
+    "purpose": "Desktop/web UI for local AI music generation models, with simple and advanced controls for captions, lyrics, BPM, key and duration.",
+    "reuse_recommendation": "Use for local creative workflows after verifying model hardware needs, generated-content rights and model license terms.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Review application and model licenses plus music-generation model terms before commercial or public use.",
+    "runtime": [
+      "Python",
+      "TypeScript/JavaScript",
+      "local audio generation models"
+    ],
+    "keywords": [
+      "AI music generation",
+      "local models",
+      "audio",
+      "lyrics",
+      "BPM",
+      "music studio"
+    ],
+    "risk_notes": [
+      "Check license and external service terms before adoption; review sensitive data, authentication and execution boundaries where applicable."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Tadpole Studio frontend and backend",
+        "purpose": "Connects a user interface for music creation to local model backends and generation handlers.",
+        "evidence_paths": [
+          "README.md",
+          "frontend/package.json",
+          "backend/pyproject.toml",
+          "backend/src/tadpole_studio/backends/__init__.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:56.856584+00:00",
+    "inspected_commit": "fef3cac184ebf5d6e9e82313ea809fa8ea453bdc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4c357b553ca5b0c189f93ff2e8cb80d4bda9c329",
+        "value": "https://github.com/jamesrwatsonx-creator/Music-tadpole-studio/blob/fef3cac184ebf5d6e9e82313ea809fa8ea453bdc/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "frontend/package.json",
+        "blob_sha": "9c7a9f7b46879d26df6f59bccb565204e08d5cec",
+        "value": "https://github.com/jamesrwatsonx-creator/Music-tadpole-studio/blob/fef3cac184ebf5d6e9e82313ea809fa8ea453bdc/frontend/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "backend/pyproject.toml",
+        "blob_sha": "4e4f8ba44eed8b5ad5589b8852ef4339a385766b",
+        "value": "https://github.com/jamesrwatsonx-creator/Music-tadpole-studio/blob/fef3cac184ebf5d6e9e82313ea809fa8ea453bdc/backend/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "backend/src/tadpole_studio/backends/__init__.py",
+        "blob_sha": "ef9b6bd81c2b9672b84daf7e772a61006ee1b59e",
+        "value": "https://github.com/jamesrwatsonx-creator/Music-tadpole-studio/blob/fef3cac184ebf5d6e9e82313ea809fa8ea453bdc/backend/src/tadpole_studio/backends/__init__.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "PRESENT",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "PRESENT",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Local AI music generation interface",
+        "description": "Creates music from text prompts or detailed musical settings using locally hosted generation models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:local-ai-music-generation-interface",
+        "evidence_paths": [
+          "README.md",
+          "frontend/package.json",
+          "backend/pyproject.toml",
+          "backend/src/tadpole_studio/backends/__init__.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,9 +1,13 @@
 # Websites — page 4
 
-586 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+588 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [ReviewShipBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4519b98ce95c08ec5b98edd0.json) — Hermes desktop app React component Review Ship Bar (ship-bar.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/review/ship-bar.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/review/ship-bar.tsx#L34) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [RightSidebarPane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A404a93cc3c060e7888be161e.json) — Hermes desktop app React component Right Sidebar Pane (index.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/index.tsx#L28) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [Rotate by Custom Degrees](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ace56ce6d1b23d078c6438131.json) — Rotate pages by any custom angle.<br>
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/rotate-custom.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/rotate-custom.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [Rotate PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A947d206f46e96e1f19b313c4.json) — Turn pages in 90-degree increments.<br>

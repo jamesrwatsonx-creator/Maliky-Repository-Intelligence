@@ -10,26 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+  "upstream_url": "https://github.com/PostHog/posthog",
+  "description": "PostHog product analytics platform for understanding user behavior, monitoring sessions and errors, managing feature rollouts and running experiments.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-01T03:52:32Z",
-    "github_description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP."
+    "github_description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "c1be59d35888ab81df5f8f4b654cbd19f9131c47",
+  "current_commit": "c1be59d35888ab81df5f8f4b654cbd19f9131c47",
+  "inspection_date": "2026-10-22T03:10:32.025135+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:ai-memory",
-    "category:developer-tools",
-    "category:mcp-servers"
+    "category:analytics",
+    "category:business-applications"
   ],
-  "operational_category": "operational:02",
+  "operational_category": "operational:13",
   "secondary_operational_categories": [
     "operational:03",
     "operational:04",
@@ -41,7 +40,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -49,13 +48,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.302253+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.512900+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -65,5 +65,103 @@
     ],
     "updated_at": "2026-10-12T19:04:27.292845+00:00",
     "purpose_established": true
+  },
+  "tree_files": 55515,
+  "files_read": 10,
+  "unread_source_files": 51570,
+  "repository_intelligence": {
+    "purpose": "PostHog product analytics platform for understanding user behavior, monitoring sessions and errors, managing feature rollouts and running experiments.",
+    "reuse_recommendation": "Use where product telemetry is needed; configure consent, sensitive-data masking, access and retention carefully.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Verify license and review privacy, retention and consent settings for collected product telemetry.",
+    "runtime": [
+      "Python",
+      "TypeScript/JavaScript",
+      "web services"
+    ],
+    "keywords": [
+      "product analytics",
+      "session replay",
+      "feature flags",
+      "experimentation",
+      "error tracking",
+      "self-hosted"
+    ],
+    "risk_notes": [
+      "Session replay and analytics can collect sensitive user data; apply privacy and retention controls."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PostHog analytics platform",
+        "purpose": "Provides integrated product analytics, session replay and product operations capabilities.",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:59.109609+00:00",
+    "inspected_commit": "c1be59d35888ab81df5f8f4b654cbd19f9131c47",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "0e1ce30b1dbc16e737a322001b1e8f347ca6fd62",
+        "value": "https://github.com/jamesrwatsonx-creator/software-scanning-posthog/blob/c1be59d35888ab81df5f8f4b654cbd19f9131c47/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "84bafe6137962e675b34f3f92180b673995396a9",
+        "value": "https://github.com/jamesrwatsonx-creator/software-scanning-posthog/blob/c1be59d35888ab81df5f8f4b654cbd19f9131c47/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Product analytics and session insight",
+        "description": "Captures and analyzes product usage, web activity, sessions and errors.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:product-analytics-and-session-insight",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      },
+      {
+        "name": "Feature management and experiments",
+        "description": "Supports feature flags, rollout controls and experimentation against product metrics.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:feature-management-and-experiments",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

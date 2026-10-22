@@ -1,11 +1,9 @@
 # Memory & Context — page 2
 
-230 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+229 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [methodologies/ruflo/ruflo-intelligence](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A713cbcd4287686a4ef08fbd3.json) — Ruflo RuVector Intelligence - Self-optimization cycle: pattern extraction -> reasoning bank -> SONA adaptation -> knowledge graph updates<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/ruflo/ruflo-intelligence.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/ruflo/ruflo-intelligence.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [migrate-sqlite-to-tcvdb](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A223590317bb0ce4312785b5a.json) — Four-layer local memory system plugin for OpenClaw — auto-captures, structures, and profiles conversational knowledge using local LLM + SQLite vector search (L0→L1→L2→L3 pipeline)<br>
   Source: [jamesrwatsonx-creator/TencentDB-Agent-Memory](https://github.com/jamesrwatsonx-creator/TencentDB-Agent-Memory) · [MemoryCore/package.json](https://github.com/jamesrwatsonx-creator/TencentDB-Agent-Memory/blob/97f94654280b2932c35ba4806a491999ed244cc9/MemoryCore/package.json#L1) · CLI · NEEDS_REVIEW · PINNED_SOURCE
 - [nsight-profiler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A12838d07d8e4596d2133cea3.json) — Expert skill for NVIDIA Nsight Systems and Nsight Compute profiling tools. Configure profiling sessions, analyze kernel reports, interpret occupancy metrics, roofline model data, memory bandwidth bottlenecks, and warp…<br>

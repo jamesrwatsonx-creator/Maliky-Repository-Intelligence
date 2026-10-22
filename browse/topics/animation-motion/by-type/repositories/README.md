@@ -2,7 +2,7 @@
 
 Repositories tagged under Animation & Motion.
 
-**47 entries** · Alphabetical · 1 page.
+**45 entries** · Alphabetical · 1 page.
 
 [Back to Animation Motion](../../README.md) · [Browse homepage](../../../../README.md) · [All repositories](../../../../repositories/README.md)
 
@@ -14,8 +14,6 @@ Repositories tagged under Animation & Motion.
   Source: [jamesrwatsonx-creator/Android-SpinKit](https://github.com/jamesrwatsonx-creator/Android-SpinKit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Mobile applications, Creative tools
 - [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396968858.json) — Reference collection of Android UI components, animation libraries and interface patterns.<br>
   Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
-- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
-  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — Curated index of public DESIGN.md files and website design-system examples for browsing visual identity patterns.<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Research projects, Documentation
 - [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — Enhanced shadcn/ui component collection and design patterns for building polished React applications.<br>
@@ -74,8 +72,6 @@ Repositories tagged under Animation & Motion.
   Source: [jamesrwatsonx-creator/onlook](https://github.com/jamesrwatsonx-creator/onlook) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Frontend applications, AI applications
 - [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372781855.json) — Open-source design and prototyping platform for collaborative UI/UX design using web-based vector editing and design systems.<br>
   Source: [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/penpot) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Creative tools, Web applications
-- [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
-  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271470660.json) — Library or framework for producing print-ready layouts and publication artifacts from structured content and templates.<br>
   Source: [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/printing-press-library) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Creative tools, Documentation
 - [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427687237.json) — Ready-made design themes and styling primitives for Radix UI components, enabling consistent accessible interfaces.<br>

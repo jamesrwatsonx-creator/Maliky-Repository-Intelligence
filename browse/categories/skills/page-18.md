@@ -1,15 +1,9 @@
 # Skills — page 18
 
-3,151 catalog entries · Sorted alphabetically by name · Page 18 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 18 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [serving-llms-vllm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A90a3f107154e3c048e4745ac.json) — vLLM: high-throughput LLM serving, OpenAI API, quantization.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/mlops/inference/serving-llms-vllm/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/mlops/inference/serving-llms-vllm/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [session-librarian](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fd8c632d4b4739e4e05b719.json) — Organize sessions by prompt: find, rename, archive, prune.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/productivity/session-librarian/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/productivity/session-librarian/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [session-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f83c22fc6c324553e6a4938.json) — Manage agent sessions including initialization, handoffs, revival (seance), and persistent identity for Polecats and Crew agents.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/gastown/skills/session-management/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/gastown/skills/session-management/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [session-memory](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa905119a8bac105fecd0dc22.json) — Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cc10x/skills/session-memory/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cc10x/skills/session-memory/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [setfit-few-shot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A084fc5a613f937c3167d2820.json) — SetFit few-shot learning for efficient intent classification with minimal data<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/skills/stix-taxii/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/skills/stix-taxii/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stm-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae17c3f875f7b3a431f76ff71.json) — Scanning Tunneling Microscopy skill for atomic-resolution imaging and local density of states measurements<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/nanotechnology/skills/stm-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [stm32-hal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c77c981b0572f66230a107e.json) — STMicroelectronics STM32 HAL and Low-Level driver expertise<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/stm32-hal/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/stm32-hal/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [stock_analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa53792dc29ec47df616f8328.json) — 分析股票和市场。当用户想要分析单个或多个股票，或进行市场复盘时调用。<br>
+  Source: [jamesrwatsonx-creator/daily_stock_analysis](https://github.com/jamesrwatsonx-creator/daily_stock_analysis) · [SKILL.md](https://github.com/jamesrwatsonx-creator/daily_stock_analysis/blob/b477022551d8764a3551e83f12eb5f96da42a550/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE
+- [stocks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abb2dcd1860ab1005d8250171.json) — Stock quotes, history, search, compare, crypto via Yahoo.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/finance/stocks/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/finance/stocks/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

@@ -1,9 +1,11 @@
 # UI/UX — page 7
 
-1,088 catalog entries · Sorted alphabetically by name · Page 7 of 8.
+1,089 catalog entries · Sorted alphabetically by name · Page 7 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/game-development/ui-ux-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ade5030d05a69e5d8269c0530.json) — Game UI/UX Design and Implementation Process - Design and implement user interface including HUD, menus, input handling, accessibility features, and responsive design for target platforms.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/ui-ux-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/ui-ux-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/mobile-development/cross-platform-ui-library](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4f247828acd900ce6e65d9fd.json) — Cross-Platform UI Component Library Creation - Build a shared, platform-aware UI component library for consistent cross-platform design with accessibility support and comprehensive documentation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/mobile-development/cross-platform-ui-library.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/mobile-development/cross-platform-ui-library.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/mobile-development/mobile-animation-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4a9c7d26ecd5d2051a897a2f.json) — Mobile Animation and Interaction Design - Implement smooth animations, gestures, and micro-interactions for engaging mobile user experiences following platform animation guidelines.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/servers/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/servers/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Smtp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2639d9c4a99654f697301510.json) — SMTP client implementing mail submission, STARTTLS, authentication, MIME and recipient-level results.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/smtp/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/smtp/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [Utopia Span](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5b447a85864fedfba000d0d3.json) — Memory-safe span tracing with automatic Swoole coroutine storage.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/span/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/span/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

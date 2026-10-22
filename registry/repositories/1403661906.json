@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Reactive primitives for Ethereum apps",
+  "upstream_url": "https://github.com/wevm/wagmi",
+  "description": "Reactive primitives and framework integrations for building Ethereum applications, including React hooks, connectors and project tooling.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-01T18:05:04Z",
-    "github_description": "Reactive primitives for Ethereum apps"
+    "github_description": "Reactive primitives for Ethereum apps",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "c458d201b0218a9e371de9fdd9a35b6b475fb1b2",
+  "current_commit": "c458d201b0218a9e371de9fdd9a35b6b475fb1b2",
+  "inspection_date": "2026-10-22T03:20:32.424050+00:00",
   "categories": [
-    "category:general-other"
+    "category:sdks-client-libraries",
+    "category:blockchain-web3-security"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.674076+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.827746+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,127 @@
     ],
     "updated_at": "2026-10-12T19:04:27.336624+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1912,
+  "files_read": 10,
+  "unread_source_files": 1850,
+  "repository_intelligence": {
+    "purpose": "Reactive primitives and framework integrations for building Ethereum applications, including React hooks, connectors and project tooling.",
+    "reuse_recommendation": "Use for React/Ethereum applications; review wallet connector permissions and transaction confirmation UX.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Review package licenses and wallet connector/provider permissions.",
+    "runtime": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "browser environments"
+    ],
+    "keywords": [
+      "wagmi",
+      "Ethereum React hooks",
+      "wallet connectors",
+      "TypeScript",
+      "EVM app development"
+    ],
+    "risk_notes": [
+      "Check license and external service terms before adoption; review sensitive data, authentication and execution boundaries where applicable."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Core and React packages",
+        "purpose": "Connects framework-level hooks and state to Ethereum client operations.",
+        "evidence_paths": [
+          "packages/core/package.json",
+          "packages/react/package.json"
+        ]
+      },
+      {
+        "name": "Wagmi CLI",
+        "purpose": "Provides project configuration and code-generation helpers for Ethereum app development.",
+        "evidence_paths": [
+          "packages/cli/package.json",
+          "packages/cli/package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:54.966447+00:00",
+    "inspected_commit": "c458d201b0218a9e371de9fdd9a35b6b475fb1b2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "packages/core/package.json",
+        "blob_sha": "3123f48912650d907b22bd5719a07ae35dc6539e",
+        "value": "https://github.com/jamesrwatsonx-creator/wagmi/blob/c458d201b0218a9e371de9fdd9a35b6b475fb1b2/packages/core/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/react/package.json",
+        "blob_sha": "c12db5ed6a04e66519189ebbbdde7ab1d9dbdbc8",
+        "value": "https://github.com/jamesrwatsonx-creator/wagmi/blob/c458d201b0218a9e371de9fdd9a35b6b475fb1b2/packages/react/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/cli/package.json",
+        "blob_sha": "5bf0cd5ab902caccb92dceb05c11f00b091cc48e",
+        "value": "https://github.com/jamesrwatsonx-creator/wagmi/blob/c458d201b0218a9e371de9fdd9a35b6b475fb1b2/packages/cli/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "packages/cli/package.json",
+        "blob_sha": "5bf0cd5ab902caccb92dceb05c11f00b091cc48e",
+        "value": "https://github.com/jamesrwatsonx-creator/wagmi/blob/c458d201b0218a9e371de9fdd9a35b6b475fb1b2/packages/cli/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Reactive Ethereum app primitives",
+        "description": "Provides React-oriented state and hooks for connecting wallets and interacting with Ethereum.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:reactive-ethereum-app-primitives",
+        "evidence_paths": [
+          "packages/core/package.json",
+          "packages/react/package.json",
+          "packages/cli/package.json",
+          "packages/cli/package.json"
+        ]
+      },
+      {
+        "name": "Wallet connectors and CLI tooling",
+        "description": "Supports wallet/provider connections and project setup or code generation workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:wallet-connectors-and-cli-tooling",
+        "evidence_paths": [
+          "packages/core/package.json",
+          "packages/react/package.json",
+          "packages/cli/package.json",
+          "packages/cli/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

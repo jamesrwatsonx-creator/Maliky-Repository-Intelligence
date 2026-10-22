@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 11
 
-1,556 catalog entries · Sorted alphabetically by name · Page 11 of 11.
+1,557 catalog entries · Sorted alphabetically by name · Page 11 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [vehicle-dynamics-engineer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad987b182c1e26e50be781973.json) — Expert in vehicle dynamics tuning and chassis development<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-dynamics-engineer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [vehicle-systems-architect](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae61df45438a87f256d7fd549.json) — Senior architect for vehicle system architecture and integration decisions<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/automotive-engineering/agents/vehicle-systems-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [verification-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3b2631aef69738c8e873ab3c.json) — Senior verification engineer with UVM and formal verification expertise for FPGA designs<br>

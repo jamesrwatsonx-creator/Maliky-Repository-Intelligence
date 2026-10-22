@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Core IDKit SDK. World ID SDK for Relying Parties.",
+  "upstream_url": "https://github.com/worldcoin/idkit",
+  "description": "World ID relying-party SDK suite with JavaScript/TypeScript core, React widgets and headless hooks, plus server-side signing support.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-05T12:21:48Z",
-    "github_description": "Core IDKit SDK. World ID SDK for Relying Parties."
+    "github_description": "Core IDKit SDK. World ID SDK for Relying Parties.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "d9775e66e67b57703810ad27914cdff661f8ccc6",
+  "current_commit": "d9775e66e67b57703810ad27914cdff661f8ccc6",
+  "inspection_date": "2026-10-22T03:21:04.158099+00:00",
   "categories": [
-    "category:apis"
+    "category:sdks-client-libraries",
+    "category:privacy"
   ],
-  "operational_category": "operational:12",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.267259+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.533932+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,103 @@
     ],
     "updated_at": "2026-10-12T19:04:27.179381+00:00",
     "purpose_established": true
+  },
+  "tree_files": 253,
+  "files_read": 10,
+  "unread_source_files": 219,
+  "repository_intelligence": {
+    "purpose": "World ID relying-party SDK suite with JavaScript/TypeScript core, React widgets and headless hooks, plus server-side signing support.",
+    "reuse_recommendation": "Use the maintained package for World ID integrations; protect proof/session data and follow the provider's current verification flow.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Review SDK terms, protocol/version requirements and handling of identity credentials and proof data.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "keywords": [
+      "World ID",
+      "identity verification",
+      "Relying Party SDK",
+      "TypeScript",
+      "React",
+      "zero-knowledge proof"
+    ],
+    "risk_notes": [
+      "Identity verification and proof material are sensitive; apply scoped privacy, replay and server-secret review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Core, React and server SDK packages",
+        "purpose": "Separates protocol-facing verification, user-facing widgets and relying-party server signing.",
+        "evidence_paths": [
+          "README.md",
+          "js/package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:56.214696+00:00",
+    "inspected_commit": "d9775e66e67b57703810ad27914cdff661f8ccc6",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "801c3e24c0e11a0f7b810b25fb680c7440714099",
+        "value": "https://github.com/jamesrwatsonx-creator/idkit/blob/d9775e66e67b57703810ad27914cdff661f8ccc6/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "js/package.json",
+        "blob_sha": "123edfb38a9b8659374da8e12e4f3be00a4e9559",
+        "value": "https://github.com/jamesrwatsonx-creator/idkit/blob/d9775e66e67b57703810ad27914cdff661f8ccc6/js/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "PRESENT",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Relying-party verification SDK",
+        "description": "Supports applications that request and validate World ID verification through client and server packages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:relying-party-verification-sdk",
+        "evidence_paths": [
+          "README.md",
+          "js/package.json"
+        ]
+      },
+      {
+        "name": "React verification interface",
+        "description": "Provides reusable React widgets and headless hooks for identity verification flows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:react-verification-interface",
+        "evidence_paths": [
+          "README.md",
+          "js/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

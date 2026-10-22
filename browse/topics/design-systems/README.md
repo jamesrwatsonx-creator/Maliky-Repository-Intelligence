@@ -2,7 +2,7 @@
 
 Design tokens, component systems and brand-specific design references.
 
-**207 entries** · Alphabetical · 2 pages.
+**206 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -160,8 +160,6 @@ Design tokens, component systems and brand-specific design references.
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, AI agents, SDKs/client libraries
 - [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342397304.json) — Android UI library or sample for adding motion blur, haze or visual transition effects to Compose interfaces.<br>
   Source: [jamesrwatsonx-creator/Android-motion-haze](https://github.com/jamesrwatsonx-creator/Android-motion-haze) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Creative tools, Reference implementations
-- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
-  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — Curated index of public DESIGN.md files and website design-system examples for browsing visual identity patterns.<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Research projects, Documentation
 - [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — Enhanced shadcn/ui component collection and design patterns for building polished React applications.<br>
@@ -306,6 +304,8 @@ Design tokens, component systems and brand-specific design references.
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/raycast/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/raycast/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Renault-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5101235b7f7d7bd5f868c6f6.json) — Renault's web presence pairs the freshly-modernised Renault diamond (the 2021 flat-line rhombus mark) with a stark black-and-white canvas, a signature Sunlight Yellow accent, and the proprietary NouvelR display…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/renault/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/renault/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
+- [Replicate-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A511ce73ffbf7d1d845d74bfc.json) — Replicate's marketing surfaces pair the warm-cream developer-tools aesthetic of an indie ML playground with a confident hot-orange brand accent and a signature display typeface (rb-freigeist-neue) sized aggressively…<br>
+  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/replicate/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/replicate/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 
 ## Pages
 

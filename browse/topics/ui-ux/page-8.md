@@ -1,9 +1,11 @@
 # UI/UX — page 8
 
-1,088 catalog entries · Sorted alphabetically by name · Page 8 of 8.
+1,089 catalog entries · Sorted alphabetically by name · Page 8 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Utopia Span](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5b447a85864fedfba000d0d3.json) — Memory-safe span tracing with automatic Swoole coroutine storage.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/span/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/span/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia System](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aba16842b822a6d8ced37bce6.json) — Host operating-system and CPU-architecture detection helpers.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/system/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/system/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia UserAgent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2bfd9031ea8030d632197295.json) — Typed operating-system, browser, device and bot parser with lazy memoized detection.<br>

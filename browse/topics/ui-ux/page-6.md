@@ -1,9 +1,11 @@
 # UI/UX — page 6
 
-1,088 catalog entries · Sorted alphabetically by name · Page 6 of 8.
+1,089 catalog entries · Sorted alphabetically by name · Page 6 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [QuotaProtocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe98cdd647baf1de2ba3d933.json) — Experimental Protocol that rate-limits message handlers per sender using agent storage and applies allow/block access-control lists.<br>
+  Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/src/uagents/experimental/quota/__init__.py](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/experimental/quota/__init__.py#L106) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Quote](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad5aa23e07123c5ebd382d31e.json) — Semantic inline quotation component integrating design-system typography and configurable presentation props.<br>
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/quote.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/quote.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [Radio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abf62e8cbbfb1277e4646429d.json) — Themed standalone radio input forwarding native input props and event handlers through the package's radio styling.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/desktop-ui-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/desktop-ui-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/domains/business/decision-intelligence/decision-support-system-architecture](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A32286ebbb9c0d731c5abcdca.json) — Decision Support System Architecture Design - Design and implementation of comprehensive decision support systems that integrate data, models, and user interfaces for enhanced decision-making capabilities.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/decision-support-system-architecture.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/decision-support-system-architecture.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [specializations/game-development/ui-ux-implementation](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ade5030d05a69e5d8269c0530.json) — Game UI/UX Design and Implementation Process - Design and implement user interface including HUD, menus, input handling, accessibility features, and responsive design for target platforms.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/ui-ux-implementation.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/ui-ux-implementation.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

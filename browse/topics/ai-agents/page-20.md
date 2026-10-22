@@ -1,15 +1,9 @@
 # AI Agents — page 20
 
-2,862 catalog entries · Sorted alphabetically by name · Page 20 of 20.
+2,859 catalog entries · Sorted alphabetically by name · Page 20 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [yb_query_group_info](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A28d1c579bc2a29601b20c5db.json) — Hermes agent tool yb_query_group_info (toolset core).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L501) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [yb_query_group_members](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acdf3a499c0cbfe16bd44e1de.json) — Hermes agent tool yb_query_group_members (toolset core).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L527) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [yb_search_sticker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0792b771ce7b894f084fd31b.json) — Hermes agent tool yb_search_sticker (toolset core).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L652) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [yb_send_dm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A294114f3831acac8e3503dff.json) — Hermes agent tool yb_send_dm (toolset core).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L579) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [yb_send_sticker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa38fbe206bc01c2197e1b4e6.json) — Hermes agent tool yb_send_sticker (toolset core).<br>

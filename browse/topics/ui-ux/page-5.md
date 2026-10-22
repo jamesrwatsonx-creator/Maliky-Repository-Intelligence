@@ -1,9 +1,11 @@
 # UI/UX — page 5
 
-1,088 catalog entries · Sorted alphabetically by name · Page 5 of 8.
+1,089 catalog entries · Sorted alphabetically by name · Page 5 of 8.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [MetricsRow](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A24f6fcdd9549d192786492c7.json) — Observer dashboard React component MetricsRow (metrics-row.tsx).<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/shared/metrics-row.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/shared/metrics-row.tsx#L30) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [MiniMax-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb773f47b97954bcc694fcaa.json) — MiniMax presents itself as a premium AI infrastructure brand through a striking duality — bold black-pill CTAs and stark white canvas for marketing, paired with vibrant gradient product cards (orange-red, magenta-pink,…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/minimax/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/minimax/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Mintlify-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4b666693db86990b7756ead8.json) — Mintlify presents documentation infrastructure with a dual-mode aesthetic — atmospheric sky-gradient marketing heroes (cloud illustration backdrops, soft cream-to-blue washes) paired with dense developer-grade…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · [components/capture/QuickCaptureModal.tsx](https://github.com/jamesrwatsonx-creator/AIOS/blob/ec4917a528c952f774f5f462e7c23935b27a4930/components/capture/QuickCaptureModal.tsx#L19) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [QuickEntrySettings](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac8faf5fe11a0ad4f6b43b286.json) — Hermes desktop app React component Quick Entry Settings (quick-entry-settings.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/settings/quick-entry-settings.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/settings/quick-entry-settings.tsx#L24) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [QuotaProtocol](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Afe98cdd647baf1de2ba3d933.json) — Experimental Protocol that rate-limits message handlers per sender using agent storage and applies allow/block access-control lists.<br>
-  Source: [jamesrwatsonx-creator/uAgents](https://github.com/jamesrwatsonx-creator/uAgents) · [python/src/uagents/experimental/quota/__init__.py](https://github.com/jamesrwatsonx-creator/uAgents/blob/9f6a18bd1e8356be834d6d6e78533c47c609e8d1/python/src/uagents/experimental/quota/__init__.py#L106) · COMPONENT · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

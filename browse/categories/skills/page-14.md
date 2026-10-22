@@ -1,15 +1,9 @@
 # Skills — page 14
 
-3,151 catalog entries · Sorted alphabetically by name · Page 14 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 14 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [opex-program-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A507a2a07303d41f822f32ca2.json) — Operational Excellence program design skill with governance structure, methodology deployment, and capability building<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [opportunity-solution-tree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9eb21f95f913903173973a19.json) — Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring…<br>
-  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-discovery/skills/opportunity-solution-tree/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
-- [optimization-correctness-verifier](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A649645289a2a4fb00cd5619d.json) — Verify correctness of compiler optimizations using formal methods<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/optimization-correctness-verifier/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/optimization-correctness-verifier/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [options-scoring](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac8341f92a2dc7c8e336dcc32.json) — Multi-criteria decision analysis for solution options with weighted scoring and sensitivity analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/skills/options-scoring/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/skills/options-scoring/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [optuna-hyperparameter-tuner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abe73321f21a4eaa1a1559f1b.json) — Optuna integration skill for automated hyperparameter optimization with advanced search strategies, pruning, multi-objective optimization, and visualization capabilities.<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-discovery/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
 - [pm-product-strategy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A17e132cf2eb6845fad2771f6.json) — Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.<br>
   Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-strategy/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
+- [pm-toolkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A698562494d69c07494291911.json) — PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.<br>
+  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-toolkit/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-toolkit/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
+- [pnpm-workspaces](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1040c960ac5b94a8cdce4b9d.json) — pnpm workspace patterns and dependency management.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/pnpm-workspaces/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/pnpm-workspaces/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [Point Cloud Processing Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A193ff72b24a4657630c79d6f.json) — Specialized skill for 3D point cloud processing and analysis using PCL and Open3D<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/point-cloud-processing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/point-cloud-processing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

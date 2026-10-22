@@ -1,15 +1,9 @@
 # Skills — page 21
 
-3,151 catalog entries · Sorted alphabetically by name · Page 21 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 21 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [vendor-risk-scorer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca81cb255040d51322dbad8e.json) — Comprehensive supplier risk scoring skill with multi-dimensional risk assessment<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/skills/vendor-risk-scorer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/skills/vendor-risk-scorer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [vendor-scorecard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79c42685c17f6d252a4413a9.json) — Evaluate and track vendor performance using scorecards and metrics<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/skills/vendor-scorecard/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/skills/vendor-scorecard/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [vendor-security-questionnaire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A911d65f05b35914954d7a720.json) — Automated vendor security assessment through questionnaire generation, response parsing, and risk scoring<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/vendor-security-questionnaire/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/vendor-security-questionnaire/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vep-variant-annotator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A849a4a8c9ab432864de37407.json) — Variant Effect Predictor skill for comprehensive variant annotation with clinical database integration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/bioinformatics/skills/vep-variant-annotator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/bioinformatics/skills/vep-variant-annotator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vercel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad43756adcba046e38f640467.json) — Vercel deployment, edge functions, environment configuration, and preview deployments.<br>
@@ -304,6 +298,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/sales/skills/zoominfo-enrichment/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/sales/skills/zoominfo-enrichment/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [zotero-reference-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a7daf7347aeb8bf6ae50851.json) — Reference management for bibliography organization, annotation sync, and citation formatting<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/skills/zotero-reference-manager/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/skills/zotero-reference-manager/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [zustand](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A45c25efd6ed123d59d68f1c4.json) — Zustand state management patterns including store creation, middleware, persistence, slices, and DevTools integration.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/zustand/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/zustand/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +324,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - **[Page 21](page-21.md)**
-- [Page 22](page-22.md)

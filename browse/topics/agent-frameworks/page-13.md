@@ -1,9 +1,11 @@
 # Agent Frameworks — page 13
 
-2,050 catalog entries · Sorted alphabetically by name · Page 13 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 13 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [swiftui-macos-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fb2bbc179883784e9157737.json) — Expert in SwiftUI, AppKit, macOS development, and Apple platform integration<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/agents/swiftui-macos-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/swiftui-macos-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [switch_board](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abbb85a8a6a6fcfdb7284535f.json) — POST /boards/{slug}/switch - Persist ``slug`` as the active board for subsequent CLI / slash calls.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L2589) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [symbolic-computation-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae278531e02cdb1096fd12219.json) — Agent specialized in computer algebra and symbolic computation<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/kanban/dashboard/plugin_api.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/kanban/dashboard/plugin_api.py#L870) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [upload_chat_image](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A72eaaebf82adb83c1a06af32.json) — POST /api/chat/image-upload - Persist a browser-provided chat image where the embedded TUI can read it.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L2506) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [upload_managed_file](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9821572eb522128460aa9910.json) — POST /api/files/upload - handler upload_managed_file<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L2703) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

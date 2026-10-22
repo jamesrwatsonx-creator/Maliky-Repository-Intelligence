@@ -1,9 +1,11 @@
 # Agent Frameworks — page 14
 
-2,050 catalog entries · Sorted alphabetically by name · Page 14 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 14 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [upload_managed_file](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9821572eb522128460aa9910.json) — POST /api/files/upload - handler upload_managed_file<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L2703) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [upload_managed_file_stream](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af4276409e4135ff07b998011.json) — POST /api/files/upload-stream - handler upload_managed_file_stream<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L2738) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [upload_task_attachment](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6a62598da74c00e2d628d613.json) — POST /tasks/{task_id}/attachments - Store an uploaded file for a task and record its metadata.<br>

@@ -10,23 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "",
+  "upstream_url": "https://github.com/anthropics/financial-services",
+  "description": "Financial-services agent plugins and managed-agent templates for analyst workflows including earnings review, research, financial modeling and reconciliation, with human sign-off requirements.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-09-21T21:10:41Z",
-    "github_description": ""
+    "github_description": "",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "current_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "inspection_date": "2026-10-22T03:20:38.826956+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:research-projects",
-    "category:skills"
+    "category:agent-workflows",
+    "category:finance-accounting"
   ],
   "operational_category": "operational:01",
   "secondary_operational_categories": [
@@ -39,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -47,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:09.713208+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.144950+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -63,5 +64,103 @@
     ],
     "updated_at": "2026-10-12T19:04:27.132397+00:00",
     "purpose_established": true
+  },
+  "tree_files": 363,
+  "files_read": 10,
+  "unread_source_files": 349,
+  "repository_intelligence": {
+    "purpose": "Financial-services agent plugins and managed-agent templates for analyst workflows including earnings review, research, financial modeling and reconciliation, with human sign-off requirements.",
+    "reuse_recommendation": "Use individual workflows as drafting aids only; require expert verification and keep transaction, ledger, onboarding and approval actions with authorized humans.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Review repository and referenced data-source licenses; outputs are not professional advice and require qualified human review.",
+    "runtime": [
+      "Markdown agent instructions",
+      "Claude Cowork plugins",
+      "managed-agent templates"
+    ],
+    "keywords": [
+      "financial services",
+      "analyst agents",
+      "earnings review",
+      "financial models",
+      "reconciliation",
+      "human approval"
+    ],
+    "risk_notes": [
+      "Financial domain; outputs must be independently verified and the repository explicitly disclaims advice and execution authority."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Agent and plugin catalog",
+        "purpose": "Groups finance-specific workflows and skills for analyst work products.",
+        "evidence_paths": [
+          "README.md",
+          "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:55.194448+00:00",
+    "inspected_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5c203c0ea8f19361b447c7f9592f4658b33b5fae",
+        "value": "https://github.com/jamesrwatsonx-creator/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md",
+        "blob_sha": "447de2f9ec277f976eb2b52501465250c80e1adf",
+        "value": "https://github.com/jamesrwatsonx-creator/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Financial analyst workflow agents",
+        "description": "Packages end-to-end research, earnings and modeling workflows as agent plugins or managed templates.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:financial-analyst-workflow-agents",
+        "evidence_paths": [
+          "README.md",
+          "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+        ]
+      },
+      {
+        "name": "Finance skills and data connectors",
+        "description": "Provides underlying skills, commands and connectors that can be installed independently of full agents.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:finance-skills-and-data-connectors",
+        "evidence_paths": [
+          "README.md",
+          "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,6 +1,6 @@
 # Realtime — page 2
 
-543 catalog entries · Sorted alphabetically by name · Page 2 of 4.
+544 catalog entries · Sorted alphabetically by name · Page 2 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -284,8 +284,8 @@
   Source: [jamesrwatsonx-creator/Deep-Live-Cam](https://github.com/jamesrwatsonx-creator/Deep-Live-Cam) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Media/publishing, Desktop applications
 - [jamesrwatsonx-creator/DeepFilterNet](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074597.json) — Low-complexity neural speech-enhancement framework for suppressing noise in full-band audio, with real-time audio integration options.<br>
   Source: [jamesrwatsonx-creator/DeepFilterNet](https://github.com/jamesrwatsonx-creator/DeepFilterNet) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, AI applications, Scientific computing
-- [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.<br>
-  Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Developer tools
+- [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — Developer portal combining product documentation, API resources and a web application with an MCP skill surface and permission-related subsystems.<br>
+  Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, APIs
 - [jamesrwatsonx-creator/ejabberd-messaging-platform-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418823218.json) — Messaging server/platform based on ejabberd and XMPP for real-time chat and federated communication.<br>
   Source: [jamesrwatsonx-creator/ejabberd-messaging-platform-](https://github.com/jamesrwatsonx-creator/ejabberd-messaging-platform-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Backend services, Message/event systems, Networking
 - [jamesrwatsonx-creator/element-web-encryption-chat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418821661.json) — Encrypted real-time messaging application or client based on Matrix/Element communication workflows.<br>

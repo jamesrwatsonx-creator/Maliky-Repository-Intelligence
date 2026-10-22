@@ -1,9 +1,15 @@
 # Deployment — page 3
 
-409 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+412 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [openship](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3a73059c726188b3e5254b72.json) — Open-source, self-hostable deployment platform<br>
+  Source: [jamesrwatsonx-creator/openship](https://github.com/jamesrwatsonx-creator/openship) · [package.json](https://github.com/jamesrwatsonx-creator/openship/blob/2a034855a705927143bc53520a5441d1696ff716/package.json#L1) · PACKAGE · NEEDS_REVIEW · PINNED_SOURCE
+- [opex-program-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A507a2a07303d41f822f32ca2.json) — Operational Excellence program design skill with governance structure, methodology deployment, and capability building<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [opex-program-manager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2023d3812f518f697ae00192.json) — Agent specialized in operational excellence program management with governance and methodology deployment<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/agents/opex-program-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/agents/opex-program-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [OSV-Scanner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A117389f215ccec7d694bab13.json) — OSV-Scanner dependency vulnerability scan workflow.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [.github/workflows/osv-scanner.yml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/.github/workflows/osv-scanner.yml#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · CI/CD
 - [phaser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae8fc0550049689b1220298c7.json) — Phaser.js 2D game development skill for web games, arcade physics, and web deployment.<br>

@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "v5-stable",
-  "upstream_url": null,
-  "description": "A source-available invoice, quote, project and time-tracking app built with Laravel",
+  "upstream_url": "https://github.com/invoiceninja/invoiceninja",
+  "description": "Invoicing and business-finance application offering hosted and self-hosted workflows for managing invoices and related customer transactions.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-01T02:43:32Z",
-    "github_description": "A source-available invoice, quote, project and time-tracking app built with Laravel"
+    "github_description": "A source-available invoice, quote, project and time-tracking app built with Laravel",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc",
+  "current_commit": "f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc",
+  "inspection_date": "2026-10-22T03:10:19.185848+00:00",
   "categories": [
-    "category:general-other"
+    "category:business-applications",
+    "category:finance-accounting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.344831+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.592426+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.184200+00:00",
     "purpose_established": true
+  },
+  "tree_files": 5616,
+  "files_read": 10,
+  "unread_source_files": 5012,
+  "repository_intelligence": {
+    "purpose": "Invoicing and business-finance application offering hosted and self-hosted workflows for managing invoices and related customer transactions.",
+    "reuse_recommendation": "Use as a product or workflow reference; production reuse requires scoped payment, tax, access-control and data-protection review.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Verify repository and dependency licenses; assess payment provider, tax and financial-data requirements for deployment.",
+    "runtime": [
+      "PHP",
+      "JavaScript",
+      "web application"
+    ],
+    "keywords": [
+      "invoicing",
+      "billing",
+      "accounts receivable",
+      "self-hosted finance",
+      "SaaS"
+    ],
+    "risk_notes": [
+      "Payments and financial data require scoped security, access-control and compliance review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Invoice Ninja application",
+        "purpose": "Provides the core invoicing product and associated business transaction workflows.",
+        "evidence_paths": [
+          "README.md",
+          "composer.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:58.889475+00:00",
+    "inspected_commit": "f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "8def0bfb993a0fba8a4c3b8ebdfa184dce3b1734",
+        "value": "https://github.com/jamesrwatsonx-creator/invoiceninja/blob/f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "composer.json",
+        "blob_sha": "5ad7003f5a30c7f21701c6fe2e05360fe83305a9",
+        "value": "https://github.com/jamesrwatsonx-creator/invoiceninja/blob/f1ffa5f9989afbed4e7dc80b5c0cc18944335ffc/composer.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Invoice and billing management",
+        "description": "Supports business invoice creation and management through hosted or self-managed deployments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:invoice-and-billing-management",
+        "evidence_paths": [
+          "README.md",
+          "composer.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

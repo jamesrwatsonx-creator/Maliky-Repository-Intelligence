@@ -2,7 +2,7 @@
 
 Video creation, editing, generation, playback and media processing.
 
-**249 entries**
+**250 entries**
 
 ## Browse within this topic
 
@@ -12,7 +12,7 @@ Video creation, editing, generation, playback and media processing.
 - [Models & Model Adapters](by-type/models/README.md) (7)
 - [Plugins](by-type/plugins/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (5)
-- [Repositories](by-type/repositories/README.md) (69)
+- [Repositories](by-type/repositories/README.md) (70)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (59)
 - [Tools](by-type/tools/README.md) (13)
@@ -195,10 +195,12 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/android-livestream](https://github.com/jamesrwatsonx-creator/android-livestream) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Media/publishing, AI applications
 - [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399357.json) — Android media library or sample set for loading, playing and managing audio/video in mobile applications.<br>
   Source: [jamesrwatsonx-creator/Android-media](https://github.com/jamesrwatsonx-creator/Android-media) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Media/publishing, SDKs/client libraries
-- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — yoink any video from your terminal. no shady ads.<br>
-  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Creative tools, Developer tools
+- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.<br>
+  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Developer tools
 - [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372752337.json) — Self-hosted internet archiving platform that saves web pages and associated media for later search and preservation.<br>
   Source: [jamesrwatsonx-creator/ArchiveBox](https://github.com/jamesrwatsonx-creator/ArchiveBox) · REPOSITORY · COMPLETE · PINNED_SOURCE · Productivity, Media/publishing, Automation/scripting
+- [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414876606.json) — Desktop creative IDE for interactive AI image and video generation, combining visual 2D composition, 3D scene staging, model selection and repeatable generation controls.<br>
+  Source: [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/artcraft) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Media/publishing
 - [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074222.json) — Command-line media editor that automatically cuts video and audio based on loudness and other analysis methods.<br>
   Source: [jamesrwatsonx-creator/auto-editor](https://github.com/jamesrwatsonx-creator/auto-editor) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, CLI tools, Libraries/packages
 - [jamesrwatsonx-creator/auto-subs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426074406.json) — Automates subtitle or caption creation and related media processing; confirm supported input formats and transcription pipeline from repository documentation.<br>
@@ -271,6 +273,8 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/Marketing-Cap-Loom-style-app](https://github.com/jamesrwatsonx-creator/Marketing-Cap-Loom-style-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · Marketing/communications, Media/publishing, Business applications
 - [jamesrwatsonx-creator/MoneyPrinter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350930300.json) — Application for generating short-form videos from a topic using local Ollama text generation, media processing and a database-backed job queue.<br>
   Source: [jamesrwatsonx-creator/MoneyPrinter](https://github.com/jamesrwatsonx-creator/MoneyPrinter) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, AI applications, Cloud infrastructure
+- [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408213976.json) — Desktop/web UI for local AI music generation models, with simple and advanced controls for captions, lyrics, BPM, key and duration.<br>
+  Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Media/publishing
 - [jamesrwatsonx-creator/newsjack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1388308275.json) — News monitoring and content workflow for identifying timely stories and producing related commentary or marketing materials.<br>
   Source: [jamesrwatsonx-creator/newsjack](https://github.com/jamesrwatsonx-creator/newsjack) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Marketing/communications, Automation/scripting
 - [jamesrwatsonx-creator/Open-Generative-AI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358724031.json) — Web platform for accessing generative image and video workflows through the external MuAPI service.<br>
@@ -299,8 +303,6 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/skills-video](https://github.com/jamesrwatsonx-creator/skills-video) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Media/publishing, Developer tools
 - [jamesrwatsonx-creator/StoryToolkitAI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426075752.json) — AI-assisted film editing toolkit that transcribes footage, indexes scenes, searches clips and assembles story selections for import into video editors.<br>
   Source: [jamesrwatsonx-creator/StoryToolkitAI](https://github.com/jamesrwatsonx-creator/StoryToolkitAI) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, AI applications, Desktop applications
-- [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034245.json) — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.<br>
-  Source: [jamesrwatsonx-creator/universal-modder](https://github.com/jamesrwatsonx-creator/universal-modder) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, Generative AI, MCP servers
 - [jamesrwatsonx-creator/video-nerate-HD-short-videos-from-a-topic-or-keyword-with-an-automated-AI-workflow.MoneyPrinterTurbo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340236481.json) — AI workflow for generating HD short videos from a topic or keyword by producing scripts, sourcing footage, adding subtitles/music and assembling clips.<br>
   Source: [jamesrwatsonx-creator/video-nerate-HD-short-videos-from-a-topic-or-keyword-with-an-automated-AI-workflow.MoneyPrinterTurbo](https://github.com/jamesrwatsonx-creator/video-nerate-HD-short-videos-from-a-topic-or-keyword-with-an-automated-AI-workflow.MoneyPrinterTurbo) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, AI applications, Automation/scripting
 - [jamesrwatsonx-creator/Video-openshorts](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372506572.json) — Open-source application for creating and editing short-form videos through a browser-based interface and media workflow.<br>
@@ -319,8 +321,6 @@ Video creation, editing, generation, playback and media processing.
   Source: [jamesrwatsonx-creator/yarr](https://github.com/jamesrwatsonx-creator/yarr) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Web applications, General / Other
 - [jamesrwatsonx-creator/your_spotify-workout-app-music-curator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418872346.json) — Music discovery and workout playlist application using Spotify account and listening data to curate exercise-oriented tracks.<br>
   Source: [jamesrwatsonx-creator/your_spotify-workout-app-music-curator](https://github.com/jamesrwatsonx-creator/your_spotify-workout-app-music-curator) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Media/publishing, Productivity
-- [jamesrwatsonx-creator/Youtarr](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418870301.json) — Self-hosted interface for managing YouTube downloads, subscriptions or media archives using yt-dlp-like tooling.<br>
-  Source: [jamesrwatsonx-creator/Youtarr](https://github.com/jamesrwatsonx-creator/Youtarr) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Web applications, Automation/scripting
 
 ## Pages
 

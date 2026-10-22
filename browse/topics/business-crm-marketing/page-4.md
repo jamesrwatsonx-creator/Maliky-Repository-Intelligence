@@ -1,6 +1,6 @@
 # Business, CRM & Marketing — page 4
 
-1,482 catalog entries · Sorted alphabetically by name · Page 4 of 10.
+1,484 catalog entries · Sorted alphabetically by name · Page 4 of 10.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -296,14 +296,14 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/customer-experience/agents/itil-service-manager/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/customer-experience/agents/itil-service-manager/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358720706.json) — Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.<br>
   Source: [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/-email-agentic-inbox) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Business applications, Cloud infrastructure
+- [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398519549.json) — Full-stack SEO and answer-engine optimization product with CLI and web application surfaces for auditing and improving discoverability.<br>
+  Source: [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/AEOGEOSEO-elmo) · REPOSITORY · COMPLETE · PINNED_SOURCE · Full-stack applications, Developer tools
+- [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398521928.json) — Answer-engine and search optimization assistant for reviewing content and surfacing SEO/GEO recommendations.<br>
+  Source: [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/AEOSEOGEO-ansvisor) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Business applications
 - [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342960660.json) — AI-driven financial research or portfolio analysis inspired by Berkshire Hathaway investment principles.<br>
   Source: [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/ai-berkshire) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI applications, Research projects
 - [jamesrwatsonx-creator/AI-Trader](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366364245.json) — Agent-native financial trading project that coordinates automated market analysis and trade decisions across model and data tools.<br>
   Source: [jamesrwatsonx-creator/AI-Trader](https://github.com/jamesrwatsonx-creator/AI-Trader) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Finance/accounting, Business applications
-- [jamesrwatsonx-creator/AppFlowy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342807795.json) — Open-source workspace application combining notes, documents, databases and project management with local-first and collaborative workflows.<br>
-  Source: [jamesrwatsonx-creator/AppFlowy](https://github.com/jamesrwatsonx-creator/AppFlowy) · REPOSITORY · COMPLETE · PINNED_SOURCE · Productivity, Business applications, Web applications
-- [jamesrwatsonx-creator/AutoHedge](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358719401.json) — Python project for automated portfolio hedging and trading-oriented financial workflows using model and market-data integrations.<br>
-  Source: [jamesrwatsonx-creator/AutoHedge](https://github.com/jamesrwatsonx-creator/AutoHedge) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI applications, Business applications
 
 ## Pages
 

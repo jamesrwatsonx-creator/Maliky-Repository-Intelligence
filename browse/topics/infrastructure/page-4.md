@@ -1,11 +1,9 @@
 # Infrastructure — page 4
 
-711 catalog entries · Sorted alphabetically by name · Page 4 of 5.
+710 catalog entries · Sorted alphabetically by name · Page 4 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [methodologies/maestro/maestro-bootstrap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af9ef8f54a6092b69e0709539.json) — Maestro Bootstrap - New project minimum infrastructure setup: scaffold, configure, initial architecture<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-bootstrap.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-bootstrap.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [MiniMax-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aeb773f47b97954bcc694fcaa.json) — MiniMax presents itself as a premium AI infrastructure brand through a striking duality — bold black-pill CTAs and stark white canvas for marketing, paired with vibrant gradient product cards (orange-red, magenta-pink,…<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/minimax/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/minimax/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Mintlify-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4b666693db86990b7756ead8.json) — Mintlify presents documentation infrastructure with a dual-mode aesthetic — atmospheric sky-gradient marketing heroes (cloud illustration backdrops, soft cream-to-blue washes) paired with dense developer-grade…<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/lidar-mapping-localization.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/lidar-mapping-localization.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/sdk-platform-development/sdk-code-generation-pipeline](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A713e379def70abb077caed5d.json) — SDK Code Generation Pipeline - Build automated pipeline for generating SDK code from API specifications using OpenAPI Generator or custom tooling with language-specific templates and CI/CD integration.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/sdk-code-generation-pipeline.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/sdk-code-generation-pipeline.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [specializations/security-compliance/codebase-security-audit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A96076bd5a2929236c672467e.json) — Comprehensive Codebase Security Audit - Multi-domain static security assessment with parallel scan agents covering OWASP Top 10, suspicious code patterns, secrets & credentials, dependency vulnerabilities,…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/codebase-security-audit.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/codebase-security-audit.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

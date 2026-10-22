@@ -1,9 +1,11 @@
 # Agent Frameworks — page 8
 
-2,050 catalog entries · Sorted alphabetically by name · Page 8 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 8 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [language-feature-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A43054f40f3e26bc7a34b2293.json) — Expert in programming language feature design with knowledge of prior art, implementation tradeoffs, and user ergonomics. Provides guidance on designing language features from pattern matching to effect systems.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/programming-languages/agents/language-feature-designer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/programming-languages/agents/language-feature-designer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [last-mile-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1320cd8ef5395df84d3f3ab3.json) — Agent specialized in final-mile delivery coordination, customer scheduling, and delivery confirmation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/logistics/agents/last-mile-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/logistics/agents/last-mile-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [latency-optimization-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A00e50a87c7eeb37a47206160.json) — Agent embodying expertise in end-to-end latency analysis and tail latency optimization. Expert in latency breakdown analysis, P99/P99.9 optimization, critical path identification, async processing patterns, connection…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/data-science-ml/agents/ml-architect/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/data-science-ml/agents/ml-architect/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [ml-inference-optimizer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa6c5a2437af9f1e6e30f5566.json) — Agent specializing in GPU-accelerated ML model optimization for production inference. Expert in TensorRT engine building, quantization strategies (PTQ, QAT), kernel fusion patterns, dynamic batching design, ONNX model…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/gpu-programming/agents/ml-inference-optimizer/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/gpu-programming/agents/ml-inference-optimizer/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [ml-physics-researcher](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1e9ce8c55393f7217f1197e5.json) — Agent specialized in machine learning applications for physics research<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/ml-physics-researcher/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/ml-physics-researcher/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

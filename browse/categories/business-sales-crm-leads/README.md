@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**66 entries** · Alphabetical · 1 page.
+**69 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -28,6 +28,10 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/baserow-like-airtable-](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-) · [enterprise/backend/src/baserow_enterprise/data_sync/data_sync_types.py](https://github.com/jamesrwatsonx-creator/baserow-like-airtable-/blob/0b1e7ee8255039e11257fd1d5a2dd56f25722105/enterprise/backend/src/baserow_enterprise/data_sync/data_sync_types.py#L1) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, AI applications, Automation/scripting
 - [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358720706.json) — Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.<br>
   Source: [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/-email-agentic-inbox) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Business applications, Cloud infrastructure
+- [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398519549.json) — Full-stack SEO and answer-engine optimization product with CLI and web application surfaces for auditing and improving discoverability.<br>
+  Source: [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/AEOGEOSEO-elmo) · REPOSITORY · COMPLETE · PINNED_SOURCE · Full-stack applications, Developer tools
+- [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398521928.json) — Answer-engine and search optimization assistant for reviewing content and surfacing SEO/GEO recommendations.<br>
+  Source: [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/AEOSEOGEO-ansvisor) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Business applications
 - [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342960660.json) — AI-driven financial research or portfolio analysis inspired by Berkshire Hathaway investment principles.<br>
   Source: [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/ai-berkshire) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI applications, Research projects
 - [jamesrwatsonx-creator/AppFlowy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342807795.json) — Open-source workspace application combining notes, documents, databases and project management with local-first and collaborative workflows.<br>
@@ -92,10 +96,12 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/hister-communiy-business-network](https://github.com/jamesrwatsonx-creator/hister-communiy-business-network) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Web applications, Government/civic tech
 - [jamesrwatsonx-creator/InvenTree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418858322.json) — Open-source inventory and parts management system for tracking stock, suppliers, manufacturing BOMs and purchasing workflows.<br>
   Source: [jamesrwatsonx-creator/InvenTree](https://github.com/jamesrwatsonx-creator/InvenTree) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Manufacturing, Business applications
-- [jamesrwatsonx-creator/invoice-crm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399055149.json) — Fully featured, open source CRM<br>
-  Source: [jamesrwatsonx-creator/invoice-crm](https://github.com/jamesrwatsonx-creator/invoice-crm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Business applications
-- [jamesrwatsonx-creator/invoice-mautic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399059481.json) — Mautic: Open Source Marketing Automation Software.<br>
-  Source: [jamesrwatsonx-creator/invoice-mautic](https://github.com/jamesrwatsonx-creator/invoice-mautic) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Automation/scripting, Business applications
+- [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399060123.json) — Omnichannel customer engagement and support platform with a shared inbox, help center and AI-assisted support features.<br>
+  Source: [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/invoice-chatwoot) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Web applications
+- [jamesrwatsonx-creator/invoice-crm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399055149.json) — Frappe CRM application for managing leads, deals, activities and sales pipelines with configurable views and integrations.<br>
+  Source: [jamesrwatsonx-creator/invoice-crm](https://github.com/jamesrwatsonx-creator/invoice-crm) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, CRM
+- [jamesrwatsonx-creator/invoice-mautic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399059481.json) — Self-hostable marketing automation platform for managing contacts, campaigns, email marketing and integrations with control over deployment and data storage.<br>
+  Source: [jamesrwatsonx-creator/invoice-mautic](https://github.com/jamesrwatsonx-creator/invoice-mautic) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Automation/scripting
 - [jamesrwatsonx-creator/InvoicePlane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418858974.json) — Self-hosted invoicing and client management application for estimates, invoices, payments and basic business administration.<br>
   Source: [jamesrwatsonx-creator/InvoicePlane](https://github.com/jamesrwatsonx-creator/InvoicePlane) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Finance/accounting, Web applications
 - [jamesrwatsonx-creator/InvoiceShelf](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418859526.json) — Self-hosted invoicing and billing application for creating estimates, managing customers, tracking payments and handling business documents.<br>

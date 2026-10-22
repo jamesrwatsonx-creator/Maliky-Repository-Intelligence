@@ -1,9 +1,11 @@
 # Agent Frameworks — page 10
 
-2,050 catalog entries · Sorted alphabetically by name · Page 10 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 10 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [photonics-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A907595abb50876ab74fed326.json) — Agent specialized in photonics, laser systems, and optical device design<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/physics/agents/photonics-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/physics/agents/photonics-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [php-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A50b391abf51e9ee45b3da3af.json) — Expert PHP code reviewer specializing in PSR-12 compliance, PHP type system, Eloquent ORM patterns, security, and performance. Use for all PHP code changes. MUST BE USED for PHP projects.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/php-reviewer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/php-reviewer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [physics-ml-developer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af5f8f1661ea73a60318d1e2d.json) — Agent specialized in machine learning applications to physics problems<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-research/agents/red-team-operator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-research/agents/red-team-operator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [red-team-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7233a3e97352ce720e681c81.json) — Agent specialized in adversarial analysis of research<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/agents/red-team-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/agents/red-team-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [reddit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A091bc5572f4e5c87bc4f1b4f.json) — Reddit public-JSON search fetcher over finance subreddits for ticker posts (~10 requests/min/IP, no key); degrades to a placeholder on failure.<br>
-  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/dataflows/reddit.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/dataflows/reddit.py#L59) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 
 ## Pages
 

@@ -1,9 +1,11 @@
 # Realtime — page 4
 
-543 catalog entries · Sorted alphabetically by name · Page 4 of 4.
+544 catalog entries · Sorted alphabetically by name · Page 4 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [slam-algorithms](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A26d97aca431481822f7f6201.json) — Expert skill for SLAM algorithm selection, configuration, and tuning. Configure visual SLAM (ORB-SLAM3, RTAB-Map), LiDAR SLAM (Cartographer, LIO-SAM), tune parameters, evaluate accuracy, and optimize for real-time…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/slam-algorithms/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/slam-algorithms/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [sms-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa904a1048d3017e4668954a6.json) — SMS gateway adapter for Hermes Agent via Twilio. Sends and receives SMS through the Twilio REST API + inbound webhook, relaying texts between phone numbers and the Hermes agent. Markdown is stripped to plain text.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/sms/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/sms/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [socketio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa1736e5d57f3a05cc9fe960f.json) — Socket.io rooms, namespaces, adapters, middleware, and real-time patterns.<br>

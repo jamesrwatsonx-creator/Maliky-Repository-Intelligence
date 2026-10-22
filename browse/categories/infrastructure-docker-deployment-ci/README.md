@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**145 entries** · Alphabetical · 1 page.
+**144 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -208,8 +208,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/full-stack-fastapi-template](https://github.com/jamesrwatsonx-creator/full-stack-fastapi-template) · REPOSITORY · COMPLETE · PINNED_SOURCE · Templates/boilerplates, Backend services, Cloud infrastructure
 - [jamesrwatsonx-creator/Graphene-infrastructure](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348832094.json) — Documentation and reference material describing GrapheneOS server infrastructure and related service operations.<br>
   Source: [jamesrwatsonx-creator/Graphene-infrastructure](https://github.com/jamesrwatsonx-creator/Graphene-infrastructure) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Cloud infrastructure, Cybersecurity
-- [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660641.json) — Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software.<br>
-  Source: [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/hardhat) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DevOps
 - [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348824000.json) — Self-hosted implementation of the Tailscale control server for coordinating secure mesh VPN nodes and access policies.<br>
   Source: [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/headscale) · REPOSITORY · COMPLETE · PINNED_SOURCE · Networking, Cybersecurity, Cloud infrastructure
 - [jamesrwatsonx-creator/incus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344546795.json) — System container and virtual machine management platform for running isolated workloads on Linux hosts.<br>

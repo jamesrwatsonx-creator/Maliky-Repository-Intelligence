@@ -1,15 +1,9 @@
 # Skills — page 16
 
-3,151 catalog entries · Sorted alphabetically by name · Page 16 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 16 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [python-sdk-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab5a96ead1fdd2de99199debe.json) — Python SDK development with async support and type hints<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [python-testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a3b3ab549d453061b90ef00.json) — Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements. Use when writing pytest tests — fixtures, mocks, parametrization, or coverage.<br>
-  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/python-testing/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/python-testing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [pytorch-fsdp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A556eb6abb8b27b8b5410d114.json) — Fully sharded data-parallel training for large models.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/mlops/pytorch-fsdp/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/mlops/pytorch-fsdp/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pytorch-lightning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A138f1c9f038a91bc303789c9.json) — Clean training loops with built-in distributed support.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/mlops/pytorch-lightning/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/mlops/pytorch-lightning/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pytorch-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A441882f3b36efb0f5216d388.json) — PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading. Use when writing or reviewing PyTorch training loops, model…<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/skills/responsive-image/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/skills/responsive-image/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [rest-api-design](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acff55e8e9e750fca4df660a8.json) — RESTful API design principles, versioning, pagination, HATEOAS, and documentation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/rest-api-design/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/rest-api-design/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [rest-graphql-debug](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4fb9799b93e777c53f50b848.json) — Debug REST/GraphQL APIs: status codes, auth, schemas, repro.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/software-development/rest-graphql-debug/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/software-development/rest-graphql-debug/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1b3ece6a28ba9d77181aacfa.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-omp/skills/resume/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-omp/skills/resume/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [resume](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A58575134b46d1969d5c16e81.json) — Resume orchestrating of a babysitter run. use this command to resume babysitting a complex workflow.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [plugins/babysitter-github/skills/resume/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/plugins/babysitter-github/skills/resume/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

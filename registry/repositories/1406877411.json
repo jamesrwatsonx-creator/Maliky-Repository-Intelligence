@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "CLI tool for configuring and monitoring Claude Code",
+  "upstream_url": "https://github.com/davila7/claude-code-templates",
+  "description": "CLI and component catalog for configuring and monitoring Claude Code, including templates, skills, agents and MCP integrations.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-06T03:13:42Z",
-    "github_description": "CLI tool for configuring and monitoring Claude Code"
+    "github_description": "CLI tool for configuring and monitoring Claude Code",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "375af9018a40e330e81542f59054daaa088c21aa",
+  "current_commit": "375af9018a40e330e81542f59054daaa088c21aa",
+  "inspection_date": "2026-10-22T03:20:52.195352+00:00",
   "categories": [
-    "category:developer-tools"
+    "category:developer-tools",
+    "category:templates-boilerplates"
   ],
   "operational_category": "operational:24",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:09.221892+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.707736+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,94 @@
     ],
     "updated_at": "2026-10-12T19:04:27.097445+00:00",
     "purpose_established": true
+  },
+  "tree_files": 9663,
+  "files_read": 10,
+  "unread_source_files": 8272,
+  "repository_intelligence": {
+    "purpose": "CLI and component catalog for configuring and monitoring Claude Code, including templates, skills, agents and MCP integrations.",
+    "reuse_recommendation": "Use to discover and configure components; inspect scripts and permissions before installing third-party Skills or MCP servers.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Check license and inspect each installed component and MCP permission scope.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "Node.js",
+      "Claude Code configuration"
+    ],
+    "keywords": [
+      "Claude Code",
+      "CLI",
+      "agent templates",
+      "Skills",
+      "MCP",
+      "developer tooling"
+    ],
+    "risk_notes": [
+      "Check license and external service terms before adoption; review sensitive data, authentication and execution boundaries where applicable."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Templates CLI and component library",
+        "purpose": "Supports discovery, configuration and installation of Claude Code extensions.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:55.779700+00:00",
+    "inspected_commit": "375af9018a40e330e81542f59054daaa088c21aa",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "ac7190181a68aa980d4b1521dac6fd332a4ab9bd",
+        "value": "https://github.com/jamesrwatsonx-creator/claude-code-templates/blob/375af9018a40e330e81542f59054daaa088c21aa/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Claude Code component installation",
+        "description": "Browses and installs reusable configurations and components into Claude Code projects.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:claude-code-component-installation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Skills and MCP templates",
+        "description": "Provides agent instructions and MCP integrations for extending coding workflows.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:skills-and-mcp-templates",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

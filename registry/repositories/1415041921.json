@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+  "upstream_url": "https://github.com/hugohe3/ppt-master",
+  "description": "Presentation-authoring agent skill and plugin that guides creation and refinement of PowerPoint decks using reusable workflows, design rules and reference materials.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-11T15:41:40Z",
-    "github_description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He"
+    "github_description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "ca04346de145ed6462ddf34682848e71df5e20a2",
+  "current_commit": "ca04346de145ed6462ddf34682848e71df5e20a2",
+  "inspection_date": "2026-10-22T03:28:39.225940+00:00",
   "categories": [
-    "category:generative-ai"
+    "category:skills",
+    "category:productivity",
+    "category:creative-tools"
   ],
-  "operational_category": "operational:07",
+  "operational_category": "operational:20",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.004962+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.250079+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,109 @@
     ],
     "updated_at": "2026-10-12T19:04:27.260936+00:00",
     "purpose_established": true
+  },
+  "tree_files": 13098,
+  "files_read": 10,
+  "unread_source_files": 613,
+  "repository_intelligence": {
+    "purpose": "Presentation-authoring agent skill and plugin that guides creation and refinement of PowerPoint decks using reusable workflows, design rules and reference materials.",
+    "reuse_recommendation": "Use as a presentation-production workflow; verify generated claims, branding, accessibility and rights for incorporated visual assets.",
+    "inspection_scope": "Repository-level practical V1 summary from pinned README, manifests and tree evidence; no exhaustive asset splitting.",
+    "license_notes": "Verify the pinned repository license and licenses for included examples, fonts, images and reference assets.",
+    "runtime": [
+      "Markdown agent skill",
+      "Claude plugin manifest",
+      "PowerPoint workflow"
+    ],
+    "keywords": [
+      "PowerPoint",
+      "presentation design",
+      "agent skill",
+      "slide workflow",
+      "PowerPoint plugin",
+      "deck generation"
+    ],
+    "risk_notes": [
+      "Confirm license, dependency terms and external-service permissions before adoption."
+    ],
+    "important_subsystems": [
+      {
+        "name": "PPT Master skill and references",
+        "purpose": "Packages presentation instructions with supporting design rules and example materials.",
+        "evidence_paths": [
+          "skills/ppt-master/SKILL.md",
+          "docs/README.md",
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:30:31.139274+00:00",
+    "inspected_commit": "ca04346de145ed6462ddf34682848e71df5e20a2",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d4f0a335a4d6a017148ea239e152c7ad16142505",
+        "value": "https://github.com/jamesrwatsonx-creator/ppt-master/blob/ca04346de145ed6462ddf34682848e71df5e20a2/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/ppt-master/SKILL.md",
+        "blob_sha": "1a1e7dd8097ec5f0ab56ffd3944c8f789c0c2dc7",
+        "value": "https://github.com/jamesrwatsonx-creator/ppt-master/blob/ca04346de145ed6462ddf34682848e71df5e20a2/skills/ppt-master/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "docs/README.md",
+        "blob_sha": "7ae4e164edf56cd4e6f8c46b5d145350b4bc9b54",
+        "value": "https://github.com/jamesrwatsonx-creator/ppt-master/blob/ca04346de145ed6462ddf34682848e71df5e20a2/docs/README.md"
+      }
+    ],
+    "unavailable_sources": [],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Presentation creation workflow",
+        "description": "Guides agents through planning, authoring and refining presentation decks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:presentation-creation-workflow",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Presentation design references",
+        "description": "Provides reusable rules and examples to support consistent slide structure and visual quality.",
+        "scope": "REFERENCE",
+        "id": "cluster:presentation-design-references",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

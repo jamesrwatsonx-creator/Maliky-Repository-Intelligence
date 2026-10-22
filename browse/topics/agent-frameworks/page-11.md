@@ -1,9 +1,11 @@
 # Agent Frameworks — page 11
 
-2,050 catalog entries · Sorted alphabetically by name · Page 11 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 11 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [reddit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A091bc5572f4e5c87bc4f1b4f.json) — Reddit public-JSON search fetcher over finance subreddits for ticker posts (~10 requests/min/IP, no key); degrades to a placeholder on failure.<br>
+  Source: [jamesrwatsonx-creator/TradingAgents](https://github.com/jamesrwatsonx-creator/TradingAgents) · [tradingagents/dataflows/reddit.py](https://github.com/jamesrwatsonx-creator/TradingAgents/blob/61522e103e61601c553b4544abcd53fa7ebf9f1d/tradingagents/dataflows/reddit.py#L59) · CONNECTOR · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks, LLM projects
 - [refactor-cleaner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1d1e3e0d7d1afa7f1930ff39.json) — Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/refactor-cleaner.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/refactor-cleaner.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [refactor-cleaner](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aec611b7a74c3649473e57854.json) — Code cleanup and refactoring agent that addresses review findings while maintaining test coverage and applying clean code patterns.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/agents/semantics-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/agents/semantics-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [senior-ba](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad2e52346b60cdb8e7d64398e.json) — Senior BA with CBAP certification and BABOK expertise for requirements engineering<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/business-analysis/agents/senior-ba/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/business-analysis/agents/senior-ba/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [senior-pm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05ffc14c42b3d02279aaaa59.json) — PMP-certified Senior Project Manager with comprehensive PMBOK expertise<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/agents/senior-pm/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/agents/senior-pm/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

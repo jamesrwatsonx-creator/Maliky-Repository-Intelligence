@@ -1,9 +1,13 @@
 # Websites — page 3
 
-586 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+588 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [LayoutPicker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A498d44fe5ebe51efd3873dda.json) — Hermes desktop app React component Layout Picker (layout-picker.tsx).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/components/pane-shell/tree/renderer/layout-picker.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/components/pane-shell/tree/renderer/layout-picker.tsx#L111) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
+- [Linearize PDF](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad00589f9cf82298b63728f12.json) — Optimize PDF for fast web viewing.<br>
+  Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/linearize-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/linearize-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [LiveTodoPanel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A818b3a8cc6a4bcdacfea2db6.json) — Hermes terminal UI (Ink) React component Live Todo Panel (streamingAssistant.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [ui-tui/src/components/streamingAssistant.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/ui-tui/src/components/streamingAssistant.tsx#L104) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [LocalFilePreview](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A846739b4b56ccb391559674b.json) — Hermes desktop app React component Local File Preview (preview-file.tsx).<br>
@@ -300,10 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/review/file-tree.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/review/file-tree.tsx#L110) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [ReviewPane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa3a97041942c616bd1f91d4f.json) — Hermes desktop app React component Review Pane (index.tsx).<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/review/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/review/index.tsx#L46) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [ReviewShipBar](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4519b98ce95c08ec5b98edd0.json) — Hermes desktop app React component Review Ship Bar (ship-bar.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/review/ship-bar.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/review/ship-bar.tsx#L34) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [RightSidebarPane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A404a93cc3c060e7888be161e.json) — Hermes desktop app React component Right Sidebar Pane (index.tsx).<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [apps/desktop/src/app/right-sidebar/index.tsx](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/apps/desktop/src/app/right-sidebar/index.tsx#L28) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

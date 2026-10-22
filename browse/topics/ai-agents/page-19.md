@@ -1,15 +1,9 @@
 # AI Agents — page 19
 
-2,862 catalog entries · Sorted alphabetically by name · Page 19 of 20.
+2,859 catalog entries · Sorted alphabetically by name · Page 19 of 20.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [Utopia Bus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4b822805e96a8f4e26cf2d62.json) — Synchronous in-process event bus with typed events and registered listeners.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/bus/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/bus/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [Utopia Cache](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A14de34524fa19e024aacb1db.json) — Cache storage, loading and invalidation abstractions with multiple adapters.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/cache/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/cache/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [Utopia Cdn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A37d7d85fdab1e402d7b0fef1.json) — CDN adapter library for URL cache purges and CDN-backed certificate management.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/cdn/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/cdn/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia CircuitBreaker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A84a97f68bba46e9335e050fb.json) — Circuit breaker with shared state and telemetry for containing cascading downstream failures.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/circuit-breaker/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/circuit-breaker/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Cli](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae284eb7d17f68687a6b6b134.json) — Framework primitives for defining Utopia command-line applications.<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/xiaomi/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/xiaomi/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [xilinx-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1920c90cd56a0c0d9b88efa2.json) — Deep expertise in Xilinx/AMD FPGA ecosystem including Vivado Design Suite, Vitis platform, IP catalog, and device-specific optimizations.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/fpga-programming/agents/xilinx-specialist/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/fpga-programming/agents/xilinx-specialist/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [yb_query_group_info](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A28d1c579bc2a29601b20c5db.json) — Hermes agent tool yb_query_group_info (toolset core).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L501) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [yb_query_group_members](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acdf3a499c0cbfe16bd44e1de.json) — Hermes agent tool yb_query_group_members (toolset core).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L527) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [yb_search_sticker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0792b771ce7b894f084fd31b.json) — Hermes agent tool yb_search_sticker (toolset core).<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [tools/yuanbao_tools.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/tools/yuanbao_tools.py#L652) · TOOL · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

@@ -1,6 +1,6 @@
 # Frontend / UI / Components — page 2
 
-406 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+407 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -12,6 +12,8 @@
   Source: [jamesrwatsonx-creator/awesome-android-ui](https://github.com/jamesrwatsonx-creator/awesome-android-ui) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
 - [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418880407.json) — Curated directory of external React and React Native chat interfaces and related resources; it does not bundle a chat UI library.<br>
   Source: [jamesrwatsonx-creator/awesome-chat-react](https://github.com/jamesrwatsonx-creator/awesome-chat-react) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Research projects
+- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — Curated directory of CSS libraries, frameworks, tools, examples and learning resources for styling web interfaces.<br>
+  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Developer tools
 - [jamesrwatsonx-creator/BlurStickyHeaderListView](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398411138.json) — Android UI library implementing a scrolling list with blurred sticky headers and customizable header views.<br>
   Source: [jamesrwatsonx-creator/BlurStickyHeaderListView](https://github.com/jamesrwatsonx-creator/BlurStickyHeaderListView) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
 - [jamesrwatsonx-creator/bubbles-for-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398404716.json) — Android UI component library for presenting content in bubble-style views or layouts.<br>
@@ -24,8 +26,8 @@
   Source: [jamesrwatsonx-creator/DirectoryLister---maliky-repository-](https://github.com/jamesrwatsonx-creator/DirectoryLister---maliky-repository-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Developer tools, Cloud infrastructure
 - [jamesrwatsonx-creator/Folo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396765500.json) — Modern feed reader and content aggregation application for following web sources in a unified reading experience.<br>
   Source: [jamesrwatsonx-creator/Folo](https://github.com/jamesrwatsonx-creator/Folo) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Frontend applications
-- [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398506493.json) — A curated list of awesome LLM frameworks, libraries and software.<br>
-  Source: [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Front-end-UI-awesome-llm) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications, LLM projects
+- [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398506493.json) — Curated directory of frontend UI components and interface resources for LLM and AI-powered applications.<br>
+  Source: [jamesrwatsonx-creator/Front-end-UI-awesome-llm](https://github.com/jamesrwatsonx-creator/Front-end-UI-awesome-llm) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, AI applications
 - [jamesrwatsonx-creator/genea-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419816515.json) — Browser-based genealogy application for visually building and editing family trees with GEDCOM import/export and client-side storage options.<br>
   Source: [jamesrwatsonx-creator/genea-app](https://github.com/jamesrwatsonx-creator/genea-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Business applications, Data visualization
 - [jamesrwatsonx-creator/infima](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424224768.json) — CSS styling framework for content-driven websites, including theming and reusable layout primitives used by Docusaurus.<br>
@@ -38,8 +40,6 @@
   Source: [jamesrwatsonx-creator/material-components](https://github.com/jamesrwatsonx-creator/material-components) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Design systems, Documentation
 - [jamesrwatsonx-creator/MaterialViewPager](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398406328.json) — Android UI library for building Material Design-inspired scrolling view pagers with coordinated headers and tabs.<br>
   Source: [jamesrwatsonx-creator/MaterialViewPager](https://github.com/jamesrwatsonx-creator/MaterialViewPager) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
-- [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408213976.json) — Easy to use AI music generation UI for local models with QoL features<br>
-  Source: [jamesrwatsonx-creator/Music-tadpole-studio](https://github.com/jamesrwatsonx-creator/Music-tadpole-studio) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Frontend applications
 - [jamesrwatsonx-creator/next-seo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350901650.json) — React/TypeScript package for defining SEO metadata, structured data and social preview tags in Next.js applications.<br>
   Source: [jamesrwatsonx-creator/next-seo](https://github.com/jamesrwatsonx-creator/next-seo) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Frontend applications, Developer tools
 - [jamesrwatsonx-creator/ng-lottie](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376780916.json) — Angular wrapper component for rendering Lottie/Bodymovin animation JSON in web applications.<br>
@@ -50,6 +50,8 @@
   Source: [jamesrwatsonx-creator/obsidian-galaxy-graph](https://github.com/jamesrwatsonx-creator/obsidian-galaxy-graph) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Productivity, Data visualization
 - [jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419960856.json) — Open-source chat interface that turns user questions into interactive explanations, comparisons and working UI tools using agent/UI frameworks.<br>
   Source: [jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites](https://github.com/jamesrwatsonx-creator/OpenIntelligentUI-Dynamic-Websites) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, AI applications, Frontend applications
+- [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407868392.json) — Rust-based clean-room image-editing application project focused on recreating desktop photo-editing capabilities.<br>
+  Source: [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/photocraft) · REPOSITORY · COMPLETE · PINNED_SOURCE · Desktop applications, Frontend applications
 - [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376780291.json) — Legacy React wrapper for rendering Bodymovin/Lottie animation JSON in browser interfaces, with controls for playback and animation segments.<br>
   Source: [jamesrwatsonx-creator/react-lottie](https://github.com/jamesrwatsonx-creator/react-lottie) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frontend applications, Libraries/packages, Creative tools
 - [jamesrwatsonx-creator/shadcn-calendar-heatmap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427704462.json) — Reusable React calendar heatmap component package for displaying activity or time-series intensity in a shadcn/ui-style application.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/catalog/SearchBar.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/catalog/SearchBar.tsx#L45) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 - [SearchFilter](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A285d342759719cb2df624963.json) — Observer dashboard React component SearchFilter (search-filter.tsx).<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/observer-dashboard/src/components/dashboard/search-filter.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/observer-dashboard/src/components/dashboard/search-filter.tsx#L23) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
-- [SearchInput](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A53de02a78d895a9e5ae0e444.json) — Process catalog React component SearchInput (SearchInput.tsx).<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [packages/catalog/src/components/common/SearchInput.tsx](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/packages/catalog/src/components/common/SearchInput.tsx#L65) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications
 
 ## Pages
 

@@ -10,26 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "upstream_url": "https://github.com/cloudflare/security-audit-skill",
+  "description": "Security-audit agent skill with coverage guidance and validation utilities for reviewing application code and structuring findings across common attack classes.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-14T19:29:02Z",
-    "github_description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    "github_description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "current_commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "inspection_date": "2026-10-22T03:28:32.226037+00:00",
   "categories": [
-    "category:ai-agents",
-    "category:application-security",
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:security-testing",
+    "category:application-security"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:21",
   "secondary_operational_categories": [
     "operational:03",
     "operational:21",
@@ -41,7 +41,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -49,13 +49,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.183153+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.413808+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -65,5 +66,110 @@
     ],
     "updated_at": "2026-10-12T19:04:27.281135+00:00",
     "purpose_established": true
+  },
+  "tree_files": 22,
+  "files_read": 10,
+  "unread_source_files": 12,
+  "repository_intelligence": {
+    "purpose": "Security-audit agent skill with coverage guidance and validation utilities for reviewing application code and structuring findings across common attack classes.",
+    "reuse_recommendation": "Use as a review aid and coverage checklist, not as proof of security; independently validate findings and scope the audit to the application.",
+    "inspection_scope": "Repository-level practical V1 summary from pinned README, manifests and tree evidence; no exhaustive asset splitting.",
+    "license_notes": "Check the pinned LICENSE and third-party rule/reference licenses before redistribution.",
+    "runtime": [
+      "Markdown agent skill",
+      "Node.js"
+    ],
+    "keywords": [
+      "security audit",
+      "application security",
+      "agent skill",
+      "attack classes",
+      "finding validation",
+      "coverage ledger",
+      "LLM security"
+    ],
+    "risk_notes": [
+      "Security review output is advisory and must be verified against source and threat model; avoid exposing secrets in audit inputs."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Security audit skill and references",
+        "purpose": "Organizes audit procedure, attack-class references and validation scripts for findings and coverage.",
+        "evidence_paths": [
+          "skills/security-audit/SKILL.md",
+          "skills/security-audit/validate-findings.cjs"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:30:30.940109+00:00",
+    "inspected_commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "c80305c88cd5087db37f76a0d230c1fc092c864c",
+        "value": "https://github.com/jamesrwatsonx-creator/security-audit-skill/blob/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/security-audit/SKILL.md",
+        "blob_sha": "92178dad304d3f63e37582a297026a7874e12c62",
+        "value": "https://github.com/jamesrwatsonx-creator/security-audit-skill/blob/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/security-audit/validate-findings.cjs",
+        "blob_sha": "2843feceddb7e30bf10d6e4f7bbe6640e4c57799",
+        "value": "https://github.com/jamesrwatsonx-creator/security-audit-skill/blob/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit/validate-findings.cjs"
+      }
+    ],
+    "unavailable_sources": [
+      "skills/security-audit/ATTACK-CLASSES.md"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Guided application security review",
+        "description": "Provides structured audit instructions covering application and AI/LLM security risk areas.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:guided-application-security-review",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Finding and coverage validation",
+        "description": "Includes scripts for checking audit coverage records and security finding structure.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:finding-and-coverage-validation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -10,22 +10,24 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Open-source AI brand + product visibility checker (GEO/AEO). Are your brand and products recommended by ChatGPT, Perplexity, Gemini and Claude? CLI + MCP server, BYO keys, runs locally.",
+  "upstream_url": "https://github.com/optifeed/optifeed-radar",
+  "description": "Optifeed Radar is a TypeScript plugin, CLI and MCP server for discovering, auditing and monitoring website feeds.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-08-13T19:40:39Z",
-    "github_description": "Open-source AI brand + product visibility checker (GEO/AEO). Are your brand and products recommended by ChatGPT, Perplexity, Gemini and Claude? CLI + MCP server, BYO keys, runs locally."
+    "github_description": "Open-source AI brand + product visibility checker (GEO/AEO). Are your brand and products recommended by ChatGPT, Perplexity, Gemini and Claude? CLI + MCP server, BYO keys, runs locally.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "2e0af8990de6914eefe4665bfe98f5d5c5e9e81b",
+  "current_commit": "2e0af8990de6914eefe4665bfe98f5d5c5e9e81b",
+  "inspection_date": "2026-10-22T03:05:51.892366+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:mcp-servers"
+    "category:plugins-extensions",
+    "category:mcp-servers",
+    "category:developer-tools"
   ],
   "operational_category": "operational:02",
   "secondary_operational_categories": [
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.925096+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.171871+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,121 @@
     ],
     "updated_at": "2026-10-12T19:04:27.251709+00:00",
     "purpose_established": true
+  },
+  "tree_files": 215,
+  "files_read": 10,
+  "unread_source_files": 197,
+  "repository_intelligence": {
+    "purpose": "Optifeed Radar is a TypeScript plugin, CLI and MCP server for discovering, auditing and monitoring website feeds.",
+    "reuse_recommendation": "Use for feed discovery and monitoring; set network and crawl limits appropriate to the target sites.",
+    "inspection_scope": "Pinned README, package manifest and representative top-level subsystem review; repository-level capability summary only.",
+    "license_notes": "MIT license identified in repository; review network access and feed-fetch behavior for deployments.",
+    "runtime": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "keywords": [
+      "RSS",
+      "Atom",
+      "web feeds",
+      "MCP server",
+      "CLI",
+      "feed audit",
+      "TypeScript"
+    ],
+    "risk_notes": [
+      "Verify upstream licenses and service/platform policies before adopting integrations or referenced projects."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Radar core and adapters",
+        "purpose": "Separates feed discovery/audit logic from CLI, MCP and agent-facing interfaces.",
+        "evidence_paths": [
+          "README.md",
+          "src/cli/index.ts",
+          "src/mcp/index.ts",
+          "src/core/index.ts"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:07:09.960056+00:00",
+    "inspected_commit": "2e0af8990de6914eefe4665bfe98f5d5c5e9e81b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "371f4f03590cf9de8f360caee4655000b579379a",
+        "value": "https://github.com/jamesrwatsonx-creator/optifeed-radar/blob/2e0af8990de6914eefe4665bfe98f5d5c5e9e81b/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "src/cli/index.ts",
+        "blob_sha": "58e565bdccec1c83d35c62b59d3474101641280e",
+        "value": "https://github.com/jamesrwatsonx-creator/optifeed-radar/blob/2e0af8990de6914eefe4665bfe98f5d5c5e9e81b/src/cli/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "src/mcp/index.ts",
+        "blob_sha": "f38a241e52e23693a8edc1110cb3813c79b27e56",
+        "value": "https://github.com/jamesrwatsonx-creator/optifeed-radar/blob/2e0af8990de6914eefe4665bfe98f5d5c5e9e81b/src/mcp/index.ts"
+      },
+      {
+        "type": "source_review",
+        "path": "src/core/index.ts",
+        "blob_sha": "c77233c7e4eff7276db67d46c000fec72b08fd6a",
+        "value": "https://github.com/jamesrwatsonx-creator/optifeed-radar/blob/2e0af8990de6914eefe4665bfe98f5d5c5e9e81b/src/core/index.ts"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Feed discovery and auditing",
+        "description": "Finds and inspects RSS/Atom feeds and related discovery metadata for websites.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:feed-discovery-and-auditing",
+        "evidence_paths": [
+          "README.md",
+          "src/cli/index.ts",
+          "src/mcp/index.ts",
+          "src/core/index.ts"
+        ]
+      },
+      {
+        "name": "CLI, MCP and agent Skill surfaces",
+        "description": "Exposes feed workflows to command-line users and agent integrations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cli-mcp-and-agent-skill-surfaces",
+        "evidence_paths": [
+          "README.md",
+          "src/cli/index.ts",
+          "src/mcp/index.ts",
+          "src/core/index.ts"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

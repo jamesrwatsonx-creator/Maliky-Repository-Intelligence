@@ -18,6 +18,7 @@ def candidates(args):
         # every summary batch; retain them in the canonical queue for explicit
         # disposition handling.
         repos=[x for x in repos if x.get('repository_intelligence',{}).get('status')!='COMPLETE'
+               and x.get('summary_preparation',{}).get('status')!='DEFERRED_SOURCE_UNAVAILABLE'
                and not (x.get('state')=='NEEDS_REVIEW' and x.get('next_phase')=='EMPTY_REPOSITORY_DISPOSITION')]
         return sorted(repos,key=lambda x:(x['full_name']==r.SELF,not bool(x.get('inspected_commit')),x.get('tree_files',0),x['github_id']))
     allowed=('PARTIAL','STRUCTURE_COMPLETE','ENTITY_EXTRACTION_COMPLETE','DISCOVERED')
@@ -44,6 +45,20 @@ def main():
     parser.add_argument('--repository-summaries',action='store_true',help='Prepare bounded purpose/cluster evidence without extracting assets')
     parser.add_argument('--summary-files',type=int,default=12)
     args=parser.parse_args()
+    if args.repository_summaries:
+        # Carry prior source-fetch failures out of the immediate queue so a
+        # transient remote outage cannot trap every subsequent batch. These
+        # repositories remain incomplete and explicitly retryable by --repo.
+        previous=r.read('system/repository-summary-batch.json',{})
+        failed={item.get('repository'):item for item in previous.get('results',[]) if item.get('error')}
+        if failed:
+            for repo in r.records('repositories'):
+                item=failed.get(repo['full_name'])
+                if not item or repo.get('repository_intelligence',{}).get('status')=='COMPLETE': continue
+                repo['summary_preparation']={'status':'DEFERRED_SOURCE_UNAVAILABLE',
+                    'attempted_at':r.now(),'error':item['error'][:300],
+                    'commit':item.get('commit')}
+                r.write(r.repo_file(repo),repo)
     targets=candidates(args)[:args.limit]
     if args.dry_run:
         print(json.dumps([{'repository':x['full_name'],'state':x['state'],'next_phase':x.get('next_phase')} for x in targets],indent=2)); return
@@ -52,7 +67,12 @@ def main():
         if args.repository_summaries:
             print('Preparing repository summary: '+repo['full_name'],flush=True)
             try: result=prepare_repository_summary(repo,args.summary_files)
-            except (ValueError,RuntimeError,OSError) as exc: result={'repository':repo['full_name'],'error':str(exc)[:300]}
+            except (ValueError,RuntimeError,OSError) as exc:
+                result={'repository':repo['full_name'],'error':str(exc)[:300]}
+                current=next(x for x in r.records('repositories') if x['id']==repo['id'])
+                current['summary_preparation']={'status':'DEFERRED_SOURCE_UNAVAILABLE','attempted_at':r.now(),
+                                                'error':result['error'],'commit':current.get('inspected_commit')}
+                r.write(r.repo_file(current),current)
             output.append(result); continue
         result=r.ingest(repo['full_name'],snapshot=args.snapshot,
                         pinned=bool(args.pinned and repo.get('inspected_commit')))

@@ -2,7 +2,7 @@
 
 Android apps, libraries, skills and platform tooling.
 
-**141 entries**
+**140 entries**
 
 ## Browse within this topic
 
@@ -10,7 +10,7 @@ Android apps, libraries, skills and platform tooling.
 - [Libraries & Packages](by-type/libraries/README.md) (2)
 - [Models & Model Adapters](by-type/models/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (3)
-- [Repositories](by-type/repositories/README.md) (56)
+- [Repositories](by-type/repositories/README.md) (55)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (22)
 - [UI Components](by-type/ui-components/README.md) (8)
@@ -126,8 +126,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/awesome-flutter](https://github.com/jamesrwatsonx-creator/awesome-flutter) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools
 - [jamesrwatsonx-creator/awesome-ios](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398000909.json) — Curated directory of iOS libraries, applications, developer tools and learning resources.<br>
   Source: [jamesrwatsonx-creator/awesome-ios](https://github.com/jamesrwatsonx-creator/awesome-ios) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools
-- [jamesrwatsonx-creator/awesome-kotlin-libraries-for-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398510702.json) — 😎 A curated list of awesome Kotlin libraries for Android.<br>
-  Source: [jamesrwatsonx-creator/awesome-kotlin-libraries-for-android](https://github.com/jamesrwatsonx-creator/awesome-kotlin-libraries-for-android) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
+- [jamesrwatsonx-creator/awesome-kotlin-libraries-for-android](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398510702.json) — Curated directory of Kotlin libraries and tools useful for Android application development.<br>
+  Source: [jamesrwatsonx-creator/awesome-kotlin-libraries-for-android](https://github.com/jamesrwatsonx-creator/awesome-kotlin-libraries-for-android) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools
 - [jamesrwatsonx-creator/awesome-react-native](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396965636.json) — Curated directory of React Native libraries, tools, components and learning resources.<br>
   Source: [jamesrwatsonx-creator/awesome-react-native](https://github.com/jamesrwatsonx-creator/awesome-react-native) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools
 - [jamesrwatsonx-creator/awesome-swift](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398001576.json) — Curated list of Swift libraries, tools, frameworks and learning resources across Apple platforms.<br>
@@ -162,8 +162,8 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/google-timeline-visualizer](https://github.com/jamesrwatsonx-creator/google-timeline-visualizer) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Media/publishing, Real estate/geospatial
 - [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1350918326.json) — Android sample applications demonstrating Google Mobile Ads SDK integration, ad formats and monetization workflows.<br>
   Source: [jamesrwatsonx-creator/googleads-mobile-android-examples](https://github.com/jamesrwatsonx-creator/googleads-mobile-android-examples) · REPOSITORY · COMPLETE · PINNED_SOURCE · Reference implementations, Mobile applications, Marketing/communications
-- [jamesrwatsonx-creator/jetpack-compose-awesome](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398832432.json) — 📝 A curated list of awesome Jetpack Compose libraries, projects, articles and resources<br>
-  Source: [jamesrwatsonx-creator/jetpack-compose-awesome](https://github.com/jamesrwatsonx-creator/jetpack-compose-awesome) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/jetpack-compose-awesome](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398832432.json) — Curated directory of Jetpack Compose libraries, UI components, design examples and learning resources for native Android development.<br>
+  Source: [jamesrwatsonx-creator/jetpack-compose-awesome](https://github.com/jamesrwatsonx-creator/jetpack-compose-awesome) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
 - [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342397694.json) — Android and Compose library for displaying customizable confetti particle effects in mobile interfaces.<br>
   Source: [jamesrwatsonx-creator/Konfetti](https://github.com/jamesrwatsonx-creator/Konfetti) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Mobile applications, Creative tools
 - [jamesrwatsonx-creator/Kotlin-coil](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342399055.json) — Kotlin image-loading library for Android and Compose applications, supporting asynchronous image requests, caching and rendering.<br>
@@ -186,8 +186,6 @@ Android apps, libraries, skills and platform tooling.
   Source: [jamesrwatsonx-creator/nowinandroid](https://github.com/jamesrwatsonx-creator/nowinandroid) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Reference implementations, Developer tools
 - [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418655545.json) — Agent-control toolkit for operating real iOS and Android phones through screen observation, taps, typing and text discovery using desktop or cloud bridges.<br>
   Source: [jamesrwatsonx-creator/phone-harness](https://github.com/jamesrwatsonx-creator/phone-harness) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools, AI agents
-- [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399091669.json) — Useful tool to track location or mobile number<br>
-  Source: [jamesrwatsonx-creator/presence-phone-number-GhostTrack](https://github.com/jamesrwatsonx-creator/presence-phone-number-GhostTrack) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Mobile applications
 - [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945131.json) — Starter template for rapidly bootstrapping React Native applications with Expo and a preconfigured project structure.<br>
   Source: [jamesrwatsonx-creator/react-native-expo-quickstart](https://github.com/jamesrwatsonx-creator/react-native-expo-quickstart) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Developer tools
 - [jamesrwatsonx-creator/scrcpy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426098185.json) — Desktop application and command-line tool for mirroring and controlling Android devices over USB or TCP/IP using Android Debug Bridge.<br>

@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "master",
-  "upstream_url": null,
-  "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+  "upstream_url": "https://github.com/foundry-rs/foundry",
+  "description": "Rust-based Ethereum development toolchain for building, testing, fuzzing, debugging and deploying Solidity contracts, with local-node and RPC utilities.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-03T21:21:26Z",
-    "github_description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust."
+    "github_description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "60255eee79332caef99f0c885f55589769f8f0c0",
+  "current_commit": "60255eee79332caef99f0c885f55589769f8f0c0",
+  "inspection_date": "2026-10-22T03:16:08.527891+00:00",
   "categories": [
-    "category:general-other"
+    "category:blockchain-web3-security",
+    "category:developer-tools"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:24",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:09.863376+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.226684+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,122 @@
     ],
     "updated_at": "2026-10-12T19:04:27.141258+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2080,
+  "files_read": 10,
+  "unread_source_files": 1282,
+  "repository_intelligence": {
+    "purpose": "Rust-based Ethereum development toolchain for building, testing, fuzzing, debugging and deploying Solidity contracts, with local-node and RPC utilities.",
+    "reuse_recommendation": "Use for Solidity development and testing; keep private keys out of scripts and review broadcast/deployment steps before execution.",
+    "inspection_scope": "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+    "license_notes": "Review dual license terms and deployment security implications for any transaction-signing workflows.",
+    "runtime": [
+      "Rust",
+      "Solidity",
+      "EVM"
+    ],
+    "keywords": [
+      "Foundry",
+      "Solidity",
+      "Forge",
+      "Cast",
+      "Anvil",
+      "Chisel",
+      "smart contract testing"
+    ],
+    "risk_notes": [
+      "Deployment and transaction-signing surfaces warrant scoped key-management and execution review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Forge, Cast, Anvil and Chisel",
+        "purpose": "Together provide core contract development, testing and EVM interaction tools.",
+        "evidence_paths": [
+          "README.md",
+          "Cargo.toml",
+          "crates/anvil/Cargo.toml",
+          "crates/cast/Cargo.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:17:42.900788+00:00",
+    "inspected_commit": "60255eee79332caef99f0c885f55589769f8f0c0",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "af4068f47acea84ad692d1652fd804b2e6aee202",
+        "value": "https://github.com/jamesrwatsonx-creator/foundry/blob/60255eee79332caef99f0c885f55589769f8f0c0/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "Cargo.toml",
+        "blob_sha": "7b755c926dd7cf7ab750b78aaf2eca594120dc9e",
+        "value": "https://github.com/jamesrwatsonx-creator/foundry/blob/60255eee79332caef99f0c885f55589769f8f0c0/Cargo.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "crates/anvil/Cargo.toml",
+        "blob_sha": "8bc4062bad0e72f76d90ae74d0bdd5ec76d8535e",
+        "value": "https://github.com/jamesrwatsonx-creator/foundry/blob/60255eee79332caef99f0c885f55589769f8f0c0/crates/anvil/Cargo.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "crates/cast/Cargo.toml",
+        "blob_sha": "0bf85b0c563cb0f0b2a0610413a4b9c7e1ed0aa1",
+        "value": "https://github.com/jamesrwatsonx-creator/foundry/blob/60255eee79332caef99f0c885f55589769f8f0c0/crates/cast/Cargo.toml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Solidity build and test toolchain",
+        "description": "Forge supports contract compilation, testing, fuzzing, debugging and deployment workflows.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:solidity-build-and-test-toolchain",
+        "evidence_paths": [
+          "README.md",
+          "Cargo.toml",
+          "crates/anvil/Cargo.toml",
+          "crates/cast/Cargo.toml"
+        ]
+      },
+      {
+        "name": "EVM interaction and local development",
+        "description": "Cast, Anvil and Chisel support chain interaction, local node simulation and Solidity experimentation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:evm-interaction-and-local-development",
+        "evidence_paths": [
+          "README.md",
+          "Cargo.toml",
+          "crates/anvil/Cargo.toml",
+          "crates/cast/Cargo.toml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,9 +1,11 @@
 # Agent Frameworks — page 12
 
-2,050 catalog entries · Sorted alphabetically by name · Page 12 of 14.
+2,051 catalog entries · Sorted alphabetically by name · Page 12 of 14.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [senior-pm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A05ffc14c42b3d02279aaaa59.json) — PMP-certified Senior Project Manager with comprehensive PMBOK expertise<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/agents/senior-pm/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/agents/senior-pm/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [sensitivity-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1783ef34d2c78f75a1aebc03.json) — Scenario analysis agent specializing in stress testing, sensitivity analysis, and Monte Carlo modeling<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/venture-capital/agents/sensitivity-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/venture-capital/agents/sensitivity-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [seo-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2fd7b6f3232826e24f8ddb75.json) — Expert in technical SEO audit, structured data validation, and optimization.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/swift-build-resolver.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/swift-build-resolver.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [swift-reviewer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A234735dd5b25e7d4e0f91fd5.json) — Expert Swift code reviewer specializing in protocol-oriented design, value semantics, ARC memory management, Swift Concurrency, and idiomatic patterns. Use for all Swift code changes. MUST BE USED for Swift projects.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/swift-reviewer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/swift-reviewer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [swiftui-macos-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0fb2bbc179883784e9157737.json) — Expert in SwiftUI, AppKit, macOS development, and Apple platform integration<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/agents/swiftui-macos-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/swiftui-macos-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

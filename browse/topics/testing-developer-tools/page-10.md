@@ -1,9 +1,11 @@
 # Testing & Developer Tools — page 10
 
-1,564 catalog entries · Sorted alphabetically by name · Page 10 of 11.
+1,565 catalog entries · Sorted alphabetically by name · Page 10 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [specializations/ux-ui-design/design-handoff](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab289dc8ebc97d16f8b3cfa99.json) — Design Handoff to Development - Comprehensive process for handing off design work to development teams with design annotation, developer documentation, asset export, component specifications, interaction specs, design…<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/design-handoff.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/design-handoff.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/ux-ui-design/design-qa](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4ea7ab6909ba4af35bc705f5.json) — Design QA and Visual Regression Testing - Comprehensive design quality assurance process ensuring pixel-perfect implementation, design system compliance, cross-browser consistency, responsive design verification, and…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ux-ui-design/design-qa.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ux-ui-design/design-qa.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/ux-ui-design/hifi-prototyping](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca834249f2f782ef5372ee27.json) — Hi-Fi Prototyping and Interaction Design - Comprehensive high-fidelity prototyping workflow implementing design tool setup, interaction design patterns, microinteractions, animations, transitions, user testing…<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/smtp/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/smtp/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Span](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5b447a85864fedfba000d0d3.json) — Memory-safe span tracing with automatic Swoole coroutine storage.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/span/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/span/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
-- [Utopia Storage](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa73503d0ce23c3e019f63b28.json) — Storage abstraction with local, S3, AWS, Backblaze, DigitalOcean, Linode and Wasabi devices.<br>
-  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/storage/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/storage/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 
 ## Pages
 

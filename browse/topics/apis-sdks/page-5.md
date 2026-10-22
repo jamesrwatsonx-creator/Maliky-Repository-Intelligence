@@ -1,6 +1,6 @@
 # APIs & SDKs — page 5
 
-1,668 catalog entries · Sorted alphabetically by name · Page 5 of 12.
+1,680 catalog entries · Sorted alphabetically by name · Page 5 of 12.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -210,6 +210,8 @@
   Source: [jamesrwatsonx-creator/1time.io](https://github.com/jamesrwatsonx-creator/1time.io) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Cybersecurity, Privacy
 - [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418887038.json) — Go API gateway for microservices with parallel fan-out, YAML-configured response aggregation and native shared-object plugins.<br>
   Source: [jamesrwatsonx-creator/aastro-api](https://github.com/jamesrwatsonx-creator/aastro-api) · REPOSITORY · COMPLETE · PINNED_SOURCE · Backend services, APIs, Cloud infrastructure
+- [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661247.json) — Ethereum account-abstraction implementation and SDK/contracts supporting smart accounts, sponsored and batched transactions, social recovery and flexible authorization.<br>
+  Source: [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/account-abstraction) · REPOSITORY · COMPLETE · PINNED_SOURCE · Blockchain/Web3 security, SDKs/client libraries
 - [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344556929.json) — Bloop mobile client and worked example for chatting with Letta agents, viewing streamed reasoning/tool events and approving consequential actions.<br>
   Source: [jamesrwatsonx-creator/agent-sdk-mobile-app](https://github.com/jamesrwatsonx-creator/agent-sdk-mobile-app) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, AI agents, SDKs/client libraries
 - [jamesrwatsonx-creator/agentkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366367241.json) — Agent-building toolkit or framework for composing model-backed assistants with tools, actions and application integrations.<br>
@@ -246,6 +248,8 @@
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Backend services, APIs, Developer tools
 - [jamesrwatsonx-creator/argent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1308179368.json) — Argent account or smart-wallet project, providing wallet user experience and blockchain transaction capabilities; confirm whether this repository is the app, SDK or supporting service.<br>
   Source: [jamesrwatsonx-creator/argent](https://github.com/jamesrwatsonx-creator/argent) · REPOSITORY · COMPLETE · PINNED_SOURCE · Blockchain/Web3 security, Finance/accounting, Mobile applications
+- [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1414876606.json) — Desktop creative IDE for interactive AI image and video generation, combining visual 2D composition, 3D scene staging, model selection and repeatable generation controls.<br>
+  Source: [jamesrwatsonx-creator/artcraft](https://github.com/jamesrwatsonx-creator/artcraft) · REPOSITORY · COMPLETE · PINNED_SOURCE · Creative tools, Generative AI, Media/publishing
 - [jamesrwatsonx-creator/atproto](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389402397.json) — Python SDK for the AT Protocol, including clients and protocol models used to build Bluesky-compatible applications.<br>
   Source: [jamesrwatsonx-creator/atproto](https://github.com/jamesrwatsonx-creator/atproto) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Developer tools
 - [jamesrwatsonx-creator/autogen](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346374760.json) — Framework for building applications with multiple collaborating AI agents, tools and human-in-the-loop workflows.<br>
@@ -292,18 +296,14 @@
   Source: [jamesrwatsonx-creator/chrome-devtools-mcp](https://github.com/jamesrwatsonx-creator/chrome-devtools-mcp) · REPOSITORY · COMPLETE · PINNED_SOURCE · MCP servers, Developer tools, Automation/scripting
 - [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1254781027.json) — Android-development skill, architecture references, Gradle templates and a Python generator for Kotlin/Compose feature API and implementation modules.<br>
   Source: [jamesrwatsonx-creator/claude-android-skill](https://github.com/jamesrwatsonx-creator/claude-android-skill) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Mobile applications, Templates/boilerplates
+- [jamesrwatsonx-creator/claude-code-templates](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406877411.json) — CLI and component catalog for configuring and monitoring Claude Code, including templates, skills, agents and MCP integrations.<br>
+  Source: [jamesrwatsonx-creator/claude-code-templates](https://github.com/jamesrwatsonx-creator/claude-code-templates) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Templates/boilerplates
 - [jamesrwatsonx-creator/claude-mem](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348987638.json) — Persistent memory system for Claude Code that captures session context and makes prior project knowledge retrievable across coding sessions.<br>
   Source: [jamesrwatsonx-creator/claude-mem](https://github.com/jamesrwatsonx-creator/claude-mem) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI memory, Plugins/extensions, Developer tools
 - [jamesrwatsonx-creator/cli](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426112891.json) — Google Workspace CLI for Drive, Gmail, Calendar and other Workspace APIs, with structured JSON output and bundled agent skills.<br>
   Source: [jamesrwatsonx-creator/cli](https://github.com/jamesrwatsonx-creator/cli) · REPOSITORY · COMPLETE · PINNED_SOURCE · CLI tools, APIs, Productivity
 - [jamesrwatsonx-creator/CLI-Anything](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426072571.json) — Framework or agent skill that turns desktop applications into command-line accessible workflows for AI agents and automation.<br>
   Source: [jamesrwatsonx-creator/CLI-Anything](https://github.com/jamesrwatsonx-creator/CLI-Anything) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Agent workflows, Automation/scripting
-- [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — React Native and Expo client SDK/plugin integration for connecting mobile apps to its associated service.<br>
-  Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Mobile applications
-- [jamesrwatsonx-creator/client-sdk-web](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1424236264.json) — Web client SDK for connecting browser applications to Vapi voice-agent sessions and related realtime client events.<br>
-  Source: [jamesrwatsonx-creator/client-sdk-web](https://github.com/jamesrwatsonx-creator/client-sdk-web) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, APIs, AI applications
-- [jamesrwatsonx-creator/codeburn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1365084316.json) — Developer tool or application for analyzing, testing or transforming code; determine exact language and workflow from pinned package metadata before implementation reuse.<br>
-  Source: [jamesrwatsonx-creator/codeburn](https://github.com/jamesrwatsonx-creator/codeburn) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Automation/scripting, General / Other
 
 ## Pages
 

@@ -10,22 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "7.x",
-  "upstream_url": null,
-  "description": "Mautic: Open Source Marketing Automation Software.",
+  "upstream_url": "https://github.com/mautic/mautic",
+  "description": "Self-hostable marketing automation platform for managing contacts, campaigns, email marketing and integrations with control over deployment and data storage.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-09-30T08:18:49Z",
-    "github_description": "Mautic: Open Source Marketing Automation Software."
+    "github_description": "Mautic: Open Source Marketing Automation Software.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "9b35bfd3f73da17546d8314b10d281d2ce4a7683",
+  "current_commit": "9b35bfd3f73da17546d8314b10d281d2ce4a7683",
+  "inspection_date": "2026-10-22T03:11:03.443928+00:00",
   "categories": [
-    "category:automation-scripting",
-    "category:business-applications"
+    "category:business-applications",
+    "category:automation-scripting"
   ],
   "operational_category": "operational:11",
   "secondary_operational_categories": [
@@ -37,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +46,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.337835+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.586954+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +63,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.183471+00:00",
     "purpose_established": true
+  },
+  "tree_files": 7127,
+  "files_read": 10,
+  "unread_source_files": 5457,
+  "repository_intelligence": {
+    "purpose": "Self-hostable marketing automation platform for managing contacts, campaigns, email marketing and integrations with control over deployment and data storage.",
+    "reuse_recommendation": "Use for self-hosted marketing operations after reviewing consent, access control, email deliverability and data retention.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Verify license and email-provider requirements; configure consent, unsubscribe and personal-data controls.",
+    "runtime": [
+      "PHP",
+      "web application"
+    ],
+    "keywords": [
+      "marketing automation",
+      "campaigns",
+      "email marketing",
+      "contacts",
+      "self-hosted"
+    ],
+    "risk_notes": [
+      "Review license, data protection, security and provider requirements before deployment or integration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Mautic marketing platform",
+        "purpose": "Provides marketing automation workflows and campaign management capabilities.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:59.976508+00:00",
+    "inspected_commit": "9b35bfd3f73da17546d8314b10d281d2ce4a7683",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "d9a59be083817184434f0a9071912b8bbf840114",
+        "value": "https://github.com/jamesrwatsonx-creator/invoice-mautic/blob/9b35bfd3f73da17546d8314b10d281d2ce4a7683/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Marketing campaign automation",
+        "description": "Builds automated marketing campaigns and communications around audience data and engagement.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:marketing-campaign-automation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Contact and integration management",
+        "description": "Manages marketing contacts and connections to external services in a self-hosted system.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:contact-and-integration-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,9 +1,13 @@
 # Testing & Developer Tools — page 6
 
-1,564 catalog entries · Sorted alphabetically by name · Page 6 of 11.
+1,565 catalog entries · Sorted alphabetically by name · Page 6 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/vibe-coding-UX-pilot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358049390.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
+  Source: [jamesrwatsonx-creator/vibe-coding-UX-pilot](https://github.com/jamesrwatsonx-creator/vibe-coding-UX-pilot) · REPOSITORY · NEEDS_REVIEW · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · APIs, Developer tools
+- [jamesrwatsonx-creator/vibe-studio-agent-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1269741240.json) — Production-oriented engineering skill collection encoding senior development workflows, quality gates and practices for coding agents.<br>
+  Source: [jamesrwatsonx-creator/vibe-studio-agent-skills](https://github.com/jamesrwatsonx-creator/vibe-studio-agent-skills) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Developer tools, Agent workflows
 - [jamesrwatsonx-creator/Vibe-studio-aidlc-workflows](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372821933.json) — Agentic development lifecycle workflows for planning, specifying, building and validating software in Vibe Studio.<br>
   Source: [jamesrwatsonx-creator/Vibe-studio-aidlc-workflows](https://github.com/jamesrwatsonx-creator/Vibe-studio-aidlc-workflows) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, Developer tools, Skills
 - [jamesrwatsonx-creator/vibe-studio-botmaker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359134539.json) — Hermes skill and profile templates for interviewing a user, drafting an agent SOUL, scaffolding a bot and recording human approval/certification steps.<br>
@@ -24,8 +28,6 @@
   Source: [jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach](https://github.com/jamesrwatsonx-creator/voice-and-search-AI-idea-Agent-Reach) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, AI agents, Research projects
 - [jamesrwatsonx-creator/Voice-mode-3](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366383041.json) — Voice interaction extension or workflow for AI coding agents, enabling speech input and spoken responses during development tasks.<br>
   Source: [jamesrwatsonx-creator/Voice-mode-3](https://github.com/jamesrwatsonx-creator/Voice-mode-3) · REPOSITORY · COMPLETE · PINNED_SOURCE · Plugins/extensions, Media/publishing, Developer tools
-- [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398515783.json) — Skills catalog for Claude Code — AgentOS by EdgeLab. Production-tested skills for coding, content, research, sales, AI media generation<br>
-  Source: [jamesrwatsonx-creator/voice-website-agent-Markdown](https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI agents, Business applications, Creative tools
 - [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342370171.json) — Python web-capability service prototype combining constrained HTTP extraction, Playwright-backed browser replay, a local capability registry, MCP/API surfaces and health/lead-intelligence endpoints.<br>
   Source: [jamesrwatsonx-creator/voice-websites-studio-Scraper](https://github.com/jamesrwatsonx-creator/voice-websites-studio-Scraper) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Backend services, MCP servers
 - [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344220119.json) — Full-stack web application framework that generates and integrates React, Node.js and Prisma components from a declarative project configuration.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/cleanroom/cleanroom.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/cleanroom/cleanroom.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/everything-claude-code/ecc-continuous-learning](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5dcd1712af22bfa9b3936e6c.json) — Everything Claude Code Continuous Learning Pipeline - Pattern extraction, evaluation with confidence scoring, skill creation, organization, versioning, and export<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/everything-claude-code/ecc-continuous-learning.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/everything-claude-code/ecc-continuous-learning.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
-- [methodologies/maestro/maestro-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A87f7e5385a8cb43ca3c9e4ab.json) — Maestro Development - Feature development cycle: story planning, parallel implementation, testing, architect review, merge<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

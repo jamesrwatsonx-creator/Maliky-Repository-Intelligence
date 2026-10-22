@@ -1,9 +1,11 @@
 # AI Agents / Agent Frameworks — page 7
 
-1,556 catalog entries · Sorted alphabetically by name · Page 7 of 11.
+1,557 catalog entries · Sorted alphabetically by name · Page 7 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Motion Planning Expert Agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2e6ba474127fe2a250102add.json) — Specialist in motion planning algorithms for mobile robots and manipulators<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/agents/motion-planning-expert/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/agents/motion-planning-expert/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [multi-agent-coordinator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Adcc9234ed09c9d9a8e25f76b.json) — Orchestrates multi-agent communication and coordination<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/agents/multi-agent-coordinator/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/agents/multi-agent-coordinator/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [multi-gpu-systems-expert](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6c92591549bd40b544d7aeb4.json) — Expert in multi-GPU and distributed GPU computing. Specialist in multi-GPU topology, workload partitioning, NCCL collectives, MPI+CUDA integration, GPU-Direct RDMA, and scaling efficiency.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/desktop-development/agents/privacy-compliance-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/desktop-development/agents/privacy-compliance-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 - [probabilistic-modeler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A80ef66015b00eb13c79bcecc.json) — Agent specialized in uncertainty quantification, probabilistic modeling, and simulation analysis<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/agents/probabilistic-modeler/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/agents/probabilistic-modeler/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
-- [problem-analyst](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c1f2abf0f137f745b1d6f4d.json) — Expert in root cause analysis, problem investigation, and permanent fix implementation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/customer-experience/agents/problem-analyst/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/customer-experience/agents/problem-analyst/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
 
 ## Pages
 

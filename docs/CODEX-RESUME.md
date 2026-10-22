@@ -5,9 +5,9 @@
 ## Durable checkpoint
 
 - Canonical branch: `recovery/v1-rebuild`
-- Local HEAD at generation: `ead425cfa86b9a60bc6bdeafcf86ef9602e494a4`
-- Latest known pushed SHA: `ead425cfa86b9a60bc6bdeafcf86ef9602e494a4`
-- Generated at: `2026-10-22T03:04:46.975055+00:00`
+- Local HEAD at generation: `4dcaf35337d438c4bb5a42d62a4be4c7e36afb6b`
+- Latest known pushed SHA: `4dcaf35337d438c4bb5a42d62a4be4c7e36afb6b`
+- Generated at: `2026-10-22T03:36:55.636519+00:00`
 - Checkpoint state: Working tree pending checkpoint
 
 ## Live discovery summary
@@ -21,36 +21,36 @@
 
 ## Resume pointer
 
-- Last repository fully completed: jamesrwatsonx-creator/Folo
-- Repository currently being processed: jamesrwatsonx-creator/awesome-javascript
+- Last repository fully completed: jamesrwatsonx-creator/Maliky-Repository-Intelligence
+- Repository currently being processed: jamesrwatsonx-creator/awesome-ace-step
 - Pinned commit: `none`
 - Current phase: `none`
-- Exact next action: Resume jamesrwatsonx-creator/awesome-javascript at None.
+- Exact next action: Resume jamesrwatsonx-creator/awesome-ace-step at None.
 - Next repositories in canonical queue:
-  - `jamesrwatsonx-creator/Maliky-awesome-mcp` — `STRUCTURE`
-  - `jamesrwatsonx-creator/Front-end-UI-awesome-llm` — `STRUCTURE`
-  - `jamesrwatsonx-creator/awesome-css` — `STRUCTURE`
-  - `jamesrwatsonx-creator/awesome-kotlin-libraries-for-android` — `STRUCTURE`
-  - `jamesrwatsonx-creator/voice-website-agent-Markdown` — `STRUCTURE`
+  - `jamesrwatsonx-creator/Browser-OpenManus` — `STRUCTURE`
+  - `jamesrwatsonx-creator/upscayl` — `STRUCTURE`
+  - `jamesrwatsonx-creator/blurr` — `STRUCTURE`
+  - `jamesrwatsonx-creator/composio` — `STRUCTURE`
+  - `jamesrwatsonx-creator/openrig` — `STRUCTURE`
 
 ## Canonical counts
 
-- Repository states: COMPLETE=653, DISCOVERED=57, NEEDS_REVIEW=7
+- Repository states: COMPLETE=700, DISCOVERED=10, NEEDS_REVIEW=7
 - Active entity records: 9945
 - Verified entity records: 8395
 - Candidate entity records: 1550
 - Historical entity records: 0
 - Capability records: 2402
 - Search documents: 13064
-- Repository-intelligence summaries complete: 653
-- Distinct capability clusters: 1608
-- Repository/cluster assignments: 1633
+- Repository-intelligence summaries complete: 700
+- Distinct capability clusters: 1691
+- Repository/cluster assignments: 1717
 - JEV decision records: DEFERRED=116
 - Outstanding explicit deep review items: 0
 
 ## Validation
 
-- Registry validation: PASS (2026-10-22T03:01:06.549733+00:00)
+- Registry validation: PASS (2026-10-22T03:36:21.715156+00:00)
 - Catalog validation: See latest validate_catalog.py output
 - Unit tests: See system/test-report.json
 - Publication guard: PASS

@@ -2,7 +2,7 @@
 
 Browser control, computer use, testing and web interaction.
 
-**105 entries** · Alphabetical · 1 page.
+**104 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -120,8 +120,6 @@ Browser control, computer use, testing and web interaction.
   Source: [jamesrwatsonx-creator/Browser-OpenManus](https://github.com/jamesrwatsonx-creator/Browser-OpenManus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344452693.json) — Python framework for agents that inspect and operate web pages through browser automation.<br>
   Source: [jamesrwatsonx-creator/browser-use](https://github.com/jamesrwatsonx-creator/browser-use) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Automation/scripting, Developer tools
-- [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408211482.json) — Vane is an AI-powered answering engine.<br>
-  Source: [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Browser-Vane) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools
 - [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404534.json) — Browser-based web crawler for creating high-fidelity web archives using browser automation and WARC output.<br>
   Source: [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/browsertrix-crawler) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Research projects
 - [jamesrwatsonx-creator/camofox-browser](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358723223.json) — Anti-detection browser server for AI agents, built on Camoufox, for automating websites with browser fingerprint masking.<br>

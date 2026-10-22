@@ -2,7 +2,7 @@
 
 Backend applications, services, APIs and server-side components.
 
-**796 entries** · Alphabetical · 6 pages.
+**798 entries** · Alphabetical · 6 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**102 entries** · Alphabetical · 1 page.
+**100 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -84,8 +84,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/awesome-llm-apps](https://github.com/jamesrwatsonx-creator/awesome-llm-apps) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Documentation, Reference implementations
 - [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372508526.json) — Self-hostable multi-provider AI chat interface supporting conversations, tools, file uploads and integrations with various model services.<br>
   Source: [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Chat-interface-LibreChat) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Generative AI, Web applications
-- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace.<br>
-  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247322268.json) — Node-based graphical interface and backend for composing and executing Stable Diffusion and other generative media workflows.<br>
   Source: [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/ComfyUI) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Creative tools, Machine-learning models
 - [jamesrwatsonx-creator/deepseek-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342411360.json) — Harness or evaluation workflow for testing DeepSeek model behavior, reasoning performance and application integrations.<br>
@@ -142,8 +140,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/QwenPaw](https://github.com/jamesrwatsonx-creator/QwenPaw) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Generative AI, AI agents
 - [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1270601891.json) — Research implementation and model resources for Sana text-to-image generation, emphasizing efficient high-resolution image synthesis.<br>
   Source: [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Sana) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Machine-learning models, Research projects
-- [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398895167.json) — Integrate cutting-edge LLM technology quickly and easily into your apps<br>
-  Source: [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/semantic-kernel) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389175966.json) — Semantic routing layer for directing LLM requests to models or workflows based on intent, policy and request characteristics.<br>
   Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI infrastructure, Generative AI, APIs
 - [jamesrwatsonx-creator/timesfm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342942360.json) — Google Research pretrained foundation model and Python toolkit for time-series forecasting across varied datasets and horizons.<br>

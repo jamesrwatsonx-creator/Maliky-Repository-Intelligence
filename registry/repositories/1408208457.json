@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "dev",
-  "upstream_url": null,
-  "description": "Self-hosted AI workspace. ",
+  "upstream_url": "https://github.com/odysseus-dev/odysseus",
+  "description": "Self-hosted AI workspace combining chat, agents, local or hosted models, MCP tools, file handling, shell access, Skills and persistent memory.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-07T01:08:35Z",
-    "github_description": "Self-hosted AI workspace. "
+    "github_description": "Self-hosted AI workspace. ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "2c8e00ca0551cda3052d529bfa08f7c263b85588",
+  "current_commit": "2c8e00ca0551cda3052d529bfa08f7c263b85588",
+  "inspection_date": "2026-10-22T03:21:10.356127+00:00",
   "categories": [
-    "category:llm-projects"
+    "category:ai-applications",
+    "category:agent-frameworks"
   ],
-  "operational_category": "operational:15",
+  "operational_category": "operational:03",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:09.178878+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.675693+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,125 @@
     ],
     "updated_at": "2026-10-12T19:04:27.094563+00:00",
     "purpose_established": true
+  },
+  "tree_files": 2477,
+  "files_read": 10,
+  "unread_source_files": 2389,
+  "repository_intelligence": {
+    "purpose": "Self-hosted AI workspace combining chat, agents, local or hosted models, MCP tools, file handling, shell access, Skills and persistent memory.",
+    "reuse_recommendation": "Use only in a controlled environment; sandbox shell execution, scope MCP access and protect uploaded files, memory and provider credentials.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Review license and authentication, secret storage, file handling and shell/MCP permission boundaries before deployment.",
+    "runtime": [
+      "Python",
+      "JavaScript/TypeScript",
+      "web application",
+      "local or hosted model APIs"
+    ],
+    "keywords": [
+      "self-hosted AI workspace",
+      "LLM chat",
+      "agents",
+      "MCP",
+      "shell tools",
+      "memory",
+      "local models"
+    ],
+    "risk_notes": [
+      "Arbitrary shell/tool execution, secrets and private business data require scoped security review before production use."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Odysseus self-hosted workspace",
+        "purpose": "Provides a unified interface and runtime for business-oriented AI assistant workflows.",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:56.419430+00:00",
+    "inspected_commit": "2c8e00ca0551cda3052d529bfa08f7c263b85588",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "4ec557b1117b8b68d5f6f987293e8d84f48cf4c0",
+        "value": "https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus/blob/2c8e00ca0551cda3052d529bfa08f7c263b85588/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "6f72684c8596ea465d3d9f5f3f475e94c01adae4",
+        "value": "https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus/blob/2c8e00ca0551cda3052d529bfa08f7c263b85588/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "410d7f7aeb4e20471cb9708f734406eab13c2dd0",
+        "value": "https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus/blob/2c8e00ca0551cda3052d529bfa08f7c263b85588/pyproject.toml"
+      }
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "PRESENT",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "PRESENT",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Agent workspace and model routing",
+        "description": "Combines chat and agent workflows with local or API-hosted language models.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:agent-workspace-and-model-routing",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "Tool, MCP and shell execution",
+        "description": "Extends agents with tools, file access, Skills, MCP servers and shell operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:tool-mcp-and-shell-execution",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "Persistent workspace memory",
+        "description": "Stores context and workspace state to support ongoing conversations and tasks.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:persistent-workspace-memory",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "pyproject.toml"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

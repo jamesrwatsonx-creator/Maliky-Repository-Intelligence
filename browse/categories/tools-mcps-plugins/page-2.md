@@ -1,9 +1,11 @@
 # Tools / MCPs / Plugins — page 2
 
-259 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+260 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [mcp-config-browser-use](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A626dd1b768f02b8a0ec6520b.json) — Recommended MCP server config "browser-use": AI browser agent for web tasks<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-browserbase](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A8b9c145d2f708df90a0aa108.json) — Recommended MCP server config "browserbase": Cloud browser sessions via Browserbase<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [mcp-configs/mcp-servers.json](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/mcp-configs/mcp-servers.json#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · MCP servers
 - [mcp-config-clickhouse](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2c8f6c292536a48d26cad38b.json) — Recommended MCP server config "clickhouse": ClickHouse analytics queries<br>

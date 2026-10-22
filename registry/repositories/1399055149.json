@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "develop",
-  "upstream_url": null,
-  "description": "Fully featured, open source CRM",
+  "upstream_url": "https://github.com/frappe/crm",
+  "description": "Frappe CRM application for managing leads, deals, activities and sales pipelines with configurable views and integrations.",
   "metadata": {
     "language": null,
     "license": "AGPL-3.0",
     "archived": false,
     "pushed_at": "2026-10-01T02:25:16Z",
-    "github_description": "Fully featured, open source CRM"
+    "github_description": "Fully featured, open source CRM",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "6b37fc70c412fa294ebfd5163082953c339dab86",
+  "current_commit": "6b37fc70c412fa294ebfd5163082953c339dab86",
+  "inspection_date": "2026-10-22T03:10:55.625641+00:00",
   "categories": [
-    "category:business-applications"
+    "category:business-applications",
+    "category:crm"
   ],
   "operational_category": "operational:11",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.333838+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.584934+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,94 @@
     ],
     "updated_at": "2026-10-12T19:04:27.183173+00:00",
     "purpose_established": true
+  },
+  "tree_files": 1041,
+  "files_read": 10,
+  "unread_source_files": 919,
+  "repository_intelligence": {
+    "purpose": "Frappe CRM application for managing leads, deals, activities and sales pipelines with configurable views and integrations.",
+    "reuse_recommendation": "Use as a CRM product or workflow reference; assess customer-data access, permissions and deployment configuration.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Check repository license and data-access policies for customer and sales records.",
+    "runtime": [
+      "Python",
+      "Frappe",
+      "JavaScript/TypeScript"
+    ],
+    "keywords": [
+      "CRM",
+      "lead management",
+      "deals",
+      "sales pipeline",
+      "Kanban",
+      "Frappe"
+    ],
+    "risk_notes": [
+      "Review license, data protection, security and provider requirements before deployment or integration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Frappe CRM application",
+        "purpose": "Provides a user-facing CRM for managing customer opportunities and sales activity.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:59.754632+00:00",
+    "inspected_commit": "6b37fc70c412fa294ebfd5163082953c339dab86",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "f91b06564405389aadfd40fc73dbc12825120d1d",
+        "value": "https://github.com/jamesrwatsonx-creator/invoice-crm/blob/6b37fc70c412fa294ebfd5163082953c339dab86/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Lead and deal management",
+        "description": "Tracks leads, deals, activities and sales pipeline progress in a CRM workspace.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:lead-and-deal-management",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Configurable sales workspace",
+        "description": "Provides custom views and integrated records for organizing sales work.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:configurable-sales-workspace",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,13 +1,9 @@
 # Animation & Motion — page 2
 
-272 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+270 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [langgraph-routing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad98a3472d290edbeda394cfa.json) — Conditional edge routing and state-based transitions for LangGraph workflows<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langgraph-routing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langgraph-routing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [Linear-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa9670dc5f79456e433201c0b.json) — A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the…<br>
-  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/linear.app/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/linear.app/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 - [Link](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1c47ca4dbb45e5eccbcacfb3.json) — Themed hyperlink built on shared typography with configurable accent color and child-element composition.<br>
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/link.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/link.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [lottie-animations](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa409c0d29179e73d9d2119e3.json) — Lottie animation skill for integrating After Effects animations into iOS, Android, and cross-platform mobile apps with playback control, performance optimization, and interactive animation capabilities.<br>

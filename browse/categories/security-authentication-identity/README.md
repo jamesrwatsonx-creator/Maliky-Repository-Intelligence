@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**50 entries** · Alphabetical · 1 page.
+**52 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -54,6 +54,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/flowsint](https://github.com/jamesrwatsonx-creator/flowsint) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cybersecurity, Automation/scripting, Developer tools
 - [jamesrwatsonx-creator/ghidra-reverse-engineering](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1423751422.json) — Ghidra-based reverse engineering workflow or plugin collection for analyzing compiled binaries and recovering program structure.<br>
   Source: [jamesrwatsonx-creator/ghidra-reverse-engineering](https://github.com/jamesrwatsonx-creator/ghidra-reverse-engineering) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cybersecurity, Developer tools, Research projects
+- [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407940804.json) — World ID relying-party SDK suite with JavaScript/TypeScript core, React widgets and headless hooks, plus server-side signing support.<br>
+  Source: [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/idkit) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Privacy
 - [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418856229.json) — Secrets management platform for securely storing, syncing and managing environment variables and credentials across teams and infrastructure.<br>
   Source: [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/infisical) · REPOSITORY · COMPLETE · PINNED_SOURCE · Secrets management, Cybersecurity, DevOps
 - [jamesrwatsonx-creator/jev-guard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1426111770.json) — Security hook for coding-agent environments that evaluates proposed actions through Jev/TypeSafe decision infrastructure before allowing or blocking them.<br>
@@ -68,6 +70,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/Sandboxie](https://github.com/jamesrwatsonx-creator/Sandboxie) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cybersecurity, Developer tools, Desktop applications
 - [jamesrwatsonx-creator/scancode-toolkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377988955.json) — Software composition analysis toolkit for identifying licenses, copyrights and package provenance in codebases and archives.<br>
   Source: [jamesrwatsonx-creator/scancode-toolkit](https://github.com/jamesrwatsonx-creator/scancode-toolkit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Compliance/governance, Developer tools, Automation/scripting
+- [jamesrwatsonx-creator/security-audit-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415034834.json) — Security-audit agent skill with coverage guidance and validation utilities for reviewing application code and structuring findings across common attack classes.<br>
+  Source: [jamesrwatsonx-creator/security-audit-skill](https://github.com/jamesrwatsonx-creator/security-audit-skill) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Security testing, Application security
 - [jamesrwatsonx-creator/semgrep](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377988596.json) — Fast static analysis platform for detecting bugs, security vulnerabilities and policy violations in source code using customizable rules.<br>
   Source: [jamesrwatsonx-creator/semgrep](https://github.com/jamesrwatsonx-creator/semgrep) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cybersecurity, Developer tools, Security testing
 - [jamesrwatsonx-creator/server-password-manager-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418884579.json) — Self-hosted password manager service for storing and retrieving credentials through a web interface or API.<br>

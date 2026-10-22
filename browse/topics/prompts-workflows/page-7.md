@@ -1,6 +1,6 @@
 # Prompts & Workflows — page 7
 
-3,394 catalog entries · Sorted alphabetically by name · Page 7 of 23.
+3,404 catalog entries · Sorted alphabetically by name · Page 7 of 23.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 

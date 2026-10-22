@@ -10,26 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+  "upstream_url": "https://github.com/rehan-remade/universal-modder",
+  "description": "Cross-tool modding assistant and plugin collection that exposes game or application modification workflows through agent instructions and MCP integrations.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-10-11T21:55:26Z",
-    "github_description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos."
+    "github_description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "2c2201437ca676fb4e5f06a18fff6e8db99eef0f",
+  "current_commit": "2c2201437ca676fb4e5f06a18fff6e8db99eef0f",
+  "inspection_date": "2026-10-22T03:28:25.696115+00:00",
   "categories": [
     "category:developer-tools",
-    "category:generative-ai",
-    "category:mcp-servers",
-    "category:skills"
+    "category:plugins-extensions",
+    "category:agent-workflows"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:02",
   "secondary_operational_categories": [
     "operational:02",
     "operational:07",
@@ -42,7 +42,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -50,13 +50,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.447858+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.654072+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -66,5 +67,119 @@
     ],
     "updated_at": "2026-10-12T19:04:27.310113+00:00",
     "purpose_established": true
+  },
+  "tree_files": 522,
+  "files_read": 10,
+  "unread_source_files": 424,
+  "repository_intelligence": {
+    "purpose": "Cross-tool modding assistant and plugin collection that exposes game or application modification workflows through agent instructions and MCP integrations.",
+    "reuse_recommendation": "Reuse selected instructions or integrations for modding workflows; inspect tool permissions and target software rules before enabling actions.",
+    "inspection_scope": "Repository-level practical V1 summary from pinned README, manifests and tree evidence; no exhaustive asset splitting.",
+    "license_notes": "Review the repository license and each plugin's target-tool and mod-distribution terms.",
+    "runtime": [
+      "Python",
+      "JavaScript/TypeScript plugin",
+      "agent configuration"
+    ],
+    "keywords": [
+      "modding",
+      "agent plugins",
+      "MCP",
+      "game tools",
+      "OpenCode",
+      "Codex",
+      "Claude",
+      "workflow automation"
+    ],
+    "risk_notes": [
+      "Confirm license, dependency terms and external-service permissions before adoption."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Agent plugin and MCP configurations",
+        "purpose": "Connects modding-oriented instructions and tools to supported coding-agent environments.",
+        "evidence_paths": [
+          "README.md",
+          ".mcp.json",
+          "plugin.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:30:30.738123+00:00",
+    "inspected_commit": "2c2201437ca676fb4e5f06a18fff6e8db99eef0f",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "de0913f2041a56d467821553d4e0f2d772d5c3d9",
+        "value": "https://github.com/jamesrwatsonx-creator/universal-modder/blob/2c2201437ca676fb4e5f06a18fff6e8db99eef0f/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "pyproject.toml",
+        "blob_sha": "97f9a0b4996ac6cfd31033939641539fcfe6947c",
+        "value": "https://github.com/jamesrwatsonx-creator/universal-modder/blob/2c2201437ca676fb4e5f06a18fff6e8db99eef0f/pyproject.toml"
+      },
+      {
+        "type": "source_review",
+        "path": ".mcp.json",
+        "blob_sha": "f36d127b53383fd3b2e2aa4d0ff4b57ed8af3905",
+        "value": "https://github.com/jamesrwatsonx-creator/universal-modder/blob/2c2201437ca676fb4e5f06a18fff6e8db99eef0f/.mcp.json"
+      },
+      {
+        "type": "source_review",
+        "path": "plugin.json",
+        "blob_sha": "c67e83f6476db1da9e51d8ccde697093f3b94f30",
+        "value": "https://github.com/jamesrwatsonx-creator/universal-modder/blob/2c2201437ca676fb4e5f06a18fff6e8db99eef0f/plugin.json"
+      }
+    ],
+    "unavailable_sources": [
+      "mcp.json"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "PRESENT",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Modding workflow skills",
+        "description": "Provides agent-oriented guidance for carrying out supported modding and customization tasks.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:modding-workflow-skills",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Cross-agent plugin and MCP integration",
+        "description": "Includes plugin manifests and MCP configuration to expose modding workflows in multiple agent environments.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:cross-agent-plugin-and-mcp-integration",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

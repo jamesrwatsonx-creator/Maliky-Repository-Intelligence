@@ -1,15 +1,9 @@
 # Skills — page 15
 
-3,151 catalog entries · Sorted alphabetically by name · Page 15 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 15 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [pm-toolkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A698562494d69c07494291911.json) — PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.<br>
-  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-toolkit/.claude-plugin/plugin.json](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-toolkit/.claude-plugin/plugin.json#L1) · PLUGIN · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
-- [pnpm-workspaces](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A1040c960ac5b94a8cdce4b9d.json) — pnpm workspace patterns and dependency management.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/web-development/skills/pnpm-workspaces/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/web-development/skills/pnpm-workspaces/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [Point Cloud Processing Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A193ff72b24a4657630c79d6f.json) — Specialized skill for 3D point cloud processing and analysis using PCL and Open3D<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/point-cloud-processing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/point-cloud-processing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [pokemon-player](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A70abf18615ab938d166e082c.json) — Play Pokemon via headless emulator + RAM reads.<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/gaming/pokemon-player/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/gaming/pokemon-player/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [policy-communication](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac68d20c4f4dfe2763aec8ea5.json) — Translate research findings into accessible policy briefs, presentations, and stakeholder communications<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [skills/software-development/python-debugpy/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/skills/software-development/python-debugpy/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [python-patterns](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ae5fe98752d03850207759f76.json) — Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and idiomatic structure, typing, or PEP 8…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/python-patterns/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/python-patterns/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [python-sdk-specialist](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab5a96ead1fdd2de99199debe.json) — Python SDK development with async support and type hints<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/sdk-platform-development/skills/python-sdk-specialist/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [python-testing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9a3b3ab549d453061b90ef00.json) — Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements. Use when writing pytest tests — fixtures, mocks, parametrization, or coverage.<br>
+  Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/python-testing/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/python-testing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
+- [pytorch-fsdp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A556eb6abb8b27b8b5410d114.json) — Fully sharded data-parallel training for large models.<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/mlops/pytorch-fsdp/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/mlops/pytorch-fsdp/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

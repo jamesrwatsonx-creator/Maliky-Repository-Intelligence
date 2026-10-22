@@ -2,7 +2,7 @@
 
 Models, local inference, adapters and model routing.
 
-**212 entries** · Alphabetical · 2 pages.
+**211 entries** · Alphabetical · 2 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -158,8 +158,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/awesome-llm-apps](https://github.com/jamesrwatsonx-creator/awesome-llm-apps) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Documentation, Reference implementations
 - [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372508526.json) — Self-hostable multi-provider AI chat interface supporting conversations, tools, file uploads and integrations with various model services.<br>
   Source: [jamesrwatsonx-creator/Chat-interface-LibreChat](https://github.com/jamesrwatsonx-creator/Chat-interface-LibreChat) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Generative AI, Web applications
-- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace.<br>
-  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
+- [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408208457.json) — Self-hosted AI workspace combining chat, agents, local or hosted models, MCP tools, file handling, shell access, Skills and persistent memory.<br>
+  Source: [jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus](https://github.com/jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Agent frameworks
 - [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247322268.json) — Node-based graphical interface and backend for composing and executing Stable Diffusion and other generative media workflows.<br>
   Source: [jamesrwatsonx-creator/ComfyUI](https://github.com/jamesrwatsonx-creator/ComfyUI) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Creative tools, Machine-learning models
 - [jamesrwatsonx-creator/deepseek-harness](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342411360.json) — Harness or evaluation workflow for testing DeepSeek model behavior, reasoning performance and application integrations.<br>
@@ -242,8 +242,6 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/QwenPaw](https://github.com/jamesrwatsonx-creator/QwenPaw) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Generative AI, AI agents
 - [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1270601891.json) — Research implementation and model resources for Sana text-to-image generation, emphasizing efficient high-resolution image synthesis.<br>
   Source: [jamesrwatsonx-creator/Sana](https://github.com/jamesrwatsonx-creator/Sana) · REPOSITORY · COMPLETE · PINNED_SOURCE · Generative AI, Machine-learning models, Research projects
-- [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398895167.json) — Integrate cutting-edge LLM technology quickly and easily into your apps<br>
-  Source: [jamesrwatsonx-creator/semantic-kernel](https://github.com/jamesrwatsonx-creator/semantic-kernel) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · LLM projects
 - [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389175966.json) — Semantic routing layer for directing LLM requests to models or workflows based on intent, policy and request characteristics.<br>
   Source: [jamesrwatsonx-creator/semantic-router](https://github.com/jamesrwatsonx-creator/semantic-router) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI infrastructure, Generative AI, APIs
 - [jamesrwatsonx-creator/supertonic](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347788045.json) — On-device text-to-speech model and inference project for low-latency speech generation, now archived with the associated hosted Voice Builder service discontinued.<br>
@@ -306,6 +304,8 @@ Models, local inference, adapters and model routing.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [agents/mle-reviewer.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/agents/mle-reviewer.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [nous-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A2a9ab074b1ffd0891ba37b0c.json) — Nous Research Portal<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/nous/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/nous/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
+- [novita-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aacc839196a30830ee51a49c0.json) — NovitaAI AI-native cloud for builders and agents<br>
+  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/novita/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/novita/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 
 ## Pages
 

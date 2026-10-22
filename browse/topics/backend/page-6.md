@@ -1,9 +1,13 @@
 # Backend — page 6
 
-796 catalog entries · Sorted alphabetically by name · Page 6 of 6.
+798 catalog entries · Sorted alphabetically by name · Page 6 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [Utopia Domains](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add09c28a4c70da59aaaa5748.json) — Public-Suffix-List domain parsing plus registrar adapters for registration operations.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/domains/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/domains/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
+- [Utopia Dsn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Add7a007f55bbe3f3aa8d828a.json) — Parser and value model for database and service Data Source Names.<br>
+  Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/dsn/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/dsn/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Emails](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5ff16da4a40a40f7cd836abc.json) — Email address parsing, normalization and validation helpers.<br>
   Source: [jamesrwatsonx-creator/appwrite-supabase-per-agent-](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-) · [packages/emails/README.md](https://github.com/jamesrwatsonx-creator/appwrite-supabase-per-agent-/blob/61833ff0f9dd5985f580b230244749247b170a6f/packages/emails/README.md#L1) · LIBRARY · VERIFIED · PINNED_SOURCE · AI agents, APIs, Application security
 - [Utopia Http](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A20f5f4c20e1548a42b2908e8.json) — PHP MVC HTTP framework with routing, request lifecycle and dependency-injection integration.<br>

@@ -1,11 +1,9 @@
 # Voice, STT & TTS — page 3
 
-379 catalog entries · Sorted alphabetically by name · Page 3 of 3.
+378 catalog entries · Sorted alphabetically by name · Page 3 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [SettingsLayout](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A531efd8943a03eea77b80fdf.json) — Exported JSX component candidate<br>
-  Source: [jamesrwatsonx-creator/voicebox](https://github.com/jamesrwatsonx-creator/voicebox) · [app/src/components/ServerTab/ServerTab.tsx](https://github.com/jamesrwatsonx-creator/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/components/ServerTab/ServerTab.tsx#L34) · UI_COMPONENT · NEEDS_REVIEW · PINNED_SOURCE · Frontend applications
 - [ShowsComponent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca94cf1b9980e64b787fe584.json) — Show recommendation cards displaying poster, title, theatre and price from the assistant-selected show list.<br>
   Source: [jamesrwatsonx-creator/vapi-client-javascript-next](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next) · [components/app/shows.tsx](https://github.com/jamesrwatsonx-creator/vapi-client-javascript-next/blob/a3d61657db11d5dfe9a9d8d66c94eb21fa111d3a/components/app/shows.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Web applications, Frontend applications, Reference implementations
 - [shutdown](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7fed9cb6336f98ebca4da139.json) — Gracefully shutdown the server.<br>

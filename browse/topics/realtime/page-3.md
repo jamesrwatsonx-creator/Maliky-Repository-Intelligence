@@ -1,11 +1,9 @@
 # Realtime — page 3
 
-543 catalog entries · Sorted alphabetically by name · Page 3 of 4.
+544 catalog entries · Sorted alphabetically by name · Page 3 of 4.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407940804.json) — Core IDKit SDK. World ID SDK for Relying Parties.<br>
-  Source: [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/idkit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/LibreTranslate](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372749467.json) — Self-hostable machine-translation API and web interface supporting translation between many languages.<br>
   Source: [jamesrwatsonx-creator/LibreTranslate](https://github.com/jamesrwatsonx-creator/LibreTranslate) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, Backend services, Machine-learning models
 - [jamesrwatsonx-creator/live-Kit-agents](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344504166.json) — Framework examples and tooling for building realtime voice or multimodal agents on LiveKit rooms and media infrastructure.<br>
@@ -44,8 +42,12 @@
   Source: [jamesrwatsonx-creator/typescript-sdk](https://github.com/jamesrwatsonx-creator/typescript-sdk) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, APIs, Developer tools
 - [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372725205.json) — Integration platform or connector toolkit based on Nango for linking applications to third-party APIs and synchronizing data.<br>
   Source: [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Useful-for-everything-nango) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, SDKs/client libraries, Automation/scripting
+- [jamesrwatsonx-creator/viem](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661785.json) — TypeScript interface and client library for Ethereum, with transport and chain environments for building EVM applications.<br>
+  Source: [jamesrwatsonx-creator/viem](https://github.com/jamesrwatsonx-creator/viem) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Blockchain/Web3 security
 - [jamesrwatsonx-creator/voice-agent-livekit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1359930213.json) — LiveKit voice-agent application and integration example for building realtime conversational voice experiences.<br>
   Source: [jamesrwatsonx-creator/voice-agent-livekit](https://github.com/jamesrwatsonx-creator/voice-agent-livekit) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Media/publishing, Agent frameworks
+- [jamesrwatsonx-creator/wagmi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661906.json) — Reactive primitives and framework integrations for building Ethereum applications, including React hooks, connectors and project tooling.<br>
+  Source: [jamesrwatsonx-creator/wagmi](https://github.com/jamesrwatsonx-creator/wagmi) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Blockchain/Web3 security
 - [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344220119.json) — Full-stack web application framework that generates and integrates React, Node.js and Prisma components from a declarative project configuration.<br>
   Source: [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/wasp) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frameworks, Full-stack applications, Developer tools
 - [jamesrwatsonx-creator/worldmonitor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342848580.json) — Real-time world events dashboard combining public information sources, maps and data visualization for situational awareness.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/simplex/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/simplex/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [slack-platform](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aed270d21ba37f3893e676470.json) — Slack gateway adapter for Hermes Agent. Connects to Slack via slack-bolt in Socket Mode and relays messages between Slack channels/DMs and the Hermes agent. Supports slash commands, threads, mrkdwn rendering, approval…<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/platforms/slack/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/platforms/slack/plugin.yaml#L1) · INTEGRATION · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [slam-algorithms](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A26d97aca431481822f7f6201.json) — Expert skill for SLAM algorithm selection, configuration, and tuning. Configure visual SLAM (ORB-SLAM3, RTAB-Map), LiDAR SLAM (Cartographer, LIO-SAM), tune parameters, evaluate accuracy, and optimize for real-time…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/slam-algorithms/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/slam-algorithms/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

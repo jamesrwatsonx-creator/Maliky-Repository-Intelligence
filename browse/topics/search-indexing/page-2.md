@@ -1,6 +1,6 @@
 # Search & Indexing — page 2
 
-776 catalog entries · Sorted alphabetically by name · Page 2 of 6.
+778 catalog entries · Sorted alphabetically by name · Page 2 of 6.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -194,10 +194,8 @@
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/ito-baskets/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/ito-baskets/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1358720706.json) — Self-hosted email application on Cloudflare Workers with isolated mailbox storage, inbound routing, attachments and an AI agent for searching and drafting replies.<br>
   Source: [jamesrwatsonx-creator/-email-agentic-inbox](https://github.com/jamesrwatsonx-creator/-email-agentic-inbox) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Business applications, Cloud infrastructure
-- [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398519549.json) — Open-source Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) platform. Track how ChatGPT, Claude, Perplexity, Gemini, Copilot, Grok, and Google AI Overviews mention and cite your brand in AI…<br>
-  Source: [jamesrwatsonx-creator/AEOGEOSEO-elmo](https://github.com/jamesrwatsonx-creator/AEOGEOSEO-elmo) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Developer tools, Research projects
-- [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398521928.json) — Open-source AI Search Intelligence Platform — track, analyze, and improve AI visibility, citations, prompts, competitors, and content opportunities across ChatGPT, Claude, Gemini, Google AI Overviews, Google AI Mode,…<br>
-  Source: [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/AEOSEOGEO-ansvisor) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Research projects
+- [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398521928.json) — Answer-engine and search optimization assistant for reviewing content and surfacing SEO/GEO recommendations.<br>
+  Source: [jamesrwatsonx-creator/AEOSEOGEO-ansvisor](https://github.com/jamesrwatsonx-creator/AEOSEOGEO-ansvisor) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Business applications
 - [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342960660.json) — AI-driven financial research or portfolio analysis inspired by Berkshire Hathaway investment principles.<br>
   Source: [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/ai-berkshire) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI applications, Research projects
 - [jamesrwatsonx-creator/Ai-search-engine-idea-searxng](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372741416.json) — Search-engine application or customization built around SearXNG, aggregating results from multiple search providers with an AI-oriented discovery layer.<br>
@@ -206,6 +204,8 @@
   Source: [jamesrwatsonx-creator/AIOS](https://github.com/jamesrwatsonx-creator/AIOS) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, AI agents, AI orchestration
 - [jamesrwatsonx-creator/Aliens_eye](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1391868766.json) — OSINT investigation application for collecting and visualizing links among entities and online evidence.<br>
   Source: [jamesrwatsonx-creator/Aliens_eye](https://github.com/jamesrwatsonx-creator/Aliens_eye) · REPOSITORY · COMPLETE · PINNED_SOURCE · Research projects, Frontend applications
+- [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398884698.json) — Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.<br>
+  Source: [jamesrwatsonx-creator/Any-video-yoinks](https://github.com/jamesrwatsonx-creator/Any-video-yoinks) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Developer tools
 - [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346378051.json) — Self-hosted AI workspace and RAG platform for chatting with documents, managing workspaces and connecting model providers.<br>
   Source: [jamesrwatsonx-creator/anything-llm](https://github.com/jamesrwatsonx-creator/anything-llm) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, RAG, Web applications
 - [jamesrwatsonx-creator/apify-mcp-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342364774.json) — MCP integration that lets compatible agents discover and run Apify Actors and retrieve their datasets for web scraping and automation tasks.<br>
@@ -240,6 +240,8 @@
   Source: [jamesrwatsonx-creator/bludit](https://github.com/jamesrwatsonx-creator/bludit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Media/publishing, Media/publishing
 - [jamesrwatsonx-creator/book-to-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342765954.json) — Workflow/tooling for transforming technical books or document collections into structured, searchable agent skills.<br>
   Source: [jamesrwatsonx-creator/book-to-skill](https://github.com/jamesrwatsonx-creator/book-to-skill) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Documentation, AI applications
+- [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1408211482.json) — AI-powered answering and research engine that combines web search, URL scraping, academic/social sources, media search and specialized data widgets.<br>
+  Source: [jamesrwatsonx-creator/Browser-Vane](https://github.com/jamesrwatsonx-creator/Browser-Vane) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, Research projects
 - [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389404534.json) — Browser-based web crawler for creating high-fidelity web archives using browser automation and WARC output.<br>
   Source: [jamesrwatsonx-creator/browsertrix-crawler](https://github.com/jamesrwatsonx-creator/browsertrix-crawler) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, Research projects
 - [jamesrwatsonx-creator/buzz](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342403651.json) — AI-powered transcription or audio processing application for converting speech into searchable text and summaries.<br>
@@ -292,8 +294,8 @@
   Source: [jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long](https://github.com/jamesrwatsonx-creator/elengrab-download-shorts-videos-and-long) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Automation/scripting, CLI tools
 - [jamesrwatsonx-creator/fess](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418809404.json) — Enterprise search server for indexing and searching websites, files, databases and other content sources.<br>
   Source: [jamesrwatsonx-creator/fess](https://github.com/jamesrwatsonx-creator/fess) · REPOSITORY · COMPLETE · PINNED_SOURCE · Backend services, Backend services, Backend services
-- [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406872705.json) — Purpose not established from the available public metadata. NEEDS DESCRIPTION.<br>
-  Source: [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/financial-services) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DESCRIPTION NEEDS REVIEW · AI agents, Research projects, Skills
+- [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406872705.json) — Financial-services agent plugins and managed-agent templates for analyst workflows including earnings review, research, financial modeling and reconciliation, with human sign-off requirements.<br>
+  Source: [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/financial-services) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, Finance/accounting
 - [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372815756.json) — Open-source financial language model and toolkit for finance-oriented instruction tuning, sentiment analysis and market research.<br>
   Source: [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/FinGPT) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Finance/accounting, Research projects
 - [jamesrwatsonx-creator/FinMem-LLM-StockTrading](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372816642.json) — Research implementation of an LLM stock-trading agent using layered memory, character profiles and a market-data pipeline to study decision performance.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/FinRL](https://github.com/jamesrwatsonx-creator/FinRL) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, Machine-learning models, Research projects
 - [jamesrwatsonx-creator/FinRL-Trading](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372814699.json) — Modular AI-native quantitative trading research infrastructure for data, strategy development, backtesting and market execution integrations.<br>
   Source: [jamesrwatsonx-creator/FinRL-Trading](https://github.com/jamesrwatsonx-creator/FinRL-Trading) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI agents, Research projects
-- [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1275677656.json) — Web crawling and scraping platform/API that converts websites into structured content suitable for search, extraction and AI workflows.<br>
-  Source: [jamesrwatsonx-creator/firecrawl](https://github.com/jamesrwatsonx-creator/firecrawl) · REPOSITORY · COMPLETE · PINNED_SOURCE · Data engineering, APIs, Automation/scripting
 
 ## Pages
 

@@ -10,21 +10,23 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Safe allows secure management of blockchain assets. ",
+  "upstream_url": "https://github.com/safe-fndn/safe-smart-account",
+  "description": "Safe smart-account contracts and JavaScript tooling for multisignature wallet execution and integrations; the README warns the branch is under development and points to audited releases.",
   "metadata": {
     "language": null,
     "license": "LGPL-3.0",
     "archived": false,
     "pushed_at": "2026-09-24T04:50:13Z",
-    "github_description": "Safe allows secure management of blockchain assets. "
+    "github_description": "Safe allows secure management of blockchain assets. ",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "f8fc2f2e75b650d63276aaa12cd3a455a5f5a990",
+  "current_commit": "f8fc2f2e75b650d63276aaa12cd3a455a5f5a990",
+  "inspection_date": "2026-10-22T03:16:36.968010+00:00",
   "categories": [
-    "category:commerce-e-commerce"
+    "category:blockchain-web3-security",
+    "category:sdks-client-libraries"
   ],
   "operational_category": "operational:22",
   "secondary_operational_categories": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.138098+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.373711+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,112 @@
     ],
     "updated_at": "2026-10-12T19:04:27.277763+00:00",
     "purpose_established": true
+  },
+  "tree_files": 236,
+  "files_read": 10,
+  "unread_source_files": 98,
+  "repository_intelligence": {
+    "purpose": "Safe smart-account contracts and JavaScript tooling for multisignature wallet execution and integrations; the README warns the branch is under development and points to audited releases.",
+    "reuse_recommendation": "Use a published audited release rather than this development branch; review transaction authorization and deployment configuration.",
+    "inspection_scope": "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+    "license_notes": "Verify the exact tagged audited release; the pinned branch is explicitly marked as under development.",
+    "runtime": [
+      "Solidity",
+      "TypeScript/JavaScript",
+      "EVM"
+    ],
+    "keywords": [
+      "Safe smart account",
+      "multisig",
+      "Ethereum wallet",
+      "Solidity",
+      "JavaScript SDK",
+      "audited releases"
+    ],
+    "risk_notes": [
+      "Wallet custody and transaction authorization are high risk; this development branch is not the audited release."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Safe contracts and SDK",
+        "purpose": "Combines smart-account contract logic with application-facing integration packages.",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "src/index.ts"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:17:43.849054+00:00",
+    "inspected_commit": "f8fc2f2e75b650d63276aaa12cd3a455a5f5a990",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "9a0e6d52f23d79235f7536190a3b312b1fe70432",
+        "value": "https://github.com/jamesrwatsonx-creator/safe-smart-account/blob/f8fc2f2e75b650d63276aaa12cd3a455a5f5a990/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "a8fd8c3df5f736a17f4d2a2f389bf3a9acb5f6c2",
+        "value": "https://github.com/jamesrwatsonx-creator/safe-smart-account/blob/f8fc2f2e75b650d63276aaa12cd3a455a5f5a990/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/index.ts",
+        "blob_sha": "3c939e259a88ec6addd61eadd92f0f90ef51a97d",
+        "value": "https://github.com/jamesrwatsonx-creator/safe-smart-account/blob/f8fc2f2e75b650d63276aaa12cd3a455a5f5a990/src/index.ts"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Multisignature account contracts",
+        "description": "Implements shared-authorization smart accounts for managing and executing on-chain transactions.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:multisignature-account-contracts",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "src/index.ts"
+        ]
+      },
+      {
+        "name": "Safe JavaScript integration",
+        "description": "Provides package tooling and interfaces for integrating with Safe smart accounts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:safe-javascript-integration",
+        "evidence_paths": [
+          "README.md",
+          "package.json",
+          "src/index.ts"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

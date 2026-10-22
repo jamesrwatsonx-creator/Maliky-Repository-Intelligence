@@ -1,11 +1,9 @@
 # Infrastructure — page 5
 
-711 catalog entries · Sorted alphabetically by name · Page 5 of 5.
+710 catalog entries · Sorted alphabetically by name · Page 5 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [specializations/security-compliance/codebase-security-audit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A96076bd5a2929236c672467e.json) — Comprehensive Codebase Security Audit - Multi-domain static security assessment with parallel scan agents covering OWASP Top 10, suspicious code patterns, secrets & credentials, dependency vulnerabilities,…<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/codebase-security-audit.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/codebase-security-audit.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/security-compliance/iac-security-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A77797fd565a2f428beab6c95.json) — Infrastructure as Code Security Review - Comprehensive security analysis of IaC configurations including Terraform/CloudFormation scanning, policy as code validation (OPA, Sentinel), misconfiguration detection,…<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/iac-security-review.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/iac-security-review.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [specializations/security-compliance/sast-pipeline](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A787874d6fdb4e2071d4093b3.json) — SAST Pipeline Integration - Automated static application security testing integration for CI/CD pipelines. Covers tool selection (SonarQube, Semgrep, Bandit, ESLint, etc.), CI/CD integration, security quality gates,…<br>

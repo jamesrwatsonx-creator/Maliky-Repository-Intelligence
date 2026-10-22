@@ -2,7 +2,7 @@
 
 Productivity tools, office workflows and task automation.
 
-**2,904 entries** · Alphabetical · 20 pages.
+**2,907 entries** · Alphabetical · 20 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

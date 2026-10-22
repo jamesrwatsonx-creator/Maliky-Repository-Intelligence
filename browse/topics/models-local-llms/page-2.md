@@ -1,11 +1,9 @@
 # Models & Local LLMs — page 2
 
-212 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+211 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [novita-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aacc839196a30830ee51a49c0.json) — NovitaAI AI-native cloud for builders and agents<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/novita/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/novita/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [nvidia-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abf1685a61cccd4c5ea264d4e.json) — NVIDIA NIM<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [plugins/model-providers/nvidia/plugin.yaml](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/plugins/model-providers/nvidia/plugin.yaml#L1) · MODEL_ADAPTER · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [ollama-cloud-provider](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0748929bd2033b51109ba218.json) — Ollama Cloud<br>

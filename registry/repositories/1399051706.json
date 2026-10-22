@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "dev",
-  "upstream_url": null,
-  "description": "Autumn is an open-source pricing & billing platform",
+  "upstream_url": "https://github.com/useautumn/autumn",
+  "description": "Billing infrastructure for SaaS subscriptions, credit systems, usage-based pricing and plan management.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-01T01:48:50Z",
-    "github_description": "Autumn is an open-source pricing & billing platform"
+    "github_description": "Autumn is an open-source pricing & billing platform",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "7774b4d7fde0ffa1ccf5be177bcdbc537f555182",
+  "current_commit": "7774b4d7fde0ffa1ccf5be177bcdbc537f555182",
+  "inspection_date": "2026-10-22T03:10:41.046757+00:00",
   "categories": [
-    "category:general-other"
+    "category:business-applications",
+    "category:finance-accounting"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:22",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:10.325833+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:23.579898+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,83 @@
     ],
     "updated_at": "2026-10-12T19:04:27.182536+00:00",
     "purpose_established": true
+  },
+  "tree_files": 16469,
+  "files_read": 10,
+  "unread_source_files": 15962,
+  "repository_intelligence": {
+    "purpose": "Billing infrastructure for SaaS subscriptions, credit systems, usage-based pricing and plan management.",
+    "reuse_recommendation": "Evaluate for SaaS billing only after scoped payment, authentication, webhook and financial-data security review.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Check the pinned license and payment-provider terms; credentials and billing data require secure deployment.",
+    "runtime": [
+      "See pinned package manifests",
+      "web services"
+    ],
+    "keywords": [
+      "subscription billing",
+      "usage-based pricing",
+      "credits",
+      "overages",
+      "payment infrastructure"
+    ],
+    "risk_notes": [
+      "Payments, authentication and financial records require scoped deep review before production integration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Autumn billing service",
+        "purpose": "Provides application-facing billing infrastructure for monetization and usage tracking.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:59.324275+00:00",
+    "inspected_commit": "7774b4d7fde0ffa1ccf5be177bcdbc537f555182",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "280b78beebc4765eb7c2e90e80cfe61b80279f1a",
+        "value": "https://github.com/jamesrwatsonx-creator/invoice-autumn/blob/7774b4d7fde0ffa1ccf5be177bcdbc537f555182/README.md"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Subscription and usage billing",
+        "description": "Implements pricing plans, subscriptions, credit balances and usage-based overages for software products.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:subscription-and-usage-billing",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -1,9 +1,11 @@
 # Testing & Developer Tools — page 7
 
-1,564 catalog entries · Sorted alphabetically by name · Page 7 of 11.
+1,565 catalog entries · Sorted alphabetically by name · Page 7 of 11.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [methodologies/maestro/maestro-development](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A87f7e5385a8cb43ca3c9e4ab.json) — Maestro Development - Feature development cycle: story planning, parallel implementation, testing, architect review, merge<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-development.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-development.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/spiral-model](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9cc7c40abdc7adc095fb74ca.json) — Spiral Model - Risk-driven iterative development with four phases per spiral: Planning, Risk Analysis, Engineering, Evaluation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/spiral-model/spiral-model.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/spiral-model/spiral-model.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 - [methodologies/superpowers/systematic-debugging](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0489aef4ed32cbef61855f3a.json) — Systematic Debugging - 4-phase root cause process with Phase 0 diagnosis gate: investigate, pattern analysis, hypothesis testing, diagnosis review, implementation<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/pilot-shell/skills/quality-hooks/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/pilot-shell/skills/quality-hooks/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [quality-nonconformance](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa3b9a728d347fc3aa1790bb7.json) — Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Informed by quality engineers with 15+ years…<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/quality-nonconformance/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/quality-nonconformance/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
-- [quantitative-methods](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ac2bd3fdffe2d2023b3b1c0bb.json) — Design and execute statistical analyses including regression modeling, hypothesis testing, power analysis, and robustness checks using R, Stata, SPSS, or Python<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/social-sciences-humanities/social-sciences/skills/quantitative-methods/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/social-sciences-humanities/social-sciences/skills/quantitative-methods/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 

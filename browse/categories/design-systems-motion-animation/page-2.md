@@ -1,11 +1,9 @@
 # Design Systems / Motion / Animation — page 2
 
-166 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+165 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [TextField](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af390d6a4e7564f5058d663fe.json) — Themed text-input module with root input and accessory-slot composition for icons or controls.<br>
-  Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/text-field.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/text-field.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [Theme](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7a8281ca27eb250bcaa2c3c8.json) — Theme provider and wrapper managing appearance, accent/gray colors, panel background, radius and scaling with context access and nested-theme support.<br>
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/theme.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/theme.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
 - [ThemePanel](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A51b0916c1cb67ef9c5b658ce.json) — Interactive theme configuration panel that composes library controls to change theme appearance and presentation settings, with exported panel-content support.<br>

@@ -10,21 +10,22 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "yoink any video from your terminal. no shady ads.",
+  "upstream_url": "https://github.com/pablostanley/yoinks",
+  "description": "Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-07-17T06:40:05Z",
-    "github_description": "yoink any video from your terminal. no shady ads."
+    "github_description": "yoink any video from your terminal. no shady ads.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "6f03720813c22f907d3fb9ba98567f2169446b82",
+  "current_commit": "6f03720813c22f907d3fb9ba98567f2169446b82",
+  "inspection_date": "2026-10-22T03:10:03.691181+00:00",
   "categories": [
-    "category:creative-tools",
+    "category:media-publishing",
     "category:developer-tools"
   ],
   "operational_category": "operational:09",
@@ -37,7 +38,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +46,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:08.758976+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.340837+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +63,103 @@
     ],
     "updated_at": "2026-10-12T19:04:27.058701+00:00",
     "purpose_established": true
+  },
+  "tree_files": 31,
+  "files_read": 10,
+  "unread_source_files": 16,
+  "repository_intelligence": {
+    "purpose": "Terminal video downloader with an interactive interface, using yt-dlp for media retrieval and ffmpeg for format merging or audio extraction.",
+    "reuse_recommendation": "Use only for media users have rights to download and process; respect site policies and copyright.",
+    "inspection_scope": "Pinned README and top-level manifest review; repository purpose and main reusable capability clusters only.",
+    "license_notes": "Check pinned license and ensure downloads comply with copyright and source-site terms.",
+    "runtime": [
+      "TypeScript/JavaScript",
+      "Node.js",
+      "yt-dlp",
+      "ffmpeg"
+    ],
+    "keywords": [
+      "video downloader",
+      "yt-dlp",
+      "ffmpeg",
+      "terminal UI",
+      "media extraction"
+    ],
+    "risk_notes": [
+      "Review license, data protection, security and provider requirements before deployment or integration."
+    ],
+    "important_subsystems": [
+      {
+        "name": "yoinks CLI and UI",
+        "purpose": "Makes video retrieval and media processing accessible through an interactive terminal application.",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:12:58.412562+00:00",
+    "inspected_commit": "6f03720813c22f907d3fb9ba98567f2169446b82",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "5b8dfbfd99f3ab325db8a6f203f98c752ce0fd86",
+        "value": "https://github.com/jamesrwatsonx-creator/Any-video-yoinks/blob/6f03720813c22f907d3fb9ba98567f2169446b82/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "87480d41d2079a084dab2b91f1753b221b0fd988",
+        "value": "https://github.com/jamesrwatsonx-creator/Any-video-yoinks/blob/6f03720813c22f907d3fb9ba98567f2169446b82/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Video download and conversion workflow",
+        "description": "Wraps yt-dlp and ffmpeg to retrieve media and combine or extract supported formats.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:video-download-and-conversion-workflow",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      },
+      {
+        "name": "Interactive terminal interface",
+        "description": "Provides a React/Ink terminal UI for selecting and managing media operations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-terminal-interface",
+        "evidence_paths": [
+          "README.md",
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

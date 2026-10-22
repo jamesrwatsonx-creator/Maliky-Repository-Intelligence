@@ -1,6 +1,6 @@
 # Backend / APIs / Services — page 2
 
-422 catalog entries · Sorted alphabetically by name · Page 2 of 3.
+423 catalog entries · Sorted alphabetically by name · Page 2 of 3.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -216,8 +216,8 @@
   Source: [jamesrwatsonx-creator/bittorrent-tracker](https://github.com/jamesrwatsonx-creator/bittorrent-tracker) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Networking, Distributed systems
 - [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1393945448.json) — React Native and Expo client SDK/plugin integration for connecting mobile apps to its associated service.<br>
   Source: [jamesrwatsonx-creator/client-sdk-react-native-expo-plugin](https://github.com/jamesrwatsonx-creator/client-sdk-react-native-expo-plugin) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Mobile applications
-- [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — The Worldcoin Developer Portal provides tools to interact with the Worldcoin SDK. Easiest way to get started with World ID.<br>
-  Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs, Developer tools
+- [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403524161.json) — Developer portal combining product documentation, API resources and a web application with an MCP skill surface and permission-related subsystems.<br>
+  Source: [jamesrwatsonx-creator/developer-portal](https://github.com/jamesrwatsonx-creator/developer-portal) · REPOSITORY · COMPLETE · PINNED_SOURCE · Web applications, APIs
 - [jamesrwatsonx-creator/Firebase-ktor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342401438.json) — Kotlin/Ktor integration or sample project for connecting server applications to Firebase services.<br>
   Source: [jamesrwatsonx-creator/Firebase-ktor](https://github.com/jamesrwatsonx-creator/Firebase-ktor) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Backend services, Reference implementations
 - [jamesrwatsonx-creator/flarum-raw-humans-github-for-new-knowledge-like-reddit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418813128.json) — Small PHP bootstrap/skeleton for integrating with the external Flarum forum framework; the repository does not contain the Flarum core or a complete community platform.<br>
@@ -228,8 +228,6 @@
   Source: [jamesrwatsonx-creator/freellmapi](https://github.com/jamesrwatsonx-creator/freellmapi) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, Generative AI, Backend services
 - [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1419819004.json) — Python REST API exposing query and modification operations for Gramps genealogy family-tree databases, used by Gramps Web.<br>
   Source: [jamesrwatsonx-creator/gramps-web-api-genealogy-](https://github.com/jamesrwatsonx-creator/gramps-web-api-genealogy-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Backend services, APIs, Business applications
-- [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407940804.json) — Core IDKit SDK. World ID SDK for Relying Parties.<br>
-  Source: [jamesrwatsonx-creator/idkit](https://github.com/jamesrwatsonx-creator/idkit) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · APIs
 - [jamesrwatsonx-creator/LibreTranslate](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372749467.json) — Self-hostable machine-translation API and web interface supporting translation between many languages.<br>
   Source: [jamesrwatsonx-creator/LibreTranslate](https://github.com/jamesrwatsonx-creator/LibreTranslate) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, Backend services, Machine-learning models
 - [jamesrwatsonx-creator/Mastodon.py](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389402790.json) — Python API wrapper for interacting with Mastodon and compatible federated social-network servers.<br>
@@ -254,6 +252,10 @@
   Source: [jamesrwatsonx-creator/typescript-sdk](https://github.com/jamesrwatsonx-creator/typescript-sdk) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, APIs, Developer tools
 - [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372725205.json) — Integration platform or connector toolkit based on Nango for linking applications to third-party APIs and synchronizing data.<br>
   Source: [jamesrwatsonx-creator/Useful-for-everything-nango](https://github.com/jamesrwatsonx-creator/Useful-for-everything-nango) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, SDKs/client libraries, Automation/scripting
+- [jamesrwatsonx-creator/viem](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661785.json) — TypeScript interface and client library for Ethereum, with transport and chain environments for building EVM applications.<br>
+  Source: [jamesrwatsonx-creator/viem](https://github.com/jamesrwatsonx-creator/viem) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Blockchain/Web3 security
+- [jamesrwatsonx-creator/wagmi](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661906.json) — Reactive primitives and framework integrations for building Ethereum applications, including React hooks, connectors and project tooling.<br>
+  Source: [jamesrwatsonx-creator/wagmi](https://github.com/jamesrwatsonx-creator/wagmi) · REPOSITORY · COMPLETE · PINNED_SOURCE · SDKs/client libraries, Blockchain/Web3 security
 - [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344220119.json) — Full-stack web application framework that generates and integrates React, Node.js and Prisma components from a declarative project configuration.<br>
   Source: [jamesrwatsonx-creator/wasp](https://github.com/jamesrwatsonx-creator/wasp) · REPOSITORY · COMPLETE · PINNED_SOURCE · Frameworks, Full-stack applications, Developer tools
 - [jamesrwatsonx-creator/YOURLS](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418870880.json) — Self-hosted URL shortening service with link management, click statistics and plugin extensions.<br>
@@ -302,8 +304,6 @@
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L13644) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [login_page](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A6713ed9718d660b778623669.json) — GET /login - handler login_page<br>
   Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/dashboard_auth/routes.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/dashboard_auth/routes.py#L133) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
-- [managed-airflow-dag-authoring](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A7ffdc4fd0532300d627675b7.json) — Provides guidance for authoring Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers environment context discovery, Airflow 2 vs 3 compatibility, authoring best practices,…<br>
-  Source: [jamesrwatsonx-creator/Google-skills](https://github.com/jamesrwatsonx-creator/Google-skills) · [skills/cloud/managed-airflow-dag-authoring/SKILL.md](https://github.com/jamesrwatsonx-creator/Google-skills/blob/1af77752950126ae12dec176a0a3b27a16b7f5f7/skills/cloud/managed-airflow-dag-authoring/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Cloud infrastructure
 
 ## Pages
 

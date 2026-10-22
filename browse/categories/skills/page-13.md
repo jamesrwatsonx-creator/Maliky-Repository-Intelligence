@@ -1,15 +1,9 @@
 # Skills — page 13
 
-3,151 catalog entries · Sorted alphabetically by name · Page 13 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 13 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [motor-control](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a26138c1f94b4877054aafe.json) — Motor control algorithms and driver implementation<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/motor-control/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/motor-control/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [MoveIt Motion Planning Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aef1968964de7628a9a37cb85.json) — Deep expertise in MoveIt/MoveIt2 configuration and manipulation planning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/moveit-planning/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/moveit-planning/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [MPC Controller Skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A216f554879679b30fa8bee48.json) — Expert skill for Model Predictive Control implementation and tuning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/robotics-simulation/skills/mpc-controller/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/robotics-simulation/skills/mpc-controller/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [mpc-configurator](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0b42c99248a0d59919b20f2b.json) — Model Predictive Control configuration skill for MPC model identification, tuning, and implementation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/chemical-engineering/skills/mpc-configurator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/skills/mpc-configurator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [mpp-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A366f2fc8524c71eaf85844ec.json) — Pay HTTP 402 APIs via Machine Payments Protocol (MPP).<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/operational-dashboard-generator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/operational-dashboard-generator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [operational-semantics-builder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Acc803065559eaa93bfe4dc58.json) — Define and test operational semantics specifications for programming languages<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/operational-semantics-builder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/operational-semantics-builder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [opex-program-designer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A507a2a07303d41f822f32ca2.json) — Operational Excellence program design skill with governance structure, methodology deployment, and capability building<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/opex-program-designer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [opportunity-solution-tree](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9eb21f95f913903173973a19.json) — Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring…<br>
+  Source: [jamesrwatsonx-creator/pm-skills](https://github.com/jamesrwatsonx-creator/pm-skills) · [pm-product-discovery/skills/opportunity-solution-tree/SKILL.md](https://github.com/jamesrwatsonx-creator/pm-skills/blob/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, Agent workflows
+- [optimization-correctness-verifier](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A649645289a2a4fb00cd5619d.json) — Verify correctness of compiler optimizations using formal methods<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/computer-science/skills/optimization-correctness-verifier/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/computer-science/skills/optimization-correctness-verifier/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

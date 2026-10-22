@@ -109,11 +109,40 @@ class RegistryIntegrityTests(unittest.TestCase):
         self.assertEqual(m.records('entities'),[entity])
         self.assertFalse(m.read(m.repo_file(repo))['phases']['entity_extraction'])
         m.build(); self.assertIn('browser research',m.query('browser research',kind='REPOSITORY')[0]['text'])
-    def test_repository_summary_rejects_unpinned_cluster_evidence(self):
+    def test_repository_summary_falls_back_from_unavailable_cluster_evidence(self):
         repo,plan=self.summary_fixture()
         plan['capability_clusters'][0]['evidence_paths']=['not-reviewed.md']
-        with self.assertRaisesRegex(ValueError,'unsupported capability cluster'): promotion.apply_repository_plan(plan)
-        self.assertEqual(m.read(m.repo_file(repo))['state'],'DISCOVERED')
+        promotion.apply_repository_plan(plan)
+        completed=m.read(m.repo_file(repo))
+        self.assertIn('not-reviewed.md',completed['repository_intelligence']['unavailable_sources'])
+        self.assertEqual(completed['repository_intelligence']['capability_clusters'][0]['evidence_paths'],['README.md'])
+    def test_repository_summary_falls_back_when_preferred_pinned_path_is_missing(self):
+        repo,plan=self.summary_fixture()
+        missing='packages/cli/README.md'
+        plan['source_review']=[missing]
+        plan['important_subsystems'][0]['evidence_paths']=[missing]
+        plan['capability_clusters'][0]['evidence_paths']=[missing]
+        promotion.apply_repository_plan(plan)
+        completed=m.read(m.repo_file(repo))
+        info=completed['repository_intelligence']
+        self.assertEqual(info['source_evidence'][0]['path'],'README.md')
+        self.assertIn(missing,info['unavailable_sources'])
+        self.assertEqual(info['capability_clusters'][0]['evidence_paths'],['README.md'])
+        self.assertTrue(m.validate()['valid'])
+    def test_repository_summary_can_fall_back_to_pinned_repository_metadata(self):
+        repo,plan=self.summary_fixture()
+        repo['metadata']['github_description']='Example agent project'
+        m.write(m.repo_file(repo),repo)
+        plan['source_review']=['missing/README.md']
+        plan['important_subsystems'][0]['evidence_paths']=['missing/README.md']
+        plan['capability_clusters'][0]['evidence_paths']=['missing/README.md']
+        m.write('system/evidence/1.json',{'inspected_commit':'a'*40,'tree_complete':True,
+                'files_read':[], 'unread_source_paths':['README.md'],'errors':[]})
+        promotion.apply_repository_plan(plan)
+        completed=m.read(m.repo_file(repo))
+        self.assertEqual(completed['repository_intelligence']['source_evidence'][0]['type'],'repository_metadata')
+        self.assertIn('missing/README.md',completed['repository_intelligence']['unavailable_sources'])
+        self.assertTrue(m.validate()['valid'])
     def test_repository_summary_preparation_does_not_extract_entities(self):
         repo,plan=self.summary_fixture()
         with mock.patch.object(m,'gh',side_effect=AssertionError('Cached pinned source should be reused')):

@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "Useful tool to track location or mobile number",
+  "upstream_url": "https://github.com/HunxByts/GhostTrack",
+  "description": "Phone-number OSINT utility that attempts to derive public identity or location-related signals from a supplied number, with Linux and Termux usage paths.",
   "metadata": {
     "language": null,
     "license": null,
     "archived": false,
     "pushed_at": "2024-01-11T15:36:46Z",
-    "github_description": "Useful tool to track location or mobile number"
+    "github_description": "Useful tool to track location or mobile number",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+  "current_commit": "a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+  "inspection_date": "2026-10-22T03:15:43.074851+00:00",
   "categories": [
-    "category:mobile-applications"
+    "category:research-projects",
+    "category:privacy"
   ],
-  "operational_category": "operational:19",
+  "operational_category": "operational:10",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "WRAP",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.009968+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.255078+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,92 @@
     ],
     "updated_at": "2026-10-12T19:04:27.261573+00:00",
     "purpose_established": true
+  },
+  "tree_files": 8,
+  "files_read": 3,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Phone-number OSINT utility that attempts to derive public identity or location-related signals from a supplied number, with Linux and Termux usage paths.",
+    "reuse_recommendation": "Only for authorized investigations with consent and strict privacy controls; do not treat results as verified identity or location facts.",
+    "inspection_scope": "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+    "license_notes": "Review the upstream license and legal/privacy requirements for personal-data lookups.",
+    "runtime": [
+      "Python",
+      "Linux",
+      "Termux"
+    ],
+    "keywords": [
+      "phone number OSINT",
+      "identity lookup",
+      "Termux",
+      "public information",
+      "Python"
+    ],
+    "risk_notes": [
+      "Personal-data lookup and possible location inference require explicit authorization and privacy review."
+    ],
+    "important_subsystems": [
+      {
+        "name": "GhostTrack lookup tool",
+        "purpose": "Provides a command-line workflow for phone-number-oriented public-information research.",
+        "evidence_paths": [
+          "README.md",
+          "GhostTR.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:17:41.931357+00:00",
+    "inspected_commit": "a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "a5f4df0ff59621fbedce9ca2162058251643c6c2",
+        "value": "https://github.com/jamesrwatsonx-creator/presence-phone-number-GhostTrack/blob/a5cb8ad4c08acd803f166fb067b7dac724d6cb3d/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "GhostTR.py",
+        "blob_sha": "ccc1455c0650bc50b3e9d97f4b0bd0993b418496",
+        "value": "https://github.com/jamesrwatsonx-creator/presence-phone-number-GhostTrack/blob/a5cb8ad4c08acd803f166fb067b7dac724d6cb3d/GhostTR.py"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Phone-number intelligence lookup",
+        "description": "Uses number-derived signals and external resources to support phone-number investigations.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:phone-number-intelligence-lookup",
+        "evidence_paths": [
+          "README.md",
+          "GhostTR.py"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

@@ -10,23 +10,25 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "TypeScript Interface for Ethereum",
+  "upstream_url": "https://github.com/wevm/viem",
+  "description": "TypeScript interface and client library for Ethereum, with transport and chain environments for building EVM applications.",
   "metadata": {
     "language": null,
     "license": "NOASSERTION",
     "archived": false,
     "pushed_at": "2026-10-02T08:19:07Z",
-    "github_description": "TypeScript Interface for Ethereum"
+    "github_description": "TypeScript Interface for Ethereum",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "26d5bd227ba532ceff83bd76e807ea605c703e8b",
+  "current_commit": "26d5bd227ba532ceff83bd76e807ea605c703e8b",
+  "inspection_date": "2026-10-22T03:20:26.067840+00:00",
   "categories": [
-    "category:general-other"
+    "category:sdks-client-libraries",
+    "category:blockchain-web3-security"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:12",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +36,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "USE DIRECTLY",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +44,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:11.604004+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:24.770697+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +61,121 @@
     ],
     "updated_at": "2026-10-12T19:04:27.326946+00:00",
     "purpose_established": true
+  },
+  "tree_files": 3151,
+  "files_read": 10,
+  "unread_source_files": 3081,
+  "repository_intelligence": {
+    "purpose": "TypeScript interface and client library for Ethereum, with transport and chain environments for building EVM applications.",
+    "reuse_recommendation": "Use for typed Ethereum client integration; verify chain configuration, RPC provider behavior and transaction-signing boundaries.",
+    "inspection_scope": "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+    "license_notes": "Verify pinned package and dependency licenses and chain/provider terms.",
+    "runtime": [
+      "TypeScript",
+      "Node.js",
+      "browser environments"
+    ],
+    "keywords": [
+      "viem",
+      "Ethereum",
+      "TypeScript SDK",
+      "EVM",
+      "JSON-RPC",
+      "wallet integration"
+    ],
+    "risk_notes": [
+      "Check license and external service terms before adoption; review sensitive data, authentication and execution boundaries where applicable."
+    ],
+    "important_subsystems": [
+      {
+        "name": "viem core and environments",
+        "purpose": "Separates Ethereum client primitives from runtime-specific integration packages.",
+        "evidence_paths": [
+          "package.json",
+          "src/package.json",
+          "environments/node/package.json",
+          "environments/next/package.json"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:22:54.745692+00:00",
+    "inspected_commit": "26d5bd227ba532ceff83bd76e807ea605c703e8b",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "package.json",
+        "blob_sha": "d106039a508e0e365abadaca677a7111c2ef27fb",
+        "value": "https://github.com/jamesrwatsonx-creator/viem/blob/26d5bd227ba532ceff83bd76e807ea605c703e8b/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "src/package.json",
+        "blob_sha": "8d31ead2dbfc607500c7607d68759e370474f8c9",
+        "value": "https://github.com/jamesrwatsonx-creator/viem/blob/26d5bd227ba532ceff83bd76e807ea605c703e8b/src/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "environments/node/package.json",
+        "blob_sha": "f5fe6c4575bdea39b1ac14a709d64b2b6687c3d0",
+        "value": "https://github.com/jamesrwatsonx-creator/viem/blob/26d5bd227ba532ceff83bd76e807ea605c703e8b/environments/node/package.json"
+      },
+      {
+        "type": "source_review",
+        "path": "environments/next/package.json",
+        "blob_sha": "8a613f40f352d047b42c9e998c2de1d2e53708a9",
+        "value": "https://github.com/jamesrwatsonx-creator/viem/blob/26d5bd227ba532ceff83bd76e807ea605c703e8b/environments/next/package.json"
+      }
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "NOT_OBSERVED",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Ethereum client SDK",
+        "description": "Provides typed TypeScript primitives for connecting to EVM chains and interacting with contracts and accounts.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:ethereum-client-sdk",
+        "evidence_paths": [
+          "package.json",
+          "src/package.json",
+          "environments/node/package.json",
+          "environments/next/package.json"
+        ]
+      },
+      {
+        "name": "Runtime and framework environments",
+        "description": "Supports Node, browser bundler and application framework use through environment-specific packages.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:runtime-and-framework-environments",
+        "evidence_paths": [
+          "package.json",
+          "src/package.json",
+          "environments/node/package.json",
+          "environments/next/package.json"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

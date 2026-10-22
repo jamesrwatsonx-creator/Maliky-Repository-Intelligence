@@ -1,9 +1,11 @@
 # Video — page 2
 
-249 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+250 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
+- [jamesrwatsonx-creator/Youtarr](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418870301.json) — Self-hosted interface for managing YouTube downloads, subscriptions or media archives using yt-dlp-like tooling.<br>
+  Source: [jamesrwatsonx-creator/Youtarr](https://github.com/jamesrwatsonx-creator/Youtarr) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Web applications, Automation/scripting
 - [jamesrwatsonx-creator/youtube-dl-server](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418869805.json) — Self-hosted web interface and server for downloading or processing media from supported URLs using yt-dlp and FFmpeg.<br>
   Source: [jamesrwatsonx-creator/youtube-dl-server](https://github.com/jamesrwatsonx-creator/youtube-dl-server) · REPOSITORY · COMPLETE · PINNED_SOURCE · Media/publishing, Web applications, Cloud infrastructure
 - [jamesrwatsonx-creator/youtube-skills](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1346396188.json) — Agent skill collection for YouTube transcripts, video search, channel data and playlist extraction through the external TranscriptAPI service.<br>

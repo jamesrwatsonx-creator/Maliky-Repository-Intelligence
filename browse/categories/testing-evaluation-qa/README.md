@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**105 entries** · Alphabetical · 1 page.
+**106 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -86,6 +86,8 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/invert-colors.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/invert-colors.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [jamesrwatsonx-creator/appium](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344514888.json) — Cross-platform automation framework for testing native, hybrid and mobile web applications through WebDriver-compatible interfaces.<br>
   Source: [jamesrwatsonx-creator/appium](https://github.com/jamesrwatsonx-creator/appium) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Automation/scripting, Mobile applications
+- [jamesrwatsonx-creator/arena-skill](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415033768.json) — Agent skill and plugin for running structured head-to-head evaluations, managing tournament brackets and comparing candidate outputs with explicit rubrics and strategies.<br>
+  Source: [jamesrwatsonx-creator/arena-skill](https://github.com/jamesrwatsonx-creator/arena-skill) · REPOSITORY · COMPLETE · PINNED_SOURCE · Skills, Agent workflows, AI evaluation
 - [jamesrwatsonx-creator/Codetest-open-code-review](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1376926051.json) — Automated code review and test workflow intended to inspect changes and identify defects or quality issues.<br>
   Source: [jamesrwatsonx-creator/Codetest-open-code-review](https://github.com/jamesrwatsonx-creator/Codetest-open-code-review) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Automation/scripting, AI applications
 - [jamesrwatsonx-creator/hoppscotch](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1377933459.json) — Open-source API development and testing platform for sending requests, inspecting responses and collaborating on API collections.<br>

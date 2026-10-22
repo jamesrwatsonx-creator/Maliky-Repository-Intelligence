@@ -1,0 +1,593 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README, manifests and representative top-level package/source surfaces; repository-level summary, not exhaustive asset splitting.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Check license and external service terms before adoption; review sensitive data, authentication and execution boundaries where applicable."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/viem",
+                             "commit":  "26d5bd227ba532ceff83bd76e807ea605c703e8b",
+                             "purpose":  "TypeScript interface and client library for Ethereum, with transport and chain environments for building EVM applications.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:blockchain-web3-security"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Verify pinned package and dependency licenses and chain/provider terms.",
+                             "keywords":  [
+                                              "viem",
+                                              "Ethereum",
+                                              "TypeScript SDK",
+                                              "EVM",
+                                              "JSON-RPC",
+                                              "wallet integration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Ethereum client SDK",
+                                                             "description":  "Provides typed TypeScript primitives for connecting to EVM chains and interacting with contracts and accounts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Runtime and framework environments",
+                                                             "description":  "Supports Node, browser bundler and application framework use through environment-specific packages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "viem core and environments",
+                                                              "purpose":  "Separates Ethereum client primitives from runtime-specific integration packages.",
+                                                              "evidence_paths":  [
+                                                                                     "package.json",
+                                                                                     "src/package.json",
+                                                                                     "environments/node/package.json",
+                                                                                     "environments/next/package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript",
+                                             "Node.js",
+                                             "browser environments"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for typed Ethereum client integration; verify chain configuration, RPC provider behavior and transaction-signing boundaries.",
+                             "source_review":  [
+                                                   "package.json",
+                                                   "src/package.json",
+                                                   "environments/node/package.json",
+                                                   "environments/next/package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/wagmi",
+                             "commit":  "c458d201b0218a9e371de9fdd9a35b6b475fb1b2",
+                             "purpose":  "Reactive primitives and framework integrations for building Ethereum applications, including React hooks, connectors and project tooling.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:blockchain-web3-security"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Review package licenses and wallet connector/provider permissions.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "wagmi",
+                                              "Ethereum React hooks",
+                                              "wallet connectors",
+                                              "TypeScript",
+                                              "EVM app development"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Reactive Ethereum app primitives",
+                                                             "description":  "Provides React-oriented state and hooks for connecting wallets and interacting with Ethereum.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Wallet connectors and CLI tooling",
+                                                             "description":  "Supports wallet/provider connections and project setup or code generation workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Core and React packages",
+                                                              "purpose":  "Connects framework-level hooks and state to Ethereum client operations.",
+                                                              "evidence_paths":  [
+                                                                                     "packages/core/package.json",
+                                                                                     "packages/react/package.json"
+                                                                                 ]
+                                                          },
+                                                          {
+                                                              "name":  "Wagmi CLI",
+                                                              "purpose":  "Provides project configuration and code-generation helpers for Ethereum app development.",
+                                                              "evidence_paths":  [
+                                                                                     "packages/cli/package.json",
+                                                                                     "packages/cli/package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript",
+                                             "React",
+                                             "Node.js",
+                                             "browser environments"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for React/Ethereum applications; review wallet connector permissions and transaction confirmation UX.",
+                             "source_review":  [
+                                                   "packages/core/package.json",
+                                                   "packages/react/package.json",
+                                                   "packages/cli/package.json",
+                                                   "packages/cli/package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/financial-services",
+                             "commit":  "574ed3624aebd0418c7e96cd101262f30210ab26",
+                             "purpose":  "Financial-services agent plugins and managed-agent templates for analyst workflows including earnings review, research, financial modeling and reconciliation, with human sign-off requirements.",
+                             "categories":  [
+                                                "category:agent-workflows",
+                                                "category:finance-accounting"
+                                            ],
+                             "operational":  "operational:01",
+                             "license_notes":  "Review repository and referenced data-source licenses; outputs are not professional advice and require qualified human review.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "agents_frameworks":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "financial services",
+                                              "analyst agents",
+                                              "earnings review",
+                                              "financial models",
+                                              "reconciliation",
+                                              "human approval"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Financial analyst workflow agents",
+                                                             "description":  "Packages end-to-end research, earnings and modeling workflows as agent plugins or managed templates.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "Finance skills and data connectors",
+                                                             "description":  "Provides underlying skills, commands and connectors that can be installed independently of full agents.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Agent and plugin catalog",
+                                                              "purpose":  "Groups finance-specific workflows and skills for analyst work products.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown agent instructions",
+                                             "Claude Cowork plugins",
+                                             "managed-agent templates"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Use individual workflows as drafting aids only; require expert verification and keep transaction, ledger, onboarding and approval actions with authorized humans.",
+                             "risk_notes":  [
+                                                "Financial domain; outputs must be independently verified and the repository explicitly disclaims advice and execution authority."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/knowledge-work-plugins",
+                             "commit":  "8444efcd48f7012f09797778a36a33e73d0861f4",
+                             "purpose":  "Open-source plugin catalog that packages agent skills and connectors for knowledge-work domains and Claude Cowork.",
+                             "categories":  [
+                                                "category:plugins-extensions",
+                                                "category:agent-workflows"
+                                            ],
+                             "operational":  "operational:02",
+                             "license_notes":  "Review repository and individual plugin/dependency licenses and connector data permissions.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "prompts_workflows":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "knowledge work",
+                                              "agent plugins",
+                                              "Claude Cowork",
+                                              "skills",
+                                              "connectors",
+                                              "productivity workflows"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Knowledge-work plugin collection",
+                                                             "description":  "Provides domain-oriented plugins that combine agent instructions with task workflows.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         },
+                                                         {
+                                                             "name":  "External service connectors",
+                                                             "description":  "Connects plugin workflows with external knowledge-work services and data sources.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Plugin marketplace collection",
+                                                              "purpose":  "Organizes installable agent workflows and connectors across work domains.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown/agent instructions",
+                                             "plugin manifests",
+                                             "external connectors"
+                                         ],
+                             "recommendation":  "EXTRACT",
+                             "reuse_recommendation":  "Select plugins by task and review their connector permissions, data access and service terms before enabling.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/claude-code-templates",
+                             "commit":  "375af9018a40e330e81542f59054daaa088c21aa",
+                             "purpose":  "CLI and component catalog for configuring and monitoring Claude Code, including templates, skills, agents and MCP integrations.",
+                             "categories":  [
+                                                "category:developer-tools",
+                                                "category:templates-boilerplates"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Check license and inspect each installed component and MCP permission scope.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "mcp":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "agents_frameworks":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Claude Code",
+                                              "CLI",
+                                              "agent templates",
+                                              "Skills",
+                                              "MCP",
+                                              "developer tooling"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Claude Code component installation",
+                                                             "description":  "Browses and installs reusable configurations and components into Claude Code projects.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Skills and MCP templates",
+                                                             "description":  "Provides agent instructions and MCP integrations for extending coding workflows.",
+                                                             "scope":  "INSTRUCTIONS"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Templates CLI and component library",
+                                                              "purpose":  "Supports discovery, configuration and installation of Claude Code extensions.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "Node.js",
+                                             "Claude Code configuration"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use to discover and configure components; inspect scripts and permissions before installing third-party Skills or MCP servers.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/photocraft",
+                             "commit":  "909efc0f6df0a684d270019384e355c850642e42",
+                             "purpose":  "Rust-based clean-room image-editing application project focused on recreating desktop photo-editing capabilities.",
+                             "categories":  [
+                                                "category:desktop-applications",
+                                                "category:frontend-applications"
+                                            ],
+                             "operational":  "operational:16",
+                             "license_notes":  "Verify the pinned license and ensure clean-room implementation boundaries remain documented; do not reuse proprietary assets or code.",
+                             "keywords":  [
+                                              "photo editor",
+                                              "image editing",
+                                              "Rust",
+                                              "desktop application",
+                                              "clean-room reimplementation"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Desktop image editing",
+                                                             "description":  "Builds an image-editing application for artists and creative workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Photocraft editor application",
+                                                              "purpose":  "Provides the core desktop experience for editing and creating image-based artwork.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Rust",
+                                             "desktop application"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Treat as an independent product reference; verify actual feature maturity and license before adapting components.",
+                             "source_review":  [
+                                                   "README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/idkit",
+                             "commit":  "d9775e66e67b57703810ad27914cdff661f8ccc6",
+                             "purpose":  "World ID relying-party SDK suite with JavaScript/TypeScript core, React widgets and headless hooks, plus server-side signing support.",
+                             "categories":  [
+                                                "category:sdks-client-libraries",
+                                                "category:privacy"
+                                            ],
+                             "operational":  "operational:21",
+                             "license_notes":  "Review SDK terms, protocol/version requirements and handling of identity credentials and proof data.",
+                             "asset_presence":  {
+                                                    "apis_sdks_services":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "World ID",
+                                              "identity verification",
+                                              "Relying Party SDK",
+                                              "TypeScript",
+                                              "React",
+                                              "zero-knowledge proof"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Relying-party verification SDK",
+                                                             "description":  "Supports applications that request and validate World ID verification through client and server packages.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "React verification interface",
+                                                             "description":  "Provides reusable React widgets and headless hooks for identity verification flows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Core, React and server SDK packages",
+                                                              "purpose":  "Separates protocol-facing verification, user-facing widgets and relying-party server signing.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "js/package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "React",
+                                             "Node.js"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use the maintained package for World ID integrations; protect proof/session data and follow the provider\u0027s current verification flow.",
+                             "risk_notes":  [
+                                                "Identity verification and proof material are sensitive; apply scoped privacy, replay and server-secret review."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "js/package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Chat-LLM-for-businesses-odysseus",
+                             "commit":  "2c8e00ca0551cda3052d529bfa08f7c263b85588",
+                             "purpose":  "Self-hosted AI workspace combining chat, agents, local or hosted models, MCP tools, file handling, shell access, Skills and persistent memory.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:agent-frameworks"
+                                            ],
+                             "operational":  "operational:03",
+                             "license_notes":  "Review license and authentication, secret storage, file handling and shell/MCP permission boundaries before deployment.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT",
+                                                    "mcp":  "PRESENT",
+                                                    "tools_plugins":  "PRESENT",
+                                                    "agents_frameworks":  "PRESENT",
+                                                    "data_database_search":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "self-hosted AI workspace",
+                                              "LLM chat",
+                                              "agents",
+                                              "MCP",
+                                              "shell tools",
+                                              "memory",
+                                              "local models"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Agent workspace and model routing",
+                                                             "description":  "Combines chat and agent workflows with local or API-hosted language models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Tool, MCP and shell execution",
+                                                             "description":  "Extends agents with tools, file access, Skills, MCP servers and shell operations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Persistent workspace memory",
+                                                             "description":  "Stores context and workspace state to support ongoing conversations and tasks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Odysseus self-hosted workspace",
+                                                              "purpose":  "Provides a unified interface and runtime for business-oriented AI assistant workflows.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json",
+                                                                                     "pyproject.toml"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "JavaScript/TypeScript",
+                                             "web application",
+                                             "local or hosted model APIs"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only in a controlled environment; sandbox shell execution, scope MCP access and protect uploaded files, memory and provider credentials.",
+                             "risk_notes":  [
+                                                "Arbitrary shell/tool execution, secrets and private business data require scoped security review before production use."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json",
+                                                   "pyproject.toml"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Browser-Vane",
+                             "commit":  "348feca3e378fb4157b217724ed508dc707f853f",
+                             "purpose":  "AI-powered answering and research engine that combines web search, URL scraping, academic/social sources, media search and specialized data widgets.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:research-projects"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Check license and all search, scraping and data-provider terms; review uploaded/private source handling.",
+                             "keywords":  [
+                                              "AI answer engine",
+                                              "web search",
+                                              "research",
+                                              "URL scraping",
+                                              "academic search",
+                                              "media search",
+                                              "widgets"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Research and search orchestration",
+                                                             "description":  "Plans and runs search and scraping actions across web, academic, social and uploaded sources.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Answer synthesis and data widgets",
+                                                             "description":  "Combines retrieved evidence with media, weather, stock and calculation-oriented widgets for responses.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Vane search agents and widgets",
+                                                              "purpose":  "Coordinates source discovery, research actions and specialized result widgets for answer generation.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "docs/architecture/README.md",
+                                                                                     "src/lib/agents/search/index.ts",
+                                                                                     "src/lib/agents/search/widgets/index.ts"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "web application",
+                                             "Docker"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as a research-product or retrieval workflow reference; validate citations and provider terms and treat outputs as unverified until source-checked.",
+                             "source_review":  [
+                                                   "README.md",
+                                                   "docs/architecture/README.md",
+                                                   "src/lib/agents/search/index.ts",
+                                                   "src/lib/agents/search/widgets/index.ts"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/Music-tadpole-studio",
+                             "commit":  "fef3cac184ebf5d6e9e82313ea809fa8ea453bdc",
+                             "purpose":  "Desktop/web UI for local AI music generation models, with simple and advanced controls for captions, lyrics, BPM, key and duration.",
+                             "categories":  [
+                                                "category:ai-applications",
+                                                "category:media-publishing"
+                                            ],
+                             "operational":  "operational:09",
+                             "license_notes":  "Review application and model licenses plus music-generation model terms before commercial or public use.",
+                             "asset_presence":  {
+                                                    "ui_design":  "PRESENT",
+                                                    "voice_audio":  "PRESENT",
+                                                    "models":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "AI music generation",
+                                              "local models",
+                                              "audio",
+                                              "lyrics",
+                                              "BPM",
+                                              "music studio"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Local AI music generation interface",
+                                                             "description":  "Creates music from text prompts or detailed musical settings using locally hosted generation models.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Tadpole Studio frontend and backend",
+                                                              "purpose":  "Connects a user interface for music creation to local model backends and generation handlers.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "frontend/package.json",
+                                                                                     "backend/pyproject.toml",
+                                                                                     "backend/src/tadpole_studio/backends/__init__.py"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "TypeScript/JavaScript",
+                                             "local audio generation models"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use for local creative workflows after verifying model hardware needs, generated-content rights and model license terms.",
+                             "source_review":  [
+                                                   "README.md",
+                                                   "frontend/package.json",
+                                                   "backend/pyproject.toml",
+                                                   "backend/src/tadpole_studio/backends/__init__.py"
+                                               ]
+                         }
+                     ]
+}

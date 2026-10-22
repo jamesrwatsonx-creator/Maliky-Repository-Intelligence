@@ -2,7 +2,7 @@
 
 Canonical operational taxonomy view generated from registry assignments.
 
-**19 entries** · Alphabetical · 1 page.
+**18 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -22,8 +22,6 @@ Canonical operational taxonomy view generated from registry assignments.
   Source: [jamesrwatsonx-creator/context-mode](https://github.com/jamesrwatsonx-creator/context-mode) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI memory, Developer tools, AI agents
 - [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418866871.json) — Personal AI assistant and knowledge workspace combining searchable personal data, long-term memory, agents and integrations across local or hosted interfaces.<br>
   Source: [jamesrwatsonx-creator/khoj-agent-and-agent-memory-](https://github.com/jamesrwatsonx-creator/khoj-agent-and-agent-memory-) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI applications, AI memory, AI agents
-- [jamesrwatsonx-creator/knowledge-work-plugins](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406875750.json) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork<br>
-  Source: [jamesrwatsonx-creator/knowledge-work-plugins](https://github.com/jamesrwatsonx-creator/knowledge-work-plugins) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · AI memory
 - [jamesrwatsonx-creator/letta-code](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344531853.json) — Coding agent or developer tool built on Letta memory capabilities, combining repository-aware coding with persistent agent state.<br>
   Source: [jamesrwatsonx-creator/letta-code](https://github.com/jamesrwatsonx-creator/letta-code) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, AI memory, AI agents
 - [jamesrwatsonx-creator/mem0](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1247318718.json) — Memory layer and APIs for AI applications that extract, store and retrieve user or agent memories across sessions.<br>

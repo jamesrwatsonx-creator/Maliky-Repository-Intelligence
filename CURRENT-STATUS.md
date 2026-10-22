@@ -1,6 +1,6 @@
 # Current status
 
-## Active V1 checkpoint — 2026-10-21
+## Active V1 checkpoint — 2026-10-22
 
 The current strategy indexes each repository by pinned purpose, major capability
 clusters, provenance, reuse guidance and tags. Existing detailed entity records
@@ -9,22 +9,22 @@ accessible/owned repositories (717 public, 14 private). The public manifest
 contains 717 repositories, so inventory is reconciled; the refresh found no new
 public repositories. Private identities and evidence remain local-only.
 
-The canonical catalog has 653 repository-intelligence summaries complete, 57
-DISCOVERED repositories, and 7 NEEDS_REVIEW empty-source dispositions. It contains
-9,945 active entities (8,395 verified and 1,550 candidates), 2,402 capabilities,
-13,064 search documents, 1,608 capability clusters and 1,633 repository/cluster
-assignments. The pending queue is 64 repositories. This run completed 43
-source-reviewed summaries across PRAW/social-research and mobile/Android cohorts,
-without changing detailed entity records.
+The canonical catalog has 700 repository-intelligence summaries complete, 10
+DISCOVERED repositories, and 7 NEEDS_REVIEW empty-source dispositions (17 pending
+in total). It contains 9,945 active entities (8,395 verified and 1,550 candidates),
+2,402 capabilities, 13,064 search documents, 1,691 capability clusters and 1,717
+repository/cluster assignments. This checkpoint completed seven pinned-source
+repository summaries and preserved all detailed entity records.
 
-The latest 50-repository preparation attempt could not retrieve pinned source for
-its selected cohort because GitHub REST connections were refused; those entries
-remain uncompleted. The Git remote remains reachable. `gh auth status` reports an
-invalid keyring token, although the repository discovery path completed this
-refresh successfully. JEV decisions remain deferred where the decision engine is
-unavailable. Resume from `docs/CODEX-RESUME.md` and
-`system/inspection-state.json`; do not mark source-unavailable entries complete.
-Registry, catalog, 73 unit tests and publication guard passed on 2026-10-22.
+Fresh GitHub discovery reports 731 accessible/owned repositories (717 public, 14
+private); the public manifest contains all 717, with no new public repositories.
+The ten repositories from the interrupted source-preparation batch remain deferred
+after GitHub REST connection refusals; that failed batch was not restarted. They
+have no pinned revision yet and remain incomplete. Seven empty-source dispositions
+also remain unresolved. Private identities and evidence remain local-only. JEV has
+116 deferred decisions. Registry, catalog, all 75 unit tests and publication guard
+passed on 2026-10-22. Resume from `docs/CODEX-RESUME.md` and
+`system/inspection-state.json`.
 
 The historical sections below describe earlier checkpoints, not current counts.
 

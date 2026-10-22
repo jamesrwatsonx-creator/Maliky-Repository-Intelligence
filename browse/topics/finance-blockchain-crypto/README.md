@@ -2,7 +2,7 @@
 
 Finance, trading, blockchain, crypto and wallet capabilities.
 
-**311 entries** · Alphabetical · 3 pages.
+**321 entries** · Alphabetical · 3 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -256,6 +256,8 @@ Finance, trading, blockchain, crypto and wallet capabilities.
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/intercompany-eliminator/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/intercompany-eliminator/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [internal-auditor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A309ae2b4dadde6fb49f3ce38.json) — Agent specialized in risk-based audit planning, fieldwork execution, and finding documentation<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/agents/internal-auditor/AGENT.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/agents/internal-auditor/AGENT.md#L1) · AGENT · VERIFIED · PINNED_SOURCE · AI agents
+- [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661247.json) — Ethereum account-abstraction implementation and SDK/contracts supporting smart accounts, sponsored and batched transactions, social recovery and flexible authorization.<br>
+  Source: [jamesrwatsonx-creator/account-abstraction](https://github.com/jamesrwatsonx-creator/account-abstraction) · REPOSITORY · COMPLETE · PINNED_SOURCE · Blockchain/Web3 security, SDKs/client libraries
 - [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342960660.json) — AI-driven financial research or portfolio analysis inspired by Berkshire Hathaway investment principles.<br>
   Source: [jamesrwatsonx-creator/ai-berkshire](https://github.com/jamesrwatsonx-creator/ai-berkshire) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, AI applications, Research projects
 - [jamesrwatsonx-creator/AI-Trader](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366364245.json) — Agent-native financial trading project that coordinates automated market analysis and trade decisions across model and data tools.<br>
@@ -292,20 +294,18 @@ Finance, trading, blockchain, crypto and wallet capabilities.
   Source: [jamesrwatsonx-creator/dexpaprika-mcp](https://github.com/jamesrwatsonx-creator/dexpaprika-mcp) · REPOSITORY · COMPLETE · PINNED_SOURCE · MCP servers, APIs, Finance/accounting
 - [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1342891630.json) — Cryptographic or elliptic-curve cryptography implementation and examples for secure key and signature operations.<br>
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cryptography, Cybersecurity, Developer tools
-- [jamesrwatsonx-creator/eip-7702-proxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661511.json) — A lightweight ERC-1967 proxy for EOA upgrades to `CoinbaseSmartWallet`<br>
-  Source: [jamesrwatsonx-creator/eip-7702-proxy](https://github.com/jamesrwatsonx-creator/eip-7702-proxy) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/eip-7702-proxy](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403661511.json) — Solidity proxy pattern for EIP-7702 accounts with signature-authorized implementation setup and atomic initialization.<br>
+  Source: [jamesrwatsonx-creator/eip-7702-proxy](https://github.com/jamesrwatsonx-creator/eip-7702-proxy) · REPOSITORY · COMPLETE · PINNED_SOURCE · Blockchain/Web3 security, Cryptography
+- [jamesrwatsonx-creator/EIPs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660239.json) — Canonical reference repository for Ethereum Improvement Proposals covering protocol, networking, interface and meta standards; README notes ERCs have moved to a separate repository.<br>
+  Source: [jamesrwatsonx-creator/EIPs](https://github.com/jamesrwatsonx-creator/EIPs) · REPOSITORY · COMPLETE · PINNED_SOURCE · Blockchain/Web3 security, Reference implementations
 - [jamesrwatsonx-creator/ERCs](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1347508275.json) — Repository of Ethereum Request for Comments documents describing standards and proposals for Ethereum-compatible systems.<br>
   Source: [jamesrwatsonx-creator/ERCs](https://github.com/jamesrwatsonx-creator/ERCs) · REPOSITORY · COMPLETE · PINNED_SOURCE · Specifications/standards, Blockchain/Web3 security, Documentation
 - [jamesrwatsonx-creator/erpnext](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418815841.json) — Open-source ERP system covering accounting, inventory, sales, purchasing, manufacturing, projects and human resources.<br>
   Source: [jamesrwatsonx-creator/erpnext](https://github.com/jamesrwatsonx-creator/erpnext) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Finance/accounting, Manufacturing
 - [jamesrwatsonx-creator/ever-gauzy-community-business-platform-](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418799221.json) — Business management platform for organizations and communities, with CRM, projects, scheduling, finance and workforce workflows.<br>
   Source: [jamesrwatsonx-creator/ever-gauzy-community-business-platform-](https://github.com/jamesrwatsonx-creator/ever-gauzy-community-business-platform-) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, CRM, Productivity
-- [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372815756.json) — Open-source financial language model and toolkit for finance-oriented instruction tuning, sentiment analysis and market research.<br>
-  Source: [jamesrwatsonx-creator/FinGPT](https://github.com/jamesrwatsonx-creator/FinGPT) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Finance/accounting, Research projects
-- [jamesrwatsonx-creator/FinMem-LLM-StockTrading](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372816642.json) — Research implementation of an LLM stock-trading agent using layered memory, character profiles and a market-data pipeline to study decision performance.<br>
-  Source: [jamesrwatsonx-creator/FinMem-LLM-StockTrading](https://github.com/jamesrwatsonx-creator/FinMem-LLM-StockTrading) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI agents, Finance/accounting, Research projects
-- [jamesrwatsonx-creator/FinRL](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1366363710.json) — Open-source financial reinforcement-learning framework for algorithmic trading research, with data, environments, agents and backtesting workflows.<br>
-  Source: [jamesrwatsonx-creator/FinRL](https://github.com/jamesrwatsonx-creator/FinRL) · REPOSITORY · COMPLETE · PINNED_SOURCE · Finance/accounting, Machine-learning models, Research projects
+- [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1406872705.json) — Financial-services agent plugins and managed-agent templates for analyst workflows including earnings review, research, financial modeling and reconciliation, with human sign-off requirements.<br>
+  Source: [jamesrwatsonx-creator/financial-services](https://github.com/jamesrwatsonx-creator/financial-services) · REPOSITORY · COMPLETE · PINNED_SOURCE · Agent workflows, Finance/accounting
 
 ## Pages
 

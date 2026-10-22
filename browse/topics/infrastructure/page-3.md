@@ -1,6 +1,6 @@
 # Infrastructure — page 3
 
-711 catalog entries · Sorted alphabetically by name · Page 3 of 5.
+710 catalog entries · Sorted alphabetically by name · Page 3 of 5.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -138,8 +138,6 @@
   Source: [jamesrwatsonx-creator/Graphene-infrastructure](https://github.com/jamesrwatsonx-creator/Graphene-infrastructure) · REPOSITORY · COMPLETE · PINNED_SOURCE · Documentation, Cloud infrastructure, Cybersecurity
 - [jamesrwatsonx-creator/gvision](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389396472.json) — Google Cloud Vision API client or examples for image labeling, OCR, face/landmark detection and visual content analysis.<br>
   Source: [jamesrwatsonx-creator/gvision](https://github.com/jamesrwatsonx-creator/gvision) · REPOSITORY · COMPLETE · PINNED_SOURCE · APIs, Machine-learning models, Machine-learning models
-- [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1403660641.json) — Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software.<br>
-  Source: [jamesrwatsonx-creator/hardhat](https://github.com/jamesrwatsonx-creator/hardhat) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · DevOps
 - [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1269741392.json) — LLM middleware that reduces prompt and conversation context size through filtering, compression or memory-aware request processing.<br>
   Source: [jamesrwatsonx-creator/headroom](https://github.com/jamesrwatsonx-creator/headroom) · REPOSITORY · COMPLETE · PINNED_SOURCE · AI infrastructure, Generative AI, SDKs/client libraries
 - [jamesrwatsonx-creator/headscale](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1348824000.json) — Self-hosted implementation of the Tailscale control server for coordinating secure mesh VPN nodes and access policies.<br>
@@ -148,8 +146,8 @@
   Source: [jamesrwatsonx-creator/incus](https://github.com/jamesrwatsonx-creator/incus) · REPOSITORY · COMPLETE · PINNED_SOURCE · Cloud infrastructure, Containers, DevOps
 - [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418856229.json) — Secrets management platform for securely storing, syncing and managing environment variables and credentials across teams and infrastructure.<br>
   Source: [jamesrwatsonx-creator/infisical](https://github.com/jamesrwatsonx-creator/infisical) · REPOSITORY · COMPLETE · PINNED_SOURCE · Secrets management, Cybersecurity, DevOps
-- [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399060123.json) — Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬<br>
-  Source: [jamesrwatsonx-creator/invoice-chatwoot](https://github.com/jamesrwatsonx-creator/invoice-chatwoot) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · General / Other
+- [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1399051706.json) — Billing infrastructure for SaaS subscriptions, credit systems, usage-based pricing and plan management.<br>
+  Source: [jamesrwatsonx-creator/invoice-autumn](https://github.com/jamesrwatsonx-creator/invoice-autumn) · REPOSITORY · COMPLETE · PINNED_SOURCE · Business applications, Finance/accounting
 - [jamesrwatsonx-creator/ioBroker](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418860154.json) — Windows installer and setup distribution for ioBroker, a Node.js home-automation platform with adapters for connecting devices and services.<br>
   Source: [jamesrwatsonx-creator/ioBroker](https://github.com/jamesrwatsonx-creator/ioBroker) · REPOSITORY · COMPLETE · PINNED_SOURCE · IoT, Automation/scripting, Cloud infrastructure
 - [jamesrwatsonx-creator/iRedMail](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418860622.json) — Linux/BSD mail-server deployment solution that configures common mail services, webmail, filtering and administration components.<br>
@@ -304,6 +302,8 @@
   Source: [jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-) · [docs/tools/merge-pdf.md](https://github.com/jamesrwatsonx-creator/bentopdf-edit-website-text-locally.-save-it-connect-it-/blob/872a32929e0ee90c67c104e661be31433ff7b4df/docs/tools/merge-pdf.md#L1) · TOOL · VERIFIED · PINNED_SOURCE · Application security, Creative tools, Full-stack applications
 - [methodologies/extreme-programming](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A24c6c49df749407e50d34f3e.json) — Extreme Programming (XP) - Agile engineering practices with frequent releases, TDD, pair programming, and continuous integration<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/extreme-programming/xp-process.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/extreme-programming/xp-process.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
+- [methodologies/maestro/maestro-bootstrap](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Af9ef8f54a6092b69e0709539.json) — Maestro Bootstrap - New project minimum infrastructure setup: scaffold, configure, initial architecture<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/methodologies/maestro/maestro-bootstrap.js](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/methodologies/maestro/maestro-bootstrap.js#L1) · WORKFLOW · VERIFIED · PINNED_SOURCE · Agent workflows
 
 ## Pages
 

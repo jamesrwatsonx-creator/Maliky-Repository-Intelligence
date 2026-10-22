@@ -1,15 +1,9 @@
 # Skills — page 19
 
-3,151 catalog entries · Sorted alphabetically by name · Page 19 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 19 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [stm32-hal](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A0c77c981b0572f66230a107e.json) — STMicroelectronics STM32 HAL and Low-Level driver expertise<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/embedded-systems/skills/stm32-hal/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/embedded-systems/skills/stm32-hal/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [stock_analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa53792dc29ec47df616f8328.json) — 分析股票和市场。当用户想要分析单个或多个股票，或进行市场复盘时调用。<br>
-  Source: [jamesrwatsonx-creator/daily_stock_analysis](https://github.com/jamesrwatsonx-creator/daily_stock_analysis) · [SKILL.md](https://github.com/jamesrwatsonx-creator/daily_stock_analysis/blob/b477022551d8764a3551e83f12eb5f96da42a550/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE
-- [stocks](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Abb2dcd1860ab1005d8250171.json) — Stock quotes, history, search, compare, crypto via Yahoo.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [optional-skills/finance/stocks/SKILL.md](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/optional-skills/finance/stocks/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [stop-overthinking](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aab1dabe75ef093ae36c3333b.json) — Manually-invoked skill that stops overthinking and forces a short, practical decision. Use only when the user explicitly invokes stop-overthinking.<br>
   Source: [jamesrwatsonx-creator/David-skills](https://github.com/jamesrwatsonx-creator/David-skills) · [skills/thinking-and-docs/stop-overthinking/SKILL.md](https://github.com/jamesrwatsonx-creator/David-skills/blob/69c3ae5228eb146724fd23dac3d43eab5805bcc3/skills/thinking-and-docs/stop-overthinking/SKILL.md#L1) · SKILL · NEEDS_REVIEW · PINNED_SOURCE · Skills
 - [stormwater-management](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A281ca0683dbb715d80cb0b4f.json) — Skill for integrated stormwater management and green infrastructure design with SWMM modeling, hydrologic analysis, BMP sizing, and MS4 permit compliance.<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/finance-accounting/skills/three-statement-model-builder/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [throughput-accountant](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aad4261462cdbec69e9b99b29.json) — TOC financial metrics skill for throughput, inventory, and operating expense analysis with decision support<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/operations/skills/throughput-accountant/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [tile-based](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c7ae1b5dbf948db57f43474.json) — Tile-based level design skill for autotiling.<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/tile-based/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/tile-based/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [time-series-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9c1fd1474f3cbee24b399606.json) — Skill for time series analysis and forecasting<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [time-series-forecaster](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A44c6466a401c8378815abf81.json) — Time series forecasting skill for business metric prediction and demand planning<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - **[Page 19](page-19.md)**
 - [Page 20](page-20.md)
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

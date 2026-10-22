@@ -1,15 +1,9 @@
 # Skills — page 20
 
-3,151 catalog entries · Sorted alphabetically by name · Page 20 of 22.
+3,148 catalog entries · Sorted alphabetically by name · Page 20 of 21.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [tile-based](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A3c7ae1b5dbf948db57f43474.json) — Tile-based level design skill for autotiling.<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/game-development/skills/tile-based/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/game-development/skills/tile-based/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [time-series-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9c1fd1474f3cbee24b399606.json) — Skill for time series analysis and forecasting<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/scientific-discovery/skills/time-series-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
-- [time-series-forecaster](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A44c6466a401c8378815abf81.json) — Time series forecasting skill for business metric prediction and demand planning<br>
-  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/decision-intelligence/skills/time-series-forecaster/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [time-study-analyzer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A49dd6effadc46f7a846e9031.json) — Time study analysis skill with stopwatch methods, performance rating, and standard time calculation.<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/skills/time-study-analyzer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/skills/time-study-analyzer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [timesfm-forecasting](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A169202bd6fc395b7136f2bca.json) — Zero-shot time series forecasting with Google's TimesFM foundation model. Use this skill when forecasting ANY univariate time series — sales, sensor readings, stock prices, energy demand, patient vitals, weather, or…<br>
@@ -304,6 +298,12 @@
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/science/industrial-engineering/skills/vehicle-routing-solver/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/industrial-engineering/skills/vehicle-routing-solver/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 - [vendor-risk-monitor](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A5a4590ab5c8cc36398fd1913.json) — Continuous vendor security monitoring for security ratings, breach notifications, and risk change detection<br>
   Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/vendor-risk-monitor/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/vendor-risk-monitor/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [vendor-risk-scorer](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aca81cb255040d51322dbad8e.json) — Comprehensive supplier risk scoring skill with multi-dimensional risk assessment<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/supply-chain/skills/vendor-risk-scorer/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/supply-chain/skills/vendor-risk-scorer/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [vendor-scorecard](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A79c42685c17f6d252a4413a9.json) — Evaluate and track vendor performance using scorecards and metrics<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/domains/business/project-management/skills/vendor-scorecard/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/business/project-management/skills/vendor-scorecard/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [vendor-security-questionnaire](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A911d65f05b35914954d7a720.json) — Automated vendor security assessment through questionnaire generation, response parsing, and risk scoring<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/security-compliance/skills/vendor-security-questionnaire/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/security-compliance/skills/vendor-security-questionnaire/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
 
 ## Pages
 
@@ -328,4 +328,3 @@
 - [Page 19](page-19.md)
 - **[Page 20](page-20.md)**
 - [Page 21](page-21.md)
-- [Page 22](page-22.md)

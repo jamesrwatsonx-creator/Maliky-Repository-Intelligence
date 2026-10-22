@@ -2,7 +2,7 @@
 
 Prompt libraries, agent workflows and reusable procedures.
 
-**3,394 entries** · Alphabetical · 23 pages.
+**3,404 entries** · Alphabetical · 23 pages.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 

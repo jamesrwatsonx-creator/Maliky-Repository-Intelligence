@@ -2,7 +2,7 @@
 
 Animation libraries, motion systems and interaction effects.
 
-**272 entries**
+**270 entries**
 
 ## Browse within this topic
 
@@ -10,7 +10,7 @@ Animation libraries, motion systems and interaction effects.
 - [Libraries & Packages](by-type/libraries/README.md) (10)
 - [Plugins](by-type/plugins/README.md) (3)
 - [Other Assets](by-type/other-assets/README.md) (76)
-- [Repositories](by-type/repositories/README.md) (47)
+- [Repositories](by-type/repositories/README.md) (45)
 - [Services & Integrations](by-type/services/README.md) (2)
 - [Skills](by-type/skills/README.md) (46)
 - [UI Components](by-type/ui-components/README.md) (59)
@@ -228,8 +228,6 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/Android-SpinKit](https://github.com/jamesrwatsonx-creator/Android-SpinKit) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Mobile applications, Creative tools
 - [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1396968858.json) — Reference collection of Android UI components, animation libraries and interface patterns.<br>
   Source: [jamesrwatsonx-creator/android-ui-animation-components-and-libraries](https://github.com/jamesrwatsonx-creator/android-ui-animation-components-and-libraries) · REPOSITORY · COMPLETE · PINNED_SOURCE · Mobile applications, Frontend applications
-- [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1398507217.json) — A curated list of awesome CSS frameworks, libraries and software.<br>
-  Source: [jamesrwatsonx-creator/awesome-css](https://github.com/jamesrwatsonx-creator/awesome-css) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Design systems
 - [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1354290695.json) — Curated index of public DESIGN.md files and website design-system examples for browsing visual identity patterns.<br>
   Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Research projects, Documentation
 - [jamesrwatsonx-creator/better-design-shadcn](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1418693643.json) — Enhanced shadcn/ui component collection and design patterns for building polished React applications.<br>
@@ -288,8 +286,6 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/onlook](https://github.com/jamesrwatsonx-creator/onlook) · REPOSITORY · COMPLETE · PINNED_SOURCE · Developer tools, Frontend applications, AI applications
 - [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1372781855.json) — Open-source design and prototyping platform for collaborative UI/UX design using web-based vector editing and design systems.<br>
   Source: [jamesrwatsonx-creator/penpot](https://github.com/jamesrwatsonx-creator/penpot) · REPOSITORY · COMPLETE · PINNED_SOURCE · Design systems, Creative tools, Web applications
-- [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1415041921.json) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own…<br>
-  Source: [jamesrwatsonx-creator/ppt-master](https://github.com/jamesrwatsonx-creator/ppt-master) · REPOSITORY · DISCOVERED · PUBLIC_METADATA_ONLY · Generative AI
 - [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1271470660.json) — Library or framework for producing print-ready layouts and publication artifacts from structured content and templates.<br>
   Source: [jamesrwatsonx-creator/printing-press-library](https://github.com/jamesrwatsonx-creator/printing-press-library) · REPOSITORY · COMPLETE · PINNED_SOURCE · Libraries/packages, Creative tools, Documentation
 - [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1427687237.json) — Ready-made design themes and styling primitives for Radix UI components, enabling consistent accessible interfaces.<br>
@@ -318,6 +314,10 @@ Animation libraries, motion systems and interaction effects.
   Source: [jamesrwatsonx-creator/ECC](https://github.com/jamesrwatsonx-creator/ECC) · [skills/jira-integration/SKILL.md](https://github.com/jamesrwatsonx-creator/ECC/blob/d8409a4b0813771235555e32e3d8046a73988bfa/skills/jira-integration/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills, AI agents
 - [Kbd](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A9f07647daf70e30838a0b01a.json) — Semantic keyboard-key typography component with theme-consistent size, spacing and visual treatment.<br>
   Source: [jamesrwatsonx-creator/Radix-themes](https://github.com/jamesrwatsonx-creator/Radix-themes) · [packages/radix-ui-themes/src/components/kbd.tsx](https://github.com/jamesrwatsonx-creator/Radix-themes/blob/1faff10ac26ae17f09944d418c6949b93fc6b566/packages/radix-ui-themes/src/components/kbd.tsx#L1) · UI_COMPONENT · VERIFIED · PINNED_SOURCE · Design systems, Frontend applications
+- [langgraph-routing](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ad98a3472d290edbeda394cfa.json) — Conditional edge routing and state-based transitions for LangGraph workflows<br>
+  Source: [jamesrwatsonx-creator/babysitter](https://github.com/jamesrwatsonx-creator/babysitter) · [library/specializations/ai-agents-conversational/skills/langgraph-routing/SKILL.md](https://github.com/jamesrwatsonx-creator/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/ai-agents-conversational/skills/langgraph-routing/SKILL.md#L1) · SKILL · VERIFIED · PINNED_SOURCE · Skills
+- [Linear-design-analysis](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Aa9670dc5f79456e433201c0b.json) — A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the…<br>
+  Source: [jamesrwatsonx-creator/awesome-design-md](https://github.com/jamesrwatsonx-creator/awesome-design-md) · [design-md/linear.app/DESIGN.md](https://github.com/jamesrwatsonx-creator/awesome-design-md/blob/8147538b4226ae41e2487a9179e3bcc1f68e8554/design-md/linear.app/DESIGN.md#L1) · DESIGN_REFERENCE · VERIFIED · PINNED_SOURCE · Design systems
 
 ## Pages
 

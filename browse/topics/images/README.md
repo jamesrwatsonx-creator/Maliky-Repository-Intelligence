@@ -2,7 +2,7 @@
 
 Image generation, editing, processing and asset libraries.
 
-**93 entries** · Alphabetical · 1 page.
+**94 entries** · Alphabetical · 1 page.
 
 [Browse homepage](../../README.md) · [All repositories](../../repositories/README.md)
 
@@ -100,6 +100,8 @@ Image generation, editing, processing and asset libraries.
   Source: [jamesrwatsonx-creator/opencv](https://github.com/jamesrwatsonx-creator/opencv) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Developer tools, SDKs/client libraries
 - [jamesrwatsonx-creator/PaddleOCR](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1389393132.json) — OCR and document/image understanding toolkit supporting text detection, recognition, layout analysis and multilingual document processing.<br>
   Source: [jamesrwatsonx-creator/PaddleOCR](https://github.com/jamesrwatsonx-creator/PaddleOCR) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Data engineering, Developer tools
+- [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1407868392.json) — Rust-based clean-room image-editing application project focused on recreating desktop photo-editing capabilities.<br>
+  Source: [jamesrwatsonx-creator/photocraft](https://github.com/jamesrwatsonx-creator/photocraft) · REPOSITORY · COMPLETE · PINNED_SOURCE · Desktop applications, Frontend applications
 - [jamesrwatsonx-creator/PhotoML](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1340272639.json) — Machine-learning toolkit or application for organizing, classifying or analyzing photo collections.<br>
   Source: [jamesrwatsonx-creator/PhotoML](https://github.com/jamesrwatsonx-creator/PhotoML) · REPOSITORY · COMPLETE · PINNED_SOURCE · Machine-learning models, Creative tools, Data science
 - [jamesrwatsonx-creator/Qwen3-VL](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/repositories/1344549536.json) — Qwen3 vision-language model family and utilities for image/video understanding, visual question answering and multimodal reasoning.<br>

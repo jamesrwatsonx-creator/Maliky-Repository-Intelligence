@@ -1,0 +1,600 @@
+{
+    "defaults":  {
+                     "inspection_scope":  "Pinned README and representative manifest review; classify the repository and its major subsystems without exhaustive component extraction.",
+                     "source_review":  [
+                                           "README.md"
+                                       ],
+                     "risk_notes":  [
+                                        "Use established standards and reviewed releases; authentication, privacy, cryptographic and financial surfaces require targeted review before production use."
+                                    ]
+                 },
+    "repositories":  [
+                         {
+                             "repository":  "jamesrwatsonx-creator/presence-phone-number-GhostTrack",
+                             "commit":  "a5cb8ad4c08acd803f166fb067b7dac724d6cb3d",
+                             "purpose":  "Phone-number OSINT utility that attempts to derive public identity or location-related signals from a supplied number, with Linux and Termux usage paths.",
+                             "categories":  [
+                                                "category:research-projects",
+                                                "category:privacy"
+                                            ],
+                             "operational":  "operational:10",
+                             "license_notes":  "Review the upstream license and legal/privacy requirements for personal-data lookups.",
+                             "keywords":  [
+                                              "phone number OSINT",
+                                              "identity lookup",
+                                              "Termux",
+                                              "public information",
+                                              "Python"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Phone-number intelligence lookup",
+                                                             "description":  "Uses number-derived signals and external resources to support phone-number investigations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "GhostTrack lookup tool",
+                                                              "purpose":  "Provides a command-line workflow for phone-number-oriented public-information research.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "GhostTR.py"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Python",
+                                             "Linux",
+                                             "Termux"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Only for authorized investigations with consent and strict privacy controls; do not treat results as verified identity or location facts.",
+                             "risk_notes":  [
+                                                "Personal-data lookup and possible location inference require explicit authorization and privacy review."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "GhostTR.py"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/developer-portal",
+                             "commit":  "b820e34b2fdf6c9ad09994fbd7ae1b5e0d944c5b",
+                             "purpose":  "Developer portal combining product documentation, API resources and a web application with an MCP skill surface and permission-related subsystems.",
+                             "categories":  [
+                                                "category:web-applications",
+                                                "category:apis"
+                                            ],
+                             "operational":  "operational:12",
+                             "license_notes":  "Review pinned license, credential handling and external API access requirements; local development documentation references required secrets.",
+                             "asset_presence":  {
+                                                    "mcp":  "PRESENT",
+                                                    "apis_sdks_services":  "PRESENT",
+                                                    "ui_design":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "developer portal",
+                                              "API documentation",
+                                              "MCP",
+                                              "web app",
+                                              "permissions",
+                                              "developer experience"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Developer documentation and portal",
+                                                             "description":  "Presents documentation and developer resources through a web-facing portal.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "MCP and API integration surface",
+                                                             "description":  "Includes an MCP skill/API area for exposing developer-facing capabilities.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Portal web application",
+                                                              "purpose":  "Provides the user-facing developer documentation and resource experience.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "web/README.md",
+                                                                                     "web/package.json"
+                                                                                 ]
+                                                          },
+                                                          {
+                                                              "name":  "MCP and permission subsystem",
+                                                              "purpose":  "Organizes MCP exposure and access-control support for portal capabilities.",
+                                                              "evidence_paths":  [
+                                                                                     "web/api/mcp/SKILL.md",
+                                                                                     "web/lib/permissions/README.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "web application",
+                                             "Hasura"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use as a developer portal pattern; never copy credentials from local setup and review access-control boundaries before integration.",
+                             "risk_notes":  [
+                                                "Credential use and permission enforcement need scoped security review before deployment."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "web/README.md",
+                                                   "web/package.json",
+                                                   "web/api/mcp/SKILL.md",
+                                                   "web/lib/permissions/README.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/EIPs",
+                             "commit":  "666fb5ebc712bef2179af03317fffabf15a2f563",
+                             "purpose":  "Canonical reference repository for Ethereum Improvement Proposals covering protocol, networking, interface and meta standards; README notes ERCs have moved to a separate repository.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:reference-implementations"
+                                            ],
+                             "operational":  "operational:25",
+                             "license_notes":  "Check repository terms and proposal-specific licensing or attribution requirements.",
+                             "keywords":  [
+                                              "Ethereum standards",
+                                              "EIP",
+                                              "protocol proposals",
+                                              "networking",
+                                              "interfaces",
+                                              "ERC migration"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Ethereum protocol standards",
+                                                             "description":  "Documents proposed changes and standards for Ethereum core, networking and interfaces.",
+                                                             "scope":  "REFERENCE"
+                                                         },
+                                                         {
+                                                             "name":  "Proposal process and specifications",
+                                                             "description":  "Provides structured proposal documents and editorial conventions for standards work.",
+                                                             "scope":  "REFERENCE"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "EIP specification corpus",
+                                                              "purpose":  "Acts as a primary reference for Ethereum protocol and interface proposals.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "LICENSE.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Markdown specification corpus"
+                                         ],
+                             "recommendation":  "REFERENCE",
+                             "reuse_recommendation":  "Use as a standards reference; for ERC work follow the separate ERC repository identified in the pinned README.",
+                             "source_review":  [
+                                                   "README.md",
+                                                   "LICENSE.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/openzeppelin-contracts",
+                             "commit":  "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+                             "purpose":  "Widely used Solidity contract library providing reusable implementations and utilities for secure Ethereum smart contracts.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:libraries-packages"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Verify license and exact release; the README warns that upgradeable storage layouts can be incompatible across major versions.",
+                             "asset_presence":  {
+                                                    "skills":  "PRESENT"
+                                                },
+                             "keywords":  [
+                                              "Solidity",
+                                              "smart contracts",
+                                              "EVM",
+                                              "security libraries",
+                                              "upgradeable contracts",
+                                              "testing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Reusable Solidity contract components",
+                                                             "description":  "Provides standardized token, access-control, utility and other contract building blocks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Upgradeable contract patterns",
+                                                             "description":  "Includes contract patterns for proxy-based upgrades with version-sensitive storage layouts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "OpenZeppelin Contracts library",
+                                                              "purpose":  "Supplies composable Solidity components for application contracts.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json",
+                                                                                     "contracts/package.json"
+                                                                                 ]
+                                                          },
+                                                          {
+                                                              "name":  "Contributor Skills and testing guidance",
+                                                              "purpose":  "Provides project instructions for contract API design, style, changesets and testing.",
+                                                              "evidence_paths":  [
+                                                                                     ".claude/skills/library-api-design/SKILL.md",
+                                                                                     ".claude/skills/testing/SKILL.md"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Solidity",
+                                             "TypeScript/JavaScript tooling",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Prefer a tagged compatible release; validate storage layout, initialization and access control carefully for upgradeable contracts.",
+                             "risk_notes":  [
+                                                "Smart contracts and upgradeable storage require scoped security review; major-version storage compatibility is not guaranteed."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json",
+                                                   "contracts/package.json",
+                                                   ".claude/skills/library-api-design/SKILL.md",
+                                                   ".claude/skills/testing/SKILL.md"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/foundry",
+                             "commit":  "60255eee79332caef99f0c885f55589769f8f0c0",
+                             "purpose":  "Rust-based Ethereum development toolchain for building, testing, fuzzing, debugging and deploying Solidity contracts, with local-node and RPC utilities.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Review dual license terms and deployment security implications for any transaction-signing workflows.",
+                             "keywords":  [
+                                              "Foundry",
+                                              "Solidity",
+                                              "Forge",
+                                              "Cast",
+                                              "Anvil",
+                                              "Chisel",
+                                              "smart contract testing"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Solidity build and test toolchain",
+                                                             "description":  "Forge supports contract compilation, testing, fuzzing, debugging and deployment workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "EVM interaction and local development",
+                                                             "description":  "Cast, Anvil and Chisel support chain interaction, local node simulation and Solidity experimentation.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Forge, Cast, Anvil and Chisel",
+                                                              "purpose":  "Together provide core contract development, testing and EVM interaction tools.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "Cargo.toml",
+                                                                                     "crates/anvil/Cargo.toml",
+                                                                                     "crates/cast/Cargo.toml"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Rust",
+                                             "Solidity",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for Solidity development and testing; keep private keys out of scripts and review broadcast/deployment steps before execution.",
+                             "risk_notes":  [
+                                                "Deployment and transaction-signing surfaces warrant scoped key-management and execution review."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "Cargo.toml",
+                                                   "crates/anvil/Cargo.toml",
+                                                   "crates/cast/Cargo.toml"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/hardhat",
+                             "commit":  "f9d8fde2b2789a4827914c8072529bb705ea9b5e",
+                             "purpose":  "Extensible Ethereum development environment for compiling, testing and deploying smart contracts with a modular JavaScript/TypeScript plugin ecosystem.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:developer-tools"
+                                            ],
+                             "operational":  "operational:24",
+                             "license_notes":  "Verify project and plugin licenses and review deployment/key-management configuration.",
+                             "keywords":  [
+                                              "Hardhat 3",
+                                              "Ethereum",
+                                              "Solidity",
+                                              "contract testing",
+                                              "plugins",
+                                              "TypeScript"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Smart contract development environment",
+                                                             "description":  "Coordinates contract compilation, test execution and deployment workflows.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Plugin ecosystem",
+                                                             "description":  "Extends project workflows through modular packages and integrations.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Hardhat core and plugins",
+                                                              "purpose":  "Provides a configurable development runtime and extension points for Ethereum projects.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json",
+                                                                                     "packages/hardhat-ethers/package.json",
+                                                                                     "packages/hardhat-foundry/package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "TypeScript/JavaScript",
+                                             "Node.js",
+                                             "Solidity",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "USE DIRECTLY",
+                             "reuse_recommendation":  "Use for contract projects requiring its plugin ecosystem; pin Hardhat 3 and validate deployment configuration before use.",
+                             "risk_notes":  [
+                                                "Deployment and private-key handling require scoped review before executing production transactions."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json",
+                                                   "packages/hardhat-ethers/package.json",
+                                                   "packages/hardhat-foundry/package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/smart-wallet",
+                             "commit":  "a4e83fd36c47b64cb4e21e1fa6bb9b04181a66da",
+                             "purpose":  "Smart-contract wallet supporting multiple owners, passkey or Ethereum-address ownership and cross-chain owner updates.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:cryptography"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Review license, audit reports and deployment artifact provenance; do not equate past audits with current security.",
+                             "keywords":  [
+                                              "smart wallet",
+                                              "passkeys",
+                                              "multisig owners",
+                                              "cross-chain",
+                                              "account abstraction",
+                                              "Solidity"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Multi-owner smart account",
+                                                             "description":  "Implements wallet authorization across multiple address or passkey owners.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Cross-chain owner management",
+                                                             "description":  "Coordinates owner updates and related actions across supported chains.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Smart Wallet contracts",
+                                                              "purpose":  "Implements owner validation and wallet action authorization in on-chain contracts.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "SECURITY.md",
+                                                                                     "Makefile"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Solidity",
+                                             "Foundry",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Treat as high-risk wallet infrastructure; require independent contract, authorization, replay and deployment review before use.",
+                             "risk_notes":  [
+                                                "Wallets and cross-chain authorization involve funds and privileged actions; deep security review is mandatory before production use."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "SECURITY.md",
+                                                   "Makefile"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/account-abstraction",
+                             "commit":  "1c6b669d0eea734e09a87e095ba15e076151718a",
+                             "purpose":  "Ethereum account-abstraction implementation and SDK/contracts supporting smart accounts, sponsored and batched transactions, social recovery and flexible authorization.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Check license, audited releases, protocol compatibility and deployment configuration.",
+                             "keywords":  [
+                                              "account abstraction",
+                                              "smart accounts",
+                                              "gas sponsorship",
+                                              "social recovery",
+                                              "batched transactions",
+                                              "ERC-4337"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Smart account contracts",
+                                                             "description":  "Implements account and entry-point-related contract support for programmable transaction authorization.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Account abstraction SDK and deployment tooling",
+                                                             "description":  "Provides JavaScript/TypeScript integration and deployment workflows for account-abstraction applications.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Account abstraction contracts and SDK",
+                                                              "purpose":  "Connects programmable smart-account behavior with application integrations and deployment support.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json",
+                                                                                     "contracts/package.json"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Solidity",
+                                             "TypeScript/JavaScript",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use only with version-matched protocol tooling and audited deployments; assess validation, sponsorship and recovery paths.",
+                             "risk_notes":  [
+                                                "Account validation and sponsored transactions are security-critical and require scoped contract and deployment review."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json",
+                                                   "contracts/package.json"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/eip-7702-proxy",
+                             "commit":  "80a4cd29f2ec38764d733e61e9c99923eb3230e5",
+                             "purpose":  "Solidity proxy pattern for EIP-7702 accounts with signature-authorized implementation setup and atomic initialization.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:cryptography"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Check license, audit status and chain/EIP implementation assumptions at the pinned revision.",
+                             "keywords":  [
+                                              "EIP-7702",
+                                              "proxy",
+                                              "EOA delegation",
+                                              "signature authorization",
+                                              "Solidity",
+                                              "account security"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "EIP-7702 proxy initialization",
+                                                             "description":  "Sets account implementation and initialization atomically under signature-based authorization.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Implementation validation hooks",
+                                                             "description":  "Supports configurable validation of account state through implementation-specific checks.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "EIP-7702 proxy contracts",
+                                                              "purpose":  "Provides account delegation and initialization logic for EIP-7702-compatible deployments.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "foundry.toml"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Solidity",
+                                             "Foundry",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Do not deploy without independent review of signatures, initialization atomicity, replay protection and implementation validation.",
+                             "risk_notes":  [
+                                                "Account delegation and signature authorization can compromise funds; deep security review is mandatory before deployment."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "foundry.toml"
+                                               ]
+                         },
+                         {
+                             "repository":  "jamesrwatsonx-creator/safe-smart-account",
+                             "commit":  "f8fc2f2e75b650d63276aaa12cd3a455a5f5a990",
+                             "purpose":  "Safe smart-account contracts and JavaScript tooling for multisignature wallet execution and integrations; the README warns the branch is under development and points to audited releases.",
+                             "categories":  [
+                                                "category:blockchain-web3-security",
+                                                "category:sdks-client-libraries"
+                                            ],
+                             "operational":  "operational:22",
+                             "license_notes":  "Verify the exact tagged audited release; the pinned branch is explicitly marked as under development.",
+                             "keywords":  [
+                                              "Safe smart account",
+                                              "multisig",
+                                              "Ethereum wallet",
+                                              "Solidity",
+                                              "JavaScript SDK",
+                                              "audited releases"
+                                          ],
+                             "capability_clusters":  [
+                                                         {
+                                                             "name":  "Multisignature account contracts",
+                                                             "description":  "Implements shared-authorization smart accounts for managing and executing on-chain transactions.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         },
+                                                         {
+                                                             "name":  "Safe JavaScript integration",
+                                                             "description":  "Provides package tooling and interfaces for integrating with Safe smart accounts.",
+                                                             "scope":  "IMPLEMENTATION"
+                                                         }
+                                                     ],
+                             "important_subsystems":  [
+                                                          {
+                                                              "name":  "Safe contracts and SDK",
+                                                              "purpose":  "Combines smart-account contract logic with application-facing integration packages.",
+                                                              "evidence_paths":  [
+                                                                                     "README.md",
+                                                                                     "package.json",
+                                                                                     "src/index.ts"
+                                                                                 ]
+                                                          }
+                                                      ],
+                             "runtime":  [
+                                             "Solidity",
+                                             "TypeScript/JavaScript",
+                                             "EVM"
+                                         ],
+                             "recommendation":  "WRAP",
+                             "reuse_recommendation":  "Use a published audited release rather than this development branch; review transaction authorization and deployment configuration.",
+                             "risk_notes":  [
+                                                "Wallet custody and transaction authorization are high risk; this development branch is not the audited release."
+                                            ],
+                             "source_review":  [
+                                                   "README.md",
+                                                   "package.json",
+                                                   "src/index.ts"
+                                               ]
+                         }
+                     ]
+}

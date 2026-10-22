@@ -10,24 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill.",
+  "upstream_url": "https://github.com/Jakeschincariol/arena-skill",
+  "description": "Agent skill and plugin for running structured head-to-head evaluations, managing tournament brackets and comparing candidate outputs with explicit rubrics and strategies.",
   "metadata": {
     "language": null,
     "license": "MIT",
     "archived": false,
     "pushed_at": "2026-09-27T13:20:07Z",
-    "github_description": "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill."
+    "github_description": "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill.",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "df07b8e518e10cdecd8cd7712d9958b6f396250e",
+  "current_commit": "df07b8e518e10cdecd8cd7712d9958b6f396250e",
+  "inspection_date": "2026-10-22T03:28:19.271874+00:00",
   "categories": [
-    "category:developer-tools",
-    "category:skills"
+    "category:skills",
+    "category:agent-workflows",
+    "category:ai-evaluation"
   ],
-  "operational_category": "operational:01",
+  "operational_category": "operational:23",
   "secondary_operational_categories": [
     "operational:24"
   ],
@@ -37,7 +39,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "EXTRACT",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -45,13 +47,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:08.799104+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.395282+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -61,5 +64,110 @@
     ],
     "updated_at": "2026-10-12T19:04:27.063645+00:00",
     "purpose_established": true
+  },
+  "tree_files": 10,
+  "files_read": 9,
+  "unread_source_files": 0,
+  "repository_intelligence": {
+    "purpose": "Agent skill and plugin for running structured head-to-head evaluations, managing tournament brackets and comparing candidate outputs with explicit rubrics and strategies.",
+    "reuse_recommendation": "Install for structured model or artifact comparisons; define task-specific rubrics and retain human oversight for consequential rankings.",
+    "inspection_scope": "Repository-level practical V1 summary from pinned README, manifests and tree evidence; no exhaustive asset splitting.",
+    "license_notes": "Review the pinned repository license and any model/provider terms used for evaluations.",
+    "runtime": [
+      "Markdown agent skill",
+      "Python",
+      "Claude plugin manifest"
+    ],
+    "keywords": [
+      "agent skill",
+      "AI evaluation",
+      "tournament bracket",
+      "pairwise comparison",
+      "rubrics",
+      "candidate ranking"
+    ],
+    "risk_notes": [
+      "Confirm license, dependency terms and external-service permissions before adoption."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Arena skill and bracket tooling",
+        "purpose": "Packages evaluation instructions with bracket-management logic, rubric and strategy configuration.",
+        "evidence_paths": [
+          "skills/arena/SKILL.md",
+          "skills/arena/bracket.py"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:30:30.541229+00:00",
+    "inspected_commit": "df07b8e518e10cdecd8cd7712d9958b6f396250e",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "87cb73816ffffe880795db8bea364eaa38a71538",
+        "value": "https://github.com/jamesrwatsonx-creator/arena-skill/blob/df07b8e518e10cdecd8cd7712d9958b6f396250e/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/arena/SKILL.md",
+        "blob_sha": "559957505a5688e4fa6569cab35d8d63f73a67a7",
+        "value": "https://github.com/jamesrwatsonx-creator/arena-skill/blob/df07b8e518e10cdecd8cd7712d9958b6f396250e/skills/arena/SKILL.md"
+      },
+      {
+        "type": "source_review",
+        "path": "skills/arena/bracket.py",
+        "blob_sha": "e61810e7544cbc67c6e7c7d3008a8a24a7bea50f",
+        "value": "https://github.com/jamesrwatsonx-creator/arena-skill/blob/df07b8e518e10cdecd8cd7712d9958b6f396250e/skills/arena/bracket.py"
+      }
+    ],
+    "unavailable_sources": [
+      "skills/arena/rubric.md"
+    ],
+    "asset_presence": {
+      "skills": "PRESENT",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "NOT_OBSERVED",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "PRESENT",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "NOT_OBSERVED",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Tournament-style candidate evaluation",
+        "description": "Organizes pairwise or bracketed comparisons of candidate responses or artifacts.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:tournament-style-candidate-evaluation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Rubric-guided judging",
+        "description": "Uses configurable criteria and strategies to make evaluations more consistent and auditable.",
+        "scope": "INSTRUCTIONS",
+        "id": "cluster:rubric-guided-judging",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }

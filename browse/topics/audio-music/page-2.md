@@ -1,11 +1,9 @@
 # Audio & Music — page 2
 
-180 catalog entries · Sorted alphabetically by name · Page 2 of 2.
+179 catalog entries · Sorted alphabetically by name · Page 2 of 2.
 
 [Category home](README.md) · [All browse sections](../../README.md) · [All repositories](../../repositories/README.md)
 
-- [speak_text](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A4c907d53b33138bae505544c.json) — POST /api/audio/speak - Synthesize speech and return audio as base64 data URL.<br>
-  Source: [jamesrwatsonx-creator/hermes-agent](https://github.com/jamesrwatsonx-creator/hermes-agent) · [hermes_cli/web_server.py](https://github.com/jamesrwatsonx-creator/hermes-agent/blob/261a4efb90d7dbe4e71786861858f721b4ab730c/hermes_cli/web_server.py#L5232) · API · VERIFIED · PINNED_SOURCE · AI agents, Agent frameworks
 - [Speaker Encoder](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3A84a85ef009b58c2f5d10cee8.json) — GE2E-style recurrent speaker encoder that converts a short reference utterance into a normalized voice embedding.<br>
   Source: [jamesrwatsonx-creator/Real-Time-Voice-Cloning](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning) · [encoder/model.py](https://github.com/jamesrwatsonx-creator/Real-Time-Voice-Cloning/blob/890f3a03187195b9829db2079b75c2ba2ab0405c/encoder/model.py#L12) · MODEL · VERIFIED · PINNED_SOURCE · Machine-learning models, Generative AI, Creative tools
 - [specializations/ai-agents-conversational/multi-modal-agent](https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence/blob/recovery/v1-rebuild/registry/entities/entity%3Ab10ff4d17bb7bd1e6456f528.json) — Multi-Modal Agent Development - Process for building agents that can process and generate multiple modalities including text, images, audio, and video with unified reasoning capabilities.<br>

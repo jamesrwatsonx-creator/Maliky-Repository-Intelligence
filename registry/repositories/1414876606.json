@@ -10,23 +10,26 @@
   "affiliation": "FORKED_UNDER_USER_ACCOUNT",
   "fork": true,
   "default_branch": "main",
-  "upstream_url": null,
-  "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+  "upstream_url": "https://github.com/storytold/artcraft",
+  "description": "Desktop creative IDE for interactive AI image and video generation, combining visual 2D composition, 3D scene staging, model selection and repeatable generation controls.",
   "metadata": {
     "language": null,
     "license": "Apache-2.0",
     "archived": false,
     "pushed_at": "2026-10-11T13:47:59Z",
-    "github_description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+    "github_description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+    "description_source": "pinned_semantic_review"
   },
-  "state": "DISCOVERED",
-  "inspected_commit": null,
-  "current_commit": null,
-  "inspection_date": null,
+  "state": "COMPLETE",
+  "inspected_commit": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+  "current_commit": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+  "inspection_date": "2026-10-22T03:28:07.562005+00:00",
   "categories": [
-    "category:general-other"
+    "category:creative-tools",
+    "category:generative-ai",
+    "category:media-publishing"
   ],
-  "operational_category": "operational:25",
+  "operational_category": "operational:09",
   "secondary_operational_categories": [],
   "capabilities": [],
   "studios": [],
@@ -34,7 +37,7 @@
   "scores": {},
   "tier": null,
   "tier_reason": null,
-  "recommendation": "NEEDS DEEPER REVIEW",
+  "recommendation": "REFERENCE",
   "entity_census": {},
   "deep_review": {
     "completed": false,
@@ -42,13 +45,14 @@
     "evidence": []
   },
   "phases": {
-    "structure": false,
+    "structure": true,
     "entity_extraction": false,
-    "capability_analysis": false,
+    "capability_analysis": true,
     "deep_review": false,
-    "validation": false
+    "validation": true,
+    "repository_summary": true
   },
-  "visibility_verified_at": "2026-10-22T02:59:08.806105+00:00",
+  "visibility_verified_at": "2026-10-22T03:32:22.401839+00:00",
   "catalog_metadata": {
     "status": "DISCOVERABLE",
     "classification": "LIGHTWEIGHT_METADATA",
@@ -58,5 +62,130 @@
     ],
     "updated_at": "2026-10-12T19:04:27.064484+00:00",
     "purpose_established": true
+  },
+  "tree_files": 5814,
+  "files_read": 10,
+  "unread_source_files": 5463,
+  "repository_intelligence": {
+    "purpose": "Desktop creative IDE for interactive AI image and video generation, combining visual 2D composition, 3D scene staging, model selection and repeatable generation controls.",
+    "reuse_recommendation": "Use as a reference for a visual AI-media authoring product; reuse provider integration patterns only after checking service terms, credentials and component-level licenses.",
+    "inspection_scope": "Repository-level practical V1 summary from pinned README, manifests and tree evidence; no exhaustive asset splitting.",
+    "license_notes": "Repository includes Apache-2.0 and MIT license files; verify which applies to each component and third-party model/service terms.",
+    "runtime": [
+      "Rust",
+      "TypeScript",
+      "desktop application",
+      "web frontend"
+    ],
+    "keywords": [
+      "AI image generation",
+      "AI video",
+      "creative IDE",
+      "2D composition",
+      "3D scene staging",
+      "Rust",
+      "TypeScript",
+      "model integrations"
+    ],
+    "risk_notes": [
+      "Confirm license, dependency terms and external-service permissions before adoption."
+    ],
+    "important_subsystems": [
+      {
+        "name": "Desktop creative application and frontend",
+        "purpose": "Provides the visual authoring environment and reusable creative UI surfaces.",
+        "evidence_paths": [
+          "README.md",
+          "Cargo.toml",
+          "frontend/package.json"
+        ]
+      },
+      {
+        "name": "Generation provider clients and router",
+        "purpose": "Integrates external image/video generation services and routes generation requests.",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "policy": "REPOSITORY_CLUSTERS_V1",
+    "status": "COMPLETE",
+    "reviewed_at": "2026-10-22T03:30:30.090394+00:00",
+    "inspected_commit": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+    "source_evidence": [
+      {
+        "type": "source_review",
+        "path": "README.md",
+        "blob_sha": "26fe9590761d4bf763efd25b9daf3918c8dd12dc",
+        "value": "https://github.com/jamesrwatsonx-creator/artcraft/blob/d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373/README.md"
+      },
+      {
+        "type": "source_review",
+        "path": "Cargo.toml",
+        "blob_sha": "0d33a2f3b06a4ad4ea78888982454600e5067b1f",
+        "value": "https://github.com/jamesrwatsonx-creator/artcraft/blob/d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373/Cargo.toml"
+      },
+      {
+        "type": "source_review",
+        "path": "frontend/package.json",
+        "blob_sha": "b5a927f25fd9541e59ebf191f21dce8cbaa1b797",
+        "value": "https://github.com/jamesrwatsonx-creator/artcraft/blob/d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373/frontend/package.json"
+      }
+    ],
+    "unavailable_sources": [
+      "crates/api_clients/artcraft/artcraft_router/Cargo.toml"
+    ],
+    "asset_presence": {
+      "skills": "NOT_OBSERVED",
+      "mcp": "NOT_OBSERVED",
+      "tools_plugins": "PRESENT",
+      "agents_frameworks": "NOT_OBSERVED",
+      "ui_design": "NOT_OBSERVED",
+      "apis_sdks_services": "PRESENT",
+      "models": "NOT_OBSERVED",
+      "prompts_workflows": "NOT_OBSERVED",
+      "browser_computer_use": "NOT_OBSERVED",
+      "voice_audio": "NOT_OBSERVED",
+      "vision_ocr": "PRESENT",
+      "data_database_search": "NOT_OBSERVED",
+      "infrastructure_deployment": "NOT_OBSERVED",
+      "business_media_other": "NOT_OBSERVED"
+    },
+    "capability_clusters": [
+      {
+        "name": "Interactive image and video creation",
+        "description": "Combines prompting and visual controls to create and refine AI-generated images and video.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:interactive-image-and-video-creation",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "2D and 3D scene composition",
+        "description": "Supports visual composition and staging of scenes, actors, environments and camera placement before generation.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:2d-and-3d-scene-composition",
+        "evidence_paths": [
+          "README.md"
+        ]
+      },
+      {
+        "name": "Model and provider integrations",
+        "description": "Connects multiple generation providers through API clients and routing components.",
+        "scope": "IMPLEMENTATION",
+        "id": "cluster:model-and-provider-integrations",
+        "evidence_paths": [
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "completion_scope": "REPOSITORY_CLUSTERS_V1",
+  "next_phase": "COMPLETE",
+  "detailed_inspection_at_summary": {
+    "state": "DISCOVERED",
+    "next_phase": null,
+    "review_reason": null
   }
 }
