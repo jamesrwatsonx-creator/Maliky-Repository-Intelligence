@@ -35,3 +35,7 @@ When a valid repository identity is introduced with language such as "forked",
 ## Optional public external discovery
 
 When owned Maliky evidence does not establish a requested capability, the read-only external discovery adapter may consult Every Awesome Repo **only on explicit user-requested or agent-initiated opt-in**, using `python scripts/search_with_discovery.py "capabilities" --external`. Search owned assets first; preserve source evidence and review statuses. The external results remain unverified, unowned references and **must never be promoted, cloned, installed, or inserted into this canonical registry as a consequence of search**. No private identities or user queries are sent to the external catalog: only a fixed public JSON document is retrieved and searched locally. Details in `docs/EXTERNAL-DISCOVERY.md`.
+
+### Individual external tool candidates
+
+When building an application, external collection-level search may be supplemented using `python scripts/search_with_discovery.py "capability" --external-tools` or `--external --external-tools` for both collection and child-tool leads. Use Maliky owned-asset results first. Pinned collection line evidence proves only that an item was listed; `UPSTREAM_DOCUMENTED_NOT_TESTED` proves that a README statement was observed, **not** that runtime capability, permission, production readiness, license suitability or security is verified. Never write external candidates into owned registry as a result of search. Every Awesome Repo can be searched independently. See `docs/EXTERNAL-DISCOVERY.md`.
