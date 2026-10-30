@@ -42,3 +42,14 @@ For a new idea, first search the catalog for each required capability. Pass the 
 ## Optional public external discovery (separate from owned registry)
 
 For an app idea, search owned, evidence-aware Maliky records first. Then use `python scripts/search_with_discovery.py "voice assistant booking" --external` to include a **separate** `external` array of unverified, external Awesome-list suggestions. This fetches a fixed, public Every Awesome Repo JSON index, searches locally, and does not change owned records or send the query/private source data outside. Without `--external`, only owned results are returned. `--external-catalog-file` provides an offline fixture. See [read-only external discovery](EXTERNAL-DISCOVERY.md) for trust, usage and limitations. Never treat an external list as a verified provider or ingest it automatically.
+
+### Individual tool search with evidence
+
+The independently maintained Every Awesome Repo project additionally publishes individual tools and data sources referenced in curated lists. To combine owned search with individual external candidate results, run:
+
+```bash
+python scripts/search_with_discovery.py "realtime data geospatial" --external-tools
+python scripts/search_with_discovery.py "voice booking" --external --external-tools
+```
+
+The response has distinct `owned`, `external` (collections), and `external_tools` (individual projects) arrays. External findings preserve pinned list evidence, optional pinned upstream README evidence, and explicit **not tested** statuses. The remote index is fetched read-only; queries and private owned metadata are not sent to it. See [external discovery](EXTERNAL-DISCOVERY.md) for evidence requirements and limitations.

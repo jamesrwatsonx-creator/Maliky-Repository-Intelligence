@@ -52,3 +52,20 @@ python -m unittest discover -s tests -p "test_external_discovery.py" -v
 ## Failure handling and scope
 
 When the external catalog is unreachable, invalid or has a changed schema, owned results are returned as usual and `external_error` explains the failure. No changes are made to either repository. The adapter is a small deterministic, lexical discovery CLI—not a hosted search API, plugin, MCP server or full semantic index.
+
+## Individual tool evidence (optional second external layer)
+
+Every Awesome Repo now separately publishes an individually indexed tool catalog. It is completely usable on its own, including for a data-only application. Maliky can *optionally* consume that read-only index without changing its owned repository/capability registry.
+
+```bash
+python scripts/search_with_discovery.py "real time transit data" --external-tools
+python scripts/search_with_discovery.py "spatial database" --external --external-tools
+```
+
+Results have three separate namespaces: `owned` (Maliky source evidence), `external` (Awesome collections), and `external_tools` (individual candidates linked inside collections). Errors from external requests remain nonfatal to the owned search, exposed as `external_error` or `external_tools_error`.
+
+Each tool result retains the pinned collection line evidence and, when obtained, a pinned literal upstream README statement. `LISTED_ONLY` means **only curated-list inclusion**. `UPSTREAM_DOCUMENTED_NOT_TESTED` means **upstream documentation observed**, not that APIs or deployed behavior were tested, nor that a project has been audited or licensed for your use.
+
+The adapter fetches public `data/tools.json` and matches your query locally. No query, private repo name or owned record is transmitted to Every Awesome Repo. No external records are inserted into Maliky's registry. Offline mode: `--external-tools-file /path/to/tools.json`.
+
+To extend child-tool coverage, work inside Every Awesome Repo with its independent `scripts/index_tools.py` and `scripts/search_tools.py`. Maliky just reads the published index when requested.

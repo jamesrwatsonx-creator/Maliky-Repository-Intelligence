@@ -1,0 +1,45 @@
+name: Validate external individual-tool evidence adapter
+
+on:
+  push:
+    branches: [feature/external-tool-evidence-search, main]
+    paths:
+      - "scripts/external_tools.py"
+      - "scripts/search_with_discovery.py"
+      - "tests/test_external_tools.py"
+      - ".github/workflows/external-tool-evidence.yml"
+  pull_request:
+    paths:
+      - "scripts/external_tools.py"
+      - "scripts/search_with_discovery.py"
+      - "tests/test_external_tools.py"
+      - ".github/workflows/external-tool-evidence.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test original read-only collection adapter
+        run: python -m unittest discover -s tests -p "test_external_discovery.py" -v
+      - name: Test individual tool adapter and isolation
+        run: python -m unittest discover -s tests -p "test_external_tools.py" -v
+      - name: Optional live indexed-tool fetch (non-blocking)
+        continue-on-error: true
+        run: |
+          python scripts/search_with_discovery.py "geospatial database" --external-tools --tools-limit 5 > /tmp/external-tools.json
+          python - <<'PY'
+          import json
+          d=json.load(open('/tmp/external-tools.json',encoding='utf-8'))
+          if d['external_tools_error']:
+              raise RuntimeError(d['external_tools_error'])
+          assert d['external_tools'], 'No external individual tools returned'
+          print('Individual tools:',len(d['external_tools']))
+          PY

@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 import external_discovery
+import external_tools
 import search_catalog as maliky_search
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,10 +25,15 @@ def search_both(
     external_catalog: str | Path | None = None,
     limit: int = 20,
     external_limit: int = 20,
+    external_tools_enabled: bool = False,
+    tools_catalog: str | Path | None = None,
+    tools_limit: int = 20,
 ) -> dict:
     """Return separate owned and external result groups with explicit provenance."""
     if external_catalog is not None:
         external = True
+    if tools_catalog is not None:
+        external_tools_enabled = True
     if owned_catalog is None:
         owned_catalog = maliky_search.CATALOG
     if not Path(owned_catalog).is_file():
@@ -53,19 +59,31 @@ def search_both(
             )
         except external_discovery.ExternalCatalogError as exc:
             external_error = str(exc)
+    tool_matches = []
+    tools_error = None
+    if external_tools_enabled:
+        try:
+            candidates = external_tools.load(tools_catalog)
+            tool_matches = external_tools.search(candidates, query, limit=tools_limit)
+        except external_tools.ToolIndexError as exc:
+            tools_error = str(exc)
     return {
         "query": query,
         "sources": {
             "owned": "Maliky public catalog (read only)",
             "external": external_discovery.SOURCE_ID if external else None,
+            "external_tools": external_tools.SOURCE if external_tools_enabled else None,
         },
         "owned": owned,
         "external": external_matches,
         "external_error": external_error,
+        "external_tools": tool_matches,
+        "external_tools_error": tools_error,
         "disclaimer": (
             "Owned records retain their Maliky evidence status. External entries "
             "are unverified curated-list leads, not owned, installed or vetted "
-            "tools. Inspect upstream implementations and licenses before use."
+            "tools. Individual-tool list mentions and upstream README statements "
+            "are evidence leads, not runtime verification or deployment approval."
         ),
     }
 
@@ -75,6 +93,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("query", help="Application idea or desired capabilities")
     parser.add_argument("--external", action="store_true",
                         help="Opt in to fetch the public Every Awesome Repo catalog")
+    parser.add_argument("--external-tools", action="store_true",
+                        help="Opt in to external individual-tool evidence index")
+    parser.add_argument("--external-tools-file", type=Path,
+                        help="Local tool index fixture; also enables --external-tools")
+    parser.add_argument("--tools-limit", type=int, default=20,
+                        help="Maximum individual external tool candidates")
     parser.add_argument("--external-catalog-file", type=Path,
                         help="Use a local external JSON file (also enables external search)")
     parser.add_argument("--owned-catalog-file", type=Path,
@@ -83,8 +107,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--external-limit", type=int, default=20,
                         help="Maximum external suggestions")
     args = parser.parse_args(argv)
-    if args.limit < 1 or args.external_limit < 0:
-        parser.error("--limit must be positive and --external-limit nonnegative")
+    if args.limit < 1 or args.external_limit < 0 or args.tools_limit < 0:
+        parser.error("--limit must be positive and external limits nonnegative")
     try:
         result = search_both(
             args.query,
@@ -93,6 +117,9 @@ def main(argv: list[str] | None = None) -> int:
             external_catalog=args.external_catalog_file,
             limit=args.limit,
             external_limit=args.external_limit,
+            external_tools_enabled=args.external_tools,
+            tools_catalog=args.external_tools_file,
+            tools_limit=args.tools_limit,
         )
     except (FileNotFoundError, ValueError, json.JSONDecodeError) as exc:
         print(f"Search error: {exc}", file=sys.stderr)
