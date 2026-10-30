@@ -39,3 +39,7 @@ When owned Maliky evidence does not establish a requested capability, the read-o
 ### Individual external tool candidates
 
 When building an application, external collection-level search may be supplemented using `python scripts/search_with_discovery.py "capability" --external-tools` or `--external --external-tools` for both collection and child-tool leads. Use Maliky owned-asset results first. Pinned collection line evidence proves only that an item was listed; `UPSTREAM_DOCUMENTED_NOT_TESTED` proves that a README statement was observed, **not** that runtime capability, permission, production readiness, license suitability or security is verified. Never write external candidates into owned registry as a result of search. Every Awesome Repo can be searched independently. See `docs/EXTERNAL-DISCOVERY.md`.
+
+## Optional TypeSafe/JEV decisions
+
+Maliky's `scripts/jev_client.py` supports official `/v1/systemone` Choice, Score and Noul questions. It is **disabled during ordinary intake**: the legacy `DecisionEngine.decide` returns deferred decisions unless the caller explicitly opts into remote calls, labels a minimal public packet `safe_for_external=True`, and has `JEV_ENABLE=1` plus `TYPESAFE_API_KEY` in the runtime. Never send private repo identifiers, content, internal packets, or secrets to an external model. JEV suggestions are never source evidence or automatic verification. Use `scripts/jev_pilot.py` on public Every Awesome Repo data to evaluate routing before deployment; offline CI never makes paid calls. See `docs/JEV-DECISION-PILOT.md`.
