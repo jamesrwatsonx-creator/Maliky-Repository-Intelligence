@@ -31,3 +31,7 @@ Run python scripts/build_indexes.py after canonical edits, then validate again.
 Checkpoint logical batches and push without force; do not reset, clean or delete.
 When a valid repository identity is introduced with language such as "forked",
 "add", "intake" or "process", follow rules/new-repository-intake.md immediately.
+
+## Optional public external discovery
+
+When owned Maliky evidence does not establish a requested capability, the read-only external discovery adapter may consult Every Awesome Repo **only on explicit user-requested or agent-initiated opt-in**, using `python scripts/search_with_discovery.py "capabilities" --external`. Search owned assets first; preserve source evidence and review statuses. The external results remain unverified, unowned references and **must never be promoted, cloned, installed, or inserted into this canonical registry as a consequence of search**. No private identities or user queries are sent to the external catalog: only a fixed public JSON document is retrieved and searched locally. Details in `docs/EXTERNAL-DISCOVERY.md`.
