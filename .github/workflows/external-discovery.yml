@@ -1,0 +1,49 @@
+name: Read-only external discovery adapter
+
+on:
+  push:
+    branches:
+      - feature/read-only-awesome-discovery
+      - main
+    paths:
+      - "scripts/external_discovery.py"
+      - "scripts/search_with_discovery.py"
+      - "tests/test_external_discovery.py"
+      - ".github/workflows/external-discovery.yml"
+  pull_request:
+    paths:
+      - "scripts/external_discovery.py"
+      - "scripts/search_with_discovery.py"
+      - "tests/test_external_discovery.py"
+      - ".github/workflows/external-discovery.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit and CLI isolation tests (no external network)
+        run: python -m unittest discover -s tests -p "test_external_discovery.py" -v
+      - name: Optional live integration smoke test
+        continue-on-error: true
+        shell: bash
+        run: |
+          python scripts/search_with_discovery.py "voice assistant booking" --external --limit 3 --external-limit 3 > /tmp/discovery-live.json
+          python - <<'PY'
+          import json
+          with open('/tmp/discovery-live.json', encoding='utf-8') as f:
+              d = json.load(f)
+          print('owned results:', len(d['owned']), 'external results:', len(d['external']))
+          if d['external_error']:
+              raise RuntimeError(d['external_error'])
+          if not d['external']:
+              raise AssertionError('Live external catalog returned zero results')
+          print('Public catalog reachable; unverified references are separated')
+          PY
