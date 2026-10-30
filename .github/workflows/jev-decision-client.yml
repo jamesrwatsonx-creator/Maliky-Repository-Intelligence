@@ -1,0 +1,40 @@
+name: Validate optional JEV decision client
+
+on:
+  pull_request:
+    paths:
+      - "scripts/jev_client.py"
+      - "scripts/decision_engine.py"
+      - "scripts/jev_pilot.py"
+      - "tests/test_jev_client.py"
+      - ".github/workflows/jev-decision-client.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/jev_client.py"
+      - "scripts/decision_engine.py"
+      - "scripts/jev_pilot.py"
+      - "tests/test_jev_client.py"
+      - ".github/workflows/jev-decision-client.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    env:
+      JEV_ENABLE: "0"
+      TYPESAFE_API_KEY: ""
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: JEV schema, safety and offline pilot tests
+        run: python -m unittest discover -s tests -p "test_jev_client.py" -v
+      - name: Full repository test suite
+        run: python -m unittest discover -s tests -v
+      - name: Validate source registry and public safety
+        run: python scripts/validate_registry.py

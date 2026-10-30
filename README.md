@@ -306,3 +306,7 @@ Private repositories and sensitive data must not leak into a public registry, pu
 **The end goal:** One durable, searchable map of the capabilities already available across the GitHub collection, so the next product can begin with **what already exists** instead of starting from zero.
 
 **Find it. Understand it. Reuse it. Combine it. Build.**
+
+## Optional JEV decision routing (pilot)
+
+Maliky now includes an **explicitly opt-in** TypeSafe/JEV client for bounded software-classification and review-routing judgments. Ordinary source intake, the owned evidence registry, and Every-Awesome-Repo's standalone discovery remain fully functional **without** JEV or a paid key. API calls are disabled by default; model opinions cannot convert candidate evidence into verified capabilities. See [JEV pilot setup and evaluation safeguards](docs/JEV-DECISION-PILOT.md).
