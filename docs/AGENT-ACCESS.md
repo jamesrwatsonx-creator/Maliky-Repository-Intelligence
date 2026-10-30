@@ -38,3 +38,7 @@ For a new idea, first search the catalog for each required capability. Pass the 
 ## Future static website and catalog clients
 
 `docs/catalog/catalog.json` is the versioned public-data interface. `docs/catalog/index.html` provides a local and GitHub Pages-compatible search view over the same export. A future website should consume these generated records and continue to treat `registry/` as the source of truth.
+
+## Optional public external discovery (separate from owned registry)
+
+For an app idea, search owned, evidence-aware Maliky records first. Then use `python scripts/search_with_discovery.py "voice assistant booking" --external` to include a **separate** `external` array of unverified, external Awesome-list suggestions. This fetches a fixed, public Every Awesome Repo JSON index, searches locally, and does not change owned records or send the query/private source data outside. Without `--external`, only owned results are returned. `--external-catalog-file` provides an offline fixture. See [read-only external discovery](EXTERNAL-DISCOVERY.md) for trust, usage and limitations. Never treat an external list as a verified provider or ingest it automatically.
